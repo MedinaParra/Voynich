@@ -7,6 +7,9 @@ corpus and the model treats atom locations as exchangeable independent draws.
 """
 from __future__ import annotations
 
+import argparse
+import os
+
 from collections import Counter, defaultdict
 from hashlib import sha256
 import json
@@ -15,13 +18,24 @@ import re
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[2]
-CORPUS = ROOT / "corpus" / "voynich_sta.txt"
+CORPUS = Path(os.environ.get("VOYNICH_CORPUS", str(ROOT / "corpus" / "voynich_sta.txt")))
 ATOM_RE = re.compile(r"[A-Z][a-z0-9]*")
 CANDIDATES = ["X1", "X2", "Xd", "Xf", "Pc", "Ea", "Eb", "Ja"]
 EXCLUSIVE_CORE = ["X2", "Xd", "Xf", "Pc", "Ea"]
 
 
 def main() -> None:
+    global CORPUS
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument(
+        "--corpus", type=Path,
+        default=CORPUS,
+        help="Path to corpus/voynich_sta.txt from the source repository; can also be set with VOYNICH_CORPUS.",
+    )
+    args = parser.parse_args()
+    CORPUS = args.corpus.expanduser().resolve()
+    if not CORPUS.is_file():
+        parser.error(f"STA1 corpus not found: {CORPUS}. Pass --corpus or set VOYNICH_CORPUS.")
     all_lines = []
     with CORPUS.open(encoding="utf-8") as f:
         for line in f:
@@ -72,7 +86,7 @@ def main() -> None:
     p_share = n_f57v / n_all
     x2_k = global_counts["X2"]
     result = {
-        "source": str(CORPUS.relative_to(ROOT)),
+        "source": str(CORPUS),
         "sha256": sha256(CORPUS.read_bytes()).hexdigest(),
         "parser": "74_f57v_private_subalphabet.ipynb cells 2, 4, 6 (faithful port)",
         "corpus": {"parsed_lines": len(all_lines), "folios": folio_n,

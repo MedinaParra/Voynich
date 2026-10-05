@@ -8,6 +8,9 @@ Neither diagnostic is presented as a canonical replacement estimator.
 """
 from __future__ import annotations
 
+import argparse
+import os
+
 from collections import Counter, defaultdict
 from hashlib import sha256
 import json
@@ -17,7 +20,7 @@ from pathlib import Path
 
 
 ROOT = Path(__file__).resolve().parents[2]
-CORPUS_PATH = ROOT / "corpus" / "voynich_sta.txt"
+CORPUS_PATH = Path(os.environ.get("VOYNICH_CORPUS", str(ROOT / "corpus" / "voynich_sta.txt")))
 
 
 def parse_sta(path: Path) -> list[str]:
@@ -152,6 +155,17 @@ def entropy_plugin(corpus: list[str], order: int) -> float:
 
 
 def main() -> None:
+    global CORPUS_PATH
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument(
+        "--corpus", type=Path,
+        default=CORPUS_PATH,
+        help="Path to corpus/voynich_sta.txt from the source repository; can also be set with VOYNICH_CORPUS.",
+    )
+    args = parser.parse_args()
+    CORPUS_PATH = args.corpus.expanduser().resolve()
+    if not CORPUS_PATH.is_file():
+        parser.error(f"STA1 corpus not found: {CORPUS_PATH}. Pass --corpus or set VOYNICH_CORPUS.")
     raw = parse_sta(CORPUS_PATH)
     words: list[list[str]] = []
     current: list[str] = []
@@ -169,7 +183,7 @@ def main() -> None:
     flat = [token for token in raw if token != "."]
 
     result = {
-        "source": str(CORPUS_PATH.relative_to(ROOT)),
+        "source": str(CORPUS_PATH),
         "sha256": sha256(CORPUS_PATH.read_bytes()).hexdigest(),
         "parser": "03_entropy_spectral.ipynb cell 3, Parser 1 (faithful port)",
         "corpus_size": {"tokens_with_dot": len(raw), "glyphs": len(flat),
@@ -187,7 +201,10 @@ def main() -> None:
             "normalized_witten_bell_uniform_unseen_bits": entropy_wb_uniform_unseen(flat, order),
             "unsmoothed_plugin_diagnostic_bits": entropy_plugin(flat, order),
         }
+    out = ROOT / "research_gpt6" / "results" / "core_reproduction.json"
+    out.write_text(json.dumps(result, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
     print(json.dumps(result, indent=2, ensure_ascii=False))
+    print(f"\nSaved: {out.relative_to(ROOT)}")
 
 
 if __name__ == "__main__":

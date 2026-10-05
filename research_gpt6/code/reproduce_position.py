@@ -2,6 +2,9 @@
 """Reproduce positional MI and test it under within-word permutations."""
 from __future__ import annotations
 
+import argparse
+import os
+
 from collections import Counter, defaultdict
 from hashlib import sha256
 import json
@@ -12,7 +15,7 @@ from pathlib import Path
 import numpy as np
 
 ROOT = Path(__file__).resolve().parents[2]
-CORPUS = ROOT / "corpus" / "voynich_sta.txt"
+CORPUS = Path(os.environ.get("VOYNICH_CORPUS", str(ROOT / "corpus" / "voynich_sta.txt")))
 SEED = 20261005
 N_PERM = 999
 
@@ -75,6 +78,17 @@ def mutual_information(words: list[list[int]], singleton_mode: str = "onset") ->
 
 
 def main() -> None:
+    global CORPUS
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument(
+        "--corpus", type=Path,
+        default=CORPUS,
+        help="Path to corpus/voynich_sta.txt from the source repository; can also be set with VOYNICH_CORPUS.",
+    )
+    args = parser.parse_args()
+    CORPUS = args.corpus.expanduser().resolve()
+    if not CORPUS.is_file():
+        parser.error(f"STA1 corpus not found: {CORPUS}. Pass --corpus or set VOYNICH_CORPUS.")
     words_glyphs = parse_sta(CORPUS)
     vocab = {glyph: i for i, glyph in enumerate(sorted({g for w in words_glyphs for g in w}))}
     words = [[vocab[g] for g in w] for w in words_glyphs]
@@ -114,7 +128,7 @@ def main() -> None:
     null_arr = np.asarray(null)
     p_value = (1 + int(np.sum(null_arr >= observed))) / (N_PERM + 1)
     result = {
-        "source": str(CORPUS.relative_to(ROOT)),
+        "source": str(CORPUS),
         "sha256": sha256(CORPUS.read_bytes()).hexdigest(),
         "parser": "03_entropy_spectral.ipynb cells 3-4 (faithful port)",
         "position_definition": "first=onset, last=final, internal=middle; singleton is onset, as notebook 02 cell 21",
