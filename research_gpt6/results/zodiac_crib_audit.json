@@ -1,0 +1,40 @@
+{
+  "status": "PASS_SOURCE_AND_ARITHMETIC_AUDIT",
+  "scope": "Reads saved outputs and audits notebook formula; does not rerun Hebrew/Torah experiment.",
+  "source_notebook": "28_zodiac_cribs.ipynb",
+  "source_commit": "47e6a77dc9d5cd570c375f4aff710fa4a0567278",
+  "source_sha256": "38686c3aa394ee36d1ea75c45e72ee3e11caeb7aa2f22fe2245c2f73527c38f5",
+  "source_hash_matches_expected": true,
+  "stored_zodiac_crib_monte_carlo_p_values": [
+    0.6103,
+    0.8066,
+    0.7713
+  ],
+  "crib_rounds_significant_at_0_05": [
+    false,
+    false,
+    false
+  ],
+  "stored_hebrew_bigram_result": {
+    "valid_pairs": "9581/9582",
+    "reported_null_mean_percent": 75.3,
+    "reported_null_sd_percentage_points": 16.1,
+    "reported_z": 1.54,
+    "reported_percentile": 0.1,
+    "normal_approximation_upper_tail_from_z": 0.06178017671181189,
+    "normal_approximation_limit": "Diagnostic only; the permutation distribution and its dependence structure are not available here."
+  },
+  "percentile_expression": {
+    "buggy_expression_present": true,
+    "reported_expression": "np.mean([1 for x in null_rates if bigram_rate > x]) / len(null_rates) * 100",
+    "demonstration_percent_for_k_null_scores_below_observed_out_of_1000": {
+      "0": "NaN",
+      "1": 0.1,
+      "100": 0.1,
+      "1000": 0.1
+    },
+    "correct_form_for_count": "100 * sum(score < observed for score in null_rates) / len(null_rates)",
+    "finding": "The saved 0.1% display is not the empirical percentile: it is fixed at 0.1% whenever at least one null score is below observed."
+  },
+  "conclusion": "The notebook's three zodiac-crib searches report p=0.6103, 0.8066, 0.7713 (none significant). The separate bigram comparison has a percentile-reporting bug and cannot support the claimed 0.1% percentile. No plaintext mapping is validated by these outputs."
+}
