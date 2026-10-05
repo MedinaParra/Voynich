@@ -17,6 +17,7 @@ git clone https://github.com/cesarjz/Voynich.git /tmp/Voynich-source
 python research_gpt6/code/reproduce_core.py --corpus /tmp/Voynich-source/corpus/voynich_sta.txt
 python research_gpt6/code/reproduce_position.py --corpus /tmp/Voynich-source/corpus/voynich_sta.txt
 python research_gpt6/code/reproduce_f57v.py --corpus /tmp/Voynich-source/corpus/voynich_sta.txt
+python research_gpt6/code/heldout_prediction.py --corpus /tmp/Voynich-source/corpus/voynich_sta.txt
 ```
 
-También se puede definir `VOYNICH_CORPUS` en el entorno y omitir `--corpus`. El valor predeterminado solo funciona si el corpus existe en `corpus/voynich_sta.txt` bajo este repo. Las ejecuciones originales de esta auditoría finalizaron con código 0. Las salidas están en `research_gpt6/results/`. `reproduce_position.py` utiliza semilla fija 20261005 y 999 permutaciones.
+También se puede definir `VOYNICH_CORPUS` en el entorno y omitir `--corpus` en los tres scripts de reproducción. `heldout_prediction.py` requiere `--corpus`, hace validación cruzada en cinco pliegues agrupados por folio y usa semillas fijas 20261005/20261006; reporta entropía predictiva en folios reservados para unigramas, posición y n-gramas de orden 1–4. No implica significado ni desciframiento. El valor predeterminado de los scripts de reproducción solo funciona si el corpus existe en `corpus/voynich_sta.txt` bajo este repo. Las salidas están en `research_gpt6/results/`. `reproduce_position.py` utiliza semilla fija 20261005 y 999 permutaciones.

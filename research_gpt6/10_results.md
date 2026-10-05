@@ -9,6 +9,7 @@ La auditoría está fijada al commit `47e6a77dc9d5cd570c375f4aff710fa4a0567278` 
 - El parser STA1 reproduce 157,254 glifos, 37,087 palabras y vocabulario de 166.
 - H0–H4 publicados se reproducen desde los conteos con el parser señalado.
 - MI glifo–posición = 0.657811 bits y es grande frente al nulo de 999 permutaciones intra-palabra (p empírico = 0.001).
+- Predicción fuera de muestra por pliegues de folios: unigramas 4.1488, clase posicional 3.4981 y mejor n-grama (orden 2) 3.0051 bits/glifo; ganancia de orden 2 frente a unigramas 1.1437 bits/glifo (IC bootstrap por folio 95%: 1.1030–1.1826). Reproducible con `code/heldout_prediction.py`.
 - Los cinco símbolos candidatos se mantienen exclusivos de f57v en STA1 bajo parser general que incluye `fRos`.
 
 ### FAIL metodológico
@@ -22,9 +23,9 @@ La hipótesis de que la implementación de suavizado de notebook 03 proporciona 
 
 ## Lectura provisional
 
-**Sobrevive:** regularidad posicional en STA1 y concentración muy fuerte de cinco glifos en f57v, como descripciones del dataset.  
-**Refutado en su forma implementada:** normalización y garantía de monotonicidad del estimador H condicional de notebook 03.  
-**No resuelto:** origen lingüístico/codificado, significado, cinco categorías, cifrado, generador SilPart y desciframientos competidores. Los datos aquí no autorizan una traducción.
+**Sobrevive:** regularidad posicional y predictibilidad de secuencia que generalizan a folios reservados en STA1, junto con concentración muy fuerte de cinco glifos en f57v, como descripciones del dataset.
+**Refutado en su forma implementada:** normalización y garantía de monotonicidad del estimador H condicional de notebook 03.
+**No resuelto:** origen lingüístico/codificado, significado, cinco categorías semánticas, cifrado, generador SilPart y desciframientos competidores. La capacidad predictiva de glifos no equivale a recuperar el texto; los datos aquí no autorizan una traducción.
 
 ## Reproducción
 
@@ -34,6 +35,7 @@ Desde la raíz del checkout, con Python 3.12.14 y NumPy instalado:
 python research_gpt6/code/reproduce_core.py
 python research_gpt6/code/reproduce_position.py
 python research_gpt6/code/reproduce_f57v.py
+python research_gpt6/code/heldout_prediction.py --corpus /ruta/a/Voynich/corpus/voynich_sta.txt
 ```
 
 Los resultados completos están en `results/`; el resumen de código y dependencias está en `code/README.md`.

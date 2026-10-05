@@ -1,0 +1,106 @@
+{
+  "status": "PASS_DESCRIPTIVE_PREDICTION_TEST",
+  "interpretation_limit": "Predictive generalization of glyph regularities only; does not identify meaning, language, or decipherment.",
+  "corpus": "/workspace/scratch/5209d0299e7b/Voynich/corpus/voynich_sta.txt",
+  "corpus_sha256": "81c331b7d8e76761e27d350c3b37ccfbe192848e6c8a227bcb5d40fb29259b17",
+  "folios": 226,
+  "glyphs": 157254,
+  "vocabulary_size": 166,
+  "split": {
+    "method": "5-fold whole-folio cross-validation",
+    "seed": 20261005,
+    "per_fold": [
+      {
+        "fold": 0,
+        "train_folios": 180,
+        "test_folios": 46,
+        "test_glyphs": 42192
+      },
+      {
+        "fold": 1,
+        "train_folios": 181,
+        "test_folios": 45,
+        "test_glyphs": 27279
+      },
+      {
+        "fold": 2,
+        "train_folios": 181,
+        "test_folios": 45,
+        "test_glyphs": 33332
+      },
+      {
+        "fold": 3,
+        "train_folios": 181,
+        "test_folios": 45,
+        "test_glyphs": 26973
+      },
+      {
+        "fold": 4,
+        "train_folios": 181,
+        "test_folios": 45,
+        "test_glyphs": 27478
+      }
+    ]
+  },
+  "smoothing": {
+    "method": "hierarchical Dirichlet interpolation",
+    "alpha": 1.0,
+    "position_prior": "training unigram",
+    "orders": [
+      1,
+      2,
+      3,
+      4
+    ]
+  },
+  "uncertainty": {
+    "method": "bootstrap over out-of-fold folio-level losses",
+    "iterations": 2000,
+    "seed": 20261006
+  },
+  "models": {
+    "unigram": {
+      "cross_entropy_bits_per_glyph": 4.148792887810862
+    },
+    "position": {
+      "cross_entropy_bits_per_glyph": 3.4981455823249172,
+      "gain_vs_unigram_bits_per_glyph": 0.6506473054859456,
+      "folio_bootstrap_95pct_ci_gain": [
+        0.6314623453907079,
+        0.6680883736137397
+      ]
+    },
+    "ngram1": {
+      "cross_entropy_bits_per_glyph": 3.0556537705102134,
+      "gain_vs_unigram_bits_per_glyph": 1.0931391173006497,
+      "folio_bootstrap_95pct_ci_gain": [
+        1.0569467595258777,
+        1.1240538905614352
+      ]
+    },
+    "ngram2": {
+      "cross_entropy_bits_per_glyph": 3.005105853860122,
+      "gain_vs_unigram_bits_per_glyph": 1.143687033950741,
+      "folio_bootstrap_95pct_ci_gain": [
+        1.1029992148896957,
+        1.1826352994975988
+      ]
+    },
+    "ngram3": {
+      "cross_entropy_bits_per_glyph": 3.0669592188048282,
+      "gain_vs_unigram_bits_per_glyph": 1.0818336690060346,
+      "folio_bootstrap_95pct_ci_gain": [
+        1.03720474298144,
+        1.1217405466863202
+      ]
+    },
+    "ngram4": {
+      "cross_entropy_bits_per_glyph": 3.115937998061852,
+      "gain_vs_unigram_bits_per_glyph": 1.0328548897490109,
+      "folio_bootstrap_95pct_ci_gain": [
+        0.9846097955005984,
+        1.075743331049956
+      ]
+    }
+  }
+}
