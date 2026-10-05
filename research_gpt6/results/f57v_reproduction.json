@@ -1,0 +1,121 @@
+{
+  "source": "corpus/voynich_sta.txt",
+  "sha256": "81c331b7d8e76761e27d350c3b37ccfbe192848e6c8a227bcb5d40fb29259b17",
+  "parser": "74_f57v_private_subalphabet.ipynb cells 2, 4, 6 (faithful port)",
+  "corpus": {
+    "parsed_lines": 5225,
+    "folios": 226,
+    "atoms": 154973,
+    "f57v_atoms": 428,
+    "f57v_share": 0.0027617714053415755
+  },
+  "candidates": {
+    "X1": {
+      "global_count": 34,
+      "f57v_count": 7,
+      "share_in_f57v_pct": 20.58823529411765,
+      "enrichment_x": 74.54721000549752,
+      "folios_with_glyph": 18
+    },
+    "X2": {
+      "global_count": 10,
+      "f57v_count": 10,
+      "share_in_f57v_pct": 100.0,
+      "enrichment_x": 362.0864485981308,
+      "folios_with_glyph": 1
+    },
+    "Xd": {
+      "global_count": 5,
+      "f57v_count": 5,
+      "share_in_f57v_pct": 100.0,
+      "enrichment_x": 362.0864485981308,
+      "folios_with_glyph": 1
+    },
+    "Xf": {
+      "global_count": 4,
+      "f57v_count": 4,
+      "share_in_f57v_pct": 100.0,
+      "enrichment_x": 362.0864485981308,
+      "folios_with_glyph": 1
+    },
+    "Pc": {
+      "global_count": 5,
+      "f57v_count": 5,
+      "share_in_f57v_pct": 100.0,
+      "enrichment_x": 362.0864485981308,
+      "folios_with_glyph": 1
+    },
+    "Ea": {
+      "global_count": 1,
+      "f57v_count": 1,
+      "share_in_f57v_pct": 100.0,
+      "enrichment_x": 362.0864485981308,
+      "folios_with_glyph": 1
+    },
+    "Eb": {
+      "global_count": 6,
+      "f57v_count": 5,
+      "share_in_f57v_pct": 83.33333333333333,
+      "enrichment_x": 301.738707165109,
+      "folios_with_glyph": 2
+    },
+    "Ja": {
+      "global_count": 14,
+      "f57v_count": 4,
+      "share_in_f57v_pct": 28.571428571428573,
+      "enrichment_x": 103.45327102803738,
+      "folios_with_glyph": 11
+    }
+  },
+  "non_singleton_exclusive_glyph_folio_pairs": 8,
+  "all_exclusive_examples_first_30": [
+    {
+      "glyph": "Cl",
+      "folio": "f10r",
+      "count": 2
+    },
+    {
+      "glyph": "H",
+      "folio": "f115r",
+      "count": 2
+    },
+    {
+      "glyph": "Pc",
+      "folio": "f57v",
+      "count": 5
+    },
+    {
+      "glyph": "X2",
+      "folio": "f57v",
+      "count": 10
+    },
+    {
+      "glyph": "Xd",
+      "folio": "f57v",
+      "count": 5
+    },
+    {
+      "glyph": "Xf",
+      "folio": "f57v",
+      "count": 4
+    },
+    {
+      "glyph": "Ag",
+      "folio": "f69v",
+      "count": 2
+    },
+    {
+      "glyph": "Kk",
+      "folio": "f69v",
+      "count": 2
+    }
+  ],
+  "notebook_null_reproduction": {
+    "assumption": "Each occurrence is independently and uniformly assigned to corpus atoms, after selecting candidates/folio from this same dataset.",
+    "x2_p_unadjusted": 2.5815306594447885e-26,
+    "five_glyphs_k": 25,
+    "five_glyphs_p_unadjusted": 1.070762660796357e-64,
+    "status": "descriptive only; not a calibrated inferential p-value"
+  },
+  "selection_note": "Candidate glyphs and exceptional folio are identified from the same corpus. The reported p**k omits post-selection/multiplicity, dependence, section/quire effects and transcription uncertainty."
+}

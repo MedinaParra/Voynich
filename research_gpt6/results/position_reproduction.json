@@ -1,0 +1,26 @@
+{
+  "source": "corpus/voynich_sta.txt",
+  "sha256": "81c331b7d8e76761e27d350c3b37ccfbe192848e6c8a227bcb5d40fb29259b17",
+  "parser": "03_entropy_spectral.ipynb cells 3-4 (faithful port)",
+  "position_definition": "first=onset, last=final, internal=middle; singleton is onset, as notebook 02 cell 21",
+  "corpus": {
+    "words": 37087,
+    "glyphs": 157254,
+    "vocabulary": 166,
+    "singleton_words": 883
+  },
+  "observed_MI_bits": 0.6578108986209188,
+  "sensitivity_MI_bits": {
+    "exclude_singleton_words": 0.6633795915653488,
+    "singleton_as_own_class": 0.669988971804562
+  },
+  "within_word_permutation": {
+    "seed": 20261005,
+    "n_permutations": 999,
+    "null_mean": 0.007979820657054357,
+    "null_sd": 0.0003129106536809952,
+    "null_99pct": 0.008652312101233135,
+    "empirical_one_sided_p": 0.001
+  },
+  "interpretation_limit": "Tests whether glyph-position association exceeds random reorderings within the observed words; it does not establish linguistic or semantic function."
+}

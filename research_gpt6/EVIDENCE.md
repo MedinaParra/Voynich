@@ -1,0 +1,16 @@
+# EVIDENCE — registro de hipótesis y pruebas
+
+Convención: PASS = resultado reproducido; FAIL = afirmación metodológica contradicha; BLOCKED = obstáculo a ejecución; NOT_RUN = sin prueba. Las reproducciones son scripts autocontenidos que portan lógica concreta de notebooks y no equivalen a ejecutar los notebooks completos.
+
+| Hipótesis o afirmación | Prueba | Resultado | Estado | Evidencia | Interpretación |
+|---|---|---|---|---|---|
+| El checkout y corpus corresponden al repo fijado | Git commit + SHA-256 | `47e6a77dc9d5cd570c375f4aff710fa4a0567278`; corpus SHA `81c331…29259b17` | PASS | `00_audit.md`, `01_corpus_validation.md` | Identidad de fuente trazable |
+| El parser STA1 reproduce conteos de notebook 03 | `reproduce_core.py` | 157254 glifos, 37087 palabras, vocabulario 166 | PASS | `results/core_reproduction.json` | Confirmación de conteos/parser |
+| Notebook 03 implementa masa condicional normalizada | Suma de P(next|context) para cada contexto | Masa menor que 1, mínimos 0.9653–0.9740 en órdenes 1–4 | FAIL | `results/core_reproduction.json`; `02_statistics.md` | El estimador no es una distribución condicional normalizada como está escrito |
+| Notebook 03 garantiza monotonicidad H_N≤H_(N−1) | Reproducción H0–H4 y salida notebook | Curva sube en órdenes 1→2→3→4; notebook imprime violaciones N=2,3,4 | FAIL | `02_statistics.md` | El resultado empírico puede calcularse, pero garantía/documentación no concuerda con implementación |
+| MI glifo–posición coincide con cifra informada | Puerto de conteo; 999 permutaciones intra-palabra | 0.657811 bits; p empírico unilateral 0.001; seed 20261005 | PASS | `results/position_reproduction.json` | Asociación estadística; no atribuye significado |
+| Exclusividad STA1 de cinco glifos en f57v | Parser notebook 74 + contraste parser general | X2=10, Xd=5, Xf=4, Pc=5, Ea=1; conteos continúan solo en f57v con `fRos` incluido | PASS descriptivo | `results/f57v_reproduction.json`; `07_f57v.md` | No es test paleográfico; p publicados no están calibrados tras selección |
+| El f57v p-value publicado es evidencia inferencial calibrada | Nulo iid uniforme aplicado post-selección | No contempla selección, multiplicidad, dependencias, quire/sección ni incertidumbre | FAIL metodológico | `results/f57v_reproduction.json` | Los valores se reportan solo como aritmética descriptiva |
+| La MI posicional demuestra gramática de cinco categorías | Hipótesis de cinco slots | No se probó predicción de slots ni validación por folio retenido | NOT_RUN | `03_positional_grammar.md` | Asociación con posición no equivale a semántica |
+| SilPart supera generadores fuera de muestra | Reproducción con controles y búsqueda emparejada | No ejecutada | NOT_RUN | `04_visual_semantics.md`, `10_results.md` | Sin adjudicación |
+| El manuscrito queda descifrado / tiene significado recuperable | Prueba ciega preregistrada | No ejecutada | NOT_RUN | `08_semantic_anchors.md`, `09_blind_validation.md` | Pregunta abierta |

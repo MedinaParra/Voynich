@@ -1,0 +1,54 @@
+{
+  "source": "corpus/voynich_sta.txt",
+  "sha256": "81c331b7d8e76761e27d350c3b37ccfbe192848e6c8a227bcb5d40fb29259b17",
+  "parser": "03_entropy_spectral.ipynb cell 3, Parser 1 (faithful port)",
+  "corpus_size": {
+    "tokens_with_dot": 194341,
+    "glyphs": 157254,
+    "words": 37087,
+    "vocabulary": 166
+  },
+  "note": "N-grams intentionally concatenate across word separators, matching notebook cell 4.",
+  "orders": {
+    "0": {
+      "notebook_formula_bits": 4.1408476162569485,
+      "min_context_probability_mass": 1.0,
+      "max_context_probability_mass": 1.0,
+      "renormalized_diagnostic_bits": 4.1408476162569485,
+      "normalized_witten_bell_uniform_unseen_bits": 4.1408476162569485,
+      "unsmoothed_plugin_diagnostic_bits": 4.1408476162569485
+    },
+    "1": {
+      "notebook_formula_bits": 2.9608293343663803,
+      "min_context_probability_mass": 0.973954642097803,
+      "max_context_probability_mass": 0.9994523548740416,
+      "renormalized_diagnostic_bits": 2.9641878940617703,
+      "normalized_witten_bell_uniform_unseen_bits": 2.9847175798716306,
+      "unsmoothed_plugin_diagnostic_bits": 2.8886626512358347
+    },
+    "2": {
+      "notebook_formula_bits": 2.9898243881502897,
+      "min_context_probability_mass": 0.9720171006607073,
+      "max_context_probability_mass": 0.9997660545092993,
+      "renormalized_diagnostic_bits": 2.9972581459084227,
+      "normalized_witten_bell_uniform_unseen_bits": 3.0293668273550667,
+      "unsmoothed_plugin_diagnostic_bits": 2.665821161735024
+    },
+    "3": {
+      "notebook_formula_bits": 3.3165033632506615,
+      "min_context_probability_mass": 0.9653012048192772,
+      "max_context_probability_mass": 0.9999618728076864,
+      "renormalized_diagnostic_bits": 3.331267307035245,
+      "normalized_witten_bell_uniform_unseen_bits": 3.372860227962508,
+      "unsmoothed_plugin_diagnostic_bits": 2.429610898075423
+    },
+    "4": {
+      "notebook_formula_bits": 3.773890891647031,
+      "min_context_probability_mass": 0.9666357738646896,
+      "max_context_probability_mass": 0.9998863378040463,
+      "renormalized_diagnostic_bits": 3.794709813254266,
+      "normalized_witten_bell_uniform_unseen_bits": 3.835744765375404,
+      "unsmoothed_plugin_diagnostic_bits": 2.0061586946268966
+    }
+  }
+}
