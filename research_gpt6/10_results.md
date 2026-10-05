@@ -10,6 +10,7 @@ La auditoría está fijada al commit `47e6a77dc9d5cd570c375f4aff710fa4a0567278` 
 - H0–H4 publicados se reproducen desde los conteos con el parser señalado.
 - MI glifo–posición = 0.657811 bits y es grande frente al nulo de 999 permutaciones intra-palabra (p empírico = 0.001).
 - Predicción fuera de muestra por pliegues de folios: unigramas 4.1488, clase posicional 3.4981 y mejor n-grama (orden 2) 3.0051 bits/glifo; ganancia de orden 2 frente a unigramas 1.1437 bits/glifo (IC bootstrap por folio 95%: 1.1030–1.1826). Reproducible con `code/heldout_prediction.py`.
+- Control más estricto, dejando fuera un quire completo cada vez (18 grupos `$Q`): unigramas 4.1607 vs. orden 2 en 3.0374 bits/glifo; ganancia 1.1233 (IC bootstrap por quire 95%: 0.9351–1.2147). Tasa de glifos no vistos en el entrenamiento: 0.062%. Reproducible con `code/leave_one_quire_out.py`.
 - Los cinco símbolos candidatos se mantienen exclusivos de f57v en STA1 bajo parser general que incluye `fRos`.
 
 ### FAIL metodológico
@@ -23,7 +24,7 @@ La hipótesis de que la implementación de suavizado de notebook 03 proporciona 
 
 ## Lectura provisional
 
-**Sobrevive:** regularidad posicional y predictibilidad de secuencia que generalizan a folios reservados en STA1, junto con concentración muy fuerte de cinco glifos en f57v, como descripciones del dataset.
+**Sobrevive:** regularidad posicional y predictibilidad de secuencia que generalizan a folios y quires reservados en STA1, junto con concentración muy fuerte de cinco glifos en f57v, como descripciones del dataset.
 **Refutado en su forma implementada:** normalización y garantía de monotonicidad del estimador H condicional de notebook 03.
 **No resuelto:** origen lingüístico/codificado, significado, cinco categorías semánticas, cifrado, generador SilPart y desciframientos competidores. La capacidad predictiva de glifos no equivale a recuperar el texto; los datos aquí no autorizan una traducción.
 

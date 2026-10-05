@@ -1,0 +1,182 @@
+{
+  "status": "PASS_DESCRIPTIVE_PREDICTION_TEST",
+  "interpretation_limit": "Tests generalization across annotated quires in one transcription. Does not decode meanings, establish language, or test independent transcription accuracy.",
+  "corpus_sha256": "81c331b7d8e76761e27d350c3b37ccfbe192848e6c8a227bcb5d40fb29259b17",
+  "folios": 227,
+  "quires": 18,
+  "glyphs": 157254,
+  "vocabulary_size": 166,
+  "split": "leave-one-quire-out; each whole $Q group held out once",
+  "smoothing": {
+    "method": "hierarchical Dirichlet interpolation",
+    "alpha": 1.0,
+    "position_prior": "training unigram",
+    "orders": [
+      1,
+      2,
+      3,
+      4
+    ]
+  },
+  "uncertainty": {
+    "method": "bootstrap complete out-of-fold quire losses",
+    "iterations": 5000,
+    "seed": 20261007
+  },
+  "unseen_glyph_rate": 0.000616836455670444,
+  "heldout_groups": [
+    {
+      "quire": "A",
+      "folios": 16,
+      "glyphs": 5470,
+      "glyphs_unseen_in_training": 2
+    },
+    {
+      "quire": "B",
+      "folios": 14,
+      "glyphs": 3651,
+      "glyphs_unseen_in_training": 7
+    },
+    {
+      "quire": "C",
+      "folios": 16,
+      "glyphs": 5231,
+      "glyphs_unseen_in_training": 7
+    },
+    {
+      "quire": "D",
+      "folios": 16,
+      "glyphs": 4690,
+      "glyphs_unseen_in_training": 2
+    },
+    {
+      "quire": "E",
+      "folios": 16,
+      "glyphs": 5641,
+      "glyphs_unseen_in_training": 2
+    },
+    {
+      "quire": "F",
+      "folios": 16,
+      "glyphs": 6724,
+      "glyphs_unseen_in_training": 7
+    },
+    {
+      "quire": "G",
+      "folios": 16,
+      "glyphs": 5846,
+      "glyphs_unseen_in_training": 3
+    },
+    {
+      "quire": "H",
+      "folios": 8,
+      "glyphs": 6069,
+      "glyphs_unseen_in_training": 33
+    },
+    {
+      "quire": "I",
+      "folios": 10,
+      "glyphs": 4729,
+      "glyphs_unseen_in_training": 4
+    },
+    {
+      "quire": "J",
+      "folios": 6,
+      "glyphs": 3547,
+      "glyphs_unseen_in_training": 4
+    },
+    {
+      "quire": "K",
+      "folios": 8,
+      "glyphs": 4032,
+      "glyphs_unseen_in_training": 3
+    },
+    {
+      "quire": "L",
+      "folios": 2,
+      "glyphs": 890,
+      "glyphs_unseen_in_training": 0
+    },
+    {
+      "quire": "M",
+      "folios": 20,
+      "glyphs": 28911,
+      "glyphs_unseen_in_training": 2
+    },
+    {
+      "quire": "N",
+      "folios": 7,
+      "glyphs": 9830,
+      "glyphs_unseen_in_training": 2
+    },
+    {
+      "quire": "O",
+      "folios": 12,
+      "glyphs": 6047,
+      "glyphs_unseen_in_training": 5
+    },
+    {
+      "quire": "Q",
+      "folios": 10,
+      "glyphs": 3764,
+      "glyphs_unseen_in_training": 0
+    },
+    {
+      "quire": "S",
+      "folios": 10,
+      "glyphs": 6521,
+      "glyphs_unseen_in_training": 4
+    },
+    {
+      "quire": "T",
+      "folios": 24,
+      "glyphs": 45661,
+      "glyphs_unseen_in_training": 10
+    }
+  ],
+  "models": {
+    "unigram": {
+      "cross_entropy_bits_per_glyph": 4.16073467364577
+    },
+    "position": {
+      "cross_entropy_bits_per_glyph": 3.5216996976667088,
+      "gain_vs_unigram_bits_per_glyph": 0.6390349759790609,
+      "quire_bootstrap_95pct_ci_gain": [
+        0.5572997524628709,
+        0.6834591532069657
+      ]
+    },
+    "ngram1": {
+      "cross_entropy_bits_per_glyph": 3.0843458773980097,
+      "gain_vs_unigram_bits_per_glyph": 1.07638879624776,
+      "quire_bootstrap_95pct_ci_gain": [
+        0.9043511822726413,
+        1.157013103124293
+      ]
+    },
+    "ngram2": {
+      "cross_entropy_bits_per_glyph": 3.037432386035113,
+      "gain_vs_unigram_bits_per_glyph": 1.1233022876106566,
+      "quire_bootstrap_95pct_ci_gain": [
+        0.9350950360210997,
+        1.214714830449461
+      ]
+    },
+    "ngram3": {
+      "cross_entropy_bits_per_glyph": 3.10405496236896,
+      "gain_vs_unigram_bits_per_glyph": 1.0566797112768096,
+      "quire_bootstrap_95pct_ci_gain": [
+        0.8526960121975002,
+        1.1577345657217504
+      ]
+    },
+    "ngram4": {
+      "cross_entropy_bits_per_glyph": 3.1571040978875997,
+      "gain_vs_unigram_bits_per_glyph": 1.00363057575817,
+      "quire_bootstrap_95pct_ci_gain": [
+        0.7895769858121557,
+        1.1129161931200318
+      ]
+    }
+  }
+}
