@@ -5,3 +5,5 @@ Los JSON registran ejecuciones realizadas sobre `corpus/voynich_sta.txt` en el c
 `heldout_prediction.json` contiene la validación cruzada por folio; `leave_one_quire_out.json` retiene cada grupo `$Q` completo para probar generalización entre quires.
 
 `zodiac_crib_audit.json` verifica el hash, los resultados guardados y el error aritmético de percentil del notebook fuente 28. No reproduce la comparación con el corpus hebreo.
+
+`zodiac_crib_holdout.json` registra la prueba leave-one-sign-out del crib literal hebreo/arameo en etiquetas de ninfas.

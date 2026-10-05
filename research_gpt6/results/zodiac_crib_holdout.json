@@ -1,0 +1,110 @@
+{
+  "status": "PASS_HELDOUT_CRIB_TEST",
+  "interpretation_limit": "Tests only one-glyph-to-one-letter Hebrew/Aramaic name cribs in STA1 nymph labels; cannot rule out other cipher or semantic systems.",
+  "corpus_sha256": "81c331b7d8e76761e27d350c3b37ccfbe192848e6c8a227bcb5d40fb29259b17",
+  "sign_groups": 10,
+  "labels": 341,
+  "target_spellings": "Hebrew/Aramaic spellings recorded in source notebook 28",
+  "training_rule": "For each held-out sign, choose a compatible glyph-to-letter map from nymph labels on the other nine signs only; at most one letter per glyph, many glyphs may map to one letter.",
+  "test_rule": "Count held-out labels that fully decode to that held-out sign's Hebrew or Aramaic name.",
+  "null": {
+    "method": "permute sign-name assignment to page groups and rerun all 10 held-out folds",
+    "permutations": 1000,
+    "seed": 20261008,
+    "p_for_signs_with_exact_hit": 1.0,
+    "p_for_total_exact_label_hits": 1.0
+  },
+  "observed": {
+    "heldout_signs_with_hit": 0,
+    "exact_expected_name_hits": 0,
+    "mappable_label_fraction": 0.2932551319648094,
+    "per_sign": {
+      "Pisces": {
+        "expected_assignment": "Pisces",
+        "training_sign_groups_with_candidate_mapping": 4,
+        "training_mapping_size": 14,
+        "heldout_labels": 34,
+        "fully_mappable_heldout_labels": 9,
+        "exact_expected_name_hits": 0
+      },
+      "Aries": {
+        "expected_assignment": "Aries",
+        "training_sign_groups_with_candidate_mapping": 4,
+        "training_mapping_size": 14,
+        "heldout_labels": 42,
+        "fully_mappable_heldout_labels": 12,
+        "exact_expected_name_hits": 0
+      },
+      "Taurus": {
+        "expected_assignment": "Taurus",
+        "training_sign_groups_with_candidate_mapping": 4,
+        "training_mapping_size": 13,
+        "heldout_labels": 42,
+        "fully_mappable_heldout_labels": 12,
+        "exact_expected_name_hits": 0
+      },
+      "Gemini": {
+        "expected_assignment": "Gemini",
+        "training_sign_groups_with_candidate_mapping": 4,
+        "training_mapping_size": 14,
+        "heldout_labels": 30,
+        "fully_mappable_heldout_labels": 16,
+        "exact_expected_name_hits": 0
+      },
+      "Cancer": {
+        "expected_assignment": "Cancer",
+        "training_sign_groups_with_candidate_mapping": 4,
+        "training_mapping_size": 14,
+        "heldout_labels": 39,
+        "fully_mappable_heldout_labels": 13,
+        "exact_expected_name_hits": 0
+      },
+      "Leo": {
+        "expected_assignment": "Leo",
+        "training_sign_groups_with_candidate_mapping": 4,
+        "training_mapping_size": 14,
+        "heldout_labels": 34,
+        "fully_mappable_heldout_labels": 8,
+        "exact_expected_name_hits": 0
+      },
+      "Virgo": {
+        "expected_assignment": "Virgo",
+        "training_sign_groups_with_candidate_mapping": 4,
+        "training_mapping_size": 13,
+        "heldout_labels": 30,
+        "fully_mappable_heldout_labels": 8,
+        "exact_expected_name_hits": 0
+      },
+      "Libra": {
+        "expected_assignment": "Libra",
+        "training_sign_groups_with_candidate_mapping": 4,
+        "training_mapping_size": 14,
+        "heldout_labels": 30,
+        "fully_mappable_heldout_labels": 4,
+        "exact_expected_name_hits": 0
+      },
+      "Scorpio": {
+        "expected_assignment": "Scorpio",
+        "training_sign_groups_with_candidate_mapping": 4,
+        "training_mapping_size": 13,
+        "heldout_labels": 30,
+        "fully_mappable_heldout_labels": 10,
+        "exact_expected_name_hits": 0
+      },
+      "Sagittarius": {
+        "expected_assignment": "Sagittarius",
+        "training_sign_groups_with_candidate_mapping": 4,
+        "training_mapping_size": 15,
+        "heldout_labels": 30,
+        "fully_mappable_heldout_labels": 8,
+        "exact_expected_name_hits": 0
+      }
+    }
+  },
+  "null_summary": {
+    "mean_signs_with_hit": 0.002,
+    "max_signs_with_hit": 1,
+    "mean_exact_label_hits": 0.002,
+    "max_exact_label_hits": 1
+  }
+}
