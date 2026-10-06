@@ -8,6 +8,10 @@ Está bien establecido que las secuencias de glifos no son aleatorias simples y 
 
 En la rama de trabajo `research/gpt6-audit`, una n-grama de orden 2 predice mejor que unigramas folios y quires reservados (3,005 bits/glifo frente a 4,149–4,161). Esto demuestra regularidad predictiva local que generaliza, no lectura. El crib literal de nombres zodiacales hebreo/arameos retuvo un signo por pliegue y obtuvo 0/10 aciertos exactos, cobertura de 29,3% y p=1,0. Debilita esa versión literal concreta; no descarta otras codificaciones.
 
+
+
+**Actualización de 2026:** un preprint reciente cuestiona la equivalencia entre glifo/letra, token/palabra y espacio/separador. Ver [síntesis crítica y protocolo de réplica](13_actualizacion_2026.md), junto con la rectificación de una lectura latina y la reevaluación de una señal zodiacal.
+
 ## Criterio de desciframiento
 Una propuesta solo pasa a **CANDIDATE_DECIPHERMENT** cuando fija antes del test la transcripción, el mecanismo, idioma/ortografía y segmentación; produce lectura coherente en secciones distintas; predice pasajes reservados; supera controles y corrección por búsqueda múltiple; y otro equipo puede repetirla sin conocer las respuestas. Coincidencias de etiquetas elegidas tras mirar dibujos generan hipótesis, no las validan.
 
