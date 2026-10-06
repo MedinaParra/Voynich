@@ -1,4 +1,4 @@
-# 28. TimesFM 3.0 — experimento estructural ciego
+# 28. TimesFM 2.5 — experimento estructural ciego
 
 Fecha: 2026-10-06
 
@@ -8,8 +8,8 @@ Evaluar si un foundation model de series temporales detecta continuidad predicti
 
 ## Modelo fijado
 
-- Google Research TimesFM 3.0 PyTorch.
-- Checkpoint: `google/timesfm-3.0-pytorch`.
+- Google Research TimesFM 2.5, 200M, PyTorch (modelo realmente invocado por el harness).
+- Checkpoint: `google/timesfm-2.5-200m-pytorch`.
 - Uso: investigación no comercial.
 
 ## Prevención de leakage
@@ -44,3 +44,12 @@ TimesFM is informative only if it beats simple baselines on held-out units and a
 - Q13/Q20 physical-order tournament: NOT_RUN.
 
 No numerical result is claimed until an actual runtime executes the checkpoint and records the output.
+
+
+## Corrección de evaluación, 2026-10-06
+
+El código anterior elegía `winner` comparando dos variantes en el test final y buscaba superar una mejora anterior del 63%. Ese máximo no constituye una estimación independiente del rendimiento primario. Se elimina la selección por test y ese umbral: contexto y variante primaria se eligen exclusivamente en validación por MSE estandarizado mediante varianzas del bloque de entrenamiento anterior a validación. Se informan ambas variantes, identificando la primaria sin mirar sus errores finales. Se añade baseline de media y manejo de denominadores nulos.
+
+El horizonte final ya inspeccionado se etiqueta exploratorio; cambiar el código no vuelve nuevos esos datos. Un único horizonte de 16 líneas no demuestra robustez entre folios/cuadernos y ningún pronóstico de estos rasgos equivale a traducción.
+
+Verificaciones locales: compilación Python y comprobaciones de selección individual/ensemble, empate determinista, baseline cero y parser: PASS. Inferencia del checkpoint con el código corregido: NOT_RUN al publicar la corrección; se verificará en GitHub Actions. El informe inicial arriba es histórico y no certifica el modelo ejecutado en una revisión posterior.

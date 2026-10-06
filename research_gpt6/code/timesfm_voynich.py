@@ -43,32 +43,50 @@ def forecast(model,context,horizon):
  return np.asarray(point,dtype=np.float32).T
 
 def mse(a,b):return ((a-b)**2).mean(axis=0)
-def skill(m,n):return 1.-float(m.mean())/float(n.mean())
+def skill(m,n):
+ denominator=float(n.mean())
+ return 1.-float(m.mean())/denominator if denominator>0 else None
+
+def select_validation(val_preds,target,scales):
+ """Select context and variant without receiving final-test labels."""
+ losses={c:float((mse(p,target)/scales).mean()) for c,p in val_preds.items()}
+ ranked=sorted(losses,key=lambda c:(losses[c],c));best=ranked[0];top=ranked[:2]
+ variants={'best_context':val_preds[best],'top2_ensemble':np.mean([val_preds[c] for c in top],axis=0)}
+ scores={name:float((mse(p,target)/scales).mean()) for name,p in variants.items()}
+ primary=min(scores,key=lambda name:(scores[name],name))
+ return best,top,primary,scores
 
 def main():
  ap=argparse.ArgumentParser();ap.add_argument('--corpus',type=Path,required=True);ap.add_argument('--out',type=Path,required=True);ap.add_argument('--horizon',type=int,default=16);ap.add_argument('--contexts',default='128,256,512,1024');a=ap.parse_args()
  b=a.corpus.read_bytes()
  if git_blob_sha1(b)!=SOURCE_BLOB:raise SystemExit('Corpus blob mismatch')
  X=np.asarray([r['x'] for r in parse_lines(b.decode())],dtype=np.float32);h=a.horizon
+ if h<1:raise SystemExit('Horizon must be positive')
  if len(X)<2*h+128:raise SystemExit('Insufficient rows')
  contexts=[int(x) for x in a.contexts.split(',') if int(x)>0 and int(x)<=len(X)-2*h]
+ if not contexts:raise SystemExit('No valid contexts')
  maxc=max(contexts);model=load_model(maxc,h)
  # Validation immediately precedes the frozen final test; final h rows are never used for selection.
  val_target=X[-2*h:-h];val_base=X[:-2*h]
+ scales=np.maximum(np.var(val_base,axis=0),1e-8)
  candidates=[];val_preds={}
  for c in contexts:
   ctx=val_base[-c:];p=forecast(model,ctx,h);n=np.repeat(ctx[-1:,:],h,axis=0);mm=mse(p,val_target);nn=mse(n,val_target)
   candidates.append({'context':c,'val_mean_mse':float(mm.mean()),'val_naive_mean_mse':float(nn.mean()),'val_skill':skill(mm,nn)});val_preds[c]=p
- best=max(candidates,key=lambda z:z['val_skill'])['context']
+ best,top,primary,val_variant_scores=select_validation(val_preds,val_target,scales)
  # Also test an ensemble selected without test labels: mean of top two validation contexts.
- ranked=sorted(candidates,key=lambda z:z['val_skill'],reverse=True);top=[z['context'] for z in ranked[:min(2,len(ranked))]]
  test_target=X[-h:];test_base=X[:-h]
  test_preds={c:forecast(model,test_base[-c:],h) for c in set([best]+top)}
  variants={'best_context':test_preds[best],'top2_ensemble':np.mean([test_preds[c] for c in top],axis=0)}
  naive=np.repeat(test_base[-1:,:],h,axis=0);nm=mse(naive,test_target);evaluated={}
  for name,p in variants.items():
   mm=mse(p,test_target);evaluated[name]={'contexts':([best] if name=='best_context' else top),'mse_by_feature':dict(zip(FEATURES,map(float,mm))),'mean_mse':float(mm.mean()),'naive_mean_mse':float(nm.mean()),'relative_mse_reduction':skill(mm,nm),'features_beating_naive':sum(float(x)<float(y) for x,y in zip(mm,nm))}
- winner=max(evaluated,key=lambda k:evaluated[k]['relative_mse_reduction'])
- result={'classification':'TIMESFM_TUNED_STRUCTURAL_FORECAST_NOT_DECIPHERMENT','source_blob':SOURCE_BLOB,'rows':len(X),'features':FEATURES,'model':MODEL_ID,'status':'PASS_EXECUTED','horizon':h,'selection_rule':'context and ensemble selected using preceding validation horizon only; frozen final horizon untouched until final evaluation','validation_candidates':candidates,'test_naive_mse_by_feature':dict(zip(FEATURES,map(float,nm))),'test_variants':evaluated,'winner':winner,'best_relative_mse_reduction':evaluated[winner]['relative_mse_reduction'],'target_exceeds_previous_63pct':bool(evaluated[winner]['relative_mse_reduction']>0.63)}
+ for name,p in variants.items():
+  sm=mse(p,test_target)/scales
+  evaluated[name]['standardized_mean_mse']=float(sm.mean())
+  evaluated[name]['standardized_skill_vs_persistence']=skill(sm,nm/scales)
+ mean_pred=np.repeat(test_base.mean(axis=0,keepdims=True),h,axis=0)
+ mean_loss=mse(mean_pred,test_target)
+ result={'classification':'TIMESFM_EXPLORATORY_STRUCTURAL_FORECAST_NOT_DECIPHERMENT','source_blob':SOURCE_BLOB,'rows':len(X),'features':FEATURES,'model':MODEL_ID,'status':'PASS_EXECUTED','horizon':h,'selection_rule':'context and primary variant chosen only by validation standardized MSE; final test used for reporting, not selection','validation_candidates':candidates,'validation_variant_standardized_mse':val_variant_scores,'primary_variant':primary,'training_variance_scales':list(map(float,scales)),'test_naive_mse_by_feature':dict(zip(FEATURES,map(float,nm))),'test_mean_baseline_standardized_mse':float((mean_loss/scales).mean()),'test_variants':evaluated,'primary_standardized_skill_vs_persistence':evaluated[primary]['standardized_skill_vs_persistence'],'limitations':['Previously inspected final horizon is not a fresh confirmatory holdout.','One final horizon cannot establish cross-folio or cross-quire robustness.','Feature forecasts do not decode symbols or establish semantics.']}
  a.out.parent.mkdir(parents=True,exist_ok=True);a.out.write_text(json.dumps(result,indent=2)+'\n');print(json.dumps(result,indent=2))
 if __name__=='__main__':main()
