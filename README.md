@@ -11,3 +11,7 @@ La primera auditoría examina el repositorio público [cesarjz/Voynich](https://
 ## Estado
 
 Repositorio inicializado. La rama `main` contiene solamente este archivo de orientación; el trabajo de investigación se desarrolla en ramas separadas.
+
+## Investigación ampliada
+
+[Catálogo bibliográfico y cobertura](research_gpt6/14_catalogo_bibliografico.md): actas VOY2022 completas y nuevas fuentes de 2024–2026. [Experimento reproducible de dependencias de borde](research_gpt6/15_dependencias_de_borde.md): código, resultados y limitaciones; no se ha obtenido una traducción validada.

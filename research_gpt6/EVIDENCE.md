@@ -19,3 +19,7 @@ Convención: PASS = resultado reproducido; FAIL = afirmación metodológica cont
 | La MI posicional demuestra gramática de cinco categorías | Hipótesis de cinco slots | No se probó predicción de slots ni validación por folio retenido | NOT_RUN | `03_positional_grammar.md` | Asociación con posición no equivale a semántica |
 | SilPart supera generadores fuera de muestra | Reproducción con controles y búsqueda emparejada | No ejecutada | NOT_RUN | `04_visual_semantics.md`, `10_results.md` | Sin adjudicación |
 | El manuscrito queda descifrado / tiene significado recuperable | Prueba ciega preregistrada | No ejecutada | NOT_RUN | `08_semantic_anchors.md`, `09_blind_validation.md` | Pregunta abierta |
+
+## Contraste nuevo: bordes (6 de octubre de 2026)
+
+**PASS descriptivo exploratorio**: asociación final/inicio EVA frente a 199 permutaciones intra-tramo, bajo dos tratamientos de comas; exceso 0,19178/0,15722 bits; p=0,005, Holm familia 8=0,04. Fuente EVA exacta verificada por blob y SHA-256; Python 3.12.14, exit 0. Ver [método y límites](15_dependencias_de_borde.md), `code/boundary_dependence.py` y `results/boundary_dependence.json`. No es réplica exacta ni evidencia semántica. Controles de lenguas/cifrados, segunda transcripción y validación por bloques: **NOT_RUN**. La cobertura previa Dickens requiere sensibilidad de parser para huecos de dibujo; no se recalculó aquí.

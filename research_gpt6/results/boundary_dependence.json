@@ -1,0 +1,132 @@
+{
+  "classification": "EXPLORATORY_NEW_ANALYSIS_NOT_EXACT_PAPER_REPLICATION",
+  "source_commit": "47e6a77dc9d5cd570c375f4aff710fa4a0567278",
+  "source_blob": "2a4533ab9bdfa85db9bad602d590978953055df1",
+  "source_sha256": "bf5b6d4ac1e3a51b1847a9c388318d609020441ccd56984c901c32b09beccafc",
+  "seed": 20261006,
+  "permutations": 199,
+  "environment": {
+    "python": "3.12.14"
+  },
+  "null": "independent Fisher-Yates permutation within each retained valid run; line composition and frequencies preserved",
+  "interpretation": "MI excess is an observed-minus-shuffle statistic, not a nonnegative estimator of true MI or a semantic measure.",
+  "glyph_warning": "EVA final/initial characters are transliteration characters, not established manuscript glyph units.",
+  "modes": {
+    "split": {
+      "paragraph_loci": 4130,
+      "retained_runs": 5503,
+      "physical_lines_with_clean_words": 4127,
+      "folios": 207,
+      "quire_metadata_groups": 16,
+      "tokens": 33935,
+      "types": 6532,
+      "rejected_token_chunks": 1134,
+      "pairs": 28432,
+      "hapax_type_fraction": 0.6680955296999388,
+      "tests": {
+        "200": {
+          "observed_mi_bits": 0.7283059826912107,
+          "shuffle_mean_bits": 0.6059802359435646,
+          "shuffle_sd_bits": 0.0035536018138251878,
+          "excess_bits": 0.12232574674764607,
+          "marginal_entropy_bits": 5.016881290263323,
+          "excess_fraction_of_marginal_entropy": 0.02438282663475689,
+          "p_one_sided_mc": 0.005,
+          "top_k_token_mass": 0.5692058346839546,
+          "p_holm_family_8": 0.04
+        },
+        "1000": {
+          "observed_mi_bits": 2.342730110380044,
+          "shuffle_mean_bits": 2.232201334353762,
+          "shuffle_sd_bits": 0.006347708906908542,
+          "excess_bits": 0.1105287760262823,
+          "marginal_entropy_bits": 7.511938548348986,
+          "excess_fraction_of_marginal_entropy": 0.014713748696809416,
+          "p_one_sided_mc": 0.005,
+          "top_k_token_mass": 0.7883601001915427,
+          "p_holm_family_8": 0.04
+        },
+        "2000": {
+          "observed_mi_bits": 3.286624453941998,
+          "shuffle_mean_bits": 3.2155610274606503,
+          "shuffle_sd_bits": 0.007529399080032737,
+          "excess_bits": 0.07106342648134767,
+          "marginal_entropy_bits": 8.434519284218782,
+          "excess_fraction_of_marginal_entropy": 0.008425308436286262,
+          "p_one_sided_mc": 0.005,
+          "top_k_token_mass": 0.861499926329748,
+          "p_holm_family_8": 0.04
+        },
+        "edges": {
+          "observed_mi_bits": 0.20800324631515563,
+          "shuffle_mean_bits": 0.016222731076679046,
+          "shuffle_sd_bits": 0.0010616327878950516,
+          "excess_bits": 0.19178051523847658,
+          "marginal_entropy_bits": 3.4327483138223007,
+          "excess_fraction_of_marginal_entropy": 0.05586792205716142,
+          "p_one_sided_mc": 0.005,
+          "top_k_token_mass": null,
+          "p_holm_family_8": 0.04
+        }
+      }
+    },
+    "join": {
+      "paragraph_loci": 4130,
+      "retained_runs": 5467,
+      "physical_lines_with_clean_words": 4127,
+      "folios": 207,
+      "quire_metadata_groups": 16,
+      "tokens": 31477,
+      "types": 7462,
+      "rejected_token_chunks": 1129,
+      "pairs": 26010,
+      "hapax_type_fraction": 0.705038863575449,
+      "tests": {
+        "200": {
+          "observed_mi_bits": 0.682325568364685,
+          "shuffle_mean_bits": 0.5941339337407227,
+          "shuffle_sd_bits": 0.00361094908851835,
+          "excess_bits": 0.0881916346239624,
+          "marginal_entropy_bits": 4.715907061616625,
+          "excess_fraction_of_marginal_entropy": 0.018700884786675604,
+          "p_one_sided_mc": 0.005,
+          "top_k_token_mass": 0.5232391905200623,
+          "p_holm_family_8": 0.04
+        },
+        "1000": {
+          "observed_mi_bits": 2.2745972666812455,
+          "shuffle_mean_bits": 2.1986793719720583,
+          "shuffle_sd_bits": 0.007426213338267902,
+          "excess_bits": 0.0759178947091872,
+          "marginal_entropy_bits": 7.250828177956773,
+          "excess_fraction_of_marginal_entropy": 0.010470237722634916,
+          "p_one_sided_mc": 0.005,
+          "top_k_token_mass": 0.7416844044858151,
+          "p_holm_family_8": 0.04
+        },
+        "2000": {
+          "observed_mi_bits": 3.2770840970107225,
+          "shuffle_mean_bits": 3.2288210512028157,
+          "shuffle_sd_bits": 0.008053160695586072,
+          "excess_bits": 0.048263045807906746,
+          "marginal_entropy_bits": 8.257784891070848,
+          "excess_fraction_of_marginal_entropy": 0.005844551104751303,
+          "p_one_sided_mc": 0.005,
+          "top_k_token_mass": 0.8200908599930108,
+          "p_holm_family_8": 0.04
+        },
+        "edges": {
+          "observed_mi_bits": 0.17338305195411563,
+          "shuffle_mean_bits": 0.01616493897664692,
+          "shuffle_sd_bits": 0.0011281098905732555,
+          "excess_bits": 0.1572181129774687,
+          "marginal_entropy_bits": 3.3961700567402686,
+          "excess_fraction_of_marginal_entropy": 0.046292768133163124,
+          "p_one_sided_mc": 0.005,
+          "top_k_token_mass": null,
+          "p_holm_family_8": 0.04
+        }
+      }
+    }
+  }
+}

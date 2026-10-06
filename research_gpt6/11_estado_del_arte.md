@@ -88,3 +88,7 @@ Detalles, comandos y JSON existentes: `research_gpt6/10_results.md`, `EVIDENCE.m
 4. Comparar slot grammars, Naibbe, autocita y escritura sin sentido humano en un único benchmark por folio/quire retenido, con presupuesto de ajuste comparable.
 
 Sin predicción correcta del texto reservado, la conclusión vigente es **no descifrado**.
+
+
+## Ampliación y experimento del 6 de octubre de 2026
+La [ampliación bibliográfica](14_catalogo_bibliografico.md) completa los 16 artículos de VOY2022, añade estudios de estructura material y contexto histórico y declara los límites de acceso. La [prueba ejecutada de dependencia de bordes](15_dependencias_de_borde.md) incluye código y resultados. También señala sensibilidad del parser en cifras anteriores de cobertura Dickens. Ninguno de estos avances constituye una traducción.
