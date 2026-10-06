@@ -39,3 +39,11 @@ Convención: PASS = resultado reproducido; FAIL = afirmación metodológica cont
 - PROVISIONAL: dos etiquetas de LJS 419 leídas por una sola inspección visual por IA; dos nombres inciertos excluidos. Ninguna entrada validada para entrenamiento.
 - CANDIDATE: edición independiente Mamontov con Claude (2026), localizada y descargada para inspección. OCR y comentario moderno no admitidos como corpus histórico.
 - NOT RUN: comparación con transcripciones históricas depuradas; NOT SOLVED: equivalencias EVA→palabras. Véase informe 21.
+
+
+## 2026-10-06 — auditoría de extracción LJS 419
+
+- PASS (extractor): 171 bloques candidatos, 169 etiquetas OCR, 42 bloques con indicios de comentario inglés y 7 discrepancias de encabezamiento/imagen. Informe 22 y JSON con hashes/offsets.
+- PASS (3 comprobaciones sintéticas): límite ante traducción, discrepancia con imagen y alerta editorial; no certifican paleografía.
+- NOT VALIDATED: 0 bloques admitidos para entrenamiento; 6.472 tokens candidatos incluyen contaminación.
+- NOT RUN: identificación lingüística sobre estos bloques. NOT SOLVED: traducción del Voynich.
