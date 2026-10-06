@@ -23,3 +23,7 @@ Convención: PASS = resultado reproducido; FAIL = afirmación metodológica cont
 ## Contraste nuevo: bordes (6 de octubre de 2026)
 
 **PASS descriptivo exploratorio**: asociación final/inicio EVA frente a 199 permutaciones intra-tramo, bajo dos tratamientos de comas; exceso 0,19178/0,15722 bits; p=0,005, Holm familia 8=0,04. Fuente EVA exacta verificada por blob y SHA-256; Python 3.12.14, exit 0. Ver [método y límites](15_dependencias_de_borde.md), `code/boundary_dependence.py` y `results/boundary_dependence.json`. No es réplica exacta ni evidencia semántica. Controles de lenguas/cifrados, segunda transcripción y validación por bloques: **NOT_RUN**. La cobertura previa Dickens requiere sensibilidad de parser para huecos de dibujo; no se recalculó aquí.
+
+## Plan contextual: validación reservada
+
+**PASS predictivo**, no semántico: último carácter EVA mejora predicción del primer carácter siguiente frente a contexto de posición/cuaderno. Ganancia 0,106–0,172 bits/inicio, cuatro intervalos bootstrap con límite inferior positivo (dos separadores × dos reservas). 100 grupos de hoja/16 quires; Python 3.12.14, exit 0. Ver `16_plan_descifrado.md`, `17_resultado_plan_descifrado.md`, `code/contextual_link.py`, `results/contextual_link.json`. Identificación de idioma/mecanismo: **NOT_RUN**. Traducción defendible: **BLOCKED** por falta de correspondencia semántica validada.
