@@ -3,7 +3,7 @@ on:
   workflow_dispatch:
   push:
     branches: [experiment/wild-decipherment]
-    paths: ['research_gpt6/code/wild_candidate_dictionary.py','.github/workflows/wild-decipherment.yml']
+    paths: ['research_gpt6/code/wild_candidate_dictionary.py','research_gpt6/code/morpheme_role_audit.py','.github/workflows/wild-decipherment.yml']
 jobs:
   morphology-candidates:
     runs-on: ubuntu-latest
@@ -16,9 +16,11 @@ jobs:
         run: curl -L --fail -o voynich_eva.txt 'https://raw.githubusercontent.com/cesarjz/Voynich/47e6a77dc9d5cd570c375f4aff710fa4a0567278/corpus/voynich_eva.txt'
       - name: Generate candidate dictionary
         run: mkdir -p research_gpt6/results && python research_gpt6/code/wild_candidate_dictionary.py --corpus voynich_eva.txt --out research_gpt6/results/wild_candidate_dictionary.json --min-count 8
+      - name: Audit morpheme positional roles
+        run: python research_gpt6/code/morpheme_role_audit.py --corpus voynich_eva.txt --out research_gpt6/results/morpheme_role_audit.json --min 25
       - uses: actions/upload-artifact@v4
         if: always()
         with:
-          name: wild-candidate-dictionary
-          path: research_gpt6/results/wild_candidate_dictionary.json
+          name: wild-decipherment-results
+          path: research_gpt6/results/*.json
           if-no-files-found: warn
