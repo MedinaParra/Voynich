@@ -29,3 +29,10 @@ La inferencia anterior se conserva en `results/timesfm_previous_run_audit.json` 
 El último horizonte ya se había inspeccionado. Esta evaluación es exploratoria aunque se corrija la selección. Faltan ventanas reservadas por folio/cuaderno, baselines adicionales y controles de orden. TimesFM pronostica diez rasgos numéricos por línea; el script no asigna palabras a signos, no recupera claves y no traduce. Un mejor pronóstico no certifica significado ni identifica el mecanismo de escritura.
 
 Nota de integración: se detectó el commit concurrente `df245e8920511c6d217eb5e0a6453c4ffe54d613`, que añade un test rolling-origin y conserva la corrección de selección. Este registro se añade sobre ese commit sin modificar su código; resultados de esa extensión no evaluados aquí.
+
+
+## Resultado corregido verificado
+
+Run [37521477963](https://github.com/MedinaParra/Voynich/actions/runs/37521477963), commit `6c0d64cf697028a5dbd7c9ee420ca61e82ed09e1`: el job TimesFM terminó con éxito y su log contiene la inferencia corregida. La validación eligió `top2_ensemble`, contextos 256/1024. En el test final: MSE estandarizado 0,675706; reducción frente a persistencia 42,8869%; baseline de media 0,770476, con reducción relativa del modelo frente a esa media de aproximadamente 12,30%. No comparar directamente ese 42,89% estandarizado con el 62,05% bruto de la ejecución anterior.
+
+Resultado completo y procedencia en `results/timesfm_corrected_run_audit.json`. Esta ejecución certifica funcionamiento del harness corregido sobre ese horizonte, no robustez entre cuadernos, orden físico recuperado ni significado. El rolling-origin concurrente todavía no se evalúa en este registro.
