@@ -47,3 +47,10 @@ Convención: PASS = resultado reproducido; FAIL = afirmación metodológica cont
 - PASS (3 comprobaciones sintéticas): límite ante traducción, discrepancia con imagen y alerta editorial; no certifican paleografía.
 - NOT VALIDATED: 0 bloques admitidos para entrenamiento; 6.472 tokens candidatos incluyen contaminación.
 - NOT RUN: identificación lingüística sobre estos bloques. NOT SOLVED: traducción del Voynich.
+
+
+## 2026-10-06 — reconciliación documental de folios
+
+- PASS (cruce ejecutado): 171 bloques enlazados a 171 folios distintos del TEI primario; siete asociaciones de encabezamiento OCR corregidas explícitamente; cero duplicados; 27 folios numerados sin bloque candidato. Informe 23.
+- PASS (comprobaciones): cobertura, siete cambios, no duplicados, asociación 6r y rechazo de hash de fuente modificado.
+- NOT VALIDATED: contenido paleográfico, 0 transcripciones admitidas para entrenamiento. NOT SOLVED: traducción del Voynich.
