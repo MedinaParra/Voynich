@@ -1,0 +1,24 @@
+name: Voynich wild decipherment
+on:
+  workflow_dispatch:
+  push:
+    branches: [experiment/wild-decipherment]
+    paths: ['research_gpt6/code/wild_candidate_dictionary.py','.github/workflows/wild-decipherment.yml']
+jobs:
+  morphology-candidates:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: {python-version: '3.11'}
+      - name: Acquire frozen IVTFF corpus
+        run: curl -L --fail -o voynich_eva.txt 'https://raw.githubusercontent.com/cesarjz/Voynich/47e6a77dc9d5cd570c375f4aff710fa4a0567278/corpus/voynich_eva.txt'
+      - name: Generate candidate dictionary
+        run: mkdir -p research_gpt6/results && python research_gpt6/code/wild_candidate_dictionary.py --corpus voynich_eva.txt --out research_gpt6/results/wild_candidate_dictionary.json --min-count 8
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: wild-candidate-dictionary
+          path: research_gpt6/results/wild_candidate_dictionary.json
+          if-no-files-found: warn
