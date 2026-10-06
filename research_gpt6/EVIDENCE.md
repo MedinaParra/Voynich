@@ -31,3 +31,11 @@ Convención: PASS = resultado reproducido; FAIL = afirmación metodológica cont
 ## Filtro de mecanismos (6 de octubre de 2026)
 
 **PASS ejecución**: 5 controles × 2 segmentaciones × 50 muestras, 20 grupos de hoja reservados; fuentes latinas (8 archivos) verificadas por blob/SHA-256. Python 3.12.14, exit 0. **PASS invariancia** de seis métricas bajo sustitución monoalfabética fija. Generador sin semántica con enlace reproduce magnitud de MI/exceso de bordes en ambas segmentaciones, pero **FAIL de adecuación descriptiva conjunta** de las seis métricas para todos los controles. No es rechazo estadístico de familias; controles no igualan todas las propiedades ni quires. Idioma/clave: **NOT_RUN**; traducción: **BLOCKED** sin correspondencias semánticas. Ver `18_protocolo_mecanismos.md`, `19_resultados_mecanismos.md`, `code/mechanism_controls.py`, `results/mechanism_controls.json` y fuentes durables `data/latin_sources.json`.
+
+
+## 2026-10-06 — fuentes históricas y muestra paleográfica
+
+- PASS (adquisición/inventario): LJS 419 OPenn TEI: 0 elementos text, 615 graphic; Bellunensis IIIF: 331 lienzos. Código e inventario con hashes incorporados.
+- PROVISIONAL: dos etiquetas de LJS 419 leídas por una sola inspección visual por IA; dos nombres inciertos excluidos. Ninguna entrada validada para entrenamiento.
+- CANDIDATE: edición independiente Mamontov con Claude (2026), localizada y descargada para inspección. OCR y comentario moderno no admitidos como corpus histórico.
+- NOT RUN: comparación con transcripciones históricas depuradas; NOT SOLVED: equivalencias EVA→palabras. Véase informe 21.

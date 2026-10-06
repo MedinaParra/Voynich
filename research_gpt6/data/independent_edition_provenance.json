@@ -1,0 +1,22 @@
+{
+  "url": "https://archive.org/details/ljs-419-erbario-illuminated",
+  "title": "LJS 419 — Erbario: An Illustrated Herbal of the Veneto (15th c.)",
+  "claimed_authorship": "P. Mamontov with Claude (Anthropic), 2026, according to title page",
+  "claimed_revision_date": "04.07.2026 (as printed; date format not independently verified)",
+  "affiliation": "Edition states it is independent and not institutionally endorsed",
+  "retrieval_date": "2026-10-06",
+  "files": [
+    {
+      "file": "ljs419_independent_metadata.json",
+      "bytes": 7571,
+      "sha256": "1efad7dcf59365bbc1794b4e7d47593ad28e90be16bf9bc23c201fd0ed03f982"
+    },
+    {
+      "file": "ljs419_independent_ocr.txt",
+      "bytes": 390714,
+      "sha256": "b27ddc0900ce4cb846855cd220a2b1e217849105d26dfd5fd371d1db52fc1dca"
+    }
+  ],
+  "status": "Candidate reading aid; OCR contains modern commentary, translations and noisy text. Not admitted as historical corpus.",
+  "redistribution": "Full edition and OCR not republished here; source and hashes only."
+}

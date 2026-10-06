@@ -1,0 +1,48 @@
+{
+  "date": "2026-10-06",
+  "purpose": "Comparator palaeographic pilot; not Voynich transcription or translation",
+  "reader": "One AI visual inspection; no independent palaeographer validation",
+  "sampling": "Convenience sample, not representative",
+  "entries": [
+    {
+      "manuscript": "Penn LJS 419",
+      "folio": "1r",
+      "image_url": "https://openn.library.upenn.edu/Data/0001/ljs419/data/web/0265_0004_web.jpg",
+      "image_sha256": "537b639811f1e02280e183f1d29f79f5c31c31aa27b6f75c12012e7be6fb5952",
+      "reading": "Tormentilla",
+      "status": "PROVISIONAL_SINGLE_READER",
+      "validated_for_training": false,
+      "notes": "Lectura visual anterior a consultar la edición independiente; sin transcripción de la nota inferior."
+    },
+    {
+      "manuscript": "Penn LJS 419",
+      "folio": "11r",
+      "image_url": "https://openn.library.upenn.edu/Data/0001/ljs419/data/web/0265_0024_web.jpg",
+      "image_sha256": "d6f4537d4e301c01770a400b318b520b245b6b1af2a796e11e10683ae645590d",
+      "reading": null,
+      "status": "UNRESOLVED",
+      "validated_for_training": false,
+      "notes": "La lectura visual solo permitió reconocer un comienzo parecido a caual; se excluye el nombre completo."
+    },
+    {
+      "manuscript": "Penn LJS 419",
+      "folio": "39v",
+      "image_url": "https://openn.library.upenn.edu/Data/0001/ljs419/data/web/0265_0081_web.jpg",
+      "image_sha256": "eaacb205a8a54a1a48f676ec5017577bcf7a1d603aa89ec44df7a94e0a8134a6",
+      "reading": "Herba mandragora maschio",
+      "status": "PROVISIONAL_SINGLE_READER",
+      "validated_for_training": false,
+      "notes": "Lectura normalizada: s larga representada como s. Coincidencia posterior con la edición independiente; no equivale a dos lectores humanos independientes."
+    },
+    {
+      "manuscript": "Penn LJS 419",
+      "folio": "40r",
+      "image_url": "https://openn.library.upenn.edu/Data/0001/ljs419/data/web/0265_0082_web.jpg",
+      "image_sha256": "ed796f7dd8f3eb596e47bc09b6181a0ee1940a46dd1e0edf7087656d3bce8ca5",
+      "reading": null,
+      "status": "UNRESOLVED",
+      "validated_for_training": false,
+      "notes": "Nombre de lectura incierta; no se adopta la conjetura de la edición independiente."
+    }
+  ]
+}

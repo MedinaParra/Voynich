@@ -24,3 +24,10 @@ python research_gpt6/code/zodiac_crib_holdout.py --corpus /tmp/Voynich-source/co
 ```
 
 También se puede definir `VOYNICH_CORPUS` en el entorno y omitir `--corpus` en los tres scripts de reproducción. `heldout_prediction.py` y `leave_one_quire_out.py` requieren `--corpus`; comparan unigramas, posición y n-gramas de orden 1–4 con validación agrupada por folio y por quire, respectivamente. `audit_zodiac_crib.py` verifica hash, resultados guardados y un cálculo del notebook 28; no vuelve a ejecutar la comparación hebrea. `zodiac_crib_holdout.py` prueba si un mapa glifo→letra aprendido en nueve signos permite leer el nombre del décimo, reservando cada signo por turno y usando un nulo por permutación. Semillas, suavizado y unidades de aleatorización están en los JSON. No implican significado ni desciframiento. El valor predeterminado de los scripts de reproducción solo funciona si el corpus existe en `corpus/voynich_sta.txt` bajo este repo. Las salidas están en `research_gpt6/results/`. `reproduce_position.py` utiliza semilla fija 20261005 y 999 permutaciones.
+
+
+## Adquisición de comparadores históricos
+
+`python research_gpt6/code/acquire_historical_sources.py --out historical_sources`
+
+Recupera el TEI de Penn LJS 419 y el manifiesto IIIF del Codex Bellunensis; produce inventario con URL, hashes, licencias e imágenes. Es metadato, no transcripción. Ejecución registrada en el informe 21 sobre caché de adquisiciones HTTP: 0 elementos text, 615 graphic y 331 lienzos. `--refresh` fuerza descarga; no requiere dependencias externas.
