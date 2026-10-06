@@ -1,10 +1,10 @@
 #!/usr/bin/env python3
-"""TimesFM 3.0 harness for Voynich structural experiments.
+"""TimesFM structural baseline for Voynich experiments.
 
-This is NOT a decipherment tool. It converts clean IVTFF paragraph lines into a
-multivariate numerical sequence and asks whether TimesFM can forecast held-out
-structural features. Physical-order experiments must provide an independently
-verified ordering; this script deliberately contains no Layfield/Davis order.
+This is NOT a decipherment tool. It converts clean IVTFF paragraph lines into
+numerical feature sequences and tests zero-shot forecasting of held-out
+structural features using the documented TimesFM 2.5 PyTorch API shipped by
+the current `timesfm[torch]` package.
 """
 import argparse, hashlib, json, math, re
 from collections import Counter
@@ -13,6 +13,7 @@ import numpy as np
 
 SOURCE_BLOB = '2a4533ab9bdfa85db9bad602d590978953055df1'
 FEATURES = ['tokens','mean_len','uniq_ratio','entropy_char','q_frac','o_frac','y_frac','d_frac','first_q','last_y']
+MODEL_ID = 'google/timesfm-2.5-200m-pytorch'
 
 def git_blob_sha1(b):
     return hashlib.sha1(b'blob '+str(len(b)).encode()+b'\0'+b).hexdigest()
@@ -40,39 +41,59 @@ def parse_lines(raw):
         out.append({'locus':locus,'folio':folio,'quire':meta.get('Q'),'x':vec})
     return out
 
-def load_timesfm(device):
-    try:
-        from timesfm3 import TimesFM3Evaluator, ModelConfig
-    except ImportError as e:
-        raise SystemExit('TimesFM 3 unavailable. Install official package: pip install "timesfm[torch]"') from e
-    cfg=ModelConfig(checkpoint_path='google/timesfm-3.0-pytorch',per_core_batch_size=1,device=device)
-    return TimesFM3Evaluator(cfg)
+def load_timesfm(max_context, horizon):
+    import torch, timesfm
+    torch.set_float32_matmul_precision('high')
+    if not hasattr(timesfm, 'TimesFM_2p5_200M_torch'):
+        raise SystemExit('Installed timesfm package does not export TimesFM_2p5_200M_torch')
+    model=timesfm.TimesFM_2p5_200M_torch.from_pretrained(MODEL_ID)
+    model.compile(timesfm.ForecastConfig(
+        max_context=max_context,
+        max_horizon=horizon,
+        normalize_inputs=True,
+        use_continuous_quantile_head=True,
+        force_flip_invariance=True,
+        infer_is_positive=False,
+        fix_quantile_crossing=True,
+    ))
+    return model
 
 def main():
     ap=argparse.ArgumentParser()
     ap.add_argument('--corpus',type=Path,required=True)
     ap.add_argument('--out',type=Path,required=True)
-    ap.add_argument('--device',default='cpu')
     ap.add_argument('--horizon',type=int,default=16)
+    ap.add_argument('--max-context',type=int,default=512)
     ap.add_argument('--dry-run',action='store_true')
     a=ap.parse_args(); b=a.corpus.read_bytes()
     if git_blob_sha1(b)!=SOURCE_BLOB: raise SystemExit('Corpus blob mismatch; refusing non-frozen input')
     rows=parse_lines(b.decode()); X=np.asarray([r['x'] for r in rows],dtype=np.float32)
-    result={'classification':'EXPERIMENTAL_TIMESFM_STRUCTURAL_FORECAST_NOT_DECIPHERMENT','source_blob':SOURCE_BLOB,'features':FEATURES,'rows':len(rows),'shape':list(X.shape),'device':a.device,'checkpoint':'google/timesfm-3.0-pytorch','status':'DRY_RUN' if a.dry_run else 'NOT_RUN'}
+    if len(X) <= a.horizon: raise SystemExit('Not enough rows for requested horizon')
+    context=X[:-a.horizon][-a.max_context:]
+    target=X[-a.horizon:]
+    result={'classification':'EXPERIMENTAL_TIMESFM_STRUCTURAL_FORECAST_NOT_DECIPHERMENT','source_blob':SOURCE_BLOB,'features':FEATURES,'rows':len(rows),'shape':list(X.shape),'model':MODEL_ID,'status':'DRY_RUN' if a.dry_run else 'NOT_RUN'}
     if not a.dry_run:
-        model=load_timesfm(a.device)
-        # TimesFM 3 native multivariate interface is intentionally isolated here;
-        # fail closed if the installed API differs from the pinned official release.
-        if not hasattr(model,'forecast'):
-            raise SystemExit('Installed TimesFM API has no forecast method; refusing to guess API')
-        context=X[:-a.horizon]
-        target=X[-a.horizon:]
-        pred=model.forecast(context, horizon_len=len(target))
-        pred=np.asarray(pred)
-        if pred.shape!=target.shape:
-            raise SystemExit(f'Unexpected forecast shape {pred.shape}, expected {target.shape}')
+        model=load_timesfm(len(context), len(target))
+        # TimesFM is univariate. Forecast each frozen structural feature separately;
+        # this avoids pretending that independent feature columns are a native
+        # multivariate semantic model.
+        inputs=[context[:,j].astype(np.float32) for j in range(context.shape[1])]
+        point,_quantiles=model.forecast(horizon=len(target), inputs=inputs)
+        point=np.asarray(point,dtype=np.float32)
+        if point.shape != (len(FEATURES), len(target)):
+            raise SystemExit(f'Unexpected forecast shape {point.shape}')
+        pred=point.T
         mse=((pred-target)**2).mean(axis=0)
-        result.update(status='PASS_EXECUTED',horizon=len(target),mse_by_feature=dict(zip(FEATURES,map(float,mse))),mean_mse=float(mse.mean()))
+        # Naive last-value baseline is reported so a foundation model cannot earn
+        # credit merely for forecasting an easy smooth statistic.
+        naive=np.repeat(context[-1:,:],len(target),axis=0)
+        naive_mse=((naive-target)**2).mean(axis=0)
+        result.update(
+            status='PASS_EXECUTED', horizon=len(target), context=len(context),
+            mse_by_feature=dict(zip(FEATURES,map(float,mse))),
+            naive_mse_by_feature=dict(zip(FEATURES,map(float,naive_mse))),
+            mean_mse=float(mse.mean()), naive_mean_mse=float(naive_mse.mean()),
+            beats_naive_mean=bool(mse.mean() < naive_mse.mean()))
     a.out.write_text(json.dumps(result,indent=2)+'\n')
     print(json.dumps(result,indent=2))
 if __name__=='__main__': main()
