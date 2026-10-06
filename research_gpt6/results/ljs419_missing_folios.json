@@ -1,0 +1,236 @@
+{
+  "source_sha256": "b27ddc0900ce4cb846855cd220a2b1e217849105d26dfd5fd371d1db52fc1dca",
+  "summary": {
+    "IMAGE_REFERENCE_WITHOUT_EXTRACTED_BLOCK": 2,
+    "NO_SECTION_REFERENCE_FOUND": 24,
+    "HEADER_WITHOUT_IMAGE_REFERENCE_OR_EXTRACTED_BLOCK": 1
+  },
+  "warning": "Only section-location audit. Absence does not imply blank manuscript leaf.",
+  "manual_inspection": {
+    "5r": "Entry found, no standard transcription marker; no prose note claimed by edition.",
+    "5v": "Candidate medicinal note located without standard start marker.",
+    "64r": "Candidate multi-part note located under header, without image reference or standard start marker."
+  },
+  "folios": [
+    {
+      "folio": "5r",
+      "image_index": "0012",
+      "status": "IMAGE_REFERENCE_WITHOUT_EXTRACTED_BLOCK",
+      "image_reference_count": 1,
+      "exact_header_count": 0,
+      "validated_for_training": false,
+      "image_reference_line": 1108
+    },
+    {
+      "folio": "5v",
+      "image_index": "0013",
+      "status": "IMAGE_REFERENCE_WITHOUT_EXTRACTED_BLOCK",
+      "image_reference_count": 1,
+      "exact_header_count": 2,
+      "validated_for_training": false,
+      "image_reference_line": 1179,
+      "header_line": 1173
+    },
+    {
+      "folio": "41v",
+      "image_index": "0085",
+      "status": "NO_SECTION_REFERENCE_FOUND",
+      "image_reference_count": 0,
+      "exact_header_count": 0,
+      "validated_for_training": false
+    },
+    {
+      "folio": "44v",
+      "image_index": "0091",
+      "status": "NO_SECTION_REFERENCE_FOUND",
+      "image_reference_count": 0,
+      "exact_header_count": 0,
+      "validated_for_training": false
+    },
+    {
+      "folio": "45v",
+      "image_index": "0093",
+      "status": "NO_SECTION_REFERENCE_FOUND",
+      "image_reference_count": 0,
+      "exact_header_count": 0,
+      "validated_for_training": false
+    },
+    {
+      "folio": "47v",
+      "image_index": "0097",
+      "status": "NO_SECTION_REFERENCE_FOUND",
+      "image_reference_count": 0,
+      "exact_header_count": 0,
+      "validated_for_training": false
+    },
+    {
+      "folio": "48v",
+      "image_index": "0099",
+      "status": "NO_SECTION_REFERENCE_FOUND",
+      "image_reference_count": 0,
+      "exact_header_count": 0,
+      "validated_for_training": false
+    },
+    {
+      "folio": "49v",
+      "image_index": "0101",
+      "status": "NO_SECTION_REFERENCE_FOUND",
+      "image_reference_count": 0,
+      "exact_header_count": 0,
+      "validated_for_training": false
+    },
+    {
+      "folio": "50v",
+      "image_index": "0103",
+      "status": "NO_SECTION_REFERENCE_FOUND",
+      "image_reference_count": 0,
+      "exact_header_count": 0,
+      "validated_for_training": false
+    },
+    {
+      "folio": "51v",
+      "image_index": "0105",
+      "status": "NO_SECTION_REFERENCE_FOUND",
+      "image_reference_count": 0,
+      "exact_header_count": 0,
+      "validated_for_training": false
+    },
+    {
+      "folio": "52v",
+      "image_index": "0107",
+      "status": "NO_SECTION_REFERENCE_FOUND",
+      "image_reference_count": 0,
+      "exact_header_count": 0,
+      "validated_for_training": false
+    },
+    {
+      "folio": "53v",
+      "image_index": "0109",
+      "status": "NO_SECTION_REFERENCE_FOUND",
+      "image_reference_count": 0,
+      "exact_header_count": 0,
+      "validated_for_training": false
+    },
+    {
+      "folio": "54v",
+      "image_index": "0111",
+      "status": "NO_SECTION_REFERENCE_FOUND",
+      "image_reference_count": 0,
+      "exact_header_count": 0,
+      "validated_for_training": false
+    },
+    {
+      "folio": "55v",
+      "image_index": "0113",
+      "status": "NO_SECTION_REFERENCE_FOUND",
+      "image_reference_count": 0,
+      "exact_header_count": 0,
+      "validated_for_training": false
+    },
+    {
+      "folio": "56v",
+      "image_index": "0115",
+      "status": "NO_SECTION_REFERENCE_FOUND",
+      "image_reference_count": 0,
+      "exact_header_count": 0,
+      "validated_for_training": false
+    },
+    {
+      "folio": "57v",
+      "image_index": "0117",
+      "status": "NO_SECTION_REFERENCE_FOUND",
+      "image_reference_count": 0,
+      "exact_header_count": 0,
+      "validated_for_training": false
+    },
+    {
+      "folio": "58v",
+      "image_index": "0119",
+      "status": "NO_SECTION_REFERENCE_FOUND",
+      "image_reference_count": 0,
+      "exact_header_count": 0,
+      "validated_for_training": false
+    },
+    {
+      "folio": "61v",
+      "image_index": "0125",
+      "status": "NO_SECTION_REFERENCE_FOUND",
+      "image_reference_count": 0,
+      "exact_header_count": 0,
+      "validated_for_training": false
+    },
+    {
+      "folio": "62v",
+      "image_index": "0127",
+      "status": "NO_SECTION_REFERENCE_FOUND",
+      "image_reference_count": 0,
+      "exact_header_count": 0,
+      "validated_for_training": false
+    },
+    {
+      "folio": "63v",
+      "image_index": "0129",
+      "status": "NO_SECTION_REFERENCE_FOUND",
+      "image_reference_count": 0,
+      "exact_header_count": 0,
+      "validated_for_training": false
+    },
+    {
+      "folio": "64r",
+      "image_index": "0130",
+      "status": "HEADER_WITHOUT_IMAGE_REFERENCE_OR_EXTRACTED_BLOCK",
+      "image_reference_count": 0,
+      "exact_header_count": 2,
+      "validated_for_training": false,
+      "header_line": 7713
+    },
+    {
+      "folio": "64v",
+      "image_index": "0131",
+      "status": "NO_SECTION_REFERENCE_FOUND",
+      "image_reference_count": 0,
+      "exact_header_count": 0,
+      "validated_for_training": false
+    },
+    {
+      "folio": "66v",
+      "image_index": "0135",
+      "status": "NO_SECTION_REFERENCE_FOUND",
+      "image_reference_count": 0,
+      "exact_header_count": 0,
+      "validated_for_training": false
+    },
+    {
+      "folio": "68v",
+      "image_index": "0139",
+      "status": "NO_SECTION_REFERENCE_FOUND",
+      "image_reference_count": 0,
+      "exact_header_count": 0,
+      "validated_for_training": false
+    },
+    {
+      "folio": "71v",
+      "image_index": "0145",
+      "status": "NO_SECTION_REFERENCE_FOUND",
+      "image_reference_count": 0,
+      "exact_header_count": 0,
+      "validated_for_training": false
+    },
+    {
+      "folio": "72v",
+      "image_index": "0147",
+      "status": "NO_SECTION_REFERENCE_FOUND",
+      "image_reference_count": 0,
+      "exact_header_count": 0,
+      "validated_for_training": false
+    },
+    {
+      "folio": "73v",
+      "image_index": "0149",
+      "status": "NO_SECTION_REFERENCE_FOUND",
+      "image_reference_count": 0,
+      "exact_header_count": 0,
+      "validated_for_training": false
+    }
+  ]
+}
