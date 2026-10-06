@@ -11,7 +11,7 @@ on:
 jobs:
   semantic-holdout:
     runs-on: ubuntu-latest
-    timeout-minutes: 10
+    timeout-minutes: 20
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
@@ -39,7 +39,6 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.11'
-          cache: 'pip'
       - name: Install TimesFM 3
         run: pip install 'timesfm[torch]'
       - name: Acquire pinned IVTFF corpus
