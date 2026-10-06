@@ -9,6 +9,28 @@ on:
       - '.github/workflows/timesfm-voynich.yml'
 
 jobs:
+  label-object-audit:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Acquire pinned IVTFF corpus
+        run: |
+          curl -L --fail -o voynich_eva.txt 'https://raw.githubusercontent.com/cesarjz/Voynich/47e6a77dc9d5cd570c375f4aff710fa4a0567278/corpus/voynich_eva.txt'
+      - name: Audit IVTFF label subtypes
+        run: |
+          mkdir -p research_gpt6/results
+          python research_gpt6/code/label_object_audit.py --corpus voynich_eva.txt --out research_gpt6/results/label_object_audit.json
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: label-object-audit-results
+          path: research_gpt6/results/label_object_audit.json
+          if-no-files-found: warn
+
   semantic-holdout:
     runs-on: ubuntu-latest
     timeout-minutes: 20
