@@ -17,3 +17,5 @@ Repositorio inicializado. La rama `main` contiene solamente este archivo de orie
 [Catálogo bibliográfico y cobertura](research_gpt6/14_catalogo_bibliografico.md): actas VOY2022 completas y nuevas fuentes de 2024–2026. [Experimento reproducible de dependencias de borde](research_gpt6/15_dependencias_de_borde.md): código, resultados y limitaciones; no se ha obtenido una traducción validada.
 
 [Plan de descifrado elegido](research_gpt6/16_plan_descifrado.md) y [primera fase ejecutada](research_gpt6/17_resultado_plan_descifrado.md): reglas de enlace EVA generalizan a hojas y cuadernos reservados. Identificación de idioma y traducción pendientes.
+
+[Filtro de mecanismos ejecutado](research_gpt6/19_resultados_mecanismos.md): generadores sin semántica y controles latinos sobre hojas reservadas; la MI de borde puede reproducirse sin traducir. Ningún control explica conjuntamente las seis métricas.

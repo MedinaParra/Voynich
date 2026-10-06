@@ -1,0 +1,595 @@
+{
+  "classification": "EXPLORATORY_MECHANISM_CONTROLS_NOT_TRANSLATION",
+  "python": "3.12.14",
+  "source_blob": "2a4533ab9bdfa85db9bad602d590978953055df1",
+  "latin_commit": "76229acaf02efd1964ac32009408a90b6f279758",
+  "latin_provenance": [
+    {
+      "path": "apicius/apicius1.txt",
+      "blob": "8f8e7e265d6357299004e8c43ab0fb6574f5d45e",
+      "sha256": "377fbe79a234f70fa9686b30fadb987505ec54d11588b35a6db47ad6bb999a09",
+      "tokens": 1151
+    },
+    {
+      "path": "apicius/apicius2.txt",
+      "blob": "4df260990b08371dfda5eba39de975e80e83c725",
+      "sha256": "659a8e7c392584fc09dd345624c9a17d831acbded65cdf3900410c88f0244582",
+      "tokens": 805
+    },
+    {
+      "path": "apicius/apicius3.txt",
+      "blob": "f6999b2067e46f1059080a325b721475fa55f4c6",
+      "sha256": "2b3435b424a7b57c834f0f35a9c9187308c6c3ae38b9b099b53427d46c670bff",
+      "tokens": 1105
+    },
+    {
+      "path": "apicius/apicius4.txt",
+      "blob": "a9c28d6d66ab8c17994a2087fca5428301726f62",
+      "sha256": "d58b21c8077b42427bb512c1fe0d69c5bdc9780ab31e443c70d1cc3e433c9b7d",
+      "tokens": 2619
+    },
+    {
+      "path": "apicius/apicius5.txt",
+      "blob": "8c3a2759b1ee661573d4212c4efe8dd44e2ffd7f",
+      "sha256": "b44a32380edad501be9dcc3d402c6fecd01cf247e3d5cdfe18a0ad972eb25326",
+      "tokens": 1363
+    },
+    {
+      "path": "caesar/gall1.txt",
+      "blob": "701b6757f3ee9becab3ac0087affa8a242e19ecc",
+      "sha256": "4a5771c209e09e0fc41259189885ed6ed5d1d3f59d4d6be22c3d463fc73a5755",
+      "tokens": 8179
+    },
+    {
+      "path": "caesar/gall2.txt",
+      "blob": "7d625b85b7df89d313a7c9c0657a7b84748f596c",
+      "sha256": "bd4b71009490b48ad635e6478b5689f5780a61f8b06b3b8baf69ed46400e14c7",
+      "tokens": 4164
+    },
+    {
+      "path": "caesar/gall3.txt",
+      "blob": "b93a811c8d487673b800e69516217a3e5b4f267f",
+      "sha256": "8e8986e76bf34d1a117c464f4998a6b96436a8ffbdb5fef04ba68d1f47d5f13c",
+      "tokens": 3593
+    }
+  ],
+  "draws": 50,
+  "shuffle_draws_per_sample": 19,
+  "seed": 20261006,
+  "results": {
+    "split": {
+      "test_leaf_groups": 20,
+      "test_runs": 1184,
+      "tokens": 7003,
+      "pairs": 5819,
+      "observed": {
+        "edge_mi": 0.22165020354914847,
+        "edge_excess": 0.1861300800053247,
+        "internal_h1": 1.9783140471305705,
+        "repeat_rate": 0.013060663344217219,
+        "edit_le1_rate": 0.05241450421034542,
+        "mean_length": 5.026131657860916
+      },
+      "controls": {
+        "independent": {
+          "edge_mi": {
+            "median": 0.02712897056326065,
+            "simulation_interval": [
+              0.02308262695199807,
+              0.03099910209034333
+            ],
+            "observed_in_interval": false
+          },
+          "edge_excess": {
+            "median": -0.00015838988597520302,
+            "simulation_interval": [
+              -0.0032462432006901965,
+              0.004628785015843965
+            ],
+            "observed_in_interval": false
+          },
+          "internal_h1": {
+            "median": 2.0405644335238815,
+            "simulation_interval": [
+              2.023281738747242,
+              2.0574985793253413
+            ],
+            "observed_in_interval": false
+          },
+          "repeat_rate": {
+            "median": 0.003780718336483932,
+            "simulation_interval": [
+              0.0020622100017185082,
+              0.005499226671249356
+            ],
+            "observed_in_interval": false
+          },
+          "edit_le1_rate": {
+            "median": 0.021481354184567796,
+            "simulation_interval": [
+              0.018731740848943117,
+              0.02543392335452827
+            ],
+            "observed_in_interval": false
+          },
+          "mean_length": {
+            "median": 4.96244466657147,
+            "simulation_interval": [
+              4.929316007425389,
+              5.0132800228473515
+            ],
+            "observed_in_interval": false
+          }
+        },
+        "linked": {
+          "edge_mi": {
+            "median": 0.21004556990355372,
+            "simulation_interval": [
+              0.19877227883290766,
+              0.22774574531702124
+            ],
+            "observed_in_interval": true
+          },
+          "edge_excess": {
+            "median": 0.17932707415721677,
+            "simulation_interval": [
+              0.16756087061534097,
+              0.1965997336905721
+            ],
+            "observed_in_interval": true
+          },
+          "internal_h1": {
+            "median": 2.0346183218611427,
+            "simulation_interval": [
+              2.022313215745413,
+              2.0517965424402624
+            ],
+            "observed_in_interval": false
+          },
+          "repeat_rate": {
+            "median": 0.003780718336483932,
+            "simulation_interval": [
+              0.002405911668671593,
+              0.005671077504725898
+            ],
+            "observed_in_interval": false
+          },
+          "edit_le1_rate": {
+            "median": 0.02251245918542705,
+            "simulation_interval": [
+              0.01890359168241966,
+              0.025777625021481353
+            ],
+            "observed_in_interval": false
+          },
+          "mean_length": {
+            "median": 4.956161645009281,
+            "simulation_interval": [
+              4.925603312865914,
+              4.990147079822933
+            ],
+            "observed_in_interval": false
+          }
+        },
+        "copy15": {
+          "edge_mi": {
+            "median": 0.029950844774685445,
+            "simulation_interval": [
+              0.02466159867005785,
+              0.0348953494234354
+            ],
+            "observed_in_interval": false
+          },
+          "edge_excess": {
+            "median": 0.003691610859170566,
+            "simulation_interval": [
+              -0.0008433534608571214,
+              0.009139277512715822
+            ],
+            "observed_in_interval": false
+          },
+          "internal_h1": {
+            "median": 2.03632299288799,
+            "simulation_interval": [
+              2.0177423920027424,
+              2.0629526538515917
+            ],
+            "observed_in_interval": false
+          },
+          "repeat_rate": {
+            "median": 0.15380649596150542,
+            "simulation_interval": [
+              0.14658876095549064,
+              0.16239903763533253
+            ],
+            "observed_in_interval": false
+          },
+          "edit_le1_rate": {
+            "median": 0.16978862347482385,
+            "simulation_interval": [
+              0.16119608180099673,
+              0.17803746348169788
+            ],
+            "observed_in_interval": false
+          },
+          "mean_length": {
+            "median": 4.97158360702556,
+            "simulation_interval": [
+              4.934171069541625,
+              5.035698986148794
+            ],
+            "observed_in_interval": true
+          }
+        },
+        "latin_apicius": {
+          "edge_mi": {
+            "median": 0.12769712519110274,
+            "simulation_interval": [
+              0.12304337561998867,
+              0.1324562077258771
+            ],
+            "observed_in_interval": false
+          },
+          "edge_excess": {
+            "median": 0.0770663815515468,
+            "simulation_interval": [
+              0.07249002298210097,
+              0.08137719862651135
+            ],
+            "observed_in_interval": false
+          },
+          "internal_h1": {
+            "median": 3.080711738457257,
+            "simulation_interval": [
+              3.0804314962195156,
+              3.0812231266766594
+            ],
+            "observed_in_interval": false
+          },
+          "repeat_rate": {
+            "median": 0.0008592541673827118,
+            "simulation_interval": [
+              0.0006874033339061695,
+              0.0012029558343357965
+            ],
+            "observed_in_interval": false
+          },
+          "edit_le1_rate": {
+            "median": 0.0036088675030073896,
+            "simulation_interval": [
+              0.00292146416910122,
+              0.0041244200034370165
+            ],
+            "observed_in_interval": false
+          },
+          "mean_length": {
+            "median": 5.683064400971013,
+            "simulation_interval": [
+              5.682136227331144,
+              5.6841353705554765
+            ],
+            "observed_in_interval": false
+          }
+        },
+        "latin_caesar": {
+          "edge_mi": {
+            "median": 0.07899670319364674,
+            "simulation_interval": [
+              0.06733530117297874,
+              0.08435809119585704
+            ],
+            "observed_in_interval": false
+          },
+          "edge_excess": {
+            "median": 0.03565712390849153,
+            "simulation_interval": [
+              0.026358169107985184,
+              0.04066729224140036
+            ],
+            "observed_in_interval": false
+          },
+          "internal_h1": {
+            "median": 3.122819774349259,
+            "simulation_interval": [
+              3.116259084216242,
+              3.128932946204067
+            ],
+            "observed_in_interval": false
+          },
+          "repeat_rate": {
+            "median": 0.0,
+            "simulation_interval": [
+              0.0,
+              0.0
+            ],
+            "observed_in_interval": false
+          },
+          "edit_le1_rate": {
+            "median": 0.003694792919745661,
+            "simulation_interval": [
+              0.002405911668671593,
+              0.004296270836913559
+            ],
+            "observed_in_interval": false
+          },
+          "mean_length": {
+            "median": 5.997001285163501,
+            "simulation_interval": [
+              5.897900899614451,
+              6.118663429958589
+            ],
+            "observed_in_interval": false
+          }
+        }
+      },
+      "monoalphabetic_invariance_pass": true
+    },
+    "join": {
+      "test_leaf_groups": 20,
+      "test_runs": 1175,
+      "tokens": 6498,
+      "pairs": 5323,
+      "observed": {
+        "edge_mi": 0.18496319210747839,
+        "edge_excess": 0.15046946017019822,
+        "internal_h1": 2.0002592852023975,
+        "repeat_rate": 0.013714071012586888,
+        "edit_le1_rate": 0.04771745256434341,
+        "mean_length": 5.404739919975377
+      },
+      "controls": {
+        "independent": {
+          "edge_mi": {
+            "median": 0.02654396808815019,
+            "simulation_interval": [
+              0.023010100299244378,
+              0.03224375114047427
+            ],
+            "observed_in_interval": false
+          },
+          "edge_excess": {
+            "median": -0.00016529966258639096,
+            "simulation_interval": [
+              -0.003538901448269932,
+              0.005824213120457274
+            ],
+            "observed_in_interval": false
+          },
+          "internal_h1": {
+            "median": 2.0610907246762515,
+            "simulation_interval": [
+              2.038592011105522,
+              2.0799458958882173
+            ],
+            "observed_in_interval": false
+          },
+          "repeat_rate": {
+            "median": 0.0030058237835806877,
+            "simulation_interval": [
+              0.0015029118917903438,
+              0.004320871688897238
+            ],
+            "observed_in_interval": false
+          },
+          "edit_le1_rate": {
+            "median": 0.01794101070824723,
+            "simulation_interval": [
+              0.015216982904377232,
+              0.021792222430959986
+            ],
+            "observed_in_interval": false
+          },
+          "mean_length": {
+            "median": 5.341797476146507,
+            "simulation_interval": [
+              5.292243767313019,
+              5.384272083718067
+            ],
+            "observed_in_interval": false
+          }
+        },
+        "linked": {
+          "edge_mi": {
+            "median": 0.17978906581213006,
+            "simulation_interval": [
+              0.16611538236287238,
+              0.19409413972694362
+            ],
+            "observed_in_interval": true
+          },
+          "edge_excess": {
+            "median": 0.1477157578486767,
+            "simulation_interval": [
+              0.13709003945547857,
+              0.16247206215127083
+            ],
+            "observed_in_interval": true
+          },
+          "internal_h1": {
+            "median": 2.0573990602157166,
+            "simulation_interval": [
+              2.0416344341621655,
+              2.0693440725286893
+            ],
+            "observed_in_interval": false
+          },
+          "repeat_rate": {
+            "median": 0.0030997557768175843,
+            "simulation_interval": [
+              0.0020665038512117226,
+              0.0045087356753710315
+            ],
+            "observed_in_interval": false
+          },
+          "edit_le1_rate": {
+            "median": 0.018222806687957917,
+            "simulation_interval": [
+              0.015404846890851025,
+              0.02216795040390757
+            ],
+            "observed_in_interval": false
+          },
+          "mean_length": {
+            "median": 5.33471837488458,
+            "simulation_interval": [
+              5.282086795937212,
+              5.368882733148661
+            ],
+            "observed_in_interval": false
+          }
+        },
+        "copy15": {
+          "edge_mi": {
+            "median": 0.02875031691943681,
+            "simulation_interval": [
+              0.022537445768481393,
+              0.035330643063571296
+            ],
+            "observed_in_interval": false
+          },
+          "edge_excess": {
+            "median": 0.0022236981535040078,
+            "simulation_interval": [
+              -0.0031302553243747096,
+              0.007156651616453614
+            ],
+            "observed_in_interval": false
+          },
+          "internal_h1": {
+            "median": 2.059490372308843,
+            "simulation_interval": [
+              2.0358195412421836,
+              2.073888393086802
+            ],
+            "observed_in_interval": false
+          },
+          "repeat_rate": {
+            "median": 0.1523576930302461,
+            "simulation_interval": [
+              0.14559458951718957,
+              0.15949652451625024
+            ],
+            "observed_in_interval": false
+          },
+          "edit_le1_rate": {
+            "median": 0.16494458012399024,
+            "simulation_interval": [
+              0.15818147661093368,
+              0.17245913958294196
+            ],
+            "observed_in_interval": false
+          },
+          "mean_length": {
+            "median": 5.3486457371498926,
+            "simulation_interval": [
+              5.267005232379193,
+              5.40181594336719
+            ],
+            "observed_in_interval": false
+          }
+        },
+        "latin_apicius": {
+          "edge_mi": {
+            "median": 0.1352885075015942,
+            "simulation_interval": [
+              0.12791947804511886,
+              0.14540140273632268
+            ],
+            "observed_in_interval": false
+          },
+          "edge_excess": {
+            "median": 0.07939402208231969,
+            "simulation_interval": [
+              0.07167076647103911,
+              0.08785583601975867
+            ],
+            "observed_in_interval": false
+          },
+          "internal_h1": {
+            "median": 3.0728742175996686,
+            "simulation_interval": [
+              3.0676324245211513,
+              3.08179651168766
+            ],
+            "observed_in_interval": false
+          },
+          "repeat_rate": {
+            "median": 0.0011271839188427579,
+            "simulation_interval": [
+              0.0005635919594213789,
+              0.0013150479053165509
+            ],
+            "observed_in_interval": false
+          },
+          "edit_le1_rate": {
+            "median": 0.003945143715949653,
+            "simulation_interval": [
+              0.0030058237835806877,
+              0.004320871688897238
+            ],
+            "observed_in_interval": false
+          },
+          "mean_length": {
+            "median": 5.68497999384426,
+            "simulation_interval": [
+              5.676823638042475,
+              5.710987996306556
+            ],
+            "observed_in_interval": false
+          }
+        },
+        "latin_caesar": {
+          "edge_mi": {
+            "median": 0.08125961402422782,
+            "simulation_interval": [
+              0.06916169994517139,
+              0.08859708236295805
+            ],
+            "observed_in_interval": false
+          },
+          "edge_excess": {
+            "median": 0.034349598183833166,
+            "simulation_interval": [
+              0.024544769907928816,
+              0.041949014928826425
+            ],
+            "observed_in_interval": false
+          },
+          "internal_h1": {
+            "median": 3.1209043525199833,
+            "simulation_interval": [
+              3.114269956816069,
+              3.1280266889828976
+            ],
+            "observed_in_interval": false
+          },
+          "repeat_rate": {
+            "median": 0.0,
+            "simulation_interval": [
+              0.0,
+              0.0
+            ],
+            "observed_in_interval": false
+          },
+          "edit_le1_rate": {
+            "median": 0.0037572797294758596,
+            "simulation_interval": [
+              0.0022543678376855157,
+              0.004696599661844825
+            ],
+            "observed_in_interval": false
+          },
+          "mean_length": {
+            "median": 5.980917205293936,
+            "simulation_interval": [
+              5.893351800554017,
+              6.141274238227147
+            ],
+            "observed_in_interval": false
+          }
+        }
+      },
+      "monoalphabetic_invariance_pass": true
+    }
+  }
+}

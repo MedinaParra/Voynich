@@ -27,3 +27,7 @@ Convención: PASS = resultado reproducido; FAIL = afirmación metodológica cont
 ## Plan contextual: validación reservada
 
 **PASS predictivo**, no semántico: último carácter EVA mejora predicción del primer carácter siguiente frente a contexto de posición/cuaderno. Ganancia 0,106–0,172 bits/inicio, cuatro intervalos bootstrap con límite inferior positivo (dos separadores × dos reservas). 100 grupos de hoja/16 quires; Python 3.12.14, exit 0. Ver `16_plan_descifrado.md`, `17_resultado_plan_descifrado.md`, `code/contextual_link.py`, `results/contextual_link.json`. Identificación de idioma/mecanismo: **NOT_RUN**. Traducción defendible: **BLOCKED** por falta de correspondencia semántica validada.
+
+## Filtro de mecanismos (6 de octubre de 2026)
+
+**PASS ejecución**: 5 controles × 2 segmentaciones × 50 muestras, 20 grupos de hoja reservados; fuentes latinas (8 archivos) verificadas por blob/SHA-256. Python 3.12.14, exit 0. **PASS invariancia** de seis métricas bajo sustitución monoalfabética fija. Generador sin semántica con enlace reproduce magnitud de MI/exceso de bordes en ambas segmentaciones, pero **FAIL de adecuación descriptiva conjunta** de las seis métricas para todos los controles. No es rechazo estadístico de familias; controles no igualan todas las propiedades ni quires. Idioma/clave: **NOT_RUN**; traducción: **BLOCKED** sin correspondencias semánticas. Ver `18_protocolo_mecanismos.md`, `19_resultados_mecanismos.md`, `code/mechanism_controls.py`, `results/mechanism_controls.json` y fuentes durables `data/latin_sources.json`.
