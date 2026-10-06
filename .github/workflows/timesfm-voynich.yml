@@ -15,21 +15,14 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
-        with:
-          python-version: '3.11'
+        with: {python-version: '3.11'}
       - name: Acquire pinned IVTFF corpus
-        run: |
-          curl -L --fail -o voynich_eva.txt 'https://raw.githubusercontent.com/cesarjz/Voynich/47e6a77dc9d5cd570c375f4aff710fa4a0567278/corpus/voynich_eva.txt'
+        run: curl -L --fail -o voynich_eva.txt 'https://raw.githubusercontent.com/cesarjz/Voynich/47e6a77dc9d5cd570c375f4aff710fa4a0567278/corpus/voynich_eva.txt'
       - name: Audit IVTFF label subtypes
-        run: |
-          mkdir -p research_gpt6/results
-          python research_gpt6/code/label_object_audit.py --corpus voynich_eva.txt --out research_gpt6/results/label_object_audit.json
+        run: mkdir -p research_gpt6/results && python research_gpt6/code/label_object_audit.py --corpus voynich_eva.txt --out research_gpt6/results/label_object_audit.json
       - uses: actions/upload-artifact@v4
         if: always()
-        with:
-          name: label-object-audit-results
-          path: research_gpt6/results/label_object_audit.json
-          if-no-files-found: warn
+        with: {name: label-object-audit-results, path: research_gpt6/results/label_object_audit.json, if-no-files-found: warn}
 
   semantic-holdout:
     runs-on: ubuntu-latest
@@ -37,21 +30,14 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
-        with:
-          python-version: '3.11'
+        with: {python-version: '3.11'}
       - name: Acquire pinned IVTFF corpus
-        run: |
-          curl -L --fail -o voynich_eva.txt 'https://raw.githubusercontent.com/cesarjz/Voynich/47e6a77dc9d5cd570c375f4aff710fa4a0567278/corpus/voynich_eva.txt'
+        run: curl -L --fail -o voynich_eva.txt 'https://raw.githubusercontent.com/cesarjz/Voynich/47e6a77dc9d5cd570c375f4aff710fa4a0567278/corpus/voynich_eva.txt'
       - name: Run weak semantic holdout
-        run: |
-          mkdir -p research_gpt6/results
-          python research_gpt6/code/weak_semantic_holdout.py --corpus voynich_eva.txt --out research_gpt6/results/weak_semantic_holdout.json
+        run: mkdir -p research_gpt6/results && python research_gpt6/code/weak_semantic_holdout.py --corpus voynich_eva.txt --out research_gpt6/results/weak_semantic_holdout.json
       - uses: actions/upload-artifact@v4
         if: always()
-        with:
-          name: weak-semantic-holdout-results
-          path: research_gpt6/results/weak_semantic_holdout.json
-          if-no-files-found: warn
+        with: {name: weak-semantic-holdout-results, path: research_gpt6/results/weak_semantic_holdout.json, if-no-files-found: warn}
 
   timesfm:
     runs-on: ubuntu-latest
@@ -59,20 +45,30 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
-        with:
-          python-version: '3.11'
-      - name: Install TimesFM (2.5 checkpoint)
+        with: {python-version: '3.11'}
+      - name: Install TimesFM
         run: pip install 'timesfm[torch]==3.0.2'
       - name: Acquire pinned IVTFF corpus
-        run: |
-          curl -L --fail -o voynich_eva.txt 'https://raw.githubusercontent.com/cesarjz/Voynich/47e6a77dc9d5cd570c375f4aff710fa4a0567278/corpus/voynich_eva.txt'
+        run: curl -L --fail -o voynich_eva.txt 'https://raw.githubusercontent.com/cesarjz/Voynich/47e6a77dc9d5cd570c375f4aff710fa4a0567278/corpus/voynich_eva.txt'
       - name: Run Voynich TimesFM harness
-        run: |
-          mkdir -p research_gpt6/results
-          python research_gpt6/code/timesfm_voynich.py --corpus voynich_eva.txt --out research_gpt6/results/timesfm_voynich.json
+        run: mkdir -p research_gpt6/results && python research_gpt6/code/timesfm_voynich.py --corpus voynich_eva.txt --out research_gpt6/results/timesfm_voynich.json
       - uses: actions/upload-artifact@v4
         if: always()
-        with:
-          name: timesfm-voynich-results
-          path: research_gpt6/results/timesfm_voynich.json
-          if-no-files-found: warn
+        with: {name: timesfm-voynich-results, path: research_gpt6/results/timesfm_voynich.json, if-no-files-found: warn}
+
+  timesfm-rolling:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: {python-version: '3.11'}
+      - name: Install TimesFM
+        run: pip install 'timesfm[torch]==3.0.2'
+      - name: Acquire pinned IVTFF corpus
+        run: curl -L --fail -o voynich_eva.txt 'https://raw.githubusercontent.com/cesarjz/Voynich/47e6a77dc9d5cd570c375f4aff710fa4a0567278/corpus/voynich_eva.txt'
+      - name: Run rolling-origin robustness test
+        run: mkdir -p research_gpt6/results && python research_gpt6/code/timesfm_rolling.py --corpus voynich_eva.txt --out research_gpt6/results/timesfm_rolling.json --context 128 --horizon 16 --folds 8
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with: {name: timesfm-rolling-results, path: research_gpt6/results/timesfm_rolling.json, if-no-files-found: warn}
