@@ -1,0 +1,27 @@
+{
+  "status": "FAIL_LITERAL_COVERAGE_CLAIM",
+  "scope": "Exact surface matching for the public prefix+base+suffix inventory; does not evaluate visual resemblance or manuscript meaning.",
+  "source_repository": "cesarjz/Voynich",
+  "source_commit": "47e6a77dc9d5cd570c375f4aff710fa4a0567278",
+  "corpus_path": "corpus/voynich_eva.txt",
+  "git_blob_sha": "2a4533ab9bdfa85db9bad602d590978953055df1",
+  "transcription_lines": 4130,
+  "token_count": 35376,
+  "observed_type_count": 6797,
+  "generator_prefixes_including_empty": 13,
+  "generator_bases": 33,
+  "generator_suffixes_including_empty": 10,
+  "raw_combinations": 4290,
+  "unique_generated_forms_after_collisions": 4107,
+  "exact_type_hits": 643,
+  "exact_type_coverage": 0.09460055907017802,
+  "exact_token_hits": 13139,
+  "exact_token_coverage": 0.3712686567164179,
+  "external_reference": "Matlach et al. report 8,114 word types in their analysed Voynich dataset; maximum exact type coverage from the 4,107-form generator is 50.6% under that denominator.",
+  "limitations": [
+    "The website does not provide a runnable evaluator defining its reported 99.6%, the precise EVA-Takahashi text, or alternate normalization.",
+    "Parser omits bracketed uncertain readings and may differ from the site's line/token conventions.",
+    "This is a direct test of the published literal word generator, not a refutation of the broader possibility of procedural generation.",
+    "The independent cross-line mutual-information claim remains NOT_RUN."
+  ]
+}

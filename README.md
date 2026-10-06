@@ -6,7 +6,7 @@ El objetivo inmediato es auditar resultados publicados, fijar fuentes y versione
 
 ## Fuente inicial
 
-La primera auditoría examina el repositorio público [cesarjz/Voynich](https://github.com/cesarjz/Voynich), fijado en el commit `47e6a77dc9d5cd570c375f4aff710fa4a0567278`. El análisis y los resultados de auditoría se organizarán bajo `research_gpt6/` en una rama de trabajo.
+La primera auditoría examina el repositorio público [cesarjz/Voynich](https://github.com/cesarjz/Voynich), fijado en el commit `47e6a77dc9d5cd570c375f4aff710fa4a0567278`. El análisis y los resultados se organizan bajo `research_gpt6/` en una rama de trabajo. [Estado del arte y evaluación de propuestas](research_gpt6/11_estado_del_arte.md).
 
 ## Estado
 
