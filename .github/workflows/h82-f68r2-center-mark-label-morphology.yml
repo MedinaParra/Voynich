@@ -1,3 +1,4 @@
+# Registered-workflow retrigger only; no H82 scientific criteria changed.
 name: H82 f68r2 center-mark label morphology
 on:
   workflow_dispatch:
