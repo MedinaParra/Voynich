@@ -1,0 +1,4075 @@
+{
+  "status": "FAIL_LOCAL_EDGE_SPECIFIC",
+  "protocol": "research_gpt6/37_global_similarity_residual_protocol.md",
+  "local_windows": [
+    25,
+    50,
+    100,
+    200
+  ],
+  "whole_page_excluded_from_local_test": true,
+  "primary_global_similarity_residual": {
+    "status": "FAIL_LOCAL_EDGE_SPECIFIC",
+    "mode_summary": {
+      "TH": {
+        "quire_medians": [
+          0.19565217391304346,
+          0.8,
+          0.2826086956521739,
+          0.6956521739130435,
+          0.08695652173913043,
+          0.28260869565217395,
+          0.32608695652173914
+        ],
+        "global_median": 0.28260869565217395
+      },
+      "HH": {
+        "quire_medians": [
+          0.19565217391304346,
+          0.5,
+          0.2608695652173913,
+          0.43478260869565216,
+          0.6086956521739131,
+          0.4782608695652174,
+          0.15217391304347827
+        ],
+        "global_median": 0.43478260869565216
+      },
+      "TT": {
+        "quire_medians": [
+          0.21739130434782608,
+          0.8,
+          0.15217391304347827,
+          0.5652173913043479,
+          0.06521739130434782,
+          0.2826086956521739,
+          0.32608695652173914
+        ],
+        "global_median": 0.2826086956521739
+      },
+      "HT": {
+        "quire_medians": [
+          0.5217391304347826,
+          0.5,
+          0.10869565217391304,
+          0.19565217391304346,
+          0.15217391304347827,
+          0.32608695652173914,
+          0.43478260869565216
+        ],
+        "global_median": 0.32608695652173914
+      }
+    },
+    "best_wrong_quire_medians": [
+      0.19565217391304346,
+      0.5,
+      0.10869565217391304,
+      0.19565217391304346,
+      0.06521739130434782,
+      0.2826086956521739,
+      0.15217391304347827
+    ],
+    "TH_wins_vs_best_wrong": 0,
+    "global_condition_TH_better_than_each_wrong": false,
+    "sign_tests_secondary": {
+      "HH": {
+        "wins": 2,
+        "losses": 4,
+        "ties": 1,
+        "n_non_tie": 6,
+        "p_one_sided": 0.890625
+      },
+      "TT": {
+        "wins": 1,
+        "losses": 4,
+        "ties": 2,
+        "n_non_tie": 5,
+        "p_one_sided": 0.96875
+      },
+      "HT": {
+        "wins": 4,
+        "losses": 3,
+        "ties": 0,
+        "n_non_tie": 7,
+        "p_one_sided": 0.5
+      },
+      "best_wrong": {
+        "wins": 0,
+        "losses": 6,
+        "ties": 1,
+        "n_non_tie": 6,
+        "p_one_sided": 1.0
+      }
+    }
+  },
+  "secondary_global_plus_exact_metadata": {
+    "status": "FAIL_LOCAL_EDGE_SPECIFIC",
+    "mode_summary": {
+      "TH": {
+        "quire_medians": [
+          0.19565217391304346,
+          0.8,
+          0.2826086956521739,
+          0.7608695652173914,
+          0.3913043478260869,
+          0.32608695652173914,
+          0.2608695652173913
+        ],
+        "global_median": 0.32608695652173914
+      },
+      "HH": {
+        "quire_medians": [
+          0.19565217391304346,
+          0.5,
+          0.2608695652173913,
+          0.43478260869565216,
+          0.7608695652173914,
+          0.32608695652173914,
+          0.08695652173913043
+        ],
+        "global_median": 0.32608695652173914
+      },
+      "TT": {
+        "quire_medians": [
+          0.21739130434782608,
+          0.8,
+          0.15217391304347827,
+          0.5869565217391304,
+          0.2608695652173913,
+          0.32608695652173914,
+          0.32608695652173914
+        ],
+        "global_median": 0.32608695652173914
+      },
+      "HT": {
+        "quire_medians": [
+          0.5217391304347826,
+          0.5,
+          0.10869565217391304,
+          0.17391304347826086,
+          0.2608695652173913,
+          0.15217391304347827,
+          0.45652173913043476
+        ],
+        "global_median": 0.2608695652173913
+      }
+    },
+    "best_wrong_quire_medians": [
+      0.19565217391304346,
+      0.5,
+      0.10869565217391304,
+      0.17391304347826086,
+      0.2608695652173913,
+      0.15217391304347827,
+      0.08695652173913043
+    ],
+    "TH_wins_vs_best_wrong": 0,
+    "global_condition_TH_better_than_each_wrong": false,
+    "sign_tests_secondary": {
+      "HH": {
+        "wins": 1,
+        "losses": 4,
+        "ties": 2,
+        "n_non_tie": 5,
+        "p_one_sided": 0.96875
+      },
+      "TT": {
+        "wins": 2,
+        "losses": 3,
+        "ties": 2,
+        "n_non_tie": 5,
+        "p_one_sided": 0.8125
+      },
+      "HT": {
+        "wins": 2,
+        "losses": 5,
+        "ties": 0,
+        "n_non_tie": 7,
+        "p_one_sided": 0.9375
+      },
+      "best_wrong": {
+        "wins": 0,
+        "losses": 6,
+        "ties": 1,
+        "n_non_tie": 6,
+        "p_one_sided": 1.0
+      }
+    }
+  },
+  "quire_order": [
+    "A_f1-f8",
+    "B_f9-f16_partial",
+    "C_f17-f24",
+    "D_f25-f32",
+    "E_f33-f40",
+    "F_f41-f48",
+    "G_f49-f56"
+  ],
+  "per_quire_normalized_medians": {
+    "A_f1-f8": {
+      "global_residual": {
+        "TH": 0.19565217391304346,
+        "HH": 0.19565217391304346,
+        "TT": 0.21739130434782608,
+        "HT": 0.5217391304347826
+      },
+      "global_plus_exact_metadata": {
+        "TH": 0.19565217391304346,
+        "HH": 0.19565217391304346,
+        "TT": 0.21739130434782608,
+        "HT": 0.5217391304347826
+      }
+    },
+    "B_f9-f16_partial": {
+      "global_residual": {
+        "TH": 0.8,
+        "HH": 0.5,
+        "TT": 0.8,
+        "HT": 0.5
+      },
+      "global_plus_exact_metadata": {
+        "TH": 0.8,
+        "HH": 0.5,
+        "TT": 0.8,
+        "HT": 0.5
+      }
+    },
+    "C_f17-f24": {
+      "global_residual": {
+        "TH": 0.2826086956521739,
+        "HH": 0.2608695652173913,
+        "TT": 0.15217391304347827,
+        "HT": 0.10869565217391304
+      },
+      "global_plus_exact_metadata": {
+        "TH": 0.2826086956521739,
+        "HH": 0.2608695652173913,
+        "TT": 0.15217391304347827,
+        "HT": 0.10869565217391304
+      }
+    },
+    "D_f25-f32": {
+      "global_residual": {
+        "TH": 0.6956521739130435,
+        "HH": 0.43478260869565216,
+        "TT": 0.5652173913043479,
+        "HT": 0.19565217391304346
+      },
+      "global_plus_exact_metadata": {
+        "TH": 0.7608695652173914,
+        "HH": 0.43478260869565216,
+        "TT": 0.5869565217391304,
+        "HT": 0.17391304347826086
+      }
+    },
+    "E_f33-f40": {
+      "global_residual": {
+        "TH": 0.08695652173913043,
+        "HH": 0.6086956521739131,
+        "TT": 0.06521739130434782,
+        "HT": 0.15217391304347827
+      },
+      "global_plus_exact_metadata": {
+        "TH": 0.3913043478260869,
+        "HH": 0.7608695652173914,
+        "TT": 0.2608695652173913,
+        "HT": 0.2608695652173913
+      }
+    },
+    "F_f41-f48": {
+      "global_residual": {
+        "TH": 0.28260869565217395,
+        "HH": 0.4782608695652174,
+        "TT": 0.2826086956521739,
+        "HT": 0.32608695652173914
+      },
+      "global_plus_exact_metadata": {
+        "TH": 0.32608695652173914,
+        "HH": 0.32608695652173914,
+        "TT": 0.32608695652173914,
+        "HT": 0.15217391304347827
+      }
+    },
+    "G_f49-f56": {
+      "global_residual": {
+        "TH": 0.32608695652173914,
+        "HH": 0.15217391304347827,
+        "TT": 0.32608695652173914,
+        "HT": 0.43478260869565216
+      },
+      "global_plus_exact_metadata": {
+        "TH": 0.2608695652173913,
+        "HH": 0.08695652173913043,
+        "TT": 0.32608695652173914,
+        "HT": 0.45652173913043476
+      }
+    }
+  },
+  "details": {
+    "A_f1-f8": {
+      "candidate_count": 24,
+      "ZL3b": {
+        "TH": [
+          {
+            "boundary_tokens": 25,
+            "global_residual_rank": 6,
+            "global_plus_exact_metadata_rank": 6,
+            "regression": {
+              "alpha": 2.3555545092535565e-17,
+              "beta": 0.21326139252190454,
+              "pearson_local_global": 0.20045421831383686,
+              "var_global_sum_sq": 41.39444750519144,
+              "var_local_sum_sq": 46.85286708593637,
+              "n_directed_pairs": 56
+            },
+            "n_hand_currier_transition_classes": 1
+          },
+          {
+            "boundary_tokens": 50,
+            "global_residual_rank": 1,
+            "global_plus_exact_metadata_rank": 1,
+            "regression": {
+              "alpha": -1.7316391983065688e-16,
+              "beta": 0.3737828108408129,
+              "pearson_local_global": 0.3728511942556402,
+              "var_global_sum_sq": 41.39444750519144,
+              "var_local_sum_sq": 41.60156462145741,
+              "n_directed_pairs": 56
+            },
+            "n_hand_currier_transition_classes": 1
+          },
+          {
+            "boundary_tokens": 100,
+            "global_residual_rank": 3,
+            "global_plus_exact_metadata_rank": 3,
+            "regression": {
+              "alpha": 2.8684508695293074e-16,
+              "beta": 0.8611012134762878,
+              "pearson_local_global": 0.8593214261903501,
+              "var_global_sum_sq": 41.39444750519144,
+              "var_local_sum_sq": 41.566093651858,
+              "n_directed_pairs": 56
+            },
+            "n_hand_currier_transition_classes": 1
+          },
+          {
+            "boundary_tokens": 200,
+            "global_residual_rank": 23,
+            "global_plus_exact_metadata_rank": 23,
+            "regression": {
+              "alpha": -8.347086268426178e-17,
+              "beta": 1.000323444235349,
+              "pearson_local_global": 0.9999954292287915,
+              "var_global_sum_sq": 41.39444750519144,
+              "var_local_sum_sq": 41.42160808308406,
+              "n_directed_pairs": 56
+            },
+            "n_hand_currier_transition_classes": 1
+          }
+        ],
+        "HH": [
+          {
+            "boundary_tokens": 25,
+            "global_residual_rank": 2,
+            "global_plus_exact_metadata_rank": 2,
+            "regression": {
+              "alpha": -8.351998869055307e-17,
+              "beta": 0.3310916808169873,
+              "pearson_local_global": 0.3101571029879133,
+              "var_global_sum_sq": 41.39444750519144,
+              "var_local_sum_sq": 47.17100884119934,
+              "n_directed_pairs": 56
+            },
+            "n_hand_currier_transition_classes": 1
+          },
+          {
+            "boundary_tokens": 50,
+            "global_residual_rank": 7,
+            "global_plus_exact_metadata_rank": 7,
+            "regression": {
+              "alpha": 9.692385098201147e-18,
+              "beta": 0.5133183421909443,
+              "pearson_local_global": 0.4980978342614345,
+              "var_global_sum_sq": 41.39444750519144,
+              "var_local_sum_sq": 43.962901697832656,
+              "n_directed_pairs": 56
+            },
+            "n_hand_currier_transition_classes": 1
+          },
+          {
+            "boundary_tokens": 100,
+            "global_residual_rank": 2,
+            "global_plus_exact_metadata_rank": 2,
+            "regression": {
+              "alpha": 1.2170410141686882e-16,
+              "beta": 0.8377978866136435,
+              "pearson_local_global": 0.8343676979460292,
+              "var_global_sum_sq": 41.39444750519144,
+              "var_local_sum_sq": 41.735502500179884,
+              "n_directed_pairs": 56
+            },
+            "n_hand_currier_transition_classes": 1
+          },
+          {
+            "boundary_tokens": 200,
+            "global_residual_rank": 23,
+            "global_plus_exact_metadata_rank": 23,
+            "regression": {
+              "alpha": -8.347086268426178e-17,
+              "beta": 1.000323444235349,
+              "pearson_local_global": 0.9999954292287915,
+              "var_global_sum_sq": 41.39444750519144,
+              "var_local_sum_sq": 41.42160808308406,
+              "n_directed_pairs": 56
+            },
+            "n_hand_currier_transition_classes": 1
+          }
+        ],
+        "TT": [
+          {
+            "boundary_tokens": 25,
+            "global_residual_rank": 5,
+            "global_plus_exact_metadata_rank": 5,
+            "regression": {
+              "alpha": -3.489181210910074e-17,
+              "beta": 0.25128503594010465,
+              "pearson_local_global": 0.24271018843243022,
+              "var_global_sum_sq": 41.39444750519144,
+              "var_local_sum_sq": 44.37101155015237,
+              "n_directed_pairs": 56
+            },
+            "n_hand_currier_transition_classes": 1
+          },
+          {
+            "boundary_tokens": 50,
+            "global_residual_rank": 1,
+            "global_plus_exact_metadata_rank": 1,
+            "regression": {
+              "alpha": -4.18159731701178e-17,
+              "beta": 0.5410922936049137,
+              "pearson_local_global": 0.5984428293319081,
+              "var_global_sum_sq": 41.39444750519144,
+              "var_local_sum_sq": 33.84070893578111,
+              "n_directed_pairs": 56
+            },
+            "n_hand_currier_transition_classes": 1
+          },
+          {
+            "boundary_tokens": 100,
+            "global_residual_rank": 5,
+            "global_plus_exact_metadata_rank": 5,
+            "regression": {
+              "alpha": 8.387024202031087e-17,
+              "beta": 0.975932616254197,
+              "pearson_local_global": 0.9730876465185608,
+              "var_global_sum_sq": 41.39444750519144,
+              "var_local_sum_sq": 41.63684726050911,
+              "n_directed_pairs": 56
+            },
+            "n_hand_currier_transition_classes": 1
+          },
+          {
+            "boundary_tokens": 200,
+            "global_residual_rank": 24,
+            "global_plus_exact_metadata_rank": 24,
+            "regression": {
+              "alpha": -1.2937548993549193e-16,
+              "beta": 1.00041485296616,
+              "pearson_local_global": 0.9999863746682044,
+              "var_global_sum_sq": 41.39444750519144,
+              "var_local_sum_sq": 41.42992883332131,
+              "n_directed_pairs": 56
+            },
+            "n_hand_currier_transition_classes": 1
+          }
+        ],
+        "HT": [
+          {
+            "boundary_tokens": 25,
+            "global_residual_rank": 7,
+            "global_plus_exact_metadata_rank": 7,
+            "regression": {
+              "alpha": 3.231216231596049e-17,
+              "beta": 0.36048488189566186,
+              "pearson_local_global": 0.34791228574833477,
+              "var_global_sum_sq": 41.39444750519144,
+              "var_local_sum_sq": 44.440268259886786,
+              "n_directed_pairs": 56
+            },
+            "n_hand_currier_transition_classes": 1
+          },
+          {
+            "boundary_tokens": 50,
+            "global_residual_rank": 17,
+            "global_plus_exact_metadata_rank": 17,
+            "regression": {
+              "alpha": -6.42539766647602e-17,
+              "beta": 0.7320708511887702,
+              "pearson_local_global": 0.7170316495865603,
+              "var_global_sum_sq": 41.39444750519144,
+              "var_local_sum_sq": 43.14909275905552,
+              "n_directed_pairs": 56
+            },
+            "n_hand_currier_transition_classes": 1
+          },
+          {
+            "boundary_tokens": 100,
+            "global_residual_rank": 5,
+            "global_plus_exact_metadata_rank": 5,
+            "regression": {
+              "alpha": 5.766776817992276e-17,
+              "beta": 0.9736746700353558,
+              "pearson_local_global": 0.9683903991090076,
+              "var_global_sum_sq": 41.39444750519144,
+              "var_local_sum_sq": 41.84743894279618,
+              "n_directed_pairs": 56
+            },
+            "n_hand_currier_transition_classes": 1
+          },
+          {
+            "boundary_tokens": 200,
+            "global_residual_rank": 24,
+            "global_plus_exact_metadata_rank": 24,
+            "regression": {
+              "alpha": -1.2937548993549193e-16,
+              "beta": 1.00041485296616,
+              "pearson_local_global": 0.9999863746682044,
+              "var_global_sum_sq": 41.39444750519144,
+              "var_local_sum_sq": 41.42992883332131,
+              "n_directed_pairs": 56
+            },
+            "n_hand_currier_transition_classes": 1
+          }
+        ]
+      },
+      "IT2a": {
+        "TH": [
+          {
+            "boundary_tokens": 25,
+            "global_residual_rank": 4,
+            "global_plus_exact_metadata_rank": 4,
+            "regression": {
+              "alpha": -6.79388442926951e-17,
+              "beta": 0.19102132466436972,
+              "pearson_local_global": 0.18094039982572116,
+              "var_global_sum_sq": 40.0560435829579,
+              "var_local_sum_sq": 44.64374969112774,
+              "n_directed_pairs": 56
+            },
+            "n_hand_currier_transition_classes": 1
+          },
+          {
+            "boundary_tokens": 50,
+            "global_residual_rank": 8,
+            "global_plus_exact_metadata_rank": 8,
+            "regression": {
+              "alpha": 1.860583102604414e-16,
+              "beta": 0.3230703256272655,
+              "pearson_local_global": 0.31322361038387847,
+              "var_global_sum_sq": 40.0560435829579,
+              "var_local_sum_sq": 42.614088886791464,
+              "n_directed_pairs": 56
+            },
+            "n_hand_currier_transition_classes": 1
+          },
+          {
+            "boundary_tokens": 100,
+            "global_residual_rank": 5,
+            "global_plus_exact_metadata_rank": 5,
+            "regression": {
+              "alpha": 3.9305200604654685e-17,
+              "beta": 0.8117039466939648,
+              "pearson_local_global": 0.8119859627182643,
+              "var_global_sum_sq": 40.0560435829579,
+              "var_local_sum_sq": 40.02822417484341,
+              "n_directed_pairs": 56
+            },
+            "n_hand_currier_transition_classes": 1
+          },
+          {
+            "boundary_tokens": 200,
+            "global_residual_rank": 24,
+            "global_plus_exact_metadata_rank": 24,
+            "regression": {
+              "alpha": -2.613454895344342e-16,
+              "beta": 1.0006135001045524,
+              "pearson_local_global": 0.9999933393720095,
+              "var_global_sum_sq": 40.0560435829579,
+              "var_local_sum_sq": 40.10574169027116,
+              "n_directed_pairs": 56
+            },
+            "n_hand_currier_transition_classes": 1
+          }
+        ],
+        "HH": [
+          {
+            "boundary_tokens": 25,
+            "global_residual_rank": 1,
+            "global_plus_exact_metadata_rank": 1,
+            "regression": {
+              "alpha": -5.418839678820011e-17,
+              "beta": 0.373846088607681,
+              "pearson_local_global": 0.34714116311246923,
+              "var_global_sum_sq": 40.0560435829579,
+              "var_local_sum_sq": 46.45596702427263,
+              "n_directed_pairs": 56
+            },
+            "n_hand_currier_transition_classes": 1
+          },
+          {
+            "boundary_tokens": 50,
+            "global_residual_rank": 7,
+            "global_plus_exact_metadata_rank": 7,
+            "regression": {
+              "alpha": -6.196587135738755e-18,
+              "beta": 0.5307351515630762,
+              "pearson_local_global": 0.5108321105482175,
+              "var_global_sum_sq": 40.0560435829579,
+              "var_local_sum_sq": 43.238177349873,
+              "n_directed_pairs": 56
+            },
+            "n_hand_currier_transition_classes": 1
+          },
+          {
+            "boundary_tokens": 100,
+            "global_residual_rank": 4,
+            "global_plus_exact_metadata_rank": 4,
+            "regression": {
+              "alpha": -2.484229056573577e-16,
+              "beta": 0.7892755976242664,
+              "pearson_local_global": 0.7963892672217842,
+              "var_global_sum_sq": 40.0560435829579,
+              "var_local_sum_sq": 39.343646147882765,
+              "n_directed_pairs": 56
+            },
+            "n_hand_currier_transition_classes": 1
+          },
+          {
+            "boundary_tokens": 200,
+            "global_residual_rank": 24,
+            "global_plus_exact_metadata_rank": 24,
+            "regression": {
+              "alpha": -2.613454895344342e-16,
+              "beta": 1.0006135001045524,
+              "pearson_local_global": 0.9999933393720095,
+              "var_global_sum_sq": 40.0560435829579,
+              "var_local_sum_sq": 40.10574169027116,
+              "n_directed_pairs": 56
+            },
+            "n_hand_currier_transition_classes": 1
+          }
+        ],
+        "TT": [
+          {
+            "boundary_tokens": 25,
+            "global_residual_rank": 6,
+            "global_plus_exact_metadata_rank": 6,
+            "regression": {
+              "alpha": -1.4933435406316253e-16,
+              "beta": 0.18648078966495152,
+              "pearson_local_global": 0.17540571656620935,
+              "var_global_sum_sq": 40.0560435829579,
+              "var_local_sum_sq": 45.27398928771445,
+              "n_directed_pairs": 56
+            },
+            "n_hand_currier_transition_classes": 1
+          },
+          {
+            "boundary_tokens": 50,
+            "global_residual_rank": 6,
+            "global_plus_exact_metadata_rank": 6,
+            "regression": {
+              "alpha": 2.884758636535798e-17,
+              "beta": 0.5132541040298314,
+              "pearson_local_global": 0.5560237438761116,
+              "var_global_sum_sq": 40.0560435829579,
+              "var_local_sum_sq": 34.13078185599924,
+              "n_directed_pairs": 56
+            },
+            "n_hand_currier_transition_classes": 1
+          },
+          {
+            "boundary_tokens": 100,
+            "global_residual_rank": 10,
+            "global_plus_exact_metadata_rank": 10,
+            "regression": {
+              "alpha": -8.112799356693062e-17,
+              "beta": 0.9778015984959301,
+              "pearson_local_global": 0.9623434544557288,
+              "var_global_sum_sq": 40.0560435829579,
+              "var_local_sum_sq": 41.35322108559718,
+              "n_directed_pairs": 56
+            },
+            "n_hand_currier_transition_classes": 1
+          },
+          {
+            "boundary_tokens": 200,
+            "global_residual_rank": 24,
+            "global_plus_exact_metadata_rank": 24,
+            "regression": {
+              "alpha": -8.335012293566765e-17,
+              "beta": 1.0011176018538654,
+              "pearson_local_global": 0.9999451899513487,
+              "var_global_sum_sq": 40.0560435829579,
+              "var_local_sum_sq": 40.150028160825364,
+              "n_directed_pairs": 56
+            },
+            "n_hand_currier_transition_classes": 1
+          }
+        ],
+        "HT": [
+          {
+            "boundary_tokens": 25,
+            "global_residual_rank": 9,
+            "global_plus_exact_metadata_rank": 9,
+            "regression": {
+              "alpha": -2.1741632311006124e-17,
+              "beta": 0.42511296060422765,
+              "pearson_local_global": 0.3908303647407941,
+              "var_global_sum_sq": 40.0560435829579,
+              "var_local_sum_sq": 47.39146633915606,
+              "n_directed_pairs": 56
+            },
+            "n_hand_currier_transition_classes": 1
+          },
+          {
+            "boundary_tokens": 50,
+            "global_residual_rank": 18,
+            "global_plus_exact_metadata_rank": 18,
+            "regression": {
+              "alpha": -1.2607967345819824e-16,
+              "beta": 0.7209171914684905,
+              "pearson_local_global": 0.6755800183776817,
+              "var_global_sum_sq": 40.0560435829579,
+              "var_local_sum_sq": 45.61264145658688,
+              "n_directed_pairs": 56
+            },
+            "n_hand_currier_transition_classes": 1
+          },
+          {
+            "boundary_tokens": 100,
+            "global_residual_rank": 9,
+            "global_plus_exact_metadata_rank": 9,
+            "regression": {
+              "alpha": 1.387737788448166e-16,
+              "beta": 0.9661648384599409,
+              "pearson_local_global": 0.952052084370868,
+              "var_global_sum_sq": 40.0560435829579,
+              "var_local_sum_sq": 41.252387723294696,
+              "n_directed_pairs": 56
+            },
+            "n_hand_currier_transition_classes": 1
+          },
+          {
+            "boundary_tokens": 200,
+            "global_residual_rank": 24,
+            "global_plus_exact_metadata_rank": 24,
+            "regression": {
+              "alpha": -8.335012293566765e-17,
+              "beta": 1.0011176018538654,
+              "pearson_local_global": 0.9999451899513487,
+              "var_global_sum_sq": 40.0560435829579,
+              "var_local_sum_sq": 40.150028160825364,
+              "n_directed_pairs": 56
+            },
+            "n_hand_currier_transition_classes": 1
+          }
+        ]
+      },
+      "folio_metadata_signatures": {
+        "1": {
+          "H": [
+            "1"
+          ],
+          "L": [
+            "A"
+          ]
+        },
+        "2": {
+          "H": [
+            "1"
+          ],
+          "L": [
+            "A"
+          ]
+        },
+        "3": {
+          "H": [
+            "1"
+          ],
+          "L": [
+            "A"
+          ]
+        },
+        "4": {
+          "H": [
+            "1"
+          ],
+          "L": [
+            "A"
+          ]
+        },
+        "5": {
+          "H": [
+            "1"
+          ],
+          "L": [
+            "A"
+          ]
+        },
+        "6": {
+          "H": [
+            "1"
+          ],
+          "L": [
+            "A"
+          ]
+        },
+        "7": {
+          "H": [
+            "1"
+          ],
+          "L": [
+            "A"
+          ]
+        },
+        "8": {
+          "H": [
+            "1"
+          ],
+          "L": [
+            "A"
+          ]
+        }
+      }
+    },
+    "B_f9-f16_partial": {
+      "candidate_count": 6,
+      "ZL3b": {
+        "TH": [
+          {
+            "boundary_tokens": 25,
+            "global_residual_rank": 3,
+            "global_plus_exact_metadata_rank": 3,
+            "regression": {
+              "alpha": 1.2822601658673735e-16,
+              "beta": 0.45935497548678134,
+              "pearson_local_global": 0.42739996843291334,
+              "var_global_sum_sq": 20.246349823888234,
+              "var_local_sum_sq": 23.387005325004083,
+              "n_directed_pairs": 30
+            },
+            "n_hand_currier_transition_classes": 1
+          },
+          {
+            "boundary_tokens": 50,
+            "global_residual_rank": 4,
+            "global_plus_exact_metadata_rank": 4,
+            "regression": {
+              "alpha": 1.5122342297924074e-16,
+              "beta": 0.868952891917812,
+              "pearson_local_global": 0.8103936575598918,
+              "var_global_sum_sq": 20.246349823888234,
+              "var_local_sum_sq": 23.278078877949884,
+              "n_directed_pairs": 30
+            },
+            "n_hand_currier_transition_classes": 1
+          },
+          {
+            "boundary_tokens": 100,
+            "global_residual_rank": 5,
+            "global_plus_exact_metadata_rank": 5,
+            "regression": {
+              "alpha": 0.0,
+              "beta": 1.0,
+              "pearson_local_global": 1.0,
+              "var_global_sum_sq": 20.246349823888234,
+              "var_local_sum_sq": 20.246349823888234,
+              "n_directed_pairs": 30
+            },
+            "n_hand_currier_transition_classes": 1
+          },
+          {
+            "boundary_tokens": 200,
+            "global_residual_rank": 5,
+            "global_plus_exact_metadata_rank": 5,
+            "regression": {
+              "alpha": 0.0,
+              "beta": 1.0,
+              "pearson_local_global": 1.0,
+              "var_global_sum_sq": 20.246349823888234,
+              "var_local_sum_sq": 20.246349823888234,
+              "n_directed_pairs": 30
+            },
+            "n_hand_currier_transition_classes": 1
+          }
+        ],
+        "HH": [
+          {
+            "boundary_tokens": 25,
+            "global_residual_rank": 1,
+            "global_plus_exact_metadata_rank": 1,
+            "regression": {
+              "alpha": 1.823164916922821e-16,
+              "beta": 0.28001686004580423,
+              "pearson_local_global": 0.2624107129575316,
+              "var_global_sum_sq": 20.246349823888234,
+              "var_local_sum_sq": 23.054301940536497,
+              "n_directed_pairs": 30
+            },
+            "n_hand_currier_transition_classes": 1
+          },
+          {
+            "boundary_tokens": 50,
+            "global_residual_rank": 2,
+            "global_plus_exact_metadata_rank": 2,
+            "regression": {
+              "alpha": 3.3156036853586276e-16,
+              "beta": 0.8764517051771273,
+              "pearson_local_global": 0.8367441729164313,
+              "var_global_sum_sq": 20.246349823888234,
+              "var_local_sum_sq": 22.213516965018833,
+              "n_directed_pairs": 30
+            },
+            "n_hand_currier_transition_classes": 1
+          },
+          {
+            "boundary_tokens": 100,
+            "global_residual_rank": 5,
+            "global_plus_exact_metadata_rank": 5,
+            "regression": {
+              "alpha": 0.0,
+              "beta": 1.0,
+              "pearson_local_global": 1.0,
+              "var_global_sum_sq": 20.246349823888234,
+              "var_local_sum_sq": 20.246349823888234,
+              "n_directed_pairs": 30
+            },
+            "n_hand_currier_transition_classes": 1
+          },
+          {
+            "boundary_tokens": 200,
+            "global_residual_rank": 5,
+            "global_plus_exact_metadata_rank": 5,
+            "regression": {
+              "alpha": 0.0,
+              "beta": 1.0,
+              "pearson_local_global": 1.0,
+              "var_global_sum_sq": 20.246349823888234,
+              "var_local_sum_sq": 20.246349823888234,
+              "n_directed_pairs": 30
+            },
+            "n_hand_currier_transition_classes": 1
+          }
+        ],
+        "TT": [
+          {
+            "boundary_tokens": 25,
+            "global_residual_rank": 5,
+            "global_plus_exact_metadata_rank": 5,
+            "regression": {
+              "alpha": 1.127063199582759e-16,
+              "beta": 0.6994929442809917,
+              "pearson_local_global": 0.6215274950208208,
+              "var_global_sum_sq": 20.246349823888234,
+              "var_local_sum_sq": 25.644410578471476,
+              "n_directed_pairs": 30
+            },
+            "n_hand_currier_transition_classes": 1
+          },
+          {
+            "boundary_tokens": 50,
+            "global_residual_rank": 6,
+            "global_plus_exact_metadata_rank": 6,
+            "regression": {
+              "alpha": 3.004077279506424e-16,
+              "beta": 0.8771235218666223,
+              "pearson_local_global": 0.7992355125656069,
+              "var_global_sum_sq": 20.246349823888234,
+              "var_local_sum_sq": 24.384772398550474,
+              "n_directed_pairs": 30
+            },
+            "n_hand_currier_transition_classes": 1
+          },
+          {
+            "boundary_tokens": 100,
+            "global_residual_rank": 5,
+            "global_plus_exact_metadata_rank": 5,
+            "regression": {
+              "alpha": 0.0,
+              "beta": 1.0,
+              "pearson_local_global": 1.0,
+              "var_global_sum_sq": 20.246349823888234,
+              "var_local_sum_sq": 20.246349823888234,
+              "n_directed_pairs": 30
+            },
+            "n_hand_currier_transition_classes": 1
+          },
+          {
+            "boundary_tokens": 200,
+            "global_residual_rank": 5,
+            "global_plus_exact_metadata_rank": 5,
+            "regression": {
+              "alpha": 0.0,
+              "beta": 1.0,
+              "pearson_local_global": 1.0,
+              "var_global_sum_sq": 20.246349823888234,
+              "var_local_sum_sq": 20.246349823888234,
+              "n_directed_pairs": 30
+            },
+            "n_hand_currier_transition_classes": 1
+          }
+        ],
+        "HT": [
+          {
+            "boundary_tokens": 25,
+            "global_residual_rank": 1,
+            "global_plus_exact_metadata_rank": 1,
+            "regression": {
+              "alpha": 1.7582323123030722e-16,
+              "beta": 0.4142225987361452,
+              "pearson_local_global": 0.3709797836632359,
+              "var_global_sum_sq": 20.246349823888234,
+              "var_local_sum_sq": 25.241422556211436,
+              "n_directed_pairs": 30
+            },
+            "n_hand_currier_transition_classes": 1
+          },
+          {
+            "boundary_tokens": 50,
+            "global_residual_rank": 1,
+            "global_plus_exact_metadata_rank": 1,
+            "regression": {
+              "alpha": 4.601219325084255e-17,
+              "beta": 0.8925114028553066,
+              "pearson_local_global": 0.8146985794381282,
+              "var_global_sum_sq": 20.246349823888234,
+              "var_local_sum_sq": 24.298550397671928,
+              "n_directed_pairs": 30
+            },
+            "n_hand_currier_transition_classes": 1
+          },
+          {
+            "boundary_tokens": 100,
+            "global_residual_rank": 5,
+            "global_plus_exact_metadata_rank": 5,
+            "regression": {
+              "alpha": 0.0,
+              "beta": 1.0,
+              "pearson_local_global": 1.0,
+              "var_global_sum_sq": 20.246349823888234,
+              "var_local_sum_sq": 20.246349823888234,
+              "n_directed_pairs": 30
+            },
+            "n_hand_currier_transition_classes": 1
+          },
+          {
+            "boundary_tokens": 200,
+            "global_residual_rank": 5,
+            "global_plus_exact_metadata_rank": 5,
+            "regression": {
+              "alpha": 0.0,
+              "beta": 1.0,
+              "pearson_local_global": 1.0,
+              "var_global_sum_sq": 20.246349823888234,
+              "var_local_sum_sq": 20.246349823888234,
+              "n_directed_pairs": 30
+            },
+            "n_hand_currier_transition_classes": 1
+          }
+        ]
+      },
+      "IT2a": {
+        "TH": [
+          {
+            "boundary_tokens": 25,
+            "global_residual_rank": 5,
+            "global_plus_exact_metadata_rank": 5,
+            "regression": {
+              "alpha": -1.1406276696840963e-16,
+              "beta": 0.36660002352874016,
+              "pearson_local_global": 0.3765386492800675,
+              "var_global_sum_sq": 21.610937803633167,
+              "var_local_sum_sq": 20.485165156714547,
+              "n_directed_pairs": 30
+            },
+            "n_hand_currier_transition_classes": 1
+          },
+          {
+            "boundary_tokens": 50,
+            "global_residual_rank": 6,
+            "global_plus_exact_metadata_rank": 6,
+            "regression": {
+              "alpha": -4.9939003000172794e-17,
+              "beta": 0.8298143107637493,
+              "pearson_local_global": 0.8083994700580411,
+              "var_global_sum_sq": 21.610937803633167,
+              "var_local_sum_sq": 22.771068708953198,
+              "n_directed_pairs": 30
+            },
+            "n_hand_currier_transition_classes": 1
+          },
+          {
+            "boundary_tokens": 100,
+            "global_residual_rank": 5,
+            "global_plus_exact_metadata_rank": 5,
+            "regression": {
+              "alpha": 0.0,
+              "beta": 1.0,
+              "pearson_local_global": 1.0,
+              "var_global_sum_sq": 21.610937803633167,
+              "var_local_sum_sq": 21.610937803633167,
+              "n_directed_pairs": 30
+            },
+            "n_hand_currier_transition_classes": 1
+          },
+          {
+            "boundary_tokens": 200,
+            "global_residual_rank": 5,
+            "global_plus_exact_metadata_rank": 5,
+            "regression": {
+              "alpha": 0.0,
+              "beta": 1.0,
+              "pearson_local_global": 1.0,
+              "var_global_sum_sq": 21.610937803633167,
+              "var_local_sum_sq": 21.610937803633167,
+              "n_directed_pairs": 30
+            },
+            "n_hand_currier_transition_classes": 1
+          }
+        ],
+        "HH": [
+          {
+            "boundary_tokens": 25,
+            "global_residual_rank": 1,
+            "global_plus_exact_metadata_rank": 1,
+            "regression": {
+              "alpha": 1.2436416060263718e-16,
+              "beta": 0.19923018079868515,
+              "pearson_local_global": 0.20115257968524322,
+              "var_global_sum_sq": 21.610937803633167,
+              "var_local_sum_sq": 21.19984367310047,
+              "n_directed_pairs": 30
+            },
+            "n_hand_currier_transition_classes": 1
+          },
+          {
+            "boundary_tokens": 50,
+            "global_residual_rank": 1,
+            "global_plus_exact_metadata_rank": 1,
+            "regression": {
+              "alpha": 4.145560740450872e-17,
+              "beta": 0.7673418409518168,
+              "pearson_local_global": 0.7626524705006965,
+              "var_global_sum_sq": 21.610937803633167,
+              "var_local_sum_sq": 21.877515990141152,
+              "n_directed_pairs": 30
+            },
+            "n_hand_currier_transition_classes": 1
+          },
+          {
+            "boundary_tokens": 100,
+            "global_residual_rank": 5,
+            "global_plus_exact_metadata_rank": 5,
+            "regression": {
+              "alpha": 0.0,
+              "beta": 1.0,
+              "pearson_local_global": 1.0,
+              "var_global_sum_sq": 21.610937803633167,
+              "var_local_sum_sq": 21.610937803633167,
+              "n_directed_pairs": 30
+            },
+            "n_hand_currier_transition_classes": 1
+          },
+          {
+            "boundary_tokens": 200,
+            "global_residual_rank": 5,
+            "global_plus_exact_metadata_rank": 5,
+            "regression": {
+              "alpha": 0.0,
+              "beta": 1.0,
+              "pearson_local_global": 1.0,
+              "var_global_sum_sq": 21.610937803633167,
+              "var_local_sum_sq": 21.610937803633167,
+              "n_directed_pairs": 30
+            },
+            "n_hand_currier_transition_classes": 1
+          }
+        ],
+        "TT": [
+          {
+            "boundary_tokens": 25,
+            "global_residual_rank": 2,
+            "global_plus_exact_metadata_rank": 2,
+            "regression": {
+              "alpha": -5.861291779965034e-17,
+              "beta": 0.4476956181790336,
+              "pearson_local_global": 0.4340272649196903,
+              "var_global_sum_sq": 21.610937803633167,
+              "var_local_sum_sq": 22.993510245273168,
+              "n_directed_pairs": 30
+            },
+            "n_hand_currier_transition_classes": 1
+          },
+          {
+            "boundary_tokens": 50,
+            "global_residual_rank": 3,
+            "global_plus_exact_metadata_rank": 3,
+            "regression": {
+              "alpha": -1.5660957643654267e-16,
+              "beta": 0.780183272355783,
+              "pearson_local_global": 0.7354801622277675,
+              "var_global_sum_sq": 21.610937803633167,
+              "var_local_sum_sq": 24.317837726830728,
+              "n_directed_pairs": 30
+            },
+            "n_hand_currier_transition_classes": 1
+          },
+          {
+            "boundary_tokens": 100,
+            "global_residual_rank": 5,
+            "global_plus_exact_metadata_rank": 5,
+            "regression": {
+              "alpha": 0.0,
+              "beta": 1.0,
+              "pearson_local_global": 1.0,
+              "var_global_sum_sq": 21.610937803633167,
+              "var_local_sum_sq": 21.610937803633167,
+              "n_directed_pairs": 30
+            },
+            "n_hand_currier_transition_classes": 1
+          },
+          {
+            "boundary_tokens": 200,
+            "global_residual_rank": 5,
+            "global_plus_exact_metadata_rank": 5,
+            "regression": {
+              "alpha": 0.0,
+              "beta": 1.0,
+              "pearson_local_global": 1.0,
+              "var_global_sum_sq": 21.610937803633167,
+              "var_local_sum_sq": 21.610937803633167,
+              "n_directed_pairs": 30
+            },
+            "n_hand_currier_transition_classes": 1
+          }
+        ],
+        "HT": [
+          {
+            "boundary_tokens": 25,
+            "global_residual_rank": 2,
+            "global_plus_exact_metadata_rank": 2,
+            "regression": {
+              "alpha": -2.775852343758816e-16,
+              "beta": 0.3998728269497307,
+              "pearson_local_global": 0.39405892358082717,
+              "var_global_sum_sq": 21.610937803633167,
+              "var_local_sum_sq": 22.253332962905358,
+              "n_directed_pairs": 30
+            },
+            "n_hand_currier_transition_classes": 1
+          },
+          {
+            "boundary_tokens": 50,
+            "global_residual_rank": 1,
+            "global_plus_exact_metadata_rank": 1,
+            "regression": {
+              "alpha": -2.1322594603236773e-16,
+              "beta": 0.778041927174775,
+              "pearson_local_global": 0.7549130797720618,
+              "var_global_sum_sq": 21.610937803633167,
+              "var_local_sum_sq": 22.955444941746535,
+              "n_directed_pairs": 30
+            },
+            "n_hand_currier_transition_classes": 1
+          },
+          {
+            "boundary_tokens": 100,
+            "global_residual_rank": 5,
+            "global_plus_exact_metadata_rank": 5,
+            "regression": {
+              "alpha": 0.0,
+              "beta": 1.0,
+              "pearson_local_global": 1.0,
+              "var_global_sum_sq": 21.610937803633167,
+              "var_local_sum_sq": 21.610937803633167,
+              "n_directed_pairs": 30
+            },
+            "n_hand_currier_transition_classes": 1
+          },
+          {
+            "boundary_tokens": 200,
+            "global_residual_rank": 5,
+            "global_plus_exact_metadata_rank": 5,
+            "regression": {
+              "alpha": 0.0,
+              "beta": 1.0,
+              "pearson_local_global": 1.0,
+              "var_global_sum_sq": 21.610937803633167,
+              "var_local_sum_sq": 21.610937803633167,
+              "n_directed_pairs": 30
+            },
+            "n_hand_currier_transition_classes": 1
+          }
+        ]
+      },
+      "folio_metadata_signatures": {
+        "9": {
+          "H": [
+            "1"
+          ],
+          "L": [
+            "A"
+          ]
+        },
+        "10": {
+          "H": [
+            "1"
+          ],
+          "L": [
+            "A"
+          ]
+        },
+        "11": {
+          "H": [
+            "1"
+          ],
+          "L": [
+            "A"
+          ]
+        },
+        "14": {
+          "H": [
+            "1"
+          ],
+          "L": [
+            "A"
+          ]
+        },
+        "15": {
+          "H": [
+            "1"
+          ],
+          "L": [
+            "A"
+          ]
+        },
+        "16": {
+          "H": [
+            "1"
+          ],
+          "L": [
+            "A"
+          ]
+        }
+      }
+    },
+    "C_f17-f24": {
+      "candidate_count": 24,
+      "ZL3b": {
+        "TH": [
+          {
+            "boundary_tokens": 25,
+            "global_residual_rank": 4,
+            "global_plus_exact_metadata_rank": 4,
+            "regression": {
+              "alpha": 1.2107216134475104e-16,
+              "beta": 0.3735615206737982,
+              "pearson_local_global": 0.38163502841149055,
+              "var_global_sum_sq": 45.49025604132796,
+              "var_local_sum_sq": 43.585917379178035,
+              "n_directed_pairs": 56
+            },
+            "n_hand_currier_transition_classes": 1
+          },
+          {
+            "boundary_tokens": 50,
+            "global_residual_rank": 6,
+            "global_plus_exact_metadata_rank": 6,
+            "regression": {
+              "alpha": -1.4699578137756324e-16,
+              "beta": 0.7133778778784667,
+              "pearson_local_global": 0.7167838204114075,
+              "var_global_sum_sq": 45.49025604132796,
+              "var_local_sum_sq": 45.058970942947894,
+              "n_directed_pairs": 56
+            },
+            "n_hand_currier_transition_classes": 1
+          },
+          {
+            "boundary_tokens": 100,
+            "global_residual_rank": 21,
+            "global_plus_exact_metadata_rank": 21,
+            "regression": {
+              "alpha": 3.605701166348209e-16,
+              "beta": 0.9882153044571748,
+              "pearson_local_global": 0.9948996309206573,
+              "var_global_sum_sq": 45.49025604132796,
+              "var_local_sum_sq": 44.88104834704528,
+              "n_directed_pairs": 56
+            },
+            "n_hand_currier_transition_classes": 1
+          },
+          {
+            "boundary_tokens": 200,
+            "global_residual_rank": 1,
+            "global_plus_exact_metadata_rank": 1,
+            "regression": {
+              "alpha": 0.0,
+              "beta": 1.0,
+              "pearson_local_global": 1.0,
+              "var_global_sum_sq": 45.49025604132796,
+              "var_local_sum_sq": 45.49025604132796,
+              "n_directed_pairs": 56
+            },
+            "n_hand_currier_transition_classes": 1
+          }
+        ],
+        "HH": [
+          {
+            "boundary_tokens": 25,
+            "global_residual_rank": 24,
+            "global_plus_exact_metadata_rank": 24,
+            "regression": {
+              "alpha": 1.4047898597583857e-16,
+              "beta": 0.5472985986107479,
+              "pearson_local_global": 0.5801506998752608,
+              "var_global_sum_sq": 45.49025604132796,
+              "var_local_sum_sq": 40.484186090237635,
+              "n_directed_pairs": 56
+            },
+            "n_hand_currier_transition_classes": 1
+          },
+          {
+            "boundary_tokens": 50,
+            "global_residual_rank": 8,
+            "global_plus_exact_metadata_rank": 8,
+            "regression": {
+              "alpha": -9.695210096423508e-17,
+              "beta": 0.7165502492350104,
+              "pearson_local_global": 0.7470881563279763,
+              "var_global_sum_sq": 45.49025604132796,
+              "var_local_sum_sq": 41.84735189191244,
+              "n_directed_pairs": 56
+            },
+            "n_hand_currier_transition_classes": 1
+          },
+          {
+            "boundary_tokens": 100,
+            "global_residual_rank": 10,
+            "global_plus_exact_metadata_rank": 10,
+            "regression": {
+              "alpha": -1.9906113771062398e-17,
+              "beta": 0.9689579180504473,
+              "pearson_local_global": 0.9875810310838231,
+              "var_global_sum_sq": 45.49025604132796,
+              "var_local_sum_sq": 43.79078535061226,
+              "n_directed_pairs": 56
+            },
+            "n_hand_currier_transition_classes": 1
+          },
+          {
+            "boundary_tokens": 200,
+            "global_residual_rank": 1,
+            "global_plus_exact_metadata_rank": 1,
+            "regression": {
+              "alpha": 0.0,
+              "beta": 1.0,
+              "pearson_local_global": 1.0,
+              "var_global_sum_sq": 45.49025604132796,
+              "var_local_sum_sq": 45.49025604132796,
+              "n_directed_pairs": 56
+            },
+            "n_hand_currier_transition_classes": 1
+          }
+        ],
+        "TT": [
+          {
+            "boundary_tokens": 25,
+            "global_residual_rank": 3,
+            "global_plus_exact_metadata_rank": 3,
+            "regression": {
+              "alpha": -3.4541617962905854e-17,
+              "beta": 0.42147691493716316,
+              "pearson_local_global": 0.4363079006403818,
+              "var_global_sum_sq": 45.49025604132796,
+              "var_local_sum_sq": 42.45020694704966,
+              "n_directed_pairs": 56
+            },
+            "n_hand_currier_transition_classes": 1
+          },
+          {
+            "boundary_tokens": 50,
+            "global_residual_rank": 3,
+            "global_plus_exact_metadata_rank": 3,
+            "regression": {
+              "alpha": 2.201164055956875e-16,
+              "beta": 0.7016858227354168,
+              "pearson_local_global": 0.7199806483220446,
+              "var_global_sum_sq": 45.49025604132796,
+              "var_local_sum_sq": 43.20779838892671,
+              "n_directed_pairs": 56
+            },
+            "n_hand_currier_transition_classes": 1
+          },
+          {
+            "boundary_tokens": 100,
+            "global_residual_rank": 22,
+            "global_plus_exact_metadata_rank": 22,
+            "regression": {
+              "alpha": 3.490737520185872e-16,
+              "beta": 0.9940116110730864,
+              "pearson_local_global": 0.9929761020701895,
+              "var_global_sum_sq": 45.49025604132796,
+              "var_local_sum_sq": 45.58518306165767,
+              "n_directed_pairs": 56
+            },
+            "n_hand_currier_transition_classes": 1
+          },
+          {
+            "boundary_tokens": 200,
+            "global_residual_rank": 1,
+            "global_plus_exact_metadata_rank": 1,
+            "regression": {
+              "alpha": 0.0,
+              "beta": 1.0,
+              "pearson_local_global": 1.0,
+              "var_global_sum_sq": 45.49025604132796,
+              "var_local_sum_sq": 45.49025604132796,
+              "n_directed_pairs": 56
+            },
+            "n_hand_currier_transition_classes": 1
+          }
+        ],
+        "HT": [
+          {
+            "boundary_tokens": 25,
+            "global_residual_rank": 5,
+            "global_plus_exact_metadata_rank": 5,
+            "regression": {
+              "alpha": 6.970896487892282e-18,
+              "beta": 0.6037252811536467,
+              "pearson_local_global": 0.6236391224817791,
+              "var_global_sum_sq": 45.49025604132796,
+              "var_local_sum_sq": 42.63147927623233,
+              "n_directed_pairs": 56
+            },
+            "n_hand_currier_transition_classes": 1
+          },
+          {
+            "boundary_tokens": 50,
+            "global_residual_rank": 2,
+            "global_plus_exact_metadata_rank": 2,
+            "regression": {
+              "alpha": 7.574685644657655e-17,
+              "beta": 0.6955807865795631,
+              "pearson_local_global": 0.6976910323650021,
+              "var_global_sum_sq": 45.49025604132796,
+              "var_local_sum_sq": 45.215491305039826,
+              "n_directed_pairs": 56
+            },
+            "n_hand_currier_transition_classes": 1
+          },
+          {
+            "boundary_tokens": 100,
+            "global_residual_rank": 12,
+            "global_plus_exact_metadata_rank": 12,
+            "regression": {
+              "alpha": 6.052597866361056e-17,
+              "beta": 0.9770071580684482,
+              "pearson_local_global": 0.9873027863949567,
+              "var_global_sum_sq": 45.49025604132796,
+              "var_local_sum_sq": 44.546454836832545,
+              "n_directed_pairs": 56
+            },
+            "n_hand_currier_transition_classes": 1
+          },
+          {
+            "boundary_tokens": 200,
+            "global_residual_rank": 1,
+            "global_plus_exact_metadata_rank": 1,
+            "regression": {
+              "alpha": 0.0,
+              "beta": 1.0,
+              "pearson_local_global": 1.0,
+              "var_global_sum_sq": 45.49025604132796,
+              "var_local_sum_sq": 45.49025604132796,
+              "n_directed_pairs": 56
+            },
+            "n_hand_currier_transition_classes": 1
+          }
+        ]
+      },
+      "IT2a": {
+        "TH": [
+          {
+            "boundary_tokens": 25,
+            "global_residual_rank": 14,
+            "global_plus_exact_metadata_rank": 14,
+            "regression": {
+              "alpha": -1.4041883574626533e-16,
+              "beta": 0.578683846932554,
+              "pearson_local_global": 0.5804246464489393,
+              "var_global_sum_sq": 45.879746920201825,
+              "var_local_sum_sq": 45.60495613308656,
+              "n_directed_pairs": 56
+            },
+            "n_hand_currier_transition_classes": 1
+          },
+          {
+            "boundary_tokens": 50,
+            "global_residual_rank": 9,
+            "global_plus_exact_metadata_rank": 9,
+            "regression": {
+              "alpha": 1.181713550759725e-16,
+              "beta": 0.7743126003049763,
+              "pearson_local_global": 0.783183834030824,
+              "var_global_sum_sq": 45.879746920201825,
+              "var_local_sum_sq": 44.84626075505943,
+              "n_directed_pairs": 56
+            },
+            "n_hand_currier_transition_classes": 1
+          },
+          {
+            "boundary_tokens": 100,
+            "global_residual_rank": 20,
+            "global_plus_exact_metadata_rank": 20,
+            "regression": {
+              "alpha": -1.0063318283347338e-17,
+              "beta": 0.989024719767828,
+              "pearson_local_global": 0.996598209090803,
+              "var_global_sum_sq": 45.879746920201825,
+              "var_local_sum_sq": 45.185084819288306,
+              "n_directed_pairs": 56
+            },
+            "n_hand_currier_transition_classes": 1
+          },
+          {
+            "boundary_tokens": 200,
+            "global_residual_rank": 1,
+            "global_plus_exact_metadata_rank": 1,
+            "regression": {
+              "alpha": 0.0,
+              "beta": 1.0,
+              "pearson_local_global": 1.0,
+              "var_global_sum_sq": 45.879746920201825,
+              "var_local_sum_sq": 45.879746920201825,
+              "n_directed_pairs": 56
+            },
+            "n_hand_currier_transition_classes": 1
+          }
+        ],
+        "HH": [
+          {
+            "boundary_tokens": 25,
+            "global_residual_rank": 18,
+            "global_plus_exact_metadata_rank": 18,
+            "regression": {
+              "alpha": -1.5151644871164693e-16,
+              "beta": 0.5257505770972568,
+              "pearson_local_global": 0.5603605384879178,
+              "var_global_sum_sq": 45.879746920201825,
+              "var_local_sum_sq": 40.38735779078079,
+              "n_directed_pairs": 56
+            },
+            "n_hand_currier_transition_classes": 1
+          },
+          {
+            "boundary_tokens": 50,
+            "global_residual_rank": 4,
+            "global_plus_exact_metadata_rank": 4,
+            "regression": {
+              "alpha": -1.8227086884878194e-16,
+              "beta": 0.7149471439735313,
+              "pearson_local_global": 0.7412668521647119,
+              "var_global_sum_sq": 45.879746920201825,
+              "var_local_sum_sq": 42.67953952344873,
+              "n_directed_pairs": 56
+            },
+            "n_hand_currier_transition_classes": 1
+          },
+          {
+            "boundary_tokens": 100,
+            "global_residual_rank": 6,
+            "global_plus_exact_metadata_rank": 6,
+            "regression": {
+              "alpha": -2.3215347109410635e-16,
+              "beta": 0.9756224737670314,
+              "pearson_local_global": 0.9892862916992863,
+              "var_global_sum_sq": 45.879746920201825,
+              "var_local_sum_sq": 44.62113602264089,
+              "n_directed_pairs": 56
+            },
+            "n_hand_currier_transition_classes": 1
+          },
+          {
+            "boundary_tokens": 200,
+            "global_residual_rank": 1,
+            "global_plus_exact_metadata_rank": 1,
+            "regression": {
+              "alpha": 0.0,
+              "beta": 1.0,
+              "pearson_local_global": 1.0,
+              "var_global_sum_sq": 45.879746920201825,
+              "var_local_sum_sq": 45.879746920201825,
+              "n_directed_pairs": 56
+            },
+            "n_hand_currier_transition_classes": 1
+          }
+        ],
+        "TT": [
+          {
+            "boundary_tokens": 25,
+            "global_residual_rank": 6,
+            "global_plus_exact_metadata_rank": 6,
+            "regression": {
+              "alpha": -1.6051708649062319e-16,
+              "beta": 0.5600259805190441,
+              "pearson_local_global": 0.5808754390850563,
+              "var_global_sum_sq": 45.879746920201825,
+              "var_local_sum_sq": 42.645315941299636,
+              "n_directed_pairs": 56
+            },
+            "n_hand_currier_transition_classes": 1
+          },
+          {
+            "boundary_tokens": 50,
+            "global_residual_rank": 8,
+            "global_plus_exact_metadata_rank": 8,
+            "regression": {
+              "alpha": -1.2501036215040684e-16,
+              "beta": 0.7884424964099179,
+              "pearson_local_global": 0.8146764568544336,
+              "var_global_sum_sq": 45.879746920201825,
+              "var_local_sum_sq": 42.972510906647244,
+              "n_directed_pairs": 56
+            },
+            "n_hand_currier_transition_classes": 1
+          },
+          {
+            "boundary_tokens": 100,
+            "global_residual_rank": 18,
+            "global_plus_exact_metadata_rank": 18,
+            "regression": {
+              "alpha": 3.789409415316996e-18,
+              "beta": 0.9835734245788791,
+              "pearson_local_global": 0.9943251169002204,
+              "var_global_sum_sq": 45.879746920201825,
+              "var_local_sum_sq": 44.892910812388415,
+              "n_directed_pairs": 56
+            },
+            "n_hand_currier_transition_classes": 1
+          },
+          {
+            "boundary_tokens": 200,
+            "global_residual_rank": 1,
+            "global_plus_exact_metadata_rank": 1,
+            "regression": {
+              "alpha": 0.0,
+              "beta": 1.0,
+              "pearson_local_global": 1.0,
+              "var_global_sum_sq": 45.879746920201825,
+              "var_local_sum_sq": 45.879746920201825,
+              "n_directed_pairs": 56
+            },
+            "n_hand_currier_transition_classes": 1
+          }
+        ],
+        "HT": [
+          {
+            "boundary_tokens": 25,
+            "global_residual_rank": 5,
+            "global_plus_exact_metadata_rank": 5,
+            "regression": {
+              "alpha": -8.74471843803776e-17,
+              "beta": 0.6199644688081616,
+              "pearson_local_global": 0.6425320782944072,
+              "var_global_sum_sq": 45.879746920201825,
+              "var_local_sum_sq": 42.71348278607678,
+              "n_directed_pairs": 56
+            },
+            "n_hand_currier_transition_classes": 1
+          },
+          {
+            "boundary_tokens": 50,
+            "global_residual_rank": 2,
+            "global_plus_exact_metadata_rank": 2,
+            "regression": {
+              "alpha": -2.091526409516291e-16,
+              "beta": 0.7604093634995027,
+              "pearson_local_global": 0.7671772656179706,
+              "var_global_sum_sq": 45.879746920201825,
+              "var_local_sum_sq": 45.073831469653236,
+              "n_directed_pairs": 56
+            },
+            "n_hand_currier_transition_classes": 1
+          },
+          {
+            "boundary_tokens": 100,
+            "global_residual_rank": 5,
+            "global_plus_exact_metadata_rank": 5,
+            "regression": {
+              "alpha": -2.119218283978465e-16,
+              "beta": 0.9702900188438819,
+              "pearson_local_global": 0.9859825667146211,
+              "var_global_sum_sq": 45.879746920201825,
+              "var_local_sum_sq": 44.4309571449496,
+              "n_directed_pairs": 56
+            },
+            "n_hand_currier_transition_classes": 1
+          },
+          {
+            "boundary_tokens": 200,
+            "global_residual_rank": 1,
+            "global_plus_exact_metadata_rank": 1,
+            "regression": {
+              "alpha": 0.0,
+              "beta": 1.0,
+              "pearson_local_global": 1.0,
+              "var_global_sum_sq": 45.879746920201825,
+              "var_local_sum_sq": 45.879746920201825,
+              "n_directed_pairs": 56
+            },
+            "n_hand_currier_transition_classes": 1
+          }
+        ]
+      },
+      "folio_metadata_signatures": {
+        "17": {
+          "H": [
+            "1"
+          ],
+          "L": [
+            "A"
+          ]
+        },
+        "18": {
+          "H": [
+            "1"
+          ],
+          "L": [
+            "A"
+          ]
+        },
+        "19": {
+          "H": [
+            "1"
+          ],
+          "L": [
+            "A"
+          ]
+        },
+        "20": {
+          "H": [
+            "1"
+          ],
+          "L": [
+            "A"
+          ]
+        },
+        "21": {
+          "H": [
+            "1"
+          ],
+          "L": [
+            "A"
+          ]
+        },
+        "22": {
+          "H": [
+            "1"
+          ],
+          "L": [
+            "A"
+          ]
+        },
+        "23": {
+          "H": [
+            "1"
+          ],
+          "L": [
+            "A"
+          ]
+        },
+        "24": {
+          "H": [
+            "1"
+          ],
+          "L": [
+            "A"
+          ]
+        }
+      }
+    },
+    "D_f25-f32": {
+      "candidate_count": 24,
+      "ZL3b": {
+        "TH": [
+          {
+            "boundary_tokens": 25,
+            "global_residual_rank": 24,
+            "global_plus_exact_metadata_rank": 24,
+            "regression": {
+              "alpha": 7.952899232414394e-17,
+              "beta": 0.6347420487454617,
+              "pearson_local_global": 0.6416290216463594,
+              "var_global_sum_sq": 49.174581565025214,
+              "var_local_sum_sq": 48.12460888114088,
+              "n_directed_pairs": 56
+            },
+            "n_hand_currier_transition_classes": 4
+          },
+          {
+            "boundary_tokens": 50,
+            "global_residual_rank": 20,
+            "global_plus_exact_metadata_rank": 22,
+            "regression": {
+              "alpha": 7.918565853702393e-17,
+              "beta": 0.8647847667594742,
+              "pearson_local_global": 0.875977342288642,
+              "var_global_sum_sq": 49.174581565025214,
+              "var_local_sum_sq": 47.92597853148224,
+              "n_directed_pairs": 56
+            },
+            "n_hand_currier_transition_classes": 4
+          },
+          {
+            "boundary_tokens": 100,
+            "global_residual_rank": 15,
+            "global_plus_exact_metadata_rank": 15,
+            "regression": {
+              "alpha": 1.6458079690397e-16,
+              "beta": 0.998790560614172,
+              "pearson_local_global": 0.9998050468470214,
+              "var_global_sum_sq": 49.174581565025214,
+              "var_local_sum_sq": 49.074838867342315,
+              "n_directed_pairs": 56
+            },
+            "n_hand_currier_transition_classes": 4
+          },
+          {
+            "boundary_tokens": 200,
+            "global_residual_rank": 1,
+            "global_plus_exact_metadata_rank": 1,
+            "regression": {
+              "alpha": 0.0,
+              "beta": 1.0,
+              "pearson_local_global": 1.0,
+              "var_global_sum_sq": 49.174581565025214,
+              "var_local_sum_sq": 49.174581565025214,
+              "n_directed_pairs": 56
+            },
+            "n_hand_currier_transition_classes": 4
+          }
+        ],
+        "HH": [
+          {
+            "boundary_tokens": 25,
+            "global_residual_rank": 14,
+            "global_plus_exact_metadata_rank": 17,
+            "regression": {
+              "alpha": -9.959367772764875e-17,
+              "beta": 0.7078698624970493,
+              "pearson_local_global": 0.7304414949860782,
+              "var_global_sum_sq": 49.174581565025214,
+              "var_local_sum_sq": 46.18241559012648,
+              "n_directed_pairs": 56
+            },
+            "n_hand_currier_transition_classes": 4
+          },
+          {
+            "boundary_tokens": 50,
+            "global_residual_rank": 14,
+            "global_plus_exact_metadata_rank": 14,
+            "regression": {
+              "alpha": 1.1492597640102136e-17,
+              "beta": 0.9007029941190354,
+              "pearson_local_global": 0.9001084573005704,
+              "var_global_sum_sq": 49.174581565025214,
+              "var_local_sum_sq": 49.239564300170436,
+              "n_directed_pairs": 56
+            },
+            "n_hand_currier_transition_classes": 4
+          },
+          {
+            "boundary_tokens": 100,
+            "global_residual_rank": 7,
+            "global_plus_exact_metadata_rank": 7,
+            "regression": {
+              "alpha": -7.440433066078737e-17,
+              "beta": 1.0001099533509237,
+              "pearson_local_global": 0.9999358227236772,
+              "var_global_sum_sq": 49.174581565025214,
+              "var_local_sum_sq": 49.191709756872484,
+              "n_directed_pairs": 56
+            },
+            "n_hand_currier_transition_classes": 4
+          },
+          {
+            "boundary_tokens": 200,
+            "global_residual_rank": 1,
+            "global_plus_exact_metadata_rank": 1,
+            "regression": {
+              "alpha": 0.0,
+              "beta": 1.0,
+              "pearson_local_global": 1.0,
+              "var_global_sum_sq": 49.174581565025214,
+              "var_local_sum_sq": 49.174581565025214,
+              "n_directed_pairs": 56
+            },
+            "n_hand_currier_transition_classes": 4
+          }
+        ],
+        "TT": [
+          {
+            "boundary_tokens": 25,
+            "global_residual_rank": 13,
+            "global_plus_exact_metadata_rank": 12,
+            "regression": {
+              "alpha": -1.0399837209596701e-17,
+              "beta": 0.6405076086753201,
+              "pearson_local_global": 0.6641721053053653,
+              "var_global_sum_sq": 49.174581565025214,
+              "var_local_sum_sq": 45.73282150430397,
+              "n_directed_pairs": 56
+            },
+            "n_hand_currier_transition_classes": 4
+          },
+          {
+            "boundary_tokens": 50,
+            "global_residual_rank": 13,
+            "global_plus_exact_metadata_rank": 14,
+            "regression": {
+              "alpha": -4.779925484623523e-18,
+              "beta": 0.8758123730304422,
+              "pearson_local_global": 0.8882909372299904,
+              "var_global_sum_sq": 49.174581565025214,
+              "var_local_sum_sq": 47.802692977729535,
+              "n_directed_pairs": 56
+            },
+            "n_hand_currier_transition_classes": 4
+          },
+          {
+            "boundary_tokens": 100,
+            "global_residual_rank": 15,
+            "global_plus_exact_metadata_rank": 15,
+            "regression": {
+              "alpha": 1.6458079690397e-16,
+              "beta": 0.998790560614172,
+              "pearson_local_global": 0.9998050468470214,
+              "var_global_sum_sq": 49.174581565025214,
+              "var_local_sum_sq": 49.074838867342315,
+              "n_directed_pairs": 56
+            },
+            "n_hand_currier_transition_classes": 4
+          },
+          {
+            "boundary_tokens": 200,
+            "global_residual_rank": 1,
+            "global_plus_exact_metadata_rank": 1,
+            "regression": {
+              "alpha": 0.0,
+              "beta": 1.0,
+              "pearson_local_global": 1.0,
+              "var_global_sum_sq": 49.174581565025214,
+              "var_local_sum_sq": 49.174581565025214,
+              "n_directed_pairs": 56
+            },
+            "n_hand_currier_transition_classes": 4
+          }
+        ],
+        "HT": [
+          {
+            "boundary_tokens": 25,
+            "global_residual_rank": 3,
+            "global_plus_exact_metadata_rank": 3,
+            "regression": {
+              "alpha": -1.0281285951546198e-16,
+              "beta": 0.8189434729042453,
+              "pearson_local_global": 0.844095565279083,
+              "var_global_sum_sq": 49.174581565025214,
+              "var_local_sum_sq": 46.287666549968804,
+              "n_directed_pairs": 56
+            },
+            "n_hand_currier_transition_classes": 4
+          },
+          {
+            "boundary_tokens": 50,
+            "global_residual_rank": 5,
+            "global_plus_exact_metadata_rank": 4,
+            "regression": {
+              "alpha": 1.8781350186322682e-17,
+              "beta": 0.9174016710632832,
+              "pearson_local_global": 0.9183971517233139,
+              "var_global_sum_sq": 49.174581565025214,
+              "var_local_sum_sq": 49.06803547154318,
+              "n_directed_pairs": 56
+            },
+            "n_hand_currier_transition_classes": 4
+          },
+          {
+            "boundary_tokens": 100,
+            "global_residual_rank": 7,
+            "global_plus_exact_metadata_rank": 7,
+            "regression": {
+              "alpha": -7.440433066078737e-17,
+              "beta": 1.0001099533509237,
+              "pearson_local_global": 0.9999358227236772,
+              "var_global_sum_sq": 49.174581565025214,
+              "var_local_sum_sq": 49.191709756872484,
+              "n_directed_pairs": 56
+            },
+            "n_hand_currier_transition_classes": 4
+          },
+          {
+            "boundary_tokens": 200,
+            "global_residual_rank": 1,
+            "global_plus_exact_metadata_rank": 1,
+            "regression": {
+              "alpha": 0.0,
+              "beta": 1.0,
+              "pearson_local_global": 1.0,
+              "var_global_sum_sq": 49.174581565025214,
+              "var_local_sum_sq": 49.174581565025214,
+              "n_directed_pairs": 56
+            },
+            "n_hand_currier_transition_classes": 4
+          }
+        ]
+      },
+      "IT2a": {
+        "TH": [
+          {
+            "boundary_tokens": 25,
+            "global_residual_rank": 24,
+            "global_plus_exact_metadata_rank": 24,
+            "regression": {
+              "alpha": -1.225593385169777e-16,
+              "beta": 0.6341435566265297,
+              "pearson_local_global": 0.6608586664153172,
+              "var_global_sum_sq": 49.89345951488611,
+              "var_local_sum_sq": 45.94112298810462,
+              "n_directed_pairs": 56
+            },
+            "n_hand_currier_transition_classes": 4
+          },
+          {
+            "boundary_tokens": 50,
+            "global_residual_rank": 19,
+            "global_plus_exact_metadata_rank": 22,
+            "regression": {
+              "alpha": -3.082258519810269e-16,
+              "beta": 0.8767910995312779,
+              "pearson_local_global": 0.8825581608370864,
+              "var_global_sum_sq": 49.89345951488611,
+              "var_local_sum_sq": 49.24353401222471,
+              "n_directed_pairs": 56
+            },
+            "n_hand_currier_transition_classes": 4
+          },
+          {
+            "boundary_tokens": 100,
+            "global_residual_rank": 15,
+            "global_plus_exact_metadata_rank": 15,
+            "regression": {
+              "alpha": -2.434417658751158e-16,
+              "beta": 0.9975222189672676,
+              "pearson_local_global": 0.9991411383966688,
+              "var_global_sum_sq": 49.89345951488611,
+              "var_local_sum_sq": 49.731904657785336,
+              "n_directed_pairs": 56
+            },
+            "n_hand_currier_transition_classes": 4
+          },
+          {
+            "boundary_tokens": 200,
+            "global_residual_rank": 1,
+            "global_plus_exact_metadata_rank": 1,
+            "regression": {
+              "alpha": 0.0,
+              "beta": 1.0,
+              "pearson_local_global": 1.0,
+              "var_global_sum_sq": 49.89345951488611,
+              "var_local_sum_sq": 49.89345951488611,
+              "n_directed_pairs": 56
+            },
+            "n_hand_currier_transition_classes": 4
+          }
+        ],
+        "HH": [
+          {
+            "boundary_tokens": 25,
+            "global_residual_rank": 11,
+            "global_plus_exact_metadata_rank": 11,
+            "regression": {
+              "alpha": -1.5823449152214919e-16,
+              "beta": 0.7511387416479143,
+              "pearson_local_global": 0.7740381324112199,
+              "var_global_sum_sq": 49.89345951488611,
+              "var_local_sum_sq": 46.98499985222369,
+              "n_directed_pairs": 56
+            },
+            "n_hand_currier_transition_classes": 4
+          },
+          {
+            "boundary_tokens": 50,
+            "global_residual_rank": 11,
+            "global_plus_exact_metadata_rank": 11,
+            "regression": {
+              "alpha": -2.156110751724076e-16,
+              "beta": 0.8984144367591219,
+              "pearson_local_global": 0.9056253558722194,
+              "var_global_sum_sq": 49.89345951488611,
+              "var_local_sum_sq": 49.1020829088129,
+              "n_directed_pairs": 56
+            },
+            "n_hand_currier_transition_classes": 4
+          },
+          {
+            "boundary_tokens": 100,
+            "global_residual_rank": 17,
+            "global_plus_exact_metadata_rank": 17,
+            "regression": {
+              "alpha": -1.242217627285325e-16,
+              "beta": 0.999645434326802,
+              "pearson_local_global": 0.9996201940798463,
+              "var_global_sum_sq": 49.89345951488611,
+              "var_local_sum_sq": 49.89597915013547,
+              "n_directed_pairs": 56
+            },
+            "n_hand_currier_transition_classes": 4
+          },
+          {
+            "boundary_tokens": 200,
+            "global_residual_rank": 1,
+            "global_plus_exact_metadata_rank": 1,
+            "regression": {
+              "alpha": 0.0,
+              "beta": 1.0,
+              "pearson_local_global": 1.0,
+              "var_global_sum_sq": 49.89345951488611,
+              "var_local_sum_sq": 49.89345951488611,
+              "n_directed_pairs": 56
+            },
+            "n_hand_currier_transition_classes": 4
+          }
+        ],
+        "TT": [
+          {
+            "boundary_tokens": 25,
+            "global_residual_rank": 19,
+            "global_plus_exact_metadata_rank": 19,
+            "regression": {
+              "alpha": -1.357837240310389e-16,
+              "beta": 0.7356770014027683,
+              "pearson_local_global": 0.7514977699272526,
+              "var_global_sum_sq": 49.89345951488611,
+              "var_local_sum_sq": 47.81482654468069,
+              "n_directed_pairs": 56
+            },
+            "n_hand_currier_transition_classes": 4
+          },
+          {
+            "boundary_tokens": 50,
+            "global_residual_rank": 15,
+            "global_plus_exact_metadata_rank": 17,
+            "regression": {
+              "alpha": -2.2655435859670175e-16,
+              "beta": 0.8807143078623616,
+              "pearson_local_global": 0.8939225431171385,
+              "var_global_sum_sq": 49.89345951488611,
+              "var_local_sum_sq": 48.42994130601622,
+              "n_directed_pairs": 56
+            },
+            "n_hand_currier_transition_classes": 4
+          },
+          {
+            "boundary_tokens": 100,
+            "global_residual_rank": 15,
+            "global_plus_exact_metadata_rank": 15,
+            "regression": {
+              "alpha": -2.434417658751158e-16,
+              "beta": 0.9975222189672676,
+              "pearson_local_global": 0.9991411383966688,
+              "var_global_sum_sq": 49.89345951488611,
+              "var_local_sum_sq": 49.731904657785336,
+              "n_directed_pairs": 56
+            },
+            "n_hand_currier_transition_classes": 4
+          },
+          {
+            "boundary_tokens": 200,
+            "global_residual_rank": 1,
+            "global_plus_exact_metadata_rank": 1,
+            "regression": {
+              "alpha": 0.0,
+              "beta": 1.0,
+              "pearson_local_global": 1.0,
+              "var_global_sum_sq": 49.89345951488611,
+              "var_local_sum_sq": 49.89345951488611,
+              "n_directed_pairs": 56
+            },
+            "n_hand_currier_transition_classes": 4
+          }
+        ],
+        "HT": [
+          {
+            "boundary_tokens": 25,
+            "global_residual_rank": 6,
+            "global_plus_exact_metadata_rank": 6,
+            "regression": {
+              "alpha": -8.14410748472422e-17,
+              "beta": 0.8081212001851789,
+              "pearson_local_global": 0.8209393146915716,
+              "var_global_sum_sq": 49.89345951488611,
+              "var_local_sum_sq": 48.347554260040226,
+              "n_directed_pairs": 56
+            },
+            "n_hand_currier_transition_classes": 4
+          },
+          {
+            "boundary_tokens": 50,
+            "global_residual_rank": 9,
+            "global_plus_exact_metadata_rank": 6,
+            "regression": {
+              "alpha": -6.979743930697668e-17,
+              "beta": 0.9292203148015938,
+              "pearson_local_global": 0.9290429278348816,
+              "var_global_sum_sq": 49.89345951488611,
+              "var_local_sum_sq": 49.9125141658779,
+              "n_directed_pairs": 56
+            },
+            "n_hand_currier_transition_classes": 4
+          },
+          {
+            "boundary_tokens": 100,
+            "global_residual_rank": 17,
+            "global_plus_exact_metadata_rank": 17,
+            "regression": {
+              "alpha": -1.242217627285325e-16,
+              "beta": 0.999645434326802,
+              "pearson_local_global": 0.9996201940798463,
+              "var_global_sum_sq": 49.89345951488611,
+              "var_local_sum_sq": 49.89597915013547,
+              "n_directed_pairs": 56
+            },
+            "n_hand_currier_transition_classes": 4
+          },
+          {
+            "boundary_tokens": 200,
+            "global_residual_rank": 1,
+            "global_plus_exact_metadata_rank": 1,
+            "regression": {
+              "alpha": 0.0,
+              "beta": 1.0,
+              "pearson_local_global": 1.0,
+              "var_global_sum_sq": 49.89345951488611,
+              "var_local_sum_sq": 49.89345951488611,
+              "n_directed_pairs": 56
+            },
+            "n_hand_currier_transition_classes": 4
+          }
+        ]
+      },
+      "folio_metadata_signatures": {
+        "25": {
+          "H": [
+            "1"
+          ],
+          "L": [
+            "A"
+          ]
+        },
+        "26": {
+          "H": [
+            "2"
+          ],
+          "L": [
+            "B"
+          ]
+        },
+        "27": {
+          "H": [
+            "1"
+          ],
+          "L": [
+            "A"
+          ]
+        },
+        "28": {
+          "H": [
+            "1"
+          ],
+          "L": [
+            "A"
+          ]
+        },
+        "29": {
+          "H": [
+            "1"
+          ],
+          "L": [
+            "A"
+          ]
+        },
+        "30": {
+          "H": [
+            "1"
+          ],
+          "L": [
+            "A"
+          ]
+        },
+        "31": {
+          "H": [
+            "2"
+          ],
+          "L": [
+            "B"
+          ]
+        },
+        "32": {
+          "H": [
+            "1"
+          ],
+          "L": [
+            "A"
+          ]
+        }
+      }
+    },
+    "E_f33-f40": {
+      "candidate_count": 24,
+      "ZL3b": {
+        "TH": [
+          {
+            "boundary_tokens": 25,
+            "global_residual_rank": 8,
+            "global_plus_exact_metadata_rank": 13,
+            "regression": {
+              "alpha": 2.2308169533657334e-17,
+              "beta": 0.5720077819660877,
+              "pearson_local_global": 0.59116257385336,
+              "var_global_sum_sq": 50.09656119003343,
+              "var_local_sum_sq": 46.90270898131229,
+              "n_directed_pairs": 56
+            },
+            "n_hand_currier_transition_classes": 4
+          },
+          {
+            "boundary_tokens": 50,
+            "global_residual_rank": 3,
+            "global_plus_exact_metadata_rank": 11,
+            "regression": {
+              "alpha": -2.814262578428094e-17,
+              "beta": 0.706894489329104,
+              "pearson_local_global": 0.7215899179896641,
+              "var_global_sum_sq": 50.09656119003343,
+              "var_local_sum_sq": 48.0768709580754,
+              "n_directed_pairs": 56
+            },
+            "n_hand_currier_transition_classes": 4
+          },
+          {
+            "boundary_tokens": 100,
+            "global_residual_rank": 21,
+            "global_plus_exact_metadata_rank": 23,
+            "regression": {
+              "alpha": 9.109086506017938e-17,
+              "beta": 0.9624845867371575,
+              "pearson_local_global": 0.9624713179342702,
+              "var_global_sum_sq": 50.09656119003343,
+              "var_local_sum_sq": 50.097942479980176,
+              "n_directed_pairs": 56
+            },
+            "n_hand_currier_transition_classes": 4
+          },
+          {
+            "boundary_tokens": 200,
+            "global_residual_rank": 1,
+            "global_plus_exact_metadata_rank": 1,
+            "regression": {
+              "alpha": 0.0,
+              "beta": 1.0,
+              "pearson_local_global": 1.0,
+              "var_global_sum_sq": 50.09656119003343,
+              "var_local_sum_sq": 50.09656119003343,
+              "n_directed_pairs": 56
+            },
+            "n_hand_currier_transition_classes": 4
+          }
+        ],
+        "HH": [
+          {
+            "boundary_tokens": 25,
+            "global_residual_rank": 15,
+            "global_plus_exact_metadata_rank": 17,
+            "regression": {
+              "alpha": 1.1771938411429836e-16,
+              "beta": 0.3654324429583299,
+              "pearson_local_global": 0.41555279072412327,
+              "var_global_sum_sq": 50.09656119003343,
+              "var_local_sum_sq": 38.74090050032633,
+              "n_directed_pairs": 56
+            },
+            "n_hand_currier_transition_classes": 4
+          },
+          {
+            "boundary_tokens": 50,
+            "global_residual_rank": 19,
+            "global_plus_exact_metadata_rank": 20,
+            "regression": {
+              "alpha": -5.360827360677227e-17,
+              "beta": 0.7214535765403609,
+              "pearson_local_global": 0.7752549722373421,
+              "var_global_sum_sq": 50.09656119003343,
+              "var_local_sum_sq": 43.38459784610899,
+              "n_directed_pairs": 56
+            },
+            "n_hand_currier_transition_classes": 4
+          },
+          {
+            "boundary_tokens": 100,
+            "global_residual_rank": 23,
+            "global_plus_exact_metadata_rank": 24,
+            "regression": {
+              "alpha": -2.5150377291458526e-16,
+              "beta": 0.95737893526676,
+              "pearson_local_global": 0.9613988656406584,
+              "var_global_sum_sq": 50.09656119003343,
+              "var_local_sum_sq": 49.6784960835461,
+              "n_directed_pairs": 56
+            },
+            "n_hand_currier_transition_classes": 4
+          },
+          {
+            "boundary_tokens": 200,
+            "global_residual_rank": 1,
+            "global_plus_exact_metadata_rank": 1,
+            "regression": {
+              "alpha": 0.0,
+              "beta": 1.0,
+              "pearson_local_global": 1.0,
+              "var_global_sum_sq": 50.09656119003343,
+              "var_local_sum_sq": 50.09656119003343,
+              "n_directed_pairs": 56
+            },
+            "n_hand_currier_transition_classes": 4
+          }
+        ],
+        "TT": [
+          {
+            "boundary_tokens": 25,
+            "global_residual_rank": 9,
+            "global_plus_exact_metadata_rank": 13,
+            "regression": {
+              "alpha": -1.0785674542987228e-16,
+              "beta": 0.3988633724309059,
+              "pearson_local_global": 0.42091478305655533,
+              "var_global_sum_sq": 50.09656119003343,
+              "var_local_sum_sq": 44.985015167605916,
+              "n_directed_pairs": 56
+            },
+            "n_hand_currier_transition_classes": 4
+          },
+          {
+            "boundary_tokens": 50,
+            "global_residual_rank": 2,
+            "global_plus_exact_metadata_rank": 4,
+            "regression": {
+              "alpha": 1.3707570933207986e-16,
+              "beta": 0.7016462900622298,
+              "pearson_local_global": 0.7519726501243194,
+              "var_global_sum_sq": 50.09656119003343,
+              "var_local_sum_sq": 43.615443342326486,
+              "n_directed_pairs": 56
+            },
+            "n_hand_currier_transition_classes": 4
+          },
+          {
+            "boundary_tokens": 100,
+            "global_residual_rank": 12,
+            "global_plus_exact_metadata_rank": 16,
+            "regression": {
+              "alpha": 3.927064565230179e-17,
+              "beta": 0.9733718665535238,
+              "pearson_local_global": 0.9762883145834361,
+              "var_global_sum_sq": 50.09656119003343,
+              "var_local_sum_sq": 49.797703182425685,
+              "n_directed_pairs": 56
+            },
+            "n_hand_currier_transition_classes": 4
+          },
+          {
+            "boundary_tokens": 200,
+            "global_residual_rank": 1,
+            "global_plus_exact_metadata_rank": 1,
+            "regression": {
+              "alpha": 0.0,
+              "beta": 1.0,
+              "pearson_local_global": 1.0,
+              "var_global_sum_sq": 50.09656119003343,
+              "var_local_sum_sq": 50.09656119003343,
+              "n_directed_pairs": 56
+            },
+            "n_hand_currier_transition_classes": 4
+          }
+        ],
+        "HT": [
+          {
+            "boundary_tokens": 25,
+            "global_residual_rank": 18,
+            "global_plus_exact_metadata_rank": 18,
+            "regression": {
+              "alpha": -9.858311661531755e-17,
+              "beta": 0.6076872002460273,
+              "pearson_local_global": 0.658483262054368,
+              "var_global_sum_sq": 50.09656119003343,
+              "var_local_sum_sq": 42.6656742099939,
+              "n_directed_pairs": 56
+            },
+            "n_hand_currier_transition_classes": 4
+          },
+          {
+            "boundary_tokens": 50,
+            "global_residual_rank": 2,
+            "global_plus_exact_metadata_rank": 2,
+            "regression": {
+              "alpha": 2.6559209748834885e-17,
+              "beta": 0.8154284564842017,
+              "pearson_local_global": 0.8506952242591418,
+              "var_global_sum_sq": 50.09656119003343,
+              "var_local_sum_sq": 46.029011930723655,
+              "n_directed_pairs": 56
+            },
+            "n_hand_currier_transition_classes": 4
+          },
+          {
+            "boundary_tokens": 100,
+            "global_residual_rank": 18,
+            "global_plus_exact_metadata_rank": 20,
+            "regression": {
+              "alpha": -2.121701309254479e-16,
+              "beta": 0.9752941434395873,
+              "pearson_local_global": 0.9805617236331311,
+              "var_global_sum_sq": 50.09656119003343,
+              "var_local_sum_sq": 49.55976917672677,
+              "n_directed_pairs": 56
+            },
+            "n_hand_currier_transition_classes": 4
+          },
+          {
+            "boundary_tokens": 200,
+            "global_residual_rank": 1,
+            "global_plus_exact_metadata_rank": 1,
+            "regression": {
+              "alpha": 0.0,
+              "beta": 1.0,
+              "pearson_local_global": 1.0,
+              "var_global_sum_sq": 50.09656119003343,
+              "var_local_sum_sq": 50.09656119003343,
+              "n_directed_pairs": 56
+            },
+            "n_hand_currier_transition_classes": 4
+          }
+        ]
+      },
+      "IT2a": {
+        "TH": [
+          {
+            "boundary_tokens": 25,
+            "global_residual_rank": 3,
+            "global_plus_exact_metadata_rank": 9,
+            "regression": {
+              "alpha": 2.3088089576697495e-17,
+              "beta": 0.4920135590391305,
+              "pearson_local_global": 0.51323894509028,
+              "var_global_sum_sq": 50.65850342122532,
+              "var_local_sum_sq": 46.55510289489907,
+              "n_directed_pairs": 56
+            },
+            "n_hand_currier_transition_classes": 4
+          },
+          {
+            "boundary_tokens": 50,
+            "global_residual_rank": 1,
+            "global_plus_exact_metadata_rank": 4,
+            "regression": {
+              "alpha": 1.7852339290242283e-18,
+              "beta": 0.7531570179749895,
+              "pearson_local_global": 0.7897970846604573,
+              "var_global_sum_sq": 50.65850342122532,
+              "var_local_sum_sq": 46.06725739105264,
+              "n_directed_pairs": 56
+            },
+            "n_hand_currier_transition_classes": 4
+          },
+          {
+            "boundary_tokens": 100,
+            "global_residual_rank": 14,
+            "global_plus_exact_metadata_rank": 23,
+            "regression": {
+              "alpha": -9.503205514808826e-17,
+              "beta": 0.9528792832915274,
+              "pearson_local_global": 0.9580855582361748,
+              "var_global_sum_sq": 50.65850342122532,
+              "var_local_sum_sq": 50.109438669495965,
+              "n_directed_pairs": 56
+            },
+            "n_hand_currier_transition_classes": 4
+          },
+          {
+            "boundary_tokens": 200,
+            "global_residual_rank": 1,
+            "global_plus_exact_metadata_rank": 1,
+            "regression": {
+              "alpha": 0.0,
+              "beta": 1.0,
+              "pearson_local_global": 1.0,
+              "var_global_sum_sq": 50.65850342122532,
+              "var_local_sum_sq": 50.65850342122532,
+              "n_directed_pairs": 56
+            },
+            "n_hand_currier_transition_classes": 4
+          }
+        ],
+        "HH": [
+          {
+            "boundary_tokens": 25,
+            "global_residual_rank": 15,
+            "global_plus_exact_metadata_rank": 20,
+            "regression": {
+              "alpha": -1.2821377260198761e-17,
+              "beta": 0.3488636412597684,
+              "pearson_local_global": 0.3884908110751688,
+              "var_global_sum_sq": 50.65850342122532,
+              "var_local_sum_sq": 40.85096051916796,
+              "n_directed_pairs": 56
+            },
+            "n_hand_currier_transition_classes": 4
+          },
+          {
+            "boundary_tokens": 50,
+            "global_residual_rank": 2,
+            "global_plus_exact_metadata_rank": 11,
+            "regression": {
+              "alpha": -6.625382608440091e-17,
+              "beta": 0.6819113378442384,
+              "pearson_local_global": 0.7405324975559027,
+              "var_global_sum_sq": 50.65850342122532,
+              "var_local_sum_sq": 42.95561432391961,
+              "n_directed_pairs": 56
+            },
+            "n_hand_currier_transition_classes": 4
+          },
+          {
+            "boundary_tokens": 100,
+            "global_residual_rank": 21,
+            "global_plus_exact_metadata_rank": 23,
+            "regression": {
+              "alpha": 3.553308327150671e-17,
+              "beta": 0.9371935021573375,
+              "pearson_local_global": 0.9499885352189658,
+              "var_global_sum_sq": 50.65850342122532,
+              "var_local_sum_sq": 49.3030929580393,
+              "n_directed_pairs": 56
+            },
+            "n_hand_currier_transition_classes": 4
+          },
+          {
+            "boundary_tokens": 200,
+            "global_residual_rank": 1,
+            "global_plus_exact_metadata_rank": 1,
+            "regression": {
+              "alpha": 0.0,
+              "beta": 1.0,
+              "pearson_local_global": 1.0,
+              "var_global_sum_sq": 50.65850342122532,
+              "var_local_sum_sq": 50.65850342122532,
+              "n_directed_pairs": 56
+            },
+            "n_hand_currier_transition_classes": 4
+          }
+        ],
+        "TT": [
+          {
+            "boundary_tokens": 25,
+            "global_residual_rank": 2,
+            "global_plus_exact_metadata_rank": 7,
+            "regression": {
+              "alpha": -7.995941470686447e-17,
+              "beta": 0.37030469574801167,
+              "pearson_local_global": 0.3929222364950417,
+              "var_global_sum_sq": 50.65850342122532,
+              "var_local_sum_sq": 44.99430825259815,
+              "n_directed_pairs": 56
+            },
+            "n_hand_currier_transition_classes": 4
+          },
+          {
+            "boundary_tokens": 50,
+            "global_residual_rank": 3,
+            "global_plus_exact_metadata_rank": 7,
+            "regression": {
+              "alpha": 7.840844605009759e-17,
+              "beta": 0.7388867257448896,
+              "pearson_local_global": 0.7990802423309911,
+              "var_global_sum_sq": 50.65850342122532,
+              "var_local_sum_sq": 43.31390095278884,
+              "n_directed_pairs": 56
+            },
+            "n_hand_currier_transition_classes": 4
+          },
+          {
+            "boundary_tokens": 100,
+            "global_residual_rank": 7,
+            "global_plus_exact_metadata_rank": 12,
+            "regression": {
+              "alpha": -4.723294597536332e-17,
+              "beta": 0.9644329108550703,
+              "pearson_local_global": 0.9747661578812475,
+              "var_global_sum_sq": 50.65850342122532,
+              "var_local_sum_sq": 49.590160503185174,
+              "n_directed_pairs": 56
+            },
+            "n_hand_currier_transition_classes": 4
+          },
+          {
+            "boundary_tokens": 200,
+            "global_residual_rank": 1,
+            "global_plus_exact_metadata_rank": 1,
+            "regression": {
+              "alpha": 0.0,
+              "beta": 1.0,
+              "pearson_local_global": 1.0,
+              "var_global_sum_sq": 50.65850342122532,
+              "var_local_sum_sq": 50.65850342122532,
+              "n_directed_pairs": 56
+            },
+            "n_hand_currier_transition_classes": 4
+          }
+        ],
+        "HT": [
+          {
+            "boundary_tokens": 25,
+            "global_residual_rank": 7,
+            "global_plus_exact_metadata_rank": 10,
+            "regression": {
+              "alpha": -1.2219329936326026e-16,
+              "beta": 0.5741907343525748,
+              "pearson_local_global": 0.6100533550295615,
+              "var_global_sum_sq": 50.65850342122532,
+              "var_local_sum_sq": 44.877543424074375,
+              "n_directed_pairs": 56
+            },
+            "n_hand_currier_transition_classes": 4
+          },
+          {
+            "boundary_tokens": 50,
+            "global_residual_rank": 2,
+            "global_plus_exact_metadata_rank": 4,
+            "regression": {
+              "alpha": -1.4412651560151448e-16,
+              "beta": 0.8119806622974466,
+              "pearson_local_global": 0.8622843317277432,
+              "var_global_sum_sq": 50.65850342122532,
+              "var_local_sum_sq": 44.92030939447395,
+              "n_directed_pairs": 56
+            },
+            "n_hand_currier_transition_classes": 4
+          },
+          {
+            "boundary_tokens": 100,
+            "global_residual_rank": 16,
+            "global_plus_exact_metadata_rank": 21,
+            "regression": {
+              "alpha": 2.6812832988181345e-17,
+              "beta": 0.9640837437615478,
+              "pearson_local_global": 0.9778913585231033,
+              "var_global_sum_sq": 50.65850342122532,
+              "var_local_sum_sq": 49.2380288684192,
+              "n_directed_pairs": 56
+            },
+            "n_hand_currier_transition_classes": 4
+          },
+          {
+            "boundary_tokens": 200,
+            "global_residual_rank": 1,
+            "global_plus_exact_metadata_rank": 1,
+            "regression": {
+              "alpha": 0.0,
+              "beta": 1.0,
+              "pearson_local_global": 1.0,
+              "var_global_sum_sq": 50.65850342122532,
+              "var_local_sum_sq": 50.65850342122532,
+              "n_directed_pairs": 56
+            },
+            "n_hand_currier_transition_classes": 4
+          }
+        ]
+      },
+      "folio_metadata_signatures": {
+        "33": {
+          "H": [
+            "2"
+          ],
+          "L": [
+            "B"
+          ]
+        },
+        "34": {
+          "H": [
+            "2"
+          ],
+          "L": [
+            "B"
+          ]
+        },
+        "35": {
+          "H": [
+            "1"
+          ],
+          "L": [
+            "A"
+          ]
+        },
+        "36": {
+          "H": [
+            "1"
+          ],
+          "L": [
+            "A"
+          ]
+        },
+        "37": {
+          "H": [
+            "1"
+          ],
+          "L": [
+            "A"
+          ]
+        },
+        "38": {
+          "H": [
+            "1"
+          ],
+          "L": [
+            "A"
+          ]
+        },
+        "39": {
+          "H": [
+            "2"
+          ],
+          "L": [
+            "B"
+          ]
+        },
+        "40": {
+          "H": [
+            "2"
+          ],
+          "L": [
+            "B"
+          ]
+        }
+      }
+    },
+    "F_f41-f48": {
+      "candidate_count": 24,
+      "ZL3b": {
+        "TH": [
+          {
+            "boundary_tokens": 25,
+            "global_residual_rank": 5,
+            "global_plus_exact_metadata_rank": 8,
+            "regression": {
+              "alpha": -3.561832514993897e-17,
+              "beta": 0.5219906732334658,
+              "pearson_local_global": 0.5386208514887648,
+              "var_global_sum_sq": 49.680267832560425,
+              "var_local_sum_sq": 46.65982339911433,
+              "n_directed_pairs": 56
+            },
+            "n_hand_currier_transition_classes": 9
+          },
+          {
+            "boundary_tokens": 50,
+            "global_residual_rank": 20,
+            "global_plus_exact_metadata_rank": 23,
+            "regression": {
+              "alpha": -1.7703264813070401e-16,
+              "beta": 0.8096856486334625,
+              "pearson_local_global": 0.8475642800289807,
+              "var_global_sum_sq": 49.680267832560425,
+              "var_local_sum_sq": 45.33895656238505,
+              "n_directed_pairs": 56
+            },
+            "n_hand_currier_transition_classes": 9
+          },
+          {
+            "boundary_tokens": 100,
+            "global_residual_rank": 11,
+            "global_plus_exact_metadata_rank": 9,
+            "regression": {
+              "alpha": -1.8395868539215461e-16,
+              "beta": 0.9819393125461695,
+              "pearson_local_global": 0.9838910780574807,
+              "var_global_sum_sq": 49.680267832560425,
+              "var_local_sum_sq": 49.48335973874835,
+              "n_directed_pairs": 56
+            },
+            "n_hand_currier_transition_classes": 9
+          },
+          {
+            "boundary_tokens": 200,
+            "global_residual_rank": 1,
+            "global_plus_exact_metadata_rank": 1,
+            "regression": {
+              "alpha": 0.0,
+              "beta": 1.0,
+              "pearson_local_global": 1.0,
+              "var_global_sum_sq": 49.680267832560425,
+              "var_local_sum_sq": 49.680267832560425,
+              "n_directed_pairs": 56
+            },
+            "n_hand_currier_transition_classes": 9
+          }
+        ],
+        "HH": [
+          {
+            "boundary_tokens": 25,
+            "global_residual_rank": 12,
+            "global_plus_exact_metadata_rank": 13,
+            "regression": {
+              "alpha": -1.011328200338312e-16,
+              "beta": 0.555399861877718,
+              "pearson_local_global": 0.6150607032379489,
+              "var_global_sum_sq": 49.680267832560425,
+              "var_local_sum_sq": 40.509744347930386,
+              "n_directed_pairs": 56
+            },
+            "n_hand_currier_transition_classes": 9
+          },
+          {
+            "boundary_tokens": 50,
+            "global_residual_rank": 21,
+            "global_plus_exact_metadata_rank": 22,
+            "regression": {
+              "alpha": -1.1353723879520843e-16,
+              "beta": 0.7525476578552938,
+              "pearson_local_global": 0.8019782007588402,
+              "var_global_sum_sq": 49.680267832560425,
+              "var_local_sum_sq": 43.74483858306733,
+              "n_directed_pairs": 56
+            },
+            "n_hand_currier_transition_classes": 9
+          },
+          {
+            "boundary_tokens": 100,
+            "global_residual_rank": 12,
+            "global_plus_exact_metadata_rank": 8,
+            "regression": {
+              "alpha": -4.916435142033129e-17,
+              "beta": 0.9769105224790084,
+              "pearson_local_global": 0.9790901256797692,
+              "var_global_sum_sq": 49.680267832560425,
+              "var_local_sum_sq": 49.45932240486386,
+              "n_directed_pairs": 56
+            },
+            "n_hand_currier_transition_classes": 9
+          },
+          {
+            "boundary_tokens": 200,
+            "global_residual_rank": 1,
+            "global_plus_exact_metadata_rank": 1,
+            "regression": {
+              "alpha": 0.0,
+              "beta": 1.0,
+              "pearson_local_global": 1.0,
+              "var_global_sum_sq": 49.680267832560425,
+              "var_local_sum_sq": 49.680267832560425,
+              "n_directed_pairs": 56
+            },
+            "n_hand_currier_transition_classes": 9
+          }
+        ],
+        "TT": [
+          {
+            "boundary_tokens": 25,
+            "global_residual_rank": 13,
+            "global_plus_exact_metadata_rank": 15,
+            "regression": {
+              "alpha": -1.522804846203036e-16,
+              "beta": 0.7218679429326906,
+              "pearson_local_global": 0.7357704461995199,
+              "var_global_sum_sq": 49.680267832560425,
+              "var_local_sum_sq": 47.820571421493376,
+              "n_directed_pairs": 56
+            },
+            "n_hand_currier_transition_classes": 9
+          },
+          {
+            "boundary_tokens": 50,
+            "global_residual_rank": 13,
+            "global_plus_exact_metadata_rank": 16,
+            "regression": {
+              "alpha": -1.6711508816817575e-16,
+              "beta": 0.8197017405359456,
+              "pearson_local_global": 0.823513381742258,
+              "var_global_sum_sq": 49.680267832560425,
+              "var_local_sum_sq": 49.221440751036965,
+              "n_directed_pairs": 56
+            },
+            "n_hand_currier_transition_classes": 9
+          },
+          {
+            "boundary_tokens": 100,
+            "global_residual_rank": 2,
+            "global_plus_exact_metadata_rank": 2,
+            "regression": {
+              "alpha": -9.312573959595672e-17,
+              "beta": 0.9855615724019868,
+              "pearson_local_global": 0.9855127168464404,
+              "var_global_sum_sq": 49.680267832560425,
+              "var_local_sum_sq": 49.68519362845285,
+              "n_directed_pairs": 56
+            },
+            "n_hand_currier_transition_classes": 9
+          },
+          {
+            "boundary_tokens": 200,
+            "global_residual_rank": 1,
+            "global_plus_exact_metadata_rank": 1,
+            "regression": {
+              "alpha": 0.0,
+              "beta": 1.0,
+              "pearson_local_global": 1.0,
+              "var_global_sum_sq": 49.680267832560425,
+              "var_local_sum_sq": 49.680267832560425,
+              "n_directed_pairs": 56
+            },
+            "n_hand_currier_transition_classes": 9
+          }
+        ],
+        "HT": [
+          {
+            "boundary_tokens": 25,
+            "global_residual_rank": 13,
+            "global_plus_exact_metadata_rank": 14,
+            "regression": {
+              "alpha": -1.1368988854609336e-16,
+              "beta": 0.6663667863431428,
+              "pearson_local_global": 0.7105076173533464,
+              "var_global_sum_sq": 49.680267832560425,
+              "var_local_sum_sq": 43.699164806998944,
+              "n_directed_pairs": 56
+            },
+            "n_hand_currier_transition_classes": 9
+          },
+          {
+            "boundary_tokens": 50,
+            "global_residual_rank": 14,
+            "global_plus_exact_metadata_rank": 13,
+            "regression": {
+              "alpha": -1.399804263564153e-16,
+              "beta": 0.8065727251873446,
+              "pearson_local_global": 0.8413084069971756,
+              "var_global_sum_sq": 49.680267832560425,
+              "var_local_sum_sq": 45.66258934077857,
+              "n_directed_pairs": 56
+            },
+            "n_hand_currier_transition_classes": 9
+          },
+          {
+            "boundary_tokens": 100,
+            "global_residual_rank": 7,
+            "global_plus_exact_metadata_rank": 2,
+            "regression": {
+              "alpha": -1.0829956122226036e-16,
+              "beta": 0.9907467167762042,
+              "pearson_local_global": 0.9912110556499163,
+              "var_global_sum_sq": 49.680267832560425,
+              "var_local_sum_sq": 49.63373268508697,
+              "n_directed_pairs": 56
+            },
+            "n_hand_currier_transition_classes": 9
+          },
+          {
+            "boundary_tokens": 200,
+            "global_residual_rank": 1,
+            "global_plus_exact_metadata_rank": 1,
+            "regression": {
+              "alpha": 0.0,
+              "beta": 1.0,
+              "pearson_local_global": 1.0,
+              "var_global_sum_sq": 49.680267832560425,
+              "var_local_sum_sq": 49.680267832560425,
+              "n_directed_pairs": 56
+            },
+            "n_hand_currier_transition_classes": 9
+          }
+        ]
+      },
+      "IT2a": {
+        "TH": [
+          {
+            "boundary_tokens": 25,
+            "global_residual_rank": 1,
+            "global_plus_exact_metadata_rank": 1,
+            "regression": {
+              "alpha": 3.3579009761707826e-17,
+              "beta": 0.4953317509014446,
+              "pearson_local_global": 0.5175078701715585,
+              "var_global_sum_sq": 49.726680872550006,
+              "var_local_sum_sq": 45.556241757395355,
+              "n_directed_pairs": 56
+            },
+            "n_hand_currier_transition_classes": 9
+          },
+          {
+            "boundary_tokens": 50,
+            "global_residual_rank": 10,
+            "global_plus_exact_metadata_rank": 14,
+            "regression": {
+              "alpha": -1.600884482380185e-16,
+              "beta": 0.7553889614290752,
+              "pearson_local_global": 0.7940616182847,
+              "var_global_sum_sq": 49.726680872550006,
+              "var_local_sum_sq": 45.00101728556031,
+              "n_directed_pairs": 56
+            },
+            "n_hand_currier_transition_classes": 9
+          },
+          {
+            "boundary_tokens": 100,
+            "global_residual_rank": 11,
+            "global_plus_exact_metadata_rank": 10,
+            "regression": {
+              "alpha": -1.6911082373675106e-16,
+              "beta": 0.9769540079561847,
+              "pearson_local_global": 0.9816479643562358,
+              "var_global_sum_sq": 49.726680872550006,
+              "var_local_sum_sq": 49.252260674647076,
+              "n_directed_pairs": 56
+            },
+            "n_hand_currier_transition_classes": 9
+          },
+          {
+            "boundary_tokens": 200,
+            "global_residual_rank": 1,
+            "global_plus_exact_metadata_rank": 1,
+            "regression": {
+              "alpha": 0.0,
+              "beta": 1.0,
+              "pearson_local_global": 1.0,
+              "var_global_sum_sq": 49.726680872550006,
+              "var_local_sum_sq": 49.726680872550006,
+              "n_directed_pairs": 56
+            },
+            "n_hand_currier_transition_classes": 9
+          }
+        ],
+        "HH": [
+          {
+            "boundary_tokens": 25,
+            "global_residual_rank": 8,
+            "global_plus_exact_metadata_rank": 8,
+            "regression": {
+              "alpha": -4.365420237834226e-17,
+              "beta": 0.631635604701475,
+              "pearson_local_global": 0.7024827752898399,
+              "var_global_sum_sq": 49.726680872550006,
+              "var_local_sum_sq": 40.20233868163322,
+              "n_directed_pairs": 56
+            },
+            "n_hand_currier_transition_classes": 9
+          },
+          {
+            "boundary_tokens": 50,
+            "global_residual_rank": 19,
+            "global_plus_exact_metadata_rank": 21,
+            "regression": {
+              "alpha": -1.134866229915524e-16,
+              "beta": 0.7067218042561026,
+              "pearson_local_global": 0.7857554471807762,
+              "var_global_sum_sq": 49.726680872550006,
+              "var_local_sum_sq": 40.22644491283448,
+              "n_directed_pairs": 56
+            },
+            "n_hand_currier_transition_classes": 9
+          },
+          {
+            "boundary_tokens": 100,
+            "global_residual_rank": 12,
+            "global_plus_exact_metadata_rank": 9,
+            "regression": {
+              "alpha": -2.1969300463547524e-16,
+              "beta": 0.9674801483198522,
+              "pearson_local_global": 0.9742114702061415,
+              "var_global_sum_sq": 49.726680872550006,
+              "var_local_sum_sq": 49.04188109653788,
+              "n_directed_pairs": 56
+            },
+            "n_hand_currier_transition_classes": 9
+          },
+          {
+            "boundary_tokens": 200,
+            "global_residual_rank": 1,
+            "global_plus_exact_metadata_rank": 1,
+            "regression": {
+              "alpha": 0.0,
+              "beta": 1.0,
+              "pearson_local_global": 1.0,
+              "var_global_sum_sq": 49.726680872550006,
+              "var_local_sum_sq": 49.726680872550006,
+              "n_directed_pairs": 56
+            },
+            "n_hand_currier_transition_classes": 9
+          }
+        ],
+        "TT": [
+          {
+            "boundary_tokens": 25,
+            "global_residual_rank": 15,
+            "global_plus_exact_metadata_rank": 17,
+            "regression": {
+              "alpha": -1.1658353400513837e-16,
+              "beta": 0.6721819920419395,
+              "pearson_local_global": 0.6914687562820091,
+              "var_global_sum_sq": 49.726680872550006,
+              "var_local_sum_sq": 46.99136883902662,
+              "n_directed_pairs": 56
+            },
+            "n_hand_currier_transition_classes": 9
+          },
+          {
+            "boundary_tokens": 50,
+            "global_residual_rank": 16,
+            "global_plus_exact_metadata_rank": 19,
+            "regression": {
+              "alpha": -1.0345250381716308e-16,
+              "beta": 0.8081835248978299,
+              "pearson_local_global": 0.8361957708186507,
+              "var_global_sum_sq": 49.726680872550006,
+              "var_local_sum_sq": 46.45083493263217,
+              "n_directed_pairs": 56
+            },
+            "n_hand_currier_transition_classes": 9
+          },
+          {
+            "boundary_tokens": 100,
+            "global_residual_rank": 2,
+            "global_plus_exact_metadata_rank": 1,
+            "regression": {
+              "alpha": -3.4385075763725797e-16,
+              "beta": 0.9820583738440894,
+              "pearson_local_global": 0.9860432162683201,
+              "var_global_sum_sq": 49.726680872550006,
+              "var_local_sum_sq": 49.32557757020258,
+              "n_directed_pairs": 56
+            },
+            "n_hand_currier_transition_classes": 9
+          },
+          {
+            "boundary_tokens": 200,
+            "global_residual_rank": 1,
+            "global_plus_exact_metadata_rank": 1,
+            "regression": {
+              "alpha": 0.0,
+              "beta": 1.0,
+              "pearson_local_global": 1.0,
+              "var_global_sum_sq": 49.726680872550006,
+              "var_local_sum_sq": 49.726680872550006,
+              "n_directed_pairs": 56
+            },
+            "n_hand_currier_transition_classes": 9
+          }
+        ],
+        "HT": [
+          {
+            "boundary_tokens": 25,
+            "global_residual_rank": 12,
+            "global_plus_exact_metadata_rank": 14,
+            "regression": {
+              "alpha": -1.5759054128532873e-16,
+              "beta": 0.7204145742214769,
+              "pearson_local_global": 0.7458613654444547,
+              "var_global_sum_sq": 49.726680872550006,
+              "var_local_sum_sq": 46.391480095760706,
+              "n_directed_pairs": 56
+            },
+            "n_hand_currier_transition_classes": 9
+          },
+          {
+            "boundary_tokens": 50,
+            "global_residual_rank": 10,
+            "global_plus_exact_metadata_rank": 7,
+            "regression": {
+              "alpha": -1.2338826539715908e-16,
+              "beta": 0.8270179930774235,
+              "pearson_local_global": 0.8510759218092422,
+              "var_global_sum_sq": 49.726680872550006,
+              "var_local_sum_sq": 46.95510124103993,
+              "n_directed_pairs": 56
+            },
+            "n_hand_currier_transition_classes": 9
+          },
+          {
+            "boundary_tokens": 100,
+            "global_residual_rank": 5,
+            "global_plus_exact_metadata_rank": 1,
+            "regression": {
+              "alpha": -1.8671587052891394e-16,
+              "beta": 0.9786597745271873,
+              "pearson_local_global": 0.9812865549290627,
+              "var_global_sum_sq": 49.726680872550006,
+              "var_local_sum_sq": 49.46081308491708,
+              "n_directed_pairs": 56
+            },
+            "n_hand_currier_transition_classes": 9
+          },
+          {
+            "boundary_tokens": 200,
+            "global_residual_rank": 1,
+            "global_plus_exact_metadata_rank": 1,
+            "regression": {
+              "alpha": 0.0,
+              "beta": 1.0,
+              "pearson_local_global": 1.0,
+              "var_global_sum_sq": 49.726680872550006,
+              "var_local_sum_sq": 49.726680872550006,
+              "n_directed_pairs": 56
+            },
+            "n_hand_currier_transition_classes": 9
+          }
+        ]
+      },
+      "folio_metadata_signatures": {
+        "41": {
+          "H": [
+            "5"
+          ],
+          "L": [
+            "B"
+          ]
+        },
+        "42": {
+          "H": [
+            "1"
+          ],
+          "L": [
+            "A"
+          ]
+        },
+        "43": {
+          "H": [
+            "2"
+          ],
+          "L": [
+            "B"
+          ]
+        },
+        "44": {
+          "H": [
+            "1"
+          ],
+          "L": [
+            "A"
+          ]
+        },
+        "45": {
+          "H": [
+            "1"
+          ],
+          "L": [
+            "A"
+          ]
+        },
+        "46": {
+          "H": [
+            "2"
+          ],
+          "L": [
+            "B"
+          ]
+        },
+        "47": {
+          "H": [
+            "1"
+          ],
+          "L": [
+            "A"
+          ]
+        },
+        "48": {
+          "H": [
+            "5"
+          ],
+          "L": [
+            "B"
+          ]
+        }
+      }
+    },
+    "G_f49-f56": {
+      "candidate_count": 24,
+      "ZL3b": {
+        "TH": [
+          {
+            "boundary_tokens": 25,
+            "global_residual_rank": 17,
+            "global_plus_exact_metadata_rank": 15,
+            "regression": {
+              "alpha": 7.905330209842869e-17,
+              "beta": 0.523344691571122,
+              "pearson_local_global": 0.5580733914454361,
+              "var_global_sum_sq": 49.148331801139335,
+              "var_local_sum_sq": 43.2216951596522,
+              "n_directed_pairs": 56
+            },
+            "n_hand_currier_transition_classes": 4
+          },
+          {
+            "boundary_tokens": 50,
+            "global_residual_rank": 6,
+            "global_plus_exact_metadata_rank": 5,
+            "regression": {
+              "alpha": 3.74109469437433e-17,
+              "beta": 0.7508093302524868,
+              "pearson_local_global": 0.8166821576177281,
+              "var_global_sum_sq": 49.148331801139335,
+              "var_local_sum_sq": 41.53956730596828,
+              "n_directed_pairs": 56
+            },
+            "n_hand_currier_transition_classes": 4
+          },
+          {
+            "boundary_tokens": 100,
+            "global_residual_rank": 7,
+            "global_plus_exact_metadata_rank": 7,
+            "regression": {
+              "alpha": 9.300629299668156e-17,
+              "beta": 0.9887976019508202,
+              "pearson_local_global": 0.9922190463079932,
+              "var_global_sum_sq": 49.148331801139335,
+              "var_local_sum_sq": 48.80996225439416,
+              "n_directed_pairs": 56
+            },
+            "n_hand_currier_transition_classes": 4
+          },
+          {
+            "boundary_tokens": 200,
+            "global_residual_rank": 1,
+            "global_plus_exact_metadata_rank": 1,
+            "regression": {
+              "alpha": 0.0,
+              "beta": 1.0,
+              "pearson_local_global": 1.0,
+              "var_global_sum_sq": 49.148331801139335,
+              "var_local_sum_sq": 49.148331801139335,
+              "n_directed_pairs": 56
+            },
+            "n_hand_currier_transition_classes": 4
+          }
+        ],
+        "HH": [
+          {
+            "boundary_tokens": 25,
+            "global_residual_rank": 2,
+            "global_plus_exact_metadata_rank": 1,
+            "regression": {
+              "alpha": 9.473316723941846e-17,
+              "beta": 0.5682328970509192,
+              "pearson_local_global": 0.6232959748423923,
+              "var_global_sum_sq": 49.148331801139335,
+              "var_local_sum_sq": 40.84819615229387,
+              "n_directed_pairs": 56
+            },
+            "n_hand_currier_transition_classes": 4
+          },
+          {
+            "boundary_tokens": 50,
+            "global_residual_rank": 5,
+            "global_plus_exact_metadata_rank": 3,
+            "regression": {
+              "alpha": 1.5422946948877814e-16,
+              "beta": 0.7976696454393707,
+              "pearson_local_global": 0.8356362892699323,
+              "var_global_sum_sq": 49.148331801139335,
+              "var_local_sum_sq": 44.78373684907135,
+              "n_directed_pairs": 56
+            },
+            "n_hand_currier_transition_classes": 4
+          },
+          {
+            "boundary_tokens": 100,
+            "global_residual_rank": 9,
+            "global_plus_exact_metadata_rank": 7,
+            "regression": {
+              "alpha": 3.9570492961176595e-17,
+              "beta": 0.9829518971020587,
+              "pearson_local_global": 0.9904180962338727,
+              "var_global_sum_sq": 49.148331801139335,
+              "var_local_sum_sq": 48.41012211934777,
+              "n_directed_pairs": 56
+            },
+            "n_hand_currier_transition_classes": 4
+          },
+          {
+            "boundary_tokens": 200,
+            "global_residual_rank": 1,
+            "global_plus_exact_metadata_rank": 1,
+            "regression": {
+              "alpha": 0.0,
+              "beta": 1.0,
+              "pearson_local_global": 1.0,
+              "var_global_sum_sq": 49.148331801139335,
+              "var_local_sum_sq": 49.148331801139335,
+              "n_directed_pairs": 56
+            },
+            "n_hand_currier_transition_classes": 4
+          }
+        ],
+        "TT": [
+          {
+            "boundary_tokens": 25,
+            "global_residual_rank": 19,
+            "global_plus_exact_metadata_rank": 18,
+            "regression": {
+              "alpha": -3.123610660830513e-17,
+              "beta": 0.6175726485871534,
+              "pearson_local_global": 0.6335528454553989,
+              "var_global_sum_sq": 49.148331801139335,
+              "var_local_sum_sq": 46.700249077677356,
+              "n_directed_pairs": 56
+            },
+            "n_hand_currier_transition_classes": 4
+          },
+          {
+            "boundary_tokens": 50,
+            "global_residual_rank": 15,
+            "global_plus_exact_metadata_rank": 16,
+            "regression": {
+              "alpha": 2.253197219788592e-16,
+              "beta": 0.8571573372441095,
+              "pearson_local_global": 0.881843281732111,
+              "var_global_sum_sq": 49.148331801139335,
+              "var_local_sum_sq": 46.43517155567117,
+              "n_directed_pairs": 56
+            },
+            "n_hand_currier_transition_classes": 4
+          },
+          {
+            "boundary_tokens": 100,
+            "global_residual_rank": 6,
+            "global_plus_exact_metadata_rank": 6,
+            "regression": {
+              "alpha": 2.0108830911705495e-16,
+              "beta": 0.9923983707596828,
+              "pearson_local_global": 0.9955984668642999,
+              "var_global_sum_sq": 49.148331801139335,
+              "var_local_sum_sq": 48.83289013819057,
+              "n_directed_pairs": 56
+            },
+            "n_hand_currier_transition_classes": 4
+          },
+          {
+            "boundary_tokens": 200,
+            "global_residual_rank": 1,
+            "global_plus_exact_metadata_rank": 1,
+            "regression": {
+              "alpha": 0.0,
+              "beta": 1.0,
+              "pearson_local_global": 1.0,
+              "var_global_sum_sq": 49.148331801139335,
+              "var_local_sum_sq": 49.148331801139335,
+              "n_directed_pairs": 56
+            },
+            "n_hand_currier_transition_classes": 4
+          }
+        ],
+        "HT": [
+          {
+            "boundary_tokens": 25,
+            "global_residual_rank": 17,
+            "global_plus_exact_metadata_rank": 17,
+            "regression": {
+              "alpha": 1.6850797504495192e-17,
+              "beta": 0.5703552695745574,
+              "pearson_local_global": 0.5959962456284823,
+              "var_global_sum_sq": 49.148331801139335,
+              "var_local_sum_sq": 45.01037698108019,
+              "n_directed_pairs": 56
+            },
+            "n_hand_currier_transition_classes": 4
+          },
+          {
+            "boundary_tokens": 50,
+            "global_residual_rank": 19,
+            "global_plus_exact_metadata_rank": 19,
+            "regression": {
+              "alpha": 1.003852937161934e-16,
+              "beta": 0.8207061196341948,
+              "pearson_local_global": 0.8481834110257163,
+              "var_global_sum_sq": 49.148331801139335,
+              "var_local_sum_sq": 46.015545703866614,
+              "n_directed_pairs": 56
+            },
+            "n_hand_currier_transition_classes": 4
+          },
+          {
+            "boundary_tokens": 100,
+            "global_residual_rank": 4,
+            "global_plus_exact_metadata_rank": 5,
+            "regression": {
+              "alpha": -2.6594523831022674e-18,
+              "beta": 0.9884907528004873,
+              "pearson_local_global": 0.9957588152592471,
+              "var_global_sum_sq": 49.148331801139335,
+              "var_local_sum_sq": 48.43348100180352,
+              "n_directed_pairs": 56
+            },
+            "n_hand_currier_transition_classes": 4
+          },
+          {
+            "boundary_tokens": 200,
+            "global_residual_rank": 1,
+            "global_plus_exact_metadata_rank": 1,
+            "regression": {
+              "alpha": 0.0,
+              "beta": 1.0,
+              "pearson_local_global": 1.0,
+              "var_global_sum_sq": 49.148331801139335,
+              "var_local_sum_sq": 49.148331801139335,
+              "n_directed_pairs": 56
+            },
+            "n_hand_currier_transition_classes": 4
+          }
+        ]
+      },
+      "IT2a": {
+        "TH": [
+          {
+            "boundary_tokens": 25,
+            "global_residual_rank": 15,
+            "global_plus_exact_metadata_rank": 17,
+            "regression": {
+              "alpha": 9.239549391014655e-17,
+              "beta": 0.5988686646939255,
+              "pearson_local_global": 0.6334456701450992,
+              "var_global_sum_sq": 49.08978595768982,
+              "var_local_sum_sq": 43.87686339627687,
+              "n_directed_pairs": 56
+            },
+            "n_hand_currier_transition_classes": 4
+          },
+          {
+            "boundary_tokens": 50,
+            "global_residual_rank": 10,
+            "global_plus_exact_metadata_rank": 10,
+            "regression": {
+              "alpha": 1.8148628537019457e-16,
+              "beta": 0.8419237409126241,
+              "pearson_local_global": 0.8821488763613604,
+              "var_global_sum_sq": 49.08978595768982,
+              "var_local_sum_sq": 44.714963455372505,
+              "n_directed_pairs": 56
+            },
+            "n_hand_currier_transition_classes": 4
+          },
+          {
+            "boundary_tokens": 100,
+            "global_residual_rank": 12,
+            "global_plus_exact_metadata_rank": 7,
+            "regression": {
+              "alpha": 1.3122918058205867e-16,
+              "beta": 0.9843116786031383,
+              "pearson_local_global": 0.9896997779825362,
+              "var_global_sum_sq": 49.08978595768982,
+              "var_local_sum_sq": 48.556734102687884,
+              "n_directed_pairs": 56
+            },
+            "n_hand_currier_transition_classes": 4
+          },
+          {
+            "boundary_tokens": 200,
+            "global_residual_rank": 1,
+            "global_plus_exact_metadata_rank": 1,
+            "regression": {
+              "alpha": 0.0,
+              "beta": 1.0,
+              "pearson_local_global": 1.0,
+              "var_global_sum_sq": 49.08978595768982,
+              "var_local_sum_sq": 49.08978595768982,
+              "n_directed_pairs": 56
+            },
+            "n_hand_currier_transition_classes": 4
+          }
+        ],
+        "HH": [
+          {
+            "boundary_tokens": 25,
+            "global_residual_rank": 4,
+            "global_plus_exact_metadata_rank": 3,
+            "regression": {
+              "alpha": 8.942567496395664e-17,
+              "beta": 0.5874068070466797,
+              "pearson_local_global": 0.6498545539546781,
+              "var_global_sum_sq": 49.08978595768982,
+              "var_local_sum_sq": 40.10853091523008,
+              "n_directed_pairs": 56
+            },
+            "n_hand_currier_transition_classes": 4
+          },
+          {
+            "boundary_tokens": 50,
+            "global_residual_rank": 7,
+            "global_plus_exact_metadata_rank": 6,
+            "regression": {
+              "alpha": 1.2959930044131214e-16,
+              "beta": 0.7768986611526838,
+              "pearson_local_global": 0.8295419631095851,
+              "var_global_sum_sq": 49.08978595768982,
+              "var_local_sum_sq": 43.05694024847599,
+              "n_directed_pairs": 56
+            },
+            "n_hand_currier_transition_classes": 4
+          },
+          {
+            "boundary_tokens": 100,
+            "global_residual_rank": 17,
+            "global_plus_exact_metadata_rank": 14,
+            "regression": {
+              "alpha": 1.8173971780897825e-16,
+              "beta": 0.9831207130952627,
+              "pearson_local_global": 0.9902918802633531,
+              "var_global_sum_sq": 49.08978595768982,
+              "var_local_sum_sq": 48.38139592144009,
+              "n_directed_pairs": 56
+            },
+            "n_hand_currier_transition_classes": 4
+          },
+          {
+            "boundary_tokens": 200,
+            "global_residual_rank": 1,
+            "global_plus_exact_metadata_rank": 1,
+            "regression": {
+              "alpha": 0.0,
+              "beta": 1.0,
+              "pearson_local_global": 1.0,
+              "var_global_sum_sq": 49.08978595768982,
+              "var_local_sum_sq": 49.08978595768982,
+              "n_directed_pairs": 56
+            },
+            "n_hand_currier_transition_classes": 4
+          }
+        ],
+        "TT": [
+          {
+            "boundary_tokens": 25,
+            "global_residual_rank": 11,
+            "global_plus_exact_metadata_rank": 11,
+            "regression": {
+              "alpha": 1.5587212086778071e-16,
+              "beta": 0.6162158138718002,
+              "pearson_local_global": 0.6462282718878726,
+              "var_global_sum_sq": 49.08978595768982,
+              "var_local_sum_sq": 44.63596301621919,
+              "n_directed_pairs": 56
+            },
+            "n_hand_currier_transition_classes": 4
+          },
+          {
+            "boundary_tokens": 50,
+            "global_residual_rank": 12,
+            "global_plus_exact_metadata_rank": 13,
+            "regression": {
+              "alpha": 4.1187411489371295e-17,
+              "beta": 0.8576516983892635,
+              "pearson_local_global": 0.8976857382198568,
+              "var_global_sum_sq": 49.08978595768982,
+              "var_local_sum_sq": 44.80891122457206,
+              "n_directed_pairs": 56
+            },
+            "n_hand_currier_transition_classes": 4
+          },
+          {
+            "boundary_tokens": 100,
+            "global_residual_rank": 3,
+            "global_plus_exact_metadata_rank": 5,
+            "regression": {
+              "alpha": 1.7808213798458136e-17,
+              "beta": 0.9811747377014831,
+              "pearson_local_global": 0.9907103223822059,
+              "var_global_sum_sq": 49.08978595768982,
+              "var_local_sum_sq": 48.149355499650596,
+              "n_directed_pairs": 56
+            },
+            "n_hand_currier_transition_classes": 4
+          },
+          {
+            "boundary_tokens": 200,
+            "global_residual_rank": 1,
+            "global_plus_exact_metadata_rank": 1,
+            "regression": {
+              "alpha": 0.0,
+              "beta": 1.0,
+              "pearson_local_global": 1.0,
+              "var_global_sum_sq": 49.08978595768982,
+              "var_local_sum_sq": 49.08978595768982,
+              "n_directed_pairs": 56
+            },
+            "n_hand_currier_transition_classes": 4
+          }
+        ],
+        "HT": [
+          {
+            "boundary_tokens": 25,
+            "global_residual_rank": 18,
+            "global_plus_exact_metadata_rank": 17,
+            "regression": {
+              "alpha": 4.7647645708304334e-17,
+              "beta": 0.5687572935657247,
+              "pearson_local_global": 0.583228100409774,
+              "var_global_sum_sq": 49.08978595768982,
+              "var_local_sum_sq": 46.6840166672166,
+              "n_directed_pairs": 56
+            },
+            "n_hand_currier_transition_classes": 4
+          },
+          {
+            "boundary_tokens": 50,
+            "global_residual_rank": 21,
+            "global_plus_exact_metadata_rank": 20,
+            "regression": {
+              "alpha": 1.2902342953639206e-16,
+              "beta": 0.8470931497402212,
+              "pearson_local_global": 0.8780670429322123,
+              "var_global_sum_sq": 49.08978595768982,
+              "var_local_sum_sq": 45.68757679593646,
+              "n_directed_pairs": 56
+            },
+            "n_hand_currier_transition_classes": 4
+          },
+          {
+            "boundary_tokens": 100,
+            "global_residual_rank": 5,
+            "global_plus_exact_metadata_rank": 6,
+            "regression": {
+              "alpha": 9.571468829128829e-17,
+              "beta": 0.9819086010110205,
+              "pearson_local_global": 0.993254542923131,
+              "var_global_sum_sq": 49.08978595768982,
+              "var_local_sum_sq": 47.974686647304345,
+              "n_directed_pairs": 56
+            },
+            "n_hand_currier_transition_classes": 4
+          },
+          {
+            "boundary_tokens": 200,
+            "global_residual_rank": 1,
+            "global_plus_exact_metadata_rank": 1,
+            "regression": {
+              "alpha": 0.0,
+              "beta": 1.0,
+              "pearson_local_global": 1.0,
+              "var_global_sum_sq": 49.08978595768982,
+              "var_local_sum_sq": 49.08978595768982,
+              "n_directed_pairs": 56
+            },
+            "n_hand_currier_transition_classes": 4
+          }
+        ]
+      },
+      "folio_metadata_signatures": {
+        "49": {
+          "H": [
+            "1"
+          ],
+          "L": [
+            "A"
+          ]
+        },
+        "50": {
+          "H": [
+            "2"
+          ],
+          "L": [
+            "B"
+          ]
+        },
+        "51": {
+          "H": [
+            "1"
+          ],
+          "L": [
+            "A"
+          ]
+        },
+        "52": {
+          "H": [
+            "1"
+          ],
+          "L": [
+            "A"
+          ]
+        },
+        "53": {
+          "H": [
+            "1"
+          ],
+          "L": [
+            "A"
+          ]
+        },
+        "54": {
+          "H": [
+            "1"
+          ],
+          "L": [
+            "A"
+          ]
+        },
+        "55": {
+          "H": [
+            "2"
+          ],
+          "L": [
+            "B"
+          ]
+        },
+        "56": {
+          "H": [
+            "1"
+          ],
+          "L": [
+            "A"
+          ]
+        }
+      }
+    }
+  },
+  "parser_audit": {
+    "ZL3b": {
+      "uncertain_chunks": 1129,
+      "paragraph_loci": 4119,
+      "drawing_breaks": 746
+    },
+    "IT2a": {
+      "paragraph_loci": 4118,
+      "uncertain_chunks": 80,
+      "drawing_breaks": 779
+    }
+  },
+  "guardrails": [
+    "Protocol and decision thresholds were frozen before execution.",
+    "Global nuisance similarity uses full verso(source) versus full recto(target) over all directed folio pairs and never uses the correct candidate order during fitting.",
+    "The full-page predictor contains local edges, making this a conservative residualization that may remove some genuine local signal.",
+    "Whole-page is excluded from the local endpoint because local and nuisance scores coincide there.",
+    "The eight ranks per quire are correlated and summarized by one median.",
+    "Q13 and Q20 remain excluded because they motivated nonstandard-order hypotheses.",
+    "A primary FAIL closes the current edge-specific ordering interpretation for this program unless independent evidence motivates a new metric.",
+    "No semantic, language, translation or decipherment claim is tested."
+  ]
+}
