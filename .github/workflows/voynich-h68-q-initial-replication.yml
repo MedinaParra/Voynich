@@ -1,0 +1,29 @@
+name: Voynich H68 q-initial dual-transcription replication
+on:
+  workflow_dispatch:
+  pull_request:
+    branches: [research/gpt6-audit]
+    paths:
+      - 'research_gpt6/76_h68_q_initial_dual_transcription_preregistration.md'
+      - 'research_gpt6/code/q_initial_dual_transcription_h68.py'
+      - '.github/workflows/voynich-h68-q-initial-replication.yml'
+jobs:
+  q-initial-dual-transcription-h68:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: {python-version: '3.11'}
+      - name: Acquire frozen primary IVTFF corpus
+        run: curl -L --fail -o voynich_eva.txt 'https://raw.githubusercontent.com/cesarjz/Voynich/47e6a77dc9d5cd570c375f4aff710fa4a0567278/corpus/voynich_eva.txt'
+      - name: Acquire frozen independent Takahashi transcription
+        run: curl -L --fail -o IT2a-n.txt 'https://raw.githubusercontent.com/oklo/voynich_gpt/2d7c61c387ad6962de730caf73c48612bc8f6957/IT2a-n.txt'
+      - name: Run frozen H68 q-initial paired-prevalence replication
+        run: mkdir -p research_gpt6/results && python research_gpt6/code/q_initial_dual_transcription_h68.py --primary voynich_eva.txt --independent IT2a-n.txt --out research_gpt6/results/q_initial_dual_transcription_h68.json --permutations 999
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: q-initial-dual-transcription-h68-results
+          path: research_gpt6/results/q_initial_dual_transcription_h68.json
+          if-no-files-found: error
