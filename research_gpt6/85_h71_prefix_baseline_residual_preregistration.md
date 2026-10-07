@@ -2,6 +2,8 @@
 
 Status: **NOT_RUN**
 
+Preregistration frozen before any H71 residual or permutation result is inspected. This metadata-only freeze changes no hypothesis, estimator, threshold, statistic or PASS criterion below.
+
 ## Motivation and registration status
 H70 was **BLOCKED** before outcome evaluation because its hierarchical >=15-events-per-family rule left 78 pooled events against a frozen threshold of 80. Its sample audit nevertheless established, without evaluating the H70 outcome, that 122 aligned label events have at least one strict-P control with the same folio, Currier/hand, exact token length and exact first two EVA characters in both frozen transcriptions.
 
