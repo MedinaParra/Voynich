@@ -1,0 +1,29 @@
+name: H82 f68r2 center-mark label morphology
+on:
+  workflow_dispatch:
+  pull_request:
+    branches: [research/gpt6-audit]
+    paths:
+      - 'research_gpt6/106_h82_f68r2_center_mark_label_morphology_preregistration.md'
+      - 'research_gpt6/code/h82_f68r2_center_mark_label_morphology.py'
+      - '.github/workflows/h82-f68r2-center-mark-label-morphology.yml'
+
+jobs:
+  h82-f68r2-center-mark-label-morphology:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Fetch frozen external f68r2 annotation table
+        run: curl -L --fail -o star_centres_f68r2_r3.csv 'https://raw.githubusercontent.com/RN-Top/Voynich/1eb6c0d1e98fb56acaadc0095c4d88a4a1c5bed0/analyses/star_centres_f68r2_r3.csv'
+      - name: Run preregistered exploratory H82 test
+        run: mkdir -p research_gpt6/results && python research_gpt6/code/h82_f68r2_center_mark_label_morphology.py --csv star_centres_f68r2_r3.csv --out research_gpt6/results/h82_f68r2_center_mark_label_morphology.json
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: h82-f68r2-center-mark-label-morphology-results
+          path: research_gpt6/results/h82_f68r2_center_mark_label_morphology.json
+          if-no-files-found: error
