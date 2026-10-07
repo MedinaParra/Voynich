@@ -1,3 +1,4 @@
+# Trigger commit after initial workflow registration; no scientific criteria changed.
 name: H76 visual-object extraction admissibility
 on:
   workflow_dispatch:
