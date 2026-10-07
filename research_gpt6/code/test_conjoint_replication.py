@@ -106,6 +106,11 @@ class ReplicationControls(unittest.TestCase):
         self.assertEqual(result['status'],'BLOCKED_INSUFFICIENT_CLEAN_ROWS')
         self.assertFalse(result['partial_group_scored'])
 
+    def test_nonordinary_external_row_remains_in_scaling_train(self):
+        rows=[{'page':None,'x':[1.]},{'page':'f1r','x':[2.]},
+              {'page':'f103r','x':[3.]},{'page':'f105v','x':[4.]}]
+        self.assertEqual(r.outside_quire_feature_rows(rows,range(103,117)),[[1.],[2.]])
+
     def test_leave_pair_out_has_fifteen_and_six_references(self):
         group=synthetic_group();edges={'tfidf':{base.edge_key(p):float(base.edge_key(p) in {base.edge_key(x) for x in PAIRS})
                     for p in itertools.combinations(range(1,9),2)}}

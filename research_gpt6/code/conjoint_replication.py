@@ -204,6 +204,13 @@ def page_errors_to_edges(page_errors, leaves, indices):
     return result
 
 
+def outside_quire_feature_rows(rows, excluded_leaves):
+    excluded=set(excluded_leaves)
+    # Rosette paragraph loci have no ordinary numbered page ID. They are
+    # outside these frozen ordinary-page target quires and remain in train.
+    return [row['x'] for row in rows if row['page'] is None or base.leaf_number(row['page']) not in excluded]
+
+
 def timesfm_group(raw, group):
     pairs=base.canonical(group['pairs'])
     leaves=tuple(sorted(itertools.chain.from_iterable(pairs)))
@@ -219,7 +226,7 @@ def timesfm_group(raw, group):
     random.seed(20261007);np.random.seed(20261007);torch.manual_seed(20261007)
     _,metadata,_=base.parse_pages(raw,'split')
     excluded=quire_leaves(metadata,group['quire'])
-    train=[row['x'] for row in rows if row['page'] and base.leaf_number(row['page']) not in excluded]
+    train=outside_quire_feature_rows(rows,excluded)
     scales=np.maximum(np.var(np.asarray(train,dtype=np.float32),axis=0),1e-8)
     contexts={p:np.asarray(grouped[p],dtype=np.float32)[-64:] for p in ids}
     targets={p:np.asarray(grouped[p][:4],dtype=np.float32) for p in ids}
