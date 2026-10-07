@@ -1,0 +1,73 @@
+name: Voynich Quire B partial nesting
+
+on:
+  push:
+    branches:
+      - experiment/quire-b-partial-nesting
+    paths:
+      - '.github/workflows/order-quire-b-partial-nesting.yml'
+      - 'research_gpt6/code/order_quire_b_partial_nesting.py'
+      - 'research_gpt6/33_quire_b_partial_nesting_protocol.md'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  quire-b-partial-nesting:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout experimental branch
+        uses: actions/checkout@v4
+        with:
+          ref: experiment/quire-b-partial-nesting
+          fetch-depth: 0
+
+      - name: Fetch frozen transcriptions
+        run: |
+          curl -L --fail --retry 3 \
+            'https://raw.githubusercontent.com/cesarjz/Voynich/47e6a77dc9d5cd570c375f4aff710fa4a0567278/corpus/voynich_eva.txt' \
+            -o /tmp/voynich_eva.txt
+          curl -L --fail --retry 3 \
+            'https://www.voynich.nu/data/IT2a-n.txt' \
+            -o /tmp/IT2a-n.txt
+
+      - name: Run preregistered partial-nesting test
+        run: |
+          mkdir -p research_gpt6/results
+          python research_gpt6/code/order_quire_b_partial_nesting.py \
+            --zl /tmp/voynich_eva.txt \
+            --it /tmp/IT2a-n.txt \
+            --json research_gpt6/results/order_quire_b_partial_nesting.json \
+            > research_gpt6/results/order_quire_b_partial_nesting.stdout.json
+
+      - name: Record provenance
+        run: |
+          {
+            echo "workflow_commit=$(git rev-parse HEAD)"
+            echo "zl_commit=47e6a77dc9d5cd570c375f4aff710fa4a0567278"
+            echo "python=$(python --version 2>&1)"
+            sha256sum /tmp/voynich_eva.txt
+            sha256sum /tmp/IT2a-n.txt
+            sha256sum research_gpt6/33_quire_b_partial_nesting_protocol.md
+            sha256sum research_gpt6/code/order_quire_b_partial_nesting.py
+            sha256sum research_gpt6/code/order_regular_quires_metadata_control.py
+            sha256sum research_gpt6/code/order_regular_quires_nesting_scan.py
+            sha256sum research_gpt6/code/order_quire_c_nesting.py
+          } > research_gpt6/results/order_quire_b_partial_nesting_provenance.txt
+
+      - name: Commit result
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add research_gpt6/results/order_quire_b_partial_nesting.json \
+                  research_gpt6/results/order_quire_b_partial_nesting.stdout.json \
+                  research_gpt6/results/order_quire_b_partial_nesting_provenance.txt
+          if git diff --cached --quiet; then
+            echo "No result changes"
+          else
+            git commit -m "research: record Quire B partial nesting result"
+            git fetch origin experiment/quire-b-partial-nesting
+            git rebase origin/experiment/quire-b-partial-nesting
+            git push origin HEAD:experiment/quire-b-partial-nesting
+          fi
