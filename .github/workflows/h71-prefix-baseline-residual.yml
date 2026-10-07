@@ -1,3 +1,4 @@
+# Infrastructure-only retrigger; H71 preregistration and scientific code unchanged.
 name: H71 exact-prefix baseline residual
 
 on:
