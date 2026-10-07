@@ -1,0 +1,69 @@
+name: Voynich Quire G visual validation
+
+on:
+  push:
+    branches:
+      - research/gpt6-audit
+    paths:
+      - '.github/workflows/order-quire-g-visual.yml'
+      - 'research_gpt6/code/order_quire_g_visual_validation.py'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  quire-g-visual:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout research branch
+        uses: actions/checkout@v4
+        with:
+          ref: research/gpt6-audit
+          fetch-depth: 0
+
+      - name: Fetch frozen external visual profiles
+        run: |
+          git clone https://github.com/xenoglyph-ai/voynich-public.git /tmp/voynich-visual
+          cd /tmp/voynich-visual
+          git checkout d4b31a245ba8133b727dc4255278b5e8349bbe39
+          test "$(git rev-parse HEAD)" = "d4b31a245ba8133b727dc4255278b5e8349bbe39"
+
+      - name: Run frozen Quire G visual validation
+        run: |
+          mkdir -p research_gpt6/results
+          python research_gpt6/code/order_quire_g_visual_validation.py \
+            /tmp/voynich-visual/data/public/voynich_semantic_profiles \
+            --reps 1000 --seed 20261007 \
+            --json research_gpt6/results/order_quire_g_visual_validation.json \
+            > research_gpt6/results/order_quire_g_visual_validation.stdout.json
+
+      - name: Record provenance
+        run: |
+          {
+            echo "workflow_commit=$(git rev-parse HEAD)"
+            echo "external_repo=xenoglyph-ai/voynich-public"
+            echo "external_commit=d4b31a245ba8133b727dc4255278b5e8349bbe39"
+            echo "python=$(python --version 2>&1)"
+            sha256sum research_gpt6/code/order_quire_g_visual_validation.py
+            sha256sum /tmp/voynich-visual/data/public/voynich_semantic_profiles/corpus_metadata.csv
+            sha256sum /tmp/voynich-visual/data/public/voynich_semantic_profiles/voynich_profiles.json
+            sha256sum /tmp/voynich-visual/data/public/voynich_semantic_profiles/voynich_archaeology_profiles.json
+            sha256sum /tmp/voynich-visual/data/public/voynich_semantic_profiles/voynich_cryptological_profiles.json
+          } > research_gpt6/results/order_quire_g_visual_validation_provenance.txt
+
+      - name: Commit result
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add research_gpt6/results/order_quire_g_visual_validation.json \
+                  research_gpt6/results/order_quire_g_visual_validation.stdout.json \
+                  research_gpt6/results/order_quire_g_visual_validation_provenance.txt
+          if git diff --cached --quiet; then
+            echo "No result changes"
+          else
+            git commit -m "research: record frozen Quire G visual validation"
+            git fetch origin research/gpt6-audit
+            git rebase origin/research/gpt6-audit
+            git push origin HEAD:research/gpt6-audit
+          fi
