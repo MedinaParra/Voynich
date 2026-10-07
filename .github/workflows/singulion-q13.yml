@@ -6,6 +6,7 @@ on:
       - experiment/timesfm-voynich
     paths:
       - 'research_gpt6/code/singulion_q13_order.py'
+      - 'research_gpt6/code/singulion_q13_adversarial.py'
       - '.github/workflows/singulion-q13.yml'
   workflow_dispatch:
 
@@ -28,8 +29,16 @@ jobs:
             --corpus /tmp/voynich_eva.txt \
             --out research_gpt6/results/singulion_q13_order.json \
             | tee /tmp/q13.log
-      - name: Upload result
+      - name: Execute adversarial robustness audit
+        run: |
+          python research_gpt6/code/singulion_q13_adversarial.py \
+            --corpus /tmp/voynich_eva.txt \
+            --out research_gpt6/results/singulion_q13_adversarial.json \
+            | tee /tmp/q13-adversarial.log
+      - name: Upload results
         uses: actions/upload-artifact@v4
         with:
-          name: singulion-q13-result
-          path: research_gpt6/results/singulion_q13_order.json
+          name: singulion-q13-results
+          path: |
+            research_gpt6/results/singulion_q13_order.json
+            research_gpt6/results/singulion_q13_adversarial.json
