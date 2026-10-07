@@ -54,7 +54,7 @@ def parse(raw):
         ]
         out.append({
             "x":vals,
-            "folio":locus.split(",",1)[0],
+            "folio":re.sub(r"\.\d+$","",locus.split(",",1)[0]),
             "quire":meta.get("Q","?"),
             "currier":meta.get("L","?"),
             "hand":meta.get("H","?"),
@@ -157,11 +157,12 @@ def ablate(ctx,meta,rng,name):
         return z
     raise ValueError(name)
 
-def score_ablations(model,X,rows,context,h,folds,scales,seed):
-    names=[
-        "shuffle_folio_blocks","shuffle_lines_within_folio","reverse_context",
-        "channel_shuffle","flatten_structure","flatten_morphology"
-    ]
+def score_ablations(model,X,rows,context,h,folds,scales,seed,names=None):
+    if names is None:
+        names=[
+            "shuffle_folio_blocks","shuffle_lines_within_folio","reverse_context",
+            "channel_shuffle","flatten_structure","flatten_morphology"
+        ]
     out={n:[] for n in names}; base=[]
     for fi,(start,end) in enumerate(folds_for(X,h,folds)):
         ctx=X[start-context:start]; y=X[start:end]; meta=rows[start-context:start]
@@ -230,6 +231,7 @@ def main():
     ap.add_argument("--folds",type=int,default=6)
     ap.add_argument("--ablation-context",type=int,default=128)
     ap.add_argument("--seed",type=int,default=20261007)
+    ap.add_argument("--only-folio",action="store_true")
     a=ap.parse_args()
     b=a.corpus.read_bytes()
     if blob_sha(b)!=BLOB: raise SystemExit("Corpus blob mismatch")
@@ -239,7 +241,31 @@ def main():
         raise SystemExit("Insufficient rows for requested contexts")
     fit_end=len(X)-a.horizon*a.folds
     scales=np.maximum(np.var(X[:fit_end],axis=0),1e-8)
+    folio_counts=Counter(r["folio"] for r in rows)
+    repeated_folios=sum(v>1 for v in folio_counts.values())
+    if repeated_folios == 0:
+        raise SystemExit("Folio parser invariant failed: every row has a unique folio")
     model=load_model(max(max(contexts),a.ablation_context),a.horizon)
+
+    if a.only_folio:
+        audit=score_ablations(
+            model,X,rows,a.ablation_context,a.horizon,a.folds,scales,a.seed,
+            names=["shuffle_folio_blocks","shuffle_lines_within_folio"]
+        )
+        result={
+            "classification":"PACS_FOLIO_PATCH_AUDIT_NOT_DECIPHERMENT",
+            "status":"PASS_EXECUTED",
+            "source_blob":BLOB,"model":MODEL,"seed":a.seed,
+            "rows":len(X),"unique_folios":len(folio_counts),
+            "folios_with_multiple_rows":repeated_folios,
+            "evaluation":{"horizon":a.horizon,"folds":a.folds,"context":a.ablation_context},
+            "context_ablation_matrix":audit,
+            "parser_fix":"line suffix stripped from locus before folio grouping"
+        }
+        a.out.parent.mkdir(parents=True,exist_ok=True)
+        a.out.write_text(json.dumps(result,indent=2)+"\n")
+        print(json.dumps(result,indent=2))
+        return
 
     real_spectrum=score_condition(model,X,contexts,a.horizon,a.folds,scales)
     ablations=score_ablations(model,X,rows,a.ablation_context,a.horizon,a.folds,scales,a.seed)
