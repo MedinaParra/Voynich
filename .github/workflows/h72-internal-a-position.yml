@@ -1,3 +1,4 @@
+# Infrastructure-only retrigger; H72 preregistration and scientific code unchanged.
 name: H72 internal a position localization
 
 on:
