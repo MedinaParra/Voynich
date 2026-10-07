@@ -1,3 +1,4 @@
+# Infrastructure-only retrigger; H85 scientific protocol remains frozen.
 name: H85 IT-GC ordinal-token transcription disagreement
 
 on:
