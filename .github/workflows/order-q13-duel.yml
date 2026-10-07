@@ -59,5 +59,7 @@ jobs:
             echo "No result changes"
           else
             git commit -m "research: record direct Q13 sequence duel"
+            git fetch origin research/gpt6-audit
+            git rebase origin/research/gpt6-audit
             git push origin HEAD:research/gpt6-audit
           fi
