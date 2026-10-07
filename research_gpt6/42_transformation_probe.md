@@ -69,7 +69,9 @@ python -m unittest discover -s research_gpt6/code -p test_transformation_probe.p
 python research_gpt6/code/transformation_probe.py --corpus voynich_eva.txt --inventory research_gpt6/data/transformation_inventory.json --plan research_gpt6/data/transformation_plan.json --predictions research_gpt6/results/transformation_predictions.json --out research_gpt6/results/transformation_result.json
 ```
 
-Python 3.12.14, solo biblioteca estándar. Comandos reales, códigos de salida cero y hashes en `results/transformation_checks.json`. El resultado incluye los 25 casos excluidos y sus motivos; las predicciones completas están conservadas. El workflow de doble perspectiva incorporará ambos comandos. Su ejecución remota se comprobará con los logs antes de afirmar reproducción.
+Python local 3.12.14, solo biblioteca estándar. Comandos reales, códigos de salida cero y hashes en `results/transformation_checks.json`. El resultado incluye los 25 casos excluidos y sus motivos; las predicciones completas están conservadas.
+
+La [ejecución de GitHub Actions 37565664707](https://github.com/MedinaParra/Voynich/actions/runs/37565664707), sobre el commit `8b7e1befee4d701ed0abf4b05671b44aff0b921d`, terminó con éxito. El job `112612670252` pasó los diez controles de transformación y ejecutó el generador en Python 3.12.15. Se cotejaron los logs reales: coinciden 19 campos del resultado, las diez filas de generación/rango y el SHA-256 de las predicciones completas (`ddc626608907bdfcbb6a43887e80c7e1bb67f22f82578f47b6b2a79e019ff1c8`). La auditoría está en `results/transformation_ci_audit.json`. Se comprobó el hash que el programa escribió en el log; no se descargó el artefacto ni se comparó todo el JSON de resultado. Esta reproducción valida la ejecución del piloto y sus ceros; no agrega evidencia semántica.
 
 ## Decisión y límite
 
