@@ -1,3 +1,4 @@
+# Registered-workflow retrigger only; no H84 scientific criteria changed.
 name: H84 astronomical label hapax exact-length robustness
 on:
   workflow_dispatch:
