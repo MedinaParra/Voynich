@@ -1,0 +1,32 @@
+name: Voynich two-view metadata harness
+on:
+  workflow_dispatch:
+  pull_request:
+    branches: [research/gpt6-audit]
+    paths:
+      - 'research_gpt6/code/dual_perspective_harness.py'
+      - 'research_gpt6/code/test_dual_perspective_harness.py'
+      - '.github/workflows/dual-perspective-voynich.yml'
+jobs:
+  two-view-controls:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    env:
+      OPENBLAS_NUM_THREADS: '1'
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: {python-version: '3.12'}
+      - run: pip install 'numpy==2.3.5'
+      - name: Verify scientific failure-mode controls
+        run: python -m unittest discover -s research_gpt6/code -p test_dual_perspective_harness.py -v
+      - name: Fetch frozen corpus
+        run: curl -L --fail -o voynich_eva.txt 'https://raw.githubusercontent.com/cesarjz/Voynich/47e6a77dc9d5cd570c375f4aff710fa4a0567278/corpus/voynich_eva.txt'
+      - name: Run exploratory metadata test with semantic gate
+        run: python research_gpt6/code/dual_perspective_harness.py --corpus voynich_eva.txt --out research_gpt6/results/dual_perspective_result.json --permutations 999
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: two-view-metadata-results
+          path: research_gpt6/results/dual_perspective_result.json
+          if-no-files-found: warn
