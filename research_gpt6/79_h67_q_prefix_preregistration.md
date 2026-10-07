@@ -30,7 +30,7 @@ For each eligible label type independently in each source, select one strict-P t
 - is not itself an aligned label type;
 - falls in the same strict-P frequency bin as the label token's strict-P frequency.
 
-Frequency bins: `0`, `1`, `2`, `3-4`, `5-8`, `9+` occurrences. Selection is deterministic with seed `20261007` after sorting candidates lexicographically.
+Frequency bins: `0-1`, `2`, `3-4`, `5-8`, `9+` occurrences. The `0-1` bin is frozen before execution because a strict-P control type cannot literally have frequency zero; combining 0 and 1 avoids an impossible matching stratum while preserving rare-type matching. Selection is deterministic with seed `20261007` after sorting candidates lexicographically.
 
 For each matched control `u`, define q-counterpart indicator as 1 iff `q+u` occurs in strict P in the same group.
 
