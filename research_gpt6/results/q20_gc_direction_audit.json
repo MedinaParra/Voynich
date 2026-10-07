@@ -1,0 +1,74 @@
+{
+  "status": "Q20_GC_V101_INDEPENDENT_DIRECTION_AUDIT",
+  "source": {
+    "file": "GC2a-n.txt",
+    "header": "#=IVTFF v101 2.0 M 6",
+    "version_note": "IVTFF version 2a; modified 25/06/2025",
+    "transcriber": "Glen Claston",
+    "alphabet": "v101"
+  },
+  "method": {
+    "windows_lines": [2,3,4,5,6,7,8],
+    "components": ["token_tfidf", "v101_glyph_3_5gram_tfidf", "last_to_first_token_tfidf"],
+    "normalization": "z-score each component across all 20 directed pairs; equal mean",
+    "token_glyph_ablation_reported": true
+  },
+  "arrows": {
+    "S3_105|114->S5_107|112": {
+      "combined_margins_k2_to_k8": [0.5600744307,0.1736740112,0.3125420038,0.3285962867,0.5582731946,0.4890530380,0.1880349015],
+      "token_glyph_margins_k2_to_k8": [0.8401116461,0.2605110169,0.4688130057,0.4928944301,0.8374097919,0.7335795571,0.2820523523],
+      "positive_combined_windows": "7/7",
+      "classification": "ROBUST_POSITIVE_GC"
+    },
+    "S4_106|113->S5_107|112": {
+      "combined_margins_k2_to_k8": [0.8789873766,1.0125746175,0.5736648549,0.4819147403,0.9320989445,0.6961424742,1.1371457641],
+      "token_glyph_margins_k2_to_k8": [1.3184810649,1.5188619263,0.8604972823,0.7228721105,1.3981484168,1.0442137112,1.7057186461],
+      "positive_combined_windows": "7/7",
+      "classification": "ROBUST_POSITIVE_GC"
+    },
+    "S4_106|113->S6_108|111": {
+      "combined_margins_k2_to_k8": [0.1529696725,0.4089888813,0.0915244378,-2.7352091709,-1.5221072458,-1.2931610994,-0.9558631562],
+      "token_glyph_margins_k2_to_k8": [0.2294545088,0.6134833220,0.1372866567,-1.8086564177,-0.6379905230,-0.2730749824,0.2328719324],
+      "positive_combined_windows": "3/7",
+      "classification": "DOWNGRADED_MIXED_GC"
+    },
+    "S4_106|113->S2_104|115": {
+      "combined_margins_k2_to_k8": [-0.8343536796,-0.5209480359,-0.0174166404,-1.1141332081,-0.5638459037,-0.6364297363,0.0027840181],
+      "token_glyph_margins_k2_to_k8": [-1.2515305194,-0.7814220539,-0.0261249607,-1.6711998121,-0.8457688556,-0.9546446045,0.0041760272],
+      "positive_combined_windows": "1/7",
+      "classification": "NOT_REPLICATED_GC"
+    }
+  },
+  "candidate_direct_boundary_path": {
+    "order": ["S3_105|114","S4_106|113","S5_107|112","S2_104|115","S6_108|111"],
+    "full_metric_ranks_k2_to_k8_out_of_120": [13,64,24,33,25,41,38],
+    "token_glyph_ranks_k2_to_k8_out_of_120": [13,64,24,20,11,25,19],
+    "interpretation": "NOT_A_STABLE_DIRECT_CONTINUATION_CHAIN"
+  },
+  "recalibrated_order_selection": {
+    "constraints": [
+      "external endpoint S3_105|114 first",
+      "external endpoint S1_103|116 last",
+      "GC-robust precedence S3_105|114 before S5_107|112",
+      "GC-robust precedence S4_106|113 before S5_107|112"
+    ],
+    "n_orders": 12,
+    "candidate": ["S3_105|114","S4_106|113","S5_107|112","S2_104|115","S6_108|111","S1_103|116"],
+    "candidate_bootstrap_edge_sum": 2.560,
+    "candidate_residual_edge_sum": 1.9413276674,
+    "rank_bootstrap_out_of_12": 1,
+    "rank_residual_out_of_12": 1
+  },
+  "interpretation": {
+    "robust_in_independent_gc": ["S3_105|114->S5_107|112","S4_106|113->S5_107|112"],
+    "downgraded_after_independent_gc": ["S4_106|113->S6_108|111","S4_106|113->S2_104|115"],
+    "main_result": "The Q20 candidate survives after removing two non-replicated directional assumptions: among the 12 orders allowed by independent GC-robust precedence plus external endpoints, it ranks first under both previously frozen symmetric criteria."
+  },
+  "guardrails": [
+    "GC/v101 is genuinely independent of the EVA/Takahashi lineage and uses a different alphabet.",
+    "Pairwise precedence is not immediate adjacency or narrative continuation.",
+    "Exact last-token/first-token matching is sparse in v101; token+glyph ablation is therefore included.",
+    "Sensitivity across 2-8 lines is exploratory and not a historical probability.",
+    "The two S1-terminal arrows were not included in this symmetric GC audit."
+  ]
+}
