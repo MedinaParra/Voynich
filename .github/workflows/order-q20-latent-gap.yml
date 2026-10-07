@@ -1,0 +1,60 @@
+name: Voynich Q20 latent gap
+
+on:
+  push:
+    branches:
+      - research/gpt6-audit
+    paths:
+      - '.github/workflows/order-q20-latent-gap.yml'
+      - 'research_gpt6/code/order_q20_latent_gap.py'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  q20-latent-gap:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout research branch
+        uses: actions/checkout@v4
+        with:
+          ref: research/gpt6-audit
+          fetch-depth: 0
+
+      - name: Run latent-gap localization
+        run: |
+          mkdir -p research_gpt6/results
+          python research_gpt6/code/order_q20_latent_gap.py \
+            research_gpt6/results/order_bootstrap_stability.json \
+            research_gpt6/results/q20_order_controls.json \
+            research_gpt6/results/order_q20_pareto_codicology.json \
+            --json research_gpt6/results/order_q20_latent_gap.json \
+            > research_gpt6/results/order_q20_latent_gap.stdout.json
+
+      - name: Record provenance
+        run: |
+          {
+            echo "workflow_commit=$(git rev-parse HEAD)"
+            echo "python=$(python --version 2>&1)"
+            sha256sum research_gpt6/code/order_q20_latent_gap.py
+            sha256sum research_gpt6/results/order_bootstrap_stability.json
+            sha256sum research_gpt6/results/q20_order_controls.json
+            sha256sum research_gpt6/results/order_q20_pareto_codicology.json
+          } > research_gpt6/results/order_q20_latent_gap_provenance.txt
+
+      - name: Commit result
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add research_gpt6/results/order_q20_latent_gap.json \
+                  research_gpt6/results/order_q20_latent_gap.stdout.json \
+                  research_gpt6/results/order_q20_latent_gap_provenance.txt
+          if git diff --cached --quiet; then
+            echo "No result changes"
+          else
+            git commit -m "research: record Q20 latent-gap localization"
+            git fetch origin research/gpt6-audit
+            git rebase origin/research/gpt6-audit
+            git push origin HEAD:research/gpt6-audit
+          fi
