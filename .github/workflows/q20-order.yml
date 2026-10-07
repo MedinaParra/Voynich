@@ -9,6 +9,7 @@ on:
       - 'research_gpt6/code/order_q20_openpath.py'
       - 'research_gpt6/code/order_q20_controls.py'
       - 'research_gpt6/code/order_q13_openpath.py'
+      - 'research_gpt6/code/order_bootstrap_stability.py'
   workflow_dispatch:
 
 permissions:
@@ -53,6 +54,14 @@ jobs:
             --json research_gpt6/results/q13_order.json \
             > research_gpt6/results/q13_order.stdout.json
 
+      - name: Run bootstrap ordering stability
+        run: |
+          python research_gpt6/code/order_bootstrap_stability.py \
+            /tmp/voynich-corpus/corpus/voynich_eva.txt \
+            --reps 1000 --seed 20261007 \
+            --json research_gpt6/results/order_bootstrap_stability.json \
+            > research_gpt6/results/order_bootstrap_stability.stdout.json
+
       - name: Record provenance
         run: |
           {
@@ -63,6 +72,7 @@ jobs:
             sha256sum research_gpt6/code/order_q20_openpath.py
             sha256sum research_gpt6/code/order_q20_controls.py
             sha256sum research_gpt6/code/order_q13_openpath.py
+            sha256sum research_gpt6/code/order_bootstrap_stability.py
           } > research_gpt6/results/ordering_provenance.txt
 
       - name: Commit benchmark output
@@ -75,10 +85,12 @@ jobs:
                   research_gpt6/results/q20_order_controls.stdout.json \
                   research_gpt6/results/q13_order.json \
                   research_gpt6/results/q13_order.stdout.json \
+                  research_gpt6/results/order_bootstrap_stability.json \
+                  research_gpt6/results/order_bootstrap_stability.stdout.json \
                   research_gpt6/results/ordering_provenance.txt
           if git diff --cached --quiet; then
             echo "No result changes"
           else
-            git commit -m "research: record Q13 and Q20 ordering benchmarks"
+            git commit -m "research: record ordering robustness benchmarks"
             git push origin HEAD:research/gpt6-audit
           fi
