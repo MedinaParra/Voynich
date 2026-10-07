@@ -52,13 +52,13 @@ jobs:
       - run: curl -L --fail -o voynich_eva.txt 'https://raw.githubusercontent.com/cesarjz/Voynich/47e6a77dc9d5cd570c375f4aff710fa4a0567278/corpus/voynich_eva.txt'
       - name: Run rolling baseline
         run: mkdir -p research_gpt6/results && python research_gpt6/code/timesfm_rolling.py --corpus voynich_eva.txt --out research_gpt6/results/timesfm_rolling.json --context 128 --horizon 16 --folds 8
-      - name: Run PACS predictive dependency spectrum and ablations
-        run: python research_gpt6/code/pacs_timesfm.py --corpus voynich_eva.txt --out research_gpt6/results/pacs_timesfm.json --contexts 32,64,128,256,512 --horizon 16 --folds 4 --ablation-context 128 --seed 20261007
+      - name: Run corrected folio-only PACS audit
+        run: python research_gpt6/code/pacs_timesfm.py --corpus voynich_eva.txt --out research_gpt6/results/pacs_folio_audit.json --contexts 32,64,128,256,512 --horizon 16 --folds 4 --ablation-context 128 --seed 20261007 --only-folio
       - uses: actions/upload-artifact@v4
         if: always()
         with:
-          name: timesfm-and-pacs-results
+          name: timesfm-and-pacs-folio-audit
           path: |
             research_gpt6/results/timesfm_rolling.json
-            research_gpt6/results/pacs_timesfm.json
+            research_gpt6/results/pacs_folio_audit.json
           if-no-files-found: warn
