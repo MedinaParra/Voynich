@@ -1,3 +1,4 @@
+# Infrastructure-only retrigger; H86 scientific protocol remains frozen.
 name: H86 triangular label stability replication
 
 on:
