@@ -13,6 +13,9 @@ on:
       - 'research_gpt6/code/test_transformation_probe.py'
       - 'research_gpt6/data/transformation_inventory.json'
       - 'research_gpt6/data/transformation_plan.json'
+      - 'research_gpt6/code/local_copy_probe.py'
+      - 'research_gpt6/code/test_local_copy_probe.py'
+      - 'research_gpt6/data/local_copy_plan.json'
       - '.github/workflows/dual-perspective-voynich.yml'
 jobs:
   two-view-controls:
@@ -39,6 +42,10 @@ jobs:
         run: python -m unittest discover -s research_gpt6/code -p test_transformation_probe.py -v
       - name: Run bounded transformation generation
         run: python research_gpt6/code/transformation_probe.py --corpus voynich_eva.txt --inventory research_gpt6/data/transformation_inventory.json --plan research_gpt6/data/transformation_plan.json --predictions research_gpt6/results/transformation_predictions.json --out research_gpt6/results/transformation_result.json
+      - name: Verify local-copy probability and failure controls
+        run: python -m unittest discover -s research_gpt6/code -p test_local_copy_probe.py -v
+      - name: Run local-copy held-leaf mechanism probe
+        run: python research_gpt6/code/local_copy_probe.py --corpus voynich_eva.txt --plan research_gpt6/data/local_copy_plan.json --out research_gpt6/results/local_copy_result.json --samples research_gpt6/results/local_copy_generated_examples.json
       - uses: actions/upload-artifact@v4
         if: always()
         with:
@@ -48,4 +55,6 @@ jobs:
             research_gpt6/results/internal_reuse_result.json
             research_gpt6/results/transformation_result.json
             research_gpt6/results/transformation_predictions.json
+            research_gpt6/results/local_copy_result.json
+            research_gpt6/results/local_copy_generated_examples.json
           if-no-files-found: warn
