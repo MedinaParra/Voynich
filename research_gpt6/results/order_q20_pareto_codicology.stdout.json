@@ -1,0 +1,1432 @@
+{
+  "status": "Q20_CODICOLOGY_CONSTRAINED_PARETO",
+  "endpoint_working_hypotheses": {
+    "first": "S3_105|114",
+    "last": "S1_103|116",
+    "n_orders": 24
+  },
+  "stable_direction_precedence_constraints": [
+    [
+      "S6_108|111",
+      "S1_103|116"
+    ],
+    [
+      "S3_105|114",
+      "S5_107|112"
+    ],
+    [
+      "S4_106|113",
+      "S5_107|112"
+    ],
+    [
+      "S4_106|113",
+      "S6_108|111"
+    ],
+    [
+      "S4_106|113",
+      "S2_104|115"
+    ],
+    [
+      "S2_104|115",
+      "S1_103|116"
+    ]
+  ],
+  "pareto_frontier": [
+    {
+      "order": [
+        "S3_105|114",
+        "S4_106|113",
+        "S5_107|112",
+        "S2_104|115",
+        "S6_108|111",
+        "S1_103|116"
+      ],
+      "metrics": {
+        "bootstrap_edge_sum": 2.56,
+        "bootstrap_edge_mean": 0.512,
+        "residual_edge_sum": 1.9413276673924615,
+        "direction_constraints_satisfied": 6,
+        "direction_constraints_total": 6,
+        "edges": [
+          [
+            "S3_105|114",
+            "S4_106|113"
+          ],
+          [
+            "S4_106|113",
+            "S5_107|112"
+          ],
+          [
+            "S2_104|115",
+            "S5_107|112"
+          ],
+          [
+            "S2_104|115",
+            "S6_108|111"
+          ],
+          [
+            "S1_103|116",
+            "S6_108|111"
+          ]
+        ]
+      },
+      "global_ranks_out_of_720": {
+        "bootstrap_edge_sum": 64,
+        "residual_edge_sum": 20,
+        "direction_constraints_satisfied": 4
+      }
+    },
+    {
+      "order": [
+        "S3_105|114",
+        "S5_107|112",
+        "S4_106|113",
+        "S2_104|115",
+        "S6_108|111",
+        "S1_103|116"
+      ],
+      "metrics": {
+        "bootstrap_edge_sum": 3.217,
+        "bootstrap_edge_mean": 0.6434,
+        "residual_edge_sum": 2.3589588057526907,
+        "direction_constraints_satisfied": 5,
+        "direction_constraints_total": 6,
+        "edges": [
+          [
+            "S3_105|114",
+            "S5_107|112"
+          ],
+          [
+            "S4_106|113",
+            "S5_107|112"
+          ],
+          [
+            "S2_104|115",
+            "S4_106|113"
+          ],
+          [
+            "S2_104|115",
+            "S6_108|111"
+          ],
+          [
+            "S1_103|116",
+            "S6_108|111"
+          ]
+        ]
+      },
+      "global_ranks_out_of_720": {
+        "bootstrap_edge_sum": 6,
+        "residual_edge_sum": 6,
+        "direction_constraints_satisfied": 49
+      }
+    },
+    {
+      "order": [
+        "S3_105|114",
+        "S5_107|112",
+        "S2_104|115",
+        "S4_106|113",
+        "S6_108|111",
+        "S1_103|116"
+      ],
+      "metrics": {
+        "bootstrap_edge_sum": 3.06,
+        "bootstrap_edge_mean": 0.612,
+        "residual_edge_sum": 2.62246786643654,
+        "direction_constraints_satisfied": 4,
+        "direction_constraints_total": 6,
+        "edges": [
+          [
+            "S3_105|114",
+            "S5_107|112"
+          ],
+          [
+            "S2_104|115",
+            "S5_107|112"
+          ],
+          [
+            "S2_104|115",
+            "S4_106|113"
+          ],
+          [
+            "S4_106|113",
+            "S6_108|111"
+          ],
+          [
+            "S1_103|116",
+            "S6_108|111"
+          ]
+        ]
+      },
+      "global_ranks_out_of_720": {
+        "bootstrap_edge_sum": 10,
+        "residual_edge_sum": 4,
+        "direction_constraints_satisfied": 178
+      }
+    }
+  ],
+  "top10_by_each_criterion": {
+    "bootstrap_edge_sum": [
+      {
+        "rank": 1,
+        "order": [
+          "S3_105|114",
+          "S5_107|112",
+          "S4_106|113",
+          "S2_104|115",
+          "S6_108|111",
+          "S1_103|116"
+        ],
+        "metrics": {
+          "bootstrap_edge_sum": 3.217,
+          "bootstrap_edge_mean": 0.6434,
+          "residual_edge_sum": 2.3589588057526907,
+          "direction_constraints_satisfied": 5,
+          "direction_constraints_total": 6,
+          "edges": [
+            [
+              "S3_105|114",
+              "S5_107|112"
+            ],
+            [
+              "S4_106|113",
+              "S5_107|112"
+            ],
+            [
+              "S2_104|115",
+              "S4_106|113"
+            ],
+            [
+              "S2_104|115",
+              "S6_108|111"
+            ],
+            [
+              "S1_103|116",
+              "S6_108|111"
+            ]
+          ]
+        },
+        "global_ranks_out_of_720": {
+          "bootstrap_edge_sum": 6,
+          "residual_edge_sum": 6,
+          "direction_constraints_satisfied": 49
+        }
+      },
+      {
+        "rank": 2,
+        "order": [
+          "S3_105|114",
+          "S5_107|112",
+          "S2_104|115",
+          "S4_106|113",
+          "S6_108|111",
+          "S1_103|116"
+        ],
+        "metrics": {
+          "bootstrap_edge_sum": 3.06,
+          "bootstrap_edge_mean": 0.612,
+          "residual_edge_sum": 2.62246786643654,
+          "direction_constraints_satisfied": 4,
+          "direction_constraints_total": 6,
+          "edges": [
+            [
+              "S3_105|114",
+              "S5_107|112"
+            ],
+            [
+              "S2_104|115",
+              "S5_107|112"
+            ],
+            [
+              "S2_104|115",
+              "S4_106|113"
+            ],
+            [
+              "S4_106|113",
+              "S6_108|111"
+            ],
+            [
+              "S1_103|116",
+              "S6_108|111"
+            ]
+          ]
+        },
+        "global_ranks_out_of_720": {
+          "bootstrap_edge_sum": 10,
+          "residual_edge_sum": 4,
+          "direction_constraints_satisfied": 178
+        }
+      },
+      {
+        "rank": 3,
+        "order": [
+          "S3_105|114",
+          "S5_107|112",
+          "S4_106|113",
+          "S6_108|111",
+          "S2_104|115",
+          "S1_103|116"
+        ],
+        "metrics": {
+          "bootstrap_edge_sum": 2.733,
+          "bootstrap_edge_mean": 0.5466,
+          "residual_edge_sum": 2.2892823923590946,
+          "direction_constraints_satisfied": 5,
+          "direction_constraints_total": 6,
+          "edges": [
+            [
+              "S3_105|114",
+              "S5_107|112"
+            ],
+            [
+              "S4_106|113",
+              "S5_107|112"
+            ],
+            [
+              "S4_106|113",
+              "S6_108|111"
+            ],
+            [
+              "S2_104|115",
+              "S6_108|111"
+            ],
+            [
+              "S1_103|116",
+              "S2_104|115"
+            ]
+          ]
+        }
+      },
+      {
+        "rank": 4,
+        "order": [
+          "S3_105|114",
+          "S2_104|115",
+          "S5_107|112",
+          "S4_106|113",
+          "S6_108|111",
+          "S1_103|116"
+        ],
+        "metrics": {
+          "bootstrap_edge_sum": 2.703,
+          "bootstrap_edge_mean": 0.5406,
+          "residual_edge_sum": 2.2035268733823727,
+          "direction_constraints_satisfied": 4,
+          "direction_constraints_total": 6,
+          "edges": [
+            [
+              "S2_104|115",
+              "S3_105|114"
+            ],
+            [
+              "S2_104|115",
+              "S5_107|112"
+            ],
+            [
+              "S4_106|113",
+              "S5_107|112"
+            ],
+            [
+              "S4_106|113",
+              "S6_108|111"
+            ],
+            [
+              "S1_103|116",
+              "S6_108|111"
+            ]
+          ]
+        }
+      },
+      {
+        "rank": 5,
+        "order": [
+          "S3_105|114",
+          "S4_106|113",
+          "S5_107|112",
+          "S2_104|115",
+          "S6_108|111",
+          "S1_103|116"
+        ],
+        "metrics": {
+          "bootstrap_edge_sum": 2.56,
+          "bootstrap_edge_mean": 0.512,
+          "residual_edge_sum": 1.9413276673924615,
+          "direction_constraints_satisfied": 6,
+          "direction_constraints_total": 6,
+          "edges": [
+            [
+              "S3_105|114",
+              "S4_106|113"
+            ],
+            [
+              "S4_106|113",
+              "S5_107|112"
+            ],
+            [
+              "S2_104|115",
+              "S5_107|112"
+            ],
+            [
+              "S2_104|115",
+              "S6_108|111"
+            ],
+            [
+              "S1_103|116",
+              "S6_108|111"
+            ]
+          ]
+        },
+        "global_ranks_out_of_720": {
+          "bootstrap_edge_sum": 64,
+          "residual_edge_sum": 20,
+          "direction_constraints_satisfied": 4
+        }
+      },
+      {
+        "rank": 6,
+        "order": [
+          "S3_105|114",
+          "S2_104|115",
+          "S4_106|113",
+          "S5_107|112",
+          "S6_108|111",
+          "S1_103|116"
+        ],
+        "metrics": {
+          "bootstrap_edge_sum": 2.251,
+          "bootstrap_edge_mean": 0.4502,
+          "residual_edge_sum": 1.3438020869312952,
+          "direction_constraints_satisfied": 5,
+          "direction_constraints_total": 6,
+          "edges": [
+            [
+              "S2_104|115",
+              "S3_105|114"
+            ],
+            [
+              "S2_104|115",
+              "S4_106|113"
+            ],
+            [
+              "S4_106|113",
+              "S5_107|112"
+            ],
+            [
+              "S5_107|112",
+              "S6_108|111"
+            ],
+            [
+              "S1_103|116",
+              "S6_108|111"
+            ]
+          ]
+        }
+      },
+      {
+        "rank": 7,
+        "order": [
+          "S3_105|114",
+          "S5_107|112",
+          "S2_104|115",
+          "S6_108|111",
+          "S4_106|113",
+          "S1_103|116"
+        ],
+        "metrics": {
+          "bootstrap_edge_sum": 2.1590000000000003,
+          "bootstrap_edge_mean": 0.4318000000000001,
+          "residual_edge_sum": 1.7459623854882553,
+          "direction_constraints_satisfied": 3,
+          "direction_constraints_total": 6,
+          "edges": [
+            [
+              "S3_105|114",
+              "S5_107|112"
+            ],
+            [
+              "S2_104|115",
+              "S5_107|112"
+            ],
+            [
+              "S2_104|115",
+              "S6_108|111"
+            ],
+            [
+              "S4_106|113",
+              "S6_108|111"
+            ],
+            [
+              "S1_103|116",
+              "S4_106|113"
+            ]
+          ]
+        }
+      },
+      {
+        "rank": 8,
+        "order": [
+          "S3_105|114",
+          "S5_107|112",
+          "S6_108|111",
+          "S4_106|113",
+          "S2_104|115",
+          "S1_103|116"
+        ],
+        "metrics": {
+          "bootstrap_edge_sum": 2.124,
+          "bootstrap_edge_mean": 0.4248,
+          "residual_edge_sum": 1.6930666665918668,
+          "direction_constraints_satisfied": 4,
+          "direction_constraints_total": 6,
+          "edges": [
+            [
+              "S3_105|114",
+              "S5_107|112"
+            ],
+            [
+              "S5_107|112",
+              "S6_108|111"
+            ],
+            [
+              "S4_106|113",
+              "S6_108|111"
+            ],
+            [
+              "S2_104|115",
+              "S4_106|113"
+            ],
+            [
+              "S1_103|116",
+              "S2_104|115"
+            ]
+          ]
+        }
+      },
+      {
+        "rank": 9,
+        "order": [
+          "S3_105|114",
+          "S6_108|111",
+          "S4_106|113",
+          "S5_107|112",
+          "S2_104|115",
+          "S1_103|116"
+        ],
+        "metrics": {
+          "bootstrap_edge_sum": 2.029,
+          "bootstrap_edge_mean": 0.4058,
+          "residual_edge_sum": 1.6017945303407095,
+          "direction_constraints_satisfied": 5,
+          "direction_constraints_total": 6,
+          "edges": [
+            [
+              "S3_105|114",
+              "S6_108|111"
+            ],
+            [
+              "S4_106|113",
+              "S6_108|111"
+            ],
+            [
+              "S4_106|113",
+              "S5_107|112"
+            ],
+            [
+              "S2_104|115",
+              "S5_107|112"
+            ],
+            [
+              "S1_103|116",
+              "S2_104|115"
+            ]
+          ]
+        }
+      },
+      {
+        "rank": 10,
+        "order": [
+          "S3_105|114",
+          "S4_106|113",
+          "S2_104|115",
+          "S5_107|112",
+          "S6_108|111",
+          "S1_103|116"
+        ],
+        "metrics": {
+          "bootstrap_edge_sum": 1.951,
+          "bootstrap_edge_mean": 0.3902,
+          "residual_edge_sum": 1.3451119416252337,
+          "direction_constraints_satisfied": 6,
+          "direction_constraints_total": 6,
+          "edges": [
+            [
+              "S3_105|114",
+              "S4_106|113"
+            ],
+            [
+              "S2_104|115",
+              "S4_106|113"
+            ],
+            [
+              "S2_104|115",
+              "S5_107|112"
+            ],
+            [
+              "S5_107|112",
+              "S6_108|111"
+            ],
+            [
+              "S1_103|116",
+              "S6_108|111"
+            ]
+          ]
+        }
+      }
+    ],
+    "residual_edge_sum": [
+      {
+        "rank": 1,
+        "order": [
+          "S3_105|114",
+          "S5_107|112",
+          "S2_104|115",
+          "S4_106|113",
+          "S6_108|111",
+          "S1_103|116"
+        ],
+        "metrics": {
+          "bootstrap_edge_sum": 3.06,
+          "bootstrap_edge_mean": 0.612,
+          "residual_edge_sum": 2.62246786643654,
+          "direction_constraints_satisfied": 4,
+          "direction_constraints_total": 6,
+          "edges": [
+            [
+              "S3_105|114",
+              "S5_107|112"
+            ],
+            [
+              "S2_104|115",
+              "S5_107|112"
+            ],
+            [
+              "S2_104|115",
+              "S4_106|113"
+            ],
+            [
+              "S4_106|113",
+              "S6_108|111"
+            ],
+            [
+              "S1_103|116",
+              "S6_108|111"
+            ]
+          ]
+        },
+        "global_ranks_out_of_720": {
+          "bootstrap_edge_sum": 10,
+          "residual_edge_sum": 4,
+          "direction_constraints_satisfied": 178
+        }
+      },
+      {
+        "rank": 2,
+        "order": [
+          "S3_105|114",
+          "S5_107|112",
+          "S4_106|113",
+          "S2_104|115",
+          "S6_108|111",
+          "S1_103|116"
+        ],
+        "metrics": {
+          "bootstrap_edge_sum": 3.217,
+          "bootstrap_edge_mean": 0.6434,
+          "residual_edge_sum": 2.3589588057526907,
+          "direction_constraints_satisfied": 5,
+          "direction_constraints_total": 6,
+          "edges": [
+            [
+              "S3_105|114",
+              "S5_107|112"
+            ],
+            [
+              "S4_106|113",
+              "S5_107|112"
+            ],
+            [
+              "S2_104|115",
+              "S4_106|113"
+            ],
+            [
+              "S2_104|115",
+              "S6_108|111"
+            ],
+            [
+              "S1_103|116",
+              "S6_108|111"
+            ]
+          ]
+        },
+        "global_ranks_out_of_720": {
+          "bootstrap_edge_sum": 6,
+          "residual_edge_sum": 6,
+          "direction_constraints_satisfied": 49
+        }
+      },
+      {
+        "rank": 3,
+        "order": [
+          "S3_105|114",
+          "S5_107|112",
+          "S4_106|113",
+          "S6_108|111",
+          "S2_104|115",
+          "S1_103|116"
+        ],
+        "metrics": {
+          "bootstrap_edge_sum": 2.733,
+          "bootstrap_edge_mean": 0.5466,
+          "residual_edge_sum": 2.2892823923590946,
+          "direction_constraints_satisfied": 5,
+          "direction_constraints_total": 6,
+          "edges": [
+            [
+              "S3_105|114",
+              "S5_107|112"
+            ],
+            [
+              "S4_106|113",
+              "S5_107|112"
+            ],
+            [
+              "S4_106|113",
+              "S6_108|111"
+            ],
+            [
+              "S2_104|115",
+              "S6_108|111"
+            ],
+            [
+              "S1_103|116",
+              "S2_104|115"
+            ]
+          ]
+        }
+      },
+      {
+        "rank": 4,
+        "order": [
+          "S3_105|114",
+          "S2_104|115",
+          "S5_107|112",
+          "S4_106|113",
+          "S6_108|111",
+          "S1_103|116"
+        ],
+        "metrics": {
+          "bootstrap_edge_sum": 2.703,
+          "bootstrap_edge_mean": 0.5406,
+          "residual_edge_sum": 2.2035268733823727,
+          "direction_constraints_satisfied": 4,
+          "direction_constraints_total": 6,
+          "edges": [
+            [
+              "S2_104|115",
+              "S3_105|114"
+            ],
+            [
+              "S2_104|115",
+              "S5_107|112"
+            ],
+            [
+              "S4_106|113",
+              "S5_107|112"
+            ],
+            [
+              "S4_106|113",
+              "S6_108|111"
+            ],
+            [
+              "S1_103|116",
+              "S6_108|111"
+            ]
+          ]
+        }
+      },
+      {
+        "rank": 5,
+        "order": [
+          "S3_105|114",
+          "S4_106|113",
+          "S5_107|112",
+          "S2_104|115",
+          "S6_108|111",
+          "S1_103|116"
+        ],
+        "metrics": {
+          "bootstrap_edge_sum": 2.56,
+          "bootstrap_edge_mean": 0.512,
+          "residual_edge_sum": 1.9413276673924615,
+          "direction_constraints_satisfied": 6,
+          "direction_constraints_total": 6,
+          "edges": [
+            [
+              "S3_105|114",
+              "S4_106|113"
+            ],
+            [
+              "S4_106|113",
+              "S5_107|112"
+            ],
+            [
+              "S2_104|115",
+              "S5_107|112"
+            ],
+            [
+              "S2_104|115",
+              "S6_108|111"
+            ],
+            [
+              "S1_103|116",
+              "S6_108|111"
+            ]
+          ]
+        },
+        "global_ranks_out_of_720": {
+          "bootstrap_edge_sum": 64,
+          "residual_edge_sum": 20,
+          "direction_constraints_satisfied": 4
+        }
+      },
+      {
+        "rank": 6,
+        "order": [
+          "S3_105|114",
+          "S5_107|112",
+          "S2_104|115",
+          "S6_108|111",
+          "S4_106|113",
+          "S1_103|116"
+        ],
+        "metrics": {
+          "bootstrap_edge_sum": 2.1590000000000003,
+          "bootstrap_edge_mean": 0.4318000000000001,
+          "residual_edge_sum": 1.7459623854882553,
+          "direction_constraints_satisfied": 3,
+          "direction_constraints_total": 6,
+          "edges": [
+            [
+              "S3_105|114",
+              "S5_107|112"
+            ],
+            [
+              "S2_104|115",
+              "S5_107|112"
+            ],
+            [
+              "S2_104|115",
+              "S6_108|111"
+            ],
+            [
+              "S4_106|113",
+              "S6_108|111"
+            ],
+            [
+              "S1_103|116",
+              "S4_106|113"
+            ]
+          ]
+        }
+      },
+      {
+        "rank": 7,
+        "order": [
+          "S3_105|114",
+          "S5_107|112",
+          "S6_108|111",
+          "S4_106|113",
+          "S2_104|115",
+          "S1_103|116"
+        ],
+        "metrics": {
+          "bootstrap_edge_sum": 2.124,
+          "bootstrap_edge_mean": 0.4248,
+          "residual_edge_sum": 1.6930666665918668,
+          "direction_constraints_satisfied": 4,
+          "direction_constraints_total": 6,
+          "edges": [
+            [
+              "S3_105|114",
+              "S5_107|112"
+            ],
+            [
+              "S5_107|112",
+              "S6_108|111"
+            ],
+            [
+              "S4_106|113",
+              "S6_108|111"
+            ],
+            [
+              "S2_104|115",
+              "S4_106|113"
+            ],
+            [
+              "S1_103|116",
+              "S2_104|115"
+            ]
+          ]
+        }
+      },
+      {
+        "rank": 8,
+        "order": [
+          "S3_105|114",
+          "S6_108|111",
+          "S4_106|113",
+          "S5_107|112",
+          "S2_104|115",
+          "S1_103|116"
+        ],
+        "metrics": {
+          "bootstrap_edge_sum": 2.029,
+          "bootstrap_edge_mean": 0.4058,
+          "residual_edge_sum": 1.6017945303407095,
+          "direction_constraints_satisfied": 5,
+          "direction_constraints_total": 6,
+          "edges": [
+            [
+              "S3_105|114",
+              "S6_108|111"
+            ],
+            [
+              "S4_106|113",
+              "S6_108|111"
+            ],
+            [
+              "S4_106|113",
+              "S5_107|112"
+            ],
+            [
+              "S2_104|115",
+              "S5_107|112"
+            ],
+            [
+              "S1_103|116",
+              "S2_104|115"
+            ]
+          ]
+        }
+      },
+      {
+        "rank": 9,
+        "order": [
+          "S3_105|114",
+          "S4_106|113",
+          "S2_104|115",
+          "S5_107|112",
+          "S6_108|111",
+          "S1_103|116"
+        ],
+        "metrics": {
+          "bootstrap_edge_sum": 1.951,
+          "bootstrap_edge_mean": 0.3902,
+          "residual_edge_sum": 1.3451119416252337,
+          "direction_constraints_satisfied": 6,
+          "direction_constraints_total": 6,
+          "edges": [
+            [
+              "S3_105|114",
+              "S4_106|113"
+            ],
+            [
+              "S2_104|115",
+              "S4_106|113"
+            ],
+            [
+              "S2_104|115",
+              "S5_107|112"
+            ],
+            [
+              "S5_107|112",
+              "S6_108|111"
+            ],
+            [
+              "S1_103|116",
+              "S6_108|111"
+            ]
+          ]
+        }
+      },
+      {
+        "rank": 10,
+        "order": [
+          "S3_105|114",
+          "S2_104|115",
+          "S4_106|113",
+          "S5_107|112",
+          "S6_108|111",
+          "S1_103|116"
+        ],
+        "metrics": {
+          "bootstrap_edge_sum": 2.251,
+          "bootstrap_edge_mean": 0.4502,
+          "residual_edge_sum": 1.3438020869312952,
+          "direction_constraints_satisfied": 5,
+          "direction_constraints_total": 6,
+          "edges": [
+            [
+              "S2_104|115",
+              "S3_105|114"
+            ],
+            [
+              "S2_104|115",
+              "S4_106|113"
+            ],
+            [
+              "S4_106|113",
+              "S5_107|112"
+            ],
+            [
+              "S5_107|112",
+              "S6_108|111"
+            ],
+            [
+              "S1_103|116",
+              "S6_108|111"
+            ]
+          ]
+        }
+      }
+    ],
+    "direction_constraints_satisfied": [
+      {
+        "rank": 1,
+        "order": [
+          "S3_105|114",
+          "S4_106|113",
+          "S2_104|115",
+          "S5_107|112",
+          "S6_108|111",
+          "S1_103|116"
+        ],
+        "metrics": {
+          "bootstrap_edge_sum": 1.951,
+          "bootstrap_edge_mean": 0.3902,
+          "residual_edge_sum": 1.3451119416252337,
+          "direction_constraints_satisfied": 6,
+          "direction_constraints_total": 6,
+          "edges": [
+            [
+              "S3_105|114",
+              "S4_106|113"
+            ],
+            [
+              "S2_104|115",
+              "S4_106|113"
+            ],
+            [
+              "S2_104|115",
+              "S5_107|112"
+            ],
+            [
+              "S5_107|112",
+              "S6_108|111"
+            ],
+            [
+              "S1_103|116",
+              "S6_108|111"
+            ]
+          ]
+        }
+      },
+      {
+        "rank": 2,
+        "order": [
+          "S3_105|114",
+          "S4_106|113",
+          "S2_104|115",
+          "S6_108|111",
+          "S5_107|112",
+          "S1_103|116"
+        ],
+        "metrics": {
+          "bootstrap_edge_sum": 1.02,
+          "bootstrap_edge_mean": 0.20400000000000001,
+          "residual_edge_sum": 0.3993293011258638,
+          "direction_constraints_satisfied": 6,
+          "direction_constraints_total": 6,
+          "edges": [
+            [
+              "S3_105|114",
+              "S4_106|113"
+            ],
+            [
+              "S2_104|115",
+              "S4_106|113"
+            ],
+            [
+              "S2_104|115",
+              "S6_108|111"
+            ],
+            [
+              "S5_107|112",
+              "S6_108|111"
+            ],
+            [
+              "S1_103|116",
+              "S5_107|112"
+            ]
+          ]
+        }
+      },
+      {
+        "rank": 3,
+        "order": [
+          "S3_105|114",
+          "S4_106|113",
+          "S5_107|112",
+          "S2_104|115",
+          "S6_108|111",
+          "S1_103|116"
+        ],
+        "metrics": {
+          "bootstrap_edge_sum": 2.56,
+          "bootstrap_edge_mean": 0.512,
+          "residual_edge_sum": 1.9413276673924615,
+          "direction_constraints_satisfied": 6,
+          "direction_constraints_total": 6,
+          "edges": [
+            [
+              "S3_105|114",
+              "S4_106|113"
+            ],
+            [
+              "S4_106|113",
+              "S5_107|112"
+            ],
+            [
+              "S2_104|115",
+              "S5_107|112"
+            ],
+            [
+              "S2_104|115",
+              "S6_108|111"
+            ],
+            [
+              "S1_103|116",
+              "S6_108|111"
+            ]
+          ]
+        },
+        "global_ranks_out_of_720": {
+          "bootstrap_edge_sum": 64,
+          "residual_edge_sum": 20,
+          "direction_constraints_satisfied": 4
+        }
+      },
+      {
+        "rank": 4,
+        "order": [
+          "S3_105|114",
+          "S4_106|113",
+          "S5_107|112",
+          "S6_108|111",
+          "S2_104|115",
+          "S1_103|116"
+        ],
+        "metrics": {
+          "bootstrap_edge_sum": 1.6239999999999999,
+          "bootstrap_edge_mean": 0.3248,
+          "residual_edge_sum": 1.011926467547788,
+          "direction_constraints_satisfied": 6,
+          "direction_constraints_total": 6,
+          "edges": [
+            [
+              "S3_105|114",
+              "S4_106|113"
+            ],
+            [
+              "S4_106|113",
+              "S5_107|112"
+            ],
+            [
+              "S5_107|112",
+              "S6_108|111"
+            ],
+            [
+              "S2_104|115",
+              "S6_108|111"
+            ],
+            [
+              "S1_103|116",
+              "S2_104|115"
+            ]
+          ]
+        }
+      },
+      {
+        "rank": 5,
+        "order": [
+          "S3_105|114",
+          "S4_106|113",
+          "S6_108|111",
+          "S2_104|115",
+          "S5_107|112",
+          "S1_103|116"
+        ],
+        "metrics": {
+          "bootstrap_edge_sum": 1.472,
+          "bootstrap_edge_mean": 0.2944,
+          "residual_edge_sum": 1.2590540875769411,
+          "direction_constraints_satisfied": 6,
+          "direction_constraints_total": 6,
+          "edges": [
+            [
+              "S3_105|114",
+              "S4_106|113"
+            ],
+            [
+              "S4_106|113",
+              "S6_108|111"
+            ],
+            [
+              "S2_104|115",
+              "S6_108|111"
+            ],
+            [
+              "S2_104|115",
+              "S5_107|112"
+            ],
+            [
+              "S1_103|116",
+              "S5_107|112"
+            ]
+          ]
+        }
+      },
+      {
+        "rank": 6,
+        "order": [
+          "S3_105|114",
+          "S4_106|113",
+          "S6_108|111",
+          "S5_107|112",
+          "S2_104|115",
+          "S1_103|116"
+        ],
+        "metrics": {
+          "bootstrap_edge_sum": 1.467,
+          "bootstrap_edge_mean": 0.2934,
+          "residual_edge_sum": 1.2754355282316376,
+          "direction_constraints_satisfied": 6,
+          "direction_constraints_total": 6,
+          "edges": [
+            [
+              "S3_105|114",
+              "S4_106|113"
+            ],
+            [
+              "S4_106|113",
+              "S6_108|111"
+            ],
+            [
+              "S5_107|112",
+              "S6_108|111"
+            ],
+            [
+              "S2_104|115",
+              "S5_107|112"
+            ],
+            [
+              "S1_103|116",
+              "S2_104|115"
+            ]
+          ]
+        }
+      },
+      {
+        "rank": 7,
+        "order": [
+          "S3_105|114",
+          "S2_104|115",
+          "S4_106|113",
+          "S5_107|112",
+          "S6_108|111",
+          "S1_103|116"
+        ],
+        "metrics": {
+          "bootstrap_edge_sum": 2.251,
+          "bootstrap_edge_mean": 0.4502,
+          "residual_edge_sum": 1.3438020869312952,
+          "direction_constraints_satisfied": 5,
+          "direction_constraints_total": 6,
+          "edges": [
+            [
+              "S2_104|115",
+              "S3_105|114"
+            ],
+            [
+              "S2_104|115",
+              "S4_106|113"
+            ],
+            [
+              "S4_106|113",
+              "S5_107|112"
+            ],
+            [
+              "S5_107|112",
+              "S6_108|111"
+            ],
+            [
+              "S1_103|116",
+              "S6_108|111"
+            ]
+          ]
+        }
+      },
+      {
+        "rank": 8,
+        "order": [
+          "S3_105|114",
+          "S2_104|115",
+          "S4_106|113",
+          "S6_108|111",
+          "S5_107|112",
+          "S1_103|116"
+        ],
+        "metrics": {
+          "bootstrap_edge_sum": 1.163,
+          "bootstrap_edge_mean": 0.2326,
+          "residual_edge_sum": 0.6615285071157748,
+          "direction_constraints_satisfied": 5,
+          "direction_constraints_total": 6,
+          "edges": [
+            [
+              "S2_104|115",
+              "S3_105|114"
+            ],
+            [
+              "S2_104|115",
+              "S4_106|113"
+            ],
+            [
+              "S4_106|113",
+              "S6_108|111"
+            ],
+            [
+              "S5_107|112",
+              "S6_108|111"
+            ],
+            [
+              "S1_103|116",
+              "S5_107|112"
+            ]
+          ]
+        }
+      },
+      {
+        "rank": 9,
+        "order": [
+          "S3_105|114",
+          "S5_107|112",
+          "S4_106|113",
+          "S2_104|115",
+          "S6_108|111",
+          "S1_103|116"
+        ],
+        "metrics": {
+          "bootstrap_edge_sum": 3.217,
+          "bootstrap_edge_mean": 0.6434,
+          "residual_edge_sum": 2.3589588057526907,
+          "direction_constraints_satisfied": 5,
+          "direction_constraints_total": 6,
+          "edges": [
+            [
+              "S3_105|114",
+              "S5_107|112"
+            ],
+            [
+              "S4_106|113",
+              "S5_107|112"
+            ],
+            [
+              "S2_104|115",
+              "S4_106|113"
+            ],
+            [
+              "S2_104|115",
+              "S6_108|111"
+            ],
+            [
+              "S1_103|116",
+              "S6_108|111"
+            ]
+          ]
+        },
+        "global_ranks_out_of_720": {
+          "bootstrap_edge_sum": 6,
+          "residual_edge_sum": 6,
+          "direction_constraints_satisfied": 49
+        }
+      },
+      {
+        "rank": 10,
+        "order": [
+          "S3_105|114",
+          "S5_107|112",
+          "S4_106|113",
+          "S6_108|111",
+          "S2_104|115",
+          "S1_103|116"
+        ],
+        "metrics": {
+          "bootstrap_edge_sum": 2.733,
+          "bootstrap_edge_mean": 0.5466,
+          "residual_edge_sum": 2.2892823923590946,
+          "direction_constraints_satisfied": 5,
+          "direction_constraints_total": 6,
+          "edges": [
+            [
+              "S3_105|114",
+              "S5_107|112"
+            ],
+            [
+              "S4_106|113",
+              "S5_107|112"
+            ],
+            [
+              "S4_106|113",
+              "S6_108|111"
+            ],
+            [
+              "S2_104|115",
+              "S6_108|111"
+            ],
+            [
+              "S1_103|116",
+              "S2_104|115"
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  "reference_text_candidate": [
+    "S3_105|114",
+    "S5_107|112",
+    "S4_106|113",
+    "S2_104|115",
+    "S6_108|111",
+    "S1_103|116"
+  ],
+  "guardrails": [
+    "f105r-as-start and f116v-as-end are codicological working hypotheses, not established facts.",
+    "No weights combine the three criteria; only Pareto dominance is used.",
+    "Direction arrows are pairwise textual boundary preferences, not guaranteed narrative transitions.",
+    "The missing 109|110 singulion is absent and can change the solution when modelled.",
+    "Bootstrap edge frequencies are stability diagnostics, not posterior historical probabilities.",
+    "Bootstrap edges absent from the stored frequency table are assigned observed frequency 0.0."
+  ]
+}
