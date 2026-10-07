@@ -9,6 +9,7 @@ EXPECTED = [
 ]
 ALLOWED_CONF = {'UNVERIFIED','HIGH','MEDIUM','AMBIGUOUS'}
 ALLOWED_MECH = {None,'stroke-addition','overwrite','erasure/scrape','insertion','deletion','other'}
+MIN_PRIMARY = 6
 
 
 def main():
@@ -25,6 +26,10 @@ def main():
         problems.append('candidate inventory/order differs from preregistered frozen list')
     if len(set(ids)) != len(ids):
         problems.append('duplicate candidate IDs')
+    if doc.get('minimum_primary_events', MIN_PRIMARY) != MIN_PRIMARY:
+        problems.append('minimum primary-event threshold differs from preregistration')
+    if doc.get('threshold_lowered') is True:
+        problems.append('preregistered threshold may not be lowered')
 
     high = []
     included = []
@@ -50,17 +55,37 @@ def main():
             if not r.get('primary_image_verified'):
                 problems.append(f'{cid}: primary inclusion requires primary-image verification')
 
-    status = 'INVALID_AUDIT' if problems else ('AUDIT_READY_FOR_SCORING' if len(included) >= 6 else 'DATA_AUDIT_REQUIRED')
-    scientific_status = 'NOT_RUN' if status in {'DATA_AUDIT_REQUIRED','AUDIT_READY_FOR_SCORING'} else 'BLOCKED'
-    # AUDIT_READY_FOR_SCORING is not a scientific PASS. It only means the preregistered visual gate can be passed to scoring.
+    complete_recoverability_audit = (
+        doc.get('stage') == 'PRIMARY_RECOVERABILITY_AUDIT'
+        and doc.get('status') == 'COMPLETE'
+        and len(rows) == len(EXPECTED)
+    )
+
+    if problems:
+        audit_status = 'INVALID_AUDIT'
+        scientific_status = 'BLOCKED'
+    elif len(included) >= MIN_PRIMARY:
+        audit_status = 'AUDIT_READY_FOR_SCORING'
+        scientific_status = 'NOT_RUN'
+    elif complete_recoverability_audit:
+        audit_status = 'AUDIT_BLOCKED_INSUFFICIENT_RECOVERABLE_EVENTS'
+        scientific_status = 'BLOCKED'
+    else:
+        audit_status = 'DATA_AUDIT_REQUIRED'
+        scientific_status = 'NOT_RUN'
+
     out = {
         'experiment':'H59_BLIND_SCRIBE_CORRECTION_PREDICTION',
-        'audit_status':status,
+        'audit_status':audit_status,
         'scientific_status':scientific_status,
         'candidate_count':len(rows),
         'high_confidence_count':len(high),
         'primary_test_count':len(included),
-        'minimum_primary_events':6,
+        'minimum_primary_events':MIN_PRIMARY,
+        'complete_recoverability_audit':complete_recoverability_audit,
+        'threshold_lowered':False,
+        'confirmatory_model_fitting':'NOT_RUN',
+        'null_randomizations':'NOT_RUN',
         'problems':problems,
         'language_identification':'NOT_RUN',
         'semantic_identification':'NOT_RUN',
