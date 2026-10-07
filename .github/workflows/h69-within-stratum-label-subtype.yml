@@ -1,0 +1,25 @@
+name: H69 within-stratum label subtype
+on:
+  pull_request:
+    paths:
+      - 'research_gpt6/prereg/H69_WITHIN_STRATUM_LABEL_SUBTYPE.md'
+      - 'research_gpt6/code/h69_within_stratum_label_subtype.py'
+      - '.github/workflows/h69-within-stratum-label-subtype.yml'
+  workflow_dispatch:
+jobs:
+  h69-within-stratum-label-subtype:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Fetch frozen IVTFF source
+        run: curl -L --fail -o IT_ivtff_1a.txt 'https://raw.githubusercontent.com/noah-chelednik/voynich-data/472ef7366606a799fc8f1044c037e06b413f6ddd/data_sources/cache/IT_ivtff_1a.txt'
+      - name: Run preregistered H69
+        run: mkdir -p research_gpt6/results && python research_gpt6/code/h69_within_stratum_label_subtype.py --source IT_ivtff_1a.txt --out research_gpt6/results/h69_within_stratum_label_subtype.json
+      - uses: actions/upload-artifact@v4
+        with:
+          name: h69-within-stratum-label-subtype-results
+          path: research_gpt6/results/h69_within_stratum_label_subtype.json
+          if-no-files-found: error
