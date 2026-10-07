@@ -1,3 +1,4 @@
+# Infrastructure-only retrigger; H84 scientific protocol remains frozen.
 name: H84 IT-GC label transcription disagreement
 
 on:
