@@ -1,0 +1,29 @@
+name: H74 GC v101 Q13 path replication
+on:
+  workflow_dispatch:
+  pull_request:
+    branches: [research/gpt6-audit]
+    paths:
+      - 'research_gpt6/90_h74_gc_q13_posthoc_path_replication_preregistration.md'
+      - 'research_gpt6/code/h74_gc_q13_posthoc_path_replication.py'
+      - '.github/workflows/h74-gc-q13-posthoc-path-replication.yml'
+
+jobs:
+  h74-gc-q13-posthoc-path-replication:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Fetch frozen GC v101 source
+        run: curl -L --fail -o GC2a-n.txt 'https://raw.githubusercontent.com/noah-chelednik/voynich-data/472ef7366606a799fc8f1044c037e06b413f6ddd/data_sources/cache/GC2a-n.txt'
+      - name: Run preregistered H74 GC Q13 replication
+        run: mkdir -p research_gpt6/results && python research_gpt6/code/h74_gc_q13_posthoc_path_replication.py --gc GC2a-n.txt --out research_gpt6/results/h74_gc_q13_posthoc_path_replication.json
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: h74-gc-q13-posthoc-path-replication-results
+          path: research_gpt6/results/h74_gc_q13_posthoc_path_replication.json
+          if-no-files-found: error
