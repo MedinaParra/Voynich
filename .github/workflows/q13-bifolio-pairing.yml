@@ -6,6 +6,7 @@ on:
       - experiment/q13-bifolio-pairing-final
     paths:
       - 'research_gpt6/code/q13_bifolio_pairing_exact.py'
+      - 'research_gpt6/code/q13_bifolio_pairing_distance_adjusted.py'
       - '.github/workflows/q13-bifolio-pairing.yml'
   workflow_dispatch:
 
@@ -28,8 +29,16 @@ jobs:
             --corpus /tmp/voynich_eva.txt \
             --out research_gpt6/results/q13_bifolio_pairing_exact.json \
             | tee /tmp/q13-pairing.log
-      - name: Upload result
+      - name: Execute distance-adjusted tournament
+        run: |
+          python research_gpt6/code/q13_bifolio_pairing_distance_adjusted.py \
+            --corpus /tmp/voynich_eva.txt \
+            --out research_gpt6/results/q13_bifolio_pairing_distance_adjusted.json \
+            | tee /tmp/q13-pairing-distance-adjusted.log
+      - name: Upload results
         uses: actions/upload-artifact@v4
         with:
-          name: q13-bifolio-pairing-result
-          path: research_gpt6/results/q13_bifolio_pairing_exact.json
+          name: q13-bifolio-pairing-results
+          path: |
+            research_gpt6/results/q13_bifolio_pairing_exact.json
+            research_gpt6/results/q13_bifolio_pairing_distance_adjusted.json
