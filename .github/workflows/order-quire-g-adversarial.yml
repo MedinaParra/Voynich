@@ -1,0 +1,71 @@
+name: Voynich Quire G adversarial nesting
+
+on:
+  push:
+    branches:
+      - research/gpt6-audit
+    paths:
+      - '.github/workflows/order-quire-g-adversarial.yml'
+      - 'research_gpt6/code/order_quire_g_adversarial.py'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  quire-g-adversarial:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout research branch
+        uses: actions/checkout@v4
+        with:
+          ref: research/gpt6-audit
+          fetch-depth: 0
+
+      - name: Fetch frozen transcriptions
+        run: |
+          curl -L --fail --retry 3 \
+            'https://raw.githubusercontent.com/cesarjz/Voynich/47e6a77dc9d5cd570c375f4aff710fa4a0567278/corpus/voynich_eva.txt' \
+            -o /tmp/voynich_eva.txt
+          curl -L --fail --retry 3 \
+            'https://www.voynich.nu/data/IT2a-n.txt' \
+            -o /tmp/IT2a-n.txt
+
+      - name: Run Quire G adversarial diagnostic
+        run: |
+          mkdir -p research_gpt6/results
+          python research_gpt6/code/order_quire_g_adversarial.py \
+            --zl /tmp/voynich_eva.txt \
+            --it /tmp/IT2a-n.txt \
+            --json research_gpt6/results/order_quire_g_adversarial.json \
+            > research_gpt6/results/order_quire_g_adversarial.stdout.json
+
+      - name: Record provenance
+        run: |
+          {
+            echo "workflow_commit=$(git rev-parse HEAD)"
+            echo "zl_commit=47e6a77dc9d5cd570c375f4aff710fa4a0567278"
+            echo "python=$(python --version 2>&1)"
+            sha256sum /tmp/voynich_eva.txt
+            sha256sum /tmp/IT2a-n.txt
+            sha256sum research_gpt6/code/order_quire_g_adversarial.py
+            sha256sum research_gpt6/code/order_regular_quires_metadata_control.py
+            sha256sum research_gpt6/code/order_regular_quires_nesting_scan.py
+            sha256sum research_gpt6/code/order_quire_c_nesting.py
+          } > research_gpt6/results/order_quire_g_adversarial_provenance.txt
+
+      - name: Commit result
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add research_gpt6/results/order_quire_g_adversarial.json \
+                  research_gpt6/results/order_quire_g_adversarial.stdout.json \
+                  research_gpt6/results/order_quire_g_adversarial_provenance.txt
+          if git diff --cached --quiet; then
+            echo "No result changes"
+          else
+            git commit -m "research: record Quire G adversarial nesting diagnostic"
+            git fetch origin research/gpt6-audit
+            git rebase origin/research/gpt6-audit
+            git push origin HEAD:research/gpt6-audit
+          fi
