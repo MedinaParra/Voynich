@@ -52,5 +52,7 @@ jobs:
             echo "No result changes"
           else
             git commit -m "research: record Q20 codicology-constrained Pareto frontier"
+            git fetch origin research/gpt6-audit
+            git rebase origin/research/gpt6-audit
             git push origin HEAD:research/gpt6-audit
           fi
