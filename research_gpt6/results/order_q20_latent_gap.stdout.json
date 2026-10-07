@@ -1,0 +1,179 @@
+{
+  "status": "Q20_LATENT_GAP_LOCALIZATION",
+  "missing_singulion": "S7_109|110",
+  "candidate_order": [
+    "S3_105|114",
+    "S5_107|112",
+    "S4_106|113",
+    "S2_104|115",
+    "S6_108|111",
+    "S1_103|116"
+  ],
+  "interfaces": [
+    {
+      "gap_after_position": 1,
+      "between": [
+        "S3_105|114",
+        "S5_107|112"
+      ],
+      "edge": [
+        "S3_105|114",
+        "S5_107|112"
+      ],
+      "bootstrap_frequency": 0.785,
+      "residual_score": -0.06725351620082026,
+      "direction_state": "supports_candidate_direction",
+      "direction_support_level": 2,
+      "is_weakest_bootstrap": false,
+      "is_weakest_residual": true,
+      "has_min_direction_support": false,
+      "remaining_observed_bootstrap_sum_if_gap_here": 2.432,
+      "remaining_observed_residual_sum_if_gap_here": 2.426212321953511
+    },
+    {
+      "gap_after_position": 2,
+      "between": [
+        "S5_107|112",
+        "S4_106|113"
+      ],
+      "edge": [
+        "S4_106|113",
+        "S5_107|112"
+      ],
+      "bootstrap_frequency": 0.727,
+      "residual_score": 1.0543587103038208,
+      "direction_state": "opposes_candidate_direction",
+      "direction_support_level": 1,
+      "is_weakest_bootstrap": false,
+      "is_weakest_residual": false,
+      "has_min_direction_support": false,
+      "remaining_observed_bootstrap_sum_if_gap_here": 2.49,
+      "remaining_observed_residual_sum_if_gap_here": 1.30460009544887
+    },
+    {
+      "gap_after_position": 3,
+      "between": [
+        "S4_106|113",
+        "S2_104|115"
+      ],
+      "edge": [
+        "S2_104|115",
+        "S4_106|113"
+      ],
+      "bootstrap_frequency": 0.451,
+      "residual_score": 0.7584875098764166,
+      "direction_state": "supports_candidate_direction",
+      "direction_support_level": 2,
+      "is_weakest_bootstrap": false,
+      "is_weakest_residual": false,
+      "has_min_direction_support": false,
+      "remaining_observed_bootstrap_sum_if_gap_here": 2.766,
+      "remaining_observed_residual_sum_if_gap_here": 1.6004712958762741
+    },
+    {
+      "gap_after_position": 4,
+      "between": [
+        "S2_104|115",
+        "S6_108|111"
+      ],
+      "edge": [
+        "S2_104|115",
+        "S6_108|111"
+      ],
+      "bootstrap_frequency": 0.348,
+      "residual_score": 0.11531484660837257,
+      "direction_state": "no_stable_pairwise_arrow",
+      "direction_support_level": 0,
+      "is_weakest_bootstrap": true,
+      "is_weakest_residual": false,
+      "has_min_direction_support": true,
+      "remaining_observed_bootstrap_sum_if_gap_here": 2.869,
+      "remaining_observed_residual_sum_if_gap_here": 2.2436439591443182
+    },
+    {
+      "gap_after_position": 5,
+      "between": [
+        "S6_108|111",
+        "S1_103|116"
+      ],
+      "edge": [
+        "S1_103|116",
+        "S6_108|111"
+      ],
+      "bootstrap_frequency": 0.906,
+      "residual_score": 0.49805125516490095,
+      "direction_state": "supports_candidate_direction",
+      "direction_support_level": 2,
+      "is_weakest_bootstrap": false,
+      "is_weakest_residual": false,
+      "has_min_direction_support": false,
+      "remaining_observed_bootstrap_sum_if_gap_here": 2.311,
+      "remaining_observed_residual_sum_if_gap_here": 1.8609075505877897
+    }
+  ],
+  "gap_weakness_pareto_frontier": [
+    {
+      "gap_after_position": 1,
+      "between": [
+        "S3_105|114",
+        "S5_107|112"
+      ],
+      "edge": [
+        "S3_105|114",
+        "S5_107|112"
+      ],
+      "bootstrap_frequency": 0.785,
+      "residual_score": -0.06725351620082026,
+      "direction_state": "supports_candidate_direction",
+      "direction_support_level": 2,
+      "is_weakest_bootstrap": false,
+      "is_weakest_residual": true,
+      "has_min_direction_support": false,
+      "remaining_observed_bootstrap_sum_if_gap_here": 2.432,
+      "remaining_observed_residual_sum_if_gap_here": 2.426212321953511
+    },
+    {
+      "gap_after_position": 4,
+      "between": [
+        "S2_104|115",
+        "S6_108|111"
+      ],
+      "edge": [
+        "S2_104|115",
+        "S6_108|111"
+      ],
+      "bootstrap_frequency": 0.348,
+      "residual_score": 0.11531484660837257,
+      "direction_state": "no_stable_pairwise_arrow",
+      "direction_support_level": 0,
+      "is_weakest_bootstrap": true,
+      "is_weakest_residual": false,
+      "has_min_direction_support": true,
+      "remaining_observed_bootstrap_sum_if_gap_here": 2.869,
+      "remaining_observed_residual_sum_if_gap_here": 2.2436439591443182
+    }
+  ],
+  "interpretation": {
+    "bootstrap_weakest_interface": [
+      "S2_104|115",
+      "S6_108|111"
+    ],
+    "residual_weakest_interface": [
+      "S3_105|114",
+      "S5_107|112"
+    ],
+    "interfaces_without_stable_pairwise_arrow": [
+      [
+        "S2_104|115",
+        "S6_108|111"
+      ]
+    ]
+  },
+  "guardrails": [
+    "No content is imputed for 109|110.",
+    "A weak observed edge can reflect topic/style change rather than a missing bifolium.",
+    "Gap localization is conditional on the current principal Q20 order.",
+    "Bootstrap frequency, residual score and boundary direction are not combined into an arbitrary weighted scalar.",
+    "The inferred gap remains a hypothesis until corroborated by physical/codicological evidence."
+  ]
+}
