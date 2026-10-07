@@ -1,0 +1,37 @@
+name: H81 folio jackknife
+
+on:
+  pull_request:
+    paths:
+      - 'research_gpt6/99_h81_folio_jackknife_preregistration.md'
+      - 'research_gpt6/code/folio_jackknife_h81.py'
+      - '.github/workflows/h81-folio-jackknife.yml'
+  workflow_dispatch:
+
+jobs:
+  h81-folio-jackknife:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Fetch frozen source A
+        run: curl -L --fail -o source_a.txt 'https://raw.githubusercontent.com/cesarjz/Voynich/47e6a77dc9d5cd570c375f4aff710fa4a0567278/corpus/voynich_eva.txt'
+      - name: Fetch frozen source B
+        run: curl -L --fail -o source_b.txt 'https://raw.githubusercontent.com/oklo/voynich_gpt/2d7c61c387ad6962de730caf73c48612bc8f6957/IT2a-n.txt'
+      - name: Run preregistered H81 leave-one-folio-out robustness test
+        run: |
+          mkdir -p research_gpt6/results
+          python research_gpt6/code/folio_jackknife_h81.py \
+            --source-a source_a.txt \
+            --source-b source_b.txt \
+            --out research_gpt6/results/folio_jackknife_h81.json \
+            --permutations 999
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: h81-folio-jackknife-results
+          path: research_gpt6/results/folio_jackknife_h81.json
+          if-no-files-found: error
