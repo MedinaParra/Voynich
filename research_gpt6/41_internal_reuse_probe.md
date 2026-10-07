@@ -57,7 +57,7 @@ OPENBLAS_NUM_THREADS=1 python research_gpt6/code/internal_reuse_retrieval.py --c
 
 Python 3.12.14, NumPy 2.3.5, scikit-learn 1.8.0. Ejecución local real, códigos de salida 0, huellas en `results/internal_reuse_checks.json`.
 
-El workflow `.github/workflows/dual-perspective-voynich.yml` incorpora estos cuatro controles y la recuperación, con las dos dependencias fijadas. La repetición nueva se verificará mediante sus logs; su configuración no cuenta por sí sola como ejecución remota.
+El workflow `.github/workflows/dual-perspective-voynich.yml` incorpora estos cuatro controles y la recuperación, con las dos dependencias fijadas. Repetición remota ejecutada y verificada: run **37555514556**, job **112580708490**, commit **8974752dfa86c65d7a5393445d7ad59c08a08534**, conclusión `success`. Las siete filas de los logs reproducen los conteos exactos, tamaños de candidatos y rangos locales; coinciden las huellas del corpus y del manifiesto. Los cuatro controles nuevos pasan. La auditoría `results/internal_reuse_ci_audit.json` precisa el alcance: los logs no imprimen todos los cosenos individuales; el artefacto incluye el JSON completo. Esta repetición no vuelve independientes los pares ni valida sus significados.
 
 ## Cotejo de originales Yale: alcance y resultado
 
