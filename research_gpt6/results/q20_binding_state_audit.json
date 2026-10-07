@@ -1,0 +1,43 @@
+{
+  "status": "Q20_BINDING_STATE_CONSTRAINT_AUDIT",
+  "model": "six surviving bifolia, fixed internal orientation; enumerate all 6! outer-to-inner nestings",
+  "bifolia": {
+    "B103_103|116": [103, 116],
+    "B104_104|115": [104, 115],
+    "B105_105|114": [105, 114],
+    "B106_106|113": [106, 113],
+    "B107_107|112": [107, 112],
+    "B108_108|111": [108, 111]
+  },
+  "n_states": 720,
+  "direct_paint_transfers_as_facing_constraints": [["f104v", "f105r"], ["f114v", "f115r"], ["f115v", "f116r"]],
+  "paint_compatible_states": 24,
+  "old_wormhole_constraint": {
+    "interpretation": "f104|115 outermost, f105|114 immediately inside",
+    "compatible_states": 24
+  },
+  "final_wormhole_constraint": {
+    "interpretation": "f103|116, f104|115, f105|114 are outermost three in that order",
+    "compatible_states": 6
+  },
+  "intersections": {
+    "paint_and_old_wormholes": 0,
+    "paint_and_final_wormholes": 6
+  },
+  "minimum_kendall_distance_old_worm_to_paint_state": 2,
+  "minimum_transition_example": {
+    "old_worm_state": ["B104_104|115", "B105_105|114", "B103_103|116", "B106_106|113", "B107_107|112", "B108_108|111"],
+    "paint_state": ["B103_103|116", "B104_104|115", "B105_105|114", "B106_106|113", "B107_107|112", "B108_108|111"]
+  },
+  "current_nesting": ["B103_103|116", "B104_104|115", "B105_105|114", "B106_106|113", "B107_107|112", "B108_108|111"],
+  "current_satisfies_direct_paint_transfers": 3,
+  "working_textual_production_candidate_missing_omitted": ["B105_105|114", "B106_106|113", "B107_107|112", "B104_104|115", "B108_108|111", "B103_103|116"],
+  "if_misinterpreted_as_bound_nesting_paint_constraints_satisfied": 0,
+  "guardrails": [
+    "The wormhole constraints follow Nick Pelling's interpretation of Wladimir Dulov's observations; they are not direct measurements made in this audit.",
+    "Paint transfer constraints only date a contact state if the paint-transfer chronology is independently established.",
+    "The textual Q20 candidate is a production/reading-order hypothesis, not automatically an outer-to-inner physical nesting.",
+    "The missing 109|110 bifolium is omitted from this six-bifolium bound-state enumeration."
+  ],
+  "conclusion": "No single six-bifolium nesting satisfies both the old-wormhole outer-pair interpretation and all three direct paint transfers. At least two physical states are required under these assumptions."
+}
