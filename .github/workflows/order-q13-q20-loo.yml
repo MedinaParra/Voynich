@@ -1,0 +1,68 @@
+name: Voynich Q13 Q20 leave-one-bifolium-out audit
+
+on:
+  push:
+    branches:
+      - research/gpt6-audit
+    paths:
+      - '.github/workflows/order-q13-q20-loo.yml'
+      - 'research_gpt6/code/order_q13_q20_leave_one_bifolium_out.py'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  q13-q20-loo:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout research branch
+        uses: actions/checkout@v4
+        with:
+          ref: research/gpt6-audit
+          fetch-depth: 0
+
+      - name: Fetch frozen transcriptions
+        run: |
+          curl -L --fail --retry 3 \
+            'https://raw.githubusercontent.com/cesarjz/Voynich/47e6a77dc9d5cd570c375f4aff710fa4a0567278/corpus/voynich_eva.txt' \
+            -o /tmp/voynich_eva.txt
+          curl -L --fail --retry 3 \
+            'https://www.voynich.nu/data/IT2a-n.txt' \
+            -o /tmp/IT2a-n.txt
+
+      - name: Run strict leave-one-bifolium-out audit
+        run: |
+          mkdir -p research_gpt6/results
+          python research_gpt6/code/order_q13_q20_leave_one_bifolium_out.py \
+            --zl /tmp/voynich_eva.txt \
+            --it /tmp/IT2a-n.txt \
+            --json research_gpt6/results/order_q13_q20_leave_one_bifolium_out.json \
+            > research_gpt6/results/order_q13_q20_leave_one_bifolium_out.stdout.json
+
+      - name: Record provenance
+        run: |
+          {
+            echo "workflow_commit=$(git rev-parse HEAD)"
+            echo "zl_commit=47e6a77dc9d5cd570c375f4aff710fa4a0567278"
+            echo "python=$(python --version 2>&1)"
+            sha256sum /tmp/voynich_eva.txt
+            sha256sum /tmp/IT2a-n.txt
+            sha256sum research_gpt6/code/order_q13_q20_leave_one_bifolium_out.py
+          } > research_gpt6/results/order_q13_q20_leave_one_bifolium_out_provenance.txt
+
+      - name: Commit result
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add research_gpt6/results/order_q13_q20_leave_one_bifolium_out.json \
+                  research_gpt6/results/order_q13_q20_leave_one_bifolium_out.stdout.json \
+                  research_gpt6/results/order_q13_q20_leave_one_bifolium_out_provenance.txt
+          if git diff --cached --quiet; then
+            echo "No result changes"
+          else
+            git commit -m "research: record strict Q13/Q20 leave-one-bifolium-out audit"
+            git fetch origin research/gpt6-audit
+            git rebase origin/research/gpt6-audit
+            git push origin HEAD:research/gpt6-audit
+          fi
