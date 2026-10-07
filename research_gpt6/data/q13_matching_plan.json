@@ -1,0 +1,90 @@
+{
+  "schema_version": 1,
+  "experiment_id": "Q13_PHYSICAL_MATCHING_945",
+  "created_utc": "2026-10-07",
+  "hypothesis": "The five corpus-annotated conjoint-leaf pairs show greater lexical coherence than alternative perfect matchings, including cross-half alternatives, without selecting an inter-bifolium order.",
+  "corpus": {
+    "url": "https://raw.githubusercontent.com/cesarjz/Voynich/47e6a77dc9d5cd570c375f4aff710fa4a0567278/corpus/voynich_eva.txt",
+    "git_blob": "2a4533ab9bdfa85db9bad602d590978953055df1",
+    "sha256": "bf5b6d4ac1e3a51b1847a9c388318d609020441ccd56984c901c32b09beccafc"
+  },
+  "leaves": [
+    75,
+    76,
+    77,
+    78,
+    79,
+    80,
+    81,
+    82,
+    83,
+    84
+  ],
+  "observed_matching": [
+    [
+      75,
+      84
+    ],
+    [
+      76,
+      83
+    ],
+    [
+      77,
+      82
+    ],
+    [
+      78,
+      81
+    ],
+    [
+      79,
+      80
+    ]
+  ],
+  "mapping_verification": "Corpus metadata Q=M, B=1..5 and H=2,L=B on both sides; B values verify each pair. Author Lisa Fagin Davis directly identifies 75|84 and 78|81 at https://www.voynich.ninja/thread-5186.html. Full paper primary table is inaccessible behind OpenEdition's Anubis challenge; this test does not use its hypothetical inter-bifolium order.",
+  "lexical": {
+    "parser": "Literal lowercase EVA paragraph chunks; annotations, drawing breaks and invalid chunks are discarded as separators. Comma=boundary primary; comma=join sensitivity. Aggregate recto+verso per physical leaf.",
+    "primary": "Mean TF-IDF token cosine over the five paired leaves, with IDF fitted on physical leaves outside Q13 only; OOV tokens omitted, coverage reported.",
+    "nulls": [
+      "All 945 perfect matchings of the same ten leaves, including observed",
+      "All 120 one-to-one matchings between 75..79 and 80..84, including observed"
+    ],
+    "tail": "Exact inclusive upper tail, tolerance 1e-12; score each pre-fixed matching once; ranks are conditional random-matching reference ranks, not evidence for historical randomized binding.",
+    "robustness": [
+      "Same fixed representations on recto-only and verso-only views; both observed-minus-null-mean must be positive.",
+      "Residual lexical coherence after fixed OLS over all 45 possible edges with intercept,char3 cosine,absolute log token-count ratio,and squared folio-number gap/100; no physical-pair labels used to fit nuisance coefficients.",
+      "Repeat primary and residual metrics with comma=join. Both parser modes must satisfy gates.",
+      "Leave one observed pair out; all five remaining eight-leaf subsets must have positive observed-minus-null-mean in both parser modes; these are overlapping diagnostics, not five independent tests.",
+      "Character trigram and character Jensen-Shannon similarities are secondary diagnostics; no choosing whichever metric passes."
+    ]
+  },
+  "timesfm": {
+    "role": "Secondary structural diagnostic; cannot rescue lexical primary failure.",
+    "model": "google/timesfm-2.5-200m-pytorch",
+    "package": "timesfm[torch]==3.0.2",
+    "context_cap": 64,
+    "horizon": 4,
+    "parser_features": "Exactly feature_rows and ten features from timesfm_singulion_q13.py",
+    "scales": "Variance of feature rows outside Q13 only.",
+    "prediction": "Generate one forecast per source page before inspecting any matching score; save contexts, targets, predictions and per-feature directed-page losses.",
+    "pair_cost": "Symmetric mean over all eight directed cross-leaf page comparisons (r/r,r/v,v/r,v/v in both directions). No within-leaf transition enters statistic.",
+    "metrics": [
+      "All-ten-feature standardized model loss",
+      "Same model loss excluding token count feature",
+      "Persistence loss",
+      "Source-page feature-mean loss",
+      "Model-minus-persistence loss"
+    ],
+    "nulls": "Same 945 and 120 exact matchings; inclusive lower tail.",
+    "seed": 20261007
+  },
+  "decision": {
+    "alpha": 0.05,
+    "candidate": "PASS_STRUCTURAL_CANDIDATE only if both comma modes: primary p945<=.05 and p120<=.05; residual p945<=.05 and p120<=.05; positive recto/verso deviations from both null means; positive deviations in all five leave-pair-out subsets. Otherwise FAIL_STRICT_PAIR_COHERENCE. Missing/hash/metadata failures -> BLOCKED.",
+    "semantic": "NOT_RUN. No word translations, language identification, validation of a unique reading order, or claim of novelty.",
+    "scope": "Follow-up on already inspected Q13. No untouched manuscript holdout or independent transcription; a positive result would require independent-quire/transcription replication before any general claim.",
+    "multiplicity": "One predeclared lexical primary; all gates are an intersection, secondary metrics are descriptive and may not replace the primary."
+  },
+  "reporting": "Save full edge matrices, all matching scores, parser/coverage/metadata audit, diagnostics, source and code hashes, meaningful harness checks, CI audit with measured comparison scope. Do not retune after actual results."
+}
