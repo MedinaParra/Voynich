@@ -16,6 +16,8 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.11'
+      - name: Install runtime dependency
+        run: python -m pip install numpy
       - name: Fetch frozen inputs
         run: |
           curl -L --fail -o stars.csv 'https://raw.githubusercontent.com/seeton/Voynich-public/8920f2e506fce4c2c5a1245fb21a312f25655f1b/analysis/annotations/f68r_star_centres.csv'
