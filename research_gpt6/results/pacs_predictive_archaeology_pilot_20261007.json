@@ -1,0 +1,79 @@
+{
+  "classification": "PACS_PILOT_EXECUTED_EXPLORATORY_NOT_DECIPHERMENT",
+  "status": "PASS_EXECUTED_WITH_AUDIT_CORRECTION",
+  "date": "2026-10-07",
+  "provenance": {
+    "repository": "MedinaParra/Voynich",
+    "branch": "experiment/timesfm-voynich",
+    "source_blob": "2a4533ab9bdfa85db9bad602d590978953055df1",
+    "model": "google/timesfm-2.5-200m-pytorch",
+    "timesfm_package": "3.0.2",
+    "seed": 20261007,
+    "rows": 1423,
+    "features": ["tokens","mean_len","uniq_ratio","entropy_char","q_frac","o_frac","y_frac","d_frac","ch_frac","sh_frac","ok_frac","qok_frac","first_q","last_y","suffix_dy"],
+    "horizon": 16,
+    "pds_folds": 4,
+    "rolling_baseline_folds": 8
+  },
+  "rolling_baseline_replication": {
+    "context": 128,
+    "mean_relative_mse_reduction_vs_persistence": 0.32020897414422916,
+    "folds_beating_persistence": "8/8",
+    "status": "PASS_EXECUTED"
+  },
+  "predictive_dependency_spectrum": [
+    {"context":32,"mean_standardized_mse":0.7839062958955765,"mean_skill_vs_persistence":0.31410397600170953,"folds_beating_persistence":"4/4"},
+    {"context":64,"mean_standardized_mse":0.7767920643091202,"mean_skill_vs_persistence":0.31835842922340907,"folds_beating_persistence":"4/4"},
+    {"context":128,"mean_standardized_mse":0.7711854130029678,"mean_skill_vs_persistence":0.3234748511679427,"folds_beating_persistence":"4/4"},
+    {"context":256,"mean_standardized_mse":0.75667904317379,"mean_skill_vs_persistence":0.3350721136685383,"folds_beating_persistence":"4/4"},
+    {"context":512,"mean_standardized_mse":0.7588393986225128,"mean_skill_vs_persistence":0.3333898279624897,"folds_beating_persistence":"4/4"}
+  ],
+  "spectrum_interpretation": "Forecast energy decreases from context 32 through 256 and changes little/slightly worsens at 512. This is exploratory evidence for a dependency scale extending beyond very local context with an observed plateau near 256 clean text rows; four folds are insufficient for a confirmatory scale claim.",
+  "synthetic_controls_best_observed": [
+    {"control":"iid_row_resample","best_context":512,"mean_standardized_mse":0.9335762411355972,"mean_skill_vs_persistence":0.3559055138308885,"folds_beating_persistence":"4/4"},
+    {"control":"independent_channel_resample","best_context":512,"mean_standardized_mse":1.1410291641950607,"mean_skill_vs_persistence":0.4515111432502853,"folds_beating_persistence":"4/4"},
+    {"control":"ar1_matched","best_context":512,"mean_standardized_mse":0.962225541472435,"mean_skill_vs_persistence":0.5619915044660444,"folds_beating_persistence":"4/4"},
+    {"control":"local_copy_mutate","best_context":256,"mean_standardized_mse":0.17846474051475525,"mean_skill_vs_persistence":0.177762064526729,"folds_beating_persistence":"3/4"}
+  ],
+  "control_interpretation": "The 8/8 and 4/4 wins over persistence are not manuscript-specific evidence: several synthetic mechanisms also let TimesFM beat persistence. The local-copy/mutate control is much smoother in absolute standardized error but gives TimesFM less incremental skill over persistence. These signatures differ, but this pilot does not identify a unique generative class.",
+  "audited_context_ablation_matrix_context_128": [
+    {"ablation":"shuffle_folio_blocks","mean_delta_vs_original":0.03923200070858002,"median_delta_vs_original":0.0008414089679718018,"folds_harmed":"2/4","folds_helped":"2/4","source":"corrected_folio_audit"},
+    {"ablation":"shuffle_lines_within_folio","mean_delta_vs_original":0.0037473589181900024,"median_delta_vs_original":0.005119889974594116,"folds_harmed":"3/4","folds_helped":"1/4","source":"corrected_folio_audit"},
+    {"ablation":"reverse_context","mean_delta_vs_original":0.03318394720554352,"folds_harmed":"2/4","folds_helped":"2/4","source":"full_pilot"},
+    {"ablation":"channel_shuffle","mean_delta_vs_original":0.01772850751876831,"folds_harmed":"2/4","folds_helped":"2/4","source":"full_pilot"},
+    {"ablation":"flatten_structure","mean_delta_vs_original":0.003157675266265869,"folds_harmed":"3/4","folds_helped":"1/4","source":"full_pilot"},
+    {"ablation":"flatten_morphology","mean_delta_vs_original":-0.020517930388450623,"folds_harmed":"1/4","folds_helped":"3/4","source":"full_pilot"}
+  ],
+  "folio_audit": {
+    "unique_folios": 183,
+    "folios_with_multiple_rows": 156,
+    "parser_fix": "The line suffix was stripped from loci such as f113r.33 before grouping, so f113r is treated as the folio and .33 as a line identifier.",
+    "superseded_invalid_metrics": [
+      "The original shuffle_folio_blocks metric actually shuffled row-level loci and is invalid.",
+      "The original shuffle_lines_within_folio metric was exactly zero because all mistaken groups were singletons and is invalid."
+    ]
+  },
+  "interpretation": {
+    "supported_exploratory": [
+      "The real manuscript representation has a smooth predictive dependency spectrum with best observed energy at context 256 among the tested scales.",
+      "Destroying global/order information can raise forecasting loss on average, but the effect is not fold-stable enough for a confirmatory ordering claim.",
+      "Within-folio line order has a small positive average contribution in this pilot: delta +0.00375 with 3/4 folds harmed by shuffling.",
+      "The experimental framework successfully distinguishes multiple predictive signatures and exposes weaknesses that a simple TimesFM-versus-persistence test cannot detect."
+    ],
+    "not_supported": [
+      "No decipherment claim.",
+      "No semantic claim from TimesFM forecasting.",
+      "No statistically robust recovered page or folio order.",
+      "No unique identification of language, cipher, copy-mutation, or another generative mechanism.",
+      "The current aggregate morphology channels are not demonstrated as causal predictive structure: flattening them improved mean forecasting loss in 3/4 folds."
+    ]
+  },
+  "methodological_result": "PACS is viable as a falsification/contrast framework, but the main scientific result of this pilot is that beating persistence is insufficient. Confirmatory work should use multiple seeds, independent transcriptions, leave-one-quire/Currier holdouts, feature-wise morphology interventions, and stronger natural-language/cipher/generative controls.",
+  "limitations": [
+    "One EVA transcription and one fixed TimesFM model.",
+    "Only four PDS/ablation folds in this exploratory pilot.",
+    "Synthetic controls are mechanism probes, not exhaustive historical generative models.",
+    "TimesFM channels are forecast separately in a batched call; this is not evidence of learned cross-channel semantics.",
+    "Ablation deltas identify predictive dependence under this representation, not linguistic or causal meaning."
+  ]
+}

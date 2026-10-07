@@ -1,0 +1,90 @@
+{
+  "classification": "TENTATIVE_INTERNAL_VISUAL_PAIRS_NOT_GLOSSES",
+  "source_blob": "2a4533ab9bdfa85db9bad602d590978953055df1",
+  "anchors": [
+    {
+      "herbal": "f96v",
+      "pharma": "f100r",
+      "fragment": "116",
+      "match_strength": "some_similarity",
+      "source": "https://voynich.nu/q19/index.html",
+      "visual_verified_here": false
+    },
+    {
+      "herbal": "f13v",
+      "pharma": "f100v",
+      "fragment": "133",
+      "match_strength": "some_similarity",
+      "source": "https://voynich.nu/q19/index.html",
+      "visual_verified_here": false
+    },
+    {
+      "herbal": "f90v2",
+      "pharma": "f100v",
+      "fragment": "136",
+      "match_strength": "some_similarity",
+      "source": "https://voynich.nu/q19/index.html",
+      "visual_verified_here": false
+    },
+    {
+      "herbal": "f18v",
+      "pharma": "f102r2",
+      "fragment": "212",
+      "match_strength": "appears_same",
+      "source": "https://voynich.nu/q19/index.html",
+      "visual_verified_here": false,
+      "visual_inspected_here": true,
+      "visual_audit": "research_gpt6/data/internal_reuse_visual_audit.json"
+    },
+    {
+      "herbal": "f23r",
+      "pharma": "f102r2",
+      "fragment": "213",
+      "match_strength": "appears_same",
+      "source": "https://voynich.nu/q19/index.html",
+      "visual_verified_here": false,
+      "visual_inspected_here": true,
+      "visual_audit": "research_gpt6/data/internal_reuse_visual_audit.json"
+    },
+    {
+      "herbal": "f36r",
+      "pharma": "f102v2",
+      "fragment": "225",
+      "match_strength": "some_similarity",
+      "source": "https://voynich.nu/q19/index.html",
+      "visual_verified_here": false
+    },
+    {
+      "herbal": "f19r",
+      "pharma": "f102v1",
+      "fragment": "240",
+      "match_strength": "appears_same",
+      "source": "https://voynich.nu/q19/index.html",
+      "visual_verified_here": false
+    }
+  ],
+  "unlabelled_comparisons": [
+    {
+      "herbal": "f1v",
+      "pharma": "f102r1",
+      "fragment": "204"
+    },
+    {
+      "herbal": "f37v",
+      "pharma": "f102r1",
+      "fragment": "203"
+    },
+    {
+      "herbal": "f47v",
+      "pharma": "f102r2",
+      "fragment": "205"
+    },
+    {
+      "herbal": "f32v",
+      "pharma": "f102r2",
+      "fragment": "206"
+    }
+  ],
+  "warning": "Author-described visual correspondences are tentative; they are not plant species identifications, glosses or independent image annotations.",
+  "visual_review_scope": "Directed non-blind review of Yale f102r1/f102r2, f18v and f23r; two of seven proposed pairs inspected; no species, gloss or independent identity validation"
+}

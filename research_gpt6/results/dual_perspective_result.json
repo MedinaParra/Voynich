@@ -1,0 +1,82 @@
+{
+  "status": "PASS_EXECUTED",
+  "classification": "TWO_VIEW_METADATA_PILOT_NOT_TRANSLATION",
+  "n": 201,
+  "folios": 15,
+  "quires": [
+    "O",
+    "S"
+  ],
+  "classes": {
+    "Lc": 35,
+    "Lf": 166
+  },
+  "observed": {
+    "forward_gain": -0.026705133154166588,
+    "inverse_gain": -0.011516848188568907,
+    "folds": [
+      {
+        "quire": "O",
+        "test_n": 70,
+        "train_n": 123,
+        "purged_identical_tokens": 8,
+        "nuisance_balanced_accuracy": 0.5,
+        "joint_balanced_accuracy": 0.4882478632478633,
+        "nuisance_brier": 0.32853036007275654,
+        "joint_brier": 0.370452314180038,
+        "forward_gain": -0.041921954107281445,
+        "inverse_nuisance_mse": 1.2841109335543777,
+        "inverse_joint_mse": 1.3002922073850924,
+        "inverse_gain": -0.01618127383071477
+      },
+      {
+        "quire": "S",
+        "test_n": 131,
+        "train_n": 64,
+        "purged_identical_tokens": 6,
+        "nuisance_balanced_accuracy": 0.5456656346749226,
+        "joint_balanced_accuracy": 0.5273477812177503,
+        "nuisance_brier": 0.283731979793846,
+        "joint_brier": 0.29522029199489774,
+        "forward_gain": -0.011488312201051731,
+        "inverse_nuisance_mse": 1.1882327714938814,
+        "inverse_joint_mse": 1.1950851940403044,
+        "inverse_gain": -0.006852422546423043
+      }
+    ]
+  },
+  "permutation": {
+    "completed": 999,
+    "scheme": "row labels within physical folio x Currier x hand x exact token length",
+    "exchangeable_rows": 69,
+    "mean_changed_fraction": 0.14021982181186163,
+    "forward_p": 0.485,
+    "inverse_p": 0.529,
+    "intersection_union_p": 0.529,
+    "null_mean_gains": [
+      -0.02770572118085375,
+      -0.012543587714255667
+    ]
+  },
+  "numerical_pilot_pass": false,
+  "semantic_gate": "BLOCKED",
+  "translation": "NOT_RUN",
+  "reasons": [
+    "Lc/Lf are transcription metadata; independent visual annotation absent",
+    "Known corpus and only two quires; no fresh confirmatory holdout",
+    "Inverse predicts shapes, not literal strings or meanings",
+    "Within-folio row exchangeability is assumed, not proved; positional dependence remains",
+    "Renaming all category meanings leaves these numerical scores unchanged"
+  ],
+  "identifiability_witness": {
+    "status": "PASS_EXECUTED",
+    "max_gain_difference": 0.0,
+    "conclusion": "Two-view association alone does not identify category meanings"
+  },
+  "source_blob": "2a4533ab9bdfa85db9bad602d590978953055df1",
+  "seed": 408,
+  "environment": {
+    "python": "3.12.14",
+    "numpy": "2.3.5"
+  }
+}

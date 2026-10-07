@@ -1,0 +1,20 @@
+{
+  "status": "PASS",
+  "total_tests": 29,
+  "harnesses": [
+    {
+      "classification": "Q13_MATCHING_SCIENTIFIC_HARNESS",
+      "errors": 0,
+      "failures": 0,
+      "status": "PASS",
+      "tests_run": 16
+    },
+    {
+      "classification": "CONJOINT_REPLICATION_SCIENTIFIC_HARNESS",
+      "errors": 0,
+      "failures": 0,
+      "status": "PASS",
+      "tests_run": 13
+    }
+  ]
+}

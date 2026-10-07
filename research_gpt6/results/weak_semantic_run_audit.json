@@ -1,0 +1,59 @@
+{
+  "status": "PASS_EXECUTED",
+  "run_id": 37530804326,
+  "job_id": 112499376148,
+  "source_commit": "ac60b6dffc40b82eaa004d96f660f01c578ea3d4",
+  "retrieved": "2026-10-07T00:44:06.364495+00:00",
+  "result": {
+    "classification": "WEAK_SEMANTIC_SECTION_SIGNAL_NOT_TRANSLATION",
+    "source_blob": "2a4533ab9bdfa85db9bad602d590978953055df1",
+    "seed": 20261006,
+    "fold_unit": "quire",
+    "pages": 196,
+    "section": {
+      "accuracy": 0.5621301775147929,
+      "balanced_accuracy": 0.258125,
+      "n": 169,
+      "classes": {
+        "herbal": 128,
+        "pharmaceutical": 16,
+        "recipes": 25
+      }
+    },
+    "currier_control": {
+      "accuracy": 0.9893048128342246,
+      "balanced_accuracy": 0.9911504424778761,
+      "n": 187,
+      "classes": {
+        "A": 113,
+        "B": 74
+      }
+    },
+    "hand_control": {
+      "accuracy": 0.6363636363636364,
+      "balanced_accuracy": 0.3195236179107147,
+      "n": 187,
+      "classes": {
+        "1": 111,
+        "2": 39,
+        "3": 31,
+        "5": 6
+      }
+    },
+    "permutation_null": {
+      "scheme": "shuffle section labels within Currier x hand strata",
+      "requested": 999,
+      "completed": 999,
+      "mean_balanced_accuracy": 0.23727002907512876,
+      "max_balanced_accuracy": 0.27484375,
+      "monte_carlo_p": 0.049
+    },
+    "warning": "A significant section signal is evidence of topic/section association, not a token translation."
+  },
+  "limitations": [
+    "Only 169 of 196 pages evaluated; unavailable training classes are excluded by the script.",
+    "Labels retained by evaluation are only herbal, pharmaceutical and recipes.",
+    "Permutation may change class support and evaluated pages; reported p is exploratory.",
+    "This is a retrieved execution, not a new run in this turn."
+  ]
+}

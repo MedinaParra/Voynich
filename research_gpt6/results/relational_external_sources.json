@@ -1,0 +1,59 @@
+{
+  "source": {
+    "url": "https://github.com/epilectrik/voynich/blob/main/data/rosettes_annotated.json",
+    "blob": "c333494ad44319adeff25c22a3ba35e8b17d1990",
+    "git_blob_url": "https://api.github.com/repos/epilectrik/voynich/git/blobs/c333494ad44319adeff25c22a3ba35e8b17d1990"
+  },
+  "candidates": [
+    {
+      "path": "data/folio_maps/f75r_mapping.json",
+      "git_blob": "ce000d90ecb5203527077e4d30f20a1dfcd1c58a",
+      "url": "https://github.com/vigibygg-cmyk/voynich-research/blob/main/data/folio_maps/f75r_mapping.json",
+      "size": 6681
+    },
+    {
+      "path": "data/folio_maps/f75v_mapping.json",
+      "git_blob": "a4950920da5c15efcd5e27bf6eaa9cf350bd0f46",
+      "url": "https://github.com/vigibygg-cmyk/voynich-research/blob/main/data/folio_maps/f75v_mapping.json",
+      "size": 7332
+    },
+    {
+      "path": "data/folio_maps/f76r_mapping.json",
+      "git_blob": "f7ab993be03e81deaf3dbe69352101e3faabe500",
+      "url": "https://github.com/vigibygg-cmyk/voynich-research/blob/main/data/folio_maps/f76r_mapping.json",
+      "size": 3917
+    },
+    {
+      "path": "data/folio_maps/f77r_mapping.json",
+      "git_blob": "6bff9f6c4396c57c400fb5762ae0c3034134c26a",
+      "url": "https://github.com/vigibygg-cmyk/voynich-research/blob/main/data/folio_maps/f77r_mapping.json",
+      "size": 51389
+    },
+    {
+      "path": "data/folio_maps/f78r_mapping.json",
+      "git_blob": "31033986bfa422cefb7b034729aa12e940612053",
+      "url": "https://github.com/vigibygg-cmyk/voynich-research/blob/main/data/folio_maps/f78r_mapping.json",
+      "size": 40822
+    },
+    {
+      "path": "data/folio_maps/f80v_mapping.json",
+      "git_blob": "d87df96c92960ccc8d69eaf67cfb257ca050d6eb",
+      "url": "https://github.com/vigibygg-cmyk/voynich-research/blob/main/data/folio_maps/f80v_mapping.json",
+      "size": 49647
+    },
+    {
+      "path": "data/folio_maps/f82r_mapping.json",
+      "git_blob": "312b8b2d01b16200d81dbaa8c5ba9bd6a3df40a8",
+      "url": "https://github.com/vigibygg-cmyk/voynich-research/blob/main/data/folio_maps/f82r_mapping.json",
+      "size": 9688
+    },
+    {
+      "path": "data/folio_maps/fRos_mapping.json",
+      "git_blob": "fd17eb69c68416209f7f66723f9768c82be15ae4",
+      "url": "https://github.com/vigibygg-cmyk/voynich-research/blob/main/data/folio_maps/fRos_mapping.json",
+      "size": 59324
+    }
+  ],
+  "candidate_status": "LOCATED_NOT_VALIDATED",
+  "invalid_json_source": "https://github.com/vigibygg-cmyk/voynich-research/blob/main/data/folio_maps/fRos_mapping.json"
+}

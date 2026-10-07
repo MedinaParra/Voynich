@@ -1,0 +1,51 @@
+name: Conjoint-leaf replication Q1 Q3 Q20
+
+on:
+  push:
+    branches: [experiment/timesfm-voynich]
+    paths:
+      - 'research_gpt6/code/conjoint_replication.py'
+      - 'research_gpt6/code/test_conjoint_replication.py'
+      - 'research_gpt6/data/conjoint_replication_plan.json'
+      - 'research_gpt6/data/conjoint_replication_metadata.json'
+      - '.github/workflows/conjoint-replication.yml'
+  workflow_dispatch:
+
+jobs:
+  replication:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install runtime
+        run: pip install 'timesfm[torch]==3.0.2' 'numpy==2.3.5'
+      - name: Run predecessor scientific controls
+        run: python research_gpt6/code/test_q13_matching_control.py
+      - name: Run replication scientific controls
+        run: python research_gpt6/code/test_conjoint_replication.py
+      - name: Fetch frozen corpus
+        run: >-
+          curl -L --fail --retry 3
+          'https://raw.githubusercontent.com/cesarjz/Voynich/47e6a77dc9d5cd570c375f4aff710fa4a0567278/corpus/voynich_eva.txt'
+          -o /tmp/voynich_eva.txt
+      - name: Execute frozen replication and eligible TimesFM diagnostics
+        env:
+          OMP_NUM_THREADS: '2'
+          MKL_NUM_THREADS: '2'
+        run: |
+          python research_gpt6/code/conjoint_replication.py \
+            --corpus /tmp/voynich_eva.txt \
+            --plan research_gpt6/data/conjoint_replication_plan.json \
+            --metadata-audit research_gpt6/data/conjoint_replication_metadata.json \
+            --out research_gpt6/results/conjoint_replication_result.json \
+            --timesfm
+      - name: Upload full evidence
+        uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: conjoint-replication-full-evidence
+          path: research_gpt6/results/conjoint_replication_result.json
+          if-no-files-found: error
