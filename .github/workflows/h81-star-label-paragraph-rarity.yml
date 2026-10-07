@@ -1,4 +1,4 @@
-# Trigger commit after workflow registration; no H81 scientific criteria changed.
+# Registered-workflow retrigger only; no H81 scientific criteria changed.
 name: H81 star-label paragraph rarity
 on:
   workflow_dispatch:
