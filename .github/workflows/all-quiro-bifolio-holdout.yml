@@ -7,6 +7,8 @@ on:
     paths:
       - 'research_gpt6/code/all_quires_bifolio_holdout.py'
       - 'research_gpt6/code/bifolio_blind_reconstruction.py'
+      - 'research_gpt6/code/bifolio_hand_currier_control.py'
+      - 'research_gpt6/code/it2a_blind_bifolio_replication.py'
       - '.github/workflows/all-quiro-bifolio-holdout.yml'
   workflow_dispatch:
 
@@ -19,7 +21,7 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.11'
-      - name: Fetch frozen EVA corpus
+      - name: Fetch frozen ZL EVA corpus
         run: |
           curl -L --fail --retry 3 \
             'https://raw.githubusercontent.com/cesarjz/Voynich/47e6a77dc9d5cd570c375f4aff710fa4a0567278/corpus/voynich_eva.txt' \
@@ -36,6 +38,23 @@ jobs:
             --corpus /tmp/voynich_eva.txt \
             --out research_gpt6/results/bifolio_blind_reconstruction.json \
             | tee /tmp/blind-reconstruction.log
+      - name: Execute hand and Currier conditional control
+        run: |
+          python research_gpt6/code/bifolio_hand_currier_control.py \
+            --corpus /tmp/voynich_eva.txt \
+            --out research_gpt6/results/bifolio_hand_currier_control.json \
+            | tee /tmp/hand-currier.log
+      - name: Fetch independent Takahashi IT2a transcription
+        run: |
+          curl -L --fail --retry 3 \
+            'https://www.voynich.nu/data/IT2a-n.txt' \
+            -o /tmp/IT2a-n.txt
+      - name: Execute IT2a blind replication
+        run: |
+          python research_gpt6/code/it2a_blind_bifolio_replication.py \
+            --corpus /tmp/IT2a-n.txt \
+            --out research_gpt6/results/it2a_blind_bifolio_replication.json \
+            | tee /tmp/it2a-blind.log
       - name: Upload results
         uses: actions/upload-artifact@v4
         if: always()
@@ -44,4 +63,6 @@ jobs:
           path: |
             research_gpt6/results/all_quires_bifolio_holdout.json
             research_gpt6/results/bifolio_blind_reconstruction.json
+            research_gpt6/results/bifolio_hand_currier_control.json
+            research_gpt6/results/it2a_blind_bifolio_replication.json
           if-no-files-found: warn
