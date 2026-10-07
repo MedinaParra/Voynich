@@ -6,6 +6,9 @@ on:
     paths:
       - 'research_gpt6/code/dual_perspective_harness.py'
       - 'research_gpt6/code/test_dual_perspective_harness.py'
+      - 'research_gpt6/code/internal_reuse_retrieval.py'
+      - 'research_gpt6/code/test_internal_reuse_retrieval.py'
+      - 'research_gpt6/data/internal_reuse_anchors.json'
       - '.github/workflows/dual-perspective-voynich.yml'
 jobs:
   two-view-controls:
@@ -17,16 +20,22 @@ jobs:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with: {python-version: '3.12'}
-      - run: pip install 'numpy==2.3.5'
+      - run: pip install 'numpy==2.3.5' 'scikit-learn==1.8.0'
       - name: Verify scientific failure-mode controls
         run: python -m unittest discover -s research_gpt6/code -p test_dual_perspective_harness.py -v
       - name: Fetch frozen corpus
         run: curl -L --fail -o voynich_eva.txt 'https://raw.githubusercontent.com/cesarjz/Voynich/47e6a77dc9d5cd570c375f4aff710fa4a0567278/corpus/voynich_eva.txt'
       - name: Run exploratory metadata test with semantic gate
         run: python research_gpt6/code/dual_perspective_harness.py --corpus voynich_eva.txt --out research_gpt6/results/dual_perspective_result.json --permutations 999
+      - name: Verify internal-reuse extraction controls
+        run: python -m unittest discover -s research_gpt6/code -p test_internal_reuse_retrieval.py -v
+      - name: Run tentative internal-reuse retrieval
+        run: python research_gpt6/code/internal_reuse_retrieval.py --corpus voynich_eva.txt --anchors research_gpt6/data/internal_reuse_anchors.json --out research_gpt6/results/internal_reuse_result.json
       - uses: actions/upload-artifact@v4
         if: always()
         with:
           name: two-view-metadata-results
-          path: research_gpt6/results/dual_perspective_result.json
+          path: |
+            research_gpt6/results/dual_perspective_result.json
+            research_gpt6/results/internal_reuse_result.json
           if-no-files-found: warn
