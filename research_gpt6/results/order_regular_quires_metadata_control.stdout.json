@@ -1,0 +1,6972 @@
+{
+  "status": "REGULAR_QUIRE_NESTING_METADATA_CONTROL_NOT_DECIPHERMENT",
+  "method_frozen_from": "Quire F Currier/hand confound control, itself using the frozen Quire C boundary model",
+  "controls": [
+    "raw",
+    "ordered Currier-L transition-class centering",
+    "ordered exact Davis-H plus Currier-L transition-class centering"
+  ],
+  "quires": {
+    "A_f1-f8": {
+      "known_physical_bifolia": [
+        "1|8",
+        "2|7",
+        "3|6",
+        "4|5"
+      ],
+      "folio_metadata_signatures": {
+        "1": {
+          "H": [
+            "1"
+          ],
+          "L": [
+            "A"
+          ]
+        },
+        "2": {
+          "H": [
+            "1"
+          ],
+          "L": [
+            "A"
+          ]
+        },
+        "3": {
+          "H": [
+            "1"
+          ],
+          "L": [
+            "A"
+          ]
+        },
+        "4": {
+          "H": [
+            "1"
+          ],
+          "L": [
+            "A"
+          ]
+        },
+        "5": {
+          "H": [
+            "1"
+          ],
+          "L": [
+            "A"
+          ]
+        },
+        "6": {
+          "H": [
+            "1"
+          ],
+          "L": [
+            "A"
+          ]
+        },
+        "7": {
+          "H": [
+            "1"
+          ],
+          "L": [
+            "A"
+          ]
+        },
+        "8": {
+          "H": [
+            "1"
+          ],
+          "L": [
+            "A"
+          ]
+        }
+      },
+      "ZL3b": {
+        "by_window": [
+          {
+            "boundary_tokens": 25,
+            "raw": {
+              "current_rank": 6,
+              "current_score": 1.327578069883089,
+              "current_exact_p_ge": 0.25,
+              "best_nesting_outer_to_inner": [
+                "2|7",
+                "3|6",
+                "1|8",
+                "4|5"
+              ],
+              "best_leaf_reading_order": [
+                2,
+                3,
+                1,
+                4,
+                5,
+                8,
+                6,
+                7
+              ],
+              "best_score": 3.1821207681612975,
+              "current_is_best": false
+            },
+            "currier_residual": {
+              "current_rank": 6,
+              "current_score": 1.327578069883089,
+              "current_exact_p_ge": 0.25,
+              "best_nesting_outer_to_inner": [
+                "2|7",
+                "3|6",
+                "1|8",
+                "4|5"
+              ],
+              "best_leaf_reading_order": [
+                2,
+                3,
+                1,
+                4,
+                5,
+                8,
+                6,
+                7
+              ],
+              "best_score": 3.1821207681612975,
+              "current_is_best": false
+            },
+            "hand_currier_residual": {
+              "current_rank": 6,
+              "current_score": 1.327578069883089,
+              "current_exact_p_ge": 0.25,
+              "best_nesting_outer_to_inner": [
+                "2|7",
+                "3|6",
+                "1|8",
+                "4|5"
+              ],
+              "best_leaf_reading_order": [
+                2,
+                3,
+                1,
+                4,
+                5,
+                8,
+                6,
+                7
+              ],
+              "best_score": 3.1821207681612975,
+              "current_is_best": false
+            },
+            "n_currier_transition_classes": 1,
+            "n_hand_currier_transition_classes": 1
+          },
+          {
+            "boundary_tokens": 50,
+            "raw": {
+              "current_rank": 2,
+              "current_score": 3.454192349545146,
+              "current_exact_p_ge": 0.08333333333333333,
+              "best_nesting_outer_to_inner": [
+                "2|7",
+                "3|6",
+                "1|8",
+                "4|5"
+              ],
+              "best_leaf_reading_order": [
+                2,
+                3,
+                1,
+                4,
+                5,
+                8,
+                6,
+                7
+              ],
+              "best_score": 3.6335996612358445,
+              "current_is_best": false
+            },
+            "currier_residual": {
+              "current_rank": 2,
+              "current_score": 3.454192349545148,
+              "current_exact_p_ge": 0.08333333333333333,
+              "best_nesting_outer_to_inner": [
+                "2|7",
+                "3|6",
+                "1|8",
+                "4|5"
+              ],
+              "best_leaf_reading_order": [
+                2,
+                3,
+                1,
+                4,
+                5,
+                8,
+                6,
+                7
+              ],
+              "best_score": 3.6335996612358463,
+              "current_is_best": false
+            },
+            "hand_currier_residual": {
+              "current_rank": 2,
+              "current_score": 3.454192349545148,
+              "current_exact_p_ge": 0.08333333333333333,
+              "best_nesting_outer_to_inner": [
+                "2|7",
+                "3|6",
+                "1|8",
+                "4|5"
+              ],
+              "best_leaf_reading_order": [
+                2,
+                3,
+                1,
+                4,
+                5,
+                8,
+                6,
+                7
+              ],
+              "best_score": 3.6335996612358463,
+              "current_is_best": false
+            },
+            "n_currier_transition_classes": 1,
+            "n_hand_currier_transition_classes": 1
+          },
+          {
+            "boundary_tokens": 100,
+            "raw": {
+              "current_rank": 4,
+              "current_score": 3.0466821497186904,
+              "current_exact_p_ge": 0.16666666666666666,
+              "best_nesting_outer_to_inner": [
+                "4|5",
+                "2|7",
+                "3|6",
+                "1|8"
+              ],
+              "best_leaf_reading_order": [
+                4,
+                2,
+                3,
+                1,
+                8,
+                6,
+                7,
+                5
+              ],
+              "best_score": 3.332218988515094,
+              "current_is_best": false
+            },
+            "currier_residual": {
+              "current_rank": 4,
+              "current_score": 3.0466821497186887,
+              "current_exact_p_ge": 0.16666666666666666,
+              "best_nesting_outer_to_inner": [
+                "4|5",
+                "2|7",
+                "3|6",
+                "1|8"
+              ],
+              "best_leaf_reading_order": [
+                4,
+                2,
+                3,
+                1,
+                8,
+                6,
+                7,
+                5
+              ],
+              "best_score": 3.3322189885150926,
+              "current_is_best": false
+            },
+            "hand_currier_residual": {
+              "current_rank": 4,
+              "current_score": 3.0466821497186887,
+              "current_exact_p_ge": 0.16666666666666666,
+              "best_nesting_outer_to_inner": [
+                "4|5",
+                "2|7",
+                "3|6",
+                "1|8"
+              ],
+              "best_leaf_reading_order": [
+                4,
+                2,
+                3,
+                1,
+                8,
+                6,
+                7,
+                5
+              ],
+              "best_score": 3.3322189885150926,
+              "current_is_best": false
+            },
+            "n_currier_transition_classes": 1,
+            "n_hand_currier_transition_classes": 1
+          },
+          {
+            "boundary_tokens": 200,
+            "raw": {
+              "current_rank": 4,
+              "current_score": 1.9065464149132891,
+              "current_exact_p_ge": 0.16666666666666666,
+              "best_nesting_outer_to_inner": [
+                "4|5",
+                "2|7",
+                "3|6",
+                "1|8"
+              ],
+              "best_leaf_reading_order": [
+                4,
+                2,
+                3,
+                1,
+                8,
+                6,
+                7,
+                5
+              ],
+              "best_score": 3.314009067630973,
+              "current_is_best": false
+            },
+            "currier_residual": {
+              "current_rank": 4,
+              "current_score": 1.9065464149132902,
+              "current_exact_p_ge": 0.16666666666666666,
+              "best_nesting_outer_to_inner": [
+                "4|5",
+                "2|7",
+                "3|6",
+                "1|8"
+              ],
+              "best_leaf_reading_order": [
+                4,
+                2,
+                3,
+                1,
+                8,
+                6,
+                7,
+                5
+              ],
+              "best_score": 3.314009067630974,
+              "current_is_best": false
+            },
+            "hand_currier_residual": {
+              "current_rank": 4,
+              "current_score": 1.9065464149132902,
+              "current_exact_p_ge": 0.16666666666666666,
+              "best_nesting_outer_to_inner": [
+                "4|5",
+                "2|7",
+                "3|6",
+                "1|8"
+              ],
+              "best_leaf_reading_order": [
+                4,
+                2,
+                3,
+                1,
+                8,
+                6,
+                7,
+                5
+              ],
+              "best_score": 3.314009067630974,
+              "current_is_best": false
+            },
+            "n_currier_transition_classes": 1,
+            "n_hand_currier_transition_classes": 1
+          },
+          {
+            "boundary_tokens": "whole_page",
+            "raw": {
+              "current_rank": 4,
+              "current_score": 1.913167592936055,
+              "current_exact_p_ge": 0.16666666666666666,
+              "best_nesting_outer_to_inner": [
+                "4|5",
+                "2|7",
+                "3|6",
+                "1|8"
+              ],
+              "best_leaf_reading_order": [
+                4,
+                2,
+                3,
+                1,
+                8,
+                6,
+                7,
+                5
+              ],
+              "best_score": 3.3024222669590078,
+              "current_is_best": false
+            },
+            "currier_residual": {
+              "current_rank": 4,
+              "current_score": 1.913167592936055,
+              "current_exact_p_ge": 0.16666666666666666,
+              "best_nesting_outer_to_inner": [
+                "4|5",
+                "2|7",
+                "3|6",
+                "1|8"
+              ],
+              "best_leaf_reading_order": [
+                4,
+                2,
+                3,
+                1,
+                8,
+                6,
+                7,
+                5
+              ],
+              "best_score": 3.3024222669590078,
+              "current_is_best": false
+            },
+            "hand_currier_residual": {
+              "current_rank": 4,
+              "current_score": 1.913167592936055,
+              "current_exact_p_ge": 0.16666666666666666,
+              "best_nesting_outer_to_inner": [
+                "4|5",
+                "2|7",
+                "3|6",
+                "1|8"
+              ],
+              "best_leaf_reading_order": [
+                4,
+                2,
+                3,
+                1,
+                8,
+                6,
+                7,
+                5
+              ],
+              "best_score": 3.3024222669590078,
+              "current_is_best": false
+            },
+            "n_currier_transition_classes": 1,
+            "n_hand_currier_transition_classes": 1
+          }
+        ],
+        "summary": {
+          "raw": {
+            "current_ranks": [
+              6,
+              2,
+              4,
+              4,
+              4
+            ],
+            "current_median_rank": 4,
+            "current_top1_windows": 0,
+            "current_top3_windows": 1,
+            "current_worst_rank": 6,
+            "best_nestings_by_window": [
+              [
+                "2|7",
+                "3|6",
+                "1|8",
+                "4|5"
+              ],
+              [
+                "2|7",
+                "3|6",
+                "1|8",
+                "4|5"
+              ],
+              [
+                "4|5",
+                "2|7",
+                "3|6",
+                "1|8"
+              ],
+              [
+                "4|5",
+                "2|7",
+                "3|6",
+                "1|8"
+              ],
+              [
+                "4|5",
+                "2|7",
+                "3|6",
+                "1|8"
+              ]
+            ]
+          },
+          "currier_residual": {
+            "current_ranks": [
+              6,
+              2,
+              4,
+              4,
+              4
+            ],
+            "current_median_rank": 4,
+            "current_top1_windows": 0,
+            "current_top3_windows": 1,
+            "current_worst_rank": 6,
+            "best_nestings_by_window": [
+              [
+                "2|7",
+                "3|6",
+                "1|8",
+                "4|5"
+              ],
+              [
+                "2|7",
+                "3|6",
+                "1|8",
+                "4|5"
+              ],
+              [
+                "4|5",
+                "2|7",
+                "3|6",
+                "1|8"
+              ],
+              [
+                "4|5",
+                "2|7",
+                "3|6",
+                "1|8"
+              ],
+              [
+                "4|5",
+                "2|7",
+                "3|6",
+                "1|8"
+              ]
+            ]
+          },
+          "hand_currier_residual": {
+            "current_ranks": [
+              6,
+              2,
+              4,
+              4,
+              4
+            ],
+            "current_median_rank": 4,
+            "current_top1_windows": 0,
+            "current_top3_windows": 1,
+            "current_worst_rank": 6,
+            "best_nestings_by_window": [
+              [
+                "2|7",
+                "3|6",
+                "1|8",
+                "4|5"
+              ],
+              [
+                "2|7",
+                "3|6",
+                "1|8",
+                "4|5"
+              ],
+              [
+                "4|5",
+                "2|7",
+                "3|6",
+                "1|8"
+              ],
+              [
+                "4|5",
+                "2|7",
+                "3|6",
+                "1|8"
+              ],
+              [
+                "4|5",
+                "2|7",
+                "3|6",
+                "1|8"
+              ]
+            ]
+          }
+        }
+      },
+      "IT2a": {
+        "by_window": [
+          {
+            "boundary_tokens": 25,
+            "raw": {
+              "current_rank": 4,
+              "current_score": 1.1596569676782782,
+              "current_exact_p_ge": 0.16666666666666666,
+              "best_nesting_outer_to_inner": [
+                "2|7",
+                "4|5",
+                "3|6",
+                "1|8"
+              ],
+              "best_leaf_reading_order": [
+                2,
+                4,
+                3,
+                1,
+                8,
+                6,
+                5,
+                7
+              ],
+              "best_score": 2.139609628370951,
+              "current_is_best": false
+            },
+            "currier_residual": {
+              "current_rank": 4,
+              "current_score": 1.1596569676782786,
+              "current_exact_p_ge": 0.16666666666666666,
+              "best_nesting_outer_to_inner": [
+                "2|7",
+                "4|5",
+                "3|6",
+                "1|8"
+              ],
+              "best_leaf_reading_order": [
+                2,
+                4,
+                3,
+                1,
+                8,
+                6,
+                5,
+                7
+              ],
+              "best_score": 2.1396096283709514,
+              "current_is_best": false
+            },
+            "hand_currier_residual": {
+              "current_rank": 4,
+              "current_score": 1.1596569676782786,
+              "current_exact_p_ge": 0.16666666666666666,
+              "best_nesting_outer_to_inner": [
+                "2|7",
+                "4|5",
+                "3|6",
+                "1|8"
+              ],
+              "best_leaf_reading_order": [
+                2,
+                4,
+                3,
+                1,
+                8,
+                6,
+                5,
+                7
+              ],
+              "best_score": 2.1396096283709514,
+              "current_is_best": false
+            },
+            "n_currier_transition_classes": 1,
+            "n_hand_currier_transition_classes": 1
+          },
+          {
+            "boundary_tokens": 50,
+            "raw": {
+              "current_rank": 4,
+              "current_score": 1.7508929343871877,
+              "current_exact_p_ge": 0.16666666666666666,
+              "best_nesting_outer_to_inner": [
+                "1|8",
+                "4|5",
+                "2|7",
+                "3|6"
+              ],
+              "best_leaf_reading_order": [
+                1,
+                4,
+                2,
+                3,
+                6,
+                7,
+                5,
+                8
+              ],
+              "best_score": 2.6878708441198693,
+              "current_is_best": false
+            },
+            "currier_residual": {
+              "current_rank": 4,
+              "current_score": 1.7508929343871862,
+              "current_exact_p_ge": 0.16666666666666666,
+              "best_nesting_outer_to_inner": [
+                "1|8",
+                "4|5",
+                "2|7",
+                "3|6"
+              ],
+              "best_leaf_reading_order": [
+                1,
+                4,
+                2,
+                3,
+                6,
+                7,
+                5,
+                8
+              ],
+              "best_score": 2.687870844119868,
+              "current_is_best": false
+            },
+            "hand_currier_residual": {
+              "current_rank": 4,
+              "current_score": 1.7508929343871862,
+              "current_exact_p_ge": 0.16666666666666666,
+              "best_nesting_outer_to_inner": [
+                "1|8",
+                "4|5",
+                "2|7",
+                "3|6"
+              ],
+              "best_leaf_reading_order": [
+                1,
+                4,
+                2,
+                3,
+                6,
+                7,
+                5,
+                8
+              ],
+              "best_score": 2.687870844119868,
+              "current_is_best": false
+            },
+            "n_currier_transition_classes": 1,
+            "n_hand_currier_transition_classes": 1
+          },
+          {
+            "boundary_tokens": 100,
+            "raw": {
+              "current_rank": 6,
+              "current_score": 2.37648940878196,
+              "current_exact_p_ge": 0.25,
+              "best_nesting_outer_to_inner": [
+                "3|6",
+                "1|8",
+                "2|7",
+                "4|5"
+              ],
+              "best_leaf_reading_order": [
+                3,
+                1,
+                2,
+                4,
+                5,
+                7,
+                8,
+                6
+              ],
+              "best_score": 3.269926771124221,
+              "current_is_best": false
+            },
+            "currier_residual": {
+              "current_rank": 6,
+              "current_score": 2.3764894087819597,
+              "current_exact_p_ge": 0.25,
+              "best_nesting_outer_to_inner": [
+                "3|6",
+                "1|8",
+                "2|7",
+                "4|5"
+              ],
+              "best_leaf_reading_order": [
+                3,
+                1,
+                2,
+                4,
+                5,
+                7,
+                8,
+                6
+              ],
+              "best_score": 3.2699267711242204,
+              "current_is_best": false
+            },
+            "hand_currier_residual": {
+              "current_rank": 6,
+              "current_score": 2.3764894087819597,
+              "current_exact_p_ge": 0.25,
+              "best_nesting_outer_to_inner": [
+                "3|6",
+                "1|8",
+                "2|7",
+                "4|5"
+              ],
+              "best_leaf_reading_order": [
+                3,
+                1,
+                2,
+                4,
+                5,
+                7,
+                8,
+                6
+              ],
+              "best_score": 3.2699267711242204,
+              "current_is_best": false
+            },
+            "n_currier_transition_classes": 1,
+            "n_hand_currier_transition_classes": 1
+          },
+          {
+            "boundary_tokens": 200,
+            "raw": {
+              "current_rank": 10,
+              "current_score": 1.246912740071138,
+              "current_exact_p_ge": 0.4166666666666667,
+              "best_nesting_outer_to_inner": [
+                "4|5",
+                "2|7",
+                "3|6",
+                "1|8"
+              ],
+              "best_leaf_reading_order": [
+                4,
+                2,
+                3,
+                1,
+                8,
+                6,
+                7,
+                5
+              ],
+              "best_score": 3.417022289995783,
+              "current_is_best": false
+            },
+            "currier_residual": {
+              "current_rank": 10,
+              "current_score": 1.2469127400711395,
+              "current_exact_p_ge": 0.4166666666666667,
+              "best_nesting_outer_to_inner": [
+                "4|5",
+                "2|7",
+                "3|6",
+                "1|8"
+              ],
+              "best_leaf_reading_order": [
+                4,
+                2,
+                3,
+                1,
+                8,
+                6,
+                7,
+                5
+              ],
+              "best_score": 3.4170222899957845,
+              "current_is_best": false
+            },
+            "hand_currier_residual": {
+              "current_rank": 10,
+              "current_score": 1.2469127400711395,
+              "current_exact_p_ge": 0.4166666666666667,
+              "best_nesting_outer_to_inner": [
+                "4|5",
+                "2|7",
+                "3|6",
+                "1|8"
+              ],
+              "best_leaf_reading_order": [
+                4,
+                2,
+                3,
+                1,
+                8,
+                6,
+                7,
+                5
+              ],
+              "best_score": 3.4170222899957845,
+              "current_is_best": false
+            },
+            "n_currier_transition_classes": 1,
+            "n_hand_currier_transition_classes": 1
+          },
+          {
+            "boundary_tokens": "whole_page",
+            "raw": {
+              "current_rank": 9,
+              "current_score": 1.256202957482236,
+              "current_exact_p_ge": 0.375,
+              "best_nesting_outer_to_inner": [
+                "4|5",
+                "2|7",
+                "3|6",
+                "1|8"
+              ],
+              "best_leaf_reading_order": [
+                4,
+                2,
+                3,
+                1,
+                8,
+                6,
+                7,
+                5
+              ],
+              "best_score": 3.408665864501722,
+              "current_is_best": false
+            },
+            "currier_residual": {
+              "current_rank": 9,
+              "current_score": 1.2562029574822355,
+              "current_exact_p_ge": 0.375,
+              "best_nesting_outer_to_inner": [
+                "4|5",
+                "2|7",
+                "3|6",
+                "1|8"
+              ],
+              "best_leaf_reading_order": [
+                4,
+                2,
+                3,
+                1,
+                8,
+                6,
+                7,
+                5
+              ],
+              "best_score": 3.4086658645017214,
+              "current_is_best": false
+            },
+            "hand_currier_residual": {
+              "current_rank": 9,
+              "current_score": 1.2562029574822355,
+              "current_exact_p_ge": 0.375,
+              "best_nesting_outer_to_inner": [
+                "4|5",
+                "2|7",
+                "3|6",
+                "1|8"
+              ],
+              "best_leaf_reading_order": [
+                4,
+                2,
+                3,
+                1,
+                8,
+                6,
+                7,
+                5
+              ],
+              "best_score": 3.4086658645017214,
+              "current_is_best": false
+            },
+            "n_currier_transition_classes": 1,
+            "n_hand_currier_transition_classes": 1
+          }
+        ],
+        "summary": {
+          "raw": {
+            "current_ranks": [
+              4,
+              4,
+              6,
+              10,
+              9
+            ],
+            "current_median_rank": 6,
+            "current_top1_windows": 0,
+            "current_top3_windows": 0,
+            "current_worst_rank": 10,
+            "best_nestings_by_window": [
+              [
+                "2|7",
+                "4|5",
+                "3|6",
+                "1|8"
+              ],
+              [
+                "1|8",
+                "4|5",
+                "2|7",
+                "3|6"
+              ],
+              [
+                "3|6",
+                "1|8",
+                "2|7",
+                "4|5"
+              ],
+              [
+                "4|5",
+                "2|7",
+                "3|6",
+                "1|8"
+              ],
+              [
+                "4|5",
+                "2|7",
+                "3|6",
+                "1|8"
+              ]
+            ]
+          },
+          "currier_residual": {
+            "current_ranks": [
+              4,
+              4,
+              6,
+              10,
+              9
+            ],
+            "current_median_rank": 6,
+            "current_top1_windows": 0,
+            "current_top3_windows": 0,
+            "current_worst_rank": 10,
+            "best_nestings_by_window": [
+              [
+                "2|7",
+                "4|5",
+                "3|6",
+                "1|8"
+              ],
+              [
+                "1|8",
+                "4|5",
+                "2|7",
+                "3|6"
+              ],
+              [
+                "3|6",
+                "1|8",
+                "2|7",
+                "4|5"
+              ],
+              [
+                "4|5",
+                "2|7",
+                "3|6",
+                "1|8"
+              ],
+              [
+                "4|5",
+                "2|7",
+                "3|6",
+                "1|8"
+              ]
+            ]
+          },
+          "hand_currier_residual": {
+            "current_ranks": [
+              4,
+              4,
+              6,
+              10,
+              9
+            ],
+            "current_median_rank": 6,
+            "current_top1_windows": 0,
+            "current_top3_windows": 0,
+            "current_worst_rank": 10,
+            "best_nestings_by_window": [
+              [
+                "2|7",
+                "4|5",
+                "3|6",
+                "1|8"
+              ],
+              [
+                "1|8",
+                "4|5",
+                "2|7",
+                "3|6"
+              ],
+              [
+                "3|6",
+                "1|8",
+                "2|7",
+                "4|5"
+              ],
+              [
+                "4|5",
+                "2|7",
+                "3|6",
+                "1|8"
+              ],
+              [
+                "4|5",
+                "2|7",
+                "3|6",
+                "1|8"
+              ]
+            ]
+          }
+        }
+      },
+      "cross_transcription": {
+        "raw": {
+          "current_ranks_across_10_tests": [
+            6,
+            2,
+            4,
+            4,
+            4,
+            4,
+            4,
+            6,
+            10,
+            9
+          ],
+          "median_rank": 4.0,
+          "top1_tests": 0,
+          "top3_tests": 1,
+          "worst_rank": 10
+        },
+        "currier_residual": {
+          "current_ranks_across_10_tests": [
+            6,
+            2,
+            4,
+            4,
+            4,
+            4,
+            4,
+            6,
+            10,
+            9
+          ],
+          "median_rank": 4.0,
+          "top1_tests": 0,
+          "top3_tests": 1,
+          "worst_rank": 10
+        },
+        "hand_currier_residual": {
+          "current_ranks_across_10_tests": [
+            6,
+            2,
+            4,
+            4,
+            4,
+            4,
+            4,
+            6,
+            10,
+            9
+          ],
+          "median_rank": 4.0,
+          "top1_tests": 0,
+          "top3_tests": 1,
+          "worst_rank": 10
+        }
+      },
+      "descriptive_status": "INCONCLUSIVE"
+    },
+    "C_f17-f24": {
+      "known_physical_bifolia": [
+        "17|24",
+        "18|23",
+        "19|22",
+        "20|21"
+      ],
+      "folio_metadata_signatures": {
+        "17": {
+          "H": [
+            "1"
+          ],
+          "L": [
+            "A"
+          ]
+        },
+        "18": {
+          "H": [
+            "1"
+          ],
+          "L": [
+            "A"
+          ]
+        },
+        "19": {
+          "H": [
+            "1"
+          ],
+          "L": [
+            "A"
+          ]
+        },
+        "20": {
+          "H": [
+            "1"
+          ],
+          "L": [
+            "A"
+          ]
+        },
+        "21": {
+          "H": [
+            "1"
+          ],
+          "L": [
+            "A"
+          ]
+        },
+        "22": {
+          "H": [
+            "1"
+          ],
+          "L": [
+            "A"
+          ]
+        },
+        "23": {
+          "H": [
+            "1"
+          ],
+          "L": [
+            "A"
+          ]
+        },
+        "24": {
+          "H": [
+            "1"
+          ],
+          "L": [
+            "A"
+          ]
+        }
+      },
+      "ZL3b": {
+        "by_window": [
+          {
+            "boundary_tokens": 25,
+            "raw": {
+              "current_rank": 2,
+              "current_score": 3.7211882466864816,
+              "current_exact_p_ge": 0.08333333333333333,
+              "best_nesting_outer_to_inner": [
+                "20|21",
+                "17|24",
+                "18|23",
+                "19|22"
+              ],
+              "best_leaf_reading_order": [
+                20,
+                17,
+                18,
+                19,
+                22,
+                23,
+                24,
+                21
+              ],
+              "best_score": 4.411316387703751,
+              "current_is_best": false
+            },
+            "currier_residual": {
+              "current_rank": 2,
+              "current_score": 3.721188246686481,
+              "current_exact_p_ge": 0.08333333333333333,
+              "best_nesting_outer_to_inner": [
+                "20|21",
+                "17|24",
+                "18|23",
+                "19|22"
+              ],
+              "best_leaf_reading_order": [
+                20,
+                17,
+                18,
+                19,
+                22,
+                23,
+                24,
+                21
+              ],
+              "best_score": 4.41131638770375,
+              "current_is_best": false
+            },
+            "hand_currier_residual": {
+              "current_rank": 2,
+              "current_score": 3.721188246686481,
+              "current_exact_p_ge": 0.08333333333333333,
+              "best_nesting_outer_to_inner": [
+                "20|21",
+                "17|24",
+                "18|23",
+                "19|22"
+              ],
+              "best_leaf_reading_order": [
+                20,
+                17,
+                18,
+                19,
+                22,
+                23,
+                24,
+                21
+              ],
+              "best_score": 4.41131638770375,
+              "current_is_best": false
+            },
+            "n_currier_transition_classes": 1,
+            "n_hand_currier_transition_classes": 1
+          },
+          {
+            "boundary_tokens": 50,
+            "raw": {
+              "current_rank": 2,
+              "current_score": 3.553574912561589,
+              "current_exact_p_ge": 0.08333333333333333,
+              "best_nesting_outer_to_inner": [
+                "20|21",
+                "19|22",
+                "18|23",
+                "17|24"
+              ],
+              "best_leaf_reading_order": [
+                20,
+                19,
+                18,
+                17,
+                24,
+                23,
+                22,
+                21
+              ],
+              "best_score": 3.849829499143873,
+              "current_is_best": false
+            },
+            "currier_residual": {
+              "current_rank": 2,
+              "current_score": 3.5535749125615905,
+              "current_exact_p_ge": 0.08333333333333333,
+              "best_nesting_outer_to_inner": [
+                "20|21",
+                "19|22",
+                "18|23",
+                "17|24"
+              ],
+              "best_leaf_reading_order": [
+                20,
+                19,
+                18,
+                17,
+                24,
+                23,
+                22,
+                21
+              ],
+              "best_score": 3.8498294991438744,
+              "current_is_best": false
+            },
+            "hand_currier_residual": {
+              "current_rank": 2,
+              "current_score": 3.5535749125615905,
+              "current_exact_p_ge": 0.08333333333333333,
+              "best_nesting_outer_to_inner": [
+                "20|21",
+                "19|22",
+                "18|23",
+                "17|24"
+              ],
+              "best_leaf_reading_order": [
+                20,
+                19,
+                18,
+                17,
+                24,
+                23,
+                22,
+                21
+              ],
+              "best_score": 3.8498294991438744,
+              "current_is_best": false
+            },
+            "n_currier_transition_classes": 1,
+            "n_hand_currier_transition_classes": 1
+          },
+          {
+            "boundary_tokens": 100,
+            "raw": {
+              "current_rank": 1,
+              "current_score": 3.8359455096613884,
+              "current_exact_p_ge": 0.041666666666666664,
+              "best_nesting_outer_to_inner": [
+                "17|24",
+                "18|23",
+                "19|22",
+                "20|21"
+              ],
+              "best_leaf_reading_order": [
+                17,
+                18,
+                19,
+                20,
+                21,
+                22,
+                23,
+                24
+              ],
+              "best_score": 3.8359455096613884,
+              "current_is_best": true
+            },
+            "currier_residual": {
+              "current_rank": 1,
+              "current_score": 3.8359455096613866,
+              "current_exact_p_ge": 0.041666666666666664,
+              "best_nesting_outer_to_inner": [
+                "17|24",
+                "18|23",
+                "19|22",
+                "20|21"
+              ],
+              "best_leaf_reading_order": [
+                17,
+                18,
+                19,
+                20,
+                21,
+                22,
+                23,
+                24
+              ],
+              "best_score": 3.8359455096613866,
+              "current_is_best": true
+            },
+            "hand_currier_residual": {
+              "current_rank": 1,
+              "current_score": 3.8359455096613866,
+              "current_exact_p_ge": 0.041666666666666664,
+              "best_nesting_outer_to_inner": [
+                "17|24",
+                "18|23",
+                "19|22",
+                "20|21"
+              ],
+              "best_leaf_reading_order": [
+                17,
+                18,
+                19,
+                20,
+                21,
+                22,
+                23,
+                24
+              ],
+              "best_score": 3.8359455096613866,
+              "current_is_best": true
+            },
+            "n_currier_transition_classes": 1,
+            "n_hand_currier_transition_classes": 1
+          },
+          {
+            "boundary_tokens": 200,
+            "raw": {
+              "current_rank": 1,
+              "current_score": 4.1786893696179295,
+              "current_exact_p_ge": 0.041666666666666664,
+              "best_nesting_outer_to_inner": [
+                "17|24",
+                "18|23",
+                "19|22",
+                "20|21"
+              ],
+              "best_leaf_reading_order": [
+                17,
+                18,
+                19,
+                20,
+                21,
+                22,
+                23,
+                24
+              ],
+              "best_score": 4.1786893696179295,
+              "current_is_best": true
+            },
+            "currier_residual": {
+              "current_rank": 1,
+              "current_score": 4.1786893696179295,
+              "current_exact_p_ge": 0.041666666666666664,
+              "best_nesting_outer_to_inner": [
+                "17|24",
+                "18|23",
+                "19|22",
+                "20|21"
+              ],
+              "best_leaf_reading_order": [
+                17,
+                18,
+                19,
+                20,
+                21,
+                22,
+                23,
+                24
+              ],
+              "best_score": 4.1786893696179295,
+              "current_is_best": true
+            },
+            "hand_currier_residual": {
+              "current_rank": 1,
+              "current_score": 4.1786893696179295,
+              "current_exact_p_ge": 0.041666666666666664,
+              "best_nesting_outer_to_inner": [
+                "17|24",
+                "18|23",
+                "19|22",
+                "20|21"
+              ],
+              "best_leaf_reading_order": [
+                17,
+                18,
+                19,
+                20,
+                21,
+                22,
+                23,
+                24
+              ],
+              "best_score": 4.1786893696179295,
+              "current_is_best": true
+            },
+            "n_currier_transition_classes": 1,
+            "n_hand_currier_transition_classes": 1
+          },
+          {
+            "boundary_tokens": "whole_page",
+            "raw": {
+              "current_rank": 1,
+              "current_score": 4.1786893696179295,
+              "current_exact_p_ge": 0.041666666666666664,
+              "best_nesting_outer_to_inner": [
+                "17|24",
+                "18|23",
+                "19|22",
+                "20|21"
+              ],
+              "best_leaf_reading_order": [
+                17,
+                18,
+                19,
+                20,
+                21,
+                22,
+                23,
+                24
+              ],
+              "best_score": 4.1786893696179295,
+              "current_is_best": true
+            },
+            "currier_residual": {
+              "current_rank": 1,
+              "current_score": 4.1786893696179295,
+              "current_exact_p_ge": 0.041666666666666664,
+              "best_nesting_outer_to_inner": [
+                "17|24",
+                "18|23",
+                "19|22",
+                "20|21"
+              ],
+              "best_leaf_reading_order": [
+                17,
+                18,
+                19,
+                20,
+                21,
+                22,
+                23,
+                24
+              ],
+              "best_score": 4.1786893696179295,
+              "current_is_best": true
+            },
+            "hand_currier_residual": {
+              "current_rank": 1,
+              "current_score": 4.1786893696179295,
+              "current_exact_p_ge": 0.041666666666666664,
+              "best_nesting_outer_to_inner": [
+                "17|24",
+                "18|23",
+                "19|22",
+                "20|21"
+              ],
+              "best_leaf_reading_order": [
+                17,
+                18,
+                19,
+                20,
+                21,
+                22,
+                23,
+                24
+              ],
+              "best_score": 4.1786893696179295,
+              "current_is_best": true
+            },
+            "n_currier_transition_classes": 1,
+            "n_hand_currier_transition_classes": 1
+          }
+        ],
+        "summary": {
+          "raw": {
+            "current_ranks": [
+              2,
+              2,
+              1,
+              1,
+              1
+            ],
+            "current_median_rank": 1,
+            "current_top1_windows": 3,
+            "current_top3_windows": 5,
+            "current_worst_rank": 2,
+            "best_nestings_by_window": [
+              [
+                "20|21",
+                "17|24",
+                "18|23",
+                "19|22"
+              ],
+              [
+                "20|21",
+                "19|22",
+                "18|23",
+                "17|24"
+              ],
+              [
+                "17|24",
+                "18|23",
+                "19|22",
+                "20|21"
+              ],
+              [
+                "17|24",
+                "18|23",
+                "19|22",
+                "20|21"
+              ],
+              [
+                "17|24",
+                "18|23",
+                "19|22",
+                "20|21"
+              ]
+            ]
+          },
+          "currier_residual": {
+            "current_ranks": [
+              2,
+              2,
+              1,
+              1,
+              1
+            ],
+            "current_median_rank": 1,
+            "current_top1_windows": 3,
+            "current_top3_windows": 5,
+            "current_worst_rank": 2,
+            "best_nestings_by_window": [
+              [
+                "20|21",
+                "17|24",
+                "18|23",
+                "19|22"
+              ],
+              [
+                "20|21",
+                "19|22",
+                "18|23",
+                "17|24"
+              ],
+              [
+                "17|24",
+                "18|23",
+                "19|22",
+                "20|21"
+              ],
+              [
+                "17|24",
+                "18|23",
+                "19|22",
+                "20|21"
+              ],
+              [
+                "17|24",
+                "18|23",
+                "19|22",
+                "20|21"
+              ]
+            ]
+          },
+          "hand_currier_residual": {
+            "current_ranks": [
+              2,
+              2,
+              1,
+              1,
+              1
+            ],
+            "current_median_rank": 1,
+            "current_top1_windows": 3,
+            "current_top3_windows": 5,
+            "current_worst_rank": 2,
+            "best_nestings_by_window": [
+              [
+                "20|21",
+                "17|24",
+                "18|23",
+                "19|22"
+              ],
+              [
+                "20|21",
+                "19|22",
+                "18|23",
+                "17|24"
+              ],
+              [
+                "17|24",
+                "18|23",
+                "19|22",
+                "20|21"
+              ],
+              [
+                "17|24",
+                "18|23",
+                "19|22",
+                "20|21"
+              ],
+              [
+                "17|24",
+                "18|23",
+                "19|22",
+                "20|21"
+              ]
+            ]
+          }
+        }
+      },
+      "IT2a": {
+        "by_window": [
+          {
+            "boundary_tokens": 25,
+            "raw": {
+              "current_rank": 7,
+              "current_score": 2.3673589805218334,
+              "current_exact_p_ge": 0.2916666666666667,
+              "best_nesting_outer_to_inner": [
+                "17|24",
+                "18|23",
+                "20|21",
+                "19|22"
+              ],
+              "best_leaf_reading_order": [
+                17,
+                18,
+                20,
+                19,
+                22,
+                21,
+                23,
+                24
+              ],
+              "best_score": 4.26215921096648,
+              "current_is_best": false
+            },
+            "currier_residual": {
+              "current_rank": 7,
+              "current_score": 2.3673589805218334,
+              "current_exact_p_ge": 0.2916666666666667,
+              "best_nesting_outer_to_inner": [
+                "17|24",
+                "18|23",
+                "20|21",
+                "19|22"
+              ],
+              "best_leaf_reading_order": [
+                17,
+                18,
+                20,
+                19,
+                22,
+                21,
+                23,
+                24
+              ],
+              "best_score": 4.26215921096648,
+              "current_is_best": false
+            },
+            "hand_currier_residual": {
+              "current_rank": 7,
+              "current_score": 2.3673589805218334,
+              "current_exact_p_ge": 0.2916666666666667,
+              "best_nesting_outer_to_inner": [
+                "17|24",
+                "18|23",
+                "20|21",
+                "19|22"
+              ],
+              "best_leaf_reading_order": [
+                17,
+                18,
+                20,
+                19,
+                22,
+                21,
+                23,
+                24
+              ],
+              "best_score": 4.26215921096648,
+              "current_is_best": false
+            },
+            "n_currier_transition_classes": 1,
+            "n_hand_currier_transition_classes": 1
+          },
+          {
+            "boundary_tokens": 50,
+            "raw": {
+              "current_rank": 3,
+              "current_score": 3.60757384507756,
+              "current_exact_p_ge": 0.125,
+              "best_nesting_outer_to_inner": [
+                "20|21",
+                "19|22",
+                "18|23",
+                "17|24"
+              ],
+              "best_leaf_reading_order": [
+                20,
+                19,
+                18,
+                17,
+                24,
+                23,
+                22,
+                21
+              ],
+              "best_score": 4.067926426603597,
+              "current_is_best": false
+            },
+            "currier_residual": {
+              "current_rank": 3,
+              "current_score": 3.607573845077558,
+              "current_exact_p_ge": 0.125,
+              "best_nesting_outer_to_inner": [
+                "20|21",
+                "19|22",
+                "18|23",
+                "17|24"
+              ],
+              "best_leaf_reading_order": [
+                20,
+                19,
+                18,
+                17,
+                24,
+                23,
+                22,
+                21
+              ],
+              "best_score": 4.067926426603595,
+              "current_is_best": false
+            },
+            "hand_currier_residual": {
+              "current_rank": 3,
+              "current_score": 3.607573845077558,
+              "current_exact_p_ge": 0.125,
+              "best_nesting_outer_to_inner": [
+                "20|21",
+                "19|22",
+                "18|23",
+                "17|24"
+              ],
+              "best_leaf_reading_order": [
+                20,
+                19,
+                18,
+                17,
+                24,
+                23,
+                22,
+                21
+              ],
+              "best_score": 4.067926426603595,
+              "current_is_best": false
+            },
+            "n_currier_transition_classes": 1,
+            "n_hand_currier_transition_classes": 1
+          },
+          {
+            "boundary_tokens": 100,
+            "raw": {
+              "current_rank": 1,
+              "current_score": 4.457229287797281,
+              "current_exact_p_ge": 0.041666666666666664,
+              "best_nesting_outer_to_inner": [
+                "17|24",
+                "18|23",
+                "19|22",
+                "20|21"
+              ],
+              "best_leaf_reading_order": [
+                17,
+                18,
+                19,
+                20,
+                21,
+                22,
+                23,
+                24
+              ],
+              "best_score": 4.457229287797281,
+              "current_is_best": true
+            },
+            "currier_residual": {
+              "current_rank": 1,
+              "current_score": 4.457229287797279,
+              "current_exact_p_ge": 0.041666666666666664,
+              "best_nesting_outer_to_inner": [
+                "17|24",
+                "18|23",
+                "19|22",
+                "20|21"
+              ],
+              "best_leaf_reading_order": [
+                17,
+                18,
+                19,
+                20,
+                21,
+                22,
+                23,
+                24
+              ],
+              "best_score": 4.457229287797279,
+              "current_is_best": true
+            },
+            "hand_currier_residual": {
+              "current_rank": 1,
+              "current_score": 4.457229287797279,
+              "current_exact_p_ge": 0.041666666666666664,
+              "best_nesting_outer_to_inner": [
+                "17|24",
+                "18|23",
+                "19|22",
+                "20|21"
+              ],
+              "best_leaf_reading_order": [
+                17,
+                18,
+                19,
+                20,
+                21,
+                22,
+                23,
+                24
+              ],
+              "best_score": 4.457229287797279,
+              "current_is_best": true
+            },
+            "n_currier_transition_classes": 1,
+            "n_hand_currier_transition_classes": 1
+          },
+          {
+            "boundary_tokens": 200,
+            "raw": {
+              "current_rank": 1,
+              "current_score": 4.627835006600188,
+              "current_exact_p_ge": 0.041666666666666664,
+              "best_nesting_outer_to_inner": [
+                "17|24",
+                "18|23",
+                "19|22",
+                "20|21"
+              ],
+              "best_leaf_reading_order": [
+                17,
+                18,
+                19,
+                20,
+                21,
+                22,
+                23,
+                24
+              ],
+              "best_score": 4.627835006600188,
+              "current_is_best": true
+            },
+            "currier_residual": {
+              "current_rank": 1,
+              "current_score": 4.627835006600186,
+              "current_exact_p_ge": 0.041666666666666664,
+              "best_nesting_outer_to_inner": [
+                "17|24",
+                "18|23",
+                "19|22",
+                "20|21"
+              ],
+              "best_leaf_reading_order": [
+                17,
+                18,
+                19,
+                20,
+                21,
+                22,
+                23,
+                24
+              ],
+              "best_score": 4.627835006600186,
+              "current_is_best": true
+            },
+            "hand_currier_residual": {
+              "current_rank": 1,
+              "current_score": 4.627835006600186,
+              "current_exact_p_ge": 0.041666666666666664,
+              "best_nesting_outer_to_inner": [
+                "17|24",
+                "18|23",
+                "19|22",
+                "20|21"
+              ],
+              "best_leaf_reading_order": [
+                17,
+                18,
+                19,
+                20,
+                21,
+                22,
+                23,
+                24
+              ],
+              "best_score": 4.627835006600186,
+              "current_is_best": true
+            },
+            "n_currier_transition_classes": 1,
+            "n_hand_currier_transition_classes": 1
+          },
+          {
+            "boundary_tokens": "whole_page",
+            "raw": {
+              "current_rank": 1,
+              "current_score": 4.627835006600188,
+              "current_exact_p_ge": 0.041666666666666664,
+              "best_nesting_outer_to_inner": [
+                "17|24",
+                "18|23",
+                "19|22",
+                "20|21"
+              ],
+              "best_leaf_reading_order": [
+                17,
+                18,
+                19,
+                20,
+                21,
+                22,
+                23,
+                24
+              ],
+              "best_score": 4.627835006600188,
+              "current_is_best": true
+            },
+            "currier_residual": {
+              "current_rank": 1,
+              "current_score": 4.627835006600186,
+              "current_exact_p_ge": 0.041666666666666664,
+              "best_nesting_outer_to_inner": [
+                "17|24",
+                "18|23",
+                "19|22",
+                "20|21"
+              ],
+              "best_leaf_reading_order": [
+                17,
+                18,
+                19,
+                20,
+                21,
+                22,
+                23,
+                24
+              ],
+              "best_score": 4.627835006600186,
+              "current_is_best": true
+            },
+            "hand_currier_residual": {
+              "current_rank": 1,
+              "current_score": 4.627835006600186,
+              "current_exact_p_ge": 0.041666666666666664,
+              "best_nesting_outer_to_inner": [
+                "17|24",
+                "18|23",
+                "19|22",
+                "20|21"
+              ],
+              "best_leaf_reading_order": [
+                17,
+                18,
+                19,
+                20,
+                21,
+                22,
+                23,
+                24
+              ],
+              "best_score": 4.627835006600186,
+              "current_is_best": true
+            },
+            "n_currier_transition_classes": 1,
+            "n_hand_currier_transition_classes": 1
+          }
+        ],
+        "summary": {
+          "raw": {
+            "current_ranks": [
+              7,
+              3,
+              1,
+              1,
+              1
+            ],
+            "current_median_rank": 1,
+            "current_top1_windows": 3,
+            "current_top3_windows": 4,
+            "current_worst_rank": 7,
+            "best_nestings_by_window": [
+              [
+                "17|24",
+                "18|23",
+                "20|21",
+                "19|22"
+              ],
+              [
+                "20|21",
+                "19|22",
+                "18|23",
+                "17|24"
+              ],
+              [
+                "17|24",
+                "18|23",
+                "19|22",
+                "20|21"
+              ],
+              [
+                "17|24",
+                "18|23",
+                "19|22",
+                "20|21"
+              ],
+              [
+                "17|24",
+                "18|23",
+                "19|22",
+                "20|21"
+              ]
+            ]
+          },
+          "currier_residual": {
+            "current_ranks": [
+              7,
+              3,
+              1,
+              1,
+              1
+            ],
+            "current_median_rank": 1,
+            "current_top1_windows": 3,
+            "current_top3_windows": 4,
+            "current_worst_rank": 7,
+            "best_nestings_by_window": [
+              [
+                "17|24",
+                "18|23",
+                "20|21",
+                "19|22"
+              ],
+              [
+                "20|21",
+                "19|22",
+                "18|23",
+                "17|24"
+              ],
+              [
+                "17|24",
+                "18|23",
+                "19|22",
+                "20|21"
+              ],
+              [
+                "17|24",
+                "18|23",
+                "19|22",
+                "20|21"
+              ],
+              [
+                "17|24",
+                "18|23",
+                "19|22",
+                "20|21"
+              ]
+            ]
+          },
+          "hand_currier_residual": {
+            "current_ranks": [
+              7,
+              3,
+              1,
+              1,
+              1
+            ],
+            "current_median_rank": 1,
+            "current_top1_windows": 3,
+            "current_top3_windows": 4,
+            "current_worst_rank": 7,
+            "best_nestings_by_window": [
+              [
+                "17|24",
+                "18|23",
+                "20|21",
+                "19|22"
+              ],
+              [
+                "20|21",
+                "19|22",
+                "18|23",
+                "17|24"
+              ],
+              [
+                "17|24",
+                "18|23",
+                "19|22",
+                "20|21"
+              ],
+              [
+                "17|24",
+                "18|23",
+                "19|22",
+                "20|21"
+              ],
+              [
+                "17|24",
+                "18|23",
+                "19|22",
+                "20|21"
+              ]
+            ]
+          }
+        }
+      },
+      "cross_transcription": {
+        "raw": {
+          "current_ranks_across_10_tests": [
+            2,
+            2,
+            1,
+            1,
+            1,
+            7,
+            3,
+            1,
+            1,
+            1
+          ],
+          "median_rank": 1.0,
+          "top1_tests": 6,
+          "top3_tests": 9,
+          "worst_rank": 7
+        },
+        "currier_residual": {
+          "current_ranks_across_10_tests": [
+            2,
+            2,
+            1,
+            1,
+            1,
+            7,
+            3,
+            1,
+            1,
+            1
+          ],
+          "median_rank": 1.0,
+          "top1_tests": 6,
+          "top3_tests": 9,
+          "worst_rank": 7
+        },
+        "hand_currier_residual": {
+          "current_ranks_across_10_tests": [
+            2,
+            2,
+            1,
+            1,
+            1,
+            7,
+            3,
+            1,
+            1,
+            1
+          ],
+          "median_rank": 1.0,
+          "top1_tests": 6,
+          "top3_tests": 9,
+          "worst_rank": 7
+        }
+      },
+      "descriptive_status": "CURRENT_ORDER_COMPATIBLE_AFTER_METADATA_CONTROL"
+    },
+    "D_f25-f32": {
+      "known_physical_bifolia": [
+        "25|32",
+        "26|31",
+        "27|30",
+        "28|29"
+      ],
+      "folio_metadata_signatures": {
+        "25": {
+          "H": [
+            "1"
+          ],
+          "L": [
+            "A"
+          ]
+        },
+        "26": {
+          "H": [
+            "2"
+          ],
+          "L": [
+            "B"
+          ]
+        },
+        "27": {
+          "H": [
+            "1"
+          ],
+          "L": [
+            "A"
+          ]
+        },
+        "28": {
+          "H": [
+            "1"
+          ],
+          "L": [
+            "A"
+          ]
+        },
+        "29": {
+          "H": [
+            "1"
+          ],
+          "L": [
+            "A"
+          ]
+        },
+        "30": {
+          "H": [
+            "1"
+          ],
+          "L": [
+            "A"
+          ]
+        },
+        "31": {
+          "H": [
+            "2"
+          ],
+          "L": [
+            "B"
+          ]
+        },
+        "32": {
+          "H": [
+            "1"
+          ],
+          "L": [
+            "A"
+          ]
+        }
+      },
+      "ZL3b": {
+        "by_window": [
+          {
+            "boundary_tokens": 25,
+            "raw": {
+              "current_rank": 24,
+              "current_score": -3.4964509620910653,
+              "current_exact_p_ge": 1.0,
+              "best_nesting_outer_to_inner": [
+                "28|29",
+                "25|32",
+                "27|30",
+                "26|31"
+              ],
+              "best_leaf_reading_order": [
+                28,
+                25,
+                27,
+                26,
+                31,
+                30,
+                32,
+                29
+              ],
+              "best_score": 3.1657539125783587,
+              "current_is_best": false
+            },
+            "currier_residual": {
+              "current_rank": 24,
+              "current_score": -2.554461388094963,
+              "current_exact_p_ge": 1.0,
+              "best_nesting_outer_to_inner": [
+                "27|30",
+                "26|31",
+                "28|29",
+                "25|32"
+              ],
+              "best_leaf_reading_order": [
+                27,
+                26,
+                28,
+                25,
+                32,
+                29,
+                31,
+                30
+              ],
+              "best_score": 2.0058060369037842,
+              "current_is_best": false
+            },
+            "hand_currier_residual": {
+              "current_rank": 24,
+              "current_score": -2.554461388094963,
+              "current_exact_p_ge": 1.0,
+              "best_nesting_outer_to_inner": [
+                "27|30",
+                "26|31",
+                "28|29",
+                "25|32"
+              ],
+              "best_leaf_reading_order": [
+                27,
+                26,
+                28,
+                25,
+                32,
+                29,
+                31,
+                30
+              ],
+              "best_score": 2.0058060369037842,
+              "current_is_best": false
+            },
+            "n_currier_transition_classes": 4,
+            "n_hand_currier_transition_classes": 4
+          },
+          {
+            "boundary_tokens": 50,
+            "raw": {
+              "current_rank": 17,
+              "current_score": -1.170043817700313,
+              "current_exact_p_ge": 0.7083333333333334,
+              "best_nesting_outer_to_inner": [
+                "28|29",
+                "25|32",
+                "27|30",
+                "26|31"
+              ],
+              "best_leaf_reading_order": [
+                28,
+                25,
+                27,
+                26,
+                31,
+                30,
+                32,
+                29
+              ],
+              "best_score": 3.594434777480562,
+              "current_is_best": false
+            },
+            "currier_residual": {
+              "current_rank": 11,
+              "current_score": 0.13773411502426958,
+              "current_exact_p_ge": 0.4583333333333333,
+              "best_nesting_outer_to_inner": [
+                "28|29",
+                "25|32",
+                "27|30",
+                "26|31"
+              ],
+              "best_leaf_reading_order": [
+                28,
+                25,
+                27,
+                26,
+                31,
+                30,
+                32,
+                29
+              ],
+              "best_score": 2.2596036933470818,
+              "current_is_best": false
+            },
+            "hand_currier_residual": {
+              "current_rank": 11,
+              "current_score": 0.13773411502426958,
+              "current_exact_p_ge": 0.4583333333333333,
+              "best_nesting_outer_to_inner": [
+                "28|29",
+                "25|32",
+                "27|30",
+                "26|31"
+              ],
+              "best_leaf_reading_order": [
+                28,
+                25,
+                27,
+                26,
+                31,
+                30,
+                32,
+                29
+              ],
+              "best_score": 2.2596036933470818,
+              "current_is_best": false
+            },
+            "n_currier_transition_classes": 4,
+            "n_hand_currier_transition_classes": 4
+          },
+          {
+            "boundary_tokens": 100,
+            "raw": {
+              "current_rank": 14,
+              "current_score": -0.15795534982000076,
+              "current_exact_p_ge": 0.5833333333333334,
+              "best_nesting_outer_to_inner": [
+                "25|32",
+                "28|29",
+                "27|30",
+                "26|31"
+              ],
+              "best_leaf_reading_order": [
+                25,
+                28,
+                27,
+                26,
+                31,
+                30,
+                29,
+                32
+              ],
+              "best_score": 3.5503555505425797,
+              "current_is_best": false
+            },
+            "currier_residual": {
+              "current_rank": 3,
+              "current_score": 1.5046562778851504,
+              "current_exact_p_ge": 0.125,
+              "best_nesting_outer_to_inner": [
+                "27|30",
+                "26|31",
+                "25|32",
+                "28|29"
+              ],
+              "best_leaf_reading_order": [
+                27,
+                26,
+                25,
+                28,
+                29,
+                32,
+                31,
+                30
+              ],
+              "best_score": 1.6578741754474227,
+              "current_is_best": false
+            },
+            "hand_currier_residual": {
+              "current_rank": 3,
+              "current_score": 1.5046562778851504,
+              "current_exact_p_ge": 0.125,
+              "best_nesting_outer_to_inner": [
+                "27|30",
+                "26|31",
+                "25|32",
+                "28|29"
+              ],
+              "best_leaf_reading_order": [
+                27,
+                26,
+                25,
+                28,
+                29,
+                32,
+                31,
+                30
+              ],
+              "best_score": 1.6578741754474227,
+              "current_is_best": false
+            },
+            "n_currier_transition_classes": 4,
+            "n_hand_currier_transition_classes": 4
+          },
+          {
+            "boundary_tokens": 200,
+            "raw": {
+              "current_rank": 14,
+              "current_score": -0.165694237625631,
+              "current_exact_p_ge": 0.5833333333333334,
+              "best_nesting_outer_to_inner": [
+                "25|32",
+                "28|29",
+                "27|30",
+                "26|31"
+              ],
+              "best_leaf_reading_order": [
+                25,
+                28,
+                27,
+                26,
+                31,
+                30,
+                29,
+                32
+              ],
+              "best_score": 3.485273581583938,
+              "current_is_best": false
+            },
+            "currier_residual": {
+              "current_rank": 2,
+              "current_score": 1.5114445545286426,
+              "current_exact_p_ge": 0.08333333333333333,
+              "best_nesting_outer_to_inner": [
+                "27|30",
+                "26|31",
+                "25|32",
+                "28|29"
+              ],
+              "best_leaf_reading_order": [
+                27,
+                26,
+                25,
+                28,
+                29,
+                32,
+                31,
+                30
+              ],
+              "best_score": 1.626032538050992,
+              "current_is_best": false
+            },
+            "hand_currier_residual": {
+              "current_rank": 2,
+              "current_score": 1.5114445545286426,
+              "current_exact_p_ge": 0.08333333333333333,
+              "best_nesting_outer_to_inner": [
+                "27|30",
+                "26|31",
+                "25|32",
+                "28|29"
+              ],
+              "best_leaf_reading_order": [
+                27,
+                26,
+                25,
+                28,
+                29,
+                32,
+                31,
+                30
+              ],
+              "best_score": 1.626032538050992,
+              "current_is_best": false
+            },
+            "n_currier_transition_classes": 4,
+            "n_hand_currier_transition_classes": 4
+          },
+          {
+            "boundary_tokens": "whole_page",
+            "raw": {
+              "current_rank": 14,
+              "current_score": -0.165694237625631,
+              "current_exact_p_ge": 0.5833333333333334,
+              "best_nesting_outer_to_inner": [
+                "25|32",
+                "28|29",
+                "27|30",
+                "26|31"
+              ],
+              "best_leaf_reading_order": [
+                25,
+                28,
+                27,
+                26,
+                31,
+                30,
+                29,
+                32
+              ],
+              "best_score": 3.485273581583938,
+              "current_is_best": false
+            },
+            "currier_residual": {
+              "current_rank": 2,
+              "current_score": 1.5114445545286426,
+              "current_exact_p_ge": 0.08333333333333333,
+              "best_nesting_outer_to_inner": [
+                "27|30",
+                "26|31",
+                "25|32",
+                "28|29"
+              ],
+              "best_leaf_reading_order": [
+                27,
+                26,
+                25,
+                28,
+                29,
+                32,
+                31,
+                30
+              ],
+              "best_score": 1.626032538050992,
+              "current_is_best": false
+            },
+            "hand_currier_residual": {
+              "current_rank": 2,
+              "current_score": 1.5114445545286426,
+              "current_exact_p_ge": 0.08333333333333333,
+              "best_nesting_outer_to_inner": [
+                "27|30",
+                "26|31",
+                "25|32",
+                "28|29"
+              ],
+              "best_leaf_reading_order": [
+                27,
+                26,
+                25,
+                28,
+                29,
+                32,
+                31,
+                30
+              ],
+              "best_score": 1.626032538050992,
+              "current_is_best": false
+            },
+            "n_currier_transition_classes": 4,
+            "n_hand_currier_transition_classes": 4
+          }
+        ],
+        "summary": {
+          "raw": {
+            "current_ranks": [
+              24,
+              17,
+              14,
+              14,
+              14
+            ],
+            "current_median_rank": 14,
+            "current_top1_windows": 0,
+            "current_top3_windows": 0,
+            "current_worst_rank": 24,
+            "best_nestings_by_window": [
+              [
+                "28|29",
+                "25|32",
+                "27|30",
+                "26|31"
+              ],
+              [
+                "28|29",
+                "25|32",
+                "27|30",
+                "26|31"
+              ],
+              [
+                "25|32",
+                "28|29",
+                "27|30",
+                "26|31"
+              ],
+              [
+                "25|32",
+                "28|29",
+                "27|30",
+                "26|31"
+              ],
+              [
+                "25|32",
+                "28|29",
+                "27|30",
+                "26|31"
+              ]
+            ]
+          },
+          "currier_residual": {
+            "current_ranks": [
+              24,
+              11,
+              3,
+              2,
+              2
+            ],
+            "current_median_rank": 3,
+            "current_top1_windows": 0,
+            "current_top3_windows": 3,
+            "current_worst_rank": 24,
+            "best_nestings_by_window": [
+              [
+                "27|30",
+                "26|31",
+                "28|29",
+                "25|32"
+              ],
+              [
+                "28|29",
+                "25|32",
+                "27|30",
+                "26|31"
+              ],
+              [
+                "27|30",
+                "26|31",
+                "25|32",
+                "28|29"
+              ],
+              [
+                "27|30",
+                "26|31",
+                "25|32",
+                "28|29"
+              ],
+              [
+                "27|30",
+                "26|31",
+                "25|32",
+                "28|29"
+              ]
+            ]
+          },
+          "hand_currier_residual": {
+            "current_ranks": [
+              24,
+              11,
+              3,
+              2,
+              2
+            ],
+            "current_median_rank": 3,
+            "current_top1_windows": 0,
+            "current_top3_windows": 3,
+            "current_worst_rank": 24,
+            "best_nestings_by_window": [
+              [
+                "27|30",
+                "26|31",
+                "28|29",
+                "25|32"
+              ],
+              [
+                "28|29",
+                "25|32",
+                "27|30",
+                "26|31"
+              ],
+              [
+                "27|30",
+                "26|31",
+                "25|32",
+                "28|29"
+              ],
+              [
+                "27|30",
+                "26|31",
+                "25|32",
+                "28|29"
+              ],
+              [
+                "27|30",
+                "26|31",
+                "25|32",
+                "28|29"
+              ]
+            ]
+          }
+        }
+      },
+      "IT2a": {
+        "by_window": [
+          {
+            "boundary_tokens": 25,
+            "raw": {
+              "current_rank": 24,
+              "current_score": -3.1672006960374963,
+              "current_exact_p_ge": 1.0,
+              "best_nesting_outer_to_inner": [
+                "28|29",
+                "25|32",
+                "27|30",
+                "26|31"
+              ],
+              "best_leaf_reading_order": [
+                28,
+                25,
+                27,
+                26,
+                31,
+                30,
+                32,
+                29
+              ],
+              "best_score": 3.281565776292721,
+              "current_is_best": false
+            },
+            "currier_residual": {
+              "current_rank": 24,
+              "current_score": -2.288764393815234,
+              "current_exact_p_ge": 1.0,
+              "best_nesting_outer_to_inner": [
+                "27|30",
+                "26|31",
+                "28|29",
+                "25|32"
+              ],
+              "best_leaf_reading_order": [
+                27,
+                26,
+                28,
+                25,
+                32,
+                29,
+                31,
+                30
+              ],
+              "best_score": 2.8011043928690715,
+              "current_is_best": false
+            },
+            "hand_currier_residual": {
+              "current_rank": 24,
+              "current_score": -2.288764393815234,
+              "current_exact_p_ge": 1.0,
+              "best_nesting_outer_to_inner": [
+                "27|30",
+                "26|31",
+                "28|29",
+                "25|32"
+              ],
+              "best_leaf_reading_order": [
+                27,
+                26,
+                28,
+                25,
+                32,
+                29,
+                31,
+                30
+              ],
+              "best_score": 2.8011043928690715,
+              "current_is_best": false
+            },
+            "n_currier_transition_classes": 4,
+            "n_hand_currier_transition_classes": 4
+          },
+          {
+            "boundary_tokens": 50,
+            "raw": {
+              "current_rank": 20,
+              "current_score": -1.0452900972643009,
+              "current_exact_p_ge": 0.8333333333333334,
+              "best_nesting_outer_to_inner": [
+                "28|29",
+                "25|32",
+                "27|30",
+                "26|31"
+              ],
+              "best_leaf_reading_order": [
+                28,
+                25,
+                27,
+                26,
+                31,
+                30,
+                32,
+                29
+              ],
+              "best_score": 3.768341913354258,
+              "current_is_best": false
+            },
+            "currier_residual": {
+              "current_rank": 14,
+              "current_score": 0.18684773530149912,
+              "current_exact_p_ge": 0.5833333333333334,
+              "best_nesting_outer_to_inner": [
+                "28|29",
+                "25|32",
+                "27|30",
+                "26|31"
+              ],
+              "best_leaf_reading_order": [
+                28,
+                25,
+                27,
+                26,
+                31,
+                30,
+                32,
+                29
+              ],
+              "best_score": 2.7027409472889246,
+              "current_is_best": false
+            },
+            "hand_currier_residual": {
+              "current_rank": 14,
+              "current_score": 0.18684773530149912,
+              "current_exact_p_ge": 0.5833333333333334,
+              "best_nesting_outer_to_inner": [
+                "28|29",
+                "25|32",
+                "27|30",
+                "26|31"
+              ],
+              "best_leaf_reading_order": [
+                28,
+                25,
+                27,
+                26,
+                31,
+                30,
+                32,
+                29
+              ],
+              "best_score": 2.7027409472889246,
+              "current_is_best": false
+            },
+            "n_currier_transition_classes": 4,
+            "n_hand_currier_transition_classes": 4
+          },
+          {
+            "boundary_tokens": 100,
+            "raw": {
+              "current_rank": 14,
+              "current_score": -0.11334485110024722,
+              "current_exact_p_ge": 0.5833333333333334,
+              "best_nesting_outer_to_inner": [
+                "25|32",
+                "28|29",
+                "27|30",
+                "26|31"
+              ],
+              "best_leaf_reading_order": [
+                25,
+                28,
+                27,
+                26,
+                31,
+                30,
+                29,
+                32
+              ],
+              "best_score": 2.781303743188569,
+              "current_is_best": false
+            },
+            "currier_residual": {
+              "current_rank": 2,
+              "current_score": 1.4928473899681025,
+              "current_exact_p_ge": 0.08333333333333333,
+              "best_nesting_outer_to_inner": [
+                "27|30",
+                "26|31",
+                "25|32",
+                "28|29"
+              ],
+              "best_leaf_reading_order": [
+                27,
+                26,
+                25,
+                28,
+                29,
+                32,
+                31,
+                30
+              ],
+              "best_score": 1.5338571692549716,
+              "current_is_best": false
+            },
+            "hand_currier_residual": {
+              "current_rank": 2,
+              "current_score": 1.4928473899681025,
+              "current_exact_p_ge": 0.08333333333333333,
+              "best_nesting_outer_to_inner": [
+                "27|30",
+                "26|31",
+                "25|32",
+                "28|29"
+              ],
+              "best_leaf_reading_order": [
+                27,
+                26,
+                25,
+                28,
+                29,
+                32,
+                31,
+                30
+              ],
+              "best_score": 1.5338571692549716,
+              "current_is_best": false
+            },
+            "n_currier_transition_classes": 4,
+            "n_hand_currier_transition_classes": 4
+          },
+          {
+            "boundary_tokens": 200,
+            "raw": {
+              "current_rank": 14,
+              "current_score": -0.17400592712922455,
+              "current_exact_p_ge": 0.5833333333333334,
+              "best_nesting_outer_to_inner": [
+                "26|31",
+                "27|30",
+                "28|29",
+                "25|32"
+              ],
+              "best_leaf_reading_order": [
+                26,
+                27,
+                28,
+                25,
+                32,
+                29,
+                30,
+                31
+              ],
+              "best_score": 2.744905740261048,
+              "current_is_best": false
+            },
+            "currier_residual": {
+              "current_rank": 2,
+              "current_score": 1.4633441763468102,
+              "current_exact_p_ge": 0.08333333333333333,
+              "best_nesting_outer_to_inner": [
+                "27|30",
+                "26|31",
+                "25|32",
+                "28|29"
+              ],
+              "best_leaf_reading_order": [
+                27,
+                26,
+                25,
+                28,
+                29,
+                32,
+                31,
+                30
+              ],
+              "best_score": 1.496602738127815,
+              "current_is_best": false
+            },
+            "hand_currier_residual": {
+              "current_rank": 2,
+              "current_score": 1.4633441763468102,
+              "current_exact_p_ge": 0.08333333333333333,
+              "best_nesting_outer_to_inner": [
+                "27|30",
+                "26|31",
+                "25|32",
+                "28|29"
+              ],
+              "best_leaf_reading_order": [
+                27,
+                26,
+                25,
+                28,
+                29,
+                32,
+                31,
+                30
+              ],
+              "best_score": 1.496602738127815,
+              "current_is_best": false
+            },
+            "n_currier_transition_classes": 4,
+            "n_hand_currier_transition_classes": 4
+          },
+          {
+            "boundary_tokens": "whole_page",
+            "raw": {
+              "current_rank": 14,
+              "current_score": -0.17400592712922455,
+              "current_exact_p_ge": 0.5833333333333334,
+              "best_nesting_outer_to_inner": [
+                "26|31",
+                "27|30",
+                "28|29",
+                "25|32"
+              ],
+              "best_leaf_reading_order": [
+                26,
+                27,
+                28,
+                25,
+                32,
+                29,
+                30,
+                31
+              ],
+              "best_score": 2.744905740261048,
+              "current_is_best": false
+            },
+            "currier_residual": {
+              "current_rank": 2,
+              "current_score": 1.4633441763468102,
+              "current_exact_p_ge": 0.08333333333333333,
+              "best_nesting_outer_to_inner": [
+                "27|30",
+                "26|31",
+                "25|32",
+                "28|29"
+              ],
+              "best_leaf_reading_order": [
+                27,
+                26,
+                25,
+                28,
+                29,
+                32,
+                31,
+                30
+              ],
+              "best_score": 1.496602738127815,
+              "current_is_best": false
+            },
+            "hand_currier_residual": {
+              "current_rank": 2,
+              "current_score": 1.4633441763468102,
+              "current_exact_p_ge": 0.08333333333333333,
+              "best_nesting_outer_to_inner": [
+                "27|30",
+                "26|31",
+                "25|32",
+                "28|29"
+              ],
+              "best_leaf_reading_order": [
+                27,
+                26,
+                25,
+                28,
+                29,
+                32,
+                31,
+                30
+              ],
+              "best_score": 1.496602738127815,
+              "current_is_best": false
+            },
+            "n_currier_transition_classes": 4,
+            "n_hand_currier_transition_classes": 4
+          }
+        ],
+        "summary": {
+          "raw": {
+            "current_ranks": [
+              24,
+              20,
+              14,
+              14,
+              14
+            ],
+            "current_median_rank": 14,
+            "current_top1_windows": 0,
+            "current_top3_windows": 0,
+            "current_worst_rank": 24,
+            "best_nestings_by_window": [
+              [
+                "28|29",
+                "25|32",
+                "27|30",
+                "26|31"
+              ],
+              [
+                "28|29",
+                "25|32",
+                "27|30",
+                "26|31"
+              ],
+              [
+                "25|32",
+                "28|29",
+                "27|30",
+                "26|31"
+              ],
+              [
+                "26|31",
+                "27|30",
+                "28|29",
+                "25|32"
+              ],
+              [
+                "26|31",
+                "27|30",
+                "28|29",
+                "25|32"
+              ]
+            ]
+          },
+          "currier_residual": {
+            "current_ranks": [
+              24,
+              14,
+              2,
+              2,
+              2
+            ],
+            "current_median_rank": 2,
+            "current_top1_windows": 0,
+            "current_top3_windows": 3,
+            "current_worst_rank": 24,
+            "best_nestings_by_window": [
+              [
+                "27|30",
+                "26|31",
+                "28|29",
+                "25|32"
+              ],
+              [
+                "28|29",
+                "25|32",
+                "27|30",
+                "26|31"
+              ],
+              [
+                "27|30",
+                "26|31",
+                "25|32",
+                "28|29"
+              ],
+              [
+                "27|30",
+                "26|31",
+                "25|32",
+                "28|29"
+              ],
+              [
+                "27|30",
+                "26|31",
+                "25|32",
+                "28|29"
+              ]
+            ]
+          },
+          "hand_currier_residual": {
+            "current_ranks": [
+              24,
+              14,
+              2,
+              2,
+              2
+            ],
+            "current_median_rank": 2,
+            "current_top1_windows": 0,
+            "current_top3_windows": 3,
+            "current_worst_rank": 24,
+            "best_nestings_by_window": [
+              [
+                "27|30",
+                "26|31",
+                "28|29",
+                "25|32"
+              ],
+              [
+                "28|29",
+                "25|32",
+                "27|30",
+                "26|31"
+              ],
+              [
+                "27|30",
+                "26|31",
+                "25|32",
+                "28|29"
+              ],
+              [
+                "27|30",
+                "26|31",
+                "25|32",
+                "28|29"
+              ],
+              [
+                "27|30",
+                "26|31",
+                "25|32",
+                "28|29"
+              ]
+            ]
+          }
+        }
+      },
+      "cross_transcription": {
+        "raw": {
+          "current_ranks_across_10_tests": [
+            24,
+            17,
+            14,
+            14,
+            14,
+            24,
+            20,
+            14,
+            14,
+            14
+          ],
+          "median_rank": 14.0,
+          "top1_tests": 0,
+          "top3_tests": 0,
+          "worst_rank": 24
+        },
+        "currier_residual": {
+          "current_ranks_across_10_tests": [
+            24,
+            11,
+            3,
+            2,
+            2,
+            24,
+            14,
+            2,
+            2,
+            2
+          ],
+          "median_rank": 2.5,
+          "top1_tests": 0,
+          "top3_tests": 6,
+          "worst_rank": 24
+        },
+        "hand_currier_residual": {
+          "current_ranks_across_10_tests": [
+            24,
+            11,
+            3,
+            2,
+            2,
+            24,
+            14,
+            2,
+            2,
+            2
+          ],
+          "median_rank": 2.5,
+          "top1_tests": 0,
+          "top3_tests": 6,
+          "worst_rank": 24
+        }
+      },
+      "descriptive_status": "CURRENT_ORDER_COMPATIBLE_AFTER_METADATA_CONTROL"
+    },
+    "E_f33-f40": {
+      "known_physical_bifolia": [
+        "33|40",
+        "34|39",
+        "35|38",
+        "36|37"
+      ],
+      "folio_metadata_signatures": {
+        "33": {
+          "H": [
+            "2"
+          ],
+          "L": [
+            "B"
+          ]
+        },
+        "34": {
+          "H": [
+            "2"
+          ],
+          "L": [
+            "B"
+          ]
+        },
+        "35": {
+          "H": [
+            "1"
+          ],
+          "L": [
+            "A"
+          ]
+        },
+        "36": {
+          "H": [
+            "1"
+          ],
+          "L": [
+            "A"
+          ]
+        },
+        "37": {
+          "H": [
+            "1"
+          ],
+          "L": [
+            "A"
+          ]
+        },
+        "38": {
+          "H": [
+            "1"
+          ],
+          "L": [
+            "A"
+          ]
+        },
+        "39": {
+          "H": [
+            "2"
+          ],
+          "L": [
+            "B"
+          ]
+        },
+        "40": {
+          "H": [
+            "2"
+          ],
+          "L": [
+            "B"
+          ]
+        }
+      },
+      "ZL3b": {
+        "by_window": [
+          {
+            "boundary_tokens": 25,
+            "raw": {
+              "current_rank": 1,
+              "current_score": 3.4775636254145312,
+              "current_exact_p_ge": 0.041666666666666664,
+              "best_nesting_outer_to_inner": [
+                "33|40",
+                "34|39",
+                "35|38",
+                "36|37"
+              ],
+              "best_leaf_reading_order": [
+                33,
+                34,
+                35,
+                36,
+                37,
+                38,
+                39,
+                40
+              ],
+              "best_score": 3.4775636254145312,
+              "current_is_best": true
+            },
+            "currier_residual": {
+              "current_rank": 10,
+              "current_score": 0.9900076592628411,
+              "current_exact_p_ge": 0.4166666666666667,
+              "best_nesting_outer_to_inner": [
+                "35|38",
+                "33|40",
+                "36|37",
+                "34|39"
+              ],
+              "best_leaf_reading_order": [
+                35,
+                33,
+                36,
+                34,
+                39,
+                37,
+                40,
+                38
+              ],
+              "best_score": 2.7654241571441918,
+              "current_is_best": false
+            },
+            "hand_currier_residual": {
+              "current_rank": 10,
+              "current_score": 0.9900076592628411,
+              "current_exact_p_ge": 0.4166666666666667,
+              "best_nesting_outer_to_inner": [
+                "35|38",
+                "33|40",
+                "36|37",
+                "34|39"
+              ],
+              "best_leaf_reading_order": [
+                35,
+                33,
+                36,
+                34,
+                39,
+                37,
+                40,
+                38
+              ],
+              "best_score": 2.7654241571441918,
+              "current_is_best": false
+            },
+            "n_currier_transition_classes": 4,
+            "n_hand_currier_transition_classes": 4
+          },
+          {
+            "boundary_tokens": 50,
+            "raw": {
+              "current_rank": 2,
+              "current_score": 4.727357735772838,
+              "current_exact_p_ge": 0.08333333333333333,
+              "best_nesting_outer_to_inner": [
+                "34|39",
+                "33|40",
+                "35|38",
+                "36|37"
+              ],
+              "best_leaf_reading_order": [
+                34,
+                33,
+                35,
+                36,
+                37,
+                38,
+                40,
+                39
+              ],
+              "best_score": 4.9236317234770945,
+              "current_is_best": false
+            },
+            "currier_residual": {
+              "current_rank": 2,
+              "current_score": 1.8200905405766452,
+              "current_exact_p_ge": 0.08333333333333333,
+              "best_nesting_outer_to_inner": [
+                "34|39",
+                "33|40",
+                "35|38",
+                "36|37"
+              ],
+              "best_leaf_reading_order": [
+                34,
+                33,
+                35,
+                36,
+                37,
+                38,
+                40,
+                39
+              ],
+              "best_score": 2.016364528280902,
+              "current_is_best": false
+            },
+            "hand_currier_residual": {
+              "current_rank": 2,
+              "current_score": 1.8200905405766452,
+              "current_exact_p_ge": 0.08333333333333333,
+              "best_nesting_outer_to_inner": [
+                "34|39",
+                "33|40",
+                "35|38",
+                "36|37"
+              ],
+              "best_leaf_reading_order": [
+                34,
+                33,
+                35,
+                36,
+                37,
+                38,
+                40,
+                39
+              ],
+              "best_score": 2.016364528280902,
+              "current_is_best": false
+            },
+            "n_currier_transition_classes": 4,
+            "n_hand_currier_transition_classes": 4
+          },
+          {
+            "boundary_tokens": 100,
+            "raw": {
+              "current_rank": 4,
+              "current_score": 3.7661301905209306,
+              "current_exact_p_ge": 0.16666666666666666,
+              "best_nesting_outer_to_inner": [
+                "35|38",
+                "36|37",
+                "33|40",
+                "34|39"
+              ],
+              "best_leaf_reading_order": [
+                35,
+                36,
+                33,
+                34,
+                39,
+                40,
+                37,
+                38
+              ],
+              "best_score": 4.613088755258201,
+              "current_is_best": false
+            },
+            "currier_residual": {
+              "current_rank": 9,
+              "current_score": 0.8328504264971203,
+              "current_exact_p_ge": 0.375,
+              "best_nesting_outer_to_inner": [
+                "34|39",
+                "35|38",
+                "36|37",
+                "33|40"
+              ],
+              "best_leaf_reading_order": [
+                34,
+                35,
+                36,
+                33,
+                40,
+                37,
+                38,
+                39
+              ],
+              "best_score": 1.8500897780403462,
+              "current_is_best": false
+            },
+            "hand_currier_residual": {
+              "current_rank": 9,
+              "current_score": 0.8328504264971203,
+              "current_exact_p_ge": 0.375,
+              "best_nesting_outer_to_inner": [
+                "34|39",
+                "35|38",
+                "36|37",
+                "33|40"
+              ],
+              "best_leaf_reading_order": [
+                34,
+                35,
+                36,
+                33,
+                40,
+                37,
+                38,
+                39
+              ],
+              "best_score": 1.8500897780403462,
+              "current_is_best": false
+            },
+            "n_currier_transition_classes": 4,
+            "n_hand_currier_transition_classes": 4
+          },
+          {
+            "boundary_tokens": 200,
+            "raw": {
+              "current_rank": 2,
+              "current_score": 4.553871535189254,
+              "current_exact_p_ge": 0.08333333333333333,
+              "best_nesting_outer_to_inner": [
+                "35|38",
+                "36|37",
+                "33|40",
+                "34|39"
+              ],
+              "best_leaf_reading_order": [
+                35,
+                36,
+                33,
+                34,
+                39,
+                40,
+                37,
+                38
+              ],
+              "best_score": 4.839459823161667,
+              "current_is_best": false
+            },
+            "currier_residual": {
+              "current_rank": 1,
+              "current_score": 1.8786749694709257,
+              "current_exact_p_ge": 0.041666666666666664,
+              "best_nesting_outer_to_inner": [
+                "33|40",
+                "34|39",
+                "35|38",
+                "36|37"
+              ],
+              "best_leaf_reading_order": [
+                33,
+                34,
+                35,
+                36,
+                37,
+                38,
+                39,
+                40
+              ],
+              "best_score": 1.8786749694709257,
+              "current_is_best": true
+            },
+            "hand_currier_residual": {
+              "current_rank": 1,
+              "current_score": 1.8786749694709257,
+              "current_exact_p_ge": 0.041666666666666664,
+              "best_nesting_outer_to_inner": [
+                "33|40",
+                "34|39",
+                "35|38",
+                "36|37"
+              ],
+              "best_leaf_reading_order": [
+                33,
+                34,
+                35,
+                36,
+                37,
+                38,
+                39,
+                40
+              ],
+              "best_score": 1.8786749694709257,
+              "current_is_best": true
+            },
+            "n_currier_transition_classes": 4,
+            "n_hand_currier_transition_classes": 4
+          },
+          {
+            "boundary_tokens": "whole_page",
+            "raw": {
+              "current_rank": 2,
+              "current_score": 4.553871535189254,
+              "current_exact_p_ge": 0.08333333333333333,
+              "best_nesting_outer_to_inner": [
+                "35|38",
+                "36|37",
+                "33|40",
+                "34|39"
+              ],
+              "best_leaf_reading_order": [
+                35,
+                36,
+                33,
+                34,
+                39,
+                40,
+                37,
+                38
+              ],
+              "best_score": 4.839459823161667,
+              "current_is_best": false
+            },
+            "currier_residual": {
+              "current_rank": 1,
+              "current_score": 1.8786749694709257,
+              "current_exact_p_ge": 0.041666666666666664,
+              "best_nesting_outer_to_inner": [
+                "33|40",
+                "34|39",
+                "35|38",
+                "36|37"
+              ],
+              "best_leaf_reading_order": [
+                33,
+                34,
+                35,
+                36,
+                37,
+                38,
+                39,
+                40
+              ],
+              "best_score": 1.8786749694709257,
+              "current_is_best": true
+            },
+            "hand_currier_residual": {
+              "current_rank": 1,
+              "current_score": 1.8786749694709257,
+              "current_exact_p_ge": 0.041666666666666664,
+              "best_nesting_outer_to_inner": [
+                "33|40",
+                "34|39",
+                "35|38",
+                "36|37"
+              ],
+              "best_leaf_reading_order": [
+                33,
+                34,
+                35,
+                36,
+                37,
+                38,
+                39,
+                40
+              ],
+              "best_score": 1.8786749694709257,
+              "current_is_best": true
+            },
+            "n_currier_transition_classes": 4,
+            "n_hand_currier_transition_classes": 4
+          }
+        ],
+        "summary": {
+          "raw": {
+            "current_ranks": [
+              1,
+              2,
+              4,
+              2,
+              2
+            ],
+            "current_median_rank": 2,
+            "current_top1_windows": 1,
+            "current_top3_windows": 4,
+            "current_worst_rank": 4,
+            "best_nestings_by_window": [
+              [
+                "33|40",
+                "34|39",
+                "35|38",
+                "36|37"
+              ],
+              [
+                "34|39",
+                "33|40",
+                "35|38",
+                "36|37"
+              ],
+              [
+                "35|38",
+                "36|37",
+                "33|40",
+                "34|39"
+              ],
+              [
+                "35|38",
+                "36|37",
+                "33|40",
+                "34|39"
+              ],
+              [
+                "35|38",
+                "36|37",
+                "33|40",
+                "34|39"
+              ]
+            ]
+          },
+          "currier_residual": {
+            "current_ranks": [
+              10,
+              2,
+              9,
+              1,
+              1
+            ],
+            "current_median_rank": 2,
+            "current_top1_windows": 2,
+            "current_top3_windows": 3,
+            "current_worst_rank": 10,
+            "best_nestings_by_window": [
+              [
+                "35|38",
+                "33|40",
+                "36|37",
+                "34|39"
+              ],
+              [
+                "34|39",
+                "33|40",
+                "35|38",
+                "36|37"
+              ],
+              [
+                "34|39",
+                "35|38",
+                "36|37",
+                "33|40"
+              ],
+              [
+                "33|40",
+                "34|39",
+                "35|38",
+                "36|37"
+              ],
+              [
+                "33|40",
+                "34|39",
+                "35|38",
+                "36|37"
+              ]
+            ]
+          },
+          "hand_currier_residual": {
+            "current_ranks": [
+              10,
+              2,
+              9,
+              1,
+              1
+            ],
+            "current_median_rank": 2,
+            "current_top1_windows": 2,
+            "current_top3_windows": 3,
+            "current_worst_rank": 10,
+            "best_nestings_by_window": [
+              [
+                "35|38",
+                "33|40",
+                "36|37",
+                "34|39"
+              ],
+              [
+                "34|39",
+                "33|40",
+                "35|38",
+                "36|37"
+              ],
+              [
+                "34|39",
+                "35|38",
+                "36|37",
+                "33|40"
+              ],
+              [
+                "33|40",
+                "34|39",
+                "35|38",
+                "36|37"
+              ],
+              [
+                "33|40",
+                "34|39",
+                "35|38",
+                "36|37"
+              ]
+            ]
+          }
+        }
+      },
+      "IT2a": {
+        "by_window": [
+          {
+            "boundary_tokens": 25,
+            "raw": {
+              "current_rank": 2,
+              "current_score": 3.661563875114251,
+              "current_exact_p_ge": 0.08333333333333333,
+              "best_nesting_outer_to_inner": [
+                "34|39",
+                "33|40",
+                "35|38",
+                "36|37"
+              ],
+              "best_leaf_reading_order": [
+                34,
+                33,
+                35,
+                36,
+                37,
+                38,
+                40,
+                39
+              ],
+              "best_score": 3.7355335217215693,
+              "current_is_best": false
+            },
+            "currier_residual": {
+              "current_rank": 7,
+              "current_score": 1.3819258571872193,
+              "current_exact_p_ge": 0.2916666666666667,
+              "best_nesting_outer_to_inner": [
+                "35|38",
+                "33|40",
+                "34|39",
+                "36|37"
+              ],
+              "best_leaf_reading_order": [
+                35,
+                33,
+                34,
+                36,
+                37,
+                39,
+                40,
+                38
+              ],
+              "best_score": 2.404870835893102,
+              "current_is_best": false
+            },
+            "hand_currier_residual": {
+              "current_rank": 7,
+              "current_score": 1.3819258571872193,
+              "current_exact_p_ge": 0.2916666666666667,
+              "best_nesting_outer_to_inner": [
+                "35|38",
+                "33|40",
+                "34|39",
+                "36|37"
+              ],
+              "best_leaf_reading_order": [
+                35,
+                33,
+                34,
+                36,
+                37,
+                39,
+                40,
+                38
+              ],
+              "best_score": 2.404870835893102,
+              "current_is_best": false
+            },
+            "n_currier_transition_classes": 4,
+            "n_hand_currier_transition_classes": 4
+          },
+          {
+            "boundary_tokens": 50,
+            "raw": {
+              "current_rank": 2,
+              "current_score": 5.426864162413914,
+              "current_exact_p_ge": 0.08333333333333333,
+              "best_nesting_outer_to_inner": [
+                "35|38",
+                "36|37",
+                "33|40",
+                "34|39"
+              ],
+              "best_leaf_reading_order": [
+                35,
+                36,
+                33,
+                34,
+                39,
+                40,
+                37,
+                38
+              ],
+              "best_score": 5.627158429458512,
+              "current_is_best": false
+            },
+            "currier_residual": {
+              "current_rank": 2,
+              "current_score": 2.511957398715444,
+              "current_exact_p_ge": 0.08333333333333333,
+              "best_nesting_outer_to_inner": [
+                "35|38",
+                "36|37",
+                "33|40",
+                "34|39"
+              ],
+              "best_leaf_reading_order": [
+                35,
+                36,
+                33,
+                34,
+                39,
+                40,
+                37,
+                38
+              ],
+              "best_score": 2.8063371389809317,
+              "current_is_best": false
+            },
+            "hand_currier_residual": {
+              "current_rank": 2,
+              "current_score": 2.511957398715444,
+              "current_exact_p_ge": 0.08333333333333333,
+              "best_nesting_outer_to_inner": [
+                "35|38",
+                "36|37",
+                "33|40",
+                "34|39"
+              ],
+              "best_leaf_reading_order": [
+                35,
+                36,
+                33,
+                34,
+                39,
+                40,
+                37,
+                38
+              ],
+              "best_score": 2.8063371389809317,
+              "current_is_best": false
+            },
+            "n_currier_transition_classes": 4,
+            "n_hand_currier_transition_classes": 4
+          },
+          {
+            "boundary_tokens": 100,
+            "raw": {
+              "current_rank": 4,
+              "current_score": 3.919394232595069,
+              "current_exact_p_ge": 0.16666666666666666,
+              "best_nesting_outer_to_inner": [
+                "35|38",
+                "36|37",
+                "33|40",
+                "34|39"
+              ],
+              "best_leaf_reading_order": [
+                35,
+                36,
+                33,
+                34,
+                39,
+                40,
+                37,
+                38
+              ],
+              "best_score": 4.733260674298351,
+              "current_is_best": false
+            },
+            "currier_residual": {
+              "current_rank": 7,
+              "current_score": 0.8635758660627454,
+              "current_exact_p_ge": 0.2916666666666667,
+              "best_nesting_outer_to_inner": [
+                "34|39",
+                "35|38",
+                "36|37",
+                "33|40"
+              ],
+              "best_leaf_reading_order": [
+                34,
+                35,
+                36,
+                33,
+                40,
+                37,
+                38,
+                39
+              ],
+              "best_score": 1.3810038780392389,
+              "current_is_best": false
+            },
+            "hand_currier_residual": {
+              "current_rank": 7,
+              "current_score": 0.8635758660627454,
+              "current_exact_p_ge": 0.2916666666666667,
+              "best_nesting_outer_to_inner": [
+                "34|39",
+                "35|38",
+                "36|37",
+                "33|40"
+              ],
+              "best_leaf_reading_order": [
+                34,
+                35,
+                36,
+                33,
+                40,
+                37,
+                38,
+                39
+              ],
+              "best_score": 1.3810038780392389,
+              "current_is_best": false
+            },
+            "n_currier_transition_classes": 4,
+            "n_hand_currier_transition_classes": 4
+          },
+          {
+            "boundary_tokens": 200,
+            "raw": {
+              "current_rank": 2,
+              "current_score": 4.228513287131233,
+              "current_exact_p_ge": 0.08333333333333333,
+              "best_nesting_outer_to_inner": [
+                "35|38",
+                "36|37",
+                "33|40",
+                "34|39"
+              ],
+              "best_leaf_reading_order": [
+                35,
+                36,
+                33,
+                34,
+                39,
+                40,
+                37,
+                38
+              ],
+              "best_score": 5.001831188224837,
+              "current_is_best": false
+            },
+            "currier_residual": {
+              "current_rank": 1,
+              "current_score": 1.4498400485182321,
+              "current_exact_p_ge": 0.041666666666666664,
+              "best_nesting_outer_to_inner": [
+                "33|40",
+                "34|39",
+                "35|38",
+                "36|37"
+              ],
+              "best_leaf_reading_order": [
+                33,
+                34,
+                35,
+                36,
+                37,
+                38,
+                39,
+                40
+              ],
+              "best_score": 1.4498400485182321,
+              "current_is_best": true
+            },
+            "hand_currier_residual": {
+              "current_rank": 1,
+              "current_score": 1.4498400485182321,
+              "current_exact_p_ge": 0.041666666666666664,
+              "best_nesting_outer_to_inner": [
+                "33|40",
+                "34|39",
+                "35|38",
+                "36|37"
+              ],
+              "best_leaf_reading_order": [
+                33,
+                34,
+                35,
+                36,
+                37,
+                38,
+                39,
+                40
+              ],
+              "best_score": 1.4498400485182321,
+              "current_is_best": true
+            },
+            "n_currier_transition_classes": 4,
+            "n_hand_currier_transition_classes": 4
+          },
+          {
+            "boundary_tokens": "whole_page",
+            "raw": {
+              "current_rank": 2,
+              "current_score": 4.228513287131233,
+              "current_exact_p_ge": 0.08333333333333333,
+              "best_nesting_outer_to_inner": [
+                "35|38",
+                "36|37",
+                "33|40",
+                "34|39"
+              ],
+              "best_leaf_reading_order": [
+                35,
+                36,
+                33,
+                34,
+                39,
+                40,
+                37,
+                38
+              ],
+              "best_score": 5.001831188224837,
+              "current_is_best": false
+            },
+            "currier_residual": {
+              "current_rank": 1,
+              "current_score": 1.4498400485182321,
+              "current_exact_p_ge": 0.041666666666666664,
+              "best_nesting_outer_to_inner": [
+                "33|40",
+                "34|39",
+                "35|38",
+                "36|37"
+              ],
+              "best_leaf_reading_order": [
+                33,
+                34,
+                35,
+                36,
+                37,
+                38,
+                39,
+                40
+              ],
+              "best_score": 1.4498400485182321,
+              "current_is_best": true
+            },
+            "hand_currier_residual": {
+              "current_rank": 1,
+              "current_score": 1.4498400485182321,
+              "current_exact_p_ge": 0.041666666666666664,
+              "best_nesting_outer_to_inner": [
+                "33|40",
+                "34|39",
+                "35|38",
+                "36|37"
+              ],
+              "best_leaf_reading_order": [
+                33,
+                34,
+                35,
+                36,
+                37,
+                38,
+                39,
+                40
+              ],
+              "best_score": 1.4498400485182321,
+              "current_is_best": true
+            },
+            "n_currier_transition_classes": 4,
+            "n_hand_currier_transition_classes": 4
+          }
+        ],
+        "summary": {
+          "raw": {
+            "current_ranks": [
+              2,
+              2,
+              4,
+              2,
+              2
+            ],
+            "current_median_rank": 2,
+            "current_top1_windows": 0,
+            "current_top3_windows": 4,
+            "current_worst_rank": 4,
+            "best_nestings_by_window": [
+              [
+                "34|39",
+                "33|40",
+                "35|38",
+                "36|37"
+              ],
+              [
+                "35|38",
+                "36|37",
+                "33|40",
+                "34|39"
+              ],
+              [
+                "35|38",
+                "36|37",
+                "33|40",
+                "34|39"
+              ],
+              [
+                "35|38",
+                "36|37",
+                "33|40",
+                "34|39"
+              ],
+              [
+                "35|38",
+                "36|37",
+                "33|40",
+                "34|39"
+              ]
+            ]
+          },
+          "currier_residual": {
+            "current_ranks": [
+              7,
+              2,
+              7,
+              1,
+              1
+            ],
+            "current_median_rank": 2,
+            "current_top1_windows": 2,
+            "current_top3_windows": 3,
+            "current_worst_rank": 7,
+            "best_nestings_by_window": [
+              [
+                "35|38",
+                "33|40",
+                "34|39",
+                "36|37"
+              ],
+              [
+                "35|38",
+                "36|37",
+                "33|40",
+                "34|39"
+              ],
+              [
+                "34|39",
+                "35|38",
+                "36|37",
+                "33|40"
+              ],
+              [
+                "33|40",
+                "34|39",
+                "35|38",
+                "36|37"
+              ],
+              [
+                "33|40",
+                "34|39",
+                "35|38",
+                "36|37"
+              ]
+            ]
+          },
+          "hand_currier_residual": {
+            "current_ranks": [
+              7,
+              2,
+              7,
+              1,
+              1
+            ],
+            "current_median_rank": 2,
+            "current_top1_windows": 2,
+            "current_top3_windows": 3,
+            "current_worst_rank": 7,
+            "best_nestings_by_window": [
+              [
+                "35|38",
+                "33|40",
+                "34|39",
+                "36|37"
+              ],
+              [
+                "35|38",
+                "36|37",
+                "33|40",
+                "34|39"
+              ],
+              [
+                "34|39",
+                "35|38",
+                "36|37",
+                "33|40"
+              ],
+              [
+                "33|40",
+                "34|39",
+                "35|38",
+                "36|37"
+              ],
+              [
+                "33|40",
+                "34|39",
+                "35|38",
+                "36|37"
+              ]
+            ]
+          }
+        }
+      },
+      "cross_transcription": {
+        "raw": {
+          "current_ranks_across_10_tests": [
+            1,
+            2,
+            4,
+            2,
+            2,
+            2,
+            2,
+            4,
+            2,
+            2
+          ],
+          "median_rank": 2.0,
+          "top1_tests": 1,
+          "top3_tests": 8,
+          "worst_rank": 4
+        },
+        "currier_residual": {
+          "current_ranks_across_10_tests": [
+            10,
+            2,
+            9,
+            1,
+            1,
+            7,
+            2,
+            7,
+            1,
+            1
+          ],
+          "median_rank": 2.0,
+          "top1_tests": 4,
+          "top3_tests": 6,
+          "worst_rank": 10
+        },
+        "hand_currier_residual": {
+          "current_ranks_across_10_tests": [
+            10,
+            2,
+            9,
+            1,
+            1,
+            7,
+            2,
+            7,
+            1,
+            1
+          ],
+          "median_rank": 2.0,
+          "top1_tests": 4,
+          "top3_tests": 6,
+          "worst_rank": 10
+        }
+      },
+      "descriptive_status": "CURRENT_ORDER_COMPATIBLE_AFTER_METADATA_CONTROL"
+    },
+    "F_f41-f48": {
+      "known_physical_bifolia": [
+        "41|48",
+        "42|47",
+        "43|46",
+        "44|45"
+      ],
+      "folio_metadata_signatures": {
+        "41": {
+          "H": [
+            "5"
+          ],
+          "L": [
+            "B"
+          ]
+        },
+        "42": {
+          "H": [
+            "1"
+          ],
+          "L": [
+            "A"
+          ]
+        },
+        "43": {
+          "H": [
+            "2"
+          ],
+          "L": [
+            "B"
+          ]
+        },
+        "44": {
+          "H": [
+            "1"
+          ],
+          "L": [
+            "A"
+          ]
+        },
+        "45": {
+          "H": [
+            "1"
+          ],
+          "L": [
+            "A"
+          ]
+        },
+        "46": {
+          "H": [
+            "2"
+          ],
+          "L": [
+            "B"
+          ]
+        },
+        "47": {
+          "H": [
+            "1"
+          ],
+          "L": [
+            "A"
+          ]
+        },
+        "48": {
+          "H": [
+            "5"
+          ],
+          "L": [
+            "B"
+          ]
+        }
+      },
+      "ZL3b": {
+        "by_window": [
+          {
+            "boundary_tokens": 25,
+            "raw": {
+              "current_rank": 15,
+              "current_score": 0.03380989414668778,
+              "current_exact_p_ge": 0.625,
+              "best_nesting_outer_to_inner": [
+                "41|48",
+                "43|46",
+                "42|47",
+                "44|45"
+              ],
+              "best_leaf_reading_order": [
+                41,
+                43,
+                42,
+                44,
+                45,
+                47,
+                46,
+                48
+              ],
+              "best_score": 3.284171193800996,
+              "current_is_best": false
+            },
+            "currier_residual": {
+              "current_rank": 6,
+              "current_score": 1.2200504648574273,
+              "current_exact_p_ge": 0.25,
+              "best_nesting_outer_to_inner": [
+                "44|45",
+                "43|46",
+                "42|47",
+                "41|48"
+              ],
+              "best_leaf_reading_order": [
+                44,
+                43,
+                42,
+                41,
+                48,
+                47,
+                46,
+                45
+              ],
+              "best_score": 2.7685721304275193,
+              "current_is_best": false
+            },
+            "hand_currier_residual": {
+              "current_rank": 7,
+              "current_score": 0.9660759409511144,
+              "current_exact_p_ge": 0.2916666666666667,
+              "best_nesting_outer_to_inner": [
+                "44|45",
+                "43|46",
+                "42|47",
+                "41|48"
+              ],
+              "best_leaf_reading_order": [
+                44,
+                43,
+                42,
+                41,
+                48,
+                47,
+                46,
+                45
+              ],
+              "best_score": 2.4908113616692082,
+              "current_is_best": false
+            },
+            "n_currier_transition_classes": 4,
+            "n_hand_currier_transition_classes": 9
+          },
+          {
+            "boundary_tokens": 50,
+            "raw": {
+              "current_rank": 21,
+              "current_score": -2.4594938067565097,
+              "current_exact_p_ge": 0.875,
+              "best_nesting_outer_to_inner": [
+                "43|46",
+                "41|48",
+                "44|45",
+                "42|47"
+              ],
+              "best_leaf_reading_order": [
+                43,
+                41,
+                44,
+                42,
+                47,
+                45,
+                48,
+                46
+              ],
+              "best_score": 3.6199418710459885,
+              "current_is_best": false
+            },
+            "currier_residual": {
+              "current_rank": 15,
+              "current_score": -0.03381932780603231,
+              "current_exact_p_ge": 0.625,
+              "best_nesting_outer_to_inner": [
+                "41|48",
+                "44|45",
+                "43|46",
+                "42|47"
+              ],
+              "best_leaf_reading_order": [
+                41,
+                44,
+                43,
+                42,
+                47,
+                46,
+                45,
+                48
+              ],
+              "best_score": 2.9182650822696723,
+              "current_is_best": false
+            },
+            "hand_currier_residual": {
+              "current_rank": 17,
+              "current_score": -0.46302271699546504,
+              "current_exact_p_ge": 0.7083333333333334,
+              "best_nesting_outer_to_inner": [
+                "41|48",
+                "44|45",
+                "43|46",
+                "42|47"
+              ],
+              "best_leaf_reading_order": [
+                41,
+                44,
+                43,
+                42,
+                47,
+                46,
+                45,
+                48
+              ],
+              "best_score": 2.4890616930802394,
+              "current_is_best": false
+            },
+            "n_currier_transition_classes": 4,
+            "n_hand_currier_transition_classes": 9
+          },
+          {
+            "boundary_tokens": 100,
+            "raw": {
+              "current_rank": 18,
+              "current_score": -2.422184201099889,
+              "current_exact_p_ge": 0.75,
+              "best_nesting_outer_to_inner": [
+                "43|46",
+                "41|48",
+                "44|45",
+                "42|47"
+              ],
+              "best_leaf_reading_order": [
+                43,
+                41,
+                44,
+                42,
+                47,
+                45,
+                48,
+                46
+              ],
+              "best_score": 3.031755533373535,
+              "current_is_best": false
+            },
+            "currier_residual": {
+              "current_rank": 2,
+              "current_score": 0.7948760887663728,
+              "current_exact_p_ge": 0.08333333333333333,
+              "best_nesting_outer_to_inner": [
+                "41|48",
+                "44|45",
+                "43|46",
+                "42|47"
+              ],
+              "best_leaf_reading_order": [
+                41,
+                44,
+                43,
+                42,
+                47,
+                46,
+                45,
+                48
+              ],
+              "best_score": 1.0130666481733057,
+              "current_is_best": false
+            },
+            "hand_currier_residual": {
+              "current_rank": 6,
+              "current_score": 0.36250986457627193,
+              "current_exact_p_ge": 0.25,
+              "best_nesting_outer_to_inner": [
+                "43|46",
+                "42|47",
+                "41|48",
+                "44|45"
+              ],
+              "best_leaf_reading_order": [
+                43,
+                42,
+                41,
+                44,
+                45,
+                48,
+                47,
+                46
+              ],
+              "best_score": 1.0613840704208841,
+              "current_is_best": false
+            },
+            "n_currier_transition_classes": 4,
+            "n_hand_currier_transition_classes": 9
+          },
+          {
+            "boundary_tokens": 200,
+            "raw": {
+              "current_rank": 18,
+              "current_score": -2.6408201436582894,
+              "current_exact_p_ge": 0.75,
+              "best_nesting_outer_to_inner": [
+                "43|46",
+                "41|48",
+                "44|45",
+                "42|47"
+              ],
+              "best_leaf_reading_order": [
+                43,
+                41,
+                44,
+                42,
+                47,
+                45,
+                48,
+                46
+              ],
+              "best_score": 3.2938976219985077,
+              "current_is_best": false
+            },
+            "currier_residual": {
+              "current_rank": 2,
+              "current_score": 0.6329742787799,
+              "current_exact_p_ge": 0.08333333333333333,
+              "best_nesting_outer_to_inner": [
+                "41|48",
+                "44|45",
+                "43|46",
+                "42|47"
+              ],
+              "best_leaf_reading_order": [
+                41,
+                44,
+                43,
+                42,
+                47,
+                46,
+                45,
+                48
+              ],
+              "best_score": 1.110570732057678,
+              "current_is_best": false
+            },
+            "hand_currier_residual": {
+              "current_rank": 6,
+              "current_score": 0.13640231747007606,
+              "current_exact_p_ge": 0.25,
+              "best_nesting_outer_to_inner": [
+                "43|46",
+                "42|47",
+                "41|48",
+                "44|45"
+              ],
+              "best_leaf_reading_order": [
+                43,
+                42,
+                41,
+                44,
+                45,
+                48,
+                47,
+                46
+              ],
+              "best_score": 0.9187732620003631,
+              "current_is_best": false
+            },
+            "n_currier_transition_classes": 4,
+            "n_hand_currier_transition_classes": 9
+          },
+          {
+            "boundary_tokens": "whole_page",
+            "raw": {
+              "current_rank": 18,
+              "current_score": -2.6408201436582894,
+              "current_exact_p_ge": 0.75,
+              "best_nesting_outer_to_inner": [
+                "43|46",
+                "41|48",
+                "44|45",
+                "42|47"
+              ],
+              "best_leaf_reading_order": [
+                43,
+                41,
+                44,
+                42,
+                47,
+                45,
+                48,
+                46
+              ],
+              "best_score": 3.2938976219985077,
+              "current_is_best": false
+            },
+            "currier_residual": {
+              "current_rank": 2,
+              "current_score": 0.6329742787799,
+              "current_exact_p_ge": 0.08333333333333333,
+              "best_nesting_outer_to_inner": [
+                "41|48",
+                "44|45",
+                "43|46",
+                "42|47"
+              ],
+              "best_leaf_reading_order": [
+                41,
+                44,
+                43,
+                42,
+                47,
+                46,
+                45,
+                48
+              ],
+              "best_score": 1.110570732057678,
+              "current_is_best": false
+            },
+            "hand_currier_residual": {
+              "current_rank": 6,
+              "current_score": 0.13640231747007606,
+              "current_exact_p_ge": 0.25,
+              "best_nesting_outer_to_inner": [
+                "43|46",
+                "42|47",
+                "41|48",
+                "44|45"
+              ],
+              "best_leaf_reading_order": [
+                43,
+                42,
+                41,
+                44,
+                45,
+                48,
+                47,
+                46
+              ],
+              "best_score": 0.9187732620003631,
+              "current_is_best": false
+            },
+            "n_currier_transition_classes": 4,
+            "n_hand_currier_transition_classes": 9
+          }
+        ],
+        "summary": {
+          "raw": {
+            "current_ranks": [
+              15,
+              21,
+              18,
+              18,
+              18
+            ],
+            "current_median_rank": 18,
+            "current_top1_windows": 0,
+            "current_top3_windows": 0,
+            "current_worst_rank": 21,
+            "best_nestings_by_window": [
+              [
+                "41|48",
+                "43|46",
+                "42|47",
+                "44|45"
+              ],
+              [
+                "43|46",
+                "41|48",
+                "44|45",
+                "42|47"
+              ],
+              [
+                "43|46",
+                "41|48",
+                "44|45",
+                "42|47"
+              ],
+              [
+                "43|46",
+                "41|48",
+                "44|45",
+                "42|47"
+              ],
+              [
+                "43|46",
+                "41|48",
+                "44|45",
+                "42|47"
+              ]
+            ]
+          },
+          "currier_residual": {
+            "current_ranks": [
+              6,
+              15,
+              2,
+              2,
+              2
+            ],
+            "current_median_rank": 2,
+            "current_top1_windows": 0,
+            "current_top3_windows": 3,
+            "current_worst_rank": 15,
+            "best_nestings_by_window": [
+              [
+                "44|45",
+                "43|46",
+                "42|47",
+                "41|48"
+              ],
+              [
+                "41|48",
+                "44|45",
+                "43|46",
+                "42|47"
+              ],
+              [
+                "41|48",
+                "44|45",
+                "43|46",
+                "42|47"
+              ],
+              [
+                "41|48",
+                "44|45",
+                "43|46",
+                "42|47"
+              ],
+              [
+                "41|48",
+                "44|45",
+                "43|46",
+                "42|47"
+              ]
+            ]
+          },
+          "hand_currier_residual": {
+            "current_ranks": [
+              7,
+              17,
+              6,
+              6,
+              6
+            ],
+            "current_median_rank": 6,
+            "current_top1_windows": 0,
+            "current_top3_windows": 0,
+            "current_worst_rank": 17,
+            "best_nestings_by_window": [
+              [
+                "44|45",
+                "43|46",
+                "42|47",
+                "41|48"
+              ],
+              [
+                "41|48",
+                "44|45",
+                "43|46",
+                "42|47"
+              ],
+              [
+                "43|46",
+                "42|47",
+                "41|48",
+                "44|45"
+              ],
+              [
+                "43|46",
+                "42|47",
+                "41|48",
+                "44|45"
+              ],
+              [
+                "43|46",
+                "42|47",
+                "41|48",
+                "44|45"
+              ]
+            ]
+          }
+        }
+      },
+      "IT2a": {
+        "by_window": [
+          {
+            "boundary_tokens": 25,
+            "raw": {
+              "current_rank": 5,
+              "current_score": 1.3166543077535504,
+              "current_exact_p_ge": 0.20833333333333334,
+              "best_nesting_outer_to_inner": [
+                "41|48",
+                "43|46",
+                "42|47",
+                "44|45"
+              ],
+              "best_leaf_reading_order": [
+                41,
+                43,
+                42,
+                44,
+                45,
+                47,
+                46,
+                48
+              ],
+              "best_score": 3.645921530279452,
+              "current_is_best": false
+            },
+            "currier_residual": {
+              "current_rank": 1,
+              "current_score": 2.5000358826705074,
+              "current_exact_p_ge": 0.041666666666666664,
+              "best_nesting_outer_to_inner": [
+                "41|48",
+                "42|47",
+                "43|46",
+                "44|45"
+              ],
+              "best_leaf_reading_order": [
+                41,
+                42,
+                43,
+                44,
+                45,
+                46,
+                47,
+                48
+              ],
+              "best_score": 2.5000358826705074,
+              "current_is_best": true
+            },
+            "hand_currier_residual": {
+              "current_rank": 1,
+              "current_score": 2.2935616695279686,
+              "current_exact_p_ge": 0.041666666666666664,
+              "best_nesting_outer_to_inner": [
+                "41|48",
+                "42|47",
+                "43|46",
+                "44|45"
+              ],
+              "best_leaf_reading_order": [
+                41,
+                42,
+                43,
+                44,
+                45,
+                46,
+                47,
+                48
+              ],
+              "best_score": 2.2935616695279686,
+              "current_is_best": true
+            },
+            "n_currier_transition_classes": 4,
+            "n_hand_currier_transition_classes": 9
+          },
+          {
+            "boundary_tokens": 50,
+            "raw": {
+              "current_rank": 20,
+              "current_score": -2.420803484474897,
+              "current_exact_p_ge": 0.8333333333333334,
+              "best_nesting_outer_to_inner": [
+                "43|46",
+                "41|48",
+                "44|45",
+                "42|47"
+              ],
+              "best_leaf_reading_order": [
+                43,
+                41,
+                44,
+                42,
+                47,
+                45,
+                48,
+                46
+              ],
+              "best_score": 3.8751729107232737,
+              "current_is_best": false
+            },
+            "currier_residual": {
+              "current_rank": 11,
+              "current_score": -0.23383450033399095,
+              "current_exact_p_ge": 0.4583333333333333,
+              "best_nesting_outer_to_inner": [
+                "41|48",
+                "44|45",
+                "43|46",
+                "42|47"
+              ],
+              "best_leaf_reading_order": [
+                41,
+                44,
+                43,
+                42,
+                47,
+                46,
+                45,
+                48
+              ],
+              "best_score": 2.475445735226242,
+              "current_is_best": false
+            },
+            "hand_currier_residual": {
+              "current_rank": 15,
+              "current_score": -0.6449468599800428,
+              "current_exact_p_ge": 0.625,
+              "best_nesting_outer_to_inner": [
+                "41|48",
+                "44|45",
+                "43|46",
+                "42|47"
+              ],
+              "best_leaf_reading_order": [
+                41,
+                44,
+                43,
+                42,
+                47,
+                46,
+                45,
+                48
+              ],
+              "best_score": 2.06433337558019,
+              "current_is_best": false
+            },
+            "n_currier_transition_classes": 4,
+            "n_hand_currier_transition_classes": 9
+          },
+          {
+            "boundary_tokens": 100,
+            "raw": {
+              "current_rank": 22,
+              "current_score": -3.0446961031813493,
+              "current_exact_p_ge": 0.9166666666666666,
+              "best_nesting_outer_to_inner": [
+                "41|48",
+                "43|46",
+                "44|45",
+                "42|47"
+              ],
+              "best_leaf_reading_order": [
+                41,
+                43,
+                44,
+                42,
+                47,
+                45,
+                46,
+                48
+              ],
+              "best_score": 3.8602764554449394,
+              "current_is_best": false
+            },
+            "currier_residual": {
+              "current_rank": 11,
+              "current_score": 0.16409770126358253,
+              "current_exact_p_ge": 0.4583333333333333,
+              "best_nesting_outer_to_inner": [
+                "41|48",
+                "44|45",
+                "43|46",
+                "42|47"
+              ],
+              "best_leaf_reading_order": [
+                41,
+                44,
+                43,
+                42,
+                47,
+                46,
+                45,
+                48
+              ],
+              "best_score": 1.5250876917692442,
+              "current_is_best": false
+            },
+            "hand_currier_residual": {
+              "current_rank": 15,
+              "current_score": -0.14888807200052576,
+              "current_exact_p_ge": 0.625,
+              "best_nesting_outer_to_inner": [
+                "41|48",
+                "44|45",
+                "43|46",
+                "42|47"
+              ],
+              "best_leaf_reading_order": [
+                41,
+                44,
+                43,
+                42,
+                47,
+                46,
+                45,
+                48
+              ],
+              "best_score": 1.212101918505136,
+              "current_is_best": false
+            },
+            "n_currier_transition_classes": 4,
+            "n_hand_currier_transition_classes": 9
+          },
+          {
+            "boundary_tokens": 200,
+            "raw": {
+              "current_rank": 22,
+              "current_score": -3.439392867019383,
+              "current_exact_p_ge": 0.9166666666666666,
+              "best_nesting_outer_to_inner": [
+                "43|46",
+                "41|48",
+                "44|45",
+                "42|47"
+              ],
+              "best_leaf_reading_order": [
+                43,
+                41,
+                44,
+                42,
+                47,
+                45,
+                48,
+                46
+              ],
+              "best_score": 3.9669122027917423,
+              "current_is_best": false
+            },
+            "currier_residual": {
+              "current_rank": 13,
+              "current_score": -0.157875877883577,
+              "current_exact_p_ge": 0.5416666666666666,
+              "best_nesting_outer_to_inner": [
+                "41|48",
+                "44|45",
+                "43|46",
+                "42|47"
+              ],
+              "best_leaf_reading_order": [
+                41,
+                44,
+                43,
+                42,
+                47,
+                46,
+                45,
+                48
+              ],
+              "best_score": 1.4877655666281657,
+              "current_is_best": false
+            },
+            "hand_currier_residual": {
+              "current_rank": 14,
+              "current_score": -0.4791350670565581,
+              "current_exact_p_ge": 0.5833333333333334,
+              "best_nesting_outer_to_inner": [
+                "43|46",
+                "41|48",
+                "44|45",
+                "42|47"
+              ],
+              "best_leaf_reading_order": [
+                43,
+                41,
+                44,
+                42,
+                47,
+                45,
+                48,
+                46
+              ],
+              "best_score": 1.28196074036824,
+              "current_is_best": false
+            },
+            "n_currier_transition_classes": 4,
+            "n_hand_currier_transition_classes": 9
+          },
+          {
+            "boundary_tokens": "whole_page",
+            "raw": {
+              "current_rank": 22,
+              "current_score": -3.439392867019383,
+              "current_exact_p_ge": 0.9166666666666666,
+              "best_nesting_outer_to_inner": [
+                "43|46",
+                "41|48",
+                "44|45",
+                "42|47"
+              ],
+              "best_leaf_reading_order": [
+                43,
+                41,
+                44,
+                42,
+                47,
+                45,
+                48,
+                46
+              ],
+              "best_score": 3.9669122027917423,
+              "current_is_best": false
+            },
+            "currier_residual": {
+              "current_rank": 13,
+              "current_score": -0.157875877883577,
+              "current_exact_p_ge": 0.5416666666666666,
+              "best_nesting_outer_to_inner": [
+                "41|48",
+                "44|45",
+                "43|46",
+                "42|47"
+              ],
+              "best_leaf_reading_order": [
+                41,
+                44,
+                43,
+                42,
+                47,
+                46,
+                45,
+                48
+              ],
+              "best_score": 1.4877655666281657,
+              "current_is_best": false
+            },
+            "hand_currier_residual": {
+              "current_rank": 14,
+              "current_score": -0.4791350670565581,
+              "current_exact_p_ge": 0.5833333333333334,
+              "best_nesting_outer_to_inner": [
+                "43|46",
+                "41|48",
+                "44|45",
+                "42|47"
+              ],
+              "best_leaf_reading_order": [
+                43,
+                41,
+                44,
+                42,
+                47,
+                45,
+                48,
+                46
+              ],
+              "best_score": 1.28196074036824,
+              "current_is_best": false
+            },
+            "n_currier_transition_classes": 4,
+            "n_hand_currier_transition_classes": 9
+          }
+        ],
+        "summary": {
+          "raw": {
+            "current_ranks": [
+              5,
+              20,
+              22,
+              22,
+              22
+            ],
+            "current_median_rank": 22,
+            "current_top1_windows": 0,
+            "current_top3_windows": 0,
+            "current_worst_rank": 22,
+            "best_nestings_by_window": [
+              [
+                "41|48",
+                "43|46",
+                "42|47",
+                "44|45"
+              ],
+              [
+                "43|46",
+                "41|48",
+                "44|45",
+                "42|47"
+              ],
+              [
+                "41|48",
+                "43|46",
+                "44|45",
+                "42|47"
+              ],
+              [
+                "43|46",
+                "41|48",
+                "44|45",
+                "42|47"
+              ],
+              [
+                "43|46",
+                "41|48",
+                "44|45",
+                "42|47"
+              ]
+            ]
+          },
+          "currier_residual": {
+            "current_ranks": [
+              1,
+              11,
+              11,
+              13,
+              13
+            ],
+            "current_median_rank": 11,
+            "current_top1_windows": 1,
+            "current_top3_windows": 1,
+            "current_worst_rank": 13,
+            "best_nestings_by_window": [
+              [
+                "41|48",
+                "42|47",
+                "43|46",
+                "44|45"
+              ],
+              [
+                "41|48",
+                "44|45",
+                "43|46",
+                "42|47"
+              ],
+              [
+                "41|48",
+                "44|45",
+                "43|46",
+                "42|47"
+              ],
+              [
+                "41|48",
+                "44|45",
+                "43|46",
+                "42|47"
+              ],
+              [
+                "41|48",
+                "44|45",
+                "43|46",
+                "42|47"
+              ]
+            ]
+          },
+          "hand_currier_residual": {
+            "current_ranks": [
+              1,
+              15,
+              15,
+              14,
+              14
+            ],
+            "current_median_rank": 14,
+            "current_top1_windows": 1,
+            "current_top3_windows": 1,
+            "current_worst_rank": 15,
+            "best_nestings_by_window": [
+              [
+                "41|48",
+                "42|47",
+                "43|46",
+                "44|45"
+              ],
+              [
+                "41|48",
+                "44|45",
+                "43|46",
+                "42|47"
+              ],
+              [
+                "41|48",
+                "44|45",
+                "43|46",
+                "42|47"
+              ],
+              [
+                "43|46",
+                "41|48",
+                "44|45",
+                "42|47"
+              ],
+              [
+                "43|46",
+                "41|48",
+                "44|45",
+                "42|47"
+              ]
+            ]
+          }
+        }
+      },
+      "cross_transcription": {
+        "raw": {
+          "current_ranks_across_10_tests": [
+            15,
+            21,
+            18,
+            18,
+            18,
+            5,
+            20,
+            22,
+            22,
+            22
+          ],
+          "median_rank": 19.0,
+          "top1_tests": 0,
+          "top3_tests": 0,
+          "worst_rank": 22
+        },
+        "currier_residual": {
+          "current_ranks_across_10_tests": [
+            6,
+            15,
+            2,
+            2,
+            2,
+            1,
+            11,
+            11,
+            13,
+            13
+          ],
+          "median_rank": 8.5,
+          "top1_tests": 1,
+          "top3_tests": 4,
+          "worst_rank": 15
+        },
+        "hand_currier_residual": {
+          "current_ranks_across_10_tests": [
+            7,
+            17,
+            6,
+            6,
+            6,
+            1,
+            15,
+            15,
+            14,
+            14
+          ],
+          "median_rank": 10.5,
+          "top1_tests": 1,
+          "top3_tests": 1,
+          "worst_rank": 17
+        }
+      },
+      "descriptive_status": "INCONCLUSIVE"
+    },
+    "G_f49-f56": {
+      "known_physical_bifolia": [
+        "49|56",
+        "50|55",
+        "51|54",
+        "52|53"
+      ],
+      "folio_metadata_signatures": {
+        "49": {
+          "H": [
+            "1"
+          ],
+          "L": [
+            "A"
+          ]
+        },
+        "50": {
+          "H": [
+            "2"
+          ],
+          "L": [
+            "B"
+          ]
+        },
+        "51": {
+          "H": [
+            "1"
+          ],
+          "L": [
+            "A"
+          ]
+        },
+        "52": {
+          "H": [
+            "1"
+          ],
+          "L": [
+            "A"
+          ]
+        },
+        "53": {
+          "H": [
+            "1"
+          ],
+          "L": [
+            "A"
+          ]
+        },
+        "54": {
+          "H": [
+            "1"
+          ],
+          "L": [
+            "A"
+          ]
+        },
+        "55": {
+          "H": [
+            "2"
+          ],
+          "L": [
+            "B"
+          ]
+        },
+        "56": {
+          "H": [
+            "1"
+          ],
+          "L": [
+            "A"
+          ]
+        }
+      },
+      "ZL3b": {
+        "by_window": [
+          {
+            "boundary_tokens": 25,
+            "raw": {
+              "current_rank": 18,
+              "current_score": -1.5537318289612616,
+              "current_exact_p_ge": 0.75,
+              "best_nesting_outer_to_inner": [
+                "52|53",
+                "51|54",
+                "50|55",
+                "49|56"
+              ],
+              "best_leaf_reading_order": [
+                52,
+                51,
+                50,
+                49,
+                56,
+                55,
+                54,
+                53
+              ],
+              "best_score": 6.198695524775033,
+              "current_is_best": false
+            },
+            "currier_residual": {
+              "current_rank": 14,
+              "current_score": -0.8648675380638097,
+              "current_exact_p_ge": 0.5833333333333334,
+              "best_nesting_outer_to_inner": [
+                "52|53",
+                "51|54",
+                "50|55",
+                "49|56"
+              ],
+              "best_leaf_reading_order": [
+                52,
+                51,
+                50,
+                49,
+                56,
+                55,
+                54,
+                53
+              ],
+              "best_score": 6.887559815672485,
+              "current_is_best": false
+            },
+            "hand_currier_residual": {
+              "current_rank": 14,
+              "current_score": -0.8648675380638097,
+              "current_exact_p_ge": 0.5833333333333334,
+              "best_nesting_outer_to_inner": [
+                "52|53",
+                "51|54",
+                "50|55",
+                "49|56"
+              ],
+              "best_leaf_reading_order": [
+                52,
+                51,
+                50,
+                49,
+                56,
+                55,
+                54,
+                53
+              ],
+              "best_score": 6.887559815672485,
+              "current_is_best": false
+            },
+            "n_currier_transition_classes": 4,
+            "n_hand_currier_transition_classes": 4
+          },
+          {
+            "boundary_tokens": 50,
+            "raw": {
+              "current_rank": 13,
+              "current_score": 0.06289485573700263,
+              "current_exact_p_ge": 0.5416666666666666,
+              "best_nesting_outer_to_inner": [
+                "50|55",
+                "51|54",
+                "52|53",
+                "49|56"
+              ],
+              "best_leaf_reading_order": [
+                50,
+                51,
+                52,
+                49,
+                56,
+                53,
+                54,
+                55
+              ],
+              "best_score": 5.181380515745107,
+              "current_is_best": false
+            },
+            "currier_residual": {
+              "current_rank": 9,
+              "current_score": 1.068198385760397,
+              "current_exact_p_ge": 0.375,
+              "best_nesting_outer_to_inner": [
+                "50|55",
+                "51|54",
+                "52|53",
+                "49|56"
+              ],
+              "best_leaf_reading_order": [
+                50,
+                51,
+                52,
+                49,
+                56,
+                53,
+                54,
+                55
+              ],
+              "best_score": 5.140980255852366,
+              "current_is_best": false
+            },
+            "hand_currier_residual": {
+              "current_rank": 9,
+              "current_score": 1.068198385760397,
+              "current_exact_p_ge": 0.375,
+              "best_nesting_outer_to_inner": [
+                "50|55",
+                "51|54",
+                "52|53",
+                "49|56"
+              ],
+              "best_leaf_reading_order": [
+                50,
+                51,
+                52,
+                49,
+                56,
+                53,
+                54,
+                55
+              ],
+              "best_score": 5.140980255852366,
+              "current_is_best": false
+            },
+            "n_currier_transition_classes": 4,
+            "n_hand_currier_transition_classes": 4
+          },
+          {
+            "boundary_tokens": 100,
+            "raw": {
+              "current_rank": 18,
+              "current_score": -1.5639066583488113,
+              "current_exact_p_ge": 0.75,
+              "best_nesting_outer_to_inner": [
+                "50|55",
+                "51|54",
+                "52|53",
+                "49|56"
+              ],
+              "best_leaf_reading_order": [
+                50,
+                51,
+                52,
+                49,
+                56,
+                53,
+                54,
+                55
+              ],
+              "best_score": 4.264412545575141,
+              "current_is_best": false
+            },
+            "currier_residual": {
+              "current_rank": 12,
+              "current_score": -0.32012336979549033,
+              "current_exact_p_ge": 0.5,
+              "best_nesting_outer_to_inner": [
+                "52|53",
+                "50|55",
+                "51|54",
+                "49|56"
+              ],
+              "best_leaf_reading_order": [
+                52,
+                50,
+                51,
+                49,
+                56,
+                54,
+                55,
+                53
+              ],
+              "best_score": 4.673251239264704,
+              "current_is_best": false
+            },
+            "hand_currier_residual": {
+              "current_rank": 12,
+              "current_score": -0.32012336979549033,
+              "current_exact_p_ge": 0.5,
+              "best_nesting_outer_to_inner": [
+                "52|53",
+                "50|55",
+                "51|54",
+                "49|56"
+              ],
+              "best_leaf_reading_order": [
+                52,
+                50,
+                51,
+                49,
+                56,
+                54,
+                55,
+                53
+              ],
+              "best_score": 4.673251239264704,
+              "current_is_best": false
+            },
+            "n_currier_transition_classes": 4,
+            "n_hand_currier_transition_classes": 4
+          },
+          {
+            "boundary_tokens": 200,
+            "raw": {
+              "current_rank": 19,
+              "current_score": -1.711763242924743,
+              "current_exact_p_ge": 0.7916666666666666,
+              "best_nesting_outer_to_inner": [
+                "50|55",
+                "51|54",
+                "52|53",
+                "49|56"
+              ],
+              "best_leaf_reading_order": [
+                50,
+                51,
+                52,
+                49,
+                56,
+                53,
+                54,
+                55
+              ],
+              "best_score": 3.9635088965980074,
+              "current_is_best": false
+            },
+            "currier_residual": {
+              "current_rank": 12,
+              "current_score": -0.4398016054383829,
+              "current_exact_p_ge": 0.5,
+              "best_nesting_outer_to_inner": [
+                "52|53",
+                "50|55",
+                "51|54",
+                "49|56"
+              ],
+              "best_leaf_reading_order": [
+                52,
+                50,
+                51,
+                49,
+                56,
+                54,
+                55,
+                53
+              ],
+              "best_score": 4.337633626010493,
+              "current_is_best": false
+            },
+            "hand_currier_residual": {
+              "current_rank": 12,
+              "current_score": -0.4398016054383829,
+              "current_exact_p_ge": 0.5,
+              "best_nesting_outer_to_inner": [
+                "52|53",
+                "50|55",
+                "51|54",
+                "49|56"
+              ],
+              "best_leaf_reading_order": [
+                52,
+                50,
+                51,
+                49,
+                56,
+                54,
+                55,
+                53
+              ],
+              "best_score": 4.337633626010493,
+              "current_is_best": false
+            },
+            "n_currier_transition_classes": 4,
+            "n_hand_currier_transition_classes": 4
+          },
+          {
+            "boundary_tokens": "whole_page",
+            "raw": {
+              "current_rank": 19,
+              "current_score": -1.711763242924743,
+              "current_exact_p_ge": 0.7916666666666666,
+              "best_nesting_outer_to_inner": [
+                "50|55",
+                "51|54",
+                "52|53",
+                "49|56"
+              ],
+              "best_leaf_reading_order": [
+                50,
+                51,
+                52,
+                49,
+                56,
+                53,
+                54,
+                55
+              ],
+              "best_score": 3.9635088965980074,
+              "current_is_best": false
+            },
+            "currier_residual": {
+              "current_rank": 12,
+              "current_score": -0.4398016054383829,
+              "current_exact_p_ge": 0.5,
+              "best_nesting_outer_to_inner": [
+                "52|53",
+                "50|55",
+                "51|54",
+                "49|56"
+              ],
+              "best_leaf_reading_order": [
+                52,
+                50,
+                51,
+                49,
+                56,
+                54,
+                55,
+                53
+              ],
+              "best_score": 4.337633626010493,
+              "current_is_best": false
+            },
+            "hand_currier_residual": {
+              "current_rank": 12,
+              "current_score": -0.4398016054383829,
+              "current_exact_p_ge": 0.5,
+              "best_nesting_outer_to_inner": [
+                "52|53",
+                "50|55",
+                "51|54",
+                "49|56"
+              ],
+              "best_leaf_reading_order": [
+                52,
+                50,
+                51,
+                49,
+                56,
+                54,
+                55,
+                53
+              ],
+              "best_score": 4.337633626010493,
+              "current_is_best": false
+            },
+            "n_currier_transition_classes": 4,
+            "n_hand_currier_transition_classes": 4
+          }
+        ],
+        "summary": {
+          "raw": {
+            "current_ranks": [
+              18,
+              13,
+              18,
+              19,
+              19
+            ],
+            "current_median_rank": 18,
+            "current_top1_windows": 0,
+            "current_top3_windows": 0,
+            "current_worst_rank": 19,
+            "best_nestings_by_window": [
+              [
+                "52|53",
+                "51|54",
+                "50|55",
+                "49|56"
+              ],
+              [
+                "50|55",
+                "51|54",
+                "52|53",
+                "49|56"
+              ],
+              [
+                "50|55",
+                "51|54",
+                "52|53",
+                "49|56"
+              ],
+              [
+                "50|55",
+                "51|54",
+                "52|53",
+                "49|56"
+              ],
+              [
+                "50|55",
+                "51|54",
+                "52|53",
+                "49|56"
+              ]
+            ]
+          },
+          "currier_residual": {
+            "current_ranks": [
+              14,
+              9,
+              12,
+              12,
+              12
+            ],
+            "current_median_rank": 12,
+            "current_top1_windows": 0,
+            "current_top3_windows": 0,
+            "current_worst_rank": 14,
+            "best_nestings_by_window": [
+              [
+                "52|53",
+                "51|54",
+                "50|55",
+                "49|56"
+              ],
+              [
+                "50|55",
+                "51|54",
+                "52|53",
+                "49|56"
+              ],
+              [
+                "52|53",
+                "50|55",
+                "51|54",
+                "49|56"
+              ],
+              [
+                "52|53",
+                "50|55",
+                "51|54",
+                "49|56"
+              ],
+              [
+                "52|53",
+                "50|55",
+                "51|54",
+                "49|56"
+              ]
+            ]
+          },
+          "hand_currier_residual": {
+            "current_ranks": [
+              14,
+              9,
+              12,
+              12,
+              12
+            ],
+            "current_median_rank": 12,
+            "current_top1_windows": 0,
+            "current_top3_windows": 0,
+            "current_worst_rank": 14,
+            "best_nestings_by_window": [
+              [
+                "52|53",
+                "51|54",
+                "50|55",
+                "49|56"
+              ],
+              [
+                "50|55",
+                "51|54",
+                "52|53",
+                "49|56"
+              ],
+              [
+                "52|53",
+                "50|55",
+                "51|54",
+                "49|56"
+              ],
+              [
+                "52|53",
+                "50|55",
+                "51|54",
+                "49|56"
+              ],
+              [
+                "52|53",
+                "50|55",
+                "51|54",
+                "49|56"
+              ]
+            ]
+          }
+        }
+      },
+      "IT2a": {
+        "by_window": [
+          {
+            "boundary_tokens": 25,
+            "raw": {
+              "current_rank": 20,
+              "current_score": -1.3512387033532416,
+              "current_exact_p_ge": 0.8333333333333334,
+              "best_nesting_outer_to_inner": [
+                "52|53",
+                "51|54",
+                "50|55",
+                "49|56"
+              ],
+              "best_leaf_reading_order": [
+                52,
+                51,
+                50,
+                49,
+                56,
+                55,
+                54,
+                53
+              ],
+              "best_score": 5.799325551625446,
+              "current_is_best": false
+            },
+            "currier_residual": {
+              "current_rank": 17,
+              "current_score": -0.8123898184374476,
+              "current_exact_p_ge": 0.7083333333333334,
+              "best_nesting_outer_to_inner": [
+                "52|53",
+                "51|54",
+                "50|55",
+                "49|56"
+              ],
+              "best_leaf_reading_order": [
+                52,
+                51,
+                50,
+                49,
+                56,
+                55,
+                54,
+                53
+              ],
+              "best_score": 6.338174436541241,
+              "current_is_best": false
+            },
+            "hand_currier_residual": {
+              "current_rank": 17,
+              "current_score": -0.8123898184374476,
+              "current_exact_p_ge": 0.7083333333333334,
+              "best_nesting_outer_to_inner": [
+                "52|53",
+                "51|54",
+                "50|55",
+                "49|56"
+              ],
+              "best_leaf_reading_order": [
+                52,
+                51,
+                50,
+                49,
+                56,
+                55,
+                54,
+                53
+              ],
+              "best_score": 6.338174436541241,
+              "current_is_best": false
+            },
+            "n_currier_transition_classes": 4,
+            "n_hand_currier_transition_classes": 4
+          },
+          {
+            "boundary_tokens": 50,
+            "raw": {
+              "current_rank": 16,
+              "current_score": -0.5039568264621115,
+              "current_exact_p_ge": 0.6666666666666666,
+              "best_nesting_outer_to_inner": [
+                "50|55",
+                "51|54",
+                "52|53",
+                "49|56"
+              ],
+              "best_leaf_reading_order": [
+                50,
+                51,
+                52,
+                49,
+                56,
+                53,
+                54,
+                55
+              ],
+              "best_score": 3.996948405719293,
+              "current_is_best": false
+            },
+            "currier_residual": {
+              "current_rank": 10,
+              "current_score": 0.46846199510996683,
+              "current_exact_p_ge": 0.4166666666666667,
+              "best_nesting_outer_to_inner": [
+                "50|55",
+                "51|54",
+                "52|53",
+                "49|56"
+              ],
+              "best_leaf_reading_order": [
+                50,
+                51,
+                52,
+                49,
+                56,
+                53,
+                54,
+                55
+              ],
+              "best_score": 3.879041380926038,
+              "current_is_best": false
+            },
+            "hand_currier_residual": {
+              "current_rank": 10,
+              "current_score": 0.46846199510996683,
+              "current_exact_p_ge": 0.4166666666666667,
+              "best_nesting_outer_to_inner": [
+                "50|55",
+                "51|54",
+                "52|53",
+                "49|56"
+              ],
+              "best_leaf_reading_order": [
+                50,
+                51,
+                52,
+                49,
+                56,
+                53,
+                54,
+                55
+              ],
+              "best_score": 3.879041380926038,
+              "current_is_best": false
+            },
+            "n_currier_transition_classes": 4,
+            "n_hand_currier_transition_classes": 4
+          },
+          {
+            "boundary_tokens": 100,
+            "raw": {
+              "current_rank": 20,
+              "current_score": -1.618034400555662,
+              "current_exact_p_ge": 0.8333333333333334,
+              "best_nesting_outer_to_inner": [
+                "50|55",
+                "51|54",
+                "52|53",
+                "49|56"
+              ],
+              "best_leaf_reading_order": [
+                50,
+                51,
+                52,
+                49,
+                56,
+                53,
+                54,
+                55
+              ],
+              "best_score": 3.6098734671442374,
+              "current_is_best": false
+            },
+            "currier_residual": {
+              "current_rank": 12,
+              "current_score": -0.47789619472783806,
+              "current_exact_p_ge": 0.5,
+              "best_nesting_outer_to_inner": [
+                "52|53",
+                "50|55",
+                "51|54",
+                "49|56"
+              ],
+              "best_leaf_reading_order": [
+                52,
+                50,
+                51,
+                49,
+                56,
+                54,
+                55,
+                53
+              ],
+              "best_score": 3.7389515768434527,
+              "current_is_best": false
+            },
+            "hand_currier_residual": {
+              "current_rank": 12,
+              "current_score": -0.47789619472783806,
+              "current_exact_p_ge": 0.5,
+              "best_nesting_outer_to_inner": [
+                "52|53",
+                "50|55",
+                "51|54",
+                "49|56"
+              ],
+              "best_leaf_reading_order": [
+                52,
+                50,
+                51,
+                49,
+                56,
+                54,
+                55,
+                53
+              ],
+              "best_score": 3.7389515768434527,
+              "current_is_best": false
+            },
+            "n_currier_transition_classes": 4,
+            "n_hand_currier_transition_classes": 4
+          },
+          {
+            "boundary_tokens": 200,
+            "raw": {
+              "current_rank": 20,
+              "current_score": -1.6645993997163235,
+              "current_exact_p_ge": 0.8333333333333334,
+              "best_nesting_outer_to_inner": [
+                "50|55",
+                "51|54",
+                "52|53",
+                "49|56"
+              ],
+              "best_leaf_reading_order": [
+                50,
+                51,
+                52,
+                49,
+                56,
+                53,
+                54,
+                55
+              ],
+              "best_score": 3.5493501418997653,
+              "current_is_best": false
+            },
+            "currier_residual": {
+              "current_rank": 13,
+              "current_score": -0.5435271775826906,
+              "current_exact_p_ge": 0.5416666666666666,
+              "best_nesting_outer_to_inner": [
+                "52|53",
+                "50|55",
+                "51|54",
+                "49|56"
+              ],
+              "best_leaf_reading_order": [
+                52,
+                50,
+                51,
+                49,
+                56,
+                54,
+                55,
+                53
+              ],
+              "best_score": 3.8814622792060307,
+              "current_is_best": false
+            },
+            "hand_currier_residual": {
+              "current_rank": 13,
+              "current_score": -0.5435271775826906,
+              "current_exact_p_ge": 0.5416666666666666,
+              "best_nesting_outer_to_inner": [
+                "52|53",
+                "50|55",
+                "51|54",
+                "49|56"
+              ],
+              "best_leaf_reading_order": [
+                52,
+                50,
+                51,
+                49,
+                56,
+                54,
+                55,
+                53
+              ],
+              "best_score": 3.8814622792060307,
+              "current_is_best": false
+            },
+            "n_currier_transition_classes": 4,
+            "n_hand_currier_transition_classes": 4
+          },
+          {
+            "boundary_tokens": "whole_page",
+            "raw": {
+              "current_rank": 20,
+              "current_score": -1.6645993997163235,
+              "current_exact_p_ge": 0.8333333333333334,
+              "best_nesting_outer_to_inner": [
+                "50|55",
+                "51|54",
+                "52|53",
+                "49|56"
+              ],
+              "best_leaf_reading_order": [
+                50,
+                51,
+                52,
+                49,
+                56,
+                53,
+                54,
+                55
+              ],
+              "best_score": 3.5493501418997653,
+              "current_is_best": false
+            },
+            "currier_residual": {
+              "current_rank": 13,
+              "current_score": -0.5435271775826906,
+              "current_exact_p_ge": 0.5416666666666666,
+              "best_nesting_outer_to_inner": [
+                "52|53",
+                "50|55",
+                "51|54",
+                "49|56"
+              ],
+              "best_leaf_reading_order": [
+                52,
+                50,
+                51,
+                49,
+                56,
+                54,
+                55,
+                53
+              ],
+              "best_score": 3.8814622792060307,
+              "current_is_best": false
+            },
+            "hand_currier_residual": {
+              "current_rank": 13,
+              "current_score": -0.5435271775826906,
+              "current_exact_p_ge": 0.5416666666666666,
+              "best_nesting_outer_to_inner": [
+                "52|53",
+                "50|55",
+                "51|54",
+                "49|56"
+              ],
+              "best_leaf_reading_order": [
+                52,
+                50,
+                51,
+                49,
+                56,
+                54,
+                55,
+                53
+              ],
+              "best_score": 3.8814622792060307,
+              "current_is_best": false
+            },
+            "n_currier_transition_classes": 4,
+            "n_hand_currier_transition_classes": 4
+          }
+        ],
+        "summary": {
+          "raw": {
+            "current_ranks": [
+              20,
+              16,
+              20,
+              20,
+              20
+            ],
+            "current_median_rank": 20,
+            "current_top1_windows": 0,
+            "current_top3_windows": 0,
+            "current_worst_rank": 20,
+            "best_nestings_by_window": [
+              [
+                "52|53",
+                "51|54",
+                "50|55",
+                "49|56"
+              ],
+              [
+                "50|55",
+                "51|54",
+                "52|53",
+                "49|56"
+              ],
+              [
+                "50|55",
+                "51|54",
+                "52|53",
+                "49|56"
+              ],
+              [
+                "50|55",
+                "51|54",
+                "52|53",
+                "49|56"
+              ],
+              [
+                "50|55",
+                "51|54",
+                "52|53",
+                "49|56"
+              ]
+            ]
+          },
+          "currier_residual": {
+            "current_ranks": [
+              17,
+              10,
+              12,
+              13,
+              13
+            ],
+            "current_median_rank": 13,
+            "current_top1_windows": 0,
+            "current_top3_windows": 0,
+            "current_worst_rank": 17,
+            "best_nestings_by_window": [
+              [
+                "52|53",
+                "51|54",
+                "50|55",
+                "49|56"
+              ],
+              [
+                "50|55",
+                "51|54",
+                "52|53",
+                "49|56"
+              ],
+              [
+                "52|53",
+                "50|55",
+                "51|54",
+                "49|56"
+              ],
+              [
+                "52|53",
+                "50|55",
+                "51|54",
+                "49|56"
+              ],
+              [
+                "52|53",
+                "50|55",
+                "51|54",
+                "49|56"
+              ]
+            ]
+          },
+          "hand_currier_residual": {
+            "current_ranks": [
+              17,
+              10,
+              12,
+              13,
+              13
+            ],
+            "current_median_rank": 13,
+            "current_top1_windows": 0,
+            "current_top3_windows": 0,
+            "current_worst_rank": 17,
+            "best_nestings_by_window": [
+              [
+                "52|53",
+                "51|54",
+                "50|55",
+                "49|56"
+              ],
+              [
+                "50|55",
+                "51|54",
+                "52|53",
+                "49|56"
+              ],
+              [
+                "52|53",
+                "50|55",
+                "51|54",
+                "49|56"
+              ],
+              [
+                "52|53",
+                "50|55",
+                "51|54",
+                "49|56"
+              ],
+              [
+                "52|53",
+                "50|55",
+                "51|54",
+                "49|56"
+              ]
+            ]
+          }
+        }
+      },
+      "cross_transcription": {
+        "raw": {
+          "current_ranks_across_10_tests": [
+            18,
+            13,
+            18,
+            19,
+            19,
+            20,
+            16,
+            20,
+            20,
+            20
+          ],
+          "median_rank": 19.0,
+          "top1_tests": 0,
+          "top3_tests": 0,
+          "worst_rank": 20
+        },
+        "currier_residual": {
+          "current_ranks_across_10_tests": [
+            14,
+            9,
+            12,
+            12,
+            12,
+            17,
+            10,
+            12,
+            13,
+            13
+          ],
+          "median_rank": 12.0,
+          "top1_tests": 0,
+          "top3_tests": 0,
+          "worst_rank": 17
+        },
+        "hand_currier_residual": {
+          "current_ranks_across_10_tests": [
+            14,
+            9,
+            12,
+            12,
+            12,
+            17,
+            10,
+            12,
+            13,
+            13
+          ],
+          "median_rank": 12.0,
+          "top1_tests": 0,
+          "top3_tests": 0,
+          "worst_rank": 17
+        }
+      },
+      "descriptive_status": "INCONCLUSIVE"
+    }
+  },
+  "global_summary": {
+    "raw": {
+      "n_correlated_tests": 60,
+      "median_current_rank_out_of_24": 9.5,
+      "top1_tests": 7,
+      "top3_tests": 18,
+      "worst_rank": 24
+    },
+    "currier_residual": {
+      "n_correlated_tests": 60,
+      "median_current_rank_out_of_24": 4.0,
+      "top1_tests": 11,
+      "top3_tests": 26,
+      "worst_rank": 24
+    },
+    "hand_currier_residual": {
+      "n_correlated_tests": 60,
+      "median_current_rank_out_of_24": 6.0,
+      "top1_tests": 11,
+      "top3_tests": 23,
+      "worst_rank": 24
+    }
+  },
+  "parser_audit": {
+    "ZL3b": {
+      "uncertain_chunks": 1129,
+      "paragraph_loci": 4119,
+      "drawing_breaks": 746
+    },
+    "IT2a": {
+      "paragraph_loci": 4118,
+      "uncertain_chunks": 80,
+      "drawing_breaks": 779
+    }
+  },
+  "guardrails": [
+    "Descriptive status labels are summaries, not preregistered hypothesis tests.",
+    "The scoring model, windows and metadata residualization are fixed before this all-quire run.",
+    "Exact H/L centering may remove genuine historical sequence signal if that signal is correlated with scribe/language changes.",
+    "Physical nesting labels are used only to identify the current candidate rank, never in residualization.",
+    "The 10 tests per quire are strongly correlated and must not be counted as independent evidence.",
+    "IT2a and ZL3b are independent transcriptions of the same manuscript, not independent manuscripts."
+  ]
+}
