@@ -1,0 +1,40 @@
+{
+  "status": "FAIL",
+  "checks": {
+    "star_sha256": "e7cb7787118aa71f440fbf544da5b327a6afd8eba8b2989d6e5ca71d40629d04",
+    "star_sha256_matches": true,
+    "yale_blob_sha1": "12c4230fdefc8c566e9bdb3626fc6009c70a7533",
+    "yale_blob_sha1_matches": true,
+    "star_inventory_29": true,
+    "mapping_29_unique": true
+  },
+  "n": 29,
+  "primary_length": {
+    "observed_mae": 1.1582621730936127,
+    "null_median": 1.4285492925594696,
+    "p": 0.0187
+  },
+  "pair_scramble_control": {
+    "observed_mae": 1.343459376288853,
+    "null_median": 1.4296679123215668,
+    "p": 0.2277
+  },
+  "xy_ablation": {
+    "observed_mae": 1.2373274625785098,
+    "null_median": 1.3363934550868901,
+    "p": 0.0949
+  },
+  "secondary": {
+    "first_character": {"status": "NOT_RUN", "class_counts": {"o": 23, "c": 2, "y": 2, "t": 1, "d": 1}, "reason": "preregistered class-size gate not met"},
+    "last_character": {"status": "NOT_RUN", "class_counts": {"y": 17, "r": 6, "s": 2, "o": 1, "l": 2, "n": 1}, "reason": "preregistered class-size gate not met"},
+    "adjacent_equality": {"status": "NOT_RUN", "class_counts": {"False": 25, "True": 4}, "reason": "preregistered class-size gate not met"}
+  },
+  "token_lengths": [7,9,8,6,7,6,7,6,5,5,8,7,4,4,5,7,6,4,4,6,6,6,10,5,6,7,8,8,8],
+  "interpretation_ceiling": "No semantics, language, plaintext, translation, or decipherment tested.",
+  "provenance": {
+    "workflow_run_id": 37684950942,
+    "artifact_id": 11509504485,
+    "artifact_zip_sha256": "0de32d769162b64119faf09fd31affdb9aa891ae85dc8bb4cbfe68760bffbf90",
+    "source_head_sha": "6a91401e89eee4a058e578709c24d0d978385da4"
+  }
+}
