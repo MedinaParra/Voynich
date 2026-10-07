@@ -2,6 +2,8 @@
 
 Status: **NOT_RUN**
 
+Preregistration frozen before any H70 result inspection. This metadata-only freeze does not alter the hypothesis, sample rules, statistic, thresholds, or PASS criterion below.
+
 ## Question
 Does the H68 internal EVA `a` enrichment survive when labels are compared only with strict paragraph-text (`P*`) controls from the **same two-character initial family**?
 
