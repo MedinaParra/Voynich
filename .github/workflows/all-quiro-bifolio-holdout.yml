@@ -11,6 +11,7 @@ on:
       - 'research_gpt6/code/it2a_blind_bifolio_replication.py'
       - 'research_gpt6/code/blind_reconstruction_metadata_conditional.py'
       - 'research_gpt6/code/bifolio_double_residual_reconstruction.py'
+      - 'research_gpt6/code/bifolio_leave_one_quire_out.py'
       - '.github/workflows/all-quiro-bifolio-holdout.yml'
   workflow_dispatch:
 
@@ -71,6 +72,13 @@ jobs:
             --it /tmp/IT2a-n.txt \
             --out research_gpt6/results/bifolio_double_residual_reconstruction.json \
             | tee /tmp/double-residual.log
+      - name: Execute leave-one-quire-out robustness audit
+        run: |
+          python research_gpt6/code/bifolio_leave_one_quire_out.py \
+            --zl /tmp/voynich_eva.txt \
+            --it /tmp/IT2a-n.txt \
+            --out research_gpt6/results/bifolio_leave_one_quire_out.json \
+            | tee /tmp/leave-one-quire-out.log
       - name: Upload results
         uses: actions/upload-artifact@v4
         if: always()
@@ -83,4 +91,5 @@ jobs:
             research_gpt6/results/it2a_blind_bifolio_replication.json
             research_gpt6/results/blind_reconstruction_metadata_conditional.json
             research_gpt6/results/bifolio_double_residual_reconstruction.json
+            research_gpt6/results/bifolio_leave_one_quire_out.json
           if-no-files-found: warn
