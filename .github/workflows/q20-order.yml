@@ -7,6 +7,7 @@ on:
     paths:
       - '.github/workflows/q20-order.yml'
       - 'research_gpt6/code/order_q20_openpath.py'
+      - 'research_gpt6/code/order_q20_controls.py'
   workflow_dispatch:
 
 permissions:
@@ -37,6 +38,13 @@ jobs:
             --json research_gpt6/results/q20_order.json \
             > research_gpt6/results/q20_order.stdout.json
 
+      - name: Run Q20 dialect-confound controls
+        run: |
+          python research_gpt6/code/order_q20_controls.py \
+            /tmp/voynich-corpus/corpus/voynich_eva.txt \
+            --json research_gpt6/results/q20_order_controls.json \
+            > research_gpt6/results/q20_order_controls.stdout.json
+
       - name: Record provenance
         run: |
           {
@@ -45,6 +53,7 @@ jobs:
             echo "python=$(python --version 2>&1)"
             sha256sum /tmp/voynich-corpus/corpus/voynich_eva.txt
             sha256sum research_gpt6/code/order_q20_openpath.py
+            sha256sum research_gpt6/code/order_q20_controls.py
           } > research_gpt6/results/q20_order_provenance.txt
 
       - name: Commit benchmark output
@@ -53,10 +62,12 @@ jobs:
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add research_gpt6/results/q20_order.json \
                   research_gpt6/results/q20_order.stdout.json \
+                  research_gpt6/results/q20_order_controls.json \
+                  research_gpt6/results/q20_order_controls.stdout.json \
                   research_gpt6/results/q20_order_provenance.txt
           if git diff --cached --quiet; then
             echo "No result changes"
           else
-            git commit -m "research: record exhaustive Q20 ordering benchmark"
+            git commit -m "research: record dialect-controlled Q20 ordering benchmark"
             git push origin HEAD:research/gpt6-audit
           fi
