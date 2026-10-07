@@ -1,0 +1,35 @@
+name: H89 f68r2 border-ring geometry
+on:
+  workflow_dispatch:
+  pull_request:
+    branches: [research/gpt6-audit]
+    paths:
+      - 'research_gpt6/119_h89_f68r2_border_ring_geometry_preregistration.md'
+      - 'research_gpt6/code/h89_f68r2_border_ring_geometry.py'
+      - '.github/workflows/h89-f68r2-border-ring-geometry.yml'
+
+jobs:
+  h89-f68r2-border-ring-geometry:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Fetch frozen human-reference source
+        run: |
+          url='https://raw.githubusercontent.com/brigadire/voinich/2bb4437906b714c1fba26f9897f8df3e7660a0b0/research/astro_spatial_human_completeness/job_18_object_freeze_c1_0/CONFIRMED_ENDPOINTS.tsv'
+          curl -L --fail -o CONFIRMED_ENDPOINTS.tsv "$url"
+      - name: Run preregistered H89 geometry audit
+        run: |
+          mkdir -p research_gpt6/results
+          python research_gpt6/code/h89_f68r2_border_ring_geometry.py \
+            --endpoints CONFIRMED_ENDPOINTS.tsv \
+            --out research_gpt6/results/h89_f68r2_border_ring_geometry.json
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: h89-f68r2-border-ring-geometry-results
+          path: research_gpt6/results/h89_f68r2_border_ring_geometry.json
+          if-no-files-found: error
