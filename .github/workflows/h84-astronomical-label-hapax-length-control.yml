@@ -1,0 +1,31 @@
+name: H84 astronomical label hapax exact-length robustness
+on:
+  workflow_dispatch:
+  pull_request:
+    branches: [research/gpt6-audit]
+    paths:
+      - 'research_gpt6/109_h84_astronomical_label_hapax_length_control_preregistration.md'
+      - 'research_gpt6/code/h84_astronomical_label_hapax_length_control.py'
+      - '.github/workflows/h84-astronomical-label-hapax-length-control.yml'
+
+jobs:
+  h84-astronomical-label-hapax-length-control:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Fetch frozen external occurrence metadata
+        run: curl -L --fail -o occurrence_metadata.jsonl 'https://raw.githubusercontent.com/brigadire/voinich/2bb4437906b714c1fba26f9897f8df3e7660a0b0/experiments/fingerprint-v2-task79-v1/canonical-out/occurrence_metadata.jsonl'
+      - name: Fetch frozen external matched-label inventory
+        run: curl -L --fail -o STOLFI_ASTRO_LABEL_MATCHES.tsv 'https://raw.githubusercontent.com/brigadire/voinich/2bb4437906b714c1fba26f9897f8df3e7660a0b0/research/stolfi_label_inventory/STOLFI_ASTRO_LABEL_MATCHES.tsv'
+      - name: Run preregistered H84 exact-length robustness audit
+        run: mkdir -p research_gpt6/results && python research_gpt6/code/h84_astronomical_label_hapax_length_control.py --metadata occurrence_metadata.jsonl --matches STOLFI_ASTRO_LABEL_MATCHES.tsv --out research_gpt6/results/h84_astronomical_label_hapax_length_control.json
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: h84-astronomical-label-hapax-length-control-results
+          path: research_gpt6/results/h84_astronomical_label_hapax_length_control.json
+          if-no-files-found: error
