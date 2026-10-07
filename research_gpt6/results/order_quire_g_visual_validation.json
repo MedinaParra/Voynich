@@ -1,0 +1,1115 @@
+{
+  "status": "QUIRE_G_EXTERNAL_VISUAL_VALIDATION_FROZEN_CANDIDATE",
+  "source": {
+    "dataset": "xenoglyph-ai/voynich-public",
+    "profile_generation": "image-only semantic vectors; transcription not consumed"
+  },
+  "preregistered_before_loading_profiles": {
+    "current_nesting_outer_to_inner": [
+      "49|56",
+      "50|55",
+      "51|54",
+      "52|53"
+    ],
+    "frozen_candidate_outer_to_inner": [
+      "52|53",
+      "50|55",
+      "51|54",
+      "49|56"
+    ],
+    "current_leaf_sequence": [
+      49,
+      50,
+      51,
+      52,
+      53,
+      54,
+      55,
+      56
+    ],
+    "candidate_leaf_sequence": [
+      52,
+      50,
+      51,
+      49,
+      56,
+      54,
+      55,
+      53
+    ]
+  },
+  "lens_dimensions": {
+    "voynich": [
+      "alchemical_transformation",
+      "anatomical_biological",
+      "aquatic_fluid",
+      "celestial_astronomical",
+      "cosmological_mapping",
+      "cyclical_seasonal",
+      "encoded_hidden",
+      "fertility_reproduction",
+      "geometric_mathematical",
+      "herbal_botanical",
+      "interconnected_networked",
+      "luminous_radiant",
+      "natural_organic",
+      "pharmaceutical_healing",
+      "ritualistic_ceremonial",
+      "supernatural_mystical"
+    ],
+    "archaeology": [
+      "atmospheric_anomaly",
+      "authority_power",
+      "awe_wonder",
+      "celestial_observation",
+      "community_gathering",
+      "creation_origin",
+      "death_afterlife",
+      "fear_dread",
+      "hunting_survival",
+      "journey_migration",
+      "joy_celebration",
+      "reverence",
+      "teaching_knowledge",
+      "terrestrial_landscape",
+      "transformation",
+      "warfare_conflict"
+    ],
+    "cryptological": [
+      "anatomical_volvelle",
+      "as_above_so_below",
+      "astrological_houses",
+      "baptismal_immersion",
+      "elemental_tetrad",
+      "humoral_medicine",
+      "materia_medica",
+      "philosophers_stone",
+      "prima_materia",
+      "sacred_geometry",
+      "sigil_construction",
+      "solve_et_coagula",
+      "steganographic_embedding",
+      "symbol_substitution",
+      "tree_of_life",
+      "visual_mnemonic"
+    ]
+  },
+  "by_lens": {
+    "voynich": {
+      "best": {
+        "score": 4.432346043422954,
+        "nesting_outer_to_inner": [
+          "49|56",
+          "51|54",
+          "52|53",
+          "50|55"
+        ],
+        "leaf_sequence": [
+          49,
+          51,
+          52,
+          50,
+          55,
+          53,
+          54,
+          56
+        ]
+      },
+      "frozen_text_candidate": {
+        "rank": 10,
+        "out_of": 24,
+        "score": 1.3138154957132873,
+        "nesting_outer_to_inner": [
+          "52|53",
+          "50|55",
+          "51|54",
+          "49|56"
+        ],
+        "leaf_sequence": [
+          52,
+          50,
+          51,
+          49,
+          56,
+          54,
+          55,
+          53
+        ],
+        "percentile_higher_is_better": 0.6086956521739131
+      },
+      "current_nesting": {
+        "rank": 15,
+        "out_of": 24,
+        "score": -0.48278565639475834,
+        "nesting_outer_to_inner": [
+          "49|56",
+          "50|55",
+          "51|54",
+          "52|53"
+        ],
+        "leaf_sequence": [
+          49,
+          50,
+          51,
+          52,
+          53,
+          54,
+          55,
+          56
+        ],
+        "percentile_higher_is_better": 0.3913043478260869
+      },
+      "dimension_bootstrap": {
+        "reps": 1000,
+        "candidate_top1_frequency": 0.0,
+        "current_top1_frequency": 0.0,
+        "candidate_median_rank": 9,
+        "current_median_rank": 15,
+        "top_nesting_frequencies": [
+          {
+            "nesting_outer_to_inner": [
+              "49|56",
+              "51|54",
+              "52|53",
+              "50|55"
+            ],
+            "leaf_sequence": [
+              49,
+              51,
+              52,
+              50,
+              55,
+              53,
+              54,
+              56
+            ],
+            "count": 782,
+            "frequency": 0.782
+          },
+          {
+            "nesting_outer_to_inner": [
+              "49|56",
+              "52|53",
+              "50|55",
+              "51|54"
+            ],
+            "leaf_sequence": [
+              49,
+              52,
+              50,
+              51,
+              54,
+              55,
+              53,
+              56
+            ],
+            "count": 116,
+            "frequency": 0.116
+          },
+          {
+            "nesting_outer_to_inner": [
+              "49|56",
+              "52|53",
+              "51|54",
+              "50|55"
+            ],
+            "leaf_sequence": [
+              49,
+              52,
+              51,
+              50,
+              55,
+              54,
+              53,
+              56
+            ],
+            "count": 60,
+            "frequency": 0.06
+          },
+          {
+            "nesting_outer_to_inner": [
+              "49|56",
+              "50|55",
+              "52|53",
+              "51|54"
+            ],
+            "leaf_sequence": [
+              49,
+              50,
+              52,
+              51,
+              54,
+              53,
+              55,
+              56
+            ],
+            "count": 28,
+            "frequency": 0.028
+          },
+          {
+            "nesting_outer_to_inner": [
+              "51|54",
+              "49|56",
+              "52|53",
+              "50|55"
+            ],
+            "leaf_sequence": [
+              51,
+              49,
+              52,
+              50,
+              55,
+              53,
+              56,
+              54
+            ],
+            "count": 12,
+            "frequency": 0.012
+          },
+          {
+            "nesting_outer_to_inner": [
+              "51|54",
+              "52|53",
+              "49|56",
+              "50|55"
+            ],
+            "leaf_sequence": [
+              51,
+              52,
+              49,
+              50,
+              55,
+              56,
+              53,
+              54
+            ],
+            "count": 1,
+            "frequency": 0.001
+          },
+          {
+            "nesting_outer_to_inner": [
+              "50|55",
+              "52|53",
+              "51|54",
+              "49|56"
+            ],
+            "leaf_sequence": [
+              50,
+              52,
+              51,
+              49,
+              56,
+              54,
+              53,
+              55
+            ],
+            "count": 1,
+            "frequency": 0.001
+          }
+        ]
+      }
+    },
+    "archaeology": {
+      "best": {
+        "score": 6.092320568611784,
+        "nesting_outer_to_inner": [
+          "51|54",
+          "52|53",
+          "49|56",
+          "50|55"
+        ],
+        "leaf_sequence": [
+          51,
+          52,
+          49,
+          50,
+          55,
+          56,
+          53,
+          54
+        ]
+      },
+      "frozen_text_candidate": {
+        "rank": 22,
+        "out_of": 24,
+        "score": -2.7211858265869973,
+        "nesting_outer_to_inner": [
+          "52|53",
+          "50|55",
+          "51|54",
+          "49|56"
+        ],
+        "leaf_sequence": [
+          52,
+          50,
+          51,
+          49,
+          56,
+          54,
+          55,
+          53
+        ],
+        "percentile_higher_is_better": 0.08695652173913049
+      },
+      "current_nesting": {
+        "rank": 12,
+        "out_of": 24,
+        "score": 1.0240215327676496,
+        "nesting_outer_to_inner": [
+          "49|56",
+          "50|55",
+          "51|54",
+          "52|53"
+        ],
+        "leaf_sequence": [
+          49,
+          50,
+          51,
+          52,
+          53,
+          54,
+          55,
+          56
+        ],
+        "percentile_higher_is_better": 0.5217391304347826
+      },
+      "dimension_bootstrap": {
+        "reps": 1000,
+        "candidate_top1_frequency": 0.0,
+        "current_top1_frequency": 0.0,
+        "candidate_median_rank": 22,
+        "current_median_rank": 12,
+        "top_nesting_frequencies": [
+          {
+            "nesting_outer_to_inner": [
+              "51|54",
+              "52|53",
+              "49|56",
+              "50|55"
+            ],
+            "leaf_sequence": [
+              51,
+              52,
+              49,
+              50,
+              55,
+              56,
+              53,
+              54
+            ],
+            "count": 643,
+            "frequency": 0.643
+          },
+          {
+            "nesting_outer_to_inner": [
+              "49|56",
+              "51|54",
+              "52|53",
+              "50|55"
+            ],
+            "leaf_sequence": [
+              49,
+              51,
+              52,
+              50,
+              55,
+              53,
+              54,
+              56
+            ],
+            "count": 113,
+            "frequency": 0.113
+          },
+          {
+            "nesting_outer_to_inner": [
+              "51|54",
+              "52|53",
+              "50|55",
+              "49|56"
+            ],
+            "leaf_sequence": [
+              51,
+              52,
+              50,
+              49,
+              56,
+              55,
+              53,
+              54
+            ],
+            "count": 82,
+            "frequency": 0.082
+          },
+          {
+            "nesting_outer_to_inner": [
+              "49|56",
+              "52|53",
+              "51|54",
+              "50|55"
+            ],
+            "leaf_sequence": [
+              49,
+              52,
+              51,
+              50,
+              55,
+              54,
+              53,
+              56
+            ],
+            "count": 74,
+            "frequency": 0.074
+          },
+          {
+            "nesting_outer_to_inner": [
+              "49|56",
+              "50|55",
+              "52|53",
+              "51|54"
+            ],
+            "leaf_sequence": [
+              49,
+              50,
+              52,
+              51,
+              54,
+              53,
+              55,
+              56
+            ],
+            "count": 71,
+            "frequency": 0.071
+          },
+          {
+            "nesting_outer_to_inner": [
+              "51|54",
+              "49|56",
+              "52|53",
+              "50|55"
+            ],
+            "leaf_sequence": [
+              51,
+              49,
+              52,
+              50,
+              55,
+              53,
+              56,
+              54
+            ],
+            "count": 7,
+            "frequency": 0.007
+          },
+          {
+            "nesting_outer_to_inner": [
+              "51|54",
+              "50|55",
+              "52|53",
+              "49|56"
+            ],
+            "leaf_sequence": [
+              51,
+              50,
+              52,
+              49,
+              56,
+              53,
+              55,
+              54
+            ],
+            "count": 4,
+            "frequency": 0.004
+          },
+          {
+            "nesting_outer_to_inner": [
+              "52|53",
+              "51|54",
+              "49|56",
+              "50|55"
+            ],
+            "leaf_sequence": [
+              52,
+              51,
+              49,
+              50,
+              55,
+              56,
+              54,
+              53
+            ],
+            "count": 4,
+            "frequency": 0.004
+          },
+          {
+            "nesting_outer_to_inner": [
+              "49|56",
+              "52|53",
+              "50|55",
+              "51|54"
+            ],
+            "leaf_sequence": [
+              49,
+              52,
+              50,
+              51,
+              54,
+              55,
+              53,
+              56
+            ],
+            "count": 2,
+            "frequency": 0.002
+          }
+        ]
+      }
+    },
+    "cryptological": {
+      "best": {
+        "score": 3.6058652191716507,
+        "nesting_outer_to_inner": [
+          "49|56",
+          "51|54",
+          "52|53",
+          "50|55"
+        ],
+        "leaf_sequence": [
+          49,
+          51,
+          52,
+          50,
+          55,
+          53,
+          54,
+          56
+        ]
+      },
+      "frozen_text_candidate": {
+        "rank": 15,
+        "out_of": 24,
+        "score": -0.396927688038305,
+        "nesting_outer_to_inner": [
+          "52|53",
+          "50|55",
+          "51|54",
+          "49|56"
+        ],
+        "leaf_sequence": [
+          52,
+          50,
+          51,
+          49,
+          56,
+          54,
+          55,
+          53
+        ],
+        "percentile_higher_is_better": 0.3913043478260869
+      },
+      "current_nesting": {
+        "rank": 9,
+        "out_of": 24,
+        "score": 0.7781236796420594,
+        "nesting_outer_to_inner": [
+          "49|56",
+          "50|55",
+          "51|54",
+          "52|53"
+        ],
+        "leaf_sequence": [
+          49,
+          50,
+          51,
+          52,
+          53,
+          54,
+          55,
+          56
+        ],
+        "percentile_higher_is_better": 0.6521739130434783
+      },
+      "dimension_bootstrap": {
+        "reps": 1000,
+        "candidate_top1_frequency": 0.0,
+        "current_top1_frequency": 0.001,
+        "candidate_median_rank": 15,
+        "current_median_rank": 10,
+        "top_nesting_frequencies": [
+          {
+            "nesting_outer_to_inner": [
+              "49|56",
+              "51|54",
+              "52|53",
+              "50|55"
+            ],
+            "leaf_sequence": [
+              49,
+              51,
+              52,
+              50,
+              55,
+              53,
+              54,
+              56
+            ],
+            "count": 467,
+            "frequency": 0.467
+          },
+          {
+            "nesting_outer_to_inner": [
+              "51|54",
+              "52|53",
+              "50|55",
+              "49|56"
+            ],
+            "leaf_sequence": [
+              51,
+              52,
+              50,
+              49,
+              56,
+              55,
+              53,
+              54
+            ],
+            "count": 228,
+            "frequency": 0.228
+          },
+          {
+            "nesting_outer_to_inner": [
+              "49|56",
+              "52|53",
+              "51|54",
+              "50|55"
+            ],
+            "leaf_sequence": [
+              49,
+              52,
+              51,
+              50,
+              55,
+              54,
+              53,
+              56
+            ],
+            "count": 184,
+            "frequency": 0.184
+          },
+          {
+            "nesting_outer_to_inner": [
+              "49|56",
+              "50|55",
+              "52|53",
+              "51|54"
+            ],
+            "leaf_sequence": [
+              49,
+              50,
+              52,
+              51,
+              54,
+              53,
+              55,
+              56
+            ],
+            "count": 66,
+            "frequency": 0.066
+          },
+          {
+            "nesting_outer_to_inner": [
+              "49|56",
+              "52|53",
+              "50|55",
+              "51|54"
+            ],
+            "leaf_sequence": [
+              49,
+              52,
+              50,
+              51,
+              54,
+              55,
+              53,
+              56
+            ],
+            "count": 23,
+            "frequency": 0.023
+          },
+          {
+            "nesting_outer_to_inner": [
+              "51|54",
+              "52|53",
+              "49|56",
+              "50|55"
+            ],
+            "leaf_sequence": [
+              51,
+              52,
+              49,
+              50,
+              55,
+              56,
+              53,
+              54
+            ],
+            "count": 19,
+            "frequency": 0.019
+          },
+          {
+            "nesting_outer_to_inner": [
+              "50|55",
+              "52|53",
+              "51|54",
+              "49|56"
+            ],
+            "leaf_sequence": [
+              50,
+              52,
+              51,
+              49,
+              56,
+              54,
+              53,
+              55
+            ],
+            "count": 7,
+            "frequency": 0.007
+          },
+          {
+            "nesting_outer_to_inner": [
+              "51|54",
+              "50|55",
+              "52|53",
+              "49|56"
+            ],
+            "leaf_sequence": [
+              51,
+              50,
+              52,
+              49,
+              56,
+              53,
+              55,
+              54
+            ],
+            "count": 4,
+            "frequency": 0.004
+          },
+          {
+            "nesting_outer_to_inner": [
+              "49|56",
+              "50|55",
+              "51|54",
+              "52|53"
+            ],
+            "leaf_sequence": [
+              49,
+              50,
+              51,
+              52,
+              53,
+              54,
+              55,
+              56
+            ],
+            "count": 1,
+            "frequency": 0.001
+          },
+          {
+            "nesting_outer_to_inner": [
+              "50|55",
+              "51|54",
+              "52|53",
+              "49|56"
+            ],
+            "leaf_sequence": [
+              50,
+              51,
+              52,
+              49,
+              56,
+              53,
+              54,
+              55
+            ],
+            "count": 1,
+            "frequency": 0.001
+          }
+        ]
+      }
+    }
+  },
+  "equal_weight_lens_consensus": {
+    "construction": "mean of three within-lens z-scored folio-pair cosine matrices; no fitted weights",
+    "best": {
+      "score": 3.781522200102304,
+      "nesting_outer_to_inner": [
+        "49|56",
+        "51|54",
+        "52|53",
+        "50|55"
+      ],
+      "leaf_sequence": [
+        49,
+        51,
+        52,
+        50,
+        55,
+        53,
+        54,
+        56
+      ]
+    },
+    "frozen_text_candidate": {
+      "rank": 17,
+      "out_of": 24,
+      "score": -0.6014326729706717,
+      "nesting_outer_to_inner": [
+        "52|53",
+        "50|55",
+        "51|54",
+        "49|56"
+      ],
+      "leaf_sequence": [
+        52,
+        50,
+        51,
+        49,
+        56,
+        54,
+        55,
+        53
+      ],
+      "percentile_higher_is_better": 0.30434782608695654
+    },
+    "current_nesting": {
+      "rank": 13,
+      "out_of": 24,
+      "score": 0.4397865186716503,
+      "nesting_outer_to_inner": [
+        "49|56",
+        "50|55",
+        "51|54",
+        "52|53"
+      ],
+      "leaf_sequence": [
+        49,
+        50,
+        51,
+        52,
+        53,
+        54,
+        55,
+        56
+      ],
+      "percentile_higher_is_better": 0.4782608695652174
+    },
+    "top10": [
+      {
+        "rank": 1,
+        "score": 3.781522200102304,
+        "nesting_outer_to_inner": [
+          "49|56",
+          "51|54",
+          "52|53",
+          "50|55"
+        ],
+        "leaf_sequence": [
+          49,
+          51,
+          52,
+          50,
+          55,
+          53,
+          54,
+          56
+        ]
+      },
+      {
+        "rank": 2,
+        "score": 2.95134822344954,
+        "nesting_outer_to_inner": [
+          "49|56",
+          "52|53",
+          "51|54",
+          "50|55"
+        ],
+        "leaf_sequence": [
+          49,
+          52,
+          51,
+          50,
+          55,
+          54,
+          53,
+          56
+        ]
+      },
+      {
+        "rank": 3,
+        "score": 2.7861955670599023,
+        "nesting_outer_to_inner": [
+          "49|56",
+          "50|55",
+          "52|53",
+          "51|54"
+        ],
+        "leaf_sequence": [
+          49,
+          50,
+          52,
+          51,
+          54,
+          53,
+          55,
+          56
+        ]
+      },
+      {
+        "rank": 4,
+        "score": 2.7409764818155025,
+        "nesting_outer_to_inner": [
+          "51|54",
+          "52|53",
+          "50|55",
+          "49|56"
+        ],
+        "leaf_sequence": [
+          51,
+          52,
+          50,
+          49,
+          56,
+          55,
+          53,
+          54
+        ]
+      },
+      {
+        "rank": 5,
+        "score": 2.2711334390349274,
+        "nesting_outer_to_inner": [
+          "51|54",
+          "52|53",
+          "49|56",
+          "50|55"
+        ],
+        "leaf_sequence": [
+          51,
+          52,
+          49,
+          50,
+          55,
+          56,
+          53,
+          54
+        ]
+      },
+      {
+        "rank": 6,
+        "score": 2.1040609168463815,
+        "nesting_outer_to_inner": [
+          "50|55",
+          "52|53",
+          "51|54",
+          "49|56"
+        ],
+        "leaf_sequence": [
+          50,
+          52,
+          51,
+          49,
+          56,
+          54,
+          53,
+          55
+        ]
+      },
+      {
+        "rank": 7,
+        "score": 1.273886940193618,
+        "nesting_outer_to_inner": [
+          "50|55",
+          "51|54",
+          "52|53",
+          "49|56"
+        ],
+        "leaf_sequence": [
+          50,
+          51,
+          52,
+          49,
+          56,
+          53,
+          54,
+          55
+        ]
+      },
+      {
+        "rank": 8,
+        "score": 1.2709391087002182,
+        "nesting_outer_to_inner": [
+          "51|54",
+          "49|56",
+          "52|53",
+          "50|55"
+        ],
+        "leaf_sequence": [
+          51,
+          49,
+          52,
+          50,
+          55,
+          53,
+          56,
+          54
+        ]
+      },
+      {
+        "rank": 9,
+        "score": 0.9558272600724294,
+        "nesting_outer_to_inner": [
+          "49|56",
+          "52|53",
+          "50|55",
+          "51|54"
+        ],
+        "leaf_sequence": [
+          49,
+          52,
+          50,
+          51,
+          54,
+          55,
+          53,
+          56
+        ]
+      },
+      {
+        "rank": 10,
+        "score": 0.9106081748280295,
+        "nesting_outer_to_inner": [
+          "51|54",
+          "50|55",
+          "52|53",
+          "49|56"
+        ],
+        "leaf_sequence": [
+          51,
+          50,
+          52,
+          49,
+          56,
+          53,
+          55,
+          54
+        ]
+      }
+    ]
+  },
+  "interpretation_guardrails": [
+    "This test was defined only after the textual candidate was frozen, preventing visual tuning of that candidate.",
+    "Visual semantic similarity is not physical codicology and cannot prove binding history.",
+    "Plant illustration similarity may reflect thematic/artistic clustering rather than production adjacency.",
+    "All 24 physical nestings preserve the four accepted bifolium pairings and their orientations."
+  ]
+}
