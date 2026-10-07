@@ -1,0 +1,32 @@
+{
+  "experiment": "H59_BLIND_SCRIBE_CORRECTION_PREDICTION",
+  "stage": "PRIMARY_VISUAL_ACCESS_LOG",
+  "status": "IN_PROGRESS_NOT_SCORED",
+  "policy": "This file records which authoritative-scan mirrors were actually rendered during the audit. It does not promote any event to HIGH, does not freeze before->after EVA forms, and is not an input to predictive scoring.",
+  "rendered_primary_scans": [
+    {"candidate_id":"H59-f16r-01","yale_iiif_id":"1006104","rendered":true,"decision":"PENDING","note":"Full Yale-scan mirror rendered; locator crop shows an anomalous/retouched glyph, but the pre-correction state is not yet defensibly reconstructable from primary pixels alone."},
+    {"candidate_id":"H59-f24v-01","yale_iiif_id":"1006121","rendered":true,"decision":"PENDING","note":"Full Yale-scan mirror rendered; local stroke anomaly is plausible, but exact before->after form remains unresolved."},
+    {"candidate_id":"H59-f39r-01","yale_iiif_id":"1006150","rendered":true,"decision":"PENDING","note":"Full Yale-scan mirror rendered; first locator event remains under review."},
+    {"candidate_id":"H59-f39r-02","yale_iiif_id":"1006150","rendered":true,"decision":"LIKELY_UNRECOVERABLE","note":"Second locator event contains a dense overwritten/darkened region; no pre-correction glyph may be inferred unless primary close-up resolves surviving strokes."},
+    {"candidate_id":"H59-f42r-01","yale_iiif_id":"1006156","rendered":true,"decision":"PENDING","note":"Full Yale-scan mirror rendered; doubled/retouched vertical strokes are visible in the locator, but content-changing emendation vs pen/retouch remains unresolved."},
+    {"candidate_id":"H59-f79r-01","yale_iiif_id":"1006216","rendered":true,"decision":"RETROUCH_CONFOUND","note":"Full Yale-scan mirror rendered. Independent discussion by Rene Zandbergen specifically warns that f79r may exemplify page-wide re-inking/retouching rather than a content correction; cannot enter HIGH without a recoverable before->after change."},
+    {"candidate_id":"H59-f83r-01","yale_iiif_id":"1006224","rendered":true,"decision":"LIKELY_UNRECOVERABLE","note":"Full Yale-scan mirror rendered; locator contains a dense dark loop/blob. Underlying state remains unreadable at current review resolution."},
+    {"candidate_id":"H59-f102v2-01","yale_iiif_id":"1006252","rendered":true,"decision":"LOW_CONTRAST_AMBIGUITY","note":"Full Yale-scan mirror rendered; candidate strokes are very faint/low-contrast and no before->after state is frozen."},
+    {"candidate_id":"H59-f112r-01","yale_iiif_id":"1006268","rendered":true,"decision":"PENDING","note":"Full Yale-scan mirror rendered; doubled/darkened tall strokes warrant close-up review, but no before->after transcription is frozen."}
+  ],
+  "not_yet_rendered_primary_scans": [
+    {"candidate_id":"H59-f20v-01","yale_iiif_id":"1006113","reason":"mirror fetch timed out during this audit pass"},
+    {"candidate_id":"H59-f50v-01","yale_iiif_id":"1006173","reason":"mirror fetch cache miss during this audit pass"},
+    {"candidate_id":"H59-f80r-01","yale_iiif_id":"1006218","reason":"mirror fetch internal error during this audit pass"}
+  ],
+  "secondary_literature_caveats_not_used_as_transcription": [
+    {"candidate_id":"H59-f20v-01","caveat":"A dedicated discussion reports uncertainty about what lies beneath the final glyph, with multiple incompatible reconstructions; this supports conservative treatment but does not decide the transcription."},
+    {"candidate_id":"H59-f79r-01","caveat":"Rene Zandbergen cautions that some apparent corrections are page-wide ink retouching and cites f79r as an example; this is a confound warning, not a transcription."}
+  ],
+  "high_confidence_count": 0,
+  "primary_test_count": 0,
+  "minimum_primary_events": 6,
+  "scientific_status": "NOT_RUN",
+  "translation": "NOT_RUN",
+  "decipherment": "NOT_RUN"
+}
