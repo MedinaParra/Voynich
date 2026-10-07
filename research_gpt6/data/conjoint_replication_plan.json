@@ -1,0 +1,134 @@
+{
+  "schema_version": 1,
+  "experiment_id": "CONJOINT_LEAF_REPLICATION_Q1_Q3_Q20",
+  "date": "2026-10-07",
+  "predecessor_commit": "1a0e44dde79d577b061401de274037a87fd193cb",
+  "corpus": {
+    "url": "https://raw.githubusercontent.com/cesarjz/Voynich/47e6a77dc9d5cd570c375f4aff710fa4a0567278/corpus/voynich_eva.txt",
+    "blob": "2a4533ab9bdfa85db9bad602d590978953055df1",
+    "sha256": "bf5b6d4ac1e3a51b1847a9c388318d609020441ccd56984c901c32b09beccafc"
+  },
+  "hypothesis": "Known conjoint-leaf pairs have a common lexical association across metadata-selected homogeneous quire groups outside Q13 that survives the previously fixed nuisance controls.",
+  "selection": {
+    "unit": "Two physical leaves sharing IVTFF Q and B; exactly four ordinary recto/verso page records, each containing literal paragraph tokens.",
+    "requirements": "All four pages must have the same known hand H in 1..5 and the same known Currier L in A/B. Group by quire/hand/Currier; require at least four eligible bifolia. Exclude quire M (Q13).",
+    "only_inputs": "Mapping, metadata and availability; no edge similarities, forecasts or significance values are used for selection.",
+    "targets": [
+      {
+        "quire": "A",
+        "hand": "1",
+        "currier": "A",
+        "pairs": [
+          [
+            1,
+            8
+          ],
+          [
+            2,
+            7
+          ],
+          [
+            3,
+            6
+          ],
+          [
+            4,
+            5
+          ]
+        ],
+        "n_bifolia": 4
+      },
+      {
+        "quire": "C",
+        "hand": "1",
+        "currier": "A",
+        "pairs": [
+          [
+            17,
+            24
+          ],
+          [
+            18,
+            23
+          ],
+          [
+            19,
+            22
+          ],
+          [
+            20,
+            21
+          ]
+        ],
+        "n_bifolia": 4
+      },
+      {
+        "quire": "T",
+        "hand": "3",
+        "currier": "B",
+        "pairs": [
+          [
+            105,
+            114
+          ],
+          [
+            106,
+            113
+          ],
+          [
+            107,
+            112
+          ],
+          [
+            108,
+            111
+          ]
+        ],
+        "n_bifolia": 4
+      }
+    ],
+    "excluded": "No guessing missing folios, marginalia, mixed/unknown Currier or unknown hand. All excluded mapping groups are archived in replication metadata audit.",
+    "timesfm_eligibility": "Separate from lexical selection. Whole group's TimesFM diagnostic is BLOCKED if any required page has fewer than four clean rows; no partial-page substitution or horizon retuning."
+  },
+  "lexical": {
+    "implementation_reference": "Q13 q13_matching_control.py frozen at 7d22db0830a51fc9b0452c070ac2f3e53f258684",
+    "representation": "Same literal paragraph parser, both comma split and comma join, recto+verso leaf TF-IDF cosine, character trigram and character Jensen-Shannon diagnostics.",
+    "idf": "Fit only on leaves outside the entire target quire, including ineligible pairs; do not train on other test leaves of that quire.",
+    "primary_metrics": [
+      "tfidf",
+      "tfidf_residual"
+    ],
+    "nuisance": "Fixed OLS with intercept,char3 cosine,absolute log token-count ratio,squared folio-number gap/100; no pair labels in fit.",
+    "per_group": "Enumerate all 105 perfect matchings for eight leaves and all 24 matchings between the four earlier and four later conjoint-leaf sides; include observed. Same per-group strict gates as Q13 retained and reported.",
+    "pooled_statistic": "Equal-weight mean of per-group standardized scores: (score - full matching null mean)/full matching null population SD, using that same normalization for full and cross-half nulls. No weights learned from Q13 or observed matching scores.",
+    "pooled_exact_null": "Exhaustive independent Cartesian product of the fixed group matching spaces: 105^3=1157625 and 24^3=13824. Save each group's full edge matrices and each matching score; code deterministically reconstructs pooled products rather than storing a million redundant JSON values.",
+    "ties": "Inclusive upper tail with tolerance 1e-12; near-zero full-null SD <=1e-12 gives standardized scores zero and p=1, never a positive.",
+    "robustness": "For both comma modes, primary and residual observed-minus-full-null-mean must be positive in every group. Recto-only, verso-only and all four leave-one-physical-pair-out primary deviations must be positive against both group reference means.",
+    "panel_rule": "PASS_REPLICATION_PANEL iff both comma policies have pooled exact p<=.05 for both primary metrics and both references AND all sign/robustness gates pass. Otherwise FAIL_REPLICATION_PANEL. This new panel cannot retroactively change Q13's FAIL_STRICT_PAIR_COHERENCE.",
+    "scope": "Limited selected groups, only four bifolia each. A group pass is not independent confirmation of a global manuscript effect; pooled inference assumes exchangeable pair assignments independently within groups."
+  },
+  "timesfm": {
+    "role": "Secondary descriptive check, cannot rescue lexical failure.",
+    "model": "google/timesfm-2.5-200m-pytorch",
+    "package": "timesfm[torch]==3.0.2",
+    "context_cap": 64,
+    "horizon": 4,
+    "seed": 20261007,
+    "features": "Unchanged ten features and feature_rows cleaning from timesfm_singulion_q13.py.",
+    "scales": "All clean feature rows outside the entire target quire, not merely outside the selected subset.",
+    "forecasts": "One frozen forecast per page, archived with source contexts, targets and directed feature errors; source-only inputs.",
+    "pair_score": "Average of eight directed cross-leaf comparisons; no within-leaf edges.",
+    "baselines": [
+      "source last row",
+      "source page feature mean"
+    ],
+    "other_diagnostics": [
+      "TimesFM without token count",
+      "TimesFM minus persistence loss"
+    ],
+    "limitations": "Model identifier and package version fixed. Upstream weight revision not captured in predecessor; save predictions for exact scoring replay rather than imply immutable future downloads."
+  },
+  "semantic_status": "NOT_RUN",
+  "claims": "No translation, language identification, unique reading order or novelty claim. This is a follow-up on an already studied corpus, not an untouched independent transcription or manuscript holdout.",
+  "evidence": "Publish metadata selection, protocol before real score computation, code, scientific controls, complete matrices and per-matching scores, exact pooled summaries, GitHub CI result and full evidence audit."
+}

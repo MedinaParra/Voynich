@@ -1,0 +1,479 @@
+{
+  "selected": [
+    {
+      "quire": "A",
+      "hand": "1",
+      "currier": "A",
+      "pairs": [
+        [
+          1,
+          8
+        ],
+        [
+          2,
+          7
+        ],
+        [
+          3,
+          6
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "n_bifolia": 4
+    },
+    {
+      "quire": "C",
+      "hand": "1",
+      "currier": "A",
+      "pairs": [
+        [
+          17,
+          24
+        ],
+        [
+          18,
+          23
+        ],
+        [
+          19,
+          22
+        ],
+        [
+          20,
+          21
+        ]
+      ],
+      "n_bifolia": 4
+    },
+    {
+      "quire": "T",
+      "hand": "3",
+      "currier": "B",
+      "pairs": [
+        [
+          105,
+          114
+        ],
+        [
+          106,
+          113
+        ],
+        [
+          107,
+          112
+        ],
+        [
+          108,
+          111
+        ]
+      ],
+      "n_bifolia": 4
+    }
+  ],
+  "all_eligible_groups": [
+    {
+      "quire": "A",
+      "hand": "1",
+      "currier": "A",
+      "pairs": [
+        [
+          1,
+          8
+        ],
+        [
+          2,
+          7
+        ],
+        [
+          3,
+          6
+        ],
+        [
+          4,
+          5
+        ]
+      ]
+    },
+    {
+      "quire": "B",
+      "hand": "1",
+      "currier": "A",
+      "pairs": [
+        [
+          9,
+          16
+        ],
+        [
+          10,
+          15
+        ],
+        [
+          11,
+          14
+        ]
+      ]
+    },
+    {
+      "quire": "C",
+      "hand": "1",
+      "currier": "A",
+      "pairs": [
+        [
+          17,
+          24
+        ],
+        [
+          18,
+          23
+        ],
+        [
+          19,
+          22
+        ],
+        [
+          20,
+          21
+        ]
+      ]
+    },
+    {
+      "quire": "D",
+      "hand": "1",
+      "currier": "A",
+      "pairs": [
+        [
+          25,
+          32
+        ],
+        [
+          27,
+          30
+        ],
+        [
+          28,
+          29
+        ]
+      ]
+    },
+    {
+      "quire": "D",
+      "hand": "2",
+      "currier": "B",
+      "pairs": [
+        [
+          26,
+          31
+        ]
+      ]
+    },
+    {
+      "quire": "E",
+      "hand": "1",
+      "currier": "A",
+      "pairs": [
+        [
+          35,
+          38
+        ],
+        [
+          36,
+          37
+        ]
+      ]
+    },
+    {
+      "quire": "E",
+      "hand": "2",
+      "currier": "B",
+      "pairs": [
+        [
+          33,
+          40
+        ],
+        [
+          34,
+          39
+        ]
+      ]
+    },
+    {
+      "quire": "F",
+      "hand": "1",
+      "currier": "A",
+      "pairs": [
+        [
+          42,
+          47
+        ],
+        [
+          44,
+          45
+        ]
+      ]
+    },
+    {
+      "quire": "F",
+      "hand": "2",
+      "currier": "B",
+      "pairs": [
+        [
+          43,
+          46
+        ]
+      ]
+    },
+    {
+      "quire": "F",
+      "hand": "5",
+      "currier": "B",
+      "pairs": [
+        [
+          41,
+          48
+        ]
+      ]
+    },
+    {
+      "quire": "G",
+      "hand": "1",
+      "currier": "A",
+      "pairs": [
+        [
+          49,
+          56
+        ],
+        [
+          51,
+          54
+        ],
+        [
+          52,
+          53
+        ]
+      ]
+    },
+    {
+      "quire": "G",
+      "hand": "2",
+      "currier": "B",
+      "pairs": [
+        [
+          50,
+          55
+        ]
+      ]
+    },
+    {
+      "quire": "M",
+      "hand": "2",
+      "currier": "B",
+      "pairs": [
+        [
+          75,
+          84
+        ],
+        [
+          76,
+          83
+        ],
+        [
+          77,
+          82
+        ],
+        [
+          78,
+          81
+        ],
+        [
+          79,
+          80
+        ]
+      ]
+    },
+    {
+      "quire": "Q",
+      "hand": "1",
+      "currier": "A",
+      "pairs": [
+        [
+          93,
+          96
+        ]
+      ]
+    },
+    {
+      "quire": "S",
+      "hand": "1",
+      "currier": "A",
+      "pairs": [
+        [
+          100,
+          101
+        ]
+      ]
+    },
+    {
+      "quire": "T",
+      "hand": "3",
+      "currier": "B",
+      "pairs": [
+        [
+          105,
+          114
+        ],
+        [
+          106,
+          113
+        ],
+        [
+          107,
+          112
+        ],
+        [
+          108,
+          111
+        ]
+      ]
+    }
+  ],
+  "excluded": [
+    {
+      "quire": "B",
+      "bifolio": "4",
+      "nodes": [
+        13
+      ],
+      "reasons": [
+        "not_two_leaves"
+      ]
+    },
+    {
+      "quire": "H",
+      "bifolio": "1",
+      "nodes": [
+        57,
+        66
+      ],
+      "reasons": [
+        "empty_paragraph_side",
+        "unknown_or_mixed_hand",
+        "unknown_or_mixed_currier"
+      ]
+    },
+    {
+      "quire": "H",
+      "bifolio": "2",
+      "nodes": [
+        58,
+        65
+      ],
+      "reasons": [
+        "empty_paragraph_side",
+        "unknown_or_mixed_currier"
+      ]
+    },
+    {
+      "quire": "J",
+      "bifolio": "1",
+      "nodes": [
+        69
+      ],
+      "reasons": [
+        "not_two_leaves",
+        "empty_paragraph_side",
+        "unknown_or_mixed_currier"
+      ]
+    },
+    {
+      "quire": "K",
+      "bifolio": "1",
+      "nodes": [
+        71
+      ],
+      "reasons": [
+        "not_two_leaves",
+        "empty_paragraph_side",
+        "unknown_or_mixed_currier"
+      ]
+    },
+    {
+      "quire": "L",
+      "bifolio": "1",
+      "nodes": [
+        73
+      ],
+      "reasons": [
+        "not_two_leaves",
+        "empty_paragraph_side",
+        "unknown_or_mixed_currier"
+      ]
+    },
+    {
+      "quire": "O",
+      "bifolio": "1",
+      "nodes": [
+        87
+      ],
+      "reasons": [
+        "not_two_leaves"
+      ]
+    },
+    {
+      "quire": "O",
+      "bifolio": "2",
+      "nodes": [
+        88
+      ],
+      "reasons": [
+        "not_two_leaves"
+      ]
+    },
+    {
+      "quire": "Q",
+      "bifolio": "2",
+      "nodes": [
+        94
+      ],
+      "reasons": [
+        "not_two_leaves"
+      ]
+    },
+    {
+      "quire": "S",
+      "bifolio": "1",
+      "nodes": [
+        99
+      ],
+      "reasons": [
+        "not_two_leaves"
+      ]
+    },
+    {
+      "quire": "T",
+      "bifolio": "1",
+      "nodes": [
+        103,
+        116
+      ],
+      "reasons": [
+        "empty_paragraph_side",
+        "unknown_or_mixed_currier"
+      ]
+    },
+    {
+      "quire": "T",
+      "bifolio": "2",
+      "nodes": [
+        104,
+        115
+      ],
+      "reasons": [
+        "unknown_or_mixed_hand"
+      ]
+    }
+  ],
+  "timesfm_eligibility_separate_from_lexical": true
+}
