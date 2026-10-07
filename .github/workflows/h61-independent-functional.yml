@@ -1,0 +1,33 @@
+name: Voynich H61 independent functional replication
+on:
+  workflow_dispatch:
+  push:
+    branches: [experiment/lexical-anchor-replication]
+    paths:
+      - 'research_gpt6/code/independent_functional_transfer_h61.py'
+      - 'research_gpt6/63_independent_transcription_functional_transfer_preregistration.md'
+      - '.github/workflows/h61-independent-functional.yml'
+  pull_request:
+    branches: [research/gpt6-audit]
+    paths:
+      - 'research_gpt6/code/independent_functional_transfer_h61.py'
+      - 'research_gpt6/63_independent_transcription_functional_transfer_preregistration.md'
+      - '.github/workflows/h61-independent-functional.yml'
+jobs:
+  independent-functional-transfer-h61:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: {python-version: '3.11'}
+      - name: Acquire frozen independent Takahashi transcription
+        run: curl -L --fail -o IT2a-n.txt 'https://raw.githubusercontent.com/oklo/voynich_gpt/2d7c61c387ad6962de730caf73c48612bc8f6957/IT2a-n.txt'
+      - name: Run frozen H61 independent functional replication
+        run: mkdir -p research_gpt6/results && python research_gpt6/code/independent_functional_transfer_h61.py --corpus IT2a-n.txt --out research_gpt6/results/independent_functional_transfer_h61.json --permutations 999
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: independent-functional-transfer-h61-results
+          path: research_gpt6/results/independent_functional_transfer_h61.json
+          if-no-files-found: error

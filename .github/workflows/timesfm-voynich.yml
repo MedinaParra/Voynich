@@ -1,0 +1,137 @@
+name: Voynich frozen experiments
+on:
+  workflow_dispatch:
+  pull_request:
+    branches: [research/gpt6-audit]
+    paths: ['research_gpt6/**','.github/workflows/timesfm-voynich.yml']
+jobs:
+  functional-role-transfer-h60:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: {python-version: '3.11'}
+      - run: curl -L --fail -o voynich_eva.txt 'https://raw.githubusercontent.com/cesarjz/Voynich/47e6a77dc9d5cd570c375f4aff710fa4a0567278/corpus/voynich_eva.txt'
+      - name: Run frozen H60 cross-quire functional-role transfer
+        run: mkdir -p research_gpt6/results && python research_gpt6/code/functional_role_transfer_h60.py --corpus voynich_eva.txt --out research_gpt6/results/functional_role_transfer_h60.json --permutations 999
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with: {name: functional-role-transfer-h60-results, path: research_gpt6/results/functional_role_transfer_h60.json, if-no-files-found: error}
+  label-locus-vs-running-text:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: {python-version: '3.11'}
+      - run: curl -L --fail -o voynich_eva.txt 'https://raw.githubusercontent.com/cesarjz/Voynich/47e6a77dc9d5cd570c375f4aff710fa4a0567278/corpus/voynich_eva.txt'
+      - name: Run frozen label-locus vs running-text falsification
+        run: mkdir -p research_gpt6/results && python research_gpt6/code/label_locus_vs_running_text.py --corpus voynich_eva.txt --out research_gpt6/results/label_locus_vs_running_text.json --permutations 999
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with: {name: label-locus-vs-running-text-results, path: research_gpt6/results/label_locus_vs_running_text.json, if-no-files-found: error}
+  label-object-familywise:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: {python-version: '3.11'}
+      - run: curl -L --fail -o voynich_eva.txt 'https://raw.githubusercontent.com/cesarjz/Voynich/47e6a77dc9d5cd570c375f4aff710fa4a0567278/corpus/voynich_eva.txt'
+      - name: Run frozen familywise label-object lexical screen
+        run: mkdir -p research_gpt6/results && python research_gpt6/code/label_object_familywise.py --corpus voynich_eva.txt --out research_gpt6/results/label_object_familywise.json --permutations 999
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with: {name: label-object-familywise-results, path: research_gpt6/results/label_object_familywise.json, if-no-files-found: error}
+  independent-transcription-topology:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: {python-version: '3.11'}
+      - run: curl -L --fail -o voynich_eva.txt 'https://raw.githubusercontent.com/cesarjz/Voynich/47e6a77dc9d5cd570c375f4aff710fa4a0567278/corpus/voynich_eva.txt'
+      - run: curl -L --fail -o IT2a-n.txt 'https://raw.githubusercontent.com/oklo/voynich_gpt/2d7c61c387ad6962de730caf73c48612bc8f6957/IT2a-n.txt'
+      - name: Run frozen independent-transcription topology replication
+        run: mkdir -p research_gpt6/results && python research_gpt6/code/independent_transcription_topology.py --discovery voynich_eva.txt --replication IT2a-n.txt --out research_gpt6/results/independent_transcription_topology.json --permutations 999
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with: {name: independent-transcription-topology-results, path: research_gpt6/results/independent_transcription_topology.json, if-no-files-found: error}
+  topology-conditioned-lexical-anchor:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: {python-version: '3.11'}
+      - run: curl -L --fail -o voynich_eva.txt 'https://raw.githubusercontent.com/cesarjz/Voynich/47e6a77dc9d5cd570c375f4aff710fa4a0567278/corpus/voynich_eva.txt'
+      - name: Run frozen topology-conditioned lexical anchor test
+        run: mkdir -p research_gpt6/results && python research_gpt6/code/topology_conditioned_lexical_anchor.py --corpus voynich_eva.txt --out research_gpt6/results/topology_conditioned_lexical_anchor.json --permutations 999
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with: {name: topology-conditioned-lexical-anchor-results, path: research_gpt6/results/topology_conditioned_lexical_anchor.json, if-no-files-found: error}
+  holistic-topology-h4:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: {python-version: '3.11'}
+      - run: curl -L --fail -o voynich_eva.txt 'https://raw.githubusercontent.com/cesarjz/Voynich/47e6a77dc9d5cd570c375f4aff710fa4a0567278/corpus/voynich_eva.txt'
+      - name: Run frozen leave-one-quire-out H4
+        run: mkdir -p research_gpt6/results && python research_gpt6/code/topology_loqo_h4.py --corpus voynich_eva.txt --out research_gpt6/results/topology_loqo_h4.json --permutations 999
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with: {name: holistic-topology-h4-results, path: research_gpt6/results/topology_loqo_h4.json, if-no-files-found: error}
+  holistic-topology-h3:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: {python-version: '3.11'}
+      - run: curl -L --fail -o voynich_eva.txt 'https://raw.githubusercontent.com/cesarjz/Voynich/47e6a77dc9d5cd570c375f4aff710fa4a0567278/corpus/voynich_eva.txt'
+      - name: Run frozen held-out line-grammar H3
+        run: mkdir -p research_gpt6/results && python research_gpt6/code/topology_linegrammar_h3.py --corpus voynich_eva.txt --out research_gpt6/results/topology_linegrammar_h3.json --permutations 999
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with: {name: holistic-topology-h3-results, path: research_gpt6/results/topology_linegrammar_h3.json, if-no-files-found: error}
+  holistic-topology-h2:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: {python-version: '3.11'}
+      - run: curl -L --fail -o voynich_eva.txt 'https://raw.githubusercontent.com/cesarjz/Voynich/47e6a77dc9d5cd570c375f4aff710fa4a0567278/corpus/voynich_eva.txt'
+      - name: Run frozen cross-view topology H2
+        run: mkdir -p research_gpt6/results && python research_gpt6/code/topology_crossview_h2.py --corpus voynich_eva.txt --out research_gpt6/results/topology_crossview_h2.json --permutations 999
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with: {name: holistic-topology-h2-results, path: research_gpt6/results/topology_crossview_h2.json, if-no-files-found: error}
+  holistic-topology:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: {python-version: '3.11'}
+      - run: curl -L --fail -o voynich_eva.txt 'https://raw.githubusercontent.com/cesarjz/Voynich/47e6a77dc9d5cd570c375f4aff710fa4a0567278/corpus/voynich_eva.txt'
+      - name: Run frozen topology-from-text H1
+        run: mkdir -p research_gpt6/results && python research_gpt6/code/topology_from_text.py --corpus voynich_eva.txt --out research_gpt6/results/topology_from_text.json --permutations 999
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with: {name: holistic-topology-results, path: research_gpt6/results/topology_from_text.json, if-no-files-found: error}
+  lexical-anchor-length-matched:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: {python-version: '3.11'}
+      - run: curl -L --fail -o voynich_eva.txt 'https://raw.githubusercontent.com/cesarjz/Voynich/47e6a77dc9d5cd570c375f4aff710fa4a0567278/corpus/voynich_eva.txt'
+      - run: mkdir -p research_gpt6/results && python research_gpt6/code/label_pair_length_matched.py --corpus voynich_eva.txt --out research_gpt6/results/label_pair_length_matched.json --permutations 999
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with: {name: lexical-anchor-length-matched-results, path: research_gpt6/results/label_pair_length_matched.json, if-no-files-found: error}
