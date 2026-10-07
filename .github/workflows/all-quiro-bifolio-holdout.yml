@@ -13,6 +13,7 @@ on:
       - 'research_gpt6/code/bifolio_double_residual_reconstruction.py'
       - 'research_gpt6/code/bifolio_leave_one_quire_out.py'
       - 'research_gpt6/code/quire_c_signal_decomposition.py'
+      - 'research_gpt6/code/quire_c_position_template_control.py'
       - '.github/workflows/all-quiro-bifolio-holdout.yml'
   workflow_dispatch:
 
@@ -87,6 +88,13 @@ jobs:
             --it /tmp/IT2a-n.txt \
             --out research_gpt6/results/quire_c_signal_decomposition.json \
             | tee /tmp/quire-c-decomposition.log
+      - name: Execute cross-quire positional-template control for C
+        run: |
+          python research_gpt6/code/quire_c_position_template_control.py \
+            --zl /tmp/voynich_eva.txt \
+            --it /tmp/IT2a-n.txt \
+            --out research_gpt6/results/quire_c_position_template_control.json \
+            | tee /tmp/quire-c-position-template.log
       - name: Upload results
         uses: actions/upload-artifact@v4
         if: always()
@@ -101,4 +109,5 @@ jobs:
             research_gpt6/results/bifolio_double_residual_reconstruction.json
             research_gpt6/results/bifolio_leave_one_quire_out.json
             research_gpt6/results/quire_c_signal_decomposition.json
+            research_gpt6/results/quire_c_position_template_control.json
           if-no-files-found: warn
