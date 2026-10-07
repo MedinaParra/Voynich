@@ -66,3 +66,5 @@ jobs:
             git rebase origin/research/gpt6-audit
             git push origin HEAD:research/gpt6-audit
           fi
+
+# trigger: 2026-10-07 strict LOO audit
