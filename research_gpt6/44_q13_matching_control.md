@@ -88,3 +88,7 @@ Archivos: [protocolo](data/q13_matching_plan.json), [análisis](code/q13_matchin
 Los pares se verifican contra `$B` del corpus congelado. La [explicación directa de Lisa Fagin Davis](https://www.voynich.ninja/thread-5186.html) confirma ejemplos `75|84` y `78|81` y distingue caras interiores/exteriores. El artículo *Singulion Structure and the Voynich Manuscript*, DOI [10.4000/16k0a](https://doi.org/10.4000/16k0a), está en [Digital Medievalist](https://journals.openedition.org/digitalmedievalist/2331); su página devolvió un control Anubis, por lo que no se presenta la tabla íntegra del artículo como verificada. La prueba aquí no depende de su secuencia hipotética.
 
 El siguiente contraste útil requiere otra transcripción y otro cuaderno, con mapeo físico verificable y controles de rasgos fijados antes del cálculo. Buscar más órdenes óptimos en Q13 no resuelve la limitación principal.
+
+## Réplica posterior fuera de Q13
+
+El [experimento 45](45_conjoint_leaf_replication.md) aplicó los controles a grupos seleccionados por metadatos en Q1, Q3 y un subconjunto de Q20. El parecido bruto pasó el contraste conjunto exacto; la componente residual y varias robusteces no pasaron. En Q20 la media de la fuente volvió a superar TimesFM. Estado: `FAIL_REPLICATION_PANEL`; este seguimiento no modifica el resultado estricto de Q13 ni aporta una traducción.
