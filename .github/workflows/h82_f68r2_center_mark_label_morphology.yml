@@ -1,3 +1,4 @@
+# Infrastructure-only retrigger; H82 protocol is frozen in its preregistration.
 name: H82 f68r2 center-mark label morphology
 
 on:
