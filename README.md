@@ -29,3 +29,5 @@ Repositorio inicializado. La rama `main` contiene solamente este archivo de orie
 El protocolo se fijó antes de ajustar el modelo nuevo y se conservan las salidas, hashes y controles de fallo. El corpus ya había sido explorado: estas reservas no son validación semántica externa.
 
 [GitHub Actions](https://github.com/MedinaParra/Voynich/actions/runs/37596432044) pasó los catorce controles del canal de copia y reprodujo el resumen numérico y las ganancias por partición. La [auditoría](research_gpt6/results/local_copy_ci_audit.json) delimita qué se verificó.
+
+[Control exhaustivo de pares físicos en Q13](research_gpt6/44_q13_matching_control.md): los bifolios quedan terceros entre 945 emparejamientos en similitud léxica, pero fallan los controles residuales fijados. TimesFM también detecta semejanza; la media de la página fuente obtiene menor error. Resultado estricto `FAIL_STRICT_PAIR_COHERENCE`, traducción `NOT_RUN`. Se conserva la salida completa y su [auditoría de CI](research_gpt6/results/q13_matching_ci_audit.json).

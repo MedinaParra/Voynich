@@ -71,3 +71,7 @@ Esto no es desciframiento y no permite inferir semántica. Tampoco debe presenta
 3. Separar estadísticamente el efecto **dentro del bifolio** del efecto **entre bifolios** mediante un modelo de pares emparejados.
 4. Repetir por Currier/mano/sección y con otra transliteración independiente.
 5. Sólo si la señal de unidad física replica, formular un paper sobre reconstrucción codicológica asistida por señales textuales; no sobre desciframiento.
+
+## Seguimiento controlado: pares físicos
+
+El [control 44](44_q13_matching_control.md) separó posteriormente la unidad física del orden: los pares conocidos quedaron terceros entre los 945 emparejamientos posibles en similitud TF–IDF, pero no superaron todos los controles residuales predefinidos. TimesFM favoreció los mismos pares, mientras que una media de rasgos de la página fuente obtuvo menor error y mejor rango. La asociación descriptiva no se convierte, por ello, en continuidad semántica confirmada ni en validación del orden propuesto. Estado estricto del seguimiento: `FAIL_STRICT_PAIR_COHERENCE`.
