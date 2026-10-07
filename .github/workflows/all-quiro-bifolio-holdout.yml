@@ -12,6 +12,7 @@ on:
       - 'research_gpt6/code/blind_reconstruction_metadata_conditional.py'
       - 'research_gpt6/code/bifolio_double_residual_reconstruction.py'
       - 'research_gpt6/code/bifolio_leave_one_quire_out.py'
+      - 'research_gpt6/code/quire_c_signal_decomposition.py'
       - '.github/workflows/all-quiro-bifolio-holdout.yml'
   workflow_dispatch:
 
@@ -79,6 +80,13 @@ jobs:
             --it /tmp/IT2a-n.txt \
             --out research_gpt6/results/bifolio_leave_one_quire_out.json \
             | tee /tmp/leave-one-quire-out.log
+      - name: Execute quire C signal decomposition diagnostic
+        run: |
+          python research_gpt6/code/quire_c_signal_decomposition.py \
+            --zl /tmp/voynich_eva.txt \
+            --it /tmp/IT2a-n.txt \
+            --out research_gpt6/results/quire_c_signal_decomposition.json \
+            | tee /tmp/quire-c-decomposition.log
       - name: Upload results
         uses: actions/upload-artifact@v4
         if: always()
@@ -92,4 +100,5 @@ jobs:
             research_gpt6/results/blind_reconstruction_metadata_conditional.json
             research_gpt6/results/bifolio_double_residual_reconstruction.json
             research_gpt6/results/bifolio_leave_one_quire_out.json
+            research_gpt6/results/quire_c_signal_decomposition.json
           if-no-files-found: warn
