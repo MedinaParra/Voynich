@@ -1,3 +1,4 @@
+# Trigger commit after workflow registration; no H78 scientific criteria changed.
 name: H78 star-label geometric pairing
 on:
   workflow_dispatch:
