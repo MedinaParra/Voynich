@@ -28,7 +28,9 @@ jobs:
         run: python research_gpt6/code/adversarial_compositional_null.py --corpus voynich_eva.txt --out research_gpt6/results/adversarial_compositional_null.json --permutations 999
       - name: Confound-matched label pair lexical anchor audit
         run: python research_gpt6/code/label_pair_anchor_audit.py --corpus voynich_eva.txt --out research_gpt6/results/label_pair_anchor_audit.json --permutations 999
-      - name: Folio-level Ls/Lz confound null\n        run: python research_gpt6/code/ls_lz_folio_null.py --corpus voynich_eva.txt --out research_gpt6/results/ls_lz_folio_null.json --permutations 999\n      - uses: actions/upload-artifact@v4
+      - name: Folio-level Ls/Lz confound null
+        run: python research_gpt6/code/ls_lz_folio_null.py --corpus voynich_eva.txt --out research_gpt6/results/ls_lz_folio_null.json --permutations 999
+      - uses: actions/upload-artifact@v4
         if: always()
         with:
           name: wild-decipherment-results
