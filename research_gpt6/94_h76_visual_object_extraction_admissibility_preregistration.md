@@ -92,9 +92,11 @@ Do not classify candidates as stars, plants, nymphs, containers, letters, or any
 
 ### 5. Text-leakage audit
 
-For every admissible component compute overlap between its pixels and the **unexpanded original** Yale text boxes.
+For every admissible component, take its component bounding rectangle. Compute the fraction of that rectangle's pixel area covered by the union of the **unexpanded original** Yale text boxes.
 
-A component is `low_text_overlap` iff <= 5% of its pixels fall inside original text boxes.
+A component is `low_text_overlap` iff this bounding-box overlap fraction is <= **10%**.
+
+This quantity is deliberately geometric rather than foreground-pixel overlap, because foreground pixels inside the expanded text mask have already been removed by design.
 
 The primary count is the number of admissible `low_text_overlap` components.
 
