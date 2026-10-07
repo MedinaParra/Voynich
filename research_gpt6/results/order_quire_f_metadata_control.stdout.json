@@ -1,0 +1,1131 @@
+{
+  "status": "QUIRE_F_NESTING_METADATA_CONFOUND_CONTROL",
+  "physical_bifolia": [
+    "41|48",
+    "42|47",
+    "43|46",
+    "44|45"
+  ],
+  "current_nesting_outer_to_inner": [
+    "41|48",
+    "42|47",
+    "43|46",
+    "44|45"
+  ],
+  "folio_metadata_signatures": {
+    "41": {
+      "H": [
+        "5"
+      ],
+      "L": [
+        "B"
+      ]
+    },
+    "42": {
+      "H": [
+        "1"
+      ],
+      "L": [
+        "A"
+      ]
+    },
+    "43": {
+      "H": [
+        "2"
+      ],
+      "L": [
+        "B"
+      ]
+    },
+    "44": {
+      "H": [
+        "1"
+      ],
+      "L": [
+        "A"
+      ]
+    },
+    "45": {
+      "H": [
+        "1"
+      ],
+      "L": [
+        "A"
+      ]
+    },
+    "46": {
+      "H": [
+        "2"
+      ],
+      "L": [
+        "B"
+      ]
+    },
+    "47": {
+      "H": [
+        "1"
+      ],
+      "L": [
+        "A"
+      ]
+    },
+    "48": {
+      "H": [
+        "5"
+      ],
+      "L": [
+        "B"
+      ]
+    }
+  },
+  "ZL3b": {
+    "by_window": [
+      {
+        "boundary_tokens": 25,
+        "raw": {
+          "current_rank": 15,
+          "current_score": 0.03380989414668778,
+          "current_exact_p_ge": 0.625,
+          "best_nesting_outer_to_inner": [
+            "41|48",
+            "43|46",
+            "42|47",
+            "44|45"
+          ],
+          "best_leaf_reading_order": [
+            41,
+            43,
+            42,
+            44,
+            45,
+            47,
+            46,
+            48
+          ],
+          "best_score": 3.284171193800996
+        },
+        "currier_residual": {
+          "current_rank": 6,
+          "current_score": 1.2200504648574273,
+          "current_exact_p_ge": 0.25,
+          "best_nesting_outer_to_inner": [
+            "44|45",
+            "43|46",
+            "42|47",
+            "41|48"
+          ],
+          "best_leaf_reading_order": [
+            44,
+            43,
+            42,
+            41,
+            48,
+            47,
+            46,
+            45
+          ],
+          "best_score": 2.7685721304275193
+        },
+        "hand_currier_residual": {
+          "current_rank": 7,
+          "current_score": 0.9660759409511144,
+          "current_exact_p_ge": 0.2916666666666667,
+          "best_nesting_outer_to_inner": [
+            "44|45",
+            "43|46",
+            "42|47",
+            "41|48"
+          ],
+          "best_leaf_reading_order": [
+            44,
+            43,
+            42,
+            41,
+            48,
+            47,
+            46,
+            45
+          ],
+          "best_score": 2.4908113616692082
+        },
+        "n_currier_transition_classes": 4,
+        "n_hand_currier_transition_classes": 9
+      },
+      {
+        "boundary_tokens": 50,
+        "raw": {
+          "current_rank": 21,
+          "current_score": -2.4594938067565097,
+          "current_exact_p_ge": 0.875,
+          "best_nesting_outer_to_inner": [
+            "43|46",
+            "41|48",
+            "44|45",
+            "42|47"
+          ],
+          "best_leaf_reading_order": [
+            43,
+            41,
+            44,
+            42,
+            47,
+            45,
+            48,
+            46
+          ],
+          "best_score": 3.6199418710459885
+        },
+        "currier_residual": {
+          "current_rank": 15,
+          "current_score": -0.03381932780603231,
+          "current_exact_p_ge": 0.625,
+          "best_nesting_outer_to_inner": [
+            "41|48",
+            "44|45",
+            "43|46",
+            "42|47"
+          ],
+          "best_leaf_reading_order": [
+            41,
+            44,
+            43,
+            42,
+            47,
+            46,
+            45,
+            48
+          ],
+          "best_score": 2.9182650822696723
+        },
+        "hand_currier_residual": {
+          "current_rank": 17,
+          "current_score": -0.46302271699546504,
+          "current_exact_p_ge": 0.7083333333333334,
+          "best_nesting_outer_to_inner": [
+            "41|48",
+            "44|45",
+            "43|46",
+            "42|47"
+          ],
+          "best_leaf_reading_order": [
+            41,
+            44,
+            43,
+            42,
+            47,
+            46,
+            45,
+            48
+          ],
+          "best_score": 2.4890616930802394
+        },
+        "n_currier_transition_classes": 4,
+        "n_hand_currier_transition_classes": 9
+      },
+      {
+        "boundary_tokens": 100,
+        "raw": {
+          "current_rank": 18,
+          "current_score": -2.422184201099889,
+          "current_exact_p_ge": 0.75,
+          "best_nesting_outer_to_inner": [
+            "43|46",
+            "41|48",
+            "44|45",
+            "42|47"
+          ],
+          "best_leaf_reading_order": [
+            43,
+            41,
+            44,
+            42,
+            47,
+            45,
+            48,
+            46
+          ],
+          "best_score": 3.031755533373535
+        },
+        "currier_residual": {
+          "current_rank": 2,
+          "current_score": 0.7948760887663728,
+          "current_exact_p_ge": 0.08333333333333333,
+          "best_nesting_outer_to_inner": [
+            "41|48",
+            "44|45",
+            "43|46",
+            "42|47"
+          ],
+          "best_leaf_reading_order": [
+            41,
+            44,
+            43,
+            42,
+            47,
+            46,
+            45,
+            48
+          ],
+          "best_score": 1.0130666481733057
+        },
+        "hand_currier_residual": {
+          "current_rank": 6,
+          "current_score": 0.36250986457627193,
+          "current_exact_p_ge": 0.25,
+          "best_nesting_outer_to_inner": [
+            "43|46",
+            "42|47",
+            "41|48",
+            "44|45"
+          ],
+          "best_leaf_reading_order": [
+            43,
+            42,
+            41,
+            44,
+            45,
+            48,
+            47,
+            46
+          ],
+          "best_score": 1.0613840704208841
+        },
+        "n_currier_transition_classes": 4,
+        "n_hand_currier_transition_classes": 9
+      },
+      {
+        "boundary_tokens": 200,
+        "raw": {
+          "current_rank": 18,
+          "current_score": -2.6408201436582894,
+          "current_exact_p_ge": 0.75,
+          "best_nesting_outer_to_inner": [
+            "43|46",
+            "41|48",
+            "44|45",
+            "42|47"
+          ],
+          "best_leaf_reading_order": [
+            43,
+            41,
+            44,
+            42,
+            47,
+            45,
+            48,
+            46
+          ],
+          "best_score": 3.2938976219985077
+        },
+        "currier_residual": {
+          "current_rank": 2,
+          "current_score": 0.6329742787799,
+          "current_exact_p_ge": 0.08333333333333333,
+          "best_nesting_outer_to_inner": [
+            "41|48",
+            "44|45",
+            "43|46",
+            "42|47"
+          ],
+          "best_leaf_reading_order": [
+            41,
+            44,
+            43,
+            42,
+            47,
+            46,
+            45,
+            48
+          ],
+          "best_score": 1.110570732057678
+        },
+        "hand_currier_residual": {
+          "current_rank": 6,
+          "current_score": 0.13640231747007606,
+          "current_exact_p_ge": 0.25,
+          "best_nesting_outer_to_inner": [
+            "43|46",
+            "42|47",
+            "41|48",
+            "44|45"
+          ],
+          "best_leaf_reading_order": [
+            43,
+            42,
+            41,
+            44,
+            45,
+            48,
+            47,
+            46
+          ],
+          "best_score": 0.9187732620003631
+        },
+        "n_currier_transition_classes": 4,
+        "n_hand_currier_transition_classes": 9
+      },
+      {
+        "boundary_tokens": "whole_page",
+        "raw": {
+          "current_rank": 18,
+          "current_score": -2.6408201436582894,
+          "current_exact_p_ge": 0.75,
+          "best_nesting_outer_to_inner": [
+            "43|46",
+            "41|48",
+            "44|45",
+            "42|47"
+          ],
+          "best_leaf_reading_order": [
+            43,
+            41,
+            44,
+            42,
+            47,
+            45,
+            48,
+            46
+          ],
+          "best_score": 3.2938976219985077
+        },
+        "currier_residual": {
+          "current_rank": 2,
+          "current_score": 0.6329742787799,
+          "current_exact_p_ge": 0.08333333333333333,
+          "best_nesting_outer_to_inner": [
+            "41|48",
+            "44|45",
+            "43|46",
+            "42|47"
+          ],
+          "best_leaf_reading_order": [
+            41,
+            44,
+            43,
+            42,
+            47,
+            46,
+            45,
+            48
+          ],
+          "best_score": 1.110570732057678
+        },
+        "hand_currier_residual": {
+          "current_rank": 6,
+          "current_score": 0.13640231747007606,
+          "current_exact_p_ge": 0.25,
+          "best_nesting_outer_to_inner": [
+            "43|46",
+            "42|47",
+            "41|48",
+            "44|45"
+          ],
+          "best_leaf_reading_order": [
+            43,
+            42,
+            41,
+            44,
+            45,
+            48,
+            47,
+            46
+          ],
+          "best_score": 0.9187732620003631
+        },
+        "n_currier_transition_classes": 4,
+        "n_hand_currier_transition_classes": 9
+      }
+    ],
+    "summary": {
+      "raw": {
+        "current_ranks": [
+          15,
+          21,
+          18,
+          18,
+          18
+        ],
+        "current_median_rank": 18,
+        "current_top1_windows": 0,
+        "current_top3_windows": 0,
+        "best_nestings_by_window": [
+          [
+            "41|48",
+            "43|46",
+            "42|47",
+            "44|45"
+          ],
+          [
+            "43|46",
+            "41|48",
+            "44|45",
+            "42|47"
+          ],
+          [
+            "43|46",
+            "41|48",
+            "44|45",
+            "42|47"
+          ],
+          [
+            "43|46",
+            "41|48",
+            "44|45",
+            "42|47"
+          ],
+          [
+            "43|46",
+            "41|48",
+            "44|45",
+            "42|47"
+          ]
+        ]
+      },
+      "currier_residual": {
+        "current_ranks": [
+          6,
+          15,
+          2,
+          2,
+          2
+        ],
+        "current_median_rank": 2,
+        "current_top1_windows": 0,
+        "current_top3_windows": 3,
+        "best_nestings_by_window": [
+          [
+            "44|45",
+            "43|46",
+            "42|47",
+            "41|48"
+          ],
+          [
+            "41|48",
+            "44|45",
+            "43|46",
+            "42|47"
+          ],
+          [
+            "41|48",
+            "44|45",
+            "43|46",
+            "42|47"
+          ],
+          [
+            "41|48",
+            "44|45",
+            "43|46",
+            "42|47"
+          ],
+          [
+            "41|48",
+            "44|45",
+            "43|46",
+            "42|47"
+          ]
+        ]
+      },
+      "hand_currier_residual": {
+        "current_ranks": [
+          7,
+          17,
+          6,
+          6,
+          6
+        ],
+        "current_median_rank": 6,
+        "current_top1_windows": 0,
+        "current_top3_windows": 0,
+        "best_nestings_by_window": [
+          [
+            "44|45",
+            "43|46",
+            "42|47",
+            "41|48"
+          ],
+          [
+            "41|48",
+            "44|45",
+            "43|46",
+            "42|47"
+          ],
+          [
+            "43|46",
+            "42|47",
+            "41|48",
+            "44|45"
+          ],
+          [
+            "43|46",
+            "42|47",
+            "41|48",
+            "44|45"
+          ],
+          [
+            "43|46",
+            "42|47",
+            "41|48",
+            "44|45"
+          ]
+        ]
+      }
+    }
+  },
+  "IT2a": {
+    "by_window": [
+      {
+        "boundary_tokens": 25,
+        "raw": {
+          "current_rank": 5,
+          "current_score": 1.3166543077535504,
+          "current_exact_p_ge": 0.20833333333333334,
+          "best_nesting_outer_to_inner": [
+            "41|48",
+            "43|46",
+            "42|47",
+            "44|45"
+          ],
+          "best_leaf_reading_order": [
+            41,
+            43,
+            42,
+            44,
+            45,
+            47,
+            46,
+            48
+          ],
+          "best_score": 3.645921530279452
+        },
+        "currier_residual": {
+          "current_rank": 1,
+          "current_score": 2.5000358826705074,
+          "current_exact_p_ge": 0.041666666666666664,
+          "best_nesting_outer_to_inner": [
+            "41|48",
+            "42|47",
+            "43|46",
+            "44|45"
+          ],
+          "best_leaf_reading_order": [
+            41,
+            42,
+            43,
+            44,
+            45,
+            46,
+            47,
+            48
+          ],
+          "best_score": 2.5000358826705074
+        },
+        "hand_currier_residual": {
+          "current_rank": 1,
+          "current_score": 2.2935616695279686,
+          "current_exact_p_ge": 0.041666666666666664,
+          "best_nesting_outer_to_inner": [
+            "41|48",
+            "42|47",
+            "43|46",
+            "44|45"
+          ],
+          "best_leaf_reading_order": [
+            41,
+            42,
+            43,
+            44,
+            45,
+            46,
+            47,
+            48
+          ],
+          "best_score": 2.2935616695279686
+        },
+        "n_currier_transition_classes": 4,
+        "n_hand_currier_transition_classes": 9
+      },
+      {
+        "boundary_tokens": 50,
+        "raw": {
+          "current_rank": 20,
+          "current_score": -2.420803484474897,
+          "current_exact_p_ge": 0.8333333333333334,
+          "best_nesting_outer_to_inner": [
+            "43|46",
+            "41|48",
+            "44|45",
+            "42|47"
+          ],
+          "best_leaf_reading_order": [
+            43,
+            41,
+            44,
+            42,
+            47,
+            45,
+            48,
+            46
+          ],
+          "best_score": 3.8751729107232737
+        },
+        "currier_residual": {
+          "current_rank": 11,
+          "current_score": -0.23383450033399095,
+          "current_exact_p_ge": 0.4583333333333333,
+          "best_nesting_outer_to_inner": [
+            "41|48",
+            "44|45",
+            "43|46",
+            "42|47"
+          ],
+          "best_leaf_reading_order": [
+            41,
+            44,
+            43,
+            42,
+            47,
+            46,
+            45,
+            48
+          ],
+          "best_score": 2.475445735226242
+        },
+        "hand_currier_residual": {
+          "current_rank": 15,
+          "current_score": -0.6449468599800428,
+          "current_exact_p_ge": 0.625,
+          "best_nesting_outer_to_inner": [
+            "41|48",
+            "44|45",
+            "43|46",
+            "42|47"
+          ],
+          "best_leaf_reading_order": [
+            41,
+            44,
+            43,
+            42,
+            47,
+            46,
+            45,
+            48
+          ],
+          "best_score": 2.06433337558019
+        },
+        "n_currier_transition_classes": 4,
+        "n_hand_currier_transition_classes": 9
+      },
+      {
+        "boundary_tokens": 100,
+        "raw": {
+          "current_rank": 22,
+          "current_score": -3.0446961031813493,
+          "current_exact_p_ge": 0.9166666666666666,
+          "best_nesting_outer_to_inner": [
+            "41|48",
+            "43|46",
+            "44|45",
+            "42|47"
+          ],
+          "best_leaf_reading_order": [
+            41,
+            43,
+            44,
+            42,
+            47,
+            45,
+            46,
+            48
+          ],
+          "best_score": 3.8602764554449394
+        },
+        "currier_residual": {
+          "current_rank": 11,
+          "current_score": 0.16409770126358253,
+          "current_exact_p_ge": 0.4583333333333333,
+          "best_nesting_outer_to_inner": [
+            "41|48",
+            "44|45",
+            "43|46",
+            "42|47"
+          ],
+          "best_leaf_reading_order": [
+            41,
+            44,
+            43,
+            42,
+            47,
+            46,
+            45,
+            48
+          ],
+          "best_score": 1.5250876917692442
+        },
+        "hand_currier_residual": {
+          "current_rank": 15,
+          "current_score": -0.14888807200052576,
+          "current_exact_p_ge": 0.625,
+          "best_nesting_outer_to_inner": [
+            "41|48",
+            "44|45",
+            "43|46",
+            "42|47"
+          ],
+          "best_leaf_reading_order": [
+            41,
+            44,
+            43,
+            42,
+            47,
+            46,
+            45,
+            48
+          ],
+          "best_score": 1.212101918505136
+        },
+        "n_currier_transition_classes": 4,
+        "n_hand_currier_transition_classes": 9
+      },
+      {
+        "boundary_tokens": 200,
+        "raw": {
+          "current_rank": 22,
+          "current_score": -3.439392867019383,
+          "current_exact_p_ge": 0.9166666666666666,
+          "best_nesting_outer_to_inner": [
+            "43|46",
+            "41|48",
+            "44|45",
+            "42|47"
+          ],
+          "best_leaf_reading_order": [
+            43,
+            41,
+            44,
+            42,
+            47,
+            45,
+            48,
+            46
+          ],
+          "best_score": 3.9669122027917423
+        },
+        "currier_residual": {
+          "current_rank": 13,
+          "current_score": -0.157875877883577,
+          "current_exact_p_ge": 0.5416666666666666,
+          "best_nesting_outer_to_inner": [
+            "41|48",
+            "44|45",
+            "43|46",
+            "42|47"
+          ],
+          "best_leaf_reading_order": [
+            41,
+            44,
+            43,
+            42,
+            47,
+            46,
+            45,
+            48
+          ],
+          "best_score": 1.4877655666281657
+        },
+        "hand_currier_residual": {
+          "current_rank": 14,
+          "current_score": -0.4791350670565581,
+          "current_exact_p_ge": 0.5833333333333334,
+          "best_nesting_outer_to_inner": [
+            "43|46",
+            "41|48",
+            "44|45",
+            "42|47"
+          ],
+          "best_leaf_reading_order": [
+            43,
+            41,
+            44,
+            42,
+            47,
+            45,
+            48,
+            46
+          ],
+          "best_score": 1.28196074036824
+        },
+        "n_currier_transition_classes": 4,
+        "n_hand_currier_transition_classes": 9
+      },
+      {
+        "boundary_tokens": "whole_page",
+        "raw": {
+          "current_rank": 22,
+          "current_score": -3.439392867019383,
+          "current_exact_p_ge": 0.9166666666666666,
+          "best_nesting_outer_to_inner": [
+            "43|46",
+            "41|48",
+            "44|45",
+            "42|47"
+          ],
+          "best_leaf_reading_order": [
+            43,
+            41,
+            44,
+            42,
+            47,
+            45,
+            48,
+            46
+          ],
+          "best_score": 3.9669122027917423
+        },
+        "currier_residual": {
+          "current_rank": 13,
+          "current_score": -0.157875877883577,
+          "current_exact_p_ge": 0.5416666666666666,
+          "best_nesting_outer_to_inner": [
+            "41|48",
+            "44|45",
+            "43|46",
+            "42|47"
+          ],
+          "best_leaf_reading_order": [
+            41,
+            44,
+            43,
+            42,
+            47,
+            46,
+            45,
+            48
+          ],
+          "best_score": 1.4877655666281657
+        },
+        "hand_currier_residual": {
+          "current_rank": 14,
+          "current_score": -0.4791350670565581,
+          "current_exact_p_ge": 0.5833333333333334,
+          "best_nesting_outer_to_inner": [
+            "43|46",
+            "41|48",
+            "44|45",
+            "42|47"
+          ],
+          "best_leaf_reading_order": [
+            43,
+            41,
+            44,
+            42,
+            47,
+            45,
+            48,
+            46
+          ],
+          "best_score": 1.28196074036824
+        },
+        "n_currier_transition_classes": 4,
+        "n_hand_currier_transition_classes": 9
+      }
+    ],
+    "summary": {
+      "raw": {
+        "current_ranks": [
+          5,
+          20,
+          22,
+          22,
+          22
+        ],
+        "current_median_rank": 22,
+        "current_top1_windows": 0,
+        "current_top3_windows": 0,
+        "best_nestings_by_window": [
+          [
+            "41|48",
+            "43|46",
+            "42|47",
+            "44|45"
+          ],
+          [
+            "43|46",
+            "41|48",
+            "44|45",
+            "42|47"
+          ],
+          [
+            "41|48",
+            "43|46",
+            "44|45",
+            "42|47"
+          ],
+          [
+            "43|46",
+            "41|48",
+            "44|45",
+            "42|47"
+          ],
+          [
+            "43|46",
+            "41|48",
+            "44|45",
+            "42|47"
+          ]
+        ]
+      },
+      "currier_residual": {
+        "current_ranks": [
+          1,
+          11,
+          11,
+          13,
+          13
+        ],
+        "current_median_rank": 11,
+        "current_top1_windows": 1,
+        "current_top3_windows": 1,
+        "best_nestings_by_window": [
+          [
+            "41|48",
+            "42|47",
+            "43|46",
+            "44|45"
+          ],
+          [
+            "41|48",
+            "44|45",
+            "43|46",
+            "42|47"
+          ],
+          [
+            "41|48",
+            "44|45",
+            "43|46",
+            "42|47"
+          ],
+          [
+            "41|48",
+            "44|45",
+            "43|46",
+            "42|47"
+          ],
+          [
+            "41|48",
+            "44|45",
+            "43|46",
+            "42|47"
+          ]
+        ]
+      },
+      "hand_currier_residual": {
+        "current_ranks": [
+          1,
+          15,
+          15,
+          14,
+          14
+        ],
+        "current_median_rank": 14,
+        "current_top1_windows": 1,
+        "current_top3_windows": 1,
+        "best_nestings_by_window": [
+          [
+            "41|48",
+            "42|47",
+            "43|46",
+            "44|45"
+          ],
+          [
+            "41|48",
+            "44|45",
+            "43|46",
+            "42|47"
+          ],
+          [
+            "41|48",
+            "44|45",
+            "43|46",
+            "42|47"
+          ],
+          [
+            "43|46",
+            "41|48",
+            "44|45",
+            "42|47"
+          ],
+          [
+            "43|46",
+            "41|48",
+            "44|45",
+            "42|47"
+          ]
+        ]
+      }
+    }
+  },
+  "cross_transcription": {
+    "raw": {
+      "current_ranks_across_10_tests": [
+        15,
+        21,
+        18,
+        18,
+        18,
+        5,
+        20,
+        22,
+        22,
+        22
+      ],
+      "median_rank": 19.0,
+      "top1_tests": 0,
+      "top3_tests": 0,
+      "worst_rank": 22
+    },
+    "currier_residual": {
+      "current_ranks_across_10_tests": [
+        6,
+        15,
+        2,
+        2,
+        2,
+        1,
+        11,
+        11,
+        13,
+        13
+      ],
+      "median_rank": 8.5,
+      "top1_tests": 1,
+      "top3_tests": 4,
+      "worst_rank": 15
+    },
+    "hand_currier_residual": {
+      "current_ranks_across_10_tests": [
+        7,
+        17,
+        6,
+        6,
+        6,
+        1,
+        15,
+        15,
+        14,
+        14
+      ],
+      "median_rank": 10.5,
+      "top1_tests": 1,
+      "top3_tests": 1,
+      "worst_rank": 17
+    }
+  },
+  "interpretation_rule": "A raw alternative is not promoted if its advantage collapses materially after Currier or exact H/L transition-class centering.",
+  "guardrails": [
+    "Exact metadata class centering can remove genuine sequence signal that is correlated with scribal/language changes; it is a confound control, not a replacement model.",
+    "Metadata labels come from ZL headers and are reused for IT2a.",
+    "No physical nesting labels enter the residualization.",
+    "Windows and text scoring are unchanged from the pre-existing Quire C model.",
+    "This tests nesting continuity only, not semantic decoding."
+  ]
+}

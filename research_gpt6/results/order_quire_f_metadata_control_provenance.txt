@@ -1,0 +1,6 @@
+workflow_commit=fb24567ccb78c62691c8387e7da13ab47d5464f9
+zl_commit=47e6a77dc9d5cd570c375f4aff710fa4a0567278
+python=Python 3.12.3
+bf5b6d4ac1e3a51b1847a9c388318d609020441ccd56984c901c32b09beccafc  /tmp/voynich_eva.txt
+7f27a8b0feed8f6de0a99900df6bf912dd1d295c38e5f830bac8b41c3f536fb5  /tmp/IT2a-n.txt
+1a284bde8017316916e5595cbb35ad6d4f438109c8c123d1a6ce1d9455492512  research_gpt6/code/order_quire_f_metadata_control.py
