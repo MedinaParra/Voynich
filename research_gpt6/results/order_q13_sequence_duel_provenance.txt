@@ -1,0 +1,5 @@
+workflow_commit=75b9f0e1453323619337a3827e68985c62c297b2
+corpus_commit=47e6a77dc9d5cd570c375f4aff710fa4a0567278
+python=Python 3.12.3
+bf5b6d4ac1e3a51b1847a9c388318d609020441ccd56984c901c32b09beccafc  /tmp/voynich-corpus/corpus/voynich_eva.txt
+11ab571d613bf3370c4ffe29d871abb5f423d9feaa4a95ffec114677196b3d62  research_gpt6/code/order_q13_sequence_duel.py
