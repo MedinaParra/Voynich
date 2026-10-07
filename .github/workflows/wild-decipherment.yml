@@ -3,7 +3,7 @@ on:
   workflow_dispatch:
   push:
     branches: [experiment/wild-decipherment]
-    paths: ['research_gpt6/code/wild_candidate_dictionary.py','research_gpt6/code/morpheme_role_audit.py','research_gpt6/code/compositional_morpheme_audit.py','research_gpt6/code/compositional_holdout_audit.py','.github/workflows/wild-decipherment.yml']
+    paths: ['research_gpt6/code/wild_candidate_dictionary.py','research_gpt6/code/morpheme_role_audit.py','research_gpt6/code/compositional_morpheme_audit.py','research_gpt6/code/compositional_holdout_audit.py','research_gpt6/code/regime_compositional_audit.py','.github/workflows/wild-decipherment.yml']
 jobs:
   morphology-candidates:
     runs-on: ubuntu-latest
@@ -22,6 +22,8 @@ jobs:
         run: python research_gpt6/code/compositional_morpheme_audit.py --corpus voynich_eva.txt --out research_gpt6/results/compositional_morpheme_audit.json --min-pair 4
       - name: Adversarial folio holdout
         run: python research_gpt6/code/compositional_holdout_audit.py --corpus voynich_eva.txt --out research_gpt6/results/compositional_holdout_audit.json --min-train 3 --min-test 2
+      - name: Control compositionality within manuscript regimes
+        run: python research_gpt6/code/regime_compositional_audit.py --corpus voynich_eva.txt --out research_gpt6/results/regime_compositional_audit.json --min-form 2 --min-stems 3
       - uses: actions/upload-artifact@v4
         if: always()
         with:
