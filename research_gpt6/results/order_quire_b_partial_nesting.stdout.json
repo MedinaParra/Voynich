@@ -1,0 +1,1006 @@
+{
+  "status": "PASS_PREDICTIVE_EXPLORATORY",
+  "protocol": "research_gpt6/33_quire_b_partial_nesting_protocol.md",
+  "target": "relative outer-to-inner order of surviving Quire B bifolia",
+  "known_surviving_bifolia_current_order": [
+    "9|16",
+    "10|15",
+    "11|14"
+  ],
+  "missing_central_bifolium": "12|13",
+  "candidate_orders": 6,
+  "scored_edges_per_candidate": 4,
+  "excluded_gap_edge_rule": "never score a3v->b3r because missing 12|13 intervenes",
+  "primary_control": "hand_currier_residual",
+  "ZL3b": {
+    "by_window": [
+      {
+        "boundary_tokens": 25,
+        "raw": {
+          "current_rank": 2,
+          "current_score": -0.16987596795885807,
+          "current_exact_uniform_rank_p": 0.3333333333333333,
+          "current_observed_transitions": [
+            "9->10",
+            "10->11",
+            "14->15",
+            "15->16"
+          ],
+          "best_nesting_outer_to_inner": [
+            "10|15",
+            "11|14",
+            "9|16"
+          ],
+          "best_observed_transitions": [
+            "10->11",
+            "11->9",
+            "16->14",
+            "14->15"
+          ],
+          "best_score": 0.939679210368221,
+          "second_score": -0.16987596795885807,
+          "best_margin_over_second": 1.1095551783270792,
+          "current_is_best": false
+        },
+        "currier_residual": {
+          "current_rank": 2,
+          "current_score": -0.16987596795885807,
+          "current_exact_uniform_rank_p": 0.3333333333333333,
+          "current_observed_transitions": [
+            "9->10",
+            "10->11",
+            "14->15",
+            "15->16"
+          ],
+          "best_nesting_outer_to_inner": [
+            "10|15",
+            "11|14",
+            "9|16"
+          ],
+          "best_observed_transitions": [
+            "10->11",
+            "11->9",
+            "16->14",
+            "14->15"
+          ],
+          "best_score": 0.939679210368221,
+          "second_score": -0.16987596795885807,
+          "best_margin_over_second": 1.1095551783270792,
+          "current_is_best": false
+        },
+        "hand_currier_residual": {
+          "current_rank": 2,
+          "current_score": -0.16987596795885807,
+          "current_exact_uniform_rank_p": 0.3333333333333333,
+          "current_observed_transitions": [
+            "9->10",
+            "10->11",
+            "14->15",
+            "15->16"
+          ],
+          "best_nesting_outer_to_inner": [
+            "10|15",
+            "11|14",
+            "9|16"
+          ],
+          "best_observed_transitions": [
+            "10->11",
+            "11->9",
+            "16->14",
+            "14->15"
+          ],
+          "best_score": 0.939679210368221,
+          "second_score": -0.16987596795885807,
+          "best_margin_over_second": 1.1095551783270792,
+          "current_is_best": false
+        },
+        "n_currier_transition_classes": 1,
+        "n_hand_currier_transition_classes": 1
+      },
+      {
+        "boundary_tokens": 50,
+        "raw": {
+          "current_rank": 3,
+          "current_score": 0.0679688070861329,
+          "current_exact_uniform_rank_p": 0.5,
+          "current_observed_transitions": [
+            "9->10",
+            "10->11",
+            "14->15",
+            "15->16"
+          ],
+          "best_nesting_outer_to_inner": [
+            "10|15",
+            "11|14",
+            "9|16"
+          ],
+          "best_observed_transitions": [
+            "10->11",
+            "11->9",
+            "16->14",
+            "14->15"
+          ],
+          "best_score": 0.6981724600322586,
+          "second_score": 0.1364976747190669,
+          "best_margin_over_second": 0.5616747853131917,
+          "current_is_best": false
+        },
+        "currier_residual": {
+          "current_rank": 3,
+          "current_score": 0.06796880708613295,
+          "current_exact_uniform_rank_p": 0.5,
+          "current_observed_transitions": [
+            "9->10",
+            "10->11",
+            "14->15",
+            "15->16"
+          ],
+          "best_nesting_outer_to_inner": [
+            "10|15",
+            "11|14",
+            "9|16"
+          ],
+          "best_observed_transitions": [
+            "10->11",
+            "11->9",
+            "16->14",
+            "14->15"
+          ],
+          "best_score": 0.6981724600322587,
+          "second_score": 0.13649767471906707,
+          "best_margin_over_second": 0.5616747853131917,
+          "current_is_best": false
+        },
+        "hand_currier_residual": {
+          "current_rank": 3,
+          "current_score": 0.06796880708613295,
+          "current_exact_uniform_rank_p": 0.5,
+          "current_observed_transitions": [
+            "9->10",
+            "10->11",
+            "14->15",
+            "15->16"
+          ],
+          "best_nesting_outer_to_inner": [
+            "10|15",
+            "11|14",
+            "9|16"
+          ],
+          "best_observed_transitions": [
+            "10->11",
+            "11->9",
+            "16->14",
+            "14->15"
+          ],
+          "best_score": 0.6981724600322587,
+          "second_score": 0.13649767471906707,
+          "best_margin_over_second": 0.5616747853131917,
+          "current_is_best": false
+        },
+        "n_currier_transition_classes": 1,
+        "n_hand_currier_transition_classes": 1
+      },
+      {
+        "boundary_tokens": 100,
+        "raw": {
+          "current_rank": 1,
+          "current_score": 0.8941529072040992,
+          "current_exact_uniform_rank_p": 0.16666666666666666,
+          "current_observed_transitions": [
+            "9->10",
+            "10->11",
+            "14->15",
+            "15->16"
+          ],
+          "best_nesting_outer_to_inner": [
+            "9|16",
+            "10|15",
+            "11|14"
+          ],
+          "best_observed_transitions": [
+            "9->10",
+            "10->11",
+            "14->15",
+            "15->16"
+          ],
+          "best_score": 0.8941529072040992,
+          "second_score": 0.29461201544848475,
+          "best_margin_over_second": 0.5995408917556144,
+          "current_is_best": true
+        },
+        "currier_residual": {
+          "current_rank": 1,
+          "current_score": 0.8941529072041001,
+          "current_exact_uniform_rank_p": 0.16666666666666666,
+          "current_observed_transitions": [
+            "9->10",
+            "10->11",
+            "14->15",
+            "15->16"
+          ],
+          "best_nesting_outer_to_inner": [
+            "9|16",
+            "10|15",
+            "11|14"
+          ],
+          "best_observed_transitions": [
+            "9->10",
+            "10->11",
+            "14->15",
+            "15->16"
+          ],
+          "best_score": 0.8941529072041001,
+          "second_score": 0.2946120154484857,
+          "best_margin_over_second": 0.5995408917556144,
+          "current_is_best": true
+        },
+        "hand_currier_residual": {
+          "current_rank": 1,
+          "current_score": 0.8941529072041001,
+          "current_exact_uniform_rank_p": 0.16666666666666666,
+          "current_observed_transitions": [
+            "9->10",
+            "10->11",
+            "14->15",
+            "15->16"
+          ],
+          "best_nesting_outer_to_inner": [
+            "9|16",
+            "10|15",
+            "11|14"
+          ],
+          "best_observed_transitions": [
+            "9->10",
+            "10->11",
+            "14->15",
+            "15->16"
+          ],
+          "best_score": 0.8941529072041001,
+          "second_score": 0.2946120154484857,
+          "best_margin_over_second": 0.5995408917556144,
+          "current_is_best": true
+        },
+        "n_currier_transition_classes": 1,
+        "n_hand_currier_transition_classes": 1
+      },
+      {
+        "boundary_tokens": 200,
+        "raw": {
+          "current_rank": 1,
+          "current_score": 0.8941529072040992,
+          "current_exact_uniform_rank_p": 0.16666666666666666,
+          "current_observed_transitions": [
+            "9->10",
+            "10->11",
+            "14->15",
+            "15->16"
+          ],
+          "best_nesting_outer_to_inner": [
+            "9|16",
+            "10|15",
+            "11|14"
+          ],
+          "best_observed_transitions": [
+            "9->10",
+            "10->11",
+            "14->15",
+            "15->16"
+          ],
+          "best_score": 0.8941529072040992,
+          "second_score": 0.29461201544848475,
+          "best_margin_over_second": 0.5995408917556144,
+          "current_is_best": true
+        },
+        "currier_residual": {
+          "current_rank": 1,
+          "current_score": 0.8941529072041001,
+          "current_exact_uniform_rank_p": 0.16666666666666666,
+          "current_observed_transitions": [
+            "9->10",
+            "10->11",
+            "14->15",
+            "15->16"
+          ],
+          "best_nesting_outer_to_inner": [
+            "9|16",
+            "10|15",
+            "11|14"
+          ],
+          "best_observed_transitions": [
+            "9->10",
+            "10->11",
+            "14->15",
+            "15->16"
+          ],
+          "best_score": 0.8941529072041001,
+          "second_score": 0.2946120154484857,
+          "best_margin_over_second": 0.5995408917556144,
+          "current_is_best": true
+        },
+        "hand_currier_residual": {
+          "current_rank": 1,
+          "current_score": 0.8941529072041001,
+          "current_exact_uniform_rank_p": 0.16666666666666666,
+          "current_observed_transitions": [
+            "9->10",
+            "10->11",
+            "14->15",
+            "15->16"
+          ],
+          "best_nesting_outer_to_inner": [
+            "9|16",
+            "10|15",
+            "11|14"
+          ],
+          "best_observed_transitions": [
+            "9->10",
+            "10->11",
+            "14->15",
+            "15->16"
+          ],
+          "best_score": 0.8941529072041001,
+          "second_score": 0.2946120154484857,
+          "best_margin_over_second": 0.5995408917556144,
+          "current_is_best": true
+        },
+        "n_currier_transition_classes": 1,
+        "n_hand_currier_transition_classes": 1
+      },
+      {
+        "boundary_tokens": "whole_page",
+        "raw": {
+          "current_rank": 1,
+          "current_score": 0.8941529072040992,
+          "current_exact_uniform_rank_p": 0.16666666666666666,
+          "current_observed_transitions": [
+            "9->10",
+            "10->11",
+            "14->15",
+            "15->16"
+          ],
+          "best_nesting_outer_to_inner": [
+            "9|16",
+            "10|15",
+            "11|14"
+          ],
+          "best_observed_transitions": [
+            "9->10",
+            "10->11",
+            "14->15",
+            "15->16"
+          ],
+          "best_score": 0.8941529072040992,
+          "second_score": 0.29461201544848475,
+          "best_margin_over_second": 0.5995408917556144,
+          "current_is_best": true
+        },
+        "currier_residual": {
+          "current_rank": 1,
+          "current_score": 0.8941529072041001,
+          "current_exact_uniform_rank_p": 0.16666666666666666,
+          "current_observed_transitions": [
+            "9->10",
+            "10->11",
+            "14->15",
+            "15->16"
+          ],
+          "best_nesting_outer_to_inner": [
+            "9|16",
+            "10|15",
+            "11|14"
+          ],
+          "best_observed_transitions": [
+            "9->10",
+            "10->11",
+            "14->15",
+            "15->16"
+          ],
+          "best_score": 0.8941529072041001,
+          "second_score": 0.2946120154484857,
+          "best_margin_over_second": 0.5995408917556144,
+          "current_is_best": true
+        },
+        "hand_currier_residual": {
+          "current_rank": 1,
+          "current_score": 0.8941529072041001,
+          "current_exact_uniform_rank_p": 0.16666666666666666,
+          "current_observed_transitions": [
+            "9->10",
+            "10->11",
+            "14->15",
+            "15->16"
+          ],
+          "best_nesting_outer_to_inner": [
+            "9|16",
+            "10|15",
+            "11|14"
+          ],
+          "best_observed_transitions": [
+            "9->10",
+            "10->11",
+            "14->15",
+            "15->16"
+          ],
+          "best_score": 0.8941529072041001,
+          "second_score": 0.2946120154484857,
+          "best_margin_over_second": 0.5995408917556144,
+          "current_is_best": true
+        },
+        "n_currier_transition_classes": 1,
+        "n_hand_currier_transition_classes": 1
+      }
+    ],
+    "summary": {
+      "raw": {
+        "current_ranks": [
+          2,
+          3,
+          1,
+          1,
+          1
+        ],
+        "median_rank": 1,
+        "top1_windows": 3,
+        "top2_windows": 4,
+        "worst_rank": 3
+      },
+      "currier_residual": {
+        "current_ranks": [
+          2,
+          3,
+          1,
+          1,
+          1
+        ],
+        "median_rank": 1,
+        "top1_windows": 3,
+        "top2_windows": 4,
+        "worst_rank": 3
+      },
+      "hand_currier_residual": {
+        "current_ranks": [
+          2,
+          3,
+          1,
+          1,
+          1
+        ],
+        "median_rank": 1,
+        "top1_windows": 3,
+        "top2_windows": 4,
+        "worst_rank": 3
+      }
+    }
+  },
+  "IT2a": {
+    "by_window": [
+      {
+        "boundary_tokens": 25,
+        "raw": {
+          "current_rank": 3,
+          "current_score": 0.07321009423355554,
+          "current_exact_uniform_rank_p": 0.5,
+          "current_observed_transitions": [
+            "9->10",
+            "10->11",
+            "14->15",
+            "15->16"
+          ],
+          "best_nesting_outer_to_inner": [
+            "10|15",
+            "11|14",
+            "9|16"
+          ],
+          "best_observed_transitions": [
+            "10->11",
+            "11->9",
+            "16->14",
+            "14->15"
+          ],
+          "best_score": 1.2947747835224312,
+          "second_score": 0.14409894583384297,
+          "best_margin_over_second": 1.1506758376885884,
+          "current_is_best": false
+        },
+        "currier_residual": {
+          "current_rank": 3,
+          "current_score": 0.07321009423355576,
+          "current_exact_uniform_rank_p": 0.5,
+          "current_observed_transitions": [
+            "9->10",
+            "10->11",
+            "14->15",
+            "15->16"
+          ],
+          "best_nesting_outer_to_inner": [
+            "10|15",
+            "11|14",
+            "9|16"
+          ],
+          "best_observed_transitions": [
+            "10->11",
+            "11->9",
+            "16->14",
+            "14->15"
+          ],
+          "best_score": 1.2947747835224315,
+          "second_score": 0.1440989458338433,
+          "best_margin_over_second": 1.1506758376885882,
+          "current_is_best": false
+        },
+        "hand_currier_residual": {
+          "current_rank": 3,
+          "current_score": 0.07321009423355576,
+          "current_exact_uniform_rank_p": 0.5,
+          "current_observed_transitions": [
+            "9->10",
+            "10->11",
+            "14->15",
+            "15->16"
+          ],
+          "best_nesting_outer_to_inner": [
+            "10|15",
+            "11|14",
+            "9|16"
+          ],
+          "best_observed_transitions": [
+            "10->11",
+            "11->9",
+            "16->14",
+            "14->15"
+          ],
+          "best_score": 1.2947747835224315,
+          "second_score": 0.1440989458338433,
+          "best_margin_over_second": 1.1506758376885882,
+          "current_is_best": false
+        },
+        "n_currier_transition_classes": 1,
+        "n_hand_currier_transition_classes": 1
+      },
+      {
+        "boundary_tokens": 50,
+        "raw": {
+          "current_rank": 1,
+          "current_score": 0.3859699661313911,
+          "current_exact_uniform_rank_p": 0.16666666666666666,
+          "current_observed_transitions": [
+            "9->10",
+            "10->11",
+            "14->15",
+            "15->16"
+          ],
+          "best_nesting_outer_to_inner": [
+            "9|16",
+            "10|15",
+            "11|14"
+          ],
+          "best_observed_transitions": [
+            "9->10",
+            "10->11",
+            "14->15",
+            "15->16"
+          ],
+          "best_score": 0.3859699661313911,
+          "second_score": 0.168533941486198,
+          "best_margin_over_second": 0.21743602464519313,
+          "current_is_best": true
+        },
+        "currier_residual": {
+          "current_rank": 1,
+          "current_score": 0.3859699661313908,
+          "current_exact_uniform_rank_p": 0.16666666666666666,
+          "current_observed_transitions": [
+            "9->10",
+            "10->11",
+            "14->15",
+            "15->16"
+          ],
+          "best_nesting_outer_to_inner": [
+            "9|16",
+            "10|15",
+            "11|14"
+          ],
+          "best_observed_transitions": [
+            "9->10",
+            "10->11",
+            "14->15",
+            "15->16"
+          ],
+          "best_score": 0.3859699661313908,
+          "second_score": 0.16853394148619777,
+          "best_margin_over_second": 0.21743602464519302,
+          "current_is_best": true
+        },
+        "hand_currier_residual": {
+          "current_rank": 1,
+          "current_score": 0.3859699661313908,
+          "current_exact_uniform_rank_p": 0.16666666666666666,
+          "current_observed_transitions": [
+            "9->10",
+            "10->11",
+            "14->15",
+            "15->16"
+          ],
+          "best_nesting_outer_to_inner": [
+            "9|16",
+            "10|15",
+            "11|14"
+          ],
+          "best_observed_transitions": [
+            "9->10",
+            "10->11",
+            "14->15",
+            "15->16"
+          ],
+          "best_score": 0.3859699661313908,
+          "second_score": 0.16853394148619777,
+          "best_margin_over_second": 0.21743602464519302,
+          "current_is_best": true
+        },
+        "n_currier_transition_classes": 1,
+        "n_hand_currier_transition_classes": 1
+      },
+      {
+        "boundary_tokens": 100,
+        "raw": {
+          "current_rank": 1,
+          "current_score": 0.7485117036960518,
+          "current_exact_uniform_rank_p": 0.16666666666666666,
+          "current_observed_transitions": [
+            "9->10",
+            "10->11",
+            "14->15",
+            "15->16"
+          ],
+          "best_nesting_outer_to_inner": [
+            "9|16",
+            "10|15",
+            "11|14"
+          ],
+          "best_observed_transitions": [
+            "9->10",
+            "10->11",
+            "14->15",
+            "15->16"
+          ],
+          "best_score": 0.7485117036960518,
+          "second_score": 0.07235055972481147,
+          "best_margin_over_second": 0.6761611439712403,
+          "current_is_best": true
+        },
+        "currier_residual": {
+          "current_rank": 1,
+          "current_score": 0.7485117036960512,
+          "current_exact_uniform_rank_p": 0.16666666666666666,
+          "current_observed_transitions": [
+            "9->10",
+            "10->11",
+            "14->15",
+            "15->16"
+          ],
+          "best_nesting_outer_to_inner": [
+            "9|16",
+            "10|15",
+            "11|14"
+          ],
+          "best_observed_transitions": [
+            "9->10",
+            "10->11",
+            "14->15",
+            "15->16"
+          ],
+          "best_score": 0.7485117036960512,
+          "second_score": 0.07235055972481103,
+          "best_margin_over_second": 0.6761611439712403,
+          "current_is_best": true
+        },
+        "hand_currier_residual": {
+          "current_rank": 1,
+          "current_score": 0.7485117036960512,
+          "current_exact_uniform_rank_p": 0.16666666666666666,
+          "current_observed_transitions": [
+            "9->10",
+            "10->11",
+            "14->15",
+            "15->16"
+          ],
+          "best_nesting_outer_to_inner": [
+            "9|16",
+            "10|15",
+            "11|14"
+          ],
+          "best_observed_transitions": [
+            "9->10",
+            "10->11",
+            "14->15",
+            "15->16"
+          ],
+          "best_score": 0.7485117036960512,
+          "second_score": 0.07235055972481103,
+          "best_margin_over_second": 0.6761611439712403,
+          "current_is_best": true
+        },
+        "n_currier_transition_classes": 1,
+        "n_hand_currier_transition_classes": 1
+      },
+      {
+        "boundary_tokens": 200,
+        "raw": {
+          "current_rank": 1,
+          "current_score": 0.7485117036960518,
+          "current_exact_uniform_rank_p": 0.16666666666666666,
+          "current_observed_transitions": [
+            "9->10",
+            "10->11",
+            "14->15",
+            "15->16"
+          ],
+          "best_nesting_outer_to_inner": [
+            "9|16",
+            "10|15",
+            "11|14"
+          ],
+          "best_observed_transitions": [
+            "9->10",
+            "10->11",
+            "14->15",
+            "15->16"
+          ],
+          "best_score": 0.7485117036960518,
+          "second_score": 0.07235055972481147,
+          "best_margin_over_second": 0.6761611439712403,
+          "current_is_best": true
+        },
+        "currier_residual": {
+          "current_rank": 1,
+          "current_score": 0.7485117036960512,
+          "current_exact_uniform_rank_p": 0.16666666666666666,
+          "current_observed_transitions": [
+            "9->10",
+            "10->11",
+            "14->15",
+            "15->16"
+          ],
+          "best_nesting_outer_to_inner": [
+            "9|16",
+            "10|15",
+            "11|14"
+          ],
+          "best_observed_transitions": [
+            "9->10",
+            "10->11",
+            "14->15",
+            "15->16"
+          ],
+          "best_score": 0.7485117036960512,
+          "second_score": 0.07235055972481103,
+          "best_margin_over_second": 0.6761611439712403,
+          "current_is_best": true
+        },
+        "hand_currier_residual": {
+          "current_rank": 1,
+          "current_score": 0.7485117036960512,
+          "current_exact_uniform_rank_p": 0.16666666666666666,
+          "current_observed_transitions": [
+            "9->10",
+            "10->11",
+            "14->15",
+            "15->16"
+          ],
+          "best_nesting_outer_to_inner": [
+            "9|16",
+            "10|15",
+            "11|14"
+          ],
+          "best_observed_transitions": [
+            "9->10",
+            "10->11",
+            "14->15",
+            "15->16"
+          ],
+          "best_score": 0.7485117036960512,
+          "second_score": 0.07235055972481103,
+          "best_margin_over_second": 0.6761611439712403,
+          "current_is_best": true
+        },
+        "n_currier_transition_classes": 1,
+        "n_hand_currier_transition_classes": 1
+      },
+      {
+        "boundary_tokens": "whole_page",
+        "raw": {
+          "current_rank": 1,
+          "current_score": 0.7485117036960518,
+          "current_exact_uniform_rank_p": 0.16666666666666666,
+          "current_observed_transitions": [
+            "9->10",
+            "10->11",
+            "14->15",
+            "15->16"
+          ],
+          "best_nesting_outer_to_inner": [
+            "9|16",
+            "10|15",
+            "11|14"
+          ],
+          "best_observed_transitions": [
+            "9->10",
+            "10->11",
+            "14->15",
+            "15->16"
+          ],
+          "best_score": 0.7485117036960518,
+          "second_score": 0.07235055972481147,
+          "best_margin_over_second": 0.6761611439712403,
+          "current_is_best": true
+        },
+        "currier_residual": {
+          "current_rank": 1,
+          "current_score": 0.7485117036960512,
+          "current_exact_uniform_rank_p": 0.16666666666666666,
+          "current_observed_transitions": [
+            "9->10",
+            "10->11",
+            "14->15",
+            "15->16"
+          ],
+          "best_nesting_outer_to_inner": [
+            "9|16",
+            "10|15",
+            "11|14"
+          ],
+          "best_observed_transitions": [
+            "9->10",
+            "10->11",
+            "14->15",
+            "15->16"
+          ],
+          "best_score": 0.7485117036960512,
+          "second_score": 0.07235055972481103,
+          "best_margin_over_second": 0.6761611439712403,
+          "current_is_best": true
+        },
+        "hand_currier_residual": {
+          "current_rank": 1,
+          "current_score": 0.7485117036960512,
+          "current_exact_uniform_rank_p": 0.16666666666666666,
+          "current_observed_transitions": [
+            "9->10",
+            "10->11",
+            "14->15",
+            "15->16"
+          ],
+          "best_nesting_outer_to_inner": [
+            "9|16",
+            "10|15",
+            "11|14"
+          ],
+          "best_observed_transitions": [
+            "9->10",
+            "10->11",
+            "14->15",
+            "15->16"
+          ],
+          "best_score": 0.7485117036960512,
+          "second_score": 0.07235055972481103,
+          "best_margin_over_second": 0.6761611439712403,
+          "current_is_best": true
+        },
+        "n_currier_transition_classes": 1,
+        "n_hand_currier_transition_classes": 1
+      }
+    ],
+    "summary": {
+      "raw": {
+        "current_ranks": [
+          3,
+          1,
+          1,
+          1,
+          1
+        ],
+        "median_rank": 1,
+        "top1_windows": 4,
+        "top2_windows": 4,
+        "worst_rank": 3
+      },
+      "currier_residual": {
+        "current_ranks": [
+          3,
+          1,
+          1,
+          1,
+          1
+        ],
+        "median_rank": 1,
+        "top1_windows": 4,
+        "top2_windows": 4,
+        "worst_rank": 3
+      },
+      "hand_currier_residual": {
+        "current_ranks": [
+          3,
+          1,
+          1,
+          1,
+          1
+        ],
+        "median_rank": 1,
+        "top1_windows": 4,
+        "top2_windows": 4,
+        "worst_rank": 3
+      }
+    }
+  },
+  "folio_metadata_signatures": {
+    "9": {
+      "H": [
+        "1"
+      ],
+      "L": [
+        "A"
+      ]
+    },
+    "10": {
+      "H": [
+        "1"
+      ],
+      "L": [
+        "A"
+      ]
+    },
+    "11": {
+      "H": [
+        "1"
+      ],
+      "L": [
+        "A"
+      ]
+    },
+    "14": {
+      "H": [
+        "1"
+      ],
+      "L": [
+        "A"
+      ]
+    },
+    "15": {
+      "H": [
+        "1"
+      ],
+      "L": [
+        "A"
+      ]
+    },
+    "16": {
+      "H": [
+        "1"
+      ],
+      "L": [
+        "A"
+      ]
+    }
+  },
+  "parser_audit": {
+    "ZL3b": {
+      "uncertain_chunks": 1129,
+      "paragraph_loci": 4119,
+      "drawing_breaks": 746
+    },
+    "IT2a": {
+      "paragraph_loci": 4118,
+      "uncertain_chunks": 80,
+      "drawing_breaks": 779
+    }
+  },
+  "guardrails": [
+    "Decision thresholds were frozen before this script was executed.",
+    "Quire B was previously used in a physical-pairing experiment, but not in the A/C/D/E/F/G nesting-order scans.",
+    "Only four observed adjacencies are scored; the missing-center interface is never imputed.",
+    "Five windows are correlated and are not independent p-values.",
+    "With six possible orders, rank 1 has exact uniform rank probability 1/6; PASS is operational predictive consistency, not alpha-0.05 significance.",
+    "ZL3b and IT2a are independent transcriptions of the same manuscript, not independent manuscripts.",
+    "No semantic, linguistic, translation, or decipherment claim follows from this test."
+  ]
+}
