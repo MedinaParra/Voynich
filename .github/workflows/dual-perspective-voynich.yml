@@ -9,6 +9,10 @@ on:
       - 'research_gpt6/code/internal_reuse_retrieval.py'
       - 'research_gpt6/code/test_internal_reuse_retrieval.py'
       - 'research_gpt6/data/internal_reuse_anchors.json'
+      - 'research_gpt6/code/transformation_probe.py'
+      - 'research_gpt6/code/test_transformation_probe.py'
+      - 'research_gpt6/data/transformation_inventory.json'
+      - 'research_gpt6/data/transformation_plan.json'
       - '.github/workflows/dual-perspective-voynich.yml'
 jobs:
   two-view-controls:
@@ -31,6 +35,10 @@ jobs:
         run: python -m unittest discover -s research_gpt6/code -p test_internal_reuse_retrieval.py -v
       - name: Run tentative internal-reuse retrieval
         run: python research_gpt6/code/internal_reuse_retrieval.py --corpus voynich_eva.txt --anchors research_gpt6/data/internal_reuse_anchors.json --out research_gpt6/results/internal_reuse_result.json
+      - name: Verify transformation failure controls
+        run: python -m unittest discover -s research_gpt6/code -p test_transformation_probe.py -v
+      - name: Run bounded transformation generation
+        run: python research_gpt6/code/transformation_probe.py --corpus voynich_eva.txt --inventory research_gpt6/data/transformation_inventory.json --plan research_gpt6/data/transformation_plan.json --predictions research_gpt6/results/transformation_predictions.json --out research_gpt6/results/transformation_result.json
       - uses: actions/upload-artifact@v4
         if: always()
         with:
@@ -38,4 +46,6 @@ jobs:
           path: |
             research_gpt6/results/dual_perspective_result.json
             research_gpt6/results/internal_reuse_result.json
+            research_gpt6/results/transformation_result.json
+            research_gpt6/results/transformation_predictions.json
           if-no-files-found: warn

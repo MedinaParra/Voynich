@@ -1,0 +1,876 @@
+{
+  "status": "PASS_EXECUTED",
+  "classification": "BOUNDED_TEXT_RULE_PILOT_NOT_TRANSLATION",
+  "source_blob": "2a4533ab9bdfa85db9bad602d590978953055df1",
+  "inventory_relations": 35,
+  "usable_pairs": 10,
+  "distinct_herbal_entities": 9,
+  "physical_source_leaves": [
+    "f100",
+    "f102",
+    "f99"
+  ],
+  "pharmaceutical_quires": [
+    "S"
+  ],
+  "raw_source_plant_labels_found": 0,
+  "excluded_relations": [
+    {
+      "relation": {
+        "pharma": "f99v",
+        "fragment": "110",
+        "herbal": "f34v",
+        "source": "https://voynich.nu/q19/index.html",
+        "identity_verified": false,
+        "parts_independently_annotated": false,
+        "visual_review_known_pair": false
+      },
+      "reasons": [
+        "No unique raw Lf label carrying the numeric fragment ID",
+        "Source and caption differ in Currier or scribal hand, or metadata missing"
+      ]
+    },
+    {
+      "relation": {
+        "pharma": "f101r1",
+        "fragment": "150",
+        "herbal": "f30v",
+        "source": "https://voynich.nu/q19/index.html",
+        "identity_verified": false,
+        "parts_independently_annotated": false,
+        "visual_review_known_pair": false
+      },
+      "reasons": [
+        "One fragment linked to multiple proposed herbal families",
+        "No unique raw Lf label carrying the numeric fragment ID"
+      ]
+    },
+    {
+      "relation": {
+        "pharma": "f101r1",
+        "fragment": "150",
+        "herbal": "f55v",
+        "source": "https://voynich.nu/q19/index.html",
+        "identity_verified": false,
+        "parts_independently_annotated": false,
+        "visual_review_known_pair": false
+      },
+      "reasons": [
+        "One fragment linked to multiple proposed herbal families",
+        "No unique raw Lf label carrying the numeric fragment ID"
+      ]
+    },
+    {
+      "relation": {
+        "pharma": "f101r1",
+        "fragment": "155",
+        "herbal": "f49r",
+        "source": "https://voynich.nu/q19/index.html",
+        "identity_verified": false,
+        "parts_independently_annotated": false,
+        "visual_review_known_pair": false
+      },
+      "reasons": [
+        "No unique raw Lf label carrying the numeric fragment ID"
+      ]
+    },
+    {
+      "relation": {
+        "pharma": "f101r1",
+        "fragment": "168",
+        "herbal": "f4v",
+        "source": "https://voynich.nu/q19/index.html",
+        "identity_verified": false,
+        "parts_independently_annotated": false,
+        "visual_review_known_pair": false
+      },
+      "reasons": [
+        "No unique raw Lf label carrying the numeric fragment ID"
+      ]
+    },
+    {
+      "relation": {
+        "pharma": "f101v1",
+        "fragment": "188",
+        "herbal": "f37r",
+        "source": "https://voynich.nu/q19/index.html",
+        "identity_verified": false,
+        "parts_independently_annotated": false,
+        "visual_review_known_pair": false
+      },
+      "reasons": [
+        "No unique raw Lf label carrying the numeric fragment ID"
+      ]
+    },
+    {
+      "relation": {
+        "pharma": "f102r1",
+        "fragment": "203",
+        "herbal": "f37v",
+        "source": "https://voynich.nu/q19/index.html",
+        "identity_verified": false,
+        "parts_independently_annotated": false,
+        "visual_review_known_pair": false
+      },
+      "reasons": [
+        "No unique raw Lf label carrying the numeric fragment ID"
+      ]
+    },
+    {
+      "relation": {
+        "pharma": "f102r1",
+        "fragment": "204",
+        "herbal": "f1v",
+        "source": "https://voynich.nu/q19/index.html",
+        "identity_verified": false,
+        "parts_independently_annotated": false,
+        "visual_review_known_pair": false
+      },
+      "reasons": [
+        "No unique raw Lf label carrying the numeric fragment ID"
+      ]
+    },
+    {
+      "relation": {
+        "pharma": "f102r2",
+        "fragment": "205",
+        "herbal": "f47v",
+        "source": "https://voynich.nu/q19/index.html",
+        "identity_verified": false,
+        "parts_independently_annotated": false,
+        "visual_review_known_pair": false
+      },
+      "reasons": [
+        "No unique raw Lf label carrying the numeric fragment ID"
+      ]
+    },
+    {
+      "relation": {
+        "pharma": "f102r2",
+        "fragment": "206",
+        "herbal": "f32v",
+        "source": "https://voynich.nu/q19/index.html",
+        "identity_verified": false,
+        "parts_independently_annotated": false,
+        "visual_review_known_pair": false
+      },
+      "reasons": [
+        "No unique raw Lf label carrying the numeric fragment ID"
+      ]
+    },
+    {
+      "relation": {
+        "pharma": "f102r2",
+        "fragment": "209",
+        "herbal": "f53r",
+        "source": "https://voynich.nu/q19/index.html",
+        "identity_verified": false,
+        "parts_independently_annotated": false,
+        "visual_review_known_pair": false
+      },
+      "reasons": [
+        "No unique raw Lf label carrying the numeric fragment ID"
+      ]
+    },
+    {
+      "relation": {
+        "pharma": "f88r",
+        "fragment": "11",
+        "herbal": "f90r2",
+        "source": "https://voynich.nu/q15/index.html",
+        "identity_verified": false,
+        "parts_independently_annotated": false,
+        "visual_review_known_pair": false
+      },
+      "reasons": [
+        "No unique raw Lf label carrying the numeric fragment ID"
+      ]
+    },
+    {
+      "relation": {
+        "pharma": "f88r",
+        "fragment": "8",
+        "herbal": "f15v",
+        "source": "https://voynich.nu/q15/index.html",
+        "identity_verified": false,
+        "parts_independently_annotated": false,
+        "visual_review_known_pair": false
+      },
+      "reasons": [
+        "No unique raw Lf label carrying the numeric fragment ID"
+      ]
+    },
+    {
+      "relation": {
+        "pharma": "f88v",
+        "fragment": "22",
+        "herbal": "f94v",
+        "source": "https://voynich.nu/q15/index.html",
+        "identity_verified": false,
+        "parts_independently_annotated": false,
+        "visual_review_known_pair": false
+      },
+      "reasons": [
+        "No unique raw Lf label carrying the numeric fragment ID",
+        "Source and caption differ in Currier or scribal hand, or metadata missing"
+      ]
+    },
+    {
+      "relation": {
+        "pharma": "f89r1",
+        "fragment": "25",
+        "herbal": "f57r",
+        "source": "https://voynich.nu/q15/index.html",
+        "identity_verified": false,
+        "parts_independently_annotated": false,
+        "visual_review_known_pair": false
+      },
+      "reasons": [
+        "No unique raw Lf label carrying the numeric fragment ID",
+        "Source and caption differ in Currier or scribal hand, or metadata missing"
+      ]
+    },
+    {
+      "relation": {
+        "pharma": "f89r1",
+        "fragment": "28",
+        "herbal": "f30r",
+        "source": "https://voynich.nu/q15/index.html",
+        "identity_verified": false,
+        "parts_independently_annotated": false,
+        "visual_review_known_pair": false
+      },
+      "reasons": [
+        "No unique raw Lf label carrying the numeric fragment ID"
+      ]
+    },
+    {
+      "relation": {
+        "pharma": "f89r1",
+        "fragment": "31",
+        "herbal": "f33r",
+        "source": "https://voynich.nu/q15/index.html",
+        "identity_verified": false,
+        "parts_independently_annotated": false,
+        "visual_review_known_pair": false
+      },
+      "reasons": [
+        "No unique raw Lf label carrying the numeric fragment ID",
+        "Source and caption differ in Currier or scribal hand, or metadata missing"
+      ]
+    },
+    {
+      "relation": {
+        "pharma": "f89r1",
+        "fragment": "26",
+        "herbal": "f43v",
+        "source": "https://voynich.nu/q15/index.html",
+        "identity_verified": false,
+        "parts_independently_annotated": false,
+        "visual_review_known_pair": false
+      },
+      "reasons": [
+        "No unique raw Lf label carrying the numeric fragment ID",
+        "Source and caption differ in Currier or scribal hand, or metadata missing"
+      ]
+    },
+    {
+      "relation": {
+        "pharma": "f89r2",
+        "fragment": "35",
+        "herbal": "f35v",
+        "source": "https://voynich.nu/q15/index.html",
+        "identity_verified": false,
+        "parts_independently_annotated": false,
+        "visual_review_known_pair": false
+      },
+      "reasons": [
+        "No unique raw Lf label carrying the numeric fragment ID"
+      ]
+    },
+    {
+      "relation": {
+        "pharma": "f89r2",
+        "fragment": "40",
+        "herbal": "f87v",
+        "source": "https://voynich.nu/q15/index.html",
+        "identity_verified": false,
+        "parts_independently_annotated": false,
+        "visual_review_known_pair": false
+      },
+      "reasons": [
+        "No unique raw Lf label carrying the numeric fragment ID"
+      ]
+    },
+    {
+      "relation": {
+        "pharma": "f89v2",
+        "fragment": "50",
+        "herbal": "f10v",
+        "source": "https://voynich.nu/q15/index.html",
+        "identity_verified": false,
+        "parts_independently_annotated": false,
+        "visual_review_known_pair": false
+      },
+      "reasons": [
+        "No unique raw Lf label carrying the numeric fragment ID"
+      ]
+    },
+    {
+      "relation": {
+        "pharma": "f89v2",
+        "fragment": "54",
+        "herbal": "f48v",
+        "source": "https://voynich.nu/q15/index.html",
+        "identity_verified": false,
+        "parts_independently_annotated": false,
+        "visual_review_known_pair": false
+      },
+      "reasons": [
+        "No unique raw Lf label carrying the numeric fragment ID",
+        "Source and caption differ in Currier or scribal hand, or metadata missing"
+      ]
+    },
+    {
+      "relation": {
+        "pharma": "f89v2",
+        "fragment": "56",
+        "herbal": "f24r",
+        "source": "https://voynich.nu/q15/index.html",
+        "identity_verified": false,
+        "parts_independently_annotated": false,
+        "visual_review_known_pair": false
+      },
+      "reasons": [
+        "No unique raw Lf label carrying the numeric fragment ID"
+      ]
+    },
+    {
+      "relation": {
+        "pharma": "f89v2",
+        "fragment": "61",
+        "herbal": "f48r",
+        "source": "https://voynich.nu/q15/index.html",
+        "identity_verified": false,
+        "parts_independently_annotated": false,
+        "visual_review_known_pair": false
+      },
+      "reasons": [
+        "Source and caption differ in Currier or scribal hand, or metadata missing"
+      ]
+    },
+    {
+      "relation": {
+        "pharma": "f89v2",
+        "fragment": "52",
+        "herbal": "f40v",
+        "source": "https://voynich.nu/q15/index.html",
+        "identity_verified": false,
+        "parts_independently_annotated": false,
+        "visual_review_known_pair": false
+      },
+      "reasons": [
+        "No unique raw Lf label carrying the numeric fragment ID",
+        "Source and caption differ in Currier or scribal hand, or metadata missing"
+      ]
+    }
+  ],
+  "folds": [
+    {
+      "leaf": "f100",
+      "test_n": 3,
+      "train_n": 6,
+      "purged_shared_entities": 1,
+      "rule": null,
+      "fit": {
+        "eligible_rules": 0,
+        "mode": "IDENTITY_FALLBACK"
+      }
+    },
+    {
+      "leaf": "f102",
+      "test_n": 4,
+      "train_n": 6,
+      "purged_shared_entities": 0,
+      "rule": null,
+      "fit": {
+        "eligible_rules": 0,
+        "mode": "IDENTITY_FALLBACK"
+      }
+    },
+    {
+      "leaf": "f99",
+      "test_n": 3,
+      "train_n": 6,
+      "purged_shared_entities": 1,
+      "rule": null,
+      "fit": {
+        "eligible_rules": 0,
+        "mode": "IDENTITY_FALLBACK"
+      }
+    }
+  ],
+  "observations": [
+    {
+      "id": "f100r:116",
+      "entity": "f96v",
+      "caption": "sochorcfhy",
+      "learned": {
+        "generated": false,
+        "rank_min": null,
+        "rank_max": null,
+        "unique_top1": false,
+        "conservative_top5": false,
+        "generated_candidates": 50,
+        "first5": [
+          "odar",
+          "saro",
+          "oral",
+          "sheodal",
+          "oeol"
+        ]
+      },
+      "identity": {
+        "generated": false,
+        "rank_min": null,
+        "rank_max": null,
+        "unique_top1": false,
+        "conservative_top5": false,
+        "generated_candidates": 50,
+        "first5": [
+          "odar",
+          "saro",
+          "oral",
+          "sheodal",
+          "oeol"
+        ]
+      }
+    },
+    {
+      "id": "f100v:133",
+      "entity": "f13v",
+      "caption": "opchor",
+      "learned": {
+        "generated": false,
+        "rank_min": null,
+        "rank_max": null,
+        "unique_top1": false,
+        "conservative_top5": false,
+        "generated_candidates": 45,
+        "first5": [
+          "otol",
+          "olcphy",
+          "otal",
+          "cthody",
+          "foldaiin"
+        ]
+      },
+      "identity": {
+        "generated": false,
+        "rank_min": null,
+        "rank_max": null,
+        "unique_top1": false,
+        "conservative_top5": false,
+        "generated_candidates": 45,
+        "first5": [
+          "otol",
+          "olcphy",
+          "otal",
+          "cthody",
+          "foldaiin"
+        ]
+      }
+    },
+    {
+      "id": "f100v:136",
+      "entity": "f90v2",
+      "caption": "ykchochdy",
+      "learned": {
+        "generated": false,
+        "rank_min": null,
+        "rank_max": null,
+        "unique_top1": false,
+        "conservative_top5": false,
+        "generated_candidates": 44,
+        "first5": [
+          "chodar",
+          "qodar",
+          "cheody",
+          "sheody",
+          "tchody"
+        ]
+      },
+      "identity": {
+        "generated": false,
+        "rank_min": null,
+        "rank_max": null,
+        "unique_top1": false,
+        "conservative_top5": false,
+        "generated_candidates": 44,
+        "first5": [
+          "chodar",
+          "qodar",
+          "cheody",
+          "sheody",
+          "tchody"
+        ]
+      }
+    },
+    {
+      "id": "f102r2:212",
+      "entity": "f18v",
+      "caption": "koldarod",
+      "learned": {
+        "generated": false,
+        "rank_min": null,
+        "rank_max": null,
+        "unique_top1": false,
+        "conservative_top5": false,
+        "generated_candidates": 52,
+        "first5": [
+          "ykcho",
+          "okchor",
+          "orshy",
+          "ykchy",
+          "told"
+        ]
+      },
+      "identity": {
+        "generated": false,
+        "rank_min": null,
+        "rank_max": null,
+        "unique_top1": false,
+        "conservative_top5": false,
+        "generated_candidates": 52,
+        "first5": [
+          "ykcho",
+          "okchor",
+          "orshy",
+          "ykchy",
+          "told"
+        ]
+      }
+    },
+    {
+      "id": "f102r2:213",
+      "entity": "f23r",
+      "caption": "odalydary",
+      "learned": {
+        "generated": false,
+        "rank_min": null,
+        "rank_max": null,
+        "unique_top1": false,
+        "conservative_top5": false,
+        "generated_candidates": 59,
+        "first5": [
+          "qokoldy",
+          "ololdy",
+          "fcholdy",
+          "olfchor",
+          "opyaiin"
+        ]
+      },
+      "identity": {
+        "generated": false,
+        "rank_min": null,
+        "rank_max": null,
+        "unique_top1": false,
+        "conservative_top5": false,
+        "generated_candidates": 59,
+        "first5": [
+          "qokoldy",
+          "ololdy",
+          "fcholdy",
+          "olfchor",
+          "opyaiin"
+        ]
+      }
+    },
+    {
+      "id": "f102v2:225",
+      "entity": "f36r",
+      "caption": "sarol",
+      "learned": {
+        "generated": false,
+        "rank_min": null,
+        "rank_max": null,
+        "unique_top1": false,
+        "conservative_top5": false,
+        "generated_candidates": 44,
+        "first5": [
+          "ytorory",
+          "ytodaly",
+          "qoypchol",
+          "dolsain",
+          "okchy"
+        ]
+      },
+      "identity": {
+        "generated": false,
+        "rank_min": null,
+        "rank_max": null,
+        "unique_top1": false,
+        "conservative_top5": false,
+        "generated_candidates": 44,
+        "first5": [
+          "ytorory",
+          "ytodaly",
+          "qoypchol",
+          "dolsain",
+          "okchy"
+        ]
+      }
+    },
+    {
+      "id": "f102v1:240",
+      "entity": "f19r",
+      "caption": "loralody",
+      "learned": {
+        "generated": false,
+        "rank_min": null,
+        "rank_max": null,
+        "unique_top1": false,
+        "conservative_top5": false,
+        "generated_candidates": 43,
+        "first5": [
+          "choldy",
+          "ykchor",
+          "chordy",
+          "qokorar",
+          "pchor"
+        ]
+      },
+      "identity": {
+        "generated": false,
+        "rank_min": null,
+        "rank_max": null,
+        "unique_top1": false,
+        "conservative_top5": false,
+        "generated_candidates": 43,
+        "first5": [
+          "choldy",
+          "ykchor",
+          "chordy",
+          "qokorar",
+          "pchor"
+        ]
+      }
+    },
+    {
+      "id": "f99r:80",
+      "entity": "f51r",
+      "caption": "oaro",
+      "learned": {
+        "generated": false,
+        "rank_min": null,
+        "rank_max": null,
+        "unique_top1": false,
+        "conservative_top5": false,
+        "generated_candidates": 66,
+        "first5": [
+          "ykchol",
+          "cphodal",
+          "otydy",
+          "ykald",
+          "ckheody"
+        ]
+      },
+      "identity": {
+        "generated": false,
+        "rank_min": null,
+        "rank_max": null,
+        "unique_top1": false,
+        "conservative_top5": false,
+        "generated_candidates": 66,
+        "first5": [
+          "ykchol",
+          "cphodal",
+          "otydy",
+          "ykald",
+          "ckheody"
+        ]
+      }
+    },
+    {
+      "id": "f99r:94",
+      "entity": "f96v",
+      "caption": "tolsasy",
+      "learned": {
+        "generated": false,
+        "rank_min": null,
+        "rank_max": null,
+        "unique_top1": false,
+        "conservative_top5": false,
+        "generated_candidates": 50,
+        "first5": [
+          "sosar",
+          "chcthory",
+          "ytear",
+          "yteor",
+          "alchey"
+        ]
+      },
+      "identity": {
+        "generated": false,
+        "rank_min": null,
+        "rank_max": null,
+        "unique_top1": false,
+        "conservative_top5": false,
+        "generated_candidates": 50,
+        "first5": [
+          "sosar",
+          "chcthory",
+          "ytear",
+          "yteor",
+          "alchey"
+        ]
+      }
+    },
+    {
+      "id": "f99v:95",
+      "entity": "f44r",
+      "caption": "otoldy",
+      "learned": {
+        "generated": false,
+        "rank_min": null,
+        "rank_max": null,
+        "unique_top1": false,
+        "conservative_top5": false,
+        "generated_candidates": 54,
+        "first5": [
+          "opchey",
+          "otchol",
+          "ykchey",
+          "okchey",
+          "roiry"
+        ]
+      },
+      "identity": {
+        "generated": false,
+        "rank_min": null,
+        "rank_max": null,
+        "unique_top1": false,
+        "conservative_top5": false,
+        "generated_candidates": 54,
+        "first5": [
+          "opchey",
+          "otchol",
+          "ykchey",
+          "okchey",
+          "roiry"
+        ]
+      }
+    }
+  ],
+  "summary": {
+    "n": 10,
+    "learned": {
+      "generated": 0,
+      "unique_top1": 0,
+      "conservative_top5": 0,
+      "candidate_counts": [
+        43,
+        44,
+        44,
+        45,
+        50,
+        50,
+        52,
+        54,
+        59,
+        66
+      ]
+    },
+    "identity": {
+      "generated": 0,
+      "unique_top1": 0,
+      "conservative_top5": 0,
+      "candidate_counts": [
+        43,
+        44,
+        44,
+        45,
+        50,
+        50,
+        52,
+        54,
+        59,
+        66
+      ]
+    }
+  },
+  "wrong_correspondence_benchmark": {
+    "requested": 199,
+    "completed": 199,
+    "blocked": null,
+    "eligible_control_pages": {
+      "f51r": 42,
+      "f96v": 19,
+      "f44r": 27,
+      "f13v": 26,
+      "f90v2": 14,
+      "f18v": 32,
+      "f23r": 33,
+      "f36r": 14,
+      "f19r": 42
+    },
+    "classification": "EXPLORATORY_WRONG_MATCH_BENCHMARK_NOT_P_VALUE",
+    "distribution": {
+      "learned": {
+        "generated": {
+          "mean": 0.1708542713567839,
+          "max": 2,
+          "fraction_at_least_observed": 1.0
+        },
+        "unique_top1": {
+          "mean": 0.0,
+          "max": 0,
+          "fraction_at_least_observed": 1.0
+        },
+        "conservative_top5": {
+          "mean": 0.0,
+          "max": 0,
+          "fraction_at_least_observed": 1.0
+        }
+      },
+      "identity": {
+        "generated": {
+          "mean": 0.1708542713567839,
+          "max": 2,
+          "fraction_at_least_observed": 1.0
+        },
+        "unique_top1": {
+          "mean": 0.0,
+          "max": 0,
+          "fraction_at_least_observed": 1.0
+        },
+        "conservative_top5": {
+          "mean": 0.0,
+          "max": 0,
+          "fraction_at_least_observed": 1.0
+        }
+      }
+    }
+  },
+  "independently_verified_part_contrast_families": 0,
+  "semantic_gate": "BLOCKED",
+  "semantic_reason": "No independently verified localized root/leaf contrasts; source inputs are paragraphs, not established plant names",
+  "transformation_claim": "Exploratory only; see exact predictions and identity baseline",
+  "translation": "NOT_RUN",
+  "novelty": "NOT_ESTABLISHED",
+  "environment": {
+    "python": "3.12.14"
+  },
+  "limitations": [
+    "Visual identities remain tentative and selection is not blinded",
+    "All usable pharma captions come from one quire (S / quire 19)",
+    "Known corpus reused; held-out leaf generation is not fresh semantic validation",
+    "EVA bench segmentation is a convention, not recovered phonology",
+    "One affix rule with a preserved middle tests only a restricted channel",
+    "Root/leaf effects cannot be inferred from herbal-to-pharma section differences",
+    "Wrong-match assignments are constrained and not uniform formal permutations"
+  ],
+  "inventory_sha256": "fa9f30f17197ff4ab6c2f6df3a7b877f9027f2fdbd2b73ca085ea4b72a48eb1b",
+  "plan_sha256": "136c1cf28d254c7d122a81763ad3c6d652cd614f862bc90934482b5eae10dc4f",
+  "predictions_sha256": "ddc626608907bdfcbb6a43887e80c7e1bb67f22f82578f47b6b2a79e019ff1c8"
+}

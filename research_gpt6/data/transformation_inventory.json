@@ -1,0 +1,326 @@
+{
+  "classification": "AUTHOR_PROPOSED_VISUAL_RELATIONS_NOT_SEMANTIC_ANCHORS",
+  "source_blob": "2a4533ab9bdfa85db9bad602d590978953055df1",
+  "frozen_at_utc": "2026-10-07T02:59:05.021152+00:00",
+  "relations": [
+    {
+      "pharma": "f99r",
+      "fragment": "80",
+      "herbal": "f51r",
+      "source": "https://voynich.nu/q19/index.html",
+      "identity_verified": false,
+      "parts_independently_annotated": false,
+      "visual_review_known_pair": false
+    },
+    {
+      "pharma": "f99r",
+      "fragment": "94",
+      "herbal": "f96v",
+      "source": "https://voynich.nu/q19/index.html",
+      "identity_verified": false,
+      "parts_independently_annotated": false,
+      "visual_review_known_pair": true
+    },
+    {
+      "pharma": "f99v",
+      "fragment": "95",
+      "herbal": "f44r",
+      "source": "https://voynich.nu/q19/index.html",
+      "identity_verified": false,
+      "parts_independently_annotated": false,
+      "visual_review_known_pair": false
+    },
+    {
+      "pharma": "f99v",
+      "fragment": "110",
+      "herbal": "f34v",
+      "source": "https://voynich.nu/q19/index.html",
+      "identity_verified": false,
+      "parts_independently_annotated": false,
+      "visual_review_known_pair": false
+    },
+    {
+      "pharma": "f100r",
+      "fragment": "116",
+      "herbal": "f96v",
+      "source": "https://voynich.nu/q19/index.html",
+      "identity_verified": false,
+      "parts_independently_annotated": false,
+      "visual_review_known_pair": true
+    },
+    {
+      "pharma": "f100v",
+      "fragment": "133",
+      "herbal": "f13v",
+      "source": "https://voynich.nu/q19/index.html",
+      "identity_verified": false,
+      "parts_independently_annotated": false,
+      "visual_review_known_pair": false
+    },
+    {
+      "pharma": "f100v",
+      "fragment": "136",
+      "herbal": "f90v2",
+      "source": "https://voynich.nu/q19/index.html",
+      "identity_verified": false,
+      "parts_independently_annotated": false,
+      "visual_review_known_pair": false
+    },
+    {
+      "pharma": "f101r1",
+      "fragment": "150",
+      "herbal": "f30v",
+      "source": "https://voynich.nu/q19/index.html",
+      "identity_verified": false,
+      "parts_independently_annotated": false,
+      "visual_review_known_pair": false
+    },
+    {
+      "pharma": "f101r1",
+      "fragment": "150",
+      "herbal": "f55v",
+      "source": "https://voynich.nu/q19/index.html",
+      "identity_verified": false,
+      "parts_independently_annotated": false,
+      "visual_review_known_pair": false
+    },
+    {
+      "pharma": "f101r1",
+      "fragment": "155",
+      "herbal": "f49r",
+      "source": "https://voynich.nu/q19/index.html",
+      "identity_verified": false,
+      "parts_independently_annotated": false,
+      "visual_review_known_pair": false
+    },
+    {
+      "pharma": "f101r1",
+      "fragment": "168",
+      "herbal": "f4v",
+      "source": "https://voynich.nu/q19/index.html",
+      "identity_verified": false,
+      "parts_independently_annotated": false,
+      "visual_review_known_pair": false
+    },
+    {
+      "pharma": "f101v1",
+      "fragment": "188",
+      "herbal": "f37r",
+      "source": "https://voynich.nu/q19/index.html",
+      "identity_verified": false,
+      "parts_independently_annotated": false,
+      "visual_review_known_pair": false
+    },
+    {
+      "pharma": "f102r1",
+      "fragment": "203",
+      "herbal": "f37v",
+      "source": "https://voynich.nu/q19/index.html",
+      "identity_verified": false,
+      "parts_independently_annotated": false,
+      "visual_review_known_pair": false
+    },
+    {
+      "pharma": "f102r1",
+      "fragment": "204",
+      "herbal": "f1v",
+      "source": "https://voynich.nu/q19/index.html",
+      "identity_verified": false,
+      "parts_independently_annotated": false,
+      "visual_review_known_pair": false
+    },
+    {
+      "pharma": "f102r2",
+      "fragment": "205",
+      "herbal": "f47v",
+      "source": "https://voynich.nu/q19/index.html",
+      "identity_verified": false,
+      "parts_independently_annotated": false,
+      "visual_review_known_pair": false
+    },
+    {
+      "pharma": "f102r2",
+      "fragment": "206",
+      "herbal": "f32v",
+      "source": "https://voynich.nu/q19/index.html",
+      "identity_verified": false,
+      "parts_independently_annotated": false,
+      "visual_review_known_pair": false
+    },
+    {
+      "pharma": "f102r2",
+      "fragment": "209",
+      "herbal": "f53r",
+      "source": "https://voynich.nu/q19/index.html",
+      "identity_verified": false,
+      "parts_independently_annotated": false,
+      "visual_review_known_pair": false
+    },
+    {
+      "pharma": "f102r2",
+      "fragment": "212",
+      "herbal": "f18v",
+      "source": "https://voynich.nu/q19/index.html",
+      "identity_verified": false,
+      "parts_independently_annotated": false,
+      "visual_review_known_pair": true
+    },
+    {
+      "pharma": "f102r2",
+      "fragment": "213",
+      "herbal": "f23r",
+      "source": "https://voynich.nu/q19/index.html",
+      "identity_verified": false,
+      "parts_independently_annotated": false,
+      "visual_review_known_pair": true
+    },
+    {
+      "pharma": "f102v2",
+      "fragment": "225",
+      "herbal": "f36r",
+      "source": "https://voynich.nu/q19/index.html",
+      "identity_verified": false,
+      "parts_independently_annotated": false,
+      "visual_review_known_pair": false
+    },
+    {
+      "pharma": "f102v1",
+      "fragment": "240",
+      "herbal": "f19r",
+      "source": "https://voynich.nu/q19/index.html",
+      "identity_verified": false,
+      "parts_independently_annotated": false,
+      "visual_review_known_pair": false
+    },
+    {
+      "pharma": "f88r",
+      "fragment": "11",
+      "herbal": "f90r2",
+      "source": "https://voynich.nu/q15/index.html",
+      "identity_verified": false,
+      "parts_independently_annotated": false,
+      "visual_review_known_pair": false
+    },
+    {
+      "pharma": "f88r",
+      "fragment": "8",
+      "herbal": "f15v",
+      "source": "https://voynich.nu/q15/index.html",
+      "identity_verified": false,
+      "parts_independently_annotated": false,
+      "visual_review_known_pair": false
+    },
+    {
+      "pharma": "f88v",
+      "fragment": "22",
+      "herbal": "f94v",
+      "source": "https://voynich.nu/q15/index.html",
+      "identity_verified": false,
+      "parts_independently_annotated": false,
+      "visual_review_known_pair": false
+    },
+    {
+      "pharma": "f89r1",
+      "fragment": "25",
+      "herbal": "f57r",
+      "source": "https://voynich.nu/q15/index.html",
+      "identity_verified": false,
+      "parts_independently_annotated": false,
+      "visual_review_known_pair": false
+    },
+    {
+      "pharma": "f89r1",
+      "fragment": "28",
+      "herbal": "f30r",
+      "source": "https://voynich.nu/q15/index.html",
+      "identity_verified": false,
+      "parts_independently_annotated": false,
+      "visual_review_known_pair": false
+    },
+    {
+      "pharma": "f89r1",
+      "fragment": "31",
+      "herbal": "f33r",
+      "source": "https://voynich.nu/q15/index.html",
+      "identity_verified": false,
+      "parts_independently_annotated": false,
+      "visual_review_known_pair": false
+    },
+    {
+      "pharma": "f89r1",
+      "fragment": "26",
+      "herbal": "f43v",
+      "source": "https://voynich.nu/q15/index.html",
+      "identity_verified": false,
+      "parts_independently_annotated": false,
+      "visual_review_known_pair": false
+    },
+    {
+      "pharma": "f89r2",
+      "fragment": "35",
+      "herbal": "f35v",
+      "source": "https://voynich.nu/q15/index.html",
+      "identity_verified": false,
+      "parts_independently_annotated": false,
+      "visual_review_known_pair": false
+    },
+    {
+      "pharma": "f89r2",
+      "fragment": "40",
+      "herbal": "f87v",
+      "source": "https://voynich.nu/q15/index.html",
+      "identity_verified": false,
+      "parts_independently_annotated": false,
+      "visual_review_known_pair": false
+    },
+    {
+      "pharma": "f89v2",
+      "fragment": "50",
+      "herbal": "f10v",
+      "source": "https://voynich.nu/q15/index.html",
+      "identity_verified": false,
+      "parts_independently_annotated": false,
+      "visual_review_known_pair": false
+    },
+    {
+      "pharma": "f89v2",
+      "fragment": "54",
+      "herbal": "f48v",
+      "source": "https://voynich.nu/q15/index.html",
+      "identity_verified": false,
+      "parts_independently_annotated": false,
+      "visual_review_known_pair": false
+    },
+    {
+      "pharma": "f89v2",
+      "fragment": "56",
+      "herbal": "f24r",
+      "source": "https://voynich.nu/q15/index.html",
+      "identity_verified": false,
+      "parts_independently_annotated": false,
+      "visual_review_known_pair": false
+    },
+    {
+      "pharma": "f89v2",
+      "fragment": "61",
+      "herbal": "f48r",
+      "source": "https://voynich.nu/q15/index.html",
+      "identity_verified": false,
+      "parts_independently_annotated": false,
+      "visual_review_known_pair": false
+    },
+    {
+      "pharma": "f89v2",
+      "fragment": "52",
+      "herbal": "f40v",
+      "source": "https://voynich.nu/q15/index.html",
+      "identity_verified": false,
+      "parts_independently_annotated": false,
+      "visual_review_known_pair": false
+    }
+  ],
+  "scope": "Relations explicitly described in q15 and q19, including tentative notes; no numeric fragment IDs are assigned by guessing label order",
+  "review_scope": "Directed inspection of f96v, f99r fragment 94 and f100r fragment 116; earlier directed review of f18v/212 and f23r/213. No blind botanical identity adjudication.",
+  "eligible_semantic_contrasts": [],
+  "semantic_contrast_note": "f96v has two proposed pharma correspondences, but 94 and 116 both retain roots and leaves; 94 also shows fruits. Neither is a verified root-only versus leaf-only contrast."
+}
