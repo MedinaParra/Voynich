@@ -19,3 +19,13 @@ Repositorio inicializado. La rama `main` contiene solamente este archivo de orie
 [Plan de descifrado elegido](research_gpt6/16_plan_descifrado.md) y [primera fase ejecutada](research_gpt6/17_resultado_plan_descifrado.md): reglas de enlace EVA generalizan a hojas y cuadernos reservados. Identificación de idioma y traducción pendientes.
 
 [Filtro de mecanismos ejecutado](research_gpt6/19_resultados_mecanismos.md): generadores sin semántica y controles latinos sobre hojas reservadas; la MI de borde puede reproducirse sin traducir. Ningún control explica conjuntamente las seis métricas.
+
+## Avance del 7 de octubre de 2026
+
+[Reglas de prefijos y sufijos](research_gpt6/42_transformation_probe.md): 35 correspondencias propuestas, diez pares utilizables y 0/10 rótulos generados; el contraste semántico raíz/hoja sigue bloqueado.
+
+[Enlace de bordes y copia local](research_gpt6/43_local_copy_mechanism.md): evaluación de tres generadores en 89 grupos de hoja y cinco particiones, separando tres estratos de mano/Currier. La copia mejora la predicción solo 0,00335–0,00419 bits por token; el texto generado sigue fallando en repeticiones, variantes y formas únicas. No hay un mecanismo con adecuación conjunta ni una traducción.
+
+El protocolo se fijó antes de ajustar el modelo nuevo y se conservan las salidas, hashes y controles de fallo. El corpus ya había sido explorado: estas reservas no son validación semántica externa.
+
+[GitHub Actions](https://github.com/MedinaParra/Voynich/actions/runs/37596432044) pasó los catorce controles del canal de copia y reprodujo el resumen numérico y las ganancias por partición. La [auditoría](research_gpt6/results/local_copy_ci_audit.json) delimita qué se verificó.

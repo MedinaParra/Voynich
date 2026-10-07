@@ -69,7 +69,9 @@ Una dependencia local puede deberse a gramática, abreviaciones, tema, notación
 
 Catorce controles pasan: normalización de los tres canales y del canal de edición en los límites de longitud, múltiples rutas de una misma edición, límites/no cruces del parser, comas, agrupación por hoja, señal sintética de copia, vecinos sintéticos ajenos, contexto sustituto emparejado, invariancia a renombramiento, soporte para palabra nueva, ausencia de actualización al puntuar reserva y validación de la configuración fijada. El positivo sintético demuestra sensibilidad del software a una señal construida, no verdad del mecanismo en Voynich.
 
-Python local 3.12.14, biblioteca estándar. Comandos reales y hashes en `results/local_copy_checks.json`; datos completos en `results/local_copy_result.json`. Se añadieron los comandos al workflow de doble perspectiva. La reproducción remota se verificará con logs reales antes de afirmarla.
+Python local 3.12.14, biblioteca estándar. Comandos reales y hashes en `results/local_copy_checks.json`; datos completos en `results/local_copy_result.json`.
+
+La [ejecución de GitHub Actions 37596432044](https://github.com/MedinaParra/Voynich/actions/runs/37596432044), commit `66d2c4f73270ba28ef1c0dbf9a4191212e0d17b0`, y su job `112710109467` terminaron con éxito. Pasaron los catorce controles. Los logs coinciden exactamente con el resumen compacto local, las diez ganancias redondeadas por partición y los seis recuentos de firmas cubiertas. Coincide el SHA-256 de los ejemplos representativos generados (`592e2118b237a9b4d31ebec84f60057dd429c5d4e6409318496e7fd315b97e0f`). Auditoría: `results/local_copy_ci_audit.json`. No se descargó el artefacto ni se verificó por hash todo el JSON de resultados o cada valor individual de simulación; no se afirma ese alcance.
 
 ```sh
 curl -L --fail -o voynich_eva.txt 'https://raw.githubusercontent.com/cesarjz/Voynich/47e6a77dc9d5cd570c375f4aff710fa4a0567278/corpus/voynich_eva.txt'
