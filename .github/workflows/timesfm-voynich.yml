@@ -5,6 +5,19 @@ on:
     branches: [research/gpt6-audit]
     paths: ['research_gpt6/**','.github/workflows/timesfm-voynich.yml']
 jobs:
+  functional-role-transfer-h60:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: {python-version: '3.11'}
+      - run: curl -L --fail -o voynich_eva.txt 'https://raw.githubusercontent.com/cesarjz/Voynich/47e6a77dc9d5cd570c375f4aff710fa4a0567278/corpus/voynich_eva.txt'
+      - name: Run frozen H60 cross-quire functional-role transfer
+        run: mkdir -p research_gpt6/results && python research_gpt6/code/functional_role_transfer_h60.py --corpus voynich_eva.txt --out research_gpt6/results/functional_role_transfer_h60.json --permutations 999
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with: {name: functional-role-transfer-h60-results, path: research_gpt6/results/functional_role_transfer_h60.json, if-no-files-found: error}
   label-locus-vs-running-text:
     runs-on: ubuntu-latest
     timeout-minutes: 10
