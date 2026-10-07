@@ -36,12 +36,12 @@ Image endpoint:
 
 `http://www.voynichese.com/2/data/folio/image/glance/color/large/{PAGE}.jpg`
 
-Required decoded-image SHA-256 values established prospectively for H77 from the completed H76 acquisition record:
+Required **downloaded JPEG-byte SHA-256** values established prospectively for H77 from the completed H76 acquisition record:
 
 - `f68r1`: `a7da74a67a4411dc95e650c270c76ffd1a323dc20f55dc9ab718e6344c263d11`
 - `f68r2`: `c8ac7f381499fca09cd5c5dd83dd26a0e07d66752d2a0390fb25878ddc1aee60`
 
-A hash mismatch is **BLOCKED**.
+These hashes are over the downloaded JPEG bytes before decoding, exactly as implemented and recorded by H76. A hash mismatch is **BLOCKED**.
 
 ## Frozen base extraction
 
