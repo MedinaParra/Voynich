@@ -1,0 +1,29 @@
+name: H59 scribe correction audit
+on:
+  workflow_dispatch:
+  pull_request:
+    branches: [research/gpt6-audit]
+    paths:
+      - 'research_gpt6/61_h59_visual_audit_stage0.json'
+      - 'research_gpt6/code/scribe_correction_audit_h59.py'
+      - '.github/workflows/h59-scribe-audit.yml'
+jobs:
+  h59-visual-audit-gate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: {python-version: '3.11'}
+      - name: Validate blind H59 correction inventory before scoring
+        run: |
+          mkdir -p research_gpt6/results
+          python research_gpt6/code/scribe_correction_audit_h59.py \
+            --audit research_gpt6/61_h59_visual_audit_stage0.json \
+            --out research_gpt6/results/h59_visual_audit_gate.json
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: h59-visual-audit-gate-results
+          path: research_gpt6/results/h59_visual_audit_gate.json
+          if-no-files-found: error
