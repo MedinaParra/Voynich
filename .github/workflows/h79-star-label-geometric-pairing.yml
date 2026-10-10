@@ -1,0 +1,34 @@
+# Trigger commit after workflow registration; no H79 scientific criteria changed.
+name: H79 star-label geometric pairing
+on:
+  workflow_dispatch:
+  pull_request:
+    branches: [research/gpt6-audit]
+    paths:
+      - 'research_gpt6/100_h79_star_label_geometric_pairing_preregistration.md'
+      - 'research_gpt6/code/h78_star_label_geometric_pairing.py'
+      - '.github/workflows/h79-star-label-geometric-pairing.yml'
+
+jobs:
+  h79-star-label-geometric-pairing:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install frozen runtime dependencies
+        run: python -m pip install --disable-pip-version-check numpy==2.4.6 scipy==1.17.1
+      - name: Fetch frozen independent f68r1 star centres
+        run: curl -L --fail -o f68r_star_centres.csv 'https://raw.githubusercontent.com/seeton/Voynich-public/8920f2e506fce4c2c5a1245fb21a312f25655f1b/analysis/annotations/f68r_star_centres.csv'
+      - name: Fetch frozen Yale f68r1 coordinates
+        run: curl -L --fail -o f68r1.json 'https://raw.githubusercontent.com/YaleDHLab/voynich/c4d36f4595292c92da8c7428e30cb23b700a019b/utils/voynichese/coords/f68r1.json'
+      - name: Run canonically renumbered H79 geometric pairing gate
+        run: mkdir -p research_gpt6/results && python research_gpt6/code/h78_star_label_geometric_pairing.py --stars f68r_star_centres.csv --yale f68r1.json --out research_gpt6/results/h79_star_label_geometric_pairing.json
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: h79-star-label-geometric-pairing-results
+          path: research_gpt6/results/h79_star_label_geometric_pairing.json
+          if-no-files-found: error

@@ -1,0 +1,33 @@
+name: H70 cross-alphabet label coverage
+on:
+  workflow_dispatch:
+  pull_request:
+    branches: [research/gpt6-audit]
+    paths:
+      - 'research_gpt6/**'
+      - '.github/workflows/h70-cross-alphabet-label-coverage.yml'
+
+jobs:
+  h70-cross-alphabet-label-coverage:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Fetch frozen transcription sources
+        run: |
+          base='https://raw.githubusercontent.com/noah-chelednik/voynich-data/472ef7366606a799fc8f1044c037e06b413f6ddd/data_sources/cache'
+          curl -L --fail -o IT_ivtff_1a.txt "$base/IT_ivtff_1a.txt"
+          curl -L --fail -o CD2a-n.txt "$base/CD2a-n.txt"
+          curl -L --fail -o FG2a-n.txt "$base/FG2a-n.txt"
+          curl -L --fail -o GC2a-n.txt "$base/GC2a-n.txt"
+      - name: Run preregistered H70 coverage audit
+        run: mkdir -p research_gpt6/results && python research_gpt6/code/h70_cross_alphabet_label_coverage.py --it IT_ivtff_1a.txt --cd CD2a-n.txt --fg FG2a-n.txt --gc GC2a-n.txt --out research_gpt6/results/h70_cross_alphabet_label_coverage.json
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: h70-cross-alphabet-label-coverage-results
+          path: research_gpt6/results/h70_cross_alphabet_label_coverage.json
+          if-no-files-found: error

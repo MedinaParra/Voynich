@@ -1,0 +1,28 @@
+name: H62 independent-transcription label replication
+on:
+  workflow_dispatch:
+  pull_request:
+    branches: [research/gpt6-audit]
+    paths:
+      - 'research_gpt6/**'
+      - '.github/workflows/h62-independent-transcription-label.yml'
+
+jobs:
+  h62-independent-transcription-label:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Fetch frozen Takahashi IT2a-n transcription
+        run: curl -L --fail -o IT2a-n.txt 'https://raw.githubusercontent.com/oklo/voynich_gpt/2d7c61c387ad6962de730caf73c48612bc8f6957/IT2a-n.txt'
+      - name: Run preregistered H62 independent-transcription replication
+        run: mkdir -p research_gpt6/results && python research_gpt6/code/h62_independent_transcription_label.py --corpus IT2a-n.txt --out research_gpt6/results/h62_independent_transcription_label.json --permutations 999
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: h62-independent-transcription-label-results
+          path: research_gpt6/results/h62_independent_transcription_label.json
+          if-no-files-found: error

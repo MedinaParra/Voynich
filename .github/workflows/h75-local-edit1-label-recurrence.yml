@@ -1,0 +1,31 @@
+name: H75 local edit-distance-1 label recurrence
+on:
+  workflow_dispatch:
+  pull_request:
+    branches: [research/gpt6-audit]
+    paths:
+      - 'research_gpt6/92_h75_local_edit1_label_recurrence_preregistration.md'
+      - 'research_gpt6/code/h75_local_edit1_label_recurrence.py'
+      - '.github/workflows/h75-local-edit1-label-recurrence.yml'
+
+jobs:
+  h75-local-edit1-label-recurrence:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Fetch frozen ZL corpus
+        run: curl -L --fail -o voynich_eva.txt 'https://raw.githubusercontent.com/cesarjz/Voynich/47e6a77dc9d5cd570c375f4aff710fa4a0567278/corpus/voynich_eva.txt'
+      - name: Fetch frozen Takahashi corpus
+        run: curl -L --fail -o IT2a-n.txt 'https://raw.githubusercontent.com/oklo/voynich_gpt/2d7c61c387ad6962de730caf73c48612bc8f6957/IT2a-n.txt'
+      - name: Run preregistered H75 local edit-distance-1 recurrence
+        run: mkdir -p research_gpt6/results && python research_gpt6/code/h75_local_edit1_label_recurrence.py --zl voynich_eva.txt --takahashi IT2a-n.txt --out research_gpt6/results/h75_local_edit1_label_recurrence.json
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: h75-local-edit1-label-recurrence-results
+          path: research_gpt6/results/h75_local_edit1_label_recurrence.json
+          if-no-files-found: error

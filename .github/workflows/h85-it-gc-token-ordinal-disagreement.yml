@@ -1,0 +1,41 @@
+# Infrastructure-only retrigger; H85 scientific protocol remains frozen.
+name: H85 IT-GC ordinal-token transcription disagreement
+
+on:
+  workflow_dispatch:
+  pull_request:
+    branches: [research/gpt6-audit]
+    paths:
+      - 'research_gpt6/**'
+      - '.github/workflows/h85-it-gc-token-ordinal-disagreement.yml'
+
+permissions:
+  contents: read
+
+jobs:
+  h85-it-gc-token-ordinal-disagreement:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Fetch frozen IT and GC transcription sources
+        run: |
+          base='https://raw.githubusercontent.com/noah-chelednik/voynich-data/472ef7366606a799fc8f1044c037e06b413f6ddd/data_sources/cache'
+          curl -L --fail -o IT_ivtff_1a.txt "$base/IT_ivtff_1a.txt"
+          curl -L --fail -o GC2a-n.txt "$base/GC2a-n.txt"
+      - name: Run preregistered H85 ordinal-token challenge
+        run: |
+          mkdir -p research_gpt6/results
+          python research_gpt6/code/h85_it_gc_token_ordinal_disagreement.py \
+            --it IT_ivtff_1a.txt \
+            --gc GC2a-n.txt \
+            --out research_gpt6/results/h85_it_gc_token_ordinal_disagreement.json
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: h85-it-gc-token-ordinal-disagreement-results
+          path: research_gpt6/results/h85_it_gc_token_ordinal_disagreement.json
+          if-no-files-found: error

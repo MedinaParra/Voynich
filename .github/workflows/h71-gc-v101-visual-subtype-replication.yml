@@ -1,0 +1,31 @@
+name: H71 GC v101 visual-subtype replication
+on:
+  workflow_dispatch:
+  pull_request:
+    branches: [research/gpt6-audit]
+    paths:
+      - 'research_gpt6/**'
+      - '.github/workflows/h71-gc-v101-visual-subtype-replication.yml'
+
+jobs:
+  h71-gc-v101-visual-subtype-replication:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Fetch frozen IT annotation and GC predictor sources
+        run: |
+          base='https://raw.githubusercontent.com/noah-chelednik/voynich-data/472ef7366606a799fc8f1044c037e06b413f6ddd/data_sources/cache'
+          curl -L --fail -o IT_ivtff_1a.txt "$base/IT_ivtff_1a.txt"
+          curl -L --fail -o GC2a-n.txt "$base/GC2a-n.txt"
+      - name: Run preregistered H71 GC/v101 test
+        run: mkdir -p research_gpt6/results && python research_gpt6/code/h71_gc_v101_visual_subtype_replication.py --it IT_ivtff_1a.txt --gc GC2a-n.txt --out research_gpt6/results/h71_gc_v101_visual_subtype_replication.json
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: h71-gc-v101-visual-subtype-replication-results
+          path: research_gpt6/results/h71_gc_v101_visual_subtype_replication.json
+          if-no-files-found: error

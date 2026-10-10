@@ -1,0 +1,30 @@
+name: H91 blind Stage B pairing gate
+on:
+  workflow_dispatch:
+  pull_request:
+    branches: [research/gpt6-audit]
+    paths:
+      - 'research_gpt6/code/h91_stage_b_pairing_gate.py'
+      - 'research_gpt6/code/h91b_stage_a_inventory.py'
+      - 'research_gpt6/code/h76_visual_object_extraction_admissibility.py'
+      - '.github/workflows/h91-stage-b-pairing-gate.yml'
+jobs:
+  h91-stage-b:
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python -m pip install --disable-pip-version-check numpy pillow scipy
+      - name: Run blind Stage B pairing stability gate
+        run: |
+          mkdir -p research_gpt6/results
+          python research_gpt6/code/h91_stage_b_pairing_gate.py --out research_gpt6/results/h91_stage_b_pairing_gate.json
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: h91-stage-b-pairing-gate
+          path: research_gpt6/results/h91_stage_b_pairing_gate.json
+          if-no-files-found: error
