@@ -1,0 +1,32 @@
+name: H98 cross-transcription lexical-anchor closure
+on:
+  workflow_dispatch:
+  pull_request:
+    branches: [research/gpt6-audit]
+    paths:
+      - 'research_gpt6/**'
+      - '.github/workflows/h98-cross-transcription-lexical-anchor-closure.yml'
+
+jobs:
+  h98:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python -m pip install --disable-pip-version-check numpy pillow scipy scikit-learn
+      - name: Fetch frozen GC v101 transcription
+        run: |
+          base='https://raw.githubusercontent.com/noah-chelednik/voynich-data/472ef7366606a799fc8f1044c037e06b413f6ddd/data_sources/cache'
+          curl -L --fail -o GC2a-n.txt "$base/GC2a-n.txt"
+          echo 'b09570cb6c993bc2d87134d115e60a978650a8a6495483ddbb1f6005a586096f  GC2a-n.txt' | sha256sum -c -
+      - name: Run preregistered H98 confirmatory test
+        run: mkdir -p research_gpt6/results && python research_gpt6/code/h98_cross_transcription_lexical_anchor_closure.py --gc GC2a-n.txt --out research_gpt6/results/h98_cross_transcription_lexical_anchor_closure.json
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: h98-cross-transcription-lexical-anchor-closure
+          path: research_gpt6/results/h98_cross_transcription_lexical_anchor_closure.json
+          if-no-files-found: error
