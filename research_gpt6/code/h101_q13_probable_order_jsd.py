@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+# H101 preregistered implementation; this comment-only revision triggers the dedicated workflow.
 import argparse, hashlib, json, re
 from collections import Counter, defaultdict
 import numpy as np
