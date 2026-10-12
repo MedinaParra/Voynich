@@ -61,6 +61,27 @@ Transition counts:
 
 Synthetic state-switch-rate median: `0.5897435897435898`.
 
+## Independent workflow rerun
+A later pull-request-triggered rerun on the same experimental branch independently reproduced the scientific result:
+- Workflow run: `38151572463`
+- Job: `114505940114`
+- Workflow infrastructure: **PASS**
+- Artifact: `11708430902` (`h100-global-folio-transition`)
+- Artifact ZIP SHA-256: `5672670a1d3d8dd6d514207e6b88437567f9117e5e484709a4fb7c4a79f94db4`
+- Artifact status: **FAIL**
+- Controls: all mandatory controls **PASS**
+- Endpoint count: **5/8**
+- Endpoint mask: `[PASS, PASS, FAIL, PASS, FAIL, PASS, PASS, FAIL]`
+- Development adjacencies: `125`
+- Cluster occupancies: `[24, 53, 32, 51]`
+- Real consecutive-folio JSD: `0.043902019313673615`
+- Synthetic 99% interval: `[0.011005151634345036, 0.02006510219577937]`
+- Synthetic median: `0.014500158831180648`
+- Replica-0 SHA-256: `cd76cdf035bf039f05157fe0906b2340f8eebc52f92dc56ba44459cca2ca93bc`
+- Statistics SHA-256: `32386046c44c8b19746eebd97355b92d44c4b6ec22116c9b4a8062fb228c84a9`
+
+The ZIP digest differs because the workflow execution metadata differs, while the frozen scientific statistics and decision reproduce. H100 therefore remains **FAIL**.
+
 ## Conservative interpretation
 A single global first-order transition process over the four H97 latent folio states is insufficient to reproduce the frozen eight-dimensional holdout signature. In particular, it leaves the real consecutive-folio divergence more than twice the upper end of the synthetic 99% interval.
 
