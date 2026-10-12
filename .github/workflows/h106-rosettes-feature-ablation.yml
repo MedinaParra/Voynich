@@ -1,0 +1,31 @@
+name: H106 Rosettes spatial lexical-anchor feature ablation
+on:
+  workflow_dispatch:
+  pull_request:
+    branches: [research/gpt6-audit]
+    paths:
+      - 'research_gpt6/**'
+      - '.github/workflows/h106-rosettes-feature-ablation.yml'
+jobs:
+  h106:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python -m pip install --disable-pip-version-check numpy
+      - name: Fetch frozen positioned Rosettes tokens
+        run: |
+          url='https://raw.githubusercontent.com/alessandroplaca-uro/voynich-spatial-data/7580dafa624cf23a63665f4819022003f8d128ef/rosettes/tokens_f85v_86r.csv'
+          curl -L --fail -o tokens_f85v_86r.csv "$url"
+          echo 'ff7b779e9ff2468ca04c0e07d0bd9999110d554a962faad1d78fc99c5e7e712d  tokens_f85v_86r.csv' | sha256sum -c -
+      - name: Run preregistered H106
+        run: python research_gpt6/code/h106_rosettes_feature_ablation.py --csv tokens_f85v_86r.csv --out research_gpt6/results/h106_rosettes_feature_ablation.json
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: h106-rosettes-feature-ablation
+          path: research_gpt6/results/h106_rosettes_feature_ablation.json
+          if-no-files-found: error
