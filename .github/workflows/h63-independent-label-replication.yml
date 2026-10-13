@@ -1,0 +1,31 @@
+name: H63 independent label replication
+on:
+  workflow_dispatch:
+  pull_request:
+    branches: [research/gpt6-audit]
+    paths:
+      - 'research_gpt6/72_h63_independent_label_replication_preregistration.md'
+      - 'research_gpt6/code/independent_label_replication_h63.py'
+      - '.github/workflows/h63-independent-label-replication.yml'
+jobs:
+  h63-independent-label-replication:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: {python-version: '3.11'}
+      - run: curl -L --fail -o IT2a-n.txt 'https://raw.githubusercontent.com/oklo/voynich_gpt/2d7c61c387ad6962de730caf73c48612bc8f6957/IT2a-n.txt'
+      - name: Run preregistered H63 independent label-vs-paragraph replication
+        run: |
+          mkdir -p research_gpt6/results
+          python research_gpt6/code/independent_label_replication_h63.py \
+            --corpus IT2a-n.txt \
+            --out research_gpt6/results/independent_label_replication_h63.json \
+            --permutations 999
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: h63-independent-label-replication-results
+          path: research_gpt6/results/independent_label_replication_h63.json
+          if-no-files-found: error
