@@ -1,0 +1,37 @@
+{
+  "experiment": "H59_BLIND_SCRIBE_CORRECTION_PREDICTION",
+  "stage": "PRIMARY_IMAGE_ACCESS_COMPLETE",
+  "status": "ACCESS_COMPLETE_RECOVERABILITY_PENDING",
+  "preregistration_commit": "64cb2213866b25d6996b32d98f70352d1c86b463",
+  "authority": "Yale Beinecke Rare Book & Manuscript Library, MS 408",
+  "catalog_id": "2002046",
+  "policy": "This checkpoint supersedes the incomplete access list in 64_h59_primary_visual_access_log.json. It freezes successful access to Yale-derived full-page digital images for every preregistered candidate folio. Image access alone is not evidence that a before-state is recoverable and does not promote any event to HIGH confidence.",
+  "sources": {
+    "yale_id_index_mirror": "https://zodiackillerciphers.com/images/voynich-yale/",
+    "fallback_yale_derived_color_gallery": "https://www.voynich.com/folios/",
+    "secondary_locator_only": "https://www.voynich.nu/writing.html"
+  },
+  "candidates": [
+    {"candidate_id":"H59-f16r-01","folio":"f16r","yale_iiif_id":"1006104","full_page_rendered":true,"pixel_route":"yale-id mirror","image_reference":"https://zodiackillerciphers.com/images/voynich-yale/1006104.jpg"},
+    {"candidate_id":"H59-f20v-01","folio":"f20v","yale_iiif_id":"1006113","full_page_rendered":true,"pixel_route":"Yale-derived color gallery fallback","image_reference":"https://www.voynich.com/folios/color/020v.jpg"},
+    {"candidate_id":"H59-f24v-01","folio":"f24v","yale_iiif_id":"1006121","full_page_rendered":true,"pixel_route":"yale-id mirror","image_reference":"https://zodiackillerciphers.com/images/voynich-yale/1006121.jpg"},
+    {"candidate_id":"H59-f39r-01","folio":"f39r","yale_iiif_id":"1006150","full_page_rendered":true,"pixel_route":"yale-id mirror","image_reference":"https://zodiackillerciphers.com/images/voynich-yale/1006150.jpg"},
+    {"candidate_id":"H59-f39r-02","folio":"f39r","yale_iiif_id":"1006150","full_page_rendered":true,"pixel_route":"yale-id mirror","image_reference":"https://zodiackillerciphers.com/images/voynich-yale/1006150.jpg"},
+    {"candidate_id":"H59-f42r-01","folio":"f42r","yale_iiif_id":"1006156","full_page_rendered":true,"pixel_route":"yale-id mirror","image_reference":"https://zodiackillerciphers.com/images/voynich-yale/1006156.jpg"},
+    {"candidate_id":"H59-f50v-01","folio":"f50v","yale_iiif_id":"1006173","full_page_rendered":true,"pixel_route":"Yale-derived color gallery fallback","image_reference":"https://www.voynich.com/folios/color/050v.jpg"},
+    {"candidate_id":"H59-f79r-01","folio":"f79r","yale_iiif_id":"1006216","full_page_rendered":true,"pixel_route":"yale-id mirror","image_reference":"https://zodiackillerciphers.com/images/voynich-yale/1006216.jpg"},
+    {"candidate_id":"H59-f80r-01","folio":"f80r","yale_iiif_id":"1006218","full_page_rendered":true,"pixel_route":"Yale-derived color gallery fallback","image_reference":"https://www.voynich.com/folios/color/080r.jpg"},
+    {"candidate_id":"H59-f83r-01","folio":"f83r","yale_iiif_id":"1006224","full_page_rendered":true,"pixel_route":"yale-id mirror","image_reference":"https://zodiackillerciphers.com/images/voynich-yale/1006224.jpg"},
+    {"candidate_id":"H59-f102v2-01","folio":"f102v2","yale_iiif_id":"1006252","full_page_rendered":true,"pixel_route":"yale-id mirror","image_reference":"https://zodiackillerciphers.com/images/voynich-yale/1006252.jpg"},
+    {"candidate_id":"H59-f112r-01","folio":"f112r","yale_iiif_id":"1006268","full_page_rendered":true,"pixel_route":"yale-id mirror","image_reference":"https://zodiackillerciphers.com/images/voynich-yale/1006268.jpg"}
+  ],
+  "candidate_count": 12,
+  "full_page_access_count": 12,
+  "high_confidence_count": 0,
+  "primary_test_count": 0,
+  "scientific_status": "NOT_RUN",
+  "language_identification": "NOT_RUN",
+  "semantic_identification": "NOT_RUN",
+  "translation": "NOT_RUN",
+  "decipherment": "NOT_RUN"
+}

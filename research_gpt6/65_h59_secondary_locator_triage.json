@@ -1,0 +1,121 @@
+{
+  "experiment": "H59_BLIND_SCRIBE_CORRECTION_PREDICTION",
+  "stage": "SECONDARY_LOCATOR_VISUAL_TRIAGE",
+  "status": "TRIAGE_ONLY_NOT_SCORED",
+  "preregistration_commit": "64cb2213866b25d6996b32d98f70352d1c86b463",
+  "policy": "This triage records only visible morphology in the frozen secondary locator crops from voynich.nu. It may prioritize primary-image review but MUST NOT set primary_image_verified=true, freeze a before->after transcription, assign HIGH confidence, or include an event in the confirmatory test.",
+  "source": {
+    "page": "https://www.voynich.nu/writing.html",
+    "note": "The page explicitly lists these twelve apparent emendation crops; the page itself states that such cases are few and minor."
+  },
+  "candidates": [
+    {
+      "candidate_id": "H59-f16r-01",
+      "folio": "f16r",
+      "crop": "https://www.voynich.nu/img/clips/f16r_corr.jpg",
+      "visible_morphology": "A locally darkened complex tall glyph with overlapping strokes is visible near the crop centre; the underlying earlier state is not uniquely separable in the locator crop.",
+      "recoverability_priority": "PRIMARY_REVIEW_HIGH",
+      "secondary_only_decision": "UNRESOLVED"
+    },
+    {
+      "candidate_id": "H59-f20v-01",
+      "folio": "f20v",
+      "crop": "https://www.voynich.nu/img/clips/f20v_corr.jpg",
+      "visible_morphology": "A compact central glyph contains several superposed dark strokes. Independent discussion proposes incompatible readings of what lies underneath, so the pre-state is not recoverable from the crop alone.",
+      "recoverability_priority": "PRIMARY_REVIEW_MEDIUM",
+      "secondary_only_decision": "AMBIGUOUS_OVERWRITE"
+    },
+    {
+      "candidate_id": "H59-f24v-01",
+      "folio": "f24v",
+      "crop": "https://www.voynich.nu/img/clips/f24v_corr.jpg",
+      "visible_morphology": "The candidate region contains a discrete local stroke anomaly rather than a fully opaque blot; individual stroke boundaries remain partially visible in the locator crop.",
+      "recoverability_priority": "PRIMARY_REVIEW_HIGH",
+      "secondary_only_decision": "UNRESOLVED"
+    },
+    {
+      "candidate_id": "H59-f39r-01",
+      "folio": "f39r",
+      "crop": "https://www.voynich.nu/img/clips/f39r_corr.jpg",
+      "visible_morphology": "A localized glyph in the running word shows visibly superposed/darkened strokes while surrounding glyphs remain legible.",
+      "recoverability_priority": "PRIMARY_REVIEW_HIGH",
+      "secondary_only_decision": "UNRESOLVED"
+    },
+    {
+      "candidate_id": "H59-f39r-02",
+      "folio": "f39r",
+      "crop": "https://www.voynich.nu/img/clips/f39r_corr2.jpg",
+      "visible_morphology": "The event is dominated by a dense dark blob/overwrite; the lower-layer stroke topology is not visually separable in this crop.",
+      "recoverability_priority": "PRIMARY_REVIEW_LOW",
+      "secondary_only_decision": "LIKELY_UNRECOVERABLE"
+    },
+    {
+      "candidate_id": "H59-f42r-01",
+      "folio": "f42r",
+      "crop": "https://www.voynich.nu/img/clips/f42r_corr.jpg",
+      "visible_morphology": "A tall glyph has closely spaced/doubled vertical strokes and local darkening, with adjacent glyphs remaining clear.",
+      "recoverability_priority": "PRIMARY_REVIEW_HIGH",
+      "secondary_only_decision": "RETROUCH_VS_EMENDATION_UNRESOLVED"
+    },
+    {
+      "candidate_id": "H59-f50v-01",
+      "folio": "f50v",
+      "crop": "https://www.voynich.nu/img/clips/f50v_corr.jpg",
+      "visible_morphology": "A short word contains one conspicuously darkened local glyph; the crop does not by itself reveal a unique erased or overwritten predecessor.",
+      "recoverability_priority": "PRIMARY_REVIEW_HIGH",
+      "secondary_only_decision": "UNRESOLVED"
+    },
+    {
+      "candidate_id": "H59-f79r-01",
+      "folio": "f79r",
+      "crop": "https://www.voynich.nu/img/clips/f79r_corr.jpg",
+      "visible_morphology": "A tall double-stem glyph is much darker than neighbouring strokes. Because page-wide re-inking has been raised independently for f79r, morphology alone cannot distinguish correction from retouching.",
+      "recoverability_priority": "PRIMARY_REVIEW_LOW",
+      "secondary_only_decision": "RETROUCH_CONFOUND"
+    },
+    {
+      "candidate_id": "H59-f80r-01",
+      "folio": "f80r",
+      "crop": "https://www.voynich.nu/img/clips/f80r_corr.jpg",
+      "visible_morphology": "A localized complex glyph in the word shows darker superposed strokes but not a completely opaque blot.",
+      "recoverability_priority": "PRIMARY_REVIEW_HIGH",
+      "secondary_only_decision": "UNRESOLVED"
+    },
+    {
+      "candidate_id": "H59-f83r-01",
+      "folio": "f83r",
+      "crop": "https://www.voynich.nu/img/clips/f83r_corr.jpg",
+      "visible_morphology": "The candidate position is a dense dark loop/blob with little separable lower-layer structure in the locator crop.",
+      "recoverability_priority": "PRIMARY_REVIEW_LOW",
+      "secondary_only_decision": "LIKELY_UNRECOVERABLE"
+    },
+    {
+      "candidate_id": "H59-f102v2-01",
+      "folio": "f102v2",
+      "crop": "https://www.voynich.nu/img/clips/f102v2_corr.jpg",
+      "visible_morphology": "The candidate strokes are faint and low-contrast, with no uniquely identifiable earlier form visible in the locator crop.",
+      "recoverability_priority": "PRIMARY_REVIEW_LOW",
+      "secondary_only_decision": "LOW_CONTRAST_AMBIGUITY"
+    },
+    {
+      "candidate_id": "H59-f112r-01",
+      "folio": "f112r",
+      "crop": "https://www.voynich.nu/img/clips/f112r_corr.jpg",
+      "visible_morphology": "A tall glyph contains paired/darkened vertical strokes while the rest of the word is comparatively clean; retouch versus content-changing addition is unresolved.",
+      "recoverability_priority": "PRIMARY_REVIEW_HIGH",
+      "secondary_only_decision": "RETROUCH_VS_EMENDATION_UNRESOLVED"
+    }
+  ],
+  "priority_summary": {
+    "primary_review_high": ["H59-f16r-01", "H59-f24v-01", "H59-f39r-01", "H59-f42r-01", "H59-f50v-01", "H59-f80r-01", "H59-f112r-01"],
+    "primary_review_medium": ["H59-f20v-01"],
+    "primary_review_low": ["H59-f39r-02", "H59-f79r-01", "H59-f83r-01", "H59-f102v2-01"]
+  },
+  "high_confidence_count": 0,
+  "primary_test_count": 0,
+  "scientific_status": "NOT_RUN",
+  "language_identification": "NOT_RUN",
+  "semantic_identification": "NOT_RUN",
+  "translation": "NOT_RUN",
+  "decipherment": "NOT_RUN"
+}

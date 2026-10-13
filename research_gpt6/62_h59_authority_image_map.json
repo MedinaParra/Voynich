@@ -1,0 +1,30 @@
+{
+  "experiment": "H59_BLIND_SCRIBE_CORRECTION_PREDICTION",
+  "stage": "AUTHORITY_IMAGE_MAPPING",
+  "status": "MAPPED_NOT_VISUALLY_SCORED",
+  "preregistration_commit": "64cb2213866b25d6996b32d98f70352d1c86b463",
+  "mapping_rule": "The Commons gallery states the manuscript is in correct order. f1r maps to Voynich Manuscript (3).jpg / Yale PDF page 4. Subsequent gallery scan units advance by one; missing leaves and multi-panel foldout scan units are counted exactly as represented in the gallery, not by folio arithmetic.",
+  "authority_chain": {
+    "holding_institution": "Beinecke Rare Book & Manuscript Library, Yale University",
+    "shelfmark": "MS 408",
+    "yale_catalog_id": "2002046",
+    "commons_pdf_short_title": "Exported BibID 2002046",
+    "commons_pdf_sha1": "56e7873b9aaf191aa32052a52d9466e441f57ddf",
+    "commons_file_pages_state_source": "Beinecke Rare Book & Manuscript Library, Yale University",
+    "use_rule": "These mapped Yale-scan mirrors may be used to locate the authoritative pixels; no HIGH before->after transcription is frozen by this mapping alone."
+  },
+  "candidates": [
+    {"candidate_id":"H59-f16r-01","folio":"f16r","gallery_scan_index_from_f1r":28,"commons_file_number":31,"yale_pdf_page":32,"commons_file":"Voynich Manuscript (31).jpg","visual_score_status":"NOT_RUN"},
+    {"candidate_id":"H59-f20v-01","folio":"f20v","gallery_scan_index_from_f1r":37,"commons_file_number":40,"yale_pdf_page":41,"commons_file":"Voynich Manuscript (40).jpg","visual_score_status":"NOT_RUN"},
+    {"candidate_id":"H59-f24v-01","folio":"f24v","gallery_scan_index_from_f1r":45,"commons_file_number":48,"yale_pdf_page":49,"commons_file":"Voynich Manuscript (48).jpg","visual_score_status":"NOT_RUN"},
+    {"candidate_id":"H59-f39r-01","folio":"f39r","gallery_scan_index_from_f1r":74,"commons_file_number":77,"yale_pdf_page":78,"commons_file":"Voynich Manuscript (77).jpg","visual_score_status":"NOT_RUN"},
+    {"candidate_id":"H59-f39r-02","folio":"f39r","gallery_scan_index_from_f1r":74,"commons_file_number":77,"yale_pdf_page":78,"commons_file":"Voynich Manuscript (77).jpg","visual_score_status":"NOT_RUN"},
+    {"candidate_id":"H59-f42r-01","folio":"f42r","gallery_scan_index_from_f1r":80,"commons_file_number":83,"yale_pdf_page":84,"commons_file":"Voynich Manuscript (83).jpg","visual_score_status":"NOT_RUN"},
+    {"candidate_id":"H59-f50v-01","folio":"f50v","gallery_scan_index_from_f1r":97,"commons_file_number":100,"yale_pdf_page":101,"commons_file":"Voynich Manuscript (100).jpg","visual_score_status":"NOT_RUN"},
+    {"candidate_id":"H59-f79r-01","folio":"f79r","gallery_scan_index_from_f1r":140,"commons_file_number":143,"yale_pdf_page":144,"commons_file":"Voynich Manuscript (143).jpg","visual_score_status":"NOT_RUN"},
+    {"candidate_id":"H59-f80r-01","folio":"f80r","gallery_scan_index_from_f1r":142,"commons_file_number":145,"yale_pdf_page":146,"commons_file":"Voynich Manuscript (145).jpg","visual_score_status":"NOT_RUN"},
+    {"candidate_id":"H59-f83r-01","folio":"f83r","gallery_scan_index_from_f1r":148,"commons_file_number":151,"yale_pdf_page":152,"commons_file":"Voynich Manuscript (151).jpg","visual_score_status":"NOT_RUN"},
+    {"candidate_id":"H59-f102v2-01","folio":"f102v2","gallery_scan_index_from_f1r":178,"commons_file_number":181,"yale_pdf_page":182,"commons_file":"Voynich Manuscript (181).jpg","visual_score_status":"NOT_RUN"},
+    {"candidate_id":"H59-f112r-01","folio":"f112r","gallery_scan_index_from_f1r":194,"commons_file_number":197,"yale_pdf_page":198,"commons_file":"Voynich Manuscript (197).jpg","visual_score_status":"NOT_RUN"}
+  ]
+}

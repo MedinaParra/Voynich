@@ -1,0 +1,112 @@
+{
+  "source_run": 37521095643,
+  "source_commit": "70a74bad40f0881921c47635f73566755c17fb0f",
+  "classification": "HISTORICAL_EXPLORATORY_OUTPUT_WITH_TEST_VARIANT_SELECTION_NOT_DECIPHERMENT",
+  "output": {
+    "classification": "TIMESFM_TUNED_STRUCTURAL_FORECAST_NOT_DECIPHERMENT",
+    "source_blob": "2a4533ab9bdfa85db9bad602d590978953055df1",
+    "rows": 1423,
+    "features": [
+      "tokens",
+      "mean_len",
+      "uniq_ratio",
+      "entropy_char",
+      "q_frac",
+      "o_frac",
+      "y_frac",
+      "d_frac",
+      "first_q",
+      "last_y"
+    ],
+    "model": "google/timesfm-2.5-200m-pytorch",
+    "status": "PASS_EXECUTED",
+    "horizon": 16,
+    "selection_rule": "context and ensemble selected using preceding validation horizon only; frozen final horizon untouched until final evaluation",
+    "validation_candidates": [
+      {
+        "context": 128,
+        "val_mean_mse": 0.9987781643867493,
+        "val_naive_mean_mse": 1.1289122104644775,
+        "val_skill": 0.11527384049126921
+      },
+      {
+        "context": 256,
+        "val_mean_mse": 1.1430250406265259,
+        "val_naive_mean_mse": 1.1289122104644775,
+        "val_skill": -0.012501264519268362
+      },
+      {
+        "context": 512,
+        "val_mean_mse": 1.0397365093231201,
+        "val_naive_mean_mse": 1.1289122104644775,
+        "val_skill": 0.07899259155383498
+      },
+      {
+        "context": 1024,
+        "val_mean_mse": 1.0386546850204468,
+        "val_naive_mean_mse": 1.1289122104644775,
+        "val_skill": 0.07995088068619205
+      }
+    ],
+    "test_naive_mse_by_feature": {
+      "tokens": 10.25,
+      "mean_len": 0.9867917895317078,
+      "uniq_ratio": 0.004656408913433552,
+      "entropy_char": 0.023117272183299065,
+      "q_frac": 0.001133709796704352,
+      "o_frac": 0.004509489517658949,
+      "y_frac": 0.0011060708202421665,
+      "d_frac": 0.002331234049052,
+      "first_q": 0.0437336266040802,
+      "last_y": 0.03678120672702789
+    },
+    "test_variants": {
+      "best_context": {
+        "contexts": [
+          128
+        ],
+        "mse_by_feature": {
+          "tokens": 3.7351109981536865,
+          "mean_len": 0.49233344197273254,
+          "uniq_ratio": 0.004689478315412998,
+          "entropy_char": 0.016866538673639297,
+          "q_frac": 0.0006648864364251494,
+          "o_frac": 0.0009624817757867277,
+          "y_frac": 0.0010274945525452495,
+          "d_frac": 0.0016956595936790109,
+          "first_q": 0.026087410748004913,
+          "last_y": 0.029384497553110123
+        },
+        "mean_mse": 0.4308823049068451,
+        "naive_mean_mse": 1.1354161500930786,
+        "relative_mse_reduction": 0.6205071551329242,
+        "features_beating_naive": 9
+      },
+      "top2_ensemble": {
+        "contexts": [
+          128,
+          1024
+        ],
+        "mse_by_feature": {
+          "tokens": 3.8988425731658936,
+          "mean_len": 0.47763916850090027,
+          "uniq_ratio": 0.0046767727471888065,
+          "entropy_char": 0.017772547900676727,
+          "q_frac": 0.0006686065462417901,
+          "o_frac": 0.0008066655718721449,
+          "y_frac": 0.00100727379322052,
+          "d_frac": 0.0015974813140928745,
+          "first_q": 0.025641364976763725,
+          "last_y": 0.02805073745548725
+        },
+        "mean_mse": 0.44567030668258667,
+        "naive_mean_mse": 1.1354161500930786,
+        "relative_mse_reduction": 0.6074828540654,
+        "features_beating_naive": 9
+      }
+    },
+    "winner": "best_context",
+    "best_relative_mse_reduction": 0.6205071551329242,
+    "target_exceeds_previous_63pct": false
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "experiment": "H59_BLIND_SCRIBE_CORRECTION_PREDICTION",
+  "stage": "STAGE0_LOCATOR_INVENTORY",
+  "status": "DATA_AUDIT_REQUIRED",
+  "seed": 20261007,
+  "preregistration_commit": "64cb2213866b25d6996b32d98f70352d1c86b463",
+  "primary_authority": {
+    "repository": "Yale Beinecke Rare Book and Manuscript Library",
+    "shelfmark": "MS 408",
+    "catalog_id": "2002046",
+    "iiif_manifest": "https://collections.library.yale.edu/manifests/2002046",
+    "rule": "No before->after reconstruction or HIGH confidence assignment may be made from a secondary locator crop alone."
+  },
+  "secondary_locator_source": {
+    "title": "Voynich MS - Text Analysis - the Writing System",
+    "maintainer": "Rene Zandbergen",
+    "url": "https://voynich.nu/writing.html",
+    "use": "candidate location only"
+  },
+  "candidates": [
+    {"candidate_id":"H59-f16r-01","folio":"f16r","secondary_crop":"https://voynich.nu/img/clips/f16r_corr.jpg","primary_image_verified":false,"correction_mechanism":null,"visible_final_form":null,"pre_correction_form":null,"confidence":"UNVERIFIED","include_primary_test":false,"reason":"Secondary locator only; authoritative high-resolution image audit not yet frozen."},
+    {"candidate_id":"H59-f20v-01","folio":"f20v","secondary_crop":"https://voynich.nu/img/clips/f20v_corr.jpg","primary_image_verified":false,"correction_mechanism":null,"visible_final_form":null,"pre_correction_form":null,"confidence":"UNVERIFIED","include_primary_test":false,"reason":"Secondary locator only; authoritative high-resolution image audit not yet frozen."},
+    {"candidate_id":"H59-f24v-01","folio":"f24v","secondary_crop":"https://voynich.nu/img/clips/f24v_corr.jpg","primary_image_verified":false,"correction_mechanism":null,"visible_final_form":null,"pre_correction_form":null,"confidence":"UNVERIFIED","include_primary_test":false,"reason":"Secondary locator only; authoritative high-resolution image audit not yet frozen."},
+    {"candidate_id":"H59-f39r-01","folio":"f39r","secondary_crop":"https://voynich.nu/img/clips/f39r_corr.jpg","primary_image_verified":false,"correction_mechanism":null,"visible_final_form":null,"pre_correction_form":null,"confidence":"UNVERIFIED","include_primary_test":false,"reason":"Secondary locator only; authoritative high-resolution image audit not yet frozen."},
+    {"candidate_id":"H59-f39r-02","folio":"f39r","secondary_crop":"https://voynich.nu/img/clips/f39r_corr2.jpg","primary_image_verified":false,"correction_mechanism":null,"visible_final_form":null,"pre_correction_form":null,"confidence":"UNVERIFIED","include_primary_test":false,"reason":"Second distinct f39r candidate frozen separately as required by preregistration."},
+    {"candidate_id":"H59-f42r-01","folio":"f42r","secondary_crop":"https://voynich.nu/img/clips/f42r_corr.jpg","primary_image_verified":false,"correction_mechanism":null,"visible_final_form":null,"pre_correction_form":null,"confidence":"UNVERIFIED","include_primary_test":false,"reason":"Secondary locator only; authoritative high-resolution image audit not yet frozen."},
+    {"candidate_id":"H59-f50v-01","folio":"f50v","secondary_crop":"https://voynich.nu/img/clips/f50v_corr.jpg","primary_image_verified":false,"correction_mechanism":null,"visible_final_form":null,"pre_correction_form":null,"confidence":"UNVERIFIED","include_primary_test":false,"reason":"Secondary locator only; authoritative high-resolution image audit not yet frozen."},
+    {"candidate_id":"H59-f79r-01","folio":"f79r","secondary_crop":"https://voynich.nu/img/clips/f79r_corr.jpg","primary_image_verified":false,"correction_mechanism":null,"visible_final_form":null,"pre_correction_form":null,"confidence":"UNVERIFIED","include_primary_test":false,"reason":"Secondary locator only; authoritative high-resolution image audit not yet frozen."},
+    {"candidate_id":"H59-f80r-01","folio":"f80r","secondary_crop":"https://voynich.nu/img/clips/f80r_corr.jpg","primary_image_verified":false,"correction_mechanism":null,"visible_final_form":null,"pre_correction_form":null,"confidence":"UNVERIFIED","include_primary_test":false,"reason":"Secondary locator only; authoritative high-resolution image audit not yet frozen."},
+    {"candidate_id":"H59-f83r-01","folio":"f83r","secondary_crop":"https://voynich.nu/img/clips/f83r_corr.jpg","primary_image_verified":false,"correction_mechanism":null,"visible_final_form":null,"pre_correction_form":null,"confidence":"UNVERIFIED","include_primary_test":false,"reason":"Secondary locator only; authoritative high-resolution image audit not yet frozen."},
+    {"candidate_id":"H59-f102v2-01","folio":"f102v2","secondary_crop":"https://voynich.nu/img/clips/f102v2_corr.jpg","primary_image_verified":false,"correction_mechanism":null,"visible_final_form":null,"pre_correction_form":null,"confidence":"UNVERIFIED","include_primary_test":false,"reason":"Secondary locator only; authoritative high-resolution image audit not yet frozen."},
+    {"candidate_id":"H59-f112r-01","folio":"f112r","secondary_crop":"https://voynich.nu/img/clips/f112r_corr.jpg","primary_image_verified":false,"correction_mechanism":null,"visible_final_form":null,"pre_correction_form":null,"confidence":"UNVERIFIED","include_primary_test":false,"reason":"Secondary locator only; authoritative high-resolution image audit not yet frozen."}
+  ]
+}
