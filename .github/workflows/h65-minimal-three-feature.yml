@@ -1,0 +1,33 @@
+name: H65 minimal three-feature model
+on:
+  pull_request:
+    branches: [research/gpt6-audit]
+    paths:
+      - 'research_gpt6/75_h65_minimal_three_feature_preregistration.md'
+      - 'research_gpt6/code/minimal_three_feature_h65.py'
+      - '.github/workflows/h65-minimal-three-feature.yml'
+  workflow_dispatch:
+jobs:
+  h65-minimal-three-feature:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: {python-version: '3.11'}
+      - run: curl -L --fail -o source_a.txt 'https://raw.githubusercontent.com/cesarjz/Voynich/47e6a77dc9d5cd570c375f4aff710fa4a0567278/corpus/voynich_eva.txt'
+      - run: curl -L --fail -o source_b.txt 'https://raw.githubusercontent.com/oklo/voynich_gpt/2d7c61c387ad6962de730caf73c48612bc8f6957/IT2a-n.txt'
+      - name: Run preregistered H65 minimal model
+        run: |
+          mkdir -p research_gpt6/results
+          python research_gpt6/code/minimal_three_feature_h65.py \
+            --source-a source_a.txt \
+            --source-b source_b.txt \
+            --out research_gpt6/results/minimal_three_feature_h65.json \
+            --permutations 999
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: h65-minimal-three-feature-results
+          path: research_gpt6/results/minimal_three_feature_h65.json
+          if-no-files-found: error
