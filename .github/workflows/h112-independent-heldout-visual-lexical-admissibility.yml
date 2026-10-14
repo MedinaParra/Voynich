@@ -9,6 +9,7 @@ on:
       - '.github/workflows/h112-independent-heldout-visual-lexical-admissibility.yml'
   workflow_dispatch:
 
+# Infrastructure-only replay trigger after preregistration/runner status-classification alignment.
 jobs:
   h112:
     runs-on: ubuntu-latest
