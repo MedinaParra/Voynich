@@ -33,3 +33,9 @@ El protocolo se fijó antes de ajustar el modelo nuevo y se conservan las salida
 [Control exhaustivo de pares físicos en Q13](research_gpt6/44_q13_matching_control.md): los bifolios quedan terceros entre 945 emparejamientos en similitud léxica, pero fallan los controles residuales fijados. TimesFM también detecta semejanza; la media de la página fuente obtiene menor error. Resultado estricto `FAIL_STRICT_PAIR_COHERENCE`, traducción `NOT_RUN`. Se conserva la salida completa y su [auditoría de CI](research_gpt6/results/q13_matching_ci_audit.json).
 
 [Réplica en Q1, Q3 y cuatro bifolios de Q20](research_gpt6/45_conjoint_leaf_replication.md): la asociación léxica bruta pasa el contraste conjunto, pero el control residual y algunas robusteces fallan (`FAIL_REPLICATION_PANEL`). TimesFM queda bloqueado en Q1/Q3 por el horizonte fijo; en el subconjunto de Q20 obtiene un 9,88% más de error que la media de la página fuente. Pasaron 29 controles y se conserva la [auditoría de la salida completa](research_gpt6/results/conjoint_replication_ci_audit.json). Traducción: `NOT_RUN`.
+
+## Estado del arte al 14 de octubre de 2026
+
+[Revisión crítica y herramientas emergentes](research_gpt6/46_estado_del_arte_2026_10_14.md), con [registro de 76 referencias y recursos](research_gpt6/data/estado_arte_2026_10_14_sources.json). Se distinguen artículos, preprints, propuestas independientes, versiones y acceso a las fuentes; la cobertura es selectiva, no exhaustiva.
+
+La prioridad propuesta es contrastar la transcripción ZL con una anotación independiente, medir signos y separadores desde imágenes y probar modelos de escritura/cifrado con reglas globales y evaluación reservada. DINOv3/FINO, SAM 3, Kraken y descifrado restringido son candidatos de evaluación. Sus nuevas aplicaciones a Voynich están `NOT_RUN`; no se presenta una traducción validada.
