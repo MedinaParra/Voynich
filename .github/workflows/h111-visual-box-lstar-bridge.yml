@@ -17,6 +17,8 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.11'
+      - name: Install frozen extractor runtime dependencies
+        run: python -m pip install numpy pillow
       - name: Fetch frozen IVTFF source used by H67
         run: curl -L --fail -o IT_ivtff_1a.txt 'https://raw.githubusercontent.com/noah-chelednik/voynich-data/472ef7366606a799fc8f1044c037e06b413f6ddd/data_sources/cache/IT_ivtff_1a.txt'
       - name: Run preregistered H111 token-blind bridge gate
