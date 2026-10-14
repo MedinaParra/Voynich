@@ -1,0 +1,123 @@
+{
+  "schema_version": 1,
+  "experiment": "kraken-layout-voynich-pilot-2026-10-14",
+  "status": "PREREGISTERED_NOT_RUN",
+  "date_cutoff": "2026-10-14",
+  "question": "Does the pinned default Kraken neural line segmenter provide a usable starting layout for real Voynich scans, compared with Kraken legacy boxes and at a lower resolution?",
+  "branch": "experiment/kraken-voynich",
+  "base_commit": "797f9ea64ba88e9c63c7c2a5c402d0a6e0fafda1",
+  "kraken": {
+    "release": "7.1",
+    "released_at": "2026-08-05T16:56:40Z",
+    "upstream_commit": "eff0571e4c8b4930b476ef6af55851c62a938d15",
+    "install_requirement": "kraken==7.1",
+    "segmentation_model": {
+      "path": "kraken/blla.mlmodel",
+      "git_blob_sha": "f64b630c2b40f132f1acb1ffc90b617d5ada54a4",
+      "bytes": 5047020
+    }
+  },
+  "runtime": {
+    "python": "3.12",
+    "torch": "2.9.0",
+    "torchvision": "0.24.0",
+    "device": "cpu",
+    "threads": 2,
+    "seed": 20261014
+  },
+  "sources": {
+    "boxer": {
+      "repository": "alexanderboxer/voynich-attack",
+      "commit": "255bd632e45459230eaf2a994e0557ed6c682869",
+      "path": "transcription/vms.csv",
+      "git_blob_sha": "2f01f520c37ac6f8574251dd305c8ca73a6466f3",
+      "license": "CC-BY-4.0",
+      "attribution": "Alexander Boxer, independent transcription directly from Yale imagery. Notation is not EVA."
+    },
+    "image_mapping": {
+      "repository": "xenoglyph-ai/voynich-public",
+      "commit": "d4b31a245ba8133b727dc4255278b5e8349bbe39",
+      "path": "data/public/voynich_semantic_profiles/corpus_metadata.csv",
+      "git_blob_sha": "eb05cb69d4847f6acb34a9d095e05c38369010d2",
+      "use": "Only literal folio-to-canvas/image-service mapping; no semantic profile, plant identification, or model score used."
+    },
+    "yale": {
+      "catalog": "https://collections.library.yale.edu/catalog/2002046",
+      "manifest": "https://collections.library.yale.edu/manifests/2002046",
+      "institution": "Beinecke Rare Book and Manuscript Library, Yale University"
+    },
+    "positive": {
+      "upstream_commit": "eff0571e4c8b4930b476ef6af55851c62a938d15",
+      "image_path": "tests/resources/170025120000003,0074.jpg",
+      "image_blob_sha": "5b8d8b424e57352aa931f6c2cb72b7c46923a92d",
+      "xml_path": "tests/resources/170025120000003,0074.xml",
+      "xml_blob_sha": "0a316c75d4ce805b3dec9d7cd3173b9fe1c997b2",
+      "scope": "One annotated historical page in a known script; control of geometry and software, not external validation of Voynich glyphs."
+    }
+  },
+  "pages": [
+    {
+      "folio": "1r",
+      "image_oid": 1006076,
+      "service_url": "https://collections.library.yale.edu/iiif/2/1006076",
+      "expected_boxer_lines": 24
+    },
+    {
+      "folio": "1v",
+      "image_oid": 1006077,
+      "service_url": "https://collections.library.yale.edu/iiif/2/1006077",
+      "expected_boxer_lines": 9
+    },
+    {
+      "folio": "2r",
+      "image_oid": 1006078,
+      "service_url": "https://collections.library.yale.edu/iiif/2/1006078",
+      "expected_boxer_lines": 12
+    },
+    {
+      "folio": "2v",
+      "image_oid": 1006079,
+      "service_url": "https://collections.library.yale.edu/iiif/2/1006079",
+      "expected_boxer_lines": 8
+    }
+  ],
+  "widths": {
+    "primary": 1800,
+    "robustness": 1200
+  },
+  "methods": [
+    "default_neural_baselines",
+    "legacy_boxes_nlbin"
+  ],
+  "image_policy": "Full canvas, no masks or result-dependent crops. Fetch Yale full/1800,/0/default.jpg once per page; resize the same bytes locally for 1200. Record URL, SHA256, dimensions, response status, bytes and exceptions. No OCR inference or training.",
+  "measurements": {
+    "primary": "sum(abs(predicted count - Boxer count)) / sum(Boxer count), on primary width. This is a count proxy, not spatial line accuracy.",
+    "paired_comparison": "Neural primary count loss minus legacy primary count loss, descriptive only; no p-value for four selected pages.",
+    "robustness": "Line count difference and one-to-one normalized-box IoU F1 between widths for each method. Stability is not correctness.",
+    "positive_control": "One-to-one line bounding-box precision/recall/F1 against upstream PAGE-XML at IoU >= 0.5. GT normalized using XML dimensions; source image aspect ratio must agree within 2%. Annotation may have been seen during upstream model development, so this is not held-out model evaluation.",
+    "blank_control": "Zero lines for each method on a uniform white image; documented empty-image rejection is acceptable for legacy binarization only."
+  },
+  "gates": {
+    "count_proxy_max_loss": 0.15,
+    "max_line_count_change_each_page": 1,
+    "blank_neural_must_be_zero": true,
+    "proxy_gate_requires_all_four_pages_and_both_widths": true,
+    "labels": [
+      "PASS_COUNT_PROXY_ONLY",
+      "FAIL_COUNT_PROXY",
+      "BLOCKED_DATA_OR_RUNTIME"
+    ],
+    "caveat": "A PASS count proxy never means PASS segmentation accuracy, glyph recognition, language identification, or translation."
+  },
+  "recognition": "BLOCKED_PENDING_REVIEWED_LINE_IMAGE_TRANSCRIPT_ALIGNMENTS",
+  "translation": "NOT_RUN",
+  "training": "NOT_RUN",
+  "limits": [
+    "Only first two leaves; no foldout/hand/section generalization.",
+    "Boxer transcribes block text; neural detections may include margins, foliation, or illustrations.",
+    "Count agreement can coexist with every geometric match being wrong.",
+    "No image-transcript assignment is automatically inferred from equal line counts.",
+    "Default blla API is deprecated in 7.1 but remains available and pinned; migrate before Kraken 8.",
+    "Package and model are pinned, but full transitive environment is recorded as installed rather than claimed byte-identical in advance."
+  ]
+}
