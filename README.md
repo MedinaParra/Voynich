@@ -39,3 +39,9 @@ El protocolo se fijó antes de ajustar el modelo nuevo y se conservan las salida
 [Revisión crítica y herramientas emergentes](research_gpt6/46_estado_del_arte_2026_10_14.md), con [registro de 76 referencias y recursos](research_gpt6/data/estado_arte_2026_10_14_sources.json). Se distinguen artículos, preprints, propuestas independientes, versiones y acceso a las fuentes; la cobertura es selectiva, no exhaustiva.
 
 La prioridad propuesta es contrastar la transcripción ZL con una anotación independiente, medir signos y separadores desde imágenes y probar modelos de escritura/cifrado con reglas globales y evaluación reservada. DINOv3/FINO, SAM 3, Kraken y descifrado restringido son candidatos de evaluación. Sus nuevas aplicaciones a Voynich están `NOT_RUN`; no se presenta una traducción validada.
+
+## Ruta Kraken - piloto del 14 de octubre de 2026
+
+En la rama `experiment/kraken-voynich`: [protocolo fijado](research_gpt6/47_kraken_pilot_protocol.md) y [resultado ejecutado](research_gpt6/48_kraken_pilot_result.md). Kraken 7.1 comparó segmentación neuronal y clásica en cuatro imágenes de Yale y dos resoluciones, con una transcripción independiente de Boxer y controles positivo/negativo.
+
+Pasaron 16 controles de ejecución. El modelo neuronal produjo 120 segmentos frente a 53 filas de transcripción y falló el criterio fijado (`FAIL_COUNT_PROXY`). En el control con escritura conocida obtuvo F1 geométrico 0,8632. Se conserva el resultado completo, su auditoría y vistas de f1r/f1v. Hacen falta regiones y recortes alineados/revisados antes de medir reconocimiento de glifos; entrenamiento y traducción siguen `NOT_RUN`.

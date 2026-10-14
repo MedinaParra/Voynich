@@ -1,0 +1,100 @@
+{
+  "schema_version": 1,
+  "run_id": 38605310303,
+  "job_id": 115994555067,
+  "execution_commit": "6c6c2a35efb778bc4eb0dca920e5cc64d752749b",
+  "preregistration_commit": "5e293f663d6865acdef7fbb3dcc89e47718e3180",
+  "scope": "Full JSON recovered from authoritative completed job logs. Recomputed geometry normalization, count errors, one-to-one maximum-cardinality IoU metrics and reported F1 in an independent JavaScript implementation; not a rerun of Kraken inference.",
+  "integrity": {
+    "result_digest_matches": true,
+    "plan_digest_matches": true,
+    "code_digest_matches": true,
+    "execution_commit_matches": true,
+    "model_blob_matches": true,
+    "controls_line": "2026-10-14T17:17:45.9876027Z Ran 16 tests in 0.001s",
+    "log_characters": 741347,
+    "result_json_characters": 306756
+  },
+  "numeric_checks": 1494,
+  "numeric_mismatches": [],
+  "scientific_status": "FAIL_COUNT_PROXY",
+  "controls_passed": 16,
+  "run_url": "https://github.com/MedinaParra/Voynich/actions/runs/38605310303",
+  "model": {
+    "bytes": 5047020,
+    "git_blob_sha": "f64b630c2b40f132f1acb1ffc90b617d5ada54a4",
+    "path": "/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/kraken/blla.mlmodel",
+    "sha256": "77a638a83c9e535620827a09e410ed36391e9e8e8126d5796a0f15b978186056"
+  },
+  "source_images": [
+    {
+      "bytes": 847331,
+      "content_type": "image/jpeg",
+      "final_url": "https://collections.library.yale.edu/iiif/2/1006076/full/1800,/0/default.jpg",
+      "git_blob_sha": "821f39f9413a8ab4002e1be5f8699250d765773b",
+      "http_status": 200,
+      "local": "research_gpt6/results/kraken_pilot/images/1r.jpg",
+      "sha256": "f9ea1d0c81098babadb3c24627dd0ffeb42a6b8a4b4a18acc3af9758b2abc8e1",
+      "url": "https://collections.library.yale.edu/iiif/2/1006076/full/1800,/0/default.jpg"
+    },
+    {
+      "bytes": 973126,
+      "content_type": "image/jpeg",
+      "final_url": "https://collections.library.yale.edu/iiif/2/1006077/full/1800,/0/default.jpg",
+      "git_blob_sha": "237771f10a13e75a28b6df317e6563a66ec2d0a9",
+      "http_status": 200,
+      "local": "research_gpt6/results/kraken_pilot/images/1v.jpg",
+      "sha256": "c5d8271972ce7dd98a396c0d43b532968b95ebcda2467103a00fcb665544c8f5",
+      "url": "https://collections.library.yale.edu/iiif/2/1006077/full/1800,/0/default.jpg"
+    },
+    {
+      "bytes": 974803,
+      "content_type": "image/jpeg",
+      "final_url": "https://collections.library.yale.edu/iiif/2/1006078/full/1800,/0/default.jpg",
+      "git_blob_sha": "82212d06879a592890e7c3d438e7e2527464afb8",
+      "http_status": 200,
+      "local": "research_gpt6/results/kraken_pilot/images/2r.jpg",
+      "sha256": "a15d95fda51cc34bb49d358e8719802b7ca3d9a7561b5abfd26f5aa0e502d277",
+      "url": "https://collections.library.yale.edu/iiif/2/1006078/full/1800,/0/default.jpg"
+    },
+    {
+      "bytes": 1033471,
+      "content_type": "image/jpeg",
+      "final_url": "https://collections.library.yale.edu/iiif/2/1006079/full/1800,/0/default.jpg",
+      "git_blob_sha": "06c93796f78d7938785f1c533b38d3eb86bc3900",
+      "http_status": 200,
+      "local": "research_gpt6/results/kraken_pilot/images/2v.jpg",
+      "sha256": "76434df5fa57bd38ad2b6b4c4be4a7fc99908e41be14a1a733a3a6c5cb91e601",
+      "url": "https://collections.library.yale.edu/iiif/2/1006079/full/1800,/0/default.jpg"
+    }
+  ],
+  "recognition": "BLOCKED_PENDING_REVIEWED_LINE_IMAGE_TRANSCRIPT_ALIGNMENTS",
+  "translation": "NOT_RUN",
+  "training": "NOT_RUN",
+  "workflow_status": {
+    "status": "completed",
+    "conclusion": "success",
+    "head_sha": "6c6c2a35efb778bc4eb0dca920e5cc64d752749b",
+    "attempt": 1
+  },
+  "artifacts": [
+    {
+      "id": 11914669205,
+      "name": "kraken-pilot-full-evidence",
+      "bytes": 18937891,
+      "digest": "sha256:99d9fd960fe46318b32c5cbc0c38e4ebe430a49fb5e7ff3c19b0a8b6527adfc3",
+      "expired": false,
+      "expires_at": "2026-11-13T17:19:35Z"
+    }
+  ],
+  "retention_limit": "The complete source images and overlays remain in the GitHub Actions artifact until the recorded expiry. Full result JSON and two overlay previews are persisted in the branch; artifact ZIP has not been extracted or independently rehashed in this session.",
+  "visual_review": {
+    "pages": [
+      "1r",
+      "1v"
+    ],
+    "source": "Completed CI previews, generated from the pinned Yale images with predicted boundaries and baselines.",
+    "finding": "Fragmentation of script spans and some marks within the lower illustration on 1v. A logical CSV row and a geometrically connected text span are not necessarily the same unit.",
+    "not_claimed": "No independent human ground-truth line boxes on Voynich and no CER measurement."
+  }
+}
