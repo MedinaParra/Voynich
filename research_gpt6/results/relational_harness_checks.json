@@ -1,0 +1,71 @@
+{
+  "status": "PASS",
+  "environment": "Python/sklearn 1.8.0, synthetic fixtures only",
+  "positive_control": {
+    "status": "PASS_EXECUTED",
+    "classification": "RELATIONAL_PILOT_NOT_TRANSLATION",
+    "mean_quire_brier_gain": 0.24294743235063954,
+    "folds": [
+      {
+        "quire": "0",
+        "pairs": 112,
+        "geometry_brier": 0.24397146131886954,
+        "joint_brier": 0.0019261246102782585,
+        "gain": 0.2420453367085913
+      },
+      {
+        "quire": "1",
+        "pairs": 112,
+        "geometry_brier": 0.24372521734364808,
+        "joint_brier": 0.0019300190647722952,
+        "gain": 0.24179519827887577
+      },
+      {
+        "quire": "2",
+        "pairs": 112,
+        "geometry_brier": 0.24695911113910038,
+        "joint_brier": 0.001957349074648762,
+        "gain": 0.24500176206445162
+      }
+    ],
+    "permutations": 19,
+    "monte_carlo_p": 0.05,
+    "positive_all_folds": true,
+    "warning": "Exploratory; a graph association does not identify meanings or language"
+  },
+  "one_quire_gate": "PASS",
+  "scientific_voynich_result": "NOT_RUN",
+  "independent_random_edges_control": {
+    "status": "PASS_EXECUTED",
+    "classification": "RELATIONAL_PILOT_NOT_TRANSLATION",
+    "mean_quire_brier_gain": -1.4686603395375197e-05,
+    "folds": [
+      {
+        "quire": "0",
+        "pairs": 112,
+        "geometry_brier": 0.2561632323705733,
+        "joint_brier": 0.2571025817754858,
+        "gain": -0.0009393494049124707
+      },
+      {
+        "quire": "1",
+        "pairs": 112,
+        "geometry_brier": 0.2569747322517898,
+        "joint_brier": 0.25693848386572155,
+        "gain": 3.624838606824943e-05
+      },
+      {
+        "quire": "2",
+        "pairs": 112,
+        "geometry_brier": 0.2559948990612517,
+        "joint_brier": 0.25513585785259363,
+        "gain": 0.0008590412086580956
+      }
+    ],
+    "permutations": 19,
+    "monte_carlo_p": 0.3,
+    "positive_all_folds": false,
+    "warning": "Exploratory; a graph association does not identify meanings or language"
+  },
+  "null_fixture_detection_check": "PASS"
+}

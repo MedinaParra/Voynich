@@ -1,0 +1,159 @@
+{
+  "status": "PASS_REMOTE_REPRODUCED",
+  "verified_at_utc": "2026-10-07T03:13:54.094Z",
+  "repository": "MedinaParra/Voynich",
+  "branch": "experiment/timesfm-voynich",
+  "tested_commit": "8b7e1befee4d701ed0abf4b05671b44aff0b921d",
+  "baseline_commit": "ce3a2b77fd50dd91a77bd6d8012e0de457219805",
+  "workflow": {
+    "name": "Voynich two-view metadata harness",
+    "id": 37565664707,
+    "url": "https://github.com/MedinaParra/Voynich/actions/runs/37565664707",
+    "event": "pull_request",
+    "status": "completed",
+    "conclusion": "success"
+  },
+  "job": {
+    "name": "two-view-controls",
+    "id": 112612670252,
+    "url": "https://github.com/MedinaParra/Voynich/actions/runs/37565664707/job/112612670252",
+    "status": "completed",
+    "conclusion": "success",
+    "started_at": "2026-10-07T03:12:29Z",
+    "completed_at": "2026-10-07T03:12:53Z"
+  },
+  "checks": {
+    "transformation_tests_passed": 10,
+    "transformation_generation_step": "success",
+    "all_steps_successful": true
+  },
+  "verification": {
+    "method": "Decoded completed job logs from GitHub; no inferred execution",
+    "exact_local_remote_fields": [
+      "classification",
+      "source_blob",
+      "inventory_relations",
+      "usable_pairs",
+      "distinct_herbal_entities",
+      "physical_source_leaves",
+      "pharmaceutical_quires",
+      "raw_source_plant_labels_found",
+      "folds",
+      "summary",
+      "wrong_correspondence_benchmark",
+      "independently_verified_part_contrast_families",
+      "semantic_gate",
+      "semantic_reason",
+      "translation",
+      "novelty",
+      "inventory_sha256",
+      "plan_sha256",
+      "predictions_sha256"
+    ],
+    "caption_observation_rows_verified": [
+      "f96v sochorcfhy learned False None identity False None",
+      "f13v opchor learned False None identity False None",
+      "f90v2 ykchochdy learned False None identity False None",
+      "f18v koldarod learned False None identity False None",
+      "f23r odalydary learned False None identity False None",
+      "f36r sarol learned False None identity False None",
+      "f19r loralody learned False None identity False None",
+      "f51r oaro learned False None identity False None",
+      "f96v tolsasy learned False None identity False None",
+      "f44r otoldy learned False None identity False None"
+    ],
+    "full_predictions_sha256_matches": true,
+    "predictions_sha256": "ddc626608907bdfcbb6a43887e80c7e1bb67f22f82578f47b6b2a79e019ff1c8",
+    "uploaded_artifact": "two-view-metadata-results",
+    "artifact_downloaded": false,
+    "scope": "Compared the 19 logged result fields and all ten caption generation/rank rows; matching logged prediction SHA-256 verifies the generated file content. Did not compare the entire result JSON or download the artifact."
+  },
+  "environment": {
+    "local_python": "3.12.14",
+    "remote_python": "3.12.15",
+    "transform_dependencies": "Python standard library only"
+  },
+  "scientific_outcome": {
+    "inventory_relations": 35,
+    "usable_pairs": 10,
+    "distinct_herbal_entities": 9,
+    "physical_pharma_leaves": 3,
+    "pharma_quires": [
+      "S"
+    ],
+    "eligible_rules_per_fold": [
+      {
+        "leaf": "f100",
+        "eligible_rules": 0
+      },
+      {
+        "leaf": "f102",
+        "eligible_rules": 0
+      },
+      {
+        "leaf": "f99",
+        "eligible_rules": 0
+      }
+    ],
+    "generated_exact": 0,
+    "unique_top1": 0,
+    "conservative_top5": 0,
+    "denominator": 10,
+    "wrong_match_benchmark_trials": 199,
+    "semantic_gate": "BLOCKED",
+    "translation": "NOT_RUN",
+    "novelty": "NOT_ESTABLISHED",
+    "conclusion": "The tested bounded affix channel found no support in this tentative sample; root/leaf semantics and alternative encoding channels are not tested."
+  },
+  "published_files_verified": [
+    {
+      "path": "research_gpt6/42_transformation_probe.md",
+      "git_blob": "efb94a6dd0f04755b29872f9b7fca4c97b5e9f5a"
+    },
+    {
+      "path": "research_gpt6/code/transformation_probe.py",
+      "git_blob": "ee26f6b1df4dc94bb2498476e1499711b25dea0c"
+    },
+    {
+      "path": "research_gpt6/code/test_transformation_probe.py",
+      "git_blob": "75fb43e6ac41023169ef242f2c6ab712f569f567"
+    },
+    {
+      "path": "research_gpt6/data/transformation_inventory.json",
+      "git_blob": "a8a595c4fd900af70013fe2f5e1dd9adf12d4d97"
+    },
+    {
+      "path": "research_gpt6/data/transformation_plan_v1.json",
+      "git_blob": "3ed490e114be0ba31f66a2080e9009c225efce08"
+    },
+    {
+      "path": "research_gpt6/data/transformation_plan.json",
+      "git_blob": "343c321b63b80fd714a8e2979d50eee186af08ac"
+    },
+    {
+      "path": "research_gpt6/data/transformation_visual_audit.json",
+      "git_blob": "2a5c62a64fad5a09f1fa7e87a9432897f579e287"
+    },
+    {
+      "path": "research_gpt6/results/transformation_predictions.json",
+      "git_blob": "b139c27e04a92835eeaf03023aaf5bf3250a0dd8"
+    },
+    {
+      "path": "research_gpt6/results/transformation_result.json",
+      "git_blob": "0e0084abf2900d70ca287080d90dded22dd449f9"
+    },
+    {
+      "path": "research_gpt6/results/transformation_checks.json",
+      "git_blob": "0f4cc898a06614d7933efc6f462dc91f0140e05a"
+    },
+    {
+      "path": ".github/workflows/dual-perspective-voynich.yml",
+      "git_blob": "f3b17ce81d5c2acea3436de281dd0e7b4cc06f18"
+    }
+  ],
+  "limitations": [
+    "No new semantic ground truth, independently verified botany, or root/leaf contrast",
+    "All ten usable captions come from one quire; this is not an external semantic holdout"
+  ],
+  "job_log_sha256": "e4beca0c8bdaf9a7b5d7d05b358dfca1fa0a203f51521b7f4fb3af793ac4f667"
+}

@@ -1,0 +1,24 @@
+{
+  "status": "PASS",
+  "executed_at_utc": "2026-10-07T01:06:10.683810+00:00",
+  "environment": {
+    "python": "3.12.14",
+    "numpy": "2.3.5",
+    "sklearn": "1.8.0"
+  },
+  "retrieval_command": "OPENBLAS_NUM_THREADS=1 python voynich_work/internal_reuse_retrieval.py --corpus voynich_work/source_eva.txt --anchors voynich_work/internal_reuse_anchors.json --out voynich_work/internal_reuse_result.json",
+  "retrieval_exit_code": 0,
+  "checks_command": "OPENBLAS_NUM_THREADS=1 python -m unittest discover -s voynich_work -p test_internal_reuse_retrieval.py -v",
+  "checks_exit_code": 0,
+  "tests": 4,
+  "sha256": {
+    "source_eva.txt": "bf5b6d4ac1e3a51b1847a9c388318d609020441ccd56984c901c32b09beccafc",
+    "internal_reuse_anchors.json": "b4296bba2b1cb5d9e892bf597be1ac57332282693f5c66e6768358c2257f2f0d",
+    "internal_reuse_retrieval.py": "ae1c5c5efddddb006dcfd259a600024b1084fe1c4a18361c1844e11b36debdde",
+    "test_internal_reuse_retrieval.py": "6e8a544644705c372d32d298010348682bc809bf2b42d8b4a723e403f7c1216b",
+    "internal_reuse_result.json": "a493acdc01a8459fa8a982e2551e16f42e4be6203b8a270693c95774ef91fed9",
+    "internal_reuse_visual_audit.json": "810f0c67b8b97a94125ec778505b63aeb84cece6fb038226a696d03218c9bd0a"
+  },
+  "scope": "Actual retrieval and four parser failure controls; two primary-image pairs inspected after scoring, no independent semantic identity validation",
+  "textual_metrics_unchanged_after_image_review": true
+}

@@ -1,0 +1,145 @@
+{
+  "status": "PASS_REMOTE_REPORTED_METRICS_MATCH",
+  "run_id": 37555514556,
+  "job_id": 112580708490,
+  "source_commit": "8974752dfa86c65d7a5393445d7ad59c08a08534",
+  "conclusion": "success",
+  "verified_in_logs": {
+    "summary": {
+      "status": "PASS_EXECUTED",
+      "classification": "TENTATIVE_VISUAL_PAIR_RETRIEVAL_NOT_TRANSLATION",
+      "source_blob": "2a4533ab9bdfa85db9bad602d590978953055df1",
+      "pairs_scored": 7,
+      "pairs_blocked": [],
+      "exact_recurrence_pairs": 0,
+      "unlabelled_comparisons": [
+        {
+          "anchor": {
+            "herbal": "f1v",
+            "pharma": "f102r1",
+            "fragment": "204"
+          },
+          "has_literal_lf_label": false
+        },
+        {
+          "anchor": {
+            "herbal": "f37v",
+            "pharma": "f102r1",
+            "fragment": "203"
+          },
+          "has_literal_lf_label": false
+        },
+        {
+          "anchor": {
+            "herbal": "f47v",
+            "pharma": "f102r2",
+            "fragment": "205"
+          },
+          "has_literal_lf_label": false
+        },
+        {
+          "anchor": {
+            "herbal": "f32v",
+            "pharma": "f102r2",
+            "fragment": "206"
+          },
+          "has_literal_lf_label": false
+        }
+      ],
+      "source_physical_leaves": [
+        "f100",
+        "f102"
+      ],
+      "visual_review_scope": "Directed non-blind review of Yale f102r1/f102r2, f18v and f23r; two of seven proposed pairs inspected; no species, gloss or independent identity validation",
+      "limitations": [
+        "Visual correspondences tentative; image review does not identify species or semantic roles",
+        "Candidate texts reused from known corpus; transductive retrieval, no fresh holdout",
+        "Repeated labels and score ties are retained; mid-ranks reported",
+        "Two physical source leaves do not become independent samples by splitting panels",
+        "No inferential p-value: query/pair dependence and selection are not calibrated",
+        "Rare labels may be names, properties or procedures; exact absence does not refute all naming"
+      ],
+      "semantic_anchor": "NOT_VALIDATED",
+      "translation": "NOT_RUN",
+      "environment": {
+        "python": "3.12.14",
+        "numpy": "2.3.5"
+      },
+      "anchors_sha256": "b4296bba2b1cb5d9e892bf597be1ac57332282693f5c66e6768358c2257f2f0d"
+    },
+    "rows": [
+      {
+        "herbal": "f96v",
+        "label": "sochorcfhy",
+        "exact_count": 0,
+        "herbal_rank": 94,
+        "herbal_candidates": 95,
+        "label_rank": 89,
+        "label_candidates": 164
+      },
+      {
+        "herbal": "f13v",
+        "label": "opchor",
+        "exact_count": 0,
+        "herbal_rank": 69,
+        "herbal_candidates": 95,
+        "label_rank": 24,
+        "label_candidates": 164
+      },
+      {
+        "herbal": "f90v2",
+        "label": "ykchochdy",
+        "exact_count": 0,
+        "herbal_rank": 86,
+        "herbal_candidates": 95,
+        "label_rank": 53,
+        "label_candidates": 164
+      },
+      {
+        "herbal": "f18v",
+        "label": "koldarod",
+        "exact_count": 0,
+        "herbal_rank": 13,
+        "herbal_candidates": 95,
+        "label_rank": 92,
+        "label_candidates": 164
+      },
+      {
+        "herbal": "f23r",
+        "label": "odalydary",
+        "exact_count": 0,
+        "herbal_rank": 9,
+        "herbal_candidates": 95,
+        "label_rank": 50,
+        "label_candidates": 164
+      },
+      {
+        "herbal": "f36r",
+        "label": "sarol",
+        "exact_count": 0,
+        "herbal_rank": 12,
+        "herbal_candidates": 95,
+        "label_rank": 74,
+        "label_candidates": 164
+      },
+      {
+        "herbal": "f19r",
+        "label": "loralody",
+        "exact_count": 0,
+        "herbal_rank": 14,
+        "herbal_candidates": 95,
+        "label_rank": 81,
+        "label_candidates": 164
+      }
+    ],
+    "extractor_controls": "success"
+  },
+  "comparison": "All seven reported exact counts, candidate counts and ranks match local execution; source and anchor hashes match",
+  "artifact": {
+    "id": 11453604617,
+    "url": "https://github.com/MedinaParra/Voynich/actions/runs/37555514556/artifacts/11453604617",
+    "zip_sha256": "3adb80dee75823bcbdb6fcdf39b5d66eae2221ac2118d686b71f0887801073c3"
+  },
+  "scope": "Computational reproduction from GitHub logs; full cosine scores not printed in logs; not independent visual or semantic validation",
+  "translation": "NOT_RUN"
+}

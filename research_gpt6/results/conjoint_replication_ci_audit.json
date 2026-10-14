@@ -1,0 +1,126 @@
+{
+  "classification": "CONJOINT_REPLICATION_FULL_CI_AUDIT",
+  "status": "PASS_AUDIT",
+  "preregistered_commit": "315b9ca991eef5f2931daf0eb5b0f8b7094037fe",
+  "code_commit": "6aefcf33899ceb54b4f60836bf115c03b41fe7ca",
+  "superseded_code_commit": "c64be0b81045162657da887b1f3438626f65cb8e",
+  "superseded_run_id": 37666599995,
+  "correction": "Initial TimesFM scaling excluded the nonordinary external rosette row fRos.139,@Pb. Corrected to include every row outside the target quire as specified. Lexical calculations unchanged. Corrected run is authoritative; initial diagnostic is superseded.",
+  "workflow_run_id": 37667152334,
+  "job_id": 112949189291,
+  "artifact_id": 11503327766,
+  "run_status": "completed",
+  "run_conclusion": "success",
+  "github_artifact_digest": "sha256:3123c5f2530008b8b0992920a4a1a1c4dfd42d86522c4dc33a4d040b12de2c76",
+  "log_result_sha256": "15d5802e50e1f68c7c0fe3e4d938f88c19b8f258732b4d34cb5ecc98d9058c3d",
+  "harness": [
+    {
+      "classification": "Q13_MATCHING_SCIENTIFIC_HARNESS",
+      "errors": 0,
+      "failures": 0,
+      "status": "PASS",
+      "tests_run": 16
+    },
+    {
+      "classification": "CONJOINT_REPLICATION_SCIENTIFIC_HARNESS",
+      "errors": 0,
+      "failures": 0,
+      "status": "PASS",
+      "tests_run": 13
+    }
+  ],
+  "model_inference_scope": "TimesFM inferred remotely in Q20 subset only. Q1 and Q3 model diagnostics blocked by fixed horizon. Local audit replays saved values, not a second inference.",
+  "model_weight_limitation": "Model identifier and package version fixed; upstream weight revision/hash not archived.",
+  "scientific_status": "FAIL_REPLICATION_PANEL",
+  "zip_sha256": "3123c5f2530008b8b0992920a4a1a1c4dfd42d86522c4dc33a4d040b12de2c76",
+  "original_result_sha256": "15d5802e50e1f68c7c0fe3e4d938f88c19b8f258732b4d34cb5ecc98d9058c3d",
+  "published_compact_result_sha256": "510697e8d1b3c9150be86c72668050937883590a3a531d0992b86e40741d4020",
+  "original_bytes": 1081192,
+  "compact_bytes": 511921,
+  "compact_parsed_content_identical": true,
+  "local_vs_ci_lexical_and_panel": {
+    "floats": 5816,
+    "exact_values": 7412,
+    "max_abs_difference": 0.0
+  },
+  "full_evidence_replay": {
+    "status": "PASS_FULL_FROZEN_EVIDENCE_REPLAY",
+    "group_matching_counts": {
+      "split/Q1_H1_CA": {
+        "matching_records": 105,
+        "matching_scores": 630,
+        "matching_summaries": 12
+      },
+      "split/Q3_H1_CA": {
+        "matching_records": 105,
+        "matching_scores": 630,
+        "matching_summaries": 12
+      },
+      "split/Q20_H3_CB": {
+        "matching_records": 105,
+        "matching_scores": 630,
+        "matching_summaries": 12
+      },
+      "join/Q1_H1_CA": {
+        "matching_records": 105,
+        "matching_scores": 630,
+        "matching_summaries": 12
+      },
+      "join/Q3_H1_CA": {
+        "matching_records": 105,
+        "matching_scores": 630,
+        "matching_summaries": 12
+      },
+      "join/Q20_H3_CB": {
+        "matching_records": 105,
+        "matching_scores": 630,
+        "matching_summaries": 12
+      },
+      "timesfm/Q20_H3_CB": {
+        "matching_records": 105,
+        "matching_scores": 525,
+        "matching_summaries": 10
+      }
+    },
+    "pooled_reference_sizes_replayed": [
+      1157625,
+      13824,
+      1157625,
+      13824,
+      1157625,
+      13824,
+      1157625,
+      13824
+    ],
+    "timesfm": {
+      "Q1_H1_CA": {
+        "status": "VERIFIED_BLOCKED",
+        "feature_losses": 0,
+        "edge_values": 0
+      },
+      "Q3_H1_CA": {
+        "status": "VERIFIED_BLOCKED",
+        "feature_losses": 0,
+        "edge_values": 0
+      },
+      "Q20_H3_CB": {
+        "status": "PASS_FROZEN_LOSS_REPLAY",
+        "feature_losses": 7200,
+        "max_loss_abs_difference": 0.0,
+        "edge_values": 140
+      }
+    },
+    "new_model_inference": false
+  },
+  "timesfm_excess_loss_vs_source_mean_percent": 9.87954615894433,
+  "runtime_local": {
+    "python": "3.12.14",
+    "numpy": "2.3.5"
+  },
+  "runtime_ci": {
+    "python": "3.12.15",
+    "numpy": "2.3.5"
+  },
+  "published_result_format": "JSON compacted without changing parsed content",
+  "replay_auditor": "research_gpt6/code/audit_conjoint_replication.py"
+}

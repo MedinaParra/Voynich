@@ -1,0 +1,76 @@
+{
+  "status": "PASS_EXECUTED",
+  "classification": "SINGLE_FOLDOUT_EXPLORATORY_NOT_TRANSLATION",
+  "source_sha256": "a7d34e94f0e3e10c06e119f6be3a8362abb604fb6725d45d3db145993b2dde50",
+  "physical_foldouts": 1,
+  "nodes": 9,
+  "connected_pairs": 12,
+  "unconnected_pairs": 24,
+  "results": [
+    {
+      "mode": "all",
+      "accepted_word_counts": {
+        "NW": 33,
+        "NORTH": 42,
+        "NE": 53,
+        "EAST": 32,
+        "SE": 28,
+        "SOUTH": 37,
+        "SW": 45,
+        "WEST": 28,
+        "CENTER": 69
+      },
+      "connected_minus_unconnected_cosine": 0.0072670819179609936,
+      "permutations": 9999,
+      "one_sided_p": 0.3032,
+      "null_mean": 0.00016946387841532102,
+      "bonferroni_three_modes_p": 0.9096000000000001
+    },
+    {
+      "mode": "labels_only",
+      "accepted_word_counts": {
+        "NW": 9,
+        "NORTH": 10,
+        "NE": 12,
+        "EAST": 4,
+        "SE": 4,
+        "SOUTH": 8,
+        "SW": 19,
+        "WEST": 6,
+        "CENTER": 28
+      },
+      "connected_minus_unconnected_cosine": 0.01812719851803435,
+      "permutations": 9999,
+      "one_sided_p": 0.3197,
+      "null_mean": 0.0002191424570829083,
+      "bonferroni_three_modes_p": 0.9591
+    },
+    {
+      "mode": "ring_only",
+      "accepted_word_counts": {
+        "NW": 24,
+        "NORTH": 32,
+        "NE": 31,
+        "EAST": 28,
+        "SE": 24,
+        "SOUTH": 29,
+        "SW": 26,
+        "WEST": 22,
+        "CENTER": 41
+      },
+      "connected_minus_unconnected_cosine": 0.016229049409004936,
+      "permutations": 9999,
+      "one_sided_p": 0.151,
+      "null_mean": 0.0001793808913886736,
+      "bonferroni_three_modes_p": 0.45299999999999996
+    }
+  ],
+  "limitations": [
+    "External topology unverified against Yale image in this execution",
+    "Blindness of external annotation not established",
+    "Edges confounded with grid proximity",
+    "Whole node texts permuted; lengths and textual roles not matched",
+    "Text selection and topology chosen after inspecting source; exploratory",
+    "Three modes share one physical diagram and are not replications"
+  ]
+}

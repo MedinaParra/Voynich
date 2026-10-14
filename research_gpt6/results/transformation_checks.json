@@ -1,0 +1,32 @@
+{
+  "status": "PASS_EXECUTED",
+  "executed_at_utc": "2026-10-07T03:07:39.548101+00:00",
+  "environment": {
+    "python": "3.12.14",
+    "dependencies": "Python standard library only"
+  },
+  "source_branch": "experiment/timesfm-voynich",
+  "baseline_commit": "ce3a2b77fd50dd91a77bd6d8012e0de457219805",
+  "checks_command": "python -m unittest discover -s voynich_work -p test_transformation_probe.py -v",
+  "checks_exit_code": 0,
+  "tests_passed": 10,
+  "retrieval_command": "python voynich_work/transformation_probe.py --corpus voynich_work/source_eva.txt --inventory voynich_work/transformation_inventory.json --plan voynich_work/transformation_plan.json --predictions voynich_work/transformation_predictions.json --out voynich_work/transformation_result.json",
+  "execution_exit_code": 0,
+  "synthetic_positive": "6/6 exact first-ranked generated labels; identity 0/6",
+  "synthetic_negative": "0/6 unrelated caption strings generated",
+  "scope": "Executed failure controls and exploratory Voynich rule induction; root/leaf semantic experiment remains blocked",
+  "sha256": {
+    "source_eva.txt": "bf5b6d4ac1e3a51b1847a9c388318d609020441ccd56984c901c32b09beccafc",
+    "transformation_probe.py": "f76643ecbb07128a8c73546ef5142e6e471a1d7b657fa68da1ea295d72da2511",
+    "test_transformation_probe.py": "fc83ac1a1774c06f7c46bdbd75f0a07fe6a232d58a4377d25dc8e5e598e07455",
+    "transformation_inventory.json": "fa9f30f17197ff4ab6c2f6df3a7b877f9027f2fdbd2b73ca085ea4b72a48eb1b",
+    "transformation_plan_v1.json": "a89accf76ecd322c2b56d2b2eb7d0c79813a7074b02803a0ec55a2501eeff551",
+    "transformation_plan.json": "136c1cf28d254c7d122a81763ad3c6d652cd614f862bc90934482b5eae10dc4f",
+    "transformation_predictions.json": "ddc626608907bdfcbb6a43887e80c7e1bb67f22f82578f47b6b2a79e019ff1c8",
+    "transformation_result.json": "395ea939bcb40b32d005d4281e05058fe7455e371f60fb2673f4db223dba3784",
+    "transformation_visual_audit.json": "6006bc0cefd0ba9be190d583e8bc0252075f9edcf28bc51adb9580577200f018"
+  },
+  "hashes_refreshed_at_utc": "2026-10-07T03:12:10.404765+00:00",
+  "execution_timestamp_note": "The final metadata-only quire field update was followed by a successful rerun of the same ten tests and CLI; the last CLI completion is approximated by result-file modification time.",
+  "last_cli_result_written_at_utc": "2026-10-07T03:09:40.235338+00:00"
+}

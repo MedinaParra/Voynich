@@ -1,0 +1,112 @@
+{
+  "status": "PASS_REMOTE_SUMMARY_REPRODUCED",
+  "verified_at_utc": "2026-10-07T08:52:46.288Z",
+  "repository": "MedinaParra/Voynich",
+  "branch": "experiment/timesfm-voynich",
+  "baseline_commit": "4dba2ad81b30a79f0302877c237617af6bea56b4",
+  "plan_commit": "25db5028e465d2d5e9f7755b671a03527ed20230",
+  "tested_commit": "66d2c4f73270ba28ef1c0dbf9a4191212e0d17b0",
+  "workflow": {
+    "id": 37596432044,
+    "name": "Voynich two-view metadata harness",
+    "url": "https://github.com/MedinaParra/Voynich/actions/runs/37596432044",
+    "event": "pull_request",
+    "status": "completed",
+    "conclusion": "success"
+  },
+  "job": {
+    "id": 112710109467,
+    "name": "two-view-controls",
+    "url": "https://github.com/MedinaParra/Voynich/actions/runs/37596432044/job/112710109467",
+    "status": "completed",
+    "conclusion": "success",
+    "started_at": "2026-10-07T08:50:14Z",
+    "completed_at": "2026-10-07T08:51:11Z"
+  },
+  "checks": {
+    "local_copy_tests_passed": 14,
+    "all_job_steps_successful": true,
+    "model_step": "success"
+  },
+  "verified": {
+    "method": "Actual completed GitHub job logs",
+    "summary_exactly_matches_local": true,
+    "rounded_fold_gain_rows": [
+      "split fold 0 copy_gain_bits 0.001776332 leaf_balanced 0.001467388",
+      "split fold 1 copy_gain_bits 0.002553359 leaf_balanced 0.002625096",
+      "split fold 2 copy_gain_bits 0.004054583 leaf_balanced 0.006537926",
+      "split fold 3 copy_gain_bits 0.005851224 leaf_balanced 0.00378614",
+      "split fold 4 copy_gain_bits 0.002207832 leaf_balanced 0.000906888",
+      "join fold 0 copy_gain_bits 0.001540288 leaf_balanced 0.001346805",
+      "join fold 1 copy_gain_bits 0.003081276 leaf_balanced 0.00308347",
+      "join fold 2 copy_gain_bits 0.004924399 leaf_balanced 0.00842462",
+      "join fold 3 copy_gain_bits 0.008801177 leaf_balanced 0.005357043",
+      "join fold 4 copy_gain_bits 0.002134673 leaf_balanced 0.001044954"
+    ],
+    "simulation_range_count_rows": [
+      "split independent metrics_in_simulation_range 0 /7",
+      "split edge metrics_in_simulation_range 2 /7",
+      "split edge_copy metrics_in_simulation_range 0 /7",
+      "join independent metrics_in_simulation_range 1 /7",
+      "join edge metrics_in_simulation_range 3 /7",
+      "join edge_copy metrics_in_simulation_range 3 /7"
+    ],
+    "plan_sha256": "2f62fdba825e3299a87c3b7949f3f691d08ae8c0063e30ffba238002e3a67b19",
+    "generated_examples_sha256": "592e2118b237a9b4d31ebec84f60057dd429c5d4e6409318496e7fd315b97e0f",
+    "artifact_name": "two-view-metadata-results",
+    "artifact_downloaded": false,
+    "scope": "Entire compact summary, ten rounded fold gain lines, six metric-coverage counts, and the logged SHA-256 of representative generated examples. Full result JSON and all individual simulation values were not downloaded or hash-verified."
+  },
+  "scientific_result": {
+    "split_gain_bits": 0.0033481912261429034,
+    "join_gain_bits": 0.004193536399149945,
+    "physical_leaves": 89,
+    "numeric_local_criterion": true,
+    "effect_size": "Very small, approximately 0.03% of edge-model loss",
+    "joint_generator_adequacy": "NOT_FOUND_FOR_TESTED_MODELS",
+    "translation": "NOT_RUN",
+    "semantic_gate": "BLOCKED",
+    "novelty": "NOT_ESTABLISHED"
+  },
+  "published_files_verified": [
+    {
+      "path": "research_gpt6/code/local_copy_probe.py",
+      "git_blob": "946ef75dcf4103e7ba2e7542f8907174a56c0e2e"
+    },
+    {
+      "path": "research_gpt6/code/test_local_copy_probe.py",
+      "git_blob": "d2b663b8797d5b77ae86062965025e0fd6e6c275"
+    },
+    {
+      "path": "research_gpt6/data/local_copy_plan.json",
+      "git_blob": "d59eebb691d209267ee8b1e1086246f3b64fdf2f"
+    },
+    {
+      "path": "research_gpt6/results/local_copy_generated_examples.json",
+      "git_blob": "cf5e24f813e37723de2d77e08bb13a208e02d1e4"
+    },
+    {
+      "path": "research_gpt6/results/local_copy_checks.json",
+      "git_blob": "8c6b41f9a5a58f7becd367c54330292115f8248a"
+    },
+    {
+      "path": "research_gpt6/43_local_copy_mechanism.md",
+      "git_blob": "d266541319d2387812f8193a00c6a9268b45cf8b"
+    },
+    {
+      "path": ".github/workflows/dual-perspective-voynich.yml",
+      "git_blob": "2010463fa5bdba83a21dd11ad1676379422f8ea3"
+    },
+    {
+      "path": "research_gpt6/results/local_copy_result.json",
+      "git_blob": "04982c708cecdc6aacfbad13a77280c5ee21e6c0"
+    }
+  ],
+  "job_log_sha256": "b79fd5a0d8028d3065fc258a150c0575abcccf7de0d35e36ff711edc446bc4ae",
+  "environment": {
+    "local_python": "3.12.14",
+    "remote_python": "3.12.14",
+    "remote_version_evidence": "Completed job log: Successfully set up CPython (3.12.14)",
+    "mechanism_dependencies": "Python standard library only"
+  }
+}

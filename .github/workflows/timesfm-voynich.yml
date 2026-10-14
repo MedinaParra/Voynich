@@ -1,0 +1,64 @@
+name: Voynich frozen experiments
+on:
+  workflow_dispatch:
+  pull_request:
+    branches: [research/gpt6-audit]
+    paths: ['research_gpt6/**','.github/workflows/timesfm-voynich.yml']
+jobs:
+  label-object-audit:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: {python-version: '3.11'}
+      - run: curl -L --fail -o voynich_eva.txt 'https://raw.githubusercontent.com/cesarjz/Voynich/47e6a77dc9d5cd570c375f4aff710fa4a0567278/corpus/voynich_eva.txt'
+      - run: mkdir -p research_gpt6/results && python research_gpt6/code/label_object_audit.py --corpus voynich_eva.txt --out research_gpt6/results/label_object_audit.json
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with: {name: label-object-audit-results, path: research_gpt6/results/label_object_audit.json}
+  lexical-anchor-pair:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: {python-version: '3.11'}
+      - run: curl -L --fail -o voynich_eva.txt 'https://raw.githubusercontent.com/cesarjz/Voynich/47e6a77dc9d5cd570c375f4aff710fa4a0567278/corpus/voynich_eva.txt'
+      - name: Run preregistered Lc-vs-Lf pilot
+        run: mkdir -p research_gpt6/results && python research_gpt6/code/label_pair_holdout.py --corpus voynich_eva.txt --out research_gpt6/results/label_pair_holdout.json --permutations 999
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with: {name: lexical-anchor-pair-results, path: research_gpt6/results/label_pair_holdout.json, if-no-files-found: warn}
+  semantic-holdout:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: {python-version: '3.11'}
+      - run: curl -L --fail -o voynich_eva.txt 'https://raw.githubusercontent.com/cesarjz/Voynich/47e6a77dc9d5cd570c375f4aff710fa4a0567278/corpus/voynich_eva.txt'
+      - run: mkdir -p research_gpt6/results && python research_gpt6/code/weak_semantic_holdout.py --corpus voynich_eva.txt --out research_gpt6/results/weak_semantic_holdout.json
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with: {name: weak-semantic-holdout-results, path: research_gpt6/results/weak_semantic_holdout.json}
+  timesfm-rolling:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: {python-version: '3.11'}
+      - run: pip install 'timesfm[torch]==3.0.2'
+      - run: curl -L --fail -o voynich_eva.txt 'https://raw.githubusercontent.com/cesarjz/Voynich/47e6a77dc9d5cd570c375f4aff710fa4a0567278/corpus/voynich_eva.txt'
+      - name: Run rolling baseline
+        run: mkdir -p research_gpt6/results && python research_gpt6/code/timesfm_rolling.py --corpus voynich_eva.txt --out research_gpt6/results/timesfm_rolling.json --context 128 --horizon 16 --folds 8
+      - name: Run corrected folio-only PACS audit
+        run: python research_gpt6/code/pacs_timesfm.py --corpus voynich_eva.txt --out research_gpt6/results/pacs_folio_audit.json --contexts 32,64,128,256,512 --horizon 16 --folds 4 --ablation-context 128 --seed 20261007 --only-folio
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: timesfm-and-pacs-folio-audit
+          path: |
+            research_gpt6/results/timesfm_rolling.json
+            research_gpt6/results/pacs_folio_audit.json
+          if-no-files-found: warn

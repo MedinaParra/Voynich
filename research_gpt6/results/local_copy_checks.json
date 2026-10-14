@@ -1,0 +1,28 @@
+{
+  "status": "PASS_EXECUTED",
+  "executed_at_utc": "2026-10-07T08:44:49.660825+00:00",
+  "timestamp_source": "Result file completion time",
+  "environment": {
+    "python": "3.12.14",
+    "dependencies": "Python standard library only"
+  },
+  "baseline_commit": "4dba2ad81b30a79f0302877c237617af6bea56b4",
+  "plan_commit": "25db5028e465d2d5e9f7755b671a03527ed20230",
+  "branch": "experiment/timesfm-voynich",
+  "tests_command": "python -m unittest discover -s voynich_work -p test_local_copy_probe.py -v",
+  "tests_passed": 14,
+  "tests_exit_code": 0,
+  "experiment_command": "python voynich_work/local_copy_probe.py --corpus voynich_work/source_eva.txt --plan voynich_work/local_copy_plan.json --out voynich_work/local_copy_result.json --samples voynich_work/local_copy_generated_examples.json",
+  "experiment_exit_code": 0,
+  "semantic_gate": "BLOCKED",
+  "translation": "NOT_RUN",
+  "novelty": "NOT_ESTABLISHED",
+  "sha256": {
+    "source_eva.txt": "bf5b6d4ac1e3a51b1847a9c388318d609020441ccd56984c901c32b09beccafc",
+    "local_copy_probe.py": "aa3f4cb50990b64c621a1ca4a1d1bf43121ea8272839dd056d66a07c1a18b7d2",
+    "test_local_copy_probe.py": "a169dc51c35993c483bc3d9bc85e0256fed8c62f7bf265f44f0d8345828ffebb",
+    "local_copy_plan.json": "2f62fdba825e3299a87c3b7949f3f691d08ae8c0063e30ffba238002e3a67b19",
+    "local_copy_result.json": "0391d3b3439c3a4f37edd707f18c40521eb270e655f1b175c714cdfa0fb826d9",
+    "local_copy_generated_examples.json": "592e2118b237a9b4d31ebec84f60057dd429c5d4e6409318496e7fd315b97e0f"
+  }
+}

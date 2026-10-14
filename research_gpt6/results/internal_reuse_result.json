@@ -1,0 +1,421 @@
+{
+  "status": "PASS_EXECUTED",
+  "classification": "TENTATIVE_VISUAL_PAIR_RETRIEVAL_NOT_TRANSLATION",
+  "source_blob": "2a4533ab9bdfa85db9bad602d590978953055df1",
+  "pairs_scored": 7,
+  "pairs_blocked": [],
+  "exact_recurrence_pairs": 0,
+  "comparisons": [
+    {
+      "anchor": {
+        "herbal": "f96v",
+        "pharma": "f100r",
+        "fragment": "116",
+        "match_strength": "some_similarity",
+        "source": "https://voynich.nu/q19/index.html",
+        "visual_verified_here": false
+      },
+      "label": {
+        "locus": "f100r.2,@Lf",
+        "token": "sochorcfhy",
+        "folio": "f100r",
+        "fragment": "116",
+        "currier": "A",
+        "hand": "1"
+      },
+      "exact_count_on_corresponding_herbal": 0,
+      "herbal_candidates": 95,
+      "label_candidates": 164,
+      "exact_occurrence_on_other_herbals": [],
+      "label_to_herbal": {
+        "rank_min": 94,
+        "rank_max": 94,
+        "rank_mid": 94.0,
+        "score": 0.0520693240141593,
+        "fraction_strictly_better": 0.9789473684210527
+      },
+      "herbal_to_label": {
+        "rank_min": 89,
+        "rank_max": 89,
+        "rank_mid": 89.0,
+        "score": 0.0740838683811346,
+        "fraction_strictly_better": 0.5365853658536586
+      },
+      "top_herbal_candidates": [
+        "f11r",
+        "f10r",
+        "f13r",
+        "f56r",
+        "f30r"
+      ],
+      "top_label_candidates": [
+        "f102v2.11,@Lf",
+        "f89r2.19,@Lf",
+        "f100r.17,@Lf",
+        "f88v.3,@Lf",
+        "f89r2.5,@Lf"
+      ]
+    },
+    {
+      "anchor": {
+        "herbal": "f13v",
+        "pharma": "f100v",
+        "fragment": "133",
+        "match_strength": "some_similarity",
+        "source": "https://voynich.nu/q19/index.html",
+        "visual_verified_here": false
+      },
+      "label": {
+        "locus": "f100v.3,@Lf",
+        "token": "opchor",
+        "folio": "f100v",
+        "fragment": "133",
+        "currier": "A",
+        "hand": "1"
+      },
+      "exact_count_on_corresponding_herbal": 0,
+      "herbal_candidates": 95,
+      "label_candidates": 164,
+      "exact_occurrence_on_other_herbals": [
+        "f13r",
+        "f49r"
+      ],
+      "label_to_herbal": {
+        "rank_min": 69,
+        "rank_max": 69,
+        "rank_mid": 69.0,
+        "score": 0.1589211854726446,
+        "fraction_strictly_better": 0.7157894736842105
+      },
+      "herbal_to_label": {
+        "rank_min": 24,
+        "rank_max": 24,
+        "rank_mid": 24.0,
+        "score": 0.19297350625036336,
+        "fraction_strictly_better": 0.1402439024390244
+      },
+      "top_herbal_candidates": [
+        "f15v",
+        "f13r",
+        "f10r",
+        "f9v",
+        "f49r"
+      ],
+      "top_label_candidates": [
+        "f99r.27,@Lf",
+        "f89v2.25,@Lf",
+        "f102v2.13,@Lf",
+        "f102v2.4,@Lf",
+        "f88v.2,@Lf"
+      ]
+    },
+    {
+      "anchor": {
+        "herbal": "f90v2",
+        "pharma": "f100v",
+        "fragment": "136",
+        "match_strength": "some_similarity",
+        "source": "https://voynich.nu/q19/index.html",
+        "visual_verified_here": false
+      },
+      "label": {
+        "locus": "f100v.6,@Lf",
+        "token": "ykchochdy",
+        "folio": "f100v",
+        "fragment": "136",
+        "currier": "A",
+        "hand": "1"
+      },
+      "exact_count_on_corresponding_herbal": 0,
+      "herbal_candidates": 95,
+      "label_candidates": 164,
+      "exact_occurrence_on_other_herbals": [],
+      "label_to_herbal": {
+        "rank_min": 86,
+        "rank_max": 86,
+        "rank_mid": 86.0,
+        "score": 0.0835682767485052,
+        "fraction_strictly_better": 0.8947368421052632
+      },
+      "herbal_to_label": {
+        "rank_min": 53,
+        "rank_max": 53,
+        "rank_mid": 53.0,
+        "score": 0.10787360125236772,
+        "fraction_strictly_better": 0.3170731707317073
+      },
+      "top_herbal_candidates": [
+        "f27v",
+        "f56r",
+        "f53r",
+        "f47r",
+        "f13r"
+      ],
+      "top_label_candidates": [
+        "f89v2.5,@Lf",
+        "f89r2.19,@Lf",
+        "f89r2.4,@Lf",
+        "f102v2.11,@Lf",
+        "f100r.17,@Lf"
+      ]
+    },
+    {
+      "anchor": {
+        "herbal": "f18v",
+        "pharma": "f102r2",
+        "fragment": "212",
+        "match_strength": "appears_same",
+        "source": "https://voynich.nu/q19/index.html",
+        "visual_verified_here": false,
+        "visual_inspected_here": true,
+        "visual_audit": "research_gpt6/data/internal_reuse_visual_audit.json"
+      },
+      "label": {
+        "locus": "f102r2.21,@Lf",
+        "token": "koldarod",
+        "folio": "f102r2",
+        "fragment": "212",
+        "currier": "A",
+        "hand": "1"
+      },
+      "exact_count_on_corresponding_herbal": 0,
+      "herbal_candidates": 95,
+      "label_candidates": 164,
+      "exact_occurrence_on_other_herbals": [],
+      "label_to_herbal": {
+        "rank_min": 13,
+        "rank_max": 13,
+        "rank_mid": 13.0,
+        "score": 0.0743792374886639,
+        "fraction_strictly_better": 0.12631578947368421
+      },
+      "herbal_to_label": {
+        "rank_min": 92,
+        "rank_max": 92,
+        "rank_mid": 92.0,
+        "score": 0.08241023106291231,
+        "fraction_strictly_better": 0.5548780487804879
+      },
+      "top_herbal_candidates": [
+        "f13v",
+        "f52r",
+        "f14v",
+        "f23v",
+        "f54v"
+      ],
+      "top_label_candidates": [
+        "f99r.27,@Lf",
+        "f89v2.25,@Lf",
+        "f102v2.13,@Lf",
+        "f99v.26,@Lf",
+        "f102v2.5,@Lf"
+      ]
+    },
+    {
+      "anchor": {
+        "herbal": "f23r",
+        "pharma": "f102r2",
+        "fragment": "213",
+        "match_strength": "appears_same",
+        "source": "https://voynich.nu/q19/index.html",
+        "visual_verified_here": false,
+        "visual_inspected_here": true,
+        "visual_audit": "research_gpt6/data/internal_reuse_visual_audit.json"
+      },
+      "label": {
+        "locus": "f102r2.22,@Lf",
+        "token": "odalydary",
+        "folio": "f102r2",
+        "fragment": "213",
+        "currier": "A",
+        "hand": "1"
+      },
+      "exact_count_on_corresponding_herbal": 0,
+      "herbal_candidates": 95,
+      "label_candidates": 164,
+      "exact_occurrence_on_other_herbals": [],
+      "label_to_herbal": {
+        "rank_min": 9,
+        "rank_max": 9,
+        "rank_mid": 9.0,
+        "score": 0.12711435515315564,
+        "fraction_strictly_better": 0.08421052631578947
+      },
+      "herbal_to_label": {
+        "rank_min": 50,
+        "rank_max": 50,
+        "rank_mid": 50.0,
+        "score": 0.14117158912672884,
+        "fraction_strictly_better": 0.29878048780487804
+      },
+      "top_herbal_candidates": [
+        "f45r",
+        "f53v",
+        "f47v",
+        "f24v",
+        "f90r1"
+      ],
+      "top_label_candidates": [
+        "f88v.14,@Lf",
+        "f89v1.24,@Lf",
+        "f89r1.5,@Lf",
+        "f99v.16,@Lf",
+        "f99r.35,@Lf"
+      ]
+    },
+    {
+      "anchor": {
+        "herbal": "f36r",
+        "pharma": "f102v2",
+        "fragment": "225",
+        "match_strength": "some_similarity",
+        "source": "https://voynich.nu/q19/index.html",
+        "visual_verified_here": false
+      },
+      "label": {
+        "locus": "f102v2.14,@Lf",
+        "token": "sarol",
+        "folio": "f102v2",
+        "fragment": "225",
+        "currier": "A",
+        "hand": "1"
+      },
+      "exact_count_on_corresponding_herbal": 0,
+      "herbal_candidates": 95,
+      "label_candidates": 164,
+      "exact_occurrence_on_other_herbals": [],
+      "label_to_herbal": {
+        "rank_min": 12,
+        "rank_max": 12,
+        "rank_mid": 12.0,
+        "score": 0.07814929966381765,
+        "fraction_strictly_better": 0.11578947368421053
+      },
+      "herbal_to_label": {
+        "rank_min": 74,
+        "rank_max": 74,
+        "rank_mid": 74.0,
+        "score": 0.09430538387576035,
+        "fraction_strictly_better": 0.4451219512195122
+      },
+      "top_herbal_candidates": [
+        "f96v",
+        "f87v",
+        "f23v",
+        "f54r",
+        "f8v"
+      ],
+      "top_label_candidates": [
+        "f88v.14,@Lf",
+        "f89r1.5,@Lf",
+        "f89v1.24,@Lf",
+        "f89r2.11,@Lf",
+        "f102v2.27,@Lf"
+      ]
+    },
+    {
+      "anchor": {
+        "herbal": "f19r",
+        "pharma": "f102v1",
+        "fragment": "240",
+        "match_strength": "appears_same",
+        "source": "https://voynich.nu/q19/index.html",
+        "visual_verified_here": false
+      },
+      "label": {
+        "locus": "f102v1.17,@Lf",
+        "token": "loralody",
+        "folio": "f102v1",
+        "fragment": "240",
+        "currier": "A",
+        "hand": "1"
+      },
+      "exact_count_on_corresponding_herbal": 0,
+      "herbal_candidates": 95,
+      "label_candidates": 164,
+      "exact_occurrence_on_other_herbals": [],
+      "label_to_herbal": {
+        "rank_min": 14,
+        "rank_max": 14,
+        "rank_mid": 14.0,
+        "score": 0.08616815259124923,
+        "fraction_strictly_better": 0.1368421052631579
+      },
+      "herbal_to_label": {
+        "rank_min": 81,
+        "rank_max": 81,
+        "rank_mid": 81.0,
+        "score": 0.08114955764887276,
+        "fraction_strictly_better": 0.4878048780487805
+      },
+      "top_herbal_candidates": [
+        "f45r",
+        "f96r",
+        "f6v",
+        "f16r",
+        "f14r"
+      ],
+      "top_label_candidates": [
+        "f102v2.4,@Lf",
+        "f99r.27,@Lf",
+        "f89v2.25,@Lf",
+        "f100v.3,@Lf",
+        "f89r1.5,@Lf"
+      ]
+    }
+  ],
+  "unlabelled_comparisons": [
+    {
+      "anchor": {
+        "herbal": "f1v",
+        "pharma": "f102r1",
+        "fragment": "204"
+      },
+      "has_literal_lf_label": false
+    },
+    {
+      "anchor": {
+        "herbal": "f37v",
+        "pharma": "f102r1",
+        "fragment": "203"
+      },
+      "has_literal_lf_label": false
+    },
+    {
+      "anchor": {
+        "herbal": "f47v",
+        "pharma": "f102r2",
+        "fragment": "205"
+      },
+      "has_literal_lf_label": false
+    },
+    {
+      "anchor": {
+        "herbal": "f32v",
+        "pharma": "f102r2",
+        "fragment": "206"
+      },
+      "has_literal_lf_label": false
+    }
+  ],
+  "source_physical_leaves": [
+    "f100",
+    "f102"
+  ],
+  "visual_review_scope": "Directed non-blind review of Yale f102r1/f102r2, f18v and f23r; two of seven proposed pairs inspected; no species, gloss or independent identity validation",
+  "limitations": [
+    "Visual correspondences tentative; image review does not identify species or semantic roles",
+    "Candidate texts reused from known corpus; transductive retrieval, no fresh holdout",
+    "Repeated labels and score ties are retained; mid-ranks reported",
+    "Two physical source leaves do not become independent samples by splitting panels",
+    "No inferential p-value: query/pair dependence and selection are not calibrated",
+    "Rare labels may be names, properties or procedures; exact absence does not refute all naming"
+  ],
+  "semantic_anchor": "NOT_VALIDATED",
+  "translation": "NOT_RUN",
+  "environment": {
+    "python": "3.12.14",
+    "numpy": "2.3.5"
+  },
+  "anchors_sha256": "b4296bba2b1cb5d9e892bf597be1ac57332282693f5c66e6768358c2257f2f0d"
+}

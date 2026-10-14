@@ -1,0 +1,103 @@
+{
+  "name": "Edge-conditioned open-vocabulary generation with a one-character local copy channel",
+  "version": 1,
+  "classification": "EXPLORATORY_MECHANISM_TEST_NOT_TRANSLATION_NOT_EXACT_REPLICATION",
+  "frozen_at_utc": "2026-10-07T08:38:14.834635+00:00",
+  "baseline_commit": "4dba2ad81b30a79f0302877c237617af6bea56b4",
+  "timing": "Metadata counts and earlier reports inspected; frozen before fitting or scoring the new model on real Voynich data. Corpus is previously explored, not a fresh semantic holdout.",
+  "source_blob": "2a4533ab9bdfa85db9bad602d590978953055df1",
+  "source_sha256": "bf5b6d4ac1e3a51b1847a9c388318d609020441ccd56984c901c32b09beccafc",
+  "source_url": "https://raw.githubusercontent.com/cesarjz/Voynich/47e6a77dc9d5cd570c375f4aff710fa4a0567278/corpus/voynich_eva.txt",
+  "representation": "Literal lowercase ASCII EVA characters; not established glyphs, phonemes, or language units.",
+  "parser": "Paragraph P loci only; unknown/alternative chunks and drawing gaps break adjacency; never cross lines. Both comma split and join. Numeric folio stem groups all panels and recto/verso; nonnumeric fRos excluded with audit.",
+  "strata": [
+    [
+      "A",
+      "1"
+    ],
+    [
+      "B",
+      "2"
+    ],
+    [
+      "B",
+      "3"
+    ]
+  ],
+  "strata_reason": "Three large known Currier/hand strata in pre-fit metadata inventory; other hands/unknowns have limited or mixed coverage. Section remains a potential confound.",
+  "reserve": {
+    "folds": 5,
+    "assignment": "Sort numeric folio stems lexicographically; index modulo five. Same assignment in both comma modes. Retain all rows of a physical leaf together.",
+    "generation_fold": 0,
+    "minimum_training_tokens_per_stratum": 500
+  },
+  "models": [
+    "independent",
+    "edge",
+    "edge_copy"
+  ],
+  "word_base": {
+    "empirical_weight": 0.95,
+    "open_character_markov_weight": 0.05,
+    "character_alpha": 0.5,
+    "alphabet": "abcdefghijklmnopqrstuvwxyz",
+    "max_characters": 64,
+    "position_bands": 4,
+    "band_reference": "Retained clean run; not complete physical line"
+  },
+  "edge": {
+    "shrinkage_to_base_first_character": 20
+  },
+  "copy": {
+    "source": "Immediate previous token within retained run only",
+    "operations": [
+      "identity",
+      "one insertion",
+      "one deletion",
+      "one substitution"
+    ],
+    "locations": [
+      "first",
+      "middle",
+      "last"
+    ],
+    "kind_and_location_alpha": 1,
+    "replacement_shrinkage_to_training_character_frequency": 20,
+    "mixture_fit": "30 EM iterations, initial copy weight 0.1; all pairs from training only",
+    "deletion_of_single_character_forbidden": true,
+    "no_vocabulary_of_test_words": true
+  },
+  "primary": "Bits per next token conditional on observed past (teacher forcing); compare edge vs edge_copy per stratum, physical fold and comma mode. Also report leaf-balanced gain. This is predictive performance, not meaning.",
+  "matched_context_probe": {
+    "draws_per_pair": 5,
+    "conditioning": "Replace previous token by a distinct training token with same ASCII length, final character and Currier/hand; sample by training frequency without consulting target. Edge probabilities remain identical. Descriptive probe, no causal or formal permutation p-value."
+  },
+  "simulation": {
+    "fold": 0,
+    "draws_per_model": 30,
+    "shuffles_per_draw_for_edge_excess": 19,
+    "geometry": "Condition on held-out clean-run lengths and stratum only, generate all token strings and lengths freely within runs. Do not condition on test word lengths or final/initial characters.",
+    "metrics": [
+      "edge_mi",
+      "edge_excess",
+      "internal_h1",
+      "repeat_rate",
+      "edit_le1_rate",
+      "mean_length",
+      "hapax_type_fraction"
+    ],
+    "interval": "Second and penultimate values of 30 draws; descriptive simulation range, not confidence or rejection of a historical family."
+  },
+  "seed": 20261007,
+  "decision": "Report every fixed metric and all folds. Numerical support for added copy channel requires positive pooled and leaf-balanced log-score gains in both comma modes and positive pooled gains in every fold. No semantic or originality claim follows, even on success.",
+  "translation": "NOT_RUN",
+  "semantic_gate": "BLOCKED",
+  "novelty": "NOT_ESTABLISHED",
+  "limitations": [
+    "Same known corpus, no external semantic truth",
+    "Not the published full Timm/Schinner algorithm",
+    "Section and layout effects incompletely controlled",
+    "Left-to-right transcript order does not establish scribal causation",
+    "Both models may leave unmodeled nonsemantic structures"
+  ]
+}

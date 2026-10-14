@@ -1,0 +1,69 @@
+{
+  "status": "PASS_DIRECTED_PRIMARY_IMAGE_REVIEW",
+  "manifest_url": "https://collections.library.yale.edu/manifests/2002046",
+  "manifest_sha256": "317d58fd9ea90392a83d9858a91eada3d0b41416a3c835857dc0154bd123a309",
+  "images": [
+    {
+      "service": "https://collections.library.yale.edu/iiif/2/1006245",
+      "url": "https://collections.library.yale.edu/iiif/2/1006245/full/1800,/0/default.jpg",
+      "original_width": 2858,
+      "original_height": 3697,
+      "bytes": 986437,
+      "sha256": "3c543bcebcc6c68bdab5c0b1d3c7a098a8503d1fe7b58f089b56e9411aa14c24",
+      "folio": "f96v"
+    },
+    {
+      "service": "https://collections.library.yale.edu/iiif/2/1006246",
+      "url": "https://collections.library.yale.edu/iiif/2/1006246/full/1800,/0/default.jpg",
+      "original_width": 2702,
+      "original_height": 3765,
+      "bytes": 1030565,
+      "sha256": "923fcd5ad4b86a55866837cf9fd66b19d9b39998f016325cd9c37c6106c57c4e",
+      "folio": "f99r"
+    },
+    {
+      "service": "https://collections.library.yale.edu/iiif/2/1006248",
+      "url": "https://collections.library.yale.edu/iiif/2/1006248/full/1800,/0/default.jpg",
+      "original_width": 2676,
+      "original_height": 3756,
+      "bytes": 1050870,
+      "sha256": "705df80f90700315d696f0822414bf46962ba57baddbbd746ab2d7e01fdff700",
+      "folio": "f100r"
+    }
+  ],
+  "observations": [
+    {
+      "folio": "f96v",
+      "fragment": null,
+      "visible_parts": [
+        "roots",
+        "stems",
+        "leaves",
+        "fruits"
+      ]
+    },
+    {
+      "folio": "f99r",
+      "fragment": "94",
+      "visible_parts": [
+        "roots",
+        "stems",
+        "leaves",
+        "fruits"
+      ]
+    },
+    {
+      "folio": "f100r",
+      "fragment": "116",
+      "visible_parts": [
+        "roots",
+        "stems",
+        "leaves"
+      ]
+    }
+  ],
+  "conclusion": "The f96v/94/116 family is not an independently verified root-only versus leaf-only contrast. Multiple shape differences remain.",
+  "method": "Directed review with proposed matches already known; no blind independent annotator or new glyph reading",
+  "source": "Yale Beinecke MS 408 public IIIF",
+  "semantic_anchor": "NOT_VALIDATED"
+}

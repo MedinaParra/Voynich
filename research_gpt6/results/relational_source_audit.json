@@ -1,0 +1,13 @@
+{
+  "status": "PASS_ACQUISITION",
+  "source": "https://github.com/alessandroplaca-uro/voynich-spatial-data",
+  "source_path": "rosettes/tokens_f85v_86r.csv",
+  "retrieved": "2026-10-06",
+  "local_normalized_sha256": "01ea67abf2f72ec8db077dbf5920715d090ca8559b1192d7a5354bc04b8b9e3e",
+  "tokens": 539,
+  "paragraphs": 44,
+  "physical_foldouts": 1,
+  "independently_annotated_edges": 0,
+  "scientific_test_status": "BLOCKED",
+  "reason": "Coordinates and text are available; independent visual edges and multiple quires are missing. Paragraphs must not become independent folios."
+}

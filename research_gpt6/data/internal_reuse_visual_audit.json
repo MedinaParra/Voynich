@@ -1,0 +1,87 @@
+{
+  "status": "PASS_PRIMARY_IMAGE_ACCESS_AND_DIRECTED_REVIEW",
+  "reviewed_at_utc": "2026-10-07T01:05:47.372799+00:00",
+  "scope": "Directed non-blind review of Yale f102r1/f102r2, f18v and f23r; two of seven proposed pairs inspected; no species, gloss or independent identity validation",
+  "images": [
+    {
+      "url": "https://collections.library.yale.edu/iiif/2/1006251/full/2400,/0/default.jpg",
+      "service": "https://collections.library.yale.edu/iiif/2/1006251",
+      "original_width": 8176,
+      "original_height": 3864,
+      "downloaded_bytes": 657689,
+      "sha256": "b5ef09de004cdd23e1acca8db4b654b03ce5851600e1bd082a85728c8f4e0449",
+      "source": "Yale public IIIF",
+      "image_review": "COMPLETE_DIRECTED_LAYOUT_INSPECTION",
+      "glyph_reading_validation": "NOT_PERFORMED; frozen EVA corpus used for all tokens",
+      "folio_scope": [
+        "f101v1",
+        "f102r1",
+        "f102r2"
+      ]
+    },
+    {
+      "service": "https://collections.library.yale.edu/iiif/2/1006109",
+      "url": "https://collections.library.yale.edu/iiif/2/1006109/full/1600,/0/default.jpg",
+      "original_width": 2846,
+      "original_height": 3781,
+      "bytes": 762360,
+      "sha256": "6b448f2e1930fba13a89aace9ff5e3598973a20bedadfea311b6b11ab5516e41",
+      "folio_scope": [
+        "f18v"
+      ]
+    },
+    {
+      "service": "https://collections.library.yale.edu/iiif/2/1006118",
+      "url": "https://collections.library.yale.edu/iiif/2/1006118/full/1600,/0/default.jpg",
+      "original_width": 2650,
+      "original_height": 3705,
+      "bytes": 861661,
+      "sha256": "a547ad1e047c2e8e952ce58dd7d01c66cfc0c328aee1bdd8e77c37ca9cc14637",
+      "folio_scope": [
+        "f23r"
+      ]
+    },
+    {
+      "url": "https://collections.library.yale.edu/iiif/2/1006251/5390,0,2786,3864/1800,/0/default.jpg",
+      "bytes": 1095986,
+      "sha256": "8542a3edcddbab2924fe6a8b094d66df1d6fb6ac726d372ca53cbbd0991102b5",
+      "folio_scope": [
+        "f102r2"
+      ],
+      "purpose": "Position of two isolated bottom-row labels; source-service region, not a redraw"
+    }
+  ],
+  "pair_source": "https://voynich.nu/q19/index.html",
+  "herbal_image_link_source": "https://voynich.nu/q03/index.html",
+  "review_method": "Codex visual inspection of primary images after textual scoring; source-proposed pairs already known",
+  "observations": [
+    {
+      "herbal": "f18v",
+      "fragment": "212",
+      "pharma": "f102r2",
+      "features": "Orange horizontal lobed root with upright swollen segment and terminal recurving extension",
+      "judgment": "Visually consistent with proposed correspondence; identity not validated"
+    },
+    {
+      "herbal": "f23r",
+      "fragment": "213",
+      "pharma": "f102r2",
+      "features": "Horizontal segmented rhizome with circular cut ends, upper insertions and lower rootlets",
+      "judgment": "Visually consistent with proposed correspondence; identity not validated"
+    }
+  ],
+  "layout_observations": [
+    "Two isolated short strings lie above the two bottom plant fragments of f102r2, consistent with positions assigned to Lf 212/213 in the frozen corpus",
+    "No comparable individual isolated label for each bottom drawing of f102r1; consistent with missing literal Lf 203/204"
+  ],
+  "not_verified": [
+    "Botanical species",
+    "Linguistic meaning or semantic role of labels",
+    "Blind matching against unrelated figures",
+    "Five remaining scored pairs",
+    "Independent glyph-by-glyph transcription"
+  ],
+  "catalog_errors": "Yale catalog returned 403; public IIIF returned images successfully",
+  "translation": "NOT_RUN",
+  "semantic_anchor": "NOT_VALIDATED"
+}

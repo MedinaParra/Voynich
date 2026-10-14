@@ -1,0 +1,39 @@
+{
+  "classification": "PREDEFINED_BOUNDED_RULE_PILOT_NOT_TRANSLATION",
+  "frozen_at_utc": "2026-10-07T03:04:14.230122+00:00",
+  "inventory_sha256": "fa9f30f17197ff4ab6c2f6df3a7b877f9027f2fdbd2b73ca085ea4b72a48eb1b",
+  "source_blob": "2a4533ab9bdfa85db9bad602d590978953055df1",
+  "analysis_unit": "EVA conventional bench units: ckh, cth, cph, cfh, ch, sh; remaining literal letters. Not asserted as phonemes or proven graphemes.",
+  "rule": "Replace fixed prefix and suffix while retaining a nonempty middle; at most 2 EVA units on each removed/added affix; middle at least 3 units",
+  "max_learned_rules": 1,
+  "min_training_entities_supporting_rule": 2,
+  "min_training_physical_leaves_supporting_rule": 2,
+  "rule_selection": "Max distinct herbal entities, then physical pharma leaves, then min affix edit cost, then min description length, then deterministic lexical order",
+  "split": "Hold out one physical pharmaceutical leaf, purge every training pair sharing a herbal folio with the held-out set",
+  "prediction": "Apply chosen single rule or identity fallback to every strict paragraph token; generate actual strings, not choose from held-out label vocabulary",
+  "ranking": "Smoothed bigram log probability per unit plus smoothed label-length log probability, both fit only to training labels; alpha=0.5 and 1.0 respectively",
+  "controls": [
+    "Identity generator with the same training-only ranking",
+    "199 wrong-herbal correspondence trials; family preserved, same Currier/hand/section and clean token count within 20%, never use an inventory herbal as a random control"
+  ],
+  "random_seed": 429,
+  "wrong_correspondence_trials": 199,
+  "reported_metrics": [
+    "Exact first-ranked label",
+    "Exact label in first 5 generated strings",
+    "Exact label anywhere in generated strings, with candidate-count warning"
+  ],
+  "calibration_claim": "Exploratory wrong-match benchmark, not a confirmatory p-value or independent semantic replication",
+  "semantic_gate": "At least 3 independently verified entity families with contrasting localized plant-part captions; operational minimum only, no power claim; else BLOCKED",
+  "translation": "NOT_RUN",
+  "no_adaptive_changes": "Do not enlarge affix limits, prune difficult pairs or swap ranking after results are observed",
+  "version": 2,
+  "eligibility_revision_before_predictive_run": {
+    "reason": "Inventory extraction found f48r source Currier B/hand 5 paired with pharma Currier A/hand 1; require matched source/caption Currier and hand to avoid conflating domains",
+    "prior_plan_sha256": "a89accf76ecd322c2b56d2b2eb7d0c79813a7074b02803a0ec55a2501eeff551",
+    "timing": "After metadata extraction, before any rule induction/prediction on Voynich pairs; model hyperparameters unchanged"
+  },
+  "cohort": "Literal unique Lf ID; herbal and pharma source have the same known Currier/hand",
+  "ties": "Top1 requires a unique best score; top5 requires all tied items to fall within five positions",
+  "ranking_length_support": "Fixed 1..64 EVA-unit lengths; no test-label length is consulted"
+}

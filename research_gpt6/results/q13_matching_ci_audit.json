@@ -1,0 +1,73 @@
+{
+  "classification": "Q13_PHYSICAL_MATCHING_FULL_CI_AUDIT",
+  "status": "PASS_AUDIT",
+  "preregistered_commit": "f7699ad8be47917ddbf833e49a7eb46fefc1ec1f",
+  "code_commit": "7d22db0830a51fc9b0452c070ac2f3e53f258684",
+  "workflow_run_id": 37657459441,
+  "job_id": 112916110413,
+  "artifact_id": 11499366721,
+  "run_status": "completed",
+  "run_conclusion": "success",
+  "harness": {
+    "classification": "Q13_MATCHING_SCIENTIFIC_HARNESS",
+    "errors": 0,
+    "failures": 0,
+    "status": "PASS",
+    "tests_run": 16
+  },
+  "log_result_sha256": "79e6cc2a7701455db0d7a7ee48fa79e3f942da4e38b50163c197861083ad798a",
+  "github_artifact_digest": "sha256:7418235696ffe5d76596dd20ad01713bec4848635d1bb07555f6be9d3cbd61a2",
+  "published_code_hashes": {
+    "research_gpt6/data/q13_matching_plan.json": {
+      "sha256": "ad11ac913601226a5a9b50aabeff8e2e5d636799baaf81325fd4e444419d02ec",
+      "blob": "548ef8801926cfcd507edc4bc5c766630184e259"
+    },
+    "research_gpt6/code/q13_matching_control.py": {
+      "sha256": "9d5c268ea5621b62dd323d6ea1fd0f0d2c0fef9af25bca8f252ab675595b2a9a",
+      "blob": "b780ca5965fd5ab8d036911deaccaad2163c297e"
+    },
+    "research_gpt6/code/test_q13_matching_control.py": {
+      "sha256": "f0dcde80c0f462ce41d3d8f94c677fc5c591c5876cf3cd3d67c3a0fb7ddbdcc9",
+      "blob": "2a6f797682648883e5f79d69928a2edf4b8883aa"
+    },
+    ".github/workflows/q13-matching-control.yml": {
+      "sha256": "b76063f39af5312a46fc7db393e625ef10f810e7de70f113758d6281396aabc2",
+      "blob": "bbc4a960a7bc7fcb5b510ce88175de3db95ae7f8"
+    }
+  },
+  "verification_scope": [
+    "Downloaded complete ZIP; SHA256 matches GitHub artifact digest.",
+    "Extracted complete result; byte SHA256 matches job log.",
+    "Compared all lexical fields to local execution: numeric tolerance 1e-12; other values exact.",
+    "Recomputed every directed page/feature model and baseline loss from saved forecasts, contexts, targets and outside-Q13 scales.",
+    "Recomputed all matching scores and reference ranks from stored edge matrices.",
+    "GitHub result is JSON-compacted without changing parsed content; original and compact SHA256 both recorded.",
+    "TimesFM inference executed remotely once; local validation replays saved predictions and does not claim a second model inference.",
+    "Model repository revision and weight-file SHA256 were not captured; future live downloads need not be byte-identical."
+  ],
+  "result_sha256": "79e6cc2a7701455db0d7a7ee48fa79e3f942da4e38b50163c197861083ad798a",
+  "zip_sha256": "7418235696ffe5d76596dd20ad01713bec4848635d1bb07555f6be9d3cbd61a2",
+  "local_vs_ci_entire_lexical": {
+    "floats": 12224,
+    "exact_values": 21394,
+    "max_abs_difference": 5.551115123125783e-16
+  },
+  "runtime": {
+    "python": "3.12.15",
+    "numpy": "2.3.5"
+  },
+  "compact_sha256": "c28654c1b500d4bf665800e72cdd945dd8cacdee15760a4b1fe7c3f5aad13920",
+  "compact_bytes": 1119353,
+  "full_result_verification": {
+    "replayed_feature_losses": 11400,
+    "max_loss_abs_difference": 0,
+    "loss_tolerance": 1e-07,
+    "matching_records": 2835,
+    "matching_scores": 16065,
+    "exact_tail_counts": 34,
+    "compact_json_parsed_identical_to_original": true,
+    "all_rank_and_null_summary_fields_verified": true
+  },
+  "scientific_decision": "FAIL_STRICT_PAIR_COHERENCE",
+  "replay_auditor": "research_gpt6/code/audit_q13_matching_result.py"
+}

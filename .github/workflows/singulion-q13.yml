@@ -1,0 +1,44 @@
+name: Q13 singulion order experiment
+
+on:
+  push:
+    branches:
+      - experiment/timesfm-voynich
+    paths:
+      - 'research_gpt6/code/singulion_q13_order.py'
+      - 'research_gpt6/code/singulion_q13_adversarial.py'
+      - '.github/workflows/singulion-q13.yml'
+  workflow_dispatch:
+
+jobs:
+  q13-singulion:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Fetch frozen EVA corpus
+        run: |
+          curl -L --fail --retry 3 \
+            'https://raw.githubusercontent.com/cesarjz/Voynich/47e6a77dc9d5cd570c375f4aff710fa4a0567278/corpus/voynich_eva.txt' \
+            -o /tmp/voynich_eva.txt
+      - name: Execute exact Q13 order tournament
+        run: |
+          python research_gpt6/code/singulion_q13_order.py \
+            --corpus /tmp/voynich_eva.txt \
+            --out research_gpt6/results/singulion_q13_order.json \
+            | tee /tmp/q13.log
+      - name: Execute adversarial robustness audit
+        run: |
+          python research_gpt6/code/singulion_q13_adversarial.py \
+            --corpus /tmp/voynich_eva.txt \
+            --out research_gpt6/results/singulion_q13_adversarial.json \
+            | tee /tmp/q13-adversarial.log
+      - name: Upload results
+        uses: actions/upload-artifact@v4
+        with:
+          name: singulion-q13-results
+          path: |
+            research_gpt6/results/singulion_q13_order.json
+            research_gpt6/results/singulion_q13_adversarial.json
