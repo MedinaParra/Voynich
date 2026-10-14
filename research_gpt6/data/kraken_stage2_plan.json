@@ -1,0 +1,153 @@
+{
+  "schema_version": 1,
+  "experiment": "kraken-region-assembly-and-conditional-ocr-2026-10-14",
+  "status": "PREREGISTERED_NOT_RUN",
+  "branch": "experiment/kraken-voynich",
+  "base_commit": "b58c2d2d7c07a4ff5a1483ea79f49514ac027f0b",
+  "predecessor": {
+    "run_id": 38605310303,
+    "execution_commit": "6c6c2a35efb778bc4eb0dca920e5cc64d752749b",
+    "result_commit": "b58c2d2d7c07a4ff5a1483ea79f49514ac027f0b",
+    "archive_sha256": "99d9fd960fe46318b32c5cbc0c38e4ebe430a49fb5e7ff3c19b0a8b6527adfc3",
+    "archive_files_checked": 29
+  },
+  "kraken": {
+    "version": "7.1",
+    "upstream_commit": "eff0571e4c8b4930b476ef6af55851c62a938d15",
+    "model_blob": "f64b630c2b40f132f1acb1ffc90b617d5ada54a4"
+  },
+  "sources": {
+    "boxer_commit": "255bd632e45459230eaf2a994e0557ed6c682869",
+    "csv_blob": "2f01f520c37ac6f8574251dd305c8ca73a6466f3",
+    "unicode_blob": "d8c5253e21bcfa77074ae7a3e0d879e561382f88",
+    "mapping_commit": "d4b31a245ba8133b727dc4255278b5e8349bbe39",
+    "mapping_blob": "eb05cb69d4847f6acb34a9d095e05c38369010d2"
+  },
+  "annotations": {
+    "masks": "research_gpt6/data/kraken_region_masks.json",
+    "reference": "research_gpt6/data/kraken_line_reference.json",
+    "annotator": "Assistant single visual review before new inference",
+    "independent_expert_review": "NOT_REVIEWED",
+    "rows": 61,
+    "caveats": [
+      "Approximate logical-row boxes, not pixel-perfect ink polygons.",
+      "Boxes may overlap at ascenders; supervised pilot is annotation-conditional.",
+      "Masks on test pages are supplied by an operator; this is not an autonomous page-reading benchmark."
+    ]
+  },
+  "layout": {
+    "calibration_folios": [
+      "1r",
+      "1v",
+      "2r",
+      "2v"
+    ],
+    "diagnostic_folios": [
+      "3r",
+      "3v"
+    ],
+    "primary_folios": [
+      "4r",
+      "4v"
+    ],
+    "widths": [
+      1800,
+      1200
+    ],
+    "variants": [
+      "full_page_raw",
+      "paragraph_filter",
+      "paragraph_filter_and_assembly"
+    ],
+    "calibration": {
+      "grid_tolerance_factors": [
+        0.45,
+        0.65,
+        0.85
+      ],
+      "grid_deskew": [
+        false,
+        true
+      ],
+      "criterion": "Minimum primary-width absolute count error on only predecessor leaves 1 and 2; ties choose smaller tolerance then no deskew. Calibration uses a count proxy, not geometric truth."
+    },
+    "filter": {
+      "minimum_baseline_fraction_inside_region": 0.5
+    },
+    "grouping": "Robust median local-baseline slope per paragraph, clipped to +/-0.15, then complete-link clustering of de-skewed baseline anchors within a multiple of median detected box height. No ground-truth row count or row box is an input.",
+    "primary_metric": "Micro one-to-one logical-row box F1 on leaf 4 at IoU >=0.5, with same approximate single-reviewer references for every variant.",
+    "gate": {
+      "micro_f1_min": 0.8,
+      "must_improve_over_full_raw": true,
+      "maximum_relative_count_error": 0.15,
+      "all_primary_cases_required": true
+    },
+    "status_labels": [
+      "PASS_OPERATOR_ASSISTED_LAYOUT_PILOT",
+      "FAIL_OPERATOR_ASSISTED_LAYOUT_PILOT",
+      "BLOCKED_DATA_OR_RUNTIME"
+    ]
+  },
+  "ocr": {
+    "train_folios": [
+      "3r",
+      "3v"
+    ],
+    "test_folios": [
+      "4r",
+      "4v"
+    ],
+    "train_rows": 34,
+    "test_rows": 27,
+    "input": "Manual-reference box crops with paragraph masks; conditional recognition, not end-to-end predicted segmentation.",
+    "codec": "One PUA code point per Boxer conventional glyph/group using pinned unicode_dict; space preserved. Unknown-marked units remain the map's unknown code.",
+    "architecture": "VGSL small CRNN",
+    "spec": "[1,48,0,1 Cr3,3,16 Mp2,2 Cr3,3,32 Mp2,2 S1(1x0)1,3 Lbx64]",
+    "epochs": 40,
+    "freq": 40,
+    "seed": 20261014,
+    "batch_size": 4,
+    "lrate": 0.001,
+    "schedule": "constant",
+    "augment": false,
+    "monitor_folios": [
+      "3r",
+      "3v"
+    ],
+    "monitor_scope": "TRAINING_ONLY_NO_INDEPENDENT_VALIDATION",
+    "model_selection": "Only checkpoint after the final fixed epoch; one monitoring pass on training data at epoch 40. Test leaf 4 is never supplied to fit or model selection.",
+    "baselines": [
+      "empty_output",
+      "repeat_training_mode_to_training_median_length",
+      "nearest_training_line_by_fixed_image_features"
+    ],
+    "nearest_features": "64x16 standardized grayscale thumbnail plus fixed log-aspect penalty, Euclidean nearest neighbor; no test labels used.",
+    "metric": "Micro Levenshtein error per PUA unit/space of Boxer notation (GCR); it is not language accuracy or meaning.",
+    "gate": {
+      "gcr_max": 0.5,
+      "must_beat_all_nonempty_baselines": true,
+      "all_test_rows_required": true
+    },
+    "status_labels": [
+      "PASS_CONDITIONAL_OCR_PILOT",
+      "FAIL_CONDITIONAL_OCR_PILOT",
+      "BLOCKED_DATA_OR_RUNTIME"
+    ],
+    "limitations": [
+      "One training leaf and one test leaf in a small pilot; no claim of manuscript-wide generalization.",
+      "No external human verification of the assistant's crop alignment.",
+      "Unknown units can be unlearned; report test codec coverage separately."
+    ]
+  },
+  "runtime": {
+    "python": "3.12",
+    "torch": "2.9.0",
+    "torchvision": "0.24.0",
+    "device": "cpu",
+    "threads": 2
+  },
+  "translation": "NOT_RUN",
+  "language_identification": "NOT_RUN",
+  "phonetic_values": "NOT_ASSUMED"
+}
+

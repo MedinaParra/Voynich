@@ -1,0 +1,1234 @@
+{
+  "schema_version": 1,
+  "date": "2026-10-14",
+  "source": "Yale IIIF scans, frozen image hashes",
+  "annotator": "Assistant single visual review",
+  "independent_human_review": "NOT_REVIEWED",
+  "frame": "normalized coordinates; source preview width 900; annotations before held-out inference",
+  "limitations": [
+    "Approximate boxes can overlap at ascenders.",
+    "Logical rows can span multiple disconnected ink regions.",
+    "No claim of expert, independent or pixel-perfect ground truth."
+  ],
+  "pages": [
+    {
+      "folio": "3r",
+      "image_sha256": "8fc1f1a8af0742c309d0ac8ae7e7e10f7f0f970f588361434885328f84c7a55b",
+      "lines": [
+        {
+          "id": "3r.p1.l1",
+          "paragraph": 1,
+          "line": 1,
+          "bbox": [
+            0.13555555555555557,
+            0.13560666137985725,
+            0.5044444444444445,
+            0.17367168913560665
+          ],
+          "boxer_tokens": [
+            "M,c^c,c,o,2",
+            "4,o,P2,a,x",
+            "cc,o,x",
+            "c,M,c,o,x",
+            "8,a,i,Q,Q"
+          ],
+          "review": "ASSISTANT_SINGLE_REVIEW_PROVISIONAL"
+        },
+        {
+          "id": "3r.p1.l2",
+          "paragraph": 1,
+          "line": 2,
+          "bbox": [
+            0.13666666666666666,
+            0.1641554321966693,
+            0.5088888888888888,
+            0.19191118160190326
+          ],
+          "boxer_tokens": [
+            "9,cc,c,o,Z",
+            "cc,o,Z",
+            "8,a,Q",
+            "4,o,M,cc,a,Q",
+            "cc,a,Q"
+          ],
+          "review": "ASSISTANT_SINGLE_REVIEW_PROVISIONAL"
+        },
+        {
+          "id": "3r.p1.l3",
+          "paragraph": 1,
+          "line": 3,
+          "bbox": [
+            0.1388888888888889,
+            0.18160190325138778,
+            0.5088888888888888,
+            0.21094369547977795
+          ],
+          "boxer_tokens": [
+            "o,cc,o,Z",
+            "4,o,cc,c,o,Z",
+            "cc,o,x",
+            "8,a,m",
+            "c,M,c,9"
+          ],
+          "review": "ASSISTANT_SINGLE_REVIEW_PROVISIONAL"
+        },
+        {
+          "id": "3r.p1.l4",
+          "paragraph": 1,
+          "line": 4,
+          "bbox": [
+            0.13555555555555557,
+            0.20222045995241872,
+            0.5111111111111111,
+            0.23076923076923078
+          ],
+          "boxer_tokens": [
+            "2,cc,c,9",
+            "cc,o,Z",
+            "cc,a,x",
+            "cc,a,Q",
+            "cc,a,Q",
+            "cc,o"
+          ],
+          "review": "ASSISTANT_SINGLE_REVIEW_PROVISIONAL"
+        },
+        {
+          "id": "3r.p1.l5",
+          "paragraph": 1,
+          "line": 5,
+          "bbox": [
+            0.13555555555555557,
+            0.22204599524187152,
+            0.5066666666666667,
+            0.253766851704996
+          ],
+          "boxer_tokens": [
+            "4,o,N,o,x",
+            "cc,o,x,o,x,9",
+            "2",
+            "cc,a,Q",
+            "c,M,c,o,x"
+          ],
+          "review": "ASSISTANT_SINGLE_REVIEW_PROVISIONAL"
+        },
+        {
+          "id": "3r.p1.l6",
+          "paragraph": 1,
+          "line": 6,
+          "bbox": [
+            0.13444444444444445,
+            0.24266455194290246,
+            0.5055555555555555,
+            0.274385408406027
+          ],
+          "boxer_tokens": [
+            "9,cc,M,a,m",
+            "cc,o,Z",
+            "c,M,c,o,Q",
+            "o,M,a,x",
+            "8,a,Q"
+          ],
+          "review": "ASSISTANT_SINGLE_REVIEW_PROVISIONAL"
+        },
+        {
+          "id": "3r.p1.l7",
+          "paragraph": 1,
+          "line": 7,
+          "bbox": [
+            0.14,
+            0.25931800158604285,
+            0.5066666666666667,
+            0.2965900079302141
+          ],
+          "boxer_tokens": [
+            "o,M,cc,o,x",
+            "4,o,8,a,m",
+            "cc,o,Q",
+            "c^c,o,Q",
+            "8,a,Q,o"
+          ],
+          "review": "ASSISTANT_SINGLE_REVIEW_PROVISIONAL"
+        },
+        {
+          "id": "3r.p1.l8",
+          "paragraph": 1,
+          "line": 8,
+          "bbox": [
+            0.13555555555555557,
+            0.27835051546391754,
+            0.5077777777777778,
+            0.3164155432196669
+          ],
+          "boxer_tokens": [
+            "9,c^c,c,o,Z",
+            "cc,o,Z",
+            "cc,o,x",
+            "o,N,9",
+            "8,a,Q,o"
+          ],
+          "review": "ASSISTANT_SINGLE_REVIEW_PROVISIONAL"
+        },
+        {
+          "id": "3r.p1.l9",
+          "paragraph": 1,
+          "line": 9,
+          "bbox": [
+            0.1388888888888889,
+            0.29976209357652656,
+            0.49777777777777776,
+            0.3362410785091198
+          ],
+          "boxer_tokens": [
+            "c^c,o",
+            "?,o,Z",
+            "c^c,c,o,x,8,a,Q",
+            "o,M,cc,o,8,9",
+            "o,x"
+          ],
+          "review": "ASSISTANT_SINGLE_REVIEW_PROVISIONAL"
+        },
+        {
+          "id": "3r.p1.l10",
+          "paragraph": 1,
+          "line": 10,
+          "bbox": [
+            0.1411111111111111,
+            0.31800158604282314,
+            0.3511111111111111,
+            0.35448057097541635
+          ],
+          "boxer_tokens": [
+            "9,8,a,Z",
+            "cc,o,x",
+            "c,M,c,o,Q"
+          ],
+          "review": "ASSISTANT_SINGLE_REVIEW_PROVISIONAL"
+        },
+        {
+          "id": "3r.p2.l1",
+          "paragraph": 2,
+          "line": 1,
+          "bbox": [
+            0.12444444444444444,
+            0.4195083267248216,
+            0.4666666666666667,
+            0.45757335448057096
+          ],
+          "boxer_tokens": [
+            "P2,cc,c,o,x",
+            "c^c,o,x",
+            "2,o,x,2",
+            "c^c,c,o,x",
+            "c^c,c,9"
+          ],
+          "review": "ASSISTANT_SINGLE_REVIEW_PROVISIONAL"
+        },
+        {
+          "id": "3r.p2.l2",
+          "paragraph": 2,
+          "line": 2,
+          "bbox": [
+            0.1388888888888889,
+            0.44885011895321175,
+            0.5533333333333333,
+            0.4829500396510706
+          ],
+          "boxer_tokens": [
+            "o,N,a,8,a,m",
+            "4,o,N,cc,o,Z",
+            "4,o",
+            "2,cc,o,8,a,Q",
+            "o,c,M,c,9"
+          ],
+          "review": "ASSISTANT_SINGLE_REVIEW_PROVISIONAL"
+        },
+        {
+          "id": "3r.p2.l3",
+          "paragraph": 2,
+          "line": 3,
+          "bbox": [
+            0.13666666666666666,
+            0.4639175257731959,
+            0.64,
+            0.5035685963521015
+          ],
+          "boxer_tokens": [
+            "4,o,N,c,c,9",
+            "4,o,M,c^c,c,9",
+            "4,o,N,o,8,9",
+            "4,o,N,c^c,c,9",
+            "cc,c,o,8,9"
+          ],
+          "review": "ASSISTANT_SINGLE_REVIEW_PROVISIONAL"
+        },
+        {
+          "id": "3r.p2.l4",
+          "paragraph": 2,
+          "line": 4,
+          "bbox": [
+            0.1388888888888889,
+            0.4853291038858049,
+            0.47,
+            0.5178429817605076
+          ],
+          "boxer_tokens": [
+            "cc,o,Z",
+            "4,o,8,a,i,Z",
+            "o,N,c,c,9",
+            "4,o,N,c,c,9"
+          ],
+          "review": "ASSISTANT_SINGLE_REVIEW_PROVISIONAL"
+        },
+        {
+          "id": "3r.p3.l1",
+          "paragraph": 3,
+          "line": 1,
+          "bbox": [
+            0.13444444444444445,
+            0.5130848532910388,
+            0.8488888888888889,
+            0.5535289452815226
+          ],
+          "boxer_tokens": [
+            "M,c^c,c,o,a,Z,o,Q",
+            "c^c,a,Z",
+            "o,Z",
+            "cc,o,Z",
+            "o,x,c,c,2,9",
+            "cc,o,Q",
+            "o,M,c,c,o,Q",
+            "o,P2,o,Z,a,Z"
+          ],
+          "review": "ASSISTANT_SINGLE_REVIEW_PROVISIONAL"
+        },
+        {
+          "id": "3r.p3.l2",
+          "paragraph": 3,
+          "line": 2,
+          "bbox": [
+            0.13333333333333333,
+            0.5408406026962728,
+            0.8488888888888889,
+            0.5749405233941316
+          ],
+          "boxer_tokens": [
+            "o,M,c,o,x",
+            "cc,o,x",
+            "2",
+            "cc,c,o,x",
+            "c,N,c^c,9",
+            "4,o,N,c,o,Q",
+            "4,o,N,a,x",
+            "8,a,m",
+            "2,o,x,c,c,Q"
+          ],
+          "review": "ASSISTANT_SINGLE_REVIEW_PROVISIONAL"
+        },
+        {
+          "id": "3r.p3.l3",
+          "paragraph": 3,
+          "line": 3,
+          "bbox": [
+            0.13444444444444445,
+            0.5582870737509913,
+            0.5955555555555555,
+            0.5963521015067407
+          ],
+          "boxer_tokens": [
+            "2,o,c,o,Q",
+            "o,N,c,o,Q",
+            "9,M,c,o,8,9",
+            "4,o,N,c,c,o,8,a,x",
+            "2,a,Q"
+          ],
+          "review": "ASSISTANT_SINGLE_REVIEW_PROVISIONAL"
+        },
+        {
+          "id": "3r.p4.l1",
+          "paragraph": 4,
+          "line": 1,
+          "bbox": [
+            0.12333333333333334,
+            0.5876288659793815,
+            0.8488888888888889,
+            0.6375892149088025
+          ],
+          "boxer_tokens": [
+            "P2,cc,c,o,x,8,o,Q",
+            "c^c,o,8,a,m",
+            "4,o,P2,cc,o,Z",
+            "4,o,P2,o,x",
+            "o,P2,cc,o,x",
+            "4,o,M,9",
+            "o,M,o,x,o,Q"
+          ],
+          "review": "ASSISTANT_SINGLE_REVIEW_PROVISIONAL"
+        },
+        {
+          "id": "3r.p4.l2",
+          "paragraph": 4,
+          "line": 2,
+          "bbox": [
+            0.14,
+            0.6169706582077716,
+            0.8488888888888889,
+            0.6597938144329897
+          ],
+          "boxer_tokens": [
+            "o,M,cc,o,Z",
+            "o,x",
+            "cc,c,o,Z",
+            "4,o,c,o,Z",
+            "8,a,i,Z",
+            "4,o,M,c,o,x",
+            "4,o,2,a,m",
+            "cc,o,Z",
+            "c,M,c,9"
+          ],
+          "review": "ASSISTANT_SINGLE_REVIEW_PROVISIONAL"
+        },
+        {
+          "id": "3r.p4.l3",
+          "paragraph": 4,
+          "line": 3,
+          "bbox": [
+            0.13444444444444445,
+            0.6375892149088025,
+            0.6788888888888889,
+            0.6748612212529739
+          ],
+          "boxer_tokens": [
+            "9,cc,c,o,Z",
+            "cc,o,x",
+            "o,8,a,m",
+            "cc,o,x",
+            "2",
+            "a,m",
+            "o,N,o,x",
+            "o,Z",
+            "a,Q"
+          ],
+          "review": "ASSISTANT_SINGLE_REVIEW_PROVISIONAL"
+        }
+      ]
+    },
+    {
+      "folio": "3v",
+      "image_sha256": "3103e989e15ebeb9fe13313c27e60a3f335e92233a19b73dc8ff501c0e09263d",
+      "lines": [
+        {
+          "id": "3v.p1.l1",
+          "paragraph": 1,
+          "line": 1,
+          "bbox": [
+            0.22333333333333333,
+            0.1074313408723748,
+            0.7055555555555556,
+            0.14539579967689822
+          ],
+          "boxer_tokens": [
+            "N,o,a,m",
+            "c,P2,c,a,Z",
+            "4,o,M,o,9",
+            "c^c,a",
+            "c,N,c,o,x",
+            "9,N,o,a,m",
+            "2",
+            "o,x,9"
+          ],
+          "review": "ASSISTANT_SINGLE_REVIEW_PROVISIONAL"
+        },
+        {
+          "id": "3v.p1.l2",
+          "paragraph": 1,
+          "line": 2,
+          "bbox": [
+            0.22111111111111112,
+            0.13570274636510501,
+            0.7055555555555556,
+            0.16639741518578352
+          ],
+          "boxer_tokens": [
+            "8,a,n,8,9",
+            "4,o,M,cc,o,x",
+            "o,N,cc,o,Z",
+            "o,N,o,Z",
+            "o,x,9,M,o,x",
+            "8,o,x",
+            "8,a,Z"
+          ],
+          "review": "ASSISTANT_SINGLE_REVIEW_PROVISIONAL"
+        },
+        {
+          "id": "3v.p1.l3",
+          "paragraph": 1,
+          "line": 3,
+          "bbox": [
+            0.22111111111111112,
+            0.15347334410339256,
+            0.7055555555555556,
+            0.18497576736672053
+          ],
+          "boxer_tokens": [
+            "o,N,o,Q",
+            "cc,o,x",
+            "c^c,o,x",
+            "2,c,c,c,2",
+            "cc,o,Q",
+            "cc,c,c,9,N,a,Q",
+            "o,N,a?"
+          ],
+          "review": "ASSISTANT_SINGLE_REVIEW_PROVISIONAL"
+        },
+        {
+          "id": "3v.p1.l4",
+          "paragraph": 1,
+          "line": 4,
+          "bbox": [
+            0.22,
+            0.16962843295638125,
+            0.7055555555555556,
+            0.20436187399030695
+          ],
+          "boxer_tokens": [
+            "4,o,8,a,Z",
+            "cc,2",
+            "cc,9",
+            "N,cc,c,o,x",
+            "o,N,a,x",
+            "8,o,Z",
+            "cc,c,a,Z,c,c,?"
+          ],
+          "review": "ASSISTANT_SINGLE_REVIEW_PROVISIONAL"
+        },
+        {
+          "id": "3v.p1.l5",
+          "paragraph": 1,
+          "line": 5,
+          "bbox": [
+            0.22111111111111112,
+            0.18820678513731826,
+            0.5777777777777777,
+            0.22294022617124395
+          ],
+          "boxer_tokens": [
+            "9,cc,c,a,Z",
+            "o,M,cc,a,x",
+            "cc,o,Z",
+            "cc,a,Z",
+            "?,N,c,9"
+          ],
+          "review": "ASSISTANT_SINGLE_REVIEW_PROVISIONAL"
+        },
+        {
+          "id": "3v.p1.l6",
+          "paragraph": 1,
+          "line": 6,
+          "bbox": [
+            0.21888888888888888,
+            0.20678513731825526,
+            0.5666666666666667,
+            0.2431340872374798
+          ],
+          "boxer_tokens": [
+            "o,Z",
+            "cc,c,a,Z",
+            "N,o,Z",
+            "cc,o,8,a,x,9",
+            "cc,a,Q"
+          ],
+          "review": "ASSISTANT_SINGLE_REVIEW_PROVISIONAL"
+        },
+        {
+          "id": "3v.p2.l1",
+          "paragraph": 2,
+          "line": 1,
+          "bbox": [
+            0.21555555555555556,
+            0.24151857835218093,
+            0.5688888888888889,
+            0.284329563812601
+          ],
+          "boxer_tokens": [
+            "M,cc,o,Z",
+            "o,M,cc,a,Q",
+            "cc,o,Z",
+            "c,P1,c,a,Q",
+            "2"
+          ],
+          "review": "ASSISTANT_SINGLE_REVIEW_PROVISIONAL"
+        },
+        {
+          "id": "3v.p2.l2",
+          "paragraph": 2,
+          "line": 2,
+          "bbox": [
+            0.21555555555555556,
+            0.265751211631664,
+            0.5844444444444444,
+            0.30936995153473346
+          ],
+          "boxer_tokens": [
+            "9,N,cc,9",
+            "N,cc,o,Q",
+            "cc,o,Z",
+            "cc,c,N,c,o,x",
+            "o,N,a"
+          ],
+          "review": "ASSISTANT_SINGLE_REVIEW_PROVISIONAL"
+        },
+        {
+          "id": "3v.p2.l3",
+          "paragraph": 2,
+          "line": 3,
+          "bbox": [
+            0.21666666666666667,
+            0.28998384491114704,
+            0.7011111111111111,
+            0.32794830371567046
+          ],
+          "boxer_tokens": [
+            "9,M,c,c,c,c,a,Z",
+            "o,N,c,o,x",
+            "c,M,c,o,8,o,a,x,9",
+            "cc,o,Z",
+            "c,M,c,9"
+          ],
+          "review": "ASSISTANT_SINGLE_REVIEW_PROVISIONAL"
+        },
+        {
+          "id": "3v.p2.l4",
+          "paragraph": 2,
+          "line": 4,
+          "bbox": [
+            0.21555555555555556,
+            0.308562197092084,
+            0.6944444444444444,
+            0.3473344103392569
+          ],
+          "boxer_tokens": [
+            "o,cc,o,2",
+            "8,a,m",
+            "4,o,N,c^c,o,x",
+            "8,a,m,Q",
+            "cc,o,x",
+            "o,N,a,Z,9"
+          ],
+          "review": "ASSISTANT_SINGLE_REVIEW_PROVISIONAL"
+        },
+        {
+          "id": "3v.p2.l5",
+          "paragraph": 2,
+          "line": 5,
+          "bbox": [
+            0.21777777777777776,
+            0.3287560581583199,
+            0.6988888888888889,
+            0.36591276252019383
+          ],
+          "boxer_tokens": [
+            "c^c,o",
+            "c^c,o,c,N,c,o",
+            "c,N,c,9",
+            "M,cc,o,Z",
+            "cc,o,8,a,m",
+            "cc,o,Q"
+          ],
+          "review": "ASSISTANT_SINGLE_REVIEW_PROVISIONAL"
+        },
+        {
+          "id": "3v.p2.l6",
+          "paragraph": 2,
+          "line": 6,
+          "bbox": [
+            0.22,
+            0.35137318255250405,
+            0.6744444444444444,
+            0.3893376413570275
+          ],
+          "boxer_tokens": [
+            "o,c^c",
+            "cc,o,8,a,i,Z",
+            "9,M,cc,9",
+            "M,cc,o,Z",
+            "N,cc,a,Q",
+            "2"
+          ],
+          "review": "ASSISTANT_SINGLE_REVIEW_PROVISIONAL"
+        },
+        {
+          "id": "3v.p2.l7",
+          "paragraph": 2,
+          "line": 7,
+          "bbox": [
+            0.21888888888888888,
+            0.37075928917609047,
+            0.6944444444444444,
+            0.4095315024232633
+          ],
+          "boxer_tokens": [
+            "c^c,a,Z",
+            "c^c,N,a,m",
+            "4,o,N,cc,9",
+            "9,M,9",
+            "c,M,c,a,x",
+            "cc,N,9"
+          ],
+          "review": "ASSISTANT_SINGLE_REVIEW_PROVISIONAL"
+        },
+        {
+          "id": "3v.p2.l8",
+          "paragraph": 2,
+          "line": 8,
+          "bbox": [
+            0.21888888888888888,
+            0.39418416801292405,
+            0.47444444444444445,
+            0.4297253634894992
+          ],
+          "boxer_tokens": [
+            "8,a,n",
+            "c^c,c,a,Q",
+            "9",
+            "N,c,a,Q"
+          ],
+          "review": "ASSISTANT_SINGLE_REVIEW_PROVISIONAL"
+        }
+      ]
+    },
+    {
+      "folio": "4r",
+      "image_sha256": "b1eadeaac625aba5600078ef96ba1baefbf56fffb408dc79c1deb82f5cbc377e",
+      "lines": [
+        {
+          "id": "4r.p1.l1",
+          "paragraph": 1,
+          "line": 1,
+          "bbox": [
+            0.1622222222222222,
+            0.10597609561752988,
+            0.7966666666666666,
+            0.14741035856573706
+          ],
+          "boxer_tokens": [
+            "N,o,8,a,x,cc,9",
+            "cc,P2,a,8,9",
+            "c^c,c,o,x",
+            "o,x",
+            "c^c,c,c,9",
+            "4,o,M,c,9",
+            "8,o,m",
+            "cc,o,Z",
+            "9,M,o,9"
+          ],
+          "review": "ASSISTANT_SINGLE_REVIEW_PROVISIONAL"
+        },
+        {
+          "id": "4r.p1.l2",
+          "paragraph": 1,
+          "line": 2,
+          "bbox": [
+            0.16111111111111112,
+            0.1346613545816733,
+            0.7966666666666666,
+            0.17290836653386454
+          ],
+          "boxer_tokens": [
+            "8,c^c,o,Z",
+            "c^c,o,x",
+            "c^c,o,x",
+            "c,M,c,o,x",
+            "c^c,M,cc,9",
+            "cc,a,m",
+            "?,2",
+            "cc,o,Z,a,m",
+            "cc,o,Q"
+          ],
+          "review": "ASSISTANT_SINGLE_REVIEW_PROVISIONAL"
+        },
+        {
+          "id": "4r.p1.l3",
+          "paragraph": 1,
+          "line": 3,
+          "bbox": [
+            0.16,
+            0.15458167330677292,
+            0.7966666666666666,
+            0.19123505976095617
+          ],
+          "boxer_tokens": [
+            "o,M,cc,o,x",
+            "cc,o,x",
+            "cc,9",
+            "cc,a,m",
+            "4,o,M,a,m",
+            "8,a,m",
+            "c^c,a,n"
+          ],
+          "review": "ASSISTANT_SINGLE_REVIEW_PROVISIONAL"
+        },
+        {
+          "id": "4r.p1.l4",
+          "paragraph": 1,
+          "line": 4,
+          "bbox": [
+            0.16,
+            0.17131474103585656,
+            0.5622222222222222,
+            0.21195219123505976
+          ],
+          "boxer_tokens": [
+            "4,o,M,cc,o,x",
+            "cc,9",
+            "9,M,9",
+            "8,a,m",
+            "o,N,a,m",
+            "c,M,c,9"
+          ],
+          "review": "ASSISTANT_SINGLE_REVIEW_PROVISIONAL"
+        },
+        {
+          "id": "4r.p2.l1",
+          "paragraph": 2,
+          "line": 1,
+          "bbox": [
+            0.15666666666666668,
+            0.21354581673306772,
+            0.45222222222222225,
+            0.2597609561752988
+          ],
+          "boxer_tokens": [
+            "P2,9,8,a,m",
+            "4,o,M,cc,9",
+            "8,9,M,9,8,9"
+          ],
+          "review": "ASSISTANT_SINGLE_REVIEW_PROVISIONAL"
+        },
+        {
+          "id": "4r.p2.l2",
+          "paragraph": 2,
+          "line": 2,
+          "bbox": [
+            0.16555555555555557,
+            0.24063745019920318,
+            0.46444444444444444,
+            0.2788844621513944
+          ],
+          "boxer_tokens": [
+            "cc,o,Z",
+            "c^c,9,M,cc,9",
+            "8,9,M,cc,c,c,9"
+          ],
+          "review": "ASSISTANT_SINGLE_REVIEW_PROVISIONAL"
+        },
+        {
+          "id": "4r.p2.l3",
+          "paragraph": 2,
+          "line": 3,
+          "bbox": [
+            0.16777777777777778,
+            0.25737051792828686,
+            0.4866666666666667,
+            0.30199203187250995
+          ],
+          "boxer_tokens": [
+            "4,o,M,a,m",
+            "c,M,c,o,x",
+            "8,a,m",
+            "c,M,c,o,Q"
+          ],
+          "review": "ASSISTANT_SINGLE_REVIEW_PROVISIONAL"
+        },
+        {
+          "id": "4r.p2.l4",
+          "paragraph": 2,
+          "line": 4,
+          "bbox": [
+            0.16555555555555557,
+            0.28127490039840636,
+            0.5044444444444445,
+            0.32350597609561754
+          ],
+          "boxer_tokens": [
+            "c^c,o,Z",
+            "c^c,o,x",
+            "c^c,o,x",
+            "c,M,c,9",
+            "c,P2,c,o,x,8,9"
+          ],
+          "review": "ASSISTANT_SINGLE_REVIEW_PROVISIONAL"
+        },
+        {
+          "id": "4r.p2.l5",
+          "paragraph": 2,
+          "line": 5,
+          "bbox": [
+            0.17,
+            0.3051792828685259,
+            0.4988888888888889,
+            0.34820717131474105
+          ],
+          "boxer_tokens": [
+            "8,a,m",
+            "c,N,c,o,cc,9",
+            "M,cc,9",
+            "N,o,Z,a,m"
+          ],
+          "review": "ASSISTANT_SINGLE_REVIEW_PROVISIONAL"
+        },
+        {
+          "id": "4r.p2.l6",
+          "paragraph": 2,
+          "line": 6,
+          "bbox": [
+            0.17,
+            0.32749003984063746,
+            0.4822222222222222,
+            0.3713147410358566
+          ],
+          "boxer_tokens": [
+            "o,8,a,x",
+            "c^c,o,Z",
+            "c^c,9,c^c,o,x",
+            "c,P2,c,a,m"
+          ],
+          "review": "ASSISTANT_SINGLE_REVIEW_PROVISIONAL"
+        },
+        {
+          "id": "4r.p2.l7",
+          "paragraph": 2,
+          "line": 7,
+          "bbox": [
+            0.16666666666666666,
+            0.3466135458167331,
+            0.4777777777777778,
+            0.39203187250996013
+          ],
+          "boxer_tokens": [
+            "4,o,M,cc,o,m",
+            "c^c,c,?,Z",
+            "4,o,M,9"
+          ],
+          "review": "ASSISTANT_SINGLE_REVIEW_PROVISIONAL"
+        },
+        {
+          "id": "4r.p2.l8",
+          "paragraph": 2,
+          "line": 8,
+          "bbox": [
+            0.17,
+            0.36892430278884464,
+            0.43,
+            0.4103585657370518
+          ],
+          "boxer_tokens": [
+            "2,o,m",
+            "cc,a,m",
+            "cc,a,m"
+          ],
+          "review": "ASSISTANT_SINGLE_REVIEW_PROVISIONAL"
+        },
+        {
+          "id": "4r.p2.l9",
+          "paragraph": 2,
+          "line": 9,
+          "bbox": [
+            0.16777777777777778,
+            0.39203187250996013,
+            0.30444444444444446,
+            0.43266932270916336
+          ],
+          "boxer_tokens": [
+            "8,a,m",
+            "c,M,c,c,9"
+          ],
+          "review": "ASSISTANT_SINGLE_REVIEW_PROVISIONAL"
+        }
+      ]
+    },
+    {
+      "folio": "4v",
+      "image_sha256": "873534a29335bc9c5725849bb9150cde0b9b1a7a128014e61504ae1b10433a30",
+      "lines": [
+        {
+          "id": "4v.p1.l1",
+          "paragraph": 1,
+          "line": 1,
+          "bbox": [
+            0.25,
+            0.09886547811993517,
+            0.8744444444444445,
+            0.14991896272285252
+          ],
+          "boxer_tokens": [
+            "P2,cc,o,o,m",
+            "N,c^c,c,o",
+            "N,cc,o,9",
+            "cc,o,P2,cc,9",
+            "8,o,x,8,2",
+            "8,x,o,8"
+          ],
+          "review": "ASSISTANT_SINGLE_REVIEW_PROVISIONAL"
+        },
+        {
+          "id": "4v.p1.l2",
+          "paragraph": 1,
+          "line": 2,
+          "bbox": [
+            0.2544444444444444,
+            0.13290113452188007,
+            0.8777777777777778,
+            0.1685575364667747
+          ],
+          "boxer_tokens": [
+            "o,x",
+            "cc,c,9",
+            "cc,9",
+            "c,M,c,9",
+            "cc,N,cc,o,Z",
+            "c^c,i,o",
+            "cc,c,o,Z,9",
+            "cc,o,x,8,9"
+          ],
+          "review": "ASSISTANT_SINGLE_REVIEW_PROVISIONAL"
+        },
+        {
+          "id": "4v.p1.l3",
+          "paragraph": 1,
+          "line": 3,
+          "bbox": [
+            0.25555555555555554,
+            0.14991896272285252,
+            0.8777777777777778,
+            0.1880064829821718
+          ],
+          "boxer_tokens": [
+            "c^c,o",
+            "c^c,o",
+            "cc,a,m",
+            "c^c,a,m",
+            "8,a,m",
+            "4,o,8,a,m",
+            "o,a,Z,a,Q"
+          ],
+          "review": "ASSISTANT_SINGLE_REVIEW_PROVISIONAL"
+        },
+        {
+          "id": "4v.p1.l4",
+          "paragraph": 1,
+          "line": 4,
+          "bbox": [
+            0.25,
+            0.16531604538087522,
+            0.8788888888888889,
+            0.2106969205834684
+          ],
+          "boxer_tokens": [
+            "4,o,N,cc,9",
+            "4,o,c,M,c,9",
+            "cc,o,M,c,o,x",
+            "8,a,m",
+            "c,M,c,c,9",
+            "cc,o,a,m"
+          ],
+          "review": "ASSISTANT_SINGLE_REVIEW_PROVISIONAL"
+        },
+        {
+          "id": "4v.p1.l5",
+          "paragraph": 1,
+          "line": 5,
+          "bbox": [
+            0.25222222222222224,
+            0.18233387358184766,
+            0.8777777777777778,
+            0.22771474878444084
+          ],
+          "boxer_tokens": [
+            "c^c,o,Z",
+            "c^c,c,c,9",
+            "c,M,o",
+            "o,M,a,m",
+            "c^c,c,9",
+            "4,o,M,cc,o,m",
+            "cc,o,8,a,n"
+          ],
+          "review": "ASSISTANT_SINGLE_REVIEW_PROVISIONAL"
+        },
+        {
+          "id": "4v.p1.l6",
+          "paragraph": 1,
+          "line": 6,
+          "bbox": [
+            0.2544444444444444,
+            0.2034035656401945,
+            0.5644444444444444,
+            0.24473257698541329
+          ],
+          "boxer_tokens": [
+            "9,M,cc,o,9",
+            "c^c,o,N,cc,9",
+            "c,P2,c,o,8,9"
+          ],
+          "review": "ASSISTANT_SINGLE_REVIEW_PROVISIONAL"
+        },
+        {
+          "id": "4v.p2.l1",
+          "paragraph": 2,
+          "line": 1,
+          "bbox": [
+            0.24888888888888888,
+            0.24716369529983792,
+            0.6622222222222223,
+            0.2860615883306321
+          ],
+          "boxer_tokens": [
+            "M,o,Z,cc,9",
+            "c^c,c,c,o,Z",
+            "cc,o,Z",
+            "c^c,o,M,cc,9",
+            "c,P2,c,9,8,9"
+          ],
+          "review": "ASSISTANT_SINGLE_REVIEW_PROVISIONAL"
+        },
+        {
+          "id": "4v.p2.l2",
+          "paragraph": 2,
+          "line": 2,
+          "bbox": [
+            0.25,
+            0.26823338735818475,
+            0.6644444444444444,
+            0.3071312803889789
+          ],
+          "boxer_tokens": [
+            "o,x,?,c,?",
+            "cc,o,Z",
+            "c,M,c,o,x",
+            "c^c,o",
+            "o,M,o,Z",
+            "c,M,c,o,Z,9"
+          ],
+          "review": "ASSISTANT_SINGLE_REVIEW_PROVISIONAL"
+        },
+        {
+          "id": "4v.p2.l3",
+          "paragraph": 2,
+          "line": 3,
+          "bbox": [
+            0.24888888888888888,
+            0.28687196110210694,
+            0.6644444444444444,
+            0.32901134521880065
+          ],
+          "boxer_tokens": [
+            "4,o,o,N,o",
+            "m+?",
+            "cc,i,o,Q",
+            "cc,c,M,c,9",
+            "c^c,o,N,9",
+            "8,a,m"
+          ],
+          "review": "ASSISTANT_SINGLE_REVIEW_PROVISIONAL"
+        },
+        {
+          "id": "4v.p2.l4",
+          "paragraph": 2,
+          "line": 4,
+          "bbox": [
+            0.25,
+            0.3071312803889789,
+            0.6677777777777778,
+            0.34764991896272285
+          ],
+          "boxer_tokens": [
+            "o,M,a,m",
+            "c^c,c,o",
+            "o,N,c,a,8,9",
+            "cc,o,x",
+            "cc,o,N,c,o,8,9"
+          ],
+          "review": "ASSISTANT_SINGLE_REVIEW_PROVISIONAL"
+        },
+        {
+          "id": "4v.p2.l5",
+          "paragraph": 2,
+          "line": 5,
+          "bbox": [
+            0.2511111111111111,
+            0.32820097244732577,
+            0.7033333333333334,
+            0.3679092382495948
+          ],
+          "boxer_tokens": [
+            "c^c,o",
+            "N,cc,c,o,Z",
+            "c^c,o,8",
+            "9",
+            "c^c,M,a,m",
+            "4,o,M,o,x,8,a,m"
+          ],
+          "review": "ASSISTANT_SINGLE_REVIEW_PROVISIONAL"
+        },
+        {
+          "id": "4v.p2.l6",
+          "paragraph": 2,
+          "line": 6,
+          "bbox": [
+            0.2511111111111111,
+            0.3500810372771475,
+            0.7266666666666667,
+            0.3889789303079417
+          ],
+          "boxer_tokens": [
+            "4,o,N,?,9",
+            "c^c,o",
+            "o,N,c,o,x",
+            "2,N,c,c,9",
+            "c^c,a,Z",
+            "cc,a,Z",
+            "o,8,9"
+          ],
+          "review": "ASSISTANT_SINGLE_REVIEW_PROVISIONAL"
+        },
+        {
+          "id": "4v.p2.l7",
+          "paragraph": 2,
+          "line": 7,
+          "bbox": [
+            0.2511111111111111,
+            0.3695299837925446,
+            0.7266666666666667,
+            0.41085899513776336
+          ],
+          "boxer_tokens": [
+            "c^c,o,8,9",
+            "2",
+            "cc,c,o,Z",
+            "cc,o,N,o,8,9",
+            "c^c,o,8,a,m",
+            "4,o,M,9"
+          ],
+          "review": "ASSISTANT_SINGLE_REVIEW_PROVISIONAL"
+        },
+        {
+          "id": "4v.p2.l8",
+          "paragraph": 2,
+          "line": 8,
+          "bbox": [
+            0.25333333333333335,
+            0.39222042139384117,
+            0.5266666666666666,
+            0.43354943273906
+          ],
+          "boxer_tokens": [
+            "o,c^c,o,8,9",
+            "cc,9,N,c,9",
+            "cc,M,o,8,9"
+          ],
+          "review": "ASSISTANT_SINGLE_REVIEW_PROVISIONAL"
+        }
+      ]
+    }
+  ],
+  "use": "Only geometric scoring and manually segmented conditional OCR datasets; never passed to line assembly."
+}
