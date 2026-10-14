@@ -2,7 +2,7 @@ import inspect,json,unittest
 from pathlib import Path
 from PIL import Image
 from kraken_row_tools import (in_polygon,filter_paragraphs,assemble,matches,
-                              levenshtein,pua_text,mask_image,image_features,nearest_text)
+                              levenshtein,pua_text,mask_image,image_features,nearest_text,row_image_name)
 
 def line(i,x0,y,x1,height=10):
     return {'index':i,'bbox_pixels':[x0,y-height,x1,y+1],
@@ -57,6 +57,12 @@ class Stage2Controls(unittest.TestCase):
         with self.assertRaises(ValueError):pua_text(['a,unmapped'],{'a':'A'})
     def test_edit_error_empty_and_substitution(self):
         self.assertEqual(levenshtein('ABC',''),3);self.assertEqual(levenshtein('ABC','AXC'),1)
+    def test_dotted_row_ids_survive_kraken_all_suffix_stripping(self):
+        path=Path(row_image_name('3r.p2.l4'))
+        paired=path.with_suffix('.gt.txt')
+        while path.suffixes:path=path.with_suffix('')
+        self.assertEqual(str(path)+'.gt.txt',str(paired))
+        self.assertEqual(row_image_name('3r.p2.l4'),'3r_p2_l4.png')
     def test_mask_changes_only_outside_regions(self):
         im=Image.new('RGB',(100,100),(40,50,60))
         out=mask_image(im,[{'paragraph':1,'polygons':[[[.1,.1],[.4,.1],[.4,.4],[.1,.4]]]}])

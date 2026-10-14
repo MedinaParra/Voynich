@@ -119,6 +119,13 @@ def pua_text(tokens,mapping):
         out.append(''.join(mapping[s] for s in symbols))
     return ' '.join(out)
 
+def row_image_name(row_id):
+    # Kraken 7.1 strips ALL suffixes when looking for the paired .gt.txt.
+    # Keep logical dotted row IDs in metadata, but never in image basenames.
+    if not row_id or any(c not in 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789._-' for c in row_id):
+        raise ValueError('Unsafe row identifier')
+    return row_id.replace('.','_')+'.png'
+
 def mask_image(im,regions):
     mask=Image.new('L',im.size,0);draw=ImageDraw.Draw(mask)
     for region in regions:

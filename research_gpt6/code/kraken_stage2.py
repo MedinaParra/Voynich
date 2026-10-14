@@ -7,7 +7,7 @@ from pathlib import Path
 import numpy as np
 from PIL import Image,ImageDraw
 from kraken_row_tools import (assemble,filter_paragraphs,matches,levenshtein,pua_text,
-                              mask_image,image_features,nearest_text)
+                              mask_image,image_features,nearest_text,row_image_name)
 from kraken_layout_pilot import (fetch_bytes,git_blob_sha,sha256,serialize_lines,resized)
 
 def read_json(path):return json.loads(Path(path).read_text())
@@ -118,7 +118,7 @@ def prepare_ocr(plan,masks,refs,images,mapping,out):
             b=row['bbox'];box=(int(b[0]*im.width),int(b[1]*im.height),int(np.ceil(b[2]*im.width)),int(np.ceil(b[3]*im.height)))
             crop=im.crop(box)
             role='train' if folio in plan['ocr']['train_folios'] else 'test'
-            path=out/'ocr'/role/(row['id']+'.png');path.parent.mkdir(parents=True,exist_ok=True)
+            path=out/'ocr'/role/row_image_name(row['id']);path.parent.mkdir(parents=True,exist_ok=True)
             crop.save(path)
             path.with_suffix('.gt.txt').write_text(text,encoding='utf-8')
             records.append({'id':row['id'],'folio':folio,'role':role,'path':str(path.resolve()),
@@ -135,6 +135,11 @@ def prepare_ocr(plan,masks,refs,images,mapping,out):
 
 def conditional_ocr(plan,masks,refs,images,mapping,out,result):
     train,test=prepare_ocr(plan,masks,refs,images,mapping,out)
+    from kraken.lib.util import parse_gt_path
+    for row in train:
+        parsed=parse_gt_path(row['path'])
+        if parsed.text!=row['text']:
+            raise ValueError('Kraken parser did not recover the complete training label: '+row['id'])
     root=(out/'ocr').resolve();opts=plan['ocr']
     config={'device':'cpu','precision':'32-true','num_workers':0,'num_threads':2,
             'seed':opts['seed'],'deterministic':True,'train':{
@@ -149,7 +154,8 @@ def conditional_ocr(plan,masks,refs,images,mapping,out,result):
     write_json(root/'training_config.json',config)
     result['ocr']={'status':'BLOCKED_DATA_OR_RUNTIME','dataset':{'train_rows':len(train),'test_rows':len(test),
                    'train_folios':opts['train_folios'],'test_folios':opts['test_folios'],
-                   'input':'Human-reference box crops with manual paragraph masks'},'training_config':config}
+                   'input':'Human-reference box crops with manual paragraph masks'},'training_config':config,
+                   'training_labels_parsed_and_verified':len(train)}
     command=['ketos','--config',str(root/'training_config.json'),'train']
     print('STAGE2_TRAINING_STARTED='+json.dumps({'rows':len(train),'epochs':opts['epochs'],'command':command}),flush=True)
     tick=time.perf_counter()
