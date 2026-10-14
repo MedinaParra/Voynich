@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+# Infrastructure-only touch: trigger the already-frozen H112 workflow; no scientific logic changed.
 import json, hashlib, urllib.request
 from pathlib import Path
 
