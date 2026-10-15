@@ -1,0 +1,32 @@
+name: H114 held-out predictive structure
+
+on:
+  pull_request:
+    branches: [research/gpt6-audit]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  h114:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install frozen dependencies
+        run: python -m pip install --disable-pip-version-check numpy scikit-learn
+      - name: Fetch frozen Takahashi transcription
+        run: curl -L --fail -o IT2a-n.txt 'https://raw.githubusercontent.com/oklo/voynich_gpt/2d7c61c387ad6962de730caf73c48612bc8f6957/IT2a-n.txt'
+      - name: Run preregistered H114
+        run: |
+          mkdir -p research_gpt6/results
+          python research_gpt6/code/h114_predictive_structure.py --takahashi IT2a-n.txt --out research_gpt6/results/h114_predictive_structure.json
+      - uses: actions/upload-artifact@v4
+        with:
+          name: h114-predictive-structure
+          path: research_gpt6/results/h114_predictive_structure.json
+          if-no-files-found: error
