@@ -171,11 +171,16 @@ def conditional_ocr(plan,masks,refs,images,mapping,out,result):
     if not epochs:raise RuntimeError('No completed training checkpoint')
     epoch,checkpoint=max(epochs,key=lambda x:x[0])
     if epoch!=opts['epochs']-1:raise RuntimeError('Final fixed epoch checkpoint unavailable')
+    result['ocr'].update({'training_status':'COMPLETED_FIXED_EPOCHS',
+                         'final_epoch_zero_based':epoch,
+                         'checkpoint_sha256':sha256(checkpoint.read_bytes()),
+                         'training_log_sha256':sha256((root/'training.log').read_bytes())})
     model_path=root/'final_epoch.mlmodel'
     converted=subprocess.run(['ketos','convert','--weights-format','coreml','-o',str(model_path),str(checkpoint)],
                              capture_output=True,text=True,timeout=120)
     (root/'conversion.log').write_text(converted.stdout+'\n'+converted.stderr)
     if converted.returncode:raise RuntimeError('Final-checkpoint model conversion failed: '+converted.stderr[-2000:])
+    result['ocr']['model_sha256']=sha256(model_path.read_bytes())
     from kraken.lib.vgsl import TorchVGSLModel
     from kraken import rpred
     from kraken.containers import Segmentation,BBoxLine
@@ -194,7 +199,7 @@ def conditional_ocr(plan,masks,refs,images,mapping,out,result):
     for r in test:
         with Image.open(r['path']) as im:
             im=im.convert('RGB')
-            seg=Segmentation(type='bbox',imagename=r['path'],text_direction='horizontal-lr',
+            seg=Segmentation(type='bbox',imagename=r['path'],text_direction='horizontal-lr',script_detection=False,
                              lines=[BBoxLine(id=r['id'],bbox=(0,0,im.width,im.height))])
             output=list(rpred.rpred(net,im,seg,bidi_reordering=False))
             if len(output)!=1:raise RuntimeError('Recognizer produced an unexpected record count')
