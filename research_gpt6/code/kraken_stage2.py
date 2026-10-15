@@ -181,10 +181,11 @@ def conditional_ocr(plan,masks,refs,images,mapping,out,result):
     (root/'conversion.log').write_text(converted.stdout+'\n'+converted.stderr)
     if converted.returncode:raise RuntimeError('Final-checkpoint model conversion failed: '+converted.stderr[-2000:])
     result['ocr']['model_sha256']=sha256(model_path.read_bytes())
-    from kraken.lib.vgsl import TorchVGSLModel
+    from kraken.lib.models import load_any
     from kraken import rpred
     from kraken.containers import Segmentation,BBoxLine
-    net=TorchVGSLModel.load_model(str(model_path))
+    # The recognition API expects TorchSeqRecognizer, not the bare VGSL net.
+    net=load_any(str(model_path),train=False,device='cpu')
     train_info=[]
     for r in train:
         with Image.open(r['path']) as im:features=image_features(im)
