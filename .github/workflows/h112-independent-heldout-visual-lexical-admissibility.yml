@@ -1,0 +1,27 @@
+name: H112 independent held-out visual-lexical admissibility
+
+on:
+  push:
+    branches: [experiment/h58-strict-l-vs-p]
+    paths:
+      - 'research_gpt6/162_h112_independent_heldout_visual_lexical_admissibility_preregistration.md'
+      - 'research_gpt6/code/h112_independent_heldout_visual_lexical_admissibility.py'
+      - '.github/workflows/h112-independent-heldout-visual-lexical-admissibility.yml'
+  workflow_dispatch:
+
+# Infrastructure-only replay trigger after preregistration/runner status-classification alignment.
+jobs:
+  h112:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Run H112 frozen admissibility audit
+        run: python research_gpt6/code/h112_independent_heldout_visual_lexical_admissibility.py
+      - name: Upload H112 evidence
+        uses: actions/upload-artifact@v4
+        with:
+          name: h112-independent-heldout-admissibility
+          path: research_gpt6/results/h112_independent_heldout_visual_lexical_admissibility.json

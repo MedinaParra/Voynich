@@ -1,0 +1,28 @@
+name: H68 visual-subtype identifiability
+on:
+  workflow_dispatch:
+  pull_request:
+    branches: [research/gpt6-audit]
+    paths:
+      - 'research_gpt6/**'
+      - '.github/workflows/h68-visual-subtype-identifiability.yml'
+
+jobs:
+  h68-visual-subtype-identifiability:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Fetch frozen external IVTFF source
+        run: curl -L --fail -o IT_ivtff_1a.txt 'https://raw.githubusercontent.com/noah-chelednik/voynich-data/472ef7366606a799fc8f1044c037e06b413f6ddd/data_sources/cache/IT_ivtff_1a.txt'
+      - name: Run preregistered H68 identifiability audit
+        run: mkdir -p research_gpt6/results && python research_gpt6/code/h68_visual_subtype_identifiability.py --source IT_ivtff_1a.txt --out research_gpt6/results/h68_visual_subtype_identifiability.json
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: h68-visual-subtype-identifiability-results
+          path: research_gpt6/results/h68_visual_subtype_identifiability.json
+          if-no-files-found: error

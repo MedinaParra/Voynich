@@ -1,0 +1,31 @@
+name: H103 GC locator admissibility
+on:
+  workflow_dispatch:
+  pull_request:
+    branches: [research/gpt6-audit]
+    paths:
+      - 'research_gpt6/code/h103_gc_locator_admissibility.py'
+      - 'research_gpt6/153_h103_gc_locator_admissibility_preregistration.md'
+      - '.github/workflows/h103-gc-locator-admissibility.yml'
+jobs:
+  h103:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - name: Fetch frozen GC v101 transcription
+        run: |
+          base='https://raw.githubusercontent.com/noah-chelednik/voynich-data/472ef7366606a799fc8f1044c037e06b413f6ddd/data_sources/cache'
+          curl -L --fail -o GC2a-n.txt "$base/GC2a-n.txt"
+          echo 'b09570cb6c993bc2d87134d115e60a978650a8a6495483ddbb1f6005a586096f  GC2a-n.txt' | sha256sum -c -
+      - name: Run H103
+        run: |
+          mkdir -p research_gpt6/results
+          python research_gpt6/code/h103_gc_locator_admissibility.py --gc GC2a-n.txt --out research_gpt6/results/h103_gc_locator_admissibility.json
+          cat research_gpt6/results/h103_gc_locator_admissibility.json
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: h103-gc-locator-admissibility
+          path: research_gpt6/results/h103_gc_locator_admissibility.json
+          if-no-files-found: error

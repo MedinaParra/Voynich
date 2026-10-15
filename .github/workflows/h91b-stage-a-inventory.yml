@@ -1,0 +1,26 @@
+name: H91b blind Stage A inventory
+on:
+  workflow_dispatch:
+  pull_request:
+    branches: [research/gpt6-audit]
+    paths:
+      - 'research_gpt6/code/h91b_stage_a_inventory.py'
+      - '.github/workflows/h91b-stage-a-inventory.yml'
+jobs:
+  h91b-stage-a:
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python -m pip install --disable-pip-version-check numpy pillow scipy
+      - name: Run lexical-blind frozen Stage A
+        run: mkdir -p research_gpt6/results && python research_gpt6/code/h91b_stage_a_inventory.py --out research_gpt6/results/h91b_stage_a_manifest.json
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: h91b-stage-a-manifest
+          path: research_gpt6/results/h91b_stage_a_manifest.json
+          if-no-files-found: error

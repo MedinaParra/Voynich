@@ -1,0 +1,51 @@
+name: H91c generic visual extractor exact replay
+on:
+  workflow_dispatch:
+  pull_request:
+    branches: [research/gpt6-audit]
+    paths:
+      - 'research_gpt6/code/h91c_generic_visual_extractor.py'
+      - '.github/workflows/h91c-generic-visual-extractor.yml'
+
+jobs:
+  h91c:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install frozen H76 dependencies
+        run: python -m pip install --disable-pip-version-check numpy pillow scipy
+      - name: Fetch frozen Yale replay coordinates
+        run: |
+          curl -L --fail -o f68r1.json 'https://raw.githubusercontent.com/YaleDHLab/voynich/c4d36f4595292c92da8c7428e30cb23b700a019b/utils/voynichese/coords/f68r1.json'
+          curl -L --fail -o f68r2.json 'https://raw.githubusercontent.com/YaleDHLab/voynich/c4d36f4595292c92da8c7428e30cb23b700a019b/utils/voynichese/coords/f68r2.json'
+      - name: Run legacy H76 replay
+        run: python research_gpt6/code/h76_visual_object_extraction_admissibility.py --coords-f68r1 f68r1.json --coords-f68r2 f68r2.json --out legacy.json
+      - name: Run H91c generic replay
+        run: python research_gpt6/code/h91c_generic_visual_extractor.py --input f68r1=f68r1.json --input f68r2=f68r2.json --out generic.json
+      - name: Exact page equivalence check
+        run: |
+          python - <<'PY'
+          import json, hashlib, subprocess
+          a=json.load(open('legacy.json'))['pages']; b=json.load(open('generic.json'))['pages']
+          exact=(a==b)
+          result={'status':'PASS' if exact else 'FAIL','exact_pages_equal':exact,
+                  'legacy_pages_sha256':hashlib.sha256(json.dumps(a,sort_keys=True,separators=(',',':')).encode()).hexdigest(),
+                  'generic_pages_sha256':hashlib.sha256(json.dumps(b,sort_keys=True,separators=(',',':')).encode()).hexdigest(),
+                  'code_commit_sha':subprocess.check_output(['git','rev-parse','HEAD'],text=True).strip()}
+          open('h91c_equivalence.json','w').write(json.dumps(result,indent=2,sort_keys=True)+'\n')
+          print(json.dumps(result,indent=2,sort_keys=True))
+          raise SystemExit(0 if exact else 1)
+          PY
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: h91c-generic-visual-extractor-equivalence
+          path: |
+            legacy.json
+            generic.json
+            h91c_equivalence.json
+          if-no-files-found: error

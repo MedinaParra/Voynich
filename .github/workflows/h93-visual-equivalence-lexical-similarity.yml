@@ -1,0 +1,28 @@
+name: H93 visual-equivalence lexical-similarity
+on:
+  workflow_dispatch:
+  pull_request:
+    branches: [research/gpt6-audit]
+    paths:
+      - 'research_gpt6/code/h93_visual_equivalence_lexical_similarity.py'
+      - '.github/workflows/h93-visual-equivalence-lexical-similarity.yml'
+jobs:
+  h93:
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python -m pip install --disable-pip-version-check numpy pillow scipy
+      - name: Run preregistered H93 confirmatory test
+        run: |
+          mkdir -p research_gpt6/results
+          python research_gpt6/code/h93_visual_equivalence_lexical_similarity.py --out research_gpt6/results/h93_visual_equivalence_lexical_similarity.json
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: h93-visual-equivalence-lexical-similarity
+          path: research_gpt6/results/h93_visual_equivalence_lexical_similarity.json
+          if-no-files-found: error

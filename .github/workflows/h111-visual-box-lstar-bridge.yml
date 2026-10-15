@@ -1,0 +1,31 @@
+name: H111 visual-box Lstar bridge admissibility
+on:
+  workflow_dispatch:
+  pull_request:
+    branches: [research/gpt6-audit]
+    paths:
+      - 'research_gpt6/code/h111_visual_box_lstar_bridge.py'
+      - 'research_gpt6/160_h111_visual_box_lstar_bridge_preregistration.md'
+      - '.github/workflows/h111-visual-box-lstar-bridge.yml'
+
+jobs:
+  h111-bridge:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install frozen extractor runtime dependencies
+        run: python -m pip install numpy pillow scipy
+      - name: Fetch frozen IVTFF source used by H67
+        run: curl -L --fail -o IT_ivtff_1a.txt 'https://raw.githubusercontent.com/noah-chelednik/voynich-data/472ef7366606a799fc8f1044c037e06b413f6ddd/data_sources/cache/IT_ivtff_1a.txt'
+      - name: Run preregistered H111 token-blind bridge gate
+        run: mkdir -p research_gpt6/results && python research_gpt6/code/h111_visual_box_lstar_bridge.py --source IT_ivtff_1a.txt --out research_gpt6/results/h111_visual_box_lstar_bridge.json
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: h111-visual-box-lstar-bridge-results
+          path: research_gpt6/results/h111_visual_box_lstar_bridge.json
+          if-no-files-found: error

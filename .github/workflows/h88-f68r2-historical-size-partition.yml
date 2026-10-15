@@ -1,0 +1,38 @@
+name: H88 f68r2 historical size partition
+# Retrigger only; protocol, code, sources, and decision criteria are unchanged.
+on:
+  workflow_dispatch:
+  pull_request:
+    branches: [research/gpt6-audit]
+    paths:
+      - 'research_gpt6/117_h88_f68r2_historical_size_partition_preregistration.md'
+      - 'research_gpt6/code/h88_f68r2_historical_size_partition.py'
+      - '.github/workflows/h88-f68r2-historical-size-partition.yml'
+
+jobs:
+  h88-f68r2-historical-size-partition:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Fetch frozen human-reference sources
+        run: |
+          base='https://raw.githubusercontent.com/brigadire/voinich/2bb4437906b714c1fba26f9897f8df3e7660a0b0'
+          curl -L --fail -o CONFIRMED_ENDPOINTS.tsv "$base/research/astro_spatial_human_completeness/job_18_object_freeze_c1_0/CONFIRMED_ENDPOINTS.tsv"
+          curl -L --fail -o F68R2_GROUP_SCOPE.tsv "$base/research/astro_hapax_star_label/f68r2_astronomical_name_search_v1/F68R2_GROUP_SCOPE.tsv"
+      - name: Run preregistered H88 admissibility audit
+        run: |
+          mkdir -p research_gpt6/results
+          python research_gpt6/code/h88_f68r2_historical_size_partition.py \
+            --endpoints CONFIRMED_ENDPOINTS.tsv \
+            --groups F68R2_GROUP_SCOPE.tsv \
+            --out research_gpt6/results/h88_f68r2_historical_size_partition.json
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: h88-f68r2-historical-size-partition-results
+          path: research_gpt6/results/h88_f68r2_historical_size_partition.json
+          if-no-files-found: error
