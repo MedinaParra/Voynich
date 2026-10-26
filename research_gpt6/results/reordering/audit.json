@@ -1,0 +1,17 @@
+{
+  "changed_positions": 32,
+  "checks": 2133,
+  "date": "2026-10-26",
+  "embedded_jpegs_verified": 211,
+  "image_identities": 213,
+  "mismatches": [],
+  "missing_nontext_images": [
+    "[Head]",
+    "[Tail]"
+  ],
+  "pdf_pages": 219,
+  "pdf_sha256": "573d34bafd2cbae1c40422923fe571727b1ff81343d7aced41231c6ff67ad308",
+  "result_sha256": "a6837686c5e4aca3b4a933f05f0684bd19deb53637594f482ba936d9a44b49b6",
+  "scope": "Numerical ranks, source identities and embedded JPEG bytes; not historical validation or semantic decipherment",
+  "status": "PASS"
+}

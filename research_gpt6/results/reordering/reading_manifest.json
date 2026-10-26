@@ -1,0 +1,1923 @@
+{
+  "images": [
+    {
+      "canvas_id": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006074",
+      "changed_position": false,
+      "folio": "[Front cover]",
+      "hypothesis_group": "UNCHANGED",
+      "image_service_url": "https://collections.library.yale.edu/iiif/2/1006074",
+      "proposed_position": 1,
+      "source_position": 1
+    },
+    {
+      "canvas_id": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006075",
+      "changed_position": false,
+      "folio": "[Inside front cover]",
+      "hypothesis_group": "UNCHANGED",
+      "image_service_url": "https://collections.library.yale.edu/iiif/2/1006075",
+      "proposed_position": 2,
+      "source_position": 2
+    },
+    {
+      "canvas_id": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006076",
+      "changed_position": false,
+      "folio": "1r",
+      "hypothesis_group": "UNCHANGED",
+      "image_service_url": "https://collections.library.yale.edu/iiif/2/1006076",
+      "proposed_position": 3,
+      "source_position": 3
+    },
+    {
+      "canvas_id": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006077",
+      "changed_position": false,
+      "folio": "1v",
+      "hypothesis_group": "UNCHANGED",
+      "image_service_url": "https://collections.library.yale.edu/iiif/2/1006077",
+      "proposed_position": 4,
+      "source_position": 4
+    },
+    {
+      "canvas_id": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006078",
+      "changed_position": false,
+      "folio": "2r",
+      "hypothesis_group": "UNCHANGED",
+      "image_service_url": "https://collections.library.yale.edu/iiif/2/1006078",
+      "proposed_position": 5,
+      "source_position": 5
+    },
+    {
+      "canvas_id": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006079",
+      "changed_position": false,
+      "folio": "2v",
+      "hypothesis_group": "UNCHANGED",
+      "image_service_url": "https://collections.library.yale.edu/iiif/2/1006079",
+      "proposed_position": 6,
+      "source_position": 6
+    },
+    {
+      "canvas_id": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006080",
+      "changed_position": false,
+      "folio": "3r",
+      "hypothesis_group": "UNCHANGED",
+      "image_service_url": "https://collections.library.yale.edu/iiif/2/1006080",
+      "proposed_position": 7,
+      "source_position": 7
+    },
+    {
+      "canvas_id": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006081",
+      "changed_position": false,
+      "folio": "3v",
+      "hypothesis_group": "UNCHANGED",
+      "image_service_url": "https://collections.library.yale.edu/iiif/2/1006081",
+      "proposed_position": 8,
+      "source_position": 8
+    },
+    {
+      "canvas_id": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006082",
+      "changed_position": false,
+      "folio": "4r",
+      "hypothesis_group": "UNCHANGED",
+      "image_service_url": "https://collections.library.yale.edu/iiif/2/1006082",
+      "proposed_position": 9,
+      "source_position": 9
+    },
+    {
+      "canvas_id": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006083",
+      "changed_position": false,
+      "folio": "4v",
+      "hypothesis_group": "UNCHANGED",
+      "image_service_url": "https://collections.library.yale.edu/iiif/2/1006083",
+      "proposed_position": 10,
+      "source_position": 10
+    },
+    {
+      "canvas_id": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006084",
+      "changed_position": false,
+      "folio": "5r",
+      "hypothesis_group": "UNCHANGED",
+      "image_service_url": "https://collections.library.yale.edu/iiif/2/1006084",
+      "proposed_position": 11,
+      "source_position": 11
+    },
+    {
+      "canvas_id": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006085",
+      "changed_position": false,
+      "folio": "5v",
+      "hypothesis_group": "UNCHANGED",
+      "image_service_url": "https://collections.library.yale.edu/iiif/2/1006085",
+      "proposed_position": 12,
+      "source_position": 12
+    },
+    {
+      "canvas_id": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006086",
+      "changed_position": false,
+      "folio": "6r",
+      "hypothesis_group": "UNCHANGED",
+      "image_service_url": "https://collections.library.yale.edu/iiif/2/1006086",
+      "proposed_position": 13,
+      "source_position": 13
+    },
+    {
+      "canvas_id": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006087",
+      "changed_position": false,
+      "folio": "6v",
+      "hypothesis_group": "UNCHANGED",
+      "image_service_url": "https://collections.library.yale.edu/iiif/2/1006087",
+      "proposed_position": 14,
+      "source_position": 14
+    },
+    {
+      "canvas_id": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006088",
+      "changed_position": false,
+      "folio": "7r",
+      "hypothesis_group": "UNCHANGED",
+      "image_service_url": "https://collections.library.yale.edu/iiif/2/1006088",
+      "proposed_position": 15,
+      "source_position": 15
+    },
+    {
+      "canvas_id": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006089",
+      "changed_position": false,
+      "folio": "7v",
+      "hypothesis_group": "UNCHANGED",
+      "image_service_url": "https://collections.library.yale.edu/iiif/2/1006089",
+      "proposed_position": 16,
+      "source_position": 16
+    },
+    {
+      "canvas_id": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006090",
+      "changed_position": false,
+      "folio": "8r",
+      "hypothesis_group": "UNCHANGED",
+      "image_service_url": "https://collections.library.yale.edu/iiif/2/1006090",
+      "proposed_position": 17,
+      "source_position": 17
+    },
+    {
+      "canvas_id": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006091",
+      "changed_position": false,
+      "folio": "8v",
+      "hypothesis_group": "UNCHANGED",
+      "image_service_url": "https://collections.library.yale.edu/iiif/2/1006091",
+      "proposed_position": 18,
+      "source_position": 18
+    },
+    {
+      "canvas_id": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006092",
+      "changed_position": false,
+      "folio": "9r",
+      "hypothesis_group": "UNCHANGED",
+      "image_service_url": "https://collections.library.yale.edu/iiif/2/1006092",
+      "proposed_position": 19,
+      "source_position": 19
+    },
+    {
+      "canvas_id": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006093",
+      "changed_position": false,
+      "folio": "9v",
+      "hypothesis_group": "UNCHANGED",
+      "image_service_url": "https://collections.library.yale.edu/iiif/2/1006093",
+      "proposed_position": 20,
+      "source_position": 20
+    },
+    {
+      "canvas_id": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006094",
+      "changed_position": false,
+      "folio": "10r",
+      "hypothesis_group": "UNCHANGED",
+      "image_service_url": "https://collections.library.yale.edu/iiif/2/1006094",
+      "proposed_position": 21,
+      "source_position": 21
+    },
+    {
+      "canvas_id": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006095",
+      "changed_position": false,
+      "folio": "10v",
+      "hypothesis_group": "UNCHANGED",
+      "image_service_url": "https://collections.library.yale.edu/iiif/2/1006095",
+      "proposed_position": 22,
+      "source_position": 22
+    },
+    {
+      "canvas_id": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006096",
+      "changed_position": false,
+      "folio": "11r",
+      "hypothesis_group": "UNCHANGED",
+      "image_service_url": "https://collections.library.yale.edu/iiif/2/1006096",
+      "proposed_position": 23,
+      "source_position": 23
+    },
+    {
+      "canvas_id": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006097",
+      "changed_position": false,
+      "folio": "11v",
+      "hypothesis_group": "UNCHANGED",
+      "image_service_url": "https://collections.library.yale.edu/iiif/2/1006097",
+      "proposed_position": 24,
+      "source_position": 24
+    },
+    {
+      "canvas_id": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006098",
+      "changed_position": false,
+      "folio": "13r",
+      "hypothesis_group": "UNCHANGED",
+      "image_service_url": "https://collections.library.yale.edu/iiif/2/1006098",
+      "proposed_position": 25,
+      "source_position": 25
+    },
+    {
+      "canvas_id": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006099",
+      "changed_position": false,
+      "folio": "13v",
+      "hypothesis_group": "UNCHANGED",
+      "image_service_url": "https://collections.library.yale.edu/iiif/2/1006099",
+      "proposed_position": 26,
+      "source_position": 26
+    },
+    {
+      "canvas_id": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006100",
+      "changed_position": false,
+      "folio": "14r",
+      "hypothesis_group": "UNCHANGED",
+      "image_service_url": "https://collections.library.yale.edu/iiif/2/1006100",
+      "proposed_position": 27,
+      "source_position": 27
+    },
+    {
+      "canvas_id": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006101",
+      "changed_position": false,
+      "folio": "14v",
+      "hypothesis_group": "UNCHANGED",
+      "image_service_url": "https://collections.library.yale.edu/iiif/2/1006101",
+      "proposed_position": 28,
+      "source_position": 28
+    },
+    {
+      "canvas_id": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006102",
+      "changed_position": false,
+      "folio": "15r",
+      "hypothesis_group": "UNCHANGED",
+      "image_service_url": "https://collections.library.yale.edu/iiif/2/1006102",
+      "proposed_position": 29,
+      "source_position": 29
+    },
+    {
+      "canvas_id": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006103",
+      "changed_position": false,
+      "folio": "15v",
+      "hypothesis_group": "UNCHANGED",
+      "image_service_url": "https://collections.library.yale.edu/iiif/2/1006103",
+      "proposed_position": 30,
+      "source_position": 30
+    },
+    {
+      "canvas_id": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006104",
+      "changed_position": false,
+      "folio": "16r",
+      "hypothesis_group": "UNCHANGED",
+      "image_service_url": "https://collections.library.yale.edu/iiif/2/1006104",
+      "proposed_position": 31,
+      "source_position": 31
+    },
+    {
+      "canvas_id": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006105",
+      "changed_position": false,
+      "folio": "16v",
+      "hypothesis_group": "UNCHANGED",
+      "image_service_url": "https://collections.library.yale.edu/iiif/2/1006105",
+      "proposed_position": 32,
+      "source_position": 32
+    },
+    {
+      "canvas_id": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006106",
+      "changed_position": false,
+      "folio": "17r",
+      "hypothesis_group": "UNCHANGED",
+      "image_service_url": "https://collections.library.yale.edu/iiif/2/1006106",
+      "proposed_position": 33,
+      "source_position": 33
+    },
+    {
+      "canvas_id": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006107",
+      "changed_position": false,
+      "folio": "17v",
+      "hypothesis_group": "UNCHANGED",
+      "image_service_url": "https://collections.library.yale.edu/iiif/2/1006107",
+      "proposed_position": 34,
+      "source_position": 34
+    },
+    {
+      "canvas_id": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006108",
+      "changed_position": false,
+      "folio": "18r",
+      "hypothesis_group": "UNCHANGED",
+      "image_service_url": "https://collections.library.yale.edu/iiif/2/1006108",
+      "proposed_position": 35,
+      "source_position": 35
+    },
+    {
+      "canvas_id": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006109",
+      "changed_position": false,
+      "folio": "18v",
+      "hypothesis_group": "UNCHANGED",
+      "image_service_url": "https://collections.library.yale.edu/iiif/2/1006109",
+      "proposed_position": 36,
+      "source_position": 36
+    },
+    {
+      "canvas_id": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006110",
+      "changed_position": false,
+      "folio": "19r",
+      "hypothesis_group": "UNCHANGED",
+      "image_service_url": "https://collections.library.yale.edu/iiif/2/1006110",
+      "proposed_position": 37,
+      "source_position": 37
+    },
+    {
+      "canvas_id": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006111",
+      "changed_position": false,
+      "folio": "19v",
+      "hypothesis_group": "UNCHANGED",
+      "image_service_url": "https://collections.library.yale.edu/iiif/2/1006111",
+      "proposed_position": 38,
+      "source_position": 38
+    },
+    {
+      "canvas_id": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006112",
+      "changed_position": false,
+      "folio": "20r",
+      "hypothesis_group": "UNCHANGED",
+      "image_service_url": "https://collections.library.yale.edu/iiif/2/1006112",
+      "proposed_position": 39,
+      "source_position": 39
+    },
+    {
+      "canvas_id": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006113",
+      "changed_position": false,
+      "folio": "20v",
+      "hypothesis_group": "UNCHANGED",
+      "image_service_url": "https://collections.library.yale.edu/iiif/2/1006113",
+      "proposed_position": 40,
+      "source_position": 40
+    },
+    {
+      "canvas_id": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006114",
+      "changed_position": false,
+      "folio": "21r",
+      "hypothesis_group": "UNCHANGED",
+      "image_service_url": "https://collections.library.yale.edu/iiif/2/1006114",
+      "proposed_position": 41,
+      "source_position": 41
+    },
+    {
+      "canvas_id": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006115",
+      "changed_position": false,
+      "folio": "21v",
+      "hypothesis_group": "UNCHANGED",
+      "image_service_url": "https://collections.library.yale.edu/iiif/2/1006115",
+      "proposed_position": 42,
+      "source_position": 42
+    },
+    {
+      "canvas_id": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006116",
+      "changed_position": false,
+      "folio": "22r",
+      "hypothesis_group": "UNCHANGED",
+      "image_service_url": "https://collections.library.yale.edu/iiif/2/1006116",
+      "proposed_position": 43,
+      "source_position": 43
+    },
+    {
+      "canvas_id": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006117",
+      "changed_position": false,
+      "folio": "22v",
+      "hypothesis_group": "UNCHANGED",
+      "image_service_url": "https://collections.library.yale.edu/iiif/2/1006117",
+      "proposed_position": 44,
+      "source_position": 44
+    },
+    {
+      "canvas_id": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006118",
+      "changed_position": false,
+      "folio": "23r",
+      "hypothesis_group": "UNCHANGED",
+      "image_service_url": "https://collections.library.yale.edu/iiif/2/1006118",
+      "proposed_position": 45,
+      "source_position": 45
+    },
+    {
+      "canvas_id": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006119",
+      "changed_position": false,
+      "folio": "23v",
+      "hypothesis_group": "UNCHANGED",
+      "image_service_url": "https://collections.library.yale.edu/iiif/2/1006119",
+      "proposed_position": 46,
+      "source_position": 46
+    },
+    {
+      "canvas_id": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006120",
+      "changed_position": false,
+      "folio": "24r",
+      "hypothesis_group": "UNCHANGED",
+      "image_service_url": "https://collections.library.yale.edu/iiif/2/1006120",
+      "proposed_position": 47,
+      "source_position": 47
+    },
+    {
+      "canvas_id": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006121",
+      "changed_position": false,
+      "folio": "24v",
+      "hypothesis_group": "UNCHANGED",
+      "image_service_url": "https://collections.library.yale.edu/iiif/2/1006121",
+      "proposed_position": 48,
+      "source_position": 48
+    },
+    {
+      "canvas_id": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006122",
+      "changed_position": false,
+      "folio": "25r",
+      "hypothesis_group": "UNCHANGED",
+      "image_service_url": "https://collections.library.yale.edu/iiif/2/1006122",
+      "proposed_position": 49,
+      "source_position": 49
+    },
+    {
+      "canvas_id": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006123",
+      "changed_position": false,
+      "folio": "25v",
+      "hypothesis_group": "UNCHANGED",
+      "image_service_url": "https://collections.library.yale.edu/iiif/2/1006123",
+      "proposed_position": 50,
+      "source_position": 50
+    },
+    {
+      "canvas_id": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006124",
+      "changed_position": false,
+      "folio": "26r",
+      "hypothesis_group": "UNCHANGED",
+      "image_service_url": "https://collections.library.yale.edu/iiif/2/1006124",
+      "proposed_position": 51,
+      "source_position": 51
+    },
+    {
+      "canvas_id": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006125",
+      "changed_position": false,
+      "folio": "26v",
+      "hypothesis_group": "UNCHANGED",
+      "image_service_url": "https://collections.library.yale.edu/iiif/2/1006125",
+      "proposed_position": 52,
+      "source_position": 52
+    },
+    {
+      "canvas_id": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006126",
+      "changed_position": false,
+      "folio": "27r",
+      "hypothesis_group": "UNCHANGED",
+      "image_service_url": "https://collections.library.yale.edu/iiif/2/1006126",
+      "proposed_position": 53,
+      "source_position": 53
+    },
+    {
+      "canvas_id": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006127",
+      "changed_position": false,
+      "folio": "27v",
+      "hypothesis_group": "UNCHANGED",
+      "image_service_url": "https://collections.library.yale.edu/iiif/2/1006127",
+      "proposed_position": 54,
+      "source_position": 54
+    },
+    {
+      "canvas_id": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006128",
+      "changed_position": false,
+      "folio": "28r",
+      "hypothesis_group": "UNCHANGED",
+      "image_service_url": "https://collections.library.yale.edu/iiif/2/1006128",
+      "proposed_position": 55,
+      "source_position": 55
+    },
+    {
+      "canvas_id": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006129",
+      "changed_position": false,
+      "folio": "28v",
+      "hypothesis_group": "UNCHANGED",
+      "image_service_url": "https://collections.library.yale.edu/iiif/2/1006129",
+      "proposed_position": 56,
+      "source_position": 56
+    },
+    {
+      "canvas_id": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006130",
+      "changed_position": false,
+      "folio": "29r",
+      "hypothesis_group": "UNCHANGED",
+      "image_service_url": "https://collections.library.yale.edu/iiif/2/1006130",
+      "proposed_position": 57,
+      "source_position": 57
+    },
+    {
+      "canvas_id": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006131",
+      "changed_position": false,
+      "folio": "29v",
+      "hypothesis_group": "UNCHANGED",
+      "image_service_url": "https://collections.library.yale.edu/iiif/2/1006131",
+      "proposed_position": 58,
+      "source_position": 58
+    },
+    {
+      "canvas_id": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006132",
+      "changed_position": false,
+      "folio": "30r",
+      "hypothesis_group": "UNCHANGED",
+      "image_service_url": "https://collections.library.yale.edu/iiif/2/1006132",
+      "proposed_position": 59,
+      "source_position": 59
+    },
+    {
+      "canvas_id": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006133",
+      "changed_position": false,
+      "folio": "30v",
+      "hypothesis_group": "UNCHANGED",
+      "image_service_url": "https://collections.library.yale.edu/iiif/2/1006133",
+      "proposed_position": 60,
+      "source_position": 60
+    },
+    {
+      "canvas_id": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006134",
+      "changed_position": false,
+      "folio": "31r",
+      "hypothesis_group": "UNCHANGED",
+      "image_service_url": "https://collections.library.yale.edu/iiif/2/1006134",
+      "proposed_position": 61,
+      "source_position": 61
+    },
+    {
+      "canvas_id": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006135",
+      "changed_position": false,
+      "folio": "31v",
+      "hypothesis_group": "UNCHANGED",
+      "image_service_url": "https://collections.library.yale.edu/iiif/2/1006135",
+      "proposed_position": 62,
+      "source_position": 62
+    },
+    {
+      "canvas_id": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006136",
+      "changed_position": false,
+      "folio": "32r",
+      "hypothesis_group": "UNCHANGED",
+      "image_service_url": "https://collections.library.yale.edu/iiif/2/1006136",
+      "proposed_position": 63,
+      "source_position": 63
+    },
+    {
+      "canvas_id": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006137",
+      "changed_position": false,
+      "folio": "32v",
+      "hypothesis_group": "UNCHANGED",
+      "image_service_url": "https://collections.library.yale.edu/iiif/2/1006137",
+      "proposed_position": 64,
+      "source_position": 64
+    },
+    {
+      "canvas_id": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006138",
+      "changed_position": false,
+      "folio": "33r",
+      "hypothesis_group": "UNCHANGED",
+      "image_service_url": "https://collections.library.yale.edu/iiif/2/1006138",
+      "proposed_position": 65,
+      "source_position": 65
+    },
+    {
+      "canvas_id": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006139",
+      "changed_position": false,
+      "folio": "33v",
+      "hypothesis_group": "UNCHANGED",
+      "image_service_url": "https://collections.library.yale.edu/iiif/2/1006139",
+      "proposed_position": 66,
+      "source_position": 66
+    },
+    {
+      "canvas_id": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006140",
+      "changed_position": false,
+      "folio": "34r",
+      "hypothesis_group": "UNCHANGED",
+      "image_service_url": "https://collections.library.yale.edu/iiif/2/1006140",
+      "proposed_position": 67,
+      "source_position": 67
+    },
+    {
+      "canvas_id": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006141",
+      "changed_position": false,
+      "folio": "34v",
+      "hypothesis_group": "UNCHANGED",
+      "image_service_url": "https://collections.library.yale.edu/iiif/2/1006141",
+      "proposed_position": 68,
+      "source_position": 68
+    },
+    {
+      "canvas_id": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006142",
+      "changed_position": false,
+      "folio": "35r",
+      "hypothesis_group": "UNCHANGED",
+      "image_service_url": "https://collections.library.yale.edu/iiif/2/1006142",
+      "proposed_position": 69,
+      "source_position": 69
+    },
+    {
+      "canvas_id": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006143",
+      "changed_position": false,
+      "folio": "35v",
+      "hypothesis_group": "UNCHANGED",
+      "image_service_url": "https://collections.library.yale.edu/iiif/2/1006143",
+      "proposed_position": 70,
+      "source_position": 70
+    },
+    {
+      "canvas_id": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006144",
+      "changed_position": false,
+      "folio": "36r",
+      "hypothesis_group": "UNCHANGED",
+      "image_service_url": "https://collections.library.yale.edu/iiif/2/1006144",
+      "proposed_position": 71,
+      "source_position": 71
+    },
+    {
+      "canvas_id": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006145",
+      "changed_position": false,
+      "folio": "36v",
+      "hypothesis_group": "UNCHANGED",
+      "image_service_url": "https://collections.library.yale.edu/iiif/2/1006145",
+      "proposed_position": 72,
+      "source_position": 72
+    },
+    {
+      "canvas_id": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006146",
+      "changed_position": false,
+      "folio": "37r",
+      "hypothesis_group": "UNCHANGED",
+      "image_service_url": "https://collections.library.yale.edu/iiif/2/1006146",
+      "proposed_position": 73,
+      "source_position": 73
+    },
+    {
+      "canvas_id": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006147",
+      "changed_position": false,
+      "folio": "37v",
+      "hypothesis_group": "UNCHANGED",
+      "image_service_url": "https://collections.library.yale.edu/iiif/2/1006147",
+      "proposed_position": 74,
+      "source_position": 74
+    },
+    {
+      "canvas_id": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006148",
+      "changed_position": false,
+      "folio": "38r",
+      "hypothesis_group": "UNCHANGED",
+      "image_service_url": "https://collections.library.yale.edu/iiif/2/1006148",
+      "proposed_position": 75,
+      "source_position": 75
+    },
+    {
+      "canvas_id": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006149",
+      "changed_position": false,
+      "folio": "38v",
+      "hypothesis_group": "UNCHANGED",
+      "image_service_url": "https://collections.library.yale.edu/iiif/2/1006149",
+      "proposed_position": 76,
+      "source_position": 76
+    },
+    {
+      "canvas_id": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006150",
+      "changed_position": false,
+      "folio": "39r",
+      "hypothesis_group": "UNCHANGED",
+      "image_service_url": "https://collections.library.yale.edu/iiif/2/1006150",
+      "proposed_position": 77,
+      "source_position": 77
+    },
+    {
+      "canvas_id": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006151",
+      "changed_position": false,
+      "folio": "39v",
+      "hypothesis_group": "UNCHANGED",
+      "image_service_url": "https://collections.library.yale.edu/iiif/2/1006151",
+      "proposed_position": 78,
+      "source_position": 78
+    },
+    {
+      "canvas_id": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006152",
+      "changed_position": false,
+      "folio": "40r",
+      "hypothesis_group": "UNCHANGED",
+      "image_service_url": "https://collections.library.yale.edu/iiif/2/1006152",
+      "proposed_position": 79,
+      "source_position": 79
+    },
+    {
+      "canvas_id": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006153",
+      "changed_position": false,
+      "folio": "40v",
+      "hypothesis_group": "UNCHANGED",
+      "image_service_url": "https://collections.library.yale.edu/iiif/2/1006153",
+      "proposed_position": 80,
+      "source_position": 80
+    },
+    {
+      "canvas_id": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006154",
+      "changed_position": false,
+      "folio": "41r",
+      "hypothesis_group": "UNCHANGED",
+      "image_service_url": "https://collections.library.yale.edu/iiif/2/1006154",
+      "proposed_position": 81,
+      "source_position": 81
+    },
+    {
+      "canvas_id": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006155",
+      "changed_position": false,
+      "folio": "41v",
+      "hypothesis_group": "UNCHANGED",
+      "image_service_url": "https://collections.library.yale.edu/iiif/2/1006155",
+      "proposed_position": 82,
+      "source_position": 82
+    },
+    {
+      "canvas_id": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006156",
+      "changed_position": false,
+      "folio": "42r",
+      "hypothesis_group": "UNCHANGED",
+      "image_service_url": "https://collections.library.yale.edu/iiif/2/1006156",
+      "proposed_position": 83,
+      "source_position": 83
+    },
+    {
+      "canvas_id": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006157",
+      "changed_position": false,
+      "folio": "42v",
+      "hypothesis_group": "UNCHANGED",
+      "image_service_url": "https://collections.library.yale.edu/iiif/2/1006157",
+      "proposed_position": 84,
+      "source_position": 84
+    },
+    {
+      "canvas_id": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006158",
+      "changed_position": false,
+      "folio": "43r",
+      "hypothesis_group": "UNCHANGED",
+      "image_service_url": "https://collections.library.yale.edu/iiif/2/1006158",
+      "proposed_position": 85,
+      "source_position": 85
+    },
+    {
+      "canvas_id": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006159",
+      "changed_position": false,
+      "folio": "43v",
+      "hypothesis_group": "UNCHANGED",
+      "image_service_url": "https://collections.library.yale.edu/iiif/2/1006159",
+      "proposed_position": 86,
+      "source_position": 86
+    },
+    {
+      "canvas_id": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006160",
+      "changed_position": false,
+      "folio": "44r",
+      "hypothesis_group": "UNCHANGED",
+      "image_service_url": "https://collections.library.yale.edu/iiif/2/1006160",
+      "proposed_position": 87,
+      "source_position": 87
+    },
+    {
+      "canvas_id": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006161",
+      "changed_position": false,
+      "folio": "44v",
+      "hypothesis_group": "UNCHANGED",
+      "image_service_url": "https://collections.library.yale.edu/iiif/2/1006161",
+      "proposed_position": 88,
+      "source_position": 88
+    },
+    {
+      "canvas_id": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006162",
+      "changed_position": false,
+      "folio": "45r",
+      "hypothesis_group": "UNCHANGED",
+      "image_service_url": "https://collections.library.yale.edu/iiif/2/1006162",
+      "proposed_position": 89,
+      "source_position": 89
+    },
+    {
+      "canvas_id": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006163",
+      "changed_position": false,
+      "folio": "45v",
+      "hypothesis_group": "UNCHANGED",
+      "image_service_url": "https://collections.library.yale.edu/iiif/2/1006163",
+      "proposed_position": 90,
+      "source_position": 90
+    },
+    {
+      "canvas_id": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006164",
+      "changed_position": false,
+      "folio": "46r",
+      "hypothesis_group": "UNCHANGED",
+      "image_service_url": "https://collections.library.yale.edu/iiif/2/1006164",
+      "proposed_position": 91,
+      "source_position": 91
+    },
+    {
+      "canvas_id": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006165",
+      "changed_position": false,
+      "folio": "46v",
+      "hypothesis_group": "UNCHANGED",
+      "image_service_url": "https://collections.library.yale.edu/iiif/2/1006165",
+      "proposed_position": 92,
+      "source_position": 92
+    },
+    {
+      "canvas_id": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006166",
+      "changed_position": false,
+      "folio": "47r",
+      "hypothesis_group": "UNCHANGED",
+      "image_service_url": "https://collections.library.yale.edu/iiif/2/1006166",
+      "proposed_position": 93,
+      "source_position": 93
+    },
+    {
+      "canvas_id": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006167",
+      "changed_position": false,
+      "folio": "47v",
+      "hypothesis_group": "UNCHANGED",
+      "image_service_url": "https://collections.library.yale.edu/iiif/2/1006167",
+      "proposed_position": 94,
+      "source_position": 94
+    },
+    {
+      "canvas_id": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006168",
+      "changed_position": false,
+      "folio": "48r",
+      "hypothesis_group": "UNCHANGED",
+      "image_service_url": "https://collections.library.yale.edu/iiif/2/1006168",
+      "proposed_position": 95,
+      "source_position": 95
+    },
+    {
+      "canvas_id": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006169",
+      "changed_position": false,
+      "folio": "48v",
+      "hypothesis_group": "UNCHANGED",
+      "image_service_url": "https://collections.library.yale.edu/iiif/2/1006169",
+      "proposed_position": 96,
+      "source_position": 96
+    },
+    {
+      "canvas_id": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006170",
+      "changed_position": false,
+      "folio": "49r",
+      "hypothesis_group": "UNCHANGED",
+      "image_service_url": "https://collections.library.yale.edu/iiif/2/1006170",
+      "proposed_position": 97,
+      "source_position": 97
+    },
+    {
+      "canvas_id": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006171",
+      "changed_position": false,
+      "folio": "49v",
+      "hypothesis_group": "UNCHANGED",
+      "image_service_url": "https://collections.library.yale.edu/iiif/2/1006171",
+      "proposed_position": 98,
+      "source_position": 98
+    },
+    {
+      "canvas_id": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006172",
+      "changed_position": false,
+      "folio": "50r",
+      "hypothesis_group": "UNCHANGED",
+      "image_service_url": "https://collections.library.yale.edu/iiif/2/1006172",
+      "proposed_position": 99,
+      "source_position": 99
+    },
+    {
+      "canvas_id": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006173",
+      "changed_position": false,
+      "folio": "50v",
+      "hypothesis_group": "UNCHANGED",
+      "image_service_url": "https://collections.library.yale.edu/iiif/2/1006173",
+      "proposed_position": 100,
+      "source_position": 100
+    },
+    {
+      "canvas_id": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006174",
+      "changed_position": false,
+      "folio": "51r",
+      "hypothesis_group": "UNCHANGED",
+      "image_service_url": "https://collections.library.yale.edu/iiif/2/1006174",
+      "proposed_position": 101,
+      "source_position": 101
+    },
+    {
+      "canvas_id": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006175",
+      "changed_position": false,
+      "folio": "51v",
+      "hypothesis_group": "UNCHANGED",
+      "image_service_url": "https://collections.library.yale.edu/iiif/2/1006175",
+      "proposed_position": 102,
+      "source_position": 102
+    },
+    {
+      "canvas_id": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006176",
+      "changed_position": false,
+      "folio": "52r",
+      "hypothesis_group": "UNCHANGED",
+      "image_service_url": "https://collections.library.yale.edu/iiif/2/1006176",
+      "proposed_position": 103,
+      "source_position": 103
+    },
+    {
+      "canvas_id": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006177",
+      "changed_position": false,
+      "folio": "52v",
+      "hypothesis_group": "UNCHANGED",
+      "image_service_url": "https://collections.library.yale.edu/iiif/2/1006177",
+      "proposed_position": 104,
+      "source_position": 104
+    },
+    {
+      "canvas_id": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006178",
+      "changed_position": false,
+      "folio": "53r",
+      "hypothesis_group": "UNCHANGED",
+      "image_service_url": "https://collections.library.yale.edu/iiif/2/1006178",
+      "proposed_position": 105,
+      "source_position": 105
+    },
+    {
+      "canvas_id": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006179",
+      "changed_position": false,
+      "folio": "53v",
+      "hypothesis_group": "UNCHANGED",
+      "image_service_url": "https://collections.library.yale.edu/iiif/2/1006179",
+      "proposed_position": 106,
+      "source_position": 106
+    },
+    {
+      "canvas_id": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006180",
+      "changed_position": false,
+      "folio": "54r",
+      "hypothesis_group": "UNCHANGED",
+      "image_service_url": "https://collections.library.yale.edu/iiif/2/1006180",
+      "proposed_position": 107,
+      "source_position": 107
+    },
+    {
+      "canvas_id": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006181",
+      "changed_position": false,
+      "folio": "54v",
+      "hypothesis_group": "UNCHANGED",
+      "image_service_url": "https://collections.library.yale.edu/iiif/2/1006181",
+      "proposed_position": 108,
+      "source_position": 108
+    },
+    {
+      "canvas_id": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006182",
+      "changed_position": false,
+      "folio": "55r",
+      "hypothesis_group": "UNCHANGED",
+      "image_service_url": "https://collections.library.yale.edu/iiif/2/1006182",
+      "proposed_position": 109,
+      "source_position": 109
+    },
+    {
+      "canvas_id": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006183",
+      "changed_position": false,
+      "folio": "55v",
+      "hypothesis_group": "UNCHANGED",
+      "image_service_url": "https://collections.library.yale.edu/iiif/2/1006183",
+      "proposed_position": 110,
+      "source_position": 110
+    },
+    {
+      "canvas_id": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006184",
+      "changed_position": false,
+      "folio": "56r",
+      "hypothesis_group": "UNCHANGED",
+      "image_service_url": "https://collections.library.yale.edu/iiif/2/1006184",
+      "proposed_position": 111,
+      "source_position": 111
+    },
+    {
+      "canvas_id": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006185",
+      "changed_position": false,
+      "folio": "56v",
+      "hypothesis_group": "UNCHANGED",
+      "image_service_url": "https://collections.library.yale.edu/iiif/2/1006185",
+      "proposed_position": 112,
+      "source_position": 112
+    },
+    {
+      "canvas_id": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006186",
+      "changed_position": false,
+      "folio": "57r",
+      "hypothesis_group": "UNCHANGED",
+      "image_service_url": "https://collections.library.yale.edu/iiif/2/1006186",
+      "proposed_position": 113,
+      "source_position": 113
+    },
+    {
+      "canvas_id": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006187",
+      "changed_position": false,
+      "folio": "57v",
+      "hypothesis_group": "UNCHANGED",
+      "image_service_url": "https://collections.library.yale.edu/iiif/2/1006187",
+      "proposed_position": 114,
+      "source_position": 114
+    },
+    {
+      "canvas_id": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006188",
+      "changed_position": false,
+      "folio": "58r",
+      "hypothesis_group": "UNCHANGED",
+      "image_service_url": "https://collections.library.yale.edu/iiif/2/1006188",
+      "proposed_position": 115,
+      "source_position": 115
+    },
+    {
+      "canvas_id": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006189",
+      "changed_position": false,
+      "folio": "58v",
+      "hypothesis_group": "UNCHANGED",
+      "image_service_url": "https://collections.library.yale.edu/iiif/2/1006189",
+      "proposed_position": 116,
+      "source_position": 116
+    },
+    {
+      "canvas_id": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006190",
+      "changed_position": false,
+      "folio": "65r",
+      "hypothesis_group": "UNCHANGED",
+      "image_service_url": "https://collections.library.yale.edu/iiif/2/1006190",
+      "proposed_position": 117,
+      "source_position": 117
+    },
+    {
+      "canvas_id": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006191",
+      "changed_position": false,
+      "folio": "65v",
+      "hypothesis_group": "UNCHANGED",
+      "image_service_url": "https://collections.library.yale.edu/iiif/2/1006191",
+      "proposed_position": 118,
+      "source_position": 118
+    },
+    {
+      "canvas_id": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006192",
+      "changed_position": false,
+      "folio": "66r",
+      "hypothesis_group": "UNCHANGED",
+      "image_service_url": "https://collections.library.yale.edu/iiif/2/1006192",
+      "proposed_position": 119,
+      "source_position": 119
+    },
+    {
+      "canvas_id": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006193",
+      "changed_position": false,
+      "folio": "66v",
+      "hypothesis_group": "UNCHANGED",
+      "image_service_url": "https://collections.library.yale.edu/iiif/2/1006193",
+      "proposed_position": 120,
+      "source_position": 120
+    },
+    {
+      "canvas_id": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006194",
+      "changed_position": false,
+      "folio": "67r",
+      "hypothesis_group": "UNCHANGED",
+      "image_service_url": "https://collections.library.yale.edu/iiif/2/1006194",
+      "proposed_position": 121,
+      "source_position": 121
+    },
+    {
+      "canvas_id": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006195",
+      "changed_position": false,
+      "folio": "67v",
+      "hypothesis_group": "UNCHANGED",
+      "image_service_url": "https://collections.library.yale.edu/iiif/2/1006195",
+      "proposed_position": 122,
+      "source_position": 122
+    },
+    {
+      "canvas_id": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006196",
+      "changed_position": false,
+      "folio": "68r",
+      "hypothesis_group": "UNCHANGED",
+      "image_service_url": "https://collections.library.yale.edu/iiif/2/1006196",
+      "proposed_position": 123,
+      "source_position": 123
+    },
+    {
+      "canvas_id": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006197",
+      "changed_position": false,
+      "folio": "68v",
+      "hypothesis_group": "UNCHANGED",
+      "image_service_url": "https://collections.library.yale.edu/iiif/2/1006197",
+      "proposed_position": 124,
+      "source_position": 124
+    },
+    {
+      "canvas_id": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006198",
+      "changed_position": false,
+      "folio": "69r",
+      "hypothesis_group": "UNCHANGED",
+      "image_service_url": "https://collections.library.yale.edu/iiif/2/1006198",
+      "proposed_position": 125,
+      "source_position": 125
+    },
+    {
+      "canvas_id": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006199",
+      "changed_position": false,
+      "folio": "69v and 70r",
+      "hypothesis_group": "UNCHANGED",
+      "image_service_url": "https://collections.library.yale.edu/iiif/2/1006199",
+      "proposed_position": 126,
+      "source_position": 126
+    },
+    {
+      "canvas_id": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006200",
+      "changed_position": false,
+      "folio": "70v (part)",
+      "hypothesis_group": "UNCHANGED",
+      "image_service_url": "https://collections.library.yale.edu/iiif/2/1006200",
+      "proposed_position": 127,
+      "source_position": 127
+    },
+    {
+      "canvas_id": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006201",
+      "changed_position": false,
+      "folio": "70v (part)",
+      "hypothesis_group": "UNCHANGED",
+      "image_service_url": "https://collections.library.yale.edu/iiif/2/1006201",
+      "proposed_position": 128,
+      "source_position": 128
+    },
+    {
+      "canvas_id": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006202",
+      "changed_position": false,
+      "folio": "71r",
+      "hypothesis_group": "UNCHANGED",
+      "image_service_url": "https://collections.library.yale.edu/iiif/2/1006202",
+      "proposed_position": 129,
+      "source_position": 129
+    },
+    {
+      "canvas_id": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006203",
+      "changed_position": false,
+      "folio": "71v and 72r",
+      "hypothesis_group": "UNCHANGED",
+      "image_service_url": "https://collections.library.yale.edu/iiif/2/1006203",
+      "proposed_position": 130,
+      "source_position": 130
+    },
+    {
+      "canvas_id": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006204",
+      "changed_position": false,
+      "folio": "72v (part)",
+      "hypothesis_group": "UNCHANGED",
+      "image_service_url": "https://collections.library.yale.edu/iiif/2/1006204",
+      "proposed_position": 131,
+      "source_position": 131
+    },
+    {
+      "canvas_id": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006205",
+      "changed_position": false,
+      "folio": "72v (part)",
+      "hypothesis_group": "UNCHANGED",
+      "image_service_url": "https://collections.library.yale.edu/iiif/2/1006205",
+      "proposed_position": 132,
+      "source_position": 132
+    },
+    {
+      "canvas_id": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006206",
+      "changed_position": false,
+      "folio": "73r",
+      "hypothesis_group": "UNCHANGED",
+      "image_service_url": "https://collections.library.yale.edu/iiif/2/1006206",
+      "proposed_position": 133,
+      "source_position": 133
+    },
+    {
+      "canvas_id": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006207",
+      "changed_position": false,
+      "folio": "73v",
+      "hypothesis_group": "UNCHANGED",
+      "image_service_url": "https://collections.library.yale.edu/iiif/2/1006207",
+      "proposed_position": 134,
+      "source_position": 134
+    },
+    {
+      "canvas_id": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006214",
+      "changed_position": true,
+      "folio": "78r",
+      "hypothesis_group": "Q13",
+      "image_service_url": "https://collections.library.yale.edu/iiif/2/1006214",
+      "proposed_position": 135,
+      "source_position": 141
+    },
+    {
+      "canvas_id": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006215",
+      "changed_position": true,
+      "folio": "78v",
+      "hypothesis_group": "Q13",
+      "image_service_url": "https://collections.library.yale.edu/iiif/2/1006215",
+      "proposed_position": 136,
+      "source_position": 142
+    },
+    {
+      "canvas_id": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006220",
+      "changed_position": true,
+      "folio": "81r",
+      "hypothesis_group": "Q13",
+      "image_service_url": "https://collections.library.yale.edu/iiif/2/1006220",
+      "proposed_position": 137,
+      "source_position": 147
+    },
+    {
+      "canvas_id": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006221",
+      "changed_position": true,
+      "folio": "81v",
+      "hypothesis_group": "Q13",
+      "image_service_url": "https://collections.library.yale.edu/iiif/2/1006221",
+      "proposed_position": 138,
+      "source_position": 148
+    },
+    {
+      "canvas_id": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006216",
+      "changed_position": true,
+      "folio": "79r",
+      "hypothesis_group": "Q13",
+      "image_service_url": "https://collections.library.yale.edu/iiif/2/1006216",
+      "proposed_position": 139,
+      "source_position": 143
+    },
+    {
+      "canvas_id": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006217",
+      "changed_position": true,
+      "folio": "79v",
+      "hypothesis_group": "Q13",
+      "image_service_url": "https://collections.library.yale.edu/iiif/2/1006217",
+      "proposed_position": 140,
+      "source_position": 144
+    },
+    {
+      "canvas_id": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006218",
+      "changed_position": true,
+      "folio": "80r",
+      "hypothesis_group": "Q13",
+      "image_service_url": "https://collections.library.yale.edu/iiif/2/1006218",
+      "proposed_position": 141,
+      "source_position": 145
+    },
+    {
+      "canvas_id": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006219",
+      "changed_position": true,
+      "folio": "80v",
+      "hypothesis_group": "Q13",
+      "image_service_url": "https://collections.library.yale.edu/iiif/2/1006219",
+      "proposed_position": 142,
+      "source_position": 146
+    },
+    {
+      "canvas_id": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006208",
+      "changed_position": true,
+      "folio": "75r",
+      "hypothesis_group": "Q13",
+      "image_service_url": "https://collections.library.yale.edu/iiif/2/1006208",
+      "proposed_position": 143,
+      "source_position": 135
+    },
+    {
+      "canvas_id": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006209",
+      "changed_position": true,
+      "folio": "75v",
+      "hypothesis_group": "Q13",
+      "image_service_url": "https://collections.library.yale.edu/iiif/2/1006209",
+      "proposed_position": 144,
+      "source_position": 136
+    },
+    {
+      "canvas_id": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006226",
+      "changed_position": true,
+      "folio": "84r",
+      "hypothesis_group": "Q13",
+      "image_service_url": "https://collections.library.yale.edu/iiif/2/1006226",
+      "proposed_position": 145,
+      "source_position": 153
+    },
+    {
+      "canvas_id": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006227",
+      "changed_position": true,
+      "folio": "84v",
+      "hypothesis_group": "Q13",
+      "image_service_url": "https://collections.library.yale.edu/iiif/2/1006227",
+      "proposed_position": 146,
+      "source_position": 154
+    },
+    {
+      "canvas_id": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006210",
+      "changed_position": true,
+      "folio": "76r",
+      "hypothesis_group": "Q13",
+      "image_service_url": "https://collections.library.yale.edu/iiif/2/1006210",
+      "proposed_position": 147,
+      "source_position": 137
+    },
+    {
+      "canvas_id": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006211",
+      "changed_position": true,
+      "folio": "76v",
+      "hypothesis_group": "Q13",
+      "image_service_url": "https://collections.library.yale.edu/iiif/2/1006211",
+      "proposed_position": 148,
+      "source_position": 138
+    },
+    {
+      "canvas_id": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006224",
+      "changed_position": true,
+      "folio": "83r",
+      "hypothesis_group": "Q13",
+      "image_service_url": "https://collections.library.yale.edu/iiif/2/1006224",
+      "proposed_position": 149,
+      "source_position": 151
+    },
+    {
+      "canvas_id": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006225",
+      "changed_position": true,
+      "folio": "83v",
+      "hypothesis_group": "Q13",
+      "image_service_url": "https://collections.library.yale.edu/iiif/2/1006225",
+      "proposed_position": 150,
+      "source_position": 152
+    },
+    {
+      "canvas_id": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006212",
+      "changed_position": true,
+      "folio": "77r",
+      "hypothesis_group": "Q13",
+      "image_service_url": "https://collections.library.yale.edu/iiif/2/1006212",
+      "proposed_position": 151,
+      "source_position": 139
+    },
+    {
+      "canvas_id": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006213",
+      "changed_position": true,
+      "folio": "77v",
+      "hypothesis_group": "Q13",
+      "image_service_url": "https://collections.library.yale.edu/iiif/2/1006213",
+      "proposed_position": 152,
+      "source_position": 140
+    },
+    {
+      "canvas_id": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006222",
+      "changed_position": true,
+      "folio": "82r",
+      "hypothesis_group": "Q13",
+      "image_service_url": "https://collections.library.yale.edu/iiif/2/1006222",
+      "proposed_position": 153,
+      "source_position": 149
+    },
+    {
+      "canvas_id": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006223",
+      "changed_position": true,
+      "folio": "82v",
+      "hypothesis_group": "Q13",
+      "image_service_url": "https://collections.library.yale.edu/iiif/2/1006223",
+      "proposed_position": 154,
+      "source_position": 150
+    },
+    {
+      "canvas_id": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006228",
+      "changed_position": false,
+      "folio": "85r (part) (part of 85-86 foldout)",
+      "hypothesis_group": "UNCHANGED",
+      "image_service_url": "https://collections.library.yale.edu/iiif/2/1006228",
+      "proposed_position": 155,
+      "source_position": 155
+    },
+    {
+      "canvas_id": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006229",
+      "changed_position": false,
+      "folio": "85r (part) 86v (part) (part of 85-86 foldout)",
+      "hypothesis_group": "UNCHANGED",
+      "image_service_url": "https://collections.library.yale.edu/iiif/2/1006229",
+      "proposed_position": 156,
+      "source_position": 156
+    },
+    {
+      "canvas_id": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006230",
+      "changed_position": false,
+      "folio": "86v (part) (part of 85-86 foldout)",
+      "hypothesis_group": "UNCHANGED",
+      "image_service_url": "https://collections.library.yale.edu/iiif/2/1006230",
+      "proposed_position": 157,
+      "source_position": 157
+    },
+    {
+      "canvas_id": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006231",
+      "changed_position": false,
+      "folio": "85v and 86r (foldout)",
+      "hypothesis_group": "UNCHANGED",
+      "image_service_url": "https://collections.library.yale.edu/iiif/2/1006231",
+      "proposed_position": 158,
+      "source_position": 158
+    },
+    {
+      "canvas_id": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006232",
+      "changed_position": false,
+      "folio": "87r",
+      "hypothesis_group": "UNCHANGED",
+      "image_service_url": "https://collections.library.yale.edu/iiif/2/1006232",
+      "proposed_position": 159,
+      "source_position": 159
+    },
+    {
+      "canvas_id": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1043429",
+      "changed_position": false,
+      "folio": "87v",
+      "hypothesis_group": "UNCHANGED",
+      "image_service_url": "https://collections.library.yale.edu/iiif/2/1043429",
+      "proposed_position": 160,
+      "source_position": 160
+    },
+    {
+      "canvas_id": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1037112",
+      "changed_position": false,
+      "folio": "88r",
+      "hypothesis_group": "UNCHANGED",
+      "image_service_url": "https://collections.library.yale.edu/iiif/2/1037112",
+      "proposed_position": 161,
+      "source_position": 161
+    },
+    {
+      "canvas_id": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006233",
+      "changed_position": false,
+      "folio": "88v and 89r",
+      "hypothesis_group": "UNCHANGED",
+      "image_service_url": "https://collections.library.yale.edu/iiif/2/1006233",
+      "proposed_position": 162,
+      "source_position": 162
+    },
+    {
+      "canvas_id": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006234",
+      "changed_position": false,
+      "folio": "89v (part)",
+      "hypothesis_group": "UNCHANGED",
+      "image_service_url": "https://collections.library.yale.edu/iiif/2/1006234",
+      "proposed_position": 163,
+      "source_position": 163
+    },
+    {
+      "canvas_id": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006235",
+      "changed_position": false,
+      "folio": "89v (part) and 90r",
+      "hypothesis_group": "UNCHANGED",
+      "image_service_url": "https://collections.library.yale.edu/iiif/2/1006235",
+      "proposed_position": 164,
+      "source_position": 164
+    },
+    {
+      "canvas_id": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006236",
+      "changed_position": false,
+      "folio": "90r",
+      "hypothesis_group": "UNCHANGED",
+      "image_service_url": "https://collections.library.yale.edu/iiif/2/1006236",
+      "proposed_position": 165,
+      "source_position": 165
+    },
+    {
+      "canvas_id": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006237",
+      "changed_position": false,
+      "folio": "90v (part)",
+      "hypothesis_group": "UNCHANGED",
+      "image_service_url": "https://collections.library.yale.edu/iiif/2/1006237",
+      "proposed_position": 166,
+      "source_position": 166
+    },
+    {
+      "canvas_id": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006238",
+      "changed_position": false,
+      "folio": "93r",
+      "hypothesis_group": "UNCHANGED",
+      "image_service_url": "https://collections.library.yale.edu/iiif/2/1006238",
+      "proposed_position": 167,
+      "source_position": 167
+    },
+    {
+      "canvas_id": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006239",
+      "changed_position": false,
+      "folio": "93v",
+      "hypothesis_group": "UNCHANGED",
+      "image_service_url": "https://collections.library.yale.edu/iiif/2/1006239",
+      "proposed_position": 168,
+      "source_position": 168
+    },
+    {
+      "canvas_id": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006240",
+      "changed_position": false,
+      "folio": "94r",
+      "hypothesis_group": "UNCHANGED",
+      "image_service_url": "https://collections.library.yale.edu/iiif/2/1006240",
+      "proposed_position": 169,
+      "source_position": 169
+    },
+    {
+      "canvas_id": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006241",
+      "changed_position": false,
+      "folio": "94v and 95r",
+      "hypothesis_group": "UNCHANGED",
+      "image_service_url": "https://collections.library.yale.edu/iiif/2/1006241",
+      "proposed_position": 170,
+      "source_position": 170
+    },
+    {
+      "canvas_id": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006242",
+      "changed_position": false,
+      "folio": "95v (part)",
+      "hypothesis_group": "UNCHANGED",
+      "image_service_url": "https://collections.library.yale.edu/iiif/2/1006242",
+      "proposed_position": 171,
+      "source_position": 171
+    },
+    {
+      "canvas_id": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006243",
+      "changed_position": false,
+      "folio": "95v",
+      "hypothesis_group": "UNCHANGED",
+      "image_service_url": "https://collections.library.yale.edu/iiif/2/1006243",
+      "proposed_position": 172,
+      "source_position": 172
+    },
+    {
+      "canvas_id": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006244",
+      "changed_position": false,
+      "folio": "96r",
+      "hypothesis_group": "UNCHANGED",
+      "image_service_url": "https://collections.library.yale.edu/iiif/2/1006244",
+      "proposed_position": 173,
+      "source_position": 173
+    },
+    {
+      "canvas_id": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006245",
+      "changed_position": false,
+      "folio": "96v",
+      "hypothesis_group": "UNCHANGED",
+      "image_service_url": "https://collections.library.yale.edu/iiif/2/1006245",
+      "proposed_position": 174,
+      "source_position": 174
+    },
+    {
+      "canvas_id": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006246",
+      "changed_position": false,
+      "folio": "99r",
+      "hypothesis_group": "UNCHANGED",
+      "image_service_url": "https://collections.library.yale.edu/iiif/2/1006246",
+      "proposed_position": 175,
+      "source_position": 175
+    },
+    {
+      "canvas_id": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006247",
+      "changed_position": false,
+      "folio": "99v",
+      "hypothesis_group": "UNCHANGED",
+      "image_service_url": "https://collections.library.yale.edu/iiif/2/1006247",
+      "proposed_position": 176,
+      "source_position": 176
+    },
+    {
+      "canvas_id": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006248",
+      "changed_position": false,
+      "folio": "100r",
+      "hypothesis_group": "UNCHANGED",
+      "image_service_url": "https://collections.library.yale.edu/iiif/2/1006248",
+      "proposed_position": 177,
+      "source_position": 177
+    },
+    {
+      "canvas_id": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006249",
+      "changed_position": false,
+      "folio": "100v and 101r",
+      "hypothesis_group": "UNCHANGED",
+      "image_service_url": "https://collections.library.yale.edu/iiif/2/1006249",
+      "proposed_position": 178,
+      "source_position": 178
+    },
+    {
+      "canvas_id": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006250",
+      "changed_position": false,
+      "folio": "101v (part)",
+      "hypothesis_group": "UNCHANGED",
+      "image_service_url": "https://collections.library.yale.edu/iiif/2/1006250",
+      "proposed_position": 179,
+      "source_position": 179
+    },
+    {
+      "canvas_id": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006251",
+      "changed_position": false,
+      "folio": "101v (part) and 102r",
+      "hypothesis_group": "UNCHANGED",
+      "image_service_url": "https://collections.library.yale.edu/iiif/2/1006251",
+      "proposed_position": 180,
+      "source_position": 180
+    },
+    {
+      "canvas_id": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006252",
+      "changed_position": false,
+      "folio": "102v (part)",
+      "hypothesis_group": "UNCHANGED",
+      "image_service_url": "https://collections.library.yale.edu/iiif/2/1006252",
+      "proposed_position": 181,
+      "source_position": 181
+    },
+    {
+      "canvas_id": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006253",
+      "changed_position": false,
+      "folio": "102v (part)",
+      "hypothesis_group": "UNCHANGED",
+      "image_service_url": "https://collections.library.yale.edu/iiif/2/1006253",
+      "proposed_position": 182,
+      "source_position": 182
+    },
+    {
+      "canvas_id": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006254",
+      "changed_position": false,
+      "folio": "103r",
+      "hypothesis_group": "UNCHANGED",
+      "image_service_url": "https://collections.library.yale.edu/iiif/2/1006254",
+      "proposed_position": 183,
+      "source_position": 183
+    },
+    {
+      "canvas_id": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006255",
+      "changed_position": false,
+      "folio": "103v",
+      "hypothesis_group": "UNCHANGED",
+      "image_service_url": "https://collections.library.yale.edu/iiif/2/1006255",
+      "proposed_position": 184,
+      "source_position": 184
+    },
+    {
+      "canvas_id": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006256",
+      "changed_position": false,
+      "folio": "104r",
+      "hypothesis_group": "UNCHANGED",
+      "image_service_url": "https://collections.library.yale.edu/iiif/2/1006256",
+      "proposed_position": 185,
+      "source_position": 185
+    },
+    {
+      "canvas_id": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006257",
+      "changed_position": false,
+      "folio": "104v",
+      "hypothesis_group": "UNCHANGED",
+      "image_service_url": "https://collections.library.yale.edu/iiif/2/1006257",
+      "proposed_position": 186,
+      "source_position": 186
+    },
+    {
+      "canvas_id": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006264",
+      "changed_position": true,
+      "folio": "108r",
+      "hypothesis_group": "Q20_core",
+      "image_service_url": "https://collections.library.yale.edu/iiif/2/1006264",
+      "proposed_position": 187,
+      "source_position": 193
+    },
+    {
+      "canvas_id": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006265",
+      "changed_position": true,
+      "folio": "108v",
+      "hypothesis_group": "Q20_core",
+      "image_service_url": "https://collections.library.yale.edu/iiif/2/1006265",
+      "proposed_position": 188,
+      "source_position": 194
+    },
+    {
+      "canvas_id": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006266",
+      "changed_position": true,
+      "folio": "111r",
+      "hypothesis_group": "Q20_core",
+      "image_service_url": "https://collections.library.yale.edu/iiif/2/1006266",
+      "proposed_position": 189,
+      "source_position": 195
+    },
+    {
+      "canvas_id": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006267",
+      "changed_position": true,
+      "folio": "111v",
+      "hypothesis_group": "Q20_core",
+      "image_service_url": "https://collections.library.yale.edu/iiif/2/1006267",
+      "proposed_position": 190,
+      "source_position": 196
+    },
+    {
+      "canvas_id": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006260",
+      "changed_position": true,
+      "folio": "106r",
+      "hypothesis_group": "Q20_core",
+      "image_service_url": "https://collections.library.yale.edu/iiif/2/1006260",
+      "proposed_position": 191,
+      "source_position": 189
+    },
+    {
+      "canvas_id": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006261",
+      "changed_position": true,
+      "folio": "106v",
+      "hypothesis_group": "Q20_core",
+      "image_service_url": "https://collections.library.yale.edu/iiif/2/1006261",
+      "proposed_position": 192,
+      "source_position": 190
+    },
+    {
+      "canvas_id": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006270",
+      "changed_position": true,
+      "folio": "113r",
+      "hypothesis_group": "Q20_core",
+      "image_service_url": "https://collections.library.yale.edu/iiif/2/1006270",
+      "proposed_position": 193,
+      "source_position": 199
+    },
+    {
+      "canvas_id": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006271",
+      "changed_position": true,
+      "folio": "113v",
+      "hypothesis_group": "Q20_core",
+      "image_service_url": "https://collections.library.yale.edu/iiif/2/1006271",
+      "proposed_position": 194,
+      "source_position": 200
+    },
+    {
+      "canvas_id": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006262",
+      "changed_position": true,
+      "folio": "107r",
+      "hypothesis_group": "Q20_core",
+      "image_service_url": "https://collections.library.yale.edu/iiif/2/1006262",
+      "proposed_position": 195,
+      "source_position": 191
+    },
+    {
+      "canvas_id": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006263",
+      "changed_position": true,
+      "folio": "107v",
+      "hypothesis_group": "Q20_core",
+      "image_service_url": "https://collections.library.yale.edu/iiif/2/1006263",
+      "proposed_position": 196,
+      "source_position": 192
+    },
+    {
+      "canvas_id": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006268",
+      "changed_position": false,
+      "folio": "112r",
+      "hypothesis_group": "Q20_core",
+      "image_service_url": "https://collections.library.yale.edu/iiif/2/1006268",
+      "proposed_position": 197,
+      "source_position": 197
+    },
+    {
+      "canvas_id": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006269",
+      "changed_position": false,
+      "folio": "112v",
+      "hypothesis_group": "Q20_core",
+      "image_service_url": "https://collections.library.yale.edu/iiif/2/1006269",
+      "proposed_position": 198,
+      "source_position": 198
+    },
+    {
+      "canvas_id": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006258",
+      "changed_position": true,
+      "folio": "105r",
+      "hypothesis_group": "Q20_core",
+      "image_service_url": "https://collections.library.yale.edu/iiif/2/1006258",
+      "proposed_position": 199,
+      "source_position": 187
+    },
+    {
+      "canvas_id": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006259",
+      "changed_position": true,
+      "folio": "105v",
+      "hypothesis_group": "Q20_core",
+      "image_service_url": "https://collections.library.yale.edu/iiif/2/1006259",
+      "proposed_position": 200,
+      "source_position": 188
+    },
+    {
+      "canvas_id": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006272",
+      "changed_position": false,
+      "folio": "114r",
+      "hypothesis_group": "Q20_core",
+      "image_service_url": "https://collections.library.yale.edu/iiif/2/1006272",
+      "proposed_position": 201,
+      "source_position": 201
+    },
+    {
+      "canvas_id": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006273",
+      "changed_position": false,
+      "folio": "114v",
+      "hypothesis_group": "Q20_core",
+      "image_service_url": "https://collections.library.yale.edu/iiif/2/1006273",
+      "proposed_position": 202,
+      "source_position": 202
+    },
+    {
+      "canvas_id": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006274",
+      "changed_position": false,
+      "folio": "115r",
+      "hypothesis_group": "UNCHANGED",
+      "image_service_url": "https://collections.library.yale.edu/iiif/2/1006274",
+      "proposed_position": 203,
+      "source_position": 203
+    },
+    {
+      "canvas_id": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006275",
+      "changed_position": false,
+      "folio": "115v",
+      "hypothesis_group": "UNCHANGED",
+      "image_service_url": "https://collections.library.yale.edu/iiif/2/1006275",
+      "proposed_position": 204,
+      "source_position": 204
+    },
+    {
+      "canvas_id": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006276",
+      "changed_position": false,
+      "folio": "116r",
+      "hypothesis_group": "UNCHANGED",
+      "image_service_url": "https://collections.library.yale.edu/iiif/2/1006276",
+      "proposed_position": 205,
+      "source_position": 205
+    },
+    {
+      "canvas_id": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006277",
+      "changed_position": false,
+      "folio": "116v",
+      "hypothesis_group": "UNCHANGED",
+      "image_service_url": "https://collections.library.yale.edu/iiif/2/1006277",
+      "proposed_position": 206,
+      "source_position": 206
+    },
+    {
+      "canvas_id": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1037113",
+      "changed_position": false,
+      "folio": "[Back flyleaf recto]",
+      "hypothesis_group": "UNCHANGED",
+      "image_service_url": "https://collections.library.yale.edu/iiif/2/1037113",
+      "proposed_position": 207,
+      "source_position": 207
+    },
+    {
+      "canvas_id": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006278",
+      "changed_position": false,
+      "folio": "[Back flyleaf verso-inside back cover]",
+      "hypothesis_group": "UNCHANGED",
+      "image_service_url": "https://collections.library.yale.edu/iiif/2/1006278",
+      "proposed_position": 208,
+      "source_position": 208
+    },
+    {
+      "canvas_id": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/11868207",
+      "changed_position": false,
+      "folio": "[Head]",
+      "hypothesis_group": "UNCHANGED",
+      "image_service_url": "https://collections.library.yale.edu/iiif/2/11868207",
+      "proposed_position": 209,
+      "source_position": 209
+    },
+    {
+      "canvas_id": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/11868208",
+      "changed_position": false,
+      "folio": "[Tail]",
+      "hypothesis_group": "UNCHANGED",
+      "image_service_url": "https://collections.library.yale.edu/iiif/2/11868208",
+      "proposed_position": 210,
+      "source_position": 210
+    },
+    {
+      "canvas_id": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/11868209",
+      "changed_position": false,
+      "folio": "[Fore-edge]",
+      "hypothesis_group": "UNCHANGED",
+      "image_service_url": "https://collections.library.yale.edu/iiif/2/11868209",
+      "proposed_position": 211,
+      "source_position": 211
+    },
+    {
+      "canvas_id": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/11868210",
+      "changed_position": false,
+      "folio": "[Spine]",
+      "hypothesis_group": "UNCHANGED",
+      "image_service_url": "https://collections.library.yale.edu/iiif/2/11868210",
+      "proposed_position": 212,
+      "source_position": 212
+    },
+    {
+      "canvas_id": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006279",
+      "changed_position": false,
+      "folio": "[Back cover]",
+      "hypothesis_group": "UNCHANGED",
+      "image_service_url": "https://collections.library.yale.edu/iiif/2/1006279",
+      "proposed_position": 213,
+      "source_position": 213
+    }
+  ],
+  "source_order": "Frozen published 213-canvas inventory, not a newly retrieved Yale manifest",
+  "status": "ORDEN EXPERIMENTAL - NO VALIDADO HISTORICAMENTE"
+}
