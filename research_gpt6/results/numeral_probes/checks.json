@@ -1,0 +1,557 @@
+{
+  "status": "PASS_INTERNAL_CONSISTENCY_AND_LOGICAL_CONTROLS",
+  "check_count": 137,
+  "failures": 0,
+  "checks": [
+    {
+      "check": "true ordinal list survives any permutation",
+      "pass": true
+    },
+    {
+      "check": "disjoint lists have zero exact matches",
+      "pass": true
+    },
+    {
+      "check": "omission bound retains true matching possibility",
+      "pass": true
+    },
+    {
+      "check": "primary filter preserves word boundaries",
+      "pass": true
+    },
+    {
+      "check": "uncertainty is excluded",
+      "pass": true
+    },
+    {
+      "check": "drawing gap and comma policies",
+      "pass": true
+    },
+    {
+      "check": "score strict anchor dot_full",
+      "pass": true
+    },
+    {
+      "check": "score strict anchor dot_comma_full",
+      "pass": true
+    },
+    {
+      "check": "score strict anchor dot_left",
+      "pass": true
+    },
+    {
+      "check": "score strict anchor dot_comma_left",
+      "pass": true
+    },
+    {
+      "check": "score strict within_page_test dot_full",
+      "pass": true
+    },
+    {
+      "check": "score strict within_page_test dot_comma_full",
+      "pass": true
+    },
+    {
+      "check": "score strict within_page_test dot_left",
+      "pass": true
+    },
+    {
+      "check": "score strict within_page_test dot_comma_left",
+      "pass": true
+    },
+    {
+      "check": "score strict external_test dot_full",
+      "pass": true
+    },
+    {
+      "check": "score strict external_test dot_comma_full",
+      "pass": true
+    },
+    {
+      "check": "score strict external_test dot_left",
+      "pass": true
+    },
+    {
+      "check": "score strict external_test dot_comma_left",
+      "pass": true
+    },
+    {
+      "check": "score fixed_alias_sensitivity anchor dot_full",
+      "pass": true
+    },
+    {
+      "check": "score fixed_alias_sensitivity anchor dot_comma_full",
+      "pass": true
+    },
+    {
+      "check": "score fixed_alias_sensitivity anchor dot_left",
+      "pass": true
+    },
+    {
+      "check": "score fixed_alias_sensitivity anchor dot_comma_left",
+      "pass": true
+    },
+    {
+      "check": "score fixed_alias_sensitivity within_page_test dot_full",
+      "pass": true
+    },
+    {
+      "check": "score fixed_alias_sensitivity within_page_test dot_comma_full",
+      "pass": true
+    },
+    {
+      "check": "score fixed_alias_sensitivity within_page_test dot_left",
+      "pass": true
+    },
+    {
+      "check": "score fixed_alias_sensitivity within_page_test dot_comma_left",
+      "pass": true
+    },
+    {
+      "check": "score fixed_alias_sensitivity external_test dot_full",
+      "pass": true
+    },
+    {
+      "check": "score fixed_alias_sensitivity external_test dot_comma_full",
+      "pass": true
+    },
+    {
+      "check": "score fixed_alias_sensitivity external_test dot_left",
+      "pass": true
+    },
+    {
+      "check": "score fixed_alias_sensitivity external_test dot_comma_left",
+      "pass": true
+    },
+    {
+      "check": "299 unique label locus records",
+      "pass": true
+    },
+    {
+      "check": "259 primary eligible labels",
+      "pass": true
+    },
+    {
+      "check": "duplicate preserve_words Géminis okal",
+      "pass": true
+    },
+    {
+      "check": "duplicate preserve_words Géminis okaly",
+      "pass": true
+    },
+    {
+      "check": "duplicate preserve_words Leo okaly",
+      "pass": true
+    },
+    {
+      "check": "duplicate preserve_words Escorpio otaly",
+      "pass": true
+    },
+    {
+      "check": "duplicate preserve_words Sagitario oteody",
+      "pass": true
+    },
+    {
+      "check": "duplicate preserve_words Sagitario ykey",
+      "pass": true
+    },
+    {
+      "check": "duplicate join_words_sensitivity Géminis okal",
+      "pass": true
+    },
+    {
+      "check": "duplicate join_words_sensitivity Géminis okaly",
+      "pass": true
+    },
+    {
+      "check": "duplicate join_words_sensitivity Leo okaly",
+      "pass": true
+    },
+    {
+      "check": "duplicate join_words_sensitivity Escorpio otaly",
+      "pass": true
+    },
+    {
+      "check": "duplicate join_words_sensitivity Sagitario oteody",
+      "pass": true
+    },
+    {
+      "check": "duplicate join_words_sensitivity Sagitario ykey",
+      "pass": true
+    },
+    {
+      "check": "bound preserve_words Piscis Aries",
+      "pass": true
+    },
+    {
+      "check": "bound preserve_words Piscis Tauro",
+      "pass": true
+    },
+    {
+      "check": "bound preserve_words Piscis Géminis",
+      "pass": true
+    },
+    {
+      "check": "bound preserve_words Piscis Cáncer",
+      "pass": true
+    },
+    {
+      "check": "bound preserve_words Piscis Leo",
+      "pass": true
+    },
+    {
+      "check": "bound preserve_words Piscis Virgo",
+      "pass": true
+    },
+    {
+      "check": "bound preserve_words Piscis Libra",
+      "pass": true
+    },
+    {
+      "check": "bound preserve_words Piscis Escorpio",
+      "pass": true
+    },
+    {
+      "check": "bound preserve_words Piscis Sagitario",
+      "pass": true
+    },
+    {
+      "check": "bound preserve_words Aries Tauro",
+      "pass": true
+    },
+    {
+      "check": "bound preserve_words Aries Géminis",
+      "pass": true
+    },
+    {
+      "check": "bound preserve_words Aries Cáncer",
+      "pass": true
+    },
+    {
+      "check": "bound preserve_words Aries Leo",
+      "pass": true
+    },
+    {
+      "check": "bound preserve_words Aries Virgo",
+      "pass": true
+    },
+    {
+      "check": "bound preserve_words Aries Libra",
+      "pass": true
+    },
+    {
+      "check": "bound preserve_words Aries Escorpio",
+      "pass": true
+    },
+    {
+      "check": "bound preserve_words Aries Sagitario",
+      "pass": true
+    },
+    {
+      "check": "bound preserve_words Tauro Géminis",
+      "pass": true
+    },
+    {
+      "check": "bound preserve_words Tauro Cáncer",
+      "pass": true
+    },
+    {
+      "check": "bound preserve_words Tauro Leo",
+      "pass": true
+    },
+    {
+      "check": "bound preserve_words Tauro Virgo",
+      "pass": true
+    },
+    {
+      "check": "bound preserve_words Tauro Libra",
+      "pass": true
+    },
+    {
+      "check": "bound preserve_words Tauro Escorpio",
+      "pass": true
+    },
+    {
+      "check": "bound preserve_words Tauro Sagitario",
+      "pass": true
+    },
+    {
+      "check": "bound preserve_words Géminis Cáncer",
+      "pass": true
+    },
+    {
+      "check": "bound preserve_words Géminis Leo",
+      "pass": true
+    },
+    {
+      "check": "bound preserve_words Géminis Virgo",
+      "pass": true
+    },
+    {
+      "check": "bound preserve_words Géminis Libra",
+      "pass": true
+    },
+    {
+      "check": "bound preserve_words Géminis Escorpio",
+      "pass": true
+    },
+    {
+      "check": "bound preserve_words Géminis Sagitario",
+      "pass": true
+    },
+    {
+      "check": "bound preserve_words Cáncer Leo",
+      "pass": true
+    },
+    {
+      "check": "bound preserve_words Cáncer Virgo",
+      "pass": true
+    },
+    {
+      "check": "bound preserve_words Cáncer Libra",
+      "pass": true
+    },
+    {
+      "check": "bound preserve_words Cáncer Escorpio",
+      "pass": true
+    },
+    {
+      "check": "bound preserve_words Cáncer Sagitario",
+      "pass": true
+    },
+    {
+      "check": "bound preserve_words Leo Virgo",
+      "pass": true
+    },
+    {
+      "check": "bound preserve_words Leo Libra",
+      "pass": true
+    },
+    {
+      "check": "bound preserve_words Leo Escorpio",
+      "pass": true
+    },
+    {
+      "check": "bound preserve_words Leo Sagitario",
+      "pass": true
+    },
+    {
+      "check": "bound preserve_words Virgo Libra",
+      "pass": true
+    },
+    {
+      "check": "bound preserve_words Virgo Escorpio",
+      "pass": true
+    },
+    {
+      "check": "bound preserve_words Virgo Sagitario",
+      "pass": true
+    },
+    {
+      "check": "bound preserve_words Libra Escorpio",
+      "pass": true
+    },
+    {
+      "check": "bound preserve_words Libra Sagitario",
+      "pass": true
+    },
+    {
+      "check": "bound preserve_words Escorpio Sagitario",
+      "pass": true
+    },
+    {
+      "check": "bound join_words_sensitivity Piscis Aries",
+      "pass": true
+    },
+    {
+      "check": "bound join_words_sensitivity Piscis Tauro",
+      "pass": true
+    },
+    {
+      "check": "bound join_words_sensitivity Piscis Géminis",
+      "pass": true
+    },
+    {
+      "check": "bound join_words_sensitivity Piscis Cáncer",
+      "pass": true
+    },
+    {
+      "check": "bound join_words_sensitivity Piscis Leo",
+      "pass": true
+    },
+    {
+      "check": "bound join_words_sensitivity Piscis Virgo",
+      "pass": true
+    },
+    {
+      "check": "bound join_words_sensitivity Piscis Libra",
+      "pass": true
+    },
+    {
+      "check": "bound join_words_sensitivity Piscis Escorpio",
+      "pass": true
+    },
+    {
+      "check": "bound join_words_sensitivity Piscis Sagitario",
+      "pass": true
+    },
+    {
+      "check": "bound join_words_sensitivity Aries Tauro",
+      "pass": true
+    },
+    {
+      "check": "bound join_words_sensitivity Aries Géminis",
+      "pass": true
+    },
+    {
+      "check": "bound join_words_sensitivity Aries Cáncer",
+      "pass": true
+    },
+    {
+      "check": "bound join_words_sensitivity Aries Leo",
+      "pass": true
+    },
+    {
+      "check": "bound join_words_sensitivity Aries Virgo",
+      "pass": true
+    },
+    {
+      "check": "bound join_words_sensitivity Aries Libra",
+      "pass": true
+    },
+    {
+      "check": "bound join_words_sensitivity Aries Escorpio",
+      "pass": true
+    },
+    {
+      "check": "bound join_words_sensitivity Aries Sagitario",
+      "pass": true
+    },
+    {
+      "check": "bound join_words_sensitivity Tauro Géminis",
+      "pass": true
+    },
+    {
+      "check": "bound join_words_sensitivity Tauro Cáncer",
+      "pass": true
+    },
+    {
+      "check": "bound join_words_sensitivity Tauro Leo",
+      "pass": true
+    },
+    {
+      "check": "bound join_words_sensitivity Tauro Virgo",
+      "pass": true
+    },
+    {
+      "check": "bound join_words_sensitivity Tauro Libra",
+      "pass": true
+    },
+    {
+      "check": "bound join_words_sensitivity Tauro Escorpio",
+      "pass": true
+    },
+    {
+      "check": "bound join_words_sensitivity Tauro Sagitario",
+      "pass": true
+    },
+    {
+      "check": "bound join_words_sensitivity Géminis Cáncer",
+      "pass": true
+    },
+    {
+      "check": "bound join_words_sensitivity Géminis Leo",
+      "pass": true
+    },
+    {
+      "check": "bound join_words_sensitivity Géminis Virgo",
+      "pass": true
+    },
+    {
+      "check": "bound join_words_sensitivity Géminis Libra",
+      "pass": true
+    },
+    {
+      "check": "bound join_words_sensitivity Géminis Escorpio",
+      "pass": true
+    },
+    {
+      "check": "bound join_words_sensitivity Géminis Sagitario",
+      "pass": true
+    },
+    {
+      "check": "bound join_words_sensitivity Cáncer Leo",
+      "pass": true
+    },
+    {
+      "check": "bound join_words_sensitivity Cáncer Virgo",
+      "pass": true
+    },
+    {
+      "check": "bound join_words_sensitivity Cáncer Libra",
+      "pass": true
+    },
+    {
+      "check": "bound join_words_sensitivity Cáncer Escorpio",
+      "pass": true
+    },
+    {
+      "check": "bound join_words_sensitivity Cáncer Sagitario",
+      "pass": true
+    },
+    {
+      "check": "bound join_words_sensitivity Leo Virgo",
+      "pass": true
+    },
+    {
+      "check": "bound join_words_sensitivity Leo Libra",
+      "pass": true
+    },
+    {
+      "check": "bound join_words_sensitivity Leo Escorpio",
+      "pass": true
+    },
+    {
+      "check": "bound join_words_sensitivity Leo Sagitario",
+      "pass": true
+    },
+    {
+      "check": "bound join_words_sensitivity Virgo Libra",
+      "pass": true
+    },
+    {
+      "check": "bound join_words_sensitivity Virgo Escorpio",
+      "pass": true
+    },
+    {
+      "check": "bound join_words_sensitivity Virgo Sagitario",
+      "pass": true
+    },
+    {
+      "check": "bound join_words_sensitivity Libra Escorpio",
+      "pass": true
+    },
+    {
+      "check": "bound join_words_sensitivity Libra Sagitario",
+      "pass": true
+    },
+    {
+      "check": "bound join_words_sensitivity Escorpio Sagitario",
+      "pass": true
+    },
+    {
+      "check": "f66r not artificially aligned",
+      "pass": true
+    },
+    {
+      "check": "plan hash matches measured result",
+      "pass": true
+    },
+    {
+      "check": "figure exactly regenerates",
+      "pass": true
+    }
+  ],
+  "scope": "Numerical and data integrity, not semantic or palaeographic validation.",
+  "exposure_note": "All 26 f49v row word counts were already exported in inventory 55; these are consistency checks, not a fresh blind validation set."
+}

@@ -1,0 +1,218 @@
+[
+  {
+    "mode": "preserve_words",
+    "sign": "Géminis",
+    "label": "okal",
+    "count": 2,
+    "occurrences": [
+      {
+        "folio": "72r2",
+        "locus": 9,
+        "clock_hint": "11:45"
+      },
+      {
+        "folio": "72r2",
+        "locus": 11,
+        "clock_hint": "01:00"
+      }
+    ]
+  },
+  {
+    "mode": "preserve_words",
+    "sign": "Géminis",
+    "label": "okaly",
+    "count": 2,
+    "occurrences": [
+      {
+        "folio": "72r2",
+        "locus": 10,
+        "clock_hint": "00:15"
+      },
+      {
+        "folio": "72r2",
+        "locus": 18,
+        "clock_hint": "07:30"
+      }
+    ]
+  },
+  {
+    "mode": "preserve_words",
+    "sign": "Leo",
+    "label": "okaly",
+    "count": 2,
+    "occurrences": [
+      {
+        "folio": "72v3",
+        "locus": 9,
+        "clock_hint": "02:00"
+      },
+      {
+        "folio": "72v3",
+        "locus": 17,
+        "clock_hint": "08:30"
+      }
+    ]
+  },
+  {
+    "mode": "preserve_words",
+    "sign": "Escorpio",
+    "label": "otaly",
+    "count": 2,
+    "occurrences": [
+      {
+        "folio": "73r",
+        "locus": 1,
+        "clock_hint": "11:15"
+      },
+      {
+        "folio": "73r",
+        "locus": 6,
+        "clock_hint": "11:00"
+      }
+    ]
+  },
+  {
+    "mode": "preserve_words",
+    "sign": "Sagitario",
+    "label": "oteody",
+    "count": 2,
+    "occurrences": [
+      {
+        "folio": "73v",
+        "locus": 2,
+        "clock_hint": "11:45"
+      },
+      {
+        "folio": "73v",
+        "locus": 13,
+        "clock_hint": "03:00"
+      }
+    ]
+  },
+  {
+    "mode": "preserve_words",
+    "sign": "Sagitario",
+    "label": "ykey",
+    "count": 2,
+    "occurrences": [
+      {
+        "folio": "73v",
+        "locus": 28,
+        "clock_hint": "03:30"
+      },
+      {
+        "folio": "73v",
+        "locus": 31,
+        "clock_hint": "07:30"
+      }
+    ]
+  },
+  {
+    "mode": "join_words_sensitivity",
+    "sign": "Géminis",
+    "label": "okal",
+    "count": 2,
+    "occurrences": [
+      {
+        "folio": "72r2",
+        "locus": 9,
+        "clock_hint": "11:45"
+      },
+      {
+        "folio": "72r2",
+        "locus": 11,
+        "clock_hint": "01:00"
+      }
+    ]
+  },
+  {
+    "mode": "join_words_sensitivity",
+    "sign": "Géminis",
+    "label": "okaly",
+    "count": 2,
+    "occurrences": [
+      {
+        "folio": "72r2",
+        "locus": 10,
+        "clock_hint": "00:15"
+      },
+      {
+        "folio": "72r2",
+        "locus": 18,
+        "clock_hint": "07:30"
+      }
+    ]
+  },
+  {
+    "mode": "join_words_sensitivity",
+    "sign": "Leo",
+    "label": "okaly",
+    "count": 2,
+    "occurrences": [
+      {
+        "folio": "72v3",
+        "locus": 9,
+        "clock_hint": "02:00"
+      },
+      {
+        "folio": "72v3",
+        "locus": 17,
+        "clock_hint": "08:30"
+      }
+    ]
+  },
+  {
+    "mode": "join_words_sensitivity",
+    "sign": "Escorpio",
+    "label": "otaly",
+    "count": 2,
+    "occurrences": [
+      {
+        "folio": "73r",
+        "locus": 1,
+        "clock_hint": "11:15"
+      },
+      {
+        "folio": "73r",
+        "locus": 6,
+        "clock_hint": "11:00"
+      }
+    ]
+  },
+  {
+    "mode": "join_words_sensitivity",
+    "sign": "Sagitario",
+    "label": "oteody",
+    "count": 2,
+    "occurrences": [
+      {
+        "folio": "73v",
+        "locus": 2,
+        "clock_hint": "11:45"
+      },
+      {
+        "folio": "73v",
+        "locus": 13,
+        "clock_hint": "03:00"
+      }
+    ]
+  },
+  {
+    "mode": "join_words_sensitivity",
+    "sign": "Sagitario",
+    "label": "ykey",
+    "count": 2,
+    "occurrences": [
+      {
+        "folio": "73v",
+        "locus": 28,
+        "clock_hint": "03:30"
+      },
+      {
+        "folio": "73v",
+        "locus": 31,
+        "clock_hint": "07:30"
+      }
+    ]
+  }
+]

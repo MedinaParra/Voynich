@@ -1,0 +1,549 @@
+{
+  "status": "EXPLORATORY_NUMERAL_HYPOTHESIS_AUDIT",
+  "corpus_sha256": "bf5b6d4ac1e3a51b1847a9c388318d609020441ccd56984c901c32b09beccafc",
+  "plan_sha256": "6eb902b74c3e436552553039256584bf5ab4143c8fd3f263decb02fa05ffb97d",
+  "direct_key": {
+    "scores": [
+      {
+        "mode": "strict",
+        "role": "anchor",
+        "policy": "dot_full",
+        "correct": 1,
+        "total": 5
+      },
+      {
+        "mode": "strict",
+        "role": "anchor",
+        "policy": "dot_comma_full",
+        "correct": 1,
+        "total": 5
+      },
+      {
+        "mode": "strict",
+        "role": "anchor",
+        "policy": "dot_left",
+        "correct": 1,
+        "total": 5
+      },
+      {
+        "mode": "strict",
+        "role": "anchor",
+        "policy": "dot_comma_left",
+        "correct": 1,
+        "total": 5
+      },
+      {
+        "mode": "strict",
+        "role": "within_page_test",
+        "policy": "dot_full",
+        "correct": 0,
+        "total": 11
+      },
+      {
+        "mode": "strict",
+        "role": "within_page_test",
+        "policy": "dot_comma_full",
+        "correct": 0,
+        "total": 11
+      },
+      {
+        "mode": "strict",
+        "role": "within_page_test",
+        "policy": "dot_left",
+        "correct": 1,
+        "total": 11
+      },
+      {
+        "mode": "strict",
+        "role": "within_page_test",
+        "policy": "dot_comma_left",
+        "correct": 1,
+        "total": 11
+      },
+      {
+        "mode": "strict",
+        "role": "external_test",
+        "policy": "dot_full",
+        "correct": 0,
+        "total": 2
+      },
+      {
+        "mode": "strict",
+        "role": "external_test",
+        "policy": "dot_comma_full",
+        "correct": 0,
+        "total": 2
+      },
+      {
+        "mode": "strict",
+        "role": "external_test",
+        "policy": "dot_left",
+        "correct": 0,
+        "total": 2
+      },
+      {
+        "mode": "strict",
+        "role": "external_test",
+        "policy": "dot_comma_left",
+        "correct": 0,
+        "total": 2
+      },
+      {
+        "mode": "fixed_alias_sensitivity",
+        "role": "anchor",
+        "policy": "dot_full",
+        "correct": 1,
+        "total": 5
+      },
+      {
+        "mode": "fixed_alias_sensitivity",
+        "role": "anchor",
+        "policy": "dot_comma_full",
+        "correct": 1,
+        "total": 5
+      },
+      {
+        "mode": "fixed_alias_sensitivity",
+        "role": "anchor",
+        "policy": "dot_left",
+        "correct": 1,
+        "total": 5
+      },
+      {
+        "mode": "fixed_alias_sensitivity",
+        "role": "anchor",
+        "policy": "dot_comma_left",
+        "correct": 1,
+        "total": 5
+      },
+      {
+        "mode": "fixed_alias_sensitivity",
+        "role": "within_page_test",
+        "policy": "dot_full",
+        "correct": 0,
+        "total": 13
+      },
+      {
+        "mode": "fixed_alias_sensitivity",
+        "role": "within_page_test",
+        "policy": "dot_comma_full",
+        "correct": 0,
+        "total": 13
+      },
+      {
+        "mode": "fixed_alias_sensitivity",
+        "role": "within_page_test",
+        "policy": "dot_left",
+        "correct": 1,
+        "total": 13
+      },
+      {
+        "mode": "fixed_alias_sensitivity",
+        "role": "within_page_test",
+        "policy": "dot_comma_left",
+        "correct": 1,
+        "total": 13
+      },
+      {
+        "mode": "fixed_alias_sensitivity",
+        "role": "external_test",
+        "policy": "dot_full",
+        "correct": 0,
+        "total": 2
+      },
+      {
+        "mode": "fixed_alias_sensitivity",
+        "role": "external_test",
+        "policy": "dot_comma_full",
+        "correct": 0,
+        "total": 2
+      },
+      {
+        "mode": "fixed_alias_sensitivity",
+        "role": "external_test",
+        "policy": "dot_left",
+        "correct": 0,
+        "total": 2
+      },
+      {
+        "mode": "fixed_alias_sensitivity",
+        "role": "external_test",
+        "policy": "dot_comma_left",
+        "correct": 0,
+        "total": 2
+      }
+    ],
+    "unknown_signs_not_imputed": true,
+    "unaligned_f66r_excluded": true
+  },
+  "free_wordcount_map_fit_ceiling": [
+    {
+      "policy": "dot_full",
+      "best_possible_correct": 13,
+      "total": 26,
+      "inconsistent_signs": {
+        "o": {
+          "4": 2,
+          "2": 1
+        },
+        "y": {
+          "3": 1,
+          "5": 1,
+          "8": 1,
+          "9": 1,
+          "4": 1
+        },
+        "e": {
+          "3": 1,
+          "5": 1,
+          "7": 1,
+          "6": 1
+        },
+        "@140;": {
+          "3": 1,
+          "6": 1,
+          "8": 1
+        },
+        "k": {
+          "3": 1,
+          "6": 1
+        },
+        "p": {
+          "3": 1,
+          "6": 1
+        },
+        "@192;": {
+          "4": 1,
+          "6": 1
+        }
+      },
+      "sign_count_distributions": {
+        "f": {
+          "4": 1
+        },
+        "o": {
+          "4": 2,
+          "2": 1
+        },
+        "r": {
+          "4": 1
+        },
+        "y": {
+          "3": 1,
+          "5": 1,
+          "8": 1,
+          "9": 1,
+          "4": 1
+        },
+        "e": {
+          "3": 1,
+          "5": 1,
+          "7": 1,
+          "6": 1
+        },
+        "@140;": {
+          "3": 1,
+          "6": 1,
+          "8": 1
+        },
+        "k": {
+          "3": 1,
+          "6": 1
+        },
+        "s": {
+          "3": 1
+        },
+        "p": {
+          "3": 1,
+          "6": 1
+        },
+        "@192;": {
+          "4": 1,
+          "6": 1
+        },
+        "@164;": {
+          "7": 1
+        },
+        "d": {
+          "9": 1
+        }
+      }
+    },
+    {
+      "policy": "dot_comma_full",
+      "best_possible_correct": 16,
+      "total": 26,
+      "inconsistent_signs": {
+        "y": {
+          "3": 1,
+          "5": 1,
+          "9": 2,
+          "4": 1
+        },
+        "e": {
+          "3": 1,
+          "7": 2,
+          "8": 1
+        },
+        "@140;": {
+          "3": 1,
+          "6": 1,
+          "8": 1
+        },
+        "k": {
+          "3": 1,
+          "6": 1
+        },
+        "p": {
+          "4": 1,
+          "6": 1
+        },
+        "@192;": {
+          "4": 1,
+          "8": 1
+        }
+      },
+      "sign_count_distributions": {
+        "f": {
+          "4": 1
+        },
+        "o": {
+          "4": 3
+        },
+        "r": {
+          "4": 1
+        },
+        "y": {
+          "3": 1,
+          "5": 1,
+          "9": 2,
+          "4": 1
+        },
+        "e": {
+          "3": 1,
+          "7": 2,
+          "8": 1
+        },
+        "@140;": {
+          "3": 1,
+          "6": 1,
+          "8": 1
+        },
+        "k": {
+          "3": 1,
+          "6": 1
+        },
+        "s": {
+          "4": 1
+        },
+        "p": {
+          "4": 1,
+          "6": 1
+        },
+        "@192;": {
+          "4": 1,
+          "8": 1
+        },
+        "@164;": {
+          "7": 1
+        },
+        "d": {
+          "9": 1
+        }
+      }
+    },
+    {
+      "policy": "dot_left",
+      "best_possible_correct": 14,
+      "total": 26,
+      "inconsistent_signs": {
+        "o": {
+          "4": 2,
+          "2": 1
+        },
+        "y": {
+          "3": 1,
+          "5": 1,
+          "6": 1,
+          "7": 1,
+          "4": 1
+        },
+        "e": {
+          "3": 1,
+          "5": 2,
+          "6": 1
+        },
+        "@140;": {
+          "3": 1,
+          "5": 1,
+          "6": 1
+        },
+        "k": {
+          "3": 1,
+          "5": 1
+        },
+        "p": {
+          "3": 1,
+          "4": 1
+        },
+        "@192;": {
+          "4": 1,
+          "5": 1
+        }
+      },
+      "sign_count_distributions": {
+        "f": {
+          "4": 1
+        },
+        "o": {
+          "4": 2,
+          "2": 1
+        },
+        "r": {
+          "4": 1
+        },
+        "y": {
+          "3": 1,
+          "5": 1,
+          "6": 1,
+          "7": 1,
+          "4": 1
+        },
+        "e": {
+          "3": 1,
+          "5": 2,
+          "6": 1
+        },
+        "@140;": {
+          "3": 1,
+          "5": 1,
+          "6": 1
+        },
+        "k": {
+          "3": 1,
+          "5": 1
+        },
+        "s": {
+          "3": 1
+        },
+        "p": {
+          "3": 1,
+          "4": 1
+        },
+        "@192;": {
+          "4": 1,
+          "5": 1
+        },
+        "@164;": {
+          "6": 1
+        },
+        "d": {
+          "7": 1
+        }
+      }
+    },
+    {
+      "policy": "dot_comma_left",
+      "best_possible_correct": 17,
+      "total": 26,
+      "inconsistent_signs": {
+        "y": {
+          "3": 1,
+          "5": 1,
+          "7": 2,
+          "4": 1
+        },
+        "e": {
+          "3": 1,
+          "7": 1,
+          "6": 2
+        },
+        "@140;": {
+          "3": 1,
+          "5": 1,
+          "6": 1
+        },
+        "k": {
+          "3": 1,
+          "5": 1
+        },
+        "@192;": {
+          "4": 1,
+          "7": 1
+        }
+      },
+      "sign_count_distributions": {
+        "f": {
+          "4": 1
+        },
+        "o": {
+          "4": 3
+        },
+        "r": {
+          "4": 1
+        },
+        "y": {
+          "3": 1,
+          "5": 1,
+          "7": 2,
+          "4": 1
+        },
+        "e": {
+          "3": 1,
+          "7": 1,
+          "6": 2
+        },
+        "@140;": {
+          "3": 1,
+          "5": 1,
+          "6": 1
+        },
+        "k": {
+          "3": 1,
+          "5": 1
+        },
+        "s": {
+          "4": 1
+        },
+        "p": {
+          "4": 2
+        },
+        "@192;": {
+          "4": 1,
+          "7": 1
+        },
+        "@164;": {
+          "6": 1
+        },
+        "d": {
+          "7": 1
+        }
+      }
+    }
+  ],
+  "zodiac": {
+    "labels_total": 299,
+    "labels_primary_eligible": 259,
+    "signs": 10,
+    "signs_with_definite_duplicate_labels": [
+      "Escorpio",
+      "Géminis",
+      "Leo",
+      "Sagitario"
+    ],
+    "duplicate_types": 6,
+    "duplicate_occurrences": 12,
+    "eligible_sign_pair_count": 45,
+    "max_generous_overlap_upper_bound": 14,
+    "individual_complete_30_label_pairs": 21,
+    "max_raw_overlap_in_complete_diagram_pairs": 4
+  },
+  "limits": [
+    "No fresh blind dataset; this is an exploratory check of explicitly narrow models.",
+    "The Arabic-key check addresses row word counts, not every possible numerical function.",
+    "Duplicates contradict a canonical full-label distinct-ordinal model, not all numerical encodings.",
+    "Low overlap is reported with omitted-label coverage and a generous upper bound.",
+    "Thirty-unit diagram structure remains compatible with labels that contain names, properties or context-dependent information.",
+    "Transcription agreement is not independent palaeographic validation."
+  ]
+}

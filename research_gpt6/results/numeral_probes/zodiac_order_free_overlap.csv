@@ -1,0 +1,91 @@
+mode,sign_a,sign_b,total_a,total_b,eligible_a,eligible_b,shared_exact,generous_upper_bound,shared_labels
+preserve_words,Piscis,Aries,30,30,26,30,2,6,"{""otaldar"": 1, ""otaly"": 1}"
+preserve_words,Piscis,Tauro,30,30,26,23,0,11,{}
+preserve_words,Piscis,Géminis,30,29,26,27,1,7,"{""okaram"": 1}"
+preserve_words,Piscis,Cáncer,30,30,26,23,0,11,{}
+preserve_words,Piscis,Leo,30,30,26,24,1,11,"{""otaly"": 1}"
+preserve_words,Piscis,Virgo,30,30,26,24,0,10,{}
+preserve_words,Piscis,Libra,30,30,26,27,2,9,"{""okeoly"": 1, ""okydy"": 1}"
+preserve_words,Piscis,Escorpio,30,30,26,28,1,7,"{""otaly"": 1}"
+preserve_words,Piscis,Sagitario,30,30,26,27,0,7,{}
+preserve_words,Aries,Tauro,30,30,30,23,1,8,"{""otalaiin"": 1}"
+preserve_words,Aries,Géminis,30,29,30,27,0,2,{}
+preserve_words,Aries,Cáncer,30,30,30,23,0,7,{}
+preserve_words,Aries,Leo,30,30,30,24,1,7,"{""otaly"": 1}"
+preserve_words,Aries,Virgo,30,30,30,24,0,6,{}
+preserve_words,Aries,Libra,30,30,30,27,0,3,{}
+preserve_words,Aries,Escorpio,30,30,30,28,1,3,"{""otaly"": 1}"
+preserve_words,Aries,Sagitario,30,30,30,27,0,3,{}
+preserve_words,Tauro,Géminis,30,29,23,27,2,11,"{""otaraldy"": 1, ""okeey ary"": 1}"
+preserve_words,Tauro,Cáncer,30,30,23,23,0,14,{}
+preserve_words,Tauro,Leo,30,30,23,24,0,13,{}
+preserve_words,Tauro,Virgo,30,30,23,24,0,13,{}
+preserve_words,Tauro,Libra,30,30,23,27,0,10,{}
+preserve_words,Tauro,Escorpio,30,30,23,28,0,9,{}
+preserve_words,Tauro,Sagitario,30,30,23,27,0,10,{}
+preserve_words,Géminis,Cáncer,29,30,27,23,1,10,"{""okalar"": 1}"
+preserve_words,Géminis,Leo,29,30,27,24,4,12,"{""okaly"": 2, ""okam"": 1, ""okaldy"": 1}"
+preserve_words,Géminis,Virgo,29,30,27,24,0,8,{}
+preserve_words,Géminis,Libra,29,30,27,27,1,6,"{""okal"": 1}"
+preserve_words,Géminis,Escorpio,29,30,27,28,1,5,"{""otal"": 1}"
+preserve_words,Géminis,Sagitario,29,30,27,27,1,6,"{""okal"": 1}"
+preserve_words,Cáncer,Leo,30,30,23,24,0,13,{}
+preserve_words,Cáncer,Virgo,30,30,23,24,1,14,"{""oeeodaiin"": 1}"
+preserve_words,Cáncer,Libra,30,30,23,27,0,10,{}
+preserve_words,Cáncer,Escorpio,30,30,23,28,0,9,{}
+preserve_words,Cáncer,Sagitario,30,30,23,27,0,10,{}
+preserve_words,Leo,Virgo,30,30,24,24,1,13,"{""oeedy"": 1}"
+preserve_words,Leo,Libra,30,30,24,27,0,9,{}
+preserve_words,Leo,Escorpio,30,30,24,28,3,11,"{""oky"": 1, ""okary"": 1, ""otaly"": 1}"
+preserve_words,Leo,Sagitario,30,30,24,27,1,10,"{""oky"": 1}"
+preserve_words,Virgo,Libra,30,30,24,27,0,9,{}
+preserve_words,Virgo,Escorpio,30,30,24,28,1,9,"{""okeody"": 1}"
+preserve_words,Virgo,Sagitario,30,30,24,27,1,10,"{""okeody"": 1}"
+preserve_words,Libra,Escorpio,30,30,27,28,1,6,"{""okeey"": 1}"
+preserve_words,Libra,Sagitario,30,30,27,27,1,7,"{""okal"": 1}"
+preserve_words,Escorpio,Sagitario,30,30,28,27,4,9,"{""otedy"": 1, ""okeody"": 1, ""okeos"": 1, ""oky"": 1}"
+join_words_sensitivity,Piscis,Aries,30,30,26,30,2,6,"{""otaldar"": 1, ""otaly"": 1}"
+join_words_sensitivity,Piscis,Tauro,30,30,26,23,0,11,{}
+join_words_sensitivity,Piscis,Géminis,30,29,26,27,1,7,"{""okaram"": 1}"
+join_words_sensitivity,Piscis,Cáncer,30,30,26,23,0,11,{}
+join_words_sensitivity,Piscis,Leo,30,30,26,24,1,11,"{""otaly"": 1}"
+join_words_sensitivity,Piscis,Virgo,30,30,26,24,0,10,{}
+join_words_sensitivity,Piscis,Libra,30,30,26,27,2,9,"{""okeoly"": 1, ""okydy"": 1}"
+join_words_sensitivity,Piscis,Escorpio,30,30,26,28,1,7,"{""otaly"": 1}"
+join_words_sensitivity,Piscis,Sagitario,30,30,26,27,0,7,{}
+join_words_sensitivity,Aries,Tauro,30,30,30,23,1,8,"{""otalaiin"": 1}"
+join_words_sensitivity,Aries,Géminis,30,29,30,27,0,2,{}
+join_words_sensitivity,Aries,Cáncer,30,30,30,23,0,7,{}
+join_words_sensitivity,Aries,Leo,30,30,30,24,1,7,"{""otaly"": 1}"
+join_words_sensitivity,Aries,Virgo,30,30,30,24,0,6,{}
+join_words_sensitivity,Aries,Libra,30,30,30,27,0,3,{}
+join_words_sensitivity,Aries,Escorpio,30,30,30,28,1,3,"{""otaly"": 1}"
+join_words_sensitivity,Aries,Sagitario,30,30,30,27,0,3,{}
+join_words_sensitivity,Tauro,Géminis,30,29,23,27,2,11,"{""otaraldy"": 1, ""okeeyary"": 1}"
+join_words_sensitivity,Tauro,Cáncer,30,30,23,23,0,14,{}
+join_words_sensitivity,Tauro,Leo,30,30,23,24,0,13,{}
+join_words_sensitivity,Tauro,Virgo,30,30,23,24,0,13,{}
+join_words_sensitivity,Tauro,Libra,30,30,23,27,0,10,{}
+join_words_sensitivity,Tauro,Escorpio,30,30,23,28,0,9,{}
+join_words_sensitivity,Tauro,Sagitario,30,30,23,27,0,10,{}
+join_words_sensitivity,Géminis,Cáncer,29,30,27,23,1,10,"{""okalar"": 1}"
+join_words_sensitivity,Géminis,Leo,29,30,27,24,4,12,"{""okaly"": 2, ""okam"": 1, ""okaldy"": 1}"
+join_words_sensitivity,Géminis,Virgo,29,30,27,24,0,8,{}
+join_words_sensitivity,Géminis,Libra,29,30,27,27,1,6,"{""okal"": 1}"
+join_words_sensitivity,Géminis,Escorpio,29,30,27,28,1,5,"{""otal"": 1}"
+join_words_sensitivity,Géminis,Sagitario,29,30,27,27,1,6,"{""okal"": 1}"
+join_words_sensitivity,Cáncer,Leo,30,30,23,24,0,13,{}
+join_words_sensitivity,Cáncer,Virgo,30,30,23,24,1,14,"{""oeeodaiin"": 1}"
+join_words_sensitivity,Cáncer,Libra,30,30,23,27,0,10,{}
+join_words_sensitivity,Cáncer,Escorpio,30,30,23,28,0,9,{}
+join_words_sensitivity,Cáncer,Sagitario,30,30,23,27,0,10,{}
+join_words_sensitivity,Leo,Virgo,30,30,24,24,1,13,"{""oeedy"": 1}"
+join_words_sensitivity,Leo,Libra,30,30,24,27,0,9,{}
+join_words_sensitivity,Leo,Escorpio,30,30,24,28,3,11,"{""oky"": 1, ""okary"": 1, ""otaly"": 1}"
+join_words_sensitivity,Leo,Sagitario,30,30,24,27,1,10,"{""oky"": 1}"
+join_words_sensitivity,Virgo,Libra,30,30,24,27,0,9,{}
+join_words_sensitivity,Virgo,Escorpio,30,30,24,28,1,9,"{""okeody"": 1}"
+join_words_sensitivity,Virgo,Sagitario,30,30,24,27,1,10,"{""okeody"": 1}"
+join_words_sensitivity,Libra,Escorpio,30,30,27,28,1,6,"{""okeey"": 1}"
+join_words_sensitivity,Libra,Sagitario,30,30,27,27,1,7,"{""okal"": 1}"
+join_words_sensitivity,Escorpio,Sagitario,30,30,28,27,4,9,"{""otedy"": 1, ""okeody"": 1, ""okeos"": 1, ""oky"": 1}"

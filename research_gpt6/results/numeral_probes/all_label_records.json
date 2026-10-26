@@ -1,0 +1,2992 @@
+[
+  {
+    "folio": "70v2",
+    "sign": "Piscis",
+    "locus": 2,
+    "kind": "@Lz",
+    "clock_hint": "09:00",
+    "raw_without_comments": "otalalg",
+    "eligible": true,
+    "canonical": "otalalg"
+  },
+  {
+    "folio": "70v2",
+    "sign": "Piscis",
+    "locus": 3,
+    "kind": "&Lz",
+    "clock_hint": "10:00",
+    "raw_without_comments": "ykary",
+    "eligible": true,
+    "canonical": "ykary"
+  },
+  {
+    "folio": "70v2",
+    "sign": "Piscis",
+    "locus": 4,
+    "kind": "&Lz",
+    "clock_hint": "10:30",
+    "raw_without_comments": "otar?",
+    "eligible": false,
+    "canonical": null
+  },
+  {
+    "folio": "70v2",
+    "sign": "Piscis",
+    "locus": 5,
+    "kind": "&Lz",
+    "clock_hint": "11:00",
+    "raw_without_comments": "oty",
+    "eligible": true,
+    "canonical": "oty"
+  },
+  {
+    "folio": "70v2",
+    "sign": "Piscis",
+    "locus": 6,
+    "kind": "&Lz",
+    "clock_hint": "11:30",
+    "raw_without_comments": "oky.ody",
+    "eligible": true,
+    "canonical": "oky ody"
+  },
+  {
+    "folio": "70v2",
+    "sign": "Piscis",
+    "locus": 7,
+    "kind": "&Lz",
+    "clock_hint": "00:00",
+    "raw_without_comments": "oty.ar",
+    "eligible": true,
+    "canonical": "oty ar"
+  },
+  {
+    "folio": "70v2",
+    "sign": "Piscis",
+    "locus": 8,
+    "kind": "&Lz",
+    "clock_hint": "00:30",
+    "raw_without_comments": "okala",
+    "eligible": true,
+    "canonical": "okala"
+  },
+  {
+    "folio": "70v2",
+    "sign": "Piscis",
+    "locus": 9,
+    "kind": "&Lz",
+    "clock_hint": "01:00",
+    "raw_without_comments": "otody",
+    "eligible": true,
+    "canonical": "otody"
+  },
+  {
+    "folio": "70v2",
+    "sign": "Piscis",
+    "locus": 10,
+    "kind": "&Lz",
+    "clock_hint": "01:30",
+    "raw_without_comments": "otald",
+    "eligible": true,
+    "canonical": "otald"
+  },
+  {
+    "folio": "70v2",
+    "sign": "Piscis",
+    "locus": 11,
+    "kind": "&Lz",
+    "clock_hint": "02:00",
+    "raw_without_comments": "otaldar",
+    "eligible": true,
+    "canonical": "otaldar"
+  },
+  {
+    "folio": "70v2",
+    "sign": "Piscis",
+    "locus": 12,
+    "kind": "&Lz",
+    "clock_hint": "02:45",
+    "raw_without_comments": "okody",
+    "eligible": true,
+    "canonical": "okody"
+  },
+  {
+    "folio": "70v2",
+    "sign": "Piscis",
+    "locus": 13,
+    "kind": "&Lz",
+    "clock_hint": "03:15",
+    "raw_without_comments": "opysam",
+    "eligible": true,
+    "canonical": "opysam"
+  },
+  {
+    "folio": "70v2",
+    "sign": "Piscis",
+    "locus": 14,
+    "kind": "&Lz",
+    "clock_hint": "04:00",
+    "raw_without_comments": "ch{ckhh}y",
+    "eligible": false,
+    "canonical": null
+  },
+  {
+    "folio": "70v2",
+    "sign": "Piscis",
+    "locus": 15,
+    "kind": "&Lz",
+    "clock_hint": "04:30",
+    "raw_without_comments": "otaly",
+    "eligible": true,
+    "canonical": "otaly"
+  },
+  {
+    "folio": "70v2",
+    "sign": "Piscis",
+    "locus": 16,
+    "kind": "&Lz",
+    "clock_hint": "05:30",
+    "raw_without_comments": "otal.arar",
+    "eligible": true,
+    "canonical": "otal arar"
+  },
+  {
+    "folio": "70v2",
+    "sign": "Piscis",
+    "locus": 17,
+    "kind": "&Lz",
+    "clock_hint": "06:30",
+    "raw_without_comments": "otaldy",
+    "eligible": true,
+    "canonical": "otaldy"
+  },
+  {
+    "folio": "70v2",
+    "sign": "Piscis",
+    "locus": 18,
+    "kind": "&Lz",
+    "clock_hint": "07:00",
+    "raw_without_comments": "okeoly",
+    "eligible": true,
+    "canonical": "okeoly"
+  },
+  {
+    "folio": "70v2",
+    "sign": "Piscis",
+    "locus": 19,
+    "kind": "&Lz",
+    "clock_hint": "08:00",
+    "raw_without_comments": "okydy",
+    "eligible": true,
+    "canonical": "okydy"
+  },
+  {
+    "folio": "70v2",
+    "sign": "Piscis",
+    "locus": 20,
+    "kind": "&Lz",
+    "clock_hint": "08:30",
+    "raw_without_comments": "okee[s:r]",
+    "eligible": false,
+    "canonical": null
+  },
+  {
+    "folio": "70v2",
+    "sign": "Piscis",
+    "locus": 22,
+    "kind": "@Lz",
+    "clock_hint": "10:00",
+    "raw_without_comments": "otar.am",
+    "eligible": true,
+    "canonical": "otar am"
+  },
+  {
+    "folio": "70v2",
+    "sign": "Piscis",
+    "locus": 23,
+    "kind": "&Lz",
+    "clock_hint": "11:00",
+    "raw_without_comments": "otar,al",
+    "eligible": false,
+    "canonical": null
+  },
+  {
+    "folio": "70v2",
+    "sign": "Piscis",
+    "locus": 24,
+    "kind": "&Lz",
+    "clock_hint": "00:00",
+    "raw_without_comments": "otalar",
+    "eligible": true,
+    "canonical": "otalar"
+  },
+  {
+    "folio": "70v2",
+    "sign": "Piscis",
+    "locus": 25,
+    "kind": "&Lz",
+    "clock_hint": "01:30",
+    "raw_without_comments": "otalam",
+    "eligible": true,
+    "canonical": "otalam"
+  },
+  {
+    "folio": "70v2",
+    "sign": "Piscis",
+    "locus": 26,
+    "kind": "&Lz",
+    "clock_hint": "03:00",
+    "raw_without_comments": "dolaram",
+    "eligible": true,
+    "canonical": "dolaram"
+  },
+  {
+    "folio": "70v2",
+    "sign": "Piscis",
+    "locus": 27,
+    "kind": "&Lz",
+    "clock_hint": "04:00",
+    "raw_without_comments": "okaram",
+    "eligible": true,
+    "canonical": "okaram"
+  },
+  {
+    "folio": "70v2",
+    "sign": "Piscis",
+    "locus": 28,
+    "kind": "&Lz",
+    "clock_hint": "05:00",
+    "raw_without_comments": "oteosal",
+    "eligible": true,
+    "canonical": "oteosal"
+  },
+  {
+    "folio": "70v2",
+    "sign": "Piscis",
+    "locus": 29,
+    "kind": "&Lz",
+    "clock_hint": "06:30",
+    "raw_without_comments": "salols",
+    "eligible": true,
+    "canonical": "salols"
+  },
+  {
+    "folio": "70v2",
+    "sign": "Piscis",
+    "locus": 30,
+    "kind": "&Lz",
+    "clock_hint": "08:00",
+    "raw_without_comments": "okaldal",
+    "eligible": true,
+    "canonical": "okaldal"
+  },
+  {
+    "folio": "70v2",
+    "sign": "Piscis",
+    "locus": 31,
+    "kind": "&Lz",
+    "clock_hint": "09:00",
+    "raw_without_comments": "ykolaiin",
+    "eligible": true,
+    "canonical": "ykolaiin"
+  },
+  {
+    "folio": "70v2",
+    "sign": "Piscis",
+    "locus": 33,
+    "kind": "@Lz",
+    "clock_hint": null,
+    "raw_without_comments": "otolal",
+    "eligible": true,
+    "canonical": "otolal"
+  },
+  {
+    "folio": "70v1",
+    "sign": "Aries",
+    "locus": 2,
+    "kind": "@Lz",
+    "clock_hint": "10:30",
+    "raw_without_comments": "otalchy.tar.am.dy",
+    "eligible": true,
+    "canonical": "otalchy tar am dy"
+  },
+  {
+    "folio": "70v1",
+    "sign": "Aries",
+    "locus": 3,
+    "kind": "&Lz",
+    "clock_hint": "00:00",
+    "raw_without_comments": "opchey.sal",
+    "eligible": true,
+    "canonical": "opchey sal"
+  },
+  {
+    "folio": "70v1",
+    "sign": "Aries",
+    "locus": 4,
+    "kind": "&Lz",
+    "clock_hint": "01:00",
+    "raw_without_comments": "otakaizan",
+    "eligible": true,
+    "canonical": "otakaizan"
+  },
+  {
+    "folio": "70v1",
+    "sign": "Aries",
+    "locus": 5,
+    "kind": "&Lz",
+    "clock_hint": "02:30",
+    "raw_without_comments": "okalal",
+    "eligible": true,
+    "canonical": "okalal"
+  },
+  {
+    "folio": "70v1",
+    "sign": "Aries",
+    "locus": 6,
+    "kind": "&Lz",
+    "clock_hint": "03:30",
+    "raw_without_comments": "otaly",
+    "eligible": true,
+    "canonical": "otaly"
+  },
+  {
+    "folio": "70v1",
+    "sign": "Aries",
+    "locus": 7,
+    "kind": "&Lz",
+    "clock_hint": "04:30",
+    "raw_without_comments": "oalcheg",
+    "eligible": true,
+    "canonical": "oalcheg"
+  },
+  {
+    "folio": "70v1",
+    "sign": "Aries",
+    "locus": 8,
+    "kind": "&Lz",
+    "clock_hint": "06:00",
+    "raw_without_comments": "otchodals",
+    "eligible": true,
+    "canonical": "otchodals"
+  },
+  {
+    "folio": "70v1",
+    "sign": "Aries",
+    "locus": 9,
+    "kind": "&Lz",
+    "clock_hint": "07:00",
+    "raw_without_comments": "okolshy",
+    "eligible": true,
+    "canonical": "okolshy"
+  },
+  {
+    "folio": "70v1",
+    "sign": "Aries",
+    "locus": 10,
+    "kind": "&Lz",
+    "clock_hint": "08:00",
+    "raw_without_comments": "otshshdy",
+    "eligible": true,
+    "canonical": "otshshdy"
+  },
+  {
+    "folio": "70v1",
+    "sign": "Aries",
+    "locus": 11,
+    "kind": "&Lz",
+    "clock_hint": "09:00",
+    "raw_without_comments": "otal.ypsharal",
+    "eligible": true,
+    "canonical": "otal ypsharal"
+  },
+  {
+    "folio": "70v1",
+    "sign": "Aries",
+    "locus": 13,
+    "kind": "@Lz",
+    "clock_hint": "10:30",
+    "raw_without_comments": "okoly",
+    "eligible": true,
+    "canonical": "okoly"
+  },
+  {
+    "folio": "70v1",
+    "sign": "Aries",
+    "locus": 14,
+    "kind": "&Lz",
+    "clock_hint": "00:00",
+    "raw_without_comments": "otalaiin",
+    "eligible": true,
+    "canonical": "otalaiin"
+  },
+  {
+    "folio": "70v1",
+    "sign": "Aries",
+    "locus": 15,
+    "kind": "&Lz",
+    "clock_hint": "02:00",
+    "raw_without_comments": "oteo.alals.araly",
+    "eligible": true,
+    "canonical": "oteo alals araly"
+  },
+  {
+    "folio": "70v1",
+    "sign": "Aries",
+    "locus": 16,
+    "kind": "&Lz",
+    "clock_hint": "05:00",
+    "raw_without_comments": "oteoeey.otal.okealar",
+    "eligible": true,
+    "canonical": "oteoeey otal okealar"
+  },
+  {
+    "folio": "70v1",
+    "sign": "Aries",
+    "locus": 17,
+    "kind": "&Lz",
+    "clock_hint": "08:00",
+    "raw_without_comments": "otear.araydy",
+    "eligible": true,
+    "canonical": "otear araydy"
+  },
+  {
+    "folio": "71r",
+    "sign": "Aries",
+    "locus": 2,
+    "kind": "@Lz",
+    "clock_hint": "10:00",
+    "raw_without_comments": "oteos.arar",
+    "eligible": true,
+    "canonical": "oteos arar"
+  },
+  {
+    "folio": "71r",
+    "sign": "Aries",
+    "locus": 3,
+    "kind": "&Lz",
+    "clock_hint": "11:00",
+    "raw_without_comments": "okldam",
+    "eligible": true,
+    "canonical": "okldam"
+  },
+  {
+    "folio": "71r",
+    "sign": "Aries",
+    "locus": 4,
+    "kind": "&Lz",
+    "clock_hint": "00:00",
+    "raw_without_comments": "oteoaldy",
+    "eligible": true,
+    "canonical": "oteoaldy"
+  },
+  {
+    "folio": "71r",
+    "sign": "Aries",
+    "locus": 5,
+    "kind": "&Lz",
+    "clock_hint": "01:00",
+    "raw_without_comments": "oteolar",
+    "eligible": true,
+    "canonical": "oteolar"
+  },
+  {
+    "folio": "71r",
+    "sign": "Aries",
+    "locus": 6,
+    "kind": "&Lz",
+    "clock_hint": "02:00",
+    "raw_without_comments": "okeoaly",
+    "eligible": true,
+    "canonical": "okeoaly"
+  },
+  {
+    "folio": "71r",
+    "sign": "Aries",
+    "locus": 7,
+    "kind": "&Lz",
+    "clock_hint": "03:00",
+    "raw_without_comments": "otaleky",
+    "eligible": true,
+    "canonical": "otaleky"
+  },
+  {
+    "folio": "71r",
+    "sign": "Aries",
+    "locus": 8,
+    "kind": "&Lz",
+    "clock_hint": "04:30",
+    "raw_without_comments": "otalsar",
+    "eligible": true,
+    "canonical": "otalsar"
+  },
+  {
+    "folio": "71r",
+    "sign": "Aries",
+    "locus": 9,
+    "kind": "&Lz",
+    "clock_hint": "05:30",
+    "raw_without_comments": "cheary",
+    "eligible": true,
+    "canonical": "cheary"
+  },
+  {
+    "folio": "71r",
+    "sign": "Aries",
+    "locus": 10,
+    "kind": "&Lz",
+    "clock_hint": "07:00",
+    "raw_without_comments": "oteotey.rary",
+    "eligible": true,
+    "canonical": "oteotey rary"
+  },
+  {
+    "folio": "71r",
+    "sign": "Aries",
+    "locus": 11,
+    "kind": "&Lz",
+    "clock_hint": "08:30",
+    "raw_without_comments": "otalaly",
+    "eligible": true,
+    "canonical": "otalaly"
+  },
+  {
+    "folio": "71r",
+    "sign": "Aries",
+    "locus": 13,
+    "kind": "@Lz",
+    "clock_hint": "11:00",
+    "raw_without_comments": "otolchdy",
+    "eligible": true,
+    "canonical": "otolchdy"
+  },
+  {
+    "folio": "71r",
+    "sign": "Aries",
+    "locus": 14,
+    "kind": "&Lz",
+    "clock_hint": "00:30",
+    "raw_without_comments": "otoloaram",
+    "eligible": true,
+    "canonical": "otoloaram"
+  },
+  {
+    "folio": "71r",
+    "sign": "Aries",
+    "locus": 15,
+    "kind": "&Lz",
+    "clock_hint": "03:30",
+    "raw_without_comments": "oteeol",
+    "eligible": true,
+    "canonical": "oteeol"
+  },
+  {
+    "folio": "71r",
+    "sign": "Aries",
+    "locus": 16,
+    "kind": "&Lz",
+    "clock_hint": "05:30",
+    "raw_without_comments": "otolchd",
+    "eligible": true,
+    "canonical": "otolchd"
+  },
+  {
+    "folio": "71r",
+    "sign": "Aries",
+    "locus": 17,
+    "kind": "&Lz",
+    "clock_hint": "08:00",
+    "raw_without_comments": "otaldar",
+    "eligible": true,
+    "canonical": "otaldar"
+  },
+  {
+    "folio": "71v",
+    "sign": "Tauro",
+    "locus": 2,
+    "kind": "@Lz",
+    "clock_hint": "10:00",
+    "raw_without_comments": "char.arom",
+    "eligible": true,
+    "canonical": "char arom"
+  },
+  {
+    "folio": "71v",
+    "sign": "Tauro",
+    "locus": 3,
+    "kind": "&Lz",
+    "clock_hint": "11:00",
+    "raw_without_comments": "chfaly",
+    "eligible": true,
+    "canonical": "chfaly"
+  },
+  {
+    "folio": "71v",
+    "sign": "Tauro",
+    "locus": 4,
+    "kind": "&Lz",
+    "clock_hint": "00:00",
+    "raw_without_comments": "okolar",
+    "eligible": true,
+    "canonical": "okolar"
+  },
+  {
+    "folio": "71v",
+    "sign": "Tauro",
+    "locus": 5,
+    "kind": "&Lz",
+    "clock_hint": "01:00",
+    "raw_without_comments": "otchody",
+    "eligible": true,
+    "canonical": "otchody"
+  },
+  {
+    "folio": "71v",
+    "sign": "Tauro",
+    "locus": 6,
+    "kind": "&Lz",
+    "clock_hint": "02:00",
+    "raw_without_comments": "alcphy",
+    "eligible": true,
+    "canonical": "alcphy"
+  },
+  {
+    "folio": "71v",
+    "sign": "Tauro",
+    "locus": 7,
+    "kind": "&Lz",
+    "clock_hint": "03:00",
+    "raw_without_comments": "otaiin",
+    "eligible": true,
+    "canonical": "otaiin"
+  },
+  {
+    "folio": "71v",
+    "sign": "Tauro",
+    "locus": 8,
+    "kind": "&Lz",
+    "clock_hint": "04:30",
+    "raw_without_comments": "okaraiin",
+    "eligible": true,
+    "canonical": "okaraiin"
+  },
+  {
+    "folio": "71v",
+    "sign": "Tauro",
+    "locus": 9,
+    "kind": "&Lz",
+    "clock_hint": "05:30",
+    "raw_without_comments": "otar.ar,aly",
+    "eligible": false,
+    "canonical": null
+  },
+  {
+    "folio": "71v",
+    "sign": "Tauro",
+    "locus": 10,
+    "kind": "&Lz",
+    "clock_hint": "07:00",
+    "raw_without_comments": "opalar.am.dan",
+    "eligible": true,
+    "canonical": "opalar am dan"
+  },
+  {
+    "folio": "71v",
+    "sign": "Tauro",
+    "locus": 11,
+    "kind": "&Lz",
+    "clock_hint": "09:00",
+    "raw_without_comments": "opalor.ar",
+    "eligible": true,
+    "canonical": "opalor ar"
+  },
+  {
+    "folio": "71v",
+    "sign": "Tauro",
+    "locus": 13,
+    "kind": "@Lz",
+    "clock_hint": "10:00",
+    "raw_without_comments": "ofa{if}om",
+    "eligible": false,
+    "canonical": null
+  },
+  {
+    "folio": "71v",
+    "sign": "Tauro",
+    "locus": 14,
+    "kind": "&Lz",
+    "clock_hint": "00:00",
+    "raw_without_comments": "otalody",
+    "eligible": true,
+    "canonical": "otalody"
+  },
+  {
+    "folio": "71v",
+    "sign": "Tauro",
+    "locus": 15,
+    "kind": "&Lz",
+    "clock_hint": "03:00",
+    "raw_without_comments": "otalaiin",
+    "eligible": true,
+    "canonical": "otalaiin"
+  },
+  {
+    "folio": "71v",
+    "sign": "Tauro",
+    "locus": 16,
+    "kind": "&Lz",
+    "clock_hint": "05:30",
+    "raw_without_comments": "otar.sh[a:o]r",
+    "eligible": false,
+    "canonical": null
+  },
+  {
+    "folio": "71v",
+    "sign": "Tauro",
+    "locus": 17,
+    "kind": "&Lz",
+    "clock_hint": "08:30",
+    "raw_without_comments": "sholshdy",
+    "eligible": true,
+    "canonical": "sholshdy"
+  },
+  {
+    "folio": "72r1",
+    "sign": "Tauro",
+    "locus": 2,
+    "kind": "@Lz",
+    "clock_hint": "09:30",
+    "raw_without_comments": "oshod[a:o]dy",
+    "eligible": false,
+    "canonical": null
+  },
+  {
+    "folio": "72r1",
+    "sign": "Tauro",
+    "locus": 3,
+    "kind": "&Lz",
+    "clock_hint": "10:30",
+    "raw_without_comments": "chdaiirdainy",
+    "eligible": true,
+    "canonical": "chdaiirdainy"
+  },
+  {
+    "folio": "72r1",
+    "sign": "Tauro",
+    "locus": 4,
+    "kind": "&Lz",
+    "clock_hint": "00:00",
+    "raw_without_comments": "oaiin,ar,ary",
+    "eligible": false,
+    "canonical": null
+  },
+  {
+    "folio": "72r1",
+    "sign": "Tauro",
+    "locus": 5,
+    "kind": "&Lz",
+    "clock_hint": "01:00",
+    "raw_without_comments": "okalam",
+    "eligible": true,
+    "canonical": "okalam"
+  },
+  {
+    "folio": "72r1",
+    "sign": "Tauro",
+    "locus": 6,
+    "kind": "&Lz",
+    "clock_hint": "02:00",
+    "raw_without_comments": "ytalshdy",
+    "eligible": true,
+    "canonical": "ytalshdy"
+  },
+  {
+    "folio": "72r1",
+    "sign": "Tauro",
+    "locus": 7,
+    "kind": "&Lz",
+    "clock_hint": "03:00",
+    "raw_without_comments": "char.alif",
+    "eligible": true,
+    "canonical": "char alif"
+  },
+  {
+    "folio": "72r1",
+    "sign": "Tauro",
+    "locus": 8,
+    "kind": "&Lz",
+    "clock_hint": "03:30",
+    "raw_without_comments": "otaraldy",
+    "eligible": true,
+    "canonical": "otaraldy"
+  },
+  {
+    "folio": "72r1",
+    "sign": "Tauro",
+    "locus": 9,
+    "kind": "&Lz",
+    "clock_hint": "05:00",
+    "raw_without_comments": "otaiin.otain",
+    "eligible": true,
+    "canonical": "otaiin otain"
+  },
+  {
+    "folio": "72r1",
+    "sign": "Tauro",
+    "locus": 10,
+    "kind": "&Lz",
+    "clock_hint": "07:00",
+    "raw_without_comments": "otalef,ys.ainam",
+    "eligible": false,
+    "canonical": null
+  },
+  {
+    "folio": "72r1",
+    "sign": "Tauro",
+    "locus": 11,
+    "kind": "&Lz",
+    "clock_hint": "08:30",
+    "raw_without_comments": "ochol,sharam",
+    "eligible": false,
+    "canonical": null
+  },
+  {
+    "folio": "72r1",
+    "sign": "Tauro",
+    "locus": 13,
+    "kind": "@Lz",
+    "clock_hint": "09:00",
+    "raw_without_comments": "ofaralar",
+    "eligible": true,
+    "canonical": "ofaralar"
+  },
+  {
+    "folio": "72r1",
+    "sign": "Tauro",
+    "locus": 14,
+    "kind": "&Lz",
+    "clock_hint": "00:00",
+    "raw_without_comments": "otchoshy",
+    "eligible": true,
+    "canonical": "otchoshy"
+  },
+  {
+    "folio": "72r1",
+    "sign": "Tauro",
+    "locus": 15,
+    "kind": "&Lz",
+    "clock_hint": "02:00",
+    "raw_without_comments": "otchdal",
+    "eligible": true,
+    "canonical": "otchdal"
+  },
+  {
+    "folio": "72r1",
+    "sign": "Tauro",
+    "locus": 16,
+    "kind": "&Lz",
+    "clock_hint": "04:00",
+    "raw_without_comments": "okeey.ary",
+    "eligible": true,
+    "canonical": "okeey ary"
+  },
+  {
+    "folio": "72r1",
+    "sign": "Tauro",
+    "locus": 17,
+    "kind": "&Lz",
+    "clock_hint": "07:00",
+    "raw_without_comments": "otainy",
+    "eligible": true,
+    "canonical": "otainy"
+  },
+  {
+    "folio": "72r2",
+    "sign": "Géminis",
+    "locus": 1,
+    "kind": "@Lz",
+    "clock_hint": "10:30",
+    "raw_without_comments": "ofchdamy",
+    "eligible": true,
+    "canonical": "ofchdamy"
+  },
+  {
+    "folio": "72r2",
+    "sign": "Géminis",
+    "locus": 2,
+    "kind": "&Lz",
+    "clock_hint": "11:00",
+    "raw_without_comments": "oklairdy",
+    "eligible": true,
+    "canonical": "oklairdy"
+  },
+  {
+    "folio": "72r2",
+    "sign": "Géminis",
+    "locus": 3,
+    "kind": "&Lz",
+    "clock_hint": "00:00",
+    "raw_without_comments": "okaram",
+    "eligible": true,
+    "canonical": "okaram"
+  },
+  {
+    "folio": "72r2",
+    "sign": "Géminis",
+    "locus": 4,
+    "kind": "&Lz",
+    "clock_hint": "00:30",
+    "raw_without_comments": "okairy",
+    "eligible": true,
+    "canonical": "okairy"
+  },
+  {
+    "folio": "72r2",
+    "sign": "Géminis",
+    "locus": 5,
+    "kind": "&Lz",
+    "clock_hint": "01:00",
+    "raw_without_comments": "okealar",
+    "eligible": true,
+    "canonical": "okealar"
+  },
+  {
+    "folio": "72r2",
+    "sign": "Géminis",
+    "locus": 7,
+    "kind": "@Lz",
+    "clock_hint": "10:00",
+    "raw_without_comments": "otaraldy",
+    "eligible": true,
+    "canonical": "otaraldy"
+  },
+  {
+    "folio": "72r2",
+    "sign": "Géminis",
+    "locus": 8,
+    "kind": "&Lz",
+    "clock_hint": "11:00",
+    "raw_without_comments": "okalar",
+    "eligible": true,
+    "canonical": "okalar"
+  },
+  {
+    "folio": "72r2",
+    "sign": "Géminis",
+    "locus": 9,
+    "kind": "&Lz",
+    "clock_hint": "11:45",
+    "raw_without_comments": "okal",
+    "eligible": true,
+    "canonical": "okal"
+  },
+  {
+    "folio": "72r2",
+    "sign": "Géminis",
+    "locus": 10,
+    "kind": "&Lz",
+    "clock_hint": "00:15",
+    "raw_without_comments": "okaly",
+    "eligible": true,
+    "canonical": "okaly"
+  },
+  {
+    "folio": "72r2",
+    "sign": "Géminis",
+    "locus": 11,
+    "kind": "&Lz",
+    "clock_hint": "01:00",
+    "raw_without_comments": "okal",
+    "eligible": true,
+    "canonical": "okal"
+  },
+  {
+    "folio": "72r2",
+    "sign": "Géminis",
+    "locus": 12,
+    "kind": "&Lz",
+    "clock_hint": "02:00",
+    "raw_without_comments": "okeey.ary",
+    "eligible": true,
+    "canonical": "okeey ary"
+  },
+  {
+    "folio": "72r2",
+    "sign": "Géminis",
+    "locus": 13,
+    "kind": "&Lz",
+    "clock_hint": "03:00",
+    "raw_without_comments": "oteeary",
+    "eligible": true,
+    "canonical": "oteeary"
+  },
+  {
+    "folio": "72r2",
+    "sign": "Géminis",
+    "locus": 14,
+    "kind": "&Lz",
+    "clock_hint": "04:00",
+    "raw_without_comments": "otair,dy",
+    "eligible": false,
+    "canonical": null
+  },
+  {
+    "folio": "72r2",
+    "sign": "Géminis",
+    "locus": 15,
+    "kind": "&Lz",
+    "clock_hint": "05:00",
+    "raw_without_comments": "okaircham",
+    "eligible": true,
+    "canonical": "okaircham"
+  },
+  {
+    "folio": "72r2",
+    "sign": "Géminis",
+    "locus": 16,
+    "kind": "&Lz",
+    "clock_hint": "06:00",
+    "raw_without_comments": "okeal",
+    "eligible": true,
+    "canonical": "okeal"
+  },
+  {
+    "folio": "72r2",
+    "sign": "Géminis",
+    "locus": 17,
+    "kind": "&Lz",
+    "clock_hint": "06:30",
+    "raw_without_comments": "otar{cr}",
+    "eligible": false,
+    "canonical": null
+  },
+  {
+    "folio": "72r2",
+    "sign": "Géminis",
+    "locus": 18,
+    "kind": "&Lz",
+    "clock_hint": "07:30",
+    "raw_without_comments": "okaly",
+    "eligible": true,
+    "canonical": "okaly"
+  },
+  {
+    "folio": "72r2",
+    "sign": "Géminis",
+    "locus": 19,
+    "kind": "&Lz",
+    "clock_hint": "08:00",
+    "raw_without_comments": "orary",
+    "eligible": true,
+    "canonical": "orary"
+  },
+  {
+    "folio": "72r2",
+    "sign": "Géminis",
+    "locus": 20,
+    "kind": "&Lz",
+    "clock_hint": "09:00",
+    "raw_without_comments": "okyd",
+    "eligible": true,
+    "canonical": "okyd"
+  },
+  {
+    "folio": "72r2",
+    "sign": "Géminis",
+    "locus": 21,
+    "kind": "&Lz",
+    "clock_hint": "09:30",
+    "raw_without_comments": "otolam",
+    "eligible": true,
+    "canonical": "otolam"
+  },
+  {
+    "folio": "72r2",
+    "sign": "Géminis",
+    "locus": 23,
+    "kind": "@Lz",
+    "clock_hint": "10:30",
+    "raw_without_comments": "otal",
+    "eligible": true,
+    "canonical": "otal"
+  },
+  {
+    "folio": "72r2",
+    "sign": "Géminis",
+    "locus": 24,
+    "kind": "&Lz",
+    "clock_hint": "11:30",
+    "raw_without_comments": "ralal",
+    "eligible": true,
+    "canonical": "ralal"
+  },
+  {
+    "folio": "72r2",
+    "sign": "Géminis",
+    "locus": 25,
+    "kind": "&Lz",
+    "clock_hint": "00:30",
+    "raw_without_comments": "okam",
+    "eligible": true,
+    "canonical": "okam"
+  },
+  {
+    "folio": "72r2",
+    "sign": "Géminis",
+    "locus": 26,
+    "kind": "&Lz",
+    "clock_hint": "02:00",
+    "raw_without_comments": "otalshy",
+    "eligible": true,
+    "canonical": "otalshy"
+  },
+  {
+    "folio": "72r2",
+    "sign": "Géminis",
+    "locus": 27,
+    "kind": "&Lz",
+    "clock_hint": "03:30",
+    "raw_without_comments": "okaldy",
+    "eligible": true,
+    "canonical": "okaldy"
+  },
+  {
+    "folio": "72r2",
+    "sign": "Géminis",
+    "locus": 28,
+    "kind": "&Lz",
+    "clock_hint": "05:00",
+    "raw_without_comments": "chosar",
+    "eligible": true,
+    "canonical": "chosar"
+  },
+  {
+    "folio": "72r2",
+    "sign": "Géminis",
+    "locus": 29,
+    "kind": "&Lz",
+    "clock_hint": "06:30",
+    "raw_without_comments": "otam",
+    "eligible": true,
+    "canonical": "otam"
+  },
+  {
+    "folio": "72r2",
+    "sign": "Géminis",
+    "locus": 30,
+    "kind": "&Lz",
+    "clock_hint": "08:00",
+    "raw_without_comments": "ainaly",
+    "eligible": true,
+    "canonical": "ainaly"
+  },
+  {
+    "folio": "72r2",
+    "sign": "Géminis",
+    "locus": 31,
+    "kind": "&Lz",
+    "clock_hint": "09:00",
+    "raw_without_comments": "okarcham",
+    "eligible": true,
+    "canonical": "okarcham"
+  },
+  {
+    "folio": "72r3",
+    "sign": "Cáncer",
+    "locus": 2,
+    "kind": "@Lz",
+    "clock_hint": "10:30",
+    "raw_without_comments": "olkalaiin",
+    "eligible": true,
+    "canonical": "olkalaiin"
+  },
+  {
+    "folio": "72r3",
+    "sign": "Cáncer",
+    "locus": 3,
+    "kind": "&Lz",
+    "clock_hint": "11:00",
+    "raw_without_comments": "olalsy",
+    "eligible": true,
+    "canonical": "olalsy"
+  },
+  {
+    "folio": "72r3",
+    "sign": "Cáncer",
+    "locus": 4,
+    "kind": "&Lz",
+    "clock_hint": "00:00",
+    "raw_without_comments": "oraiinam",
+    "eligible": true,
+    "canonical": "oraiinam"
+  },
+  {
+    "folio": "72r3",
+    "sign": "Cáncer",
+    "locus": 5,
+    "kind": "&Lz",
+    "clock_hint": "01:00",
+    "raw_without_comments": "osarsheeeo",
+    "eligible": true,
+    "canonical": "osarsheeeo"
+  },
+  {
+    "folio": "72r3",
+    "sign": "Cáncer",
+    "locus": 6,
+    "kind": "&Lz",
+    "clock_hint": "02:00",
+    "raw_without_comments": "oto@192;aiin",
+    "eligible": false,
+    "canonical": null
+  },
+  {
+    "folio": "72r3",
+    "sign": "Cáncer",
+    "locus": 7,
+    "kind": "&Lz",
+    "clock_hint": "02:30",
+    "raw_without_comments": "opoiiin[o:?]in.al,[ch:a]es",
+    "eligible": false,
+    "canonical": null
+  },
+  {
+    "folio": "72r3",
+    "sign": "Cáncer",
+    "locus": 8,
+    "kind": "&Lz",
+    "clock_hint": "04:00",
+    "raw_without_comments": "ypaiin.alaly",
+    "eligible": true,
+    "canonical": "ypaiin alaly"
+  },
+  {
+    "folio": "72r3",
+    "sign": "Cáncer",
+    "locus": 9,
+    "kind": "&Lz",
+    "clock_hint": "05:00",
+    "raw_without_comments": "oteey,daiin",
+    "eligible": false,
+    "canonical": null
+  },
+  {
+    "folio": "72r3",
+    "sign": "Cáncer",
+    "locus": 10,
+    "kind": "&Lz",
+    "clock_hint": "06:30",
+    "raw_without_comments": "oeeodaiin",
+    "eligible": true,
+    "canonical": "oeeodaiin"
+  },
+  {
+    "folio": "72r3",
+    "sign": "Cáncer",
+    "locus": 11,
+    "kind": "&Lz",
+    "clock_hint": "07:00",
+    "raw_without_comments": "ofsholdy",
+    "eligible": true,
+    "canonical": "ofsholdy"
+  },
+  {
+    "folio": "72r3",
+    "sign": "Cáncer",
+    "locus": 12,
+    "kind": "&Lz",
+    "clock_hint": "07:00",
+    "raw_without_comments": "opoeey.okaiin",
+    "eligible": true,
+    "canonical": "opoeey okaiin"
+  },
+  {
+    "folio": "72r3",
+    "sign": "Cáncer",
+    "locus": 13,
+    "kind": "&Lz",
+    "clock_hint": "10:00",
+    "raw_without_comments": "ykolairol",
+    "eligible": true,
+    "canonical": "ykolairol"
+  },
+  {
+    "folio": "72r3",
+    "sign": "Cáncer",
+    "locus": 15,
+    "kind": "@Lz",
+    "clock_hint": "11:00",
+    "raw_without_comments": "oralkam",
+    "eligible": true,
+    "canonical": "oralkam"
+  },
+  {
+    "folio": "72r3",
+    "sign": "Cáncer",
+    "locus": 16,
+    "kind": "&Lz",
+    "clock_hint": "00:00",
+    "raw_without_comments": "ytairal",
+    "eligible": true,
+    "canonical": "ytairal"
+  },
+  {
+    "folio": "72r3",
+    "sign": "Cáncer",
+    "locus": 17,
+    "kind": "&Lz",
+    "clock_hint": "01:00",
+    "raw_without_comments": "oeee[s:r]aiin",
+    "eligible": false,
+    "canonical": null
+  },
+  {
+    "folio": "72r3",
+    "sign": "Cáncer",
+    "locus": 18,
+    "kind": "&Lz",
+    "clock_hint": "01:30",
+    "raw_without_comments": "ory",
+    "eligible": true,
+    "canonical": "ory"
+  },
+  {
+    "folio": "72r3",
+    "sign": "Cáncer",
+    "locus": 19,
+    "kind": "&Lz",
+    "clock_hint": "02:30",
+    "raw_without_comments": "ochey,fydy",
+    "eligible": false,
+    "canonical": null
+  },
+  {
+    "folio": "72r3",
+    "sign": "Cáncer",
+    "locus": 20,
+    "kind": "&Lz",
+    "clock_hint": "03:30",
+    "raw_without_comments": "of???.o.eeesaly",
+    "eligible": false,
+    "canonical": null
+  },
+  {
+    "folio": "72r3",
+    "sign": "Cáncer",
+    "locus": 21,
+    "kind": "&Lz",
+    "clock_hint": "05:00",
+    "raw_without_comments": "ykaraiin.airal",
+    "eligible": true,
+    "canonical": "ykaraiin airal"
+  },
+  {
+    "folio": "72r3",
+    "sign": "Cáncer",
+    "locus": 22,
+    "kind": "&Lz",
+    "clock_hint": "06:30",
+    "raw_without_comments": "okalar",
+    "eligible": true,
+    "canonical": "okalar"
+  },
+  {
+    "folio": "72r3",
+    "sign": "Cáncer",
+    "locus": 23,
+    "kind": "&Lz",
+    "clock_hint": "08:00",
+    "raw_without_comments": "orara",
+    "eligible": true,
+    "canonical": "orara"
+  },
+  {
+    "folio": "72r3",
+    "sign": "Cáncer",
+    "locus": 24,
+    "kind": "&Lz",
+    "clock_hint": "09:00",
+    "raw_without_comments": "olaiin.ola{ikh}y",
+    "eligible": false,
+    "canonical": null
+  },
+  {
+    "folio": "72r3",
+    "sign": "Cáncer",
+    "locus": 25,
+    "kind": "&Lz",
+    "clock_hint": "10:00",
+    "raw_without_comments": "olfsheoral",
+    "eligible": true,
+    "canonical": "olfsheoral"
+  },
+  {
+    "folio": "72r3",
+    "sign": "Cáncer",
+    "locus": 27,
+    "kind": "@Lz",
+    "clock_hint": "10:30",
+    "raw_without_comments": "opalal",
+    "eligible": true,
+    "canonical": "opalal"
+  },
+  {
+    "folio": "72r3",
+    "sign": "Cáncer",
+    "locus": 28,
+    "kind": "&Lz",
+    "clock_hint": "00:00",
+    "raw_without_comments": "yfary",
+    "eligible": true,
+    "canonical": "yfary"
+  },
+  {
+    "folio": "72r3",
+    "sign": "Cáncer",
+    "locus": 29,
+    "kind": "&Lz",
+    "clock_hint": "01:30",
+    "raw_without_comments": "oraiiral",
+    "eligible": true,
+    "canonical": "oraiiral"
+  },
+  {
+    "folio": "72r3",
+    "sign": "Cáncer",
+    "locus": 30,
+    "kind": "&Lz",
+    "clock_hint": "03:00",
+    "raw_without_comments": "ytoar.shar",
+    "eligible": true,
+    "canonical": "ytoar shar"
+  },
+  {
+    "folio": "72r3",
+    "sign": "Cáncer",
+    "locus": 31,
+    "kind": "&Lz",
+    "clock_hint": "06:00",
+    "raw_without_comments": "octho",
+    "eligible": true,
+    "canonical": "octho"
+  },
+  {
+    "folio": "72r3",
+    "sign": "Cáncer",
+    "locus": 32,
+    "kind": "&Lz",
+    "clock_hint": "07:30",
+    "raw_without_comments": "aral",
+    "eligible": true,
+    "canonical": "aral"
+  },
+  {
+    "folio": "72r3",
+    "sign": "Cáncer",
+    "locus": 33,
+    "kind": "&Lz",
+    "clock_hint": "09:00",
+    "raw_without_comments": "oletal",
+    "eligible": true,
+    "canonical": "oletal"
+  },
+  {
+    "folio": "72v3",
+    "sign": "Leo",
+    "locus": 2,
+    "kind": "@Lz",
+    "clock_hint": "10:00",
+    "raw_without_comments": "ocham",
+    "eligible": true,
+    "canonical": "ocham"
+  },
+  {
+    "folio": "72v3",
+    "sign": "Leo",
+    "locus": 3,
+    "kind": "&Lz",
+    "clock_hint": "11:00",
+    "raw_without_comments": "orchey",
+    "eligible": true,
+    "canonical": "orchey"
+  },
+  {
+    "folio": "72v3",
+    "sign": "Leo",
+    "locus": 4,
+    "kind": "&Lz",
+    "clock_hint": "11:30",
+    "raw_without_comments": "okam",
+    "eligible": true,
+    "canonical": "okam"
+  },
+  {
+    "folio": "72v3",
+    "sign": "Leo",
+    "locus": 5,
+    "kind": "&Lz",
+    "clock_hint": "00:00",
+    "raw_without_comments": "okey",
+    "eligible": true,
+    "canonical": "okey"
+  },
+  {
+    "folio": "72v3",
+    "sign": "Leo",
+    "locus": 6,
+    "kind": "&Lz",
+    "clock_hint": "00:30",
+    "raw_without_comments": "otcheody",
+    "eligible": true,
+    "canonical": "otcheody"
+  },
+  {
+    "folio": "72v3",
+    "sign": "Leo",
+    "locus": 7,
+    "kind": "&Lz",
+    "clock_hint": "01:00",
+    "raw_without_comments": "okyeeshy",
+    "eligible": true,
+    "canonical": "okyeeshy"
+  },
+  {
+    "folio": "72v3",
+    "sign": "Leo",
+    "locus": 8,
+    "kind": "&Lz",
+    "clock_hint": "01:30",
+    "raw_without_comments": "[{c'y}:??]ofaiin",
+    "eligible": false,
+    "canonical": null
+  },
+  {
+    "folio": "72v3",
+    "sign": "Leo",
+    "locus": 9,
+    "kind": "&Lz",
+    "clock_hint": "02:00",
+    "raw_without_comments": "okaly",
+    "eligible": true,
+    "canonical": "okaly"
+  },
+  {
+    "folio": "72v3",
+    "sign": "Leo",
+    "locus": 10,
+    "kind": "&Lz",
+    "clock_hint": "02:45",
+    "raw_without_comments": "ot[o:a]ly",
+    "eligible": false,
+    "canonical": null
+  },
+  {
+    "folio": "72v3",
+    "sign": "Leo",
+    "locus": 11,
+    "kind": "&Lz",
+    "clock_hint": "03:30",
+    "raw_without_comments": "ofalals",
+    "eligible": true,
+    "canonical": "ofalals"
+  },
+  {
+    "folio": "72v3",
+    "sign": "Leo",
+    "locus": 12,
+    "kind": "&Lz",
+    "clock_hint": "04:00",
+    "raw_without_comments": "sheeos.o{cfhh}y",
+    "eligible": false,
+    "canonical": null
+  },
+  {
+    "folio": "72v3",
+    "sign": "Leo",
+    "locus": 13,
+    "kind": "&Lz",
+    "clock_hint": "05:00",
+    "raw_without_comments": "daiin,chepy",
+    "eligible": false,
+    "canonical": null
+  },
+  {
+    "folio": "72v3",
+    "sign": "Leo",
+    "locus": 14,
+    "kind": "&Lz",
+    "clock_hint": "06:00",
+    "raw_without_comments": "oteey.deeal",
+    "eligible": true,
+    "canonical": "oteey deeal"
+  },
+  {
+    "folio": "72v3",
+    "sign": "Leo",
+    "locus": 15,
+    "kind": "&Lz",
+    "clock_hint": "07:00",
+    "raw_without_comments": "chealpy",
+    "eligible": true,
+    "canonical": "chealpy"
+  },
+  {
+    "folio": "72v3",
+    "sign": "Leo",
+    "locus": 16,
+    "kind": "&Lz",
+    "clock_hint": "07:30",
+    "raw_without_comments": "okeeol",
+    "eligible": true,
+    "canonical": "okeeol"
+  },
+  {
+    "folio": "72v3",
+    "sign": "Leo",
+    "locus": 17,
+    "kind": "&Lz",
+    "clock_hint": "08:30",
+    "raw_without_comments": "okaly",
+    "eligible": true,
+    "canonical": "okaly"
+  },
+  {
+    "folio": "72v3",
+    "sign": "Leo",
+    "locus": 18,
+    "kind": "&Lz",
+    "clock_hint": "09:00",
+    "raw_without_comments": "okaldy",
+    "eligible": true,
+    "canonical": "okaldy"
+  },
+  {
+    "folio": "72v3",
+    "sign": "Leo",
+    "locus": 19,
+    "kind": "&Lz",
+    "clock_hint": "09:30",
+    "raw_without_comments": "okeolyd",
+    "eligible": true,
+    "canonical": "okeolyd"
+  },
+  {
+    "folio": "72v3",
+    "sign": "Leo",
+    "locus": 21,
+    "kind": "@Lz",
+    "clock_hint": "10:30",
+    "raw_without_comments": "choleey",
+    "eligible": true,
+    "canonical": "choleey"
+  },
+  {
+    "folio": "72v3",
+    "sign": "Leo",
+    "locus": 22,
+    "kind": "&Lz",
+    "clock_hint": "11:30",
+    "raw_without_comments": "oky",
+    "eligible": true,
+    "canonical": "oky"
+  },
+  {
+    "folio": "72v3",
+    "sign": "Leo",
+    "locus": 23,
+    "kind": "&Lz",
+    "clock_hint": "00:30",
+    "raw_without_comments": "ch{cthh}y",
+    "eligible": false,
+    "canonical": null
+  },
+  {
+    "folio": "72v3",
+    "sign": "Leo",
+    "locus": 24,
+    "kind": "&Lz",
+    "clock_hint": "01:00",
+    "raw_without_comments": "laly",
+    "eligible": true,
+    "canonical": "laly"
+  },
+  {
+    "folio": "72v3",
+    "sign": "Leo",
+    "locus": 25,
+    "kind": "&Lz",
+    "clock_hint": "02:00",
+    "raw_without_comments": "oeedy",
+    "eligible": true,
+    "canonical": "oeedy"
+  },
+  {
+    "folio": "72v3",
+    "sign": "Leo",
+    "locus": 26,
+    "kind": "&Lz",
+    "clock_hint": "03:00",
+    "raw_without_comments": "odairan",
+    "eligible": true,
+    "canonical": "odairan"
+  },
+  {
+    "folio": "72v3",
+    "sign": "Leo",
+    "locus": 27,
+    "kind": "&Lz",
+    "clock_hint": "04:00",
+    "raw_without_comments": "okary",
+    "eligible": true,
+    "canonical": "okary"
+  },
+  {
+    "folio": "72v3",
+    "sign": "Leo",
+    "locus": 28,
+    "kind": "&Lz",
+    "clock_hint": "05:00",
+    "raw_without_comments": "oeesaiin",
+    "eligible": true,
+    "canonical": "oeesaiin"
+  },
+  {
+    "folio": "72v3",
+    "sign": "Leo",
+    "locus": 29,
+    "kind": "&Lz",
+    "clock_hint": "06:30",
+    "raw_without_comments": "oteesed",
+    "eligible": true,
+    "canonical": "oteesed"
+  },
+  {
+    "folio": "72v3",
+    "sign": "Leo",
+    "locus": 30,
+    "kind": "&Lz",
+    "clock_hint": "07:30",
+    "raw_without_comments": "opal",
+    "eligible": true,
+    "canonical": "opal"
+  },
+  {
+    "folio": "72v3",
+    "sign": "Leo",
+    "locus": 31,
+    "kind": "&Lz",
+    "clock_hint": "08:30",
+    "raw_without_comments": "otaly",
+    "eligible": true,
+    "canonical": "otaly"
+  },
+  {
+    "folio": "72v3",
+    "sign": "Leo",
+    "locus": 32,
+    "kind": "&Lz",
+    "clock_hint": "09:30",
+    "raw_without_comments": "otaly,yty",
+    "eligible": false,
+    "canonical": null
+  },
+  {
+    "folio": "72v2",
+    "sign": "Virgo",
+    "locus": 2,
+    "kind": "@Lz",
+    "clock_hint": "10:00",
+    "raw_without_comments": "oeedey",
+    "eligible": true,
+    "canonical": "oeedey"
+  },
+  {
+    "folio": "72v2",
+    "sign": "Virgo",
+    "locus": 3,
+    "kind": "&Lz",
+    "clock_hint": "11:00",
+    "raw_without_comments": "oeeodaiin",
+    "eligible": true,
+    "canonical": "oeeodaiin"
+  },
+  {
+    "folio": "72v2",
+    "sign": "Virgo",
+    "locus": 4,
+    "kind": "&Lz",
+    "clock_hint": "11:45",
+    "raw_without_comments": "okeoram",
+    "eligible": true,
+    "canonical": "okeoram"
+  },
+  {
+    "folio": "72v2",
+    "sign": "Virgo",
+    "locus": 5,
+    "kind": "&Lz",
+    "clock_hint": "00:30",
+    "raw_without_comments": "air,aim",
+    "eligible": false,
+    "canonical": null
+  },
+  {
+    "folio": "72v2",
+    "sign": "Virgo",
+    "locus": 6,
+    "kind": "&Lz",
+    "clock_hint": "01:00",
+    "raw_without_comments": "oshesy",
+    "eligible": true,
+    "canonical": "oshesy"
+  },
+  {
+    "folio": "72v2",
+    "sign": "Virgo",
+    "locus": 7,
+    "kind": "&Lz",
+    "clock_hint": "02:00",
+    "raw_without_comments": "oke[a:o]ry",
+    "eligible": false,
+    "canonical": null
+  },
+  {
+    "folio": "72v2",
+    "sign": "Virgo",
+    "locus": 8,
+    "kind": "&Lz",
+    "clock_hint": "02:30",
+    "raw_without_comments": "cheoetey",
+    "eligible": true,
+    "canonical": "cheoetey"
+  },
+  {
+    "folio": "72v2",
+    "sign": "Virgo",
+    "locus": 9,
+    "kind": "&Lz",
+    "clock_hint": "03:00",
+    "raw_without_comments": "cheol[d:?]y",
+    "eligible": false,
+    "canonical": null
+  },
+  {
+    "folio": "72v2",
+    "sign": "Virgo",
+    "locus": 10,
+    "kind": "&Lz",
+    "clock_hint": "04:00",
+    "raw_without_comments": "sheoeky",
+    "eligible": true,
+    "canonical": "sheoeky"
+  },
+  {
+    "folio": "72v2",
+    "sign": "Virgo",
+    "locus": 11,
+    "kind": "&Lz",
+    "clock_hint": "04:30",
+    "raw_without_comments": "oteodar",
+    "eligible": true,
+    "canonical": "oteodar"
+  },
+  {
+    "folio": "72v2",
+    "sign": "Virgo",
+    "locus": 12,
+    "kind": "&Lz",
+    "clock_hint": "05:30",
+    "raw_without_comments": "ofchdysd",
+    "eligible": true,
+    "canonical": "ofchdysd"
+  },
+  {
+    "folio": "72v2",
+    "sign": "Virgo",
+    "locus": 13,
+    "kind": "&Lz",
+    "clock_hint": "06:00",
+    "raw_without_comments": "oteoyd",
+    "eligible": true,
+    "canonical": "oteoyd"
+  },
+  {
+    "folio": "72v2",
+    "sign": "Virgo",
+    "locus": 14,
+    "kind": "&Lz",
+    "clock_hint": "06:30",
+    "raw_without_comments": "yteody",
+    "eligible": true,
+    "canonical": "yteody"
+  },
+  {
+    "folio": "72v2",
+    "sign": "Virgo",
+    "locus": 15,
+    "kind": "&Lz",
+    "clock_hint": "07:00",
+    "raw_without_comments": "okeody",
+    "eligible": true,
+    "canonical": "okeody"
+  },
+  {
+    "folio": "72v2",
+    "sign": "Virgo",
+    "locus": 16,
+    "kind": "&Lz",
+    "clock_hint": "08:00",
+    "raw_without_comments": "okeoldy",
+    "eligible": true,
+    "canonical": "okeoldy"
+  },
+  {
+    "folio": "72v2",
+    "sign": "Virgo",
+    "locus": 17,
+    "kind": "&Lz",
+    "clock_hint": "08:30",
+    "raw_without_comments": "ykeeor",
+    "eligible": true,
+    "canonical": "ykeeor"
+  },
+  {
+    "folio": "72v2",
+    "sign": "Virgo",
+    "locus": 18,
+    "kind": "&Lz",
+    "clock_hint": "09:00",
+    "raw_without_comments": "opaiina[m:r]",
+    "eligible": false,
+    "canonical": null
+  },
+  {
+    "folio": "72v2",
+    "sign": "Virgo",
+    "locus": 19,
+    "kind": "&Lz",
+    "clock_hint": "09:30",
+    "raw_without_comments": "cheoldy",
+    "eligible": true,
+    "canonical": "cheoldy"
+  },
+  {
+    "folio": "72v2",
+    "sign": "Virgo",
+    "locus": 21,
+    "kind": "@Lz",
+    "clock_hint": "10:30",
+    "raw_without_comments": "okaiin[:y]",
+    "eligible": false,
+    "canonical": null
+  },
+  {
+    "folio": "72v2",
+    "sign": "Virgo",
+    "locus": 22,
+    "kind": "&Lz",
+    "clock_hint": "11:30",
+    "raw_without_comments": "ockhol",
+    "eligible": true,
+    "canonical": "ockhol"
+  },
+  {
+    "folio": "72v2",
+    "sign": "Virgo",
+    "locus": 23,
+    "kind": "&Lz",
+    "clock_hint": "00:30",
+    "raw_without_comments": "oeedy",
+    "eligible": true,
+    "canonical": "oeedy"
+  },
+  {
+    "folio": "72v2",
+    "sign": "Virgo",
+    "locus": 24,
+    "kind": "&Lz",
+    "clock_hint": "01:00",
+    "raw_without_comments": "opalg",
+    "eligible": true,
+    "canonical": "opalg"
+  },
+  {
+    "folio": "72v2",
+    "sign": "Virgo",
+    "locus": 25,
+    "kind": "&Lz",
+    "clock_hint": "02:00",
+    "raw_without_comments": "okeeom",
+    "eligible": true,
+    "canonical": "okeeom"
+  },
+  {
+    "folio": "72v2",
+    "sign": "Virgo",
+    "locus": 26,
+    "kind": "&Lz",
+    "clock_hint": "03:00",
+    "raw_without_comments": "olkar",
+    "eligible": true,
+    "canonical": "olkar"
+  },
+  {
+    "folio": "72v2",
+    "sign": "Virgo",
+    "locus": 27,
+    "kind": "&Lz",
+    "clock_hint": "04:00",
+    "raw_without_comments": "oeedaly",
+    "eligible": true,
+    "canonical": "oeedaly"
+  },
+  {
+    "folio": "72v2",
+    "sign": "Virgo",
+    "locus": 28,
+    "kind": "&Lz",
+    "clock_hint": "05:00",
+    "raw_without_comments": "cheosy",
+    "eligible": true,
+    "canonical": "cheosy"
+  },
+  {
+    "folio": "72v2",
+    "sign": "Virgo",
+    "locus": 29,
+    "kind": "&Lz",
+    "clock_hint": "06:30",
+    "raw_without_comments": "ofcheay",
+    "eligible": true,
+    "canonical": "ofcheay"
+  },
+  {
+    "folio": "72v2",
+    "sign": "Virgo",
+    "locus": 30,
+    "kind": "&Lz",
+    "clock_hint": "07:30",
+    "raw_without_comments": "yteedy",
+    "eligible": true,
+    "canonical": "yteedy"
+  },
+  {
+    "folio": "72v2",
+    "sign": "Virgo",
+    "locus": 31,
+    "kind": "&Lz",
+    "clock_hint": "08:30",
+    "raw_without_comments": "o[n:r]aiin",
+    "eligible": false,
+    "canonical": null
+  },
+  {
+    "folio": "72v2",
+    "sign": "Virgo",
+    "locus": 32,
+    "kind": "&Lz",
+    "clock_hint": "09:30",
+    "raw_without_comments": "okeorar",
+    "eligible": true,
+    "canonical": "okeorar"
+  },
+  {
+    "folio": "72v1",
+    "sign": "Libra",
+    "locus": 2,
+    "kind": "@Lz",
+    "clock_hint": "08:45",
+    "raw_without_comments": "oeeoty",
+    "eligible": true,
+    "canonical": "oeeoty"
+  },
+  {
+    "folio": "72v1",
+    "sign": "Libra",
+    "locus": 3,
+    "kind": "&Lz",
+    "clock_hint": "09:30",
+    "raw_without_comments": "octhy",
+    "eligible": true,
+    "canonical": "octhy"
+  },
+  {
+    "folio": "72v1",
+    "sign": "Libra",
+    "locus": 4,
+    "kind": "&Lz",
+    "clock_hint": "10:00",
+    "raw_without_comments": "oteoly",
+    "eligible": true,
+    "canonical": "oteoly"
+  },
+  {
+    "folio": "72v1",
+    "sign": "Libra",
+    "locus": 5,
+    "kind": "&Lz",
+    "clock_hint": "10:30",
+    "raw_without_comments": "okeoly",
+    "eligible": true,
+    "canonical": "okeoly"
+  },
+  {
+    "folio": "72v1",
+    "sign": "Libra",
+    "locus": 6,
+    "kind": "&Lz",
+    "clock_hint": "11:00",
+    "raw_without_comments": "oeees",
+    "eligible": true,
+    "canonical": "oeees"
+  },
+  {
+    "folio": "72v1",
+    "sign": "Libra",
+    "locus": 7,
+    "kind": "&Lz",
+    "clock_hint": "11:30",
+    "raw_without_comments": "o{cfh'h}y",
+    "eligible": false,
+    "canonical": null
+  },
+  {
+    "folio": "72v1",
+    "sign": "Libra",
+    "locus": 8,
+    "kind": "&Lz",
+    "clock_hint": "01:45",
+    "raw_without_comments": "oees",
+    "eligible": true,
+    "canonical": "oees"
+  },
+  {
+    "folio": "72v1",
+    "sign": "Libra",
+    "locus": 9,
+    "kind": "&Lz",
+    "clock_hint": "01:00",
+    "raw_without_comments": "okeeoly",
+    "eligible": true,
+    "canonical": "okeeoly"
+  },
+  {
+    "folio": "72v1",
+    "sign": "Libra",
+    "locus": 10,
+    "kind": "&Lz",
+    "clock_hint": "01:30",
+    "raw_without_comments": "odal",
+    "eligible": true,
+    "canonical": "odal"
+  },
+  {
+    "folio": "72v1",
+    "sign": "Libra",
+    "locus": 11,
+    "kind": "&Lz",
+    "clock_hint": "02:00",
+    "raw_without_comments": "aiinod",
+    "eligible": true,
+    "canonical": "aiinod"
+  },
+  {
+    "folio": "72v1",
+    "sign": "Libra",
+    "locus": 12,
+    "kind": "&Lz",
+    "clock_hint": "02:45",
+    "raw_without_comments": "od[?:ch]dy",
+    "eligible": false,
+    "canonical": null
+  },
+  {
+    "folio": "72v1",
+    "sign": "Libra",
+    "locus": 13,
+    "kind": "&Lz",
+    "clock_hint": "03:15",
+    "raw_without_comments": "oteod",
+    "eligible": true,
+    "canonical": "oteod"
+  },
+  {
+    "folio": "72v1",
+    "sign": "Libra",
+    "locus": 14,
+    "kind": "&Lz",
+    "clock_hint": "03:45",
+    "raw_without_comments": "yteod",
+    "eligible": true,
+    "canonical": "yteod"
+  },
+  {
+    "folio": "72v1",
+    "sign": "Libra",
+    "locus": 15,
+    "kind": "&Lz",
+    "clock_hint": "04:30",
+    "raw_without_comments": "ok[?:ch]ody",
+    "eligible": false,
+    "canonical": null
+  },
+  {
+    "folio": "72v1",
+    "sign": "Libra",
+    "locus": 16,
+    "kind": "&Lz",
+    "clock_hint": "05:00",
+    "raw_without_comments": "okal",
+    "eligible": true,
+    "canonical": "okal"
+  },
+  {
+    "folio": "72v1",
+    "sign": "Libra",
+    "locus": 17,
+    "kind": "&Lz",
+    "clock_hint": "05:30",
+    "raw_without_comments": "ytaly",
+    "eligible": true,
+    "canonical": "ytaly"
+  },
+  {
+    "folio": "72v1",
+    "sign": "Libra",
+    "locus": 18,
+    "kind": "&Lz",
+    "clock_hint": "06:00",
+    "raw_without_comments": "oeeeos",
+    "eligible": true,
+    "canonical": "oeeeos"
+  },
+  {
+    "folio": "72v1",
+    "sign": "Libra",
+    "locus": 19,
+    "kind": "&Lz",
+    "clock_hint": "06:30",
+    "raw_without_comments": "oteofy",
+    "eligible": true,
+    "canonical": "oteofy"
+  },
+  {
+    "folio": "72v1",
+    "sign": "Libra",
+    "locus": 20,
+    "kind": "&Lz",
+    "clock_hint": "07:30",
+    "raw_without_comments": "cheoepy",
+    "eligible": true,
+    "canonical": "cheoepy"
+  },
+  {
+    "folio": "72v1",
+    "sign": "Libra",
+    "locus": 21,
+    "kind": "&Lz",
+    "clock_hint": "08:00",
+    "raw_without_comments": "ykeedy",
+    "eligible": true,
+    "canonical": "ykeedy"
+  },
+  {
+    "folio": "72v1",
+    "sign": "Libra",
+    "locus": 23,
+    "kind": "@Lz",
+    "clock_hint": "08:45",
+    "raw_without_comments": "oeeoly",
+    "eligible": true,
+    "canonical": "oeeoly"
+  },
+  {
+    "folio": "72v1",
+    "sign": "Libra",
+    "locus": 24,
+    "kind": "&Lz",
+    "clock_hint": "10:00",
+    "raw_without_comments": "okydy",
+    "eligible": true,
+    "canonical": "okydy"
+  },
+  {
+    "folio": "72v1",
+    "sign": "Libra",
+    "locus": 25,
+    "kind": "&Lz",
+    "clock_hint": "11:30",
+    "raw_without_comments": "okeey",
+    "eligible": true,
+    "canonical": "okeey"
+  },
+  {
+    "folio": "72v1",
+    "sign": "Libra",
+    "locus": 26,
+    "kind": "&Lz",
+    "clock_hint": "00:00",
+    "raw_without_comments": "oiiny",
+    "eligible": true,
+    "canonical": "oiiny"
+  },
+  {
+    "folio": "72v1",
+    "sign": "Libra",
+    "locus": 27,
+    "kind": "&Lz",
+    "clock_hint": "01:00",
+    "raw_without_comments": "oeey",
+    "eligible": true,
+    "canonical": "oeey"
+  },
+  {
+    "folio": "72v1",
+    "sign": "Libra",
+    "locus": 28,
+    "kind": "&Lz",
+    "clock_hint": "03:00",
+    "raw_without_comments": "okedy",
+    "eligible": true,
+    "canonical": "okedy"
+  },
+  {
+    "folio": "72v1",
+    "sign": "Libra",
+    "locus": 29,
+    "kind": "&Lz",
+    "clock_hint": "04:30",
+    "raw_without_comments": "ypaim",
+    "eligible": true,
+    "canonical": "ypaim"
+  },
+  {
+    "folio": "72v1",
+    "sign": "Libra",
+    "locus": 30,
+    "kind": "&Lz",
+    "clock_hint": "05:30",
+    "raw_without_comments": "okalair",
+    "eligible": true,
+    "canonical": "okalair"
+  },
+  {
+    "folio": "72v1",
+    "sign": "Libra",
+    "locus": 31,
+    "kind": "&Lz",
+    "clock_hint": "06:30",
+    "raw_without_comments": "oeeody",
+    "eligible": true,
+    "canonical": "oeeody"
+  },
+  {
+    "folio": "72v1",
+    "sign": "Libra",
+    "locus": 32,
+    "kind": "&Lz",
+    "clock_hint": "07:30",
+    "raw_without_comments": "okeol",
+    "eligible": true,
+    "canonical": "okeol"
+  },
+  {
+    "folio": "73r",
+    "sign": "Escorpio",
+    "locus": 1,
+    "kind": "@Lz",
+    "clock_hint": "11:15",
+    "raw_without_comments": "otaly",
+    "eligible": true,
+    "canonical": "otaly"
+  },
+  {
+    "folio": "73r",
+    "sign": "Escorpio",
+    "locus": 2,
+    "kind": "&Lz",
+    "clock_hint": "11:45",
+    "raw_without_comments": "chockhy",
+    "eligible": true,
+    "canonical": "chockhy"
+  },
+  {
+    "folio": "73r",
+    "sign": "Escorpio",
+    "locus": 3,
+    "kind": "&Lz",
+    "clock_hint": "00:30",
+    "raw_without_comments": "otedy",
+    "eligible": true,
+    "canonical": "otedy"
+  },
+  {
+    "folio": "73r",
+    "sign": "Escorpio",
+    "locus": 4,
+    "kind": "&Lz",
+    "clock_hint": "01:00",
+    "raw_without_comments": "yteeody",
+    "eligible": true,
+    "canonical": "yteeody"
+  },
+  {
+    "folio": "73r",
+    "sign": "Escorpio",
+    "locus": 6,
+    "kind": "@Lz",
+    "clock_hint": "11:00",
+    "raw_without_comments": "otaly",
+    "eligible": true,
+    "canonical": "otaly"
+  },
+  {
+    "folio": "73r",
+    "sign": "Escorpio",
+    "locus": 7,
+    "kind": "&Lz",
+    "clock_hint": "11:30",
+    "raw_without_comments": "okeody",
+    "eligible": true,
+    "canonical": "okeody"
+  },
+  {
+    "folio": "73r",
+    "sign": "Escorpio",
+    "locus": 8,
+    "kind": "&Lz",
+    "clock_hint": "00:00",
+    "raw_without_comments": "oteedyl",
+    "eligible": true,
+    "canonical": "oteedyl"
+  },
+  {
+    "folio": "73r",
+    "sign": "Escorpio",
+    "locus": 9,
+    "kind": "&Lz",
+    "clock_hint": "00:30",
+    "raw_without_comments": "[y:o]keedy",
+    "eligible": false,
+    "canonical": null
+  },
+  {
+    "folio": "73r",
+    "sign": "Escorpio",
+    "locus": 10,
+    "kind": "&Lz",
+    "clock_hint": "01:00",
+    "raw_without_comments": "okeey",
+    "eligible": true,
+    "canonical": "okeey"
+  },
+  {
+    "folio": "73r",
+    "sign": "Escorpio",
+    "locus": 11,
+    "kind": "&Lz",
+    "clock_hint": "02:00",
+    "raw_without_comments": "okeedy",
+    "eligible": true,
+    "canonical": "okeedy"
+  },
+  {
+    "folio": "73r",
+    "sign": "Escorpio",
+    "locus": 12,
+    "kind": "&Lz",
+    "clock_hint": "02:30",
+    "raw_without_comments": "ykeeory",
+    "eligible": true,
+    "canonical": "ykeeory"
+  },
+  {
+    "folio": "73r",
+    "sign": "Escorpio",
+    "locus": 13,
+    "kind": "&Lz",
+    "clock_hint": "03:30",
+    "raw_without_comments": "oteeosy",
+    "eligible": true,
+    "canonical": "oteeosy"
+  },
+  {
+    "folio": "73r",
+    "sign": "Escorpio",
+    "locus": 14,
+    "kind": "&Lz",
+    "clock_hint": "04:30",
+    "raw_without_comments": "shekal",
+    "eligible": true,
+    "canonical": "shekal"
+  },
+  {
+    "folio": "73r",
+    "sign": "Escorpio",
+    "locus": 15,
+    "kind": "&Lz",
+    "clock_hint": "05:30",
+    "raw_without_comments": "oteedyy",
+    "eligible": true,
+    "canonical": "oteedyy"
+  },
+  {
+    "folio": "73r",
+    "sign": "Escorpio",
+    "locus": 16,
+    "kind": "&Lz",
+    "clock_hint": "06:30",
+    "raw_without_comments": "oked[a:o]l",
+    "eligible": false,
+    "canonical": null
+  },
+  {
+    "folio": "73r",
+    "sign": "Escorpio",
+    "locus": 17,
+    "kind": "&Lz",
+    "clock_hint": "07:00",
+    "raw_without_comments": "chdy",
+    "eligible": true,
+    "canonical": "chdy"
+  },
+  {
+    "folio": "73r",
+    "sign": "Escorpio",
+    "locus": 18,
+    "kind": "&Lz",
+    "clock_hint": "08:00",
+    "raw_without_comments": "dalshey",
+    "eligible": true,
+    "canonical": "dalshey"
+  },
+  {
+    "folio": "73r",
+    "sign": "Escorpio",
+    "locus": 19,
+    "kind": "&Lz",
+    "clock_hint": "08:45",
+    "raw_without_comments": "opaiin",
+    "eligible": true,
+    "canonical": "opaiin"
+  },
+  {
+    "folio": "73r",
+    "sign": "Escorpio",
+    "locus": 20,
+    "kind": "&Lz",
+    "clock_hint": "09:30",
+    "raw_without_comments": "okeos",
+    "eligible": true,
+    "canonical": "okeos"
+  },
+  {
+    "folio": "73r",
+    "sign": "Escorpio",
+    "locus": 21,
+    "kind": "&Lz",
+    "clock_hint": "10:00",
+    "raw_without_comments": "otey",
+    "eligible": true,
+    "canonical": "otey"
+  },
+  {
+    "folio": "73r",
+    "sign": "Escorpio",
+    "locus": 23,
+    "kind": "@Lz",
+    "clock_hint": "11:30",
+    "raw_without_comments": "okary",
+    "eligible": true,
+    "canonical": "okary"
+  },
+  {
+    "folio": "73r",
+    "sign": "Escorpio",
+    "locus": 24,
+    "kind": "&Lz",
+    "clock_hint": "01:00",
+    "raw_without_comments": "okeeody",
+    "eligible": true,
+    "canonical": "okeeody"
+  },
+  {
+    "folio": "73r",
+    "sign": "Escorpio",
+    "locus": 25,
+    "kind": "&Lz",
+    "clock_hint": "02:00",
+    "raw_without_comments": "oyteedy",
+    "eligible": true,
+    "canonical": "oyteedy"
+  },
+  {
+    "folio": "73r",
+    "sign": "Escorpio",
+    "locus": 26,
+    "kind": "&Lz",
+    "clock_hint": "03:00",
+    "raw_without_comments": "oky",
+    "eligible": true,
+    "canonical": "oky"
+  },
+  {
+    "folio": "73r",
+    "sign": "Escorpio",
+    "locus": 27,
+    "kind": "&Lz",
+    "clock_hint": "04:30",
+    "raw_without_comments": "chefy",
+    "eligible": true,
+    "canonical": "chefy"
+  },
+  {
+    "folio": "73r",
+    "sign": "Escorpio",
+    "locus": 28,
+    "kind": "&Lz",
+    "clock_hint": "06:00",
+    "raw_without_comments": "otal",
+    "eligible": true,
+    "canonical": "otal"
+  },
+  {
+    "folio": "73r",
+    "sign": "Escorpio",
+    "locus": 29,
+    "kind": "&Lz",
+    "clock_hint": "07:00",
+    "raw_without_comments": "chek",
+    "eligible": true,
+    "canonical": "chek"
+  },
+  {
+    "folio": "73r",
+    "sign": "Escorpio",
+    "locus": 30,
+    "kind": "&Lz",
+    "clock_hint": "08:30",
+    "raw_without_comments": "ar",
+    "eligible": true,
+    "canonical": "ar"
+  },
+  {
+    "folio": "73r",
+    "sign": "Escorpio",
+    "locus": 31,
+    "kind": "&Lz",
+    "clock_hint": "09:30",
+    "raw_without_comments": "kar",
+    "eligible": true,
+    "canonical": "kar"
+  },
+  {
+    "folio": "73r",
+    "sign": "Escorpio",
+    "locus": 32,
+    "kind": "&Lz",
+    "clock_hint": "10:30",
+    "raw_without_comments": "okeeos",
+    "eligible": true,
+    "canonical": "okeeos"
+  },
+  {
+    "folio": "73v",
+    "sign": "Sagitario",
+    "locus": 1,
+    "kind": "@Lz",
+    "clock_hint": "11:00",
+    "raw_without_comments": "okol",
+    "eligible": true,
+    "canonical": "okol"
+  },
+  {
+    "folio": "73v",
+    "sign": "Sagitario",
+    "locus": 2,
+    "kind": "&Lz",
+    "clock_hint": "11:45",
+    "raw_without_comments": "oteody",
+    "eligible": true,
+    "canonical": "oteody"
+  },
+  {
+    "folio": "73v",
+    "sign": "Sagitario",
+    "locus": 3,
+    "kind": "&Lz",
+    "clock_hint": "00:30",
+    "raw_without_comments": "oteedy",
+    "eligible": true,
+    "canonical": "oteedy"
+  },
+  {
+    "folio": "73v",
+    "sign": "Sagitario",
+    "locus": 4,
+    "kind": "&Lz",
+    "clock_hint": "01:00",
+    "raw_without_comments": "eeeody",
+    "eligible": true,
+    "canonical": "eeeody"
+  },
+  {
+    "folio": "73v",
+    "sign": "Sagitario",
+    "locus": 6,
+    "kind": "@Lz",
+    "clock_hint": "10:00",
+    "raw_without_comments": "okeody",
+    "eligible": true,
+    "canonical": "okeody"
+  },
+  {
+    "folio": "73v",
+    "sign": "Sagitario",
+    "locus": 7,
+    "kind": "&Lz",
+    "clock_hint": "10:30",
+    "raw_without_comments": "sheol",
+    "eligible": true,
+    "canonical": "sheol"
+  },
+  {
+    "folio": "73v",
+    "sign": "Sagitario",
+    "locus": 8,
+    "kind": "&Lz",
+    "clock_hint": "11:30",
+    "raw_without_comments": "odees",
+    "eligible": true,
+    "canonical": "odees"
+  },
+  {
+    "folio": "73v",
+    "sign": "Sagitario",
+    "locus": 9,
+    "kind": "&Lz",
+    "clock_hint": "00:00",
+    "raw_without_comments": "ee[r:n]y",
+    "eligible": false,
+    "canonical": null
+  },
+  {
+    "folio": "73v",
+    "sign": "Sagitario",
+    "locus": 10,
+    "kind": "&Lz",
+    "clock_hint": "01:00",
+    "raw_without_comments": "okeor",
+    "eligible": true,
+    "canonical": "okeor"
+  },
+  {
+    "folio": "73v",
+    "sign": "Sagitario",
+    "locus": 11,
+    "kind": "&Lz",
+    "clock_hint": "01:30",
+    "raw_without_comments": "ofals",
+    "eligible": true,
+    "canonical": "ofals"
+  },
+  {
+    "folio": "73v",
+    "sign": "Sagitario",
+    "locus": 12,
+    "kind": "&Lz",
+    "clock_hint": "02:00",
+    "raw_without_comments": "ykeody",
+    "eligible": true,
+    "canonical": "ykeody"
+  },
+  {
+    "folio": "73v",
+    "sign": "Sagitario",
+    "locus": 13,
+    "kind": "&Lz",
+    "clock_hint": "03:00",
+    "raw_without_comments": "oteody",
+    "eligible": true,
+    "canonical": "oteody"
+  },
+  {
+    "folio": "73v",
+    "sign": "Sagitario",
+    "locus": 14,
+    "kind": "&Lz",
+    "clock_hint": "03:30",
+    "raw_without_comments": "ypaiin",
+    "eligible": true,
+    "canonical": "ypaiin"
+  },
+  {
+    "folio": "73v",
+    "sign": "Sagitario",
+    "locus": 15,
+    "kind": "&Lz",
+    "clock_hint": "04:00",
+    "raw_without_comments": "yfaiin,y",
+    "eligible": false,
+    "canonical": null
+  },
+  {
+    "folio": "73v",
+    "sign": "Sagitario",
+    "locus": 16,
+    "kind": "&Lz",
+    "clock_hint": "05:00",
+    "raw_without_comments": "ofcheesy",
+    "eligible": true,
+    "canonical": "ofcheesy"
+  },
+  {
+    "folio": "73v",
+    "sign": "Sagitario",
+    "locus": 17,
+    "kind": "&Lz",
+    "clock_hint": "06:00",
+    "raw_without_comments": "oraiiny",
+    "eligible": true,
+    "canonical": "oraiiny"
+  },
+  {
+    "folio": "73v",
+    "sign": "Sagitario",
+    "locus": 18,
+    "kind": "&Lz",
+    "clock_hint": "07:00",
+    "raw_without_comments": "ykeeody",
+    "eligible": true,
+    "canonical": "ykeeody"
+  },
+  {
+    "folio": "73v",
+    "sign": "Sagitario",
+    "locus": 19,
+    "kind": "&Lz",
+    "clock_hint": "07:30",
+    "raw_without_comments": "okeos",
+    "eligible": true,
+    "canonical": "okeos"
+  },
+  {
+    "folio": "73v",
+    "sign": "Sagitario",
+    "locus": 20,
+    "kind": "&Lz",
+    "clock_hint": "08:30",
+    "raw_without_comments": "ykeear",
+    "eligible": true,
+    "canonical": "ykeear"
+  },
+  {
+    "folio": "73v",
+    "sign": "Sagitario",
+    "locus": 21,
+    "kind": "&Lz",
+    "clock_hint": "09:00",
+    "raw_without_comments": "qokeoly",
+    "eligible": true,
+    "canonical": "qokeoly"
+  },
+  {
+    "folio": "73v",
+    "sign": "Sagitario",
+    "locus": 23,
+    "kind": "@Lz",
+    "clock_hint": "09:30",
+    "raw_without_comments": "otedy",
+    "eligible": true,
+    "canonical": "otedy"
+  },
+  {
+    "folio": "73v",
+    "sign": "Sagitario",
+    "locus": 24,
+    "kind": "&Lz",
+    "clock_hint": "11:00",
+    "raw_without_comments": "eeed",
+    "eligible": true,
+    "canonical": "eeed"
+  },
+  {
+    "folio": "73v",
+    "sign": "Sagitario",
+    "locus": 25,
+    "kind": "&Lz",
+    "clock_hint": "01:00",
+    "raw_without_comments": "oky",
+    "eligible": true,
+    "canonical": "oky"
+  },
+  {
+    "folio": "73v",
+    "sign": "Sagitario",
+    "locus": 26,
+    "kind": "&Lz",
+    "clock_hint": "02:00",
+    "raw_without_comments": "oia?",
+    "eligible": false,
+    "canonical": null
+  },
+  {
+    "folio": "73v",
+    "sign": "Sagitario",
+    "locus": 27,
+    "kind": "&Lz",
+    "clock_hint": "02:30",
+    "raw_without_comments": "okal",
+    "eligible": true,
+    "canonical": "okal"
+  },
+  {
+    "folio": "73v",
+    "sign": "Sagitario",
+    "locus": 28,
+    "kind": "&Lz",
+    "clock_hint": "03:30",
+    "raw_without_comments": "ykey",
+    "eligible": true,
+    "canonical": "ykey"
+  },
+  {
+    "folio": "73v",
+    "sign": "Sagitario",
+    "locus": 29,
+    "kind": "&Lz",
+    "clock_hint": "05:00",
+    "raw_without_comments": "ykeee",
+    "eligible": true,
+    "canonical": "ykeee"
+  },
+  {
+    "folio": "73v",
+    "sign": "Sagitario",
+    "locus": 30,
+    "kind": "&Lz",
+    "clock_hint": "06:00",
+    "raw_without_comments": "okeod",
+    "eligible": true,
+    "canonical": "okeod"
+  },
+  {
+    "folio": "73v",
+    "sign": "Sagitario",
+    "locus": 31,
+    "kind": "&Lz",
+    "clock_hint": "07:30",
+    "raw_without_comments": "ykey",
+    "eligible": true,
+    "canonical": "ykey"
+  },
+  {
+    "folio": "73v",
+    "sign": "Sagitario",
+    "locus": 32,
+    "kind": "&Lz",
+    "clock_hint": "08:30",
+    "raw_without_comments": "ypal",
+    "eligible": true,
+    "canonical": "ypal"
+  }
+]

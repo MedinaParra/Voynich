@@ -1,0 +1,35 @@
+{
+  "folio": "f73r",
+  "canvas": "1006206",
+  "source_url": "https://collections.library.yale.edu/iiif/2/1006206/full/!1600,2000/0/default.jpg",
+  "source_sha256": "72aeb4c0e861d5ac3b6427a9d64c16bfec827302656e7c8c24b67376b410caf4",
+  "image_size": [
+    1507,
+    2000
+  ],
+  "reading_in_zl": "otaly",
+  "occurrences": [
+    {
+      "marker": "A",
+      "locus": 1,
+      "crop_pixels": [
+        420,
+        275,
+        585,
+        370
+      ]
+    },
+    {
+      "marker": "B",
+      "locus": 6,
+      "crop_pixels": [
+        420,
+        510,
+        590,
+        660
+      ]
+    }
+  ],
+  "review": "Single assistant visual comparison, not expert palaeographic confirmation. Two distinct locations; stroke-level identity remains provisional.",
+  "transform": "Unenhanced crops resized for comparison; context thumbnail with explicitly modern A/B boxes."
+}
