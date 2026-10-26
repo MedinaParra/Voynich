@@ -1,0 +1,13 @@
+folio,sign,month,month_name,figures_reported,labels_reported,source,manual_figures_reviewed,labels_in_zl,catalogue_agrees_with_zl
+70v2,Piscis,3,mars,29,30,Q10,False,30,True
+70v1,Aries,4,aberil,15,15,Q10,True,15,True
+71r,Aries,4,aberil,15,15,Q11,True,15,True
+71v,Tauro,5,may,15,15,Q11,False,15,True
+72r1,Tauro,5,may,15,15,Q11,False,15,True
+72r2,Géminis,6,jong,30,29,Q11,False,29,True
+72r3,Cáncer,7,iollet,30,30,Q11,False,30,True
+72v3,Leo,8,augst,30,30,Q11,False,30,True
+72v2,Virgo,9,septe(m)b(r),30,30,Q11,False,30,True
+72v1,Libra,10,octe(m)bre,30,30,Q11,False,30,True
+73r,Escorpio,11,nove(m)bre,30,30,Q12,False,30,True
+73v,Sagitario,12,decebre,30,30,Q12,False,30,True

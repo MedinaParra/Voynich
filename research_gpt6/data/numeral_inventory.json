@@ -1,0 +1,72 @@
+{
+  "version": 1,
+  "date": "2026-10-26",
+  "scope": "Primer inventario dirigido; no censo exhaustivo de las cifras de todas las hojas. Selección exploratoria posterior a la consulta de imágenes y bibliografía.",
+  "base_commit": "b16b05d8e4f8ce150847fa23696e2a11dfedd1a1",
+  "review": "Una revisión visual por asistente, sin segunda lectura paleográfica experta. Confianza cualitativa, no probabilidad calibrada.",
+  "sources": {
+    "Y": "https://collections.library.yale.edu/catalog/2002046",
+    "M": "https://library.yale.edu/sites/default/files/2026-06/voynich_analysis.pdf",
+    "W": "https://www.voynich.nu/writing.html",
+    "S": "https://www.ic.unicamp.br/~stolfi/EXPORT/00-EXPORT/Notes/034/Note-034.html",
+    "Q1": "https://www.voynich.nu/q01/index.html",
+    "Q7": "https://www.voynich.nu/q07/index.html",
+    "Q8": "https://www.voynich.nu/q08/index.html",
+    "Q10": "https://www.voynich.nu/q10/index.html",
+    "Q11": "https://www.voynich.nu/q11/index.html",
+    "Q12": "https://www.voynich.nu/q12/index.html",
+    "Q20": "https://www.voynich.nu/q20/index.html",
+    "O": "https://www.voynich.nu/extra/sp_origin.html",
+    "ZL": "https://raw.githubusercontent.com/cesarjz/Voynich/47e6a77dc9d5cd570c375f4aff710fa4a0567278/corpus/voynich_eva.txt"
+  },
+  "corpus_sha256": "bf5b6d4ac1e3a51b1847a9c388318d609020441ccd56984c901c32b09beccafc",
+  "cases": [
+    {"id":"N01","folio":"f26r","canvas":"1006124","kind":"FOLIACION","reading":"26","value":26,"context":"Esquina superior derecha de una hoja botánica.","interpretation":"Identificador de la hoja, no cantidad botánica.","reading_confidence":"ALTA","function_confidence":"ALTA","sources":["Y","M"],"crop":[1200,60,1457,280]},
+    {"id":"N02","folio":"f42r","canvas":"1006156","kind":"FOLIACION","reading":"42","value":42,"context":"Esquina superior derecha, dentro del contorno de una hoja pintada de verde.","interpretation":"Identificador de la hoja. La relación entre cifra y pintura admite una cronología relativa, sin fecha absoluta.","reading_confidence":"ALTA","function_confidence":"ALTA","sources":["Y","O"],"crop":[1190,50,1519,330]},
+    {"id":"N03","folio":"f67r1","canvas":"1006194","kind":"FOLIACION_CORREGIDA","reading":"67; posible cifra subyacente discutida","value":67,"context":"Parte superior del primer panel de un desplegable astronómico.","interpretation":"Foliación. La posible lectura anterior 62 es una propuesta bibliográfica no confirmada en esta imagen.","reading_confidence":"MEDIA","function_confidence":"ALTA","sources":["Y","O"],"crop":[1000,0,1390,270]},
+    {"id":"N04","folio":"f71r","canvas":"1006202","kind":"FOLIACION","reading":"71","value":71,"context":"Esquina superior derecha, sobre un diagrama de Aries.","interpretation":"Identificador de hoja; pertenece a una función distinta de las 15 figuras del dibujo.","reading_confidence":"ALTA","function_confidence":"ALTA","sources":["Y","Q11"],"crop":[1150,30,1440,250]},
+    {"id":"N05","folio":"f103r","canvas":"1006254","kind":"FOLIACION","reading":"103","value":103,"context":"Esquina superior derecha de una página con párrafos y estrellas marginales.","interpretation":"Identificador de hoja.","reading_confidence":"ALTA","function_confidence":"ALTA","sources":["Y","Q20"],"crop":[1090,0,1413,240]},
+    {"id":"N06","folio":"f8v","canvas":"1006091","kind":"MARCA_CUADERNO","reading":"Pmus / primus","value":1,"context":"Margen inferior derecho, final del primer cuaderno.","interpretation":"Ordinal latino abreviado: primer cuaderno. El trazo final parecido a 9 es parte de la abreviatura, no se lee nueve.","reading_confidence":"MEDIA_ALTA","function_confidence":"ALTA","sources":["Y","Q1","M"],"crop":[1050,1760,1450,1980]},
+    {"id":"N07","folio":"f103r","canvas":"1006254","kind":"MARCA_CUADERNO","reading":"20","value":20,"context":"Margen inferior izquierdo, al inicio del último cuaderno conservado.","interpretation":"Número del cuaderno 20; coexiste con el 103 que identifica la hoja.","reading_confidence":"ALTA","function_confidence":"ALTA","sources":["Y","Q20"],"crop":[100,1830,510,1990]},
+    {"id":"N08","folio":"f49v","canvas":"1006171","kind":"CIFRA_MARGINAL","reading":"1","value":1,"context":"Margen izquierdo, junto al segundo renglón y al signo transliterado o.","interpretation":"Primer elemento de una numeración parcial 1-5. Posible enumeración o anotación de un lector; no demuestra o = 1 en el texto.","reading_confidence":"ALTA","function_confidence":"MEDIA","sources":["Y","Q7","S"],"crop":[325,300,560,365],"physical_line":2,"paired_transliteration":"o"},
+    {"id":"N09","folio":"f49v","canvas":"1006171","kind":"CIFRA_MARGINAL","reading":"2","value":2,"context":"Margen izquierdo, junto al tercer renglón y al signo transliterado r.","interpretation":"Segundo elemento de la misma numeración parcial; la asociación espacial no establece una equivalencia de descifrado.","reading_confidence":"ALTA","function_confidence":"MEDIA","sources":["Y","Q7","S"],"crop":[325,350,560,415],"physical_line":3,"paired_transliteration":"r"},
+    {"id":"N10","folio":"f49v","canvas":"1006171","kind":"CIFRA_MARGINAL","reading":"3","value":3,"context":"Margen izquierdo, junto al cuarto renglón y al signo transliterado y.","interpretation":"Tercer elemento de la numeración parcial. No se asigna valor tres al signo voynichés.","reading_confidence":"ALTA","function_confidence":"MEDIA","sources":["Y","Q7","S"],"crop":[325,400,560,465],"physical_line":4,"paired_transliteration":"y"},
+    {"id":"N11","folio":"f49v","canvas":"1006171","kind":"CIFRA_MARGINAL","reading":"4","value":4,"context":"Margen izquierdo, junto al quinto renglón y al signo transliterado e.","interpretation":"Cuarto elemento de la numeración parcial.","reading_confidence":"ALTA","function_confidence":"MEDIA","sources":["Y","Q7","S"],"crop":[325,450,560,510],"physical_line":5,"paired_transliteration":"e"},
+    {"id":"N12","folio":"f49v","canvas":"1006171","kind":"CIFRA_MARGINAL","reading":"5","value":5,"context":"Margen izquierdo, junto al sexto renglón y a un signo raro catalogado @140; en ZL.","interpretation":"Quinto elemento de la numeración parcial; no se reconstruyen cifras 6 en adelante.","reading_confidence":"MEDIA_ALTA","function_confidence":"MEDIA","sources":["Y","Q7","S"],"crop":[325,485,560,550],"physical_line":6,"paired_transliteration":"@140;"},
+    {"id":"N13","folio":"f57v","canvas":"1006187","kind":"POSIBLE_NUMERAL","reading":"Indeterminada; propuesta bibliográfica 17th","value":null,"context":"Marca aislada en el margen inferior derecho, fuera del diagrama circular.","interpretation":"Marca numérica u ordinal posible, sin lectura consensuada. No usar como ancla de valor 17.","reading_confidence":"BAJA","function_confidence":"BAJA","sources":["Y","Q8"],"crop":[1150,1640,1510,1920]},
+    {"id":"N14","folio":"f57v","canvas":"1006187","kind":"CONTEO_ESTRUCTURAL","reading":"4 bloques de 17 grupos en ZL","value":68,"context":"Segundo anillo desde el exterior del diagrama.","interpretation":"Secuencia periódica de signos. 68 es un conteo editorial de grupos delimitados, no un numeral escrito ni una base numérica demostrada. La segmentación de glifos puede variar.","reading_confidence":"MEDIA_ALTA","function_confidence":"BAJA","sources":["Y","Q8","S","ZL"],"crop":[160,210,1520,1580]},
+    {"id":"N15","folio":"f70v1","canvas":"1006201","kind":"CONTEO_ICONOGRAFICO","reading":"15 figuras","value":15,"context":"Primer diagrama conservado de Aries, con animal pintado oscuro.","interpretation":"Mitad de una serie de 30 unidades junto con f71r. Hipótesis: grados zodiacales; alternativa: calendario esquemático u otra clasificación.","reading_confidence":"ALTA","function_confidence":"MEDIA","sources":["Y","Q10"],"crop":[220,230,1540,1550]},
+    {"id":"N16","folio":"f71r","canvas":"1006202","kind":"CONTEO_ICONOGRAFICO","reading":"15 figuras","value":15,"context":"Segundo diagrama de Aries, con animal sin pintar.","interpretation":"Segunda mitad de la misma serie de 30 unidades. No hay una cifra 15 escrita identificada aquí.","reading_confidence":"ALTA","function_confidence":"MEDIA","sources":["Y","Q11"],"crop":[70,260,1360,1620]},
+    {"id":"N17","folio":"f70v2","canvas":"1006200","kind":"CONTEO_ICONOGRAFICO","reading":"29 figuras; 30 etiquetas según catálogo y ZL","value":null,"context":"Diagrama de Piscis, dos peces y estrellas centrales.","interpretation":"Contar personas, estrellas y etiquetas produce categorías distintas. La etiqueta adicional central impide sustituir automáticamente una categoría por otra.","reading_confidence":"MEDIA_ALTA","function_confidence":"MEDIA","sources":["Y","Q10","ZL"],"crop":[20,50,1550,1450]},
+    {"id":"N18","folio":"f73r","canvas":"1006206","kind":"CONTEO_ICONOGRAFICO","reading":"30 figuras y 30 etiquetas","value":30,"context":"Diagrama identificado como Escorpio por la serie zodiacal.","interpretation":"Serie compatible con 30 unidades por signo. Su significado específico no está traducido.","reading_confidence":"MEDIA_ALTA","function_confidence":"MEDIA","sources":["Y","Q12","ZL"],"crop":[60,120,1360,1550]},
+    {"id":"N19","folio":"f69r","canvas":"1006198","kind":"CONTEO_ESTRUCTURAL","reading":"22 textos radiales; 16 segmentos exteriores según catálogo","value":null,"context":"Diagrama con estrella central, trazos radiales y óvalos verdes y azules.","interpretation":"Categorías estructurales con conteos diferentes. El conteo por sí solo no demuestra horas, vientos, grados ni días.","reading_confidence":"MEDIA","function_confidence":"BAJA","sources":["Y","Q10","ZL"],"crop":[150,330,1410,1530]},
+    {"id":"N20","folio":"f1r","canvas":"1006076","kind":"FORMA_AMBIGUA","reading":"Marca roja semejante a 29 según algunas descripciones","value":null,"context":"Margen superior derecho, debajo de la foliación 1.","interpretation":"Posible adorno o símbolo; no se confirma lectura numérica. Se conserva como contraejemplo de semejanza visual insuficiente.","reading_confidence":"BAJA","function_confidence":"BAJA","sources":["Y","Q1"],"crop":[1140,170,1390,380]}
+  ],
+  "zodiac": [
+    {"folio":"70v2","sign":"Piscis","month":3,"month_name":"mars","figures_reported":29,"labels_reported":30,"source":"Q10","manual_figures_reviewed":false},
+    {"folio":"70v1","sign":"Aries","month":4,"month_name":"aberil","figures_reported":15,"labels_reported":15,"source":"Q10","manual_figures_reviewed":true},
+    {"folio":"71r","sign":"Aries","month":4,"month_name":"aberil","figures_reported":15,"labels_reported":15,"source":"Q11","manual_figures_reviewed":true},
+    {"folio":"71v","sign":"Tauro","month":5,"month_name":"may","figures_reported":15,"labels_reported":15,"source":"Q11","manual_figures_reviewed":false},
+    {"folio":"72r1","sign":"Tauro","month":5,"month_name":"may","figures_reported":15,"labels_reported":15,"source":"Q11","manual_figures_reviewed":false},
+    {"folio":"72r2","sign":"Géminis","month":6,"month_name":"jong","figures_reported":30,"labels_reported":29,"source":"Q11","manual_figures_reviewed":false},
+    {"folio":"72r3","sign":"Cáncer","month":7,"month_name":"iollet","figures_reported":30,"labels_reported":30,"source":"Q11","manual_figures_reviewed":false},
+    {"folio":"72v3","sign":"Leo","month":8,"month_name":"augst","figures_reported":30,"labels_reported":30,"source":"Q11","manual_figures_reviewed":false},
+    {"folio":"72v2","sign":"Virgo","month":9,"month_name":"septe(m)b(r)","figures_reported":30,"labels_reported":30,"source":"Q11","manual_figures_reviewed":false},
+    {"folio":"72v1","sign":"Libra","month":10,"month_name":"octe(m)bre","figures_reported":30,"labels_reported":30,"source":"Q11","manual_figures_reviewed":false},
+    {"folio":"73r","sign":"Escorpio","month":11,"month_name":"nove(m)bre","figures_reported":30,"labels_reported":30,"source":"Q12","manual_figures_reviewed":false},
+    {"folio":"73v","sign":"Sagitario","month":12,"month_name":"decebre","figures_reported":30,"labels_reported":30,"source":"Q12","manual_figures_reviewed":false}
+  ],
+  "manual_head_points": {
+    "70v1": {"canvas":"1006201","reference_size":[1200,1490],"inner":[[520,510],[675,455],[880,590],[810,870],[500,800]],"outer":[[400,385],[675,275],[955,385],[1070,625],[1025,840],[950,980],[735,1080],[510,1040],[370,910],[300,700]]},
+    "71r": {"canvas":"1006202","reference_size":[1114,1500],"inner":[[350,520],[590,500],[735,755],[550,910],[290,805]],"outer":[[285,355],[510,275],[720,350],[880,520],[905,720],[790,1010],[550,1105],[295,1055],[120,800],[115,555]]}
+  },
+  "interpretation_limits": [
+    "Un número de folio no es una cantidad descrita por el texto de esa hoja.",
+    "Los nombres de meses se describen como adiciones de otra mano; no identifican el idioma del texto principal.",
+    "Las cifras junto a signos no demuestran equivalencia semántica ni contemporaneidad.",
+    "Los recuentos de etiquetas en ZL y el catálogo de Zandbergen comparten autoría/fuentes: no son validación externa independiente.",
+    "Las letras EVA son nombres modernos de transcripción, no valores fonéticos ni numéricos.",
+    "Las observaciones son exploratorias; no se calculan p-valores ni se propone una traducción.",
+    "No se asignan automáticamente valores a formas parecidas a 2, 4, 8 o 9 en el texto principal."
+  ]
+}

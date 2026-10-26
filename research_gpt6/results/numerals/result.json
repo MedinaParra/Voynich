@@ -1,0 +1,453 @@
+{
+  "status": "DESCRIPTIVE_FIRST_INVENTORY_NO_DECIPHERMENT",
+  "scope": "Primer inventario dirigido; no censo exhaustivo de las cifras de todas las hojas. Selección exploratoria posterior a la consulta de imágenes y bibliografía.",
+  "date": "2026-10-26",
+  "review": "Una revisión visual por asistente, sin segunda lectura paleográfica experta. Confianza cualitativa, no probabilidad calibrada.",
+  "case_count": 20,
+  "case_kinds": {
+    "FOLIACION": 4,
+    "FOLIACION_CORREGIDA": 1,
+    "MARCA_CUADERNO": 2,
+    "CIFRA_MARGINAL": 5,
+    "POSIBLE_NUMERAL": 1,
+    "CONTEO_ESTRUCTURAL": 2,
+    "CONTEO_ICONOGRAFICO": 4,
+    "FORMA_AMBIGUA": 1
+  },
+  "corpus_sha256": "bf5b6d4ac1e3a51b1847a9c388318d609020441ccd56984c901c32b09beccafc",
+  "spec_sha256": "aa2c558b040ebc3436a8223966c78e7aa884c5bead15fb55c7392910bc4c66f9",
+  "f49v": {
+    "running_lines": 26,
+    "marginal_signs": 26,
+    "digit_rows": [
+      {
+        "physical_line": 2,
+        "label_locus": 3,
+        "text_locus": 4,
+        "marginal_sign": "o",
+        "visible_arabic_digit": 1,
+        "tokens_dot": 4,
+        "tokens_dot_or_comma": 4
+      },
+      {
+        "physical_line": 3,
+        "label_locus": 5,
+        "text_locus": 6,
+        "marginal_sign": "r",
+        "visible_arabic_digit": 2,
+        "tokens_dot": 4,
+        "tokens_dot_or_comma": 4
+      },
+      {
+        "physical_line": 4,
+        "label_locus": 7,
+        "text_locus": 8,
+        "marginal_sign": "y",
+        "visible_arabic_digit": 3,
+        "tokens_dot": 3,
+        "tokens_dot_or_comma": 3
+      },
+      {
+        "physical_line": 5,
+        "label_locus": 9,
+        "text_locus": 10,
+        "marginal_sign": "e",
+        "visible_arabic_digit": 4,
+        "tokens_dot": 3,
+        "tokens_dot_or_comma": 3
+      },
+      {
+        "physical_line": 6,
+        "label_locus": 11,
+        "text_locus": 12,
+        "marginal_sign": "@140;",
+        "visible_arabic_digit": 5,
+        "tokens_dot": 3,
+        "tokens_dot_or_comma": 3
+      }
+    ],
+    "repeated_sign_positions": {
+      "o": [
+        2,
+        10,
+        17
+      ],
+      "y": [
+        4,
+        12,
+        19,
+        23,
+        26
+      ],
+      "e": [
+        5,
+        13,
+        20,
+        24
+      ],
+      "@140;": [
+        6,
+        14,
+        21
+      ],
+      "k": [
+        7,
+        25
+      ],
+      "p": [
+        9,
+        16
+      ],
+      "@192;": [
+        11,
+        18
+      ]
+    },
+    "digit_equals_line_token_count": {
+      "tokens_dot": 1,
+      "tokens_dot_or_comma": 1
+    },
+    "unique_absolute_line_number_hypothesis": "INCOMPATIBLE_WITH_REPEATED_IDENTICAL_SIGNS_UNDER_FIXED_ONE_TO_ONE_MAPPING",
+    "interpretation": "Partial enumeration/annotation plausible. Local alignment does not validate a numeral key, dosage, or word-count meaning."
+  },
+  "f57v": {
+    "locus": "f57v.3",
+    "editorial_groups": 68,
+    "block_size": 17,
+    "blocks": [
+      [
+        "o",
+        "l",
+        "[d:j]",
+        "r",
+        "v",
+        "x",
+        "k",
+        "m",
+        "f",
+        "@169;v",
+        "t",
+        "r",
+        "@170;",
+        "@171;",
+        "y",
+        "I",
+        "@172;"
+      ],
+      [
+        "o",
+        "l",
+        "d",
+        "r",
+        "v",
+        "x",
+        "k",
+        "m",
+        "f",
+        "@169;v",
+        "t",
+        "r",
+        "@170;",
+        "@171;",
+        "y",
+        "c",
+        "@172;"
+      ],
+      [
+        "o",
+        "l",
+        "d",
+        "r",
+        "v",
+        "x",
+        "k",
+        "m",
+        "p",
+        "@169;v",
+        "t",
+        "r",
+        "@170;",
+        "@171;",
+        "y",
+        "c",
+        "@172;"
+      ],
+      [
+        "o",
+        "l",
+        "d",
+        "r",
+        "v",
+        "x",
+        "k",
+        "m",
+        "p",
+        "@169;v",
+        "t",
+        "r",
+        "@170;",
+        "@171;",
+        "y",
+        "c",
+        "@172;"
+      ]
+    ],
+    "invariant_positions": [
+      1,
+      2,
+      4,
+      5,
+      6,
+      7,
+      8,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      17
+    ],
+    "variable_positions": [
+      3,
+      9,
+      16
+    ],
+    "interpretation": "Repetition of sign groups; not proof of a numerical base or a numeral sequence."
+  },
+  "zodiac": {
+    "diagrams": 12,
+    "signs": 10,
+    "all_label_counts_match_catalogue": true,
+    "total_labels": 299,
+    "total_figures_reported": 299,
+    "by_sign": {
+      "Piscis": {
+        "labels": 30,
+        "figures_reported": 29,
+        "folios": [
+          "70v2"
+        ],
+        "month": 3,
+        "civil_month_days": 31
+      },
+      "Aries": {
+        "labels": 30,
+        "figures_reported": 30,
+        "folios": [
+          "70v1",
+          "71r"
+        ],
+        "month": 4,
+        "civil_month_days": 30
+      },
+      "Tauro": {
+        "labels": 30,
+        "figures_reported": 30,
+        "folios": [
+          "71v",
+          "72r1"
+        ],
+        "month": 5,
+        "civil_month_days": 31
+      },
+      "Géminis": {
+        "labels": 29,
+        "figures_reported": 30,
+        "folios": [
+          "72r2"
+        ],
+        "month": 6,
+        "civil_month_days": 30
+      },
+      "Cáncer": {
+        "labels": 30,
+        "figures_reported": 30,
+        "folios": [
+          "72r3"
+        ],
+        "month": 7,
+        "civil_month_days": 31
+      },
+      "Leo": {
+        "labels": 30,
+        "figures_reported": 30,
+        "folios": [
+          "72v3"
+        ],
+        "month": 8,
+        "civil_month_days": 31
+      },
+      "Virgo": {
+        "labels": 30,
+        "figures_reported": 30,
+        "folios": [
+          "72v2"
+        ],
+        "month": 9,
+        "civil_month_days": 30
+      },
+      "Libra": {
+        "labels": 30,
+        "figures_reported": 30,
+        "folios": [
+          "72v1"
+        ],
+        "month": 10,
+        "civil_month_days": 31
+      },
+      "Escorpio": {
+        "labels": 30,
+        "figures_reported": 30,
+        "folios": [
+          "73r"
+        ],
+        "month": 11,
+        "civil_month_days": 30
+      },
+      "Sagitario": {
+        "labels": 30,
+        "figures_reported": 30,
+        "folios": [
+          "73v"
+        ],
+        "month": 12,
+        "civil_month_days": 31
+      }
+    },
+    "signs_with_30_labels": 9,
+    "signs_with_30_figures_reported": 9,
+    "signs_labels_equal_civil_month_days": 3,
+    "signs_figures_equal_civil_month_days": 4,
+    "independence": "Catalogue and ZL share authorship/source history; agreement is a consistency check, not independent replication.",
+    "interpretation": "A 30-unit zodiac scheme is a useful hypothesis. Strict one-item-per-civil-day reading does not fit all represented months; a schematic calendar remains possible."
+  },
+  "image_sources": [
+    {
+      "canvas": "1006124",
+      "source_url": "https://collections.library.yale.edu/iiif/2/1006124/full/!1600,2000/0/default.jpg",
+      "source_sha256": "44408ca8da583e0788777c0e5dcb1568ec8031f84d3ab2da5cca0f39cd8d9ffd",
+      "size": [
+        1457,
+        2000
+      ]
+    },
+    {
+      "canvas": "1006156",
+      "source_url": "https://collections.library.yale.edu/iiif/2/1006156/full/!1600,2000/0/default.jpg",
+      "source_sha256": "7ef556c6287c7d7ad9e38539039a5d45ef6b29b93ed050d116bf67a8b2aad46a",
+      "size": [
+        1519,
+        2000
+      ]
+    },
+    {
+      "canvas": "1006194",
+      "source_url": "https://collections.library.yale.edu/iiif/2/1006194/full/!5000,2000/0/default.jpg",
+      "source_sha256": "905591d00eed428ec851f78c8222899dd8abd49fdb96c7012d3195fa6a9c50ff",
+      "size": [
+        2660,
+        2000
+      ]
+    },
+    {
+      "canvas": "1006202",
+      "source_url": "https://collections.library.yale.edu/iiif/2/1006202/full/!1600,2000/0/default.jpg",
+      "source_sha256": "95298755c9cfc78d4411a0fd16e7cafc10e4d7696fb3a5873fa1e40393cb8e49",
+      "size": [
+        1485,
+        2000
+      ]
+    },
+    {
+      "canvas": "1006254",
+      "source_url": "https://collections.library.yale.edu/iiif/2/1006254/full/!1600,2000/0/default.jpg",
+      "source_sha256": "85daebd1ac160ae842492c76b2acfbb8eb24c73e1b6146ca3d1835f32cb33727",
+      "size": [
+        1413,
+        2000
+      ]
+    },
+    {
+      "canvas": "1006091",
+      "source_url": "https://collections.library.yale.edu/iiif/2/1006091/full/!1600,2000/0/default.jpg",
+      "source_sha256": "16a451f328aec8f4fd173240acc436d32c59dc8b2acba6effdd2847255ab8574",
+      "size": [
+        1470,
+        2000
+      ]
+    },
+    {
+      "canvas": "1006171",
+      "source_url": "https://collections.library.yale.edu/iiif/2/1006171/full/!1600,2000/0/default.jpg",
+      "source_sha256": "51eb763c5893d11dbbfd5250072e3bbf8c418026d8408f658ad88f06038838b2",
+      "size": [
+        1557,
+        2000
+      ]
+    },
+    {
+      "canvas": "1006187",
+      "source_url": "https://collections.library.yale.edu/iiif/2/1006187/full/!1600,2000/0/default.jpg",
+      "source_sha256": "8b6319a84d432deb3d8015f1fe50efb5b21376029be7da43f93bbefd758d6e9d",
+      "size": [
+        1600,
+        1992
+      ]
+    },
+    {
+      "canvas": "1006201",
+      "source_url": "https://collections.library.yale.edu/iiif/2/1006201/full/!1600,2000/0/default.jpg",
+      "source_sha256": "0ec6538161413f6a98ae0c639e951ae98fb773b0e4553f05cfa59a992498235d",
+      "size": [
+        1600,
+        1987
+      ]
+    },
+    {
+      "canvas": "1006200",
+      "source_url": "https://collections.library.yale.edu/iiif/2/1006200/full/!1600,2000/0/default.jpg",
+      "source_sha256": "24043183eb8e0c85fce3c7ba8a5414b9471b90cf1c0352561645aa6954cbe996",
+      "size": [
+        1600,
+        1530
+      ]
+    },
+    {
+      "canvas": "1006206",
+      "source_url": "https://collections.library.yale.edu/iiif/2/1006206/full/!1600,2000/0/default.jpg",
+      "source_sha256": "72aeb4c0e861d5ac3b6427a9d64c16bfec827302656e7c8c24b67376b410caf4",
+      "size": [
+        1507,
+        2000
+      ]
+    },
+    {
+      "canvas": "1006198",
+      "source_url": "https://collections.library.yale.edu/iiif/2/1006198/full/!1600,2000/0/default.jpg",
+      "source_sha256": "1b9808f0bd1e2c22eee003c2454efbaf2f38ccc32d015859b8d84db53687846b",
+      "size": [
+        1484,
+        2000
+      ]
+    },
+    {
+      "canvas": "1006076",
+      "source_url": "https://collections.library.yale.edu/iiif/2/1006076/full/!1600,2000/0/default.jpg",
+      "source_sha256": "390cc8662551af38d6682cd361070eb5806c60979336ccf3efa3bb6de8bef113",
+      "size": [
+        1578,
+        2000
+      ]
+    }
+  ],
+  "limits": [
+    "Un número de folio no es una cantidad descrita por el texto de esa hoja.",
+    "Los nombres de meses se describen como adiciones de otra mano; no identifican el idioma del texto principal.",
+    "Las cifras junto a signos no demuestran equivalencia semántica ni contemporaneidad.",
+    "Los recuentos de etiquetas en ZL y el catálogo de Zandbergen comparten autoría/fuentes: no son validación externa independiente.",
+    "Las letras EVA son nombres modernos de transcripción, no valores fonéticos ni numéricos.",
+    "Las observaciones son exploratorias; no se calculan p-valores ni se propone una traducción.",
+    "No se asignan automáticamente valores a formas parecidas a 2, 4, 8 o 9 en el texto principal."
+  ]
+}

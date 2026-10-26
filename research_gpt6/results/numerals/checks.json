@@ -1,0 +1,14 @@
+{
+  "status": "PASS_INTERNAL_CONSISTENCY",
+  "scope": "Coverage, coordinates, source hashes, transcript pairing and bibliography count consistency. Not verification of semantic interpretations.",
+  "unique_case_ids": true,
+  "source_images_hash_checked": 13,
+  "crop_bounds_checked": 20,
+  "f49v_pairs_checked": 26,
+  "numeral_pairings_checked": 5,
+  "zodiac_label_counts_checked": 12,
+  "manual_figure_counts": {
+    "70v1": 15,
+    "71r": 15
+  }
+}
