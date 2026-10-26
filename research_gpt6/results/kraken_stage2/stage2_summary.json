@@ -1,0 +1,426 @@
+{
+  "annotation_review": "ASSISTANT_SINGLE_REVIEW_PROVISIONAL",
+  "calibration": {
+    "candidates": [
+      {
+        "absolute_count_error": 7,
+        "counts": {
+          "1r": 24,
+          "1v": 14,
+          "2r": 13,
+          "2v": 9
+        },
+        "deskew": false,
+        "tolerance_factor": 0.45
+      },
+      {
+        "absolute_count_error": 2,
+        "counts": {
+          "1r": 24,
+          "1v": 10,
+          "2r": 13,
+          "2v": 8
+        },
+        "deskew": true,
+        "tolerance_factor": 0.45
+      },
+      {
+        "absolute_count_error": 6,
+        "counts": {
+          "1r": 22,
+          "1v": 11,
+          "2r": 13,
+          "2v": 7
+        },
+        "deskew": false,
+        "tolerance_factor": 0.65
+      },
+      {
+        "absolute_count_error": 5,
+        "counts": {
+          "1r": 21,
+          "1v": 10,
+          "2r": 13,
+          "2v": 8
+        },
+        "deskew": true,
+        "tolerance_factor": 0.65
+      },
+      {
+        "absolute_count_error": 15,
+        "counts": {
+          "1r": 16,
+          "1v": 8,
+          "2r": 8,
+          "2v": 6
+        },
+        "deskew": false,
+        "tolerance_factor": 0.85
+      },
+      {
+        "absolute_count_error": 18,
+        "counts": {
+          "1r": 15,
+          "1v": 7,
+          "2r": 8,
+          "2v": 5
+        },
+        "deskew": true,
+        "tolerance_factor": 0.85
+      }
+    ],
+    "scope": "Leaves 1/2 count-proxy calibration only",
+    "selected": {
+      "absolute_count_error": 2,
+      "counts": {
+        "1r": 24,
+        "1v": 10,
+        "2r": 13,
+        "2v": 8
+      },
+      "deskew": true,
+      "tolerance_factor": 0.45
+    }
+  },
+  "code_sha256": "cdf8e7706a7dd35e2515384173a0e81ccc1083b0ba024eb5561bce9478aa0559",
+  "duration_seconds": 175.272937007,
+  "execution_commit": "19e12c1585697ff1e0cd596ed4381704115e15ef",
+  "experiment": "kraken-region-assembly-and-conditional-ocr-2026-10-14",
+  "failures": [],
+  "language_identification": "NOT_RUN",
+  "layout": {
+    "case_summaries": [
+      {
+        "absolute_count_error": 4,
+        "f1": 0.9090909090909091,
+        "folio": "3r",
+        "line_count": 24,
+        "reference_count": 20,
+        "variant": "full_page_raw",
+        "width": 1800
+      },
+      {
+        "absolute_count_error": 3,
+        "f1": 0.9302325581395349,
+        "folio": "3r",
+        "line_count": 23,
+        "reference_count": 20,
+        "variant": "paragraph_filter",
+        "width": 1800
+      },
+      {
+        "absolute_count_error": 0,
+        "f1": 1.0,
+        "folio": "3r",
+        "line_count": 20,
+        "reference_count": 20,
+        "variant": "paragraph_filter_and_assembly",
+        "width": 1800
+      },
+      {
+        "absolute_count_error": 4,
+        "f1": 0.9090909090909091,
+        "folio": "3r",
+        "line_count": 24,
+        "reference_count": 20,
+        "variant": "full_page_raw",
+        "width": 1200
+      },
+      {
+        "absolute_count_error": 3,
+        "f1": 0.9302325581395349,
+        "folio": "3r",
+        "line_count": 23,
+        "reference_count": 20,
+        "variant": "paragraph_filter",
+        "width": 1200
+      },
+      {
+        "absolute_count_error": 0,
+        "f1": 1.0,
+        "folio": "3r",
+        "line_count": 20,
+        "reference_count": 20,
+        "variant": "paragraph_filter_and_assembly",
+        "width": 1200
+      },
+      {
+        "absolute_count_error": 11,
+        "f1": 0.41025641025641024,
+        "folio": "3v",
+        "line_count": 25,
+        "reference_count": 14,
+        "variant": "full_page_raw",
+        "width": 1800
+      },
+      {
+        "absolute_count_error": 11,
+        "f1": 0.41025641025641024,
+        "folio": "3v",
+        "line_count": 25,
+        "reference_count": 14,
+        "variant": "paragraph_filter",
+        "width": 1800
+      },
+      {
+        "absolute_count_error": 0,
+        "f1": 0.9285714285714286,
+        "folio": "3v",
+        "line_count": 14,
+        "reference_count": 14,
+        "variant": "paragraph_filter_and_assembly",
+        "width": 1800
+      },
+      {
+        "absolute_count_error": 11,
+        "f1": 0.41025641025641024,
+        "folio": "3v",
+        "line_count": 25,
+        "reference_count": 14,
+        "variant": "full_page_raw",
+        "width": 1200
+      },
+      {
+        "absolute_count_error": 11,
+        "f1": 0.41025641025641024,
+        "folio": "3v",
+        "line_count": 25,
+        "reference_count": 14,
+        "variant": "paragraph_filter",
+        "width": 1200
+      },
+      {
+        "absolute_count_error": 0,
+        "f1": 0.9285714285714286,
+        "folio": "3v",
+        "line_count": 14,
+        "reference_count": 14,
+        "variant": "paragraph_filter_and_assembly",
+        "width": 1200
+      },
+      {
+        "absolute_count_error": 7,
+        "f1": 0.42424242424242425,
+        "folio": "4r",
+        "line_count": 20,
+        "reference_count": 13,
+        "variant": "full_page_raw",
+        "width": 1800
+      },
+      {
+        "absolute_count_error": 5,
+        "f1": 0.45161290322580644,
+        "folio": "4r",
+        "line_count": 18,
+        "reference_count": 13,
+        "variant": "paragraph_filter",
+        "width": 1800
+      },
+      {
+        "absolute_count_error": 0,
+        "f1": 0.7692307692307693,
+        "folio": "4r",
+        "line_count": 13,
+        "reference_count": 13,
+        "variant": "paragraph_filter_and_assembly",
+        "width": 1800
+      },
+      {
+        "absolute_count_error": 8,
+        "f1": 0.35294117647058826,
+        "folio": "4r",
+        "line_count": 21,
+        "reference_count": 13,
+        "variant": "full_page_raw",
+        "width": 1200
+      },
+      {
+        "absolute_count_error": 6,
+        "f1": 0.375,
+        "folio": "4r",
+        "line_count": 19,
+        "reference_count": 13,
+        "variant": "paragraph_filter",
+        "width": 1200
+      },
+      {
+        "absolute_count_error": 0,
+        "f1": 0.6153846153846154,
+        "folio": "4r",
+        "line_count": 13,
+        "reference_count": 13,
+        "variant": "paragraph_filter_and_assembly",
+        "width": 1200
+      },
+      {
+        "absolute_count_error": 9,
+        "f1": 0.3783783783783784,
+        "folio": "4v",
+        "line_count": 23,
+        "reference_count": 14,
+        "variant": "full_page_raw",
+        "width": 1800
+      },
+      {
+        "absolute_count_error": 9,
+        "f1": 0.3783783783783784,
+        "folio": "4v",
+        "line_count": 23,
+        "reference_count": 14,
+        "variant": "paragraph_filter",
+        "width": 1800
+      },
+      {
+        "absolute_count_error": 0,
+        "f1": 0.9285714285714286,
+        "folio": "4v",
+        "line_count": 14,
+        "reference_count": 14,
+        "variant": "paragraph_filter_and_assembly",
+        "width": 1800
+      },
+      {
+        "absolute_count_error": 8,
+        "f1": 0.5,
+        "folio": "4v",
+        "line_count": 22,
+        "reference_count": 14,
+        "variant": "full_page_raw",
+        "width": 1200
+      },
+      {
+        "absolute_count_error": 8,
+        "f1": 0.5,
+        "folio": "4v",
+        "line_count": 22,
+        "reference_count": 14,
+        "variant": "paragraph_filter",
+        "width": 1200
+      },
+      {
+        "absolute_count_error": 0,
+        "f1": 0.9285714285714286,
+        "folio": "4v",
+        "line_count": 14,
+        "reference_count": 14,
+        "variant": "paragraph_filter_and_assembly",
+        "width": 1200
+      }
+    ],
+    "primary_summaries": {
+      "full_page_raw_1200": {
+        "complete": true,
+        "f1": 0.42857142857142855,
+        "predicted": 43,
+        "reference": 27,
+        "relative_count_error": 0.5925925925925926,
+        "tp": 15
+      },
+      "full_page_raw_1800": {
+        "complete": true,
+        "f1": 0.4,
+        "predicted": 43,
+        "reference": 27,
+        "relative_count_error": 0.5925925925925926,
+        "tp": 14
+      },
+      "paragraph_filter_1200": {
+        "complete": true,
+        "f1": 0.4411764705882353,
+        "predicted": 41,
+        "reference": 27,
+        "relative_count_error": 0.5185185185185185,
+        "tp": 15
+      },
+      "paragraph_filter_1800": {
+        "complete": true,
+        "f1": 0.4117647058823529,
+        "predicted": 41,
+        "reference": 27,
+        "relative_count_error": 0.5185185185185185,
+        "tp": 14
+      },
+      "paragraph_filter_and_assembly_1200": {
+        "complete": true,
+        "f1": 0.7777777777777778,
+        "predicted": 27,
+        "reference": 27,
+        "relative_count_error": 0.0,
+        "tp": 21
+      },
+      "paragraph_filter_and_assembly_1800": {
+        "complete": true,
+        "f1": 0.8518518518518519,
+        "predicted": 27,
+        "reference": 27,
+        "relative_count_error": 0.0,
+        "tp": 23
+      }
+    },
+    "source_images": [],
+    "status": "FAIL_OPERATOR_ASSISTED_LAYOUT_PILOT"
+  },
+  "masks_sha256": "3eb07d2eb58eabc4c1f09bdfe3f943a59aef8292b00b57d61dc6706bf22ec31f",
+  "ocr": {
+    "checkpoint_sha256": "d24ed8c276fef2763ff490e04fbdc6aa3a3adfc10dc95e42cbe713c242e2c779",
+    "dataset": {
+      "input": "Human-reference box crops with manual paragraph masks",
+      "test_folios": [
+        "4r",
+        "4v"
+      ],
+      "test_rows": 27,
+      "train_folios": [
+        "3r",
+        "3v"
+      ],
+      "train_rows": 34
+    },
+    "final_epoch_zero_based": 39,
+    "metrics": {
+      "empty_output": {
+        "errors": 699,
+        "gcr": 1.0,
+        "nonspace_gcr": 1.0,
+        "reference_units": 699
+      },
+      "kraken": {
+        "errors": 668,
+        "gcr": 0.9556509298998569,
+        "nonspace_gcr": 0.9468267581475128,
+        "reference_units": 699
+      },
+      "nearest_training_line_by_fixed_image_features": {
+        "errors": 652,
+        "gcr": 0.932761087267525,
+        "nonspace_gcr": 0.9605488850771869,
+        "reference_units": 699
+      },
+      "repeat_training_mode_to_training_median_length": {
+        "errors": 685,
+        "gcr": 0.9799713876967096,
+        "nonspace_gcr": 1.0617495711835334,
+        "reference_units": 699
+      }
+    },
+    "model_scope": "Fixed final epoch; training-only monitoring, no test-based selection; manual-reference segmentation.",
+    "model_sha256": "2c64034def4486a09134257f457a06d1664700c958482f3f0d671d9c5283e45d",
+    "status": "FAIL_CONDITIONAL_OCR_PILOT",
+    "test_unknown_unit_occurrences": 6,
+    "test_unseen_unit_occurrences": 0,
+    "test_unseen_units": [],
+    "train_codec_observed_units": 21,
+    "training_labels_parsed_and_verified": 34,
+    "training_log_sha256": "175da66315bd4c87189a4f4b5f649951c0563b3ecd8856471c829426b1e0ad84",
+    "training_returncode": 0,
+    "training_seconds": 83.75113177200004,
+    "training_status": "COMPLETED_FIXED_EPOCHS"
+  },
+  "plan_sha256": "4876a6d23fee0c02c67ed7da1a360d88836683bb592de9820f988a50a7b6f35b",
+  "reference_sha256": "9dcbc4a52b4232b13a99a0f1aacc0627e163b6c5c2910f29d695c51331767437",
+  "run_attempt": "1",
+  "run_id": "38707533236",
+  "schema_version": 1,
+  "tools_sha256": "6a9ea6eae5069dc47d61bed437ba003e048c710fbcc84e701e9366801523f2c8",
+  "translation": "NOT_RUN"
+}

@@ -45,3 +45,9 @@ La prioridad propuesta es contrastar la transcripción ZL con una anotación ind
 En la rama `experiment/kraken-voynich`: [protocolo fijado](research_gpt6/47_kraken_pilot_protocol.md) y [resultado ejecutado](research_gpt6/48_kraken_pilot_result.md). Kraken 7.1 comparó segmentación neuronal y clásica en cuatro imágenes de Yale y dos resoluciones, con una transcripción independiente de Boxer y controles positivo/negativo.
 
 Pasaron 16 controles de ejecución. El modelo neuronal produjo 120 segmentos frente a 53 filas de transcripción y falló el criterio fijado (`FAIL_COUNT_PROXY`). En el control con escritura conocida obtuvo F1 geométrico 0,8632. Se conserva el resultado completo, su auditoría y vistas de f1r/f1v. Hacen falta regiones y recortes alineados/revisados antes de medir reconocimiento de glifos; entrenamiento y traducción siguen `NOT_RUN`.
+
+## Ruta Kraken: recuperación del 26 de octubre de 2026
+
+[Primer reconocimiento evaluado](research_gpt6/50_kraken_stage2_result.md): ejecución completa de 40 épocas sobre 34 filas y evaluación en 27 filas de otra hoja. El error de unidades es 95,5651%, peor que el comparador por imagen (93,2761%). El ensamblado recupera el conteo, pero falla el criterio espacial a 1200 px. Ambos criterios científicos quedan FAIL; traducción NOT_RUN. Se conservan el modelo final, las salidas, tres intentos fallidos y una auditoría numérica de 2.207 comprobaciones sin discrepancias.
+
+[Protocolo de calidad de recortes](research_gpt6/51_crop_quality_protocol.md): diagnóstico de repetición literal de posiciones entre recortes del conjunto ya explorado, fijado antes de medirlo. No constituye una nueva reserva confirmatoria ni un entrenamiento.

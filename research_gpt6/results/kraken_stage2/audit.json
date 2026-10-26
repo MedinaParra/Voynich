@@ -1,0 +1,85 @@
+{
+  "audit_date": "2026-10-26",
+  "checks": 2207,
+  "mismatches": [],
+  "ocr_metrics": {
+    "empty_output": {
+      "errors": 699,
+      "gcr": 1.0,
+      "nonspace_gcr": 1.0,
+      "reference_units": 699
+    },
+    "kraken": {
+      "errors": 668,
+      "gcr": 0.9556509298998569,
+      "nonspace_gcr": 0.9468267581475128,
+      "reference_units": 699
+    },
+    "nearest_training_line_by_fixed_image_features": {
+      "errors": 652,
+      "gcr": 0.932761087267525,
+      "nonspace_gcr": 0.9605488850771869,
+      "reference_units": 699
+    },
+    "repeat_training_mode_to_training_median_length": {
+      "errors": 685,
+      "gcr": 0.9799713876967096,
+      "nonspace_gcr": 1.0617495711835334,
+      "reference_units": 699
+    }
+  },
+  "primary": {
+    "full_page_raw_1200": {
+      "complete": true,
+      "f1": 0.42857142857142855,
+      "predicted": 43,
+      "reference": 27,
+      "relative_count_error": 0.5925925925925926,
+      "tp": 15
+    },
+    "full_page_raw_1800": {
+      "complete": true,
+      "f1": 0.4,
+      "predicted": 43,
+      "reference": 27,
+      "relative_count_error": 0.5925925925925926,
+      "tp": 14
+    },
+    "paragraph_filter_1200": {
+      "complete": true,
+      "f1": 0.4411764705882353,
+      "predicted": 41,
+      "reference": 27,
+      "relative_count_error": 0.5185185185185185,
+      "tp": 15
+    },
+    "paragraph_filter_1800": {
+      "complete": true,
+      "f1": 0.4117647058823529,
+      "predicted": 41,
+      "reference": 27,
+      "relative_count_error": 0.5185185185185185,
+      "tp": 14
+    },
+    "paragraph_filter_and_assembly_1200": {
+      "complete": true,
+      "f1": 0.7777777777777778,
+      "predicted": 27,
+      "reference": 27,
+      "relative_count_error": 0.0,
+      "tp": 21
+    },
+    "paragraph_filter_and_assembly_1800": {
+      "complete": true,
+      "f1": 0.8518518518518519,
+      "predicted": 27,
+      "reference": 27,
+      "relative_count_error": 0.0,
+      "tp": 23
+    }
+  },
+  "result_sha256": "2885560464c395fab2a3a584d932e588dcedce70b56e280d82cb08caf3eeb396",
+  "run_id": "38707533236",
+  "scope": "Independent numerical reimplementation; not new inference or expert annotation review",
+  "status": "PASS"
+}

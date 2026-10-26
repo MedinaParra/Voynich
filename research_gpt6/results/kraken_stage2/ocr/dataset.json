@@ -1,0 +1,1623 @@
+[
+  {
+    "boxer_tokens": [
+      "M,c^c,c,o,2",
+      "4,o,P2,a,x",
+      "cc,o,x",
+      "c,M,c,o,x",
+      "8,a,i,Q,Q"
+    ],
+    "crop_size": [
+      664,
+      96
+    ],
+    "folio": "3r",
+    "id": "3r.p1.l1",
+    "image_sha256": "0f44982093797926edd1c9ec24d2a1e66976594615fd70eec58eeebb331a129b",
+    "path": "/home/runner/work/Voynich/Voynich/research_gpt6/results/kraken_stage2/ocr/train/3r_p1_l1.png",
+    "review": "ASSISTANT_SINGLE_REVIEW_PROVISIONAL",
+    "role": "train",
+    "source_bbox": [
+      0.13555555555555557,
+      0.13560666137985725,
+      0.5044444444444445,
+      0.17367168913560665
+    ],
+    "text": "\udbbd\udc23\udbbd\udcc2\udbbd\udc06\udbbd\udc14\udbbd\udc0a \udbbd\udc1d\udbbd\udc14\udbbd\udc21\udbbd\udc10\udbbd\udc1a \udbbd\udcc0\udbbd\udc14\udbbd\udc1a \udbbd\udc06\udbbd\udc23\udbbd\udc06\udbbd\udc14\udbbd\udc1a \udbbd\udc09\udbbd\udc10\udbbd\udc00\udbbd\udc0b\udbbd\udc0b"
+  },
+  {
+    "boxer_tokens": [
+      "9,cc,c,o,Z",
+      "cc,o,Z",
+      "8,a,Q",
+      "4,o,M,cc,a,Q",
+      "cc,a,Q"
+    ],
+    "crop_size": [
+      671,
+      71
+    ],
+    "folio": "3r",
+    "id": "3r.p1.l2",
+    "image_sha256": "b22b86e2ca7730f860511acf8b75230e4be097c7bdd61374f480a5e49908cb73",
+    "path": "/home/runner/work/Voynich/Voynich/research_gpt6/results/kraken_stage2/ocr/train/3r_p1_l2.png",
+    "review": "ASSISTANT_SINGLE_REVIEW_PROVISIONAL",
+    "role": "train",
+    "source_bbox": [
+      0.13666666666666666,
+      0.1641554321966693,
+      0.5088888888888888,
+      0.19191118160190326
+    ],
+    "text": "\udbbd\udc17\udbbd\udcc0\udbbd\udc06\udbbd\udc14\udbbd\udc03 \udbbd\udcc0\udbbd\udc14\udbbd\udc03 \udbbd\udc09\udbbd\udc10\udbbd\udc0b \udbbd\udc1d\udbbd\udc14\udbbd\udc23\udbbd\udcc0\udbbd\udc10\udbbd\udc0b \udbbd\udcc0\udbbd\udc10\udbbd\udc0b"
+  },
+  {
+    "boxer_tokens": [
+      "o,cc,o,Z",
+      "4,o,cc,c,o,Z",
+      "cc,o,x",
+      "8,a,m",
+      "c,M,c,9"
+    ],
+    "crop_size": [
+      666,
+      74
+    ],
+    "folio": "3r",
+    "id": "3r.p1.l3",
+    "image_sha256": "0f301e8908b7f4606d62913023e0220ed2a707f122409150bbd19aa195bbae74",
+    "path": "/home/runner/work/Voynich/Voynich/research_gpt6/results/kraken_stage2/ocr/train/3r_p1_l3.png",
+    "review": "ASSISTANT_SINGLE_REVIEW_PROVISIONAL",
+    "role": "train",
+    "source_bbox": [
+      0.1388888888888889,
+      0.18160190325138778,
+      0.5088888888888888,
+      0.21094369547977795
+    ],
+    "text": "\udbbd\udc14\udbbd\udcc0\udbbd\udc14\udbbd\udc03 \udbbd\udc1d\udbbd\udc14\udbbd\udcc0\udbbd\udc06\udbbd\udc14\udbbd\udc03 \udbbd\udcc0\udbbd\udc14\udbbd\udc1a \udbbd\udc09\udbbd\udc10\udbbd\udd05 \udbbd\udc06\udbbd\udc23\udbbd\udc06\udbbd\udc17"
+  },
+  {
+    "boxer_tokens": [
+      "2,cc,c,9",
+      "cc,o,Z",
+      "cc,a,x",
+      "cc,a,Q",
+      "cc,a,Q",
+      "cc,o"
+    ],
+    "crop_size": [
+      676,
+      72
+    ],
+    "folio": "3r",
+    "id": "3r.p1.l4",
+    "image_sha256": "7cffdae14014122159daaaa5e865d14d5ab4e6cf82327b817700054a48281971",
+    "path": "/home/runner/work/Voynich/Voynich/research_gpt6/results/kraken_stage2/ocr/train/3r_p1_l4.png",
+    "review": "ASSISTANT_SINGLE_REVIEW_PROVISIONAL",
+    "role": "train",
+    "source_bbox": [
+      0.13555555555555557,
+      0.20222045995241872,
+      0.5111111111111111,
+      0.23076923076923078
+    ],
+    "text": "\udbbd\udc0a\udbbd\udcc0\udbbd\udc06\udbbd\udc17 \udbbd\udcc0\udbbd\udc14\udbbd\udc03 \udbbd\udcc0\udbbd\udc10\udbbd\udc1a \udbbd\udcc0\udbbd\udc10\udbbd\udc0b \udbbd\udcc0\udbbd\udc10\udbbd\udc0b \udbbd\udcc0\udbbd\udc14"
+  },
+  {
+    "boxer_tokens": [
+      "4,o,N,o,x",
+      "cc,o,x,o,x,9",
+      "2",
+      "cc,a,Q",
+      "c,M,c,o,x"
+    ],
+    "crop_size": [
+      669,
+      80
+    ],
+    "folio": "3r",
+    "id": "3r.p1.l5",
+    "image_sha256": "ec85dbcce253cd18c84d1fd2d61da8c70ffd5782e3af940055ff4e03ed050544",
+    "path": "/home/runner/work/Voynich/Voynich/research_gpt6/results/kraken_stage2/ocr/train/3r_p1_l5.png",
+    "review": "ASSISTANT_SINGLE_REVIEW_PROVISIONAL",
+    "role": "train",
+    "source_bbox": [
+      0.13555555555555557,
+      0.22204599524187152,
+      0.5066666666666667,
+      0.253766851704996
+    ],
+    "text": "\udbbd\udc1d\udbbd\udc14\udbbd\udc22\udbbd\udc14\udbbd\udc1a \udbbd\udcc0\udbbd\udc14\udbbd\udc1a\udbbd\udc14\udbbd\udc1a\udbbd\udc17 \udbbd\udc0a \udbbd\udcc0\udbbd\udc10\udbbd\udc0b \udbbd\udc06\udbbd\udc23\udbbd\udc06\udbbd\udc14\udbbd\udc1a"
+  },
+  {
+    "boxer_tokens": [
+      "9,cc,M,a,m",
+      "cc,o,Z",
+      "c,M,c,o,Q",
+      "o,M,a,x",
+      "8,a,Q"
+    ],
+    "crop_size": [
+      668,
+      81
+    ],
+    "folio": "3r",
+    "id": "3r.p1.l6",
+    "image_sha256": "f1602ef9f10d15dcca6fdf41ddec64ca7299b9f599ae69313c1a11c4f55f716d",
+    "path": "/home/runner/work/Voynich/Voynich/research_gpt6/results/kraken_stage2/ocr/train/3r_p1_l6.png",
+    "review": "ASSISTANT_SINGLE_REVIEW_PROVISIONAL",
+    "role": "train",
+    "source_bbox": [
+      0.13444444444444445,
+      0.24266455194290246,
+      0.5055555555555555,
+      0.274385408406027
+    ],
+    "text": "\udbbd\udc17\udbbd\udcc0\udbbd\udc23\udbbd\udc10\udbbd\udd05 \udbbd\udcc0\udbbd\udc14\udbbd\udc03 \udbbd\udc06\udbbd\udc23\udbbd\udc06\udbbd\udc14\udbbd\udc0b \udbbd\udc14\udbbd\udc23\udbbd\udc10\udbbd\udc1a \udbbd\udc09\udbbd\udc10\udbbd\udc0b"
+  },
+  {
+    "boxer_tokens": [
+      "o,M,cc,o,x",
+      "4,o,8,a,m",
+      "cc,o,Q",
+      "c^c,o,Q",
+      "8,a,Q,o"
+    ],
+    "crop_size": [
+      661,
+      94
+    ],
+    "folio": "3r",
+    "id": "3r.p1.l7",
+    "image_sha256": "9cc575db9d9853c1551c9c6276284d8c917c593b8bcf121b9af119869dba82e2",
+    "path": "/home/runner/work/Voynich/Voynich/research_gpt6/results/kraken_stage2/ocr/train/3r_p1_l7.png",
+    "review": "ASSISTANT_SINGLE_REVIEW_PROVISIONAL",
+    "role": "train",
+    "source_bbox": [
+      0.14,
+      0.25931800158604285,
+      0.5066666666666667,
+      0.2965900079302141
+    ],
+    "text": "\udbbd\udc14\udbbd\udc23\udbbd\udcc0\udbbd\udc14\udbbd\udc1a \udbbd\udc1d\udbbd\udc14\udbbd\udc09\udbbd\udc10\udbbd\udd05 \udbbd\udcc0\udbbd\udc14\udbbd\udc0b \udbbd\udcc2\udbbd\udc14\udbbd\udc0b \udbbd\udc09\udbbd\udc10\udbbd\udc0b\udbbd\udc14"
+  },
+  {
+    "boxer_tokens": [
+      "9,c^c,c,o,Z",
+      "cc,o,Z",
+      "cc,o,x",
+      "o,N,9",
+      "8,a,Q,o"
+    ],
+    "crop_size": [
+      670,
+      96
+    ],
+    "folio": "3r",
+    "id": "3r.p1.l8",
+    "image_sha256": "33064c9278345efa106ddefc18e70e83e2e799962d27ac190c3c1b377b865c8d",
+    "path": "/home/runner/work/Voynich/Voynich/research_gpt6/results/kraken_stage2/ocr/train/3r_p1_l8.png",
+    "review": "ASSISTANT_SINGLE_REVIEW_PROVISIONAL",
+    "role": "train",
+    "source_bbox": [
+      0.13555555555555557,
+      0.27835051546391754,
+      0.5077777777777778,
+      0.3164155432196669
+    ],
+    "text": "\udbbd\udc17\udbbd\udcc2\udbbd\udc06\udbbd\udc14\udbbd\udc03 \udbbd\udcc0\udbbd\udc14\udbbd\udc03 \udbbd\udcc0\udbbd\udc14\udbbd\udc1a \udbbd\udc14\udbbd\udc22\udbbd\udc17 \udbbd\udc09\udbbd\udc10\udbbd\udc0b\udbbd\udc14"
+  },
+  {
+    "boxer_tokens": [
+      "c^c,o",
+      "?,o,Z",
+      "c^c,c,o,x,8,a,Q",
+      "o,M,cc,o,8,9",
+      "o,x"
+    ],
+    "crop_size": [
+      646,
+      93
+    ],
+    "folio": "3r",
+    "id": "3r.p1.l9",
+    "image_sha256": "54fff51e92918c62fde0a6dc0b3d1fdf0fc6d19c07ab72ebfffeff6c4e8f2e4e",
+    "path": "/home/runner/work/Voynich/Voynich/research_gpt6/results/kraken_stage2/ocr/train/3r_p1_l9.png",
+    "review": "ASSISTANT_SINGLE_REVIEW_PROVISIONAL",
+    "role": "train",
+    "source_bbox": [
+      0.1388888888888889,
+      0.29976209357652656,
+      0.49777777777777776,
+      0.3362410785091198
+    ],
+    "text": "\udbbd\udcc2\udbbd\udc14 \udbbd\udd1f\udbbd\udc14\udbbd\udc03 \udbbd\udcc2\udbbd\udc06\udbbd\udc14\udbbd\udc1a\udbbd\udc09\udbbd\udc10\udbbd\udc0b \udbbd\udc14\udbbd\udc23\udbbd\udcc0\udbbd\udc14\udbbd\udc09\udbbd\udc17 \udbbd\udc14\udbbd\udc1a"
+  },
+  {
+    "boxer_tokens": [
+      "9,8,a,Z",
+      "cc,o,x",
+      "c,M,c,o,Q"
+    ],
+    "crop_size": [
+      378,
+      92
+    ],
+    "folio": "3r",
+    "id": "3r.p1.l10",
+    "image_sha256": "ccfef824545b6159164b9960559b3927c0b86d9e06d3e7cd99c3882076464263",
+    "path": "/home/runner/work/Voynich/Voynich/research_gpt6/results/kraken_stage2/ocr/train/3r_p1_l10.png",
+    "review": "ASSISTANT_SINGLE_REVIEW_PROVISIONAL",
+    "role": "train",
+    "source_bbox": [
+      0.1411111111111111,
+      0.31800158604282314,
+      0.3511111111111111,
+      0.35448057097541635
+    ],
+    "text": "\udbbd\udc17\udbbd\udc09\udbbd\udc10\udbbd\udc03 \udbbd\udcc0\udbbd\udc14\udbbd\udc1a \udbbd\udc06\udbbd\udc23\udbbd\udc06\udbbd\udc14\udbbd\udc0b"
+  },
+  {
+    "boxer_tokens": [
+      "P2,cc,c,o,x",
+      "c^c,o,x",
+      "2,o,x,2",
+      "c^c,c,o,x",
+      "c^c,c,9"
+    ],
+    "crop_size": [
+      616,
+      96
+    ],
+    "folio": "3r",
+    "id": "3r.p2.l1",
+    "image_sha256": "9089ddbbfcdb994f7861dcd38c50dd40f64863fd18fa252659567ee0bbdd803a",
+    "path": "/home/runner/work/Voynich/Voynich/research_gpt6/results/kraken_stage2/ocr/train/3r_p2_l1.png",
+    "review": "ASSISTANT_SINGLE_REVIEW_PROVISIONAL",
+    "role": "train",
+    "source_bbox": [
+      0.12444444444444444,
+      0.4195083267248216,
+      0.4666666666666667,
+      0.45757335448057096
+    ],
+    "text": "\udbbd\udc21\udbbd\udcc0\udbbd\udc06\udbbd\udc14\udbbd\udc1a \udbbd\udcc2\udbbd\udc14\udbbd\udc1a \udbbd\udc0a\udbbd\udc14\udbbd\udc1a\udbbd\udc0a \udbbd\udcc2\udbbd\udc06\udbbd\udc14\udbbd\udc1a \udbbd\udcc2\udbbd\udc06\udbbd\udc17"
+  },
+  {
+    "boxer_tokens": [
+      "o,N,a,8,a,m",
+      "4,o,N,cc,o,Z",
+      "4,o",
+      "2,cc,o,8,a,Q",
+      "o,c,M,c,9"
+    ],
+    "crop_size": [
+      746,
+      86
+    ],
+    "folio": "3r",
+    "id": "3r.p2.l2",
+    "image_sha256": "394e99e227bc46de0d5a71ad4a8dac6788f3b6d454c730e128f741d3c7af9163",
+    "path": "/home/runner/work/Voynich/Voynich/research_gpt6/results/kraken_stage2/ocr/train/3r_p2_l2.png",
+    "review": "ASSISTANT_SINGLE_REVIEW_PROVISIONAL",
+    "role": "train",
+    "source_bbox": [
+      0.1388888888888889,
+      0.44885011895321175,
+      0.5533333333333333,
+      0.4829500396510706
+    ],
+    "text": "\udbbd\udc14\udbbd\udc22\udbbd\udc10\udbbd\udc09\udbbd\udc10\udbbd\udd05 \udbbd\udc1d\udbbd\udc14\udbbd\udc22\udbbd\udcc0\udbbd\udc14\udbbd\udc03 \udbbd\udc1d\udbbd\udc14 \udbbd\udc0a\udbbd\udcc0\udbbd\udc14\udbbd\udc09\udbbd\udc10\udbbd\udc0b \udbbd\udc14\udbbd\udc06\udbbd\udc23\udbbd\udc06\udbbd\udc17"
+  },
+  {
+    "boxer_tokens": [
+      "4,o,N,c,c,9",
+      "4,o,M,c^c,c,9",
+      "4,o,N,o,8,9",
+      "4,o,N,c^c,c,9",
+      "cc,c,o,8,9"
+    ],
+    "crop_size": [
+      907,
+      100
+    ],
+    "folio": "3r",
+    "id": "3r.p2.l3",
+    "image_sha256": "3e30a67dc180dd8d142b7e560a4400ef2448895883e06cc447133c24b5bba48a",
+    "path": "/home/runner/work/Voynich/Voynich/research_gpt6/results/kraken_stage2/ocr/train/3r_p2_l3.png",
+    "review": "ASSISTANT_SINGLE_REVIEW_PROVISIONAL",
+    "role": "train",
+    "source_bbox": [
+      0.13666666666666666,
+      0.4639175257731959,
+      0.64,
+      0.5035685963521015
+    ],
+    "text": "\udbbd\udc1d\udbbd\udc14\udbbd\udc22\udbbd\udc06\udbbd\udc06\udbbd\udc17 \udbbd\udc1d\udbbd\udc14\udbbd\udc23\udbbd\udcc2\udbbd\udc06\udbbd\udc17 \udbbd\udc1d\udbbd\udc14\udbbd\udc22\udbbd\udc14\udbbd\udc09\udbbd\udc17 \udbbd\udc1d\udbbd\udc14\udbbd\udc22\udbbd\udcc2\udbbd\udc06\udbbd\udc17 \udbbd\udcc0\udbbd\udc06\udbbd\udc14\udbbd\udc09\udbbd\udc17"
+  },
+  {
+    "boxer_tokens": [
+      "cc,o,Z",
+      "4,o,8,a,i,Z",
+      "o,N,c,c,9",
+      "4,o,N,c,c,9"
+    ],
+    "crop_size": [
+      596,
+      83
+    ],
+    "folio": "3r",
+    "id": "3r.p2.l4",
+    "image_sha256": "4a95e9dc96d280ddde51c362e737a84d4d7f6a9a776303dddfec591533632263",
+    "path": "/home/runner/work/Voynich/Voynich/research_gpt6/results/kraken_stage2/ocr/train/3r_p2_l4.png",
+    "review": "ASSISTANT_SINGLE_REVIEW_PROVISIONAL",
+    "role": "train",
+    "source_bbox": [
+      0.1388888888888889,
+      0.4853291038858049,
+      0.47,
+      0.5178429817605076
+    ],
+    "text": "\udbbd\udcc0\udbbd\udc14\udbbd\udc03 \udbbd\udc1d\udbbd\udc14\udbbd\udc09\udbbd\udc10\udbbd\udc00\udbbd\udc03 \udbbd\udc14\udbbd\udc22\udbbd\udc06\udbbd\udc06\udbbd\udc17 \udbbd\udc1d\udbbd\udc14\udbbd\udc22\udbbd\udc06\udbbd\udc06\udbbd\udc17"
+  },
+  {
+    "boxer_tokens": [
+      "M,c^c,c,o,a,Z,o,Q",
+      "c^c,a,Z",
+      "o,Z",
+      "cc,o,Z",
+      "o,x,c,c,2,9",
+      "cc,o,Q",
+      "o,M,c,c,o,Q",
+      "o,P2,o,Z,a,Z"
+    ],
+    "crop_size": [
+      1286,
+      103
+    ],
+    "folio": "3r",
+    "id": "3r.p3.l1",
+    "image_sha256": "b6018dfd75e785877be2b5fd33c5194a007bd865b631d0bbb5159ea14149387c",
+    "path": "/home/runner/work/Voynich/Voynich/research_gpt6/results/kraken_stage2/ocr/train/3r_p3_l1.png",
+    "review": "ASSISTANT_SINGLE_REVIEW_PROVISIONAL",
+    "role": "train",
+    "source_bbox": [
+      0.13444444444444445,
+      0.5130848532910388,
+      0.8488888888888889,
+      0.5535289452815226
+    ],
+    "text": "\udbbd\udc23\udbbd\udcc2\udbbd\udc06\udbbd\udc14\udbbd\udc10\udbbd\udc03\udbbd\udc14\udbbd\udc0b \udbbd\udcc2\udbbd\udc10\udbbd\udc03 \udbbd\udc14\udbbd\udc03 \udbbd\udcc0\udbbd\udc14\udbbd\udc03 \udbbd\udc14\udbbd\udc1a\udbbd\udc06\udbbd\udc06\udbbd\udc0a\udbbd\udc17 \udbbd\udcc0\udbbd\udc14\udbbd\udc0b \udbbd\udc14\udbbd\udc23\udbbd\udc06\udbbd\udc06\udbbd\udc14\udbbd\udc0b \udbbd\udc14\udbbd\udc21\udbbd\udc14\udbbd\udc03\udbbd\udc10\udbbd\udc03"
+  },
+  {
+    "boxer_tokens": [
+      "o,M,c,o,x",
+      "cc,o,x",
+      "2",
+      "cc,c,o,x",
+      "c,N,c^c,9",
+      "4,o,N,c,o,Q",
+      "4,o,N,a,x",
+      "8,a,m",
+      "2,o,x,c,c,Q"
+    ],
+    "crop_size": [
+      1288,
+      86
+    ],
+    "folio": "3r",
+    "id": "3r.p3.l2",
+    "image_sha256": "003832ae54fedfe9b7b5e1d2e980760ce178659e7af845579a064b7b95b22797",
+    "path": "/home/runner/work/Voynich/Voynich/research_gpt6/results/kraken_stage2/ocr/train/3r_p3_l2.png",
+    "review": "ASSISTANT_SINGLE_REVIEW_PROVISIONAL",
+    "role": "train",
+    "source_bbox": [
+      0.13333333333333333,
+      0.5408406026962728,
+      0.8488888888888889,
+      0.5749405233941316
+    ],
+    "text": "\udbbd\udc14\udbbd\udc23\udbbd\udc06\udbbd\udc14\udbbd\udc1a \udbbd\udcc0\udbbd\udc14\udbbd\udc1a \udbbd\udc0a \udbbd\udcc0\udbbd\udc06\udbbd\udc14\udbbd\udc1a \udbbd\udc06\udbbd\udc22\udbbd\udcc2\udbbd\udc17 \udbbd\udc1d\udbbd\udc14\udbbd\udc22\udbbd\udc06\udbbd\udc14\udbbd\udc0b \udbbd\udc1d\udbbd\udc14\udbbd\udc22\udbbd\udc10\udbbd\udc1a \udbbd\udc09\udbbd\udc10\udbbd\udd05 \udbbd\udc0a\udbbd\udc14\udbbd\udc1a\udbbd\udc06\udbbd\udc06\udbbd\udc0b"
+  },
+  {
+    "boxer_tokens": [
+      "2,o,c,o,Q",
+      "o,N,c,o,Q",
+      "9,M,c,o,8,9",
+      "4,o,N,c,c,o,8,a,x",
+      "2,a,Q"
+    ],
+    "crop_size": [
+      830,
+      96
+    ],
+    "folio": "3r",
+    "id": "3r.p3.l3",
+    "image_sha256": "752ae3f151e0a7914db144972ea7f2ce6b24a2780b4e3a41ca38806b070f794a",
+    "path": "/home/runner/work/Voynich/Voynich/research_gpt6/results/kraken_stage2/ocr/train/3r_p3_l3.png",
+    "review": "ASSISTANT_SINGLE_REVIEW_PROVISIONAL",
+    "role": "train",
+    "source_bbox": [
+      0.13444444444444445,
+      0.5582870737509913,
+      0.5955555555555555,
+      0.5963521015067407
+    ],
+    "text": "\udbbd\udc0a\udbbd\udc14\udbbd\udc06\udbbd\udc14\udbbd\udc0b \udbbd\udc14\udbbd\udc22\udbbd\udc06\udbbd\udc14\udbbd\udc0b \udbbd\udc17\udbbd\udc23\udbbd\udc06\udbbd\udc14\udbbd\udc09\udbbd\udc17 \udbbd\udc1d\udbbd\udc14\udbbd\udc22\udbbd\udc06\udbbd\udc06\udbbd\udc14\udbbd\udc09\udbbd\udc10\udbbd\udc1a \udbbd\udc0a\udbbd\udc10\udbbd\udc0b"
+  },
+  {
+    "boxer_tokens": [
+      "P2,cc,c,o,x,8,o,Q",
+      "c^c,o,8,a,m",
+      "4,o,P2,cc,o,Z",
+      "4,o,P2,o,x",
+      "o,P2,cc,o,x",
+      "4,o,M,9",
+      "o,M,o,x,o,Q"
+    ],
+    "crop_size": [
+      1306,
+      126
+    ],
+    "folio": "3r",
+    "id": "3r.p4.l1",
+    "image_sha256": "75fde262d0f9d474740fafc2789d974ee38f8e63767abf614ab31d4939ea0600",
+    "path": "/home/runner/work/Voynich/Voynich/research_gpt6/results/kraken_stage2/ocr/train/3r_p4_l1.png",
+    "review": "ASSISTANT_SINGLE_REVIEW_PROVISIONAL",
+    "role": "train",
+    "source_bbox": [
+      0.12333333333333334,
+      0.5876288659793815,
+      0.8488888888888889,
+      0.6375892149088025
+    ],
+    "text": "\udbbd\udc21\udbbd\udcc0\udbbd\udc06\udbbd\udc14\udbbd\udc1a\udbbd\udc09\udbbd\udc14\udbbd\udc0b \udbbd\udcc2\udbbd\udc14\udbbd\udc09\udbbd\udc10\udbbd\udd05 \udbbd\udc1d\udbbd\udc14\udbbd\udc21\udbbd\udcc0\udbbd\udc14\udbbd\udc03 \udbbd\udc1d\udbbd\udc14\udbbd\udc21\udbbd\udc14\udbbd\udc1a \udbbd\udc14\udbbd\udc21\udbbd\udcc0\udbbd\udc14\udbbd\udc1a \udbbd\udc1d\udbbd\udc14\udbbd\udc23\udbbd\udc17 \udbbd\udc14\udbbd\udc23\udbbd\udc14\udbbd\udc1a\udbbd\udc14\udbbd\udc0b"
+  },
+  {
+    "boxer_tokens": [
+      "o,M,cc,o,Z",
+      "o,x",
+      "cc,c,o,Z",
+      "4,o,c,o,Z",
+      "8,a,i,Z",
+      "4,o,M,c,o,x",
+      "4,o,2,a,m",
+      "cc,o,Z",
+      "c,M,c,9"
+    ],
+    "crop_size": [
+      1276,
+      108
+    ],
+    "folio": "3r",
+    "id": "3r.p4.l2",
+    "image_sha256": "4d9c6eb44644136b495c0bc17550e7a09f471a380fcc07f3466e7b6fdb3bfa97",
+    "path": "/home/runner/work/Voynich/Voynich/research_gpt6/results/kraken_stage2/ocr/train/3r_p4_l2.png",
+    "review": "ASSISTANT_SINGLE_REVIEW_PROVISIONAL",
+    "role": "train",
+    "source_bbox": [
+      0.14,
+      0.6169706582077716,
+      0.8488888888888889,
+      0.6597938144329897
+    ],
+    "text": "\udbbd\udc14\udbbd\udc23\udbbd\udcc0\udbbd\udc14\udbbd\udc03 \udbbd\udc14\udbbd\udc1a \udbbd\udcc0\udbbd\udc06\udbbd\udc14\udbbd\udc03 \udbbd\udc1d\udbbd\udc14\udbbd\udc06\udbbd\udc14\udbbd\udc03 \udbbd\udc09\udbbd\udc10\udbbd\udc00\udbbd\udc03 \udbbd\udc1d\udbbd\udc14\udbbd\udc23\udbbd\udc06\udbbd\udc14\udbbd\udc1a \udbbd\udc1d\udbbd\udc14\udbbd\udc0a\udbbd\udc10\udbbd\udd05 \udbbd\udcc0\udbbd\udc14\udbbd\udc03 \udbbd\udc06\udbbd\udc23\udbbd\udc06\udbbd\udc17"
+  },
+  {
+    "boxer_tokens": [
+      "9,cc,c,o,Z",
+      "cc,o,x",
+      "o,8,a,m",
+      "cc,o,x",
+      "2",
+      "a,m",
+      "o,N,o,x",
+      "o,Z",
+      "a,Q"
+    ],
+    "crop_size": [
+      980,
+      94
+    ],
+    "folio": "3r",
+    "id": "3r.p4.l3",
+    "image_sha256": "aa9027584c679facb4f35a174d645ad6a63934b073c14a469b54366007fb6880",
+    "path": "/home/runner/work/Voynich/Voynich/research_gpt6/results/kraken_stage2/ocr/train/3r_p4_l3.png",
+    "review": "ASSISTANT_SINGLE_REVIEW_PROVISIONAL",
+    "role": "train",
+    "source_bbox": [
+      0.13444444444444445,
+      0.6375892149088025,
+      0.6788888888888889,
+      0.6748612212529739
+    ],
+    "text": "\udbbd\udc17\udbbd\udcc0\udbbd\udc06\udbbd\udc14\udbbd\udc03 \udbbd\udcc0\udbbd\udc14\udbbd\udc1a \udbbd\udc14\udbbd\udc09\udbbd\udc10\udbbd\udd05 \udbbd\udcc0\udbbd\udc14\udbbd\udc1a \udbbd\udc0a \udbbd\udc10\udbbd\udd05 \udbbd\udc14\udbbd\udc22\udbbd\udc14\udbbd\udc1a \udbbd\udc14\udbbd\udc03 \udbbd\udc10\udbbd\udc0b"
+  },
+  {
+    "boxer_tokens": [
+      "N,o,a,m",
+      "c,P2,c,a,Z",
+      "4,o,M,o,9",
+      "c^c,a",
+      "c,N,c,o,x",
+      "9,N,o,a,m",
+      "2",
+      "o,x,9"
+    ],
+    "crop_size": [
+      868,
+      95
+    ],
+    "folio": "3v",
+    "id": "3v.p1.l1",
+    "image_sha256": "e990f238990169f8d3adca92ad5395baf4045213b330374756ce72ae5ad747d7",
+    "path": "/home/runner/work/Voynich/Voynich/research_gpt6/results/kraken_stage2/ocr/train/3v_p1_l1.png",
+    "review": "ASSISTANT_SINGLE_REVIEW_PROVISIONAL",
+    "role": "train",
+    "source_bbox": [
+      0.22333333333333333,
+      0.1074313408723748,
+      0.7055555555555556,
+      0.14539579967689822
+    ],
+    "text": "\udbbd\udc22\udbbd\udc14\udbbd\udc10\udbbd\udd05 \udbbd\udc06\udbbd\udc21\udbbd\udc06\udbbd\udc10\udbbd\udc03 \udbbd\udc1d\udbbd\udc14\udbbd\udc23\udbbd\udc14\udbbd\udc17 \udbbd\udcc2\udbbd\udc10 \udbbd\udc06\udbbd\udc22\udbbd\udc06\udbbd\udc14\udbbd\udc1a \udbbd\udc17\udbbd\udc22\udbbd\udc14\udbbd\udc10\udbbd\udd05 \udbbd\udc0a \udbbd\udc14\udbbd\udc1a\udbbd\udc17"
+  },
+  {
+    "boxer_tokens": [
+      "8,a,n,8,9",
+      "4,o,M,cc,o,x",
+      "o,N,cc,o,Z",
+      "o,N,o,Z",
+      "o,x,9,M,o,x",
+      "8,o,x",
+      "8,a,Z"
+    ],
+    "crop_size": [
+      872,
+      77
+    ],
+    "folio": "3v",
+    "id": "3v.p1.l2",
+    "image_sha256": "cc8d0a2d71caaa22e810dc271fb2b61df9f9b61c282f01d8031031f1ef916e12",
+    "path": "/home/runner/work/Voynich/Voynich/research_gpt6/results/kraken_stage2/ocr/train/3v_p1_l2.png",
+    "review": "ASSISTANT_SINGLE_REVIEW_PROVISIONAL",
+    "role": "train",
+    "source_bbox": [
+      0.22111111111111112,
+      0.13570274636510501,
+      0.7055555555555556,
+      0.16639741518578352
+    ],
+    "text": "\udbbd\udc09\udbbd\udc10\udbbd\udd01\udbbd\udc09\udbbd\udc17 \udbbd\udc1d\udbbd\udc14\udbbd\udc23\udbbd\udcc0\udbbd\udc14\udbbd\udc1a \udbbd\udc14\udbbd\udc22\udbbd\udcc0\udbbd\udc14\udbbd\udc03 \udbbd\udc14\udbbd\udc22\udbbd\udc14\udbbd\udc03 \udbbd\udc14\udbbd\udc1a\udbbd\udc17\udbbd\udc23\udbbd\udc14\udbbd\udc1a \udbbd\udc09\udbbd\udc14\udbbd\udc1a \udbbd\udc09\udbbd\udc10\udbbd\udc03"
+  },
+  {
+    "boxer_tokens": [
+      "o,N,o,Q",
+      "cc,o,x",
+      "c^c,o,x",
+      "2,c,c,c,2",
+      "cc,o,Q",
+      "cc,c,c,9,N,a,Q",
+      "o,N,a?"
+    ],
+    "crop_size": [
+      872,
+      79
+    ],
+    "folio": "3v",
+    "id": "3v.p1.l3",
+    "image_sha256": "f3807c9fc7ae4920985bce7a9dd89ac480132d1ec01b39060548ae97e0da96a3",
+    "path": "/home/runner/work/Voynich/Voynich/research_gpt6/results/kraken_stage2/ocr/train/3v_p1_l3.png",
+    "review": "ASSISTANT_SINGLE_REVIEW_PROVISIONAL",
+    "role": "train",
+    "source_bbox": [
+      0.22111111111111112,
+      0.15347334410339256,
+      0.7055555555555556,
+      0.18497576736672053
+    ],
+    "text": "\udbbd\udc14\udbbd\udc22\udbbd\udc14\udbbd\udc0b \udbbd\udcc0\udbbd\udc14\udbbd\udc1a \udbbd\udcc2\udbbd\udc14\udbbd\udc1a \udbbd\udc0a\udbbd\udc06\udbbd\udc06\udbbd\udc06\udbbd\udc0a \udbbd\udcc0\udbbd\udc14\udbbd\udc0b \udbbd\udcc0\udbbd\udc06\udbbd\udc06\udbbd\udc17\udbbd\udc22\udbbd\udc10\udbbd\udc0b \udbbd\udc14\udbbd\udc22\udbbd\udd1f"
+  },
+  {
+    "boxer_tokens": [
+      "4,o,8,a,Z",
+      "cc,2",
+      "cc,9",
+      "N,cc,c,o,x",
+      "o,N,a,x",
+      "8,o,Z",
+      "cc,c,a,Z,c,c,?"
+    ],
+    "crop_size": [
+      874,
+      87
+    ],
+    "folio": "3v",
+    "id": "3v.p1.l4",
+    "image_sha256": "0de8884cde32a78c3d7819d7ef5220ee73246bc8c093ce690381f2566ac7ae4a",
+    "path": "/home/runner/work/Voynich/Voynich/research_gpt6/results/kraken_stage2/ocr/train/3v_p1_l4.png",
+    "review": "ASSISTANT_SINGLE_REVIEW_PROVISIONAL",
+    "role": "train",
+    "source_bbox": [
+      0.22,
+      0.16962843295638125,
+      0.7055555555555556,
+      0.20436187399030695
+    ],
+    "text": "\udbbd\udc1d\udbbd\udc14\udbbd\udc09\udbbd\udc10\udbbd\udc03 \udbbd\udcc0\udbbd\udc0a \udbbd\udcc0\udbbd\udc17 \udbbd\udc22\udbbd\udcc0\udbbd\udc06\udbbd\udc14\udbbd\udc1a \udbbd\udc14\udbbd\udc22\udbbd\udc10\udbbd\udc1a \udbbd\udc09\udbbd\udc14\udbbd\udc03 \udbbd\udcc0\udbbd\udc06\udbbd\udc10\udbbd\udc03\udbbd\udc06\udbbd\udc06\udbbd\udd1f"
+  },
+  {
+    "boxer_tokens": [
+      "9,cc,c,a,Z",
+      "o,M,cc,a,x",
+      "cc,o,Z",
+      "cc,a,Z",
+      "?,N,c,9"
+    ],
+    "crop_size": [
+      642,
+      87
+    ],
+    "folio": "3v",
+    "id": "3v.p1.l5",
+    "image_sha256": "c583774af600281483800439faa42094f83d4c2ebe14a1d6ab09c1dae5b9e8de",
+    "path": "/home/runner/work/Voynich/Voynich/research_gpt6/results/kraken_stage2/ocr/train/3v_p1_l5.png",
+    "review": "ASSISTANT_SINGLE_REVIEW_PROVISIONAL",
+    "role": "train",
+    "source_bbox": [
+      0.22111111111111112,
+      0.18820678513731826,
+      0.5777777777777777,
+      0.22294022617124395
+    ],
+    "text": "\udbbd\udc17\udbbd\udcc0\udbbd\udc06\udbbd\udc10\udbbd\udc03 \udbbd\udc14\udbbd\udc23\udbbd\udcc0\udbbd\udc10\udbbd\udc1a \udbbd\udcc0\udbbd\udc14\udbbd\udc03 \udbbd\udcc0\udbbd\udc10\udbbd\udc03 \udbbd\udd1f\udbbd\udc22\udbbd\udc06\udbbd\udc17"
+  },
+  {
+    "boxer_tokens": [
+      "o,Z",
+      "cc,c,a,Z",
+      "N,o,Z",
+      "cc,o,8,a,x,9",
+      "cc,a,Q"
+    ],
+    "crop_size": [
+      626,
+      91
+    ],
+    "folio": "3v",
+    "id": "3v.p1.l6",
+    "image_sha256": "fd54e4be84211bd59a26154f3d30c429ec12bc504f1bcdea058c3005bd595658",
+    "path": "/home/runner/work/Voynich/Voynich/research_gpt6/results/kraken_stage2/ocr/train/3v_p1_l6.png",
+    "review": "ASSISTANT_SINGLE_REVIEW_PROVISIONAL",
+    "role": "train",
+    "source_bbox": [
+      0.21888888888888888,
+      0.20678513731825526,
+      0.5666666666666667,
+      0.2431340872374798
+    ],
+    "text": "\udbbd\udc14\udbbd\udc03 \udbbd\udcc0\udbbd\udc06\udbbd\udc10\udbbd\udc03 \udbbd\udc22\udbbd\udc14\udbbd\udc03 \udbbd\udcc0\udbbd\udc14\udbbd\udc09\udbbd\udc10\udbbd\udc1a\udbbd\udc17 \udbbd\udcc0\udbbd\udc10\udbbd\udc0b"
+  },
+  {
+    "boxer_tokens": [
+      "M,cc,o,Z",
+      "o,M,cc,a,Q",
+      "cc,o,Z",
+      "c,P1,c,a,Q",
+      "2"
+    ],
+    "crop_size": [
+      636,
+      107
+    ],
+    "folio": "3v",
+    "id": "3v.p2.l1",
+    "image_sha256": "b8e4cdf0c9fd7265c661ba75a31691baa6a5076097f42effe4f557de1055b55b",
+    "path": "/home/runner/work/Voynich/Voynich/research_gpt6/results/kraken_stage2/ocr/train/3v_p2_l1.png",
+    "review": "ASSISTANT_SINGLE_REVIEW_PROVISIONAL",
+    "role": "train",
+    "source_bbox": [
+      0.21555555555555556,
+      0.24151857835218093,
+      0.5688888888888889,
+      0.284329563812601
+    ],
+    "text": "\udbbd\udc23\udbbd\udcc0\udbbd\udc14\udbbd\udc03 \udbbd\udc14\udbbd\udc23\udbbd\udcc0\udbbd\udc10\udbbd\udc0b \udbbd\udcc0\udbbd\udc14\udbbd\udc03 \udbbd\udc06\udbbd\udc20\udbbd\udc06\udbbd\udc10\udbbd\udc0b \udbbd\udc0a"
+  },
+  {
+    "boxer_tokens": [
+      "9,N,cc,9",
+      "N,cc,o,Q",
+      "cc,o,Z",
+      "cc,c,N,c,o,x",
+      "o,N,a"
+    ],
+    "crop_size": [
+      664,
+      109
+    ],
+    "folio": "3v",
+    "id": "3v.p2.l2",
+    "image_sha256": "ded31e0655e00200be0c2efdc6bba25c26cec057414c7b1e5bae0187f71a8f1d",
+    "path": "/home/runner/work/Voynich/Voynich/research_gpt6/results/kraken_stage2/ocr/train/3v_p2_l2.png",
+    "review": "ASSISTANT_SINGLE_REVIEW_PROVISIONAL",
+    "role": "train",
+    "source_bbox": [
+      0.21555555555555556,
+      0.265751211631664,
+      0.5844444444444444,
+      0.30936995153473346
+    ],
+    "text": "\udbbd\udc17\udbbd\udc22\udbbd\udcc0\udbbd\udc17 \udbbd\udc22\udbbd\udcc0\udbbd\udc14\udbbd\udc0b \udbbd\udcc0\udbbd\udc14\udbbd\udc03 \udbbd\udcc0\udbbd\udc06\udbbd\udc22\udbbd\udc06\udbbd\udc14\udbbd\udc1a \udbbd\udc14\udbbd\udc22\udbbd\udc10"
+  },
+  {
+    "boxer_tokens": [
+      "9,M,c,c,c,c,a,Z",
+      "o,N,c,o,x",
+      "c,M,c,o,8,o,a,x,9",
+      "cc,o,Z",
+      "c,M,c,9"
+    ],
+    "crop_size": [
+      872,
+      95
+    ],
+    "folio": "3v",
+    "id": "3v.p2.l3",
+    "image_sha256": "5a11ada827d6ccb7aacdc64b5ae214909db8a8588c2b6fe9bf128f2973f4c234",
+    "path": "/home/runner/work/Voynich/Voynich/research_gpt6/results/kraken_stage2/ocr/train/3v_p2_l3.png",
+    "review": "ASSISTANT_SINGLE_REVIEW_PROVISIONAL",
+    "role": "train",
+    "source_bbox": [
+      0.21666666666666667,
+      0.28998384491114704,
+      0.7011111111111111,
+      0.32794830371567046
+    ],
+    "text": "\udbbd\udc17\udbbd\udc23\udbbd\udc06\udbbd\udc06\udbbd\udc06\udbbd\udc06\udbbd\udc10\udbbd\udc03 \udbbd\udc14\udbbd\udc22\udbbd\udc06\udbbd\udc14\udbbd\udc1a \udbbd\udc06\udbbd\udc23\udbbd\udc06\udbbd\udc14\udbbd\udc09\udbbd\udc14\udbbd\udc10\udbbd\udc1a\udbbd\udc17 \udbbd\udcc0\udbbd\udc14\udbbd\udc03 \udbbd\udc06\udbbd\udc23\udbbd\udc06\udbbd\udc17"
+  },
+  {
+    "boxer_tokens": [
+      "o,cc,o,2",
+      "8,a,m",
+      "4,o,N,c^c,o,x",
+      "8,a,m,Q",
+      "cc,o,x",
+      "o,N,a,Z,9"
+    ],
+    "crop_size": [
+      862,
+      97
+    ],
+    "folio": "3v",
+    "id": "3v.p2.l4",
+    "image_sha256": "743d406c93fcac239cb0d85c5781949447d3cb06ac6810f2c094c36d696f0875",
+    "path": "/home/runner/work/Voynich/Voynich/research_gpt6/results/kraken_stage2/ocr/train/3v_p2_l4.png",
+    "review": "ASSISTANT_SINGLE_REVIEW_PROVISIONAL",
+    "role": "train",
+    "source_bbox": [
+      0.21555555555555556,
+      0.308562197092084,
+      0.6944444444444444,
+      0.3473344103392569
+    ],
+    "text": "\udbbd\udc14\udbbd\udcc0\udbbd\udc14\udbbd\udc0a \udbbd\udc09\udbbd\udc10\udbbd\udd05 \udbbd\udc1d\udbbd\udc14\udbbd\udc22\udbbd\udcc2\udbbd\udc14\udbbd\udc1a \udbbd\udc09\udbbd\udc10\udbbd\udd05\udbbd\udc0b \udbbd\udcc0\udbbd\udc14\udbbd\udc1a \udbbd\udc14\udbbd\udc22\udbbd\udc10\udbbd\udc03\udbbd\udc17"
+  },
+  {
+    "boxer_tokens": [
+      "c^c,o",
+      "c^c,o,c,N,c,o",
+      "c,N,c,9",
+      "M,cc,o,Z",
+      "cc,o,8,a,m",
+      "cc,o,Q"
+    ],
+    "crop_size": [
+      866,
+      93
+    ],
+    "folio": "3v",
+    "id": "3v.p2.l5",
+    "image_sha256": "c91471950af1520f142a81cccc35e943bcbd8f7f7a2cf826e42a3f9020f6e897",
+    "path": "/home/runner/work/Voynich/Voynich/research_gpt6/results/kraken_stage2/ocr/train/3v_p2_l5.png",
+    "review": "ASSISTANT_SINGLE_REVIEW_PROVISIONAL",
+    "role": "train",
+    "source_bbox": [
+      0.21777777777777776,
+      0.3287560581583199,
+      0.6988888888888889,
+      0.36591276252019383
+    ],
+    "text": "\udbbd\udcc2\udbbd\udc14 \udbbd\udcc2\udbbd\udc14\udbbd\udc06\udbbd\udc22\udbbd\udc06\udbbd\udc14 \udbbd\udc06\udbbd\udc22\udbbd\udc06\udbbd\udc17 \udbbd\udc23\udbbd\udcc0\udbbd\udc14\udbbd\udc03 \udbbd\udcc0\udbbd\udc14\udbbd\udc09\udbbd\udc10\udbbd\udd05 \udbbd\udcc0\udbbd\udc14\udbbd\udc0b"
+  },
+  {
+    "boxer_tokens": [
+      "o,c^c",
+      "cc,o,8,a,i,Z",
+      "9,M,cc,9",
+      "M,cc,o,Z",
+      "N,cc,a,Q",
+      "2"
+    ],
+    "crop_size": [
+      818,
+      95
+    ],
+    "folio": "3v",
+    "id": "3v.p2.l6",
+    "image_sha256": "522443f12cb71b8b49d70b1ffb3abf1f05b9caf640c38a9eab170729b4243931",
+    "path": "/home/runner/work/Voynich/Voynich/research_gpt6/results/kraken_stage2/ocr/train/3v_p2_l6.png",
+    "review": "ASSISTANT_SINGLE_REVIEW_PROVISIONAL",
+    "role": "train",
+    "source_bbox": [
+      0.22,
+      0.35137318255250405,
+      0.6744444444444444,
+      0.3893376413570275
+    ],
+    "text": "\udbbd\udc14\udbbd\udcc2 \udbbd\udcc0\udbbd\udc14\udbbd\udc09\udbbd\udc10\udbbd\udc00\udbbd\udc03 \udbbd\udc17\udbbd\udc23\udbbd\udcc0\udbbd\udc17 \udbbd\udc23\udbbd\udcc0\udbbd\udc14\udbbd\udc03 \udbbd\udc22\udbbd\udcc0\udbbd\udc10\udbbd\udc0b \udbbd\udc0a"
+  },
+  {
+    "boxer_tokens": [
+      "c^c,a,Z",
+      "c^c,N,a,m",
+      "4,o,N,cc,9",
+      "9,M,9",
+      "c,M,c,a,x",
+      "cc,N,9"
+    ],
+    "crop_size": [
+      856,
+      97
+    ],
+    "folio": "3v",
+    "id": "3v.p2.l7",
+    "image_sha256": "94ff2daa38950cf25b25beead5aaa5c3cccdb29276c6c4f7896ac72da2f1f72b",
+    "path": "/home/runner/work/Voynich/Voynich/research_gpt6/results/kraken_stage2/ocr/train/3v_p2_l7.png",
+    "review": "ASSISTANT_SINGLE_REVIEW_PROVISIONAL",
+    "role": "train",
+    "source_bbox": [
+      0.21888888888888888,
+      0.37075928917609047,
+      0.6944444444444444,
+      0.4095315024232633
+    ],
+    "text": "\udbbd\udcc2\udbbd\udc10\udbbd\udc03 \udbbd\udcc2\udbbd\udc22\udbbd\udc10\udbbd\udd05 \udbbd\udc1d\udbbd\udc14\udbbd\udc22\udbbd\udcc0\udbbd\udc17 \udbbd\udc17\udbbd\udc23\udbbd\udc17 \udbbd\udc06\udbbd\udc23\udbbd\udc06\udbbd\udc10\udbbd\udc1a \udbbd\udcc0\udbbd\udc22\udbbd\udc17"
+  },
+  {
+    "boxer_tokens": [
+      "8,a,n",
+      "c^c,c,a,Q",
+      "9",
+      "N,c,a,Q"
+    ],
+    "crop_size": [
+      460,
+      89
+    ],
+    "folio": "3v",
+    "id": "3v.p2.l8",
+    "image_sha256": "001e8177a072ff7cb51ab7b85076da98fff71b1412f575d6ec26d9f10f8ac7e4",
+    "path": "/home/runner/work/Voynich/Voynich/research_gpt6/results/kraken_stage2/ocr/train/3v_p2_l8.png",
+    "review": "ASSISTANT_SINGLE_REVIEW_PROVISIONAL",
+    "role": "train",
+    "source_bbox": [
+      0.21888888888888888,
+      0.39418416801292405,
+      0.47444444444444445,
+      0.4297253634894992
+    ],
+    "text": "\udbbd\udc09\udbbd\udc10\udbbd\udd01 \udbbd\udcc2\udbbd\udc06\udbbd\udc10\udbbd\udc0b \udbbd\udc17 \udbbd\udc22\udbbd\udc06\udbbd\udc10\udbbd\udc0b"
+  },
+  {
+    "boxer_tokens": [
+      "N,o,8,a,x,cc,9",
+      "cc,P2,a,8,9",
+      "c^c,c,o,x",
+      "o,x",
+      "c^c,c,c,9",
+      "4,o,M,c,9",
+      "8,o,m",
+      "cc,o,Z",
+      "9,M,o,9"
+    ],
+    "crop_size": [
+      1142,
+      104
+    ],
+    "folio": "4r",
+    "id": "4r.p1.l1",
+    "image_sha256": "e38106ea6240c5d293cc4bdda385f6d8ae675efd066effd4673b12b98977ce3d",
+    "path": "/home/runner/work/Voynich/Voynich/research_gpt6/results/kraken_stage2/ocr/test/4r_p1_l1.png",
+    "review": "ASSISTANT_SINGLE_REVIEW_PROVISIONAL",
+    "role": "test",
+    "source_bbox": [
+      0.1622222222222222,
+      0.10597609561752988,
+      0.7966666666666666,
+      0.14741035856573706
+    ],
+    "text": "\udbbd\udc22\udbbd\udc14\udbbd\udc09\udbbd\udc10\udbbd\udc1a\udbbd\udcc0\udbbd\udc17 \udbbd\udcc0\udbbd\udc21\udbbd\udc10\udbbd\udc09\udbbd\udc17 \udbbd\udcc2\udbbd\udc06\udbbd\udc14\udbbd\udc1a \udbbd\udc14\udbbd\udc1a \udbbd\udcc2\udbbd\udc06\udbbd\udc06\udbbd\udc17 \udbbd\udc1d\udbbd\udc14\udbbd\udc23\udbbd\udc06\udbbd\udc17 \udbbd\udc09\udbbd\udc14\udbbd\udd05 \udbbd\udcc0\udbbd\udc14\udbbd\udc03 \udbbd\udc17\udbbd\udc23\udbbd\udc14\udbbd\udc17"
+  },
+  {
+    "boxer_tokens": [
+      "8,c^c,o,Z",
+      "c^c,o,x",
+      "c^c,o,x",
+      "c,M,c,o,x",
+      "c^c,M,cc,9",
+      "cc,a,m",
+      "?,2",
+      "cc,o,Z,a,m",
+      "cc,o,Q"
+    ],
+    "crop_size": [
+      1144,
+      96
+    ],
+    "folio": "4r",
+    "id": "4r.p1.l2",
+    "image_sha256": "2079a92dec91972306c100935546ad3276a50f24e6cc2ccf67632b7bce93a37e",
+    "path": "/home/runner/work/Voynich/Voynich/research_gpt6/results/kraken_stage2/ocr/test/4r_p1_l2.png",
+    "review": "ASSISTANT_SINGLE_REVIEW_PROVISIONAL",
+    "role": "test",
+    "source_bbox": [
+      0.16111111111111112,
+      0.1346613545816733,
+      0.7966666666666666,
+      0.17290836653386454
+    ],
+    "text": "\udbbd\udc09\udbbd\udcc2\udbbd\udc14\udbbd\udc03 \udbbd\udcc2\udbbd\udc14\udbbd\udc1a \udbbd\udcc2\udbbd\udc14\udbbd\udc1a \udbbd\udc06\udbbd\udc23\udbbd\udc06\udbbd\udc14\udbbd\udc1a \udbbd\udcc2\udbbd\udc23\udbbd\udcc0\udbbd\udc17 \udbbd\udcc0\udbbd\udc10\udbbd\udd05 \udbbd\udd1f\udbbd\udc0a \udbbd\udcc0\udbbd\udc14\udbbd\udc03\udbbd\udc10\udbbd\udd05 \udbbd\udcc0\udbbd\udc14\udbbd\udc0b"
+  },
+  {
+    "boxer_tokens": [
+      "o,M,cc,o,x",
+      "cc,o,x",
+      "cc,9",
+      "cc,a,m",
+      "4,o,M,a,m",
+      "8,a,m",
+      "c^c,a,n"
+    ],
+    "crop_size": [
+      1146,
+      92
+    ],
+    "folio": "4r",
+    "id": "4r.p1.l3",
+    "image_sha256": "801dd01614761723db016791a688ad9515671610b2d060f327be034a7ad13301",
+    "path": "/home/runner/work/Voynich/Voynich/research_gpt6/results/kraken_stage2/ocr/test/4r_p1_l3.png",
+    "review": "ASSISTANT_SINGLE_REVIEW_PROVISIONAL",
+    "role": "test",
+    "source_bbox": [
+      0.16,
+      0.15458167330677292,
+      0.7966666666666666,
+      0.19123505976095617
+    ],
+    "text": "\udbbd\udc14\udbbd\udc23\udbbd\udcc0\udbbd\udc14\udbbd\udc1a \udbbd\udcc0\udbbd\udc14\udbbd\udc1a \udbbd\udcc0\udbbd\udc17 \udbbd\udcc0\udbbd\udc10\udbbd\udd05 \udbbd\udc1d\udbbd\udc14\udbbd\udc23\udbbd\udc10\udbbd\udd05 \udbbd\udc09\udbbd\udc10\udbbd\udd05 \udbbd\udcc2\udbbd\udc10\udbbd\udd01"
+  },
+  {
+    "boxer_tokens": [
+      "4,o,M,cc,o,x",
+      "cc,9",
+      "9,M,9",
+      "8,a,m",
+      "o,N,a,m",
+      "c,M,c,9"
+    ],
+    "crop_size": [
+      724,
+      103
+    ],
+    "folio": "4r",
+    "id": "4r.p1.l4",
+    "image_sha256": "ba5b2972aa44557441382ccfe5ba7016b444360cbaf848da00648f62da98f377",
+    "path": "/home/runner/work/Voynich/Voynich/research_gpt6/results/kraken_stage2/ocr/test/4r_p1_l4.png",
+    "review": "ASSISTANT_SINGLE_REVIEW_PROVISIONAL",
+    "role": "test",
+    "source_bbox": [
+      0.16,
+      0.17131474103585656,
+      0.5622222222222222,
+      0.21195219123505976
+    ],
+    "text": "\udbbd\udc1d\udbbd\udc14\udbbd\udc23\udbbd\udcc0\udbbd\udc14\udbbd\udc1a \udbbd\udcc0\udbbd\udc17 \udbbd\udc17\udbbd\udc23\udbbd\udc17 \udbbd\udc09\udbbd\udc10\udbbd\udd05 \udbbd\udc14\udbbd\udc22\udbbd\udc10\udbbd\udd05 \udbbd\udc06\udbbd\udc23\udbbd\udc06\udbbd\udc17"
+  },
+  {
+    "boxer_tokens": [
+      "P2,9,8,a,m",
+      "4,o,M,cc,9",
+      "8,9,M,9,8,9"
+    ],
+    "crop_size": [
+      532,
+      116
+    ],
+    "folio": "4r",
+    "id": "4r.p2.l1",
+    "image_sha256": "92c4ea61b7a48af2ab8b551c125c2689f1135a598b82aee4bb05eedb94d80d4e",
+    "path": "/home/runner/work/Voynich/Voynich/research_gpt6/results/kraken_stage2/ocr/test/4r_p2_l1.png",
+    "review": "ASSISTANT_SINGLE_REVIEW_PROVISIONAL",
+    "role": "test",
+    "source_bbox": [
+      0.15666666666666668,
+      0.21354581673306772,
+      0.45222222222222225,
+      0.2597609561752988
+    ],
+    "text": "\udbbd\udc21\udbbd\udc17\udbbd\udc09\udbbd\udc10\udbbd\udd05 \udbbd\udc1d\udbbd\udc14\udbbd\udc23\udbbd\udcc0\udbbd\udc17 \udbbd\udc09\udbbd\udc17\udbbd\udc23\udbbd\udc17\udbbd\udc09\udbbd\udc17"
+  },
+  {
+    "boxer_tokens": [
+      "cc,o,Z",
+      "c^c,9,M,cc,9",
+      "8,9,M,cc,c,c,9"
+    ],
+    "crop_size": [
+      538,
+      96
+    ],
+    "folio": "4r",
+    "id": "4r.p2.l2",
+    "image_sha256": "c5fcb7203e2b9f3de9a8196ec5240e582cc790badd6721c1e1a77fed2f56748f",
+    "path": "/home/runner/work/Voynich/Voynich/research_gpt6/results/kraken_stage2/ocr/test/4r_p2_l2.png",
+    "review": "ASSISTANT_SINGLE_REVIEW_PROVISIONAL",
+    "role": "test",
+    "source_bbox": [
+      0.16555555555555557,
+      0.24063745019920318,
+      0.46444444444444444,
+      0.2788844621513944
+    ],
+    "text": "\udbbd\udcc0\udbbd\udc14\udbbd\udc03 \udbbd\udcc2\udbbd\udc17\udbbd\udc23\udbbd\udcc0\udbbd\udc17 \udbbd\udc09\udbbd\udc17\udbbd\udc23\udbbd\udcc0\udbbd\udc06\udbbd\udc06\udbbd\udc17"
+  },
+  {
+    "boxer_tokens": [
+      "4,o,M,a,m",
+      "c,M,c,o,x",
+      "8,a,m",
+      "c,M,c,o,Q"
+    ],
+    "crop_size": [
+      574,
+      112
+    ],
+    "folio": "4r",
+    "id": "4r.p2.l3",
+    "image_sha256": "5ecc2f48001016105866bf6b97ccd4782f7002a0ad1d885881ec5b61d7e0bc0e",
+    "path": "/home/runner/work/Voynich/Voynich/research_gpt6/results/kraken_stage2/ocr/test/4r_p2_l3.png",
+    "review": "ASSISTANT_SINGLE_REVIEW_PROVISIONAL",
+    "role": "test",
+    "source_bbox": [
+      0.16777777777777778,
+      0.25737051792828686,
+      0.4866666666666667,
+      0.30199203187250995
+    ],
+    "text": "\udbbd\udc1d\udbbd\udc14\udbbd\udc23\udbbd\udc10\udbbd\udd05 \udbbd\udc06\udbbd\udc23\udbbd\udc06\udbbd\udc14\udbbd\udc1a \udbbd\udc09\udbbd\udc10\udbbd\udd05 \udbbd\udc06\udbbd\udc23\udbbd\udc06\udbbd\udc14\udbbd\udc0b"
+  },
+  {
+    "boxer_tokens": [
+      "c^c,o,Z",
+      "c^c,o,x",
+      "c^c,o,x",
+      "c,M,c,9",
+      "c,P2,c,o,x,8,9"
+    ],
+    "crop_size": [
+      610,
+      106
+    ],
+    "folio": "4r",
+    "id": "4r.p2.l4",
+    "image_sha256": "743c2934ce1fb2686f108d2840de471232c9529e691ea9f68e9fe48bb81ae115",
+    "path": "/home/runner/work/Voynich/Voynich/research_gpt6/results/kraken_stage2/ocr/test/4r_p2_l4.png",
+    "review": "ASSISTANT_SINGLE_REVIEW_PROVISIONAL",
+    "role": "test",
+    "source_bbox": [
+      0.16555555555555557,
+      0.28127490039840636,
+      0.5044444444444445,
+      0.32350597609561754
+    ],
+    "text": "\udbbd\udcc2\udbbd\udc14\udbbd\udc03 \udbbd\udcc2\udbbd\udc14\udbbd\udc1a \udbbd\udcc2\udbbd\udc14\udbbd\udc1a \udbbd\udc06\udbbd\udc23\udbbd\udc06\udbbd\udc17 \udbbd\udc06\udbbd\udc21\udbbd\udc06\udbbd\udc14\udbbd\udc1a\udbbd\udc09\udbbd\udc17"
+  },
+  {
+    "boxer_tokens": [
+      "8,a,m",
+      "c,N,c,o,cc,9",
+      "M,cc,9",
+      "N,o,Z,a,m"
+    ],
+    "crop_size": [
+      592,
+      108
+    ],
+    "folio": "4r",
+    "id": "4r.p2.l5",
+    "image_sha256": "1f978d7187b1ebf1c20f68432c3bd39b2839ade3125bb8cce9817548b69136bb",
+    "path": "/home/runner/work/Voynich/Voynich/research_gpt6/results/kraken_stage2/ocr/test/4r_p2_l5.png",
+    "review": "ASSISTANT_SINGLE_REVIEW_PROVISIONAL",
+    "role": "test",
+    "source_bbox": [
+      0.17,
+      0.3051792828685259,
+      0.4988888888888889,
+      0.34820717131474105
+    ],
+    "text": "\udbbd\udc09\udbbd\udc10\udbbd\udd05 \udbbd\udc06\udbbd\udc22\udbbd\udc06\udbbd\udc14\udbbd\udcc0\udbbd\udc17 \udbbd\udc23\udbbd\udcc0\udbbd\udc17 \udbbd\udc22\udbbd\udc14\udbbd\udc03\udbbd\udc10\udbbd\udd05"
+  },
+  {
+    "boxer_tokens": [
+      "o,8,a,x",
+      "c^c,o,Z",
+      "c^c,9,c^c,o,x",
+      "c,P2,c,a,m"
+    ],
+    "crop_size": [
+      562,
+      111
+    ],
+    "folio": "4r",
+    "id": "4r.p2.l6",
+    "image_sha256": "e055668bf6b77d9fb82043c654f090e2e6a047bed72e33f4364b9c4d921c7fd4",
+    "path": "/home/runner/work/Voynich/Voynich/research_gpt6/results/kraken_stage2/ocr/test/4r_p2_l6.png",
+    "review": "ASSISTANT_SINGLE_REVIEW_PROVISIONAL",
+    "role": "test",
+    "source_bbox": [
+      0.17,
+      0.32749003984063746,
+      0.4822222222222222,
+      0.3713147410358566
+    ],
+    "text": "\udbbd\udc14\udbbd\udc09\udbbd\udc10\udbbd\udc1a \udbbd\udcc2\udbbd\udc14\udbbd\udc03 \udbbd\udcc2\udbbd\udc17\udbbd\udcc2\udbbd\udc14\udbbd\udc1a \udbbd\udc06\udbbd\udc21\udbbd\udc06\udbbd\udc10\udbbd\udd05"
+  },
+  {
+    "boxer_tokens": [
+      "4,o,M,cc,o,m",
+      "c^c,c,?,Z",
+      "4,o,M,9"
+    ],
+    "crop_size": [
+      560,
+      114
+    ],
+    "folio": "4r",
+    "id": "4r.p2.l7",
+    "image_sha256": "f910417b5a9af060262ec5ac664bf4275378ff75acf892d74b1740c46da2de5a",
+    "path": "/home/runner/work/Voynich/Voynich/research_gpt6/results/kraken_stage2/ocr/test/4r_p2_l7.png",
+    "review": "ASSISTANT_SINGLE_REVIEW_PROVISIONAL",
+    "role": "test",
+    "source_bbox": [
+      0.16666666666666666,
+      0.3466135458167331,
+      0.4777777777777778,
+      0.39203187250996013
+    ],
+    "text": "\udbbd\udc1d\udbbd\udc14\udbbd\udc23\udbbd\udcc0\udbbd\udc14\udbbd\udd05 \udbbd\udcc2\udbbd\udc06\udbbd\udd1f\udbbd\udc03 \udbbd\udc1d\udbbd\udc14\udbbd\udc23\udbbd\udc17"
+  },
+  {
+    "boxer_tokens": [
+      "2,o,m",
+      "cc,a,m",
+      "cc,a,m"
+    ],
+    "crop_size": [
+      468,
+      104
+    ],
+    "folio": "4r",
+    "id": "4r.p2.l8",
+    "image_sha256": "f6fa221c6941705fa39aae296377f9dfdc3117ce97aaae439623216c403ab3fc",
+    "path": "/home/runner/work/Voynich/Voynich/research_gpt6/results/kraken_stage2/ocr/test/4r_p2_l8.png",
+    "review": "ASSISTANT_SINGLE_REVIEW_PROVISIONAL",
+    "role": "test",
+    "source_bbox": [
+      0.17,
+      0.36892430278884464,
+      0.43,
+      0.4103585657370518
+    ],
+    "text": "\udbbd\udc0a\udbbd\udc14\udbbd\udd05 \udbbd\udcc0\udbbd\udc10\udbbd\udd05 \udbbd\udcc0\udbbd\udc10\udbbd\udd05"
+  },
+  {
+    "boxer_tokens": [
+      "8,a,m",
+      "c,M,c,c,9"
+    ],
+    "crop_size": [
+      246,
+      103
+    ],
+    "folio": "4r",
+    "id": "4r.p2.l9",
+    "image_sha256": "c5e9369b813a99e4e08f322cda8a15942021601cb99bfea38071d921c0420e61",
+    "path": "/home/runner/work/Voynich/Voynich/research_gpt6/results/kraken_stage2/ocr/test/4r_p2_l9.png",
+    "review": "ASSISTANT_SINGLE_REVIEW_PROVISIONAL",
+    "role": "test",
+    "source_bbox": [
+      0.16777777777777778,
+      0.39203187250996013,
+      0.30444444444444446,
+      0.43266932270916336
+    ],
+    "text": "\udbbd\udc09\udbbd\udc10\udbbd\udd05 \udbbd\udc06\udbbd\udc23\udbbd\udc06\udbbd\udc06\udbbd\udc17"
+  },
+  {
+    "boxer_tokens": [
+      "P2,cc,o,o,m",
+      "N,c^c,c,o",
+      "N,cc,o,9",
+      "cc,o,P2,cc,9",
+      "8,o,x,8,2",
+      "8,x,o,8"
+    ],
+    "crop_size": [
+      1124,
+      127
+    ],
+    "folio": "4v",
+    "id": "4v.p1.l1",
+    "image_sha256": "fec16e93457e32a277e4cf2e0548446c1decf882e3b7a5c3e4e37c794aee9da4",
+    "path": "/home/runner/work/Voynich/Voynich/research_gpt6/results/kraken_stage2/ocr/test/4v_p1_l1.png",
+    "review": "ASSISTANT_SINGLE_REVIEW_PROVISIONAL",
+    "role": "test",
+    "source_bbox": [
+      0.25,
+      0.09886547811993517,
+      0.8744444444444445,
+      0.14991896272285252
+    ],
+    "text": "\udbbd\udc21\udbbd\udcc0\udbbd\udc14\udbbd\udc14\udbbd\udd05 \udbbd\udc22\udbbd\udcc2\udbbd\udc06\udbbd\udc14 \udbbd\udc22\udbbd\udcc0\udbbd\udc14\udbbd\udc17 \udbbd\udcc0\udbbd\udc14\udbbd\udc21\udbbd\udcc0\udbbd\udc17 \udbbd\udc09\udbbd\udc14\udbbd\udc1a\udbbd\udc09\udbbd\udc0a \udbbd\udc09\udbbd\udc1a\udbbd\udc14\udbbd\udc09"
+  },
+  {
+    "boxer_tokens": [
+      "o,x",
+      "cc,c,9",
+      "cc,9",
+      "c,M,c,9",
+      "cc,N,cc,o,Z",
+      "c^c,i,o",
+      "cc,c,o,Z,9",
+      "cc,o,x,8,9"
+    ],
+    "crop_size": [
+      1123,
+      89
+    ],
+    "folio": "4v",
+    "id": "4v.p1.l2",
+    "image_sha256": "4a002343260ded0a8bae86497b2b0dbe2d55165a902c0aa571e4e23177cb79f0",
+    "path": "/home/runner/work/Voynich/Voynich/research_gpt6/results/kraken_stage2/ocr/test/4v_p1_l2.png",
+    "review": "ASSISTANT_SINGLE_REVIEW_PROVISIONAL",
+    "role": "test",
+    "source_bbox": [
+      0.2544444444444444,
+      0.13290113452188007,
+      0.8777777777777778,
+      0.1685575364667747
+    ],
+    "text": "\udbbd\udc14\udbbd\udc1a \udbbd\udcc0\udbbd\udc06\udbbd\udc17 \udbbd\udcc0\udbbd\udc17 \udbbd\udc06\udbbd\udc23\udbbd\udc06\udbbd\udc17 \udbbd\udcc0\udbbd\udc22\udbbd\udcc0\udbbd\udc14\udbbd\udc03 \udbbd\udcc2\udbbd\udc00\udbbd\udc14 \udbbd\udcc0\udbbd\udc06\udbbd\udc14\udbbd\udc03\udbbd\udc17 \udbbd\udcc0\udbbd\udc14\udbbd\udc1a\udbbd\udc09\udbbd\udc17"
+  },
+  {
+    "boxer_tokens": [
+      "c^c,o",
+      "c^c,o",
+      "cc,a,m",
+      "c^c,a,m",
+      "8,a,m",
+      "4,o,8,a,m",
+      "o,a,Z,a,Q"
+    ],
+    "crop_size": [
+      1121,
+      95
+    ],
+    "folio": "4v",
+    "id": "4v.p1.l3",
+    "image_sha256": "f736748d4e9ec374927e51a83d30d6b7936ab4bc39a6baf05d900f9ec5616e00",
+    "path": "/home/runner/work/Voynich/Voynich/research_gpt6/results/kraken_stage2/ocr/test/4v_p1_l3.png",
+    "review": "ASSISTANT_SINGLE_REVIEW_PROVISIONAL",
+    "role": "test",
+    "source_bbox": [
+      0.25555555555555554,
+      0.14991896272285252,
+      0.8777777777777778,
+      0.1880064829821718
+    ],
+    "text": "\udbbd\udcc2\udbbd\udc14 \udbbd\udcc2\udbbd\udc14 \udbbd\udcc0\udbbd\udc10\udbbd\udd05 \udbbd\udcc2\udbbd\udc10\udbbd\udd05 \udbbd\udc09\udbbd\udc10\udbbd\udd05 \udbbd\udc1d\udbbd\udc14\udbbd\udc09\udbbd\udc10\udbbd\udd05 \udbbd\udc14\udbbd\udc10\udbbd\udc03\udbbd\udc10\udbbd\udc0b"
+  },
+  {
+    "boxer_tokens": [
+      "4,o,N,cc,9",
+      "4,o,c,M,c,9",
+      "cc,o,M,c,o,x",
+      "8,a,m",
+      "c,M,c,c,9",
+      "cc,o,a,m"
+    ],
+    "crop_size": [
+      1132,
+      113
+    ],
+    "folio": "4v",
+    "id": "4v.p1.l4",
+    "image_sha256": "29f56f0fe422550223bf355346a20ee29b9508673c50a0f3c2b4eb97e40e5b2f",
+    "path": "/home/runner/work/Voynich/Voynich/research_gpt6/results/kraken_stage2/ocr/test/4v_p1_l4.png",
+    "review": "ASSISTANT_SINGLE_REVIEW_PROVISIONAL",
+    "role": "test",
+    "source_bbox": [
+      0.25,
+      0.16531604538087522,
+      0.8788888888888889,
+      0.2106969205834684
+    ],
+    "text": "\udbbd\udc1d\udbbd\udc14\udbbd\udc22\udbbd\udcc0\udbbd\udc17 \udbbd\udc1d\udbbd\udc14\udbbd\udc06\udbbd\udc23\udbbd\udc06\udbbd\udc17 \udbbd\udcc0\udbbd\udc14\udbbd\udc23\udbbd\udc06\udbbd\udc14\udbbd\udc1a \udbbd\udc09\udbbd\udc10\udbbd\udd05 \udbbd\udc06\udbbd\udc23\udbbd\udc06\udbbd\udc06\udbbd\udc17 \udbbd\udcc0\udbbd\udc14\udbbd\udc10\udbbd\udd05"
+  },
+  {
+    "boxer_tokens": [
+      "c^c,o,Z",
+      "c^c,c,c,9",
+      "c,M,o",
+      "o,M,a,m",
+      "c^c,c,9",
+      "4,o,M,cc,o,m",
+      "cc,o,8,a,n"
+    ],
+    "crop_size": [
+      1126,
+      113
+    ],
+    "folio": "4v",
+    "id": "4v.p1.l5",
+    "image_sha256": "ef07c65ba24c357ae6adc8ad73c0ace574ca558b0b042829e6b0938d73c85360",
+    "path": "/home/runner/work/Voynich/Voynich/research_gpt6/results/kraken_stage2/ocr/test/4v_p1_l5.png",
+    "review": "ASSISTANT_SINGLE_REVIEW_PROVISIONAL",
+    "role": "test",
+    "source_bbox": [
+      0.25222222222222224,
+      0.18233387358184766,
+      0.8777777777777778,
+      0.22771474878444084
+    ],
+    "text": "\udbbd\udcc2\udbbd\udc14\udbbd\udc03 \udbbd\udcc2\udbbd\udc06\udbbd\udc06\udbbd\udc17 \udbbd\udc06\udbbd\udc23\udbbd\udc14 \udbbd\udc14\udbbd\udc23\udbbd\udc10\udbbd\udd05 \udbbd\udcc2\udbbd\udc06\udbbd\udc17 \udbbd\udc1d\udbbd\udc14\udbbd\udc23\udbbd\udcc0\udbbd\udc14\udbbd\udd05 \udbbd\udcc0\udbbd\udc14\udbbd\udc09\udbbd\udc10\udbbd\udd01"
+  },
+  {
+    "boxer_tokens": [
+      "9,M,cc,o,9",
+      "c^c,o,N,cc,9",
+      "c,P2,c,o,8,9"
+    ],
+    "crop_size": [
+      559,
+      103
+    ],
+    "folio": "4v",
+    "id": "4v.p1.l6",
+    "image_sha256": "f049e6791b96396d1e19ea16a7c415612e46a37e82118e1441973e21763a4d87",
+    "path": "/home/runner/work/Voynich/Voynich/research_gpt6/results/kraken_stage2/ocr/test/4v_p1_l6.png",
+    "review": "ASSISTANT_SINGLE_REVIEW_PROVISIONAL",
+    "role": "test",
+    "source_bbox": [
+      0.2544444444444444,
+      0.2034035656401945,
+      0.5644444444444444,
+      0.24473257698541329
+    ],
+    "text": "\udbbd\udc17\udbbd\udc23\udbbd\udcc0\udbbd\udc14\udbbd\udc17 \udbbd\udcc2\udbbd\udc14\udbbd\udc22\udbbd\udcc0\udbbd\udc17 \udbbd\udc06\udbbd\udc21\udbbd\udc06\udbbd\udc14\udbbd\udc09\udbbd\udc17"
+  },
+  {
+    "boxer_tokens": [
+      "M,o,Z,cc,9",
+      "c^c,c,c,o,Z",
+      "cc,o,Z",
+      "c^c,o,M,cc,9",
+      "c,P2,c,9,8,9"
+    ],
+    "crop_size": [
+      744,
+      97
+    ],
+    "folio": "4v",
+    "id": "4v.p2.l1",
+    "image_sha256": "0024dbe29842e31179bac2fc27d9c8ee36f4638d49ae21ed958f79a40d57e6c4",
+    "path": "/home/runner/work/Voynich/Voynich/research_gpt6/results/kraken_stage2/ocr/test/4v_p2_l1.png",
+    "review": "ASSISTANT_SINGLE_REVIEW_PROVISIONAL",
+    "role": "test",
+    "source_bbox": [
+      0.24888888888888888,
+      0.24716369529983792,
+      0.6622222222222223,
+      0.2860615883306321
+    ],
+    "text": "\udbbd\udc23\udbbd\udc14\udbbd\udc03\udbbd\udcc0\udbbd\udc17 \udbbd\udcc2\udbbd\udc06\udbbd\udc06\udbbd\udc14\udbbd\udc03 \udbbd\udcc0\udbbd\udc14\udbbd\udc03 \udbbd\udcc2\udbbd\udc14\udbbd\udc23\udbbd\udcc0\udbbd\udc17 \udbbd\udc06\udbbd\udc21\udbbd\udc06\udbbd\udc17\udbbd\udc09\udbbd\udc17"
+  },
+  {
+    "boxer_tokens": [
+      "o,x,?,c,?",
+      "cc,o,Z",
+      "c,M,c,o,x",
+      "c^c,o",
+      "o,M,o,Z",
+      "c,M,c,o,Z,9"
+    ],
+    "crop_size": [
+      746,
+      97
+    ],
+    "folio": "4v",
+    "id": "4v.p2.l2",
+    "image_sha256": "b2a2c2ba950833321f1e3f9e358f0d214d612e2dab1a9bd275a7edb5ce4dc5d0",
+    "path": "/home/runner/work/Voynich/Voynich/research_gpt6/results/kraken_stage2/ocr/test/4v_p2_l2.png",
+    "review": "ASSISTANT_SINGLE_REVIEW_PROVISIONAL",
+    "role": "test",
+    "source_bbox": [
+      0.25,
+      0.26823338735818475,
+      0.6644444444444444,
+      0.3071312803889789
+    ],
+    "text": "\udbbd\udc14\udbbd\udc1a\udbbd\udd1f\udbbd\udc06\udbbd\udd1f \udbbd\udcc0\udbbd\udc14\udbbd\udc03 \udbbd\udc06\udbbd\udc23\udbbd\udc06\udbbd\udc14\udbbd\udc1a \udbbd\udcc2\udbbd\udc14 \udbbd\udc14\udbbd\udc23\udbbd\udc14\udbbd\udc03 \udbbd\udc06\udbbd\udc23\udbbd\udc06\udbbd\udc14\udbbd\udc03\udbbd\udc17"
+  },
+  {
+    "boxer_tokens": [
+      "4,o,o,N,o",
+      "m+?",
+      "cc,i,o,Q",
+      "cc,c,M,c,9",
+      "c^c,o,N,9",
+      "8,a,m"
+    ],
+    "crop_size": [
+      748,
+      105
+    ],
+    "folio": "4v",
+    "id": "4v.p2.l3",
+    "image_sha256": "8d6550b809c130aa613670b141accbd8d4860815f267c179c6f5db4247a5e1e0",
+    "path": "/home/runner/work/Voynich/Voynich/research_gpt6/results/kraken_stage2/ocr/test/4v_p2_l3.png",
+    "review": "ASSISTANT_SINGLE_REVIEW_PROVISIONAL",
+    "role": "test",
+    "source_bbox": [
+      0.24888888888888888,
+      0.28687196110210694,
+      0.6644444444444444,
+      0.32901134521880065
+    ],
+    "text": "\udbbd\udc1d\udbbd\udc14\udbbd\udc14\udbbd\udc22\udbbd\udc14 \udbbd\udd1f \udbbd\udcc0\udbbd\udc00\udbbd\udc14\udbbd\udc0b \udbbd\udcc0\udbbd\udc06\udbbd\udc23\udbbd\udc06\udbbd\udc17 \udbbd\udcc2\udbbd\udc14\udbbd\udc22\udbbd\udc17 \udbbd\udc09\udbbd\udc10\udbbd\udd05"
+  },
+  {
+    "boxer_tokens": [
+      "o,M,a,m",
+      "c^c,c,o",
+      "o,N,c,a,8,9",
+      "cc,o,x",
+      "cc,o,N,c,o,8,9"
+    ],
+    "crop_size": [
+      752,
+      101
+    ],
+    "folio": "4v",
+    "id": "4v.p2.l4",
+    "image_sha256": "b682b62c41c2779aa906f7e41988f7a88926d014dad979b87d0ef321ec0fc3e5",
+    "path": "/home/runner/work/Voynich/Voynich/research_gpt6/results/kraken_stage2/ocr/test/4v_p2_l4.png",
+    "review": "ASSISTANT_SINGLE_REVIEW_PROVISIONAL",
+    "role": "test",
+    "source_bbox": [
+      0.25,
+      0.3071312803889789,
+      0.6677777777777778,
+      0.34764991896272285
+    ],
+    "text": "\udbbd\udc14\udbbd\udc23\udbbd\udc10\udbbd\udd05 \udbbd\udcc2\udbbd\udc06\udbbd\udc14 \udbbd\udc14\udbbd\udc22\udbbd\udc06\udbbd\udc10\udbbd\udc09\udbbd\udc17 \udbbd\udcc0\udbbd\udc14\udbbd\udc1a \udbbd\udcc0\udbbd\udc14\udbbd\udc22\udbbd\udc06\udbbd\udc14\udbbd\udc09\udbbd\udc17"
+  },
+  {
+    "boxer_tokens": [
+      "c^c,o",
+      "N,cc,c,o,Z",
+      "c^c,o,8",
+      "9",
+      "c^c,M,a,m",
+      "4,o,M,o,x,8,a,m"
+    ],
+    "crop_size": [
+      814,
+      99
+    ],
+    "folio": "4v",
+    "id": "4v.p2.l5",
+    "image_sha256": "64cb9bf21e04e7ac1b1394a9e145eea76f6eab540e3cc62758b173c321900592",
+    "path": "/home/runner/work/Voynich/Voynich/research_gpt6/results/kraken_stage2/ocr/test/4v_p2_l5.png",
+    "review": "ASSISTANT_SINGLE_REVIEW_PROVISIONAL",
+    "role": "test",
+    "source_bbox": [
+      0.2511111111111111,
+      0.32820097244732577,
+      0.7033333333333334,
+      0.3679092382495948
+    ],
+    "text": "\udbbd\udcc2\udbbd\udc14 \udbbd\udc22\udbbd\udcc0\udbbd\udc06\udbbd\udc14\udbbd\udc03 \udbbd\udcc2\udbbd\udc14\udbbd\udc09 \udbbd\udc17 \udbbd\udcc2\udbbd\udc23\udbbd\udc10\udbbd\udd05 \udbbd\udc1d\udbbd\udc14\udbbd\udc23\udbbd\udc14\udbbd\udc1a\udbbd\udc09\udbbd\udc10\udbbd\udd05"
+  },
+  {
+    "boxer_tokens": [
+      "4,o,N,?,9",
+      "c^c,o",
+      "o,N,c,o,x",
+      "2,N,c,c,9",
+      "c^c,a,Z",
+      "cc,a,Z",
+      "o,8,9"
+    ],
+    "crop_size": [
+      856,
+      97
+    ],
+    "folio": "4v",
+    "id": "4v.p2.l6",
+    "image_sha256": "444bdcbcff3a06d116331105d6abac843bb91ce78da825eb58702d7c4cc58826",
+    "path": "/home/runner/work/Voynich/Voynich/research_gpt6/results/kraken_stage2/ocr/test/4v_p2_l6.png",
+    "review": "ASSISTANT_SINGLE_REVIEW_PROVISIONAL",
+    "role": "test",
+    "source_bbox": [
+      0.2511111111111111,
+      0.3500810372771475,
+      0.7266666666666667,
+      0.3889789303079417
+    ],
+    "text": "\udbbd\udc1d\udbbd\udc14\udbbd\udc22\udbbd\udd1f\udbbd\udc17 \udbbd\udcc2\udbbd\udc14 \udbbd\udc14\udbbd\udc22\udbbd\udc06\udbbd\udc14\udbbd\udc1a \udbbd\udc0a\udbbd\udc22\udbbd\udc06\udbbd\udc06\udbbd\udc17 \udbbd\udcc2\udbbd\udc10\udbbd\udc03 \udbbd\udcc0\udbbd\udc10\udbbd\udc03 \udbbd\udc14\udbbd\udc09\udbbd\udc17"
+  },
+  {
+    "boxer_tokens": [
+      "c^c,o,8,9",
+      "2",
+      "cc,c,o,Z",
+      "cc,o,N,o,8,9",
+      "c^c,o,8,a,m",
+      "4,o,M,9"
+    ],
+    "crop_size": [
+      856,
+      103
+    ],
+    "folio": "4v",
+    "id": "4v.p2.l7",
+    "image_sha256": "d76fc1aaa45aec00ad5e4c8d45b554216a12bcf53ff0af60ea1534d6d2836aa1",
+    "path": "/home/runner/work/Voynich/Voynich/research_gpt6/results/kraken_stage2/ocr/test/4v_p2_l7.png",
+    "review": "ASSISTANT_SINGLE_REVIEW_PROVISIONAL",
+    "role": "test",
+    "source_bbox": [
+      0.2511111111111111,
+      0.3695299837925446,
+      0.7266666666666667,
+      0.41085899513776336
+    ],
+    "text": "\udbbd\udcc2\udbbd\udc14\udbbd\udc09\udbbd\udc17 \udbbd\udc0a \udbbd\udcc0\udbbd\udc06\udbbd\udc14\udbbd\udc03 \udbbd\udcc0\udbbd\udc14\udbbd\udc22\udbbd\udc14\udbbd\udc09\udbbd\udc17 \udbbd\udcc2\udbbd\udc14\udbbd\udc09\udbbd\udc10\udbbd\udd05 \udbbd\udc1d\udbbd\udc14\udbbd\udc23\udbbd\udc17"
+  },
+  {
+    "boxer_tokens": [
+      "o,c^c,o,8,9",
+      "cc,9,N,c,9",
+      "cc,M,o,8,9"
+    ],
+    "crop_size": [
+      492,
+      103
+    ],
+    "folio": "4v",
+    "id": "4v.p2.l8",
+    "image_sha256": "121dafe8428b101fa254e2a228e234d501f8bd464b3b2091d6c3f25e50cf314e",
+    "path": "/home/runner/work/Voynich/Voynich/research_gpt6/results/kraken_stage2/ocr/test/4v_p2_l8.png",
+    "review": "ASSISTANT_SINGLE_REVIEW_PROVISIONAL",
+    "role": "test",
+    "source_bbox": [
+      0.25333333333333335,
+      0.39222042139384117,
+      0.5266666666666666,
+      0.43354943273906
+    ],
+    "text": "\udbbd\udc14\udbbd\udcc2\udbbd\udc14\udbbd\udc09\udbbd\udc17 \udbbd\udcc0\udbbd\udc17\udbbd\udc22\udbbd\udc06\udbbd\udc17 \udbbd\udcc0\udbbd\udc23\udbbd\udc14\udbbd\udc09\udbbd\udc17"
+  }
+]

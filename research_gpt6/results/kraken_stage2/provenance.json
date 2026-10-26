@@ -1,0 +1,28 @@
+{
+  "annotation_author": "Assistant; no independent human expert review",
+  "archive_scope": "The repository stores essential outputs and model. Full scan copies, individual crop images and checkpoint remain in the expiring Actions artifact. Frozen public URLs and image hashes permit input recovery.",
+  "artifact_expires": "2026-11-14T08:46:01Z",
+  "artifact_id": 11959915100,
+  "artifact_manifest_mismatches": 0,
+  "artifact_manifest_verified_files": 152,
+  "artifact_zip_sha256": "62adffc467e2008c402fd91a0d9a2576fd158351d4521c1e6ce3e3cf86270d58",
+  "branch": "experiment/kraken-voynich",
+  "execution_commit": "19e12c1585697ff1e0cd596ed4381704115e15ef",
+  "execution_date": "2026-10-15",
+  "failed_runs": [
+    38613466903,
+    38614979282,
+    38707346784
+  ],
+  "historical_input_label_correction": "Human-reference in the archived JSON is a software label, not a claim of human annotation",
+  "language_identification": "NOT_RUN",
+  "model_sha256": "2c64034def4486a09134257f457a06d1664700c958482f3f0d671d9c5283e45d",
+  "numerical_audit_checks": 2207,
+  "numerical_audit_mismatches": 0,
+  "recovered_date": "2026-10-26",
+  "repository": "MedinaParra/Voynich",
+  "result_sha256": "2885560464c395fab2a3a584d932e588dcedce70b56e280d82cb08caf3eeb396",
+  "run_id": "38707533236",
+  "software_controls": 19,
+  "translation": "NOT_RUN"
+}
