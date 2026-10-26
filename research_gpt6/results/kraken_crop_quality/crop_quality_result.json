@@ -1,0 +1,1334 @@
+{
+  "candidate_estimator": {
+    "boundary_mode": "reflect",
+    "gray": "Pillow L / 255",
+    "local_mean_window": 31,
+    "main_delta": 0.1,
+    "sensitivity_deltas": [
+      0.06,
+      0.14
+    ]
+  },
+  "code_sha256": "e4ea5ee9cfe8bc2f1fdd4aa91160526a5122e216e83984acc8353905ef37bfed",
+  "controls_passed": 6,
+  "date": "2026-10-26",
+  "language_identification": "NOT_RUN",
+  "limitations": [
+    "Dark candidates can include painting or noise.",
+    "Ascenders can legitimately overlap adjacent row rectangles.",
+    "This measures repeated source positions, not which line owns a glyph.",
+    "Previously explored leaves only; diagnostic, not new held-out evaluation.",
+    "No causal explanation of OCR failure is established."
+  ],
+  "pages": [
+    {
+      "folio": "3r",
+      "image_sha256": "8fc1f1a8af0742c309d0ac8ae7e7e10f7f0f970f588361434885328f84c7a55b",
+      "image_size": [
+        1800,
+        2522
+      ],
+      "rows": 20,
+      "thresholds": {
+        "0.06": {
+          "redundant_exposure_fraction": 0.34390530821196064,
+          "redundant_exposures": 89750,
+          "repeated_dark_positions": 89750,
+          "repeated_fraction": 0.5241702341391051,
+          "rows": [
+            {
+              "dark_positions": 11493,
+              "fraction": 0.20012181327764728,
+              "id": "3r.p1.l1",
+              "repeated_dark_positions": 2300
+            },
+            {
+              "dark_positions": 8746,
+              "fraction": 0.6534415732906471,
+              "id": "3r.p1.l2",
+              "repeated_dark_positions": 5715
+            },
+            {
+              "dark_positions": 9181,
+              "fraction": 0.6673564971136042,
+              "id": "3r.p1.l3",
+              "repeated_dark_positions": 6127
+            },
+            {
+              "dark_positions": 8749,
+              "fraction": 0.6018973596982512,
+              "id": "3r.p1.l4",
+              "repeated_dark_positions": 5266
+            },
+            {
+              "dark_positions": 9654,
+              "fraction": 0.6151854153718666,
+              "id": "3r.p1.l5",
+              "repeated_dark_positions": 5939
+            },
+            {
+              "dark_positions": 10304,
+              "fraction": 0.7823175465838509,
+              "id": "3r.p1.l6",
+              "repeated_dark_positions": 8061
+            },
+            {
+              "dark_positions": 11563,
+              "fraction": 0.8905128426878838,
+              "id": "3r.p1.l7",
+              "repeated_dark_positions": 10297
+            },
+            {
+              "dark_positions": 12291,
+              "fraction": 0.8702302497762591,
+              "id": "3r.p1.l8",
+              "repeated_dark_positions": 10696
+            },
+            {
+              "dark_positions": 10857,
+              "fraction": 0.8085106382978723,
+              "id": "3r.p1.l9",
+              "repeated_dark_positions": 8778
+            },
+            {
+              "dark_positions": 6856,
+              "fraction": 0.5401108518086347,
+              "id": "3r.p1.l10",
+              "repeated_dark_positions": 3703
+            },
+            {
+              "dark_positions": 8242,
+              "fraction": 0.35610288764862896,
+              "id": "3r.p2.l1",
+              "repeated_dark_positions": 2935
+            },
+            {
+              "dark_positions": 11546,
+              "fraction": 0.8867140135111727,
+              "id": "3r.p2.l2",
+              "repeated_dark_positions": 10238
+            },
+            {
+              "dark_positions": 16553,
+              "fraction": 0.8022714915725246,
+              "id": "3r.p2.l3",
+              "repeated_dark_positions": 13280
+            },
+            {
+              "dark_positions": 9740,
+              "fraction": 0.6858316221765913,
+              "id": "3r.p2.l4",
+              "repeated_dark_positions": 6680
+            },
+            {
+              "dark_positions": 19051,
+              "fraction": 0.365492625059052,
+              "id": "3r.p3.l1",
+              "repeated_dark_positions": 6963
+            },
+            {
+              "dark_positions": 17885,
+              "fraction": 0.7809896561364271,
+              "id": "3r.p3.l2",
+              "repeated_dark_positions": 13968
+            },
+            {
+              "dark_positions": 14475,
+              "fraction": 0.6138169257340241,
+              "id": "3r.p3.l3",
+              "repeated_dark_positions": 8885
+            },
+            {
+              "dark_positions": 21264,
+              "fraction": 0.6185571858540256,
+              "id": "3r.p4.l1",
+              "repeated_dark_positions": 13153
+            },
+            {
+              "dark_positions": 25856,
+              "fraction": 0.9377320544554455,
+              "id": "3r.p4.l2",
+              "repeated_dark_positions": 24246
+            },
+            {
+              "dark_positions": 16667,
+              "fraction": 0.7361852762944741,
+              "id": "3r.p4.l3",
+              "repeated_dark_positions": 12270
+            }
+          ],
+          "rows_with_repeated_positions": 20,
+          "total_dark_exposures": 260973,
+          "unique_dark_positions": 171223
+        },
+        "0.10": {
+          "redundant_exposure_fraction": 0.35074882352599845,
+          "redundant_exposures": 60447,
+          "repeated_dark_positions": 60447,
+          "repeated_fraction": 0.540235946018411,
+          "rows": [
+            {
+              "dark_positions": 7442,
+              "fraction": 0.1955119591507659,
+              "id": "3r.p1.l1",
+              "repeated_dark_positions": 1455
+            },
+            {
+              "dark_positions": 5338,
+              "fraction": 0.6566129636568003,
+              "id": "3r.p1.l2",
+              "repeated_dark_positions": 3505
+            },
+            {
+              "dark_positions": 6104,
+              "fraction": 0.6687418086500655,
+              "id": "3r.p1.l3",
+              "repeated_dark_positions": 4082
+            },
+            {
+              "dark_positions": 6177,
+              "fraction": 0.6245750364254492,
+              "id": "3r.p1.l4",
+              "repeated_dark_positions": 3858
+            },
+            {
+              "dark_positions": 6395,
+              "fraction": 0.653635652853792,
+              "id": "3r.p1.l5",
+              "repeated_dark_positions": 4180
+            },
+            {
+              "dark_positions": 7173,
+              "fraction": 0.7825177749895441,
+              "id": "3r.p1.l6",
+              "repeated_dark_positions": 5613
+            },
+            {
+              "dark_positions": 7821,
+              "fraction": 0.8924689937348165,
+              "id": "3r.p1.l7",
+              "repeated_dark_positions": 6980
+            },
+            {
+              "dark_positions": 8026,
+              "fraction": 0.8688013954647396,
+              "id": "3r.p1.l8",
+              "repeated_dark_positions": 6973
+            },
+            {
+              "dark_positions": 6592,
+              "fraction": 0.8387439320388349,
+              "id": "3r.p1.l9",
+              "repeated_dark_positions": 5529
+            },
+            {
+              "dark_positions": 4689,
+              "fraction": 0.4856046065259117,
+              "id": "3r.p1.l10",
+              "repeated_dark_positions": 2277
+            },
+            {
+              "dark_positions": 4989,
+              "fraction": 0.42854279414712365,
+              "id": "3r.p2.l1",
+              "repeated_dark_positions": 2138
+            },
+            {
+              "dark_positions": 8047,
+              "fraction": 0.8967317012551261,
+              "id": "3r.p2.l2",
+              "repeated_dark_positions": 7216
+            },
+            {
+              "dark_positions": 11002,
+              "fraction": 0.8343028540265406,
+              "id": "3r.p2.l3",
+              "repeated_dark_positions": 9179
+            },
+            {
+              "dark_positions": 6411,
+              "fraction": 0.6810170020277648,
+              "id": "3r.p2.l4",
+              "repeated_dark_positions": 4366
+            },
+            {
+              "dark_positions": 11735,
+              "fraction": 0.35807413719642095,
+              "id": "3r.p3.l1",
+              "repeated_dark_positions": 4202
+            },
+            {
+              "dark_positions": 11714,
+              "fraction": 0.786750896363326,
+              "id": "3r.p3.l2",
+              "repeated_dark_positions": 9216
+            },
+            {
+              "dark_positions": 9656,
+              "fraction": 0.5995236122618062,
+              "id": "3r.p3.l3",
+              "repeated_dark_positions": 5789
+            },
+            {
+              "dark_positions": 13339,
+              "fraction": 0.6376789864307669,
+              "id": "3r.p4.l1",
+              "repeated_dark_positions": 8506
+            },
+            {
+              "dark_positions": 18054,
+              "fraction": 0.9368007089841587,
+              "id": "3r.p4.l2",
+              "repeated_dark_positions": 16913
+            },
+            {
+              "dark_positions": 11633,
+              "fraction": 0.7665262614974641,
+              "id": "3r.p4.l3",
+              "repeated_dark_positions": 8917
+            }
+          ],
+          "rows_with_repeated_positions": 20,
+          "total_dark_exposures": 172337,
+          "unique_dark_positions": 111890
+        },
+        "0.14": {
+          "redundant_exposure_fraction": 0.3566244298023315,
+          "redundant_exposures": 35181,
+          "repeated_dark_positions": 35181,
+          "repeated_fraction": 0.5543021002379114,
+          "rows": [
+            {
+              "dark_positions": 4394,
+              "fraction": 0.19549385525716886,
+              "id": "3r.p1.l1",
+              "repeated_dark_positions": 859
+            },
+            {
+              "dark_positions": 2749,
+              "fraction": 0.6787922881047653,
+              "id": "3r.p1.l2",
+              "repeated_dark_positions": 1866
+            },
+            {
+              "dark_positions": 3538,
+              "fraction": 0.6797625777275297,
+              "id": "3r.p1.l3",
+              "repeated_dark_positions": 2405
+            },
+            {
+              "dark_positions": 3940,
+              "fraction": 0.666243654822335,
+              "id": "3r.p1.l4",
+              "repeated_dark_positions": 2625
+            },
+            {
+              "dark_positions": 3490,
+              "fraction": 0.7186246418338109,
+              "id": "3r.p1.l5",
+              "repeated_dark_positions": 2508
+            },
+            {
+              "dark_positions": 4228,
+              "fraction": 0.7996688741721855,
+              "id": "3r.p1.l6",
+              "repeated_dark_positions": 3381
+            },
+            {
+              "dark_positions": 4711,
+              "fraction": 0.9002334960730206,
+              "id": "3r.p1.l7",
+              "repeated_dark_positions": 4241
+            },
+            {
+              "dark_positions": 4590,
+              "fraction": 0.869281045751634,
+              "id": "3r.p1.l8",
+              "repeated_dark_positions": 3990
+            },
+            {
+              "dark_positions": 3423,
+              "fraction": 0.8755477651183172,
+              "id": "3r.p1.l9",
+              "repeated_dark_positions": 2997
+            },
+            {
+              "dark_positions": 2900,
+              "fraction": 0.39586206896551723,
+              "id": "3r.p1.l10",
+              "repeated_dark_positions": 1148
+            },
+            {
+              "dark_positions": 2653,
+              "fraction": 0.4579721070486242,
+              "id": "3r.p2.l1",
+              "repeated_dark_positions": 1215
+            },
+            {
+              "dark_positions": 4537,
+              "fraction": 0.9032400264491955,
+              "id": "3r.p2.l2",
+              "repeated_dark_positions": 4098
+            },
+            {
+              "dark_positions": 6076,
+              "fraction": 0.8380513495720869,
+              "id": "3r.p2.l3",
+              "repeated_dark_positions": 5092
+            },
+            {
+              "dark_positions": 3304,
+              "fraction": 0.6955205811138014,
+              "id": "3r.p2.l4",
+              "repeated_dark_positions": 2298
+            },
+            {
+              "dark_positions": 6415,
+              "fraction": 0.33733437256430243,
+              "id": "3r.p3.l1",
+              "repeated_dark_positions": 2164
+            },
+            {
+              "dark_positions": 6325,
+              "fraction": 0.7990513833992094,
+              "id": "3r.p3.l2",
+              "repeated_dark_positions": 5054
+            },
+            {
+              "dark_positions": 5342,
+              "fraction": 0.5935979034069637,
+              "id": "3r.p3.l3",
+              "repeated_dark_positions": 3171
+            },
+            {
+              "dark_positions": 7481,
+              "fraction": 0.6638149979949205,
+              "id": "3r.p4.l1",
+              "repeated_dark_positions": 4966
+            },
+            {
+              "dark_positions": 11218,
+              "fraction": 0.9385808522018185,
+              "id": "3r.p4.l2",
+              "repeated_dark_positions": 10529
+            },
+            {
+              "dark_positions": 7336,
+              "fraction": 0.7844874591057798,
+              "id": "3r.p4.l3",
+              "repeated_dark_positions": 5755
+            }
+          ],
+          "rows_with_repeated_positions": 20,
+          "total_dark_exposures": 98650,
+          "unique_dark_positions": 63469
+        }
+      }
+    },
+    {
+      "folio": "3v",
+      "image_sha256": "3103e989e15ebeb9fe13313c27e60a3f335e92233a19b73dc8ff501c0e09263d",
+      "image_size": [
+        1800,
+        2475
+      ],
+      "rows": 14,
+      "thresholds": {
+        "0.06": {
+          "redundant_exposure_fraction": 0.38702830188679244,
+          "redundant_exposures": 75486,
+          "repeated_dark_positions": 75167,
+          "repeated_fraction": 0.6287284407046189,
+          "rows": [
+            {
+              "dark_positions": 12299,
+              "fraction": 0.29457679486137084,
+              "id": "3v.p1.l1",
+              "repeated_dark_positions": 3623
+            },
+            {
+              "dark_positions": 12973,
+              "fraction": 0.7926462653202806,
+              "id": "3v.p1.l2",
+              "repeated_dark_positions": 10283
+            },
+            {
+              "dark_positions": 14719,
+              "fraction": 0.9246552075548611,
+              "id": "3v.p1.l3",
+              "repeated_dark_positions": 13610
+            },
+            {
+              "dark_positions": 14750,
+              "fraction": 0.7913220338983051,
+              "id": "3v.p1.l4",
+              "repeated_dark_positions": 11672
+            },
+            {
+              "dark_positions": 10731,
+              "fraction": 0.9257291957879042,
+              "id": "3v.p1.l5",
+              "repeated_dark_positions": 9934
+            },
+            {
+              "dark_positions": 11194,
+              "fraction": 0.50562801500804,
+              "id": "3v.p1.l6",
+              "repeated_dark_positions": 5660
+            },
+            {
+              "dark_positions": 12461,
+              "fraction": 0.5633576759489608,
+              "id": "3v.p2.l1",
+              "repeated_dark_positions": 7020
+            },
+            {
+              "dark_positions": 14634,
+              "fraction": 0.9119857865245319,
+              "id": "3v.p2.l2",
+              "repeated_dark_positions": 13346
+            },
+            {
+              "dark_positions": 16469,
+              "fraction": 0.9162062055983969,
+              "id": "3v.p2.l3",
+              "repeated_dark_positions": 15089
+            },
+            {
+              "dark_positions": 17852,
+              "fraction": 0.984483531257002,
+              "id": "3v.p2.l4",
+              "repeated_dark_positions": 17575
+            },
+            {
+              "dark_positions": 17557,
+              "fraction": 0.8137495016232842,
+              "id": "3v.p2.l5",
+              "repeated_dark_positions": 14287
+            },
+            {
+              "dark_positions": 14704,
+              "fraction": 0.9109766050054406,
+              "id": "3v.p2.l6",
+              "repeated_dark_positions": 13395
+            },
+            {
+              "dark_positions": 17177,
+              "fraction": 0.6755545205798451,
+              "id": "3v.p2.l7",
+              "repeated_dark_positions": 11604
+            },
+            {
+              "dark_positions": 7520,
+              "fraction": 0.47273936170212766,
+              "id": "3v.p2.l8",
+              "repeated_dark_positions": 3555
+            }
+          ],
+          "rows_with_repeated_positions": 14,
+          "total_dark_exposures": 195040,
+          "unique_dark_positions": 119554
+        },
+        "0.10": {
+          "redundant_exposure_fraction": 0.39262607540043365,
+          "redundant_exposures": 44907,
+          "repeated_dark_positions": 44717,
+          "repeated_fraction": 0.6436971886740849,
+          "rows": [
+            {
+              "dark_positions": 6620,
+              "fraction": 0.3137462235649547,
+              "id": "3v.p1.l1",
+              "repeated_dark_positions": 2077
+            },
+            {
+              "dark_positions": 8275,
+              "fraction": 0.8072507552870091,
+              "id": "3v.p1.l2",
+              "repeated_dark_positions": 6680
+            },
+            {
+              "dark_positions": 9450,
+              "fraction": 0.9296296296296296,
+              "id": "3v.p1.l3",
+              "repeated_dark_positions": 8785
+            },
+            {
+              "dark_positions": 8811,
+              "fraction": 0.7825445465894905,
+              "id": "3v.p1.l4",
+              "repeated_dark_positions": 6895
+            },
+            {
+              "dark_positions": 6309,
+              "fraction": 0.9215406562054208,
+              "id": "3v.p1.l5",
+              "repeated_dark_positions": 5814
+            },
+            {
+              "dark_positions": 6346,
+              "fraction": 0.5181216514339742,
+              "id": "3v.p1.l6",
+              "repeated_dark_positions": 3288
+            },
+            {
+              "dark_positions": 6383,
+              "fraction": 0.6249412501958327,
+              "id": "3v.p2.l1",
+              "repeated_dark_positions": 3989
+            },
+            {
+              "dark_positions": 8606,
+              "fraction": 0.9250522891006274,
+              "id": "3v.p2.l2",
+              "repeated_dark_positions": 7961
+            },
+            {
+              "dark_positions": 9774,
+              "fraction": 0.914364640883978,
+              "id": "3v.p2.l3",
+              "repeated_dark_positions": 8937
+            },
+            {
+              "dark_positions": 10433,
+              "fraction": 0.9843764976516821,
+              "id": "3v.p2.l4",
+              "repeated_dark_positions": 10270
+            },
+            {
+              "dark_positions": 10249,
+              "fraction": 0.7881744560444921,
+              "id": "3v.p2.l5",
+              "repeated_dark_positions": 8078
+            },
+            {
+              "dark_positions": 8459,
+              "fraction": 0.9191393781770895,
+              "id": "3v.p2.l6",
+              "repeated_dark_positions": 7775
+            },
+            {
+              "dark_positions": 10410,
+              "fraction": 0.6759846301633046,
+              "id": "3v.p2.l7",
+              "repeated_dark_positions": 7037
+            },
+            {
+              "dark_positions": 4251,
+              "fraction": 0.4794166078569748,
+              "id": "3v.p2.l8",
+              "repeated_dark_positions": 2038
+            }
+          ],
+          "rows_with_repeated_positions": 14,
+          "total_dark_exposures": 114376,
+          "unique_dark_positions": 69469
+        },
+        "0.14": {
+          "redundant_exposure_fraction": 0.3962547066075772,
+          "redundant_exposures": 23784,
+          "repeated_dark_positions": 23656,
+          "repeated_fraction": 0.6527954081351068,
+          "rows": [
+            {
+              "dark_positions": 3504,
+              "fraction": 0.3147831050228311,
+              "id": "3v.p1.l1",
+              "repeated_dark_positions": 1103
+            },
+            {
+              "dark_positions": 4881,
+              "fraction": 0.8236017209588199,
+              "id": "3v.p1.l2",
+              "repeated_dark_positions": 4020
+            },
+            {
+              "dark_positions": 5379,
+              "fraction": 0.9367912251347834,
+              "id": "3v.p1.l3",
+              "repeated_dark_positions": 5039
+            },
+            {
+              "dark_positions": 4716,
+              "fraction": 0.7608142493638677,
+              "id": "3v.p1.l4",
+              "repeated_dark_positions": 3588
+            },
+            {
+              "dark_positions": 3390,
+              "fraction": 0.9277286135693216,
+              "id": "3v.p1.l5",
+              "repeated_dark_positions": 3145
+            },
+            {
+              "dark_positions": 3218,
+              "fraction": 0.5388440024860162,
+              "id": "3v.p1.l6",
+              "repeated_dark_positions": 1734
+            },
+            {
+              "dark_positions": 2880,
+              "fraction": 0.6881944444444444,
+              "id": "3v.p2.l1",
+              "repeated_dark_positions": 1982
+            },
+            {
+              "dark_positions": 4527,
+              "fraction": 0.9332891539650983,
+              "id": "3v.p2.l2",
+              "repeated_dark_positions": 4225
+            },
+            {
+              "dark_positions": 5215,
+              "fraction": 0.9194630872483222,
+              "id": "3v.p2.l3",
+              "repeated_dark_positions": 4795
+            },
+            {
+              "dark_positions": 5265,
+              "fraction": 0.9844254510921178,
+              "id": "3v.p2.l4",
+              "repeated_dark_positions": 5183
+            },
+            {
+              "dark_positions": 4976,
+              "fraction": 0.757435691318328,
+              "id": "3v.p2.l5",
+              "repeated_dark_positions": 3769
+            },
+            {
+              "dark_positions": 4292,
+              "fraction": 0.9252096924510718,
+              "id": "3v.p2.l6",
+              "repeated_dark_positions": 3971
+            },
+            {
+              "dark_positions": 5596,
+              "fraction": 0.6831665475339528,
+              "id": "3v.p2.l7",
+              "repeated_dark_positions": 3823
+            },
+            {
+              "dark_positions": 2183,
+              "fraction": 0.4869445716903344,
+              "id": "3v.p2.l8",
+              "repeated_dark_positions": 1063
+            }
+          ],
+          "rows_with_repeated_positions": 14,
+          "total_dark_exposures": 60022,
+          "unique_dark_positions": 36238
+        }
+      }
+    },
+    {
+      "folio": "4r",
+      "image_sha256": "b1eadeaac625aba5600078ef96ba1baefbf56fffb408dc79c1deb82f5cbc377e",
+      "image_size": [
+        1800,
+        2510
+      ],
+      "rows": 13,
+      "thresholds": {
+        "0.06": {
+          "redundant_exposure_fraction": 0.3955099913119027,
+          "redundant_exposures": 56904,
+          "repeated_dark_positions": 54995,
+          "repeated_fraction": 0.6323372158535604,
+          "rows": [
+            {
+              "dark_positions": 17073,
+              "fraction": 0.3288818602471739,
+              "id": "4r.p1.l1",
+              "repeated_dark_positions": 5615
+            },
+            {
+              "dark_positions": 18088,
+              "fraction": 0.7483967271118974,
+              "id": "4r.p1.l2",
+              "repeated_dark_positions": 13537
+            },
+            {
+              "dark_positions": 15267,
+              "fraction": 0.9162900373354294,
+              "id": "4r.p1.l3",
+              "repeated_dark_positions": 13989
+            },
+            {
+              "dark_positions": 11918,
+              "fraction": 0.582564188622252,
+              "id": "4r.p1.l4",
+              "repeated_dark_positions": 6943
+            },
+            {
+              "dark_positions": 7983,
+              "fraction": 0.5407741450582488,
+              "id": "4r.p2.l1",
+              "repeated_dark_positions": 4317
+            },
+            {
+              "dark_positions": 8909,
+              "fraction": 0.9813671568077226,
+              "id": "4r.p2.l2",
+              "repeated_dark_positions": 8743
+            },
+            {
+              "dark_positions": 10913,
+              "fraction": 0.944011729130395,
+              "id": "4r.p2.l3",
+              "repeated_dark_positions": 10302
+            },
+            {
+              "dark_positions": 11359,
+              "fraction": 0.9282507262963289,
+              "id": "4r.p2.l4",
+              "repeated_dark_positions": 10544
+            },
+            {
+              "dark_positions": 10853,
+              "fraction": 0.9277619091495439,
+              "id": "4r.p2.l5",
+              "repeated_dark_positions": 10069
+            },
+            {
+              "dark_positions": 10308,
+              "fraction": 0.9984478075281334,
+              "id": "4r.p2.l6",
+              "repeated_dark_positions": 10292
+            },
+            {
+              "dark_positions": 10239,
+              "fraction": 0.934563922258033,
+              "id": "4r.p2.l7",
+              "repeated_dark_positions": 9569
+            },
+            {
+              "dark_positions": 7517,
+              "fraction": 0.8214713316482639,
+              "id": "4r.p2.l8",
+              "repeated_dark_positions": 6175
+            },
+            {
+              "dark_positions": 3448,
+              "fraction": 0.5232018561484919,
+              "id": "4r.p2.l9",
+              "repeated_dark_positions": 1804
+            }
+          ],
+          "rows_with_repeated_positions": 13,
+          "total_dark_exposures": 143875,
+          "unique_dark_positions": 86971
+        },
+        "0.10": {
+          "redundant_exposure_fraction": 0.40567955776818,
+          "redundant_exposures": 36914,
+          "repeated_dark_positions": 35771,
+          "repeated_fraction": 0.6614582370236136,
+          "rows": [
+            {
+              "dark_positions": 10157,
+              "fraction": 0.33100324899084377,
+              "id": "4r.p1.l1",
+              "repeated_dark_positions": 3362
+            },
+            {
+              "dark_positions": 11752,
+              "fraction": 0.73000340367597,
+              "id": "4r.p1.l2",
+              "repeated_dark_positions": 8579
+            },
+            {
+              "dark_positions": 9722,
+              "fraction": 0.9593704998971405,
+              "id": "4r.p1.l3",
+              "repeated_dark_positions": 9327
+            },
+            {
+              "dark_positions": 7552,
+              "fraction": 0.6308262711864406,
+              "id": "4r.p1.l4",
+              "repeated_dark_positions": 4764
+            },
+            {
+              "dark_positions": 4644,
+              "fraction": 0.6233850129198967,
+              "id": "4r.p2.l1",
+              "repeated_dark_positions": 2895
+            },
+            {
+              "dark_positions": 5933,
+              "fraction": 0.9900556211023092,
+              "id": "4r.p2.l2",
+              "repeated_dark_positions": 5874
+            },
+            {
+              "dark_positions": 6971,
+              "fraction": 0.9546693444269115,
+              "id": "4r.p2.l3",
+              "repeated_dark_positions": 6655
+            },
+            {
+              "dark_positions": 7269,
+              "fraction": 0.9478607786490576,
+              "id": "4r.p2.l4",
+              "repeated_dark_positions": 6890
+            },
+            {
+              "dark_positions": 7083,
+              "fraction": 0.9501623605816745,
+              "id": "4r.p2.l5",
+              "repeated_dark_positions": 6730
+            },
+            {
+              "dark_positions": 6744,
+              "fraction": 0.9992586002372479,
+              "id": "4r.p2.l6",
+              "repeated_dark_positions": 6739
+            },
+            {
+              "dark_positions": 6357,
+              "fraction": 0.9433695139216611,
+              "id": "4r.p2.l7",
+              "repeated_dark_positions": 5997
+            },
+            {
+              "dark_positions": 4621,
+              "fraction": 0.8147587102358796,
+              "id": "4r.p2.l8",
+              "repeated_dark_positions": 3765
+            },
+            {
+              "dark_positions": 2188,
+              "fraction": 0.506398537477148,
+              "id": "4r.p2.l9",
+              "repeated_dark_positions": 1108
+            }
+          ],
+          "rows_with_repeated_positions": 13,
+          "total_dark_exposures": 90993,
+          "unique_dark_positions": 54079
+        },
+        "0.14": {
+          "redundant_exposure_fraction": 0.4072952928711972,
+          "redundant_exposures": 21528,
+          "repeated_dark_positions": 20873,
+          "repeated_fraction": 0.6662729826353422,
+          "rows": [
+            {
+              "dark_positions": 6395,
+              "fraction": 0.3200938232994527,
+              "id": "4r.p1.l1",
+              "repeated_dark_positions": 2047
+            },
+            {
+              "dark_positions": 7137,
+              "fraction": 0.7302788286394843,
+              "id": "4r.p1.l2",
+              "repeated_dark_positions": 5212
+            },
+            {
+              "dark_positions": 5831,
+              "fraction": 0.9833647744812211,
+              "id": "4r.p1.l3",
+              "repeated_dark_positions": 5734
+            },
+            {
+              "dark_positions": 4477,
+              "fraction": 0.6683046683046683,
+              "id": "4r.p1.l4",
+              "repeated_dark_positions": 2992
+            },
+            {
+              "dark_positions": 2658,
+              "fraction": 0.6361926260346125,
+              "id": "4r.p2.l1",
+              "repeated_dark_positions": 1691
+            },
+            {
+              "dark_positions": 3594,
+              "fraction": 0.9947134112409571,
+              "id": "4r.p2.l2",
+              "repeated_dark_positions": 3575
+            },
+            {
+              "dark_positions": 3891,
+              "fraction": 0.9689025957337445,
+              "id": "4r.p2.l3",
+              "repeated_dark_positions": 3770
+            },
+            {
+              "dark_positions": 3950,
+              "fraction": 0.959746835443038,
+              "id": "4r.p2.l4",
+              "repeated_dark_positions": 3791
+            },
+            {
+              "dark_positions": 4171,
+              "fraction": 0.9654759050587389,
+              "id": "4r.p2.l5",
+              "repeated_dark_positions": 4027
+            },
+            {
+              "dark_positions": 3922,
+              "fraction": 1.0,
+              "id": "4r.p2.l6",
+              "repeated_dark_positions": 3922
+            },
+            {
+              "dark_positions": 3313,
+              "fraction": 0.9571385451252641,
+              "id": "4r.p2.l7",
+              "repeated_dark_positions": 3171
+            },
+            {
+              "dark_positions": 2307,
+              "fraction": 0.8149111400086693,
+              "id": "4r.p2.l8",
+              "repeated_dark_positions": 1880
+            },
+            {
+              "dark_positions": 1210,
+              "fraction": 0.48677685950413224,
+              "id": "4r.p2.l9",
+              "repeated_dark_positions": 589
+            }
+          ],
+          "rows_with_repeated_positions": 13,
+          "total_dark_exposures": 52856,
+          "unique_dark_positions": 31328
+        }
+      }
+    },
+    {
+      "folio": "4v",
+      "image_sha256": "873534a29335bc9c5725849bb9150cde0b9b1a7a128014e61504ae1b10433a30",
+      "image_size": [
+        1800,
+        2469
+      ],
+      "rows": 14,
+      "thresholds": {
+        "0.06": {
+          "redundant_exposure_fraction": 0.4517801059672508,
+          "redundant_exposures": 94221,
+          "repeated_dark_positions": 83941,
+          "repeated_fraction": 0.7341735616701943,
+          "rows": [
+            {
+              "dark_positions": 19631,
+              "fraction": 0.394987519739188,
+              "id": "4v.p1.l1",
+              "repeated_dark_positions": 7754
+            },
+            {
+              "dark_positions": 16620,
+              "fraction": 0.9986161251504212,
+              "id": "4v.p1.l2",
+              "repeated_dark_positions": 16597
+            },
+            {
+              "dark_positions": 17806,
+              "fraction": 1.0,
+              "id": "4v.p1.l3",
+              "repeated_dark_positions": 17806
+            },
+            {
+              "dark_positions": 21596,
+              "fraction": 0.998286719762919,
+              "id": "4v.p1.l4",
+              "repeated_dark_positions": 21559
+            },
+            {
+              "dark_positions": 17939,
+              "fraction": 0.9440882992363008,
+              "id": "4v.p1.l5",
+              "repeated_dark_positions": 16936
+            },
+            {
+              "dark_positions": 9380,
+              "fraction": 0.6417910447761194,
+              "id": "4v.p1.l6",
+              "repeated_dark_positions": 6020
+            },
+            {
+              "dark_positions": 11150,
+              "fraction": 0.56304932735426,
+              "id": "4v.p2.l1",
+              "repeated_dark_positions": 6278
+            },
+            {
+              "dark_positions": 12924,
+              "fraction": 0.9938099659548127,
+              "id": "4v.p2.l2",
+              "repeated_dark_positions": 12844
+            },
+            {
+              "dark_positions": 15183,
+              "fraction": 1.0,
+              "id": "4v.p2.l3",
+              "repeated_dark_positions": 15183
+            },
+            {
+              "dark_positions": 14550,
+              "fraction": 0.9995876288659794,
+              "id": "4v.p2.l4",
+              "repeated_dark_positions": 14544
+            },
+            {
+              "dark_positions": 14127,
+              "fraction": 0.9333191760458696,
+              "id": "4v.p2.l5",
+              "repeated_dark_positions": 13185
+            },
+            {
+              "dark_positions": 14399,
+              "fraction": 0.9509688172789778,
+              "id": "4v.p2.l6",
+              "repeated_dark_positions": 13693
+            },
+            {
+              "dark_positions": 14971,
+              "fraction": 0.7620733417941353,
+              "id": "4v.p2.l7",
+              "repeated_dark_positions": 11409
+            },
+            {
+              "dark_positions": 8279,
+              "fraction": 0.5259089261988162,
+              "id": "4v.p2.l8",
+              "repeated_dark_positions": 4354
+            }
+          ],
+          "rows_with_repeated_positions": 14,
+          "total_dark_exposures": 208555,
+          "unique_dark_positions": 114334
+        },
+        "0.10": {
+          "redundant_exposure_fraction": 0.4659097794474067,
+          "redundant_exposures": 61515,
+          "repeated_dark_positions": 53866,
+          "repeated_fraction": 0.7638725413730022,
+          "rows": [
+            {
+              "dark_positions": 11306,
+              "fraction": 0.4107553511409871,
+              "id": "4v.p1.l1",
+              "repeated_dark_positions": 4644
+            },
+            {
+              "dark_positions": 10413,
+              "fraction": 0.9994237971766061,
+              "id": "4v.p1.l2",
+              "repeated_dark_positions": 10407
+            },
+            {
+              "dark_positions": 11644,
+              "fraction": 1.0,
+              "id": "4v.p1.l3",
+              "repeated_dark_positions": 11644
+            },
+            {
+              "dark_positions": 14298,
+              "fraction": 0.9998601202965449,
+              "id": "4v.p1.l4",
+              "repeated_dark_positions": 14296
+            },
+            {
+              "dark_positions": 11220,
+              "fraction": 0.9700534759358289,
+              "id": "4v.p1.l5",
+              "repeated_dark_positions": 10884
+            },
+            {
+              "dark_positions": 5505,
+              "fraction": 0.6653950953678475,
+              "id": "4v.p1.l6",
+              "repeated_dark_positions": 3663
+            },
+            {
+              "dark_positions": 6280,
+              "fraction": 0.6788216560509555,
+              "id": "4v.p2.l1",
+              "repeated_dark_positions": 4263
+            },
+            {
+              "dark_positions": 8730,
+              "fraction": 0.9938144329896907,
+              "id": "4v.p2.l2",
+              "repeated_dark_positions": 8676
+            },
+            {
+              "dark_positions": 10350,
+              "fraction": 1.0,
+              "id": "4v.p2.l3",
+              "repeated_dark_positions": 10350
+            },
+            {
+              "dark_positions": 9535,
+              "fraction": 0.9998951232302045,
+              "id": "4v.p2.l4",
+              "repeated_dark_positions": 9534
+            },
+            {
+              "dark_positions": 9070,
+              "fraction": 0.9306504961411246,
+              "id": "4v.p2.l5",
+              "repeated_dark_positions": 8441
+            },
+            {
+              "dark_positions": 9072,
+              "fraction": 0.9520502645502645,
+              "id": "4v.p2.l6",
+              "repeated_dark_positions": 8637
+            },
+            {
+              "dark_positions": 9307,
+              "fraction": 0.7620070914365531,
+              "id": "4v.p2.l7",
+              "repeated_dark_positions": 7092
+            },
+            {
+              "dark_positions": 5302,
+              "fraction": 0.5375330064126744,
+              "id": "4v.p2.l8",
+              "repeated_dark_positions": 2850
+            }
+          ],
+          "rows_with_repeated_positions": 14,
+          "total_dark_exposures": 132032,
+          "unique_dark_positions": 70517
+        },
+        "0.14": {
+          "redundant_exposure_fraction": 0.47284548546431276,
+          "redundant_exposures": 39345,
+          "repeated_dark_positions": 34206,
+          "repeated_fraction": 0.7798194419113624,
+          "rows": [
+            {
+              "dark_positions": 6769,
+              "fraction": 0.4078889053035899,
+              "id": "4v.p1.l1",
+              "repeated_dark_positions": 2761
+            },
+            {
+              "dark_positions": 6348,
+              "fraction": 0.9996849401386263,
+              "id": "4v.p1.l2",
+              "repeated_dark_positions": 6346
+            },
+            {
+              "dark_positions": 7362,
+              "fraction": 1.0,
+              "id": "4v.p1.l3",
+              "repeated_dark_positions": 7362
+            },
+            {
+              "dark_positions": 9043,
+              "fraction": 1.0,
+              "id": "4v.p1.l4",
+              "repeated_dark_positions": 9043
+            },
+            {
+              "dark_positions": 6785,
+              "fraction": 0.9811348563006632,
+              "id": "4v.p1.l5",
+              "repeated_dark_positions": 6657
+            },
+            {
+              "dark_positions": 2974,
+              "fraction": 0.6956960322797578,
+              "id": "4v.p1.l6",
+              "repeated_dark_positions": 2069
+            },
+            {
+              "dark_positions": 3813,
+              "fraction": 0.7631785995279308,
+              "id": "4v.p2.l1",
+              "repeated_dark_positions": 2910
+            },
+            {
+              "dark_positions": 5976,
+              "fraction": 0.9956492637215528,
+              "id": "4v.p2.l2",
+              "repeated_dark_positions": 5950
+            },
+            {
+              "dark_positions": 7013,
+              "fraction": 1.0,
+              "id": "4v.p2.l3",
+              "repeated_dark_positions": 7013
+            },
+            {
+              "dark_positions": 6152,
+              "fraction": 1.0,
+              "id": "4v.p2.l4",
+              "repeated_dark_positions": 6152
+            },
+            {
+              "dark_positions": 5820,
+              "fraction": 0.929725085910653,
+              "id": "4v.p2.l5",
+              "repeated_dark_positions": 5411
+            },
+            {
+              "dark_positions": 5742,
+              "fraction": 0.9536746778126088,
+              "id": "4v.p2.l6",
+              "repeated_dark_positions": 5476
+            },
+            {
+              "dark_positions": 5887,
+              "fraction": 0.7618481399694241,
+              "id": "4v.p2.l7",
+              "repeated_dark_positions": 4485
+            },
+            {
+              "dark_positions": 3525,
+              "fraction": 0.5435460992907801,
+              "id": "4v.p2.l8",
+              "repeated_dark_positions": 1916
+            }
+          ],
+          "rows_with_repeated_positions": 14,
+          "total_dark_exposures": 83209,
+          "unique_dark_positions": 43864
+        }
+      }
+    }
+  ],
+  "pooled": {
+    "0.06": {
+      "redundant_exposure_fraction": 0.39132134238282723,
+      "redundant_exposures": 316361,
+      "repeated_dark_positions": 303853,
+      "repeated_fraction": 0.6174844842932682,
+      "rows_with_repeated_positions": 61,
+      "total_dark_exposures": 808443,
+      "unique_dark_positions": 492082
+    },
+    "0.10": {
+      "redundant_exposure_fraction": 0.39977988692230126,
+      "redundant_exposures": 203783,
+      "repeated_dark_positions": 194801,
+      "repeated_fraction": 0.6366982072527005,
+      "rows_with_repeated_positions": 61,
+      "total_dark_exposures": 509738,
+      "unique_dark_positions": 305955
+    },
+    "0.14": {
+      "redundant_exposure_fraction": 0.4065929964680376,
+      "redundant_exposures": 119838,
+      "repeated_dark_positions": 113916,
+      "repeated_fraction": 0.6513244786991349,
+      "rows_with_repeated_positions": 61,
+      "total_dark_exposures": 294737,
+      "unique_dark_positions": 174899
+    }
+  },
+  "preregistration_commit": "46430b4c3a8d6053927c9bf16bd65f8e53c77648",
+  "protocol_sha256": "93cb4f9b73368d97f2d206d84752fbfb9d816162d720b43db8e131ad796e9dae",
+  "recognition": "NOT_RUN",
+  "source_run_id": 38707533236,
+  "status": "REVIEW_REQUIRED",
+  "translation": "NOT_RUN"
+}

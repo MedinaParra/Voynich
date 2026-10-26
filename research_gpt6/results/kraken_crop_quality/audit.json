@@ -1,0 +1,9 @@
+{
+  "checks": 475,
+  "date": "2026-10-26",
+  "limitation": "Checks numerical correspondence with actual exported crops, not expert ownership of ink or correctness of labels.",
+  "method": "Read preserved training/test PNGs and count repeated source coordinates, independently of box rasterization",
+  "mismatches": [],
+  "result_sha256": "2eac101690288939aa6f99f8e7b18086c5e9b01624cb8fd13ce7cef8b2f9ca4f",
+  "status": "PASS"
+}

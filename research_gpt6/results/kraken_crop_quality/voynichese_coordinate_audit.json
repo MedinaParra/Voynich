@@ -1,0 +1,3411 @@
+{
+  "archive_bytes": 715214,
+  "archive_sha256": "402d99ca8191ae53a4f25912ee0af0a7e6b6d9a3714b2beaf86404a27d5b7ad5",
+  "date": "2026-10-26",
+  "flagged_folios": 28,
+  "flagged_words": [
+    {
+      "bbox": [
+        89,
+        300,
+        0,
+        23
+      ],
+      "folio": "f100r",
+      "index": 7,
+      "reasons": [
+        "nonpositive_width"
+      ]
+    },
+    {
+      "bbox": [
+        454,
+        411,
+        0,
+        20
+      ],
+      "folio": "f103v",
+      "index": 156,
+      "reasons": [
+        "nonpositive_width"
+      ]
+    },
+    {
+      "bbox": [
+        319,
+        469,
+        0,
+        25
+      ],
+      "folio": "f111r",
+      "index": 218,
+      "reasons": [
+        "nonpositive_width"
+      ]
+    },
+    {
+      "bbox": [
+        535,
+        405,
+        0,
+        18
+      ],
+      "folio": "f113r",
+      "index": 152,
+      "reasons": [
+        "nonpositive_width"
+      ]
+    },
+    {
+      "bbox": [
+        558,
+        414,
+        0,
+        23
+      ],
+      "folio": "f14v",
+      "index": 53,
+      "reasons": [
+        "nonpositive_width"
+      ]
+    },
+    {
+      "bbox": [
+        571,
+        217,
+        0,
+        44
+      ],
+      "folio": "f15r",
+      "index": 5,
+      "reasons": [
+        "nonpositive_width"
+      ]
+    },
+    {
+      "bbox": [
+        580,
+        528,
+        0,
+        17
+      ],
+      "folio": "f15v",
+      "index": 54,
+      "reasons": [
+        "nonpositive_width"
+      ]
+    },
+    {
+      "bbox": [
+        758,
+        930,
+        0,
+        36
+      ],
+      "folio": "f17v",
+      "index": 129,
+      "reasons": [
+        "nonpositive_width"
+      ]
+    },
+    {
+      "bbox": [
+        878,
+        471,
+        0,
+        35
+      ],
+      "folio": "f18v",
+      "index": 70,
+      "reasons": [
+        "nonpositive_width"
+      ]
+    },
+    {
+      "bbox": [
+        252,
+        890,
+        0,
+        22
+      ],
+      "folio": "f1r",
+      "index": 152,
+      "reasons": [
+        "nonpositive_width"
+      ]
+    },
+    {
+      "bbox": [
+        359,
+        1000,
+        0,
+        27
+      ],
+      "folio": "f1r",
+      "index": 160,
+      "reasons": [
+        "nonpositive_width"
+      ]
+    },
+    {
+      "bbox": [
+        841,
+        1036,
+        0,
+        22
+      ],
+      "folio": "f1v",
+      "index": 70,
+      "reasons": [
+        "nonpositive_width"
+      ]
+    },
+    {
+      "bbox": [
+        505,
+        318,
+        0,
+        14
+      ],
+      "folio": "f2r",
+      "index": 29,
+      "reasons": [
+        "nonpositive_width"
+      ]
+    },
+    {
+      "bbox": [
+        294,
+        223,
+        0,
+        18
+      ],
+      "folio": "f3r",
+      "index": 2,
+      "reasons": [
+        "nonpositive_width"
+      ]
+    },
+    {
+      "bbox": [
+        656,
+        461,
+        0,
+        37
+      ],
+      "folio": "f40r",
+      "index": 58,
+      "reasons": [
+        "nonpositive_width"
+      ]
+    },
+    {
+      "bbox": [
+        348,
+        952,
+        0,
+        22
+      ],
+      "folio": "f58v",
+      "index": 311,
+      "reasons": [
+        "nonpositive_width"
+      ]
+    },
+    {
+      "bbox": [
+        665,
+        1077,
+        0,
+        23
+      ],
+      "folio": "f69v",
+      "index": 20,
+      "reasons": [
+        "nonpositive_width"
+      ]
+    },
+    {
+      "bbox": [
+        279,
+        75,
+        0,
+        59
+      ],
+      "folio": "f70r1",
+      "index": 49,
+      "reasons": [
+        "nonpositive_width"
+      ]
+    },
+    {
+      "bbox": [
+        750,
+        1096,
+        0,
+        29
+      ],
+      "folio": "f70v1",
+      "index": 19,
+      "reasons": [
+        "nonpositive_width"
+      ]
+    },
+    {
+      "bbox": [
+        271,
+        38,
+        0,
+        37
+      ],
+      "folio": "f70v1",
+      "index": 35,
+      "reasons": [
+        "nonpositive_width"
+      ]
+    },
+    {
+      "bbox": [
+        330,
+        41,
+        0,
+        37
+      ],
+      "folio": "f70v1",
+      "index": 36,
+      "reasons": [
+        "nonpositive_width"
+      ]
+    },
+    {
+      "bbox": [
+        102,
+        21,
+        0,
+        36
+      ],
+      "folio": "f71v",
+      "index": 18,
+      "reasons": [
+        "nonpositive_width"
+      ]
+    },
+    {
+      "bbox": [
+        673,
+        1008,
+        0,
+        29
+      ],
+      "folio": "f71v",
+      "index": 72,
+      "reasons": [
+        "nonpositive_width"
+      ]
+    },
+    {
+      "bbox": [
+        789,
+        1058,
+        0,
+        49
+      ],
+      "folio": "f72r3",
+      "index": 60,
+      "reasons": [
+        "nonpositive_width"
+      ]
+    },
+    {
+      "bbox": [
+        150,
+        79,
+        0,
+        29
+      ],
+      "folio": "f72v2",
+      "index": 34,
+      "reasons": [
+        "nonpositive_width"
+      ]
+    },
+    {
+      "bbox": [
+        406,
+        362,
+        0,
+        28
+      ],
+      "folio": "f77r",
+      "index": 65,
+      "reasons": [
+        "nonpositive_width"
+      ]
+    },
+    {
+      "bbox": [
+        184,
+        236,
+        0,
+        34
+      ],
+      "folio": "f85r1",
+      "index": 23,
+      "reasons": [
+        "nonpositive_width"
+      ]
+    },
+    {
+      "bbox": [
+        794,
+        1047,
+        0,
+        24
+      ],
+      "folio": "f85r2",
+      "index": 116,
+      "reasons": [
+        "nonpositive_width"
+      ]
+    },
+    {
+      "bbox": [
+        1204,
+        656,
+        0,
+        25
+      ],
+      "folio": "f89r2",
+      "index": 72,
+      "reasons": [
+        "nonpositive_width"
+      ]
+    },
+    {
+      "bbox": [
+        260,
+        470,
+        0,
+        20
+      ],
+      "folio": "f89v2",
+      "index": 22,
+      "reasons": [
+        "nonpositive_width"
+      ]
+    },
+    {
+      "bbox": [
+        182,
+        474,
+        0,
+        27
+      ],
+      "folio": "f8r",
+      "index": 1,
+      "reasons": [
+        "nonpositive_width"
+      ]
+    },
+    {
+      "bbox": [
+        721,
+        644,
+        0,
+        20
+      ],
+      "folio": "f8r",
+      "index": 32,
+      "reasons": [
+        "nonpositive_width"
+      ]
+    },
+    {
+      "bbox": [
+        582,
+        667,
+        0,
+        34
+      ],
+      "folio": "f99v",
+      "index": 88,
+      "reasons": [
+        "nonpositive_width"
+      ]
+    }
+  ],
+  "license_evidence": "Apache 2.0 inline headers in original XML; project DataSets.md documents the same release terms.",
+  "limitations": [
+    "A positive-area in-frame box is not proof of correct transcription or alignment.",
+    "These are older viewport-based image coordinates, not registered to the current Yale scans.",
+    "No automatic mapping to Boxer units has been established."
+  ],
+  "pages": [
+    {
+      "apache_header_present": true,
+      "flags": {
+        "declared_count_difference": 0,
+        "duplicate_indices": 0,
+        "nonpositive_width": 1
+      },
+      "folio": "f100r",
+      "frame": [
+        1083,
+        1500
+      ],
+      "words": 111
+    },
+    {
+      "apache_header_present": true,
+      "flags": {
+        "declared_count_difference": 0,
+        "duplicate_indices": 0
+      },
+      "folio": "f100v",
+      "frame": [
+        1142,
+        1500
+      ],
+      "words": 91
+    },
+    {
+      "apache_header_present": true,
+      "flags": {
+        "declared_count_difference": 0,
+        "duplicate_indices": 0
+      },
+      "folio": "f101r1",
+      "frame": [
+        1653,
+        1500
+      ],
+      "words": 209
+    },
+    {
+      "apache_header_present": true,
+      "flags": {
+        "declared_count_difference": 0,
+        "duplicate_indices": 0
+      },
+      "folio": "f101v2",
+      "frame": [
+        1819,
+        1500
+      ],
+      "words": 213
+    },
+    {
+      "apache_header_present": true,
+      "flags": {
+        "declared_count_difference": 0,
+        "duplicate_indices": 0
+      },
+      "folio": "f102r1",
+      "frame": [
+        909,
+        1500
+      ],
+      "words": 109
+    },
+    {
+      "apache_header_present": true,
+      "flags": {
+        "declared_count_difference": 0,
+        "duplicate_indices": 0
+      },
+      "folio": "f102r2",
+      "frame": [
+        1045,
+        1500
+      ],
+      "words": 134
+    },
+    {
+      "apache_header_present": true,
+      "flags": {
+        "declared_count_difference": 0,
+        "duplicate_indices": 0
+      },
+      "folio": "f102v1",
+      "frame": [
+        1212,
+        1500
+      ],
+      "words": 127
+    },
+    {
+      "apache_header_present": true,
+      "flags": {
+        "declared_count_difference": 0,
+        "duplicate_indices": 0
+      },
+      "folio": "f102v2",
+      "frame": [
+        1198,
+        1500
+      ],
+      "words": 184
+    },
+    {
+      "apache_header_present": true,
+      "flags": {
+        "declared_count_difference": 0,
+        "duplicate_indices": 0
+      },
+      "folio": "f103r",
+      "frame": [
+        1070,
+        1500
+      ],
+      "words": 525
+    },
+    {
+      "apache_header_present": true,
+      "flags": {
+        "declared_count_difference": 0,
+        "duplicate_indices": 0,
+        "nonpositive_width": 1
+      },
+      "folio": "f103v",
+      "frame": [
+        1236,
+        1500
+      ],
+      "words": 449
+    },
+    {
+      "apache_header_present": true,
+      "flags": {
+        "declared_count_difference": 0,
+        "duplicate_indices": 0
+      },
+      "folio": "f104r",
+      "frame": [
+        1070,
+        1500
+      ],
+      "words": 438
+    },
+    {
+      "apache_header_present": true,
+      "flags": {
+        "declared_count_difference": 0,
+        "duplicate_indices": 0
+      },
+      "folio": "f104v",
+      "frame": [
+        1263,
+        1500
+      ],
+      "words": 458
+    },
+    {
+      "apache_header_present": true,
+      "flags": {
+        "declared_count_difference": 0,
+        "duplicate_indices": 0
+      },
+      "folio": "f105r",
+      "frame": [
+        1058,
+        1500
+      ],
+      "words": 370
+    },
+    {
+      "apache_header_present": true,
+      "flags": {
+        "declared_count_difference": 0,
+        "duplicate_indices": 0
+      },
+      "folio": "f105v",
+      "frame": [
+        1248,
+        1500
+      ],
+      "words": 390
+    },
+    {
+      "apache_header_present": true,
+      "flags": {
+        "declared_count_difference": 0,
+        "duplicate_indices": 0
+      },
+      "folio": "f106r",
+      "frame": [
+        1068,
+        1500
+      ],
+      "words": 421
+    },
+    {
+      "apache_header_present": true,
+      "flags": {
+        "declared_count_difference": 0,
+        "duplicate_indices": 0
+      },
+      "folio": "f106v",
+      "frame": [
+        1230,
+        1500
+      ],
+      "words": 449
+    },
+    {
+      "apache_header_present": true,
+      "flags": {
+        "declared_count_difference": 0,
+        "duplicate_indices": 0
+      },
+      "folio": "f107r",
+      "frame": [
+        1056,
+        1500
+      ],
+      "words": 488
+    },
+    {
+      "apache_header_present": true,
+      "flags": {
+        "declared_count_difference": 0,
+        "duplicate_indices": 0
+      },
+      "folio": "f107v",
+      "frame": [
+        1238,
+        1500
+      ],
+      "words": 455
+    },
+    {
+      "apache_header_present": true,
+      "flags": {
+        "declared_count_difference": 0,
+        "duplicate_indices": 0
+      },
+      "folio": "f108r",
+      "frame": [
+        1045,
+        1500
+      ],
+      "words": 491
+    },
+    {
+      "apache_header_present": true,
+      "flags": {
+        "declared_count_difference": 0,
+        "duplicate_indices": 0
+      },
+      "folio": "f108v",
+      "frame": [
+        1246,
+        1500
+      ],
+      "words": 570
+    },
+    {
+      "apache_header_present": true,
+      "flags": {
+        "declared_count_difference": 0,
+        "duplicate_indices": 0
+      },
+      "folio": "f10r",
+      "frame": [
+        1081,
+        1500
+      ],
+      "words": 92
+    },
+    {
+      "apache_header_present": true,
+      "flags": {
+        "declared_count_difference": 0,
+        "duplicate_indices": 0
+      },
+      "folio": "f10v",
+      "frame": [
+        1105,
+        1500
+      ],
+      "words": 53
+    },
+    {
+      "apache_header_present": true,
+      "flags": {
+        "declared_count_difference": 0,
+        "duplicate_indices": 0,
+        "nonpositive_width": 1
+      },
+      "folio": "f111r",
+      "frame": [
+        1057,
+        1500
+      ],
+      "words": 615
+    },
+    {
+      "apache_header_present": true,
+      "flags": {
+        "declared_count_difference": 0,
+        "duplicate_indices": 0
+      },
+      "folio": "f111v",
+      "frame": [
+        1116,
+        1500
+      ],
+      "words": 561
+    },
+    {
+      "apache_header_present": true,
+      "flags": {
+        "declared_count_difference": 0,
+        "duplicate_indices": 0
+      },
+      "folio": "f112r",
+      "frame": [
+        1061,
+        1500
+      ],
+      "words": 396
+    },
+    {
+      "apache_header_present": true,
+      "flags": {
+        "declared_count_difference": 0,
+        "duplicate_indices": 0
+      },
+      "folio": "f112v",
+      "frame": [
+        1122,
+        1500
+      ],
+      "words": 415
+    },
+    {
+      "apache_header_present": true,
+      "flags": {
+        "declared_count_difference": 0,
+        "duplicate_indices": 0,
+        "nonpositive_width": 1
+      },
+      "folio": "f113r",
+      "frame": [
+        1055,
+        1500
+      ],
+      "words": 518
+    },
+    {
+      "apache_header_present": true,
+      "flags": {
+        "declared_count_difference": 0,
+        "duplicate_indices": 0
+      },
+      "folio": "f113v",
+      "frame": [
+        1122,
+        1500
+      ],
+      "words": 482
+    },
+    {
+      "apache_header_present": true,
+      "flags": {
+        "declared_count_difference": 0,
+        "duplicate_indices": 0
+      },
+      "folio": "f114r",
+      "frame": [
+        1055,
+        1500
+      ],
+      "words": 447
+    },
+    {
+      "apache_header_present": true,
+      "flags": {
+        "declared_count_difference": 0,
+        "duplicate_indices": 0
+      },
+      "folio": "f114v",
+      "frame": [
+        1102,
+        1500
+      ],
+      "words": 362
+    },
+    {
+      "apache_header_present": true,
+      "flags": {
+        "declared_count_difference": 0,
+        "duplicate_indices": 0
+      },
+      "folio": "f115r",
+      "frame": [
+        1054,
+        1500
+      ],
+      "words": 444
+    },
+    {
+      "apache_header_present": true,
+      "flags": {
+        "declared_count_difference": 0,
+        "duplicate_indices": 0
+      },
+      "folio": "f115v",
+      "frame": [
+        1111,
+        1500
+      ],
+      "words": 399
+    },
+    {
+      "apache_header_present": true,
+      "flags": {
+        "declared_count_difference": 0,
+        "duplicate_indices": 0
+      },
+      "folio": "f116r",
+      "frame": [
+        1046,
+        1500
+      ],
+      "words": 538
+    },
+    {
+      "apache_header_present": true,
+      "flags": {
+        "declared_count_difference": 0,
+        "duplicate_indices": 0
+      },
+      "folio": "f11r",
+      "frame": [
+        1071,
+        1500
+      ],
+      "words": 57
+    },
+    {
+      "apache_header_present": true,
+      "flags": {
+        "declared_count_difference": 0,
+        "duplicate_indices": 0
+      },
+      "folio": "f11v",
+      "frame": [
+        1108,
+        1500
+      ],
+      "words": 48
+    },
+    {
+      "apache_header_present": true,
+      "flags": {
+        "declared_count_difference": 0,
+        "duplicate_indices": 0
+      },
+      "folio": "f13r",
+      "frame": [
+        1046,
+        1500
+      ],
+      "words": 78
+    },
+    {
+      "apache_header_present": true,
+      "flags": {
+        "declared_count_difference": 0,
+        "duplicate_indices": 0
+      },
+      "folio": "f13v",
+      "frame": [
+        1109,
+        1500
+      ],
+      "words": 67
+    },
+    {
+      "apache_header_present": true,
+      "flags": {
+        "declared_count_difference": 0,
+        "duplicate_indices": 0
+      },
+      "folio": "f14r",
+      "frame": [
+        1083,
+        1500
+      ],
+      "words": 77
+    },
+    {
+      "apache_header_present": true,
+      "flags": {
+        "declared_count_difference": 0,
+        "duplicate_indices": 0,
+        "nonpositive_width": 1
+      },
+      "folio": "f14v",
+      "frame": [
+        1115,
+        1500
+      ],
+      "words": 68
+    },
+    {
+      "apache_header_present": true,
+      "flags": {
+        "declared_count_difference": 0,
+        "duplicate_indices": 0,
+        "nonpositive_width": 1
+      },
+      "folio": "f15r",
+      "frame": [
+        1088,
+        1500
+      ],
+      "words": 92
+    },
+    {
+      "apache_header_present": true,
+      "flags": {
+        "declared_count_difference": 0,
+        "duplicate_indices": 0,
+        "nonpositive_width": 1
+      },
+      "folio": "f15v",
+      "frame": [
+        1115,
+        1500
+      ],
+      "words": 71
+    },
+    {
+      "apache_header_present": true,
+      "flags": {
+        "declared_count_difference": 0,
+        "duplicate_indices": 0
+      },
+      "folio": "f16r",
+      "frame": [
+        1096,
+        1500
+      ],
+      "words": 77
+    },
+    {
+      "apache_header_present": true,
+      "flags": {
+        "declared_count_difference": 0,
+        "duplicate_indices": 0
+      },
+      "folio": "f16v",
+      "frame": [
+        1117,
+        1500
+      ],
+      "words": 73
+    },
+    {
+      "apache_header_present": true,
+      "flags": {
+        "declared_count_difference": 0,
+        "duplicate_indices": 0
+      },
+      "folio": "f17r",
+      "frame": [
+        1100,
+        1500
+      ],
+      "words": 75
+    },
+    {
+      "apache_header_present": true,
+      "flags": {
+        "declared_count_difference": 0,
+        "duplicate_indices": 0,
+        "nonpositive_width": 1
+      },
+      "folio": "f17v",
+      "frame": [
+        1107,
+        1500
+      ],
+      "words": 134
+    },
+    {
+      "apache_header_present": true,
+      "flags": {
+        "declared_count_difference": 0,
+        "duplicate_indices": 0
+      },
+      "folio": "f18r",
+      "frame": [
+        1103,
+        1500
+      ],
+      "words": 83
+    },
+    {
+      "apache_header_present": true,
+      "flags": {
+        "declared_count_difference": 0,
+        "duplicate_indices": 0,
+        "nonpositive_width": 1
+      },
+      "folio": "f18v",
+      "frame": [
+        1123,
+        1500
+      ],
+      "words": 71
+    },
+    {
+      "apache_header_present": true,
+      "flags": {
+        "declared_count_difference": 0,
+        "duplicate_indices": 0
+      },
+      "folio": "f19r",
+      "frame": [
+        1106,
+        1500
+      ],
+      "words": 76
+    },
+    {
+      "apache_header_present": true,
+      "flags": {
+        "declared_count_difference": 0,
+        "duplicate_indices": 0
+      },
+      "folio": "f19v",
+      "frame": [
+        1126,
+        1500
+      ],
+      "words": 77
+    },
+    {
+      "apache_header_present": true,
+      "flags": {
+        "declared_count_difference": 0,
+        "duplicate_indices": 0,
+        "nonpositive_width": 2
+      },
+      "folio": "f1r",
+      "frame": [
+        1090,
+        1500
+      ],
+      "words": 210
+    },
+    {
+      "apache_header_present": true,
+      "flags": {
+        "declared_count_difference": 0,
+        "duplicate_indices": 0,
+        "nonpositive_width": 1
+      },
+      "folio": "f1v",
+      "frame": [
+        1066,
+        1500
+      ],
+      "words": 90
+    },
+    {
+      "apache_header_present": true,
+      "flags": {
+        "declared_count_difference": 0,
+        "duplicate_indices": 0
+      },
+      "folio": "f20r",
+      "frame": [
+        1082,
+        1500
+      ],
+      "words": 85
+    },
+    {
+      "apache_header_present": true,
+      "flags": {
+        "declared_count_difference": 0,
+        "duplicate_indices": 0
+      },
+      "folio": "f20v",
+      "frame": [
+        1117,
+        1500
+      ],
+      "words": 89
+    },
+    {
+      "apache_header_present": true,
+      "flags": {
+        "declared_count_difference": 0,
+        "duplicate_indices": 0
+      },
+      "folio": "f21r",
+      "frame": [
+        1087,
+        1500
+      ],
+      "words": 95
+    },
+    {
+      "apache_header_present": true,
+      "flags": {
+        "declared_count_difference": 0,
+        "duplicate_indices": 0
+      },
+      "folio": "f21v",
+      "frame": [
+        1112,
+        1500
+      ],
+      "words": 56
+    },
+    {
+      "apache_header_present": true,
+      "flags": {
+        "declared_count_difference": 0,
+        "duplicate_indices": 0
+      },
+      "folio": "f22r",
+      "frame": [
+        1087,
+        1500
+      ],
+      "words": 106
+    },
+    {
+      "apache_header_present": true,
+      "flags": {
+        "declared_count_difference": 0,
+        "duplicate_indices": 0
+      },
+      "folio": "f22v",
+      "frame": [
+        1116,
+        1500
+      ],
+      "words": 75
+    },
+    {
+      "apache_header_present": true,
+      "flags": {
+        "declared_count_difference": 0,
+        "duplicate_indices": 0
+      },
+      "folio": "f23r",
+      "frame": [
+        1103,
+        1500
+      ],
+      "words": 106
+    },
+    {
+      "apache_header_present": true,
+      "flags": {
+        "declared_count_difference": 0,
+        "duplicate_indices": 0
+      },
+      "folio": "f23v",
+      "frame": [
+        1118,
+        1500
+      ],
+      "words": 89
+    },
+    {
+      "apache_header_present": true,
+      "flags": {
+        "declared_count_difference": 0,
+        "duplicate_indices": 0
+      },
+      "folio": "f24r",
+      "frame": [
+        1118,
+        1500
+      ],
+      "words": 107
+    },
+    {
+      "apache_header_present": true,
+      "flags": {
+        "declared_count_difference": 0,
+        "duplicate_indices": 0
+      },
+      "folio": "f24v",
+      "frame": [
+        1115,
+        1500
+      ],
+      "words": 80
+    },
+    {
+      "apache_header_present": true,
+      "flags": {
+        "declared_count_difference": 0,
+        "duplicate_indices": 0
+      },
+      "folio": "f25r",
+      "frame": [
+        1109,
+        1500
+      ],
+      "words": 48
+    },
+    {
+      "apache_header_present": true,
+      "flags": {
+        "declared_count_difference": 0,
+        "duplicate_indices": 0
+      },
+      "folio": "f25v",
+      "frame": [
+        1137,
+        1500
+      ],
+      "words": 57
+    },
+    {
+      "apache_header_present": true,
+      "flags": {
+        "declared_count_difference": 0,
+        "duplicate_indices": 0
+      },
+      "folio": "f26r",
+      "frame": [
+        1115,
+        1500
+      ],
+      "words": 86
+    },
+    {
+      "apache_header_present": true,
+      "flags": {
+        "declared_count_difference": 0,
+        "duplicate_indices": 0
+      },
+      "folio": "f26v",
+      "frame": [
+        1137,
+        1500
+      ],
+      "words": 90
+    },
+    {
+      "apache_header_present": true,
+      "flags": {
+        "declared_count_difference": 0,
+        "duplicate_indices": 0
+      },
+      "folio": "f27r",
+      "frame": [
+        1112,
+        1500
+      ],
+      "words": 91
+    },
+    {
+      "apache_header_present": true,
+      "flags": {
+        "declared_count_difference": 0,
+        "duplicate_indices": 0
+      },
+      "folio": "f27v",
+      "frame": [
+        1129,
+        1500
+      ],
+      "words": 58
+    },
+    {
+      "apache_header_present": true,
+      "flags": {
+        "declared_count_difference": 0,
+        "duplicate_indices": 0
+      },
+      "folio": "f28r",
+      "frame": [
+        1105,
+        1500
+      ],
+      "words": 67
+    },
+    {
+      "apache_header_present": true,
+      "flags": {
+        "declared_count_difference": 0,
+        "duplicate_indices": 0
+      },
+      "folio": "f28v",
+      "frame": [
+        1140,
+        1500
+      ],
+      "words": 68
+    },
+    {
+      "apache_header_present": true,
+      "flags": {
+        "declared_count_difference": 0,
+        "duplicate_indices": 0
+      },
+      "folio": "f29r",
+      "frame": [
+        1104,
+        1500
+      ],
+      "words": 65
+    },
+    {
+      "apache_header_present": true,
+      "flags": {
+        "declared_count_difference": 0,
+        "duplicate_indices": 0
+      },
+      "folio": "f29v",
+      "frame": [
+        1135,
+        1500
+      ],
+      "words": 95
+    },
+    {
+      "apache_header_present": true,
+      "flags": {
+        "declared_count_difference": 0,
+        "duplicate_indices": 0,
+        "nonpositive_width": 1
+      },
+      "folio": "f2r",
+      "frame": [
+        1069,
+        1500
+      ],
+      "words": 99
+    },
+    {
+      "apache_header_present": true,
+      "flags": {
+        "declared_count_difference": 0,
+        "duplicate_indices": 0
+      },
+      "folio": "f2v",
+      "frame": [
+        1069,
+        1500
+      ],
+      "words": 61
+    },
+    {
+      "apache_header_present": true,
+      "flags": {
+        "declared_count_difference": 0,
+        "duplicate_indices": 0
+      },
+      "folio": "f30r",
+      "frame": [
+        1098,
+        1500
+      ],
+      "words": 95
+    },
+    {
+      "apache_header_present": true,
+      "flags": {
+        "declared_count_difference": 0,
+        "duplicate_indices": 0
+      },
+      "folio": "f30v",
+      "frame": [
+        1130,
+        1500
+      ],
+      "words": 63
+    },
+    {
+      "apache_header_present": true,
+      "flags": {
+        "declared_count_difference": 0,
+        "duplicate_indices": 0
+      },
+      "folio": "f31r",
+      "frame": [
+        1151,
+        1500
+      ],
+      "words": 101
+    },
+    {
+      "apache_header_present": true,
+      "flags": {
+        "declared_count_difference": 0,
+        "duplicate_indices": 0
+      },
+      "folio": "f31v",
+      "frame": [
+        1138,
+        1500
+      ],
+      "words": 108
+    },
+    {
+      "apache_header_present": true,
+      "flags": {
+        "declared_count_difference": 0,
+        "duplicate_indices": 0
+      },
+      "folio": "f32r",
+      "frame": [
+        1165,
+        1500
+      ],
+      "words": 77
+    },
+    {
+      "apache_header_present": true,
+      "flags": {
+        "declared_count_difference": 0,
+        "duplicate_indices": 0
+      },
+      "folio": "f32v",
+      "frame": [
+        1150,
+        1500
+      ],
+      "words": 85
+    },
+    {
+      "apache_header_present": true,
+      "flags": {
+        "declared_count_difference": 0,
+        "duplicate_indices": 0
+      },
+      "folio": "f33r",
+      "frame": [
+        1162,
+        1500
+      ],
+      "words": 72
+    },
+    {
+      "apache_header_present": true,
+      "flags": {
+        "declared_count_difference": 0,
+        "duplicate_indices": 0
+      },
+      "folio": "f33v",
+      "frame": [
+        1156,
+        1500
+      ],
+      "words": 109
+    },
+    {
+      "apache_header_present": true,
+      "flags": {
+        "declared_count_difference": 0,
+        "duplicate_indices": 0
+      },
+      "folio": "f34r",
+      "frame": [
+        1155,
+        1500
+      ],
+      "words": 144
+    },
+    {
+      "apache_header_present": true,
+      "flags": {
+        "declared_count_difference": 0,
+        "duplicate_indices": 0
+      },
+      "folio": "f34v",
+      "frame": [
+        1146,
+        1500
+      ],
+      "words": 115
+    },
+    {
+      "apache_header_present": true,
+      "flags": {
+        "declared_count_difference": 0,
+        "duplicate_indices": 0
+      },
+      "folio": "f35r",
+      "frame": [
+        1167,
+        1500
+      ],
+      "words": 92
+    },
+    {
+      "apache_header_present": true,
+      "flags": {
+        "declared_count_difference": 0,
+        "duplicate_indices": 0
+      },
+      "folio": "f35v",
+      "frame": [
+        1158,
+        1500
+      ],
+      "words": 87
+    },
+    {
+      "apache_header_present": true,
+      "flags": {
+        "declared_count_difference": 0,
+        "duplicate_indices": 0
+      },
+      "folio": "f36r",
+      "frame": [
+        1158,
+        1500
+      ],
+      "words": 62
+    },
+    {
+      "apache_header_present": true,
+      "flags": {
+        "declared_count_difference": 0,
+        "duplicate_indices": 0
+      },
+      "folio": "f36v",
+      "frame": [
+        1146,
+        1500
+      ],
+      "words": 71
+    },
+    {
+      "apache_header_present": true,
+      "flags": {
+        "declared_count_difference": 0,
+        "duplicate_indices": 0
+      },
+      "folio": "f37r",
+      "frame": [
+        1159,
+        1500
+      ],
+      "words": 77
+    },
+    {
+      "apache_header_present": true,
+      "flags": {
+        "declared_count_difference": 0,
+        "duplicate_indices": 0
+      },
+      "folio": "f37v",
+      "frame": [
+        1146,
+        1500
+      ],
+      "words": 88
+    },
+    {
+      "apache_header_present": true,
+      "flags": {
+        "declared_count_difference": 0,
+        "duplicate_indices": 0
+      },
+      "folio": "f38r",
+      "frame": [
+        1163,
+        1500
+      ],
+      "words": 41
+    },
+    {
+      "apache_header_present": true,
+      "flags": {
+        "declared_count_difference": 0,
+        "duplicate_indices": 0
+      },
+      "folio": "f38v",
+      "frame": [
+        1169,
+        1500
+      ],
+      "words": 65
+    },
+    {
+      "apache_header_present": true,
+      "flags": {
+        "declared_count_difference": 0,
+        "duplicate_indices": 0
+      },
+      "folio": "f39r",
+      "frame": [
+        1164,
+        1500
+      ],
+      "words": 154
+    },
+    {
+      "apache_header_present": true,
+      "flags": {
+        "declared_count_difference": 0,
+        "duplicate_indices": 0
+      },
+      "folio": "f39v",
+      "frame": [
+        1148,
+        1500
+      ],
+      "words": 142
+    },
+    {
+      "apache_header_present": true,
+      "flags": {
+        "declared_count_difference": 0,
+        "duplicate_indices": 0,
+        "nonpositive_width": 1
+      },
+      "folio": "f3r",
+      "frame": [
+        1069,
+        1500
+      ],
+      "words": 115
+    },
+    {
+      "apache_header_present": true,
+      "flags": {
+        "declared_count_difference": 0,
+        "duplicate_indices": 0
+      },
+      "folio": "f3v",
+      "frame": [
+        1061,
+        1500
+      ],
+      "words": 83
+    },
+    {
+      "apache_header_present": true,
+      "flags": {
+        "declared_count_difference": 0,
+        "duplicate_indices": 0,
+        "nonpositive_width": 1
+      },
+      "folio": "f40r",
+      "frame": [
+        1170,
+        1500
+      ],
+      "words": 97
+    },
+    {
+      "apache_header_present": true,
+      "flags": {
+        "declared_count_difference": 0,
+        "duplicate_indices": 0
+      },
+      "folio": "f40v",
+      "frame": [
+        1153,
+        1500
+      ],
+      "words": 106
+    },
+    {
+      "apache_header_present": true,
+      "flags": {
+        "declared_count_difference": 0,
+        "duplicate_indices": 0
+      },
+      "folio": "f41r",
+      "frame": [
+        1161,
+        1500
+      ],
+      "words": 98
+    },
+    {
+      "apache_header_present": true,
+      "flags": {
+        "declared_count_difference": 0,
+        "duplicate_indices": 0
+      },
+      "folio": "f41v",
+      "frame": [
+        1155,
+        1500
+      ],
+      "words": 68
+    },
+    {
+      "apache_header_present": true,
+      "flags": {
+        "declared_count_difference": 0,
+        "duplicate_indices": 0
+      },
+      "folio": "f42r",
+      "frame": [
+        1157,
+        1500
+      ],
+      "words": 141
+    },
+    {
+      "apache_header_present": true,
+      "flags": {
+        "declared_count_difference": 0,
+        "duplicate_indices": 0
+      },
+      "folio": "f42v",
+      "frame": [
+        1134,
+        1500
+      ],
+      "words": 113
+    },
+    {
+      "apache_header_present": true,
+      "flags": {
+        "declared_count_difference": 0,
+        "duplicate_indices": 0
+      },
+      "folio": "f43r",
+      "frame": [
+        1151,
+        1500
+      ],
+      "words": 152
+    },
+    {
+      "apache_header_present": true,
+      "flags": {
+        "declared_count_difference": 0,
+        "duplicate_indices": 0
+      },
+      "folio": "f43v",
+      "frame": [
+        1139,
+        1500
+      ],
+      "words": 154
+    },
+    {
+      "apache_header_present": true,
+      "flags": {
+        "declared_count_difference": 0,
+        "duplicate_indices": 0
+      },
+      "folio": "f44r",
+      "frame": [
+        1161,
+        1500
+      ],
+      "words": 75
+    },
+    {
+      "apache_header_present": true,
+      "flags": {
+        "declared_count_difference": 0,
+        "duplicate_indices": 0
+      },
+      "folio": "f44v",
+      "frame": [
+        1146,
+        1500
+      ],
+      "words": 96
+    },
+    {
+      "apache_header_present": true,
+      "flags": {
+        "declared_count_difference": 0,
+        "duplicate_indices": 0
+      },
+      "folio": "f45r",
+      "frame": [
+        1160,
+        1500
+      ],
+      "words": 86
+    },
+    {
+      "apache_header_present": true,
+      "flags": {
+        "declared_count_difference": 0,
+        "duplicate_indices": 0
+      },
+      "folio": "f45v",
+      "frame": [
+        1158,
+        1500
+      ],
+      "words": 87
+    },
+    {
+      "apache_header_present": true,
+      "flags": {
+        "declared_count_difference": 0,
+        "duplicate_indices": 0
+      },
+      "folio": "f46r",
+      "frame": [
+        1172,
+        1500
+      ],
+      "words": 157
+    },
+    {
+      "apache_header_present": true,
+      "flags": {
+        "declared_count_difference": 0,
+        "duplicate_indices": 0
+      },
+      "folio": "f46v",
+      "frame": [
+        1154,
+        1500
+      ],
+      "words": 111
+    },
+    {
+      "apache_header_present": true,
+      "flags": {
+        "declared_count_difference": 0,
+        "duplicate_indices": 0
+      },
+      "folio": "f47r",
+      "frame": [
+        1168,
+        1500
+      ],
+      "words": 79
+    },
+    {
+      "apache_header_present": true,
+      "flags": {
+        "declared_count_difference": 0,
+        "duplicate_indices": 0
+      },
+      "folio": "f47v",
+      "frame": [
+        1163,
+        1500
+      ],
+      "words": 85
+    },
+    {
+      "apache_header_present": true,
+      "flags": {
+        "declared_count_difference": 0,
+        "duplicate_indices": 0
+      },
+      "folio": "f48r",
+      "frame": [
+        1173,
+        1500
+      ],
+      "words": 89
+    },
+    {
+      "apache_header_present": true,
+      "flags": {
+        "declared_count_difference": 0,
+        "duplicate_indices": 0
+      },
+      "folio": "f48v",
+      "frame": [
+        1168,
+        1500
+      ],
+      "words": 126
+    },
+    {
+      "apache_header_present": true,
+      "flags": {
+        "declared_count_difference": 0,
+        "duplicate_indices": 0
+      },
+      "folio": "f49r",
+      "frame": [
+        1161,
+        1500
+      ],
+      "words": 114
+    },
+    {
+      "apache_header_present": true,
+      "flags": {
+        "declared_count_difference": 0,
+        "duplicate_indices": 0
+      },
+      "folio": "f49v",
+      "frame": [
+        1177,
+        1500
+      ],
+      "words": 162
+    },
+    {
+      "apache_header_present": true,
+      "flags": {
+        "declared_count_difference": 0,
+        "duplicate_indices": 0
+      },
+      "folio": "f4r",
+      "frame": [
+        1088,
+        1500
+      ],
+      "words": 64
+    },
+    {
+      "apache_header_present": true,
+      "flags": {
+        "declared_count_difference": 0,
+        "duplicate_indices": 0
+      },
+      "folio": "f4v",
+      "frame": [
+        1069,
+        1500
+      ],
+      "words": 83
+    },
+    {
+      "apache_header_present": true,
+      "flags": {
+        "declared_count_difference": 0,
+        "duplicate_indices": 0
+      },
+      "folio": "f50r",
+      "frame": [
+        1158,
+        1500
+      ],
+      "words": 89
+    },
+    {
+      "apache_header_present": true,
+      "flags": {
+        "declared_count_difference": 0,
+        "duplicate_indices": 0
+      },
+      "folio": "f50v",
+      "frame": [
+        1177,
+        1500
+      ],
+      "words": 98
+    },
+    {
+      "apache_header_present": true,
+      "flags": {
+        "declared_count_difference": 0,
+        "duplicate_indices": 0
+      },
+      "folio": "f51r",
+      "frame": [
+        1152,
+        1500
+      ],
+      "words": 87
+    },
+    {
+      "apache_header_present": true,
+      "flags": {
+        "declared_count_difference": 0,
+        "duplicate_indices": 0
+      },
+      "folio": "f51v",
+      "frame": [
+        1166,
+        1500
+      ],
+      "words": 79
+    },
+    {
+      "apache_header_present": true,
+      "flags": {
+        "declared_count_difference": 0,
+        "duplicate_indices": 0
+      },
+      "folio": "f52r",
+      "frame": [
+        1147,
+        1500
+      ],
+      "words": 68
+    },
+    {
+      "apache_header_present": true,
+      "flags": {
+        "declared_count_difference": 0,
+        "duplicate_indices": 0
+      },
+      "folio": "f52v",
+      "frame": [
+        1173,
+        1500
+      ],
+      "words": 75
+    },
+    {
+      "apache_header_present": true,
+      "flags": {
+        "declared_count_difference": 0,
+        "duplicate_indices": 0
+      },
+      "folio": "f53r",
+      "frame": [
+        1144,
+        1500
+      ],
+      "words": 56
+    },
+    {
+      "apache_header_present": true,
+      "flags": {
+        "declared_count_difference": 0,
+        "duplicate_indices": 0
+      },
+      "folio": "f53v",
+      "frame": [
+        1178,
+        1500
+      ],
+      "words": 75
+    },
+    {
+      "apache_header_present": true,
+      "flags": {
+        "declared_count_difference": 0,
+        "duplicate_indices": 0
+      },
+      "folio": "f54r",
+      "frame": [
+        1149,
+        1500
+      ],
+      "words": 111
+    },
+    {
+      "apache_header_present": true,
+      "flags": {
+        "declared_count_difference": 0,
+        "duplicate_indices": 0
+      },
+      "folio": "f54v",
+      "frame": [
+        1179,
+        1500
+      ],
+      "words": 90
+    },
+    {
+      "apache_header_present": true,
+      "flags": {
+        "declared_count_difference": 0,
+        "duplicate_indices": 0
+      },
+      "folio": "f55r",
+      "frame": [
+        1144,
+        1500
+      ],
+      "words": 124
+    },
+    {
+      "apache_header_present": true,
+      "flags": {
+        "declared_count_difference": 0,
+        "duplicate_indices": 0
+      },
+      "folio": "f55v",
+      "frame": [
+        1187,
+        1500
+      ],
+      "words": 105
+    },
+    {
+      "apache_header_present": true,
+      "flags": {
+        "declared_count_difference": 0,
+        "duplicate_indices": 0
+      },
+      "folio": "f56r",
+      "frame": [
+        1150,
+        1500
+      ],
+      "words": 99
+    },
+    {
+      "apache_header_present": true,
+      "flags": {
+        "declared_count_difference": 0,
+        "duplicate_indices": 0
+      },
+      "folio": "f56v",
+      "frame": [
+        1188,
+        1500
+      ],
+      "words": 87
+    },
+    {
+      "apache_header_present": true,
+      "flags": {
+        "declared_count_difference": 0,
+        "duplicate_indices": 0
+      },
+      "folio": "f57r",
+      "frame": [
+        1144,
+        1500
+      ],
+      "words": 87
+    },
+    {
+      "apache_header_present": true,
+      "flags": {
+        "declared_count_difference": 0,
+        "duplicate_indices": 0
+      },
+      "folio": "f57v",
+      "frame": [
+        1175,
+        1500
+      ],
+      "words": 175
+    },
+    {
+      "apache_header_present": true,
+      "flags": {
+        "declared_count_difference": 0,
+        "duplicate_indices": 0
+      },
+      "folio": "f58r",
+      "frame": [
+        1145,
+        1500
+      ],
+      "words": 367
+    },
+    {
+      "apache_header_present": true,
+      "flags": {
+        "declared_count_difference": 0,
+        "duplicate_indices": 0,
+        "nonpositive_width": 1
+      },
+      "folio": "f58v",
+      "frame": [
+        1146,
+        1500
+      ],
+      "words": 365
+    },
+    {
+      "apache_header_present": true,
+      "flags": {
+        "declared_count_difference": 0,
+        "duplicate_indices": 0
+      },
+      "folio": "f5r",
+      "frame": [
+        1067,
+        1500
+      ],
+      "words": 56
+    },
+    {
+      "apache_header_present": true,
+      "flags": {
+        "declared_count_difference": 0,
+        "duplicate_indices": 0
+      },
+      "folio": "f5v",
+      "frame": [
+        1075,
+        1500
+      ],
+      "words": 45
+    },
+    {
+      "apache_header_present": true,
+      "flags": {
+        "declared_count_difference": 0,
+        "duplicate_indices": 0
+      },
+      "folio": "f65r",
+      "frame": [
+        1138,
+        1500
+      ],
+      "words": 3
+    },
+    {
+      "apache_header_present": true,
+      "flags": {
+        "declared_count_difference": 0,
+        "duplicate_indices": 0
+      },
+      "folio": "f65v",
+      "frame": [
+        1163,
+        1500
+      ],
+      "words": 45
+    },
+    {
+      "apache_header_present": true,
+      "flags": {
+        "declared_count_difference": 0,
+        "duplicate_indices": 0
+      },
+      "folio": "f66r",
+      "frame": [
+        1144,
+        1500
+      ],
+      "words": 347
+    },
+    {
+      "apache_header_present": true,
+      "flags": {
+        "declared_count_difference": 0,
+        "duplicate_indices": 0
+      },
+      "folio": "f66v",
+      "frame": [
+        1159,
+        1500
+      ],
+      "words": 113
+    },
+    {
+      "apache_header_present": true,
+      "flags": {
+        "declared_count_difference": 0,
+        "duplicate_indices": 0
+      },
+      "folio": "f67r1",
+      "frame": [
+        946,
+        1500
+      ],
+      "words": 155
+    },
+    {
+      "apache_header_present": true,
+      "flags": {
+        "declared_count_difference": 0,
+        "duplicate_indices": 0
+      },
+      "folio": "f67r2",
+      "frame": [
+        946,
+        1500
+      ],
+      "words": 176
+    },
+    {
+      "apache_header_present": true,
+      "flags": {
+        "declared_count_difference": 0,
+        "duplicate_indices": 0
+      },
+      "folio": "f67v1",
+      "frame": [
+        964,
+        1500
+      ],
+      "words": 71
+    },
+    {
+      "apache_header_present": true,
+      "flags": {
+        "declared_count_difference": 0,
+        "duplicate_indices": 0
+      },
+      "folio": "f67v2",
+      "frame": [
+        965,
+        1500
+      ],
+      "words": 61
+    },
+    {
+      "apache_header_present": true,
+      "flags": {
+        "declared_count_difference": 0,
+        "duplicate_indices": 0
+      },
+      "folio": "f68r1",
+      "frame": [
+        923,
+        1500
+      ],
+      "words": 65
+    },
+    {
+      "apache_header_present": true,
+      "flags": {
+        "declared_count_difference": 0,
+        "duplicate_indices": 0
+      },
+      "folio": "f68r2",
+      "frame": [
+        786,
+        1500
+      ],
+      "words": 81
+    },
+    {
+      "apache_header_present": true,
+      "flags": {
+        "declared_count_difference": 0,
+        "duplicate_indices": 0
+      },
+      "folio": "f68r3",
+      "frame": [
+        1358,
+        1500
+      ],
+      "words": 102
+    },
+    {
+      "apache_header_present": true,
+      "flags": {
+        "declared_count_difference": 0,
+        "duplicate_indices": 0
+      },
+      "folio": "f68v1",
+      "frame": [
+        955,
+        1500
+      ],
+      "words": 96
+    },
+    {
+      "apache_header_present": true,
+      "flags": {
+        "declared_count_difference": 0,
+        "duplicate_indices": 0
+      },
+      "folio": "f68v2",
+      "frame": [
+        801,
+        1500
+      ],
+      "words": 100
+    },
+    {
+      "apache_header_present": true,
+      "flags": {
+        "declared_count_difference": 0,
+        "duplicate_indices": 0
+      },
+      "folio": "f68v3",
+      "frame": [
+        1394,
+        1500
+      ],
+      "words": 159
+    },
+    {
+      "apache_header_present": true,
+      "flags": {
+        "declared_count_difference": 0,
+        "duplicate_indices": 0
+      },
+      "folio": "f69r",
+      "frame": [
+        1125,
+        1500
+      ],
+      "words": 164
+    },
+    {
+      "apache_header_present": true,
+      "flags": {
+        "declared_count_difference": 0,
+        "duplicate_indices": 0,
+        "nonpositive_width": 1
+      },
+      "folio": "f69v",
+      "frame": [
+        1120,
+        1500
+      ],
+      "words": 137
+    },
+    {
+      "apache_header_present": true,
+      "flags": {
+        "declared_count_difference": 0,
+        "duplicate_indices": 0
+      },
+      "folio": "f6r",
+      "frame": [
+        1067,
+        1500
+      ],
+      "words": 85
+    },
+    {
+      "apache_header_present": true,
+      "flags": {
+        "declared_count_difference": 0,
+        "duplicate_indices": 0
+      },
+      "folio": "f6v",
+      "frame": [
+        1074,
+        1500
+      ],
+      "words": 115
+    },
+    {
+      "apache_header_present": true,
+      "flags": {
+        "declared_count_difference": 0,
+        "duplicate_indices": 0,
+        "nonpositive_width": 1
+      },
+      "folio": "f70r1",
+      "frame": [
+        803,
+        1500
+      ],
+      "words": 112
+    },
+    {
+      "apache_header_present": true,
+      "flags": {
+        "declared_count_difference": 0,
+        "duplicate_indices": 0
+      },
+      "folio": "f70r2",
+      "frame": [
+        1307,
+        1500
+      ],
+      "words": 248
+    },
+    {
+      "apache_header_present": true,
+      "flags": {
+        "declared_count_difference": 0,
+        "duplicate_indices": 0,
+        "nonpositive_width": 3
+      },
+      "folio": "f70v1",
+      "frame": [
+        1169,
+        1500
+      ],
+      "words": 86
+    },
+    {
+      "apache_header_present": true,
+      "flags": {
+        "declared_count_difference": 0,
+        "duplicate_indices": 0
+      },
+      "folio": "f70v2",
+      "frame": [
+        1526,
+        1500
+      ],
+      "words": 141
+    },
+    {
+      "apache_header_present": true,
+      "flags": {
+        "declared_count_difference": 0,
+        "duplicate_indices": 0
+      },
+      "folio": "f71r",
+      "frame": [
+        1131,
+        1500
+      ],
+      "words": 91
+    },
+    {
+      "apache_header_present": true,
+      "flags": {
+        "declared_count_difference": 0,
+        "duplicate_indices": 0,
+        "nonpositive_width": 2
+      },
+      "folio": "f71v",
+      "frame": [
+        1121,
+        1500
+      ],
+      "words": 100
+    },
+    {
+      "apache_header_present": true,
+      "flags": {
+        "declared_count_difference": 0,
+        "duplicate_indices": 0
+      },
+      "folio": "f72r1",
+      "frame": [
+        950,
+        1500
+      ],
+      "words": 105
+    },
+    {
+      "apache_header_present": true,
+      "flags": {
+        "declared_count_difference": 0,
+        "duplicate_indices": 0
+      },
+      "folio": "f72r2",
+      "frame": [
+        896,
+        1500
+      ],
+      "words": 111
+    },
+    {
+      "apache_header_present": true,
+      "flags": {
+        "declared_count_difference": 0,
+        "duplicate_indices": 0,
+        "nonpositive_width": 1
+      },
+      "folio": "f72r3",
+      "frame": [
+        1201,
+        1500
+      ],
+      "words": 169
+    },
+    {
+      "apache_header_present": true,
+      "flags": {
+        "declared_count_difference": 0,
+        "duplicate_indices": 0
+      },
+      "folio": "f72v1",
+      "frame": [
+        1153,
+        1500
+      ],
+      "words": 102
+    },
+    {
+      "apache_header_present": true,
+      "flags": {
+        "declared_count_difference": 0,
+        "duplicate_indices": 0,
+        "nonpositive_width": 1
+      },
+      "folio": "f72v2",
+      "frame": [
+        1253,
+        1500
+      ],
+      "words": 110
+    },
+    {
+      "apache_header_present": true,
+      "flags": {
+        "declared_count_difference": 0,
+        "duplicate_indices": 0
+      },
+      "folio": "f72v3",
+      "frame": [
+        1124,
+        1500
+      ],
+      "words": 121
+    },
+    {
+      "apache_header_present": true,
+      "flags": {
+        "declared_count_difference": 0,
+        "duplicate_indices": 0
+      },
+      "folio": "f73r",
+      "frame": [
+        1134,
+        1500
+      ],
+      "words": 96
+    },
+    {
+      "apache_header_present": true,
+      "flags": {
+        "declared_count_difference": 0,
+        "duplicate_indices": 0
+      },
+      "folio": "f73v",
+      "frame": [
+        1211,
+        1500
+      ],
+      "words": 97
+    },
+    {
+      "apache_header_present": true,
+      "flags": {
+        "declared_count_difference": 0,
+        "duplicate_indices": 0
+      },
+      "folio": "f75r",
+      "frame": [
+        1136,
+        1500
+      ],
+      "words": 422
+    },
+    {
+      "apache_header_present": true,
+      "flags": {
+        "declared_count_difference": 0,
+        "duplicate_indices": 0
+      },
+      "folio": "f75v",
+      "frame": [
+        1187,
+        1500
+      ],
+      "words": 358
+    },
+    {
+      "apache_header_present": true,
+      "flags": {
+        "declared_count_difference": 0,
+        "duplicate_indices": 0
+      },
+      "folio": "f76r",
+      "frame": [
+        1127,
+        1500
+      ],
+      "words": 556
+    },
+    {
+      "apache_header_present": true,
+      "flags": {
+        "declared_count_difference": 0,
+        "duplicate_indices": 0
+      },
+      "folio": "f76v",
+      "frame": [
+        1192,
+        1500
+      ],
+      "words": 400
+    },
+    {
+      "apache_header_present": true,
+      "flags": {
+        "declared_count_difference": 0,
+        "duplicate_indices": 0,
+        "nonpositive_width": 1
+      },
+      "folio": "f77r",
+      "frame": [
+        1129,
+        1500
+      ],
+      "words": 325
+    },
+    {
+      "apache_header_present": true,
+      "flags": {
+        "declared_count_difference": 0,
+        "duplicate_indices": 0
+      },
+      "folio": "f77v",
+      "frame": [
+        1184,
+        1500
+      ],
+      "words": 335
+    },
+    {
+      "apache_header_present": true,
+      "flags": {
+        "declared_count_difference": 0,
+        "duplicate_indices": 0
+      },
+      "folio": "f78r",
+      "frame": [
+        1125,
+        1500
+      ],
+      "words": 294
+    },
+    {
+      "apache_header_present": true,
+      "flags": {
+        "declared_count_difference": 0,
+        "duplicate_indices": 0
+      },
+      "folio": "f78v",
+      "frame": [
+        1193,
+        1500
+      ],
+      "words": 292
+    },
+    {
+      "apache_header_present": true,
+      "flags": {
+        "declared_count_difference": 0,
+        "duplicate_indices": 0
+      },
+      "folio": "f79r",
+      "frame": [
+        1125,
+        1500
+      ],
+      "words": 389
+    },
+    {
+      "apache_header_present": true,
+      "flags": {
+        "declared_count_difference": 0,
+        "duplicate_indices": 0
+      },
+      "folio": "f79v",
+      "frame": [
+        1186,
+        1500
+      ],
+      "words": 355
+    },
+    {
+      "apache_header_present": true,
+      "flags": {
+        "declared_count_difference": 0,
+        "duplicate_indices": 0
+      },
+      "folio": "f7r",
+      "frame": [
+        1068,
+        1500
+      ],
+      "words": 62
+    },
+    {
+      "apache_header_present": true,
+      "flags": {
+        "declared_count_difference": 0,
+        "duplicate_indices": 0
+      },
+      "folio": "f7v",
+      "frame": [
+        1075,
+        1500
+      ],
+      "words": 73
+    },
+    {
+      "apache_header_present": true,
+      "flags": {
+        "declared_count_difference": 0,
+        "duplicate_indices": 0
+      },
+      "folio": "f80r",
+      "frame": [
+        1131,
+        1500
+      ],
+      "words": 441
+    },
+    {
+      "apache_header_present": true,
+      "flags": {
+        "declared_count_difference": 0,
+        "duplicate_indices": 0
+      },
+      "folio": "f80v",
+      "frame": [
+        1204,
+        1500
+      ],
+      "words": 378
+    },
+    {
+      "apache_header_present": true,
+      "flags": {
+        "declared_count_difference": 0,
+        "duplicate_indices": 0
+      },
+      "folio": "f81r",
+      "frame": [
+        1123,
+        1500
+      ],
+      "words": 207
+    },
+    {
+      "apache_header_present": true,
+      "flags": {
+        "declared_count_difference": 0,
+        "duplicate_indices": 0
+      },
+      "folio": "f81v",
+      "frame": [
+        1195,
+        1500
+      ],
+      "words": 258
+    },
+    {
+      "apache_header_present": true,
+      "flags": {
+        "declared_count_difference": 0,
+        "duplicate_indices": 0
+      },
+      "folio": "f82r",
+      "frame": [
+        1131,
+        1500
+      ],
+      "words": 290
+    },
+    {
+      "apache_header_present": true,
+      "flags": {
+        "declared_count_difference": 0,
+        "duplicate_indices": 0
+      },
+      "folio": "f82v",
+      "frame": [
+        1196,
+        1500
+      ],
+      "words": 313
+    },
+    {
+      "apache_header_present": true,
+      "flags": {
+        "declared_count_difference": 0,
+        "duplicate_indices": 0
+      },
+      "folio": "f83r",
+      "frame": [
+        1139,
+        1500
+      ],
+      "words": 341
+    },
+    {
+      "apache_header_present": true,
+      "flags": {
+        "declared_count_difference": 0,
+        "duplicate_indices": 0
+      },
+      "folio": "f83v",
+      "frame": [
+        1195,
+        1500
+      ],
+      "words": 262
+    },
+    {
+      "apache_header_present": true,
+      "flags": {
+        "declared_count_difference": 0,
+        "duplicate_indices": 0
+      },
+      "folio": "f84r",
+      "frame": [
+        1117,
+        1500
+      ],
+      "words": 362
+    },
+    {
+      "apache_header_present": true,
+      "flags": {
+        "declared_count_difference": 0,
+        "duplicate_indices": 0
+      },
+      "folio": "f84v",
+      "frame": [
+        1198,
+        1500
+      ],
+      "words": 337
+    },
+    {
+      "apache_header_present": true,
+      "flags": {
+        "declared_count_difference": 0,
+        "duplicate_indices": 0,
+        "nonpositive_width": 1
+      },
+      "folio": "f85r1",
+      "frame": [
+        1116,
+        1500
+      ],
+      "words": 333
+    },
+    {
+      "apache_header_present": true,
+      "flags": {
+        "declared_count_difference": 0,
+        "duplicate_indices": 0,
+        "nonpositive_width": 1
+      },
+      "folio": "f85r2",
+      "frame": [
+        1183,
+        1500
+      ],
+      "words": 157
+    },
+    {
+      "apache_header_present": true,
+      "flags": {
+        "declared_count_difference": 0,
+        "duplicate_indices": 0
+      },
+      "folio": "f86v3",
+      "frame": [
+        1156,
+        1500
+      ],
+      "words": 279
+    },
+    {
+      "apache_header_present": true,
+      "flags": {
+        "declared_count_difference": 0,
+        "duplicate_indices": 0
+      },
+      "folio": "f86v4",
+      "frame": [
+        916,
+        1500
+      ],
+      "words": 189
+    },
+    {
+      "apache_header_present": true,
+      "flags": {
+        "declared_count_difference": 0,
+        "duplicate_indices": 0
+      },
+      "folio": "f86v5",
+      "frame": [
+        793,
+        1500
+      ],
+      "words": 381
+    },
+    {
+      "apache_header_present": true,
+      "flags": {
+        "declared_count_difference": 0,
+        "duplicate_indices": 0
+      },
+      "folio": "f86v6",
+      "frame": [
+        807,
+        1500
+      ],
+      "words": 479
+    },
+    {
+      "apache_header_present": true,
+      "flags": {
+        "declared_count_difference": 0,
+        "duplicate_indices": 0
+      },
+      "folio": "f87r",
+      "frame": [
+        1116,
+        1500
+      ],
+      "words": 98
+    },
+    {
+      "apache_header_present": true,
+      "flags": {
+        "declared_count_difference": 0,
+        "duplicate_indices": 0
+      },
+      "folio": "f87v",
+      "frame": [
+        1120,
+        1500
+      ],
+      "words": 89
+    },
+    {
+      "apache_header_present": true,
+      "flags": {
+        "declared_count_difference": 0,
+        "duplicate_indices": 0
+      },
+      "folio": "f88r",
+      "frame": [
+        1112,
+        1500
+      ],
+      "words": 150
+    },
+    {
+      "apache_header_present": true,
+      "flags": {
+        "declared_count_difference": 0,
+        "duplicate_indices": 0
+      },
+      "folio": "f88v",
+      "frame": [
+        1183,
+        1500
+      ],
+      "words": 146
+    },
+    {
+      "apache_header_present": true,
+      "flags": {
+        "declared_count_difference": 0,
+        "duplicate_indices": 0
+      },
+      "folio": "f89r1",
+      "frame": [
+        921,
+        1500
+      ],
+      "words": 142
+    },
+    {
+      "apache_header_present": true,
+      "flags": {
+        "declared_count_difference": 0,
+        "duplicate_indices": 0,
+        "nonpositive_width": 1
+      },
+      "folio": "f89r2",
+      "frame": [
+        1460,
+        1500
+      ],
+      "words": 245
+    },
+    {
+      "apache_header_present": true,
+      "flags": {
+        "declared_count_difference": 0,
+        "duplicate_indices": 0
+      },
+      "folio": "f89v1",
+      "frame": [
+        1177,
+        1500
+      ],
+      "words": 159
+    },
+    {
+      "apache_header_present": true,
+      "flags": {
+        "declared_count_difference": 0,
+        "duplicate_indices": 0,
+        "nonpositive_width": 1
+      },
+      "folio": "f89v2",
+      "frame": [
+        1673,
+        1500
+      ],
+      "words": 175
+    },
+    {
+      "apache_header_present": true,
+      "flags": {
+        "declared_count_difference": 0,
+        "duplicate_indices": 0,
+        "nonpositive_width": 2
+      },
+      "folio": "f8r",
+      "frame": [
+        1076,
+        1500
+      ],
+      "words": 146
+    },
+    {
+      "apache_header_present": true,
+      "flags": {
+        "declared_count_difference": 0,
+        "duplicate_indices": 0
+      },
+      "folio": "f8v",
+      "frame": [
+        1084,
+        1500
+      ],
+      "words": 119
+    },
+    {
+      "apache_header_present": true,
+      "flags": {
+        "declared_count_difference": 0,
+        "duplicate_indices": 0
+      },
+      "folio": "f90r1",
+      "frame": [
+        963,
+        1500
+      ],
+      "words": 70
+    },
+    {
+      "apache_header_present": true,
+      "flags": {
+        "declared_count_difference": 0,
+        "duplicate_indices": 0
+      },
+      "folio": "f90r2",
+      "frame": [
+        864,
+        1500
+      ],
+      "words": 49
+    },
+    {
+      "apache_header_present": true,
+      "flags": {
+        "declared_count_difference": 0,
+        "duplicate_indices": 0
+      },
+      "folio": "f90v1",
+      "frame": [
+        1216,
+        1500
+      ],
+      "words": 96
+    },
+    {
+      "apache_header_present": true,
+      "flags": {
+        "declared_count_difference": 0,
+        "duplicate_indices": 0
+      },
+      "folio": "f90v2",
+      "frame": [
+        1097,
+        1500
+      ],
+      "words": 69
+    },
+    {
+      "apache_header_present": true,
+      "flags": {
+        "declared_count_difference": 0,
+        "duplicate_indices": 0
+      },
+      "folio": "f93r",
+      "frame": [
+        1085,
+        1500
+      ],
+      "words": 152
+    },
+    {
+      "apache_header_present": true,
+      "flags": {
+        "declared_count_difference": 0,
+        "duplicate_indices": 0
+      },
+      "folio": "f93v",
+      "frame": [
+        1226,
+        1500
+      ],
+      "words": 88
+    },
+    {
+      "apache_header_present": true,
+      "flags": {
+        "declared_count_difference": 0,
+        "duplicate_indices": 0
+      },
+      "folio": "f94r",
+      "frame": [
+        1073,
+        1500
+      ],
+      "words": 82
+    },
+    {
+      "apache_header_present": true,
+      "flags": {
+        "declared_count_difference": 0,
+        "duplicate_indices": 0
+      },
+      "folio": "f94v",
+      "frame": [
+        1172,
+        1500
+      ],
+      "words": 101
+    },
+    {
+      "apache_header_present": true,
+      "flags": {
+        "declared_count_difference": 0,
+        "duplicate_indices": 0
+      },
+      "folio": "f95r1",
+      "frame": [
+        930,
+        1500
+      ],
+      "words": 103
+    },
+    {
+      "apache_header_present": true,
+      "flags": {
+        "declared_count_difference": 0,
+        "duplicate_indices": 0
+      },
+      "folio": "f95r2",
+      "frame": [
+        838,
+        1500
+      ],
+      "words": 79
+    },
+    {
+      "apache_header_present": true,
+      "flags": {
+        "declared_count_difference": 0,
+        "duplicate_indices": 0
+      },
+      "folio": "f95v1",
+      "frame": [
+        1218,
+        1500
+      ],
+      "words": 117
+    },
+    {
+      "apache_header_present": true,
+      "flags": {
+        "declared_count_difference": 0,
+        "duplicate_indices": 0
+      },
+      "folio": "f95v2",
+      "frame": [
+        1081,
+        1500
+      ],
+      "words": 64
+    },
+    {
+      "apache_header_present": true,
+      "flags": {
+        "declared_count_difference": 0,
+        "duplicate_indices": 0
+      },
+      "folio": "f96r",
+      "frame": [
+        1079,
+        1500
+      ],
+      "words": 86
+    },
+    {
+      "apache_header_present": true,
+      "flags": {
+        "declared_count_difference": 0,
+        "duplicate_indices": 0
+      },
+      "folio": "f96v",
+      "frame": [
+        1245,
+        1500
+      ],
+      "words": 61
+    },
+    {
+      "apache_header_present": true,
+      "flags": {
+        "declared_count_difference": 0,
+        "duplicate_indices": 0
+      },
+      "folio": "f99r",
+      "frame": [
+        1078,
+        1500
+      ],
+      "words": 197
+    },
+    {
+      "apache_header_present": true,
+      "flags": {
+        "declared_count_difference": 0,
+        "duplicate_indices": 0,
+        "nonpositive_width": 1
+      },
+      "folio": "f99v",
+      "frame": [
+        1249,
+        1500
+      ],
+      "words": 175
+    },
+    {
+      "apache_header_present": true,
+      "flags": {
+        "declared_count_difference": 0,
+        "duplicate_indices": 0
+      },
+      "folio": "f9r",
+      "frame": [
+        1067,
+        1500
+      ],
+      "words": 84
+    },
+    {
+      "apache_header_present": true,
+      "flags": {
+        "declared_count_difference": 0,
+        "duplicate_indices": 0
+      },
+      "folio": "f9v",
+      "frame": [
+        1099,
+        1500
+      ],
+      "words": 84
+    }
+  ],
+  "pages_with_apache_header": 225,
+  "recognition": "NOT_RUN",
+  "registration_to_current_yale": "NOT_RUN",
+  "source_url": "https://www.voynichese.com/1/data/folio/voynichese_data.zip",
+  "totals": {
+    "declared_count_difference": 0,
+    "duplicate_indices": 0,
+    "nonpositive_width": 33,
+    "words": 37886
+  },
+  "translation": "NOT_RUN",
+  "type": "Exploratory source quality audit, prompted by inspecting a sample; not preregistered hypothesis testing",
+  "xml_folios": 225
+}

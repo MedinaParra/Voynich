@@ -1,0 +1,25 @@
+{
+  "actual_png_verification_checks": 475,
+  "actual_png_verification_mismatches": 0,
+  "code_sha256": "e4ea5ee9cfe8bc2f1fdd4aa91160526a5122e216e83984acc8353905ef37bfed",
+  "date": "2026-10-26",
+  "environment": {
+    "Pillow": "12.3.0",
+    "numpy": "2.3.5",
+    "python": "3.12.14",
+    "scipy": "1.17.0"
+  },
+  "execution": "Local Python CPU; no new GitHub Actions recognition run",
+  "new_recognition_training": "NOT_RUN",
+  "placa_source_commit": "7580dafa624cf23a63665f4819022003f8d128ef",
+  "preregistration_commit": "46430b4c3a8d6053927c9bf16bd65f8e53c77648",
+  "protocol_sha256": "93cb4f9b73368d97f2d206d84752fbfb9d816162d720b43db8e131ad796e9dae",
+  "registration_to_current_yale": "NOT_RUN",
+  "rozanova_source_commit": "956a7c4fc39981f4d116fa3f4edfccce6d065571",
+  "source_run_id": 38707533236,
+  "source_zip_sha256": "62adffc467e2008c402fd91a0d9a2576fd158351d4521c1e6ce3e3cf86270d58",
+  "synthetic_controls": 6,
+  "translation": "NOT_RUN",
+  "word_coordinate_archive_sha256": "402d99ca8191ae53a4f25912ee0af0a7e6b6d9a3714b2beaf86404a27d5b7ad5",
+  "word_coordinate_archive_url": "https://www.voynichese.com/1/data/folio/voynichese_data.zip"
+}
