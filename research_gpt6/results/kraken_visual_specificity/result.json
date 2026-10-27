@@ -1,0 +1,1124 @@
+{
+  "status": "EXECUTED_FROZEN_MODEL_DEVELOPMENT_DIAGNOSTIC",
+  "date": "2026-10-27",
+  "plan_sha256": "4bd10c8ad5bc2ee639258e5ca213bfe58b6abb1377cd4fc91f4c92ae81e19ea5",
+  "model_sha256": "b5df9eef0a783bec696b33636fbfb8d4807bfaa256d74ad6b34df4c58db66acb",
+  "regenerated_original_and_repaired_records_verified": 122,
+  "prior_development_predictions_replayed": 27,
+  "replay_mismatches": [],
+  "instrumentation_valid": true,
+  "instrumentation_invalid_rows": [],
+  "instrumentation": {
+    "method": "Torch forward hook on TorchSeqRecognizer.nn.nn",
+    "target_type": "kraken.lib.vgsl.layers.MultiParamSequential",
+    "positive_control": "Actual network call required for all 61 intact source rows"
+  },
+  "results": {
+    "train": {
+      "intact": {
+        "rows": 34,
+        "failed_rows": [],
+        "network_called_rows": 34,
+        "preprocessing_short_circuit_rows": [],
+        "nonempty_predictions": 34,
+        "metrics": {
+          "errors": 244,
+          "reference_units": 980,
+          "gcr": 0.24897959183673468,
+          "predicted_units": 807,
+          "alignment": {
+            "matches": 743,
+            "substitutions": 57,
+            "deletions": 180,
+            "insertions": 7
+          }
+        },
+        "changed_predictions_vs_intact": 0,
+        "reference_permutation": {
+          "observed_errors": 244,
+          "draws": 9999,
+          "groups": [
+            {
+              "folio": "3r",
+              "aspect_half": 0,
+              "indices": [
+                0,
+                9,
+                11,
+                10,
+                5,
+                6,
+                7,
+                3,
+                12,
+                8
+              ],
+              "row_ids": [
+                "3r.p1.l1",
+                "3r.p1.l10",
+                "3r.p2.l2",
+                "3r.p2.l1",
+                "3r.p1.l6",
+                "3r.p1.l7",
+                "3r.p1.l8",
+                "3r.p1.l4",
+                "3r.p2.l3",
+                "3r.p1.l9"
+              ]
+            },
+            {
+              "folio": "3r",
+              "aspect_half": 1,
+              "indices": [
+                13,
+                17,
+                2,
+                15,
+                1,
+                4,
+                16,
+                19,
+                18,
+                14
+              ],
+              "row_ids": [
+                "3r.p2.l4",
+                "3r.p4.l1",
+                "3r.p1.l3",
+                "3r.p3.l2",
+                "3r.p1.l2",
+                "3r.p1.l5",
+                "3r.p3.l3",
+                "3r.p4.l3",
+                "3r.p4.l2",
+                "3r.p3.l1"
+              ]
+            },
+            {
+              "folio": "3v",
+              "aspect_half": 0,
+              "indices": [
+                20,
+                26,
+                25,
+                33,
+                24,
+                32,
+                27
+              ],
+              "row_ids": [
+                "3v.p1.l1",
+                "3v.p2.l1",
+                "3v.p1.l6",
+                "3v.p2.l8",
+                "3v.p1.l5",
+                "3v.p2.l7",
+                "3v.p2.l2"
+              ]
+            },
+            {
+              "folio": "3v",
+              "aspect_half": 1,
+              "indices": [
+                30,
+                29,
+                31,
+                21,
+                28,
+                22,
+                23
+              ],
+              "row_ids": [
+                "3v.p2.l5",
+                "3v.p2.l4",
+                "3v.p2.l6",
+                "3v.p1.l2",
+                "3v.p2.l3",
+                "3v.p1.l3",
+                "3v.p1.l4"
+              ]
+            }
+          ],
+          "seed_algorithm": "NumPy default_rng/PCG64, common draws across conditions",
+          "null_mean_errors": 639.5053505350535,
+          "null_median_errors": 642.0,
+          "null_2_5_percentile": 577.0,
+          "null_97_5_percentile": 691.0,
+          "null_errors_le_observed": 0,
+          "diagnostic_lower_tail_fraction": 0.0001,
+          "interpretation": "Descriptive conditional permutation diagnostic; exchangeability and expert reference validity are not established."
+        },
+        "error_change_vs_intact_percentage_points": 0.0
+      },
+      "mirror_x": {
+        "rows": 34,
+        "failed_rows": [],
+        "network_called_rows": 34,
+        "preprocessing_short_circuit_rows": [],
+        "nonempty_predictions": 34,
+        "metrics": {
+          "errors": 669,
+          "reference_units": 980,
+          "gcr": 0.6826530612244898,
+          "predicted_units": 634,
+          "alignment": {
+            "matches": 330,
+            "substitutions": 285,
+            "deletions": 365,
+            "insertions": 19
+          }
+        },
+        "changed_predictions_vs_intact": 34,
+        "reference_permutation": {
+          "observed_errors": 669,
+          "draws": 9999,
+          "groups": [
+            {
+              "folio": "3r",
+              "aspect_half": 0,
+              "indices": [
+                0,
+                9,
+                11,
+                10,
+                5,
+                6,
+                7,
+                3,
+                12,
+                8
+              ],
+              "row_ids": [
+                "3r.p1.l1",
+                "3r.p1.l10",
+                "3r.p2.l2",
+                "3r.p2.l1",
+                "3r.p1.l6",
+                "3r.p1.l7",
+                "3r.p1.l8",
+                "3r.p1.l4",
+                "3r.p2.l3",
+                "3r.p1.l9"
+              ]
+            },
+            {
+              "folio": "3r",
+              "aspect_half": 1,
+              "indices": [
+                13,
+                17,
+                2,
+                15,
+                1,
+                4,
+                16,
+                19,
+                18,
+                14
+              ],
+              "row_ids": [
+                "3r.p2.l4",
+                "3r.p4.l1",
+                "3r.p1.l3",
+                "3r.p3.l2",
+                "3r.p1.l2",
+                "3r.p1.l5",
+                "3r.p3.l3",
+                "3r.p4.l3",
+                "3r.p4.l2",
+                "3r.p3.l1"
+              ]
+            },
+            {
+              "folio": "3v",
+              "aspect_half": 0,
+              "indices": [
+                20,
+                26,
+                25,
+                33,
+                24,
+                32,
+                27
+              ],
+              "row_ids": [
+                "3v.p1.l1",
+                "3v.p2.l1",
+                "3v.p1.l6",
+                "3v.p2.l8",
+                "3v.p1.l5",
+                "3v.p2.l7",
+                "3v.p2.l2"
+              ]
+            },
+            {
+              "folio": "3v",
+              "aspect_half": 1,
+              "indices": [
+                30,
+                29,
+                31,
+                21,
+                28,
+                22,
+                23
+              ],
+              "row_ids": [
+                "3v.p2.l5",
+                "3v.p2.l4",
+                "3v.p2.l6",
+                "3v.p1.l2",
+                "3v.p2.l3",
+                "3v.p1.l3",
+                "3v.p1.l4"
+              ]
+            }
+          ],
+          "seed_algorithm": "NumPy default_rng/PCG64, common draws across conditions",
+          "null_mean_errors": 671.8572857285728,
+          "null_median_errors": 672.0,
+          "null_2_5_percentile": 655.0,
+          "null_97_5_percentile": 689.0,
+          "null_errors_le_observed": 3921,
+          "diagnostic_lower_tail_fraction": 0.3922,
+          "interpretation": "Descriptive conditional permutation diagnostic; exchangeability and expert reference validity are not established."
+        },
+        "error_change_vs_intact_percentage_points": 43.36734693877551
+      },
+      "tile_shuffle_8": {
+        "rows": 34,
+        "failed_rows": [],
+        "network_called_rows": 34,
+        "preprocessing_short_circuit_rows": [],
+        "nonempty_predictions": 34,
+        "metrics": {
+          "errors": 616,
+          "reference_units": 980,
+          "gcr": 0.6285714285714286,
+          "predicted_units": 642,
+          "alignment": {
+            "matches": 382,
+            "substitutions": 242,
+            "deletions": 356,
+            "insertions": 18
+          }
+        },
+        "changed_predictions_vs_intact": 34,
+        "reference_permutation": {
+          "observed_errors": 616,
+          "draws": 9999,
+          "groups": [
+            {
+              "folio": "3r",
+              "aspect_half": 0,
+              "indices": [
+                0,
+                9,
+                11,
+                10,
+                5,
+                6,
+                7,
+                3,
+                12,
+                8
+              ],
+              "row_ids": [
+                "3r.p1.l1",
+                "3r.p1.l10",
+                "3r.p2.l2",
+                "3r.p2.l1",
+                "3r.p1.l6",
+                "3r.p1.l7",
+                "3r.p1.l8",
+                "3r.p1.l4",
+                "3r.p2.l3",
+                "3r.p1.l9"
+              ]
+            },
+            {
+              "folio": "3r",
+              "aspect_half": 1,
+              "indices": [
+                13,
+                17,
+                2,
+                15,
+                1,
+                4,
+                16,
+                19,
+                18,
+                14
+              ],
+              "row_ids": [
+                "3r.p2.l4",
+                "3r.p4.l1",
+                "3r.p1.l3",
+                "3r.p3.l2",
+                "3r.p1.l2",
+                "3r.p1.l5",
+                "3r.p3.l3",
+                "3r.p4.l3",
+                "3r.p4.l2",
+                "3r.p3.l1"
+              ]
+            },
+            {
+              "folio": "3v",
+              "aspect_half": 0,
+              "indices": [
+                20,
+                26,
+                25,
+                33,
+                24,
+                32,
+                27
+              ],
+              "row_ids": [
+                "3v.p1.l1",
+                "3v.p2.l1",
+                "3v.p1.l6",
+                "3v.p2.l8",
+                "3v.p1.l5",
+                "3v.p2.l7",
+                "3v.p2.l2"
+              ]
+            },
+            {
+              "folio": "3v",
+              "aspect_half": 1,
+              "indices": [
+                30,
+                29,
+                31,
+                21,
+                28,
+                22,
+                23
+              ],
+              "row_ids": [
+                "3v.p2.l5",
+                "3v.p2.l4",
+                "3v.p2.l6",
+                "3v.p1.l2",
+                "3v.p2.l3",
+                "3v.p1.l3",
+                "3v.p1.l4"
+              ]
+            }
+          ],
+          "seed_algorithm": "NumPy default_rng/PCG64, common draws across conditions",
+          "null_mean_errors": 672.7928792879288,
+          "null_median_errors": 673.0,
+          "null_2_5_percentile": 651.0,
+          "null_97_5_percentile": 693.0,
+          "null_errors_le_observed": 0,
+          "diagnostic_lower_tail_fraction": 0.0001,
+          "interpretation": "Descriptive conditional permutation diagnostic; exchangeability and expert reference validity are not established."
+        },
+        "error_change_vs_intact_percentage_points": 37.95918367346939
+      },
+      "white": {
+        "rows": 34,
+        "failed_rows": [],
+        "network_called_rows": 0,
+        "preprocessing_short_circuit_rows": [
+          "3r.p1.l1",
+          "3r.p1.l2",
+          "3r.p1.l3",
+          "3r.p1.l4",
+          "3r.p1.l5",
+          "3r.p1.l6",
+          "3r.p1.l7",
+          "3r.p1.l8",
+          "3r.p1.l9",
+          "3r.p1.l10",
+          "3r.p2.l1",
+          "3r.p2.l2",
+          "3r.p2.l3",
+          "3r.p2.l4",
+          "3r.p3.l1",
+          "3r.p3.l2",
+          "3r.p3.l3",
+          "3r.p4.l1",
+          "3r.p4.l2",
+          "3r.p4.l3",
+          "3v.p1.l1",
+          "3v.p1.l2",
+          "3v.p1.l3",
+          "3v.p1.l4",
+          "3v.p1.l5",
+          "3v.p1.l6",
+          "3v.p2.l1",
+          "3v.p2.l2",
+          "3v.p2.l3",
+          "3v.p2.l4",
+          "3v.p2.l5",
+          "3v.p2.l6",
+          "3v.p2.l7",
+          "3v.p2.l8"
+        ],
+        "nonempty_predictions": 0,
+        "metrics": {
+          "errors": 980,
+          "reference_units": 980,
+          "gcr": 1.0,
+          "predicted_units": 0,
+          "alignment": {
+            "matches": 0,
+            "substitutions": 0,
+            "deletions": 980,
+            "insertions": 0
+          }
+        },
+        "changed_predictions_vs_intact": 34,
+        "reference_permutation": {
+          "observed_errors": 980,
+          "draws": 9999,
+          "groups": [
+            {
+              "folio": "3r",
+              "aspect_half": 0,
+              "indices": [
+                0,
+                9,
+                11,
+                10,
+                5,
+                6,
+                7,
+                3,
+                12,
+                8
+              ],
+              "row_ids": [
+                "3r.p1.l1",
+                "3r.p1.l10",
+                "3r.p2.l2",
+                "3r.p2.l1",
+                "3r.p1.l6",
+                "3r.p1.l7",
+                "3r.p1.l8",
+                "3r.p1.l4",
+                "3r.p2.l3",
+                "3r.p1.l9"
+              ]
+            },
+            {
+              "folio": "3r",
+              "aspect_half": 1,
+              "indices": [
+                13,
+                17,
+                2,
+                15,
+                1,
+                4,
+                16,
+                19,
+                18,
+                14
+              ],
+              "row_ids": [
+                "3r.p2.l4",
+                "3r.p4.l1",
+                "3r.p1.l3",
+                "3r.p3.l2",
+                "3r.p1.l2",
+                "3r.p1.l5",
+                "3r.p3.l3",
+                "3r.p4.l3",
+                "3r.p4.l2",
+                "3r.p3.l1"
+              ]
+            },
+            {
+              "folio": "3v",
+              "aspect_half": 0,
+              "indices": [
+                20,
+                26,
+                25,
+                33,
+                24,
+                32,
+                27
+              ],
+              "row_ids": [
+                "3v.p1.l1",
+                "3v.p2.l1",
+                "3v.p1.l6",
+                "3v.p2.l8",
+                "3v.p1.l5",
+                "3v.p2.l7",
+                "3v.p2.l2"
+              ]
+            },
+            {
+              "folio": "3v",
+              "aspect_half": 1,
+              "indices": [
+                30,
+                29,
+                31,
+                21,
+                28,
+                22,
+                23
+              ],
+              "row_ids": [
+                "3v.p2.l5",
+                "3v.p2.l4",
+                "3v.p2.l6",
+                "3v.p1.l2",
+                "3v.p2.l3",
+                "3v.p1.l3",
+                "3v.p1.l4"
+              ]
+            }
+          ],
+          "seed_algorithm": "NumPy default_rng/PCG64, common draws across conditions",
+          "null_mean_errors": 980.0,
+          "null_median_errors": 980.0,
+          "null_2_5_percentile": 980.0,
+          "null_97_5_percentile": 980.0,
+          "null_errors_le_observed": 9999,
+          "diagnostic_lower_tail_fraction": 1.0,
+          "interpretation": "Descriptive conditional permutation diagnostic; exchangeability and expert reference validity are not established."
+        },
+        "error_change_vs_intact_percentage_points": 75.10204081632654
+      }
+    },
+    "development_evaluation": {
+      "intact": {
+        "rows": 27,
+        "failed_rows": [],
+        "network_called_rows": 27,
+        "preprocessing_short_circuit_rows": [],
+        "nonempty_predictions": 27,
+        "metrics": {
+          "errors": 516,
+          "reference_units": 699,
+          "gcr": 0.7381974248927039,
+          "predicted_units": 536,
+          "alignment": {
+            "matches": 220,
+            "substitutions": 279,
+            "deletions": 200,
+            "insertions": 37
+          }
+        },
+        "changed_predictions_vs_intact": 0,
+        "reference_permutation": {
+          "observed_errors": 516,
+          "draws": 9999,
+          "groups": [
+            {
+              "folio": "4r",
+              "aspect_half": 0,
+              "indices": [
+                12,
+                4,
+                11,
+                9,
+                7,
+                10
+              ],
+              "row_ids": [
+                "4r.p2.l9",
+                "4r.p2.l1",
+                "4r.p2.l8",
+                "4r.p2.l6",
+                "4r.p2.l4",
+                "4r.p2.l7"
+              ]
+            },
+            {
+              "folio": "4r",
+              "aspect_half": 1,
+              "indices": [
+                8,
+                5,
+                6,
+                3,
+                2,
+                0,
+                1
+              ],
+              "row_ids": [
+                "4r.p2.l5",
+                "4r.p2.l2",
+                "4r.p2.l3",
+                "4r.p1.l4",
+                "4r.p1.l3",
+                "4r.p1.l1",
+                "4r.p1.l2"
+              ]
+            },
+            {
+              "folio": "4v",
+              "aspect_half": 0,
+              "indices": [
+                18,
+                26,
+                24,
+                19,
+                20,
+                21,
+                13
+              ],
+              "row_ids": [
+                "4v.p1.l6",
+                "4v.p2.l8",
+                "4v.p2.l6",
+                "4v.p2.l1",
+                "4v.p2.l2",
+                "4v.p2.l3",
+                "4v.p1.l1"
+              ]
+            },
+            {
+              "folio": "4v",
+              "aspect_half": 1,
+              "indices": [
+                23,
+                22,
+                16,
+                25,
+                17,
+                14,
+                15
+              ],
+              "row_ids": [
+                "4v.p2.l5",
+                "4v.p2.l4",
+                "4v.p1.l4",
+                "4v.p2.l7",
+                "4v.p1.l5",
+                "4v.p1.l2",
+                "4v.p1.l3"
+              ]
+            }
+          ],
+          "seed_algorithm": "NumPy default_rng/PCG64, common draws across conditions",
+          "null_mean_errors": 534.0624062406241,
+          "null_median_errors": 534.0,
+          "null_2_5_percentile": 517.0,
+          "null_97_5_percentile": 550.0,
+          "null_errors_le_observed": 196,
+          "diagnostic_lower_tail_fraction": 0.0197,
+          "interpretation": "Descriptive conditional permutation diagnostic; exchangeability and expert reference validity are not established."
+        },
+        "error_change_vs_intact_percentage_points": 0.0
+      },
+      "mirror_x": {
+        "rows": 27,
+        "failed_rows": [],
+        "network_called_rows": 27,
+        "preprocessing_short_circuit_rows": [],
+        "nonempty_predictions": 27,
+        "metrics": {
+          "errors": 546,
+          "reference_units": 699,
+          "gcr": 0.7811158798283262,
+          "predicted_units": 588,
+          "alignment": {
+            "matches": 225,
+            "substitutions": 291,
+            "deletions": 183,
+            "insertions": 72
+          }
+        },
+        "changed_predictions_vs_intact": 27,
+        "reference_permutation": {
+          "observed_errors": 546,
+          "draws": 9999,
+          "groups": [
+            {
+              "folio": "4r",
+              "aspect_half": 0,
+              "indices": [
+                12,
+                4,
+                11,
+                9,
+                7,
+                10
+              ],
+              "row_ids": [
+                "4r.p2.l9",
+                "4r.p2.l1",
+                "4r.p2.l8",
+                "4r.p2.l6",
+                "4r.p2.l4",
+                "4r.p2.l7"
+              ]
+            },
+            {
+              "folio": "4r",
+              "aspect_half": 1,
+              "indices": [
+                8,
+                5,
+                6,
+                3,
+                2,
+                0,
+                1
+              ],
+              "row_ids": [
+                "4r.p2.l5",
+                "4r.p2.l2",
+                "4r.p2.l3",
+                "4r.p1.l4",
+                "4r.p1.l3",
+                "4r.p1.l1",
+                "4r.p1.l2"
+              ]
+            },
+            {
+              "folio": "4v",
+              "aspect_half": 0,
+              "indices": [
+                18,
+                26,
+                24,
+                19,
+                20,
+                21,
+                13
+              ],
+              "row_ids": [
+                "4v.p1.l6",
+                "4v.p2.l8",
+                "4v.p2.l6",
+                "4v.p2.l1",
+                "4v.p2.l2",
+                "4v.p2.l3",
+                "4v.p1.l1"
+              ]
+            },
+            {
+              "folio": "4v",
+              "aspect_half": 1,
+              "indices": [
+                23,
+                22,
+                16,
+                25,
+                17,
+                14,
+                15
+              ],
+              "row_ids": [
+                "4v.p2.l5",
+                "4v.p2.l4",
+                "4v.p1.l4",
+                "4v.p2.l7",
+                "4v.p1.l5",
+                "4v.p1.l2",
+                "4v.p1.l3"
+              ]
+            }
+          ],
+          "seed_algorithm": "NumPy default_rng/PCG64, common draws across conditions",
+          "null_mean_errors": 557.1368136813682,
+          "null_median_errors": 557.0,
+          "null_2_5_percentile": 536.0,
+          "null_97_5_percentile": 578.0,
+          "null_errors_le_observed": 1645,
+          "diagnostic_lower_tail_fraction": 0.1646,
+          "interpretation": "Descriptive conditional permutation diagnostic; exchangeability and expert reference validity are not established."
+        },
+        "error_change_vs_intact_percentage_points": 4.29184549356223
+      },
+      "tile_shuffle_8": {
+        "rows": 27,
+        "failed_rows": [],
+        "network_called_rows": 27,
+        "preprocessing_short_circuit_rows": [],
+        "nonempty_predictions": 27,
+        "metrics": {
+          "errors": 546,
+          "reference_units": 699,
+          "gcr": 0.7811158798283262,
+          "predicted_units": 573,
+          "alignment": {
+            "matches": 216,
+            "substitutions": 294,
+            "deletions": 189,
+            "insertions": 63
+          }
+        },
+        "changed_predictions_vs_intact": 27,
+        "reference_permutation": {
+          "observed_errors": 546,
+          "draws": 9999,
+          "groups": [
+            {
+              "folio": "4r",
+              "aspect_half": 0,
+              "indices": [
+                12,
+                4,
+                11,
+                9,
+                7,
+                10
+              ],
+              "row_ids": [
+                "4r.p2.l9",
+                "4r.p2.l1",
+                "4r.p2.l8",
+                "4r.p2.l6",
+                "4r.p2.l4",
+                "4r.p2.l7"
+              ]
+            },
+            {
+              "folio": "4r",
+              "aspect_half": 1,
+              "indices": [
+                8,
+                5,
+                6,
+                3,
+                2,
+                0,
+                1
+              ],
+              "row_ids": [
+                "4r.p2.l5",
+                "4r.p2.l2",
+                "4r.p2.l3",
+                "4r.p1.l4",
+                "4r.p1.l3",
+                "4r.p1.l1",
+                "4r.p1.l2"
+              ]
+            },
+            {
+              "folio": "4v",
+              "aspect_half": 0,
+              "indices": [
+                18,
+                26,
+                24,
+                19,
+                20,
+                21,
+                13
+              ],
+              "row_ids": [
+                "4v.p1.l6",
+                "4v.p2.l8",
+                "4v.p2.l6",
+                "4v.p2.l1",
+                "4v.p2.l2",
+                "4v.p2.l3",
+                "4v.p1.l1"
+              ]
+            },
+            {
+              "folio": "4v",
+              "aspect_half": 1,
+              "indices": [
+                23,
+                22,
+                16,
+                25,
+                17,
+                14,
+                15
+              ],
+              "row_ids": [
+                "4v.p2.l5",
+                "4v.p2.l4",
+                "4v.p1.l4",
+                "4v.p2.l7",
+                "4v.p1.l5",
+                "4v.p1.l2",
+                "4v.p1.l3"
+              ]
+            }
+          ],
+          "seed_algorithm": "NumPy default_rng/PCG64, common draws across conditions",
+          "null_mean_errors": 553.5903590359036,
+          "null_median_errors": 554.0,
+          "null_2_5_percentile": 530.0,
+          "null_97_5_percentile": 575.0,
+          "null_errors_le_observed": 2701,
+          "diagnostic_lower_tail_fraction": 0.2702,
+          "interpretation": "Descriptive conditional permutation diagnostic; exchangeability and expert reference validity are not established."
+        },
+        "error_change_vs_intact_percentage_points": 4.29184549356223
+      },
+      "white": {
+        "rows": 27,
+        "failed_rows": [],
+        "network_called_rows": 0,
+        "preprocessing_short_circuit_rows": [
+          "4r.p1.l1",
+          "4r.p1.l2",
+          "4r.p1.l3",
+          "4r.p1.l4",
+          "4r.p2.l1",
+          "4r.p2.l2",
+          "4r.p2.l3",
+          "4r.p2.l4",
+          "4r.p2.l5",
+          "4r.p2.l6",
+          "4r.p2.l7",
+          "4r.p2.l8",
+          "4r.p2.l9",
+          "4v.p1.l1",
+          "4v.p1.l2",
+          "4v.p1.l3",
+          "4v.p1.l4",
+          "4v.p1.l5",
+          "4v.p1.l6",
+          "4v.p2.l1",
+          "4v.p2.l2",
+          "4v.p2.l3",
+          "4v.p2.l4",
+          "4v.p2.l5",
+          "4v.p2.l6",
+          "4v.p2.l7",
+          "4v.p2.l8"
+        ],
+        "nonempty_predictions": 0,
+        "metrics": {
+          "errors": 699,
+          "reference_units": 699,
+          "gcr": 1.0,
+          "predicted_units": 0,
+          "alignment": {
+            "matches": 0,
+            "substitutions": 0,
+            "deletions": 699,
+            "insertions": 0
+          }
+        },
+        "changed_predictions_vs_intact": 27,
+        "reference_permutation": {
+          "observed_errors": 699,
+          "draws": 9999,
+          "groups": [
+            {
+              "folio": "4r",
+              "aspect_half": 0,
+              "indices": [
+                12,
+                4,
+                11,
+                9,
+                7,
+                10
+              ],
+              "row_ids": [
+                "4r.p2.l9",
+                "4r.p2.l1",
+                "4r.p2.l8",
+                "4r.p2.l6",
+                "4r.p2.l4",
+                "4r.p2.l7"
+              ]
+            },
+            {
+              "folio": "4r",
+              "aspect_half": 1,
+              "indices": [
+                8,
+                5,
+                6,
+                3,
+                2,
+                0,
+                1
+              ],
+              "row_ids": [
+                "4r.p2.l5",
+                "4r.p2.l2",
+                "4r.p2.l3",
+                "4r.p1.l4",
+                "4r.p1.l3",
+                "4r.p1.l1",
+                "4r.p1.l2"
+              ]
+            },
+            {
+              "folio": "4v",
+              "aspect_half": 0,
+              "indices": [
+                18,
+                26,
+                24,
+                19,
+                20,
+                21,
+                13
+              ],
+              "row_ids": [
+                "4v.p1.l6",
+                "4v.p2.l8",
+                "4v.p2.l6",
+                "4v.p2.l1",
+                "4v.p2.l2",
+                "4v.p2.l3",
+                "4v.p1.l1"
+              ]
+            },
+            {
+              "folio": "4v",
+              "aspect_half": 1,
+              "indices": [
+                23,
+                22,
+                16,
+                25,
+                17,
+                14,
+                15
+              ],
+              "row_ids": [
+                "4v.p2.l5",
+                "4v.p2.l4",
+                "4v.p1.l4",
+                "4v.p2.l7",
+                "4v.p1.l5",
+                "4v.p1.l2",
+                "4v.p1.l3"
+              ]
+            }
+          ],
+          "seed_algorithm": "NumPy default_rng/PCG64, common draws across conditions",
+          "null_mean_errors": 699.0,
+          "null_median_errors": 699.0,
+          "null_2_5_percentile": 699.0,
+          "null_97_5_percentile": 699.0,
+          "null_errors_le_observed": 9999,
+          "diagnostic_lower_tail_fraction": 1.0,
+          "interpretation": "Descriptive conditional permutation diagnostic; exchangeability and expert reference validity are not established."
+        },
+        "error_change_vs_intact_percentage_points": 26.18025751072961
+      }
+    }
+  },
+  "development_unseen_reference_unit_counts": {},
+  "seconds": 28.028428466999998,
+  "run_id": "40512656009",
+  "execution_commit": "469761426e9fb3879f47f7cc129d151860936b23",
+  "environment": {
+    "torch": "2.9.0+cpu",
+    "torchvision": "0.24.0+cpu",
+    "kraken": "7.1",
+    "pillow": "12.3.0",
+    "numpy": "2.4.6",
+    "scipy": "1.15.3"
+  },
+  "scope": "Provisional references on previously explored leaves 3/4. Mechanistic pipeline diagnostic, not a confirmatory test, decipherment or proof of linguistic meaning.",
+  "expert_review": "NOT_REVIEWED",
+  "translation": "NOT_RUN"
+}

@@ -1,0 +1,1222 @@
+[
+  {
+    "id": "3r.p1.l1",
+    "folio": "3r",
+    "role": "train",
+    "reference": "\udbbd\udc23\udbbd\udcc2\udbbd\udc06\udbbd\udc14\udbbd\udc0a \udbbd\udc1d\udbbd\udc14\udbbd\udc21\udbbd\udc10\udbbd\udc1a \udbbd\udcc0\udbbd\udc14\udbbd\udc1a \udbbd\udc06\udbbd\udc23\udbbd\udc06\udbbd\udc14\udbbd\udc1a \udbbd\udc09\udbbd\udc10\udbbd\udc00\udbbd\udc0b\udbbd\udc0b",
+    "source_sha256": "dfd516950cc0cbd50a0c0e09dac4eef0fbcb4deaf0dea0b27a0e40e87ea3208e",
+    "input_sha256": "28bb18950c88d6bdc389cb2f62a6b76fe8877912a126f50ee62d62ea9b0619ad",
+    "input_size": [
+      669,
+      134
+    ],
+    "input_path": "/home/runner/work/Voynich/Voynich/work/kraken_visual_specificity/inputs/white/3r_p1_l1.png",
+    "status": "OK",
+    "prediction": "",
+    "network_forward_calls": 0,
+    "warnings": [
+      "`rpred.mm_rpred` is deprecated and will be removed with kraken 8. Use `RecognitionTaskModel` instead.",
+      "invalid value encountered in divide"
+    ]
+  },
+  {
+    "id": "3r.p1.l2",
+    "folio": "3r",
+    "role": "train",
+    "reference": "\udbbd\udc17\udbbd\udcc0\udbbd\udc06\udbbd\udc14\udbbd\udc03 \udbbd\udcc0\udbbd\udc14\udbbd\udc03 \udbbd\udc09\udbbd\udc10\udbbd\udc0b \udbbd\udc1d\udbbd\udc14\udbbd\udc23\udbbd\udcc0\udbbd\udc10\udbbd\udc0b \udbbd\udcc0\udbbd\udc10\udbbd\udc0b",
+    "source_sha256": "6f925e3bd095c6235b3e56cea0fa6c97e084962b81fe5e77f99e0e3a6d064054",
+    "input_sha256": "319da4794f39b7073b685e5a80adebc3977e11e480da8c6c3340dfe1ac37a2e7",
+    "input_size": [
+      676,
+      78
+    ],
+    "input_path": "/home/runner/work/Voynich/Voynich/work/kraken_visual_specificity/inputs/white/3r_p1_l2.png",
+    "status": "OK",
+    "prediction": "",
+    "network_forward_calls": 0,
+    "warnings": [
+      "`rpred.mm_rpred` is deprecated and will be removed with kraken 8. Use `RecognitionTaskModel` instead.",
+      "invalid value encountered in divide"
+    ]
+  },
+  {
+    "id": "3r.p1.l3",
+    "folio": "3r",
+    "role": "train",
+    "reference": "\udbbd\udc14\udbbd\udcc0\udbbd\udc14\udbbd\udc03 \udbbd\udc1d\udbbd\udc14\udbbd\udcc0\udbbd\udc06\udbbd\udc14\udbbd\udc03 \udbbd\udcc0\udbbd\udc14\udbbd\udc1a \udbbd\udc09\udbbd\udc10\udbbd\udd05 \udbbd\udc06\udbbd\udc23\udbbd\udc06\udbbd\udc17",
+    "source_sha256": "7fea53ad63734a0fa61059f57a9906fcc900a28ff92e26ef2f2d6a0b9d42dc5b",
+    "input_sha256": "a161aaf886ec668ac249e1008ae67e0303a5a6baa0b8abdbf0ed4b632c7e0756",
+    "input_size": [
+      660,
+      77
+    ],
+    "input_path": "/home/runner/work/Voynich/Voynich/work/kraken_visual_specificity/inputs/white/3r_p1_l3.png",
+    "status": "OK",
+    "prediction": "",
+    "network_forward_calls": 0,
+    "warnings": [
+      "`rpred.mm_rpred` is deprecated and will be removed with kraken 8. Use `RecognitionTaskModel` instead.",
+      "invalid value encountered in divide"
+    ]
+  },
+  {
+    "id": "3r.p1.l4",
+    "folio": "3r",
+    "role": "train",
+    "reference": "\udbbd\udc0a\udbbd\udcc0\udbbd\udc06\udbbd\udc17 \udbbd\udcc0\udbbd\udc14\udbbd\udc03 \udbbd\udcc0\udbbd\udc10\udbbd\udc1a \udbbd\udcc0\udbbd\udc10\udbbd\udc0b \udbbd\udcc0\udbbd\udc10\udbbd\udc0b \udbbd\udcc0\udbbd\udc14",
+    "source_sha256": "af6a63c8e48f98a6e3022e5ee9d5f588529d99993db5842d0edf23db8ba9a0cb",
+    "input_sha256": "38bc5b257e92f0bcca6e45ff2b3e552b15fbc698d9cf6bb2ed6db8cd9a510ecc",
+    "input_size": [
+      682,
+      100
+    ],
+    "input_path": "/home/runner/work/Voynich/Voynich/work/kraken_visual_specificity/inputs/white/3r_p1_l4.png",
+    "status": "OK",
+    "prediction": "",
+    "network_forward_calls": 0,
+    "warnings": [
+      "`rpred.mm_rpred` is deprecated and will be removed with kraken 8. Use `RecognitionTaskModel` instead.",
+      "invalid value encountered in divide"
+    ]
+  },
+  {
+    "id": "3r.p1.l5",
+    "folio": "3r",
+    "role": "train",
+    "reference": "\udbbd\udc1d\udbbd\udc14\udbbd\udc22\udbbd\udc14\udbbd\udc1a \udbbd\udcc0\udbbd\udc14\udbbd\udc1a\udbbd\udc14\udbbd\udc1a\udbbd\udc17 \udbbd\udc0a \udbbd\udcc0\udbbd\udc10\udbbd\udc0b \udbbd\udc06\udbbd\udc23\udbbd\udc06\udbbd\udc14\udbbd\udc1a",
+    "source_sha256": "7ee5da8762f74b1225ef182147a56a11aaf965d821063016a2c6b04845074aba",
+    "input_sha256": "9effbd8b10642a9c831027753072f219f7b60ba48213b95fb4879844c9356edd",
+    "input_size": [
+      674,
+      76
+    ],
+    "input_path": "/home/runner/work/Voynich/Voynich/work/kraken_visual_specificity/inputs/white/3r_p1_l5.png",
+    "status": "OK",
+    "prediction": "",
+    "network_forward_calls": 0,
+    "warnings": [
+      "`rpred.mm_rpred` is deprecated and will be removed with kraken 8. Use `RecognitionTaskModel` instead.",
+      "invalid value encountered in divide"
+    ]
+  },
+  {
+    "id": "3r.p1.l6",
+    "folio": "3r",
+    "role": "train",
+    "reference": "\udbbd\udc17\udbbd\udcc0\udbbd\udc23\udbbd\udc10\udbbd\udd05 \udbbd\udcc0\udbbd\udc14\udbbd\udc03 \udbbd\udc06\udbbd\udc23\udbbd\udc06\udbbd\udc14\udbbd\udc0b \udbbd\udc14\udbbd\udc23\udbbd\udc10\udbbd\udc1a \udbbd\udc09\udbbd\udc10\udbbd\udc0b",
+    "source_sha256": "46cf73c66308a0ca34663bce3b21fdd7d8d39015efe7f4edc4a4ba00678edacb",
+    "input_sha256": "bf176d6aad678422ed746596ce7556e709d1d2e72c0b09ad9f66c3c3660d9a5e",
+    "input_size": [
+      677,
+      103
+    ],
+    "input_path": "/home/runner/work/Voynich/Voynich/work/kraken_visual_specificity/inputs/white/3r_p1_l6.png",
+    "status": "OK",
+    "prediction": "",
+    "network_forward_calls": 0,
+    "warnings": [
+      "`rpred.mm_rpred` is deprecated and will be removed with kraken 8. Use `RecognitionTaskModel` instead.",
+      "invalid value encountered in divide"
+    ]
+  },
+  {
+    "id": "3r.p1.l7",
+    "folio": "3r",
+    "role": "train",
+    "reference": "\udbbd\udc14\udbbd\udc23\udbbd\udcc0\udbbd\udc14\udbbd\udc1a \udbbd\udc1d\udbbd\udc14\udbbd\udc09\udbbd\udc10\udbbd\udd05 \udbbd\udcc0\udbbd\udc14\udbbd\udc0b \udbbd\udcc2\udbbd\udc14\udbbd\udc0b \udbbd\udc09\udbbd\udc10\udbbd\udc0b\udbbd\udc14",
+    "source_sha256": "e80f7f223e4721711d190ca4d2c721c0cd18c342f57a79bc1f0e4b083200e078",
+    "input_sha256": "e19be628761b7a65879a323676e6c187e34ec1b83177e918c3a6045e29dbaf47",
+    "input_size": [
+      668,
+      101
+    ],
+    "input_path": "/home/runner/work/Voynich/Voynich/work/kraken_visual_specificity/inputs/white/3r_p1_l7.png",
+    "status": "OK",
+    "prediction": "",
+    "network_forward_calls": 0,
+    "warnings": [
+      "`rpred.mm_rpred` is deprecated and will be removed with kraken 8. Use `RecognitionTaskModel` instead.",
+      "invalid value encountered in divide"
+    ]
+  },
+  {
+    "id": "3r.p1.l8",
+    "folio": "3r",
+    "role": "train",
+    "reference": "\udbbd\udc17\udbbd\udcc2\udbbd\udc06\udbbd\udc14\udbbd\udc03 \udbbd\udcc0\udbbd\udc14\udbbd\udc03 \udbbd\udcc0\udbbd\udc14\udbbd\udc1a \udbbd\udc14\udbbd\udc22\udbbd\udc17 \udbbd\udc09\udbbd\udc10\udbbd\udc0b\udbbd\udc14",
+    "source_sha256": "144beae02325b796b42d934f37bf7aa6bd649b6c8f6962af831a261e3d81fbf5",
+    "input_sha256": "a36faf9ef6cd1cf8ce50b07fc8c9df2540436268331f6a91d1364413afad89b3",
+    "input_size": [
+      676,
+      101
+    ],
+    "input_path": "/home/runner/work/Voynich/Voynich/work/kraken_visual_specificity/inputs/white/3r_p1_l8.png",
+    "status": "OK",
+    "prediction": "",
+    "network_forward_calls": 0,
+    "warnings": [
+      "`rpred.mm_rpred` is deprecated and will be removed with kraken 8. Use `RecognitionTaskModel` instead.",
+      "invalid value encountered in divide"
+    ]
+  },
+  {
+    "id": "3r.p1.l9",
+    "folio": "3r",
+    "role": "train",
+    "reference": "\udbbd\udcc2\udbbd\udc14 \udbbd\udd1f\udbbd\udc14\udbbd\udc03 \udbbd\udcc2\udbbd\udc06\udbbd\udc14\udbbd\udc1a\udbbd\udc09\udbbd\udc10\udbbd\udc0b \udbbd\udc14\udbbd\udc23\udbbd\udcc0\udbbd\udc14\udbbd\udc09\udbbd\udc17 \udbbd\udc14\udbbd\udc1a",
+    "source_sha256": "61cc6b1267df7532466e51bbfd2b98e655b4807e581c090e96090b84edd4ead5",
+    "input_sha256": "37cf75f3073cc3338472171c63c9332ea911cfe0205bc56d7d0096f29a82f5cd",
+    "input_size": [
+      654,
+      86
+    ],
+    "input_path": "/home/runner/work/Voynich/Voynich/work/kraken_visual_specificity/inputs/white/3r_p1_l9.png",
+    "status": "OK",
+    "prediction": "",
+    "network_forward_calls": 0,
+    "warnings": [
+      "`rpred.mm_rpred` is deprecated and will be removed with kraken 8. Use `RecognitionTaskModel` instead.",
+      "invalid value encountered in divide"
+    ]
+  },
+  {
+    "id": "3r.p1.l10",
+    "folio": "3r",
+    "role": "train",
+    "reference": "\udbbd\udc17\udbbd\udc09\udbbd\udc10\udbbd\udc03 \udbbd\udcc0\udbbd\udc14\udbbd\udc1a \udbbd\udc06\udbbd\udc23\udbbd\udc06\udbbd\udc14\udbbd\udc0b",
+    "source_sha256": "f48162a1212009b588ebd6bcd737ca56613ee8118ad5c43025d29fd09d71086f",
+    "input_sha256": "23d1f642c2cf50f9e36c47ee3451d36a00cf0e66db1795de0b002518627b712b",
+    "input_size": [
+      385,
+      73
+    ],
+    "input_path": "/home/runner/work/Voynich/Voynich/work/kraken_visual_specificity/inputs/white/3r_p1_l10.png",
+    "status": "OK",
+    "prediction": "",
+    "network_forward_calls": 0,
+    "warnings": [
+      "`rpred.mm_rpred` is deprecated and will be removed with kraken 8. Use `RecognitionTaskModel` instead.",
+      "invalid value encountered in divide"
+    ]
+  },
+  {
+    "id": "3r.p2.l1",
+    "folio": "3r",
+    "role": "train",
+    "reference": "\udbbd\udc21\udbbd\udcc0\udbbd\udc06\udbbd\udc14\udbbd\udc1a \udbbd\udcc2\udbbd\udc14\udbbd\udc1a \udbbd\udc0a\udbbd\udc14\udbbd\udc1a\udbbd\udc0a \udbbd\udcc2\udbbd\udc06\udbbd\udc14\udbbd\udc1a \udbbd\udcc2\udbbd\udc06\udbbd\udc17",
+    "source_sha256": "a6ffa98ede9b1f630151b7ba91907250bb10e9b5261930293c59512e11ea2823",
+    "input_sha256": "3b6d2465b3be051c5d1bf1a5aa46fd9694bb66590c17b860079dcea77c028f3e",
+    "input_size": [
+      620,
+      105
+    ],
+    "input_path": "/home/runner/work/Voynich/Voynich/work/kraken_visual_specificity/inputs/white/3r_p2_l1.png",
+    "status": "OK",
+    "prediction": "",
+    "network_forward_calls": 0,
+    "warnings": [
+      "`rpred.mm_rpred` is deprecated and will be removed with kraken 8. Use `RecognitionTaskModel` instead.",
+      "invalid value encountered in divide"
+    ]
+  },
+  {
+    "id": "3r.p2.l2",
+    "folio": "3r",
+    "role": "train",
+    "reference": "\udbbd\udc14\udbbd\udc22\udbbd\udc10\udbbd\udc09\udbbd\udc10\udbbd\udd05 \udbbd\udc1d\udbbd\udc14\udbbd\udc22\udbbd\udcc0\udbbd\udc14\udbbd\udc03 \udbbd\udc1d\udbbd\udc14 \udbbd\udc0a\udbbd\udcc0\udbbd\udc14\udbbd\udc09\udbbd\udc10\udbbd\udc0b \udbbd\udc14\udbbd\udc06\udbbd\udc23\udbbd\udc06\udbbd\udc17",
+    "source_sha256": "e6d101898d40946d07911856aa40414560e8e08aa0ca7c74d090b2b5824c7a05",
+    "input_sha256": "3c6057b89de7435c3fdfa8e4c221be149e42ef722ab517a74d5c5704300f9d57",
+    "input_size": [
+      755,
+      133
+    ],
+    "input_path": "/home/runner/work/Voynich/Voynich/work/kraken_visual_specificity/inputs/white/3r_p2_l2.png",
+    "status": "OK",
+    "prediction": "",
+    "network_forward_calls": 0,
+    "warnings": [
+      "`rpred.mm_rpred` is deprecated and will be removed with kraken 8. Use `RecognitionTaskModel` instead.",
+      "invalid value encountered in divide"
+    ]
+  },
+  {
+    "id": "3r.p2.l3",
+    "folio": "3r",
+    "role": "train",
+    "reference": "\udbbd\udc1d\udbbd\udc14\udbbd\udc22\udbbd\udc06\udbbd\udc06\udbbd\udc17 \udbbd\udc1d\udbbd\udc14\udbbd\udc23\udbbd\udcc2\udbbd\udc06\udbbd\udc17 \udbbd\udc1d\udbbd\udc14\udbbd\udc22\udbbd\udc14\udbbd\udc09\udbbd\udc17 \udbbd\udc1d\udbbd\udc14\udbbd\udc22\udbbd\udcc2\udbbd\udc06\udbbd\udc17 \udbbd\udcc0\udbbd\udc06\udbbd\udc14\udbbd\udc09\udbbd\udc17",
+    "source_sha256": "0f3168dd16a91e2ef5ce82fa9471772297582f346bfffe95a86561dbace10093",
+    "input_sha256": "f11c63dec7964a753cb5944a3e0d3cd522e3c9c32ca7ddcdfbb32b13afe30c40",
+    "input_size": [
+      902,
+      121
+    ],
+    "input_path": "/home/runner/work/Voynich/Voynich/work/kraken_visual_specificity/inputs/white/3r_p2_l3.png",
+    "status": "OK",
+    "prediction": "",
+    "network_forward_calls": 0,
+    "warnings": [
+      "`rpred.mm_rpred` is deprecated and will be removed with kraken 8. Use `RecognitionTaskModel` instead.",
+      "invalid value encountered in divide"
+    ]
+  },
+  {
+    "id": "3r.p2.l4",
+    "folio": "3r",
+    "role": "train",
+    "reference": "\udbbd\udcc0\udbbd\udc14\udbbd\udc03 \udbbd\udc1d\udbbd\udc14\udbbd\udc09\udbbd\udc10\udbbd\udc00\udbbd\udc03 \udbbd\udc14\udbbd\udc22\udbbd\udc06\udbbd\udc06\udbbd\udc17 \udbbd\udc1d\udbbd\udc14\udbbd\udc22\udbbd\udc06\udbbd\udc06\udbbd\udc17",
+    "source_sha256": "4e9faf32e1d2d8a3601222a3fb3e6cc62ebcf5e204cff20961ec6fe08aed7f79",
+    "input_sha256": "65d7d2441cd5cb5ea9b78884a85cdc4a834e22a30fd07f3bc1f211563db73912",
+    "input_size": [
+      603,
+      79
+    ],
+    "input_path": "/home/runner/work/Voynich/Voynich/work/kraken_visual_specificity/inputs/white/3r_p2_l4.png",
+    "status": "OK",
+    "prediction": "",
+    "network_forward_calls": 0,
+    "warnings": [
+      "`rpred.mm_rpred` is deprecated and will be removed with kraken 8. Use `RecognitionTaskModel` instead.",
+      "invalid value encountered in divide"
+    ]
+  },
+  {
+    "id": "3r.p3.l1",
+    "folio": "3r",
+    "role": "train",
+    "reference": "\udbbd\udc23\udbbd\udcc2\udbbd\udc06\udbbd\udc14\udbbd\udc10\udbbd\udc03\udbbd\udc14\udbbd\udc0b \udbbd\udcc2\udbbd\udc10\udbbd\udc03 \udbbd\udc14\udbbd\udc03 \udbbd\udcc0\udbbd\udc14\udbbd\udc03 \udbbd\udc14\udbbd\udc1a\udbbd\udc06\udbbd\udc06\udbbd\udc0a\udbbd\udc17 \udbbd\udcc0\udbbd\udc14\udbbd\udc0b \udbbd\udc14\udbbd\udc23\udbbd\udc06\udbbd\udc06\udbbd\udc14\udbbd\udc0b \udbbd\udc14\udbbd\udc21\udbbd\udc14\udbbd\udc03\udbbd\udc10\udbbd\udc03",
+    "source_sha256": "17c10bad37ce89c9fae88b9b280773c3d1226fda497c1f1983775190307208e0",
+    "input_sha256": "61ade16c2a0a9e4ce5a41693584c86de428ecf07389aea2911f2ff2ed39d78b4",
+    "input_size": [
+      1293,
+      106
+    ],
+    "input_path": "/home/runner/work/Voynich/Voynich/work/kraken_visual_specificity/inputs/white/3r_p3_l1.png",
+    "status": "OK",
+    "prediction": "",
+    "network_forward_calls": 0,
+    "warnings": [
+      "`rpred.mm_rpred` is deprecated and will be removed with kraken 8. Use `RecognitionTaskModel` instead.",
+      "invalid value encountered in divide"
+    ]
+  },
+  {
+    "id": "3r.p3.l2",
+    "folio": "3r",
+    "role": "train",
+    "reference": "\udbbd\udc14\udbbd\udc23\udbbd\udc06\udbbd\udc14\udbbd\udc1a \udbbd\udcc0\udbbd\udc14\udbbd\udc1a \udbbd\udc0a \udbbd\udcc0\udbbd\udc06\udbbd\udc14\udbbd\udc1a \udbbd\udc06\udbbd\udc22\udbbd\udcc2\udbbd\udc17 \udbbd\udc1d\udbbd\udc14\udbbd\udc22\udbbd\udc06\udbbd\udc14\udbbd\udc0b \udbbd\udc1d\udbbd\udc14\udbbd\udc22\udbbd\udc10\udbbd\udc1a \udbbd\udc09\udbbd\udc10\udbbd\udd05 \udbbd\udc0a\udbbd\udc14\udbbd\udc1a\udbbd\udc06\udbbd\udc06\udbbd\udc0b",
+    "source_sha256": "629b81e37ca2722bb4a20eb7e28b370999364483804c4fb88fe27bd64a5290f7",
+    "input_sha256": "c1cf0520d346f3841d7835faa8f07cafa7bf6629bf4ea727da685fb43eee4445",
+    "input_size": [
+      1294,
+      150
+    ],
+    "input_path": "/home/runner/work/Voynich/Voynich/work/kraken_visual_specificity/inputs/white/3r_p3_l2.png",
+    "status": "OK",
+    "prediction": "",
+    "network_forward_calls": 0,
+    "warnings": [
+      "`rpred.mm_rpred` is deprecated and will be removed with kraken 8. Use `RecognitionTaskModel` instead.",
+      "invalid value encountered in divide"
+    ]
+  },
+  {
+    "id": "3r.p3.l3",
+    "folio": "3r",
+    "role": "train",
+    "reference": "\udbbd\udc0a\udbbd\udc14\udbbd\udc06\udbbd\udc14\udbbd\udc0b \udbbd\udc14\udbbd\udc22\udbbd\udc06\udbbd\udc14\udbbd\udc0b \udbbd\udc17\udbbd\udc23\udbbd\udc06\udbbd\udc14\udbbd\udc09\udbbd\udc17 \udbbd\udc1d\udbbd\udc14\udbbd\udc22\udbbd\udc06\udbbd\udc06\udbbd\udc14\udbbd\udc09\udbbd\udc10\udbbd\udc1a \udbbd\udc0a\udbbd\udc10\udbbd\udc0b",
+    "source_sha256": "b12cbe951d311c2e4d3764adb1f4e2ebf8667a54c99a3ac506ac2bebd638a8b2",
+    "input_sha256": "c2de9da71e9dd7ca3219f6804fa8ff61c8731d47e148e2d2d8dfba5795b95900",
+    "input_size": [
+      838,
+      81
+    ],
+    "input_path": "/home/runner/work/Voynich/Voynich/work/kraken_visual_specificity/inputs/white/3r_p3_l3.png",
+    "status": "OK",
+    "prediction": "",
+    "network_forward_calls": 0,
+    "warnings": [
+      "`rpred.mm_rpred` is deprecated and will be removed with kraken 8. Use `RecognitionTaskModel` instead.",
+      "invalid value encountered in divide"
+    ]
+  },
+  {
+    "id": "3r.p4.l1",
+    "folio": "3r",
+    "role": "train",
+    "reference": "\udbbd\udc21\udbbd\udcc0\udbbd\udc06\udbbd\udc14\udbbd\udc1a\udbbd\udc09\udbbd\udc14\udbbd\udc0b \udbbd\udcc2\udbbd\udc14\udbbd\udc09\udbbd\udc10\udbbd\udd05 \udbbd\udc1d\udbbd\udc14\udbbd\udc21\udbbd\udcc0\udbbd\udc14\udbbd\udc03 \udbbd\udc1d\udbbd\udc14\udbbd\udc21\udbbd\udc14\udbbd\udc1a \udbbd\udc14\udbbd\udc21\udbbd\udcc0\udbbd\udc14\udbbd\udc1a \udbbd\udc1d\udbbd\udc14\udbbd\udc23\udbbd\udc17 \udbbd\udc14\udbbd\udc23\udbbd\udc14\udbbd\udc1a\udbbd\udc14\udbbd\udc0b",
+    "source_sha256": "180eb7b1518a05611160bcd9c5995f3c563ddfe9b3886d5597108be6fb73383c",
+    "input_sha256": "67a082ef208e988f94c4c5350facb04c73bf80ad0571847deee520c5b18a09ca",
+    "input_size": [
+      1311,
+      154
+    ],
+    "input_path": "/home/runner/work/Voynich/Voynich/work/kraken_visual_specificity/inputs/white/3r_p4_l1.png",
+    "status": "OK",
+    "prediction": "",
+    "network_forward_calls": 0,
+    "warnings": [
+      "`rpred.mm_rpred` is deprecated and will be removed with kraken 8. Use `RecognitionTaskModel` instead.",
+      "invalid value encountered in divide"
+    ]
+  },
+  {
+    "id": "3r.p4.l2",
+    "folio": "3r",
+    "role": "train",
+    "reference": "\udbbd\udc14\udbbd\udc23\udbbd\udcc0\udbbd\udc14\udbbd\udc03 \udbbd\udc14\udbbd\udc1a \udbbd\udcc0\udbbd\udc06\udbbd\udc14\udbbd\udc03 \udbbd\udc1d\udbbd\udc14\udbbd\udc06\udbbd\udc14\udbbd\udc03 \udbbd\udc09\udbbd\udc10\udbbd\udc00\udbbd\udc03 \udbbd\udc1d\udbbd\udc14\udbbd\udc23\udbbd\udc06\udbbd\udc14\udbbd\udc1a \udbbd\udc1d\udbbd\udc14\udbbd\udc0a\udbbd\udc10\udbbd\udd05 \udbbd\udcc0\udbbd\udc14\udbbd\udc03 \udbbd\udc06\udbbd\udc23\udbbd\udc06\udbbd\udc17",
+    "source_sha256": "dc58999b3f022f7a1bfc4324981b3ef18e046776bba726b3da8bb746c3cb4da2",
+    "input_sha256": "7cd65bdd217fd2e063daeedfca601825dfa40a1030adcbd53705bd3ca81c2d32",
+    "input_size": [
+      1276,
+      121
+    ],
+    "input_path": "/home/runner/work/Voynich/Voynich/work/kraken_visual_specificity/inputs/white/3r_p4_l2.png",
+    "status": "OK",
+    "prediction": "",
+    "network_forward_calls": 0,
+    "warnings": [
+      "`rpred.mm_rpred` is deprecated and will be removed with kraken 8. Use `RecognitionTaskModel` instead.",
+      "invalid value encountered in divide"
+    ]
+  },
+  {
+    "id": "3r.p4.l3",
+    "folio": "3r",
+    "role": "train",
+    "reference": "\udbbd\udc17\udbbd\udcc0\udbbd\udc06\udbbd\udc14\udbbd\udc03 \udbbd\udcc0\udbbd\udc14\udbbd\udc1a \udbbd\udc14\udbbd\udc09\udbbd\udc10\udbbd\udd05 \udbbd\udcc0\udbbd\udc14\udbbd\udc1a \udbbd\udc0a \udbbd\udc10\udbbd\udd05 \udbbd\udc14\udbbd\udc22\udbbd\udc14\udbbd\udc1a \udbbd\udc14\udbbd\udc03 \udbbd\udc10\udbbd\udc0b",
+    "source_sha256": "04f071ea3ef940e48a6a413b54e8eb1b5eb7a271cc67e64852c3b167c2c35239",
+    "input_sha256": "1153e1697168be542c5f788eab408f6d0014f65986b7c82dbcb56b7411242e5f",
+    "input_size": [
+      983,
+      94
+    ],
+    "input_path": "/home/runner/work/Voynich/Voynich/work/kraken_visual_specificity/inputs/white/3r_p4_l3.png",
+    "status": "OK",
+    "prediction": "",
+    "network_forward_calls": 0,
+    "warnings": [
+      "`rpred.mm_rpred` is deprecated and will be removed with kraken 8. Use `RecognitionTaskModel` instead.",
+      "invalid value encountered in divide"
+    ]
+  },
+  {
+    "id": "3v.p1.l1",
+    "folio": "3v",
+    "role": "train",
+    "reference": "\udbbd\udc22\udbbd\udc14\udbbd\udc10\udbbd\udd05 \udbbd\udc06\udbbd\udc21\udbbd\udc06\udbbd\udc10\udbbd\udc03 \udbbd\udc1d\udbbd\udc14\udbbd\udc23\udbbd\udc14\udbbd\udc17 \udbbd\udcc2\udbbd\udc10 \udbbd\udc06\udbbd\udc22\udbbd\udc06\udbbd\udc14\udbbd\udc1a \udbbd\udc17\udbbd\udc22\udbbd\udc14\udbbd\udc10\udbbd\udd05 \udbbd\udc0a \udbbd\udc14\udbbd\udc1a\udbbd\udc17",
+    "source_sha256": "82b452bec93ea4b96421a42ea1ea561ffca405cc1f7a986645002c87148c3fb5",
+    "input_sha256": "35d3320a2d0993a6b2b3ce58a5bd6e2099704ff734a4dfadf49dce8107fad6a8",
+    "input_size": [
+      874,
+      242
+    ],
+    "input_path": "/home/runner/work/Voynich/Voynich/work/kraken_visual_specificity/inputs/white/3v_p1_l1.png",
+    "status": "OK",
+    "prediction": "",
+    "network_forward_calls": 0,
+    "warnings": [
+      "`rpred.mm_rpred` is deprecated and will be removed with kraken 8. Use `RecognitionTaskModel` instead.",
+      "invalid value encountered in divide"
+    ]
+  },
+  {
+    "id": "3v.p1.l2",
+    "folio": "3v",
+    "role": "train",
+    "reference": "\udbbd\udc09\udbbd\udc10\udbbd\udd01\udbbd\udc09\udbbd\udc17 \udbbd\udc1d\udbbd\udc14\udbbd\udc23\udbbd\udcc0\udbbd\udc14\udbbd\udc1a \udbbd\udc14\udbbd\udc22\udbbd\udcc0\udbbd\udc14\udbbd\udc03 \udbbd\udc14\udbbd\udc22\udbbd\udc14\udbbd\udc03 \udbbd\udc14\udbbd\udc1a\udbbd\udc17\udbbd\udc23\udbbd\udc14\udbbd\udc1a \udbbd\udc09\udbbd\udc14\udbbd\udc1a \udbbd\udc09\udbbd\udc10\udbbd\udc03",
+    "source_sha256": "f14717d4cfbcbc24191007c6983a43e2d9bbde38921f52c563945fcbf5fe8201",
+    "input_sha256": "83757e752002283d91ee9b12ef5a989cc00df70ca0df5af680be8d2d53eef5f5",
+    "input_size": [
+      874,
+      94
+    ],
+    "input_path": "/home/runner/work/Voynich/Voynich/work/kraken_visual_specificity/inputs/white/3v_p1_l2.png",
+    "status": "OK",
+    "prediction": "",
+    "network_forward_calls": 0,
+    "warnings": [
+      "`rpred.mm_rpred` is deprecated and will be removed with kraken 8. Use `RecognitionTaskModel` instead.",
+      "invalid value encountered in divide"
+    ]
+  },
+  {
+    "id": "3v.p1.l3",
+    "folio": "3v",
+    "role": "train",
+    "reference": "\udbbd\udc14\udbbd\udc22\udbbd\udc14\udbbd\udc0b \udbbd\udcc0\udbbd\udc14\udbbd\udc1a \udbbd\udcc2\udbbd\udc14\udbbd\udc1a \udbbd\udc0a\udbbd\udc06\udbbd\udc06\udbbd\udc06\udbbd\udc0a \udbbd\udcc0\udbbd\udc14\udbbd\udc0b \udbbd\udcc0\udbbd\udc06\udbbd\udc06\udbbd\udc17\udbbd\udc22\udbbd\udc10\udbbd\udc0b \udbbd\udc14\udbbd\udc22\udbbd\udd1f",
+    "source_sha256": "509a45778ef7c0f15af4263332ce3908e216e088d8e7f9c053e51d259b17744a",
+    "input_sha256": "6e8d2d4e65c29dcdb03cd28095ff8c21ba0efce14e17caaa8527b130f7c8c9ef",
+    "input_size": [
+      878,
+      88
+    ],
+    "input_path": "/home/runner/work/Voynich/Voynich/work/kraken_visual_specificity/inputs/white/3v_p1_l3.png",
+    "status": "OK",
+    "prediction": "",
+    "network_forward_calls": 0,
+    "warnings": [
+      "`rpred.mm_rpred` is deprecated and will be removed with kraken 8. Use `RecognitionTaskModel` instead.",
+      "invalid value encountered in divide"
+    ]
+  },
+  {
+    "id": "3v.p1.l4",
+    "folio": "3v",
+    "role": "train",
+    "reference": "\udbbd\udc1d\udbbd\udc14\udbbd\udc09\udbbd\udc10\udbbd\udc03 \udbbd\udcc0\udbbd\udc0a \udbbd\udcc0\udbbd\udc17 \udbbd\udc22\udbbd\udcc0\udbbd\udc06\udbbd\udc14\udbbd\udc1a \udbbd\udc14\udbbd\udc22\udbbd\udc10\udbbd\udc1a \udbbd\udc09\udbbd\udc14\udbbd\udc03 \udbbd\udcc0\udbbd\udc06\udbbd\udc10\udbbd\udc03\udbbd\udc06\udbbd\udc06\udbbd\udd1f",
+    "source_sha256": "e487cf77e76e0f872eeb2de2a6cd8253603411eb534347c1a0f0fab50b5d7e54",
+    "input_sha256": "3bde3fa35e91721be245eabba87513fec905af5d66be091bb28e90dbb0a83817",
+    "input_size": [
+      880,
+      88
+    ],
+    "input_path": "/home/runner/work/Voynich/Voynich/work/kraken_visual_specificity/inputs/white/3v_p1_l4.png",
+    "status": "OK",
+    "prediction": "",
+    "network_forward_calls": 0,
+    "warnings": [
+      "`rpred.mm_rpred` is deprecated and will be removed with kraken 8. Use `RecognitionTaskModel` instead.",
+      "invalid value encountered in divide"
+    ]
+  },
+  {
+    "id": "3v.p1.l5",
+    "folio": "3v",
+    "role": "train",
+    "reference": "\udbbd\udc17\udbbd\udcc0\udbbd\udc06\udbbd\udc10\udbbd\udc03 \udbbd\udc14\udbbd\udc23\udbbd\udcc0\udbbd\udc10\udbbd\udc1a \udbbd\udcc0\udbbd\udc14\udbbd\udc03 \udbbd\udcc0\udbbd\udc10\udbbd\udc03 \udbbd\udd1f\udbbd\udc22\udbbd\udc06\udbbd\udc17",
+    "source_sha256": "650858318561e663cdee5c023305841113497e5c08bffe61a8f99be5c857282c",
+    "input_sha256": "1565108dba6788cecb522c312ed21fc02a79bf27c3d9148a3079728d7e777618",
+    "input_size": [
+      648,
+      88
+    ],
+    "input_path": "/home/runner/work/Voynich/Voynich/work/kraken_visual_specificity/inputs/white/3v_p1_l5.png",
+    "status": "OK",
+    "prediction": "",
+    "network_forward_calls": 0,
+    "warnings": [
+      "`rpred.mm_rpred` is deprecated and will be removed with kraken 8. Use `RecognitionTaskModel` instead.",
+      "invalid value encountered in divide"
+    ]
+  },
+  {
+    "id": "3v.p1.l6",
+    "folio": "3v",
+    "role": "train",
+    "reference": "\udbbd\udc14\udbbd\udc03 \udbbd\udcc0\udbbd\udc06\udbbd\udc10\udbbd\udc03 \udbbd\udc22\udbbd\udc14\udbbd\udc03 \udbbd\udcc0\udbbd\udc14\udbbd\udc09\udbbd\udc10\udbbd\udc1a\udbbd\udc17 \udbbd\udcc0\udbbd\udc10\udbbd\udc0b",
+    "source_sha256": "bffb6df53a7c787e21426c910717db0737c932b8a1b5736f85dfd7c01132f1ca",
+    "input_sha256": "5dba94dcfc63466db0a216b4a79c5de33fcd9fd04be9fd77457dd0ef9ee5d6b3",
+    "input_size": [
+      632,
+      102
+    ],
+    "input_path": "/home/runner/work/Voynich/Voynich/work/kraken_visual_specificity/inputs/white/3v_p1_l6.png",
+    "status": "OK",
+    "prediction": "",
+    "network_forward_calls": 0,
+    "warnings": [
+      "`rpred.mm_rpred` is deprecated and will be removed with kraken 8. Use `RecognitionTaskModel` instead.",
+      "invalid value encountered in divide"
+    ]
+  },
+  {
+    "id": "3v.p2.l1",
+    "folio": "3v",
+    "role": "train",
+    "reference": "\udbbd\udc23\udbbd\udcc0\udbbd\udc14\udbbd\udc03 \udbbd\udc14\udbbd\udc23\udbbd\udcc0\udbbd\udc10\udbbd\udc0b \udbbd\udcc0\udbbd\udc14\udbbd\udc03 \udbbd\udc06\udbbd\udc20\udbbd\udc06\udbbd\udc10\udbbd\udc0b \udbbd\udc0a",
+    "source_sha256": "7647c2a26a66e569b84693e323fb461503f71a3b29e604ef345137d6dc2fd7fb",
+    "input_sha256": "a7eec9c1b834dfd280664ee531b036d0188c502b5ea92ea6174ba2b1648521a6",
+    "input_size": [
+      651,
+      121
+    ],
+    "input_path": "/home/runner/work/Voynich/Voynich/work/kraken_visual_specificity/inputs/white/3v_p2_l1.png",
+    "status": "OK",
+    "prediction": "",
+    "network_forward_calls": 0,
+    "warnings": [
+      "`rpred.mm_rpred` is deprecated and will be removed with kraken 8. Use `RecognitionTaskModel` instead.",
+      "invalid value encountered in divide"
+    ]
+  },
+  {
+    "id": "3v.p2.l2",
+    "folio": "3v",
+    "role": "train",
+    "reference": "\udbbd\udc17\udbbd\udc22\udbbd\udcc0\udbbd\udc17 \udbbd\udc22\udbbd\udcc0\udbbd\udc14\udbbd\udc0b \udbbd\udcc0\udbbd\udc14\udbbd\udc03 \udbbd\udcc0\udbbd\udc06\udbbd\udc22\udbbd\udc06\udbbd\udc14\udbbd\udc1a \udbbd\udc14\udbbd\udc22\udbbd\udc10",
+    "source_sha256": "e292644a86d97c0be9057ba2119993fc0b12f09996347685b1766a72339367b9",
+    "input_sha256": "fd9678f4990c1c1af38d00b6d940612134b81edd3e123760c47188d275389dd5",
+    "input_size": [
+      669,
+      78
+    ],
+    "input_path": "/home/runner/work/Voynich/Voynich/work/kraken_visual_specificity/inputs/white/3v_p2_l2.png",
+    "status": "OK",
+    "prediction": "",
+    "network_forward_calls": 0,
+    "warnings": [
+      "`rpred.mm_rpred` is deprecated and will be removed with kraken 8. Use `RecognitionTaskModel` instead.",
+      "invalid value encountered in divide"
+    ]
+  },
+  {
+    "id": "3v.p2.l3",
+    "folio": "3v",
+    "role": "train",
+    "reference": "\udbbd\udc17\udbbd\udc23\udbbd\udc06\udbbd\udc06\udbbd\udc06\udbbd\udc06\udbbd\udc10\udbbd\udc03 \udbbd\udc14\udbbd\udc22\udbbd\udc06\udbbd\udc14\udbbd\udc1a \udbbd\udc06\udbbd\udc23\udbbd\udc06\udbbd\udc14\udbbd\udc09\udbbd\udc14\udbbd\udc10\udbbd\udc1a\udbbd\udc17 \udbbd\udcc0\udbbd\udc14\udbbd\udc03 \udbbd\udc06\udbbd\udc23\udbbd\udc06\udbbd\udc17",
+    "source_sha256": "d37915eef113317ad95c59db7bbd820961e6f4623fb4404bdf8167bbaff331d7",
+    "input_sha256": "396b87ab19a736264e4ccf93937c4523628d7ebd1fc8b946efd1694611c5c53e",
+    "input_size": [
+      877,
+      90
+    ],
+    "input_path": "/home/runner/work/Voynich/Voynich/work/kraken_visual_specificity/inputs/white/3v_p2_l3.png",
+    "status": "OK",
+    "prediction": "",
+    "network_forward_calls": 0,
+    "warnings": [
+      "`rpred.mm_rpred` is deprecated and will be removed with kraken 8. Use `RecognitionTaskModel` instead.",
+      "invalid value encountered in divide"
+    ]
+  },
+  {
+    "id": "3v.p2.l4",
+    "folio": "3v",
+    "role": "train",
+    "reference": "\udbbd\udc14\udbbd\udcc0\udbbd\udc14\udbbd\udc0a \udbbd\udc09\udbbd\udc10\udbbd\udd05 \udbbd\udc1d\udbbd\udc14\udbbd\udc22\udbbd\udcc2\udbbd\udc14\udbbd\udc1a \udbbd\udc09\udbbd\udc10\udbbd\udd05\udbbd\udc0b \udbbd\udcc0\udbbd\udc14\udbbd\udc1a \udbbd\udc14\udbbd\udc22\udbbd\udc10\udbbd\udc03\udbbd\udc17",
+    "source_sha256": "e19556d09c8ccf90a29079eca974c26ded0303b79fc17348121e59282645f3b7",
+    "input_sha256": "46e0599679f3f934edde7ab2e0501b5f65b883b41bb865649b40480c55a8347f",
+    "input_size": [
+      860,
+      99
+    ],
+    "input_path": "/home/runner/work/Voynich/Voynich/work/kraken_visual_specificity/inputs/white/3v_p2_l4.png",
+    "status": "OK",
+    "prediction": "",
+    "network_forward_calls": 0,
+    "warnings": [
+      "`rpred.mm_rpred` is deprecated and will be removed with kraken 8. Use `RecognitionTaskModel` instead.",
+      "invalid value encountered in divide"
+    ]
+  },
+  {
+    "id": "3v.p2.l5",
+    "folio": "3v",
+    "role": "train",
+    "reference": "\udbbd\udcc2\udbbd\udc14 \udbbd\udcc2\udbbd\udc14\udbbd\udc06\udbbd\udc22\udbbd\udc06\udbbd\udc14 \udbbd\udc06\udbbd\udc22\udbbd\udc06\udbbd\udc17 \udbbd\udc23\udbbd\udcc0\udbbd\udc14\udbbd\udc03 \udbbd\udcc0\udbbd\udc14\udbbd\udc09\udbbd\udc10\udbbd\udd05 \udbbd\udcc0\udbbd\udc14\udbbd\udc0b",
+    "source_sha256": "5b81de042a1fbb2d2f3bd0fdac3138fa93be6b567831dd9dc7fb262435e761c7",
+    "input_sha256": "53e2262d6484944328eee46b60cab9e29535e53299406a0bdcac1cbeca247eff",
+    "input_size": [
+      870,
+      101
+    ],
+    "input_path": "/home/runner/work/Voynich/Voynich/work/kraken_visual_specificity/inputs/white/3v_p2_l5.png",
+    "status": "OK",
+    "prediction": "",
+    "network_forward_calls": 0,
+    "warnings": [
+      "`rpred.mm_rpred` is deprecated and will be removed with kraken 8. Use `RecognitionTaskModel` instead.",
+      "invalid value encountered in divide"
+    ]
+  },
+  {
+    "id": "3v.p2.l6",
+    "folio": "3v",
+    "role": "train",
+    "reference": "\udbbd\udc14\udbbd\udcc2 \udbbd\udcc0\udbbd\udc14\udbbd\udc09\udbbd\udc10\udbbd\udc00\udbbd\udc03 \udbbd\udc17\udbbd\udc23\udbbd\udcc0\udbbd\udc17 \udbbd\udc23\udbbd\udcc0\udbbd\udc14\udbbd\udc03 \udbbd\udc22\udbbd\udcc0\udbbd\udc10\udbbd\udc0b \udbbd\udc0a",
+    "source_sha256": "3d3e5ebcb5fcb77af86d624ba750517be7be74ff9cb5aed3170639380bd47fe8",
+    "input_sha256": "ef084af89e8b6ebee324df2e83fb1224e2af2b6087676fc23cd5d7c190f95dcb",
+    "input_size": [
+      827,
+      94
+    ],
+    "input_path": "/home/runner/work/Voynich/Voynich/work/kraken_visual_specificity/inputs/white/3v_p2_l6.png",
+    "status": "OK",
+    "prediction": "",
+    "network_forward_calls": 0,
+    "warnings": [
+      "`rpred.mm_rpred` is deprecated and will be removed with kraken 8. Use `RecognitionTaskModel` instead.",
+      "invalid value encountered in divide"
+    ]
+  },
+  {
+    "id": "3v.p2.l7",
+    "folio": "3v",
+    "role": "train",
+    "reference": "\udbbd\udcc2\udbbd\udc10\udbbd\udc03 \udbbd\udcc2\udbbd\udc22\udbbd\udc10\udbbd\udd05 \udbbd\udc1d\udbbd\udc14\udbbd\udc22\udbbd\udcc0\udbbd\udc17 \udbbd\udc17\udbbd\udc23\udbbd\udc17 \udbbd\udc06\udbbd\udc23\udbbd\udc06\udbbd\udc10\udbbd\udc1a \udbbd\udcc0\udbbd\udc22\udbbd\udc17",
+    "source_sha256": "aed981077a1866186ade0d858969e1410359a386609a61b0af9f9b899067148b",
+    "input_sha256": "3ed6a214c2bc2690e418e7e1541d52296b026e1dd47da54c2316aeee0a903bc7",
+    "input_size": [
+      862,
+      103
+    ],
+    "input_path": "/home/runner/work/Voynich/Voynich/work/kraken_visual_specificity/inputs/white/3v_p2_l7.png",
+    "status": "OK",
+    "prediction": "",
+    "network_forward_calls": 0,
+    "warnings": [
+      "`rpred.mm_rpred` is deprecated and will be removed with kraken 8. Use `RecognitionTaskModel` instead.",
+      "invalid value encountered in divide"
+    ]
+  },
+  {
+    "id": "3v.p2.l8",
+    "folio": "3v",
+    "role": "train",
+    "reference": "\udbbd\udc09\udbbd\udc10\udbbd\udd01 \udbbd\udcc2\udbbd\udc06\udbbd\udc10\udbbd\udc0b \udbbd\udc17 \udbbd\udc22\udbbd\udc06\udbbd\udc10\udbbd\udc0b",
+    "source_sha256": "632ffc42a197b39e7b2c8b73416dfc7663e8efbe817499ecfb4f6acd1cc6439d",
+    "input_sha256": "77799bc1fadff7d55580b90c3aa44574903527195a8bc91153c592cc3a43a6f2",
+    "input_size": [
+      468,
+      73
+    ],
+    "input_path": "/home/runner/work/Voynich/Voynich/work/kraken_visual_specificity/inputs/white/3v_p2_l8.png",
+    "status": "OK",
+    "prediction": "",
+    "network_forward_calls": 0,
+    "warnings": [
+      "`rpred.mm_rpred` is deprecated and will be removed with kraken 8. Use `RecognitionTaskModel` instead.",
+      "invalid value encountered in divide"
+    ]
+  },
+  {
+    "id": "4r.p1.l1",
+    "folio": "4r",
+    "role": "development_evaluation",
+    "reference": "\udbbd\udc22\udbbd\udc14\udbbd\udc09\udbbd\udc10\udbbd\udc1a\udbbd\udcc0\udbbd\udc17 \udbbd\udcc0\udbbd\udc21\udbbd\udc10\udbbd\udc09\udbbd\udc17 \udbbd\udcc2\udbbd\udc06\udbbd\udc14\udbbd\udc1a \udbbd\udc14\udbbd\udc1a \udbbd\udcc2\udbbd\udc06\udbbd\udc06\udbbd\udc17 \udbbd\udc1d\udbbd\udc14\udbbd\udc23\udbbd\udc06\udbbd\udc17 \udbbd\udc09\udbbd\udc14\udbbd\udd05 \udbbd\udcc0\udbbd\udc14\udbbd\udc03 \udbbd\udc17\udbbd\udc23\udbbd\udc14\udbbd\udc17",
+    "source_sha256": "6bb9c360bbdc69ca36724eb46a62a7c25c4628016d81f93f14a69f823ae28d21",
+    "input_sha256": "4f1ea22dfed577e57f1db9df1c47cf3a737b0da3d3e75083f137bf12b16530fa",
+    "input_size": [
+      1148,
+      108
+    ],
+    "input_path": "/home/runner/work/Voynich/Voynich/work/kraken_visual_specificity/inputs/white/4r_p1_l1.png",
+    "status": "OK",
+    "prediction": "",
+    "network_forward_calls": 0,
+    "warnings": [
+      "`rpred.mm_rpred` is deprecated and will be removed with kraken 8. Use `RecognitionTaskModel` instead.",
+      "invalid value encountered in divide"
+    ]
+  },
+  {
+    "id": "4r.p1.l2",
+    "folio": "4r",
+    "role": "development_evaluation",
+    "reference": "\udbbd\udc09\udbbd\udcc2\udbbd\udc14\udbbd\udc03 \udbbd\udcc2\udbbd\udc14\udbbd\udc1a \udbbd\udcc2\udbbd\udc14\udbbd\udc1a \udbbd\udc06\udbbd\udc23\udbbd\udc06\udbbd\udc14\udbbd\udc1a \udbbd\udcc2\udbbd\udc23\udbbd\udcc0\udbbd\udc17 \udbbd\udcc0\udbbd\udc10\udbbd\udd05 \udbbd\udd1f\udbbd\udc0a \udbbd\udcc0\udbbd\udc14\udbbd\udc03\udbbd\udc10\udbbd\udd05 \udbbd\udcc0\udbbd\udc14\udbbd\udc0b",
+    "source_sha256": "cfa806a6d9f29aecdb786c72df420a355327ca34cd5680a9ae83872381f447e1",
+    "input_sha256": "508255ba8a4608c263a94e8111c698fb489dca27054c4da8786ab32a669e86a7",
+    "input_size": [
+      1150,
+      87
+    ],
+    "input_path": "/home/runner/work/Voynich/Voynich/work/kraken_visual_specificity/inputs/white/4r_p1_l2.png",
+    "status": "OK",
+    "prediction": "",
+    "network_forward_calls": 0,
+    "warnings": [
+      "`rpred.mm_rpred` is deprecated and will be removed with kraken 8. Use `RecognitionTaskModel` instead.",
+      "invalid value encountered in divide"
+    ]
+  },
+  {
+    "id": "4r.p1.l3",
+    "folio": "4r",
+    "role": "development_evaluation",
+    "reference": "\udbbd\udc14\udbbd\udc23\udbbd\udcc0\udbbd\udc14\udbbd\udc1a \udbbd\udcc0\udbbd\udc14\udbbd\udc1a \udbbd\udcc0\udbbd\udc17 \udbbd\udcc0\udbbd\udc10\udbbd\udd05 \udbbd\udc1d\udbbd\udc14\udbbd\udc23\udbbd\udc10\udbbd\udd05 \udbbd\udc09\udbbd\udc10\udbbd\udd05 \udbbd\udcc2\udbbd\udc10\udbbd\udd01",
+    "source_sha256": "2e165b818e24d5f71a3d02f6a16cd0d877a4cf963758edb525b7c0cf0f48cdb2",
+    "input_sha256": "dc781a4a200d61cf5c2318d03ae8529df515f7d1178f1e5cbb6c5994ceaf46c9",
+    "input_size": [
+      1152,
+      111
+    ],
+    "input_path": "/home/runner/work/Voynich/Voynich/work/kraken_visual_specificity/inputs/white/4r_p1_l3.png",
+    "status": "OK",
+    "prediction": "",
+    "network_forward_calls": 0,
+    "warnings": [
+      "`rpred.mm_rpred` is deprecated and will be removed with kraken 8. Use `RecognitionTaskModel` instead.",
+      "invalid value encountered in divide"
+    ]
+  },
+  {
+    "id": "4r.p1.l4",
+    "folio": "4r",
+    "role": "development_evaluation",
+    "reference": "\udbbd\udc1d\udbbd\udc14\udbbd\udc23\udbbd\udcc0\udbbd\udc14\udbbd\udc1a \udbbd\udcc0\udbbd\udc17 \udbbd\udc17\udbbd\udc23\udbbd\udc17 \udbbd\udc09\udbbd\udc10\udbbd\udd05 \udbbd\udc14\udbbd\udc22\udbbd\udc10\udbbd\udd05 \udbbd\udc06\udbbd\udc23\udbbd\udc06\udbbd\udc17",
+    "source_sha256": "cca10254153d1d68a77d675411f3158c7d312c2bea68053f45657bb6b2d29c0f",
+    "input_sha256": "f1921a34e88b2ca5a84eb2f17511c671e0a9adafa610d60eaf9a09aba38bd456",
+    "input_size": [
+      711,
+      109
+    ],
+    "input_path": "/home/runner/work/Voynich/Voynich/work/kraken_visual_specificity/inputs/white/4r_p1_l4.png",
+    "status": "OK",
+    "prediction": "",
+    "network_forward_calls": 0,
+    "warnings": [
+      "`rpred.mm_rpred` is deprecated and will be removed with kraken 8. Use `RecognitionTaskModel` instead.",
+      "invalid value encountered in divide"
+    ]
+  },
+  {
+    "id": "4r.p2.l1",
+    "folio": "4r",
+    "role": "development_evaluation",
+    "reference": "\udbbd\udc21\udbbd\udc17\udbbd\udc09\udbbd\udc10\udbbd\udd05 \udbbd\udc1d\udbbd\udc14\udbbd\udc23\udbbd\udcc0\udbbd\udc17 \udbbd\udc09\udbbd\udc17\udbbd\udc23\udbbd\udc17\udbbd\udc09\udbbd\udc17",
+    "source_sha256": "0bd5f6a50e0580f53c0a474313e74aaf402a238f1509ba6718152932ef646ca7",
+    "input_sha256": "c5494904f6cca464e98ec0c6d6578cbff2570f0016d89df5a239bb17f34a656d",
+    "input_size": [
+      535,
+      129
+    ],
+    "input_path": "/home/runner/work/Voynich/Voynich/work/kraken_visual_specificity/inputs/white/4r_p2_l1.png",
+    "status": "OK",
+    "prediction": "",
+    "network_forward_calls": 0,
+    "warnings": [
+      "`rpred.mm_rpred` is deprecated and will be removed with kraken 8. Use `RecognitionTaskModel` instead.",
+      "invalid value encountered in divide"
+    ]
+  },
+  {
+    "id": "4r.p2.l2",
+    "folio": "4r",
+    "role": "development_evaluation",
+    "reference": "\udbbd\udcc0\udbbd\udc14\udbbd\udc03 \udbbd\udcc2\udbbd\udc17\udbbd\udc23\udbbd\udcc0\udbbd\udc17 \udbbd\udc09\udbbd\udc17\udbbd\udc23\udbbd\udcc0\udbbd\udc06\udbbd\udc06\udbbd\udc17",
+    "source_sha256": "702f23d4c568576935962348b1cfc62983475dcc069ca1ae016aedd109d6ebc9",
+    "input_sha256": "973848232418921eb8b13716717c5bc5f92f610d2dc64d96b0b426298eda0a2d",
+    "input_size": [
+      549,
+      101
+    ],
+    "input_path": "/home/runner/work/Voynich/Voynich/work/kraken_visual_specificity/inputs/white/4r_p2_l2.png",
+    "status": "OK",
+    "prediction": "",
+    "network_forward_calls": 0,
+    "warnings": [
+      "`rpred.mm_rpred` is deprecated and will be removed with kraken 8. Use `RecognitionTaskModel` instead.",
+      "invalid value encountered in divide"
+    ]
+  },
+  {
+    "id": "4r.p2.l3",
+    "folio": "4r",
+    "role": "development_evaluation",
+    "reference": "\udbbd\udc1d\udbbd\udc14\udbbd\udc23\udbbd\udc10\udbbd\udd05 \udbbd\udc06\udbbd\udc23\udbbd\udc06\udbbd\udc14\udbbd\udc1a \udbbd\udc09\udbbd\udc10\udbbd\udd05 \udbbd\udc06\udbbd\udc23\udbbd\udc06\udbbd\udc14\udbbd\udc0b",
+    "source_sha256": "f78c8c8514ccb858aa2a9a2ef90550ca31d04b4ca0d9d8d73434974a0a38ac05",
+    "input_sha256": "b93b22a8bc4b88075216ce4202e0abad262a795553304c6987f813194e1704d8",
+    "input_size": [
+      566,
+      104
+    ],
+    "input_path": "/home/runner/work/Voynich/Voynich/work/kraken_visual_specificity/inputs/white/4r_p2_l3.png",
+    "status": "OK",
+    "prediction": "",
+    "network_forward_calls": 0,
+    "warnings": [
+      "`rpred.mm_rpred` is deprecated and will be removed with kraken 8. Use `RecognitionTaskModel` instead.",
+      "invalid value encountered in divide"
+    ]
+  },
+  {
+    "id": "4r.p2.l4",
+    "folio": "4r",
+    "role": "development_evaluation",
+    "reference": "\udbbd\udcc2\udbbd\udc14\udbbd\udc03 \udbbd\udcc2\udbbd\udc14\udbbd\udc1a \udbbd\udcc2\udbbd\udc14\udbbd\udc1a \udbbd\udc06\udbbd\udc23\udbbd\udc06\udbbd\udc17 \udbbd\udc06\udbbd\udc21\udbbd\udc06\udbbd\udc14\udbbd\udc1a\udbbd\udc09\udbbd\udc17",
+    "source_sha256": "9d9a89e6e72cf4738433c0c569aabd4fed86e5219bd41df00489eff82e99578e",
+    "input_sha256": "ae5b49bcb395a8305305a5d7581fd9730e1c7858d68cf0e3f567e0cf71664924",
+    "input_size": [
+      609,
+      135
+    ],
+    "input_path": "/home/runner/work/Voynich/Voynich/work/kraken_visual_specificity/inputs/white/4r_p2_l4.png",
+    "status": "OK",
+    "prediction": "",
+    "network_forward_calls": 0,
+    "warnings": [
+      "`rpred.mm_rpred` is deprecated and will be removed with kraken 8. Use `RecognitionTaskModel` instead.",
+      "invalid value encountered in divide"
+    ]
+  },
+  {
+    "id": "4r.p2.l5",
+    "folio": "4r",
+    "role": "development_evaluation",
+    "reference": "\udbbd\udc09\udbbd\udc10\udbbd\udd05 \udbbd\udc06\udbbd\udc22\udbbd\udc06\udbbd\udc14\udbbd\udcc0\udbbd\udc17 \udbbd\udc23\udbbd\udcc0\udbbd\udc17 \udbbd\udc22\udbbd\udc14\udbbd\udc03\udbbd\udc10\udbbd\udd05",
+    "source_sha256": "b2b1be812dc6bf7b90fb057e071a3bd9233fe4c073b7b0442b173d2bcef11bd4",
+    "input_sha256": "7249e15f4d0a3891f4653f8fd40a71e2848d9cf5e10353c53fe3517659ab3b59",
+    "input_size": [
+      598,
+      126
+    ],
+    "input_path": "/home/runner/work/Voynich/Voynich/work/kraken_visual_specificity/inputs/white/4r_p2_l5.png",
+    "status": "OK",
+    "prediction": "",
+    "network_forward_calls": 0,
+    "warnings": [
+      "`rpred.mm_rpred` is deprecated and will be removed with kraken 8. Use `RecognitionTaskModel` instead.",
+      "invalid value encountered in divide"
+    ]
+  },
+  {
+    "id": "4r.p2.l6",
+    "folio": "4r",
+    "role": "development_evaluation",
+    "reference": "\udbbd\udc14\udbbd\udc09\udbbd\udc10\udbbd\udc1a \udbbd\udcc2\udbbd\udc14\udbbd\udc03 \udbbd\udcc2\udbbd\udc17\udbbd\udcc2\udbbd\udc14\udbbd\udc1a \udbbd\udc06\udbbd\udc21\udbbd\udc06\udbbd\udc10\udbbd\udd05",
+    "source_sha256": "89df57e3dfc963040ea0452a7941d0d3286b7f3b3ee3f1c2c7c224cce6fac94f",
+    "input_sha256": "8085c72b5f71f706e6e8822908d404e1404668844b70231bfd7adb81cec18464",
+    "input_size": [
+      572,
+      127
+    ],
+    "input_path": "/home/runner/work/Voynich/Voynich/work/kraken_visual_specificity/inputs/white/4r_p2_l6.png",
+    "status": "OK",
+    "prediction": "",
+    "network_forward_calls": 0,
+    "warnings": [
+      "`rpred.mm_rpred` is deprecated and will be removed with kraken 8. Use `RecognitionTaskModel` instead.",
+      "invalid value encountered in divide"
+    ]
+  },
+  {
+    "id": "4r.p2.l7",
+    "folio": "4r",
+    "role": "development_evaluation",
+    "reference": "\udbbd\udc1d\udbbd\udc14\udbbd\udc23\udbbd\udcc0\udbbd\udc14\udbbd\udd05 \udbbd\udcc2\udbbd\udc06\udbbd\udd1f\udbbd\udc03 \udbbd\udc1d\udbbd\udc14\udbbd\udc23\udbbd\udc17",
+    "source_sha256": "c11a91813c38655d96bc75f8deda372aea5e216e25c5986806f233a24ace0f75",
+    "input_sha256": "fa7459f435ab2df8b69c86b56f32b3a4c220b63926c95e0ef2ebf3c3aaf1c777",
+    "input_size": [
+      567,
+      122
+    ],
+    "input_path": "/home/runner/work/Voynich/Voynich/work/kraken_visual_specificity/inputs/white/4r_p2_l7.png",
+    "status": "OK",
+    "prediction": "",
+    "network_forward_calls": 0,
+    "warnings": [
+      "`rpred.mm_rpred` is deprecated and will be removed with kraken 8. Use `RecognitionTaskModel` instead.",
+      "invalid value encountered in divide"
+    ]
+  },
+  {
+    "id": "4r.p2.l8",
+    "folio": "4r",
+    "role": "development_evaluation",
+    "reference": "\udbbd\udc0a\udbbd\udc14\udbbd\udd05 \udbbd\udcc0\udbbd\udc10\udbbd\udd05 \udbbd\udcc0\udbbd\udc10\udbbd\udd05",
+    "source_sha256": "f22c12c5ccd3852e8035a41786f5bc21c5334e84cc6306a460e59e80b09d8dec",
+    "input_sha256": "47c0f7eb2a1265c540fb4ddc3810b599a062f39af761ed8835ceb6194f5298b3",
+    "input_size": [
+      482,
+      108
+    ],
+    "input_path": "/home/runner/work/Voynich/Voynich/work/kraken_visual_specificity/inputs/white/4r_p2_l8.png",
+    "status": "OK",
+    "prediction": "",
+    "network_forward_calls": 0,
+    "warnings": [
+      "`rpred.mm_rpred` is deprecated and will be removed with kraken 8. Use `RecognitionTaskModel` instead.",
+      "invalid value encountered in divide"
+    ]
+  },
+  {
+    "id": "4r.p2.l9",
+    "folio": "4r",
+    "role": "development_evaluation",
+    "reference": "\udbbd\udc09\udbbd\udc10\udbbd\udd05 \udbbd\udc06\udbbd\udc23\udbbd\udc06\udbbd\udc06\udbbd\udc17",
+    "source_sha256": "5101c930dab38eb6dee1bd7be7b47a26e7a145713d9e318967180425c3566a41",
+    "input_sha256": "90541068e4473d903e7060e0be461e6f78e3a1d4c4ae60df6a4011b95254007a",
+    "input_size": [
+      252,
+      109
+    ],
+    "input_path": "/home/runner/work/Voynich/Voynich/work/kraken_visual_specificity/inputs/white/4r_p2_l9.png",
+    "status": "OK",
+    "prediction": "",
+    "network_forward_calls": 0,
+    "warnings": [
+      "`rpred.mm_rpred` is deprecated and will be removed with kraken 8. Use `RecognitionTaskModel` instead.",
+      "invalid value encountered in divide"
+    ]
+  },
+  {
+    "id": "4v.p1.l1",
+    "folio": "4v",
+    "role": "development_evaluation",
+    "reference": "\udbbd\udc21\udbbd\udcc0\udbbd\udc14\udbbd\udc14\udbbd\udd05 \udbbd\udc22\udbbd\udcc2\udbbd\udc06\udbbd\udc14 \udbbd\udc22\udbbd\udcc0\udbbd\udc14\udbbd\udc17 \udbbd\udcc0\udbbd\udc14\udbbd\udc21\udbbd\udcc0\udbbd\udc17 \udbbd\udc09\udbbd\udc14\udbbd\udc1a\udbbd\udc09\udbbd\udc0a \udbbd\udc09\udbbd\udc1a\udbbd\udc14\udbbd\udc09",
+    "source_sha256": "56c66c5c0d08ea9a822c756b2baed5f1b851eea4663df7887d979bbcca6374b2",
+    "input_sha256": "faf4435829475978017fff898164e6665317942f2fbd2cf990aec4270a2cc255",
+    "input_size": [
+      1130,
+      126
+    ],
+    "input_path": "/home/runner/work/Voynich/Voynich/work/kraken_visual_specificity/inputs/white/4v_p1_l1.png",
+    "status": "OK",
+    "prediction": "",
+    "network_forward_calls": 0,
+    "warnings": [
+      "`rpred.mm_rpred` is deprecated and will be removed with kraken 8. Use `RecognitionTaskModel` instead.",
+      "invalid value encountered in divide"
+    ]
+  },
+  {
+    "id": "4v.p1.l2",
+    "folio": "4v",
+    "role": "development_evaluation",
+    "reference": "\udbbd\udc14\udbbd\udc1a \udbbd\udcc0\udbbd\udc06\udbbd\udc17 \udbbd\udcc0\udbbd\udc17 \udbbd\udc06\udbbd\udc23\udbbd\udc06\udbbd\udc17 \udbbd\udcc0\udbbd\udc22\udbbd\udcc0\udbbd\udc14\udbbd\udc03 \udbbd\udcc2\udbbd\udc00\udbbd\udc14 \udbbd\udcc0\udbbd\udc06\udbbd\udc14\udbbd\udc03\udbbd\udc17 \udbbd\udcc0\udbbd\udc14\udbbd\udc1a\udbbd\udc09\udbbd\udc17",
+    "source_sha256": "f63eddd57836576c6cdf0e4add1426a6f5f4555bdfa26cb186d4c72dc38f718d",
+    "input_sha256": "1f5f5e4ffe7bd976d754dd0b00b8e8b754ea9894623459d4d17a5f05e46c940c",
+    "input_size": [
+      1128,
+      77
+    ],
+    "input_path": "/home/runner/work/Voynich/Voynich/work/kraken_visual_specificity/inputs/white/4v_p1_l2.png",
+    "status": "OK",
+    "prediction": "",
+    "network_forward_calls": 0,
+    "warnings": [
+      "`rpred.mm_rpred` is deprecated and will be removed with kraken 8. Use `RecognitionTaskModel` instead.",
+      "invalid value encountered in divide"
+    ]
+  },
+  {
+    "id": "4v.p1.l3",
+    "folio": "4v",
+    "role": "development_evaluation",
+    "reference": "\udbbd\udcc2\udbbd\udc14 \udbbd\udcc2\udbbd\udc14 \udbbd\udcc0\udbbd\udc10\udbbd\udd05 \udbbd\udcc2\udbbd\udc10\udbbd\udd05 \udbbd\udc09\udbbd\udc10\udbbd\udd05 \udbbd\udc1d\udbbd\udc14\udbbd\udc09\udbbd\udc10\udbbd\udd05 \udbbd\udc14\udbbd\udc10\udbbd\udc03\udbbd\udc10\udbbd\udc0b",
+    "source_sha256": "97fcc912e5232877983418a15ed32e41d05257458a133b91354b144b4204cd43",
+    "input_sha256": "2016fe6b8a2cd94f83e0557215931f754548dfe855e44e0c2ef188eea710692d",
+    "input_size": [
+      1129,
+      57
+    ],
+    "input_path": "/home/runner/work/Voynich/Voynich/work/kraken_visual_specificity/inputs/white/4v_p1_l3.png",
+    "status": "OK",
+    "prediction": "",
+    "network_forward_calls": 0,
+    "warnings": [
+      "`rpred.mm_rpred` is deprecated and will be removed with kraken 8. Use `RecognitionTaskModel` instead.",
+      "invalid value encountered in divide"
+    ]
+  },
+  {
+    "id": "4v.p1.l4",
+    "folio": "4v",
+    "role": "development_evaluation",
+    "reference": "\udbbd\udc1d\udbbd\udc14\udbbd\udc22\udbbd\udcc0\udbbd\udc17 \udbbd\udc1d\udbbd\udc14\udbbd\udc06\udbbd\udc23\udbbd\udc06\udbbd\udc17 \udbbd\udcc0\udbbd\udc14\udbbd\udc23\udbbd\udc06\udbbd\udc14\udbbd\udc1a \udbbd\udc09\udbbd\udc10\udbbd\udd05 \udbbd\udc06\udbbd\udc23\udbbd\udc06\udbbd\udc06\udbbd\udc17 \udbbd\udcc0\udbbd\udc14\udbbd\udc10\udbbd\udd05",
+    "source_sha256": "4ce939b3064d5499a6ea3e3537463338a8d85a84c45ff579558ccc9a55f210cf",
+    "input_sha256": "bc3cda5656751663da091c8b59cfb313efb3775b8c1f4d8b1546eec0082b954d",
+    "input_size": [
+      1138,
+      118
+    ],
+    "input_path": "/home/runner/work/Voynich/Voynich/work/kraken_visual_specificity/inputs/white/4v_p1_l4.png",
+    "status": "OK",
+    "prediction": "",
+    "network_forward_calls": 0,
+    "warnings": [
+      "`rpred.mm_rpred` is deprecated and will be removed with kraken 8. Use `RecognitionTaskModel` instead.",
+      "invalid value encountered in divide"
+    ]
+  },
+  {
+    "id": "4v.p1.l5",
+    "folio": "4v",
+    "role": "development_evaluation",
+    "reference": "\udbbd\udcc2\udbbd\udc14\udbbd\udc03 \udbbd\udcc2\udbbd\udc06\udbbd\udc06\udbbd\udc17 \udbbd\udc06\udbbd\udc23\udbbd\udc14 \udbbd\udc14\udbbd\udc23\udbbd\udc10\udbbd\udd05 \udbbd\udcc2\udbbd\udc06\udbbd\udc17 \udbbd\udc1d\udbbd\udc14\udbbd\udc23\udbbd\udcc0\udbbd\udc14\udbbd\udd05 \udbbd\udcc0\udbbd\udc14\udbbd\udc09\udbbd\udc10\udbbd\udd01",
+    "source_sha256": "117e6ffcfd16eca01e5667902ce2b52e978a05a7a181ad76506b751895ef6778",
+    "input_sha256": "7d0ba495a18ce85331bc92f6cdfe8a6173d0dc4882dc3d83ba07da5276e13982",
+    "input_size": [
+      1131,
+      97
+    ],
+    "input_path": "/home/runner/work/Voynich/Voynich/work/kraken_visual_specificity/inputs/white/4v_p1_l5.png",
+    "status": "OK",
+    "prediction": "",
+    "network_forward_calls": 0,
+    "warnings": [
+      "`rpred.mm_rpred` is deprecated and will be removed with kraken 8. Use `RecognitionTaskModel` instead.",
+      "invalid value encountered in divide"
+    ]
+  },
+  {
+    "id": "4v.p1.l6",
+    "folio": "4v",
+    "role": "development_evaluation",
+    "reference": "\udbbd\udc17\udbbd\udc23\udbbd\udcc0\udbbd\udc14\udbbd\udc17 \udbbd\udcc2\udbbd\udc14\udbbd\udc22\udbbd\udcc0\udbbd\udc17 \udbbd\udc06\udbbd\udc21\udbbd\udc06\udbbd\udc14\udbbd\udc09\udbbd\udc17",
+    "source_sha256": "147160656f75ad6db3cba215b6df906449d6523d8419a31501c93fe2dddbb10e",
+    "input_sha256": "2e99929822d3d2e96bcabfce12dece6f951e4164f5e7a76f285768c27ded419e",
+    "input_size": [
+      565,
+      84
+    ],
+    "input_path": "/home/runner/work/Voynich/Voynich/work/kraken_visual_specificity/inputs/white/4v_p1_l6.png",
+    "status": "OK",
+    "prediction": "",
+    "network_forward_calls": 0,
+    "warnings": [
+      "`rpred.mm_rpred` is deprecated and will be removed with kraken 8. Use `RecognitionTaskModel` instead.",
+      "invalid value encountered in divide"
+    ]
+  },
+  {
+    "id": "4v.p2.l1",
+    "folio": "4v",
+    "role": "development_evaluation",
+    "reference": "\udbbd\udc23\udbbd\udc14\udbbd\udc03\udbbd\udcc0\udbbd\udc17 \udbbd\udcc2\udbbd\udc06\udbbd\udc06\udbbd\udc14\udbbd\udc03 \udbbd\udcc0\udbbd\udc14\udbbd\udc03 \udbbd\udcc2\udbbd\udc14\udbbd\udc23\udbbd\udcc0\udbbd\udc17 \udbbd\udc06\udbbd\udc21\udbbd\udc06\udbbd\udc17\udbbd\udc09\udbbd\udc17",
+    "source_sha256": "496f7f379b5dda79c22c8092dbc78b642ac7086f3c0d6bc59f3f2a2a62792904",
+    "input_sha256": "dbfa9b2c13724c938aa7c7b29fca4ad795454e8b26142a020d81c9b316c941a6",
+    "input_size": [
+      743,
+      99
+    ],
+    "input_path": "/home/runner/work/Voynich/Voynich/work/kraken_visual_specificity/inputs/white/4v_p2_l1.png",
+    "status": "OK",
+    "prediction": "",
+    "network_forward_calls": 0,
+    "warnings": [
+      "`rpred.mm_rpred` is deprecated and will be removed with kraken 8. Use `RecognitionTaskModel` instead.",
+      "invalid value encountered in divide"
+    ]
+  },
+  {
+    "id": "4v.p2.l2",
+    "folio": "4v",
+    "role": "development_evaluation",
+    "reference": "\udbbd\udc14\udbbd\udc1a\udbbd\udd1f\udbbd\udc06\udbbd\udd1f \udbbd\udcc0\udbbd\udc14\udbbd\udc03 \udbbd\udc06\udbbd\udc23\udbbd\udc06\udbbd\udc14\udbbd\udc1a \udbbd\udcc2\udbbd\udc14 \udbbd\udc14\udbbd\udc23\udbbd\udc14\udbbd\udc03 \udbbd\udc06\udbbd\udc23\udbbd\udc06\udbbd\udc14\udbbd\udc03\udbbd\udc17",
+    "source_sha256": "df991604fa49c3c5be05c05b0a4a56785669199ac71382aea6f6e67ca1d2cd5b",
+    "input_sha256": "2a17be7c0f96bae69f7cf07f8cb2a8dd09dedd327f3d6c350657028bdafe4f43",
+    "input_size": [
+      745,
+      95
+    ],
+    "input_path": "/home/runner/work/Voynich/Voynich/work/kraken_visual_specificity/inputs/white/4v_p2_l2.png",
+    "status": "OK",
+    "prediction": "",
+    "network_forward_calls": 0,
+    "warnings": [
+      "`rpred.mm_rpred` is deprecated and will be removed with kraken 8. Use `RecognitionTaskModel` instead.",
+      "invalid value encountered in divide"
+    ]
+  },
+  {
+    "id": "4v.p2.l3",
+    "folio": "4v",
+    "role": "development_evaluation",
+    "reference": "\udbbd\udc1d\udbbd\udc14\udbbd\udc14\udbbd\udc22\udbbd\udc14 \udbbd\udd1f \udbbd\udcc0\udbbd\udc00\udbbd\udc14\udbbd\udc0b \udbbd\udcc0\udbbd\udc06\udbbd\udc23\udbbd\udc06\udbbd\udc17 \udbbd\udcc2\udbbd\udc14\udbbd\udc22\udbbd\udc17 \udbbd\udc09\udbbd\udc10\udbbd\udd05",
+    "source_sha256": "b7a3bbdb92f5df664de829d8226f370a54b6566e95e7a2929789b6c858e4d119",
+    "input_sha256": "4321effeab4d959321c7abfdf58f9d6be5311b75d8eef90d0c94c7796274df68",
+    "input_size": [
+      747,
+      88
+    ],
+    "input_path": "/home/runner/work/Voynich/Voynich/work/kraken_visual_specificity/inputs/white/4v_p2_l3.png",
+    "status": "OK",
+    "prediction": "",
+    "network_forward_calls": 0,
+    "warnings": [
+      "`rpred.mm_rpred` is deprecated and will be removed with kraken 8. Use `RecognitionTaskModel` instead.",
+      "invalid value encountered in divide"
+    ]
+  },
+  {
+    "id": "4v.p2.l4",
+    "folio": "4v",
+    "role": "development_evaluation",
+    "reference": "\udbbd\udc14\udbbd\udc23\udbbd\udc10\udbbd\udd05 \udbbd\udcc2\udbbd\udc06\udbbd\udc14 \udbbd\udc14\udbbd\udc22\udbbd\udc06\udbbd\udc10\udbbd\udc09\udbbd\udc17 \udbbd\udcc0\udbbd\udc14\udbbd\udc1a \udbbd\udcc0\udbbd\udc14\udbbd\udc22\udbbd\udc06\udbbd\udc14\udbbd\udc09\udbbd\udc17",
+    "source_sha256": "9340f4bc91fa36dfd8fd151db69466f1476bd00948d55d269430e0ab67a12e21",
+    "input_sha256": "868e34896f5760dc92b3a2ca811d32cc9e6f11f1b297e363cf85cd30b8c9d0c0",
+    "input_size": [
+      760,
+      79
+    ],
+    "input_path": "/home/runner/work/Voynich/Voynich/work/kraken_visual_specificity/inputs/white/4v_p2_l4.png",
+    "status": "OK",
+    "prediction": "",
+    "network_forward_calls": 0,
+    "warnings": [
+      "`rpred.mm_rpred` is deprecated and will be removed with kraken 8. Use `RecognitionTaskModel` instead.",
+      "invalid value encountered in divide"
+    ]
+  },
+  {
+    "id": "4v.p2.l5",
+    "folio": "4v",
+    "role": "development_evaluation",
+    "reference": "\udbbd\udcc2\udbbd\udc14 \udbbd\udc22\udbbd\udcc0\udbbd\udc06\udbbd\udc14\udbbd\udc03 \udbbd\udcc2\udbbd\udc14\udbbd\udc09 \udbbd\udc17 \udbbd\udcc2\udbbd\udc23\udbbd\udc10\udbbd\udd05 \udbbd\udc1d\udbbd\udc14\udbbd\udc23\udbbd\udc14\udbbd\udc1a\udbbd\udc09\udbbd\udc10\udbbd\udd05",
+    "source_sha256": "e199138823d768efcda1dc7eaa27868f0d596c5a768aa11a91cfc3515eea41e0",
+    "input_sha256": "bdc02153d639c85d40c4892aad69f10e2435c4403de35c1221b7184c8960022d",
+    "input_size": [
+      821,
+      90
+    ],
+    "input_path": "/home/runner/work/Voynich/Voynich/work/kraken_visual_specificity/inputs/white/4v_p2_l5.png",
+    "status": "OK",
+    "prediction": "",
+    "network_forward_calls": 0,
+    "warnings": [
+      "`rpred.mm_rpred` is deprecated and will be removed with kraken 8. Use `RecognitionTaskModel` instead.",
+      "invalid value encountered in divide"
+    ]
+  },
+  {
+    "id": "4v.p2.l6",
+    "folio": "4v",
+    "role": "development_evaluation",
+    "reference": "\udbbd\udc1d\udbbd\udc14\udbbd\udc22\udbbd\udd1f\udbbd\udc17 \udbbd\udcc2\udbbd\udc14 \udbbd\udc14\udbbd\udc22\udbbd\udc06\udbbd\udc14\udbbd\udc1a \udbbd\udc0a\udbbd\udc22\udbbd\udc06\udbbd\udc06\udbbd\udc17 \udbbd\udcc2\udbbd\udc10\udbbd\udc03 \udbbd\udcc0\udbbd\udc10\udbbd\udc03 \udbbd\udc14\udbbd\udc09\udbbd\udc17",
+    "source_sha256": "cdeeae049289ce227aca39b63709f55b34b1a8e6bb7b9ec052eae4343ed78a7d",
+    "input_sha256": "0737db4562e9bea8504f5f2ae8c6fbfa42056499e6b43f94c4bdd7f37a23d3e2",
+    "input_size": [
+      862,
+      122
+    ],
+    "input_path": "/home/runner/work/Voynich/Voynich/work/kraken_visual_specificity/inputs/white/4v_p2_l6.png",
+    "status": "OK",
+    "prediction": "",
+    "network_forward_calls": 0,
+    "warnings": [
+      "`rpred.mm_rpred` is deprecated and will be removed with kraken 8. Use `RecognitionTaskModel` instead.",
+      "invalid value encountered in divide"
+    ]
+  },
+  {
+    "id": "4v.p2.l7",
+    "folio": "4v",
+    "role": "development_evaluation",
+    "reference": "\udbbd\udcc2\udbbd\udc14\udbbd\udc09\udbbd\udc17 \udbbd\udc0a \udbbd\udcc0\udbbd\udc06\udbbd\udc14\udbbd\udc03 \udbbd\udcc0\udbbd\udc14\udbbd\udc22\udbbd\udc14\udbbd\udc09\udbbd\udc17 \udbbd\udcc2\udbbd\udc14\udbbd\udc09\udbbd\udc10\udbbd\udd05 \udbbd\udc1d\udbbd\udc14\udbbd\udc23\udbbd\udc17",
+    "source_sha256": "b5464a865e8233888994c868b48adb685d07fbed6ae5499191da5741c7450d82",
+    "input_sha256": "a2ba20242623f1cbc6799dcc315f05b32cec3a5f808cd43dcde4c98b2c8e7279",
+    "input_size": [
+      862,
+      82
+    ],
+    "input_path": "/home/runner/work/Voynich/Voynich/work/kraken_visual_specificity/inputs/white/4v_p2_l7.png",
+    "status": "OK",
+    "prediction": "",
+    "network_forward_calls": 0,
+    "warnings": [
+      "`rpred.mm_rpred` is deprecated and will be removed with kraken 8. Use `RecognitionTaskModel` instead.",
+      "invalid value encountered in divide"
+    ]
+  },
+  {
+    "id": "4v.p2.l8",
+    "folio": "4v",
+    "role": "development_evaluation",
+    "reference": "\udbbd\udc14\udbbd\udcc2\udbbd\udc14\udbbd\udc09\udbbd\udc17 \udbbd\udcc0\udbbd\udc17\udbbd\udc22\udbbd\udc06\udbbd\udc17 \udbbd\udcc0\udbbd\udc23\udbbd\udc14\udbbd\udc09\udbbd\udc17",
+    "source_sha256": "38dd6b730f8573c4ec440ff7e1b1dcb39ea32d380797745bfed1359b15f6dbfe",
+    "input_sha256": "bfd0469bc9cd28a4ed4cb1e316b408c6f1b9fc9cd5057a4296cf8b4630b6fbc8",
+    "input_size": [
+      498,
+      72
+    ],
+    "input_path": "/home/runner/work/Voynich/Voynich/work/kraken_visual_specificity/inputs/white/4v_p2_l8.png",
+    "status": "OK",
+    "prediction": "",
+    "network_forward_calls": 0,
+    "warnings": [
+      "`rpred.mm_rpred` is deprecated and will be removed with kraken 8. Use `RecognitionTaskModel` instead.",
+      "invalid value encountered in divide"
+    ]
+  }
+]

@@ -1,0 +1,39 @@
+{
+  "date": "2026-10-27",
+  "repository": "MedinaParra/Voynich",
+  "branch": "experiment/kraken-voynich",
+  "execution_commit": "469761426e9fb3879f47f7cc129d151860936b23",
+  "run_id": 40512656009,
+  "run_url": "https://github.com/MedinaParra/Voynich/actions/runs/40512656009",
+  "job_id": 122218207933,
+  "model_sha256": "b5df9eef0a783bec696b33636fbfb8d4807bfaa256d74ad6b34df4c58db66acb",
+  "plan_sha256": "4bd10c8ad5bc2ee639258e5ca213bfe58b6abb1377cd4fc91f4c92ae81e19ea5",
+  "artifact": {
+    "id": 12736949003,
+    "bytes": 38534230,
+    "sha256": "787b5a8a36a4ab663b661350bd7e76d9cf2869fdbdd1c776be8d39c1d16f80b3",
+    "files": 567,
+    "zip_hash_verified": true,
+    "expires_at": "2026-11-26T13:32:14Z"
+  },
+  "prior_attempt": {
+    "run_id": 40511667932,
+    "commit": "9b7c6f85978d571d27129b75f4b7fb2ff36d7aeb",
+    "reviewed_status": "COUNTER_INVALID",
+    "raw_results_retained": true
+  },
+  "fixed_model": true,
+  "new_training_runs": 0,
+  "rows": 61,
+  "conditions": 4,
+  "attempted_inferences_per_execution": 244,
+  "independent_samples": false,
+  "expert_review": "NOT_REVIEWED",
+  "translation": "NOT_RUN",
+  "replay_mismatches": [],
+  "audit_checks": 3425,
+  "audit_mismatches": 0,
+  "permutation_interpretation": "9999 reference reassigments per role/condition; common seeded draws across conditions. Not 9999 new models or engineering iterations. Conditional exchangeability unproven.",
+  "preservation": "Raw result, predictions, permutation counts, source/input hashes, manifests, prior failed counter attempt and comparison are in the repository. Full PNG export trees are in the 30-day artifacts; inputs can be regenerated from the source images and code already preserved in the repository.",
+  "sources": "Yale Beinecke MS 408 images and unchanged Alexander Boxer conventional labels/mapping, credited and licensed as in experiment 59."
+}

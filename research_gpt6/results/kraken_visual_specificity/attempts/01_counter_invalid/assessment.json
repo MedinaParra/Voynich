@@ -1,0 +1,16 @@
+{
+  "reviewed_status": "COUNTER_INVALID_RETAINED_NOT_SILENTLY_REPLACED",
+  "raw_workflow_conclusion": "success",
+  "run_id": 40511667932,
+  "execution_commit": "9b7c6f85978d571d27129b75f4b7fb2ff36d7aeb",
+  "artifact_id": 12738245754,
+  "artifact_bytes": 38534121,
+  "artifact_sha256": "04cb670d13b4d3c39bb0f5fce8e9fd31b8ce598380bd1d9c13297552e3c0a9b3",
+  "zip_hash_verified": true,
+  "artifact_files": 567,
+  "retention_expires": "2026-11-26T13:24:57Z",
+  "attempted_inference_records": 244,
+  "development_intact_predictions_exactly_replayed": 27,
+  "counter_assessment": "Hook on TorchVGSLModel container is bypassed: Kraken 7.1 TorchSeqRecognizer.forward calls self.nn.nn. All reported network_forward_calls and preprocessing_short_circuit_rows from this attempt are invalid, including white. Repeated experiment fixes hook target and adds mandatory intact-image positive control.",
+  "model_or_input_controls_changed_on_rerun": false
+}

@@ -1,0 +1,43 @@
+{
+  "same_input_hashes": 244,
+  "prediction_differences": [
+    {
+      "condition": "intact",
+      "id": "3v.p2.l3",
+      "role": "train",
+      "before": "\udbbd\udc17\udbbd\udcc0\udbbd\udc06\udbbd\udc14\udbbd\udc03\udbbd\udc06\udbbd\udc10\udbbd\udc03 \udbbd\udc14\udbbd\udc06\udbbd\udc06\udbbd\udc1a \udbbd\udc06\udbbd\udc14\udbbd\udc09\udbbd\udc14\udbbd\udc10\udbbd\udc1a\udbbd\udc17 \udbbd\udcc0\udbbd\udc14\udbbd\udc03 \udbbd\udc06\udbbd\udc23\udbbd\udc06\udbbd\udc17",
+      "after": "\udbbd\udc17\udbbd\udcc0\udbbd\udc06\udbbd\udc14\udbbd\udc03\udbbd\udc06\udbbd\udc10\udbbd\udc03 \udbbd\udc14\udbbd\udc06\udbbd\udc06\udbbd\udc1a \udbbd\udc06\udbbd\udc14\udbbd\udc09\udbbd\udc14\udbbd\udc14\udbbd\udc10\udbbd\udc1a\udbbd\udc17 \udbbd\udcc0\udbbd\udc14\udbbd\udc03 \udbbd\udc06\udbbd\udc23\udbbd\udc06\udbbd\udc17"
+    }
+  ],
+  "condition_metric_differences": [
+    {
+      "role": "train",
+      "condition": "intact",
+      "before": {
+        "errors": 243,
+        "reference_units": 980,
+        "gcr": 0.2479591836734694,
+        "predicted_units": 806,
+        "alignment": {
+          "matches": 744,
+          "substitutions": 55,
+          "deletions": 181,
+          "insertions": 7
+        }
+      },
+      "after": {
+        "errors": 244,
+        "reference_units": 980,
+        "gcr": 0.24897959183673468,
+        "predicted_units": 807,
+        "alignment": {
+          "matches": 743,
+          "substitutions": 57,
+          "deletions": 180,
+          "insertions": 7
+        }
+      }
+    }
+  ],
+  "interpretation": "Same frozen model and 244 byte-identical inputs across two executions; instrumentation repaired. Any prediction difference is retained; no unique numerical cause inferred. These are not independent statistical replications."
+}

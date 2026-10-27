@@ -1,0 +1,57 @@
+{
+  "status": "PASS_EXPORTED_DATA_AUDIT",
+  "checks": 3425,
+  "mismatches": [],
+  "recomputed": {
+    "train/intact": {
+      "errors": 244,
+      "reference_units": 980,
+      "gcr": 0.24897959183673468,
+      "diagnostic_lower_tail_fraction": 0.0001
+    },
+    "train/mirror_x": {
+      "errors": 669,
+      "reference_units": 980,
+      "gcr": 0.6826530612244898,
+      "diagnostic_lower_tail_fraction": 0.3922
+    },
+    "train/tile_shuffle_8": {
+      "errors": 616,
+      "reference_units": 980,
+      "gcr": 0.6285714285714286,
+      "diagnostic_lower_tail_fraction": 0.0001
+    },
+    "train/white": {
+      "errors": 980,
+      "reference_units": 980,
+      "gcr": 1.0,
+      "diagnostic_lower_tail_fraction": 1.0
+    },
+    "development_evaluation/intact": {
+      "errors": 516,
+      "reference_units": 699,
+      "gcr": 0.7381974248927039,
+      "diagnostic_lower_tail_fraction": 0.0197
+    },
+    "development_evaluation/mirror_x": {
+      "errors": 546,
+      "reference_units": 699,
+      "gcr": 0.7811158798283262,
+      "diagnostic_lower_tail_fraction": 0.1646
+    },
+    "development_evaluation/tile_shuffle_8": {
+      "errors": 546,
+      "reference_units": 699,
+      "gcr": 0.7811158798283262,
+      "diagnostic_lower_tail_fraction": 0.2702
+    },
+    "development_evaluation/white": {
+      "errors": 699,
+      "reference_units": 699,
+      "gcr": 1.0,
+      "diagnostic_lower_tail_fraction": 1.0
+    }
+  },
+  "scope": "Actual exported inputs, preserved predictions and arithmetic audited. No new inference, expert label validation or proof of exchangeability.",
+  "translation": "NOT_RUN"
+}
