@@ -1,0 +1,4972 @@
+{
+  "status": "FAIL_SOME_REGISTRATION_CHECKS",
+  "date": "2026-10-27",
+  "execution": "GITHUB_ACTIONS_CPU_NO_KRAKEN_TRAINING",
+  "run_id": "40518080288",
+  "execution_commit": "4841278496f2bb0be82b5293bfe7c0a66d11d8ac",
+  "plan_sha256": "097c0781b30bdbfb2a9f83d34bace758c6de502a52f556988ec2df8a58f36afb",
+  "input_metadata_sha256": "58b44eac6c86f76e6a90066b9949663ed824db1fc83d6a26b49ce72b9d798797",
+  "accepted_correct_image_pairs": 3,
+  "accepted_wrong_image_pairs": 0,
+  "wrong_image_pairs_attempted": 12,
+  "accepted_calibrations": 4,
+  "calibrations": {
+    "f3r": {
+      "accepted": true,
+      "matrix": [
+        [
+          0.7109463262050429,
+          -4.790263916132253e-05,
+          -46.24314443287799
+        ],
+        [
+          0.00036941869043497476,
+          0.7110047259473344,
+          -47.97235445351146
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "fit_rows": 88,
+      "fit_inliers": 88,
+      "heldout": {
+        "count": 26,
+        "median": 0.8203854830035385,
+        "p90": 1.4657069353436585,
+        "maximum": 1.6385656641102158,
+        "within_5_fraction": 1.0,
+        "within_6_fraction": 1.0
+      },
+      "points": [
+        {
+          "index": 0,
+          "xml_center": [
+            160.5,
+            231.0
+          ],
+          "preview_center": [
+            67.5,
+            115.5
+          ],
+          "role": "fit",
+          "error_preview_pixels": 0.9009267066704563
+        },
+        {
+          "index": 1,
+          "xml_center": [
+            245.0,
+            230.5
+          ],
+          "preview_center": [
+            127.5,
+            115.5
+          ],
+          "role": "fit",
+          "error_preview_pixels": 0.6615598110477358
+        },
+        {
+          "index": 3,
+          "xml_center": [
+            387.5,
+            217.0
+          ],
+          "preview_center": [
+            229.5,
+            106.5
+          ],
+          "role": "fit",
+          "error_preview_pixels": 0.2650562418846152
+        },
+        {
+          "index": 4,
+          "xml_center": [
+            463.5,
+            226.0
+          ],
+          "preview_center": [
+            283.5,
+            114.0
+          ],
+          "role": "heldout",
+          "error_preview_pixels": 1.137625524279967
+        },
+        {
+          "index": 5,
+          "xml_center": [
+            158.5,
+            273.0
+          ],
+          "preview_center": [
+            66.0,
+            145.5
+          ],
+          "role": "fit",
+          "error_preview_pixels": 0.8127846814230208
+        },
+        {
+          "index": 6,
+          "xml_center": [
+            229.5,
+            260.0
+          ],
+          "preview_center": [
+            117.0,
+            136.5
+          ],
+          "role": "fit",
+          "error_preview_pixels": 0.48278015527001394
+        },
+        {
+          "index": 7,
+          "xml_center": [
+            288.5,
+            263.5
+          ],
+          "preview_center": [
+            159.0,
+            139.5
+          ],
+          "role": "fit",
+          "error_preview_pixels": 0.14861889660834723
+        },
+        {
+          "index": 8,
+          "xml_center": [
+            379.5,
+            259.0
+          ],
+          "preview_center": [
+            223.5,
+            136.5
+          ],
+          "role": "fit",
+          "error_preview_pixels": 0.18831011161293248
+        },
+        {
+          "index": 9,
+          "xml_center": [
+            471.0,
+            259.5
+          ],
+          "preview_center": [
+            289.5,
+            138.0
+          ],
+          "role": "fit",
+          "error_preview_pixels": 1.5750038443480003
+        },
+        {
+          "index": 10,
+          "xml_center": [
+            161.5,
+            295.5
+          ],
+          "preview_center": [
+            67.5,
+            163.5
+          ],
+          "role": "fit",
+          "error_preview_pixels": 1.6860950332189302
+        },
+        {
+          "index": 11,
+          "xml_center": [
+            251.5,
+            298.0
+          ],
+          "preview_center": [
+            133.5,
+            165.0
+          ],
+          "role": "fit",
+          "error_preview_pixels": 1.3823852879238205
+        },
+        {
+          "index": 12,
+          "xml_center": [
+            340.5,
+            297.5
+          ],
+          "preview_center": [
+            196.5,
+            163.5
+          ],
+          "role": "fit",
+          "error_preview_pixels": 0.702909737298851
+        },
+        {
+          "index": 13,
+          "xml_center": [
+            414.0,
+            283.0
+          ],
+          "preview_center": [
+            247.5,
+            154.5
+          ],
+          "role": "heldout",
+          "error_preview_pixels": 1.2457574254372323
+        },
+        {
+          "index": 14,
+          "xml_center": [
+            479.5,
+            282.0
+          ],
+          "preview_center": [
+            294.0,
+            153.0
+          ],
+          "role": "heldout",
+          "error_preview_pixels": 0.7053388865985661
+        },
+        {
+          "index": 15,
+          "xml_center": [
+            154.5,
+            331.0
+          ],
+          "preview_center": [
+            63.0,
+            187.5
+          ],
+          "role": "fit",
+          "error_preview_pixels": 0.5867305025428009
+        },
+        {
+          "index": 16,
+          "xml_center": [
+            234.0,
+            322.5
+          ],
+          "preview_center": [
+            120.0,
+            181.5
+          ],
+          "role": "heldout",
+          "error_preview_pixels": 0.13463582951961522
+        },
+        {
+          "index": 17,
+          "xml_center": [
+            294.0,
+            325.5
+          ],
+          "preview_center": [
+            163.5,
+            183.0
+          ],
+          "role": "fit",
+          "error_preview_pixels": 0.9334463291776862
+        },
+        {
+          "index": 18,
+          "xml_center": [
+            358.5,
+            322.0
+          ],
+          "preview_center": [
+            208.5,
+            181.5
+          ],
+          "role": "fit",
+          "error_preview_pixels": 0.4129331413416253
+        },
+        {
+          "index": 19,
+          "xml_center": [
+            421.5,
+            314.5
+          ],
+          "preview_center": [
+            253.5,
+            175.5
+          ],
+          "role": "fit",
+          "error_preview_pixels": 0.30908880695129737
+        },
+        {
+          "index": 20,
+          "xml_center": [
+            485.0,
+            313.5
+          ],
+          "preview_center": [
+            298.5,
+            174.0
+          ],
+          "role": "fit",
+          "error_preview_pixels": 1.1079606877364523
+        },
+        {
+          "index": 21,
+          "xml_center": [
+            160.5,
+            359.5
+          ],
+          "preview_center": [
+            67.5,
+            207.0
+          ],
+          "role": "fit",
+          "error_preview_pixels": 0.7749283085797329
+        },
+        {
+          "index": 22,
+          "xml_center": [
+            261.5,
+            355.5
+          ],
+          "preview_center": [
+            139.5,
+            205.5
+          ],
+          "role": "fit",
+          "error_preview_pixels": 0.632188455649044
+        },
+        {
+          "index": 23,
+          "xml_center": [
+            327.0,
+            343.5
+          ],
+          "preview_center": [
+            186.0,
+            198.0
+          ],
+          "role": "fit",
+          "error_preview_pixels": 1.6362679943426777
+        },
+        {
+          "index": 24,
+          "xml_center": [
+            374.5,
+            347.0
+          ],
+          "preview_center": [
+            220.5,
+            198.0
+          ],
+          "role": "fit",
+          "error_preview_pixels": 1.0212982285341679
+        },
+        {
+          "index": 25,
+          "xml_center": [
+            449.5,
+            340.5
+          ],
+          "preview_center": [
+            273.0,
+            193.5
+          ],
+          "role": "fit",
+          "error_preview_pixels": 0.8497341916529224
+        },
+        {
+          "index": 26,
+          "xml_center": [
+            179.5,
+            388.5
+          ],
+          "preview_center": [
+            81.0,
+            228.0
+          ],
+          "role": "heldout",
+          "error_preview_pixels": 0.4760618334863735
+        },
+        {
+          "index": 27,
+          "xml_center": [
+            272.0,
+            379.5
+          ],
+          "preview_center": [
+            147.0,
+            223.5
+          ],
+          "role": "heldout",
+          "error_preview_pixels": 1.5499318037858876
+        },
+        {
+          "index": 28,
+          "xml_center": [
+            345.5,
+            376.0
+          ],
+          "preview_center": [
+            199.5,
+            219.0
+          ],
+          "role": "fit",
+          "error_preview_pixels": 0.5097033858610469
+        },
+        {
+          "index": 29,
+          "xml_center": [
+            422.5,
+            372.0
+          ],
+          "preview_center": [
+            253.5,
+            217.5
+          ],
+          "role": "fit",
+          "error_preview_pixels": 1.0263316286107762
+        },
+        {
+          "index": 30,
+          "xml_center": [
+            472.0,
+            372.5
+          ],
+          "preview_center": [
+            289.5,
+            217.5
+          ],
+          "role": "heldout",
+          "error_preview_pixels": 0.4889972472968067
+        },
+        {
+          "index": 31,
+          "xml_center": [
+            167.5,
+            416.0
+          ],
+          "preview_center": [
+            73.5,
+            247.5
+          ],
+          "role": "fit",
+          "error_preview_pixels": 0.7725627475457675
+        },
+        {
+          "index": 32,
+          "xml_center": [
+            252.5,
+            420.5
+          ],
+          "preview_center": [
+            133.5,
+            252.0
+          ],
+          "role": "heldout",
+          "error_preview_pixels": 0.9354320794085109
+        },
+        {
+          "index": 33,
+          "xml_center": [
+            335.5,
+            416.0
+          ],
+          "preview_center": [
+            193.5,
+            249.0
+          ],
+          "role": "heldout",
+          "error_preview_pixels": 1.6385656641102158
+        },
+        {
+          "index": 34,
+          "xml_center": [
+            398.0,
+            412.5
+          ],
+          "preview_center": [
+            235.5,
+            244.5
+          ],
+          "role": "fit",
+          "error_preview_pixels": 1.5344491513566236
+        },
+        {
+          "index": 35,
+          "xml_center": [
+            461.5,
+            408.0
+          ],
+          "preview_center": [
+            282.0,
+            241.5
+          ],
+          "role": "fit",
+          "error_preview_pixels": 0.8043302428700044
+        },
+        {
+          "index": 36,
+          "xml_center": [
+            166.5,
+            454.0
+          ],
+          "preview_center": [
+            72.0,
+            276.0
+          ],
+          "role": "fit",
+          "error_preview_pixels": 1.1198886670493418
+        },
+        {
+          "index": 37,
+          "xml_center": [
+            248.0,
+            442.0
+          ],
+          "preview_center": [
+            129.0,
+            265.5
+          ],
+          "role": "fit",
+          "error_preview_pixels": 1.3724386878233195
+        },
+        {
+          "index": 38,
+          "xml_center": [
+            315.0,
+            443.5
+          ],
+          "preview_center": [
+            177.0,
+            268.5
+          ],
+          "role": "heldout",
+          "error_preview_pixels": 1.2324278592074418
+        },
+        {
+          "index": 39,
+          "xml_center": [
+            389.5,
+            437.0
+          ],
+          "preview_center": [
+            229.5,
+            262.5
+          ],
+          "role": "fit",
+          "error_preview_pixels": 1.2108853387416807
+        },
+        {
+          "index": 40,
+          "xml_center": [
+            451.0,
+            440.5
+          ],
+          "preview_center": [
+            274.5,
+            265.5
+          ],
+          "role": "heldout",
+          "error_preview_pixels": 0.16716385579500542
+        },
+        {
+          "index": 41,
+          "xml_center": [
+            154.0,
+            480.5
+          ],
+          "preview_center": [
+            64.5,
+            294.0
+          ],
+          "role": "fit",
+          "error_preview_pixels": 1.3101938237802606
+        },
+        {
+          "index": 42,
+          "xml_center": [
+            210.5,
+            472.5
+          ],
+          "preview_center": [
+            103.5,
+            288.0
+          ],
+          "role": "fit",
+          "error_preview_pixels": 0.12445852779388643
+        },
+        {
+          "index": 43,
+          "xml_center": [
+            294.5,
+            471.0
+          ],
+          "preview_center": [
+            163.5,
+            288.0
+          ],
+          "role": "heldout",
+          "error_preview_pixels": 1.0558081121905223
+        },
+        {
+          "index": 44,
+          "xml_center": [
+            402.5,
+            464.0
+          ],
+          "preview_center": [
+            240.0,
+            282.0
+          ],
+          "role": "fit",
+          "error_preview_pixels": 0.13709803131776982
+        },
+        {
+          "index": 45,
+          "xml_center": [
+            468.0,
+            472.5
+          ],
+          "preview_center": [
+            286.5,
+            289.5
+          ],
+          "role": "fit",
+          "error_preview_pixels": 1.35041502112527
+        },
+        {
+          "index": 46,
+          "xml_center": [
+            154.5,
+            506.5
+          ],
+          "preview_center": [
+            64.5,
+            312.0
+          ],
+          "role": "fit",
+          "error_preview_pixels": 0.9494029186790488
+        },
+        {
+          "index": 47,
+          "xml_center": [
+            220.5,
+            512.0
+          ],
+          "preview_center": [
+            111.0,
+            316.5
+          ],
+          "role": "fit",
+          "error_preview_pixels": 0.6173315382037711
+        },
+        {
+          "index": 48,
+          "xml_center": [
+            280.5,
+            506.5
+          ],
+          "preview_center": [
+            153.0,
+            313.5
+          ],
+          "role": "fit",
+          "error_preview_pixels": 1.2542105580987226
+        },
+        {
+          "index": 49,
+          "xml_center": [
+            151.5,
+            652.5
+          ],
+          "preview_center": [
+            61.5,
+            415.5
+          ],
+          "role": "fit",
+          "error_preview_pixels": 0.5184187291228806
+        },
+        {
+          "index": 50,
+          "xml_center": [
+            232.0,
+            664.0
+          ],
+          "preview_center": [
+            118.5,
+            424.5
+          ],
+          "role": "fit",
+          "error_preview_pixels": 0.3243738101390535
+        },
+        {
+          "index": 51,
+          "xml_center": [
+            301.0,
+            660.0
+          ],
+          "preview_center": [
+            168.0,
+            421.5
+          ],
+          "role": "fit",
+          "error_preview_pixels": 0.2965887062689691
+        },
+        {
+          "index": 52,
+          "xml_center": [
+            377.5,
+            663.0
+          ],
+          "preview_center": [
+            222.0,
+            423.0
+          ],
+          "role": "fit",
+          "error_preview_pixels": 0.5733704200003897
+        },
+        {
+          "index": 53,
+          "xml_center": [
+            439.5,
+            667.0
+          ],
+          "preview_center": [
+            267.0,
+            426.0
+          ],
+          "role": "fit",
+          "error_preview_pixels": 0.9208326094250587
+        },
+        {
+          "index": 54,
+          "xml_center": [
+            176.0,
+            691.0
+          ],
+          "preview_center": [
+            78.0,
+            444.0
+          ],
+          "role": "fit",
+          "error_preview_pixels": 1.0424581155065917
+        },
+        {
+          "index": 55,
+          "xml_center": [
+            292.5,
+            693.5
+          ],
+          "preview_center": [
+            160.5,
+            445.5
+          ],
+          "role": "fit",
+          "error_preview_pixels": 1.208911627558213
+        },
+        {
+          "index": 56,
+          "xml_center": [
+            413.0,
+            698.5
+          ],
+          "preview_center": [
+            247.5,
+            448.5
+          ],
+          "role": "heldout",
+          "error_preview_pixels": 0.3532199176110192
+        },
+        {
+          "index": 57,
+          "xml_center": [
+            517.0,
+            697.5
+          ],
+          "preview_center": [
+            321.0,
+            448.5
+          ],
+          "role": "heldout",
+          "error_preview_pixels": 0.4542521626830932
+        },
+        {
+          "index": 58,
+          "xml_center": [
+            159.5,
+            721.5
+          ],
+          "preview_center": [
+            67.5,
+            465.0
+          ],
+          "role": "heldout",
+          "error_preview_pixels": 0.3893520071921875
+        },
+        {
+          "index": 59,
+          "xml_center": [
+            229.0,
+            723.0
+          ],
+          "preview_center": [
+            117.0,
+            466.5
+          ],
+          "role": "heldout",
+          "error_preview_pixels": 0.5759279395301701
+        },
+        {
+          "index": 60,
+          "xml_center": [
+            281.5,
+            722.0
+          ],
+          "preview_center": [
+            153.0,
+            465.0
+          ],
+          "role": "fit",
+          "error_preview_pixels": 0.9779122451254072
+        },
+        {
+          "index": 61,
+          "xml_center": [
+            355.5,
+            721.0
+          ],
+          "preview_center": [
+            207.0,
+            465.0
+          ],
+          "role": "heldout",
+          "error_preview_pixels": 0.5746908579187969
+        },
+        {
+          "index": 62,
+          "xml_center": [
+            456.5,
+            724.0
+          ],
+          "preview_center": [
+            279.0,
+            466.5
+          ],
+          "role": "fit",
+          "error_preview_pixels": 0.8655250281878795
+        },
+        {
+          "index": 63,
+          "xml_center": [
+            560.5,
+            727.5
+          ],
+          "preview_center": [
+            352.5,
+            469.5
+          ],
+          "role": "fit",
+          "error_preview_pixels": 0.2927273557593116
+        },
+        {
+          "index": 64,
+          "xml_center": [
+            155.0,
+            749.0
+          ],
+          "preview_center": [
+            64.5,
+            484.5
+          ],
+          "role": "fit",
+          "error_preview_pixels": 0.5961254752950941
+        },
+        {
+          "index": 65,
+          "xml_center": [
+            220.5,
+            758.0
+          ],
+          "preview_center": [
+            111.0,
+            490.5
+          ],
+          "role": "fit",
+          "error_preview_pixels": 0.754514803072169
+        },
+        {
+          "index": 66,
+          "xml_center": [
+            299.5,
+            749.5
+          ],
+          "preview_center": [
+            168.0,
+            484.5
+          ],
+          "role": "fit",
+          "error_preview_pixels": 1.4532137321760252
+        },
+        {
+          "index": 67,
+          "xml_center": [
+            380.5,
+            756.0
+          ],
+          "preview_center": [
+            225.0,
+            490.5
+          ],
+          "role": "heldout",
+          "error_preview_pixels": 1.1152687227762137
+        },
+        {
+          "index": 68,
+          "xml_center": [
+            188.5,
+            795.0
+          ],
+          "preview_center": [
+            88.5,
+            517.5
+          ],
+          "role": "fit",
+          "error_preview_pixels": 0.7831280272323012
+        },
+        {
+          "index": 69,
+          "xml_center": [
+            302.0,
+            798.0
+          ],
+          "preview_center": [
+            169.5,
+            520.5
+          ],
+          "role": "heldout",
+          "error_preview_pixels": 1.4544244364354426
+        },
+        {
+          "index": 70,
+          "xml_center": [
+            354.0,
+            796.0
+          ],
+          "preview_center": [
+            205.5,
+            517.5
+          ],
+          "role": "fit",
+          "error_preview_pixels": 0.6272503362672668
+        },
+        {
+          "index": 71,
+          "xml_center": [
+            409.5,
+            796.0
+          ],
+          "preview_center": [
+            246.0,
+            517.5
+          ],
+          "role": "heldout",
+          "error_preview_pixels": 1.3143645868787472
+        },
+        {
+          "index": 72,
+          "xml_center": [
+            488.5,
+            795.0
+          ],
+          "preview_center": [
+            300.0,
+            517.5
+          ],
+          "role": "fit",
+          "error_preview_pixels": 1.0169685783481803
+        },
+        {
+          "index": 73,
+          "xml_center": [
+            571.0,
+            801.5
+          ],
+          "preview_center": [
+            360.0,
+            522.0
+          ],
+          "role": "fit",
+          "error_preview_pixels": 0.3486219328683611
+        },
+        {
+          "index": 74,
+          "xml_center": [
+            659.5,
+            787.0
+          ],
+          "preview_center": [
+            421.5,
+            513.0
+          ],
+          "role": "fit",
+          "error_preview_pixels": 1.5964142218065946
+        },
+        {
+          "index": 75,
+          "xml_center": [
+            812.5,
+            783.5
+          ],
+          "preview_center": [
+            531.0,
+            510.0
+          ],
+          "role": "fit",
+          "error_preview_pixels": 0.7013723090670578
+        },
+        {
+          "index": 76,
+          "xml_center": [
+            162.5,
+            830.0
+          ],
+          "preview_center": [
+            69.0,
+            543.0
+          ],
+          "role": "fit",
+          "error_preview_pixels": 0.8163105546287047
+        },
+        {
+          "index": 77,
+          "xml_center": [
+            233.0,
+            838.0
+          ],
+          "preview_center": [
+            120.0,
+            549.0
+          ],
+          "role": "heldout",
+          "error_preview_pixels": 1.238225702935278
+        },
+        {
+          "index": 78,
+          "xml_center": [
+            277.0,
+            830.5
+          ],
+          "preview_center": [
+            151.5,
+            543.0
+          ],
+          "role": "fit",
+          "error_preview_pixels": 0.9320457599381234
+        },
+        {
+          "index": 79,
+          "xml_center": [
+            329.5,
+            838.0
+          ],
+          "preview_center": [
+            187.5,
+            549.0
+          ],
+          "role": "fit",
+          "error_preview_pixels": 1.1324273638683562
+        },
+        {
+          "index": 80,
+          "xml_center": [
+            415.5,
+            825.5
+          ],
+          "preview_center": [
+            249.0,
+            540.0
+          ],
+          "role": "fit",
+          "error_preview_pixels": 0.8919706627386522
+        },
+        {
+          "index": 81,
+          "xml_center": [
+            507.0,
+            829.5
+          ],
+          "preview_center": [
+            315.0,
+            543.0
+          ],
+          "role": "fit",
+          "error_preview_pixels": 1.306661716680604
+        },
+        {
+          "index": 82,
+          "xml_center": [
+            604.0,
+            823.0
+          ],
+          "preview_center": [
+            384.0,
+            537.0
+          ],
+          "role": "fit",
+          "error_preview_pixels": 0.9616697375659294
+        },
+        {
+          "index": 83,
+          "xml_center": [
+            683.0,
+            821.5
+          ],
+          "preview_center": [
+            439.5,
+            537.0
+          ],
+          "role": "heldout",
+          "error_preview_pixels": 0.662548687573749
+        },
+        {
+          "index": 84,
+          "xml_center": [
+            808.5,
+            821.5
+          ],
+          "preview_center": [
+            528.0,
+            537.0
+          ],
+          "role": "fit",
+          "error_preview_pixels": 0.7798421744693061
+        },
+        {
+          "index": 85,
+          "xml_center": [
+            163.5,
+            862.5
+          ],
+          "preview_center": [
+            70.5,
+            565.5
+          ],
+          "role": "fit",
+          "error_preview_pixels": 0.5707593483914065
+        },
+        {
+          "index": 86,
+          "xml_center": [
+            247.0,
+            861.0
+          ],
+          "preview_center": [
+            129.0,
+            564.0
+          ],
+          "role": "fit",
+          "error_preview_pixels": 0.4340507207815421
+        },
+        {
+          "index": 87,
+          "xml_center": [
+            333.5,
+            864.5
+          ],
+          "preview_center": [
+            190.5,
+            567.0
+          ],
+          "role": "fit",
+          "error_preview_pixels": 0.3664954233524539
+        },
+        {
+          "index": 88,
+          "xml_center": [
+            432.5,
+            861.0
+          ],
+          "preview_center": [
+            261.0,
+            564.0
+          ],
+          "role": "fit",
+          "error_preview_pixels": 0.41395250433255587
+        },
+        {
+          "index": 89,
+          "xml_center": [
+            499.0,
+            864.5
+          ],
+          "preview_center": [
+            307.5,
+            567.0
+          ],
+          "role": "fit",
+          "error_preview_pixels": 0.9855468730496326
+        },
+        {
+          "index": 90,
+          "xml_center": [
+            563.0,
+            868.0
+          ],
+          "preview_center": [
+            354.0,
+            568.5
+          ],
+          "role": "fit",
+          "error_preview_pixels": 0.8880015265738204
+        },
+        {
+          "index": 91,
+          "xml_center": [
+            175.0,
+            908.5
+          ],
+          "preview_center": [
+            78.0,
+            597.0
+          ],
+          "role": "fit",
+          "error_preview_pixels": 1.0480496172476397
+        },
+        {
+          "index": 92,
+          "xml_center": [
+            319.0,
+            914.5
+          ],
+          "preview_center": [
+            180.0,
+            603.0
+          ],
+          "role": "fit",
+          "error_preview_pixels": 0.8157401941131404
+        },
+        {
+          "index": 93,
+          "xml_center": [
+            433.0,
+            916.0
+          ],
+          "preview_center": [
+            261.0,
+            603.0
+          ],
+          "role": "fit",
+          "error_preview_pixels": 0.724208667313971
+        },
+        {
+          "index": 94,
+          "xml_center": [
+            531.0,
+            918.0
+          ],
+          "preview_center": [
+            331.5,
+            604.5
+          ],
+          "role": "fit",
+          "error_preview_pixels": 0.5069673221942599
+        },
+        {
+          "index": 95,
+          "xml_center": [
+            613.0,
+            914.0
+          ],
+          "preview_center": [
+            390.0,
+            601.5
+          ],
+          "role": "fit",
+          "error_preview_pixels": 0.7761591604922948
+        },
+        {
+          "index": 96,
+          "xml_center": [
+            682.0,
+            922.5
+          ],
+          "preview_center": [
+            439.5,
+            609.0
+          ],
+          "role": "fit",
+          "error_preview_pixels": 1.2328826920313394
+        },
+        {
+          "index": 97,
+          "xml_center": [
+            813.5,
+            919.0
+          ],
+          "preview_center": [
+            532.5,
+            604.5
+          ],
+          "role": "fit",
+          "error_preview_pixels": 1.3146325714501872
+        },
+        {
+          "index": 98,
+          "xml_center": [
+            174.5,
+            947.0
+          ],
+          "preview_center": [
+            78.0,
+            625.5
+          ],
+          "role": "fit",
+          "error_preview_pixels": 0.24417708734406923
+        },
+        {
+          "index": 99,
+          "xml_center": [
+            248.5,
+            961.0
+          ],
+          "preview_center": [
+            130.5,
+            636.0
+          ],
+          "role": "fit",
+          "error_preview_pixels": 0.6166075344434093
+        },
+        {
+          "index": 100,
+          "xml_center": [
+            299.5,
+            953.5
+          ],
+          "preview_center": [
+            166.5,
+            631.5
+          ],
+          "role": "fit",
+          "error_preview_pixels": 1.4255595992575323
+        },
+        {
+          "index": 101,
+          "xml_center": [
+            378.5,
+            956.5
+          ],
+          "preview_center": [
+            223.5,
+            631.5
+          ],
+          "role": "heldout",
+          "error_preview_pixels": 1.0182764334731553
+        },
+        {
+          "index": 102,
+          "xml_center": [
+            456.5,
+            949.5
+          ],
+          "preview_center": [
+            277.5,
+            627.0
+          ],
+          "role": "fit",
+          "error_preview_pixels": 0.8138247786632317
+        },
+        {
+          "index": 103,
+          "xml_center": [
+            537.0,
+            952.0
+          ],
+          "preview_center": [
+            336.0,
+            628.5
+          ],
+          "role": "fit",
+          "error_preview_pixels": 0.78975670642226
+        },
+        {
+          "index": 104,
+          "xml_center": [
+            642.5,
+            958.0
+          ],
+          "preview_center": [
+            409.5,
+            634.5
+          ],
+          "role": "heldout",
+          "error_preview_pixels": 1.4769894342518741
+        },
+        {
+          "index": 105,
+          "xml_center": [
+            782.5,
+            950.5
+          ],
+          "preview_center": [
+            510.0,
+            628.5
+          ],
+          "role": "heldout",
+          "error_preview_pixels": 0.37425485858170376
+        },
+        {
+          "index": 106,
+          "xml_center": [
+            841.0,
+            956.0
+          ],
+          "preview_center": [
+            552.0,
+            633.0
+          ],
+          "role": "fit",
+          "error_preview_pixels": 1.0161313336958582
+        },
+        {
+          "index": 107,
+          "xml_center": [
+            166.5,
+            981.0
+          ],
+          "preview_center": [
+            72.0,
+            649.5
+          ],
+          "role": "fit",
+          "error_preview_pixels": 0.11825159315203501
+        },
+        {
+          "index": 108,
+          "xml_center": [
+            259.5,
+            990.5
+          ],
+          "preview_center": [
+            138.0,
+            657.0
+          ],
+          "role": "heldout",
+          "error_preview_pixels": 0.6574611330631461
+        },
+        {
+          "index": 109,
+          "xml_center": [
+            341.5,
+            980.0
+          ],
+          "preview_center": [
+            196.5,
+            648.0
+          ],
+          "role": "fit",
+          "error_preview_pixels": 0.9384354189601714
+        },
+        {
+          "index": 110,
+          "xml_center": [
+            422.5,
+            985.5
+          ],
+          "preview_center": [
+            253.5,
+            652.5
+          ],
+          "role": "fit",
+          "error_preview_pixels": 0.6965324269632773
+        },
+        {
+          "index": 111,
+          "xml_center": [
+            460.0,
+            976.5
+          ],
+          "preview_center": [
+            280.5,
+            646.5
+          ],
+          "role": "fit",
+          "error_preview_pixels": 0.24546973161727526
+        },
+        {
+          "index": 112,
+          "xml_center": [
+            504.0,
+            979.0
+          ],
+          "preview_center": [
+            312.0,
+            648.0
+          ],
+          "role": "fit",
+          "error_preview_pixels": 0.28871583533875467
+        },
+        {
+          "index": 113,
+          "xml_center": [
+            583.0,
+            975.0
+          ],
+          "preview_center": [
+            367.5,
+            645.0
+          ],
+          "role": "fit",
+          "error_preview_pixels": 0.837879635842283
+        },
+        {
+          "index": 114,
+          "xml_center": [
+            645.0,
+            983.0
+          ],
+          "preview_center": [
+            412.5,
+            651.0
+          ],
+          "role": "fit",
+          "error_preview_pixels": 0.2941575156425374
+        }
+      ],
+      "naive_frame_scaling_heldout": {
+        "count": 26,
+        "median": 31.08290002554651,
+        "p90": 61.21566001693015,
+        "maximum": 73.23447163067479,
+        "within_5_fraction": 0.0,
+        "within_6_fraction": 0.0
+      },
+      "scope": "Centers from two serializations of the same EVA tradition; not expert-independent annotations."
+    },
+    "f3v": {
+      "accepted": true,
+      "matrix": [
+        [
+          0.7582761474818239,
+          0.0007951873819793725,
+          -135.34163237670404
+        ],
+        [
+          3.226324598710247e-05,
+          0.7581347643984905,
+          -49.34063745798231
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "fit_rows": 64,
+      "fit_inliers": 63,
+      "heldout": {
+        "count": 19,
+        "median": 0.7637944889639551,
+        "p90": 1.256471922995962,
+        "maximum": 1.6221720213388484,
+        "within_5_fraction": 1.0,
+        "within_6_fraction": 1.0
+      },
+      "points": [
+        {
+          "index": 0,
+          "xml_center": [
+            264.5,
+            191.5
+          ],
+          "preview_center": [
+            64.5,
+            96.0
+          ],
+          "role": "fit",
+          "error_preview_pixels": 0.8873369173437434
+        },
+        {
+          "index": 1,
+          "xml_center": [
+            332.5,
+            188.5
+          ],
+          "preview_center": [
+            117.0,
+            94.5
+          ],
+          "role": "heldout",
+          "error_preview_pixels": 0.923790846987214
+        },
+        {
+          "index": 2,
+          "xml_center": [
+            406.5,
+            186.0
+          ],
+          "preview_center": [
+            172.5,
+            91.5
+          ],
+          "role": "fit",
+          "error_preview_pixels": 0.5762165902943353
+        },
+        {
+          "index": 3,
+          "xml_center": [
+            472.5,
+            189.5
+          ],
+          "preview_center": [
+            223.5,
+            94.5
+          ],
+          "role": "fit",
+          "error_preview_pixels": 0.43547283501779527
+        },
+        {
+          "index": 4,
+          "xml_center": [
+            530.5,
+            188.0
+          ],
+          "preview_center": [
+            267.0,
+            94.5
+          ],
+          "role": "fit",
+          "error_preview_pixels": 1.2962635592899798
+        },
+        {
+          "index": 5,
+          "xml_center": [
+            619.5,
+            182.5
+          ],
+          "preview_center": [
+            334.5,
+            88.5
+          ],
+          "role": "fit",
+          "error_preview_pixels": 0.5418006852819867
+        },
+        {
+          "index": 6,
+          "xml_center": [
+            674.5,
+            186.0
+          ],
+          "preview_center": [
+            376.5,
+            91.5
+          ],
+          "role": "heldout",
+          "error_preview_pixels": 0.3059837514246336
+        },
+        {
+          "index": 7,
+          "xml_center": [
+            709.0,
+            193.0
+          ],
+          "preview_center": [
+            403.5,
+            97.5
+          ],
+          "role": "heldout",
+          "error_preview_pixels": 1.1804473472462187
+        },
+        {
+          "index": 8,
+          "xml_center": [
+            263.5,
+            230.5
+          ],
+          "preview_center": [
+            64.5,
+            124.5
+          ],
+          "role": "fit",
+          "error_preview_pixels": 0.9296901397806732
+        },
+        {
+          "index": 9,
+          "xml_center": [
+            351.5,
+            225.5
+          ],
+          "preview_center": [
+            130.5,
+            121.5
+          ],
+          "role": "heldout",
+          "error_preview_pixels": 0.8814017242046158
+        },
+        {
+          "index": 10,
+          "xml_center": [
+            445.5,
+            223.0
+          ],
+          "preview_center": [
+            202.5,
+            120.0
+          ],
+          "role": "fit",
+          "error_preview_pixels": 0.30095784994802566
+        },
+        {
+          "index": 11,
+          "xml_center": [
+            520.0,
+            223.0
+          ],
+          "preview_center": [
+            259.5,
+            120.0
+          ],
+          "role": "fit",
+          "error_preview_pixels": 0.4445347726889102
+        },
+        {
+          "index": 12,
+          "xml_center": [
+            597.5,
+            220.0
+          ],
+          "preview_center": [
+            318.0,
+            117.0
+          ],
+          "role": "fit",
+          "error_preview_pixels": 0.4781664905147889
+        },
+        {
+          "index": 13,
+          "xml_center": [
+            668.0,
+            224.5
+          ],
+          "preview_center": [
+            370.5,
+            120.0
+          ],
+          "role": "fit",
+          "error_preview_pixels": 1.2357423604185607
+        },
+        {
+          "index": 14,
+          "xml_center": [
+            717.5,
+            220.5
+          ],
+          "preview_center": [
+            409.5,
+            118.5
+          ],
+          "role": "fit",
+          "error_preview_pixels": 0.8858361606765834
+        },
+        {
+          "index": 15,
+          "xml_center": [
+            258.5,
+            254.0
+          ],
+          "preview_center": [
+            60.0,
+            144.0
+          ],
+          "role": "fit",
+          "error_preview_pixels": 1.1627598447215861
+        },
+        {
+          "index": 16,
+          "xml_center": [
+            324.5,
+            256.0
+          ],
+          "preview_center": [
+            111.0,
+            145.5
+          ],
+          "role": "fit",
+          "error_preview_pixels": 0.7516695861466726
+        },
+        {
+          "index": 17,
+          "xml_center": [
+            389.0,
+            254.5
+          ],
+          "preview_center": [
+            160.5,
+            142.5
+          ],
+          "role": "fit",
+          "error_preview_pixels": 1.302627839530739
+        },
+        {
+          "index": 18,
+          "xml_center": [
+            457.5,
+            251.5
+          ],
+          "preview_center": [
+            213.0,
+            141.0
+          ],
+          "role": "fit",
+          "error_preview_pixels": 1.2777665160094624
+        },
+        {
+          "index": 19,
+          "xml_center": [
+            537.0,
+            258.0
+          ],
+          "preview_center": [
+            271.5,
+            147.0
+          ],
+          "role": "fit",
+          "error_preview_pixels": 0.914397274324655
+        },
+        {
+          "index": 20,
+          "xml_center": [
+            624.5,
+            253.0
+          ],
+          "preview_center": [
+            339.0,
+            142.5
+          ],
+          "role": "fit",
+          "error_preview_pixels": 0.5971244994318665
+        },
+        {
+          "index": 21,
+          "xml_center": [
+            713.0,
+            246.5
+          ],
+          "preview_center": [
+            405.0,
+            138.0
+          ],
+          "role": "fit",
+          "error_preview_pixels": 0.6683065103560195
+        },
+        {
+          "index": 22,
+          "xml_center": [
+            261.5,
+            283.0
+          ],
+          "preview_center": [
+            63.0,
+            165.0
+          ],
+          "role": "fit",
+          "error_preview_pixels": 0.2795883471203905
+        },
+        {
+          "index": 23,
+          "xml_center": [
+            329.0,
+            277.0
+          ],
+          "preview_center": [
+            114.0,
+            160.5
+          ],
+          "role": "heldout",
+          "error_preview_pixels": 0.3918908312221651
+        },
+        {
+          "index": 24,
+          "xml_center": [
+            382.5,
+            286.0
+          ],
+          "preview_center": [
+            154.5,
+            168.0
+          ],
+          "role": "fit",
+          "error_preview_pixels": 0.6584749179079327
+        },
+        {
+          "index": 25,
+          "xml_center": [
+            453.0,
+            275.0
+          ],
+          "preview_center": [
+            208.5,
+            159.0
+          ],
+          "role": "fit",
+          "error_preview_pixels": 0.2031619912373547
+        },
+        {
+          "index": 26,
+          "xml_center": [
+            537.0,
+            276.5
+          ],
+          "preview_center": [
+            271.5,
+            160.5
+          ],
+          "role": "heldout",
+          "error_preview_pixels": 0.6061429374203883
+        },
+        {
+          "index": 27,
+          "xml_center": [
+            590.5,
+            280.5
+          ],
+          "preview_center": [
+            312.0,
+            163.5
+          ],
+          "role": "fit",
+          "error_preview_pixels": 0.6642469731688267
+        },
+        {
+          "index": 28,
+          "xml_center": [
+            621.0,
+            280.5
+          ],
+          "preview_center": [
+            336.0,
+            163.5
+          ],
+          "role": "fit",
+          "error_preview_pixels": 0.28162922694044024
+        },
+        {
+          "index": 29,
+          "xml_center": [
+            677.5,
+            279.0
+          ],
+          "preview_center": [
+            378.0,
+            162.0
+          ],
+          "role": "fit",
+          "error_preview_pixels": 0.6444052893959352
+        },
+        {
+          "index": 30,
+          "xml_center": [
+            728.0,
+            275.5
+          ],
+          "preview_center": [
+            417.0,
+            160.5
+          ],
+          "role": "fit",
+          "error_preview_pixels": 0.9560094048702038
+        },
+        {
+          "index": 31,
+          "xml_center": [
+            265.0,
+            316.5
+          ],
+          "preview_center": [
+            66.0,
+            190.5
+          ],
+          "role": "fit",
+          "error_preview_pixels": 0.18805563443181023
+        },
+        {
+          "index": 32,
+          "xml_center": [
+            365.5,
+            303.5
+          ],
+          "preview_center": [
+            141.0,
+            180.0
+          ],
+          "role": "fit",
+          "error_preview_pixels": 1.2988657061666284
+        },
+        {
+          "index": 33,
+          "xml_center": [
+            451.5,
+            306.5
+          ],
+          "preview_center": [
+            207.0,
+            183.0
+          ],
+          "role": "fit",
+          "error_preview_pixels": 0.26713300082379793
+        },
+        {
+          "index": 34,
+          "xml_center": [
+            523.5,
+            307.0
+          ],
+          "preview_center": [
+            262.5,
+            183.0
+          ],
+          "role": "fit",
+          "error_preview_pixels": 0.76745675170303
+        },
+        {
+          "index": 35,
+          "xml_center": [
+            595.0,
+            306.5
+          ],
+          "preview_center": [
+            316.5,
+            183.0
+          ],
+          "role": "fit",
+          "error_preview_pixels": 0.4261842057025524
+        },
+        {
+          "index": 36,
+          "xml_center": [
+            244.5,
+            348.0
+          ],
+          "preview_center": [
+            51.0,
+            214.5
+          ],
+          "role": "fit",
+          "error_preview_pixels": 0.6663916794177471
+        },
+        {
+          "index": 37,
+          "xml_center": [
+            304.0,
+            343.5
+          ],
+          "preview_center": [
+            96.0,
+            211.5
+          ],
+          "role": "fit",
+          "error_preview_pixels": 0.68895586896171
+        },
+        {
+          "index": 38,
+          "xml_center": [
+            371.0,
+            334.0
+          ],
+          "preview_center": [
+            147.0,
+            204.0
+          ],
+          "role": "heldout",
+          "error_preview_pixels": 0.7637944889639551
+        },
+        {
+          "index": 39,
+          "xml_center": [
+            455.0,
+            344.5
+          ],
+          "preview_center": [
+            210.0,
+            211.5
+          ],
+          "role": "fit",
+          "error_preview_pixels": 0.3553008747303234
+        },
+        {
+          "index": 40,
+          "xml_center": [
+            542.0,
+            351.0
+          ],
+          "preview_center": [
+            276.0,
+            216.0
+          ],
+          "role": "fit",
+          "error_preview_pixels": 0.7859178584596218
+        },
+        {
+          "index": 41,
+          "xml_center": [
+            261.5,
+            397.0
+          ],
+          "preview_center": [
+            63.0,
+            252.0
+          ],
+          "role": "fit",
+          "error_preview_pixels": 0.4401222153904865
+        },
+        {
+          "index": 42,
+          "xml_center": [
+            351.5,
+            398.0
+          ],
+          "preview_center": [
+            132.0,
+            253.5
+          ],
+          "role": "heldout",
+          "error_preview_pixels": 1.1970315644873495
+        },
+        {
+          "index": 43,
+          "xml_center": [
+            439.0,
+            398.0
+          ],
+          "preview_center": [
+            198.0,
+            252.0
+          ],
+          "role": "fit",
+          "error_preview_pixels": 0.43496607430626427
+        },
+        {
+          "index": 44,
+          "xml_center": [
+            508.5,
+            392.5
+          ],
+          "preview_center": [
+            252.0,
+            247.5
+          ],
+          "role": "fit",
+          "error_preview_pixels": 1.6261123804544388
+        },
+        {
+          "index": 45,
+          "xml_center": [
+            563.0,
+            396.5
+          ],
+          "preview_center": [
+            292.5,
+            252.0
+          ],
+          "role": "heldout",
+          "error_preview_pixels": 0.9496676242542921
+        },
+        {
+          "index": 46,
+          "xml_center": [
+            263.0,
+            445.0
+          ],
+          "preview_center": [
+            64.5,
+            288.0
+          ],
+          "role": "fit",
+          "error_preview_pixels": 0.07189698614622694
+        },
+        {
+          "index": 47,
+          "xml_center": [
+            340.5,
+            437.0
+          ],
+          "preview_center": [
+            123.0,
+            282.0
+          ],
+          "role": "fit",
+          "error_preview_pixels": 0.2004279508983844
+        },
+        {
+          "index": 48,
+          "xml_center": [
+            415.5,
+            433.5
+          ],
+          "preview_center": [
+            180.0,
+            279.0
+          ],
+          "role": "fit",
+          "error_preview_pixels": 0.3310030854918806
+        },
+        {
+          "index": 49,
+          "xml_center": [
+            499.0,
+            427.5
+          ],
+          "preview_center": [
+            243.0,
+            274.5
+          ],
+          "role": "fit",
+          "error_preview_pixels": 0.46935114588145654
+        },
+        {
+          "index": 50,
+          "xml_center": [
+            574.5,
+            427.5
+          ],
+          "preview_center": [
+            300.0,
+            276.0
+          ],
+          "role": "fit",
+          "error_preview_pixels": 1.3716730224245492
+        },
+        {
+          "index": 51,
+          "xml_center": [
+            278.0,
+            479.5
+          ],
+          "preview_center": [
+            76.5,
+            313.5
+          ],
+          "role": "fit",
+          "error_preview_pixels": 0.9573934833656356
+        },
+        {
+          "index": 52,
+          "xml_center": [
+            398.0,
+            460.0
+          ],
+          "preview_center": [
+            168.0,
+            298.5
+          ],
+          "role": "heldout",
+          "error_preview_pixels": 1.4942333570304127
+        },
+        {
+          "index": 53,
+          "xml_center": [
+            512.0,
+            466.5
+          ],
+          "preview_center": [
+            253.5,
+            304.5
+          ],
+          "role": "fit",
+          "error_preview_pixels": 0.2796740939212799
+        },
+        {
+          "index": 54,
+          "xml_center": [
+            618.5,
+            454.5
+          ],
+          "preview_center": [
+            334.5,
+            295.5
+          ],
+          "role": "fit",
+          "error_preview_pixels": 0.546191734921131
+        },
+        {
+          "index": 55,
+          "xml_center": [
+            694.0,
+            451.5
+          ],
+          "preview_center": [
+            390.0,
+            294.0
+          ],
+          "role": "heldout",
+          "error_preview_pixels": 1.6221720213388484
+        },
+        {
+          "index": 56,
+          "xml_center": [
+            264.5,
+            501.0
+          ],
+          "preview_center": [
+            64.5,
+            331.5
+          ],
+          "role": "fit",
+          "error_preview_pixels": 1.5064541739264807
+        },
+        {
+          "index": 57,
+          "xml_center": [
+            333.0,
+            499.0
+          ],
+          "preview_center": [
+            118.5,
+            328.5
+          ],
+          "role": "fit",
+          "error_preview_pixels": 1.054167673387663
+        },
+        {
+          "index": 58,
+          "xml_center": [
+            421.0,
+            491.5
+          ],
+          "preview_center": [
+            184.5,
+            322.5
+          ],
+          "role": "fit",
+          "error_preview_pixels": 0.8251032214389994
+        },
+        {
+          "index": 59,
+          "xml_center": [
+            520.0,
+            493.5
+          ],
+          "preview_center": [
+            259.5,
+            325.5
+          ],
+          "role": "fit",
+          "error_preview_pixels": 0.6996737394374889
+        },
+        {
+          "index": 60,
+          "xml_center": [
+            590.0,
+            493.0
+          ],
+          "preview_center": [
+            313.5,
+            324.0
+          ],
+          "role": "heldout",
+          "error_preview_pixels": 1.153420813858952
+        },
+        {
+          "index": 61,
+          "xml_center": [
+            674.0,
+            485.5
+          ],
+          "preview_center": [
+            376.5,
+            318.0
+          ],
+          "role": "fit",
+          "error_preview_pixels": 0.8445708268898788
+        },
+        {
+          "index": 62,
+          "xml_center": [
+            258.0,
+            533.0
+          ],
+          "preview_center": [
+            61.5,
+            355.5
+          ],
+          "role": "fit",
+          "error_preview_pixels": 1.0814921684111738
+        },
+        {
+          "index": 63,
+          "xml_center": [
+            339.5,
+            524.0
+          ],
+          "preview_center": [
+            123.0,
+            348.0
+          ],
+          "role": "fit",
+          "error_preview_pixels": 0.4947688066435635
+        },
+        {
+          "index": 64,
+          "xml_center": [
+            430.5,
+            521.5
+          ],
+          "preview_center": [
+            192.0,
+            346.5
+          ],
+          "role": "heldout",
+          "error_preview_pixels": 0.6710377296615304
+        },
+        {
+          "index": 65,
+          "xml_center": [
+            503.5,
+            517.0
+          ],
+          "preview_center": [
+            246.0,
+            342.0
+          ],
+          "role": "fit",
+          "error_preview_pixels": 1.06805013173634
+        },
+        {
+          "index": 66,
+          "xml_center": [
+            610.0,
+            514.0
+          ],
+          "preview_center": [
+            327.0,
+            340.5
+          ],
+          "role": "fit",
+          "error_preview_pixels": 0.6311949189263105
+        },
+        {
+          "index": 67,
+          "xml_center": [
+            702.5,
+            513.5
+          ],
+          "preview_center": [
+            399.0,
+            340.5
+          ],
+          "role": "fit",
+          "error_preview_pixels": 1.3469696486926115
+        },
+        {
+          "index": 68,
+          "xml_center": [
+            260.5,
+            562.5
+          ],
+          "preview_center": [
+            63.0,
+            378.0
+          ],
+          "role": "fit",
+          "error_preview_pixels": 0.9534028204620891
+        },
+        {
+          "index": 69,
+          "xml_center": [
+            339.5,
+            555.0
+          ],
+          "preview_center": [
+            121.5,
+            372.0
+          ],
+          "role": "fit",
+          "error_preview_pixels": 1.1786367675338405
+        },
+        {
+          "index": 70,
+          "xml_center": [
+            438.5,
+            555.5
+          ],
+          "preview_center": [
+            198.0,
+            372.0
+          ],
+          "role": "fit",
+          "error_preview_pixels": 0.4359159762997738
+        },
+        {
+          "index": 71,
+          "xml_center": [
+            530.0,
+            549.0
+          ],
+          "preview_center": [
+            267.0,
+            367.5
+          ],
+          "role": "heldout",
+          "error_preview_pixels": 0.6078405035149307
+        },
+        {
+          "index": 72,
+          "xml_center": [
+            637.5,
+            543.0
+          ],
+          "preview_center": [
+            348.0,
+            363.0
+          ],
+          "role": "heldout",
+          "error_preview_pixels": 0.8170340066494173
+        },
+        {
+          "index": 73,
+          "xml_center": [
+            699.5,
+            540.5
+          ],
+          "preview_center": [
+            394.5,
+            360.0
+          ],
+          "role": "fit",
+          "error_preview_pixels": 1.1002620346961336
+        },
+        {
+          "index": 74,
+          "xml_center": [
+            263.0,
+            589.5
+          ],
+          "preview_center": [
+            64.5,
+            397.5
+          ],
+          "role": "heldout",
+          "error_preview_pixels": 0.103369359210896
+        },
+        {
+          "index": 75,
+          "xml_center": [
+            349.0,
+            586.5
+          ],
+          "preview_center": [
+            129.0,
+            394.5
+          ],
+          "role": "fit",
+          "error_preview_pixels": 1.1177160985991683
+        },
+        {
+          "index": 76,
+          "xml_center": [
+            451.5,
+            585.5
+          ],
+          "preview_center": [
+            207.0,
+            394.5
+          ],
+          "role": "heldout",
+          "error_preview_pixels": 0.48955116785520536
+        },
+        {
+          "index": 77,
+          "xml_center": [
+            536.5,
+            595.0
+          ],
+          "preview_center": [
+            271.5,
+            402.0
+          ],
+          "role": "fit",
+          "error_preview_pixels": 0.5038437644874241
+        },
+        {
+          "index": 78,
+          "xml_center": [
+            620.0,
+            585.5
+          ],
+          "preview_center": [
+            336.0,
+            394.5
+          ],
+          "role": "heldout",
+          "error_preview_pixels": 0.7478703243706452
+        },
+        {
+          "index": 79,
+          "xml_center": [
+            702.5,
+            584.0
+          ],
+          "preview_center": [
+            397.5,
+            393.0
+          ],
+          "role": "fit",
+          "error_preview_pixels": 0.5333325643323297
+        },
+        {
+          "index": 80,
+          "xml_center": [
+            260.0,
+            622.5
+          ],
+          "preview_center": [
+            61.5,
+            423.0
+          ],
+          "role": "fit",
+          "error_preview_pixels": 0.896119169999057
+        },
+        {
+          "index": 81,
+          "xml_center": [
+            329.5,
+            620.5
+          ],
+          "preview_center": [
+            115.5,
+            421.5
+          ],
+          "role": "heldout",
+          "error_preview_pixels": 0.6420320166689344
+        },
+        {
+          "index": 82,
+          "xml_center": [
+            415.0,
+            626.5
+          ],
+          "preview_center": [
+            180.0,
+            426.0
+          ],
+          "role": "fit",
+          "error_preview_pixels": 0.38966500119894615
+        }
+      ],
+      "naive_frame_scaling_heldout": {
+        "count": 19,
+        "median": 74.07476390370434,
+        "p90": 86.63772488098785,
+        "maximum": 102.93492870187119,
+        "within_5_fraction": 0.0,
+        "within_6_fraction": 0.0
+      },
+      "scope": "Centers from two serializations of the same EVA tradition; not expert-independent annotations."
+    },
+    "f4r": {
+      "accepted": true,
+      "matrix": [
+        [
+          0.7406150156563731,
+          0.0005647510392454574,
+          -47.672398553819086
+        ],
+        [
+          -0.0004842274964461643,
+          0.7406755403005821,
+          -42.09182798948126
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "fit_rows": 47,
+      "fit_inliers": 47,
+      "heldout": {
+        "count": 17,
+        "median": 0.5390987823804436,
+        "p90": 1.1866861973316267,
+        "maximum": 1.5064388549920564,
+        "within_5_fraction": 1.0,
+        "within_6_fraction": 1.0
+      },
+      "points": [
+        {
+          "index": 0,
+          "xml_center": [
+            184.5,
+            201.0
+          ],
+          "preview_center": [
+            88.5,
+            106.5
+          ],
+          "role": "fit",
+          "error_preview_pixels": 0.6161306402264946
+        },
+        {
+          "index": 1,
+          "xml_center": [
+            280.0,
+            194.0
+          ],
+          "preview_center": [
+            159.0,
+            102.0
+          ],
+          "role": "fit",
+          "error_preview_pixels": 0.9709554538475633
+        },
+        {
+          "index": 2,
+          "xml_center": [
+            364.0,
+            188.0
+          ],
+          "preview_center": [
+            222.0,
+            97.5
+          ],
+          "role": "fit",
+          "error_preview_pixels": 0.5213837261208379
+        },
+        {
+          "index": 3,
+          "xml_center": [
+            424.0,
+            193.0
+          ],
+          "preview_center": [
+            265.5,
+            102.0
+          ],
+          "role": "fit",
+          "error_preview_pixels": 1.6523660185528397
+        },
+        {
+          "index": 4,
+          "xml_center": [
+            471.0,
+            185.0
+          ],
+          "preview_center": [
+            301.5,
+            94.5
+          ],
+          "role": "heldout",
+          "error_preview_pixels": 0.31435304381080303
+        },
+        {
+          "index": 5,
+          "xml_center": [
+            547.0,
+            188.5
+          ],
+          "preview_center": [
+            357.0,
+            97.5
+          ],
+          "role": "fit",
+          "error_preview_pixels": 0.6002596012630483
+        },
+        {
+          "index": 6,
+          "xml_center": [
+            639.0,
+            187.5
+          ],
+          "preview_center": [
+            426.0,
+            96.0
+          ],
+          "role": "fit",
+          "error_preview_pixels": 0.5694814550666578
+        },
+        {
+          "index": 7,
+          "xml_center": [
+            698.5,
+            187.5
+          ],
+          "preview_center": [
+            469.5,
+            96.0
+          ],
+          "role": "fit",
+          "error_preview_pixels": 0.5133264083391995
+        },
+        {
+          "index": 8,
+          "xml_center": [
+            758.5,
+            187.5
+          ],
+          "preview_center": [
+            514.5,
+            97.5
+          ],
+          "role": "fit",
+          "error_preview_pixels": 1.1259711299202286
+        },
+        {
+          "index": 9,
+          "xml_center": [
+            172.0,
+            242.5
+          ],
+          "preview_center": [
+            79.5,
+            138.0
+          ],
+          "role": "fit",
+          "error_preview_pixels": 0.6616565332543629
+        },
+        {
+          "index": 10,
+          "xml_center": [
+            235.5,
+            239.5
+          ],
+          "preview_center": [
+            126.0,
+            135.0
+          ],
+          "role": "fit",
+          "error_preview_pixels": 0.8971726421469437
+        },
+        {
+          "index": 11,
+          "xml_center": [
+            296.0,
+            230.0
+          ],
+          "preview_center": [
+            172.5,
+            127.5
+          ],
+          "role": "fit",
+          "error_preview_pixels": 1.028505285057282
+        },
+        {
+          "index": 12,
+          "xml_center": [
+            351.5,
+            221.0
+          ],
+          "preview_center": [
+            213.0,
+            121.5
+          ],
+          "role": "heldout",
+          "error_preview_pixels": 0.23305296130034442
+        },
+        {
+          "index": 13,
+          "xml_center": [
+            434.0,
+            220.5
+          ],
+          "preview_center": [
+            274.5,
+            121.5
+          ],
+          "role": "fit",
+          "error_preview_pixels": 0.7867008724778681
+        },
+        {
+          "index": 14,
+          "xml_center": [
+            512.5,
+            221.0
+          ],
+          "preview_center": [
+            331.5,
+            121.5
+          ],
+          "role": "heldout",
+          "error_preview_pixels": 0.5390987823804436
+        },
+        {
+          "index": 15,
+          "xml_center": [
+            577.0,
+            219.0
+          ],
+          "preview_center": [
+            379.5,
+            120.0
+          ],
+          "role": "fit",
+          "error_preview_pixels": 0.32945583998261335
+        },
+        {
+          "index": 16,
+          "xml_center": [
+            672.5,
+            224.0
+          ],
+          "preview_center": [
+            450.0,
+            123.0
+          ],
+          "role": "fit",
+          "error_preview_pixels": 0.71547536475609
+        },
+        {
+          "index": 17,
+          "xml_center": [
+            755.5,
+            226.5
+          ],
+          "preview_center": [
+            511.5,
+            126.0
+          ],
+          "role": "heldout",
+          "error_preview_pixels": 0.8501764838446919
+        },
+        {
+          "index": 18,
+          "xml_center": [
+            181.5,
+            269.0
+          ],
+          "preview_center": [
+            88.5,
+            157.5
+          ],
+          "role": "fit",
+          "error_preview_pixels": 1.6577627881619987
+        },
+        {
+          "index": 19,
+          "xml_center": [
+            255.0,
+            263.0
+          ],
+          "preview_center": [
+            141.0,
+            153.0
+          ],
+          "role": "fit",
+          "error_preview_pixels": 0.5341203878299572
+        },
+        {
+          "index": 20,
+          "xml_center": [
+            305.5,
+            264.5
+          ],
+          "preview_center": [
+            180.0,
+            153.0
+          ],
+          "role": "fit",
+          "error_preview_pixels": 1.4310907749217792
+        },
+        {
+          "index": 21,
+          "xml_center": [
+            367.0,
+            249.5
+          ],
+          "preview_center": [
+            223.5,
+            142.5
+          ],
+          "role": "fit",
+          "error_preview_pixels": 0.7747608078748258
+        },
+        {
+          "index": 22,
+          "xml_center": [
+            464.0,
+            247.0
+          ],
+          "preview_center": [
+            297.0,
+            139.5
+          ],
+          "role": "fit",
+          "error_preview_pixels": 1.437154120375425
+        },
+        {
+          "index": 23,
+          "xml_center": [
+            692.5,
+            252.0
+          ],
+          "preview_center": [
+            466.5,
+            144.0
+          ],
+          "role": "fit",
+          "error_preview_pixels": 1.1755438090768047
+        },
+        {
+          "index": 24,
+          "xml_center": [
+            761.0,
+            249.0
+          ],
+          "preview_center": [
+            516.0,
+            142.5
+          ],
+          "role": "heldout",
+          "error_preview_pixels": 0.5375511707898382
+        },
+        {
+          "index": 25,
+          "xml_center": [
+            191.0,
+            300.0
+          ],
+          "preview_center": [
+            94.5,
+            180.0
+          ],
+          "role": "fit",
+          "error_preview_pixels": 0.5458136853664551
+        },
+        {
+          "index": 26,
+          "xml_center": [
+            262.5,
+            294.5
+          ],
+          "preview_center": [
+            147.0,
+            175.5
+          ],
+          "role": "fit",
+          "error_preview_pixels": 0.4207892744130066
+        },
+        {
+          "index": 27,
+          "xml_center": [
+            315.0,
+            291.0
+          ],
+          "preview_center": [
+            186.0,
+            174.0
+          ],
+          "role": "heldout",
+          "error_preview_pixels": 0.739516426586857
+        },
+        {
+          "index": 28,
+          "xml_center": [
+            370.5,
+            280.5
+          ],
+          "preview_center": [
+            228.0,
+            166.5
+          ],
+          "role": "heldout",
+          "error_preview_pixels": 1.5064388549920564
+        },
+        {
+          "index": 29,
+          "xml_center": [
+            452.5,
+            275.5
+          ],
+          "preview_center": [
+            288.0,
+            162.0
+          ],
+          "role": "heldout",
+          "error_preview_pixels": 0.4646311058562726
+        },
+        {
+          "index": 30,
+          "xml_center": [
+            522.5,
+            280.0
+          ],
+          "preview_center": [
+            339.0,
+            165.0
+          ],
+          "role": "fit",
+          "error_preview_pixels": 0.45922057250578685
+        },
+        {
+          "index": 31,
+          "xml_center": [
+            184.0,
+            359.5
+          ],
+          "preview_center": [
+            88.5,
+            225.0
+          ],
+          "role": "fit",
+          "error_preview_pixels": 0.9575381386668846
+        },
+        {
+          "index": 32,
+          "xml_center": [
+            275.5,
+            367.5
+          ],
+          "preview_center": [
+            157.5,
+            229.5
+          ],
+          "role": "fit",
+          "error_preview_pixels": 1.0393027196540852
+        },
+        {
+          "index": 33,
+          "xml_center": [
+            339.0,
+            375.5
+          ],
+          "preview_center": [
+            204.0,
+            235.5
+          ],
+          "role": "fit",
+          "error_preview_pixels": 0.5373393949528107
+        },
+        {
+          "index": 34,
+          "xml_center": [
+            385.0,
+            363.5
+          ],
+          "preview_center": [
+            237.0,
+            226.5
+          ],
+          "role": "heldout",
+          "error_preview_pixels": 0.8109152469753375
+        },
+        {
+          "index": 35,
+          "xml_center": [
+            179.5,
+            408.0
+          ],
+          "preview_center": [
+            85.5,
+            259.5
+          ],
+          "role": "heldout",
+          "error_preview_pixels": 0.5168760471969901
+        },
+        {
+          "index": 36,
+          "xml_center": [
+            259.0,
+            405.0
+          ],
+          "preview_center": [
+            144.0,
+            256.5
+          ],
+          "role": "fit",
+          "error_preview_pixels": 1.3112985901893197
+        },
+        {
+          "index": 37,
+          "xml_center": [
+            326.5,
+            413.0
+          ],
+          "preview_center": [
+            195.0,
+            264.0
+          ],
+          "role": "fit",
+          "error_preview_pixels": 0.7197085537987421
+        },
+        {
+          "index": 38,
+          "xml_center": [
+            389.0,
+            410.0
+          ],
+          "preview_center": [
+            240.0,
+            261.0
+          ],
+          "role": "fit",
+          "error_preview_pixels": 0.7687077506790071
+        },
+        {
+          "index": 39,
+          "xml_center": [
+            195.0,
+            435.5
+          ],
+          "preview_center": [
+            96.0,
+            280.5
+          ],
+          "role": "fit",
+          "error_preview_pixels": 1.0009480484824382
+        },
+        {
+          "index": 40,
+          "xml_center": [
+            280.5,
+            435.0
+          ],
+          "preview_center": [
+            160.5,
+            279.0
+          ],
+          "role": "fit",
+          "error_preview_pixels": 0.9836114424612061
+        },
+        {
+          "index": 41,
+          "xml_center": [
+            344.5,
+            437.0
+          ],
+          "preview_center": [
+            208.5,
+            282.0
+          ],
+          "role": "heldout",
+          "error_preview_pixels": 0.9770497521849894
+        },
+        {
+          "index": 42,
+          "xml_center": [
+            413.0,
+            433.5
+          ],
+          "preview_center": [
+            258.0,
+            279.0
+          ],
+          "role": "fit",
+          "error_preview_pixels": 0.49291007172149565
+        },
+        {
+          "index": 43,
+          "xml_center": [
+            186.5,
+            471.0
+          ],
+          "preview_center": [
+            90.0,
+            306.0
+          ],
+          "role": "fit",
+          "error_preview_pixels": 0.9864018186141926
+        },
+        {
+          "index": 44,
+          "xml_center": [
+            245.5,
+            467.5
+          ],
+          "preview_center": [
+            135.0,
+            303.0
+          ],
+          "role": "fit",
+          "error_preview_pixels": 1.2075942341739319
+        },
+        {
+          "index": 45,
+          "xml_center": [
+            306.5,
+            469.5
+          ],
+          "preview_center": [
+            180.0,
+            306.0
+          ],
+          "role": "fit",
+          "error_preview_pixels": 0.6404673812284033
+        },
+        {
+          "index": 46,
+          "xml_center": [
+            362.0,
+            468.0
+          ],
+          "preview_center": [
+            220.5,
+            304.5
+          ],
+          "role": "fit",
+          "error_preview_pixels": 0.2345165297392138
+        },
+        {
+          "index": 47,
+          "xml_center": [
+            439.5,
+            467.5
+          ],
+          "preview_center": [
+            277.5,
+            303.0
+          ],
+          "role": "heldout",
+          "error_preview_pixels": 1.1288124959092853
+        },
+        {
+          "index": 48,
+          "xml_center": [
+            185.5,
+            507.5
+          ],
+          "preview_center": [
+            90.0,
+            333.0
+          ],
+          "role": "fit",
+          "error_preview_pixels": 0.711186549068781
+        },
+        {
+          "index": 49,
+          "xml_center": [
+            267.5,
+            501.0
+          ],
+          "preview_center": [
+            151.5,
+            330.0
+          ],
+          "role": "fit",
+          "error_preview_pixels": 1.3808638433238132
+        },
+        {
+          "index": 50,
+          "xml_center": [
+            351.5,
+            500.5
+          ],
+          "preview_center": [
+            213.0,
+            328.5
+          ],
+          "role": "fit",
+          "error_preview_pixels": 0.08335603347503555
+        },
+        {
+          "index": 51,
+          "xml_center": [
+            434.5,
+            499.5
+          ],
+          "preview_center": [
+            273.0,
+            327.0
+          ],
+          "role": "fit",
+          "error_preview_pixels": 1.5562525011342052
+        },
+        {
+          "index": 52,
+          "xml_center": [
+            187.0,
+            538.5
+          ],
+          "preview_center": [
+            91.5,
+            357.0
+          ],
+          "role": "heldout",
+          "error_preview_pixels": 0.49730286659319367
+        },
+        {
+          "index": 53,
+          "xml_center": [
+            244.5,
+            536.5
+          ],
+          "preview_center": [
+            133.5,
+            355.5
+          ],
+          "role": "heldout",
+          "error_preview_pixels": 0.39825844752155193
+        },
+        {
+          "index": 54,
+          "xml_center": [
+            321.5,
+            539.0
+          ],
+          "preview_center": [
+            190.5,
+            357.0
+          ],
+          "role": "heldout",
+          "error_preview_pixels": 0.2408682351465844
+        },
+        {
+          "index": 55,
+          "xml_center": [
+            412.5,
+            535.0
+          ],
+          "preview_center": [
+            258.0,
+            354.0
+          ],
+          "role": "fit",
+          "error_preview_pixels": 0.13680270566235725
+        },
+        {
+          "index": 56,
+          "xml_center": [
+            216.5,
+            566.0
+          ],
+          "preview_center": [
+            112.5,
+            378.0
+          ],
+          "role": "heldout",
+          "error_preview_pixels": 1.0907651119090442
+        },
+        {
+          "index": 57,
+          "xml_center": [
+            324.5,
+            569.0
+          ],
+          "preview_center": [
+            193.5,
+            379.5
+          ],
+          "role": "fit",
+          "error_preview_pixels": 0.6039135008576065
+        },
+        {
+          "index": 58,
+          "xml_center": [
+            397.5,
+            570.5
+          ],
+          "preview_center": [
+            246.0,
+            381.0
+          ],
+          "role": "heldout",
+          "error_preview_pixels": 1.2734967494651386
+        },
+        {
+          "index": 59,
+          "xml_center": [
+            183.5,
+            594.5
+          ],
+          "preview_center": [
+            88.5,
+            399.0
+          ],
+          "role": "fit",
+          "error_preview_pixels": 0.851651932500699
+        },
+        {
+          "index": 60,
+          "xml_center": [
+            270.5,
+            593.0
+          ],
+          "preview_center": [
+            153.0,
+            397.5
+          ],
+          "role": "fit",
+          "error_preview_pixels": 0.5022174216458527
+        },
+        {
+          "index": 61,
+          "xml_center": [
+            361.5,
+            596.5
+          ],
+          "preview_center": [
+            220.5,
+            400.5
+          ],
+          "role": "fit",
+          "error_preview_pixels": 0.95948218929828
+        },
+        {
+          "index": 62,
+          "xml_center": [
+            187.5,
+            626.5
+          ],
+          "preview_center": [
+            91.5,
+            421.5
+          ],
+          "role": "fit",
+          "error_preview_pixels": 0.35370626957349505
+        },
+        {
+          "index": 63,
+          "xml_center": [
+            262.5,
+            622.0
+          ],
+          "preview_center": [
+            147.0,
+            418.5
+          ],
+          "role": "fit",
+          "error_preview_pixels": 0.09224425021744963
+        }
+      ],
+      "naive_frame_scaling_heldout": {
+        "count": 17,
+        "median": 30.939701871943452,
+        "p90": 52.84510797632221,
+        "maximum": 71.4845237299207,
+        "within_5_fraction": 0.058823529411764705,
+        "within_6_fraction": 0.058823529411764705
+      },
+      "scope": "Centers from two serializations of the same EVA tradition; not expert-independent annotations."
+    },
+    "f4v": {
+      "accepted": true,
+      "matrix": [
+        [
+          0.7673682714713795,
+          -0.0005059182035989151,
+          -140.70282764834383
+        ],
+        [
+          0.0008026602450580717,
+          0.7679522315538395,
+          -42.68185524011492
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "fit_rows": 64,
+      "fit_inliers": 63,
+      "heldout": {
+        "count": 19,
+        "median": 0.7875703436796907,
+        "p90": 1.1413204815595037,
+        "maximum": 1.4033040542981563,
+        "within_5_fraction": 1.0,
+        "within_6_fraction": 1.0
+      },
+      "points": [
+        {
+          "index": 0,
+          "xml_center": [
+            314.0,
+            184.5
+          ],
+          "preview_center": [
+            100.5,
+            100.5
+          ],
+          "role": "fit",
+          "error_preview_pixels": 1.2889785336365143
+        },
+        {
+          "index": 1,
+          "xml_center": [
+            410.0,
+            180.5
+          ],
+          "preview_center": [
+            174.0,
+            96.0
+          ],
+          "role": "fit",
+          "error_preview_pixels": 0.3145603773485721
+        },
+        {
+          "index": 2,
+          "xml_center": [
+            493.0,
+            173.0
+          ],
+          "preview_center": [
+            237.0,
+            91.5
+          ],
+          "role": "fit",
+          "error_preview_pixels": 1.0669385695401898
+        },
+        {
+          "index": 3,
+          "xml_center": [
+            595.5,
+            170.5
+          ],
+          "preview_center": [
+            315.0,
+            90.0
+          ],
+          "role": "fit",
+          "error_preview_pixels": 1.731254431493665
+        },
+        {
+          "index": 4,
+          "xml_center": [
+            690.0,
+            175.0
+          ],
+          "preview_center": [
+            388.5,
+            91.5
+          ],
+          "role": "heldout",
+          "error_preview_pixels": 0.7875703436796907
+        },
+        {
+          "index": 5,
+          "xml_center": [
+            910.0,
+            181.5
+          ],
+          "preview_center": [
+            558.0,
+            97.5
+          ],
+          "role": "fit",
+          "error_preview_pixels": 0.4942395187298451
+        },
+        {
+          "index": 6,
+          "xml_center": [
+            286.0,
+            230.5
+          ],
+          "preview_center": [
+            79.5,
+            133.5
+          ],
+          "role": "fit",
+          "error_preview_pixels": 1.360579194239888
+        },
+        {
+          "index": 7,
+          "xml_center": [
+            323.5,
+            228.5
+          ],
+          "preview_center": [
+            106.5,
+            132.0
+          ],
+          "role": "fit",
+          "error_preview_pixels": 1.4031391050587134
+        },
+        {
+          "index": 8,
+          "xml_center": [
+            370.0,
+            225.0
+          ],
+          "preview_center": [
+            144.0,
+            130.5
+          ],
+          "role": "fit",
+          "error_preview_pixels": 0.8955182784436886
+        },
+        {
+          "index": 9,
+          "xml_center": [
+            432.0,
+            214.5
+          ],
+          "preview_center": [
+            190.5,
+            123.0
+          ],
+          "role": "fit",
+          "error_preview_pixels": 0.6388089512763138
+        },
+        {
+          "index": 10,
+          "xml_center": [
+            524.5,
+            211.0
+          ],
+          "preview_center": [
+            261.0,
+            120.0
+          ],
+          "role": "fit",
+          "error_preview_pixels": 0.7109413044070915
+        },
+        {
+          "index": 11,
+          "xml_center": [
+            613.5,
+            209.5
+          ],
+          "preview_center": [
+            330.0,
+            118.5
+          ],
+          "role": "fit",
+          "error_preview_pixels": 0.19860789122618142
+        },
+        {
+          "index": 12,
+          "xml_center": [
+            692.5,
+            211.0
+          ],
+          "preview_center": [
+            391.5,
+            120.0
+          ],
+          "role": "fit",
+          "error_preview_pixels": 0.9113160926108704
+        },
+        {
+          "index": 13,
+          "xml_center": [
+            905.0,
+            216.5
+          ],
+          "preview_center": [
+            553.5,
+            124.5
+          ],
+          "role": "fit",
+          "error_preview_pixels": 0.24873188964902224
+        },
+        {
+          "index": 14,
+          "xml_center": [
+            292.5,
+            253.0
+          ],
+          "preview_center": [
+            84.0,
+            151.5
+          ],
+          "role": "fit",
+          "error_preview_pixels": 0.5098945038896524
+        },
+        {
+          "index": 15,
+          "xml_center": [
+            340.5,
+            249.0
+          ],
+          "preview_center": [
+            120.0,
+            148.5
+          ],
+          "role": "fit",
+          "error_preview_pixels": 0.5556571210911689
+        },
+        {
+          "index": 16,
+          "xml_center": [
+            405.5,
+            245.5
+          ],
+          "preview_center": [
+            169.5,
+            145.5
+          ],
+          "role": "heldout",
+          "error_preview_pixels": 1.0787893243505153
+        },
+        {
+          "index": 17,
+          "xml_center": [
+            498.0,
+            242.5
+          ],
+          "preview_center": [
+            241.5,
+            144.0
+          ],
+          "role": "heldout",
+          "error_preview_pixels": 0.1841228711710424
+        },
+        {
+          "index": 18,
+          "xml_center": [
+            578.0,
+            240.0
+          ],
+          "preview_center": [
+            303.0,
+            142.5
+          ],
+          "role": "heldout",
+          "error_preview_pixels": 0.49903853550390165
+        },
+        {
+          "index": 19,
+          "xml_center": [
+            668.0,
+            238.0
+          ],
+          "preview_center": [
+            372.0,
+            141.0
+          ],
+          "role": "fit",
+          "error_preview_pixels": 0.4337132837125801
+        },
+        {
+          "index": 20,
+          "xml_center": [
+            867.5,
+            240.0
+          ],
+          "preview_center": [
+            525.0,
+            141.0
+          ],
+          "role": "heldout",
+          "error_preview_pixels": 1.3295839646249088
+        },
+        {
+          "index": 21,
+          "xml_center": [
+            896.0,
+            236.5
+          ],
+          "preview_center": [
+            547.5,
+            139.5
+          ],
+          "role": "fit",
+          "error_preview_pixels": 0.7767517649118185
+        },
+        {
+          "index": 22,
+          "xml_center": [
+            927.0,
+            245.5
+          ],
+          "preview_center": [
+            571.5,
+            147.0
+          ],
+          "role": "heldout",
+          "error_preview_pixels": 1.0574851712788853
+        },
+        {
+          "index": 23,
+          "xml_center": [
+            312.5,
+            284.0
+          ],
+          "preview_center": [
+            99.0,
+            175.5
+          ],
+          "role": "fit",
+          "error_preview_pixels": 0.173076105516913
+        },
+        {
+          "index": 24,
+          "xml_center": [
+            404.0,
+            271.0
+          ],
+          "preview_center": [
+            169.5,
+            165.0
+          ],
+          "role": "fit",
+          "error_preview_pixels": 0.8235247641682467
+        },
+        {
+          "index": 25,
+          "xml_center": [
+            520.5,
+            269.0
+          ],
+          "preview_center": [
+            258.0,
+            163.5
+          ],
+          "role": "fit",
+          "error_preview_pixels": 0.9982169264119458
+        },
+        {
+          "index": 26,
+          "xml_center": [
+            620.5,
+            270.5
+          ],
+          "preview_center": [
+            336.0,
+            165.0
+          ],
+          "role": "fit",
+          "error_preview_pixels": 0.8788592296577631
+        },
+        {
+          "index": 27,
+          "xml_center": [
+            698.5,
+            264.5
+          ],
+          "preview_center": [
+            394.5,
+            160.5
+          ],
+          "role": "fit",
+          "error_preview_pixels": 0.8373766618726485
+        },
+        {
+          "index": 28,
+          "xml_center": [
+            900.0,
+            268.5
+          ],
+          "preview_center": [
+            549.0,
+            165.0
+          ],
+          "role": "fit",
+          "error_preview_pixels": 1.1011951546943486
+        },
+        {
+          "index": 29,
+          "xml_center": [
+            304.5,
+            319.5
+          ],
+          "preview_center": [
+            93.0,
+            202.5
+          ],
+          "role": "fit",
+          "error_preview_pixels": 0.4685183153729941
+        },
+        {
+          "index": 30,
+          "xml_center": [
+            367.0,
+            316.0
+          ],
+          "preview_center": [
+            141.0,
+            201.0
+          ],
+          "role": "fit",
+          "error_preview_pixels": 0.7531482158108057
+        },
+        {
+          "index": 31,
+          "xml_center": [
+            422.5,
+            300.5
+          ],
+          "preview_center": [
+            183.0,
+            189.0
+          ],
+          "role": "fit",
+          "error_preview_pixels": 0.6758418006896724
+        },
+        {
+          "index": 32,
+          "xml_center": [
+            499.0,
+            299.0
+          ],
+          "preview_center": [
+            241.5,
+            187.5
+          ],
+          "role": "fit",
+          "error_preview_pixels": 0.585974612055093
+        },
+        {
+          "index": 33,
+          "xml_center": [
+            577.0,
+            305.5
+          ],
+          "preview_center": [
+            301.5,
+            192.0
+          ],
+          "role": "fit",
+          "error_preview_pixels": 0.5693158185203037
+        },
+        {
+          "index": 34,
+          "xml_center": [
+            675.5,
+            301.0
+          ],
+          "preview_center": [
+            378.0,
+            189.0
+          ],
+          "role": "heldout",
+          "error_preview_pixels": 0.49803743354672797
+        },
+        {
+          "index": 35,
+          "xml_center": [
+            896.5,
+            294.0
+          ],
+          "preview_center": [
+            547.5,
+            183.0
+          ],
+          "role": "fit",
+          "error_preview_pixels": 0.9111026134303372
+        },
+        {
+          "index": 36,
+          "xml_center": [
+            319.0,
+            353.5
+          ],
+          "preview_center": [
+            103.5,
+            229.5
+          ],
+          "role": "heldout",
+          "error_preview_pixels": 0.6114492635745612
+        },
+        {
+          "index": 37,
+          "xml_center": [
+            418.0,
+            338.0
+          ],
+          "preview_center": [
+            180.0,
+            217.5
+          ],
+          "role": "fit",
+          "error_preview_pixels": 0.3008773352627835
+        },
+        {
+          "index": 38,
+          "xml_center": [
+            518.5,
+            340.5
+          ],
+          "preview_center": [
+            256.5,
+            219.0
+          ],
+          "role": "fit",
+          "error_preview_pixels": 0.5519916854928486
+        },
+        {
+          "index": 39,
+          "xml_center": [
+            321.0,
+            409.0
+          ],
+          "preview_center": [
+            105.0,
+            271.5
+          ],
+          "role": "fit",
+          "error_preview_pixels": 0.4482462331787307
+        },
+        {
+          "index": 40,
+          "xml_center": [
+            407.5,
+            410.0
+          ],
+          "preview_center": [
+            172.5,
+            271.5
+          ],
+          "role": "fit",
+          "error_preview_pixels": 1.2296890922587291
+        },
+        {
+          "index": 41,
+          "xml_center": [
+            482.0,
+            409.0
+          ],
+          "preview_center": [
+            229.5,
+            271.5
+          ],
+          "role": "fit",
+          "error_preview_pixels": 0.6149828197076973
+        },
+        {
+          "index": 42,
+          "xml_center": [
+            567.0,
+            397.0
+          ],
+          "preview_center": [
+            295.5,
+            262.5
+          ],
+          "role": "fit",
+          "error_preview_pixels": 1.3144870004050186
+        },
+        {
+          "index": 43,
+          "xml_center": [
+            662.5,
+            394.5
+          ],
+          "preview_center": [
+            367.5,
+            261.0
+          ],
+          "role": "fit",
+          "error_preview_pixels": 0.1940696831259485
+        },
+        {
+          "index": 44,
+          "xml_center": [
+            313.0,
+            443.5
+          ],
+          "preview_center": [
+            99.0,
+            298.5
+          ],
+          "role": "heldout",
+          "error_preview_pixels": 0.4304873603260027
+        },
+        {
+          "index": 45,
+          "xml_center": [
+            371.5,
+            440.5
+          ],
+          "preview_center": [
+            144.0,
+            295.5
+          ],
+          "role": "fit",
+          "error_preview_pixels": 0.4271117610888832
+        },
+        {
+          "index": 46,
+          "xml_center": [
+            436.5,
+            438.0
+          ],
+          "preview_center": [
+            195.0,
+            294.0
+          ],
+          "role": "fit",
+          "error_preview_pixels": 0.9686843398001376
+        },
+        {
+          "index": 47,
+          "xml_center": [
+            501.5,
+            433.5
+          ],
+          "preview_center": [
+            244.5,
+            291.0
+          ],
+          "role": "fit",
+          "error_preview_pixels": 0.6949256195172102
+        },
+        {
+          "index": 48,
+          "xml_center": [
+            561.5,
+            429.0
+          ],
+          "preview_center": [
+            289.5,
+            288.0
+          ],
+          "role": "fit",
+          "error_preview_pixels": 0.9039312722854943
+        },
+        {
+          "index": 49,
+          "xml_center": [
+            645.5,
+            431.5
+          ],
+          "preview_center": [
+            354.0,
+            289.5
+          ],
+          "role": "fit",
+          "error_preview_pixels": 0.5077071515301083
+        },
+        {
+          "index": 50,
+          "xml_center": [
+            309.5,
+            471.0
+          ],
+          "preview_center": [
+            96.0,
+            319.5
+          ],
+          "role": "fit",
+          "error_preview_pixels": 0.6040211533128246
+        },
+        {
+          "index": 51,
+          "xml_center": [
+            400.5,
+            467.0
+          ],
+          "preview_center": [
+            166.5,
+            316.5
+          ],
+          "role": "heldout",
+          "error_preview_pixels": 0.2511516888812533
+        },
+        {
+          "index": 52,
+          "xml_center": [
+            502.5,
+            463.0
+          ],
+          "preview_center": [
+            244.5,
+            313.5
+          ],
+          "role": "fit",
+          "error_preview_pixels": 0.2726120394239169
+        },
+        {
+          "index": 53,
+          "xml_center": [
+            585.0,
+            460.5
+          ],
+          "preview_center": [
+            307.5,
+            310.5
+          ],
+          "role": "fit",
+          "error_preview_pixels": 1.0438524883671048
+        },
+        {
+          "index": 54,
+          "xml_center": [
+            657.0,
+            461.0
+          ],
+          "preview_center": [
+            363.0,
+            312.0
+          ],
+          "role": "fit",
+          "error_preview_pixels": 0.2590346072499973
+        },
+        {
+          "index": 55,
+          "xml_center": [
+            317.0,
+            496.5
+          ],
+          "preview_center": [
+            102.0,
+            339.0
+          ],
+          "role": "fit",
+          "error_preview_pixels": 0.33225812720227277
+        },
+        {
+          "index": 56,
+          "xml_center": [
+            389.0,
+            492.5
+          ],
+          "preview_center": [
+            157.5,
+            336.0
+          ],
+          "role": "fit",
+          "error_preview_pixels": 0.16247622934678135
+        },
+        {
+          "index": 57,
+          "xml_center": [
+            473.5,
+            491.5
+          ],
+          "preview_center": [
+            222.0,
+            334.5
+          ],
+          "role": "heldout",
+          "error_preview_pixels": 0.7590610380260515
+        },
+        {
+          "index": 58,
+          "xml_center": [
+            563.5,
+            495.0
+          ],
+          "preview_center": [
+            291.0,
+            339.0
+          ],
+          "role": "fit",
+          "error_preview_pixels": 1.1855605918236003
+        },
+        {
+          "index": 59,
+          "xml_center": [
+            647.5,
+            489.5
+          ],
+          "preview_center": [
+            357.0,
+            334.5
+          ],
+          "role": "fit",
+          "error_preview_pixels": 1.3142047864422932
+        },
+        {
+          "index": 60,
+          "xml_center": [
+            305.5,
+            528.0
+          ],
+          "preview_center": [
+            93.0,
+            364.5
+          ],
+          "role": "fit",
+          "error_preview_pixels": 1.5290322012337698
+        },
+        {
+          "index": 61,
+          "xml_center": [
+            368.5,
+            526.0
+          ],
+          "preview_center": [
+            142.5,
+            361.5
+          ],
+          "role": "fit",
+          "error_preview_pixels": 0.6960538854259279
+        },
+        {
+          "index": 62,
+          "xml_center": [
+            451.5,
+            529.5
+          ],
+          "preview_center": [
+            205.5,
+            364.5
+          ],
+          "role": "heldout",
+          "error_preview_pixels": 0.1887885824638454
+        },
+        {
+          "index": 63,
+          "xml_center": [
+            555.0,
+            521.5
+          ],
+          "preview_center": [
+            285.0,
+            358.5
+          ],
+          "role": "fit",
+          "error_preview_pixels": 0.26099175305513994
+        },
+        {
+          "index": 64,
+          "xml_center": [
+            656.5,
+            521.0
+          ],
+          "preview_center": [
+            363.0,
+            357.0
+          ],
+          "role": "fit",
+          "error_preview_pixels": 0.9668840614640984
+        },
+        {
+          "index": 65,
+          "xml_center": [
+            729.5,
+            518.0
+          ],
+          "preview_center": [
+            418.5,
+            355.5
+          ],
+          "role": "fit",
+          "error_preview_pixels": 0.38763044636101496
+        },
+        {
+          "index": 66,
+          "xml_center": [
+            320.0,
+            562.0
+          ],
+          "preview_center": [
+            105.0,
+            388.5
+          ],
+          "role": "heldout",
+          "error_preview_pixels": 0.790822221308839
+        },
+        {
+          "index": 67,
+          "xml_center": [
+            392.0,
+            559.0
+          ],
+          "preview_center": [
+            159.0,
+            387.0
+          ],
+          "role": "fit",
+          "error_preview_pixels": 0.8267943798245592
+        },
+        {
+          "index": 68,
+          "xml_center": [
+            465.5,
+            559.0
+          ],
+          "preview_center": [
+            216.0,
+            387.0
+          ],
+          "role": "fit",
+          "error_preview_pixels": 0.22546241357151373
+        },
+        {
+          "index": 69,
+          "xml_center": [
+            524.5,
+            557.5
+          ],
+          "preview_center": [
+            262.5,
+            385.5
+          ],
+          "role": "heldout",
+          "error_preview_pixels": 1.0673333287373432
+        },
+        {
+          "index": 70,
+          "xml_center": [
+            567.0,
+            557.5
+          ],
+          "preview_center": [
+            294.0,
+            385.5
+          ],
+          "role": "fit",
+          "error_preview_pixels": 0.4220135738909676
+        },
+        {
+          "index": 71,
+          "xml_center": [
+            643.5,
+            551.5
+          ],
+          "preview_center": [
+            352.5,
+            381.0
+          ],
+          "role": "fit",
+          "error_preview_pixels": 0.4816590518892078
+        },
+        {
+          "index": 72,
+          "xml_center": [
+            706.5,
+            550.5
+          ],
+          "preview_center": [
+            400.5,
+            379.5
+          ],
+          "role": "fit",
+          "error_preview_pixels": 1.3219841943540487
+        },
+        {
+          "index": 73,
+          "xml_center": [
+            763.5,
+            554.0
+          ],
+          "preview_center": [
+            445.5,
+            384.0
+          ],
+          "role": "heldout",
+          "error_preview_pixels": 0.8635166422304192
+        },
+        {
+          "index": 74,
+          "xml_center": [
+            324.5,
+            597.5
+          ],
+          "preview_center": [
+            108.0,
+            417.0
+          ],
+          "role": "fit",
+          "error_preview_pixels": 0.5699640748527948
+        },
+        {
+          "index": 75,
+          "xml_center": [
+            386.5,
+            592.5
+          ],
+          "preview_center": [
+            154.5,
+            412.5
+          ],
+          "role": "heldout",
+          "error_preview_pixels": 1.0942546107931526
+        },
+        {
+          "index": 76,
+          "xml_center": [
+            432.0,
+            593.0
+          ],
+          "preview_center": [
+            190.5,
+            412.5
+          ],
+          "role": "heldout",
+          "error_preview_pixels": 0.5605673556926059
+        },
+        {
+          "index": 77,
+          "xml_center": [
+            532.0,
+            588.5
+          ],
+          "preview_center": [
+            267.0,
+            409.5
+          ],
+          "role": "fit",
+          "error_preview_pixels": 0.302549224265085
+        },
+        {
+          "index": 78,
+          "xml_center": [
+            648.0,
+            588.0
+          ],
+          "preview_center": [
+            357.0,
+            409.5
+          ],
+          "role": "fit",
+          "error_preview_pixels": 0.7531387258929008
+        },
+        {
+          "index": 79,
+          "xml_center": [
+            745.5,
+            590.0
+          ],
+          "preview_center": [
+            432.0,
+            411.0
+          ],
+          "role": "heldout",
+          "error_preview_pixels": 0.928310512095883
+        },
+        {
+          "index": 80,
+          "xml_center": [
+            334.0,
+            631.0
+          ],
+          "preview_center": [
+            115.5,
+            442.5
+          ],
+          "role": "fit",
+          "error_preview_pixels": 0.40212166681817196
+        },
+        {
+          "index": 81,
+          "xml_center": [
+            427.5,
+            634.0
+          ],
+          "preview_center": [
+            186.0,
+            445.5
+          ],
+          "role": "heldout",
+          "error_preview_pixels": 1.4033040542981563
+        },
+        {
+          "index": 82,
+          "xml_center": [
+            529.5,
+            626.0
+          ],
+          "preview_center": [
+            265.5,
+            439.5
+          ],
+          "role": "fit",
+          "error_preview_pixels": 1.0378188070392438
+        }
+      ],
+      "naive_frame_scaling_heldout": {
+        "count": 19,
+        "median": 71.64650582424562,
+        "p90": 94.41933790703247,
+        "maximum": 99.6094283811488,
+        "within_5_fraction": 0.0,
+        "within_6_fraction": 0.0
+      },
+      "scope": "Centers from two serializations of the same EVA tradition; not expert-independent annotations."
+    }
+  },
+  "pairs": [
+    {
+      "source_folio": "f3r",
+      "target_folio": "f3r",
+      "correct_folio_pair": true,
+      "accepted": true,
+      "matrix": [
+        [
+          2.3583152635126505,
+          -0.023308267024039972,
+          176.00912810606405
+        ],
+        [
+          0.031759367546278436,
+          2.358585288993526,
+          125.54850609996367
+        ],
+        [
+          9.169051040854563e-06,
+          9.740663607649307e-07,
+          1.0
+        ]
+      ],
+      "matches": 796,
+      "fit_matches": 686,
+      "fit_inliers": 615,
+      "fit_inlier_span_fraction": [
+        0.8204754283593135,
+        0.8965803697374132
+      ],
+      "heldout": {
+        "count": 110,
+        "median": 1.1875438847682058,
+        "p90": 4.106641540538811,
+        "maximum": 569.5569513255302,
+        "within_5_fraction": 0.9545454545454546,
+        "within_6_fraction": 0.9727272727272728
+      }
+    },
+    {
+      "source_folio": "f3r",
+      "target_folio": "f3v",
+      "correct_folio_pair": false,
+      "accepted": false,
+      "failure": "Fewer than 12 reciprocal ratio matches",
+      "matches": 9
+    },
+    {
+      "source_folio": "f3r",
+      "target_folio": "f4r",
+      "correct_folio_pair": false,
+      "accepted": false,
+      "failure": "Fewer than 12 reciprocal ratio matches",
+      "matches": 3
+    },
+    {
+      "source_folio": "f3r",
+      "target_folio": "f4v",
+      "correct_folio_pair": false,
+      "accepted": false,
+      "failure": "Fewer than 12 reciprocal ratio matches",
+      "matches": 6
+    },
+    {
+      "source_folio": "f3v",
+      "target_folio": "f3r",
+      "correct_folio_pair": false,
+      "accepted": false,
+      "failure": "Fewer than 12 reciprocal ratio matches",
+      "matches": 4
+    },
+    {
+      "source_folio": "f3v",
+      "target_folio": "f3v",
+      "correct_folio_pair": true,
+      "accepted": true,
+      "matrix": [
+        [
+          2.1579294009270042,
+          -0.04994433837928246,
+          340.48262511282667
+        ],
+        [
+          0.06947880262918926,
+          2.1469184995787183,
+          104.34690546848665
+        ],
+        [
+          1.092323221276411e-05,
+          -1.0226887727845798e-06,
+          1.0
+        ]
+      ],
+      "matches": 608,
+      "fit_matches": 481,
+      "fit_inliers": 389,
+      "fit_inlier_span_fraction": [
+        0.8250249106928987,
+        0.8979086981879341
+      ],
+      "heldout": {
+        "count": 127,
+        "median": 0.9758395638096066,
+        "p90": 4.530290582334631,
+        "maximum": 408.029411877866,
+        "within_5_fraction": 0.9212598425196851,
+        "within_6_fraction": 0.937007874015748
+      }
+    },
+    {
+      "source_folio": "f3v",
+      "target_folio": "f4r",
+      "correct_folio_pair": false,
+      "accepted": false,
+      "failure": "Fewer than 12 reciprocal ratio matches",
+      "matches": 10
+    },
+    {
+      "source_folio": "f3v",
+      "target_folio": "f4v",
+      "correct_folio_pair": false,
+      "accepted": false,
+      "failure": "Fewer than 12 reciprocal ratio matches",
+      "matches": 9
+    },
+    {
+      "source_folio": "f4r",
+      "target_folio": "f3r",
+      "correct_folio_pair": false,
+      "accepted": false,
+      "failure": "Fewer than 12 reciprocal ratio matches",
+      "matches": 1
+    },
+    {
+      "source_folio": "f4r",
+      "target_folio": "f3v",
+      "correct_folio_pair": false,
+      "accepted": false,
+      "failure": "Fewer than 12 reciprocal ratio matches",
+      "matches": 6
+    },
+    {
+      "source_folio": "f4r",
+      "target_folio": "f4r",
+      "correct_folio_pair": true,
+      "accepted": false,
+      "matrix": [
+        [
+          2.2339266027774323,
+          -0.015263560035654817,
+          187.0653718539834
+        ],
+        [
+          -0.04470956822385308,
+          2.2304331972259903,
+          110.81270163345165
+        ],
+        [
+          -2.1691603723537284e-05,
+          -4.799238373817505e-06,
+          1.0
+        ]
+      ],
+      "matches": 414,
+      "fit_matches": 321,
+      "fit_inliers": 242,
+      "fit_inlier_span_fraction": [
+        0.6498224750254888,
+        0.8130829927656386
+      ],
+      "heldout": {
+        "count": 93,
+        "median": 1.772771417462202,
+        "p90": 9.721334203498966,
+        "maximum": 1744.6315275461277,
+        "within_5_fraction": 0.6989247311827957,
+        "within_6_fraction": 0.8064516129032258
+      }
+    },
+    {
+      "source_folio": "f4r",
+      "target_folio": "f4v",
+      "correct_folio_pair": false,
+      "accepted": false,
+      "failure": "Fewer than 12 reciprocal ratio matches",
+      "matches": 6
+    },
+    {
+      "source_folio": "f4v",
+      "target_folio": "f3r",
+      "correct_folio_pair": false,
+      "accepted": false,
+      "failure": "Fewer than 12 reciprocal ratio matches",
+      "matches": 6
+    },
+    {
+      "source_folio": "f4v",
+      "target_folio": "f3v",
+      "correct_folio_pair": false,
+      "accepted": false,
+      "failure": "Fewer than 12 reciprocal ratio matches",
+      "matches": 2
+    },
+    {
+      "source_folio": "f4v",
+      "target_folio": "f4r",
+      "correct_folio_pair": false,
+      "accepted": false,
+      "failure": "Fewer than 12 reciprocal ratio matches",
+      "matches": 6
+    },
+    {
+      "source_folio": "f4v",
+      "target_folio": "f4v",
+      "correct_folio_pair": true,
+      "accepted": true,
+      "matrix": [
+        [
+          2.110470860439513,
+          -0.04964127705511091,
+          331.9477628237926
+        ],
+        [
+          0.05781880901310883,
+          2.1021849206993375,
+          89.58644326453859
+        ],
+        [
+          7.382681493908776e-07,
+          3.6969261756848087e-06,
+          1.0
+        ]
+      ],
+      "matches": 588,
+      "fit_matches": 479,
+      "fit_inliers": 390,
+      "fit_inlier_span_fraction": [
+        0.7959256682006068,
+        0.9435070292154948
+      ],
+      "heldout": {
+        "count": 109,
+        "median": 1.515055831723347,
+        "p90": 4.247050266852204,
+        "maximum": 471.82412109425826,
+        "within_5_fraction": 0.9724770642201835,
+        "within_6_fraction": 0.9908256880733946
+      }
+    }
+  ],
+  "composed_xml_to_yale": {
+    "f3r": [
+      [
+        1.6774165791480318,
+        -0.016693115550025638,
+        68.10342580317045
+      ],
+      [
+        0.023461555320338744,
+        1.6777535413162008,
+        10.938112528543032
+      ],
+      [
+        6.522133180496284e-06,
+        6.924525250994328e-07,
+        1.0
+      ]
+    ],
+    "f3v": [
+      [
+        1.6386446149997376,
+        -0.03620027163551061,
+        50.961991964847115
+      ],
+      [
+        0.05282882004176678,
+        1.6300363413991432,
+        -11.002507001831313
+      ],
+      [
+        8.294637423908624e-06,
+        -7.677461662459865e-07,
+        1.0
+      ]
+    ],
+    "f4r": null,
+    "f4v": [
+      [
+        1.6198924052286148,
+        -0.03920011253645805,
+        37.12704185362868
+      ],
+      [
+        0.04606771424505193,
+        1.614770883405131,
+        -8.276144731042017
+      ],
+      [
+        5.696399859543093e-07,
+        2.8394321919924933e-06,
+        1.0
+      ]
+    ]
+  },
+  "source_words": 345,
+  "words_with_candidate_polygons": 280,
+  "word_geometry_flags": {
+    "source_nonpositive_width": 1,
+    "registration_not_accepted": 64
+  },
+  "seconds": 13.960400718000002,
+  "environment": {
+    "opencv-python-headless": "4.12.0.88",
+    "numpy": "2.2.6",
+    "pillow": "12.3.0"
+  },
+  "scope": "Four previously explored pages; conditional geometric checks only. Mapped word polygons are candidate source annotations, not expert truth or a decipherment.",
+  "boxer_eva_alignment": "NOT_RUN",
+  "new_expert_review": "NOT_REVIEWED",
+  "new_recognition_training": "NOT_RUN",
+  "translation": "NOT_RUN"
+}

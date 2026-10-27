@@ -1,0 +1,55 @@
+{
+  "status": "PASS_EXPORTED_GEOMETRY_AUDIT",
+  "checks": 10142,
+  "mismatches": [],
+  "calibration": {
+    "f3r": {
+      "heldout_points": 26,
+      "median_preview_pixels": 0.820385483003566,
+      "p90_preview_pixels": 1.4657069353436585,
+      "accepted": true
+    },
+    "f3v": {
+      "heldout_points": 19,
+      "median_preview_pixels": 0.7637944889639551,
+      "p90_preview_pixels": 1.256471922995962,
+      "accepted": true
+    },
+    "f4r": {
+      "heldout_points": 17,
+      "median_preview_pixels": 0.5390987823804436,
+      "p90_preview_pixels": 1.1866861973316267,
+      "accepted": true
+    },
+    "f4v": {
+      "heldout_points": 19,
+      "median_preview_pixels": 0.7875703436796907,
+      "p90_preview_pixels": 1.1413204815595037,
+      "accepted": true
+    }
+  },
+  "image_registration": {
+    "f3r->f3r": {
+      "heldout_points": 110,
+      "accepted": true,
+      "median_yale_pixels": 1.1875438847682058
+    },
+    "f3v->f3v": {
+      "heldout_points": 127,
+      "accepted": true,
+      "median_yale_pixels": 0.9758395638096066
+    },
+    "f4r->f4r": {
+      "heldout_points": 93,
+      "accepted": false,
+      "median_yale_pixels": 1.772771417462202
+    },
+    "f4v->f4v": {
+      "heldout_points": 109,
+      "accepted": true,
+      "median_yale_pixels": 1.515055831723347
+    }
+  },
+  "scope": "Original XML/JSON records, image hashes, partitions, projection arithmetic, decisions and polygon exports. Does not rerun SIFT/RANSAC, independently verify the reported robust-fit inlier mask or validate readings.",
+  "translation": "NOT_RUN"
+}

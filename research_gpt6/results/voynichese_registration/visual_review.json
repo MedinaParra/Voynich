@@ -1,0 +1,21 @@
+{
+  "date": "2026-10-27",
+  "reviewer": "Assistant single visual review, not independent expert",
+  "views_inspected": [
+    "f3r.jpg",
+    "f3v.jpg",
+    "f4v.jpg",
+    "f3r_detail.jpg",
+    "f3v_detail.jpg",
+    "f4v_detail.jpg"
+  ],
+  "words_individually_verified": false,
+  "observations": [
+    "Mapped source boxes approximately follow visible words in accepted pages.",
+    "Overlapping boxes and boundaries close to strokes from neighboring rows remain visible.",
+    "Rectangles are not ink ownership masks. The source zero-width word is not silently repaired.",
+    "No accepted polygons are issued for f4r."
+  ],
+  "reading_validation": "NOT_REVIEWED",
+  "expert_review": "NOT_REVIEWED"
+}

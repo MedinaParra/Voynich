@@ -1,0 +1,40 @@
+{
+  "date": "2026-10-27",
+  "repository": "MedinaParra/Voynich",
+  "branch": "experiment/kraken-voynich",
+  "execution_commit": "4841278496f2bb0be82b5293bfe7c0a66d11d8ac",
+  "run_id": 40518080288,
+  "run_url": "https://github.com/MedinaParra/Voynich/actions/runs/40518080288",
+  "job_id": 122236944550,
+  "workflow_conclusion": "failure",
+  "failure_reason": "Experiment exit2: one correct image pair did not pass predeclared held-out criteria; all16 pair outcomes were preserved.",
+  "synthetic_controls_passed": 4,
+  "local_attempt": "SIGBUS importing cv2 before tests or registration fits; recorded separately.",
+  "artifact": {
+    "id": 12740043275,
+    "bytes": 4391673,
+    "sha256": "9af5775142c9b5914e937d5e736a00a666abf83a76690a179aba6f3662b51e9b",
+    "zip_hash_verified": true,
+    "files": 11,
+    "expires_at": "2026-11-26T14:07:42Z"
+  },
+  "source_archive_sha256": "402d99ca8191ae53a4f25912ee0af0a7e6b6d9a3714b2beaf86404a27d5b7ad5",
+  "input_metadata_sha256": "58b44eac6c86f76e6a90066b9949663ed824db1fc83d6a26b49ce72b9d798797",
+  "plan_sha256": "097c0781b30bdbfb2a9f83d34bace758c6de502a52f556988ec2df8a58f36afb",
+  "accepted_correct_image_pairs": 3,
+  "rejected_wrong_image_pairs": 12,
+  "candidate_word_polygons": 280,
+  "unaccepted_correct_folio": "f4r",
+  "audit_checks": 10142,
+  "audit_mismatches": 0,
+  "full_artifact_files_preserved_in_repository": true,
+  "new_ocr_training": "NOT_RUN",
+  "boxer_eva_alignment": "NOT_RUN",
+  "translation": "NOT_RUN",
+  "independent_expert_review": "NOT_REVIEWED",
+  "audit_environment": {
+    "python": "3.12.14",
+    "numpy": "2.3.5",
+    "pillow": "12.3.0"
+  }
+}
