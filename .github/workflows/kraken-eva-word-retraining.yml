@@ -1,0 +1,55 @@
+name: Kraken EVA word warm-start retraining
+
+on:
+  push:
+    branches: [experiment/kraken-voynich]
+    paths:
+      - 'research_gpt6/code/kraken_eva_word_training.py'
+      - 'research_gpt6/code/test_kraken_eva_word_training.py'
+      - 'research_gpt6/data/kraken_eva_words_plan.json'
+      - '.github/workflows/kraken-eva-word-retraining.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  retrain:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 35
+    strategy:
+      fail-fast: false
+      matrix:
+        variant: [aligned_200, permuted_200]
+    env:
+      OMP_NUM_THREADS: '2'
+      MKL_NUM_THREADS: '2'
+      OPENBLAS_NUM_THREADS: '2'
+      PYTHONUNBUFFERED: '1'
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install fixed CPU training environment
+        run: |
+          python -m pip install --disable-pip-version-check 'torch==2.9.0' 'torchvision==0.24.0' --index-url https://download.pytorch.org/whl/cpu
+          python -m pip install --disable-pip-version-check 'kraken==7.1' 'lightning==2.6.1' 'pillow==12.3.0' 'numpy==2.4.6' 'scipy==1.15.3'
+          python -m pip check
+      - name: Check input controls
+        run: python research_gpt6/code/test_kraken_eva_word_training.py
+      - name: Prepare frozen words and retrain from the preserved model
+        run: |
+          python research_gpt6/code/kraken_eva_word_training.py \
+            --plan research_gpt6/data/kraken_eva_words_plan.json \
+            --repo research_gpt6 \
+            --variant '${{ matrix.variant }}' \
+            --out 'work/eva_words/${{ matrix.variant }}'
+      - name: Preserve models and evidence even on failure
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: kraken-eva-words-${{ matrix.variant }}
+          path: work/eva_words/${{ matrix.variant }}/
+          if-no-files-found: warn
+          retention-days: 30
