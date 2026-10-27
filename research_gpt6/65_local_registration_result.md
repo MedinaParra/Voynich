@@ -1,8 +1,8 @@
-# 65 - La corrección espacial habilita f4r como referencia geométrica candidata
+# 65 - Corrección local y 344 referencias geométricas candidatas en cuatro páginas
 
 Fecha: **27 de octubre de 2026**. Rama `experiment/kraken-voynich`. [Comparación 40531601364](https://github.com/MedinaParra/Voynich/actions/runs/40531601364), commit `b73fcbb472891c9ef75b5a153ae1ef272775f436`.
 
-**f4r pasó las cinco particiones espaciales con el método fijado en el protocolo 64.** Se construyeron 64 polígonos candidatos adicionales, sin cambiar las 280 referencias antiguas ni borrar el rechazo del ensayo 63. El resultado es una mejora geométrica de desarrollo. No se entrenó otro reconocedor ni se obtuvo una traducción.
+**f4r pasó las cinco particiones espaciales con el método fijado en el protocolo 64.** Se construyeron 64 polígonos candidatos adicionales, sin cambiar las 280 referencias antiguas ni borrar el rechazo del ensayo 63. Después se ejecutó una construcción uniforme v2 que aplica el mismo método en las cuatro páginas y conserva 344 polígonos candidatos de 345 registros. El resultado es una mejora geométrica de desarrollo. No se entrenó otro reconocedor ni se obtuvo una traducción.
 
 ## Comparación emparejada
 
@@ -55,7 +55,36 @@ Se verificó el ZIP de 927.369 bytes contra el digest de GitHub, SHA-256 `82b97a
 
 ## Versión uniforme para revisar antes de entrenar
 
-El [protocolo 66](66_uniform_local_reference_protocol.md) fija la construcción posterior de una versión nueva con el mismo método en las cuatro páginas, consumiendo la evidencia congelada de este ensayo. No modifica los archivos antiguos ni agrega otra puntuación de validación. Estado al publicar el protocolo de construcción: **NOT_RUN**. Su resultado se incorporará una vez ejecutado y auditado.
+El [protocolo 66](66_uniform_local_reference_protocol.md) se fijó después de conocer la comparación anterior y antes de construir una versión nueva con el mismo método en las cuatro páginas. La [construcción 40534366778](https://github.com/MedinaParra/Voynich/actions/runs/40534366778), commit `9faf360fcdcce7cfb1714eb0c3794b945e717f7d`, terminó correctamente. Consume los veinte casos ya congelados; no los vuelve a ejecutar ni agrega reservas o puntuaciones de validación.
+
+Se ajustaron los mapas completos de f3r, f3v y f4v con el mismo procedimiento validado en desarrollo. Se reutilizó el modelo final de f4r; la auditoría reprodujo sus 64 polígonos. Los archivos de referencias históricas permanecen intactos y la versión v2 se guarda en otra ubicación.
+
+| Página | Registros de fuente | Polígonos candidatos v2 | Exclusión |
+| --- | ---: | ---: | --- |
+| f3r | 115 | 114 | Índice 2, ancho original cero |
+| f3v | 83 | 83 | Ninguna de geometría |
+| f4r | 64 | 64 | Ninguna de geometría |
+| f4v | 83 | 83 | Ninguna de geometría |
+| **Total** | **345** | **344** | **Una caja original no completada** |
+
+Cada mapa pasó la comprobación de cuadrícula y cada polígono candidato es convexo, mantiene orientación y queda dentro del encuadre Yale. Se preservan los 345 registros, incluido el excluido. Esto describe geometría; no certifica que cada caja encierre todos y sólo los trazos de su lectura.
+
+Se inspeccionaron ocho superposiciones —cuatro vistas generales y cuatro detalles superiores—. Las cajas siguen aproximadamente la escritura; quedan solapes, límites próximos a trazos y pintura cerca de algunas palabras. Los números azules señalan los índices de palabra usados en el catálogo. No se revisaron las 344 lecturas una por una y no hubo una nueva revisión experta independiente. [Notas de revisión](results/local_reference_v2/visual_review.json).
+
+La [auditoría de la construcción](code/audit_uniform_local_reference.py) recalculó los cuatro campos, cuadrículas, coordenadas, textos originales y todos los polígonos, incluida la reproducción de f4r: **2.219 comprobaciones, cero discrepancias**. No volvió a ajustar OpenCV ni validó las correspondencias del detector o las lecturas como referencia experta. [Resultado](results/local_reference_v2/audit.json).
+
+La evidencia v2 incluye [los registros de palabra](results/local_reference_v2/word_polygons.json), [modelos y anclas](results/local_reference_v2/models.json), [cuadrículas](results/local_reference_v2/orientation_grids.json), [resultado de construcción](results/local_reference_v2/result.json) y [procedencia](results/local_reference_v2/provenance.json). Superposiciones de [f3r](results/local_reference_v2/overlays/f3r.jpg), [f3v](results/local_reference_v2/overlays/f3v.jpg), [f4r](results/local_reference_v2/overlays/f4r.jpg) y [f4v](results/local_reference_v2/overlays/f4v.jpg), con detalles en la misma carpeta.
+
+Se verificó el ZIP v2 de 3.021.584 bytes contra GitHub, SHA-256 `618d19d2f343456786321e4ea8ce5854e24c75eb1f6e097628ac44bf0ed579c0`. Sus doce archivos se preservan en el repositorio. La retención del artefacto indica 26 de noviembre de 2026. La comparación y esta construcción son **dos ejecuciones con objetivos distintos**, no dos réplicas independientes de validación.
+
+```bash
+python research_gpt6/code/build_uniform_local_reference.py \
+  --plan research_gpt6/data/local_reference_v2_plan.json \
+  --repo research_gpt6 --out work/local_reference_v2
+python research_gpt6/code/audit_uniform_local_reference.py \
+  --bundle work/local_reference_v2 --repo research_gpt6 \
+  --output work/local_reference_v2_audit.json
+```
 
 El error de reconocimiento anterior sigue en **73,8197 % de unidades convencionales Boxer**. No se ha medido todavía el OCR con estos candidatos EVA; las dos notaciones tampoco se equiparan automáticamente. La lengua y el significado del manuscrito siguen sin resolver.
 

@@ -1,0 +1,63 @@
+{
+  "date": "2026-10-27",
+  "status": "CANDIDATE_REFERENCE_V2_GEOMETRY_CHECKED_NOT_EXPERT_VALIDATED",
+  "plan_sha256": "f7f602e4b9d44f76ce0545932de71be2360a356ed4ee00cf8d180ab9386afca1",
+  "source_cv_run": "40531601364",
+  "source_cv_result_sha256": "4bd91faec0b5a01c464034f7b75cd14484d74c780cd3212ba6e18e6e43db11fa",
+  "source_cv_cases_sha256": "0f5cbbda0a9302a79f680fa1291d1b2bdcc74474823fb8243d1dd277866c9216",
+  "method_sha256": "f8411c34f4b7b3e666b68d76de5e2357cf68dedfbf68a56c4b1916fc950271de",
+  "pages": [
+    {
+      "folio": "f3r",
+      "source_words": 115,
+      "candidate_polygons": 114,
+      "grid_positive": true,
+      "full_fit_correspondences": 796,
+      "model_reused": false
+    },
+    {
+      "folio": "f3v",
+      "source_words": 83,
+      "candidate_polygons": 83,
+      "grid_positive": true,
+      "full_fit_correspondences": 608,
+      "model_reused": false
+    },
+    {
+      "folio": "f4r",
+      "source_words": 64,
+      "candidate_polygons": 64,
+      "grid_positive": true,
+      "full_fit_correspondences": 414,
+      "model_reused": true
+    },
+    {
+      "folio": "f4v",
+      "source_words": 83,
+      "candidate_polygons": 83,
+      "grid_positive": true,
+      "full_fit_correspondences": 588,
+      "model_reused": false
+    }
+  ],
+  "source_records": 345,
+  "unique_source_records": 345,
+  "candidate_word_polygons": 344,
+  "source_zero_width_exclusions": 1,
+  "new_full_homography_fits": 3,
+  "previous_f4r_model_reused": true,
+  "old_reference_files_modified": false,
+  "new_validation_cases": 0,
+  "source_case_gates_required": 20,
+  "run_id": "40534366778",
+  "execution_commit": "9faf360fcdcce7cfb1714eb0c3794b945e717f7d",
+  "environment": {
+    "opencv-python-headless": "4.12.0.88",
+    "numpy": "2.2.6",
+    "pillow": "12.3.0"
+  },
+  "scope": "Post-evaluation construction of provisional geometry in four previously explored pages. Uses the already reported20 spatial cases; no new validation sample or expert reading.",
+  "expert_review": "NOT_REVIEWED",
+  "new_ocr_training": "NOT_RUN",
+  "translation": "NOT_RUN"
+}

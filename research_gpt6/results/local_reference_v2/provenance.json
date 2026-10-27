@@ -1,0 +1,38 @@
+{
+  "date": "2026-10-27",
+  "repository": "MedinaParra/Voynich",
+  "branch": "experiment/kraken-voynich",
+  "construction_run": 40534366778,
+  "construction_job": 122295460621,
+  "construction_commit": "9faf360fcdcce7cfb1714eb0c3794b945e717f7d",
+  "workflow_conclusion": "success",
+  "source_comparison_run": 40531601364,
+  "source_comparison_commit": "b73fcbb472891c9ef75b5a153ae1ef272775f436",
+  "new_validation_cases": 0,
+  "artifact": {
+    "id": 12747566732,
+    "bytes": 3021584,
+    "sha256": "618d19d2f343456786321e4ea8ce5854e24c75eb1f6e097628ac44bf0ed579c0",
+    "zip_hash_verified": true,
+    "files": 12,
+    "expires_at": "2026-11-26T15:47:09Z"
+  },
+  "source_records": 345,
+  "candidate_polygons": 344,
+  "exclusions": [
+    {
+      "folio": "f3r",
+      "index": 2,
+      "reason": "source_nonpositive_width"
+    }
+  ],
+  "new_full_global_fits": 3,
+  "previous_f4r_final_model_reused": true,
+  "previous_reference_files_modified": false,
+  "export_audit_checks": 2219,
+  "export_audit_mismatches": 0,
+  "scope": "Uniform versioned candidate geometry derived after the comparison, not a new blinded validation, expert annotation or OCR evaluation.",
+  "expert_review": "NOT_REVIEWED",
+  "new_ocr_training": "NOT_RUN",
+  "translation": "NOT_RUN"
+}

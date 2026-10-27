@@ -1,0 +1,24 @@
+{
+  "date": "2026-10-27",
+  "reviewer": "Assistant single visual review, not independent expert",
+  "views_inspected": [
+    "f3r_overview",
+    "f3v_overview",
+    "f4r_overview",
+    "f4v_overview",
+    "f3r_upper_detail",
+    "f3v_upper_detail",
+    "f4r_upper_detail",
+    "f4v_upper_detail"
+  ],
+  "views_count": 8,
+  "word_readings_verified_one_by_one": false,
+  "observations": [
+    "Candidate boxes approximately follow the writing in the four pages.",
+    "Overlaps, boundaries close to strokes and painting near some writing remain visible.",
+    "Coordinate mapping does not certify ink ownership, source word boundaries or readings.",
+    "One original source zero-width record remains excluded."
+  ],
+  "expert_review": "NOT_REVIEWED",
+  "translation": "NOT_RUN"
+}

@@ -1,0 +1,24 @@
+{
+  "status": "PASS_UNIFORM_CANDIDATE_EXPORT_AUDIT",
+  "checks": 2219,
+  "mismatches": [],
+  "candidate_polygons_by_folio": {
+    "f3r": 114,
+    "f3v": 83,
+    "f4r": 64,
+    "f4v": 83
+  },
+  "source_records": 345,
+  "candidate_polygons": 344,
+  "exclusions": [
+    {
+      "folio": "f3r",
+      "index": 2,
+      "reason": "source_nonpositive_width"
+    }
+  ],
+  "scope": "Frozen evidence, four local fields, grid orientation, original EVA/boxes, every candidate polygon and f4r replay recomputed. No new OpenCV fit or expert validation of image matches or readings.",
+  "expert_review": "NOT_REVIEWED",
+  "new_ocr_training": "NOT_RUN",
+  "translation": "NOT_RUN"
+}
