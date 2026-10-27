@@ -1,0 +1,5611 @@
+{
+  "date": "2026-10-27",
+  "old_xml_archive_sha256": "402d99ca8191ae53a4f25912ee0af0a7e6b6d9a3714b2beaf86404a27d5b7ad5",
+  "scope": "Geometry and identical EVA sequence verified between two data serializations; no independent expert reading.",
+  "pages": [
+    {
+      "folio": "f3r",
+      "xml_frame": [
+        1069,
+        1500
+      ],
+      "preview_size": [
+        636,
+        900
+      ],
+      "preview_path": "results/voynichese_registration/inputs/f3r.jpg",
+      "preview_sha256": "cf48df01a216da036bee3c383b1f8c6206eabc4190903d73f8035a75442cd1b6",
+      "xml_path": "results/voynichese_registration/inputs/f3r.xml",
+      "xml_sha256": "0531142bcd147d93940ef947fa6fd1ee77d6ae8be7bbf5fe190ce396f67481ad",
+      "preview_data_path": "results/voynichese_registration/inputs/f3r.json",
+      "preview_data_sha256": "e7c39bb72c3c9845a71b4280ecdbb398003ea4b690ce0408039dcc3a6d742a75",
+      "yale_path": "results/kraken_crop_repair/source_cache/images/3r.jpg",
+      "yale_sha256": "8fc1f1a8af0742c309d0ac8ae7e7e10f7f0f970f588361434885328f84c7a55b",
+      "words": [
+        {
+          "index": 0,
+          "eva": "tsheos",
+          "xml_bbox": [
+            119,
+            210,
+            83,
+            42
+          ],
+          "preview_bbox": [
+            36,
+            99,
+            63,
+            33
+          ]
+        },
+        {
+          "index": 1,
+          "eva": "qopal",
+          "xml_bbox": [
+            211,
+            200,
+            68,
+            61
+          ],
+          "preview_bbox": [
+            102,
+            93,
+            51,
+            45
+          ]
+        },
+        {
+          "index": 2,
+          "eva": "chol",
+          "xml_bbox": [
+            294,
+            223,
+            0,
+            18
+          ],
+          "preview_bbox": [
+            162,
+            108,
+            3,
+            18
+          ]
+        },
+        {
+          "index": 3,
+          "eva": "cthol",
+          "xml_bbox": [
+            355,
+            196,
+            65,
+            42
+          ],
+          "preview_bbox": [
+            204,
+            90,
+            51,
+            33
+          ]
+        },
+        {
+          "index": 4,
+          "eva": "daimm",
+          "xml_bbox": [
+            429,
+            207,
+            69,
+            38
+          ],
+          "preview_bbox": [
+            258,
+            99,
+            51,
+            30
+          ]
+        },
+        {
+          "index": 5,
+          "eva": "ycheor",
+          "xml_bbox": [
+            123,
+            252,
+            71,
+            42
+          ],
+          "preview_bbox": [
+            39,
+            129,
+            54,
+            33
+          ]
+        },
+        {
+          "index": 6,
+          "eva": "chor",
+          "xml_bbox": [
+            204,
+            248,
+            51,
+            24
+          ],
+          "preview_bbox": [
+            96,
+            126,
+            42,
+            21
+          ]
+        },
+        {
+          "index": 7,
+          "eva": "dam",
+          "xml_bbox": [
+            265,
+            249,
+            47,
+            29
+          ],
+          "preview_bbox": [
+            141,
+            129,
+            36,
+            21
+          ]
+        },
+        {
+          "index": 8,
+          "eva": "qotcham",
+          "xml_bbox": [
+            327,
+            237,
+            105,
+            44
+          ],
+          "preview_bbox": [
+            186,
+            120,
+            75,
+            33
+          ]
+        },
+        {
+          "index": 9,
+          "eva": "cham",
+          "xml_bbox": [
+            445,
+            245,
+            52,
+            29
+          ],
+          "preview_bbox": [
+            270,
+            126,
+            39,
+            24
+          ]
+        },
+        {
+          "index": 10,
+          "eva": "ochor",
+          "xml_bbox": [
+            128,
+            279,
+            67,
+            33
+          ],
+          "preview_bbox": [
+            42,
+            150,
+            51,
+            27
+          ]
+        },
+        {
+          "index": 11,
+          "eva": "qocheor",
+          "xml_bbox": [
+            205,
+            278,
+            93,
+            40
+          ],
+          "preview_bbox": [
+            99,
+            150,
+            69,
+            30
+          ]
+        },
+        {
+          "index": 12,
+          "eva": "chol",
+          "xml_bbox": [
+            314,
+            282,
+            53,
+            31
+          ],
+          "preview_bbox": [
+            177,
+            150,
+            39,
+            27
+          ]
+        },
+        {
+          "index": 13,
+          "eva": "daiin",
+          "xml_bbox": [
+            384,
+            270,
+            60,
+            26
+          ],
+          "preview_bbox": [
+            225,
+            144,
+            45,
+            21
+          ]
+        },
+        {
+          "index": 14,
+          "eva": "cthy",
+          "xml_bbox": [
+            456,
+            263,
+            47,
+            38
+          ],
+          "preview_bbox": [
+            276,
+            138,
+            36,
+            30
+          ]
+        },
+        {
+          "index": 15,
+          "eva": "schey",
+          "xml_bbox": [
+            119,
+            321,
+            71,
+            20
+          ],
+          "preview_bbox": [
+            36,
+            180,
+            54,
+            15
+          ]
+        },
+        {
+          "index": 16,
+          "eva": "chor",
+          "xml_bbox": [
+            210,
+            311,
+            48,
+            23
+          ],
+          "preview_bbox": [
+            102,
+            171,
+            36,
+            21
+          ]
+        },
+        {
+          "index": 17,
+          "eva": "chal",
+          "xml_bbox": [
+            268,
+            315,
+            52,
+            21
+          ],
+          "preview_bbox": [
+            144,
+            174,
+            39,
+            18
+          ]
+        },
+        {
+          "index": 18,
+          "eva": "cham",
+          "xml_bbox": [
+            332,
+            304,
+            53,
+            36
+          ],
+          "preview_bbox": [
+            189,
+            168,
+            39,
+            27
+          ]
+        },
+        {
+          "index": 19,
+          "eva": "cham",
+          "xml_bbox": [
+            393,
+            301,
+            57,
+            27
+          ],
+          "preview_bbox": [
+            231,
+            165,
+            45,
+            21
+          ]
+        },
+        {
+          "index": 20,
+          "eva": "cho",
+          "xml_bbox": [
+            465,
+            307,
+            40,
+            13
+          ],
+          "preview_bbox": [
+            282,
+            168,
+            33,
+            12
+          ]
+        },
+        {
+          "index": 21,
+          "eva": "qokol",
+          "xml_bbox": [
+            126,
+            337,
+            69,
+            45
+          ],
+          "preview_bbox": [
+            42,
+            189,
+            51,
+            36
+          ]
+        },
+        {
+          "index": 22,
+          "eva": "chololy",
+          "xml_bbox": [
+            216,
+            344,
+            91,
+            23
+          ],
+          "preview_bbox": [
+            105,
+            195,
+            69,
+            21
+          ]
+        },
+        {
+          "index": 23,
+          "eva": "s",
+          "xml_bbox": [
+            319,
+            333,
+            16,
+            21
+          ],
+          "preview_bbox": [
+            180,
+            189,
+            12,
+            18
+          ]
+        },
+        {
+          "index": 24,
+          "eva": "cham",
+          "xml_bbox": [
+            346,
+            332,
+            57,
+            30
+          ],
+          "preview_bbox": [
+            198,
+            186,
+            45,
+            24
+          ]
+        },
+        {
+          "index": 25,
+          "eva": "cthol",
+          "xml_bbox": [
+            415,
+            328,
+            69,
+            25
+          ],
+          "preview_bbox": [
+            246,
+            183,
+            54,
+            21
+          ]
+        },
+        {
+          "index": 26,
+          "eva": "ychtaiin",
+          "xml_bbox": [
+            131,
+            365,
+            97,
+            47
+          ],
+          "preview_bbox": [
+            45,
+            210,
+            72,
+            36
+          ]
+        },
+        {
+          "index": 27,
+          "eva": "chor",
+          "xml_bbox": [
+            244,
+            367,
+            56,
+            25
+          ],
+          "preview_bbox": [
+            126,
+            213,
+            42,
+            21
+          ]
+        },
+        {
+          "index": 28,
+          "eva": "cthom",
+          "xml_bbox": [
+            308,
+            357,
+            75,
+            38
+          ],
+          "preview_bbox": [
+            171,
+            204,
+            57,
+            30
+          ]
+        },
+        {
+          "index": 29,
+          "eva": "otal",
+          "xml_bbox": [
+            396,
+            354,
+            53,
+            36
+          ],
+          "preview_bbox": [
+            234,
+            204,
+            39,
+            27
+          ]
+        },
+        {
+          "index": 30,
+          "eva": "dam",
+          "xml_bbox": [
+            452,
+            355,
+            40,
+            35
+          ],
+          "preview_bbox": [
+            273,
+            204,
+            33,
+            27
+          ]
+        },
+        {
+          "index": 31,
+          "eva": "otchol",
+          "xml_bbox": [
+            133,
+            400,
+            69,
+            32
+          ],
+          "preview_bbox": [
+            48,
+            234,
+            51,
+            27
+          ]
+        },
+        {
+          "index": 32,
+          "eva": "qodaiin",
+          "xml_bbox": [
+            207,
+            402,
+            91,
+            37
+          ],
+          "preview_bbox": [
+            99,
+            237,
+            69,
+            30
+          ]
+        },
+        {
+          "index": 33,
+          "eva": "chom",
+          "xml_bbox": [
+            310,
+            401,
+            51,
+            30
+          ],
+          "preview_bbox": [
+            174,
+            237,
+            39,
+            24
+          ]
+        },
+        {
+          "index": 34,
+          "eva": "shom",
+          "xml_bbox": [
+            373,
+            391,
+            50,
+            43
+          ],
+          "preview_bbox": [
+            216,
+            228,
+            39,
+            33
+          ]
+        },
+        {
+          "index": 35,
+          "eva": "damo",
+          "xml_bbox": [
+            433,
+            391,
+            57,
+            34
+          ],
+          "preview_bbox": [
+            261,
+            228,
+            42,
+            27
+          ]
+        },
+        {
+          "index": 36,
+          "eva": "ysheor",
+          "xml_bbox": [
+            125,
+            435,
+            83,
+            38
+          ],
+          "preview_bbox": [
+            42,
+            261,
+            60,
+            30
+          ]
+        },
+        {
+          "index": 37,
+          "eva": "chor",
+          "xml_bbox": [
+            221,
+            429,
+            54,
+            26
+          ],
+          "preview_bbox": [
+            108,
+            255,
+            42,
+            21
+          ]
+        },
+        {
+          "index": 38,
+          "eva": "chol",
+          "xml_bbox": [
+            288,
+            431,
+            54,
+            25
+          ],
+          "preview_bbox": [
+            156,
+            258,
+            42,
+            21
+          ]
+        },
+        {
+          "index": 39,
+          "eva": "oky",
+          "xml_bbox": [
+            368,
+            416,
+            43,
+            42
+          ],
+          "preview_bbox": [
+            213,
+            246,
+            33,
+            33
+          ]
+        },
+        {
+          "index": 40,
+          "eva": "damo",
+          "xml_bbox": [
+            424,
+            425,
+            54,
+            31
+          ],
+          "preview_bbox": [
+            255,
+            252,
+            39,
+            27
+          ]
+        },
+        {
+          "index": 41,
+          "eva": "sho",
+          "xml_bbox": [
+            133,
+            474,
+            42,
+            13
+          ],
+          "preview_bbox": [
+            48,
+            288,
+            33,
+            12
+          ]
+        },
+        {
+          "index": 42,
+          "eva": "or",
+          "xml_bbox": [
+            192,
+            458,
+            37,
+            29
+          ],
+          "preview_bbox": [
+            90,
+            276,
+            27,
+            24
+          ]
+        },
+        {
+          "index": 43,
+          "eva": "sheoldam",
+          "xml_bbox": [
+            240,
+            457,
+            109,
+            28
+          ],
+          "preview_bbox": [
+            123,
+            276,
+            81,
+            24
+          ]
+        },
+        {
+          "index": 44,
+          "eva": "otchody",
+          "xml_bbox": [
+            360,
+            450,
+            85,
+            28
+          ],
+          "preview_bbox": [
+            207,
+            270,
+            66,
+            24
+          ]
+        },
+        {
+          "index": 45,
+          "eva": "ol",
+          "xml_bbox": [
+            455,
+            460,
+            26,
+            25
+          ],
+          "preview_bbox": [
+            276,
+            279,
+            21,
+            21
+          ]
+        },
+        {
+          "index": 46,
+          "eva": "ydas",
+          "xml_bbox": [
+            120,
+            488,
+            69,
+            37
+          ],
+          "preview_bbox": [
+            39,
+            297,
+            51,
+            30
+          ]
+        },
+        {
+          "index": 47,
+          "eva": "chol",
+          "xml_bbox": [
+            196,
+            499,
+            49,
+            26
+          ],
+          "preview_bbox": [
+            93,
+            306,
+            36,
+            21
+          ]
+        },
+        {
+          "index": 48,
+          "eva": "cthom",
+          "xml_bbox": [
+            248,
+            485,
+            65,
+            43
+          ],
+          "preview_bbox": [
+            129,
+            297,
+            48,
+            33
+          ]
+        },
+        {
+          "index": 49,
+          "eva": "pcheol",
+          "xml_bbox": [
+            107,
+            628,
+            89,
+            49
+          ],
+          "preview_bbox": [
+            27,
+            396,
+            69,
+            39
+          ]
+        },
+        {
+          "index": 50,
+          "eva": "shol",
+          "xml_bbox": [
+            206,
+            647,
+            52,
+            34
+          ],
+          "preview_bbox": [
+            99,
+            411,
+            39,
+            27
+          ]
+        },
+        {
+          "index": 51,
+          "eva": "sols",
+          "xml_bbox": [
+            272,
+            643,
+            58,
+            34
+          ],
+          "preview_bbox": [
+            147,
+            408,
+            42,
+            27
+          ]
+        },
+        {
+          "index": 52,
+          "eva": "sheol",
+          "xml_bbox": [
+            347,
+            648,
+            61,
+            30
+          ],
+          "preview_bbox": [
+            198,
+            411,
+            48,
+            24
+          ]
+        },
+        {
+          "index": 53,
+          "eva": "shey",
+          "xml_bbox": [
+            412,
+            649,
+            55,
+            36
+          ],
+          "preview_bbox": [
+            246,
+            411,
+            42,
+            30
+          ]
+        },
+        {
+          "index": 54,
+          "eva": "okadaiin",
+          "xml_bbox": [
+            127,
+            677,
+            98,
+            28
+          ],
+          "preview_bbox": [
+            42,
+            432,
+            72,
+            24
+          ]
+        },
+        {
+          "index": 55,
+          "eva": "qokchor",
+          "xml_bbox": [
+            242,
+            677,
+            101,
+            33
+          ],
+          "preview_bbox": [
+            123,
+            432,
+            75,
+            27
+          ]
+        },
+        {
+          "index": 56,
+          "eva": "qoschodam",
+          "xml_bbox": [
+            352,
+            682,
+            122,
+            33
+          ],
+          "preview_bbox": [
+            204,
+            435,
+            87,
+            27
+          ]
+        },
+        {
+          "index": 57,
+          "eva": "octhy",
+          "xml_bbox": [
+            485,
+            676,
+            64,
+            43
+          ],
+          "preview_bbox": [
+            297,
+            432,
+            48,
+            33
+          ]
+        },
+        {
+          "index": 58,
+          "eva": "qokeey",
+          "xml_bbox": [
+            125,
+            707,
+            69,
+            29
+          ],
+          "preview_bbox": [
+            42,
+            453,
+            51,
+            24
+          ]
+        },
+        {
+          "index": 59,
+          "eva": "qot",
+          "xml_bbox": [
+            201,
+            705,
+            56,
+            36
+          ],
+          "preview_bbox": [
+            96,
+            453,
+            42,
+            27
+          ]
+        },
+        {
+          "index": 60,
+          "eva": "shey",
+          "xml_bbox": [
+            258,
+            711,
+            47,
+            22
+          ],
+          "preview_bbox": [
+            135,
+            456,
+            36,
+            18
+          ]
+        },
+        {
+          "index": 61,
+          "eva": "qokody",
+          "xml_bbox": [
+            312,
+            704,
+            87,
+            34
+          ],
+          "preview_bbox": [
+            174,
+            450,
+            66,
+            30
+          ]
+        },
+        {
+          "index": 62,
+          "eva": "qokchey",
+          "xml_bbox": [
+            403,
+            704,
+            107,
+            40
+          ],
+          "preview_bbox": [
+            240,
+            450,
+            78,
+            33
+          ]
+        },
+        {
+          "index": 63,
+          "eva": "cheody",
+          "xml_bbox": [
+            521,
+            710,
+            79,
+            35
+          ],
+          "preview_bbox": [
+            324,
+            456,
+            57,
+            27
+          ]
+        },
+        {
+          "index": 64,
+          "eva": "chor",
+          "xml_bbox": [
+            129,
+            736,
+            52,
+            26
+          ],
+          "preview_bbox": [
+            45,
+            474,
+            39,
+            21
+          ]
+        },
+        {
+          "index": 65,
+          "eva": "qodair",
+          "xml_bbox": [
+            185,
+            741,
+            71,
+            34
+          ],
+          "preview_bbox": [
+            84,
+            477,
+            54,
+            27
+          ]
+        },
+        {
+          "index": 66,
+          "eva": "okeey",
+          "xml_bbox": [
+            268,
+            733,
+            63,
+            33
+          ],
+          "preview_bbox": [
+            144,
+            471,
+            48,
+            27
+          ]
+        },
+        {
+          "index": 67,
+          "eva": "qokeey",
+          "xml_bbox": [
+            341,
+            731,
+            79,
+            50
+          ],
+          "preview_bbox": [
+            195,
+            471,
+            60,
+            39
+          ]
+        },
+        {
+          "index": 68,
+          "eva": "tsheoarom",
+          "xml_bbox": [
+            121,
+            766,
+            135,
+            58
+          ],
+          "preview_bbox": [
+            39,
+            495,
+            99,
+            45
+          ]
+        },
+        {
+          "index": 69,
+          "eva": "shor",
+          "xml_bbox": [
+            276,
+            785,
+            52,
+            26
+          ],
+          "preview_bbox": [
+            150,
+            510,
+            39,
+            21
+          ]
+        },
+        {
+          "index": 70,
+          "eva": "or",
+          "xml_bbox": [
+            337,
+            783,
+            34,
+            26
+          ],
+          "preview_bbox": [
+            192,
+            507,
+            27,
+            21
+          ]
+        },
+        {
+          "index": 71,
+          "eva": "chor",
+          "xml_bbox": [
+            382,
+            783,
+            55,
+            26
+          ],
+          "preview_bbox": [
+            225,
+            507,
+            42,
+            21
+          ]
+        },
+        {
+          "index": 72,
+          "eva": "olchsy",
+          "xml_bbox": [
+            448,
+            779,
+            81,
+            32
+          ],
+          "preview_bbox": [
+            270,
+            504,
+            60,
+            27
+          ]
+        },
+        {
+          "index": 73,
+          "eva": "chom",
+          "xml_bbox": [
+            545,
+            784,
+            52,
+            35
+          ],
+          "preview_bbox": [
+            339,
+            507,
+            42,
+            30
+          ]
+        },
+        {
+          "index": 74,
+          "eva": "otchom",
+          "xml_bbox": [
+            617,
+            764,
+            85,
+            46
+          ],
+          "preview_bbox": [
+            390,
+            495,
+            63,
+            36
+          ]
+        },
+        {
+          "index": 75,
+          "eva": "oporar",
+          "xml_bbox": [
+            769,
+            765,
+            87,
+            37
+          ],
+          "preview_bbox": [
+            498,
+            495,
+            66,
+            30
+          ]
+        },
+        {
+          "index": 76,
+          "eva": "oteol",
+          "xml_bbox": [
+            132,
+            812,
+            61,
+            36
+          ],
+          "preview_bbox": [
+            45,
+            528,
+            48,
+            30
+          ]
+        },
+        {
+          "index": 77,
+          "eva": "chol",
+          "xml_bbox": [
+            206,
+            828,
+            54,
+            20
+          ],
+          "preview_bbox": [
+            99,
+            540,
+            42,
+            18
+          ]
+        },
+        {
+          "index": 78,
+          "eva": "s",
+          "xml_bbox": [
+            269,
+            819,
+            16,
+            23
+          ],
+          "preview_bbox": [
+            144,
+            534,
+            15,
+            18
+          ]
+        },
+        {
+          "index": 79,
+          "eva": "cheol",
+          "xml_bbox": [
+            296,
+            824,
+            67,
+            28
+          ],
+          "preview_bbox": [
+            162,
+            537,
+            51,
+            24
+          ]
+        },
+        {
+          "index": 80,
+          "eva": "ekshy",
+          "xml_bbox": [
+            378,
+            810,
+            75,
+            31
+          ],
+          "preview_bbox": [
+            222,
+            528,
+            54,
+            24
+          ]
+        },
+        {
+          "index": 81,
+          "eva": "qokeom",
+          "xml_bbox": [
+            463,
+            811,
+            88,
+            37
+          ],
+          "preview_bbox": [
+            282,
+            528,
+            66,
+            30
+          ]
+        },
+        {
+          "index": 82,
+          "eva": "qokol",
+          "xml_bbox": [
+            564,
+            804,
+            80,
+            38
+          ],
+          "preview_bbox": [
+            354,
+            522,
+            60,
+            30
+          ]
+        },
+        {
+          "index": 83,
+          "eva": "daiin",
+          "xml_bbox": [
+            654,
+            811,
+            58,
+            21
+          ],
+          "preview_bbox": [
+            417,
+            528,
+            45,
+            18
+          ]
+        },
+        {
+          "index": 84,
+          "eva": "soleeg",
+          "xml_bbox": [
+            764,
+            807,
+            89,
+            29
+          ],
+          "preview_bbox": [
+            495,
+            525,
+            66,
+            24
+          ]
+        },
+        {
+          "index": 85,
+          "eva": "soeom",
+          "xml_bbox": [
+            126,
+            848,
+            75,
+            29
+          ],
+          "preview_bbox": [
+            42,
+            555,
+            57,
+            21
+          ]
+        },
+        {
+          "index": 86,
+          "eva": "okeom",
+          "xml_bbox": [
+            212,
+            841,
+            70,
+            40
+          ],
+          "preview_bbox": [
+            102,
+            549,
+            54,
+            30
+          ]
+        },
+        {
+          "index": 87,
+          "eva": "yteody",
+          "xml_bbox": [
+            286,
+            841,
+            95,
+            47
+          ],
+          "preview_bbox": [
+            156,
+            549,
+            69,
+            36
+          ]
+        },
+        {
+          "index": 88,
+          "eva": "qokeeo",
+          "xml_bbox": [
+            391,
+            841,
+            83,
+            40
+          ],
+          "preview_bbox": [
+            231,
+            549,
+            60,
+            30
+          ]
+        },
+        {
+          "index": 89,
+          "eva": "dal",
+          "xml_bbox": [
+            478,
+            848,
+            42,
+            33
+          ],
+          "preview_bbox": [
+            291,
+            555,
+            33,
+            24
+          ]
+        },
+        {
+          "index": 90,
+          "eva": "sam",
+          "xml_bbox": [
+            537,
+            843,
+            52,
+            50
+          ],
+          "preview_bbox": [
+            333,
+            549,
+            42,
+            39
+          ]
+        },
+        {
+          "index": 91,
+          "eva": "pcheoldom",
+          "xml_bbox": [
+            102,
+            877,
+            146,
+            63
+          ],
+          "preview_bbox": [
+            24,
+            573,
+            108,
+            48
+          ]
+        },
+        {
+          "index": 92,
+          "eva": "shodaiin",
+          "xml_bbox": [
+            270,
+            900,
+            98,
+            29
+          ],
+          "preview_bbox": [
+            144,
+            591,
+            72,
+            24
+          ]
+        },
+        {
+          "index": 93,
+          "eva": "qopchor",
+          "xml_bbox": [
+            381,
+            892,
+            104,
+            48
+          ],
+          "preview_bbox": [
+            222,
+            585,
+            78,
+            36
+          ]
+        },
+        {
+          "index": 94,
+          "eva": "qopol",
+          "xml_bbox": [
+            496,
+            894,
+            70,
+            48
+          ],
+          "preview_bbox": [
+            306,
+            585,
+            51,
+            39
+          ]
+        },
+        {
+          "index": 95,
+          "eva": "opchol",
+          "xml_bbox": [
+            574,
+            889,
+            78,
+            50
+          ],
+          "preview_bbox": [
+            360,
+            582,
+            60,
+            39
+          ]
+        },
+        {
+          "index": 96,
+          "eva": "qoty",
+          "xml_bbox": [
+            653,
+            899,
+            58,
+            47
+          ],
+          "preview_bbox": [
+            417,
+            591,
+            45,
+            36
+          ]
+        },
+        {
+          "index": 97,
+          "eva": "otolom",
+          "xml_bbox": [
+            766,
+            894,
+            95,
+            50
+          ],
+          "preview_bbox": [
+            498,
+            585,
+            69,
+            39
+          ]
+        },
+        {
+          "index": 98,
+          "eva": "otchor",
+          "xml_bbox": [
+            135,
+            930,
+            79,
+            34
+          ],
+          "preview_bbox": [
+            48,
+            612,
+            60,
+            27
+          ]
+        },
+        {
+          "index": 99,
+          "eva": "ol",
+          "xml_bbox": [
+            234,
+            949,
+            29,
+            24
+          ],
+          "preview_bbox": [
+            120,
+            627,
+            21,
+            18
+          ]
+        },
+        {
+          "index": 100,
+          "eva": "cheor",
+          "xml_bbox": [
+            269,
+            941,
+            61,
+            25
+          ],
+          "preview_bbox": [
+            144,
+            621,
+            45,
+            21
+          ]
+        },
+        {
+          "index": 101,
+          "eva": "qoeor",
+          "xml_bbox": [
+            345,
+            940,
+            67,
+            33
+          ],
+          "preview_bbox": [
+            198,
+            618,
+            51,
+            27
+          ]
+        },
+        {
+          "index": 102,
+          "eva": "dair",
+          "xml_bbox": [
+            431,
+            940,
+            51,
+            19
+          ],
+          "preview_bbox": [
+            258,
+            618,
+            39,
+            18
+          ]
+        },
+        {
+          "index": 103,
+          "eva": "qoteol",
+          "xml_bbox": [
+            494,
+            934,
+            86,
+            36
+          ],
+          "preview_bbox": [
+            303,
+            615,
+            66,
+            27
+          ]
+        },
+        {
+          "index": 104,
+          "eva": "qosaiin",
+          "xml_bbox": [
+            596,
+            941,
+            93,
+            34
+          ],
+          "preview_bbox": [
+            375,
+            621,
+            69,
+            27
+          ]
+        },
+        {
+          "index": 105,
+          "eva": "chor",
+          "xml_bbox": [
+            757,
+            939,
+            51,
+            23
+          ],
+          "preview_bbox": [
+            489,
+            618,
+            42,
+            21
+          ]
+        },
+        {
+          "index": 106,
+          "eva": "cthy",
+          "xml_bbox": [
+            814,
+            933,
+            54,
+            46
+          ],
+          "preview_bbox": [
+            531,
+            615,
+            42,
+            36
+          ]
+        },
+        {
+          "index": 107,
+          "eva": "ycheor",
+          "xml_bbox": [
+            117,
+            965,
+            99,
+            32
+          ],
+          "preview_bbox": [
+            36,
+            636,
+            72,
+            27
+          ]
+        },
+        {
+          "index": 108,
+          "eva": "chol",
+          "xml_bbox": [
+            236,
+            977,
+            47,
+            27
+          ],
+          "preview_bbox": [
+            120,
+            645,
+            36,
+            24
+          ]
+        },
+        {
+          "index": 109,
+          "eva": "odaiin",
+          "xml_bbox": [
+            301,
+            970,
+            81,
+            20
+          ],
+          "preview_bbox": [
+            165,
+            639,
+            63,
+            18
+          ]
+        },
+        {
+          "index": 110,
+          "eva": "chol",
+          "xml_bbox": [
+            397,
+            969,
+            51,
+            33
+          ],
+          "preview_bbox": [
+            234,
+            639,
+            39,
+            27
+          ]
+        },
+        {
+          "index": 111,
+          "eva": "s",
+          "xml_bbox": [
+            448,
+            967,
+            24,
+            19
+          ],
+          "preview_bbox": [
+            270,
+            639,
+            21,
+            15
+          ]
+        },
+        {
+          "index": 112,
+          "eva": "aiin",
+          "xml_bbox": [
+            481,
+            970,
+            46,
+            18
+          ],
+          "preview_bbox": [
+            294,
+            639,
+            36,
+            18
+          ]
+        },
+        {
+          "index": 113,
+          "eva": "okolor",
+          "xml_bbox": [
+            541,
+            960,
+            84,
+            30
+          ],
+          "preview_bbox": [
+            336,
+            633,
+            63,
+            24
+          ]
+        },
+        {
+          "index": 114,
+          "eva": "am",
+          "xml_bbox": [
+            629,
+            967,
+            32,
+            32
+          ],
+          "preview_bbox": [
+            399,
+            639,
+            27,
+            24
+          ]
+        }
+      ]
+    },
+    {
+      "folio": "f3v",
+      "xml_frame": [
+        1061,
+        1500
+      ],
+      "preview_size": [
+        636,
+        900
+      ],
+      "preview_path": "results/voynichese_registration/inputs/f3v.jpg",
+      "preview_sha256": "b90421790b54a3e04997f64cf8a9943245b1344d7103f3419f87377baffeac40",
+      "xml_path": "results/voynichese_registration/inputs/f3v.xml",
+      "xml_sha256": "9b5f2ff271cf0a38eb069d227c0375978e45e837b9485db5f2003985f2ba358a",
+      "preview_data_path": "results/voynichese_registration/inputs/f3v.json",
+      "preview_data_sha256": "d7d4f0a1f22978c2215169b86ec99bf7b814b30794343a10c175f4915a505fe9",
+      "yale_path": "results/kraken_crop_repair/source_cache/images/3v.jpg",
+      "yale_sha256": "3103e989e15ebeb9fe13313c27e60a3f335e92233a19b73dc8ff501c0e09263d",
+      "words": [
+        {
+          "index": 0,
+          "eva": "koaiin",
+          "xml_bbox": [
+            233,
+            170,
+            63,
+            43
+          ],
+          "preview_bbox": [
+            39,
+            78,
+            51,
+            36
+          ]
+        },
+        {
+          "index": 1,
+          "eva": "cphor",
+          "xml_bbox": [
+            305,
+            168,
+            55,
+            41
+          ],
+          "preview_bbox": [
+            96,
+            78,
+            42,
+            33
+          ]
+        },
+        {
+          "index": 2,
+          "eva": "qotoy",
+          "xml_bbox": [
+            371,
+            159,
+            71,
+            54
+          ],
+          "preview_bbox": [
+            144,
+            69,
+            57,
+            45
+          ]
+        },
+        {
+          "index": 3,
+          "eva": "sha",
+          "xml_bbox": [
+            453,
+            177,
+            39,
+            25
+          ],
+          "preview_bbox": [
+            207,
+            84,
+            33,
+            21
+          ]
+        },
+        {
+          "index": 4,
+          "eva": "ckhol",
+          "xml_bbox": [
+            501,
+            168,
+            59,
+            40
+          ],
+          "preview_bbox": [
+            243,
+            78,
+            48,
+            33
+          ]
+        },
+        {
+          "index": 5,
+          "eva": "ykoaiin",
+          "xml_bbox": [
+            576,
+            159,
+            87,
+            47
+          ],
+          "preview_bbox": [
+            300,
+            69,
+            69,
+            39
+          ]
+        },
+        {
+          "index": 6,
+          "eva": "s",
+          "xml_bbox": [
+            668,
+            173,
+            13,
+            26
+          ],
+          "preview_bbox": [
+            369,
+            81,
+            15,
+            21
+          ]
+        },
+        {
+          "index": 7,
+          "eva": "oly",
+          "xml_bbox": [
+            689,
+            180,
+            40,
+            26
+          ],
+          "preview_bbox": [
+            387,
+            87,
+            33,
+            21
+          ]
+        },
+        {
+          "index": 8,
+          "eva": "daiidy",
+          "xml_bbox": [
+            233,
+            219,
+            61,
+            23
+          ],
+          "preview_bbox": [
+            39,
+            114,
+            51,
+            21
+          ]
+        },
+        {
+          "index": 9,
+          "eva": "qoteeol",
+          "xml_bbox": [
+            304,
+            209,
+            95,
+            33
+          ],
+          "preview_bbox": [
+            93,
+            108,
+            75,
+            27
+          ]
+        },
+        {
+          "index": 10,
+          "eva": "okchor",
+          "xml_bbox": [
+            410,
+            209,
+            71,
+            28
+          ],
+          "preview_bbox": [
+            174,
+            108,
+            57,
+            24
+          ]
+        },
+        {
+          "index": 11,
+          "eva": "okor",
+          "xml_bbox": [
+            493,
+            209,
+            54,
+            28
+          ],
+          "preview_bbox": [
+            237,
+            108,
+            45,
+            24
+          ]
+        },
+        {
+          "index": 12,
+          "eva": "olytol",
+          "xml_bbox": [
+            557,
+            201,
+            81,
+            38
+          ],
+          "preview_bbox": [
+            285,
+            102,
+            66,
+            30
+          ]
+        },
+        {
+          "index": 13,
+          "eva": "dol",
+          "xml_bbox": [
+            648,
+            214,
+            40,
+            21
+          ],
+          "preview_bbox": [
+            354,
+            111,
+            33,
+            18
+          ]
+        },
+        {
+          "index": 14,
+          "eva": "dar",
+          "xml_bbox": [
+            694,
+            208,
+            47,
+            25
+          ],
+          "preview_bbox": [
+            390,
+            108,
+            39,
+            21
+          ]
+        },
+        {
+          "index": 15,
+          "eva": "okom",
+          "xml_bbox": [
+            233,
+            240,
+            51,
+            28
+          ],
+          "preview_bbox": [
+            39,
+            132,
+            42,
+            24
+          ]
+        },
+        {
+          "index": 16,
+          "eva": "chol",
+          "xml_bbox": [
+            301,
+            248,
+            47,
+            16
+          ],
+          "preview_bbox": [
+            93,
+            138,
+            36,
+            15
+          ]
+        },
+        {
+          "index": 17,
+          "eva": "shol",
+          "xml_bbox": [
+            364,
+            243,
+            50,
+            23
+          ],
+          "preview_bbox": [
+            141,
+            132,
+            39,
+            21
+          ]
+        },
+        {
+          "index": 18,
+          "eva": "seees",
+          "xml_bbox": [
+            428,
+            241,
+            59,
+            21
+          ],
+          "preview_bbox": [
+            189,
+            132,
+            48,
+            18
+          ]
+        },
+        {
+          "index": 19,
+          "eva": "chom",
+          "xml_bbox": [
+            502,
+            241,
+            70,
+            34
+          ],
+          "preview_bbox": [
+            243,
+            132,
+            57,
+            30
+          ]
+        },
+        {
+          "index": 20,
+          "eva": "cheeykam",
+          "xml_bbox": [
+            574,
+            235,
+            101,
+            36
+          ],
+          "preview_bbox": [
+            300,
+            126,
+            78,
+            33
+          ]
+        },
+        {
+          "index": 21,
+          "eva": "okai",
+          "xml_bbox": [
+            688,
+            232,
+            50,
+            29
+          ],
+          "preview_bbox": [
+            384,
+            126,
+            42,
+            24
+          ]
+        },
+        {
+          "index": 22,
+          "eva": "qodar",
+          "xml_bbox": [
+            229,
+            268,
+            65,
+            30
+          ],
+          "preview_bbox": [
+            36,
+            153,
+            54,
+            24
+          ]
+        },
+        {
+          "index": 23,
+          "eva": "ees",
+          "xml_bbox": [
+            307,
+            264,
+            44,
+            26
+          ],
+          "preview_bbox": [
+            96,
+            150,
+            36,
+            21
+          ]
+        },
+        {
+          "index": 24,
+          "eva": "eey",
+          "xml_bbox": [
+            363,
+            276,
+            39,
+            20
+          ],
+          "preview_bbox": [
+            138,
+            159,
+            33,
+            18
+          ]
+        },
+        {
+          "index": 25,
+          "eva": "kcheol",
+          "xml_bbox": [
+            417,
+            261,
+            72,
+            28
+          ],
+          "preview_bbox": [
+            180,
+            147,
+            57,
+            24
+          ]
+        },
+        {
+          "index": 26,
+          "eva": "okal",
+          "xml_bbox": [
+            509,
+            262,
+            56,
+            29
+          ],
+          "preview_bbox": [
+            249,
+            147,
+            45,
+            27
+          ]
+        },
+        {
+          "index": 27,
+          "eva": "do",
+          "xml_bbox": [
+            577,
+            271,
+            27,
+            19
+          ],
+          "preview_bbox": [
+            300,
+            156,
+            24,
+            15
+          ]
+        },
+        {
+          "index": 28,
+          "eva": "r",
+          "xml_bbox": [
+            611,
+            271,
+            20,
+            19
+          ],
+          "preview_bbox": [
+            327,
+            156,
+            18,
+            15
+          ]
+        },
+        {
+          "index": 29,
+          "eva": "chear",
+          "xml_bbox": [
+            644,
+            266,
+            67,
+            26
+          ],
+          "preview_bbox": [
+            351,
+            150,
+            54,
+            24
+          ]
+        },
+        {
+          "index": 30,
+          "eva": "een",
+          "xml_bbox": [
+            712,
+            263,
+            32,
+            25
+          ],
+          "preview_bbox": [
+            402,
+            150,
+            30,
+            21
+          ]
+        },
+        {
+          "index": 31,
+          "eva": "yeeear",
+          "xml_bbox": [
+            224,
+            298,
+            82,
+            37
+          ],
+          "preview_bbox": [
+            33,
+            174,
+            66,
+            33
+          ]
+        },
+        {
+          "index": 32,
+          "eva": "otchal",
+          "xml_bbox": [
+            324,
+            286,
+            83,
+            35
+          ],
+          "preview_bbox": [
+            108,
+            165,
+            66,
+            30
+          ]
+        },
+        {
+          "index": 33,
+          "eva": "eeor",
+          "xml_bbox": [
+            422,
+            296,
+            59,
+            21
+          ],
+          "preview_bbox": [
+            183,
+            174,
+            48,
+            18
+          ]
+        },
+        {
+          "index": 34,
+          "eva": "eear",
+          "xml_bbox": [
+            495,
+            297,
+            57,
+            20
+          ],
+          "preview_bbox": [
+            240,
+            174,
+            45,
+            18
+          ]
+        },
+        {
+          "index": 35,
+          "eva": "ckhy",
+          "xml_bbox": [
+            568,
+            293,
+            54,
+            27
+          ],
+          "preview_bbox": [
+            294,
+            171,
+            45,
+            24
+          ]
+        },
+        {
+          "index": 36,
+          "eva": "or",
+          "xml_bbox": [
+            231,
+            335,
+            27,
+            26
+          ],
+          "preview_bbox": [
+            39,
+            204,
+            24,
+            21
+          ]
+        },
+        {
+          "index": 37,
+          "eva": "cheor",
+          "xml_bbox": [
+            274,
+            329,
+            60,
+            29
+          ],
+          "preview_bbox": [
+            72,
+            198,
+            48,
+            27
+          ]
+        },
+        {
+          "index": 38,
+          "eva": "kor",
+          "xml_bbox": [
+            349,
+            317,
+            44,
+            34
+          ],
+          "preview_bbox": [
+            129,
+            189,
+            36,
+            30
+          ]
+        },
+        {
+          "index": 39,
+          "eva": "chodaly",
+          "xml_bbox": [
+            409,
+            322,
+            92,
+            45
+          ],
+          "preview_bbox": [
+            174,
+            192,
+            72,
+            39
+          ]
+        },
+        {
+          "index": 40,
+          "eva": "chom",
+          "xml_bbox": [
+            514,
+            322,
+            56,
+            58
+          ],
+          "preview_bbox": [
+            252,
+            192,
+            48,
+            48
+          ]
+        },
+        {
+          "index": 41,
+          "eva": "tchor",
+          "xml_bbox": [
+            224,
+            372,
+            75,
+            50
+          ],
+          "preview_bbox": [
+            33,
+            231,
+            60,
+            42
+          ]
+        },
+        {
+          "index": 42,
+          "eva": "otcham",
+          "xml_bbox": [
+            309,
+            378,
+            85,
+            40
+          ],
+          "preview_bbox": [
+            99,
+            237,
+            66,
+            33
+          ]
+        },
+        {
+          "index": 43,
+          "eva": "chor",
+          "xml_bbox": [
+            414,
+            384,
+            50,
+            28
+          ],
+          "preview_bbox": [
+            177,
+            240,
+            42,
+            24
+          ]
+        },
+        {
+          "index": 44,
+          "eva": "cfham",
+          "xml_bbox": [
+            471,
+            372,
+            75,
+            41
+          ],
+          "preview_bbox": [
+            222,
+            231,
+            60,
+            33
+          ]
+        },
+        {
+          "index": 45,
+          "eva": "s",
+          "xml_bbox": [
+            555,
+            383,
+            16,
+            27
+          ],
+          "preview_bbox": [
+            285,
+            240,
+            15,
+            24
+          ]
+        },
+        {
+          "index": 46,
+          "eva": "ykchy",
+          "xml_bbox": [
+            229,
+            422,
+            68,
+            46
+          ],
+          "preview_bbox": [
+            36,
+            270,
+            57,
+            36
+          ]
+        },
+        {
+          "index": 47,
+          "eva": "kchom",
+          "xml_bbox": [
+            307,
+            418,
+            67,
+            38
+          ],
+          "preview_bbox": [
+            96,
+            267,
+            54,
+            30
+          ]
+        },
+        {
+          "index": 48,
+          "eva": "chor",
+          "xml_bbox": [
+            389,
+            421,
+            53,
+            25
+          ],
+          "preview_bbox": [
+            159,
+            267,
+            42,
+            24
+          ]
+        },
+        {
+          "index": 49,
+          "eva": "chekeol",
+          "xml_bbox": [
+            457,
+            413,
+            84,
+            29
+          ],
+          "preview_bbox": [
+            210,
+            261,
+            66,
+            27
+          ]
+        },
+        {
+          "index": 50,
+          "eva": "oka",
+          "xml_bbox": [
+            552,
+            414,
+            45,
+            27
+          ],
+          "preview_bbox": [
+            282,
+            264,
+            36,
+            24
+          ]
+        },
+        {
+          "index": 51,
+          "eva": "ytcheear",
+          "xml_bbox": [
+            214,
+            456,
+            128,
+            47
+          ],
+          "preview_bbox": [
+            27,
+            294,
+            99,
+            39
+          ]
+        },
+        {
+          "index": 52,
+          "eva": "okeol",
+          "xml_bbox": [
+            364,
+            444,
+            68,
+            32
+          ],
+          "preview_bbox": [
+            141,
+            285,
+            54,
+            27
+          ]
+        },
+        {
+          "index": 53,
+          "eva": "cthodoaly",
+          "xml_bbox": [
+            452,
+            447,
+            120,
+            39
+          ],
+          "preview_bbox": [
+            207,
+            288,
+            93,
+            33
+          ]
+        },
+        {
+          "index": 54,
+          "eva": "chor",
+          "xml_bbox": [
+            587,
+            440,
+            63,
+            29
+          ],
+          "preview_bbox": [
+            309,
+            282,
+            51,
+            27
+          ]
+        },
+        {
+          "index": 55,
+          "eva": "cthy",
+          "xml_bbox": [
+            664,
+            430,
+            60,
+            43
+          ],
+          "preview_bbox": [
+            366,
+            276,
+            48,
+            36
+          ]
+        },
+        {
+          "index": 56,
+          "eva": "ochor",
+          "xml_bbox": [
+            233,
+            485,
+            63,
+            32
+          ],
+          "preview_bbox": [
+            39,
+            318,
+            51,
+            27
+          ]
+        },
+        {
+          "index": 57,
+          "eva": "daiin",
+          "xml_bbox": [
+            305,
+            488,
+            56,
+            22
+          ],
+          "preview_bbox": [
+            96,
+            318,
+            45,
+            21
+          ]
+        },
+        {
+          "index": 58,
+          "eva": "qokshol",
+          "xml_bbox": [
+            371,
+            476,
+            100,
+            31
+          ],
+          "preview_bbox": [
+            144,
+            309,
+            81,
+            27
+          ]
+        },
+        {
+          "index": 59,
+          "eva": "daiim",
+          "xml_bbox": [
+            487,
+            482,
+            66,
+            23
+          ],
+          "preview_bbox": [
+            234,
+            315,
+            51,
+            21
+          ]
+        },
+        {
+          "index": 60,
+          "eva": "chol",
+          "xml_bbox": [
+            562,
+            483,
+            56,
+            20
+          ],
+          "preview_bbox": [
+            291,
+            315,
+            45,
+            18
+          ]
+        },
+        {
+          "index": 61,
+          "eva": "okary",
+          "xml_bbox": [
+            634,
+            468,
+            80,
+            35
+          ],
+          "preview_bbox": [
+            345,
+            303,
+            63,
+            30
+          ]
+        },
+        {
+          "index": 62,
+          "eva": "sho",
+          "xml_bbox": [
+            238,
+            521,
+            40,
+            24
+          ],
+          "preview_bbox": [
+            45,
+            345,
+            33,
+            21
+          ]
+        },
+        {
+          "index": 63,
+          "eva": "shockho",
+          "xml_bbox": [
+            287,
+            508,
+            105,
+            32
+          ],
+          "preview_bbox": [
+            81,
+            333,
+            84,
+            30
+          ]
+        },
+        {
+          "index": 64,
+          "eva": "ckhy",
+          "xml_bbox": [
+            404,
+            507,
+            53,
+            29
+          ],
+          "preview_bbox": [
+            171,
+            333,
+            42,
+            27
+          ]
+        },
+        {
+          "index": 65,
+          "eva": "tchor",
+          "xml_bbox": [
+            462,
+            504,
+            83,
+            26
+          ],
+          "preview_bbox": [
+            213,
+            330,
+            66,
+            24
+          ]
+        },
+        {
+          "index": 66,
+          "eva": "chodaiin",
+          "xml_bbox": [
+            556,
+            503,
+            108,
+            22
+          ],
+          "preview_bbox": [
+            285,
+            330,
+            84,
+            21
+          ]
+        },
+        {
+          "index": 67,
+          "eva": "chom",
+          "xml_bbox": [
+            673,
+            501,
+            59,
+            25
+          ],
+          "preview_bbox": [
+            375,
+            330,
+            48,
+            21
+          ]
+        },
+        {
+          "index": 68,
+          "eva": "osh",
+          "xml_bbox": [
+            236,
+            548,
+            49,
+            29
+          ],
+          "preview_bbox": [
+            42,
+            366,
+            42,
+            24
+          ]
+        },
+        {
+          "index": 69,
+          "eva": "chodair",
+          "xml_bbox": [
+            296,
+            540,
+            87,
+            30
+          ],
+          "preview_bbox": [
+            87,
+            360,
+            69,
+            24
+          ]
+        },
+        {
+          "index": 70,
+          "eva": "ytchy",
+          "xml_bbox": [
+            400,
+            535,
+            77,
+            41
+          ],
+          "preview_bbox": [
+            168,
+            354,
+            60,
+            36
+          ]
+        },
+        {
+          "index": 71,
+          "eva": "tchor",
+          "xml_bbox": [
+            484,
+            530,
+            92,
+            38
+          ],
+          "preview_bbox": [
+            231,
+            351,
+            72,
+            33
+          ]
+        },
+        {
+          "index": 72,
+          "eva": "kcham",
+          "xml_bbox": [
+            599,
+            522,
+            77,
+            42
+          ],
+          "preview_bbox": [
+            318,
+            345,
+            60,
+            36
+          ]
+        },
+        {
+          "index": 73,
+          "eva": "s",
+          "xml_bbox": [
+            687,
+            526,
+            25,
+            29
+          ],
+          "preview_bbox": [
+            384,
+            348,
+            21,
+            24
+          ]
+        },
+        {
+          "index": 74,
+          "eva": "shar",
+          "xml_bbox": [
+            235,
+            577,
+            56,
+            25
+          ],
+          "preview_bbox": [
+            42,
+            387,
+            45,
+            21
+          ]
+        },
+        {
+          "index": 75,
+          "eva": "shkaiin",
+          "xml_bbox": [
+            303,
+            571,
+            92,
+            31
+          ],
+          "preview_bbox": [
+            93,
+            381,
+            72,
+            27
+          ]
+        },
+        {
+          "index": 76,
+          "eva": "qokchy",
+          "xml_bbox": [
+            407,
+            568,
+            89,
+            35
+          ],
+          "preview_bbox": [
+            171,
+            381,
+            72,
+            27
+          ]
+        },
+        {
+          "index": 77,
+          "eva": "yty",
+          "xml_bbox": [
+            502,
+            565,
+            69,
+            60
+          ],
+          "preview_bbox": [
+            243,
+            378,
+            57,
+            48
+          ]
+        },
+        {
+          "index": 78,
+          "eva": "cthal",
+          "xml_bbox": [
+            586,
+            564,
+            68,
+            43
+          ],
+          "preview_bbox": [
+            309,
+            378,
+            54,
+            33
+          ]
+        },
+        {
+          "index": 79,
+          "eva": "chky",
+          "xml_bbox": [
+            675,
+            561,
+            55,
+            46
+          ],
+          "preview_bbox": [
+            375,
+            375,
+            45,
+            36
+          ]
+        },
+        {
+          "index": 80,
+          "eva": "dain",
+          "xml_bbox": [
+            237,
+            612,
+            46,
+            21
+          ],
+          "preview_bbox": [
+            42,
+            414,
+            39,
+            18
+          ]
+        },
+        {
+          "index": 81,
+          "eva": "sheam",
+          "xml_bbox": [
+            297,
+            608,
+            65,
+            25
+          ],
+          "preview_bbox": [
+            90,
+            411,
+            51,
+            21
+          ]
+        },
+        {
+          "index": 82,
+          "eva": "yteam",
+          "xml_bbox": [
+            374,
+            604,
+            82,
+            45
+          ],
+          "preview_bbox": [
+            147,
+            408,
+            66,
+            36
+          ]
+        }
+      ]
+    },
+    {
+      "folio": "f4r",
+      "xml_frame": [
+        1088,
+        1500
+      ],
+      "preview_size": [
+        636,
+        900
+      ],
+      "preview_path": "results/voynichese_registration/inputs/f4r.jpg",
+      "preview_sha256": "2414c85df71f3e1b2098bdb11a55a1da26b94dea63045408f3ad129a18615b0b",
+      "xml_path": "results/voynichese_registration/inputs/f4r.xml",
+      "xml_sha256": "5fe3c6c8a1a0ad80bcdb95ed5d920a0dfba21961859d86566086d9c82a545c6b",
+      "preview_data_path": "results/voynichese_registration/inputs/f4r.json",
+      "preview_data_sha256": "46febd6a83cf00772b5dce37c393301e73e99a34e1911d8c26f928c5c2b98a78",
+      "yale_path": "results/kraken_crop_repair/source_cache/images/4r.jpg",
+      "yale_sha256": "b1eadeaac625aba5600078ef96ba1baefbf56fffb408dc79c1deb82f5cbc377e",
+      "words": [
+        {
+          "index": 0,
+          "eva": "kodalchy",
+          "xml_bbox": [
+            140,
+            179,
+            89,
+            44
+          ],
+          "preview_bbox": [
+            54,
+            90,
+            69,
+            33
+          ]
+        },
+        {
+          "index": 1,
+          "eva": "chpady",
+          "xml_bbox": [
+            242,
+            171,
+            76,
+            46
+          ],
+          "preview_bbox": [
+            129,
+            84,
+            60,
+            36
+          ]
+        },
+        {
+          "index": 2,
+          "eva": "sheol",
+          "xml_bbox": [
+            332,
+            172,
+            64,
+            32
+          ],
+          "preview_bbox": [
+            198,
+            84,
+            48,
+            27
+          ]
+        },
+        {
+          "index": 3,
+          "eva": "ol",
+          "xml_bbox": [
+            412,
+            183,
+            24,
+            20
+          ],
+          "preview_bbox": [
+            255,
+            93,
+            21,
+            18
+          ]
+        },
+        {
+          "index": 4,
+          "eva": "sheey",
+          "xml_bbox": [
+            445,
+            168,
+            52,
+            34
+          ],
+          "preview_bbox": [
+            282,
+            81,
+            39,
+            27
+          ]
+        },
+        {
+          "index": 5,
+          "eva": "qotey",
+          "xml_bbox": [
+            513,
+            166,
+            68,
+            45
+          ],
+          "preview_bbox": [
+            330,
+            78,
+            54,
+            39
+          ]
+        },
+        {
+          "index": 6,
+          "eva": "doiin",
+          "xml_bbox": [
+            612,
+            178,
+            54,
+            19
+          ],
+          "preview_bbox": [
+            405,
+            87,
+            42,
+            18
+          ]
+        },
+        {
+          "index": 7,
+          "eva": "chor",
+          "xml_bbox": [
+            675,
+            177,
+            47,
+            21
+          ],
+          "preview_bbox": [
+            450,
+            87,
+            39,
+            18
+          ]
+        },
+        {
+          "index": 8,
+          "eva": "ytoy",
+          "xml_bbox": [
+            731,
+            167,
+            55,
+            41
+          ],
+          "preview_bbox": [
+            492,
+            81,
+            45,
+            33
+          ]
+        },
+        {
+          "index": 9,
+          "eva": "dchor",
+          "xml_bbox": [
+            143,
+            228,
+            58,
+            29
+          ],
+          "preview_bbox": [
+            57,
+            126,
+            45,
+            24
+          ]
+        },
+        {
+          "index": 10,
+          "eva": "chol",
+          "xml_bbox": [
+            213,
+            225,
+            45,
+            29
+          ],
+          "preview_bbox": [
+            108,
+            123,
+            36,
+            24
+          ]
+        },
+        {
+          "index": 11,
+          "eva": "shol",
+          "xml_bbox": [
+            272,
+            217,
+            48,
+            26
+          ],
+          "preview_bbox": [
+            153,
+            117,
+            39,
+            21
+          ]
+        },
+        {
+          "index": 12,
+          "eva": "cthol",
+          "xml_bbox": [
+            324,
+            204,
+            55,
+            34
+          ],
+          "preview_bbox": [
+            192,
+            108,
+            42,
+            27
+          ]
+        },
+        {
+          "index": 13,
+          "eva": "shtchy",
+          "xml_bbox": [
+            394,
+            203,
+            80,
+            35
+          ],
+          "preview_bbox": [
+            243,
+            108,
+            63,
+            27
+          ]
+        },
+        {
+          "index": 14,
+          "eva": "chaiin",
+          "xml_bbox": [
+            481,
+            211,
+            63,
+            20
+          ],
+          "preview_bbox": [
+            306,
+            114,
+            51,
+            15
+          ]
+        },
+        {
+          "index": 15,
+          "eva": "s",
+          "xml_bbox": [
+            565,
+            209,
+            24,
+            20
+          ],
+          "preview_bbox": [
+            369,
+            111,
+            21,
+            18
+          ]
+        },
+        {
+          "index": 16,
+          "eva": "choraiin",
+          "xml_bbox": [
+            621,
+            213,
+            103,
+            22
+          ],
+          "preview_bbox": [
+            411,
+            114,
+            78,
+            18
+          ]
+        },
+        {
+          "index": 17,
+          "eva": "chom",
+          "xml_bbox": [
+            731,
+            212,
+            49,
+            29
+          ],
+          "preview_bbox": [
+            492,
+            114,
+            39,
+            24
+          ]
+        },
+        {
+          "index": 18,
+          "eva": "otchol",
+          "xml_bbox": [
+            145,
+            253,
+            73,
+            32
+          ],
+          "preview_bbox": [
+            60,
+            144,
+            57,
+            27
+          ]
+        },
+        {
+          "index": 19,
+          "eva": "chol",
+          "xml_bbox": [
+            230,
+            256,
+            50,
+            14
+          ],
+          "preview_bbox": [
+            120,
+            147,
+            42,
+            12
+          ]
+        },
+        {
+          "index": 20,
+          "eva": "chy",
+          "xml_bbox": [
+            287,
+            255,
+            37,
+            19
+          ],
+          "preview_bbox": [
+            165,
+            144,
+            30,
+            18
+          ]
+        },
+        {
+          "index": 21,
+          "eva": "chaiin",
+          "xml_bbox": [
+            331,
+            237,
+            72,
+            25
+          ],
+          "preview_bbox": [
+            195,
+            132,
+            57,
+            21
+          ]
+        },
+        {
+          "index": 22,
+          "eva": "qotaiin",
+          "xml_bbox": [
+            413,
+            231,
+            102,
+            32
+          ],
+          "preview_bbox": [
+            258,
+            126,
+            78,
+            27
+          ]
+        },
+        {
+          "index": 23,
+          "eva": "daiin",
+          "xml_bbox": [
+            664,
+            241,
+            57,
+            22
+          ],
+          "preview_bbox": [
+            444,
+            135,
+            45,
+            18
+          ]
+        },
+        {
+          "index": 24,
+          "eva": "shain",
+          "xml_bbox": [
+            729,
+            237,
+            64,
+            24
+          ],
+          "preview_bbox": [
+            492,
+            132,
+            48,
+            21
+          ]
+        },
+        {
+          "index": 25,
+          "eva": "qotchol",
+          "xml_bbox": [
+            145,
+            279,
+            92,
+            42
+          ],
+          "preview_bbox": [
+            60,
+            162,
+            69,
+            36
+          ]
+        },
+        {
+          "index": 26,
+          "eva": "chy",
+          "xml_bbox": [
+            243,
+            285,
+            39,
+            19
+          ],
+          "preview_bbox": [
+            132,
+            168,
+            30,
+            15
+          ]
+        },
+        {
+          "index": 27,
+          "eva": "yty",
+          "xml_bbox": [
+            292,
+            268,
+            46,
+            46
+          ],
+          "preview_bbox": [
+            168,
+            156,
+            36,
+            36
+          ]
+        },
+        {
+          "index": 28,
+          "eva": "daiin",
+          "xml_bbox": [
+            344,
+            269,
+            53,
+            23
+          ],
+          "preview_bbox": [
+            207,
+            156,
+            42,
+            21
+          ]
+        },
+        {
+          "index": 29,
+          "eva": "okaiin",
+          "xml_bbox": [
+            419,
+            263,
+            67,
+            25
+          ],
+          "preview_bbox": [
+            261,
+            150,
+            54,
+            24
+          ]
+        },
+        {
+          "index": 30,
+          "eva": "cthy",
+          "xml_bbox": [
+            496,
+            262,
+            53,
+            36
+          ],
+          "preview_bbox": [
+            318,
+            150,
+            42,
+            30
+          ]
+        },
+        {
+          "index": 31,
+          "eva": "pydaiin",
+          "xml_bbox": [
+            139,
+            325,
+            90,
+            69
+          ],
+          "preview_bbox": [
+            54,
+            198,
+            69,
+            54
+          ]
+        },
+        {
+          "index": 32,
+          "eva": "qotchy",
+          "xml_bbox": [
+            235,
+            347,
+            81,
+            41
+          ],
+          "preview_bbox": [
+            126,
+            213,
+            63,
+            33
+          ]
+        },
+        {
+          "index": 33,
+          "eva": "dy",
+          "xml_bbox": [
+            326,
+            364,
+            26,
+            23
+          ],
+          "preview_bbox": [
+            192,
+            225,
+            24,
+            21
+          ]
+        },
+        {
+          "index": 34,
+          "eva": "tydy",
+          "xml_bbox": [
+            351,
+            346,
+            68,
+            35
+          ],
+          "preview_bbox": [
+            210,
+            213,
+            54,
+            27
+          ]
+        },
+        {
+          "index": 35,
+          "eva": "chor",
+          "xml_bbox": [
+            157,
+            395,
+            45,
+            26
+          ],
+          "preview_bbox": [
+            66,
+            249,
+            39,
+            21
+          ]
+        },
+        {
+          "index": 36,
+          "eva": "shytchy",
+          "xml_bbox": [
+            213,
+            385,
+            92,
+            40
+          ],
+          "preview_bbox": [
+            108,
+            240,
+            72,
+            33
+          ]
+        },
+        {
+          "index": 37,
+          "eva": "dy",
+          "xml_bbox": [
+            312,
+            396,
+            29,
+            34
+          ],
+          "preview_bbox": [
+            183,
+            249,
+            24,
+            30
+          ]
+        },
+        {
+          "index": 38,
+          "eva": "tcheay",
+          "xml_bbox": [
+            363,
+            403,
+            52,
+            14
+          ],
+          "preview_bbox": [
+            219,
+            255,
+            42,
+            12
+          ]
+        },
+        {
+          "index": 39,
+          "eva": "qotaiin",
+          "xml_bbox": [
+            152,
+            421,
+            86,
+            29
+          ],
+          "preview_bbox": [
+            63,
+            267,
+            66,
+            27
+          ]
+        },
+        {
+          "index": 40,
+          "eva": "cthol",
+          "xml_bbox": [
+            251,
+            417,
+            59,
+            36
+          ],
+          "preview_bbox": [
+            138,
+            264,
+            45,
+            30
+          ]
+        },
+        {
+          "index": 41,
+          "eva": "daiin",
+          "xml_bbox": [
+            317,
+            427,
+            55,
+            20
+          ],
+          "preview_bbox": [
+            186,
+            273,
+            45,
+            18
+          ]
+        },
+        {
+          "index": 42,
+          "eva": "cthom",
+          "xml_bbox": [
+            379,
+            417,
+            68,
+            33
+          ],
+          "preview_bbox": [
+            231,
+            264,
+            54,
+            30
+          ]
+        },
+        {
+          "index": 43,
+          "eva": "shor",
+          "xml_bbox": [
+            160,
+            457,
+            53,
+            28
+          ],
+          "preview_bbox": [
+            69,
+            294,
+            42,
+            24
+          ]
+        },
+        {
+          "index": 44,
+          "eva": "shol",
+          "xml_bbox": [
+            222,
+            453,
+            47,
+            29
+          ],
+          "preview_bbox": [
+            117,
+            291,
+            36,
+            24
+          ]
+        },
+        {
+          "index": 45,
+          "eva": "shol",
+          "xml_bbox": [
+            283,
+            455,
+            47,
+            29
+          ],
+          "preview_bbox": [
+            162,
+            294,
+            36,
+            24
+          ]
+        },
+        {
+          "index": 46,
+          "eva": "cthy",
+          "xml_bbox": [
+            337,
+            449,
+            50,
+            38
+          ],
+          "preview_bbox": [
+            201,
+            288,
+            39,
+            33
+          ]
+        },
+        {
+          "index": 47,
+          "eva": "cpholdy",
+          "xml_bbox": [
+            395,
+            449,
+            89,
+            37
+          ],
+          "preview_bbox": [
+            243,
+            288,
+            69,
+            30
+          ]
+        },
+        {
+          "index": 48,
+          "eva": "daiin",
+          "xml_bbox": [
+            159,
+            497,
+            53,
+            21
+          ],
+          "preview_bbox": [
+            69,
+            324,
+            42,
+            18
+          ]
+        },
+        {
+          "index": 49,
+          "eva": "ckhochy",
+          "xml_bbox": [
+            222,
+            483,
+            91,
+            36
+          ],
+          "preview_bbox": [
+            117,
+            315,
+            69,
+            30
+          ]
+        },
+        {
+          "index": 50,
+          "eva": "tchy",
+          "xml_bbox": [
+            321,
+            481,
+            61,
+            39
+          ],
+          "preview_bbox": [
+            189,
+            312,
+            48,
+            33
+          ]
+        },
+        {
+          "index": 51,
+          "eva": "koraiin",
+          "xml_bbox": [
+            392,
+            485,
+            85,
+            29
+          ],
+          "preview_bbox": [
+            240,
+            315,
+            66,
+            24
+          ]
+        },
+        {
+          "index": 52,
+          "eva": "odal",
+          "xml_bbox": [
+            160,
+            529,
+            54,
+            19
+          ],
+          "preview_bbox": [
+            69,
+            348,
+            45,
+            18
+          ]
+        },
+        {
+          "index": 53,
+          "eva": "shor",
+          "xml_bbox": [
+            221,
+            523,
+            47,
+            27
+          ],
+          "preview_bbox": [
+            114,
+            345,
+            39,
+            21
+          ]
+        },
+        {
+          "index": 54,
+          "eva": "shyshol",
+          "xml_bbox": [
+            277,
+            521,
+            89,
+            36
+          ],
+          "preview_bbox": [
+            156,
+            342,
+            69,
+            30
+          ]
+        },
+        {
+          "index": 55,
+          "eva": "cphaiin",
+          "xml_bbox": [
+            370,
+            516,
+            85,
+            38
+          ],
+          "preview_bbox": [
+            225,
+            339,
+            66,
+            30
+          ]
+        },
+        {
+          "index": 56,
+          "eva": "qotchoiin",
+          "xml_bbox": [
+            157,
+            548,
+            119,
+            36
+          ],
+          "preview_bbox": [
+            66,
+            363,
+            93,
+            30
+          ]
+        },
+        {
+          "index": 57,
+          "eva": "sheyr",
+          "xml_bbox": [
+            288,
+            557,
+            73,
+            24
+          ],
+          "preview_bbox": [
+            165,
+            369,
+            57,
+            21
+          ]
+        },
+        {
+          "index": 58,
+          "eva": "qoty",
+          "xml_bbox": [
+            367,
+            553,
+            61,
+            35
+          ],
+          "preview_bbox": [
+            222,
+            366,
+            48,
+            30
+          ]
+        },
+        {
+          "index": 59,
+          "eva": "soiin",
+          "xml_bbox": [
+            150,
+            584,
+            67,
+            21
+          ],
+          "preview_bbox": [
+            63,
+            390,
+            51,
+            18
+          ]
+        },
+        {
+          "index": 60,
+          "eva": "chaiin",
+          "xml_bbox": [
+            232,
+            582,
+            77,
+            22
+          ],
+          "preview_bbox": [
+            123,
+            387,
+            60,
+            21
+          ]
+        },
+        {
+          "index": 61,
+          "eva": "chaiin",
+          "xml_bbox": [
+            324,
+            588,
+            75,
+            17
+          ],
+          "preview_bbox": [
+            192,
+            393,
+            57,
+            15
+          ]
+        },
+        {
+          "index": 62,
+          "eva": "daiin",
+          "xml_bbox": [
+            159,
+            615,
+            57,
+            23
+          ],
+          "preview_bbox": [
+            69,
+            411,
+            45,
+            21
+          ]
+        },
+        {
+          "index": 63,
+          "eva": "cthey",
+          "xml_bbox": [
+            231,
+            604,
+            63,
+            36
+          ],
+          "preview_bbox": [
+            123,
+            405,
+            48,
+            27
+          ]
+        }
+      ]
+    },
+    {
+      "folio": "f4v",
+      "xml_frame": [
+        1069,
+        1500
+      ],
+      "preview_size": [
+        636,
+        900
+      ],
+      "preview_path": "results/voynichese_registration/inputs/f4v.jpg",
+      "preview_sha256": "7c75718a128c690cf241bb4e9e5040b020a248158ab516a9d0f42b4be239bad9",
+      "xml_path": "results/voynichese_registration/inputs/f4v.xml",
+      "xml_sha256": "9139ff6a208fdb8b371891d398671c0cca05815902b828c984fce88a67c06211",
+      "preview_data_path": "results/voynichese_registration/inputs/f4v.json",
+      "preview_data_sha256": "7e98e67e2dd98b83baa039a50d799be7548560f4bf13099e54b085ea9e61cf7f",
+      "yale_path": "results/kraken_crop_repair/source_cache/images/4v.jpg",
+      "yale_sha256": "873534a29335bc9c5725849bb9150cde0b9b1a7a128014e61504ae1b10433a30",
+      "words": [
+        {
+          "index": 0,
+          "eva": "pchooiin",
+          "xml_bbox": [
+            263,
+            161,
+            102,
+            47
+          ],
+          "preview_bbox": [
+            60,
+            81,
+            81,
+            39
+          ]
+        },
+        {
+          "index": 1,
+          "eva": "ksheo",
+          "xml_bbox": [
+            378,
+            163,
+            64,
+            35
+          ],
+          "preview_bbox": [
+            147,
+            81,
+            54,
+            30
+          ]
+        },
+        {
+          "index": 2,
+          "eva": "kchoy",
+          "xml_bbox": [
+            457,
+            149,
+            72,
+            48
+          ],
+          "preview_bbox": [
+            207,
+            72,
+            60,
+            39
+          ]
+        },
+        {
+          "index": 3,
+          "eva": "chopchy",
+          "xml_bbox": [
+            547,
+            145,
+            97,
+            51
+          ],
+          "preview_bbox": [
+            276,
+            69,
+            78,
+            42
+          ]
+        },
+        {
+          "index": 4,
+          "eva": "dolds",
+          "xml_bbox": [
+            655,
+            156,
+            70,
+            38
+          ],
+          "preview_bbox": [
+            360,
+            75,
+            57,
+            33
+          ]
+        },
+        {
+          "index": 5,
+          "eva": "dlod",
+          "xml_bbox": [
+            882,
+            171,
+            56,
+            21
+          ],
+          "preview_bbox": [
+            534,
+            87,
+            48,
+            21
+          ]
+        },
+        {
+          "index": 6,
+          "eva": "ol",
+          "xml_bbox": [
+            274,
+            219,
+            24,
+            23
+          ],
+          "preview_bbox": [
+            69,
+            123,
+            21,
+            21
+          ]
+        },
+        {
+          "index": 7,
+          "eva": "chey",
+          "xml_bbox": [
+            304,
+            219,
+            39,
+            19
+          ],
+          "preview_bbox": [
+            90,
+            123,
+            33,
+            18
+          ]
+        },
+        {
+          "index": 8,
+          "eva": "chy",
+          "xml_bbox": [
+            352,
+            215,
+            36,
+            20
+          ],
+          "preview_bbox": [
+            129,
+            120,
+            30,
+            21
+          ]
+        },
+        {
+          "index": 9,
+          "eva": "cthy",
+          "xml_bbox": [
+            405,
+            198,
+            54,
+            33
+          ],
+          "preview_bbox": [
+            168,
+            108,
+            45,
+            30
+          ]
+        },
+        {
+          "index": 10,
+          "eva": "shkchor",
+          "xml_bbox": [
+            476,
+            197,
+            97,
+            28
+          ],
+          "preview_bbox": [
+            222,
+            108,
+            78,
+            24
+          ]
+        },
+        {
+          "index": 11,
+          "eva": "sheo",
+          "xml_bbox": [
+            589,
+            197,
+            49,
+            25
+          ],
+          "preview_bbox": [
+            309,
+            108,
+            42,
+            21
+          ]
+        },
+        {
+          "index": 12,
+          "eva": "cheory",
+          "xml_bbox": [
+            653,
+            196,
+            79,
+            30
+          ],
+          "preview_bbox": [
+            360,
+            108,
+            63,
+            24
+          ]
+        },
+        {
+          "index": 13,
+          "eva": "choldy",
+          "xml_bbox": [
+            869,
+            205,
+            72,
+            23
+          ],
+          "preview_bbox": [
+            525,
+            114,
+            57,
+            21
+          ]
+        },
+        {
+          "index": 14,
+          "eva": "sho",
+          "xml_bbox": [
+            275,
+            241,
+            35,
+            24
+          ],
+          "preview_bbox": [
+            69,
+            141,
+            30,
+            21
+          ]
+        },
+        {
+          "index": 15,
+          "eva": "sho",
+          "xml_bbox": [
+            322,
+            238,
+            37,
+            22
+          ],
+          "preview_bbox": [
+            105,
+            138,
+            30,
+            21
+          ]
+        },
+        {
+          "index": 16,
+          "eva": "chaiin",
+          "xml_bbox": [
+            370,
+            234,
+            71,
+            23
+          ],
+          "preview_bbox": [
+            141,
+            135,
+            57,
+            21
+          ]
+        },
+        {
+          "index": 17,
+          "eva": "shaiin",
+          "xml_bbox": [
+            460,
+            231,
+            76,
+            23
+          ],
+          "preview_bbox": [
+            210,
+            135,
+            63,
+            18
+          ]
+        },
+        {
+          "index": 18,
+          "eva": "daiin",
+          "xml_bbox": [
+            548,
+            228,
+            60,
+            24
+          ],
+          "preview_bbox": [
+            279,
+            132,
+            48,
+            21
+          ]
+        },
+        {
+          "index": 19,
+          "eva": "qodaiin",
+          "xml_bbox": [
+            619,
+            227,
+            98,
+            22
+          ],
+          "preview_bbox": [
+            333,
+            132,
+            78,
+            18
+          ]
+        },
+        {
+          "index": 20,
+          "eva": "o",
+          "xml_bbox": [
+            861,
+            234,
+            13,
+            12
+          ],
+          "preview_bbox": [
+            519,
+            135,
+            12,
+            12
+          ]
+        },
+        {
+          "index": 21,
+          "eva": "ar",
+          "xml_bbox": [
+            881,
+            227,
+            30,
+            19
+          ],
+          "preview_bbox": [
+            534,
+            132,
+            27,
+            15
+          ]
+        },
+        {
+          "index": 22,
+          "eva": "am",
+          "xml_bbox": [
+            911,
+            232,
+            32,
+            27
+          ],
+          "preview_bbox": [
+            558,
+            135,
+            27,
+            24
+          ]
+        },
+        {
+          "index": 23,
+          "eva": "qokshy",
+          "xml_bbox": [
+            272,
+            265,
+            81,
+            38
+          ],
+          "preview_bbox": [
+            66,
+            159,
+            66,
+            33
+          ]
+        },
+        {
+          "index": 24,
+          "eva": "qocthy",
+          "xml_bbox": [
+            361,
+            254,
+            86,
+            34
+          ],
+          "preview_bbox": [
+            135,
+            150,
+            69,
+            30
+          ]
+        },
+        {
+          "index": 25,
+          "eva": "choteol",
+          "xml_bbox": [
+            469,
+            253,
+            103,
+            32
+          ],
+          "preview_bbox": [
+            216,
+            150,
+            84,
+            27
+          ]
+        },
+        {
+          "index": 26,
+          "eva": "daiin",
+          "xml_bbox": [
+            588,
+            261,
+            65,
+            19
+          ],
+          "preview_bbox": [
+            309,
+            156,
+            54,
+            18
+          ]
+        },
+        {
+          "index": 27,
+          "eva": "cthey",
+          "xml_bbox": [
+            664,
+            249,
+            69,
+            31
+          ],
+          "preview_bbox": [
+            366,
+            147,
+            57,
+            27
+          ]
+        },
+        {
+          "index": 28,
+          "eva": "choaiin",
+          "xml_bbox": [
+            855,
+            259,
+            90,
+            19
+          ],
+          "preview_bbox": [
+            513,
+            156,
+            72,
+            18
+          ]
+        },
+        {
+          "index": 29,
+          "eva": "shor",
+          "xml_bbox": [
+            276,
+            305,
+            57,
+            29
+          ],
+          "preview_bbox": [
+            69,
+            189,
+            48,
+            27
+          ]
+        },
+        {
+          "index": 30,
+          "eva": "sheey",
+          "xml_bbox": [
+            342,
+            302,
+            50,
+            28
+          ],
+          "preview_bbox": [
+            120,
+            189,
+            42,
+            24
+          ]
+        },
+        {
+          "index": 31,
+          "eva": "cto",
+          "xml_bbox": [
+            400,
+            283,
+            45,
+            35
+          ],
+          "preview_bbox": [
+            165,
+            174,
+            36,
+            30
+          ]
+        },
+        {
+          "index": 32,
+          "eva": "otoiin",
+          "xml_bbox": [
+            460,
+            285,
+            78,
+            28
+          ],
+          "preview_bbox": [
+            210,
+            174,
+            63,
+            27
+          ]
+        },
+        {
+          "index": 33,
+          "eva": "shey",
+          "xml_bbox": [
+            552,
+            288,
+            50,
+            35
+          ],
+          "preview_bbox": [
+            282,
+            177,
+            39,
+            30
+          ]
+        },
+        {
+          "index": 34,
+          "eva": "qotchoiin",
+          "xml_bbox": [
+            615,
+            280,
+            121,
+            42
+          ],
+          "preview_bbox": [
+            330,
+            171,
+            96,
+            36
+          ]
+        },
+        {
+          "index": 35,
+          "eva": "chodain",
+          "xml_bbox": [
+            851,
+            283,
+            91,
+            22
+          ],
+          "preview_bbox": [
+            510,
+            174,
+            75,
+            18
+          ]
+        },
+        {
+          "index": 36,
+          "eva": "ytchoy",
+          "xml_bbox": [
+            280,
+            333,
+            78,
+            41
+          ],
+          "preview_bbox": [
+            72,
+            213,
+            63,
+            33
+          ]
+        },
+        {
+          "index": 37,
+          "eva": "shokchy",
+          "xml_bbox": [
+            372,
+            320,
+            92,
+            36
+          ],
+          "preview_bbox": [
+            144,
+            201,
+            72,
+            33
+          ]
+        },
+        {
+          "index": 38,
+          "eva": "cphody",
+          "xml_bbox": [
+            476,
+            316,
+            85,
+            49
+          ],
+          "preview_bbox": [
+            222,
+            198,
+            69,
+            42
+          ]
+        },
+        {
+          "index": 39,
+          "eva": "torchy",
+          "xml_bbox": [
+            280,
+            386,
+            82,
+            46
+          ],
+          "preview_bbox": [
+            72,
+            252,
+            66,
+            39
+          ]
+        },
+        {
+          "index": 40,
+          "eva": "sheeor",
+          "xml_bbox": [
+            373,
+            398,
+            69,
+            24
+          ],
+          "preview_bbox": [
+            144,
+            261,
+            57,
+            21
+          ]
+        },
+        {
+          "index": 41,
+          "eva": "chor",
+          "xml_bbox": [
+            454,
+            398,
+            56,
+            22
+          ],
+          "preview_bbox": [
+            207,
+            261,
+            45,
+            21
+          ]
+        },
+        {
+          "index": 42,
+          "eva": "shokchy",
+          "xml_bbox": [
+            520,
+            379,
+            94,
+            36
+          ],
+          "preview_bbox": [
+            258,
+            246,
+            75,
+            33
+          ]
+        },
+        {
+          "index": 43,
+          "eva": "cphydy",
+          "xml_bbox": [
+            614,
+            376,
+            97,
+            37
+          ],
+          "preview_bbox": [
+            330,
+            246,
+            75,
+            30
+          ]
+        },
+        {
+          "index": 44,
+          "eva": "olaen",
+          "xml_bbox": [
+            285,
+            432,
+            56,
+            23
+          ],
+          "preview_bbox": [
+            75,
+            288,
+            48,
+            21
+          ]
+        },
+        {
+          "index": 45,
+          "eva": "chor",
+          "xml_bbox": [
+            346,
+            430,
+            51,
+            21
+          ],
+          "preview_bbox": [
+            123,
+            285,
+            42,
+            21
+          ]
+        },
+        {
+          "index": 46,
+          "eva": "cthol",
+          "xml_bbox": [
+            407,
+            422,
+            59,
+            32
+          ],
+          "preview_bbox": [
+            171,
+            279,
+            48,
+            30
+          ]
+        },
+        {
+          "index": 47,
+          "eva": "sho",
+          "xml_bbox": [
+            481,
+            423,
+            41,
+            21
+          ],
+          "preview_bbox": [
+            228,
+            282,
+            33,
+            18
+          ]
+        },
+        {
+          "index": 48,
+          "eva": "otor",
+          "xml_bbox": [
+            533,
+            416,
+            57,
+            26
+          ],
+          "preview_bbox": [
+            267,
+            276,
+            45,
+            24
+          ]
+        },
+        {
+          "index": 49,
+          "eva": "cthory",
+          "xml_bbox": [
+            609,
+            413,
+            73,
+            37
+          ],
+          "preview_bbox": [
+            324,
+            273,
+            60,
+            33
+          ]
+        },
+        {
+          "index": 50,
+          "eva": "qooko",
+          "xml_bbox": [
+            277,
+            453,
+            65,
+            36
+          ],
+          "preview_bbox": [
+            69,
+            303,
+            54,
+            33
+          ]
+        },
+        {
+          "index": 51,
+          "eva": "iiincheom",
+          "xml_bbox": [
+            350,
+            454,
+            101,
+            26
+          ],
+          "preview_bbox": [
+            126,
+            306,
+            81,
+            21
+          ]
+        },
+        {
+          "index": 52,
+          "eva": "chcthy",
+          "xml_bbox": [
+            463,
+            446,
+            79,
+            34
+          ],
+          "preview_bbox": [
+            213,
+            300,
+            63,
+            27
+          ]
+        },
+        {
+          "index": 53,
+          "eva": "shoky",
+          "xml_bbox": [
+            554,
+            437,
+            62,
+            47
+          ],
+          "preview_bbox": [
+            282,
+            291,
+            51,
+            39
+          ]
+        },
+        {
+          "index": 54,
+          "eva": "daiin",
+          "xml_bbox": [
+            629,
+            451,
+            56,
+            20
+          ],
+          "preview_bbox": [
+            339,
+            303,
+            48,
+            18
+          ]
+        },
+        {
+          "index": 55,
+          "eva": "otaiin",
+          "xml_bbox": [
+            283,
+            481,
+            68,
+            31
+          ],
+          "preview_bbox": [
+            75,
+            327,
+            54,
+            24
+          ]
+        },
+        {
+          "index": 56,
+          "eva": "sheo",
+          "xml_bbox": [
+            363,
+            480,
+            52,
+            25
+          ],
+          "preview_bbox": [
+            135,
+            324,
+            45,
+            24
+          ]
+        },
+        {
+          "index": 57,
+          "eva": "okeody",
+          "xml_bbox": [
+            429,
+            472,
+            89,
+            39
+          ],
+          "preview_bbox": [
+            186,
+            318,
+            72,
+            33
+          ]
+        },
+        {
+          "index": 58,
+          "eva": "chol",
+          "xml_bbox": [
+            538,
+            485,
+            51,
+            20
+          ],
+          "preview_bbox": [
+            270,
+            330,
+            42,
+            18
+          ]
+        },
+        {
+          "index": 59,
+          "eva": "chokeody",
+          "xml_bbox": [
+            595,
+            474,
+            105,
+            31
+          ],
+          "preview_bbox": [
+            315,
+            321,
+            84,
+            27
+          ]
+        },
+        {
+          "index": 60,
+          "eva": "sho",
+          "xml_bbox": [
+            287,
+            516,
+            37,
+            24
+          ],
+          "preview_bbox": [
+            78,
+            354,
+            30,
+            21
+          ]
+        },
+        {
+          "index": 61,
+          "eva": "kcheor",
+          "xml_bbox": [
+            333,
+            512,
+            71,
+            28
+          ],
+          "preview_bbox": [
+            114,
+            348,
+            57,
+            27
+          ]
+        },
+        {
+          "index": 62,
+          "eva": "shody",
+          "xml_bbox": [
+            417,
+            515,
+            69,
+            29
+          ],
+          "preview_bbox": [
+            177,
+            351,
+            57,
+            27
+          ]
+        },
+        {
+          "index": 63,
+          "eva": "shtaiin",
+          "xml_bbox": [
+            505,
+            506,
+            100,
+            31
+          ],
+          "preview_bbox": [
+            246,
+            345,
+            78,
+            27
+          ]
+        },
+        {
+          "index": 64,
+          "eva": "qotol",
+          "xml_bbox": [
+            619,
+            504,
+            75,
+            34
+          ],
+          "preview_bbox": [
+            333,
+            342,
+            60,
+            30
+          ]
+        },
+        {
+          "index": 65,
+          "eva": "daiin",
+          "xml_bbox": [
+            698,
+            508,
+            63,
+            20
+          ],
+          "preview_bbox": [
+            393,
+            345,
+            51,
+            21
+          ]
+        },
+        {
+          "index": 66,
+          "eva": "qokoy",
+          "xml_bbox": [
+            284,
+            543,
+            72,
+            38
+          ],
+          "preview_bbox": [
+            75,
+            372,
+            60,
+            33
+          ]
+        },
+        {
+          "index": 67,
+          "eva": "sho",
+          "xml_bbox": [
+            371,
+            546,
+            42,
+            26
+          ],
+          "preview_bbox": [
+            141,
+            375,
+            36,
+            24
+          ]
+        },
+        {
+          "index": 68,
+          "eva": "okeol",
+          "xml_bbox": [
+            430,
+            545,
+            71,
+            28
+          ],
+          "preview_bbox": [
+            186,
+            375,
+            60,
+            24
+          ]
+        },
+        {
+          "index": 69,
+          "eva": "s",
+          "xml_bbox": [
+            517,
+            547,
+            15,
+            21
+          ],
+          "preview_bbox": [
+            255,
+            375,
+            15,
+            21
+          ]
+        },
+        {
+          "index": 70,
+          "eva": "keey",
+          "xml_bbox": [
+            540,
+            537,
+            54,
+            41
+          ],
+          "preview_bbox": [
+            273,
+            369,
+            42,
+            33
+          ]
+        },
+        {
+          "index": 71,
+          "eva": "shar",
+          "xml_bbox": [
+            613,
+            539,
+            61,
+            25
+          ],
+          "preview_bbox": [
+            327,
+            369,
+            51,
+            24
+          ]
+        },
+        {
+          "index": 72,
+          "eva": "char",
+          "xml_bbox": [
+            680,
+            539,
+            53,
+            23
+          ],
+          "preview_bbox": [
+            378,
+            369,
+            45,
+            21
+          ]
+        },
+        {
+          "index": 73,
+          "eva": "ody",
+          "xml_bbox": [
+            741,
+            540,
+            45,
+            28
+          ],
+          "preview_bbox": [
+            426,
+            372,
+            39,
+            24
+          ]
+        },
+        {
+          "index": 74,
+          "eva": "shody",
+          "xml_bbox": [
+            292,
+            583,
+            65,
+            29
+          ],
+          "preview_bbox": [
+            81,
+            405,
+            54,
+            24
+          ]
+        },
+        {
+          "index": 75,
+          "eva": "s",
+          "xml_bbox": [
+            379,
+            580,
+            15,
+            25
+          ],
+          "preview_bbox": [
+            147,
+            402,
+            15,
+            21
+          ]
+        },
+        {
+          "index": 76,
+          "eva": "cheor",
+          "xml_bbox": [
+            401,
+            581,
+            62,
+            24
+          ],
+          "preview_bbox": [
+            165,
+            402,
+            51,
+            21
+          ]
+        },
+        {
+          "index": 77,
+          "eva": "chokody",
+          "xml_bbox": [
+            480,
+            569,
+            104,
+            39
+          ],
+          "preview_bbox": [
+            225,
+            393,
+            84,
+            33
+          ]
+        },
+        {
+          "index": 78,
+          "eva": "shodaiin",
+          "xml_bbox": [
+            595,
+            575,
+            106,
+            26
+          ],
+          "preview_bbox": [
+            315,
+            399,
+            84,
+            21
+          ]
+        },
+        {
+          "index": 79,
+          "eva": "qoty",
+          "xml_bbox": [
+            712,
+            572,
+            67,
+            36
+          ],
+          "preview_bbox": [
+            405,
+            396,
+            54,
+            30
+          ]
+        },
+        {
+          "index": 80,
+          "eva": "ochody",
+          "xml_bbox": [
+            299,
+            618,
+            70,
+            26
+          ],
+          "preview_bbox": [
+            87,
+            432,
+            57,
+            21
+          ]
+        },
+        {
+          "index": 81,
+          "eva": "chykey",
+          "xml_bbox": [
+            383,
+            611,
+            89,
+            46
+          ],
+          "preview_bbox": [
+            150,
+            426,
+            72,
+            39
+          ]
+        },
+        {
+          "index": 82,
+          "eva": "chtody",
+          "xml_bbox": [
+            487,
+            607,
+            85,
+            38
+          ],
+          "preview_bbox": [
+            231,
+            423,
+            69,
+            33
+          ]
+        }
+      ]
+    }
+  ]
+}

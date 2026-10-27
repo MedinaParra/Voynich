@@ -1,0 +1,37 @@
+{
+  "date": "2026-10-27",
+  "base_commit": "e6cbf2a0ca491ff5eec4f2bff73278a7008ead27",
+  "experiment": "two-stage-voynichese-to-yale-development-registration",
+  "inputs_path": "data/voynichese_registration_inputs.json",
+  "inputs_sha256": "58b44eac6c86f76e6a90066b9949663ed824db1fc83d6a26b49ce72b9d798797",
+  "seed": 20261027,
+  "ratio": 0.7,
+  "scope": "Four previously explored pages; conditional geometric checks only. Mapped word polygons are candidate source annotations, not expert truth or a decipherment.",
+  "parameters": {
+    "sift_nfeatures": 6000,
+    "sift_contrast_threshold": 0.02,
+    "image_fit": "homography RANSAC, threshold3 Yale pixels, max10000, confidence0.999",
+    "image_holdout": "8x8 source blocks with (col+2*row)%5==0",
+    "image_gates": {
+      "fit_inliers_min": 50,
+      "heldout_min": 10,
+      "median_max": 2,
+      "p90_max": 5,
+      "within_5_min": 0.8,
+      "fit_inlier_x_y_span_min": 0.5
+    },
+    "calibration_fit": "affine RANSAC, threshold3 preview pixels, max10000, confidence0.999, refine10",
+    "calibration_holdout": "SHA256(folio:index) first8 bytes big-endian modulo5==0",
+    "calibration_gates": {
+      "fit_inliers_min": 20,
+      "heldout_min": 8,
+      "median_max": 3,
+      "p90_max": 6,
+      "within_6_min": 0.8
+    }
+  },
+  "pairs": "All16 pairs, four correct and12 wrong; no threshold changes after measurement.",
+  "translation": "NOT_RUN",
+  "boxer_eva_alignment": "NOT_RUN",
+  "execution": "GitHub Actions Ubuntu CPU after local cv2 native import SIGBUS, before any registration fit."
+}

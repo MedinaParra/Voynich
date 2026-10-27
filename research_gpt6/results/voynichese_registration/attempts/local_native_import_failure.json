@@ -1,0 +1,13 @@
+{
+  "date": "2026-10-27",
+  "phase": "LOCAL_CONTROL_IMPORT",
+  "command": "registration27/venv/bin/python voynich_resume/research_gpt6/code/test_register_voynichese_yale.py",
+  "exit_code": 135,
+  "status": "SIGBUS_WHILE_IMPORTING_CV2_BEFORE_TESTS",
+  "registration_transformations_estimated": 0,
+  "synthetic_tests_executed": 0,
+  "opencv_distribution": "4.12.0.88",
+  "numpy_version": "2.2.6",
+  "diagnostic": "Fatal Python error: Bus error\n\nCurrent thread 0x00007f57e25d4740 (most recent call first):\n  File \"<frozen importlib._bootstrap>\", line 488 in _call_with_frames_removed\n  File \"<frozen importlib._bootstrap_external>\", line 1293 in create_module\n  File \"<frozen importlib._bootstrap>\", line 813 in module_from_spec\n  File \"<frozen importlib._bootstrap>\", line 921 in _load_unlocked\n  File \"<frozen importlib._bootstrap>\", line 1331 in _find_and_load_unlocked\n  File \"<frozen importlib._bootstrap>\", line 1360 in _find_and_load\n  File \"<frozen importlib._bootstrap>\", line 1387 in _gcd_import\n  File \"/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/importlib/__init__.py\", line 90 in import_module\n  File \"/workspace/scratch/5209d0299e7b/registration27/venv/lib/python3.12/site-packages/cv2/__init__.py\", line 153 in bootstrap\n  File \"/workspace/scratch/5209d0299e7b/registration27/venv/lib/python3.12/site-packages/cv2/__init__.py\", line 181 in <module>\n  File \"<frozen importlib._bootstrap>\", line 488 in _call_with_frames_removed\n  File \"<frozen importlib._bootstrap_external>\", line 999 in exec_module\n  File \"<frozen importlib._bootstrap>\", line 935 in _load_unlocked\n  File \"<frozen importlib._bootstrap>\", line 1331 in _find_and_load_unlocked\n  File \"<frozen importlib._bootstrap>\", line 1360 in _find_and_load\n  File \"<string>\", line 1 in <module>\n\nExtension modules: numpy._core._multiarray_umath, numpy.linalg._umath_linalg (total: 2)\n",
+  "action": "Run the same frozen method in GitHub Actions Ubuntu; retain local import failure. No registration thresholds changed."
+}

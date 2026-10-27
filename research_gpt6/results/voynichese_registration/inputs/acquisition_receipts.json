@@ -1,0 +1,242 @@
+[
+  {
+    "folio": "f3r",
+    "kind": "script",
+    "url": "https://www.voynichese.com/1/data/folio/script/f3r.js",
+    "bytes": 5132,
+    "sha256": "e7c39bb72c3c9845a71b4280ecdbb398003ea4b690ce0408039dcc3a6d742a75",
+    "content_type": "application/javascript",
+    "unique_tokens": 85,
+    "words": 115,
+    "first_word_records": [
+      {
+        "eva": "tsheos",
+        "bbox": [
+          36,
+          99,
+          63,
+          33
+        ]
+      },
+      {
+        "eva": "qopal",
+        "bbox": [
+          102,
+          93,
+          51,
+          45
+        ]
+      },
+      {
+        "eva": "chol",
+        "bbox": [
+          162,
+          108,
+          3,
+          18
+        ]
+      },
+      {
+        "eva": "cthol",
+        "bbox": [
+          204,
+          90,
+          51,
+          33
+        ]
+      }
+    ]
+  },
+  {
+    "folio": "f3r",
+    "kind": "image",
+    "url": "https://www.voynichese.com/1/data/folio/image/glance/color/large/f3r.jpg",
+    "bytes": 86413,
+    "sha256": "cf48df01a216da036bee3c383b1f8c6206eabc4190903d73f8035a75442cd1b6",
+    "content_type": "image/jpeg",
+    "size": [
+      636,
+      900
+    ]
+  },
+  {
+    "folio": "f3v",
+    "kind": "script",
+    "url": "https://www.voynichese.com/1/data/folio/script/f3v.js",
+    "bytes": 4020,
+    "sha256": "d7d4f0a1f22978c2215169b86ec99bf7b814b30794343a10c175f4915a505fe9",
+    "content_type": "application/javascript",
+    "unique_tokens": 73,
+    "words": 83,
+    "first_word_records": [
+      {
+        "eva": "koaiin",
+        "bbox": [
+          39,
+          78,
+          51,
+          36
+        ]
+      },
+      {
+        "eva": "cphor",
+        "bbox": [
+          96,
+          78,
+          42,
+          33
+        ]
+      },
+      {
+        "eva": "qotoy",
+        "bbox": [
+          144,
+          69,
+          57,
+          45
+        ]
+      },
+      {
+        "eva": "sha",
+        "bbox": [
+          207,
+          84,
+          33,
+          21
+        ]
+      }
+    ]
+  },
+  {
+    "folio": "f3v",
+    "kind": "image",
+    "url": "https://www.voynichese.com/1/data/folio/image/glance/color/large/f3v.jpg",
+    "bytes": 81764,
+    "sha256": "b90421790b54a3e04997f64cf8a9943245b1344d7103f3419f87377baffeac40",
+    "content_type": "image/jpeg",
+    "size": [
+      636,
+      900
+    ]
+  },
+  {
+    "folio": "f4r",
+    "kind": "script",
+    "url": "https://www.voynichese.com/1/data/folio/script/f4r.js",
+    "bytes": 2895,
+    "sha256": "46febd6a83cf00772b5dce37c393301e73e99a34e1911d8c26f928c5c2b98a78",
+    "content_type": "application/javascript",
+    "unique_tokens": 47,
+    "words": 64,
+    "first_word_records": [
+      {
+        "eva": "kodalchy",
+        "bbox": [
+          54,
+          90,
+          69,
+          33
+        ]
+      },
+      {
+        "eva": "chpady",
+        "bbox": [
+          129,
+          84,
+          60,
+          36
+        ]
+      },
+      {
+        "eva": "sheol",
+        "bbox": [
+          198,
+          84,
+          48,
+          27
+        ]
+      },
+      {
+        "eva": "ol",
+        "bbox": [
+          255,
+          93,
+          21,
+          18
+        ]
+      }
+    ]
+  },
+  {
+    "folio": "f4r",
+    "kind": "image",
+    "url": "https://www.voynichese.com/1/data/folio/image/glance/color/large/f4r.jpg",
+    "bytes": 78675,
+    "sha256": "2414c85df71f3e1b2098bdb11a55a1da26b94dea63045408f3ad129a18615b0b",
+    "content_type": "image/jpeg",
+    "size": [
+      636,
+      900
+    ]
+  },
+  {
+    "folio": "f4v",
+    "kind": "script",
+    "url": "https://www.voynichese.com/1/data/folio/script/f4v.js",
+    "bytes": 4085,
+    "sha256": "7e98e67e2dd98b83baa039a50d799be7548560f4bf13099e54b085ea9e61cf7f",
+    "content_type": "application/javascript",
+    "unique_tokens": 71,
+    "words": 83,
+    "first_word_records": [
+      {
+        "eva": "pchooiin",
+        "bbox": [
+          60,
+          81,
+          81,
+          39
+        ]
+      },
+      {
+        "eva": "ksheo",
+        "bbox": [
+          147,
+          81,
+          54,
+          30
+        ]
+      },
+      {
+        "eva": "kchoy",
+        "bbox": [
+          207,
+          72,
+          60,
+          39
+        ]
+      },
+      {
+        "eva": "chopchy",
+        "bbox": [
+          276,
+          69,
+          78,
+          42
+        ]
+      }
+    ]
+  },
+  {
+    "folio": "f4v",
+    "kind": "image",
+    "url": "https://www.voynichese.com/1/data/folio/image/glance/color/large/f4v.jpg",
+    "bytes": 80547,
+    "sha256": "7c75718a128c690cf241bb4e9e5040b020a248158ab516a9d0f42b4be239bad9",
+    "content_type": "image/jpeg",
+    "size": [
+      636,
+      900
+    ]
+  }
+]
