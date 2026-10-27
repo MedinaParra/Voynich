@@ -1,0 +1,56 @@
+{
+  "date": "2026-10-27",
+  "repository": "MedinaParra/Voynich",
+  "branch": "experiment/kraken-voynich",
+  "execution_commit": "21df988532b71227e9fc7646df6aa5805fe932ce",
+  "run_id": 40504398717,
+  "run_url": "https://github.com/MedinaParra/Voynich/actions/runs/40504398717",
+  "workflow_conclusion": "success",
+  "scientific_scope": "One extraction-development iteration, three fixed training runs; previously explored leaves and provisional assistant labels.",
+  "plan_sha256": "937f61948d2398ce6fc8004eeee001158debb4e566ba7b689ca0b061bd1b4036",
+  "artifacts": [
+    {
+      "id": 12735880074,
+      "name": "kraken-crop-repair-repaired_200",
+      "bytes": 25756318,
+      "sha256": "d357c571d2df2261c130a2aea9d1d841848339c7371c470d58d66d495da0656a",
+      "expires_at": "2026-11-26T12:41:57Z",
+      "zip_hash_verified": true,
+      "manifest_files": 325
+    },
+    {
+      "id": 12734621306,
+      "name": "kraken-crop-repair-repaired_40",
+      "bytes": 25741824,
+      "sha256": "9f750b164ab77b1f64b82526085c881c7b2d112a544f42fabebec3e2d3dc65cb",
+      "expires_at": "2026-11-26T12:34:32Z",
+      "zip_hash_verified": true,
+      "manifest_files": 325
+    },
+    {
+      "id": 12734546412,
+      "name": "kraken-crop-repair-original_40",
+      "bytes": 25697068,
+      "sha256": "a86ef0a289750982224ab00e9d15242e22eaff3c6e2ae682829aa38f7e65056d",
+      "expires_at": "2026-11-26T12:34:06Z",
+      "zip_hash_verified": true,
+      "manifest_files": 325
+    }
+  ],
+  "stored_in_repository": [
+    "fixed plan and execution code",
+    "three final models, result rows, training/configuration/conversion logs",
+    "four unchanged Yale source images and Boxer mapping with attribution",
+    "preparation/labels, original-versus-repaired views, numerical audit and manifests"
+  ],
+  "archive_only": [
+    "optimizer checkpoints and complete duplicate per-run export trees"
+  ],
+  "expert_review": "NOT_REVIEWED",
+  "independent_new_leaf_evaluation": "NOT_RUN",
+  "translation": "NOT_RUN",
+  "source_licenses": {
+    "boxer": "Alexander Boxer, copyright 2022, CC BY 4.0; pinned 255bd632e45459230eaf2a994e0557ed6c682869. Labels/mapping unchanged; image extraction modified.",
+    "images": "Yale University Library, Beinecke MS 408; exact acquisition URLs and hashes in frozen annotation files."
+  }
+}

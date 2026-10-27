@@ -1,0 +1,8 @@
+{
+  "status": "FAILED_BEFORE_PREPARATION",
+  "phase": "import",
+  "error": "ModuleNotFoundError: No module named 'requests'",
+  "cause": "Imported old HTTP helper although this preparation uses cached files.",
+  "resolution": "New experiment now uses a standard-library acquisition helper; original scripts unchanged.",
+  "training_executed": false
+}

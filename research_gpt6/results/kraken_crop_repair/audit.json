@@ -1,0 +1,178 @@
+{
+  "status": "PASS_INTERNAL_EXPORTED_DATA_AUDIT",
+  "checks": 1302,
+  "mismatches": [],
+  "pages": [
+    {
+      "folio": "3r",
+      "metrics": {
+        "0.06": {
+          "positions_before": 171223,
+          "repeated_before": 89750,
+          "repeated_after": 0,
+          "lost_candidate_positions": 0
+        },
+        "0.10": {
+          "positions_before": 111890,
+          "repeated_before": 60447,
+          "repeated_after": 0,
+          "lost_candidate_positions": 0
+        },
+        "0.14": {
+          "positions_before": 63469,
+          "repeated_before": 35181,
+          "repeated_after": 0,
+          "lost_candidate_positions": 0
+        }
+      }
+    },
+    {
+      "folio": "3v",
+      "metrics": {
+        "0.06": {
+          "positions_before": 119554,
+          "repeated_before": 75167,
+          "repeated_after": 0,
+          "lost_candidate_positions": 0
+        },
+        "0.10": {
+          "positions_before": 69469,
+          "repeated_before": 44717,
+          "repeated_after": 0,
+          "lost_candidate_positions": 0
+        },
+        "0.14": {
+          "positions_before": 36238,
+          "repeated_before": 23656,
+          "repeated_after": 0,
+          "lost_candidate_positions": 0
+        }
+      }
+    },
+    {
+      "folio": "4r",
+      "metrics": {
+        "0.06": {
+          "positions_before": 86971,
+          "repeated_before": 54995,
+          "repeated_after": 0,
+          "lost_candidate_positions": 0
+        },
+        "0.10": {
+          "positions_before": 54079,
+          "repeated_before": 35771,
+          "repeated_after": 0,
+          "lost_candidate_positions": 0
+        },
+        "0.14": {
+          "positions_before": 31328,
+          "repeated_before": 20873,
+          "repeated_after": 0,
+          "lost_candidate_positions": 0
+        }
+      }
+    },
+    {
+      "folio": "4v",
+      "metrics": {
+        "0.06": {
+          "positions_before": 114334,
+          "repeated_before": 83941,
+          "repeated_after": 0,
+          "lost_candidate_positions": 0
+        },
+        "0.10": {
+          "positions_before": 70517,
+          "repeated_before": 53866,
+          "repeated_after": 0,
+          "lost_candidate_positions": 0
+        },
+        "0.14": {
+          "positions_before": 43864,
+          "repeated_before": 34206,
+          "repeated_after": 0,
+          "lost_candidate_positions": 0
+        }
+      }
+    }
+  ],
+  "recognition_metrics_recomputed": [
+    {
+      "variant": "original_40",
+      "metrics": {
+        "kraken": {
+          "errors": 668,
+          "reference_units": 699,
+          "gcr": 0.9556509298998569
+        },
+        "nearest_image": {
+          "errors": 652,
+          "reference_units": 699,
+          "gcr": 0.932761087267525
+        },
+        "repeat_mode": {
+          "errors": 685,
+          "reference_units": 699,
+          "gcr": 0.9799713876967096
+        },
+        "empty": {
+          "errors": 699,
+          "reference_units": 699,
+          "gcr": 1.0
+        }
+      }
+    },
+    {
+      "variant": "repaired_40",
+      "metrics": {
+        "kraken": {
+          "errors": 574,
+          "reference_units": 699,
+          "gcr": 0.821173104434907
+        },
+        "nearest_image": {
+          "errors": 602,
+          "reference_units": 699,
+          "gcr": 0.8612303290414879
+        },
+        "repeat_mode": {
+          "errors": 685,
+          "reference_units": 699,
+          "gcr": 0.9799713876967096
+        },
+        "empty": {
+          "errors": 699,
+          "reference_units": 699,
+          "gcr": 1.0
+        }
+      }
+    },
+    {
+      "variant": "repaired_200",
+      "metrics": {
+        "kraken": {
+          "errors": 516,
+          "reference_units": 699,
+          "gcr": 0.7381974248927039
+        },
+        "nearest_image": {
+          "errors": 602,
+          "reference_units": 699,
+          "gcr": 0.8612303290414879
+        },
+        "repeat_mode": {
+          "errors": 685,
+          "reference_units": 699,
+          "gcr": 0.9799713876967096
+        },
+        "empty": {
+          "errors": 699,
+          "reference_units": 699,
+          "gcr": 1.0
+        }
+      }
+    }
+  ],
+  "scope": "Audits actual exported PNGs and ownership masks; no semantic or expert glyph validation.",
+  "independent_expert_review": "NOT_REVIEWED"
+}

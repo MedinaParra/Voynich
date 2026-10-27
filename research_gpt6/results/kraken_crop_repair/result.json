@@ -1,0 +1,149 @@
+{
+  "date": "2026-10-27",
+  "status": "EXECUTED_DEVELOPMENT_ABLATION_NOT_CONFIRMATORY",
+  "run_id": 40504398717,
+  "execution_commit": "21df988532b71227e9fc7646df6aa5805fe932ce",
+  "physical_train_leaf": 3,
+  "physical_development_leaf": 4,
+  "train_rows": 34,
+  "development_rows": 27,
+  "reference_units": 699,
+  "prepared_record_sets_identical": true,
+  "matching_png_and_label_records_per_run": 122,
+  "runs": [
+    {
+      "variant": "original_40",
+      "crop_variant": "original",
+      "epochs": 40,
+      "final_epoch_zero_based": 39,
+      "metrics": {
+        "kraken": {
+          "errors": 668,
+          "reference_units": 699,
+          "gcr": 0.9556509298998569
+        },
+        "nearest_image": {
+          "errors": 652,
+          "reference_units": 699,
+          "gcr": 0.932761087267525
+        },
+        "repeat_mode": {
+          "errors": 685,
+          "reference_units": 699,
+          "gcr": 0.9799713876967096
+        },
+        "empty": {
+          "errors": 699,
+          "reference_units": 699,
+          "gcr": 1.0
+        }
+      },
+      "training_fit_gcr": 0.9571428571428572,
+      "prediction_unit_counts": {
+        "o": 32
+      },
+      "model_sha256": "7313b1573e496b9af491e4da883919e0073583df47f09fb096ab30e4f5e18e43",
+      "checkpoint_sha256": "34bca2cb32031763307cab3d3b756e804d09dac063a2d113c6d0e37deee5b89c",
+      "training_log_sha256": "f1a7416707496e46037baf3e8f4771fd8e1d1ac4ded2ab76f00fde79db35b3ea",
+      "plan_sha256": "937f61948d2398ce6fc8004eeee001158debb4e566ba7b689ca0b061bd1b4036"
+    },
+    {
+      "variant": "repaired_40",
+      "crop_variant": "repaired",
+      "epochs": 40,
+      "final_epoch_zero_based": 39,
+      "metrics": {
+        "kraken": {
+          "errors": 574,
+          "reference_units": 699,
+          "gcr": 0.821173104434907
+        },
+        "nearest_image": {
+          "errors": 602,
+          "reference_units": 699,
+          "gcr": 0.8612303290414879
+        },
+        "repeat_mode": {
+          "errors": 685,
+          "reference_units": 699,
+          "gcr": 0.9799713876967096
+        },
+        "empty": {
+          "errors": 699,
+          "reference_units": 699,
+          "gcr": 1.0
+        }
+      },
+      "training_fit_gcr": 0.8346938775510204,
+      "prediction_unit_counts": {
+        "o": 60,
+        "SPACE": 57,
+        "c": 10,
+        "cc": 3,
+        "a": 14
+      },
+      "model_sha256": "6e0acbc4f8d62fc7134c7bf4bf8ac8bb79e0c36dbf8422332b4f31872e488156",
+      "checkpoint_sha256": "7352b68862b355d95584a93261ca79834b29cc76b1a9afed88d0af0de4ac3d6f",
+      "training_log_sha256": "a3bf54b7fc9bfe7f68965edf1f81f52dfddd1bdce7ff872803ea2843539c7813",
+      "plan_sha256": "937f61948d2398ce6fc8004eeee001158debb4e566ba7b689ca0b061bd1b4036"
+    },
+    {
+      "variant": "repaired_200",
+      "crop_variant": "repaired",
+      "epochs": 200,
+      "final_epoch_zero_based": 199,
+      "metrics": {
+        "kraken": {
+          "errors": 516,
+          "reference_units": 699,
+          "gcr": 0.7381974248927039
+        },
+        "nearest_image": {
+          "errors": 602,
+          "reference_units": 699,
+          "gcr": 0.8612303290414879
+        },
+        "repeat_mode": {
+          "errors": 685,
+          "reference_units": 699,
+          "gcr": 0.9799713876967096
+        },
+        "empty": {
+          "errors": 699,
+          "reference_units": 699,
+          "gcr": 1.0
+        }
+      },
+      "training_fit_gcr": 0.24897959183673468,
+      "prediction_unit_counts": {
+        "o": 131,
+        "x": 26,
+        "SPACE": 102,
+        "cc": 52,
+        "c": 47,
+        "Q": 19,
+        "Z": 31,
+        "8": 17,
+        "a": 38,
+        "9": 37,
+        "c^c": 5,
+        "M": 13,
+        "m": 4,
+        "N": 4,
+        "4": 5,
+        "2": 3,
+        "i": 2
+      },
+      "model_sha256": "b5df9eef0a783bec696b33636fbfb8d4807bfaa256d74ad6b34df4c58db66acb",
+      "checkpoint_sha256": "45a061f75e6ccd69958ab497c60c0568a969c5d72cffa6a75672df82f9b6e823",
+      "training_log_sha256": "d11fbb9cff1fbbc0896de154fa000748e44f2592f4e326e38db9e5b1da9400e6",
+      "plan_sha256": "937f61948d2398ce6fc8004eeee001158debb4e566ba7b689ca0b061bd1b4036"
+    }
+  ],
+  "improvement_original40_to_repaired40_percentage_points": 13.447782546494992,
+  "improvement_original40_to_repaired200_percentage_points": 21.7453505007153,
+  "expert_review": "NOT_REVIEWED",
+  "independent_heldout_evaluation": "NOT_RUN",
+  "translation": "NOT_RUN",
+  "language_identification": "NOT_RUN"
+}

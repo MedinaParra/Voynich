@@ -1,0 +1,29 @@
+{
+  "reviewer": "Assistant, single visual pass, not an independent palaeographer",
+  "scope": "Viewed 61 original/repaired row pairs in nine contact-sheet segments. This checks visible residuals, not the correctness of every Boxer unit.",
+  "status": "REVIEW_REQUIRED",
+  "observations": [
+    "Neighbouring-line material is generally reduced, but some touching/nearby strokes remain ambiguous.",
+    "Plant or paint material remains in some row domains, for example f3r paragraph 2 and f4r paragraph 2.",
+    "Do not use zero position duplication as evidence that every glyph is correctly assigned.",
+    "Old row/text associations have not received an independent expert review."
+  ],
+  "pages": {
+    "3r": {
+      "rows": 20,
+      "rows_with_ambiguous_components": 16
+    },
+    "3v": {
+      "rows": 14,
+      "rows_with_ambiguous_components": 14
+    },
+    "4r": {
+      "rows": 13,
+      "rows_with_ambiguous_components": 11
+    },
+    "4v": {
+      "rows": 14,
+      "rows_with_ambiguous_components": 13
+    }
+  }
+}

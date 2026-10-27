@@ -1,0 +1,34 @@
+{
+  "device": "cpu",
+  "precision": "32-true",
+  "num_workers": 0,
+  "num_threads": 2,
+  "seed": 20261014,
+  "deterministic": true,
+  "train": {
+    "arch": "vgsl",
+    "spec": "[1,48,0,1 Cr3,3,16 Mp2,2 Cr3,3,32 Mp2,2 S1(1x0)1,3 Lbx64]",
+    "training_data": [
+      "/home/runner/work/Voynich/Voynich/research_gpt6/results/kraken_crop_repair/repaired_200/runs/repaired_200/train.lst"
+    ],
+    "evaluation_data": [
+      "/home/runner/work/Voynich/Voynich/research_gpt6/results/kraken_crop_repair/repaired_200/runs/repaired_200/train.lst"
+    ],
+    "checkpoint_path": "/home/runner/work/Voynich/Voynich/research_gpt6/results/kraken_crop_repair/repaired_200/runs/repaired_200/checkpoints",
+    "format_type": "path",
+    "codec": "/home/runner/work/Voynich/Voynich/research_gpt6/results/kraken_crop_repair/repaired_200/codec.json",
+    "quit": "fixed",
+    "epochs": 200,
+    "min_epochs": 200,
+    "freq": 200,
+    "batch_size": 4,
+    "lrate": 0.001,
+    "schedule": "constant",
+    "augment": false,
+    "bidi_reordering": false,
+    "normalization": "NFC",
+    "normalize_whitespace": false,
+    "padding": 16,
+    "weights_format": "safetensors"
+  }
+}

@@ -1,0 +1,2895 @@
+[
+  {
+    "id": "3r.p1.l1",
+    "folio": "3r",
+    "variant": "original",
+    "path": "/home/runner/work/Voynich/Voynich/research_gpt6/results/kraken_crop_repair/repaired_40/original/3r_p1_l1.png",
+    "role": "train",
+    "text": "\udbbd\udc23\udbbd\udcc2\udbbd\udc06\udbbd\udc14\udbbd\udc0a \udbbd\udc1d\udbbd\udc14\udbbd\udc21\udbbd\udc10\udbbd\udc1a \udbbd\udcc0\udbbd\udc14\udbbd\udc1a \udbbd\udc06\udbbd\udc23\udbbd\udc06\udbbd\udc14\udbbd\udc1a \udbbd\udc09\udbbd\udc10\udbbd\udc00\udbbd\udc0b\udbbd\udc0b",
+    "image_sha256": "0f44982093797926edd1c9ec24d2a1e66976594615fd70eec58eeebb331a129b",
+    "pixel_sha256": "b536f4f4d3fabe74306157d252184574959a0060ac790327c52c4c0af968de0a",
+    "crop_size": [
+      664,
+      96
+    ],
+    "source_bbox": [
+      0.13555555555555557,
+      0.13560666137985725,
+      0.5044444444444445,
+      0.17367168913560665
+    ],
+    "reference_status": "ASSISTANT_PROVISIONAL_PREVIOUSLY_EXPLORED"
+  },
+  {
+    "id": "3r.p1.l1",
+    "folio": "3r",
+    "variant": "repaired",
+    "path": "/home/runner/work/Voynich/Voynich/research_gpt6/results/kraken_crop_repair/repaired_40/repaired/3r_p1_l1.png",
+    "role": "train",
+    "text": "\udbbd\udc23\udbbd\udcc2\udbbd\udc06\udbbd\udc14\udbbd\udc0a \udbbd\udc1d\udbbd\udc14\udbbd\udc21\udbbd\udc10\udbbd\udc1a \udbbd\udcc0\udbbd\udc14\udbbd\udc1a \udbbd\udc06\udbbd\udc23\udbbd\udc06\udbbd\udc14\udbbd\udc1a \udbbd\udc09\udbbd\udc10\udbbd\udc00\udbbd\udc0b\udbbd\udc0b",
+    "image_sha256": "dfd516950cc0cbd50a0c0e09dac4eef0fbcb4deaf0dea0b27a0e40e87ea3208e",
+    "pixel_sha256": "0901280e347b0ad53e839b7376c07fdd21ea3b27faa6f22649682f171019cb8d",
+    "crop_size": [
+      669,
+      134
+    ],
+    "source_bbox": [
+      241,
+      339,
+      910,
+      473
+    ],
+    "reference_status": "ASSISTANT_PROVISIONAL_PREVIOUSLY_EXPLORED",
+    "ambiguous_component_ids": [
+      298,
+      1213,
+      1229
+    ]
+  },
+  {
+    "id": "3r.p1.l2",
+    "folio": "3r",
+    "variant": "original",
+    "path": "/home/runner/work/Voynich/Voynich/research_gpt6/results/kraken_crop_repair/repaired_40/original/3r_p1_l2.png",
+    "role": "train",
+    "text": "\udbbd\udc17\udbbd\udcc0\udbbd\udc06\udbbd\udc14\udbbd\udc03 \udbbd\udcc0\udbbd\udc14\udbbd\udc03 \udbbd\udc09\udbbd\udc10\udbbd\udc0b \udbbd\udc1d\udbbd\udc14\udbbd\udc23\udbbd\udcc0\udbbd\udc10\udbbd\udc0b \udbbd\udcc0\udbbd\udc10\udbbd\udc0b",
+    "image_sha256": "b22b86e2ca7730f860511acf8b75230e4be097c7bdd61374f480a5e49908cb73",
+    "pixel_sha256": "e8bb45899f7f787b0355a3f8311907ad6cb2f9c660d250cad29903a5096edc4d",
+    "crop_size": [
+      671,
+      71
+    ],
+    "source_bbox": [
+      0.13666666666666666,
+      0.1641554321966693,
+      0.5088888888888888,
+      0.19191118160190326
+    ],
+    "reference_status": "ASSISTANT_PROVISIONAL_PREVIOUSLY_EXPLORED"
+  },
+  {
+    "id": "3r.p1.l2",
+    "folio": "3r",
+    "variant": "repaired",
+    "path": "/home/runner/work/Voynich/Voynich/research_gpt6/results/kraken_crop_repair/repaired_40/repaired/3r_p1_l2.png",
+    "role": "train",
+    "text": "\udbbd\udc17\udbbd\udcc0\udbbd\udc06\udbbd\udc14\udbbd\udc03 \udbbd\udcc0\udbbd\udc14\udbbd\udc03 \udbbd\udc09\udbbd\udc10\udbbd\udc0b \udbbd\udc1d\udbbd\udc14\udbbd\udc23\udbbd\udcc0\udbbd\udc10\udbbd\udc0b \udbbd\udcc0\udbbd\udc10\udbbd\udc0b",
+    "image_sha256": "6f925e3bd095c6235b3e56cea0fa6c97e084962b81fe5e77f99e0e3a6d064054",
+    "pixel_sha256": "5201b6326fcacf6450b95f9b1b3295f99711089ba72853daab6987318fb76df4",
+    "crop_size": [
+      676,
+      78
+    ],
+    "source_bbox": [
+      242,
+      421,
+      918,
+      499
+    ],
+    "reference_status": "ASSISTANT_PROVISIONAL_PREVIOUSLY_EXPLORED",
+    "ambiguous_component_ids": [
+      1381,
+      1775,
+      1889
+    ]
+  },
+  {
+    "id": "3r.p1.l3",
+    "folio": "3r",
+    "variant": "original",
+    "path": "/home/runner/work/Voynich/Voynich/research_gpt6/results/kraken_crop_repair/repaired_40/original/3r_p1_l3.png",
+    "role": "train",
+    "text": "\udbbd\udc14\udbbd\udcc0\udbbd\udc14\udbbd\udc03 \udbbd\udc1d\udbbd\udc14\udbbd\udcc0\udbbd\udc06\udbbd\udc14\udbbd\udc03 \udbbd\udcc0\udbbd\udc14\udbbd\udc1a \udbbd\udc09\udbbd\udc10\udbbd\udd05 \udbbd\udc06\udbbd\udc23\udbbd\udc06\udbbd\udc17",
+    "image_sha256": "0f301e8908b7f4606d62913023e0220ed2a707f122409150bbd19aa195bbae74",
+    "pixel_sha256": "1d1dd953cb825a503717d6b2708c9e040f9b87c8c079056ca7c5e102b4504111",
+    "crop_size": [
+      666,
+      74
+    ],
+    "source_bbox": [
+      0.1388888888888889,
+      0.18160190325138778,
+      0.5088888888888888,
+      0.21094369547977795
+    ],
+    "reference_status": "ASSISTANT_PROVISIONAL_PREVIOUSLY_EXPLORED"
+  },
+  {
+    "id": "3r.p1.l3",
+    "folio": "3r",
+    "variant": "repaired",
+    "path": "/home/runner/work/Voynich/Voynich/research_gpt6/results/kraken_crop_repair/repaired_40/repaired/3r_p1_l3.png",
+    "role": "train",
+    "text": "\udbbd\udc14\udbbd\udcc0\udbbd\udc14\udbbd\udc03 \udbbd\udc1d\udbbd\udc14\udbbd\udcc0\udbbd\udc06\udbbd\udc14\udbbd\udc03 \udbbd\udcc0\udbbd\udc14\udbbd\udc1a \udbbd\udc09\udbbd\udc10\udbbd\udd05 \udbbd\udc06\udbbd\udc23\udbbd\udc06\udbbd\udc17",
+    "image_sha256": "7fea53ad63734a0fa61059f57a9906fcc900a28ff92e26ef2f2d6a0b9d42dc5b",
+    "pixel_sha256": "5c03394404eb0633c26ae5755600e54d6098df67251c240bf4ca0c0add7b38de",
+    "crop_size": [
+      660,
+      77
+    ],
+    "source_bbox": [
+      247,
+      468,
+      907,
+      545
+    ],
+    "reference_status": "ASSISTANT_PROVISIONAL_PREVIOUSLY_EXPLORED",
+    "ambiguous_component_ids": [
+      1782,
+      1854
+    ]
+  },
+  {
+    "id": "3r.p1.l4",
+    "folio": "3r",
+    "variant": "original",
+    "path": "/home/runner/work/Voynich/Voynich/research_gpt6/results/kraken_crop_repair/repaired_40/original/3r_p1_l4.png",
+    "role": "train",
+    "text": "\udbbd\udc0a\udbbd\udcc0\udbbd\udc06\udbbd\udc17 \udbbd\udcc0\udbbd\udc14\udbbd\udc03 \udbbd\udcc0\udbbd\udc10\udbbd\udc1a \udbbd\udcc0\udbbd\udc10\udbbd\udc0b \udbbd\udcc0\udbbd\udc10\udbbd\udc0b \udbbd\udcc0\udbbd\udc14",
+    "image_sha256": "7cffdae14014122159daaaa5e865d14d5ab4e6cf82327b817700054a48281971",
+    "pixel_sha256": "472c775d0aeea9e5d9eec37e0030f21429d1439f3c1b155b65400c5ce13045d2",
+    "crop_size": [
+      676,
+      72
+    ],
+    "source_bbox": [
+      0.13555555555555557,
+      0.20222045995241872,
+      0.5111111111111111,
+      0.23076923076923078
+    ],
+    "reference_status": "ASSISTANT_PROVISIONAL_PREVIOUSLY_EXPLORED"
+  },
+  {
+    "id": "3r.p1.l4",
+    "folio": "3r",
+    "variant": "repaired",
+    "path": "/home/runner/work/Voynich/Voynich/research_gpt6/results/kraken_crop_repair/repaired_40/repaired/3r_p1_l4.png",
+    "role": "train",
+    "text": "\udbbd\udc0a\udbbd\udcc0\udbbd\udc06\udbbd\udc17 \udbbd\udcc0\udbbd\udc14\udbbd\udc03 \udbbd\udcc0\udbbd\udc10\udbbd\udc1a \udbbd\udcc0\udbbd\udc10\udbbd\udc0b \udbbd\udcc0\udbbd\udc10\udbbd\udc0b \udbbd\udcc0\udbbd\udc14",
+    "image_sha256": "af6a63c8e48f98a6e3022e5ee9d5f588529d99993db5842d0edf23db8ba9a0cb",
+    "pixel_sha256": "0f62ae01a864e6ea8d3eb4a6d3c3c426762793cb3870e38ac16e2e0355b0da89",
+    "crop_size": [
+      682,
+      100
+    ],
+    "source_bbox": [
+      241,
+      497,
+      923,
+      597
+    ],
+    "reference_status": "ASSISTANT_PROVISIONAL_PREVIOUSLY_EXPLORED",
+    "ambiguous_component_ids": [
+      2126,
+      2666
+    ]
+  },
+  {
+    "id": "3r.p1.l5",
+    "folio": "3r",
+    "variant": "original",
+    "path": "/home/runner/work/Voynich/Voynich/research_gpt6/results/kraken_crop_repair/repaired_40/original/3r_p1_l5.png",
+    "role": "train",
+    "text": "\udbbd\udc1d\udbbd\udc14\udbbd\udc22\udbbd\udc14\udbbd\udc1a \udbbd\udcc0\udbbd\udc14\udbbd\udc1a\udbbd\udc14\udbbd\udc1a\udbbd\udc17 \udbbd\udc0a \udbbd\udcc0\udbbd\udc10\udbbd\udc0b \udbbd\udc06\udbbd\udc23\udbbd\udc06\udbbd\udc14\udbbd\udc1a",
+    "image_sha256": "ec85dbcce253cd18c84d1fd2d61da8c70ffd5782e3af940055ff4e03ed050544",
+    "pixel_sha256": "fe40790846ba900aa406507f1d904e88e87c4f8c5bd03287008a244e34134bce",
+    "crop_size": [
+      669,
+      80
+    ],
+    "source_bbox": [
+      0.13555555555555557,
+      0.22204599524187152,
+      0.5066666666666667,
+      0.253766851704996
+    ],
+    "reference_status": "ASSISTANT_PROVISIONAL_PREVIOUSLY_EXPLORED"
+  },
+  {
+    "id": "3r.p1.l5",
+    "folio": "3r",
+    "variant": "repaired",
+    "path": "/home/runner/work/Voynich/Voynich/research_gpt6/results/kraken_crop_repair/repaired_40/repaired/3r_p1_l5.png",
+    "role": "train",
+    "text": "\udbbd\udc1d\udbbd\udc14\udbbd\udc22\udbbd\udc14\udbbd\udc1a \udbbd\udcc0\udbbd\udc14\udbbd\udc1a\udbbd\udc14\udbbd\udc1a\udbbd\udc17 \udbbd\udc0a \udbbd\udcc0\udbbd\udc10\udbbd\udc0b \udbbd\udc06\udbbd\udc23\udbbd\udc06\udbbd\udc14\udbbd\udc1a",
+    "image_sha256": "7ee5da8762f74b1225ef182147a56a11aaf965d821063016a2c6b04845074aba",
+    "pixel_sha256": "363b3fb4187f08d1063f733bd1c26bfb899faa6127869e97055d10e4e46cfa03",
+    "crop_size": [
+      674,
+      76
+    ],
+    "source_bbox": [
+      242,
+      568,
+      916,
+      644
+    ],
+    "reference_status": "ASSISTANT_PROVISIONAL_PREVIOUSLY_EXPLORED",
+    "ambiguous_component_ids": []
+  },
+  {
+    "id": "3r.p1.l6",
+    "folio": "3r",
+    "variant": "original",
+    "path": "/home/runner/work/Voynich/Voynich/research_gpt6/results/kraken_crop_repair/repaired_40/original/3r_p1_l6.png",
+    "role": "train",
+    "text": "\udbbd\udc17\udbbd\udcc0\udbbd\udc23\udbbd\udc10\udbbd\udd05 \udbbd\udcc0\udbbd\udc14\udbbd\udc03 \udbbd\udc06\udbbd\udc23\udbbd\udc06\udbbd\udc14\udbbd\udc0b \udbbd\udc14\udbbd\udc23\udbbd\udc10\udbbd\udc1a \udbbd\udc09\udbbd\udc10\udbbd\udc0b",
+    "image_sha256": "f1602ef9f10d15dcca6fdf41ddec64ca7299b9f599ae69313c1a11c4f55f716d",
+    "pixel_sha256": "cf6feb933bddd71f76023a1d1325e998c30a3e7a14cc8435213731457596d03f",
+    "crop_size": [
+      668,
+      81
+    ],
+    "source_bbox": [
+      0.13444444444444445,
+      0.24266455194290246,
+      0.5055555555555555,
+      0.274385408406027
+    ],
+    "reference_status": "ASSISTANT_PROVISIONAL_PREVIOUSLY_EXPLORED"
+  },
+  {
+    "id": "3r.p1.l6",
+    "folio": "3r",
+    "variant": "repaired",
+    "path": "/home/runner/work/Voynich/Voynich/research_gpt6/results/kraken_crop_repair/repaired_40/repaired/3r_p1_l6.png",
+    "role": "train",
+    "text": "\udbbd\udc17\udbbd\udcc0\udbbd\udc23\udbbd\udc10\udbbd\udd05 \udbbd\udcc0\udbbd\udc14\udbbd\udc03 \udbbd\udc06\udbbd\udc23\udbbd\udc06\udbbd\udc14\udbbd\udc0b \udbbd\udc14\udbbd\udc23\udbbd\udc10\udbbd\udc1a \udbbd\udc09\udbbd\udc10\udbbd\udc0b",
+    "image_sha256": "46cf73c66308a0ca34663bce3b21fdd7d8d39015efe7f4edc4a4ba00678edacb",
+    "pixel_sha256": "a7b4303bed14f222552a6ab1dce3500b53d5cff2de4ec590471a2de7d8703e3a",
+    "crop_size": [
+      677,
+      103
+    ],
+    "source_bbox": [
+      239,
+      592,
+      916,
+      695
+    ],
+    "reference_status": "ASSISTANT_PROVISIONAL_PREVIOUSLY_EXPLORED",
+    "ambiguous_component_ids": [
+      2978,
+      3109
+    ]
+  },
+  {
+    "id": "3r.p1.l7",
+    "folio": "3r",
+    "variant": "original",
+    "path": "/home/runner/work/Voynich/Voynich/research_gpt6/results/kraken_crop_repair/repaired_40/original/3r_p1_l7.png",
+    "role": "train",
+    "text": "\udbbd\udc14\udbbd\udc23\udbbd\udcc0\udbbd\udc14\udbbd\udc1a \udbbd\udc1d\udbbd\udc14\udbbd\udc09\udbbd\udc10\udbbd\udd05 \udbbd\udcc0\udbbd\udc14\udbbd\udc0b \udbbd\udcc2\udbbd\udc14\udbbd\udc0b \udbbd\udc09\udbbd\udc10\udbbd\udc0b\udbbd\udc14",
+    "image_sha256": "9cc575db9d9853c1551c9c6276284d8c917c593b8bcf121b9af119869dba82e2",
+    "pixel_sha256": "1dc6348c40bac042d202956d3c8e30c47e100da04a128ae9e12e13bbb4e429ba",
+    "crop_size": [
+      661,
+      94
+    ],
+    "source_bbox": [
+      0.14,
+      0.25931800158604285,
+      0.5066666666666667,
+      0.2965900079302141
+    ],
+    "reference_status": "ASSISTANT_PROVISIONAL_PREVIOUSLY_EXPLORED"
+  },
+  {
+    "id": "3r.p1.l7",
+    "folio": "3r",
+    "variant": "repaired",
+    "path": "/home/runner/work/Voynich/Voynich/research_gpt6/results/kraken_crop_repair/repaired_40/repaired/3r_p1_l7.png",
+    "role": "train",
+    "text": "\udbbd\udc14\udbbd\udc23\udbbd\udcc0\udbbd\udc14\udbbd\udc1a \udbbd\udc1d\udbbd\udc14\udbbd\udc09\udbbd\udc10\udbbd\udd05 \udbbd\udcc0\udbbd\udc14\udbbd\udc0b \udbbd\udcc2\udbbd\udc14\udbbd\udc0b \udbbd\udc09\udbbd\udc10\udbbd\udc0b\udbbd\udc14",
+    "image_sha256": "e80f7f223e4721711d190ca4d2c721c0cd18c342f57a79bc1f0e4b083200e078",
+    "pixel_sha256": "f56bedbd52de4f3874a623b2009f3820bc7cad7394097524f5f20dc41eb9e799",
+    "crop_size": [
+      668,
+      101
+    ],
+    "source_bbox": [
+      249,
+      665,
+      917,
+      766
+    ],
+    "reference_status": "ASSISTANT_PROVISIONAL_PREVIOUSLY_EXPLORED",
+    "ambiguous_component_ids": [
+      3550,
+      4037
+    ]
+  },
+  {
+    "id": "3r.p1.l8",
+    "folio": "3r",
+    "variant": "original",
+    "path": "/home/runner/work/Voynich/Voynich/research_gpt6/results/kraken_crop_repair/repaired_40/original/3r_p1_l8.png",
+    "role": "train",
+    "text": "\udbbd\udc17\udbbd\udcc2\udbbd\udc06\udbbd\udc14\udbbd\udc03 \udbbd\udcc0\udbbd\udc14\udbbd\udc03 \udbbd\udcc0\udbbd\udc14\udbbd\udc1a \udbbd\udc14\udbbd\udc22\udbbd\udc17 \udbbd\udc09\udbbd\udc10\udbbd\udc0b\udbbd\udc14",
+    "image_sha256": "33064c9278345efa106ddefc18e70e83e2e799962d27ac190c3c1b377b865c8d",
+    "pixel_sha256": "b4c4e0930ee4ce563db38c87eeca79192eb060315f3e5c461c5e164e4dc86ac1",
+    "crop_size": [
+      670,
+      96
+    ],
+    "source_bbox": [
+      0.13555555555555557,
+      0.27835051546391754,
+      0.5077777777777778,
+      0.3164155432196669
+    ],
+    "reference_status": "ASSISTANT_PROVISIONAL_PREVIOUSLY_EXPLORED"
+  },
+  {
+    "id": "3r.p1.l8",
+    "folio": "3r",
+    "variant": "repaired",
+    "path": "/home/runner/work/Voynich/Voynich/research_gpt6/results/kraken_crop_repair/repaired_40/repaired/3r_p1_l8.png",
+    "role": "train",
+    "text": "\udbbd\udc17\udbbd\udcc2\udbbd\udc06\udbbd\udc14\udbbd\udc03 \udbbd\udcc0\udbbd\udc14\udbbd\udc03 \udbbd\udcc0\udbbd\udc14\udbbd\udc1a \udbbd\udc14\udbbd\udc22\udbbd\udc17 \udbbd\udc09\udbbd\udc10\udbbd\udc0b\udbbd\udc14",
+    "image_sha256": "144beae02325b796b42d934f37bf7aa6bd649b6c8f6962af831a261e3d81fbf5",
+    "pixel_sha256": "9021a0f7778e8223d011135ddce12fa6e9158fa602887e804324f2aad30d1548",
+    "crop_size": [
+      676,
+      101
+    ],
+    "source_bbox": [
+      241,
+      700,
+      917,
+      801
+    ],
+    "reference_status": "ASSISTANT_PROVISIONAL_PREVIOUSLY_EXPLORED",
+    "ambiguous_component_ids": []
+  },
+  {
+    "id": "3r.p1.l9",
+    "folio": "3r",
+    "variant": "original",
+    "path": "/home/runner/work/Voynich/Voynich/research_gpt6/results/kraken_crop_repair/repaired_40/original/3r_p1_l9.png",
+    "role": "train",
+    "text": "\udbbd\udcc2\udbbd\udc14 \udbbd\udd1f\udbbd\udc14\udbbd\udc03 \udbbd\udcc2\udbbd\udc06\udbbd\udc14\udbbd\udc1a\udbbd\udc09\udbbd\udc10\udbbd\udc0b \udbbd\udc14\udbbd\udc23\udbbd\udcc0\udbbd\udc14\udbbd\udc09\udbbd\udc17 \udbbd\udc14\udbbd\udc1a",
+    "image_sha256": "54fff51e92918c62fde0a6dc0b3d1fdf0fc6d19c07ab72ebfffeff6c4e8f2e4e",
+    "pixel_sha256": "6a8666ea30e163fe7feef0f1b8853603f8e08c3acaa2dc651fa2100e68c0f55e",
+    "crop_size": [
+      646,
+      93
+    ],
+    "source_bbox": [
+      0.1388888888888889,
+      0.29976209357652656,
+      0.49777777777777776,
+      0.3362410785091198
+    ],
+    "reference_status": "ASSISTANT_PROVISIONAL_PREVIOUSLY_EXPLORED"
+  },
+  {
+    "id": "3r.p1.l9",
+    "folio": "3r",
+    "variant": "repaired",
+    "path": "/home/runner/work/Voynich/Voynich/research_gpt6/results/kraken_crop_repair/repaired_40/repaired/3r_p1_l9.png",
+    "role": "train",
+    "text": "\udbbd\udcc2\udbbd\udc14 \udbbd\udd1f\udbbd\udc14\udbbd\udc03 \udbbd\udcc2\udbbd\udc06\udbbd\udc14\udbbd\udc1a\udbbd\udc09\udbbd\udc10\udbbd\udc0b \udbbd\udc14\udbbd\udc23\udbbd\udcc0\udbbd\udc14\udbbd\udc09\udbbd\udc17 \udbbd\udc14\udbbd\udc1a",
+    "image_sha256": "61cc6b1267df7532466e51bbfd2b98e655b4807e581c090e96090b84edd4ead5",
+    "pixel_sha256": "0bf5bb20bcdd659b9ff4e86efc003d38de310c24e2038781424193a53195b46a",
+    "crop_size": [
+      654,
+      86
+    ],
+    "source_bbox": [
+      245,
+      766,
+      899,
+      852
+    ],
+    "reference_status": "ASSISTANT_PROVISIONAL_PREVIOUSLY_EXPLORED",
+    "ambiguous_component_ids": [
+      4592,
+      4628,
+      4734,
+      5282
+    ]
+  },
+  {
+    "id": "3r.p1.l10",
+    "folio": "3r",
+    "variant": "original",
+    "path": "/home/runner/work/Voynich/Voynich/research_gpt6/results/kraken_crop_repair/repaired_40/original/3r_p1_l10.png",
+    "role": "train",
+    "text": "\udbbd\udc17\udbbd\udc09\udbbd\udc10\udbbd\udc03 \udbbd\udcc0\udbbd\udc14\udbbd\udc1a \udbbd\udc06\udbbd\udc23\udbbd\udc06\udbbd\udc14\udbbd\udc0b",
+    "image_sha256": "ccfef824545b6159164b9960559b3927c0b86d9e06d3e7cd99c3882076464263",
+    "pixel_sha256": "d23043537c6a95c0c681f71fecefea8ac6cce4512fc1285ca3344c860a5c2c4a",
+    "crop_size": [
+      378,
+      92
+    ],
+    "source_bbox": [
+      0.1411111111111111,
+      0.31800158604282314,
+      0.3511111111111111,
+      0.35448057097541635
+    ],
+    "reference_status": "ASSISTANT_PROVISIONAL_PREVIOUSLY_EXPLORED"
+  },
+  {
+    "id": "3r.p1.l10",
+    "folio": "3r",
+    "variant": "repaired",
+    "path": "/home/runner/work/Voynich/Voynich/research_gpt6/results/kraken_crop_repair/repaired_40/repaired/3r_p1_l10.png",
+    "role": "train",
+    "text": "\udbbd\udc17\udbbd\udc09\udbbd\udc10\udbbd\udc03 \udbbd\udcc0\udbbd\udc14\udbbd\udc1a \udbbd\udc06\udbbd\udc23\udbbd\udc06\udbbd\udc14\udbbd\udc0b",
+    "image_sha256": "f48162a1212009b588ebd6bcd737ca56613ee8118ad5c43025d29fd09d71086f",
+    "pixel_sha256": "acb3cb61cca593faf89850520e608fa7c4ef7a938d7651dab4a2bb63b481b802",
+    "crop_size": [
+      385,
+      73
+    ],
+    "source_bbox": [
+      251,
+      824,
+      636,
+      897
+    ],
+    "reference_status": "ASSISTANT_PROVISIONAL_PREVIOUSLY_EXPLORED",
+    "ambiguous_component_ids": []
+  },
+  {
+    "id": "3r.p2.l1",
+    "folio": "3r",
+    "variant": "original",
+    "path": "/home/runner/work/Voynich/Voynich/research_gpt6/results/kraken_crop_repair/repaired_40/original/3r_p2_l1.png",
+    "role": "train",
+    "text": "\udbbd\udc21\udbbd\udcc0\udbbd\udc06\udbbd\udc14\udbbd\udc1a \udbbd\udcc2\udbbd\udc14\udbbd\udc1a \udbbd\udc0a\udbbd\udc14\udbbd\udc1a\udbbd\udc0a \udbbd\udcc2\udbbd\udc06\udbbd\udc14\udbbd\udc1a \udbbd\udcc2\udbbd\udc06\udbbd\udc17",
+    "image_sha256": "9089ddbbfcdb994f7861dcd38c50dd40f64863fd18fa252659567ee0bbdd803a",
+    "pixel_sha256": "938933fe0838624bdcac9e462903eb56614fc423540a4ec111a169dd2e5ae26d",
+    "crop_size": [
+      616,
+      96
+    ],
+    "source_bbox": [
+      0.12444444444444444,
+      0.4195083267248216,
+      0.4666666666666667,
+      0.45757335448057096
+    ],
+    "reference_status": "ASSISTANT_PROVISIONAL_PREVIOUSLY_EXPLORED"
+  },
+  {
+    "id": "3r.p2.l1",
+    "folio": "3r",
+    "variant": "repaired",
+    "path": "/home/runner/work/Voynich/Voynich/research_gpt6/results/kraken_crop_repair/repaired_40/repaired/3r_p2_l1.png",
+    "role": "train",
+    "text": "\udbbd\udc21\udbbd\udcc0\udbbd\udc06\udbbd\udc14\udbbd\udc1a \udbbd\udcc2\udbbd\udc14\udbbd\udc1a \udbbd\udc0a\udbbd\udc14\udbbd\udc1a\udbbd\udc0a \udbbd\udcc2\udbbd\udc06\udbbd\udc14\udbbd\udc1a \udbbd\udcc2\udbbd\udc06\udbbd\udc17",
+    "image_sha256": "a6ffa98ede9b1f630151b7ba91907250bb10e9b5261930293c59512e11ea2823",
+    "pixel_sha256": "9bcfce8db18195e6f2523a66a521833a52f0cfdb9255242190131cbf992026e6",
+    "crop_size": [
+      620,
+      105
+    ],
+    "source_bbox": [
+      221,
+      1055,
+      841,
+      1160
+    ],
+    "reference_status": "ASSISTANT_PROVISIONAL_PREVIOUSLY_EXPLORED",
+    "ambiguous_component_ids": [
+      6924
+    ]
+  },
+  {
+    "id": "3r.p2.l2",
+    "folio": "3r",
+    "variant": "original",
+    "path": "/home/runner/work/Voynich/Voynich/research_gpt6/results/kraken_crop_repair/repaired_40/original/3r_p2_l2.png",
+    "role": "train",
+    "text": "\udbbd\udc14\udbbd\udc22\udbbd\udc10\udbbd\udc09\udbbd\udc10\udbbd\udd05 \udbbd\udc1d\udbbd\udc14\udbbd\udc22\udbbd\udcc0\udbbd\udc14\udbbd\udc03 \udbbd\udc1d\udbbd\udc14 \udbbd\udc0a\udbbd\udcc0\udbbd\udc14\udbbd\udc09\udbbd\udc10\udbbd\udc0b \udbbd\udc14\udbbd\udc06\udbbd\udc23\udbbd\udc06\udbbd\udc17",
+    "image_sha256": "394e99e227bc46de0d5a71ad4a8dac6788f3b6d454c730e128f741d3c7af9163",
+    "pixel_sha256": "bab02210504487bf3afab7066faaa0b48c96f46662347b3f323af8128cd1c1ea",
+    "crop_size": [
+      746,
+      86
+    ],
+    "source_bbox": [
+      0.1388888888888889,
+      0.44885011895321175,
+      0.5533333333333333,
+      0.4829500396510706
+    ],
+    "reference_status": "ASSISTANT_PROVISIONAL_PREVIOUSLY_EXPLORED"
+  },
+  {
+    "id": "3r.p2.l2",
+    "folio": "3r",
+    "variant": "repaired",
+    "path": "/home/runner/work/Voynich/Voynich/research_gpt6/results/kraken_crop_repair/repaired_40/repaired/3r_p2_l2.png",
+    "role": "train",
+    "text": "\udbbd\udc14\udbbd\udc22\udbbd\udc10\udbbd\udc09\udbbd\udc10\udbbd\udd05 \udbbd\udc1d\udbbd\udc14\udbbd\udc22\udbbd\udcc0\udbbd\udc14\udbbd\udc03 \udbbd\udc1d\udbbd\udc14 \udbbd\udc0a\udbbd\udcc0\udbbd\udc14\udbbd\udc09\udbbd\udc10\udbbd\udc0b \udbbd\udc14\udbbd\udc06\udbbd\udc23\udbbd\udc06\udbbd\udc17",
+    "image_sha256": "e6d101898d40946d07911856aa40414560e8e08aa0ca7c74d090b2b5824c7a05",
+    "pixel_sha256": "3a8344d14d69bee0d7c1b22bce4c36216ce483cca656759220f55f14fe6dbf18",
+    "crop_size": [
+      755,
+      133
+    ],
+    "source_bbox": [
+      244,
+      1118,
+      999,
+      1251
+    ],
+    "reference_status": "ASSISTANT_PROVISIONAL_PREVIOUSLY_EXPLORED",
+    "ambiguous_component_ids": [
+      6746,
+      7140,
+      7234,
+      7252,
+      7318
+    ]
+  },
+  {
+    "id": "3r.p2.l3",
+    "folio": "3r",
+    "variant": "original",
+    "path": "/home/runner/work/Voynich/Voynich/research_gpt6/results/kraken_crop_repair/repaired_40/original/3r_p2_l3.png",
+    "role": "train",
+    "text": "\udbbd\udc1d\udbbd\udc14\udbbd\udc22\udbbd\udc06\udbbd\udc06\udbbd\udc17 \udbbd\udc1d\udbbd\udc14\udbbd\udc23\udbbd\udcc2\udbbd\udc06\udbbd\udc17 \udbbd\udc1d\udbbd\udc14\udbbd\udc22\udbbd\udc14\udbbd\udc09\udbbd\udc17 \udbbd\udc1d\udbbd\udc14\udbbd\udc22\udbbd\udcc2\udbbd\udc06\udbbd\udc17 \udbbd\udcc0\udbbd\udc06\udbbd\udc14\udbbd\udc09\udbbd\udc17",
+    "image_sha256": "3e30a67dc180dd8d142b7e560a4400ef2448895883e06cc447133c24b5bba48a",
+    "pixel_sha256": "5bab5734a00e999008ae51265f5a8ef147561e9ac66687fbf5f6cc10fb61ed1b",
+    "crop_size": [
+      907,
+      100
+    ],
+    "source_bbox": [
+      0.13666666666666666,
+      0.4639175257731959,
+      0.64,
+      0.5035685963521015
+    ],
+    "reference_status": "ASSISTANT_PROVISIONAL_PREVIOUSLY_EXPLORED"
+  },
+  {
+    "id": "3r.p2.l3",
+    "folio": "3r",
+    "variant": "repaired",
+    "path": "/home/runner/work/Voynich/Voynich/research_gpt6/results/kraken_crop_repair/repaired_40/repaired/3r_p2_l3.png",
+    "role": "train",
+    "text": "\udbbd\udc1d\udbbd\udc14\udbbd\udc22\udbbd\udc06\udbbd\udc06\udbbd\udc17 \udbbd\udc1d\udbbd\udc14\udbbd\udc23\udbbd\udcc2\udbbd\udc06\udbbd\udc17 \udbbd\udc1d\udbbd\udc14\udbbd\udc22\udbbd\udc14\udbbd\udc09\udbbd\udc17 \udbbd\udc1d\udbbd\udc14\udbbd\udc22\udbbd\udcc2\udbbd\udc06\udbbd\udc17 \udbbd\udcc0\udbbd\udc06\udbbd\udc14\udbbd\udc09\udbbd\udc17",
+    "image_sha256": "0f3168dd16a91e2ef5ce82fa9471772297582f346bfffe95a86561dbace10093",
+    "pixel_sha256": "88c29c69258cc51ffe5c859dcf6d7f73befdaa09344068e2c49b63d6572232a1",
+    "crop_size": [
+      902,
+      121
+    ],
+    "source_bbox": [
+      242,
+      1167,
+      1144,
+      1288
+    ],
+    "reference_status": "ASSISTANT_PROVISIONAL_PREVIOUSLY_EXPLORED",
+    "ambiguous_component_ids": [
+      7131,
+      7260,
+      7263,
+      7272,
+      7321,
+      7511,
+      7734,
+      7766
+    ]
+  },
+  {
+    "id": "3r.p2.l4",
+    "folio": "3r",
+    "variant": "original",
+    "path": "/home/runner/work/Voynich/Voynich/research_gpt6/results/kraken_crop_repair/repaired_40/original/3r_p2_l4.png",
+    "role": "train",
+    "text": "\udbbd\udcc0\udbbd\udc14\udbbd\udc03 \udbbd\udc1d\udbbd\udc14\udbbd\udc09\udbbd\udc10\udbbd\udc00\udbbd\udc03 \udbbd\udc14\udbbd\udc22\udbbd\udc06\udbbd\udc06\udbbd\udc17 \udbbd\udc1d\udbbd\udc14\udbbd\udc22\udbbd\udc06\udbbd\udc06\udbbd\udc17",
+    "image_sha256": "4a95e9dc96d280ddde51c362e737a84d4d7f6a9a776303dddfec591533632263",
+    "pixel_sha256": "741dc2e4ea0a4e1bd9f58f85f64c81d38ec4ae77781ffd625900c74bf337906c",
+    "crop_size": [
+      596,
+      83
+    ],
+    "source_bbox": [
+      0.1388888888888889,
+      0.4853291038858049,
+      0.47,
+      0.5178429817605076
+    ],
+    "reference_status": "ASSISTANT_PROVISIONAL_PREVIOUSLY_EXPLORED"
+  },
+  {
+    "id": "3r.p2.l4",
+    "folio": "3r",
+    "variant": "repaired",
+    "path": "/home/runner/work/Voynich/Voynich/research_gpt6/results/kraken_crop_repair/repaired_40/repaired/3r_p2_l4.png",
+    "role": "train",
+    "text": "\udbbd\udcc0\udbbd\udc14\udbbd\udc03 \udbbd\udc1d\udbbd\udc14\udbbd\udc09\udbbd\udc10\udbbd\udc00\udbbd\udc03 \udbbd\udc14\udbbd\udc22\udbbd\udc06\udbbd\udc06\udbbd\udc17 \udbbd\udc1d\udbbd\udc14\udbbd\udc22\udbbd\udc06\udbbd\udc06\udbbd\udc17",
+    "image_sha256": "4e9faf32e1d2d8a3601222a3fb3e6cc62ebcf5e204cff20961ec6fe08aed7f79",
+    "pixel_sha256": "f9a2a65508e52cb635a2b75d8722ff9c3e9dbd37ce115eaac648e54e078c12bb",
+    "crop_size": [
+      603,
+      79
+    ],
+    "source_bbox": [
+      247,
+      1236,
+      850,
+      1315
+    ],
+    "reference_status": "ASSISTANT_PROVISIONAL_PREVIOUSLY_EXPLORED",
+    "ambiguous_component_ids": [
+      7586,
+      7644,
+      8221
+    ]
+  },
+  {
+    "id": "3r.p3.l1",
+    "folio": "3r",
+    "variant": "original",
+    "path": "/home/runner/work/Voynich/Voynich/research_gpt6/results/kraken_crop_repair/repaired_40/original/3r_p3_l1.png",
+    "role": "train",
+    "text": "\udbbd\udc23\udbbd\udcc2\udbbd\udc06\udbbd\udc14\udbbd\udc10\udbbd\udc03\udbbd\udc14\udbbd\udc0b \udbbd\udcc2\udbbd\udc10\udbbd\udc03 \udbbd\udc14\udbbd\udc03 \udbbd\udcc0\udbbd\udc14\udbbd\udc03 \udbbd\udc14\udbbd\udc1a\udbbd\udc06\udbbd\udc06\udbbd\udc0a\udbbd\udc17 \udbbd\udcc0\udbbd\udc14\udbbd\udc0b \udbbd\udc14\udbbd\udc23\udbbd\udc06\udbbd\udc06\udbbd\udc14\udbbd\udc0b \udbbd\udc14\udbbd\udc21\udbbd\udc14\udbbd\udc03\udbbd\udc10\udbbd\udc03",
+    "image_sha256": "b6018dfd75e785877be2b5fd33c5194a007bd865b631d0bbb5159ea14149387c",
+    "pixel_sha256": "852e0397ba2eaf9309d905e2009d84aa13083b071be8cb06f23a3a68007f073f",
+    "crop_size": [
+      1286,
+      103
+    ],
+    "source_bbox": [
+      0.13444444444444445,
+      0.5130848532910388,
+      0.8488888888888889,
+      0.5535289452815226
+    ],
+    "reference_status": "ASSISTANT_PROVISIONAL_PREVIOUSLY_EXPLORED"
+  },
+  {
+    "id": "3r.p3.l1",
+    "folio": "3r",
+    "variant": "repaired",
+    "path": "/home/runner/work/Voynich/Voynich/research_gpt6/results/kraken_crop_repair/repaired_40/repaired/3r_p3_l1.png",
+    "role": "train",
+    "text": "\udbbd\udc23\udbbd\udcc2\udbbd\udc06\udbbd\udc14\udbbd\udc10\udbbd\udc03\udbbd\udc14\udbbd\udc0b \udbbd\udcc2\udbbd\udc10\udbbd\udc03 \udbbd\udc14\udbbd\udc03 \udbbd\udcc0\udbbd\udc14\udbbd\udc03 \udbbd\udc14\udbbd\udc1a\udbbd\udc06\udbbd\udc06\udbbd\udc0a\udbbd\udc17 \udbbd\udcc0\udbbd\udc14\udbbd\udc0b \udbbd\udc14\udbbd\udc23\udbbd\udc06\udbbd\udc06\udbbd\udc14\udbbd\udc0b \udbbd\udc14\udbbd\udc21\udbbd\udc14\udbbd\udc03\udbbd\udc10\udbbd\udc03",
+    "image_sha256": "17c10bad37ce89c9fae88b9b280773c3d1226fda497c1f1983775190307208e0",
+    "pixel_sha256": "2d97bc82116d3b7886e694d0f3df614e629a4b5067e0ccc5589195a8c777ac80",
+    "crop_size": [
+      1293,
+      106
+    ],
+    "source_bbox": [
+      238,
+      1290,
+      1531,
+      1396
+    ],
+    "reference_status": "ASSISTANT_PROVISIONAL_PREVIOUSLY_EXPLORED",
+    "ambiguous_component_ids": [
+      8235,
+      8389
+    ]
+  },
+  {
+    "id": "3r.p3.l2",
+    "folio": "3r",
+    "variant": "original",
+    "path": "/home/runner/work/Voynich/Voynich/research_gpt6/results/kraken_crop_repair/repaired_40/original/3r_p3_l2.png",
+    "role": "train",
+    "text": "\udbbd\udc14\udbbd\udc23\udbbd\udc06\udbbd\udc14\udbbd\udc1a \udbbd\udcc0\udbbd\udc14\udbbd\udc1a \udbbd\udc0a \udbbd\udcc0\udbbd\udc06\udbbd\udc14\udbbd\udc1a \udbbd\udc06\udbbd\udc22\udbbd\udcc2\udbbd\udc17 \udbbd\udc1d\udbbd\udc14\udbbd\udc22\udbbd\udc06\udbbd\udc14\udbbd\udc0b \udbbd\udc1d\udbbd\udc14\udbbd\udc22\udbbd\udc10\udbbd\udc1a \udbbd\udc09\udbbd\udc10\udbbd\udd05 \udbbd\udc0a\udbbd\udc14\udbbd\udc1a\udbbd\udc06\udbbd\udc06\udbbd\udc0b",
+    "image_sha256": "003832ae54fedfe9b7b5e1d2e980760ce178659e7af845579a064b7b95b22797",
+    "pixel_sha256": "632eae63768437850c48b23f93ea7811107f61b6a225acadd5be988c85d6c8e0",
+    "crop_size": [
+      1288,
+      86
+    ],
+    "source_bbox": [
+      0.13333333333333333,
+      0.5408406026962728,
+      0.8488888888888889,
+      0.5749405233941316
+    ],
+    "reference_status": "ASSISTANT_PROVISIONAL_PREVIOUSLY_EXPLORED"
+  },
+  {
+    "id": "3r.p3.l2",
+    "folio": "3r",
+    "variant": "repaired",
+    "path": "/home/runner/work/Voynich/Voynich/research_gpt6/results/kraken_crop_repair/repaired_40/repaired/3r_p3_l2.png",
+    "role": "train",
+    "text": "\udbbd\udc14\udbbd\udc23\udbbd\udc06\udbbd\udc14\udbbd\udc1a \udbbd\udcc0\udbbd\udc14\udbbd\udc1a \udbbd\udc0a \udbbd\udcc0\udbbd\udc06\udbbd\udc14\udbbd\udc1a \udbbd\udc06\udbbd\udc22\udbbd\udcc2\udbbd\udc17 \udbbd\udc1d\udbbd\udc14\udbbd\udc22\udbbd\udc06\udbbd\udc14\udbbd\udc0b \udbbd\udc1d\udbbd\udc14\udbbd\udc22\udbbd\udc10\udbbd\udc1a \udbbd\udc09\udbbd\udc10\udbbd\udd05 \udbbd\udc0a\udbbd\udc14\udbbd\udc1a\udbbd\udc06\udbbd\udc06\udbbd\udc0b",
+    "image_sha256": "629b81e37ca2722bb4a20eb7e28b370999364483804c4fb88fe27bd64a5290f7",
+    "pixel_sha256": "9f694697430ff7e83714f757ead5dda46689f9dad12a68c3a484af124709e8b8",
+    "crop_size": [
+      1294,
+      150
+    ],
+    "source_bbox": [
+      237,
+      1321,
+      1531,
+      1471
+    ],
+    "reference_status": "ASSISTANT_PROVISIONAL_PREVIOUSLY_EXPLORED",
+    "ambiguous_component_ids": [
+      9190,
+      10032,
+      10104,
+      10208,
+      10250,
+      10728,
+      10763,
+      11144
+    ]
+  },
+  {
+    "id": "3r.p3.l3",
+    "folio": "3r",
+    "variant": "original",
+    "path": "/home/runner/work/Voynich/Voynich/research_gpt6/results/kraken_crop_repair/repaired_40/original/3r_p3_l3.png",
+    "role": "train",
+    "text": "\udbbd\udc0a\udbbd\udc14\udbbd\udc06\udbbd\udc14\udbbd\udc0b \udbbd\udc14\udbbd\udc22\udbbd\udc06\udbbd\udc14\udbbd\udc0b \udbbd\udc17\udbbd\udc23\udbbd\udc06\udbbd\udc14\udbbd\udc09\udbbd\udc17 \udbbd\udc1d\udbbd\udc14\udbbd\udc22\udbbd\udc06\udbbd\udc06\udbbd\udc14\udbbd\udc09\udbbd\udc10\udbbd\udc1a \udbbd\udc0a\udbbd\udc10\udbbd\udc0b",
+    "image_sha256": "752ae3f151e0a7914db144972ea7f2ce6b24a2780b4e3a41ca38806b070f794a",
+    "pixel_sha256": "5a226fac5b0ceffee5ca9cab53bde5fe478d48bd714481bdb6fbf772f79a146a",
+    "crop_size": [
+      830,
+      96
+    ],
+    "source_bbox": [
+      0.13444444444444445,
+      0.5582870737509913,
+      0.5955555555555555,
+      0.5963521015067407
+    ],
+    "reference_status": "ASSISTANT_PROVISIONAL_PREVIOUSLY_EXPLORED"
+  },
+  {
+    "id": "3r.p3.l3",
+    "folio": "3r",
+    "variant": "repaired",
+    "path": "/home/runner/work/Voynich/Voynich/research_gpt6/results/kraken_crop_repair/repaired_40/repaired/3r_p3_l3.png",
+    "role": "train",
+    "text": "\udbbd\udc0a\udbbd\udc14\udbbd\udc06\udbbd\udc14\udbbd\udc0b \udbbd\udc14\udbbd\udc22\udbbd\udc06\udbbd\udc14\udbbd\udc0b \udbbd\udc17\udbbd\udc23\udbbd\udc06\udbbd\udc14\udbbd\udc09\udbbd\udc17 \udbbd\udc1d\udbbd\udc14\udbbd\udc22\udbbd\udc06\udbbd\udc06\udbbd\udc14\udbbd\udc09\udbbd\udc10\udbbd\udc1a \udbbd\udc0a\udbbd\udc10\udbbd\udc0b",
+    "image_sha256": "b12cbe951d311c2e4d3764adb1f4e2ebf8667a54c99a3ac506ac2bebd638a8b2",
+    "pixel_sha256": "df4de913f5af9f1ee84fb254655c260fcdd3db0b2ece584f47f6ff4b820d3dec",
+    "crop_size": [
+      838,
+      81
+    ],
+    "source_bbox": [
+      239,
+      1427,
+      1077,
+      1508
+    ],
+    "reference_status": "ASSISTANT_PROVISIONAL_PREVIOUSLY_EXPLORED",
+    "ambiguous_component_ids": []
+  },
+  {
+    "id": "3r.p4.l1",
+    "folio": "3r",
+    "variant": "original",
+    "path": "/home/runner/work/Voynich/Voynich/research_gpt6/results/kraken_crop_repair/repaired_40/original/3r_p4_l1.png",
+    "role": "train",
+    "text": "\udbbd\udc21\udbbd\udcc0\udbbd\udc06\udbbd\udc14\udbbd\udc1a\udbbd\udc09\udbbd\udc14\udbbd\udc0b \udbbd\udcc2\udbbd\udc14\udbbd\udc09\udbbd\udc10\udbbd\udd05 \udbbd\udc1d\udbbd\udc14\udbbd\udc21\udbbd\udcc0\udbbd\udc14\udbbd\udc03 \udbbd\udc1d\udbbd\udc14\udbbd\udc21\udbbd\udc14\udbbd\udc1a \udbbd\udc14\udbbd\udc21\udbbd\udcc0\udbbd\udc14\udbbd\udc1a \udbbd\udc1d\udbbd\udc14\udbbd\udc23\udbbd\udc17 \udbbd\udc14\udbbd\udc23\udbbd\udc14\udbbd\udc1a\udbbd\udc14\udbbd\udc0b",
+    "image_sha256": "75fde262d0f9d474740fafc2789d974ee38f8e63767abf614ab31d4939ea0600",
+    "pixel_sha256": "79c373ac95626c379c241799b70f4f120e3f9e7e12b80d323753e2b7a1c1a5b1",
+    "crop_size": [
+      1306,
+      126
+    ],
+    "source_bbox": [
+      0.12333333333333334,
+      0.5876288659793815,
+      0.8488888888888889,
+      0.6375892149088025
+    ],
+    "reference_status": "ASSISTANT_PROVISIONAL_PREVIOUSLY_EXPLORED"
+  },
+  {
+    "id": "3r.p4.l1",
+    "folio": "3r",
+    "variant": "repaired",
+    "path": "/home/runner/work/Voynich/Voynich/research_gpt6/results/kraken_crop_repair/repaired_40/repaired/3r_p4_l1.png",
+    "role": "train",
+    "text": "\udbbd\udc21\udbbd\udcc0\udbbd\udc06\udbbd\udc14\udbbd\udc1a\udbbd\udc09\udbbd\udc14\udbbd\udc0b \udbbd\udcc2\udbbd\udc14\udbbd\udc09\udbbd\udc10\udbbd\udd05 \udbbd\udc1d\udbbd\udc14\udbbd\udc21\udbbd\udcc0\udbbd\udc14\udbbd\udc03 \udbbd\udc1d\udbbd\udc14\udbbd\udc21\udbbd\udc14\udbbd\udc1a \udbbd\udc14\udbbd\udc21\udbbd\udcc0\udbbd\udc14\udbbd\udc1a \udbbd\udc1d\udbbd\udc14\udbbd\udc23\udbbd\udc17 \udbbd\udc14\udbbd\udc23\udbbd\udc14\udbbd\udc1a\udbbd\udc14\udbbd\udc0b",
+    "image_sha256": "180eb7b1518a05611160bcd9c5995f3c563ddfe9b3886d5597108be6fb73383c",
+    "pixel_sha256": "235d4fd2b0fdbb815004c68e35d69c7ae3397139ccce478cbd73194a0da2a244",
+    "crop_size": [
+      1311,
+      154
+    ],
+    "source_bbox": [
+      219,
+      1479,
+      1530,
+      1633
+    ],
+    "reference_status": "ASSISTANT_PROVISIONAL_PREVIOUSLY_EXPLORED",
+    "ambiguous_component_ids": [
+      11688,
+      12950,
+      13047,
+      13247
+    ]
+  },
+  {
+    "id": "3r.p4.l2",
+    "folio": "3r",
+    "variant": "original",
+    "path": "/home/runner/work/Voynich/Voynich/research_gpt6/results/kraken_crop_repair/repaired_40/original/3r_p4_l2.png",
+    "role": "train",
+    "text": "\udbbd\udc14\udbbd\udc23\udbbd\udcc0\udbbd\udc14\udbbd\udc03 \udbbd\udc14\udbbd\udc1a \udbbd\udcc0\udbbd\udc06\udbbd\udc14\udbbd\udc03 \udbbd\udc1d\udbbd\udc14\udbbd\udc06\udbbd\udc14\udbbd\udc03 \udbbd\udc09\udbbd\udc10\udbbd\udc00\udbbd\udc03 \udbbd\udc1d\udbbd\udc14\udbbd\udc23\udbbd\udc06\udbbd\udc14\udbbd\udc1a \udbbd\udc1d\udbbd\udc14\udbbd\udc0a\udbbd\udc10\udbbd\udd05 \udbbd\udcc0\udbbd\udc14\udbbd\udc03 \udbbd\udc06\udbbd\udc23\udbbd\udc06\udbbd\udc17",
+    "image_sha256": "4d9c6eb44644136b495c0bc17550e7a09f471a380fcc07f3466e7b6fdb3bfa97",
+    "pixel_sha256": "c87f70dc303f9c971b88d922cc284218cd163ea4c400fddf1558ec5126392fdd",
+    "crop_size": [
+      1276,
+      108
+    ],
+    "source_bbox": [
+      0.14,
+      0.6169706582077716,
+      0.8488888888888889,
+      0.6597938144329897
+    ],
+    "reference_status": "ASSISTANT_PROVISIONAL_PREVIOUSLY_EXPLORED"
+  },
+  {
+    "id": "3r.p4.l2",
+    "folio": "3r",
+    "variant": "repaired",
+    "path": "/home/runner/work/Voynich/Voynich/research_gpt6/results/kraken_crop_repair/repaired_40/repaired/3r_p4_l2.png",
+    "role": "train",
+    "text": "\udbbd\udc14\udbbd\udc23\udbbd\udcc0\udbbd\udc14\udbbd\udc03 \udbbd\udc14\udbbd\udc1a \udbbd\udcc0\udbbd\udc06\udbbd\udc14\udbbd\udc03 \udbbd\udc1d\udbbd\udc14\udbbd\udc06\udbbd\udc14\udbbd\udc03 \udbbd\udc09\udbbd\udc10\udbbd\udc00\udbbd\udc03 \udbbd\udc1d\udbbd\udc14\udbbd\udc23\udbbd\udc06\udbbd\udc14\udbbd\udc1a \udbbd\udc1d\udbbd\udc14\udbbd\udc0a\udbbd\udc10\udbbd\udd05 \udbbd\udcc0\udbbd\udc14\udbbd\udc03 \udbbd\udc06\udbbd\udc23\udbbd\udc06\udbbd\udc17",
+    "image_sha256": "dc58999b3f022f7a1bfc4324981b3ef18e046776bba726b3da8bb746c3cb4da2",
+    "pixel_sha256": "6089950b2f141eafdc1c4cde72ef9e994acad7859d3b76a3cce7fee42131af71",
+    "crop_size": [
+      1276,
+      121
+    ],
+    "source_bbox": [
+      248,
+      1556,
+      1524,
+      1677
+    ],
+    "reference_status": "ASSISTANT_PROVISIONAL_PREVIOUSLY_EXPLORED",
+    "ambiguous_component_ids": [
+      13080,
+      14023,
+      14041,
+      14201
+    ]
+  },
+  {
+    "id": "3r.p4.l3",
+    "folio": "3r",
+    "variant": "original",
+    "path": "/home/runner/work/Voynich/Voynich/research_gpt6/results/kraken_crop_repair/repaired_40/original/3r_p4_l3.png",
+    "role": "train",
+    "text": "\udbbd\udc17\udbbd\udcc0\udbbd\udc06\udbbd\udc14\udbbd\udc03 \udbbd\udcc0\udbbd\udc14\udbbd\udc1a \udbbd\udc14\udbbd\udc09\udbbd\udc10\udbbd\udd05 \udbbd\udcc0\udbbd\udc14\udbbd\udc1a \udbbd\udc0a \udbbd\udc10\udbbd\udd05 \udbbd\udc14\udbbd\udc22\udbbd\udc14\udbbd\udc1a \udbbd\udc14\udbbd\udc03 \udbbd\udc10\udbbd\udc0b",
+    "image_sha256": "aa9027584c679facb4f35a174d645ad6a63934b073c14a469b54366007fb6880",
+    "pixel_sha256": "a67aae676d69f0c1316500886d36aeee52196dd74be368bc6fe320ad919ac1f9",
+    "crop_size": [
+      980,
+      94
+    ],
+    "source_bbox": [
+      0.13444444444444445,
+      0.6375892149088025,
+      0.6788888888888889,
+      0.6748612212529739
+    ],
+    "reference_status": "ASSISTANT_PROVISIONAL_PREVIOUSLY_EXPLORED"
+  },
+  {
+    "id": "3r.p4.l3",
+    "folio": "3r",
+    "variant": "repaired",
+    "path": "/home/runner/work/Voynich/Voynich/research_gpt6/results/kraken_crop_repair/repaired_40/repaired/3r_p4_l3.png",
+    "role": "train",
+    "text": "\udbbd\udc17\udbbd\udcc0\udbbd\udc06\udbbd\udc14\udbbd\udc03 \udbbd\udcc0\udbbd\udc14\udbbd\udc1a \udbbd\udc14\udbbd\udc09\udbbd\udc10\udbbd\udd05 \udbbd\udcc0\udbbd\udc14\udbbd\udc1a \udbbd\udc0a \udbbd\udc10\udbbd\udd05 \udbbd\udc14\udbbd\udc22\udbbd\udc14\udbbd\udc1a \udbbd\udc14\udbbd\udc03 \udbbd\udc10\udbbd\udc0b",
+    "image_sha256": "04f071ea3ef940e48a6a413b54e8eb1b5eb7a271cc67e64852c3b167c2c35239",
+    "pixel_sha256": "cd2e4a601dd8ba81aeecc31190f38803496386bc80b023faf8ee1d04609fb51e",
+    "crop_size": [
+      983,
+      94
+    ],
+    "source_bbox": [
+      239,
+      1606,
+      1222,
+      1700
+    ],
+    "reference_status": "ASSISTANT_PROVISIONAL_PREVIOUSLY_EXPLORED",
+    "ambiguous_component_ids": [
+      14460
+    ]
+  },
+  {
+    "id": "3v.p1.l1",
+    "folio": "3v",
+    "variant": "original",
+    "path": "/home/runner/work/Voynich/Voynich/research_gpt6/results/kraken_crop_repair/repaired_40/original/3v_p1_l1.png",
+    "role": "train",
+    "text": "\udbbd\udc22\udbbd\udc14\udbbd\udc10\udbbd\udd05 \udbbd\udc06\udbbd\udc21\udbbd\udc06\udbbd\udc10\udbbd\udc03 \udbbd\udc1d\udbbd\udc14\udbbd\udc23\udbbd\udc14\udbbd\udc17 \udbbd\udcc2\udbbd\udc10 \udbbd\udc06\udbbd\udc22\udbbd\udc06\udbbd\udc14\udbbd\udc1a \udbbd\udc17\udbbd\udc22\udbbd\udc14\udbbd\udc10\udbbd\udd05 \udbbd\udc0a \udbbd\udc14\udbbd\udc1a\udbbd\udc17",
+    "image_sha256": "e990f238990169f8d3adca92ad5395baf4045213b330374756ce72ae5ad747d7",
+    "pixel_sha256": "4a49ddf4bf9c6c9b52acd86e42775e5a323e453a8c447bbf953da9dc9e1bb208",
+    "crop_size": [
+      868,
+      95
+    ],
+    "source_bbox": [
+      0.22333333333333333,
+      0.1074313408723748,
+      0.7055555555555556,
+      0.14539579967689822
+    ],
+    "reference_status": "ASSISTANT_PROVISIONAL_PREVIOUSLY_EXPLORED"
+  },
+  {
+    "id": "3v.p1.l1",
+    "folio": "3v",
+    "variant": "repaired",
+    "path": "/home/runner/work/Voynich/Voynich/research_gpt6/results/kraken_crop_repair/repaired_40/repaired/3v_p1_l1.png",
+    "role": "train",
+    "text": "\udbbd\udc22\udbbd\udc14\udbbd\udc10\udbbd\udd05 \udbbd\udc06\udbbd\udc21\udbbd\udc06\udbbd\udc10\udbbd\udc03 \udbbd\udc1d\udbbd\udc14\udbbd\udc23\udbbd\udc14\udbbd\udc17 \udbbd\udcc2\udbbd\udc10 \udbbd\udc06\udbbd\udc22\udbbd\udc06\udbbd\udc14\udbbd\udc1a \udbbd\udc17\udbbd\udc22\udbbd\udc14\udbbd\udc10\udbbd\udd05 \udbbd\udc0a \udbbd\udc14\udbbd\udc1a\udbbd\udc17",
+    "image_sha256": "82b452bec93ea4b96421a42ea1ea561ffca405cc1f7a986645002c87148c3fb5",
+    "pixel_sha256": "f32c70e109cd36f22ff8532b79eb0c97422d528b73a89fbd64998b31d000dc77",
+    "crop_size": [
+      874,
+      242
+    ],
+    "source_bbox": [
+      399,
+      262,
+      1273,
+      504
+    ],
+    "reference_status": "ASSISTANT_PROVISIONAL_PREVIOUSLY_EXPLORED",
+    "ambiguous_component_ids": [
+      40,
+      2142
+    ]
+  },
+  {
+    "id": "3v.p1.l2",
+    "folio": "3v",
+    "variant": "original",
+    "path": "/home/runner/work/Voynich/Voynich/research_gpt6/results/kraken_crop_repair/repaired_40/original/3v_p1_l2.png",
+    "role": "train",
+    "text": "\udbbd\udc09\udbbd\udc10\udbbd\udd01\udbbd\udc09\udbbd\udc17 \udbbd\udc1d\udbbd\udc14\udbbd\udc23\udbbd\udcc0\udbbd\udc14\udbbd\udc1a \udbbd\udc14\udbbd\udc22\udbbd\udcc0\udbbd\udc14\udbbd\udc03 \udbbd\udc14\udbbd\udc22\udbbd\udc14\udbbd\udc03 \udbbd\udc14\udbbd\udc1a\udbbd\udc17\udbbd\udc23\udbbd\udc14\udbbd\udc1a \udbbd\udc09\udbbd\udc14\udbbd\udc1a \udbbd\udc09\udbbd\udc10\udbbd\udc03",
+    "image_sha256": "cc8d0a2d71caaa22e810dc271fb2b61df9f9b61c282f01d8031031f1ef916e12",
+    "pixel_sha256": "0ec4e1318508af71698249e730a50a6d9a309d48b6ef02a8fae99a5b46f60922",
+    "crop_size": [
+      872,
+      77
+    ],
+    "source_bbox": [
+      0.22111111111111112,
+      0.13570274636510501,
+      0.7055555555555556,
+      0.16639741518578352
+    ],
+    "reference_status": "ASSISTANT_PROVISIONAL_PREVIOUSLY_EXPLORED"
+  },
+  {
+    "id": "3v.p1.l2",
+    "folio": "3v",
+    "variant": "repaired",
+    "path": "/home/runner/work/Voynich/Voynich/research_gpt6/results/kraken_crop_repair/repaired_40/repaired/3v_p1_l2.png",
+    "role": "train",
+    "text": "\udbbd\udc09\udbbd\udc10\udbbd\udd01\udbbd\udc09\udbbd\udc17 \udbbd\udc1d\udbbd\udc14\udbbd\udc23\udbbd\udcc0\udbbd\udc14\udbbd\udc1a \udbbd\udc14\udbbd\udc22\udbbd\udcc0\udbbd\udc14\udbbd\udc03 \udbbd\udc14\udbbd\udc22\udbbd\udc14\udbbd\udc03 \udbbd\udc14\udbbd\udc1a\udbbd\udc17\udbbd\udc23\udbbd\udc14\udbbd\udc1a \udbbd\udc09\udbbd\udc14\udbbd\udc1a \udbbd\udc09\udbbd\udc10\udbbd\udc03",
+    "image_sha256": "f14717d4cfbcbc24191007c6983a43e2d9bbde38921f52c563945fcbf5fe8201",
+    "pixel_sha256": "ee9e5ce04d653cc2c91b0ec4cf377f8314663ee8be7b1ca5693ea57a90036f54",
+    "crop_size": [
+      874,
+      94
+    ],
+    "source_bbox": [
+      395,
+      332,
+      1269,
+      426
+    ],
+    "reference_status": "ASSISTANT_PROVISIONAL_PREVIOUSLY_EXPLORED",
+    "ambiguous_component_ids": [
+      1906,
+      1957,
+      2154,
+      2212,
+      2689
+    ]
+  },
+  {
+    "id": "3v.p1.l3",
+    "folio": "3v",
+    "variant": "original",
+    "path": "/home/runner/work/Voynich/Voynich/research_gpt6/results/kraken_crop_repair/repaired_40/original/3v_p1_l3.png",
+    "role": "train",
+    "text": "\udbbd\udc14\udbbd\udc22\udbbd\udc14\udbbd\udc0b \udbbd\udcc0\udbbd\udc14\udbbd\udc1a \udbbd\udcc2\udbbd\udc14\udbbd\udc1a \udbbd\udc0a\udbbd\udc06\udbbd\udc06\udbbd\udc06\udbbd\udc0a \udbbd\udcc0\udbbd\udc14\udbbd\udc0b \udbbd\udcc0\udbbd\udc06\udbbd\udc06\udbbd\udc17\udbbd\udc22\udbbd\udc10\udbbd\udc0b \udbbd\udc14\udbbd\udc22\udbbd\udd1f",
+    "image_sha256": "f3807c9fc7ae4920985bce7a9dd89ac480132d1ec01b39060548ae97e0da96a3",
+    "pixel_sha256": "b9640b9a2789f6afd39eaf39436546fe37134680e0c764838bba7d0d6dca6745",
+    "crop_size": [
+      872,
+      79
+    ],
+    "source_bbox": [
+      0.22111111111111112,
+      0.15347334410339256,
+      0.7055555555555556,
+      0.18497576736672053
+    ],
+    "reference_status": "ASSISTANT_PROVISIONAL_PREVIOUSLY_EXPLORED"
+  },
+  {
+    "id": "3v.p1.l3",
+    "folio": "3v",
+    "variant": "repaired",
+    "path": "/home/runner/work/Voynich/Voynich/research_gpt6/results/kraken_crop_repair/repaired_40/repaired/3v_p1_l3.png",
+    "role": "train",
+    "text": "\udbbd\udc14\udbbd\udc22\udbbd\udc14\udbbd\udc0b \udbbd\udcc0\udbbd\udc14\udbbd\udc1a \udbbd\udcc2\udbbd\udc14\udbbd\udc1a \udbbd\udc0a\udbbd\udc06\udbbd\udc06\udbbd\udc06\udbbd\udc0a \udbbd\udcc0\udbbd\udc14\udbbd\udc0b \udbbd\udcc0\udbbd\udc06\udbbd\udc06\udbbd\udc17\udbbd\udc22\udbbd\udc10\udbbd\udc0b \udbbd\udc14\udbbd\udc22\udbbd\udd1f",
+    "image_sha256": "509a45778ef7c0f15af4263332ce3908e216e088d8e7f9c053e51d259b17744a",
+    "pixel_sha256": "3616b4ee3267492502b79e334e99ada3a6c8443b79c7b82cee68b7417cfe59c0",
+    "crop_size": [
+      878,
+      88
+    ],
+    "source_bbox": [
+      395,
+      392,
+      1273,
+      480
+    ],
+    "reference_status": "ASSISTANT_PROVISIONAL_PREVIOUSLY_EXPLORED",
+    "ambiguous_component_ids": [
+      2780,
+      3544
+    ]
+  },
+  {
+    "id": "3v.p1.l4",
+    "folio": "3v",
+    "variant": "original",
+    "path": "/home/runner/work/Voynich/Voynich/research_gpt6/results/kraken_crop_repair/repaired_40/original/3v_p1_l4.png",
+    "role": "train",
+    "text": "\udbbd\udc1d\udbbd\udc14\udbbd\udc09\udbbd\udc10\udbbd\udc03 \udbbd\udcc0\udbbd\udc0a \udbbd\udcc0\udbbd\udc17 \udbbd\udc22\udbbd\udcc0\udbbd\udc06\udbbd\udc14\udbbd\udc1a \udbbd\udc14\udbbd\udc22\udbbd\udc10\udbbd\udc1a \udbbd\udc09\udbbd\udc14\udbbd\udc03 \udbbd\udcc0\udbbd\udc06\udbbd\udc10\udbbd\udc03\udbbd\udc06\udbbd\udc06\udbbd\udd1f",
+    "image_sha256": "0de8884cde32a78c3d7819d7ef5220ee73246bc8c093ce690381f2566ac7ae4a",
+    "pixel_sha256": "ad80af8e4523114cf70eaefa4c54596d1b571b2b177f22be903ea7ea0ffe6775",
+    "crop_size": [
+      874,
+      87
+    ],
+    "source_bbox": [
+      0.22,
+      0.16962843295638125,
+      0.7055555555555556,
+      0.20436187399030695
+    ],
+    "reference_status": "ASSISTANT_PROVISIONAL_PREVIOUSLY_EXPLORED"
+  },
+  {
+    "id": "3v.p1.l4",
+    "folio": "3v",
+    "variant": "repaired",
+    "path": "/home/runner/work/Voynich/Voynich/research_gpt6/results/kraken_crop_repair/repaired_40/repaired/3v_p1_l4.png",
+    "role": "train",
+    "text": "\udbbd\udc1d\udbbd\udc14\udbbd\udc09\udbbd\udc10\udbbd\udc03 \udbbd\udcc0\udbbd\udc0a \udbbd\udcc0\udbbd\udc17 \udbbd\udc22\udbbd\udcc0\udbbd\udc06\udbbd\udc14\udbbd\udc1a \udbbd\udc14\udbbd\udc22\udbbd\udc10\udbbd\udc1a \udbbd\udc09\udbbd\udc14\udbbd\udc03 \udbbd\udcc0\udbbd\udc06\udbbd\udc10\udbbd\udc03\udbbd\udc06\udbbd\udc06\udbbd\udd1f",
+    "image_sha256": "e487cf77e76e0f872eeb2de2a6cd8253603411eb534347c1a0f0fab50b5d7e54",
+    "pixel_sha256": "71551fa07ec8cc74550c07c6f757f6aa6da56d805a8b28d9761c2465721bbeeb",
+    "crop_size": [
+      880,
+      88
+    ],
+    "source_bbox": [
+      393,
+      435,
+      1273,
+      523
+    ],
+    "reference_status": "ASSISTANT_PROVISIONAL_PREVIOUSLY_EXPLORED",
+    "ambiguous_component_ids": [
+      3600,
+      3952,
+      3953,
+      4048,
+      4762
+    ]
+  },
+  {
+    "id": "3v.p1.l5",
+    "folio": "3v",
+    "variant": "original",
+    "path": "/home/runner/work/Voynich/Voynich/research_gpt6/results/kraken_crop_repair/repaired_40/original/3v_p1_l5.png",
+    "role": "train",
+    "text": "\udbbd\udc17\udbbd\udcc0\udbbd\udc06\udbbd\udc10\udbbd\udc03 \udbbd\udc14\udbbd\udc23\udbbd\udcc0\udbbd\udc10\udbbd\udc1a \udbbd\udcc0\udbbd\udc14\udbbd\udc03 \udbbd\udcc0\udbbd\udc10\udbbd\udc03 \udbbd\udd1f\udbbd\udc22\udbbd\udc06\udbbd\udc17",
+    "image_sha256": "c583774af600281483800439faa42094f83d4c2ebe14a1d6ab09c1dae5b9e8de",
+    "pixel_sha256": "1e0b039ba0d1627934516d59ddcafa45e6577d2bfac78031a154a049e4b476cf",
+    "crop_size": [
+      642,
+      87
+    ],
+    "source_bbox": [
+      0.22111111111111112,
+      0.18820678513731826,
+      0.5777777777777777,
+      0.22294022617124395
+    ],
+    "reference_status": "ASSISTANT_PROVISIONAL_PREVIOUSLY_EXPLORED"
+  },
+  {
+    "id": "3v.p1.l5",
+    "folio": "3v",
+    "variant": "repaired",
+    "path": "/home/runner/work/Voynich/Voynich/research_gpt6/results/kraken_crop_repair/repaired_40/repaired/3v_p1_l5.png",
+    "role": "train",
+    "text": "\udbbd\udc17\udbbd\udcc0\udbbd\udc06\udbbd\udc10\udbbd\udc03 \udbbd\udc14\udbbd\udc23\udbbd\udcc0\udbbd\udc10\udbbd\udc1a \udbbd\udcc0\udbbd\udc14\udbbd\udc03 \udbbd\udcc0\udbbd\udc10\udbbd\udc03 \udbbd\udd1f\udbbd\udc22\udbbd\udc06\udbbd\udc17",
+    "image_sha256": "650858318561e663cdee5c023305841113497e5c08bffe61a8f99be5c857282c",
+    "pixel_sha256": "44033ef9f1fd0209f9b32e3c871a617827d274a72d23a150e35bdd62647912fb",
+    "crop_size": [
+      648,
+      88
+    ],
+    "source_bbox": [
+      395,
+      488,
+      1043,
+      576
+    ],
+    "reference_status": "ASSISTANT_PROVISIONAL_PREVIOUSLY_EXPLORED",
+    "ambiguous_component_ids": [
+      4719,
+      5257,
+      5547
+    ]
+  },
+  {
+    "id": "3v.p1.l6",
+    "folio": "3v",
+    "variant": "original",
+    "path": "/home/runner/work/Voynich/Voynich/research_gpt6/results/kraken_crop_repair/repaired_40/original/3v_p1_l6.png",
+    "role": "train",
+    "text": "\udbbd\udc14\udbbd\udc03 \udbbd\udcc0\udbbd\udc06\udbbd\udc10\udbbd\udc03 \udbbd\udc22\udbbd\udc14\udbbd\udc03 \udbbd\udcc0\udbbd\udc14\udbbd\udc09\udbbd\udc10\udbbd\udc1a\udbbd\udc17 \udbbd\udcc0\udbbd\udc10\udbbd\udc0b",
+    "image_sha256": "fd54e4be84211bd59a26154f3d30c429ec12bc504f1bcdea058c3005bd595658",
+    "pixel_sha256": "83c37dd3bbc842fc8339a59e7baaba2b27ad1faa9f2b0c9f76040c48634db689",
+    "crop_size": [
+      626,
+      91
+    ],
+    "source_bbox": [
+      0.21888888888888888,
+      0.20678513731825526,
+      0.5666666666666667,
+      0.2431340872374798
+    ],
+    "reference_status": "ASSISTANT_PROVISIONAL_PREVIOUSLY_EXPLORED"
+  },
+  {
+    "id": "3v.p1.l6",
+    "folio": "3v",
+    "variant": "repaired",
+    "path": "/home/runner/work/Voynich/Voynich/research_gpt6/results/kraken_crop_repair/repaired_40/repaired/3v_p1_l6.png",
+    "role": "train",
+    "text": "\udbbd\udc14\udbbd\udc03 \udbbd\udcc0\udbbd\udc06\udbbd\udc10\udbbd\udc03 \udbbd\udc22\udbbd\udc14\udbbd\udc03 \udbbd\udcc0\udbbd\udc14\udbbd\udc09\udbbd\udc10\udbbd\udc1a\udbbd\udc17 \udbbd\udcc0\udbbd\udc10\udbbd\udc0b",
+    "image_sha256": "bffb6df53a7c787e21426c910717db0737c932b8a1b5736f85dfd7c01132f1ca",
+    "pixel_sha256": "8ce162898364bc62c21ec0a004a05a18ecff64a9b040515fd586c42daca86da7",
+    "crop_size": [
+      632,
+      102
+    ],
+    "source_bbox": [
+      391,
+      509,
+      1023,
+      611
+    ],
+    "reference_status": "ASSISTANT_PROVISIONAL_PREVIOUSLY_EXPLORED",
+    "ambiguous_component_ids": [
+      5518,
+      6659,
+      6666,
+      6711,
+      6756
+    ]
+  },
+  {
+    "id": "3v.p2.l1",
+    "folio": "3v",
+    "variant": "original",
+    "path": "/home/runner/work/Voynich/Voynich/research_gpt6/results/kraken_crop_repair/repaired_40/original/3v_p2_l1.png",
+    "role": "train",
+    "text": "\udbbd\udc23\udbbd\udcc0\udbbd\udc14\udbbd\udc03 \udbbd\udc14\udbbd\udc23\udbbd\udcc0\udbbd\udc10\udbbd\udc0b \udbbd\udcc0\udbbd\udc14\udbbd\udc03 \udbbd\udc06\udbbd\udc20\udbbd\udc06\udbbd\udc10\udbbd\udc0b \udbbd\udc0a",
+    "image_sha256": "b8e4cdf0c9fd7265c661ba75a31691baa6a5076097f42effe4f557de1055b55b",
+    "pixel_sha256": "65cb6612426374ff6e3bf0e2ab5c2702a906951053c9035a1d2ddc3c86c2f0b9",
+    "crop_size": [
+      636,
+      107
+    ],
+    "source_bbox": [
+      0.21555555555555556,
+      0.24151857835218093,
+      0.5688888888888889,
+      0.284329563812601
+    ],
+    "reference_status": "ASSISTANT_PROVISIONAL_PREVIOUSLY_EXPLORED"
+  },
+  {
+    "id": "3v.p2.l1",
+    "folio": "3v",
+    "variant": "repaired",
+    "path": "/home/runner/work/Voynich/Voynich/research_gpt6/results/kraken_crop_repair/repaired_40/repaired/3v_p2_l1.png",
+    "role": "train",
+    "text": "\udbbd\udc23\udbbd\udcc0\udbbd\udc14\udbbd\udc03 \udbbd\udc14\udbbd\udc23\udbbd\udcc0\udbbd\udc10\udbbd\udc0b \udbbd\udcc0\udbbd\udc14\udbbd\udc03 \udbbd\udc06\udbbd\udc20\udbbd\udc06\udbbd\udc10\udbbd\udc0b \udbbd\udc0a",
+    "image_sha256": "7647c2a26a66e569b84693e323fb461503f71a3b29e604ef345137d6dc2fd7fb",
+    "pixel_sha256": "5a969e2c32fb7a1c9f477bd7bec832cb508656d6ba3d4600c6e82d4308e95a9c",
+    "crop_size": [
+      651,
+      121
+    ],
+    "source_bbox": [
+      385,
+      593,
+      1036,
+      714
+    ],
+    "reference_status": "ASSISTANT_PROVISIONAL_PREVIOUSLY_EXPLORED",
+    "ambiguous_component_ids": [
+      6655,
+      6735,
+      6761,
+      6764,
+      8164,
+      8449,
+      8553,
+      8559,
+      8571
+    ]
+  },
+  {
+    "id": "3v.p2.l2",
+    "folio": "3v",
+    "variant": "original",
+    "path": "/home/runner/work/Voynich/Voynich/research_gpt6/results/kraken_crop_repair/repaired_40/original/3v_p2_l2.png",
+    "role": "train",
+    "text": "\udbbd\udc17\udbbd\udc22\udbbd\udcc0\udbbd\udc17 \udbbd\udc22\udbbd\udcc0\udbbd\udc14\udbbd\udc0b \udbbd\udcc0\udbbd\udc14\udbbd\udc03 \udbbd\udcc0\udbbd\udc06\udbbd\udc22\udbbd\udc06\udbbd\udc14\udbbd\udc1a \udbbd\udc14\udbbd\udc22\udbbd\udc10",
+    "image_sha256": "ded31e0655e00200be0c2efdc6bba25c26cec057414c7b1e5bae0187f71a8f1d",
+    "pixel_sha256": "0df30d904b762d5c0ae75f73a1846ab3cab103f7dc1cdac025b4bbea0a158814",
+    "crop_size": [
+      664,
+      109
+    ],
+    "source_bbox": [
+      0.21555555555555556,
+      0.265751211631664,
+      0.5844444444444444,
+      0.30936995153473346
+    ],
+    "reference_status": "ASSISTANT_PROVISIONAL_PREVIOUSLY_EXPLORED"
+  },
+  {
+    "id": "3v.p2.l2",
+    "folio": "3v",
+    "variant": "repaired",
+    "path": "/home/runner/work/Voynich/Voynich/research_gpt6/results/kraken_crop_repair/repaired_40/repaired/3v_p2_l2.png",
+    "role": "train",
+    "text": "\udbbd\udc17\udbbd\udc22\udbbd\udcc0\udbbd\udc17 \udbbd\udc22\udbbd\udcc0\udbbd\udc14\udbbd\udc0b \udbbd\udcc0\udbbd\udc14\udbbd\udc03 \udbbd\udcc0\udbbd\udc06\udbbd\udc22\udbbd\udc06\udbbd\udc14\udbbd\udc1a \udbbd\udc14\udbbd\udc22\udbbd\udc10",
+    "image_sha256": "e292644a86d97c0be9057ba2119993fc0b12f09996347685b1766a72339367b9",
+    "pixel_sha256": "b8ef6d1f1246060507598ecae2a2486677895a32b71257f50e4b12ece76ad8b8",
+    "crop_size": [
+      669,
+      78
+    ],
+    "source_bbox": [
+      385,
+      683,
+      1054,
+      761
+    ],
+    "reference_status": "ASSISTANT_PROVISIONAL_PREVIOUSLY_EXPLORED",
+    "ambiguous_component_ids": [
+      8485,
+      8517,
+      8604,
+      8618,
+      9556
+    ]
+  },
+  {
+    "id": "3v.p2.l3",
+    "folio": "3v",
+    "variant": "original",
+    "path": "/home/runner/work/Voynich/Voynich/research_gpt6/results/kraken_crop_repair/repaired_40/original/3v_p2_l3.png",
+    "role": "train",
+    "text": "\udbbd\udc17\udbbd\udc23\udbbd\udc06\udbbd\udc06\udbbd\udc06\udbbd\udc06\udbbd\udc10\udbbd\udc03 \udbbd\udc14\udbbd\udc22\udbbd\udc06\udbbd\udc14\udbbd\udc1a \udbbd\udc06\udbbd\udc23\udbbd\udc06\udbbd\udc14\udbbd\udc09\udbbd\udc14\udbbd\udc10\udbbd\udc1a\udbbd\udc17 \udbbd\udcc0\udbbd\udc14\udbbd\udc03 \udbbd\udc06\udbbd\udc23\udbbd\udc06\udbbd\udc17",
+    "image_sha256": "5a11ada827d6ccb7aacdc64b5ae214909db8a8588c2b6fe9bf128f2973f4c234",
+    "pixel_sha256": "050daf5a265328f408f6552e982756f81608b64eaf10f7d54cbaf7fb1dcfd554",
+    "crop_size": [
+      872,
+      95
+    ],
+    "source_bbox": [
+      0.21666666666666667,
+      0.28998384491114704,
+      0.7011111111111111,
+      0.32794830371567046
+    ],
+    "reference_status": "ASSISTANT_PROVISIONAL_PREVIOUSLY_EXPLORED"
+  },
+  {
+    "id": "3v.p2.l3",
+    "folio": "3v",
+    "variant": "repaired",
+    "path": "/home/runner/work/Voynich/Voynich/research_gpt6/results/kraken_crop_repair/repaired_40/repaired/3v_p2_l3.png",
+    "role": "train",
+    "text": "\udbbd\udc17\udbbd\udc23\udbbd\udc06\udbbd\udc06\udbbd\udc06\udbbd\udc06\udbbd\udc10\udbbd\udc03 \udbbd\udc14\udbbd\udc22\udbbd\udc06\udbbd\udc14\udbbd\udc1a \udbbd\udc06\udbbd\udc23\udbbd\udc06\udbbd\udc14\udbbd\udc09\udbbd\udc14\udbbd\udc10\udbbd\udc1a\udbbd\udc17 \udbbd\udcc0\udbbd\udc14\udbbd\udc03 \udbbd\udc06\udbbd\udc23\udbbd\udc06\udbbd\udc17",
+    "image_sha256": "d37915eef113317ad95c59db7bbd820961e6f4623fb4404bdf8167bbaff331d7",
+    "pixel_sha256": "7af7d4ec3eb9697a60569f49b41a8b363ecd21b32b9cbe794996e702dae5835f",
+    "crop_size": [
+      877,
+      90
+    ],
+    "source_bbox": [
+      385,
+      725,
+      1262,
+      815
+    ],
+    "reference_status": "ASSISTANT_PROVISIONAL_PREVIOUSLY_EXPLORED",
+    "ambiguous_component_ids": [
+      9126,
+      9583,
+      10396,
+      10413,
+      10495
+    ]
+  },
+  {
+    "id": "3v.p2.l4",
+    "folio": "3v",
+    "variant": "original",
+    "path": "/home/runner/work/Voynich/Voynich/research_gpt6/results/kraken_crop_repair/repaired_40/original/3v_p2_l4.png",
+    "role": "train",
+    "text": "\udbbd\udc14\udbbd\udcc0\udbbd\udc14\udbbd\udc0a \udbbd\udc09\udbbd\udc10\udbbd\udd05 \udbbd\udc1d\udbbd\udc14\udbbd\udc22\udbbd\udcc2\udbbd\udc14\udbbd\udc1a \udbbd\udc09\udbbd\udc10\udbbd\udd05\udbbd\udc0b \udbbd\udcc0\udbbd\udc14\udbbd\udc1a \udbbd\udc14\udbbd\udc22\udbbd\udc10\udbbd\udc03\udbbd\udc17",
+    "image_sha256": "743d406c93fcac239cb0d85c5781949447d3cb06ac6810f2c094c36d696f0875",
+    "pixel_sha256": "f8834a2acab6ef449557d6e05c9ab85e8de6d3c9dba9b3af5892c002704427e4",
+    "crop_size": [
+      862,
+      97
+    ],
+    "source_bbox": [
+      0.21555555555555556,
+      0.308562197092084,
+      0.6944444444444444,
+      0.3473344103392569
+    ],
+    "reference_status": "ASSISTANT_PROVISIONAL_PREVIOUSLY_EXPLORED"
+  },
+  {
+    "id": "3v.p2.l4",
+    "folio": "3v",
+    "variant": "repaired",
+    "path": "/home/runner/work/Voynich/Voynich/research_gpt6/results/kraken_crop_repair/repaired_40/repaired/3v_p2_l4.png",
+    "role": "train",
+    "text": "\udbbd\udc14\udbbd\udcc0\udbbd\udc14\udbbd\udc0a \udbbd\udc09\udbbd\udc10\udbbd\udd05 \udbbd\udc1d\udbbd\udc14\udbbd\udc22\udbbd\udcc2\udbbd\udc14\udbbd\udc1a \udbbd\udc09\udbbd\udc10\udbbd\udd05\udbbd\udc0b \udbbd\udcc0\udbbd\udc14\udbbd\udc1a \udbbd\udc14\udbbd\udc22\udbbd\udc10\udbbd\udc03\udbbd\udc17",
+    "image_sha256": "e19556d09c8ccf90a29079eca974c26ded0303b79fc17348121e59282645f3b7",
+    "pixel_sha256": "1f009b5ae5eb6789f8e42e4a9fb4fb7905c75a1289ad1021c1f0d674223aa567",
+    "crop_size": [
+      860,
+      99
+    ],
+    "source_bbox": [
+      385,
+      764,
+      1245,
+      863
+    ],
+    "reference_status": "ASSISTANT_PROVISIONAL_PREVIOUSLY_EXPLORED",
+    "ambiguous_component_ids": [
+      10575,
+      10580,
+      10612,
+      10633,
+      11630,
+      11742
+    ]
+  },
+  {
+    "id": "3v.p2.l5",
+    "folio": "3v",
+    "variant": "original",
+    "path": "/home/runner/work/Voynich/Voynich/research_gpt6/results/kraken_crop_repair/repaired_40/original/3v_p2_l5.png",
+    "role": "train",
+    "text": "\udbbd\udcc2\udbbd\udc14 \udbbd\udcc2\udbbd\udc14\udbbd\udc06\udbbd\udc22\udbbd\udc06\udbbd\udc14 \udbbd\udc06\udbbd\udc22\udbbd\udc06\udbbd\udc17 \udbbd\udc23\udbbd\udcc0\udbbd\udc14\udbbd\udc03 \udbbd\udcc0\udbbd\udc14\udbbd\udc09\udbbd\udc10\udbbd\udd05 \udbbd\udcc0\udbbd\udc14\udbbd\udc0b",
+    "image_sha256": "c91471950af1520f142a81cccc35e943bcbd8f7f7a2cf826e42a3f9020f6e897",
+    "pixel_sha256": "76e57fec01b835af58d2c3a49a96a8390a2d95ea14c6138ebf09bf627dc8d57e",
+    "crop_size": [
+      866,
+      93
+    ],
+    "source_bbox": [
+      0.21777777777777776,
+      0.3287560581583199,
+      0.6988888888888889,
+      0.36591276252019383
+    ],
+    "reference_status": "ASSISTANT_PROVISIONAL_PREVIOUSLY_EXPLORED"
+  },
+  {
+    "id": "3v.p2.l5",
+    "folio": "3v",
+    "variant": "repaired",
+    "path": "/home/runner/work/Voynich/Voynich/research_gpt6/results/kraken_crop_repair/repaired_40/repaired/3v_p2_l5.png",
+    "role": "train",
+    "text": "\udbbd\udcc2\udbbd\udc14 \udbbd\udcc2\udbbd\udc14\udbbd\udc06\udbbd\udc22\udbbd\udc06\udbbd\udc14 \udbbd\udc06\udbbd\udc22\udbbd\udc06\udbbd\udc17 \udbbd\udc23\udbbd\udcc0\udbbd\udc14\udbbd\udc03 \udbbd\udcc0\udbbd\udc14\udbbd\udc09\udbbd\udc10\udbbd\udd05 \udbbd\udcc0\udbbd\udc14\udbbd\udc0b",
+    "image_sha256": "5b81de042a1fbb2d2f3bd0fdac3138fa93be6b567831dd9dc7fb262435e761c7",
+    "pixel_sha256": "191b93b46626a9aae90a2973ee7fba4504b8b2e232ca25ec09ca4417fffed386",
+    "crop_size": [
+      870,
+      101
+    ],
+    "source_bbox": [
+      389,
+      808,
+      1259,
+      909
+    ],
+    "reference_status": "ASSISTANT_PROVISIONAL_PREVIOUSLY_EXPLORED",
+    "ambiguous_component_ids": [
+      11149,
+      11537,
+      11638,
+      11676,
+      11711,
+      11715,
+      11716,
+      12742
+    ]
+  },
+  {
+    "id": "3v.p2.l6",
+    "folio": "3v",
+    "variant": "original",
+    "path": "/home/runner/work/Voynich/Voynich/research_gpt6/results/kraken_crop_repair/repaired_40/original/3v_p2_l6.png",
+    "role": "train",
+    "text": "\udbbd\udc14\udbbd\udcc2 \udbbd\udcc0\udbbd\udc14\udbbd\udc09\udbbd\udc10\udbbd\udc00\udbbd\udc03 \udbbd\udc17\udbbd\udc23\udbbd\udcc0\udbbd\udc17 \udbbd\udc23\udbbd\udcc0\udbbd\udc14\udbbd\udc03 \udbbd\udc22\udbbd\udcc0\udbbd\udc10\udbbd\udc0b \udbbd\udc0a",
+    "image_sha256": "522443f12cb71b8b49d70b1ffb3abf1f05b9caf640c38a9eab170729b4243931",
+    "pixel_sha256": "6003a600b756f1f9b1018ecd413686c96aa5111535a64ce2c1b5f1edb92ee15d",
+    "crop_size": [
+      818,
+      95
+    ],
+    "source_bbox": [
+      0.22,
+      0.35137318255250405,
+      0.6744444444444444,
+      0.3893376413570275
+    ],
+    "reference_status": "ASSISTANT_PROVISIONAL_PREVIOUSLY_EXPLORED"
+  },
+  {
+    "id": "3v.p2.l6",
+    "folio": "3v",
+    "variant": "repaired",
+    "path": "/home/runner/work/Voynich/Voynich/research_gpt6/results/kraken_crop_repair/repaired_40/repaired/3v_p2_l6.png",
+    "role": "train",
+    "text": "\udbbd\udc14\udbbd\udcc2 \udbbd\udcc0\udbbd\udc14\udbbd\udc09\udbbd\udc10\udbbd\udc00\udbbd\udc03 \udbbd\udc17\udbbd\udc23\udbbd\udcc0\udbbd\udc17 \udbbd\udc23\udbbd\udcc0\udbbd\udc14\udbbd\udc03 \udbbd\udc22\udbbd\udcc0\udbbd\udc10\udbbd\udc0b \udbbd\udc0a",
+    "image_sha256": "3d3e5ebcb5fcb77af86d624ba750517be7be74ff9cb5aed3170639380bd47fe8",
+    "pixel_sha256": "9f98913c10b4cf5463b65653134e6915487767438222bb9bc04e89ad6bcce3d2",
+    "crop_size": [
+      827,
+      94
+    ],
+    "source_bbox": [
+      391,
+      870,
+      1218,
+      964
+    ],
+    "reference_status": "ASSISTANT_PROVISIONAL_PREVIOUSLY_EXPLORED",
+    "ambiguous_component_ids": [
+      12409,
+      12515,
+      12587,
+      12790,
+      13985,
+      14070
+    ]
+  },
+  {
+    "id": "3v.p2.l7",
+    "folio": "3v",
+    "variant": "original",
+    "path": "/home/runner/work/Voynich/Voynich/research_gpt6/results/kraken_crop_repair/repaired_40/original/3v_p2_l7.png",
+    "role": "train",
+    "text": "\udbbd\udcc2\udbbd\udc10\udbbd\udc03 \udbbd\udcc2\udbbd\udc22\udbbd\udc10\udbbd\udd05 \udbbd\udc1d\udbbd\udc14\udbbd\udc22\udbbd\udcc0\udbbd\udc17 \udbbd\udc17\udbbd\udc23\udbbd\udc17 \udbbd\udc06\udbbd\udc23\udbbd\udc06\udbbd\udc10\udbbd\udc1a \udbbd\udcc0\udbbd\udc22\udbbd\udc17",
+    "image_sha256": "94ff2daa38950cf25b25beead5aaa5c3cccdb29276c6c4f7896ac72da2f1f72b",
+    "pixel_sha256": "484869060c9424f5c27566d5521538cbc68beaf68c91331442b5440962206709",
+    "crop_size": [
+      856,
+      97
+    ],
+    "source_bbox": [
+      0.21888888888888888,
+      0.37075928917609047,
+      0.6944444444444444,
+      0.4095315024232633
+    ],
+    "reference_status": "ASSISTANT_PROVISIONAL_PREVIOUSLY_EXPLORED"
+  },
+  {
+    "id": "3v.p2.l7",
+    "folio": "3v",
+    "variant": "repaired",
+    "path": "/home/runner/work/Voynich/Voynich/research_gpt6/results/kraken_crop_repair/repaired_40/repaired/3v_p2_l7.png",
+    "role": "train",
+    "text": "\udbbd\udcc2\udbbd\udc10\udbbd\udc03 \udbbd\udcc2\udbbd\udc22\udbbd\udc10\udbbd\udd05 \udbbd\udc1d\udbbd\udc14\udbbd\udc22\udbbd\udcc0\udbbd\udc17 \udbbd\udc17\udbbd\udc23\udbbd\udc17 \udbbd\udc06\udbbd\udc23\udbbd\udc06\udbbd\udc10\udbbd\udc1a \udbbd\udcc0\udbbd\udc22\udbbd\udc17",
+    "image_sha256": "aed981077a1866186ade0d858969e1410359a386609a61b0af9f9b899067148b",
+    "pixel_sha256": "cb1ff5dc38811fd5daec9878030b59e27dac09fe18820ca67c556b719adfe517",
+    "crop_size": [
+      862,
+      103
+    ],
+    "source_bbox": [
+      391,
+      914,
+      1253,
+      1017
+    ],
+    "reference_status": "ASSISTANT_PROVISIONAL_PREVIOUSLY_EXPLORED",
+    "ambiguous_component_ids": [
+      13871,
+      13877,
+      14216,
+      15153
+    ]
+  },
+  {
+    "id": "3v.p2.l8",
+    "folio": "3v",
+    "variant": "original",
+    "path": "/home/runner/work/Voynich/Voynich/research_gpt6/results/kraken_crop_repair/repaired_40/original/3v_p2_l8.png",
+    "role": "train",
+    "text": "\udbbd\udc09\udbbd\udc10\udbbd\udd01 \udbbd\udcc2\udbbd\udc06\udbbd\udc10\udbbd\udc0b \udbbd\udc17 \udbbd\udc22\udbbd\udc06\udbbd\udc10\udbbd\udc0b",
+    "image_sha256": "001e8177a072ff7cb51ab7b85076da98fff71b1412f575d6ec26d9f10f8ac7e4",
+    "pixel_sha256": "6e5eaf0f907152c02fc34b202a791d897b5c7e6b4b746dead31b8431838fd711",
+    "crop_size": [
+      460,
+      89
+    ],
+    "source_bbox": [
+      0.21888888888888888,
+      0.39418416801292405,
+      0.47444444444444445,
+      0.4297253634894992
+    ],
+    "reference_status": "ASSISTANT_PROVISIONAL_PREVIOUSLY_EXPLORED"
+  },
+  {
+    "id": "3v.p2.l8",
+    "folio": "3v",
+    "variant": "repaired",
+    "path": "/home/runner/work/Voynich/Voynich/research_gpt6/results/kraken_crop_repair/repaired_40/repaired/3v_p2_l8.png",
+    "role": "train",
+    "text": "\udbbd\udc09\udbbd\udc10\udbbd\udd01 \udbbd\udcc2\udbbd\udc06\udbbd\udc10\udbbd\udc0b \udbbd\udc17 \udbbd\udc22\udbbd\udc06\udbbd\udc10\udbbd\udc0b",
+    "image_sha256": "632ffc42a197b39e7b2c8b73416dfc7663e8efbe817499ecfb4f6acd1cc6439d",
+    "pixel_sha256": "fd0c444e8927d341945b839e26c2ce7a3df0b165b701d1f8a9658e83b73528a9",
+    "crop_size": [
+      468,
+      73
+    ],
+    "source_bbox": [
+      391,
+      991,
+      859,
+      1064
+    ],
+    "reference_status": "ASSISTANT_PROVISIONAL_PREVIOUSLY_EXPLORED",
+    "ambiguous_component_ids": [
+      15252
+    ]
+  },
+  {
+    "id": "4r.p1.l1",
+    "folio": "4r",
+    "variant": "original",
+    "path": "/home/runner/work/Voynich/Voynich/research_gpt6/results/kraken_crop_repair/repaired_40/original/4r_p1_l1.png",
+    "role": "development_evaluation",
+    "text": "\udbbd\udc22\udbbd\udc14\udbbd\udc09\udbbd\udc10\udbbd\udc1a\udbbd\udcc0\udbbd\udc17 \udbbd\udcc0\udbbd\udc21\udbbd\udc10\udbbd\udc09\udbbd\udc17 \udbbd\udcc2\udbbd\udc06\udbbd\udc14\udbbd\udc1a \udbbd\udc14\udbbd\udc1a \udbbd\udcc2\udbbd\udc06\udbbd\udc06\udbbd\udc17 \udbbd\udc1d\udbbd\udc14\udbbd\udc23\udbbd\udc06\udbbd\udc17 \udbbd\udc09\udbbd\udc14\udbbd\udd05 \udbbd\udcc0\udbbd\udc14\udbbd\udc03 \udbbd\udc17\udbbd\udc23\udbbd\udc14\udbbd\udc17",
+    "image_sha256": "e38106ea6240c5d293cc4bdda385f6d8ae675efd066effd4673b12b98977ce3d",
+    "pixel_sha256": "0c1bc08a2c2f3e9ab8636145f72c730f98ea2401997324b4dbc9c81e5921e9dc",
+    "crop_size": [
+      1142,
+      104
+    ],
+    "source_bbox": [
+      0.1622222222222222,
+      0.10597609561752988,
+      0.7966666666666666,
+      0.14741035856573706
+    ],
+    "reference_status": "ASSISTANT_PROVISIONAL_PREVIOUSLY_EXPLORED"
+  },
+  {
+    "id": "4r.p1.l1",
+    "folio": "4r",
+    "variant": "repaired",
+    "path": "/home/runner/work/Voynich/Voynich/research_gpt6/results/kraken_crop_repair/repaired_40/repaired/4r_p1_l1.png",
+    "role": "development_evaluation",
+    "text": "\udbbd\udc22\udbbd\udc14\udbbd\udc09\udbbd\udc10\udbbd\udc1a\udbbd\udcc0\udbbd\udc17 \udbbd\udcc0\udbbd\udc21\udbbd\udc10\udbbd\udc09\udbbd\udc17 \udbbd\udcc2\udbbd\udc06\udbbd\udc14\udbbd\udc1a \udbbd\udc14\udbbd\udc1a \udbbd\udcc2\udbbd\udc06\udbbd\udc06\udbbd\udc17 \udbbd\udc1d\udbbd\udc14\udbbd\udc23\udbbd\udc06\udbbd\udc17 \udbbd\udc09\udbbd\udc14\udbbd\udd05 \udbbd\udcc0\udbbd\udc14\udbbd\udc03 \udbbd\udc17\udbbd\udc23\udbbd\udc14\udbbd\udc17",
+    "image_sha256": "6bb9c360bbdc69ca36724eb46a62a7c25c4628016d81f93f14a69f823ae28d21",
+    "pixel_sha256": "be786155e77a2f6fd52c5c3cf8da380a0d4a3b7a830d0a474319d8635c5607d7",
+    "crop_size": [
+      1148,
+      108
+    ],
+    "source_bbox": [
+      289,
+      263,
+      1437,
+      371
+    ],
+    "reference_status": "ASSISTANT_PROVISIONAL_PREVIOUSLY_EXPLORED",
+    "ambiguous_component_ids": [
+      1973,
+      2094,
+      2096,
+      2365,
+      2367,
+      2495
+    ]
+  },
+  {
+    "id": "4r.p1.l2",
+    "folio": "4r",
+    "variant": "original",
+    "path": "/home/runner/work/Voynich/Voynich/research_gpt6/results/kraken_crop_repair/repaired_40/original/4r_p1_l2.png",
+    "role": "development_evaluation",
+    "text": "\udbbd\udc09\udbbd\udcc2\udbbd\udc14\udbbd\udc03 \udbbd\udcc2\udbbd\udc14\udbbd\udc1a \udbbd\udcc2\udbbd\udc14\udbbd\udc1a \udbbd\udc06\udbbd\udc23\udbbd\udc06\udbbd\udc14\udbbd\udc1a \udbbd\udcc2\udbbd\udc23\udbbd\udcc0\udbbd\udc17 \udbbd\udcc0\udbbd\udc10\udbbd\udd05 \udbbd\udd1f\udbbd\udc0a \udbbd\udcc0\udbbd\udc14\udbbd\udc03\udbbd\udc10\udbbd\udd05 \udbbd\udcc0\udbbd\udc14\udbbd\udc0b",
+    "image_sha256": "2079a92dec91972306c100935546ad3276a50f24e6cc2ccf67632b7bce93a37e",
+    "pixel_sha256": "1248346880f57fd01616fae87f2cfa06b3c5a8025602e050d5dbeb4453afd2e8",
+    "crop_size": [
+      1144,
+      96
+    ],
+    "source_bbox": [
+      0.16111111111111112,
+      0.1346613545816733,
+      0.7966666666666666,
+      0.17290836653386454
+    ],
+    "reference_status": "ASSISTANT_PROVISIONAL_PREVIOUSLY_EXPLORED"
+  },
+  {
+    "id": "4r.p1.l2",
+    "folio": "4r",
+    "variant": "repaired",
+    "path": "/home/runner/work/Voynich/Voynich/research_gpt6/results/kraken_crop_repair/repaired_40/repaired/4r_p1_l2.png",
+    "role": "development_evaluation",
+    "text": "\udbbd\udc09\udbbd\udcc2\udbbd\udc14\udbbd\udc03 \udbbd\udcc2\udbbd\udc14\udbbd\udc1a \udbbd\udcc2\udbbd\udc14\udbbd\udc1a \udbbd\udc06\udbbd\udc23\udbbd\udc06\udbbd\udc14\udbbd\udc1a \udbbd\udcc2\udbbd\udc23\udbbd\udcc0\udbbd\udc17 \udbbd\udcc0\udbbd\udc10\udbbd\udd05 \udbbd\udd1f\udbbd\udc0a \udbbd\udcc0\udbbd\udc14\udbbd\udc03\udbbd\udc10\udbbd\udd05 \udbbd\udcc0\udbbd\udc14\udbbd\udc0b",
+    "image_sha256": "cfa806a6d9f29aecdb786c72df420a355327ca34cd5680a9ae83872381f447e1",
+    "pixel_sha256": "5d0dea4c757a7589df472fd59968bd996a1ebda8834d18f6c8b15739a57d36ef",
+    "crop_size": [
+      1150,
+      87
+    ],
+    "source_bbox": [
+      287,
+      328,
+      1437,
+      415
+    ],
+    "reference_status": "ASSISTANT_PROVISIONAL_PREVIOUSLY_EXPLORED",
+    "ambiguous_component_ids": [
+      2029,
+      2350,
+      3517,
+      3695,
+      3927
+    ]
+  },
+  {
+    "id": "4r.p1.l3",
+    "folio": "4r",
+    "variant": "original",
+    "path": "/home/runner/work/Voynich/Voynich/research_gpt6/results/kraken_crop_repair/repaired_40/original/4r_p1_l3.png",
+    "role": "development_evaluation",
+    "text": "\udbbd\udc14\udbbd\udc23\udbbd\udcc0\udbbd\udc14\udbbd\udc1a \udbbd\udcc0\udbbd\udc14\udbbd\udc1a \udbbd\udcc0\udbbd\udc17 \udbbd\udcc0\udbbd\udc10\udbbd\udd05 \udbbd\udc1d\udbbd\udc14\udbbd\udc23\udbbd\udc10\udbbd\udd05 \udbbd\udc09\udbbd\udc10\udbbd\udd05 \udbbd\udcc2\udbbd\udc10\udbbd\udd01",
+    "image_sha256": "801dd01614761723db016791a688ad9515671610b2d060f327be034a7ad13301",
+    "pixel_sha256": "00d822e99c36ff549921d6da37906e171222e7f228a8a41c31962ff4a75c057a",
+    "crop_size": [
+      1146,
+      92
+    ],
+    "source_bbox": [
+      0.16,
+      0.15458167330677292,
+      0.7966666666666666,
+      0.19123505976095617
+    ],
+    "reference_status": "ASSISTANT_PROVISIONAL_PREVIOUSLY_EXPLORED"
+  },
+  {
+    "id": "4r.p1.l3",
+    "folio": "4r",
+    "variant": "repaired",
+    "path": "/home/runner/work/Voynich/Voynich/research_gpt6/results/kraken_crop_repair/repaired_40/repaired/4r_p1_l3.png",
+    "role": "development_evaluation",
+    "text": "\udbbd\udc14\udbbd\udc23\udbbd\udcc0\udbbd\udc14\udbbd\udc1a \udbbd\udcc0\udbbd\udc14\udbbd\udc1a \udbbd\udcc0\udbbd\udc17 \udbbd\udcc0\udbbd\udc10\udbbd\udd05 \udbbd\udc1d\udbbd\udc14\udbbd\udc23\udbbd\udc10\udbbd\udd05 \udbbd\udc09\udbbd\udc10\udbbd\udd05 \udbbd\udcc2\udbbd\udc10\udbbd\udd01",
+    "image_sha256": "2e165b818e24d5f71a3d02f6a16cd0d877a4cf963758edb525b7c0cf0f48cdb2",
+    "pixel_sha256": "ef432e60bdbb40be29b77d31e4e90bcb528180b4161e68640590240f8cd31605",
+    "crop_size": [
+      1152,
+      111
+    ],
+    "source_bbox": [
+      285,
+      367,
+      1437,
+      478
+    ],
+    "reference_status": "ASSISTANT_PROVISIONAL_PREVIOUSLY_EXPLORED",
+    "ambiguous_component_ids": [
+      3211,
+      3758,
+      3806,
+      3816,
+      3840,
+      3897,
+      3950,
+      4569,
+      4686
+    ]
+  },
+  {
+    "id": "4r.p1.l4",
+    "folio": "4r",
+    "variant": "original",
+    "path": "/home/runner/work/Voynich/Voynich/research_gpt6/results/kraken_crop_repair/repaired_40/original/4r_p1_l4.png",
+    "role": "development_evaluation",
+    "text": "\udbbd\udc1d\udbbd\udc14\udbbd\udc23\udbbd\udcc0\udbbd\udc14\udbbd\udc1a \udbbd\udcc0\udbbd\udc17 \udbbd\udc17\udbbd\udc23\udbbd\udc17 \udbbd\udc09\udbbd\udc10\udbbd\udd05 \udbbd\udc14\udbbd\udc22\udbbd\udc10\udbbd\udd05 \udbbd\udc06\udbbd\udc23\udbbd\udc06\udbbd\udc17",
+    "image_sha256": "ba5b2972aa44557441382ccfe5ba7016b444360cbaf848da00648f62da98f377",
+    "pixel_sha256": "adce3ab2c373fac984cad341a7de275233b8e88a062b3ec2aa565e142671d9f2",
+    "crop_size": [
+      724,
+      103
+    ],
+    "source_bbox": [
+      0.16,
+      0.17131474103585656,
+      0.5622222222222222,
+      0.21195219123505976
+    ],
+    "reference_status": "ASSISTANT_PROVISIONAL_PREVIOUSLY_EXPLORED"
+  },
+  {
+    "id": "4r.p1.l4",
+    "folio": "4r",
+    "variant": "repaired",
+    "path": "/home/runner/work/Voynich/Voynich/research_gpt6/results/kraken_crop_repair/repaired_40/repaired/4r_p1_l4.png",
+    "role": "development_evaluation",
+    "text": "\udbbd\udc1d\udbbd\udc14\udbbd\udc23\udbbd\udcc0\udbbd\udc14\udbbd\udc1a \udbbd\udcc0\udbbd\udc17 \udbbd\udc17\udbbd\udc23\udbbd\udc17 \udbbd\udc09\udbbd\udc10\udbbd\udd05 \udbbd\udc14\udbbd\udc22\udbbd\udc10\udbbd\udd05 \udbbd\udc06\udbbd\udc23\udbbd\udc06\udbbd\udc17",
+    "image_sha256": "cca10254153d1d68a77d675411f3158c7d312c2bea68053f45657bb6b2d29c0f",
+    "pixel_sha256": "56bcf4805364e4a50dc6da29aeab125d8c07eea7d552465320d49de0413f395e",
+    "crop_size": [
+      711,
+      109
+    ],
+    "source_bbox": [
+      285,
+      425,
+      996,
+      534
+    ],
+    "reference_status": "ASSISTANT_PROVISIONAL_PREVIOUSLY_EXPLORED",
+    "ambiguous_component_ids": [
+      4785
+    ]
+  },
+  {
+    "id": "4r.p2.l1",
+    "folio": "4r",
+    "variant": "original",
+    "path": "/home/runner/work/Voynich/Voynich/research_gpt6/results/kraken_crop_repair/repaired_40/original/4r_p2_l1.png",
+    "role": "development_evaluation",
+    "text": "\udbbd\udc21\udbbd\udc17\udbbd\udc09\udbbd\udc10\udbbd\udd05 \udbbd\udc1d\udbbd\udc14\udbbd\udc23\udbbd\udcc0\udbbd\udc17 \udbbd\udc09\udbbd\udc17\udbbd\udc23\udbbd\udc17\udbbd\udc09\udbbd\udc17",
+    "image_sha256": "92c4ea61b7a48af2ab8b551c125c2689f1135a598b82aee4bb05eedb94d80d4e",
+    "pixel_sha256": "6fe99a5ff61d8510186dd26a5728bc5bc55a65f9c05aed0d07d5f8b1c565fa4e",
+    "crop_size": [
+      532,
+      116
+    ],
+    "source_bbox": [
+      0.15666666666666668,
+      0.21354581673306772,
+      0.45222222222222225,
+      0.2597609561752988
+    ],
+    "reference_status": "ASSISTANT_PROVISIONAL_PREVIOUSLY_EXPLORED"
+  },
+  {
+    "id": "4r.p2.l1",
+    "folio": "4r",
+    "variant": "repaired",
+    "path": "/home/runner/work/Voynich/Voynich/research_gpt6/results/kraken_crop_repair/repaired_40/repaired/4r_p2_l1.png",
+    "role": "development_evaluation",
+    "text": "\udbbd\udc21\udbbd\udc17\udbbd\udc09\udbbd\udc10\udbbd\udd05 \udbbd\udc1d\udbbd\udc14\udbbd\udc23\udbbd\udcc0\udbbd\udc17 \udbbd\udc09\udbbd\udc17\udbbd\udc23\udbbd\udc17\udbbd\udc09\udbbd\udc17",
+    "image_sha256": "0bd5f6a50e0580f53c0a474313e74aaf402a238f1509ba6718152932ef646ca7",
+    "pixel_sha256": "3e09fecc5155ff0d523fe8770b81296d02bfd5809aa9b76d577bea590805200c",
+    "crop_size": [
+      535,
+      129
+    ],
+    "source_bbox": [
+      281,
+      534,
+      816,
+      663
+    ],
+    "reference_status": "ASSISTANT_PROVISIONAL_PREVIOUSLY_EXPLORED",
+    "ambiguous_component_ids": []
+  },
+  {
+    "id": "4r.p2.l2",
+    "folio": "4r",
+    "variant": "original",
+    "path": "/home/runner/work/Voynich/Voynich/research_gpt6/results/kraken_crop_repair/repaired_40/original/4r_p2_l2.png",
+    "role": "development_evaluation",
+    "text": "\udbbd\udcc0\udbbd\udc14\udbbd\udc03 \udbbd\udcc2\udbbd\udc17\udbbd\udc23\udbbd\udcc0\udbbd\udc17 \udbbd\udc09\udbbd\udc17\udbbd\udc23\udbbd\udcc0\udbbd\udc06\udbbd\udc06\udbbd\udc17",
+    "image_sha256": "c5fcb7203e2b9f3de9a8196ec5240e582cc790badd6721c1e1a77fed2f56748f",
+    "pixel_sha256": "8399e1baae3626e1973f602638468488d9b9722b4d2050814ff6009d95a29b72",
+    "crop_size": [
+      538,
+      96
+    ],
+    "source_bbox": [
+      0.16555555555555557,
+      0.24063745019920318,
+      0.46444444444444444,
+      0.2788844621513944
+    ],
+    "reference_status": "ASSISTANT_PROVISIONAL_PREVIOUSLY_EXPLORED"
+  },
+  {
+    "id": "4r.p2.l2",
+    "folio": "4r",
+    "variant": "repaired",
+    "path": "/home/runner/work/Voynich/Voynich/research_gpt6/results/kraken_crop_repair/repaired_40/repaired/4r_p2_l2.png",
+    "role": "development_evaluation",
+    "text": "\udbbd\udcc0\udbbd\udc14\udbbd\udc03 \udbbd\udcc2\udbbd\udc17\udbbd\udc23\udbbd\udcc0\udbbd\udc17 \udbbd\udc09\udbbd\udc17\udbbd\udc23\udbbd\udcc0\udbbd\udc06\udbbd\udc06\udbbd\udc17",
+    "image_sha256": "702f23d4c568576935962348b1cfc62983475dcc069ca1ae016aedd109d6ebc9",
+    "pixel_sha256": "ef4682a6ffec83abeeb87382011e3548264de8df7ff2598a5cb8a861e7380967",
+    "crop_size": [
+      549,
+      101
+    ],
+    "source_bbox": [
+      295,
+      602,
+      844,
+      703
+    ],
+    "reference_status": "ASSISTANT_PROVISIONAL_PREVIOUSLY_EXPLORED",
+    "ambiguous_component_ids": [
+      7417,
+      7573
+    ]
+  },
+  {
+    "id": "4r.p2.l3",
+    "folio": "4r",
+    "variant": "original",
+    "path": "/home/runner/work/Voynich/Voynich/research_gpt6/results/kraken_crop_repair/repaired_40/original/4r_p2_l3.png",
+    "role": "development_evaluation",
+    "text": "\udbbd\udc1d\udbbd\udc14\udbbd\udc23\udbbd\udc10\udbbd\udd05 \udbbd\udc06\udbbd\udc23\udbbd\udc06\udbbd\udc14\udbbd\udc1a \udbbd\udc09\udbbd\udc10\udbbd\udd05 \udbbd\udc06\udbbd\udc23\udbbd\udc06\udbbd\udc14\udbbd\udc0b",
+    "image_sha256": "5ecc2f48001016105866bf6b97ccd4782f7002a0ad1d885881ec5b61d7e0bc0e",
+    "pixel_sha256": "f55646f5650e912cb7ebd910a252f6a000bca36fef1ea1095cefcdf0921e6766",
+    "crop_size": [
+      574,
+      112
+    ],
+    "source_bbox": [
+      0.16777777777777778,
+      0.25737051792828686,
+      0.4866666666666667,
+      0.30199203187250995
+    ],
+    "reference_status": "ASSISTANT_PROVISIONAL_PREVIOUSLY_EXPLORED"
+  },
+  {
+    "id": "4r.p2.l3",
+    "folio": "4r",
+    "variant": "repaired",
+    "path": "/home/runner/work/Voynich/Voynich/research_gpt6/results/kraken_crop_repair/repaired_40/repaired/4r_p2_l3.png",
+    "role": "development_evaluation",
+    "text": "\udbbd\udc1d\udbbd\udc14\udbbd\udc23\udbbd\udc10\udbbd\udd05 \udbbd\udc06\udbbd\udc23\udbbd\udc06\udbbd\udc14\udbbd\udc1a \udbbd\udc09\udbbd\udc10\udbbd\udd05 \udbbd\udc06\udbbd\udc23\udbbd\udc06\udbbd\udc14\udbbd\udc0b",
+    "image_sha256": "f78c8c8514ccb858aa2a9a2ef90550ca31d04b4ca0d9d8d73434974a0a38ac05",
+    "pixel_sha256": "5b93cf38a22aeaf79f04fa53184d6e8b3b2cc646acda35f6a6894cb9c34f3e81",
+    "crop_size": [
+      566,
+      104
+    ],
+    "source_bbox": [
+      299,
+      644,
+      865,
+      748
+    ],
+    "reference_status": "ASSISTANT_PROVISIONAL_PREVIOUSLY_EXPLORED",
+    "ambiguous_component_ids": [
+      8043,
+      8153,
+      8177
+    ]
+  },
+  {
+    "id": "4r.p2.l4",
+    "folio": "4r",
+    "variant": "original",
+    "path": "/home/runner/work/Voynich/Voynich/research_gpt6/results/kraken_crop_repair/repaired_40/original/4r_p2_l4.png",
+    "role": "development_evaluation",
+    "text": "\udbbd\udcc2\udbbd\udc14\udbbd\udc03 \udbbd\udcc2\udbbd\udc14\udbbd\udc1a \udbbd\udcc2\udbbd\udc14\udbbd\udc1a \udbbd\udc06\udbbd\udc23\udbbd\udc06\udbbd\udc17 \udbbd\udc06\udbbd\udc21\udbbd\udc06\udbbd\udc14\udbbd\udc1a\udbbd\udc09\udbbd\udc17",
+    "image_sha256": "743c2934ce1fb2686f108d2840de471232c9529e691ea9f68e9fe48bb81ae115",
+    "pixel_sha256": "fade936a7922ce004e896f0ca9738bac3fcbdb9bc849e14cb369db32a8dc1146",
+    "crop_size": [
+      610,
+      106
+    ],
+    "source_bbox": [
+      0.16555555555555557,
+      0.28127490039840636,
+      0.5044444444444445,
+      0.32350597609561754
+    ],
+    "reference_status": "ASSISTANT_PROVISIONAL_PREVIOUSLY_EXPLORED"
+  },
+  {
+    "id": "4r.p2.l4",
+    "folio": "4r",
+    "variant": "repaired",
+    "path": "/home/runner/work/Voynich/Voynich/research_gpt6/results/kraken_crop_repair/repaired_40/repaired/4r_p2_l4.png",
+    "role": "development_evaluation",
+    "text": "\udbbd\udcc2\udbbd\udc14\udbbd\udc03 \udbbd\udcc2\udbbd\udc14\udbbd\udc1a \udbbd\udcc2\udbbd\udc14\udbbd\udc1a \udbbd\udc06\udbbd\udc23\udbbd\udc06\udbbd\udc17 \udbbd\udc06\udbbd\udc21\udbbd\udc06\udbbd\udc14\udbbd\udc1a\udbbd\udc09\udbbd\udc17",
+    "image_sha256": "9d9a89e6e72cf4738433c0c569aabd4fed86e5219bd41df00489eff82e99578e",
+    "pixel_sha256": "21e6c3c31562743720c41694b32f8812394f1665a9ebe1078c297d03df99a581",
+    "crop_size": [
+      609,
+      135
+    ],
+    "source_bbox": [
+      295,
+      674,
+      904,
+      809
+    ],
+    "reference_status": "ASSISTANT_PROVISIONAL_PREVIOUSLY_EXPLORED",
+    "ambiguous_component_ids": [
+      7998,
+      8124,
+      8278
+    ]
+  },
+  {
+    "id": "4r.p2.l5",
+    "folio": "4r",
+    "variant": "original",
+    "path": "/home/runner/work/Voynich/Voynich/research_gpt6/results/kraken_crop_repair/repaired_40/original/4r_p2_l5.png",
+    "role": "development_evaluation",
+    "text": "\udbbd\udc09\udbbd\udc10\udbbd\udd05 \udbbd\udc06\udbbd\udc22\udbbd\udc06\udbbd\udc14\udbbd\udcc0\udbbd\udc17 \udbbd\udc23\udbbd\udcc0\udbbd\udc17 \udbbd\udc22\udbbd\udc14\udbbd\udc03\udbbd\udc10\udbbd\udd05",
+    "image_sha256": "1f978d7187b1ebf1c20f68432c3bd39b2839ade3125bb8cce9817548b69136bb",
+    "pixel_sha256": "9642be97d168b8338b0fdfcfd38c1deae591000bd0173eb3ce75288306d43488",
+    "crop_size": [
+      592,
+      108
+    ],
+    "source_bbox": [
+      0.17,
+      0.3051792828685259,
+      0.4988888888888889,
+      0.34820717131474105
+    ],
+    "reference_status": "ASSISTANT_PROVISIONAL_PREVIOUSLY_EXPLORED"
+  },
+  {
+    "id": "4r.p2.l5",
+    "folio": "4r",
+    "variant": "repaired",
+    "path": "/home/runner/work/Voynich/Voynich/research_gpt6/results/kraken_crop_repair/repaired_40/repaired/4r_p2_l5.png",
+    "role": "development_evaluation",
+    "text": "\udbbd\udc09\udbbd\udc10\udbbd\udd05 \udbbd\udc06\udbbd\udc22\udbbd\udc06\udbbd\udc14\udbbd\udcc0\udbbd\udc17 \udbbd\udc23\udbbd\udcc0\udbbd\udc17 \udbbd\udc22\udbbd\udc14\udbbd\udc03\udbbd\udc10\udbbd\udd05",
+    "image_sha256": "b2b1be812dc6bf7b90fb057e071a3bd9233fe4c073b7b0442b173d2bcef11bd4",
+    "pixel_sha256": "30b24d33d8875f9b645412d884bec325b5741dd7b8848b54efa48bc13e9db688",
+    "crop_size": [
+      598,
+      126
+    ],
+    "source_bbox": [
+      303,
+      751,
+      901,
+      877
+    ],
+    "reference_status": "ASSISTANT_PROVISIONAL_PREVIOUSLY_EXPLORED",
+    "ambiguous_component_ids": [
+      8649,
+      8744,
+      8778,
+      8804,
+      8806,
+      9391,
+      9875
+    ]
+  },
+  {
+    "id": "4r.p2.l6",
+    "folio": "4r",
+    "variant": "original",
+    "path": "/home/runner/work/Voynich/Voynich/research_gpt6/results/kraken_crop_repair/repaired_40/original/4r_p2_l6.png",
+    "role": "development_evaluation",
+    "text": "\udbbd\udc14\udbbd\udc09\udbbd\udc10\udbbd\udc1a \udbbd\udcc2\udbbd\udc14\udbbd\udc03 \udbbd\udcc2\udbbd\udc17\udbbd\udcc2\udbbd\udc14\udbbd\udc1a \udbbd\udc06\udbbd\udc21\udbbd\udc06\udbbd\udc10\udbbd\udd05",
+    "image_sha256": "e055668bf6b77d9fb82043c654f090e2e6a047bed72e33f4364b9c4d921c7fd4",
+    "pixel_sha256": "7821eb357fc7afc6f83f1493b9c9bb332fa831130e04375f92993fd52784e5ce",
+    "crop_size": [
+      562,
+      111
+    ],
+    "source_bbox": [
+      0.17,
+      0.32749003984063746,
+      0.4822222222222222,
+      0.3713147410358566
+    ],
+    "reference_status": "ASSISTANT_PROVISIONAL_PREVIOUSLY_EXPLORED"
+  },
+  {
+    "id": "4r.p2.l6",
+    "folio": "4r",
+    "variant": "repaired",
+    "path": "/home/runner/work/Voynich/Voynich/research_gpt6/results/kraken_crop_repair/repaired_40/repaired/4r_p2_l6.png",
+    "role": "development_evaluation",
+    "text": "\udbbd\udc14\udbbd\udc09\udbbd\udc10\udbbd\udc1a \udbbd\udcc2\udbbd\udc14\udbbd\udc03 \udbbd\udcc2\udbbd\udc17\udbbd\udcc2\udbbd\udc14\udbbd\udc1a \udbbd\udc06\udbbd\udc21\udbbd\udc06\udbbd\udc10\udbbd\udd05",
+    "image_sha256": "89df57e3dfc963040ea0452a7941d0d3286b7f3b3ee3f1c2c7c224cce6fac94f",
+    "pixel_sha256": "2fb6f82c84ce1fe8af7851e1e0cb9219bdbacb39669ab5e75be2da57fd23e00e",
+    "crop_size": [
+      572,
+      127
+    ],
+    "source_bbox": [
+      303,
+      804,
+      875,
+      931
+    ],
+    "reference_status": "ASSISTANT_PROVISIONAL_PREVIOUSLY_EXPLORED",
+    "ambiguous_component_ids": [
+      9857,
+      9987,
+      10033
+    ]
+  },
+  {
+    "id": "4r.p2.l7",
+    "folio": "4r",
+    "variant": "original",
+    "path": "/home/runner/work/Voynich/Voynich/research_gpt6/results/kraken_crop_repair/repaired_40/original/4r_p2_l7.png",
+    "role": "development_evaluation",
+    "text": "\udbbd\udc1d\udbbd\udc14\udbbd\udc23\udbbd\udcc0\udbbd\udc14\udbbd\udd05 \udbbd\udcc2\udbbd\udc06\udbbd\udd1f\udbbd\udc03 \udbbd\udc1d\udbbd\udc14\udbbd\udc23\udbbd\udc17",
+    "image_sha256": "f910417b5a9af060262ec5ac664bf4275378ff75acf892d74b1740c46da2de5a",
+    "pixel_sha256": "75a7b586be38b3d0207febfc1e1f42d2fa2991133485979ea7cb4bd083f0efff",
+    "crop_size": [
+      560,
+      114
+    ],
+    "source_bbox": [
+      0.16666666666666666,
+      0.3466135458167331,
+      0.4777777777777778,
+      0.39203187250996013
+    ],
+    "reference_status": "ASSISTANT_PROVISIONAL_PREVIOUSLY_EXPLORED"
+  },
+  {
+    "id": "4r.p2.l7",
+    "folio": "4r",
+    "variant": "repaired",
+    "path": "/home/runner/work/Voynich/Voynich/research_gpt6/results/kraken_crop_repair/repaired_40/repaired/4r_p2_l7.png",
+    "role": "development_evaluation",
+    "text": "\udbbd\udc1d\udbbd\udc14\udbbd\udc23\udbbd\udcc0\udbbd\udc14\udbbd\udd05 \udbbd\udcc2\udbbd\udc06\udbbd\udd1f\udbbd\udc03 \udbbd\udc1d\udbbd\udc14\udbbd\udc23\udbbd\udc17",
+    "image_sha256": "c11a91813c38655d96bc75f8deda372aea5e216e25c5986806f233a24ace0f75",
+    "pixel_sha256": "1d31500198c021f0efd91ba8dbd88f5097a72ab70eca6f3fe721515848a10906",
+    "crop_size": [
+      567,
+      122
+    ],
+    "source_bbox": [
+      297,
+      865,
+      864,
+      987
+    ],
+    "reference_status": "ASSISTANT_PROVISIONAL_PREVIOUSLY_EXPLORED",
+    "ambiguous_component_ids": [
+      10237,
+      10527,
+      10732
+    ]
+  },
+  {
+    "id": "4r.p2.l8",
+    "folio": "4r",
+    "variant": "original",
+    "path": "/home/runner/work/Voynich/Voynich/research_gpt6/results/kraken_crop_repair/repaired_40/original/4r_p2_l8.png",
+    "role": "development_evaluation",
+    "text": "\udbbd\udc0a\udbbd\udc14\udbbd\udd05 \udbbd\udcc0\udbbd\udc10\udbbd\udd05 \udbbd\udcc0\udbbd\udc10\udbbd\udd05",
+    "image_sha256": "f6fa221c6941705fa39aae296377f9dfdc3117ce97aaae439623216c403ab3fc",
+    "pixel_sha256": "3e73477ff73a9433a2aab60ab50e9a23f380f61d5baba4bbfdf550dc61591170",
+    "crop_size": [
+      468,
+      104
+    ],
+    "source_bbox": [
+      0.17,
+      0.36892430278884464,
+      0.43,
+      0.4103585657370518
+    ],
+    "reference_status": "ASSISTANT_PROVISIONAL_PREVIOUSLY_EXPLORED"
+  },
+  {
+    "id": "4r.p2.l8",
+    "folio": "4r",
+    "variant": "repaired",
+    "path": "/home/runner/work/Voynich/Voynich/research_gpt6/results/kraken_crop_repair/repaired_40/repaired/4r_p2_l8.png",
+    "role": "development_evaluation",
+    "text": "\udbbd\udc0a\udbbd\udc14\udbbd\udd05 \udbbd\udcc0\udbbd\udc10\udbbd\udd05 \udbbd\udcc0\udbbd\udc10\udbbd\udd05",
+    "image_sha256": "f22c12c5ccd3852e8035a41786f5bc21c5334e84cc6306a460e59e80b09d8dec",
+    "pixel_sha256": "cec4353712452c223ea821dbc6f183e02d1d591d4dc6a24d8be2c84870fb9205",
+    "crop_size": [
+      482,
+      108
+    ],
+    "source_bbox": [
+      300,
+      925,
+      782,
+      1033
+    ],
+    "reference_status": "ASSISTANT_PROVISIONAL_PREVIOUSLY_EXPLORED",
+    "ambiguous_component_ids": [
+      10539,
+      10551,
+      10593
+    ]
+  },
+  {
+    "id": "4r.p2.l9",
+    "folio": "4r",
+    "variant": "original",
+    "path": "/home/runner/work/Voynich/Voynich/research_gpt6/results/kraken_crop_repair/repaired_40/original/4r_p2_l9.png",
+    "role": "development_evaluation",
+    "text": "\udbbd\udc09\udbbd\udc10\udbbd\udd05 \udbbd\udc06\udbbd\udc23\udbbd\udc06\udbbd\udc06\udbbd\udc17",
+    "image_sha256": "c5e9369b813a99e4e08f322cda8a15942021601cb99bfea38071d921c0420e61",
+    "pixel_sha256": "515b4675dda0816c7c882f8847052050ae62714fa58f5fc6e9848b6c1c85b6b2",
+    "crop_size": [
+      246,
+      103
+    ],
+    "source_bbox": [
+      0.16777777777777778,
+      0.39203187250996013,
+      0.30444444444444446,
+      0.43266932270916336
+    ],
+    "reference_status": "ASSISTANT_PROVISIONAL_PREVIOUSLY_EXPLORED"
+  },
+  {
+    "id": "4r.p2.l9",
+    "folio": "4r",
+    "variant": "repaired",
+    "path": "/home/runner/work/Voynich/Voynich/research_gpt6/results/kraken_crop_repair/repaired_40/repaired/4r_p2_l9.png",
+    "role": "development_evaluation",
+    "text": "\udbbd\udc09\udbbd\udc10\udbbd\udd05 \udbbd\udc06\udbbd\udc23\udbbd\udc06\udbbd\udc06\udbbd\udc17",
+    "image_sha256": "5101c930dab38eb6dee1bd7be7b47a26e7a145713d9e318967180425c3566a41",
+    "pixel_sha256": "47764c6d65ac5481e58c45ce97d85caf62e8b1742ef270fde99099cfb0eb8cc7",
+    "crop_size": [
+      252,
+      109
+    ],
+    "source_bbox": [
+      299,
+      977,
+      551,
+      1086
+    ],
+    "reference_status": "ASSISTANT_PROVISIONAL_PREVIOUSLY_EXPLORED",
+    "ambiguous_component_ids": []
+  },
+  {
+    "id": "4v.p1.l1",
+    "folio": "4v",
+    "variant": "original",
+    "path": "/home/runner/work/Voynich/Voynich/research_gpt6/results/kraken_crop_repair/repaired_40/original/4v_p1_l1.png",
+    "role": "development_evaluation",
+    "text": "\udbbd\udc21\udbbd\udcc0\udbbd\udc14\udbbd\udc14\udbbd\udd05 \udbbd\udc22\udbbd\udcc2\udbbd\udc06\udbbd\udc14 \udbbd\udc22\udbbd\udcc0\udbbd\udc14\udbbd\udc17 \udbbd\udcc0\udbbd\udc14\udbbd\udc21\udbbd\udcc0\udbbd\udc17 \udbbd\udc09\udbbd\udc14\udbbd\udc1a\udbbd\udc09\udbbd\udc0a \udbbd\udc09\udbbd\udc1a\udbbd\udc14\udbbd\udc09",
+    "image_sha256": "fec16e93457e32a277e4cf2e0548446c1decf882e3b7a5c3e4e37c794aee9da4",
+    "pixel_sha256": "bb54000fdf0cdf4f08bbfb57617ccad198b7e7228d7a8e7fdaa9d7389f6748a8",
+    "crop_size": [
+      1124,
+      127
+    ],
+    "source_bbox": [
+      0.25,
+      0.09886547811993517,
+      0.8744444444444445,
+      0.14991896272285252
+    ],
+    "reference_status": "ASSISTANT_PROVISIONAL_PREVIOUSLY_EXPLORED"
+  },
+  {
+    "id": "4v.p1.l1",
+    "folio": "4v",
+    "variant": "repaired",
+    "path": "/home/runner/work/Voynich/Voynich/research_gpt6/results/kraken_crop_repair/repaired_40/repaired/4v_p1_l1.png",
+    "role": "development_evaluation",
+    "text": "\udbbd\udc21\udbbd\udcc0\udbbd\udc14\udbbd\udc14\udbbd\udd05 \udbbd\udc22\udbbd\udcc2\udbbd\udc06\udbbd\udc14 \udbbd\udc22\udbbd\udcc0\udbbd\udc14\udbbd\udc17 \udbbd\udcc0\udbbd\udc14\udbbd\udc21\udbbd\udcc0\udbbd\udc17 \udbbd\udc09\udbbd\udc14\udbbd\udc1a\udbbd\udc09\udbbd\udc0a \udbbd\udc09\udbbd\udc1a\udbbd\udc14\udbbd\udc09",
+    "image_sha256": "56c66c5c0d08ea9a822c756b2baed5f1b851eea4663df7887d979bbcca6374b2",
+    "pixel_sha256": "3cb7dff7de0bc59b2df38c602f474bc7954593b92a89cb17ec937e34b84d6375",
+    "crop_size": [
+      1130,
+      126
+    ],
+    "source_bbox": [
+      447,
+      241,
+      1577,
+      367
+    ],
+    "reference_status": "ASSISTANT_PROVISIONAL_PREVIOUSLY_EXPLORED",
+    "ambiguous_component_ids": []
+  },
+  {
+    "id": "4v.p1.l2",
+    "folio": "4v",
+    "variant": "original",
+    "path": "/home/runner/work/Voynich/Voynich/research_gpt6/results/kraken_crop_repair/repaired_40/original/4v_p1_l2.png",
+    "role": "development_evaluation",
+    "text": "\udbbd\udc14\udbbd\udc1a \udbbd\udcc0\udbbd\udc06\udbbd\udc17 \udbbd\udcc0\udbbd\udc17 \udbbd\udc06\udbbd\udc23\udbbd\udc06\udbbd\udc17 \udbbd\udcc0\udbbd\udc22\udbbd\udcc0\udbbd\udc14\udbbd\udc03 \udbbd\udcc2\udbbd\udc00\udbbd\udc14 \udbbd\udcc0\udbbd\udc06\udbbd\udc14\udbbd\udc03\udbbd\udc17 \udbbd\udcc0\udbbd\udc14\udbbd\udc1a\udbbd\udc09\udbbd\udc17",
+    "image_sha256": "4a002343260ded0a8bae86497b2b0dbe2d55165a902c0aa571e4e23177cb79f0",
+    "pixel_sha256": "cc51605c469a9151aa80d94ef54e4a62a75ed2d31f258d121b865aebe646b254",
+    "crop_size": [
+      1123,
+      89
+    ],
+    "source_bbox": [
+      0.2544444444444444,
+      0.13290113452188007,
+      0.8777777777777778,
+      0.1685575364667747
+    ],
+    "reference_status": "ASSISTANT_PROVISIONAL_PREVIOUSLY_EXPLORED"
+  },
+  {
+    "id": "4v.p1.l2",
+    "folio": "4v",
+    "variant": "repaired",
+    "path": "/home/runner/work/Voynich/Voynich/research_gpt6/results/kraken_crop_repair/repaired_40/repaired/4v_p1_l2.png",
+    "role": "development_evaluation",
+    "text": "\udbbd\udc14\udbbd\udc1a \udbbd\udcc0\udbbd\udc06\udbbd\udc17 \udbbd\udcc0\udbbd\udc17 \udbbd\udc06\udbbd\udc23\udbbd\udc06\udbbd\udc17 \udbbd\udcc0\udbbd\udc22\udbbd\udcc0\udbbd\udc14\udbbd\udc03 \udbbd\udcc2\udbbd\udc00\udbbd\udc14 \udbbd\udcc0\udbbd\udc06\udbbd\udc14\udbbd\udc03\udbbd\udc17 \udbbd\udcc0\udbbd\udc14\udbbd\udc1a\udbbd\udc09\udbbd\udc17",
+    "image_sha256": "f63eddd57836576c6cdf0e4add1426a6f5f4555bdfa26cb186d4c72dc38f718d",
+    "pixel_sha256": "7b577f527bad81b916c7064a71a9e204be11922439525237ce4fcf144facbf62",
+    "crop_size": [
+      1128,
+      77
+    ],
+    "source_bbox": [
+      455,
+      325,
+      1583,
+      402
+    ],
+    "reference_status": "ASSISTANT_PROVISIONAL_PREVIOUSLY_EXPLORED",
+    "ambiguous_component_ids": [
+      2449,
+      2870,
+      4073,
+      4095,
+      4175
+    ]
+  },
+  {
+    "id": "4v.p1.l3",
+    "folio": "4v",
+    "variant": "original",
+    "path": "/home/runner/work/Voynich/Voynich/research_gpt6/results/kraken_crop_repair/repaired_40/original/4v_p1_l3.png",
+    "role": "development_evaluation",
+    "text": "\udbbd\udcc2\udbbd\udc14 \udbbd\udcc2\udbbd\udc14 \udbbd\udcc0\udbbd\udc10\udbbd\udd05 \udbbd\udcc2\udbbd\udc10\udbbd\udd05 \udbbd\udc09\udbbd\udc10\udbbd\udd05 \udbbd\udc1d\udbbd\udc14\udbbd\udc09\udbbd\udc10\udbbd\udd05 \udbbd\udc14\udbbd\udc10\udbbd\udc03\udbbd\udc10\udbbd\udc0b",
+    "image_sha256": "f736748d4e9ec374927e51a83d30d6b7936ab4bc39a6baf05d900f9ec5616e00",
+    "pixel_sha256": "2acf7b42d58cf7d30e4d1e9777d3bb7df09527b53c45234ba3be75db42574198",
+    "crop_size": [
+      1121,
+      95
+    ],
+    "source_bbox": [
+      0.25555555555555554,
+      0.14991896272285252,
+      0.8777777777777778,
+      0.1880064829821718
+    ],
+    "reference_status": "ASSISTANT_PROVISIONAL_PREVIOUSLY_EXPLORED"
+  },
+  {
+    "id": "4v.p1.l3",
+    "folio": "4v",
+    "variant": "repaired",
+    "path": "/home/runner/work/Voynich/Voynich/research_gpt6/results/kraken_crop_repair/repaired_40/repaired/4v_p1_l3.png",
+    "role": "development_evaluation",
+    "text": "\udbbd\udcc2\udbbd\udc14 \udbbd\udcc2\udbbd\udc14 \udbbd\udcc0\udbbd\udc10\udbbd\udd05 \udbbd\udcc2\udbbd\udc10\udbbd\udd05 \udbbd\udc09\udbbd\udc10\udbbd\udd05 \udbbd\udc1d\udbbd\udc14\udbbd\udc09\udbbd\udc10\udbbd\udd05 \udbbd\udc14\udbbd\udc10\udbbd\udc03\udbbd\udc10\udbbd\udc0b",
+    "image_sha256": "97fcc912e5232877983418a15ed32e41d05257458a133b91354b144b4204cd43",
+    "pixel_sha256": "25213ddfe73b0bc1256f646c067bed03bdec649c1204c056ff145e176bc982d1",
+    "crop_size": [
+      1129,
+      57
+    ],
+    "source_bbox": [
+      455,
+      385,
+      1584,
+      442
+    ],
+    "reference_status": "ASSISTANT_PROVISIONAL_PREVIOUSLY_EXPLORED",
+    "ambiguous_component_ids": [
+      4122,
+      4141,
+      4185,
+      5276
+    ]
+  },
+  {
+    "id": "4v.p1.l4",
+    "folio": "4v",
+    "variant": "original",
+    "path": "/home/runner/work/Voynich/Voynich/research_gpt6/results/kraken_crop_repair/repaired_40/original/4v_p1_l4.png",
+    "role": "development_evaluation",
+    "text": "\udbbd\udc1d\udbbd\udc14\udbbd\udc22\udbbd\udcc0\udbbd\udc17 \udbbd\udc1d\udbbd\udc14\udbbd\udc06\udbbd\udc23\udbbd\udc06\udbbd\udc17 \udbbd\udcc0\udbbd\udc14\udbbd\udc23\udbbd\udc06\udbbd\udc14\udbbd\udc1a \udbbd\udc09\udbbd\udc10\udbbd\udd05 \udbbd\udc06\udbbd\udc23\udbbd\udc06\udbbd\udc06\udbbd\udc17 \udbbd\udcc0\udbbd\udc14\udbbd\udc10\udbbd\udd05",
+    "image_sha256": "29f56f0fe422550223bf355346a20ee29b9508673c50a0f3c2b4eb97e40e5b2f",
+    "pixel_sha256": "6f339f7ca5b69b26448b90f3be0b5100a4894ddc73e8ade663ffd28a5411aacf",
+    "crop_size": [
+      1132,
+      113
+    ],
+    "source_bbox": [
+      0.25,
+      0.16531604538087522,
+      0.8788888888888889,
+      0.2106969205834684
+    ],
+    "reference_status": "ASSISTANT_PROVISIONAL_PREVIOUSLY_EXPLORED"
+  },
+  {
+    "id": "4v.p1.l4",
+    "folio": "4v",
+    "variant": "repaired",
+    "path": "/home/runner/work/Voynich/Voynich/research_gpt6/results/kraken_crop_repair/repaired_40/repaired/4v_p1_l4.png",
+    "role": "development_evaluation",
+    "text": "\udbbd\udc1d\udbbd\udc14\udbbd\udc22\udbbd\udcc0\udbbd\udc17 \udbbd\udc1d\udbbd\udc14\udbbd\udc06\udbbd\udc23\udbbd\udc06\udbbd\udc17 \udbbd\udcc0\udbbd\udc14\udbbd\udc23\udbbd\udc06\udbbd\udc14\udbbd\udc1a \udbbd\udc09\udbbd\udc10\udbbd\udd05 \udbbd\udc06\udbbd\udc23\udbbd\udc06\udbbd\udc06\udbbd\udc17 \udbbd\udcc0\udbbd\udc14\udbbd\udc10\udbbd\udd05",
+    "image_sha256": "4ce939b3064d5499a6ea3e3537463338a8d85a84c45ff579558ccc9a55f210cf",
+    "pixel_sha256": "be81c4ec2e44ce7b8bfc14d4a26bd85d2f3dc292f4453067586c2caab0bdcba8",
+    "crop_size": [
+      1138,
+      118
+    ],
+    "source_bbox": [
+      447,
+      405,
+      1585,
+      523
+    ],
+    "reference_status": "ASSISTANT_PROVISIONAL_PREVIOUSLY_EXPLORED",
+    "ambiguous_component_ids": [
+      4907,
+      5056,
+      5147,
+      5257,
+      5311,
+      6155,
+      6530,
+      6560,
+      6613,
+      6614
+    ]
+  },
+  {
+    "id": "4v.p1.l5",
+    "folio": "4v",
+    "variant": "original",
+    "path": "/home/runner/work/Voynich/Voynich/research_gpt6/results/kraken_crop_repair/repaired_40/original/4v_p1_l5.png",
+    "role": "development_evaluation",
+    "text": "\udbbd\udcc2\udbbd\udc14\udbbd\udc03 \udbbd\udcc2\udbbd\udc06\udbbd\udc06\udbbd\udc17 \udbbd\udc06\udbbd\udc23\udbbd\udc14 \udbbd\udc14\udbbd\udc23\udbbd\udc10\udbbd\udd05 \udbbd\udcc2\udbbd\udc06\udbbd\udc17 \udbbd\udc1d\udbbd\udc14\udbbd\udc23\udbbd\udcc0\udbbd\udc14\udbbd\udd05 \udbbd\udcc0\udbbd\udc14\udbbd\udc09\udbbd\udc10\udbbd\udd01",
+    "image_sha256": "ef07c65ba24c357ae6adc8ad73c0ace574ca558b0b042829e6b0938d73c85360",
+    "pixel_sha256": "6f069e38162e53b6d9837467baa95d3e03fcea706de770b3bf71e24b96113c72",
+    "crop_size": [
+      1126,
+      113
+    ],
+    "source_bbox": [
+      0.25222222222222224,
+      0.18233387358184766,
+      0.8777777777777778,
+      0.22771474878444084
+    ],
+    "reference_status": "ASSISTANT_PROVISIONAL_PREVIOUSLY_EXPLORED"
+  },
+  {
+    "id": "4v.p1.l5",
+    "folio": "4v",
+    "variant": "repaired",
+    "path": "/home/runner/work/Voynich/Voynich/research_gpt6/results/kraken_crop_repair/repaired_40/repaired/4v_p1_l5.png",
+    "role": "development_evaluation",
+    "text": "\udbbd\udcc2\udbbd\udc14\udbbd\udc03 \udbbd\udcc2\udbbd\udc06\udbbd\udc06\udbbd\udc17 \udbbd\udc06\udbbd\udc23\udbbd\udc14 \udbbd\udc14\udbbd\udc23\udbbd\udc10\udbbd\udd05 \udbbd\udcc2\udbbd\udc06\udbbd\udc17 \udbbd\udc1d\udbbd\udc14\udbbd\udc23\udbbd\udcc0\udbbd\udc14\udbbd\udd05 \udbbd\udcc0\udbbd\udc14\udbbd\udc09\udbbd\udc10\udbbd\udd01",
+    "image_sha256": "117e6ffcfd16eca01e5667902ce2b52e978a05a7a181ad76506b751895ef6778",
+    "pixel_sha256": "73af7fd5410ebc096ad425185a69fa29935d3c4785cf18812f89de9bff36bb84",
+    "crop_size": [
+      1131,
+      97
+    ],
+    "source_bbox": [
+      452,
+      469,
+      1583,
+      566
+    ],
+    "reference_status": "ASSISTANT_PROVISIONAL_PREVIOUSLY_EXPLORED",
+    "ambiguous_component_ids": [
+      6304,
+      6380,
+      6401,
+      6640,
+      7532,
+      7853
+    ]
+  },
+  {
+    "id": "4v.p1.l6",
+    "folio": "4v",
+    "variant": "original",
+    "path": "/home/runner/work/Voynich/Voynich/research_gpt6/results/kraken_crop_repair/repaired_40/original/4v_p1_l6.png",
+    "role": "development_evaluation",
+    "text": "\udbbd\udc17\udbbd\udc23\udbbd\udcc0\udbbd\udc14\udbbd\udc17 \udbbd\udcc2\udbbd\udc14\udbbd\udc22\udbbd\udcc0\udbbd\udc17 \udbbd\udc06\udbbd\udc21\udbbd\udc06\udbbd\udc14\udbbd\udc09\udbbd\udc17",
+    "image_sha256": "f049e6791b96396d1e19ea16a7c415612e46a37e82118e1441973e21763a4d87",
+    "pixel_sha256": "3f92eb8b3d1a9cefe163d6cf3592d4f91d03b7812fb5fb379a17bc31987e4441",
+    "crop_size": [
+      559,
+      103
+    ],
+    "source_bbox": [
+      0.2544444444444444,
+      0.2034035656401945,
+      0.5644444444444444,
+      0.24473257698541329
+    ],
+    "reference_status": "ASSISTANT_PROVISIONAL_PREVIOUSLY_EXPLORED"
+  },
+  {
+    "id": "4v.p1.l6",
+    "folio": "4v",
+    "variant": "repaired",
+    "path": "/home/runner/work/Voynich/Voynich/research_gpt6/results/kraken_crop_repair/repaired_40/repaired/4v_p1_l6.png",
+    "role": "development_evaluation",
+    "text": "\udbbd\udc17\udbbd\udc23\udbbd\udcc0\udbbd\udc14\udbbd\udc17 \udbbd\udcc2\udbbd\udc14\udbbd\udc22\udbbd\udcc0\udbbd\udc17 \udbbd\udc06\udbbd\udc21\udbbd\udc06\udbbd\udc14\udbbd\udc09\udbbd\udc17",
+    "image_sha256": "147160656f75ad6db3cba215b6df906449d6523d8419a31501c93fe2dddbb10e",
+    "pixel_sha256": "15598c746ed2bb0b9d9475095e71e36ab436c11f51faf94cbd71ebf9dd3ca556",
+    "crop_size": [
+      565,
+      84
+    ],
+    "source_bbox": [
+      454,
+      520,
+      1019,
+      604
+    ],
+    "reference_status": "ASSISTANT_PROVISIONAL_PREVIOUSLY_EXPLORED",
+    "ambiguous_component_ids": [
+      7502,
+      7553
+    ]
+  },
+  {
+    "id": "4v.p2.l1",
+    "folio": "4v",
+    "variant": "original",
+    "path": "/home/runner/work/Voynich/Voynich/research_gpt6/results/kraken_crop_repair/repaired_40/original/4v_p2_l1.png",
+    "role": "development_evaluation",
+    "text": "\udbbd\udc23\udbbd\udc14\udbbd\udc03\udbbd\udcc0\udbbd\udc17 \udbbd\udcc2\udbbd\udc06\udbbd\udc06\udbbd\udc14\udbbd\udc03 \udbbd\udcc0\udbbd\udc14\udbbd\udc03 \udbbd\udcc2\udbbd\udc14\udbbd\udc23\udbbd\udcc0\udbbd\udc17 \udbbd\udc06\udbbd\udc21\udbbd\udc06\udbbd\udc17\udbbd\udc09\udbbd\udc17",
+    "image_sha256": "0024dbe29842e31179bac2fc27d9c8ee36f4638d49ae21ed958f79a40d57e6c4",
+    "pixel_sha256": "bfad51c7ecc6a123d15767c4cfbf9bf76ce90c5c64d0c1d2c56d9f4bc82ff4da",
+    "crop_size": [
+      744,
+      97
+    ],
+    "source_bbox": [
+      0.24888888888888888,
+      0.24716369529983792,
+      0.6622222222222223,
+      0.2860615883306321
+    ],
+    "reference_status": "ASSISTANT_PROVISIONAL_PREVIOUSLY_EXPLORED"
+  },
+  {
+    "id": "4v.p2.l1",
+    "folio": "4v",
+    "variant": "repaired",
+    "path": "/home/runner/work/Voynich/Voynich/research_gpt6/results/kraken_crop_repair/repaired_40/repaired/4v_p2_l1.png",
+    "role": "development_evaluation",
+    "text": "\udbbd\udc23\udbbd\udc14\udbbd\udc03\udbbd\udcc0\udbbd\udc17 \udbbd\udcc2\udbbd\udc06\udbbd\udc06\udbbd\udc14\udbbd\udc03 \udbbd\udcc0\udbbd\udc14\udbbd\udc03 \udbbd\udcc2\udbbd\udc14\udbbd\udc23\udbbd\udcc0\udbbd\udc17 \udbbd\udc06\udbbd\udc21\udbbd\udc06\udbbd\udc17\udbbd\udc09\udbbd\udc17",
+    "image_sha256": "496f7f379b5dda79c22c8092dbc78b642ac7086f3c0d6bc59f3f2a2a62792904",
+    "pixel_sha256": "5fb9cb424a07c3f1119c953d59ee19c86af6a3232b40b1bdff9928f48e33054a",
+    "crop_size": [
+      743,
+      99
+    ],
+    "source_bbox": [
+      447,
+      607,
+      1190,
+      706
+    ],
+    "reference_status": "ASSISTANT_PROVISIONAL_PREVIOUSLY_EXPLORED",
+    "ambiguous_component_ids": [
+      11370
+    ]
+  },
+  {
+    "id": "4v.p2.l2",
+    "folio": "4v",
+    "variant": "original",
+    "path": "/home/runner/work/Voynich/Voynich/research_gpt6/results/kraken_crop_repair/repaired_40/original/4v_p2_l2.png",
+    "role": "development_evaluation",
+    "text": "\udbbd\udc14\udbbd\udc1a\udbbd\udd1f\udbbd\udc06\udbbd\udd1f \udbbd\udcc0\udbbd\udc14\udbbd\udc03 \udbbd\udc06\udbbd\udc23\udbbd\udc06\udbbd\udc14\udbbd\udc1a \udbbd\udcc2\udbbd\udc14 \udbbd\udc14\udbbd\udc23\udbbd\udc14\udbbd\udc03 \udbbd\udc06\udbbd\udc23\udbbd\udc06\udbbd\udc14\udbbd\udc03\udbbd\udc17",
+    "image_sha256": "b2a2c2ba950833321f1e3f9e358f0d214d612e2dab1a9bd275a7edb5ce4dc5d0",
+    "pixel_sha256": "9eb08d91dbc2e11d93496225abc5869617293a63c30ed15bb580588659238347",
+    "crop_size": [
+      746,
+      97
+    ],
+    "source_bbox": [
+      0.25,
+      0.26823338735818475,
+      0.6644444444444444,
+      0.3071312803889789
+    ],
+    "reference_status": "ASSISTANT_PROVISIONAL_PREVIOUSLY_EXPLORED"
+  },
+  {
+    "id": "4v.p2.l2",
+    "folio": "4v",
+    "variant": "repaired",
+    "path": "/home/runner/work/Voynich/Voynich/research_gpt6/results/kraken_crop_repair/repaired_40/repaired/4v_p2_l2.png",
+    "role": "development_evaluation",
+    "text": "\udbbd\udc14\udbbd\udc1a\udbbd\udd1f\udbbd\udc06\udbbd\udd1f \udbbd\udcc0\udbbd\udc14\udbbd\udc03 \udbbd\udc06\udbbd\udc23\udbbd\udc06\udbbd\udc14\udbbd\udc1a \udbbd\udcc2\udbbd\udc14 \udbbd\udc14\udbbd\udc23\udbbd\udc14\udbbd\udc03 \udbbd\udc06\udbbd\udc23\udbbd\udc06\udbbd\udc14\udbbd\udc03\udbbd\udc17",
+    "image_sha256": "df991604fa49c3c5be05c05b0a4a56785669199ac71382aea6f6e67ca1d2cd5b",
+    "pixel_sha256": "511c26ec1a1fc468bca3f666d90340243ec5c73e255378e2bc7ff163df5e2b76",
+    "crop_size": [
+      745,
+      95
+    ],
+    "source_bbox": [
+      447,
+      684,
+      1192,
+      779
+    ],
+    "reference_status": "ASSISTANT_PROVISIONAL_PREVIOUSLY_EXPLORED",
+    "ambiguous_component_ids": [
+      11327,
+      11874,
+      12246,
+      12291
+    ]
+  },
+  {
+    "id": "4v.p2.l3",
+    "folio": "4v",
+    "variant": "original",
+    "path": "/home/runner/work/Voynich/Voynich/research_gpt6/results/kraken_crop_repair/repaired_40/original/4v_p2_l3.png",
+    "role": "development_evaluation",
+    "text": "\udbbd\udc1d\udbbd\udc14\udbbd\udc14\udbbd\udc22\udbbd\udc14 \udbbd\udd1f \udbbd\udcc0\udbbd\udc00\udbbd\udc14\udbbd\udc0b \udbbd\udcc0\udbbd\udc06\udbbd\udc23\udbbd\udc06\udbbd\udc17 \udbbd\udcc2\udbbd\udc14\udbbd\udc22\udbbd\udc17 \udbbd\udc09\udbbd\udc10\udbbd\udd05",
+    "image_sha256": "8d6550b809c130aa613670b141accbd8d4860815f267c179c6f5db4247a5e1e0",
+    "pixel_sha256": "4c8d3064de2690748abd5697fe516d07fc394d03217702d311abef245dada229",
+    "crop_size": [
+      748,
+      105
+    ],
+    "source_bbox": [
+      0.24888888888888888,
+      0.28687196110210694,
+      0.6644444444444444,
+      0.32901134521880065
+    ],
+    "reference_status": "ASSISTANT_PROVISIONAL_PREVIOUSLY_EXPLORED"
+  },
+  {
+    "id": "4v.p2.l3",
+    "folio": "4v",
+    "variant": "repaired",
+    "path": "/home/runner/work/Voynich/Voynich/research_gpt6/results/kraken_crop_repair/repaired_40/repaired/4v_p2_l3.png",
+    "role": "development_evaluation",
+    "text": "\udbbd\udc1d\udbbd\udc14\udbbd\udc14\udbbd\udc22\udbbd\udc14 \udbbd\udd1f \udbbd\udcc0\udbbd\udc00\udbbd\udc14\udbbd\udc0b \udbbd\udcc0\udbbd\udc06\udbbd\udc23\udbbd\udc06\udbbd\udc17 \udbbd\udcc2\udbbd\udc14\udbbd\udc22\udbbd\udc17 \udbbd\udc09\udbbd\udc10\udbbd\udd05",
+    "image_sha256": "b7a3bbdb92f5df664de829d8226f370a54b6566e95e7a2929789b6c858e4d119",
+    "pixel_sha256": "d40e78856d08cc63070327c43d796ca8bc3326dd302df54234f68adcb9004475",
+    "crop_size": [
+      747,
+      88
+    ],
+    "source_bbox": [
+      448,
+      731,
+      1195,
+      819
+    ],
+    "reference_status": "ASSISTANT_PROVISIONAL_PREVIOUSLY_EXPLORED",
+    "ambiguous_component_ids": [
+      12354,
+      13075
+    ]
+  },
+  {
+    "id": "4v.p2.l4",
+    "folio": "4v",
+    "variant": "original",
+    "path": "/home/runner/work/Voynich/Voynich/research_gpt6/results/kraken_crop_repair/repaired_40/original/4v_p2_l4.png",
+    "role": "development_evaluation",
+    "text": "\udbbd\udc14\udbbd\udc23\udbbd\udc10\udbbd\udd05 \udbbd\udcc2\udbbd\udc06\udbbd\udc14 \udbbd\udc14\udbbd\udc22\udbbd\udc06\udbbd\udc10\udbbd\udc09\udbbd\udc17 \udbbd\udcc0\udbbd\udc14\udbbd\udc1a \udbbd\udcc0\udbbd\udc14\udbbd\udc22\udbbd\udc06\udbbd\udc14\udbbd\udc09\udbbd\udc17",
+    "image_sha256": "b682b62c41c2779aa906f7e41988f7a88926d014dad979b87d0ef321ec0fc3e5",
+    "pixel_sha256": "44fb3698db6c1f4ca7daf48c5e21b7fb8acba46157bce300abf6392535b4ecb5",
+    "crop_size": [
+      752,
+      101
+    ],
+    "source_bbox": [
+      0.25,
+      0.3071312803889789,
+      0.6677777777777778,
+      0.34764991896272285
+    ],
+    "reference_status": "ASSISTANT_PROVISIONAL_PREVIOUSLY_EXPLORED"
+  },
+  {
+    "id": "4v.p2.l4",
+    "folio": "4v",
+    "variant": "repaired",
+    "path": "/home/runner/work/Voynich/Voynich/research_gpt6/results/kraken_crop_repair/repaired_40/repaired/4v_p2_l4.png",
+    "role": "development_evaluation",
+    "text": "\udbbd\udc14\udbbd\udc23\udbbd\udc10\udbbd\udd05 \udbbd\udcc2\udbbd\udc06\udbbd\udc14 \udbbd\udc14\udbbd\udc22\udbbd\udc06\udbbd\udc10\udbbd\udc09\udbbd\udc17 \udbbd\udcc0\udbbd\udc14\udbbd\udc1a \udbbd\udcc0\udbbd\udc14\udbbd\udc22\udbbd\udc06\udbbd\udc14\udbbd\udc09\udbbd\udc17",
+    "image_sha256": "9340f4bc91fa36dfd8fd151db69466f1476bd00948d55d269430e0ab67a12e21",
+    "pixel_sha256": "0137f1894c4fab45de09a40fe92654e6bb0f40348896631373b9ea0cf47da82d",
+    "crop_size": [
+      760,
+      79
+    ],
+    "source_bbox": [
+      448,
+      774,
+      1208,
+      853
+    ],
+    "reference_status": "ASSISTANT_PROVISIONAL_PREVIOUSLY_EXPLORED",
+    "ambiguous_component_ids": [
+      12880,
+      12896,
+      13177,
+      14038
+    ]
+  },
+  {
+    "id": "4v.p2.l5",
+    "folio": "4v",
+    "variant": "original",
+    "path": "/home/runner/work/Voynich/Voynich/research_gpt6/results/kraken_crop_repair/repaired_40/original/4v_p2_l5.png",
+    "role": "development_evaluation",
+    "text": "\udbbd\udcc2\udbbd\udc14 \udbbd\udc22\udbbd\udcc0\udbbd\udc06\udbbd\udc14\udbbd\udc03 \udbbd\udcc2\udbbd\udc14\udbbd\udc09 \udbbd\udc17 \udbbd\udcc2\udbbd\udc23\udbbd\udc10\udbbd\udd05 \udbbd\udc1d\udbbd\udc14\udbbd\udc23\udbbd\udc14\udbbd\udc1a\udbbd\udc09\udbbd\udc10\udbbd\udd05",
+    "image_sha256": "64cb9bf21e04e7ac1b1394a9e145eea76f6eab540e3cc62758b173c321900592",
+    "pixel_sha256": "372de7046f54da10f8c90ab06b0bb27bcce777535b83d78425a2197a75a58a44",
+    "crop_size": [
+      814,
+      99
+    ],
+    "source_bbox": [
+      0.2511111111111111,
+      0.32820097244732577,
+      0.7033333333333334,
+      0.3679092382495948
+    ],
+    "reference_status": "ASSISTANT_PROVISIONAL_PREVIOUSLY_EXPLORED"
+  },
+  {
+    "id": "4v.p2.l5",
+    "folio": "4v",
+    "variant": "repaired",
+    "path": "/home/runner/work/Voynich/Voynich/research_gpt6/results/kraken_crop_repair/repaired_40/repaired/4v_p2_l5.png",
+    "role": "development_evaluation",
+    "text": "\udbbd\udcc2\udbbd\udc14 \udbbd\udc22\udbbd\udcc0\udbbd\udc06\udbbd\udc14\udbbd\udc03 \udbbd\udcc2\udbbd\udc14\udbbd\udc09 \udbbd\udc17 \udbbd\udcc2\udbbd\udc23\udbbd\udc10\udbbd\udd05 \udbbd\udc1d\udbbd\udc14\udbbd\udc23\udbbd\udc14\udbbd\udc1a\udbbd\udc09\udbbd\udc10\udbbd\udd05",
+    "image_sha256": "e199138823d768efcda1dc7eaa27868f0d596c5a768aa11a91cfc3515eea41e0",
+    "pixel_sha256": "9b2a213688cc7dea821aa3f657680f4b3cdf2c4d9010c9d216094aef170c642c",
+    "crop_size": [
+      821,
+      90
+    ],
+    "source_bbox": [
+      449,
+      818,
+      1270,
+      908
+    ],
+    "reference_status": "ASSISTANT_PROVISIONAL_PREVIOUSLY_EXPLORED",
+    "ambiguous_component_ids": [
+      14024,
+      14171,
+      15192,
+      15276
+    ]
+  },
+  {
+    "id": "4v.p2.l6",
+    "folio": "4v",
+    "variant": "original",
+    "path": "/home/runner/work/Voynich/Voynich/research_gpt6/results/kraken_crop_repair/repaired_40/original/4v_p2_l6.png",
+    "role": "development_evaluation",
+    "text": "\udbbd\udc1d\udbbd\udc14\udbbd\udc22\udbbd\udd1f\udbbd\udc17 \udbbd\udcc2\udbbd\udc14 \udbbd\udc14\udbbd\udc22\udbbd\udc06\udbbd\udc14\udbbd\udc1a \udbbd\udc0a\udbbd\udc22\udbbd\udc06\udbbd\udc06\udbbd\udc17 \udbbd\udcc2\udbbd\udc10\udbbd\udc03 \udbbd\udcc0\udbbd\udc10\udbbd\udc03 \udbbd\udc14\udbbd\udc09\udbbd\udc17",
+    "image_sha256": "444bdcbcff3a06d116331105d6abac843bb91ce78da825eb58702d7c4cc58826",
+    "pixel_sha256": "34c8962de3eeac4579485852f0f282928fd1bc4ad9f2d4192028cb1d53595a8e",
+    "crop_size": [
+      856,
+      97
+    ],
+    "source_bbox": [
+      0.2511111111111111,
+      0.3500810372771475,
+      0.7266666666666667,
+      0.3889789303079417
+    ],
+    "reference_status": "ASSISTANT_PROVISIONAL_PREVIOUSLY_EXPLORED"
+  },
+  {
+    "id": "4v.p2.l6",
+    "folio": "4v",
+    "variant": "repaired",
+    "path": "/home/runner/work/Voynich/Voynich/research_gpt6/results/kraken_crop_repair/repaired_40/repaired/4v_p2_l6.png",
+    "role": "development_evaluation",
+    "text": "\udbbd\udc1d\udbbd\udc14\udbbd\udc22\udbbd\udd1f\udbbd\udc17 \udbbd\udcc2\udbbd\udc14 \udbbd\udc14\udbbd\udc22\udbbd\udc06\udbbd\udc14\udbbd\udc1a \udbbd\udc0a\udbbd\udc22\udbbd\udc06\udbbd\udc06\udbbd\udc17 \udbbd\udcc2\udbbd\udc10\udbbd\udc03 \udbbd\udcc0\udbbd\udc10\udbbd\udc03 \udbbd\udc14\udbbd\udc09\udbbd\udc17",
+    "image_sha256": "cdeeae049289ce227aca39b63709f55b34b1a8e6bb7b9ec052eae4343ed78a7d",
+    "pixel_sha256": "3be74ebb220a56c0d678544b83454ad8e613dc666bbad902c647e20e437b611a",
+    "crop_size": [
+      862,
+      122
+    ],
+    "source_bbox": [
+      449,
+      848,
+      1311,
+      970
+    ],
+    "reference_status": "ASSISTANT_PROVISIONAL_PREVIOUSLY_EXPLORED",
+    "ambiguous_component_ids": [
+      15042,
+      15393,
+      16510,
+      16553,
+      16678,
+      16703
+    ]
+  },
+  {
+    "id": "4v.p2.l7",
+    "folio": "4v",
+    "variant": "original",
+    "path": "/home/runner/work/Voynich/Voynich/research_gpt6/results/kraken_crop_repair/repaired_40/original/4v_p2_l7.png",
+    "role": "development_evaluation",
+    "text": "\udbbd\udcc2\udbbd\udc14\udbbd\udc09\udbbd\udc17 \udbbd\udc0a \udbbd\udcc0\udbbd\udc06\udbbd\udc14\udbbd\udc03 \udbbd\udcc0\udbbd\udc14\udbbd\udc22\udbbd\udc14\udbbd\udc09\udbbd\udc17 \udbbd\udcc2\udbbd\udc14\udbbd\udc09\udbbd\udc10\udbbd\udd05 \udbbd\udc1d\udbbd\udc14\udbbd\udc23\udbbd\udc17",
+    "image_sha256": "d76fc1aaa45aec00ad5e4c8d45b554216a12bcf53ff0af60ea1534d6d2836aa1",
+    "pixel_sha256": "e467fc4e1a338a2c14e991a8372d02fdd30f743357a21487549302e5b49f2208",
+    "crop_size": [
+      856,
+      103
+    ],
+    "source_bbox": [
+      0.2511111111111111,
+      0.3695299837925446,
+      0.7266666666666667,
+      0.41085899513776336
+    ],
+    "reference_status": "ASSISTANT_PROVISIONAL_PREVIOUSLY_EXPLORED"
+  },
+  {
+    "id": "4v.p2.l7",
+    "folio": "4v",
+    "variant": "repaired",
+    "path": "/home/runner/work/Voynich/Voynich/research_gpt6/results/kraken_crop_repair/repaired_40/repaired/4v_p2_l7.png",
+    "role": "development_evaluation",
+    "text": "\udbbd\udcc2\udbbd\udc14\udbbd\udc09\udbbd\udc17 \udbbd\udc0a \udbbd\udcc0\udbbd\udc06\udbbd\udc14\udbbd\udc03 \udbbd\udcc0\udbbd\udc14\udbbd\udc22\udbbd\udc14\udbbd\udc09\udbbd\udc17 \udbbd\udcc2\udbbd\udc14\udbbd\udc09\udbbd\udc10\udbbd\udd05 \udbbd\udc1d\udbbd\udc14\udbbd\udc23\udbbd\udc17",
+    "image_sha256": "b5464a865e8233888994c868b48adb685d07fbed6ae5499191da5741c7450d82",
+    "pixel_sha256": "0b1b34d1eaf705e2d0a235b7a0925d74920195b598b703d82ee03b5643a90761",
+    "crop_size": [
+      862,
+      82
+    ],
+    "source_bbox": [
+      449,
+      936,
+      1311,
+      1018
+    ],
+    "reference_status": "ASSISTANT_PROVISIONAL_PREVIOUSLY_EXPLORED",
+    "ambiguous_component_ids": [
+      16366,
+      16622
+    ]
+  },
+  {
+    "id": "4v.p2.l8",
+    "folio": "4v",
+    "variant": "original",
+    "path": "/home/runner/work/Voynich/Voynich/research_gpt6/results/kraken_crop_repair/repaired_40/original/4v_p2_l8.png",
+    "role": "development_evaluation",
+    "text": "\udbbd\udc14\udbbd\udcc2\udbbd\udc14\udbbd\udc09\udbbd\udc17 \udbbd\udcc0\udbbd\udc17\udbbd\udc22\udbbd\udc06\udbbd\udc17 \udbbd\udcc0\udbbd\udc23\udbbd\udc14\udbbd\udc09\udbbd\udc17",
+    "image_sha256": "121dafe8428b101fa254e2a228e234d501f8bd464b3b2091d6c3f25e50cf314e",
+    "pixel_sha256": "5369cbba3b3060414270ac27d6008288dbaf6655062c6eae2185d750e1ebadbc",
+    "crop_size": [
+      492,
+      103
+    ],
+    "source_bbox": [
+      0.25333333333333335,
+      0.39222042139384117,
+      0.5266666666666666,
+      0.43354943273906
+    ],
+    "reference_status": "ASSISTANT_PROVISIONAL_PREVIOUSLY_EXPLORED"
+  },
+  {
+    "id": "4v.p2.l8",
+    "folio": "4v",
+    "variant": "repaired",
+    "path": "/home/runner/work/Voynich/Voynich/research_gpt6/results/kraken_crop_repair/repaired_40/repaired/4v_p2_l8.png",
+    "role": "development_evaluation",
+    "text": "\udbbd\udc14\udbbd\udcc2\udbbd\udc14\udbbd\udc09\udbbd\udc17 \udbbd\udcc0\udbbd\udc17\udbbd\udc22\udbbd\udc06\udbbd\udc17 \udbbd\udcc0\udbbd\udc23\udbbd\udc14\udbbd\udc09\udbbd\udc17",
+    "image_sha256": "38dd6b730f8573c4ec440ff7e1b1dcb39ea32d380797745bfed1359b15f6dbfe",
+    "pixel_sha256": "6136f064a380d7c6efdf9b30ef560539c31e5f9eeeb9af982957554903685940",
+    "crop_size": [
+      498,
+      72
+    ],
+    "source_bbox": [
+      453,
+      993,
+      951,
+      1065
+    ],
+    "reference_status": "ASSISTANT_PROVISIONAL_PREVIOUSLY_EXPLORED",
+    "ambiguous_component_ids": [
+      17820
+    ]
+  }
+]

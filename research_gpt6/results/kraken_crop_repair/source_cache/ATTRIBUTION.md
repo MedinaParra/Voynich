@@ -1,0 +1,5 @@
+# Sources and changes
+
+The four images under `images/` are unchanged Yale University Library photographs of Beinecke MS 408, folios 3r, 3v, 4r and 4v. Original acquisition URLs and SHA-256 hashes are recorded in `research_gpt6/data/kraken_region_masks.json` and the experiment's preparation record. Yale University Library, Beinecke Rare Book and Manuscript Library, is credited as the image source. This notice does not assign a new license to those photographs.
+
+`sources/unicode_dict.json` and the conventional glyph labels derive from Alexander Boxer's Voynich Manuscript Transcription, copyright 2022 Alexander Boxer, licensed CC BY 4.0. The source is pinned at https://github.com/alexanderboxer/voynich-attack/tree/255bd632e45459230eaf2a994e0557ed6c682869/transcription . See the accompanying `BOXER_LICENSE.txt` and https://creativecommons.org/licenses/by/4.0/ . The mapping and the 61 row labels are unchanged. This experiment modifies the extraction of row images and trains new recognition models from scratch; it does not supply phonetic values or a translation.

@@ -1,0 +1,834 @@
+GPU available: False, used: False
+TPU available: False, using: 0 TPU cores
+💡 Tip: For seamless cloud logging and experiment tracking, try installing [litlogger](https://pypi.org/project/litlogger/) to enable LitLogger, which logs metrics and artifacts automatically to the Lightning Experiments platform.
+Initializing new model.
+┏━━━┳━━━━━━━━━━━━━━━━━┳━━━━━━━━━┳━━━━━━━━┳━━━━━━━┳━━━━━━━━┳━━━━━━━━━━┳━━━━━━━━━┓
+┃   ┃                 ┃         ┃        ┃       ┃        ┃          ┃     Out ┃
+┃   ┃ Name            ┃ Type    ┃ Params ┃ Mode  ┃  FLOPs ┃ In sizes ┃   sizes ┃
+┡━━━╇━━━━━━━━━━━━━━━━━╇━━━━━━━━━╇━━━━━━━━╇━━━━━━━╇━━━━━━━━╇━━━━━━━━━━╇━━━━━━━━━┩
+│ 0 │ val_cer         │ CharEr… │      0 │ train │      0 │        ? │       ? │
+│ 1 │ val_wer         │ WordEr… │      0 │ train │      0 │        ? │       ? │
+│ 2 │ net             │ TorchV… │  240 K │ train │ 50.8 M │  [[1, 1, │    [[1, │
+│   │                 │         │        │       │        │      48, │  40, 1, │
+│   │                 │         │        │       │        │    400], │   100], │
+│   │                 │         │        │       │        │     '?'] │    '?'] │
+│ 3 │ net.nn          │ MultiP… │  240 K │ train │ 50.8 M │  [[1, 1, │    [[1, │
+│   │                 │         │        │       │        │      48, │  40, 1, │
+│   │                 │         │        │       │        │    400], │   100], │
+│   │                 │         │        │       │        │     '?'] │    '?'] │
+│ 4 │ net._aux_layers │ Module… │      0 │ train │      0 │        ? │       ? │
+│ 5 │ net.criterion   │ CTCLoss │      0 │ train │      0 │        ? │       ? │
+└───┴─────────────────┴─────────┴────────┴───────┴────────┴──────────┴─────────┘
+Trainable params: 240 K                                                         
+Non-trainable params: 0                                                         
+Total params: 240 K                                                             
+Total estimated model params size (MB): 0                                       
+Modules in train mode: 19                                                       
+Modules in eval mode: 0                                                         
+Total FLOPs: 50.8 M                                                             
+stage 0/199 ━━━━━━━━━━━━━━━━━━ 9/9 0:00:02 • 0:00:00 3.31it/s train_loss_step:  
+                                                              322.922           
+                                                              train_loss_epoch: 
+                                                              631.362           
+stage 1/199 ━━━━━━━━━━━━━━━━━━ 9/9 0:00:02 • 0:00:00 3.28it/s train_loss_step:  
+                                                              242.646           
+                                                              train_loss_epoch: 
+                                                              414.570           
+stage 2/199 ━━━━━━━━━━━━━━━━━━ 9/9 0:00:02 • 0:00:00 3.24it/s train_loss_step:  
+                                                              288.732           
+                                                              train_loss_epoch: 
+                                                              390.801           
+stage 3/199 ━━━━━━━━━━━━━━━━━━ 9/9 0:00:02 • 0:00:00 3.25it/s train_loss_step:  
+                                                              200.301           
+                                                              train_loss_epoch: 
+                                                              379.086           
+stage 4/199 ━━━━━━━━━━━━━━━━━━ 9/9 0:00:02 • 0:00:00 3.63it/s train_loss_step:  
+                                                              280.232           
+                                                              train_loss_epoch: 
+                                                              401.269           
+stage 5/199 ━━━━━━━━━━━━━━━━━━ 9/9 0:00:02 • 0:00:00 3.20it/s train_loss_step:  
+                                                              163.142           
+                                                              train_loss_epoch: 
+                                                              376.185           
+stage 6/199 ━━━━━━━━━━━━━━━━━━ 9/9 0:00:02 • 0:00:00 3.24it/s train_loss_step:  
+                                                              205.943           
+                                                              train_loss_epoch: 
+                                                              355.460           
+stage 7/199 ━━━━━━━━━━━━━━━━━━ 9/9 0:00:02 • 0:00:00 3.33it/s train_loss_step:  
+                                                              159.092           
+                                                              train_loss_epoch: 
+                                                              344.500           
+stage 8/199 ━━━━━━━━━━━━━━━━━━ 9/9 0:00:02 • 0:00:00 3.39it/s train_loss_step:  
+                                                              168.988           
+                                                              train_loss_epoch: 
+                                                              335.479           
+stage 9/199 ━━━━━━━━━━━━━━━━━━ 9/9 0:00:02 • 0:00:00 3.44it/s train_loss_step:  
+                                                              135.047           
+                                                              train_loss_epoch: 
+                                                              341.910           
+stage 10/199 ━━━━━━━━━━━━━━━━━ 9/9 0:00:02 • 0:00:00 3.18it/s train_loss_step:  
+                                                              146.748           
+                                                              train_loss_epoch: 
+                                                              345.573           
+stage 11/199 ━━━━━━━━━━━━━━━━━ 9/9 0:00:02 • 0:00:00 3.27it/s train_loss_step:  
+                                                              141.281           
+                                                              train_loss_epoch: 
+                                                              328.364           
+stage 12/199 ━━━━━━━━━━━━━━━━━ 9/9 0:00:02 • 0:00:00 3.27it/s train_loss_step:  
+                                                              199.058           
+                                                              train_loss_epoch: 
+                                                              340.411           
+stage 13/199 ━━━━━━━━━━━━━━━━━ 9/9 0:00:02 • 0:00:00 3.55it/s train_loss_step:  
+                                                              141.225           
+                                                              train_loss_epoch: 
+                                                              331.567           
+stage 14/199 ━━━━━━━━━━━━━━━━━ 9/9 0:00:02 • 0:00:00 3.35it/s train_loss_step:  
+                                                              119.991           
+                                                              train_loss_epoch: 
+                                                              322.021           
+stage 15/199 ━━━━━━━━━━━━━━━━━ 9/9 0:00:02 • 0:00:00 3.94it/s train_loss_step:  
+                                                              164.326           
+                                                              train_loss_epoch: 
+                                                              316.771           
+stage 16/199 ━━━━━━━━━━━━━━━━━ 9/9 0:00:02 • 0:00:00 3.90it/s train_loss_step:  
+                                                              182.668           
+                                                              train_loss_epoch: 
+                                                              315.740           
+stage 17/199 ━━━━━━━━━━━━━━━━━ 9/9 0:00:02 • 0:00:00 3.21it/s train_loss_step:  
+                                                              134.596           
+                                                              train_loss_epoch: 
+                                                              317.016           
+stage 18/199 ━━━━━━━━━━━━━━━━━ 9/9 0:00:02 • 0:00:00 3.29it/s train_loss_step:  
+                                                              203.676           
+                                                              train_loss_epoch: 
+                                                              307.974           
+stage 19/199 ━━━━━━━━━━━━━━━━━ 9/9 0:00:02 • 0:00:00 3.22it/s train_loss_step:  
+                                                              127.010           
+                                                              train_loss_epoch: 
+                                                              313.439           
+stage 20/199 ━━━━━━━━━━━━━━━━━ 9/9 0:00:02 • 0:00:00 3.24it/s train_loss_step:  
+                                                              155.852           
+                                                              train_loss_epoch: 
+                                                              305.751           
+stage 21/199 ━━━━━━━━━━━━━━━━━ 9/9 0:00:02 • 0:00:00 3.32it/s train_loss_step:  
+                                                              204.369           
+                                                              train_loss_epoch: 
+                                                              299.057           
+stage 22/199 ━━━━━━━━━━━━━━━━━ 9/9 0:00:02 • 0:00:00 3.41it/s train_loss_step:  
+                                                              102.507           
+                                                              train_loss_epoch: 
+                                                              302.803           
+stage 23/199 ━━━━━━━━━━━━━━━━━ 9/9 0:00:02 • 0:00:00 3.62it/s train_loss_step:  
+                                                              164.110           
+                                                              train_loss_epoch: 
+                                                              299.589           
+stage 24/199 ━━━━━━━━━━━━━━━━━ 9/9 0:00:02 • 0:00:00 3.38it/s train_loss_step:  
+                                                              175.602           
+                                                              train_loss_epoch: 
+                                                              293.571           
+stage 25/199 ━━━━━━━━━━━━━━━━━ 9/9 0:00:02 • 0:00:00 3.27it/s train_loss_step:  
+                                                              175.184           
+                                                              train_loss_epoch: 
+                                                              291.578           
+stage 26/199 ━━━━━━━━━━━━━━━━━ 9/9 0:00:02 • 0:00:00 3.69it/s train_loss_step:  
+                                                              133.422           
+                                                              train_loss_epoch: 
+                                                              295.230           
+stage 27/199 ━━━━━━━━━━━━━━━━━ 9/9 0:00:02 • 0:00:00 3.66it/s train_loss_step:  
+                                                              143.535           
+                                                              train_loss_epoch: 
+                                                              292.294           
+stage 28/199 ━━━━━━━━━━━━━━━━━ 9/9 0:00:02 • 0:00:00 3.63it/s train_loss_step:  
+                                                              121.309           
+                                                              train_loss_epoch: 
+                                                              291.361           
+stage 29/199 ━━━━━━━━━━━━━━━━━ 9/9 0:00:02 • 0:00:00 3.47it/s train_loss_step:  
+                                                              115.341           
+                                                              train_loss_epoch: 
+                                                              292.575           
+stage 30/199 ━━━━━━━━━━━━━━━━━ 9/9 0:00:02 • 0:00:00 3.26it/s train_loss_step:  
+                                                              120.293           
+                                                              train_loss_epoch: 
+                                                              289.954           
+stage 31/199 ━━━━━━━━━━━━━━━━━ 9/9 0:00:02 • 0:00:00 3.31it/s train_loss_step:  
+                                                              131.985           
+                                                              train_loss_epoch: 
+                                                              289.346           
+stage 32/199 ━━━━━━━━━━━━━━━━━ 9/9 0:00:02 • 0:00:00 4.09it/s train_loss_step:  
+                                                              142.314           
+                                                              train_loss_epoch: 
+                                                              289.934           
+stage 33/199 ━━━━━━━━━━━━━━━━━ 9/9 0:00:02 • 0:00:00 3.29it/s train_loss_step:  
+                                                              107.955           
+                                                              train_loss_epoch: 
+                                                              288.877           
+stage 34/199 ━━━━━━━━━━━━━━━━━ 9/9 0:00:02 • 0:00:00 3.32it/s train_loss_step:  
+                                                              105.597           
+                                                              train_loss_epoch: 
+                                                              292.907           
+stage 35/199 ━━━━━━━━━━━━━━━━━ 9/9 0:00:02 • 0:00:00 3.15it/s train_loss_step:  
+                                                              169.877           
+                                                              train_loss_epoch: 
+                                                              285.491           
+stage 36/199 ━━━━━━━━━━━━━━━━━ 9/9 0:00:02 • 0:00:00 3.27it/s train_loss_step:  
+                                                              121.605           
+                                                              train_loss_epoch: 
+                                                              287.594           
+stage 37/199 ━━━━━━━━━━━━━━━━━ 9/9 0:00:02 • 0:00:00 3.23it/s train_loss_step:  
+                                                              140.104           
+                                                              train_loss_epoch: 
+                                                              283.885           
+stage 38/199 ━━━━━━━━━━━━━━━━━ 9/9 0:00:02 • 0:00:00 3.24it/s train_loss_step:  
+                                                              236.705           
+                                                              train_loss_epoch: 
+                                                              275.800           
+stage 39/199 ━━━━━━━━━━━━━━━━━ 9/9 0:00:02 • 0:00:00 3.31it/s train_loss_step:  
+                                                              133.988           
+                                                              train_loss_epoch: 
+                                                              281.330           
+stage 40/199 ━━━━━━━━━━━━━━━━━ 9/9 0:00:02 • 0:00:00 3.13it/s train_loss_step:  
+                                                              115.541           
+                                                              train_loss_epoch: 
+                                                              282.481           
+stage 41/199 ━━━━━━━━━━━━━━━━━ 9/9 0:00:02 • 0:00:00 3.19it/s train_loss_step:  
+                                                              178.702           
+                                                              train_loss_epoch: 
+                                                              280.891           
+stage 42/199 ━━━━━━━━━━━━━━━━━ 9/9 0:00:02 • 0:00:00 3.14it/s train_loss_step:  
+                                                              174.623           
+                                                              train_loss_epoch: 
+                                                              278.699           
+stage 43/199 ━━━━━━━━━━━━━━━━━ 9/9 0:00:02 • 0:00:00 3.15it/s train_loss_step:  
+                                                              141.033           
+                                                              train_loss_epoch: 
+                                                              284.838           
+stage 44/199 ━━━━━━━━━━━━━━━━━ 9/9 0:00:02 • 0:00:00 3.24it/s train_loss_step:  
+                                                              138.052           
+                                                              train_loss_epoch: 
+                                                              283.363           
+stage 45/199 ━━━━━━━━━━━━━━━━━ 9/9 0:00:02 • 0:00:00 3.20it/s train_loss_step:  
+                                                              171.751           
+                                                              train_loss_epoch: 
+                                                              278.457           
+stage 46/199 ━━━━━━━━━━━━━━━━━ 9/9 0:00:02 • 0:00:00 3.26it/s train_loss_step:  
+                                                              110.553           
+                                                              train_loss_epoch: 
+                                                              279.222           
+stage 47/199 ━━━━━━━━━━━━━━━━━ 9/9 0:00:02 • 0:00:00 3.21it/s train_loss_step:  
+                                                              151.527           
+                                                              train_loss_epoch: 
+                                                              274.566           
+stage 48/199 ━━━━━━━━━━━━━━━━━ 9/9 0:00:02 • 0:00:00 3.13it/s train_loss_step:  
+                                                              124.677           
+                                                              train_loss_epoch: 
+                                                              274.432           
+stage 49/199 ━━━━━━━━━━━━━━━━━ 9/9 0:00:02 • 0:00:00 3.25it/s train_loss_step:  
+                                                              126.708           
+                                                              train_loss_epoch: 
+                                                              272.926           
+stage 50/199 ━━━━━━━━━━━━━━━━━ 9/9 0:00:02 • 0:00:00 3.36it/s train_loss_step:  
+                                                              121.796           
+                                                              train_loss_epoch: 
+                                                              273.061           
+stage 51/199 ━━━━━━━━━━━━━━━━━ 9/9 0:00:02 • 0:00:00 3.24it/s train_loss_step:  
+                                                              136.849           
+                                                              train_loss_epoch: 
+                                                              269.761           
+stage 52/199 ━━━━━━━━━━━━━━━━━ 9/9 0:00:02 • 0:00:00 3.32it/s train_loss_step:  
+                                                              203.945           
+                                                              train_loss_epoch: 
+                                                              266.375           
+stage 53/199 ━━━━━━━━━━━━━━━━━ 9/9 0:00:02 • 0:00:00 3.20it/s train_loss_step:  
+                                                              142.745           
+                                                              train_loss_epoch: 
+                                                              265.801           
+stage 54/199 ━━━━━━━━━━━━━━━━━ 9/9 0:00:02 • 0:00:00 3.47it/s train_loss_step:  
+                                                              114.884           
+                                                              train_loss_epoch: 
+                                                              267.447           
+stage 55/199 ━━━━━━━━━━━━━━━━━ 9/9 0:00:02 • 0:00:00 3.26it/s train_loss_step:  
+                                                              121.365           
+                                                              train_loss_epoch: 
+                                                              265.466           
+stage 56/199 ━━━━━━━━━━━━━━━━━ 9/9 0:00:02 • 0:00:00 3.39it/s train_loss_step:  
+                                                              138.764           
+                                                              train_loss_epoch: 
+                                                              262.345           
+stage 57/199 ━━━━━━━━━━━━━━━━━ 9/9 0:00:02 • 0:00:00 3.60it/s train_loss_step:  
+                                                              120.155           
+                                                              train_loss_epoch: 
+                                                              263.167           
+stage 58/199 ━━━━━━━━━━━━━━━━━ 9/9 0:00:02 • 0:00:00 3.27it/s train_loss_step:  
+                                                              102.251           
+                                                              train_loss_epoch: 
+                                                              264.865           
+stage 59/199 ━━━━━━━━━━━━━━━━━ 9/9 0:00:02 • 0:00:00 3.18it/s train_loss_step:  
+                                                              196.953           
+                                                              train_loss_epoch: 
+                                                              258.340           
+stage 60/199 ━━━━━━━━━━━━━━━━━ 9/9 0:00:02 • 0:00:00 3.23it/s train_loss_step:  
+                                                              129.428           
+                                                              train_loss_epoch: 
+                                                              259.233           
+stage 61/199 ━━━━━━━━━━━━━━━━━ 9/9 0:00:02 • 0:00:00 3.40it/s train_loss_step:  
+                                                              179.778           
+                                                              train_loss_epoch: 
+                                                              256.010           
+stage 62/199 ━━━━━━━━━━━━━━━━━ 9/9 0:00:02 • 0:00:00 3.58it/s train_loss_step:  
+                                                              108.514           
+                                                              train_loss_epoch: 
+                                                              259.021           
+stage 63/199 ━━━━━━━━━━━━━━━━━ 9/9 0:00:02 • 0:00:00 3.41it/s train_loss_step:  
+                                                              143.573           
+                                                              train_loss_epoch: 
+                                                              259.244           
+stage 64/199 ━━━━━━━━━━━━━━━━━ 9/9 0:00:02 • 0:00:00 3.24it/s train_loss_step:  
+                                                              142.224           
+                                                              train_loss_epoch: 
+                                                              256.430           
+stage 65/199 ━━━━━━━━━━━━━━━━━ 9/9 0:00:02 • 0:00:00 3.26it/s train_loss_step:  
+                                                              89.134            
+                                                              train_loss_epoch: 
+                                                              256.387           
+stage 66/199 ━━━━━━━━━━━━━━━━━ 9/9 0:00:02 • 0:00:00 3.35it/s train_loss_step:  
+                                                              159.641           
+                                                              train_loss_epoch: 
+                                                              251.103           
+stage 67/199 ━━━━━━━━━━━━━━━━━ 9/9 0:00:02 • 0:00:00 3.37it/s train_loss_step:  
+                                                              129.257           
+                                                              train_loss_epoch: 
+                                                              251.660           
+stage 68/199 ━━━━━━━━━━━━━━━━━ 9/9 0:00:02 • 0:00:00 3.49it/s train_loss_step:  
+                                                              185.088           
+                                                              train_loss_epoch: 
+                                                              245.852           
+stage 69/199 ━━━━━━━━━━━━━━━━━ 9/9 0:00:02 • 0:00:00 3.50it/s train_loss_step:  
+                                                              122.654           
+                                                              train_loss_epoch: 
+                                                              248.675           
+stage 70/199 ━━━━━━━━━━━━━━━━━ 9/9 0:00:02 • 0:00:00 3.31it/s train_loss_step:  
+                                                              147.791           
+                                                              train_loss_epoch: 
+                                                              244.583           
+stage 71/199 ━━━━━━━━━━━━━━━━━ 9/9 0:00:02 • 0:00:00 3.41it/s train_loss_step:  
+                                                              94.286            
+                                                              train_loss_epoch: 
+                                                              247.402           
+stage 72/199 ━━━━━━━━━━━━━━━━━ 9/9 0:00:02 • 0:00:00 3.43it/s train_loss_step:  
+                                                              77.672            
+                                                              train_loss_epoch: 
+                                                              248.962           
+stage 73/199 ━━━━━━━━━━━━━━━━━ 9/9 0:00:02 • 0:00:00 3.19it/s train_loss_step:  
+                                                              76.435            
+                                                              train_loss_epoch: 
+                                                              246.842           
+stage 74/199 ━━━━━━━━━━━━━━━━━ 9/9 0:00:02 • 0:00:00 3.22it/s train_loss_step:  
+                                                              89.151            
+                                                              train_loss_epoch: 
+                                                              246.485           
+stage 75/199 ━━━━━━━━━━━━━━━━━ 9/9 0:00:02 • 0:00:00 3.19it/s train_loss_step:  
+                                                              120.671           
+                                                              train_loss_epoch: 
+                                                              243.026           
+stage 76/199 ━━━━━━━━━━━━━━━━━ 9/9 0:00:02 • 0:00:00 3.21it/s train_loss_step:  
+                                                              124.109           
+                                                              train_loss_epoch: 
+                                                              244.686           
+stage 77/199 ━━━━━━━━━━━━━━━━━ 9/9 0:00:02 • 0:00:00 3.10it/s train_loss_step:  
+                                                              108.998           
+                                                              train_loss_epoch: 
+                                                              240.060           
+stage 78/199 ━━━━━━━━━━━━━━━━━ 9/9 0:00:02 • 0:00:00 3.22it/s train_loss_step:  
+                                                              87.634            
+                                                              train_loss_epoch: 
+                                                              241.501           
+stage 79/199 ━━━━━━━━━━━━━━━━━ 9/9 0:00:02 • 0:00:00 3.27it/s train_loss_step:  
+                                                              160.826           
+                                                              train_loss_epoch: 
+                                                              236.989           
+stage 80/199 ━━━━━━━━━━━━━━━━━ 9/9 0:00:02 • 0:00:00 3.19it/s train_loss_step:  
+                                                              126.159           
+                                                              train_loss_epoch: 
+                                                              239.086           
+stage 81/199 ━━━━━━━━━━━━━━━━━ 9/9 0:00:02 • 0:00:00 3.44it/s train_loss_step:  
+                                                              99.023            
+                                                              train_loss_epoch: 
+                                                              243.589           
+stage 82/199 ━━━━━━━━━━━━━━━━━ 9/9 0:00:02 • 0:00:00 3.50it/s train_loss_step:  
+                                                              134.257           
+                                                              train_loss_epoch: 
+                                                              237.547           
+stage 83/199 ━━━━━━━━━━━━━━━━━ 9/9 0:00:02 • 0:00:00 3.93it/s train_loss_step:  
+                                                              108.519           
+                                                              train_loss_epoch: 
+                                                              234.897           
+stage 84/199 ━━━━━━━━━━━━━━━━━ 9/9 0:00:02 • 0:00:00 3.32it/s train_loss_step:  
+                                                              95.964            
+                                                              train_loss_epoch: 
+                                                              233.693           
+stage 85/199 ━━━━━━━━━━━━━━━━━ 9/9 0:00:02 • 0:00:00 3.34it/s train_loss_step:  
+                                                              97.686            
+                                                              train_loss_epoch: 
+                                                              234.905           
+stage 86/199 ━━━━━━━━━━━━━━━━━ 9/9 0:00:02 • 0:00:00 3.50it/s train_loss_step:  
+                                                              98.262            
+                                                              train_loss_epoch: 
+                                                              243.453           
+stage 87/199 ━━━━━━━━━━━━━━━━━ 9/9 0:00:02 • 0:00:00 3.39it/s train_loss_step:  
+                                                              129.692           
+                                                              train_loss_epoch: 
+                                                              232.091           
+stage 88/199 ━━━━━━━━━━━━━━━━━ 9/9 0:00:02 • 0:00:00 3.31it/s train_loss_step:  
+                                                              103.790           
+                                                              train_loss_epoch: 
+                                                              228.268           
+stage 89/199 ━━━━━━━━━━━━━━━━━ 9/9 0:00:02 • 0:00:00 3.45it/s train_loss_step:  
+                                                              97.801            
+                                                              train_loss_epoch: 
+                                                              228.680           
+stage 90/199 ━━━━━━━━━━━━━━━━━ 9/9 0:00:02 • 0:00:00 3.22it/s train_loss_step:  
+                                                              96.514            
+                                                              train_loss_epoch: 
+                                                              226.770           
+stage 91/199 ━━━━━━━━━━━━━━━━━ 9/9 0:00:02 • 0:00:00 3.41it/s train_loss_step:  
+                                                              153.206           
+                                                              train_loss_epoch: 
+                                                              220.363           
+stage 92/199 ━━━━━━━━━━━━━━━━━ 9/9 0:00:02 • 0:00:00 3.31it/s train_loss_step:  
+                                                              115.743           
+                                                              train_loss_epoch: 
+                                                              230.342           
+stage 93/199 ━━━━━━━━━━━━━━━━━ 9/9 0:00:02 • 0:00:00 3.10it/s train_loss_step:  
+                                                              161.835           
+                                                              train_loss_epoch: 
+                                                              219.949           
+stage 94/199 ━━━━━━━━━━━━━━━━━ 9/9 0:00:02 • 0:00:00 3.22it/s train_loss_step:  
+                                                              84.323            
+                                                              train_loss_epoch: 
+                                                              223.098           
+stage 95/199 ━━━━━━━━━━━━━━━━━ 9/9 0:00:02 • 0:00:00 3.13it/s train_loss_step:  
+                                                              119.144           
+                                                              train_loss_epoch: 
+                                                              219.959           
+stage 96/199 ━━━━━━━━━━━━━━━━━ 9/9 0:00:02 • 0:00:00 3.19it/s train_loss_step:  
+                                                              135.044           
+                                                              train_loss_epoch: 
+                                                              224.304           
+stage 97/199 ━━━━━━━━━━━━━━━━━ 9/9 0:00:02 • 0:00:00 3.49it/s train_loss_step:  
+                                                              138.727           
+                                                              train_loss_epoch: 
+                                                              221.584           
+stage 98/199 ━━━━━━━━━━━━━━━━━ 9/9 0:00:02 • 0:00:00 3.37it/s train_loss_step:  
+                                                              124.699           
+                                                              train_loss_epoch: 
+                                                              218.373           
+stage 99/199 ━━━━━━━━━━━━━━━━━ 9/9 0:00:02 • 0:00:00 3.61it/s train_loss_step:  
+                                                              131.933           
+                                                              train_loss_epoch: 
+                                                              213.780           
+stage 100/199 ━━━━━━━━━━━━━━━━━ 9/9 0:00:02 • 0:00:00 3.13it/s train_loss_step: 
+                                                               141.351          
+                                                               train_loss_epoch:
+                                                               212.744          
+stage 101/199 ━━━━━━━━━━━━━━━━━ 9/9 0:00:02 • 0:00:00 3.19it/s train_loss_step: 
+                                                               77.822           
+                                                               train_loss_epoch:
+                                                               214.715          
+stage 102/199 ━━━━━━━━━━━━━━━━━ 9/9 0:00:02 • 0:00:00 3.21it/s train_loss_step: 
+                                                               93.265           
+                                                               train_loss_epoch:
+                                                               211.013          
+stage 103/199 ━━━━━━━━━━━━━━━━━ 9/9 0:00:02 • 0:00:00 3.21it/s train_loss_step: 
+                                                               136.023          
+                                                               train_loss_epoch:
+                                                               207.614          
+stage 104/199 ━━━━━━━━━━━━━━━━━ 9/9 0:00:02 • 0:00:00 3.31it/s train_loss_step: 
+                                                               120.622          
+                                                               train_loss_epoch:
+                                                               205.562          
+stage 105/199 ━━━━━━━━━━━━━━━━━ 9/9 0:00:02 • 0:00:00 3.23it/s train_loss_step: 
+                                                               111.121          
+                                                               train_loss_epoch:
+                                                               205.670          
+stage 106/199 ━━━━━━━━━━━━━━━━━ 9/9 0:00:02 • 0:00:00 3.91it/s train_loss_step: 
+                                                               95.530           
+                                                               train_loss_epoch:
+                                                               203.524          
+stage 107/199 ━━━━━━━━━━━━━━━━━ 9/9 0:00:02 • 0:00:00 3.29it/s train_loss_step: 
+                                                               100.654          
+                                                               train_loss_epoch:
+                                                               202.069          
+stage 108/199 ━━━━━━━━━━━━━━━━━ 9/9 0:00:02 • 0:00:00 3.20it/s train_loss_step: 
+                                                               129.412          
+                                                               train_loss_epoch:
+                                                               201.168          
+stage 109/199 ━━━━━━━━━━━━━━━━━ 9/9 0:00:02 • 0:00:00 3.22it/s train_loss_step: 
+                                                               95.953           
+                                                               train_loss_epoch:
+                                                               200.032          
+stage 110/199 ━━━━━━━━━━━━━━━━━ 9/9 0:00:02 • 0:00:00 3.28it/s train_loss_step: 
+                                                               102.078          
+                                                               train_loss_epoch:
+                                                               199.405          
+stage 111/199 ━━━━━━━━━━━━━━━━━ 9/9 0:00:02 • 0:00:00 3.14it/s train_loss_step: 
+                                                               108.869          
+                                                               train_loss_epoch:
+                                                               195.648          
+stage 112/199 ━━━━━━━━━━━━━━━━━ 9/9 0:00:02 • 0:00:00 3.36it/s train_loss_step: 
+                                                               66.646           
+                                                               train_loss_epoch:
+                                                               195.521          
+stage 113/199 ━━━━━━━━━━━━━━━━━ 9/9 0:00:02 • 0:00:00 3.27it/s train_loss_step: 
+                                                               60.302           
+                                                               train_loss_epoch:
+                                                               197.535          
+stage 114/199 ━━━━━━━━━━━━━━━━━ 9/9 0:00:02 • 0:00:00 3.67it/s train_loss_step: 
+                                                               78.176           
+                                                               train_loss_epoch:
+                                                               192.010          
+stage 115/199 ━━━━━━━━━━━━━━━━━ 9/9 0:00:02 • 0:00:00 3.37it/s train_loss_step: 
+                                                               92.247           
+                                                               train_loss_epoch:
+                                                               189.653          
+stage 116/199 ━━━━━━━━━━━━━━━━━ 9/9 0:00:02 • 0:00:00 3.19it/s train_loss_step: 
+                                                               94.773           
+                                                               train_loss_epoch:
+                                                               189.285          
+stage 117/199 ━━━━━━━━━━━━━━━━━ 9/9 0:00:02 • 0:00:00 3.21it/s train_loss_step: 
+                                                               65.852           
+                                                               train_loss_epoch:
+                                                               189.087          
+stage 118/199 ━━━━━━━━━━━━━━━━━ 9/9 0:00:02 • 0:00:00 3.27it/s train_loss_step: 
+                                                               76.411           
+                                                               train_loss_epoch:
+                                                               187.969          
+stage 119/199 ━━━━━━━━━━━━━━━━━ 9/9 0:00:02 • 0:00:00 3.15it/s train_loss_step: 
+                                                               74.266           
+                                                               train_loss_epoch:
+                                                               186.701          
+stage 120/199 ━━━━━━━━━━━━━━━━━ 9/9 0:00:02 • 0:00:00 3.52it/s train_loss_step: 
+                                                               101.260          
+                                                               train_loss_epoch:
+                                                               185.029          
+stage 121/199 ━━━━━━━━━━━━━━━━━ 9/9 0:00:02 • 0:00:00 3.15it/s train_loss_step: 
+                                                               109.619          
+                                                               train_loss_epoch:
+                                                               182.185          
+stage 122/199 ━━━━━━━━━━━━━━━━━ 9/9 0:00:02 • 0:00:00 3.36it/s train_loss_step: 
+                                                               58.633           
+                                                               train_loss_epoch:
+                                                               182.458          
+stage 123/199 ━━━━━━━━━━━━━━━━━ 9/9 0:00:02 • 0:00:00 3.36it/s train_loss_step: 
+                                                               113.398          
+                                                               train_loss_epoch:
+                                                               177.691          
+stage 124/199 ━━━━━━━━━━━━━━━━━ 9/9 0:00:02 • 0:00:00 3.34it/s train_loss_step: 
+                                                               75.330           
+                                                               train_loss_epoch:
+                                                               178.728          
+stage 125/199 ━━━━━━━━━━━━━━━━━ 9/9 0:00:02 • 0:00:00 3.24it/s train_loss_step: 
+                                                               120.010          
+                                                               train_loss_epoch:
+                                                               174.670          
+stage 126/199 ━━━━━━━━━━━━━━━━━ 9/9 0:00:02 • 0:00:00 3.26it/s train_loss_step: 
+                                                               67.716           
+                                                               train_loss_epoch:
+                                                               174.866          
+stage 127/199 ━━━━━━━━━━━━━━━━━ 9/9 0:00:02 • 0:00:00 3.18it/s train_loss_step: 
+                                                               65.326           
+                                                               train_loss_epoch:
+                                                               172.350          
+stage 128/199 ━━━━━━━━━━━━━━━━━ 9/9 0:00:02 • 0:00:00 3.23it/s train_loss_step: 
+                                                               118.127          
+                                                               train_loss_epoch:
+                                                               167.664          
+stage 129/199 ━━━━━━━━━━━━━━━━━ 9/9 0:00:02 • 0:00:00 3.13it/s train_loss_step: 
+                                                               90.137           
+                                                               train_loss_epoch:
+                                                               167.422          
+stage 130/199 ━━━━━━━━━━━━━━━━━ 9/9 0:00:02 • 0:00:00 3.42it/s train_loss_step: 
+                                                               64.890           
+                                                               train_loss_epoch:
+                                                               168.786          
+stage 131/199 ━━━━━━━━━━━━━━━━━ 9/9 0:00:02 • 0:00:00 3.24it/s train_loss_step: 
+                                                               90.862           
+                                                               train_loss_epoch:
+                                                               169.540          
+stage 132/199 ━━━━━━━━━━━━━━━━━ 9/9 0:00:02 • 0:00:00 3.31it/s train_loss_step: 
+                                                               63.275           
+                                                               train_loss_epoch:
+                                                               167.138          
+stage 133/199 ━━━━━━━━━━━━━━━━━ 9/9 0:00:02 • 0:00:00 3.28it/s train_loss_step: 
+                                                               103.618          
+                                                               train_loss_epoch:
+                                                               166.748          
+stage 134/199 ━━━━━━━━━━━━━━━━━ 9/9 0:00:02 • 0:00:00 3.67it/s train_loss_step: 
+                                                               114.008          
+                                                               train_loss_epoch:
+                                                               160.976          
+stage 135/199 ━━━━━━━━━━━━━━━━━ 9/9 0:00:02 • 0:00:00 3.76it/s train_loss_step: 
+                                                               64.846           
+                                                               train_loss_epoch:
+                                                               164.481          
+stage 136/199 ━━━━━━━━━━━━━━━━━ 9/9 0:00:02 • 0:00:00 3.45it/s train_loss_step: 
+                                                               75.447           
+                                                               train_loss_epoch:
+                                                               163.018          
+stage 137/199 ━━━━━━━━━━━━━━━━━ 9/9 0:00:02 • 0:00:00 3.13it/s train_loss_step: 
+                                                               81.177           
+                                                               train_loss_epoch:
+                                                               158.180          
+stage 138/199 ━━━━━━━━━━━━━━━━━ 9/9 0:00:02 • 0:00:00 3.39it/s train_loss_step: 
+                                                               102.167          
+                                                               train_loss_epoch:
+                                                               157.442          
+stage 139/199 ━━━━━━━━━━━━━━━━━ 9/9 0:00:02 • 0:00:00 3.31it/s train_loss_step: 
+                                                               89.793           
+                                                               train_loss_epoch:
+                                                               156.867          
+stage 140/199 ━━━━━━━━━━━━━━━━━ 9/9 0:00:02 • 0:00:00 3.22it/s train_loss_step: 
+                                                               92.995           
+                                                               train_loss_epoch:
+                                                               152.821          
+stage 141/199 ━━━━━━━━━━━━━━━━━ 9/9 0:00:02 • 0:00:00 3.32it/s train_loss_step: 
+                                                               65.444           
+                                                               train_loss_epoch:
+                                                               153.353          
+stage 142/199 ━━━━━━━━━━━━━━━━━ 9/9 0:00:02 • 0:00:00 3.18it/s train_loss_step: 
+                                                               84.470           
+                                                               train_loss_epoch:
+                                                               152.745          
+stage 143/199 ━━━━━━━━━━━━━━━━━ 9/9 0:00:02 • 0:00:00 3.81it/s train_loss_step: 
+                                                               92.069           
+                                                               train_loss_epoch:
+                                                               153.377          
+stage 144/199 ━━━━━━━━━━━━━━━━━ 9/9 0:00:02 • 0:00:00 3.67it/s train_loss_step: 
+                                                               95.864           
+                                                               train_loss_epoch:
+                                                               150.090          
+stage 145/199 ━━━━━━━━━━━━━━━━━ 9/9 0:00:02 • 0:00:00 3.11it/s train_loss_step: 
+                                                               72.811           
+                                                               train_loss_epoch:
+                                                               149.430          
+stage 146/199 ━━━━━━━━━━━━━━━━━ 9/9 0:00:02 • 0:00:00 3.19it/s train_loss_step: 
+                                                               77.394           
+                                                               train_loss_epoch:
+                                                               149.586          
+stage 147/199 ━━━━━━━━━━━━━━━━━ 9/9 0:00:02 • 0:00:00 3.42it/s train_loss_step: 
+                                                               80.351           
+                                                               train_loss_epoch:
+                                                               146.516          
+stage 148/199 ━━━━━━━━━━━━━━━━━ 9/9 0:00:02 • 0:00:00 3.38it/s train_loss_step: 
+                                                               89.237           
+                                                               train_loss_epoch:
+                                                               145.831          
+stage 149/199 ━━━━━━━━━━━━━━━━━ 9/9 0:00:02 • 0:00:00 3.37it/s train_loss_step: 
+                                                               112.464          
+                                                               train_loss_epoch:
+                                                               147.313          
+stage 150/199 ━━━━━━━━━━━━━━━━━ 9/9 0:00:02 • 0:00:00 3.20it/s train_loss_step: 
+                                                               107.719          
+                                                               train_loss_epoch:
+                                                               144.931          
+stage 151/199 ━━━━━━━━━━━━━━━━━ 9/9 0:00:02 • 0:00:00 3.51it/s train_loss_step: 
+                                                               51.769           
+                                                               train_loss_epoch:
+                                                               143.530          
+stage 152/199 ━━━━━━━━━━━━━━━━━ 9/9 0:00:02 • 0:00:00 3.35it/s train_loss_step: 
+                                                               80.609           
+                                                               train_loss_epoch:
+                                                               139.614          
+stage 153/199 ━━━━━━━━━━━━━━━━━ 9/9 0:00:02 • 0:00:00 3.20it/s train_loss_step: 
+                                                               88.069           
+                                                               train_loss_epoch:
+                                                               138.422          
+stage 154/199 ━━━━━━━━━━━━━━━━━ 9/9 0:00:02 • 0:00:00 3.21it/s train_loss_step: 
+                                                               63.933           
+                                                               train_loss_epoch:
+                                                               138.705          
+stage 155/199 ━━━━━━━━━━━━━━━━━ 9/9 0:00:02 • 0:00:00 3.52it/s train_loss_step: 
+                                                               71.646           
+                                                               train_loss_epoch:
+                                                               136.948          
+stage 156/199 ━━━━━━━━━━━━━━━━━ 9/9 0:00:02 • 0:00:00 3.18it/s train_loss_step: 
+                                                               92.638           
+                                                               train_loss_epoch:
+                                                               133.531          
+stage 157/199 ━━━━━━━━━━━━━━━━━ 9/9 0:00:02 • 0:00:00 3.32it/s train_loss_step: 
+                                                               67.525           
+                                                               train_loss_epoch:
+                                                               135.445          
+stage 158/199 ━━━━━━━━━━━━━━━━━ 9/9 0:00:02 • 0:00:00 3.47it/s train_loss_step: 
+                                                               57.442           
+                                                               train_loss_epoch:
+                                                               136.551          
+stage 159/199 ━━━━━━━━━━━━━━━━━ 9/9 0:00:02 • 0:00:00 3.37it/s train_loss_step: 
+                                                               80.429           
+                                                               train_loss_epoch:
+                                                               135.457          
+stage 160/199 ━━━━━━━━━━━━━━━━━ 9/9 0:00:02 • 0:00:00 3.33it/s train_loss_step: 
+                                                               65.371           
+                                                               train_loss_epoch:
+                                                               138.078          
+stage 161/199 ━━━━━━━━━━━━━━━━━ 9/9 0:00:02 • 0:00:00 3.24it/s train_loss_step: 
+                                                               58.729           
+                                                               train_loss_epoch:
+                                                               134.978          
+stage 162/199 ━━━━━━━━━━━━━━━━━ 9/9 0:00:02 • 0:00:00 3.15it/s train_loss_step: 
+                                                               70.655           
+                                                               train_loss_epoch:
+                                                               129.128          
+stage 163/199 ━━━━━━━━━━━━━━━━━ 9/9 0:00:02 • 0:00:00 3.15it/s train_loss_step: 
+                                                               103.259          
+                                                               train_loss_epoch:
+                                                               127.717          
+stage 164/199 ━━━━━━━━━━━━━━━━━ 9/9 0:00:02 • 0:00:00 3.26it/s train_loss_step: 
+                                                               50.887           
+                                                               train_loss_epoch:
+                                                               131.099          
+stage 165/199 ━━━━━━━━━━━━━━━━━ 9/9 0:00:02 • 0:00:00 3.17it/s train_loss_step: 
+                                                               75.976           
+                                                               train_loss_epoch:
+                                                               131.167          
+stage 166/199 ━━━━━━━━━━━━━━━━━ 9/9 0:00:02 • 0:00:00 3.34it/s train_loss_step: 
+                                                               72.007           
+                                                               train_loss_epoch:
+                                                               124.799          
+stage 167/199 ━━━━━━━━━━━━━━━━━ 9/9 0:00:02 • 0:00:00 3.17it/s train_loss_step: 
+                                                               82.579           
+                                                               train_loss_epoch:
+                                                               122.656          
+stage 168/199 ━━━━━━━━━━━━━━━━━ 9/9 0:00:02 • 0:00:00 3.18it/s train_loss_step: 
+                                                               64.086           
+                                                               train_loss_epoch:
+                                                               121.643          
+stage 169/199 ━━━━━━━━━━━━━━━━━ 9/9 0:00:02 • 0:00:00 3.21it/s train_loss_step: 
+                                                               47.286           
+                                                               train_loss_epoch:
+                                                               123.837          
+stage 170/199 ━━━━━━━━━━━━━━━━━ 9/9 0:00:02 • 0:00:00 3.28it/s train_loss_step: 
+                                                               57.448           
+                                                               train_loss_epoch:
+                                                               123.944          
+stage 171/199 ━━━━━━━━━━━━━━━━━ 9/9 0:00:02 • 0:00:00 3.20it/s train_loss_step: 
+                                                               62.376           
+                                                               train_loss_epoch:
+                                                               121.141          
+stage 172/199 ━━━━━━━━━━━━━━━━━ 9/9 0:00:02 • 0:00:00 3.47it/s train_loss_step: 
+                                                               51.184           
+                                                               train_loss_epoch:
+                                                               121.708          
+stage 173/199 ━━━━━━━━━━━━━━━━━ 9/9 0:00:02 • 0:00:00 3.24it/s train_loss_step: 
+                                                               45.654           
+                                                               train_loss_epoch:
+                                                               120.323          
+stage 174/199 ━━━━━━━━━━━━━━━━━ 9/9 0:00:02 • 0:00:00 3.43it/s train_loss_step: 
+                                                               110.687          
+                                                               train_loss_epoch:
+                                                               116.426          
+stage 175/199 ━━━━━━━━━━━━━━━━━ 9/9 0:00:02 • 0:00:00 3.35it/s train_loss_step: 
+                                                               44.660           
+                                                               train_loss_epoch:
+                                                               116.514          
+stage 176/199 ━━━━━━━━━━━━━━━━━ 9/9 0:00:02 • 0:00:00 3.36it/s train_loss_step: 
+                                                               48.205           
+                                                               train_loss_epoch:
+                                                               113.269          
+stage 177/199 ━━━━━━━━━━━━━━━━━ 9/9 0:00:02 • 0:00:00 3.20it/s train_loss_step: 
+                                                               77.204           
+                                                               train_loss_epoch:
+                                                               113.050          
+stage 178/199 ━━━━━━━━━━━━━━━━━ 9/9 0:00:02 • 0:00:00 3.22it/s train_loss_step: 
+                                                               59.535           
+                                                               train_loss_epoch:
+                                                               110.006          
+stage 179/199 ━━━━━━━━━━━━━━━━━ 9/9 0:00:02 • 0:00:00 3.12it/s train_loss_step: 
+                                                               61.114           
+                                                               train_loss_epoch:
+                                                               107.526          
+stage 180/199 ━━━━━━━━━━━━━━━━━ 9/9 0:00:02 • 0:00:00 3.25it/s train_loss_step: 
+                                                               40.307           
+                                                               train_loss_epoch:
+                                                               109.744          
+stage 181/199 ━━━━━━━━━━━━━━━━━ 9/9 0:00:02 • 0:00:00 3.65it/s train_loss_step: 
+                                                               49.861           
+                                                               train_loss_epoch:
+                                                               108.942          
+stage 182/199 ━━━━━━━━━━━━━━━━━ 9/9 0:00:02 • 0:00:00 3.36it/s train_loss_step: 
+                                                               38.849           
+                                                               train_loss_epoch:
+                                                               108.458          
+stage 183/199 ━━━━━━━━━━━━━━━━━ 9/9 0:00:02 • 0:00:00 3.35it/s train_loss_step: 
+                                                               47.576           
+                                                               train_loss_epoch:
+                                                               111.224          
+stage 184/199 ━━━━━━━━━━━━━━━━━ 9/9 0:00:02 • 0:00:00 3.12it/s train_loss_step: 
+                                                               57.015           
+                                                               train_loss_epoch:
+                                                               121.051          
+stage 185/199 ━━━━━━━━━━━━━━━━━ 9/9 0:00:02 • 0:00:00 3.25it/s train_loss_step: 
+                                                               51.737           
+                                                               train_loss_epoch:
+                                                               110.444          
+stage 186/199 ━━━━━━━━━━━━━━━━━ 9/9 0:00:02 • 0:00:00 3.27it/s train_loss_step: 
+                                                               73.907           
+                                                               train_loss_epoch:
+                                                               106.339          
+stage 187/199 ━━━━━━━━━━━━━━━━━ 9/9 0:00:02 • 0:00:00 3.37it/s train_loss_step: 
+                                                               62.149           
+                                                               train_loss_epoch:
+                                                               102.830          
+stage 188/199 ━━━━━━━━━━━━━━━━━ 9/9 0:00:02 • 0:00:00 3.42it/s train_loss_step: 
+                                                               36.092           
+                                                               train_loss_epoch:
+                                                               106.949          
+stage 189/199 ━━━━━━━━━━━━━━━━━ 9/9 0:00:02 • 0:00:00 3.24it/s train_loss_step: 
+                                                               63.177           
+                                                               train_loss_epoch:
+                                                               102.116          
+stage 190/199 ━━━━━━━━━━━━━━━━━ 9/9 0:00:02 • 0:00:00 3.26it/s train_loss_step: 
+                                                               58.641           
+                                                               train_loss_epoch:
+                                                               102.472          
+stage 191/199 ━━━━━━━━━━━━━━━━━ 9/9 0:00:02 • 0:00:00 3.24it/s train_loss_step: 
+                                                               36.421           
+                                                               train_loss_epoch:
+                                                               100.891          
+stage 192/199 ━━━━━━━━━━━━━━━━━ 9/9 0:00:02 • 0:00:00 3.22it/s train_loss_step: 
+                                                               53.833           
+                                                               train_loss_epoch:
+                                                               99.640           
+stage 193/199 ━━━━━━━━━━━━━━━━━ 9/9 0:00:02 • 0:00:00 3.24it/s train_loss_step: 
+                                                               45.215           
+                                                               train_loss_epoch:
+                                                               97.124           
+stage 194/199 ━━━━━━━━━━━━━━━━━ 9/9 0:00:02 • 0:00:00 3.23it/s train_loss_step: 
+                                                               37.938           
+                                                               train_loss_epoch:
+                                                               96.582           
+stage 195/199 ━━━━━━━━━━━━━━━━━ 9/9 0:00:02 • 0:00:00 3.20it/s train_loss_step: 
+                                                               50.139           
+                                                               train_loss_epoch:
+                                                               96.075           
+stage 196/199 ━━━━━━━━━━━━━━━━━ 9/9 0:00:02 • 0:00:00 3.10it/s train_loss_step: 
+                                                               43.408           
+                                                               train_loss_epoch:
+                                                               96.284           
+stage 197/199 ━━━━━━━━━━━━━━━━━ 9/9 0:00:02 • 0:00:00 3.62it/s train_loss_step: 
+                                                               34.679           
+                                                               train_loss_epoch:
+                                                               94.064           
+stage 198/199 ━━━━━━━━━━━━━━━━━ 9/9 0:00:02 • 0:00:00 3.22it/s train_loss_step: 
+                                                               68.634           
+                                                               train_loss_epoch:
+                                                               89.538           
+`Trainer.fit` stopped: `max_epochs=200` reached.
+stage 199/199 ━━━━━━━━━━━━━━━━━ 9/9 0:00:02 • 0:00:00 3.13it/s train_loss_step: 
+                                                               53.888           
+                                                               train_loss_epoch:
+                                                               91.960           
+                                                               val_accuracy:    
+                                                               0.751            
+                                                               val_word_accurac…
+                                                               0.360            
+Converting best model /home/runner/work/Voynich/Voynich/research_gpt6/results/kraken_crop_repair/repaired_200/runs/repaired_200/checkpoints/checkpoint_199-0.7510.ckpt (score: 0.7510) to weights file /home/runner/work/Voynich/Voynich/research_gpt6/results/kraken_crop_repair/repaired_200/runs/repaired_200/checkpoints/best_0.7510.safetensors

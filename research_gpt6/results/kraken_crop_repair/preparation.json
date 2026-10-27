@@ -1,0 +1,263 @@
+{
+  "status": "EXCLUSIVITY_AND_PROXY_CONSERVATION_VERIFIED_REVIEW_REQUIRED",
+  "pages": [
+    {
+      "folio": "3r",
+      "rows": 20,
+      "image_sha256": "8fc1f1a8af0742c309d0ac8ae7e7e10f7f0f970f588361434885328f84c7a55b",
+      "metrics": {
+        "0.06": {
+          "positions_before": 171223,
+          "repeated_before": 89750,
+          "repeated_after": 0,
+          "lost_candidate_positions": 0,
+          "repeated_fraction_before": 0.5241702341391051,
+          "repeated_fraction_after": 0.0,
+          "retained_fraction": 1.0
+        },
+        "0.10": {
+          "positions_before": 111890,
+          "repeated_before": 60447,
+          "repeated_after": 0,
+          "lost_candidate_positions": 0,
+          "repeated_fraction_before": 0.540235946018411,
+          "repeated_fraction_after": 0.0,
+          "retained_fraction": 1.0
+        },
+        "0.14": {
+          "positions_before": 63469,
+          "repeated_before": 35181,
+          "repeated_after": 0,
+          "lost_candidate_positions": 0,
+          "repeated_fraction_before": 0.5543021002379114,
+          "repeated_fraction_after": 0.0,
+          "retained_fraction": 1.0
+        }
+      },
+      "components": 15685,
+      "ambiguous_components": 54,
+      "rows_with_ambiguous_components": 16,
+      "component_dominance_threshold": 0.75,
+      "status": "REVIEW_REQUIRED_NOT_EXPERT_VALIDATED",
+      "limits": [
+        "Zero duplicate positions is enforced by construction, not a recognition score.",
+        "Conservation concerns contrast candidates inside the old crop union only.",
+        "A component can connect multiple lines; ownership can be wrong despite conservation.",
+        "Old row/text associations remain provisional assistant annotations."
+      ]
+    },
+    {
+      "folio": "3v",
+      "rows": 14,
+      "image_sha256": "3103e989e15ebeb9fe13313c27e60a3f335e92233a19b73dc8ff501c0e09263d",
+      "metrics": {
+        "0.06": {
+          "positions_before": 119554,
+          "repeated_before": 75167,
+          "repeated_after": 0,
+          "lost_candidate_positions": 0,
+          "repeated_fraction_before": 0.6287284407046189,
+          "repeated_fraction_after": 0.0,
+          "retained_fraction": 1.0
+        },
+        "0.10": {
+          "positions_before": 69469,
+          "repeated_before": 44717,
+          "repeated_after": 0,
+          "lost_candidate_positions": 0,
+          "repeated_fraction_before": 0.6436971886740849,
+          "repeated_fraction_after": 0.0,
+          "retained_fraction": 1.0
+        },
+        "0.14": {
+          "positions_before": 36238,
+          "repeated_before": 23656,
+          "repeated_after": 0,
+          "lost_candidate_positions": 0,
+          "repeated_fraction_before": 0.6527954081351068,
+          "repeated_fraction_after": 0.0,
+          "retained_fraction": 1.0
+        }
+      },
+      "components": 16575,
+      "ambiguous_components": 66,
+      "rows_with_ambiguous_components": 14,
+      "component_dominance_threshold": 0.75,
+      "status": "REVIEW_REQUIRED_NOT_EXPERT_VALIDATED",
+      "limits": [
+        "Zero duplicate positions is enforced by construction, not a recognition score.",
+        "Conservation concerns contrast candidates inside the old crop union only.",
+        "A component can connect multiple lines; ownership can be wrong despite conservation.",
+        "Old row/text associations remain provisional assistant annotations."
+      ]
+    },
+    {
+      "folio": "4r",
+      "rows": 13,
+      "image_sha256": "b1eadeaac625aba5600078ef96ba1baefbf56fffb408dc79c1deb82f5cbc377e",
+      "metrics": {
+        "0.06": {
+          "positions_before": 86971,
+          "repeated_before": 54995,
+          "repeated_after": 0,
+          "lost_candidate_positions": 0,
+          "repeated_fraction_before": 0.6323372158535604,
+          "repeated_fraction_after": 0.0,
+          "retained_fraction": 1.0
+        },
+        "0.10": {
+          "positions_before": 54079,
+          "repeated_before": 35771,
+          "repeated_after": 0,
+          "lost_candidate_positions": 0,
+          "repeated_fraction_before": 0.6614582370236136,
+          "repeated_fraction_after": 0.0,
+          "retained_fraction": 1.0
+        },
+        "0.14": {
+          "positions_before": 31328,
+          "repeated_before": 20873,
+          "repeated_after": 0,
+          "lost_candidate_positions": 0,
+          "repeated_fraction_before": 0.6662729826353422,
+          "repeated_fraction_after": 0.0,
+          "retained_fraction": 1.0
+        }
+      },
+      "components": 11477,
+      "ambiguous_components": 45,
+      "rows_with_ambiguous_components": 11,
+      "component_dominance_threshold": 0.75,
+      "status": "REVIEW_REQUIRED_NOT_EXPERT_VALIDATED",
+      "limits": [
+        "Zero duplicate positions is enforced by construction, not a recognition score.",
+        "Conservation concerns contrast candidates inside the old crop union only.",
+        "A component can connect multiple lines; ownership can be wrong despite conservation.",
+        "Old row/text associations remain provisional assistant annotations."
+      ]
+    },
+    {
+      "folio": "4v",
+      "rows": 14,
+      "image_sha256": "873534a29335bc9c5725849bb9150cde0b9b1a7a128014e61504ae1b10433a30",
+      "metrics": {
+        "0.06": {
+          "positions_before": 114334,
+          "repeated_before": 83941,
+          "repeated_after": 0,
+          "lost_candidate_positions": 0,
+          "repeated_fraction_before": 0.7341735616701943,
+          "repeated_fraction_after": 0.0,
+          "retained_fraction": 1.0
+        },
+        "0.10": {
+          "positions_before": 70517,
+          "repeated_before": 53866,
+          "repeated_after": 0,
+          "lost_candidate_positions": 0,
+          "repeated_fraction_before": 0.7638725413730022,
+          "repeated_fraction_after": 0.0,
+          "retained_fraction": 1.0
+        },
+        "0.14": {
+          "positions_before": 43864,
+          "repeated_before": 34206,
+          "repeated_after": 0,
+          "lost_candidate_positions": 0,
+          "repeated_fraction_before": 0.7798194419113624,
+          "repeated_fraction_after": 0.0,
+          "retained_fraction": 1.0
+        }
+      },
+      "components": 18956,
+      "ambiguous_components": 51,
+      "rows_with_ambiguous_components": 13,
+      "component_dominance_threshold": 0.75,
+      "status": "REVIEW_REQUIRED_NOT_EXPERT_VALIDATED",
+      "limits": [
+        "Zero duplicate positions is enforced by construction, not a recognition score.",
+        "Conservation concerns contrast candidates inside the old crop union only.",
+        "A component can connect multiple lines; ownership can be wrong despite conservation.",
+        "Old row/text associations remain provisional assistant annotations."
+      ]
+    }
+  ],
+  "pooled": {
+    "0.06": {
+      "positions": 492082,
+      "repeated_before": 303853,
+      "repeated_after": 0,
+      "lost_candidate_positions": 0,
+      "repeated_fraction_before": 0.6174844842932682,
+      "repeated_fraction_after": 0.0,
+      "retained_fraction": 1.0
+    },
+    "0.10": {
+      "positions": 305955,
+      "repeated_before": 194801,
+      "repeated_after": 0,
+      "lost_candidate_positions": 0,
+      "repeated_fraction_before": 0.6366982072527005,
+      "repeated_fraction_after": 0.0,
+      "retained_fraction": 1.0
+    },
+    "0.14": {
+      "positions": 174899,
+      "repeated_before": 113916,
+      "repeated_after": 0,
+      "lost_candidate_positions": 0,
+      "repeated_fraction_before": 0.6513244786991349,
+      "repeated_fraction_after": 0.0,
+      "retained_fraction": 1.0
+    }
+  },
+  "records": 122,
+  "reference_rows": 61,
+  "labels_unchanged": 61,
+  "new_expert_validation": "NOT_REVIEWED",
+  "registration_voynichese_to_yale": "NOT_RUN",
+  "acquired": [
+    {
+      "url": "https://raw.githubusercontent.com/alexanderboxer/voynich-attack/255bd632e45459230eaf2a994e0557ed6c682869/transcription/unicode_dict.json",
+      "final_url": "https://raw.githubusercontent.com/alexanderboxer/voynich-attack/255bd632e45459230eaf2a994e0557ed6c682869/transcription/unicode_dict.json",
+      "http_status": 200,
+      "content_type": "text/plain; charset=utf-8",
+      "bytes": 1051,
+      "sha256": "779687e6f3e3cc84b7fa5566fc013d35a7d79956b96e0f975f5bd11ba52f07b0"
+    },
+    {
+      "url": "https://collections.library.yale.edu/iiif/2/1006080/full/1800,/0/default.jpg",
+      "final_url": "https://collections.library.yale.edu/iiif/2/1006080/full/1800,/0/default.jpg",
+      "http_status": 200,
+      "content_type": "image/jpeg",
+      "bytes": 985949,
+      "sha256": "8fc1f1a8af0742c309d0ac8ae7e7e10f7f0f970f588361434885328f84c7a55b"
+    },
+    {
+      "url": "https://collections.library.yale.edu/iiif/2/1006081/full/1800,/0/default.jpg",
+      "final_url": "https://collections.library.yale.edu/iiif/2/1006081/full/1800,/0/default.jpg",
+      "http_status": 200,
+      "content_type": "image/jpeg",
+      "bytes": 973625,
+      "sha256": "3103e989e15ebeb9fe13313c27e60a3f335e92233a19b73dc8ff501c0e09263d"
+    },
+    {
+      "url": "https://collections.library.yale.edu/iiif/2/1006082/full/1800,/0/default.jpg",
+      "final_url": "https://collections.library.yale.edu/iiif/2/1006082/full/1800,/0/default.jpg",
+      "http_status": 200,
+      "content_type": "image/jpeg",
+      "bytes": 1031845,
+      "sha256": "b1eadeaac625aba5600078ef96ba1baefbf56fffb408dc79c1deb82f5cbc377e"
+    },
+    {
+      "url": "https://collections.library.yale.edu/iiif/2/1006083/full/1800,/0/default.jpg",
+      "final_url": "https://collections.library.yale.edu/iiif/2/1006083/full/1800,/0/default.jpg",
+      "http_status": 200,
+      "content_type": "image/jpeg",
+      "bytes": 1030980,
+      "sha256": "873534a29335bc9c5725849bb9150cde0b9b1a7a128014e61504ae1b10433a30"
+    }
+  ],
+  "plan_sha256": "937f61948d2398ce6fc8004eeee001158debb4e566ba7b689ca0b061bd1b4036",
+  "translation": "NOT_RUN"
+}
