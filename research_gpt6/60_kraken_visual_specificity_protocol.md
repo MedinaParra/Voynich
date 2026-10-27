@@ -11,6 +11,7 @@ El ensayo 59 redujo el error convencional a 516/699 unidades de desarrollo. Toda
 - Cuatro condiciones sobre los 61 recortes corregidos: intacto, reflejo horizontal, ocho franjas verticales reordenadas de forma determinista y blanco. Reflejo y reordenamiento conservan todos los píxeles RGB y las dimensiones; blanco conserva las dimensiones.
 - Se conservan los 244 registros de inferencia, sus entradas y los errores. Un fallo no se sustituye por una predicción vacía ni se excluye para mejorar una puntuación.
 - Un hook de Torch cuenta las llamadas reales a la red. Si el preprocesador devuelve una cadena vacía sin llamar a la red, se informa como cortocircuito del preprocesador: no demuestra qué respondería la red a una entrada blanca.
+- Revisión 2 de instrumentación: el hook se fija a `TorchSeqRecognizer.nn.nn`, que es el módulo invocado por el [código de Kraken 7.1](https://github.com/mittagessen/kraken/blob/7.1/kraken/lib/models.py). Se exige una llamada positiva en los 61 intactos; si falta, el diagnóstico se marca inválido y termina con error.
 - Las 27 predicciones intactas de desarrollo deben reproducir exactamente el resultado anterior. Una discrepancia invalida la comparación directa y se conserva.
 
 ## Medidas y controles de asociación
@@ -33,3 +34,7 @@ python research_gpt6/code/kraken_visual_specificity.py \
 ```
 
 Entorno CPU y versiones fijados en `.github/workflows/kraken-visual-specificity.yml`. Se utilizan los modelos, imágenes Yale y etiquetas/mapeo Boxer ya preservados con atribución en el ensayo 59. El código del nuevo diagnóstico es propio. Traducción, revisión experta y evaluación en hojas nuevas: **NOT_RUN**.
+
+## Incidencia observada y repetición
+
+El primer [run 40511667932](https://github.com/MedinaParra/Voynich/actions/runs/40511667932), commit `9b7c6f85978d571d27129b75f4b7fb2ff36d7aeb`, completó los 244 registros, pero el contador devolvió cero incluso con lecturas no vacías. El hook se había instalado en `net.nn`, contenedor que no recibe la llamada de esta API. Los campos de contador y de supuestos cortocircuitos de ese intento son **inválidos**; su estado `success` de GitHub no valida la instrumentación. Se conserva el intento y se repite con el hook en el módulo utilizado y un control positivo obligatorio. No se cambia el modelo, las condiciones, las semillas, las agrupaciones o el cálculo de errores después de observar los resultados.

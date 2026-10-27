@@ -159,7 +159,10 @@ def run(args):
     net = load_any(str(model), train=False, device='cpu')
     calls = [0]
     def forward_hook(module, inputs, output): calls[0] += 1
-    hook = net.nn.register_forward_hook(forward_hook)
+    # Kraken 7.1 TorchSeqRecognizer.forward invokes self.nn.nn(...).
+    # A hook on the enclosing TorchVGSLModel is bypassed by that API.
+    hook_target = net.nn.nn
+    hook = hook_target.register_forward_hook(forward_hook)
     results = {}; per_condition = {}
     try:
         for condition in plan['conditions']:
@@ -179,6 +182,8 @@ def run(args):
     replay = {r['id']: r['predictions']['kraken'] for r in old_result['rows']}
     replay_mismatches = [r['id'] for r in per_condition['intact']
                          if r['role'] != 'train' and (r['status'] != 'OK' or r['prediction'] != replay[r['id']])]
+    instrumentation_invalid_rows = [r['id'] for r in per_condition['intact']
+                                    if r['status'] != 'OK' or r['network_forward_calls'] <= 0]
     nulls = {}
     for offset, role in enumerate(['train', 'development_evaluation']):
         subset = [r for r in records if r['role'] == role]
@@ -211,10 +216,18 @@ def run(args):
     seen = set(''.join(r['text'] for r in train))
     unseen = Counter(c for r in dev for c in r['text'] if c not in seen)
     names = {v: k for k, v in mapping.items()}
-    result = {'status': 'EXECUTED_FROZEN_MODEL_DEVELOPMENT_DIAGNOSTIC' if not replay_mismatches else 'REPLAY_MISMATCH_REVIEW_REQUIRED',
+    status = ('INSTRUMENTATION_INVALID' if instrumentation_invalid_rows else
+              'REPLAY_MISMATCH_REVIEW_REQUIRED' if replay_mismatches else
+              'EXECUTED_FROZEN_MODEL_DEVELOPMENT_DIAGNOSTIC')
+    result = {'status': status,
               'date': plan['date'], 'plan_sha256': plan_sha, 'model_sha256': sha(model),
               'regenerated_original_and_repaired_records_verified': len(frozen),
               'prior_development_predictions_replayed': len(replay), 'replay_mismatches': replay_mismatches,
+              'instrumentation_valid': not instrumentation_invalid_rows,
+              'instrumentation_invalid_rows': instrumentation_invalid_rows,
+              'instrumentation': {'method': 'Torch forward hook on TorchSeqRecognizer.nn.nn',
+                                  'target_type': type(hook_target).__module__ + '.' + type(hook_target).__qualname__,
+                                  'positive_control': 'Actual network call required for all 61 intact source rows'},
               'results': results, 'development_unseen_reference_unit_counts': {names.get(k, k): v for k, v in unseen.items()},
               'seconds': time.perf_counter() - started, 'run_id': os.getenv('GITHUB_RUN_ID'),
               'execution_commit': os.getenv('GITHUB_SHA'),
@@ -225,7 +238,9 @@ def run(args):
     brief = {role: {c: {k: v for k, v in x.items() if k != 'reference_permutation'}
                     for c, x in conditions.items()} for role, conditions in results.items()}
     print('VISUAL_SPECIFICITY_RESULT=' + json.dumps({'status': result['status'], 'results': brief,
-                                                    'replay_mismatches': replay_mismatches}, ensure_ascii=True), flush=True)
+                                                    'replay_mismatches': replay_mismatches,
+                                                    'instrumentation_valid': result['instrumentation_valid']}, ensure_ascii=True), flush=True)
+    if instrumentation_invalid_rows: raise ValueError('Forward counter failed its intact-image positive control')
     if replay_mismatches: raise ValueError('Frozen development predictions did not replay exactly')
 
 
