@@ -1,0 +1,50 @@
+name: Frozen Kraken visual specificity diagnostic
+
+on:
+  push:
+    branches: [experiment/kraken-voynich]
+    paths:
+      - 'research_gpt6/code/kraken_visual_specificity.py'
+      - 'research_gpt6/code/test_kraken_visual_specificity.py'
+      - 'research_gpt6/data/kraken_visual_specificity_plan.json'
+      - '.github/workflows/kraken-visual-specificity.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  frozen-input-controls:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 20
+    env:
+      OMP_NUM_THREADS: '2'
+      MKL_NUM_THREADS: '2'
+      OPENBLAS_NUM_THREADS: '2'
+      PYTHONUNBUFFERED: '1'
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install pinned CPU recognizer
+        run: |
+          python -m pip install --disable-pip-version-check 'torch==2.9.0' 'torchvision==0.24.0' --index-url https://download.pytorch.org/whl/cpu
+          python -m pip install --disable-pip-version-check 'kraken==7.1' 'pillow==12.3.0' 'numpy==2.4.6' 'scipy==1.15.3'
+          python -m pip check
+      - name: Check diagnostic controls
+        run: python research_gpt6/code/test_kraken_visual_specificity.py
+      - name: Regenerate frozen inputs and run all predeclared conditions
+        run: |
+          python research_gpt6/code/kraken_visual_specificity.py \
+            --plan research_gpt6/data/kraken_visual_specificity_plan.json \
+            --repo research_gpt6 \
+            --out work/kraken_visual_specificity
+      - name: Preserve evidence even on failure
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: kraken-visual-specificity
+          path: work/kraken_visual_specificity/
+          if-no-files-found: warn
+          retention-days: 30
