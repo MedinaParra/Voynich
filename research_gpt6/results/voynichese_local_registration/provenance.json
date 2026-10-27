@@ -1,0 +1,32 @@
+{
+  "date": "2026-10-27",
+  "repository": "MedinaParra/Voynich",
+  "branch": "experiment/kraken-voynich",
+  "run_id": 40531601364,
+  "job_id": 122285599908,
+  "execution_commit": "b73fcbb472891c9ef75b5a153ae1ef272775f436",
+  "workflow_conclusion": "success",
+  "artifact": {
+    "id": 12745498103,
+    "bytes": 927369,
+    "sha256": "82b97a95c158f4b345c8e44eb543c874a662333b1db7e75015decc77e0d747b9",
+    "zip_hash_verified": true,
+    "files": 6,
+    "expires_at": "2026-11-26T15:30:26Z"
+  },
+  "case_count": 20,
+  "conditions_per_case": 3,
+  "cases_independent": false,
+  "heldout_proposed_correspondences": 2406,
+  "spatial_median_accepted_cases": 20,
+  "global_accepted_cases": 11,
+  "shuffled_accepted_cases": 10,
+  "new_f4r_candidate_polygons": 64,
+  "old_candidates_modified": false,
+  "numerical_controls_passed": 5,
+  "export_audit_checks": 1200,
+  "export_audit_mismatches": 0,
+  "scope": "Development on already explored images and proposed SIFT matches. No expert validation of correspondence or source readings.",
+  "new_ocr_training": "NOT_RUN",
+  "translation": "NOT_RUN"
+}

@@ -1,0 +1,106 @@
+{
+  "status": "PASS_EXPORTED_SPATIAL_GEOMETRY_AUDIT",
+  "checks": 1200,
+  "mismatches": [],
+  "recomputed": {
+    "f3r/global": {
+      "points": 796,
+      "median": 1.1571450075684584,
+      "p90": 2.9815645662387302,
+      "maximum": 1257.0885809422316,
+      "within_5_fraction": 0.9610552763819096,
+      "accepted_folds": 5
+    },
+    "f3r/spatial_median": {
+      "points": 796,
+      "median": 0.7513341722613669,
+      "p90": 1.7280148896310714,
+      "maximum": 1256.3904869067733,
+      "within_5_fraction": 0.9849246231155779,
+      "accepted_folds": 5
+    },
+    "f3r/shuffled_median": {
+      "points": 796,
+      "median": 1.1745116638881865,
+      "p90": 3.0772451998568666,
+      "maximum": 1257.1646084376362,
+      "within_5_fraction": 0.9585427135678392,
+      "accepted_folds": 5
+    },
+    "f3v/global": {
+      "points": 608,
+      "median": 1.1687859871198518,
+      "p90": 5.250391309093782,
+      "maximum": 833.5025304719576,
+      "within_5_fraction": 0.8865131578947368,
+      "accepted_folds": 2
+    },
+    "f3v/spatial_median": {
+      "points": 608,
+      "median": 0.8401039938354044,
+      "p90": 2.789132016511741,
+      "maximum": 834.8792280009783,
+      "within_5_fraction": 0.9605263157894737,
+      "accepted_folds": 5
+    },
+    "f3v/shuffled_median": {
+      "points": 608,
+      "median": 1.3246411658383355,
+      "p90": 5.478713866113509,
+      "maximum": 833.3705343847365,
+      "within_5_fraction": 0.8799342105263158,
+      "accepted_folds": 1
+    },
+    "f4r/global": {
+      "points": 414,
+      "median": 1.7686621638133673,
+      "p90": 7.19345390572372,
+      "maximum": 1744.6315275461277,
+      "within_5_fraction": 0.7922705314009661,
+      "accepted_folds": 0
+    },
+    "f4r/spatial_median": {
+      "points": 414,
+      "median": 1.146194921783701,
+      "p90": 3.25029876426147,
+      "maximum": 1744.9967710553542,
+      "within_5_fraction": 0.9685990338164251,
+      "accepted_folds": 5
+    },
+    "f4r/shuffled_median": {
+      "points": 414,
+      "median": 2.1190036060271904,
+      "p90": 7.156864112358976,
+      "maximum": 1744.3381340474032,
+      "within_5_fraction": 0.7971014492753623,
+      "accepted_folds": 0
+    },
+    "f4v/global": {
+      "points": 588,
+      "median": 1.4714790761758072,
+      "p90": 4.658202271634255,
+      "maximum": 1378.105189578881,
+      "within_5_fraction": 0.9166666666666666,
+      "accepted_folds": 4
+    },
+    "f4v/spatial_median": {
+      "points": 588,
+      "median": 0.9054636674796646,
+      "p90": 2.3600630056695326,
+      "maximum": 1378.5694185475556,
+      "within_5_fraction": 0.9863945578231292,
+      "accepted_folds": 5
+    },
+    "f4v/shuffled_median": {
+      "points": 588,
+      "median": 1.6103279193959055,
+      "p90": 4.60214350543093,
+      "maximum": 1377.758098690223,
+      "within_5_fraction": 0.9268707482993197,
+      "accepted_folds": 4
+    }
+  },
+  "f4r_final_geometry_accepted": true,
+  "scope": "Frozen data, all guarded partitions, every held-out prediction/error, shuffled controls, gates, final anchors, coarse grid and word geometry recomputed. Does not rerun OpenCV homography estimation or validate the detector correspondences or source readings independently.",
+  "translation": "NOT_RUN"
+}

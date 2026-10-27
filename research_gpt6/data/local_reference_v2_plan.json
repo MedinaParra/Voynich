@@ -1,0 +1,31 @@
+{
+  "date": "2026-10-27",
+  "experiment": "uniform-local-candidate-reference-v2-construction",
+  "source_cv_run": 40531601364,
+  "source_cv_execution_commit": "b73fcbb472891c9ef75b5a153ae1ef272775f436",
+  "scope": "Post-evaluation construction of provisional geometry in four previously explored pages. Uses the already reported20 spatial cases; no new validation sample or expert reading.",
+  "expected_records": 345,
+  "expected_candidate_polygons": 344,
+  "expected_exclusions": [
+    {
+      "folio": "f3r",
+      "index": 2,
+      "reason": "source_nonpositive_width"
+    }
+  ],
+  "old_reference_files_modified": false,
+  "new_ocr_training": "NOT_RUN",
+  "translation": "NOT_RUN",
+  "method_path": "code/local_residual_registration.py",
+  "method_sha256": "f8411c34f4b7b3e666b68d76de5e2357cf68dedfbf68a56c4b1916fc950271de",
+  "parameters_path": "data/local_registration_plan.json",
+  "parameters_sha256": "5c650793121bb939e2df654aa1445a8a0dcb1438f19e7765aaa6a083f0080682",
+  "cv_result_path": "results/voynichese_local_registration/result.json",
+  "cv_result_sha256": "4bd91faec0b5a01c464034f7b75cd14484d74c780cd3212ba6e18e6e43db11fa",
+  "cv_cases_path": "results/voynichese_local_registration/cases.json",
+  "cv_cases_sha256": "0f5cbbda0a9302a79f680fa1291d1b2bdcc74474823fb8243d1dd277866c9216",
+  "cv_audit_path": "results/voynichese_local_registration/audit.json",
+  "cv_audit_sha256": "bbf9b49158866c512688b9a2e01e3508ecc19eca5ab3c152c0efde531377ccd9",
+  "f4r_model_path": "results/voynichese_local_registration/final_model.json",
+  "f4r_model_sha256": "c31e25857f132e59aa85b6c084d60e460f1892b56715e09e966a5ddbedcaa185"
+}

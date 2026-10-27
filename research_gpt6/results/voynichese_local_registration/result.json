@@ -1,0 +1,131 @@
+{
+  "date": "2026-10-27",
+  "status": "F4R_GEOMETRIC_CANDIDATE_ACCEPTED_DEVELOPMENT_ONLY",
+  "plan_sha256": "5c650793121bb939e2df654aa1445a8a0dcb1438f19e7765aaa6a083f0080682",
+  "correspondences_sha256": "e2519a6bca9defd1589924e935f9726cb49d36276bdca9737dec4ed7b9ebe517",
+  "cases": 20,
+  "conditions_per_case": 3,
+  "pooled": {
+    "f3r": {
+      "global": {
+        "points": 796,
+        "median": 1.1571450075684582,
+        "p90": 2.9815645662388164,
+        "maximum": 1257.0885809422316,
+        "within_5_fraction": 0.9610552763819096,
+        "accepted_folds": 5
+      },
+      "spatial_median": {
+        "points": 796,
+        "median": 0.7513341722613847,
+        "p90": 1.7280148896310714,
+        "maximum": 1256.3904869067733,
+        "within_5_fraction": 0.9849246231155779,
+        "accepted_folds": 5
+      },
+      "shuffled_median": {
+        "points": 796,
+        "median": 1.1745116638882225,
+        "p90": 3.0772451998568666,
+        "maximum": 1257.1646084376362,
+        "within_5_fraction": 0.9585427135678392,
+        "accepted_folds": 5
+      }
+    },
+    "f3v": {
+      "global": {
+        "points": 608,
+        "median": 1.1687859871198234,
+        "p90": 5.250391309093725,
+        "maximum": 833.5025304719576,
+        "within_5_fraction": 0.8865131578947368,
+        "accepted_folds": 2
+      },
+      "spatial_median": {
+        "points": 608,
+        "median": 0.8401039938354044,
+        "p90": 2.789132016511741,
+        "maximum": 834.8792280009783,
+        "within_5_fraction": 0.9605263157894737,
+        "accepted_folds": 5
+      },
+      "shuffled_median": {
+        "points": 608,
+        "median": 1.3246411658383355,
+        "p90": 5.478713866113373,
+        "maximum": 833.3705343847364,
+        "within_5_fraction": 0.8799342105263158,
+        "accepted_folds": 1
+      }
+    },
+    "f4r": {
+      "global": {
+        "points": 414,
+        "median": 1.7686621638133673,
+        "p90": 7.193453905723643,
+        "maximum": 1744.6315275461277,
+        "within_5_fraction": 0.7922705314009661,
+        "accepted_folds": 0
+      },
+      "spatial_median": {
+        "points": 414,
+        "median": 1.1461949217835294,
+        "p90": 3.250298764261471,
+        "maximum": 1744.996771055354,
+        "within_5_fraction": 0.9685990338164251,
+        "accepted_folds": 5
+      },
+      "shuffled_median": {
+        "points": 414,
+        "median": 2.119003606027325,
+        "p90": 7.156864112358998,
+        "maximum": 1744.3381340474032,
+        "within_5_fraction": 0.7971014492753623,
+        "accepted_folds": 0
+      }
+    },
+    "f4v": {
+      "global": {
+        "points": 588,
+        "median": 1.4714790761757195,
+        "p90": 4.658202271634293,
+        "maximum": 1378.105189578881,
+        "within_5_fraction": 0.9166666666666666,
+        "accepted_folds": 4
+      },
+      "spatial_median": {
+        "points": 588,
+        "median": 0.9054636674796586,
+        "p90": 2.3600630056695775,
+        "maximum": 1378.5694185475554,
+        "within_5_fraction": 0.9863945578231292,
+        "accepted_folds": 5
+      },
+      "shuffled_median": {
+        "points": 588,
+        "median": 1.61032791939599,
+        "p90": 4.60214350543087,
+        "maximum": 1377.758098690223,
+        "within_5_fraction": 0.9268707482993197,
+        "accepted_folds": 4
+      }
+    }
+  },
+  "f4r_cross_validation_accepted": true,
+  "f4r_final_geometry_accepted": true,
+  "new_candidate_word_polygons": 64,
+  "previous_280_candidates_modified": false,
+  "all_heldout_points_retained": true,
+  "seconds": 1.8144778110000033,
+  "run_id": "40531601364",
+  "execution_commit": "b73fcbb472891c9ef75b5a153ae1ef272775f436",
+  "environment": {
+    "opencv-python-headless": "4.12.0.88",
+    "numpy": "2.2.6",
+    "pillow": "12.3.0"
+  },
+  "scope": "Previously explored pages and candidate SIFT correspondences. Hypothesis motivated by old fit-only data. Development geometry diagnostic, not independent expert registration, new manuscript samples, linguistic evidence or decipherment.",
+  "expert_review": "NOT_REVIEWED",
+  "new_ocr_training": "NOT_RUN",
+  "translation": "NOT_RUN"
+}
