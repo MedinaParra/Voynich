@@ -36,3 +36,7 @@ El cambio combina nuevas asociaciones de imagen/texto, recortes de palabra, adap
 Se ejecutará en GitHub Actions con versiones fijadas en `.github/workflows/kraken-eva-word-retraining.yml`. Antes se ejecutarán controles sintéticos de fidelidad de píxeles, límites, degeneración, permutación y nombres de parejas. El plan, código y workflow se publicarán antes de entrenar. La preparación local no se contará como entrenamiento.
 
 Se preservarán modelos finales, checkpoints en artefactos, configuraciones, comandos, logs, codec, entradas y predicciones. No se enviarán mensajes a terceros. Fuentes y atribución de las imágenes y textos EVA: referencia v2 y ensayos 63–66. Código nuevo propio. Identificación de lengua, revisión experta nueva y traducción: **NOT_RUN**.
+
+### Corrección técnica antes de entrenar
+
+La ejecución `40540130799`, commit `c261f8685de5e1b30cf4a5d6fd3d5b322f7f1851`, pasó instalación, cinco controles y preparación en ambas condiciones, pero falló antes de entrenar. El verificador intentaba leer safetensors con el cargador heredado `kraken.lib.models.load_any`, que sólo acepta el modelo CoreML. Se corrige usando `kraken.models.load_models` para leer ambos formatos y se comparan los estados de `TorchVGSLModel.nn`. La inferencia del modelo CoreML final conserva su API ya utilizada. Se preservan fallos, logs y hashes del intento inicial. No cambian datos, plan, épocas, optimizador ni condiciones experimentales.

@@ -125,7 +125,7 @@ def recognize(net,rows):
 
 def tensor_manifest(net):
     return {k:{'shape':list(v.shape),'dtype':str(v.dtype),'sha256':hashlib.sha256(v.detach().cpu().contiguous().numpy().tobytes()).hexdigest()}
-            for k,v in net.nn.nn.state_dict().items()}
+            for k,v in net.nn.state_dict().items()}
 
 
 def summarize(scored):
@@ -140,6 +140,7 @@ def summarize(scored):
 def train(plan,repo,out,variant,rows):
     import torch
     from kraken.lib.models import load_any
+    from kraken.models import load_models
     from kraken.lib.util import parse_gt_path
     if importlib.metadata.version('kraken')!='7.1':raise ValueError('Changed Kraken version')
     train_rows=[r for r in rows if r['role']=='train'];dev=[r for r in rows if r['role']=='development']
@@ -150,14 +151,17 @@ def train(plan,repo,out,variant,rows):
     cp=subprocess.run(['ketos','convert','--weights-format','safetensors','-o',str(converted),str(source)],capture_output=True,text=True,timeout=180)
     (out/'warmstart_conversion.log').write_text(cp.stdout+'\n'+cp.stderr)
     if cp.returncode:raise RuntimeError('Warm-start conversion failed')
-    original_net=load_any(str(source),train=False,device='cpu');converted_net=load_any(str(converted),train=False,device='cpu')
+    original_models=load_models(source,tasks=['recognition']);converted_models=load_models(converted,tasks=['recognition'])
+    if len(original_models)!=1 or len(converted_models)!=1:raise ValueError('Expected one recognizer in each warm-start file')
+    original_net=original_models[0];converted_net=converted_models[0]
     original_state=tensor_manifest(original_net);converted_state=tensor_manifest(converted_net)
     equivalence={'source_sha256':sha(source),'converted_sha256':sha(converted),'source_tensors':original_state,
                  'converted_tensors':converted_state,'tensor_states_equal':original_state==converted_state,
-                 'codec_equal':original_net.codec.c2l==converted_net.codec.c2l}
+                 'codec_equal':original_net.codec.c2l==converted_net.codec.c2l,
+                 'loader':'kraken.models.load_models for both formats; manifests cover TorchVGSLModel.nn'}
     save(out/'warmstart_equivalence.json',equivalence)
     if not equivalence['tensor_states_equal'] or not equivalence['codec_equal']:raise ValueError('Warm-start conversion did not preserve tensor state and codec')
-    del original_net,converted_net
+    del original_net,converted_net,original_models,converted_models
     root=(out/'training').resolve();root.mkdir(parents=True,exist_ok=True)
     train_list=root/'train.lst';train_list.write_text('\n'.join(r['path'] for r in train_rows)+'\n')
     config={'device':'cpu','precision':'32-true','num_workers':0,'num_threads':2,'seed':plan['seed'],'deterministic':True,
