@@ -1,0 +1,65 @@
+[
+  {
+    "path": "primary_geometry/geometry_correspondences.json.gz",
+    "uncompressed_bytes": 1338768,
+    "uncompressed_sha256": "a48aa14ca386173cc748fb68aca6f95cf20e26f89e275672cf044a62ab313cd4",
+    "compressed_bytes": 206709,
+    "compressed_sha256": "5747fe89c4e151ada544bedc7b669575ddbfe95e7c27df6f9a8e33d1c4cf354a"
+  },
+  {
+    "path": "primary_geometry/geometry_cases.json.gz",
+    "uncompressed_bytes": 5308493,
+    "uncompressed_sha256": "1eee3435311ee30b0a7579c0c4f3788580c56b9c586e5b26c906cee65f911eef",
+    "compressed_bytes": 1291146,
+    "compressed_sha256": "b569c2634c8fb30fe34135798c1d5d505e443bcd455077875de6c0e3e6dda022"
+  },
+  {
+    "path": "primary_geometry/geometry_models.json.gz",
+    "uncompressed_bytes": 517580,
+    "uncompressed_sha256": "11eaab1c5907b7e7adc7a8d1416a4e9a135c731d994007378ff06f40064dc099",
+    "compressed_bytes": 136468,
+    "compressed_sha256": "bd71c728169e6050394fbc3ca70887127956e3a10d62f982252236b068cebf8a"
+  },
+  {
+    "path": "followup_prepared/geometry_correspondences.json.gz",
+    "uncompressed_bytes": 1338768,
+    "uncompressed_sha256": "a48aa14ca386173cc748fb68aca6f95cf20e26f89e275672cf044a62ab313cd4",
+    "compressed_bytes": 206709,
+    "compressed_sha256": "5747fe89c4e151ada544bedc7b669575ddbfe95e7c27df6f9a8e33d1c4cf354a"
+  },
+  {
+    "path": "followup_prepared/dataset.json.gz",
+    "uncompressed_bytes": 786084,
+    "uncompressed_sha256": "ba02c759e1f7b1f76b1f1b032fb8b5c7a77bef5a231e81df2cb4b283d242addd",
+    "compressed_bytes": 158981,
+    "compressed_sha256": "0fff4471ab3bf4634216f006928c4a1fbb27e0199f79f1b68dabc7a6d550d4c2"
+  },
+  {
+    "path": "followup_prepared/geometry_cases.json.gz",
+    "uncompressed_bytes": 5308493,
+    "uncompressed_sha256": "1eee3435311ee30b0a7579c0c4f3788580c56b9c586e5b26c906cee65f911eef",
+    "compressed_bytes": 1291146,
+    "compressed_sha256": "b569c2634c8fb30fe34135798c1d5d505e443bcd455077875de6c0e3e6dda022"
+  },
+  {
+    "path": "followup_prepared/geometry_models.json.gz",
+    "uncompressed_bytes": 517580,
+    "uncompressed_sha256": "11eaab1c5907b7e7adc7a8d1416a4e9a135c731d994007378ff06f40064dc099",
+    "compressed_bytes": 136468,
+    "compressed_sha256": "bd71c728169e6050394fbc3ca70887127956e3a10d62f982252236b068cebf8a"
+  },
+  {
+    "path": "runs/continuation_200/dataset.json.gz",
+    "uncompressed_bytes": 855588,
+    "uncompressed_sha256": "84c77181f6487ce8a4b7ce7c39db8900c37d2729d21f77794814696ff6b257ab",
+    "compressed_bytes": 159507,
+    "compressed_sha256": "494d83d9e1f3fd99f20faca0f3582623aa1ac3cdcc3209ccc0f5c02f1dd04713"
+  },
+  {
+    "path": "runs/expanded_200/dataset.json.gz",
+    "uncompressed_bytes": 855588,
+    "uncompressed_sha256": "84c77181f6487ce8a4b7ce7c39db8900c37d2729d21f77794814696ff6b257ab",
+    "compressed_bytes": 159507,
+    "compressed_sha256": "494d83d9e1f3fd99f20faca0f3582623aa1ac3cdcc3209ccc0f5c02f1dd04713"
+  }
+]

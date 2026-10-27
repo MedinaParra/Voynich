@@ -1,0 +1,297 @@
+{
+  "status": "PASS",
+  "checks": 26987,
+  "mismatches": [],
+  "primary_geometry_status": "FAIL_PRESELECTED_PAGE_GEOMETRY_NO_EXPANSION_TRAINING",
+  "spatial_folds_passed": 29,
+  "spatial_folds_total": 30,
+  "followup_design": "EXPLORATORY_GEOMETRY_FILTERED_AFTER_PRIMARY_GATE_FAILURE",
+  "followup_counts": {
+    "original_train": 197,
+    "historical_development": 147,
+    "additional_train": 245,
+    "reserved": 135
+  },
+  "training_results": {
+    "continuation_200": {
+      "metrics": {
+        "historical_development": {
+          "kraken": {
+            "errors": 474,
+            "reference_characters": 744,
+            "cer": 0.6370967741935484,
+            "exact_words": 5,
+            "words": 147,
+            "exact_word_fraction": 0.034013605442176874,
+            "multicharacter_exact_words": 3,
+            "multicharacter_words": 143
+          },
+          "frozen_initial": {
+            "errors": 465,
+            "reference_characters": 744,
+            "cer": 0.625,
+            "exact_words": 2,
+            "words": 147,
+            "exact_word_fraction": 0.013605442176870748,
+            "multicharacter_exact_words": 0,
+            "multicharacter_words": 143
+          },
+          "nearest_image": {
+            "errors": 509,
+            "reference_characters": 744,
+            "cer": 0.6841397849462365,
+            "exact_words": 14,
+            "words": 147,
+            "exact_word_fraction": 0.09523809523809523,
+            "multicharacter_exact_words": 12,
+            "multicharacter_words": 143
+          },
+          "mode_word": {
+            "errors": 530,
+            "reference_characters": 744,
+            "cer": 0.7123655913978495,
+            "exact_words": 4,
+            "words": 147,
+            "exact_word_fraction": 0.027210884353741496,
+            "multicharacter_exact_words": 4,
+            "multicharacter_words": 143
+          },
+          "repeat_character": {
+            "errors": 720,
+            "reference_characters": 744,
+            "cer": 0.967741935483871,
+            "exact_words": 0,
+            "words": 147,
+            "exact_word_fraction": 0.0,
+            "multicharacter_exact_words": 0,
+            "multicharacter_words": 143
+          },
+          "empty": {
+            "errors": 744,
+            "reference_characters": 744,
+            "cer": 1.0,
+            "exact_words": 0,
+            "words": 147,
+            "exact_word_fraction": 0.0,
+            "multicharacter_exact_words": 0,
+            "multicharacter_words": 143
+          }
+        },
+        "reserved": {
+          "kraken": {
+            "errors": 512,
+            "reference_characters": 709,
+            "cer": 0.7221438645980254,
+            "exact_words": 2,
+            "words": 135,
+            "exact_word_fraction": 0.014814814814814815,
+            "multicharacter_exact_words": 2,
+            "multicharacter_words": 135
+          },
+          "frozen_initial": {
+            "errors": 501,
+            "reference_characters": 709,
+            "cer": 0.7066290550070522,
+            "exact_words": 1,
+            "words": 135,
+            "exact_word_fraction": 0.007407407407407408,
+            "multicharacter_exact_words": 1,
+            "multicharacter_words": 135
+          },
+          "nearest_image": {
+            "errors": 492,
+            "reference_characters": 709,
+            "cer": 0.693935119887165,
+            "exact_words": 12,
+            "words": 135,
+            "exact_word_fraction": 0.08888888888888889,
+            "multicharacter_exact_words": 12,
+            "multicharacter_words": 135
+          },
+          "mode_word": {
+            "errors": 516,
+            "reference_characters": 709,
+            "cer": 0.7277856135401974,
+            "exact_words": 2,
+            "words": 135,
+            "exact_word_fraction": 0.014814814814814815,
+            "multicharacter_exact_words": 2,
+            "multicharacter_words": 135
+          },
+          "repeat_character": {
+            "errors": 677,
+            "reference_characters": 709,
+            "cer": 0.9548660084626234,
+            "exact_words": 0,
+            "words": 135,
+            "exact_word_fraction": 0.0,
+            "multicharacter_exact_words": 0,
+            "multicharacter_words": 135
+          },
+          "empty": {
+            "errors": 709,
+            "reference_characters": 709,
+            "cer": 1.0,
+            "exact_words": 0,
+            "words": 135,
+            "exact_word_fraction": 0.0,
+            "multicharacter_exact_words": 0,
+            "multicharacter_words": 135
+          }
+        }
+      },
+      "training_fit_cer": 0.0,
+      "optimizer_steps": 2600,
+      "seconds": 303.013286804,
+      "result_sha256": "fffc53c80c59530c179cb76fca782029dbceb0fa52f41ac7f33efea38057a5cf"
+    },
+    "expanded_200": {
+      "metrics": {
+        "historical_development": {
+          "kraken": {
+            "errors": 416,
+            "reference_characters": 744,
+            "cer": 0.5591397849462365,
+            "exact_words": 9,
+            "words": 147,
+            "exact_word_fraction": 0.061224489795918366,
+            "multicharacter_exact_words": 7,
+            "multicharacter_words": 143
+          },
+          "frozen_initial": {
+            "errors": 464,
+            "reference_characters": 744,
+            "cer": 0.6236559139784946,
+            "exact_words": 2,
+            "words": 147,
+            "exact_word_fraction": 0.013605442176870748,
+            "multicharacter_exact_words": 0,
+            "multicharacter_words": 143
+          },
+          "nearest_image": {
+            "errors": 488,
+            "reference_characters": 744,
+            "cer": 0.6559139784946236,
+            "exact_words": 14,
+            "words": 147,
+            "exact_word_fraction": 0.09523809523809523,
+            "multicharacter_exact_words": 12,
+            "multicharacter_words": 143
+          },
+          "mode_word": {
+            "errors": 530,
+            "reference_characters": 744,
+            "cer": 0.7123655913978495,
+            "exact_words": 4,
+            "words": 147,
+            "exact_word_fraction": 0.027210884353741496,
+            "multicharacter_exact_words": 4,
+            "multicharacter_words": 143
+          },
+          "repeat_character": {
+            "errors": 720,
+            "reference_characters": 744,
+            "cer": 0.967741935483871,
+            "exact_words": 0,
+            "words": 147,
+            "exact_word_fraction": 0.0,
+            "multicharacter_exact_words": 0,
+            "multicharacter_words": 143
+          },
+          "empty": {
+            "errors": 744,
+            "reference_characters": 744,
+            "cer": 1.0,
+            "exact_words": 0,
+            "words": 147,
+            "exact_word_fraction": 0.0,
+            "multicharacter_exact_words": 0,
+            "multicharacter_words": 143
+          }
+        },
+        "reserved": {
+          "kraken": {
+            "errors": 442,
+            "reference_characters": 709,
+            "cer": 0.6234132581100141,
+            "exact_words": 9,
+            "words": 135,
+            "exact_word_fraction": 0.06666666666666667,
+            "multicharacter_exact_words": 9,
+            "multicharacter_words": 135
+          },
+          "frozen_initial": {
+            "errors": 503,
+            "reference_characters": 709,
+            "cer": 0.7094499294781382,
+            "exact_words": 1,
+            "words": 135,
+            "exact_word_fraction": 0.007407407407407408,
+            "multicharacter_exact_words": 1,
+            "multicharacter_words": 135
+          },
+          "nearest_image": {
+            "errors": 467,
+            "reference_characters": 709,
+            "cer": 0.6586741889985895,
+            "exact_words": 11,
+            "words": 135,
+            "exact_word_fraction": 0.08148148148148149,
+            "multicharacter_exact_words": 11,
+            "multicharacter_words": 135
+          },
+          "mode_word": {
+            "errors": 516,
+            "reference_characters": 709,
+            "cer": 0.7277856135401974,
+            "exact_words": 2,
+            "words": 135,
+            "exact_word_fraction": 0.014814814814814815,
+            "multicharacter_exact_words": 2,
+            "multicharacter_words": 135
+          },
+          "repeat_character": {
+            "errors": 677,
+            "reference_characters": 709,
+            "cer": 0.9548660084626234,
+            "exact_words": 0,
+            "words": 135,
+            "exact_word_fraction": 0.0,
+            "multicharacter_exact_words": 0,
+            "multicharacter_words": 135
+          },
+          "empty": {
+            "errors": 709,
+            "reference_characters": 709,
+            "cer": 1.0,
+            "exact_words": 0,
+            "words": 135,
+            "exact_word_fraction": 0.0,
+            "multicharacter_exact_words": 0,
+            "multicharacter_words": 135
+          }
+        }
+      },
+      "training_fit_cer": 0.0,
+      "optimizer_steps": 5600,
+      "seconds": 330.05561538800004,
+      "result_sha256": "a24191e76b5e49b0a46b27cf7efe5775238cc1a6c9f70e703d3573875cf63b92"
+    }
+  },
+  "paired_initial_prediction_differences": [
+    {
+      "id": "f4r_w0039",
+      "reference": "qotaiin",
+      "continuation_job_initial": "ochoeol",
+      "expanded_job_initial": "ocho"
+    },
+    {
+      "id": "f7v_w0001",
+      "reference": "shey",
+      "continuation_job_initial": "thy",
+      "expanded_job_initial": "othl"
+    }
+  ],
+  "scope": "Independent numerical replay of exported geometry and recognition arithmetic; source pixels and frozen old pairs checked. Inter-run inference variation is recorded separately from arithmetic mismatches. No new homography estimation, neural inference, expert reading or semantic validation.",
+  "translation": "NOT_RUN"
+}

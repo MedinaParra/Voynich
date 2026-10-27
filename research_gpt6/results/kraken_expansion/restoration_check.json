@@ -1,0 +1,7 @@
+{
+  "status": "PASS",
+  "reconstructed_crop_mask_label_files": 2172,
+  "words": 724,
+  "lossless_JSON_archives_restored": true,
+  "new_training_or_inference": false
+}

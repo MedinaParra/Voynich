@@ -1,0 +1,7074 @@
+{
+  "status": "EXECUTED_SAME_PROCESS_REPLAY_NOT_NEW_TRAINING",
+  "primary_pass": 0,
+  "passes": 2,
+  "model_sha256": {
+    "initial": "c2b93256804d4697b56990e6bae0ae132942308ab9038b220a06352f8b013e8b",
+    "continuation_200": "08e3586bc39103eaea3a984e85ec050531f46ef1a79c2d97b0ff06344b8eeaab",
+    "expanded_200": "35092d9baf56083eb6c70a2e32c478d8910ef5e685d0cee33fc5a935ca1c71d8"
+  },
+  "prepared_dataset_sha256": "ba02c759e1f7b1f76b1f1b032fb8b5c7a77bef5a231e81df2cb4b283d242addd",
+  "metrics": {
+    "historical_development": {
+      "initial": {
+        "errors": 465,
+        "reference_characters": 744,
+        "cer": 0.625,
+        "exact_words": 2,
+        "words": 147,
+        "exact_word_fraction": 0.013605442176870748,
+        "multicharacter_exact_words": 0,
+        "multicharacter_words": 143
+      },
+      "continuation_200": {
+        "errors": 474,
+        "reference_characters": 744,
+        "cer": 0.6370967741935484,
+        "exact_words": 5,
+        "words": 147,
+        "exact_word_fraction": 0.034013605442176874,
+        "multicharacter_exact_words": 3,
+        "multicharacter_words": 143
+      },
+      "expanded_200": {
+        "errors": 415,
+        "reference_characters": 744,
+        "cer": 0.5577956989247311,
+        "exact_words": 9,
+        "words": 147,
+        "exact_word_fraction": 0.061224489795918366,
+        "multicharacter_exact_words": 7,
+        "multicharacter_words": 143
+      }
+    },
+    "reserved": {
+      "initial": {
+        "errors": 501,
+        "reference_characters": 709,
+        "cer": 0.7066290550070522,
+        "exact_words": 1,
+        "words": 135,
+        "exact_word_fraction": 0.007407407407407408,
+        "multicharacter_exact_words": 1,
+        "multicharacter_words": 135
+      },
+      "continuation_200": {
+        "errors": 512,
+        "reference_characters": 709,
+        "cer": 0.7221438645980254,
+        "exact_words": 2,
+        "words": 135,
+        "exact_word_fraction": 0.014814814814814815,
+        "multicharacter_exact_words": 2,
+        "multicharacter_words": 135
+      },
+      "expanded_200": {
+        "errors": 443,
+        "reference_characters": 709,
+        "cer": 0.6248236953455572,
+        "exact_words": 9,
+        "words": 135,
+        "exact_word_fraction": 0.06666666666666667,
+        "multicharacter_exact_words": 9,
+        "multicharacter_words": 135
+      }
+    }
+  },
+  "by_folio": {
+    "f4r": {
+      "initial": {
+        "errors": 203,
+        "reference_characters": 324,
+        "cer": 0.6265432098765432,
+        "exact_words": 0,
+        "words": 64,
+        "exact_word_fraction": 0.0,
+        "multicharacter_exact_words": 0,
+        "multicharacter_words": 63
+      },
+      "continuation_200": {
+        "errors": 215,
+        "reference_characters": 324,
+        "cer": 0.6635802469135802,
+        "exact_words": 2,
+        "words": 64,
+        "exact_word_fraction": 0.03125,
+        "multicharacter_exact_words": 2,
+        "multicharacter_words": 63
+      },
+      "expanded_200": {
+        "errors": 179,
+        "reference_characters": 324,
+        "cer": 0.5524691358024691,
+        "exact_words": 1,
+        "words": 64,
+        "exact_word_fraction": 0.015625,
+        "multicharacter_exact_words": 1,
+        "multicharacter_words": 63
+      }
+    },
+    "f4v": {
+      "initial": {
+        "errors": 262,
+        "reference_characters": 420,
+        "cer": 0.6238095238095238,
+        "exact_words": 2,
+        "words": 83,
+        "exact_word_fraction": 0.024096385542168676,
+        "multicharacter_exact_words": 0,
+        "multicharacter_words": 80
+      },
+      "continuation_200": {
+        "errors": 259,
+        "reference_characters": 420,
+        "cer": 0.6166666666666667,
+        "exact_words": 3,
+        "words": 83,
+        "exact_word_fraction": 0.03614457831325301,
+        "multicharacter_exact_words": 1,
+        "multicharacter_words": 80
+      },
+      "expanded_200": {
+        "errors": 236,
+        "reference_characters": 420,
+        "cer": 0.5619047619047619,
+        "exact_words": 8,
+        "words": 83,
+        "exact_word_fraction": 0.0963855421686747,
+        "multicharacter_exact_words": 6,
+        "multicharacter_words": 80
+      }
+    },
+    "f7r": {
+      "initial": {
+        "errors": 245,
+        "reference_characters": 345,
+        "cer": 0.7101449275362319,
+        "exact_words": 1,
+        "words": 62,
+        "exact_word_fraction": 0.016129032258064516,
+        "multicharacter_exact_words": 1,
+        "multicharacter_words": 62
+      },
+      "continuation_200": {
+        "errors": 258,
+        "reference_characters": 345,
+        "cer": 0.7478260869565218,
+        "exact_words": 1,
+        "words": 62,
+        "exact_word_fraction": 0.016129032258064516,
+        "multicharacter_exact_words": 1,
+        "multicharacter_words": 62
+      },
+      "expanded_200": {
+        "errors": 231,
+        "reference_characters": 345,
+        "cer": 0.6695652173913044,
+        "exact_words": 3,
+        "words": 62,
+        "exact_word_fraction": 0.04838709677419355,
+        "multicharacter_exact_words": 3,
+        "multicharacter_words": 62
+      }
+    },
+    "f7v": {
+      "initial": {
+        "errors": 256,
+        "reference_characters": 364,
+        "cer": 0.7032967032967034,
+        "exact_words": 0,
+        "words": 73,
+        "exact_word_fraction": 0.0,
+        "multicharacter_exact_words": 0,
+        "multicharacter_words": 73
+      },
+      "continuation_200": {
+        "errors": 254,
+        "reference_characters": 364,
+        "cer": 0.6978021978021978,
+        "exact_words": 1,
+        "words": 73,
+        "exact_word_fraction": 0.0136986301369863,
+        "multicharacter_exact_words": 1,
+        "multicharacter_words": 73
+      },
+      "expanded_200": {
+        "errors": 212,
+        "reference_characters": 364,
+        "cer": 0.5824175824175825,
+        "exact_words": 6,
+        "words": 73,
+        "exact_word_fraction": 0.0821917808219178,
+        "multicharacter_exact_words": 6,
+        "multicharacter_words": 73
+      }
+    }
+  },
+  "rows": [
+    {
+      "id": "f4r_w0000",
+      "folio": "f4r",
+      "role": "historical_development",
+      "reference": "kodalchy",
+      "predictions": {
+        "initial": "tco",
+        "continuation_200": "co",
+        "expanded_200": "tcham"
+      },
+      "errors": {
+        "initial": 7,
+        "continuation_200": 7,
+        "expanded_200": 7
+      },
+      "seen_in_original_training": false,
+      "seen_in_expanded_training": false
+    },
+    {
+      "id": "f4r_w0001",
+      "folio": "f4r",
+      "role": "historical_development",
+      "reference": "chpady",
+      "predictions": {
+        "initial": "octhoy",
+        "continuation_200": "qothoy",
+        "expanded_200": "qothoy"
+      },
+      "errors": {
+        "initial": 5,
+        "continuation_200": 5,
+        "expanded_200": 5
+      },
+      "seen_in_original_training": false,
+      "seen_in_expanded_training": false
+    },
+    {
+      "id": "f4r_w0002",
+      "folio": "f4r",
+      "role": "historical_development",
+      "reference": "sheol",
+      "predictions": {
+        "initial": "cho",
+        "continuation_200": "chol",
+        "expanded_200": "chor"
+      },
+      "errors": {
+        "initial": 3,
+        "continuation_200": 2,
+        "expanded_200": 3
+      },
+      "seen_in_original_training": true,
+      "seen_in_expanded_training": true
+    },
+    {
+      "id": "f4r_w0003",
+      "folio": "f4r",
+      "role": "historical_development",
+      "reference": "ol",
+      "predictions": {
+        "initial": "hol",
+        "continuation_200": "hol",
+        "expanded_200": "hol"
+      },
+      "errors": {
+        "initial": 1,
+        "continuation_200": 1,
+        "expanded_200": 1
+      },
+      "seen_in_original_training": true,
+      "seen_in_expanded_training": true
+    },
+    {
+      "id": "f4r_w0004",
+      "folio": "f4r",
+      "role": "historical_development",
+      "reference": "sheey",
+      "predictions": {
+        "initial": "choly",
+        "continuation_200": "choy",
+        "expanded_200": "sheoy"
+      },
+      "errors": {
+        "initial": 3,
+        "continuation_200": 3,
+        "expanded_200": 1
+      },
+      "seen_in_original_training": false,
+      "seen_in_expanded_training": false
+    },
+    {
+      "id": "f4r_w0005",
+      "folio": "f4r",
+      "role": "historical_development",
+      "reference": "qotey",
+      "predictions": {
+        "initial": "qodoy",
+        "continuation_200": "qoeoy",
+        "expanded_200": "qohai"
+      },
+      "errors": {
+        "initial": 2,
+        "continuation_200": 2,
+        "expanded_200": 3
+      },
+      "seen_in_original_training": false,
+      "seen_in_expanded_training": false
+    },
+    {
+      "id": "f4r_w0006",
+      "folio": "f4r",
+      "role": "historical_development",
+      "reference": "doiin",
+      "predictions": {
+        "initial": "dain",
+        "continuation_200": "dan",
+        "expanded_200": "dain"
+      },
+      "errors": {
+        "initial": 2,
+        "continuation_200": 3,
+        "expanded_200": 2
+      },
+      "seen_in_original_training": false,
+      "seen_in_expanded_training": false
+    },
+    {
+      "id": "f4r_w0007",
+      "folio": "f4r",
+      "role": "historical_development",
+      "reference": "chor",
+      "predictions": {
+        "initial": "cor",
+        "continuation_200": "chor",
+        "expanded_200": "chor"
+      },
+      "errors": {
+        "initial": 1,
+        "continuation_200": 0,
+        "expanded_200": 0
+      },
+      "seen_in_original_training": true,
+      "seen_in_expanded_training": true
+    },
+    {
+      "id": "f4r_w0008",
+      "folio": "f4r",
+      "role": "historical_development",
+      "reference": "ytoy",
+      "predictions": {
+        "initial": "othoy",
+        "continuation_200": "octhoy",
+        "expanded_200": "otoi"
+      },
+      "errors": {
+        "initial": 2,
+        "continuation_200": 3,
+        "expanded_200": 2
+      },
+      "seen_in_original_training": false,
+      "seen_in_expanded_training": false
+    },
+    {
+      "id": "f4r_w0009",
+      "folio": "f4r",
+      "role": "historical_development",
+      "reference": "dchor",
+      "predictions": {
+        "initial": "cheair",
+        "continuation_200": "cheair",
+        "expanded_200": "aeai"
+      },
+      "errors": {
+        "initial": 4,
+        "continuation_200": 4,
+        "expanded_200": 5
+      },
+      "seen_in_original_training": false,
+      "seen_in_expanded_training": true
+    },
+    {
+      "id": "f4r_w0010",
+      "folio": "f4r",
+      "role": "historical_development",
+      "reference": "chol",
+      "predictions": {
+        "initial": "cho",
+        "continuation_200": "choym",
+        "expanded_200": "chom"
+      },
+      "errors": {
+        "initial": 1,
+        "continuation_200": 2,
+        "expanded_200": 1
+      },
+      "seen_in_original_training": true,
+      "seen_in_expanded_training": true
+    },
+    {
+      "id": "f4r_w0011",
+      "folio": "f4r",
+      "role": "historical_development",
+      "reference": "shol",
+      "predictions": {
+        "initial": "chol",
+        "continuation_200": "chol",
+        "expanded_200": "cho"
+      },
+      "errors": {
+        "initial": 1,
+        "continuation_200": 1,
+        "expanded_200": 2
+      },
+      "seen_in_original_training": true,
+      "seen_in_expanded_training": true
+    },
+    {
+      "id": "f4r_w0012",
+      "folio": "f4r",
+      "role": "historical_development",
+      "reference": "cthol",
+      "predictions": {
+        "initial": "to",
+        "continuation_200": "to",
+        "expanded_200": "oto"
+      },
+      "errors": {
+        "initial": 3,
+        "continuation_200": 3,
+        "expanded_200": 3
+      },
+      "seen_in_original_training": true,
+      "seen_in_expanded_training": true
+    },
+    {
+      "id": "f4r_w0013",
+      "folio": "f4r",
+      "role": "historical_development",
+      "reference": "shtchy",
+      "predictions": {
+        "initial": "octholy",
+        "continuation_200": "cthely",
+        "expanded_200": "che"
+      },
+      "errors": {
+        "initial": 5,
+        "continuation_200": 5,
+        "expanded_200": 4
+      },
+      "seen_in_original_training": false,
+      "seen_in_expanded_training": false
+    },
+    {
+      "id": "f4r_w0014",
+      "folio": "f4r",
+      "role": "historical_development",
+      "reference": "chaiin",
+      "predictions": {
+        "initial": "chorm",
+        "continuation_200": "chor",
+        "expanded_200": "doin"
+      },
+      "errors": {
+        "initial": 4,
+        "continuation_200": 4,
+        "expanded_200": 4
+      },
+      "seen_in_original_training": false,
+      "seen_in_expanded_training": true
+    },
+    {
+      "id": "f4r_w0015",
+      "folio": "f4r",
+      "role": "historical_development",
+      "reference": "s",
+      "predictions": {
+        "initial": "o",
+        "continuation_200": "o",
+        "expanded_200": "o"
+      },
+      "errors": {
+        "initial": 1,
+        "continuation_200": 1,
+        "expanded_200": 1
+      },
+      "seen_in_original_training": true,
+      "seen_in_expanded_training": true
+    },
+    {
+      "id": "f4r_w0016",
+      "folio": "f4r",
+      "role": "historical_development",
+      "reference": "choraiin",
+      "predictions": {
+        "initial": "ocodir",
+        "continuation_200": "ocolldr",
+        "expanded_200": "choin"
+      },
+      "errors": {
+        "initial": 6,
+        "continuation_200": 7,
+        "expanded_200": 3
+      },
+      "seen_in_original_training": false,
+      "seen_in_expanded_training": false
+    },
+    {
+      "id": "f4r_w0017",
+      "folio": "f4r",
+      "role": "historical_development",
+      "reference": "chom",
+      "predictions": {
+        "initial": "chomr",
+        "continuation_200": "chom",
+        "expanded_200": "cham"
+      },
+      "errors": {
+        "initial": 1,
+        "continuation_200": 0,
+        "expanded_200": 1
+      },
+      "seen_in_original_training": true,
+      "seen_in_expanded_training": true
+    },
+    {
+      "id": "f4r_w0018",
+      "folio": "f4r",
+      "role": "historical_development",
+      "reference": "otchol",
+      "predictions": {
+        "initial": "otchoim",
+        "continuation_200": "otcholom",
+        "expanded_200": "otcheam"
+      },
+      "errors": {
+        "initial": 2,
+        "continuation_200": 2,
+        "expanded_200": 3
+      },
+      "seen_in_original_training": true,
+      "seen_in_expanded_training": true
+    },
+    {
+      "id": "f4r_w0019",
+      "folio": "f4r",
+      "role": "historical_development",
+      "reference": "chol",
+      "predictions": {
+        "initial": "hao",
+        "continuation_200": "ho",
+        "expanded_200": "sho"
+      },
+      "errors": {
+        "initial": 3,
+        "continuation_200": 2,
+        "expanded_200": 2
+      },
+      "seen_in_original_training": true,
+      "seen_in_expanded_training": true
+    },
+    {
+      "id": "f4r_w0020",
+      "folio": "f4r",
+      "role": "historical_development",
+      "reference": "chy",
+      "predictions": {
+        "initial": "da",
+        "continuation_200": "da",
+        "expanded_200": "da"
+      },
+      "errors": {
+        "initial": 3,
+        "continuation_200": 3,
+        "expanded_200": 3
+      },
+      "seen_in_original_training": false,
+      "seen_in_expanded_training": true
+    },
+    {
+      "id": "f4r_w0021",
+      "folio": "f4r",
+      "role": "historical_development",
+      "reference": "chaiin",
+      "predictions": {
+        "initial": "choi",
+        "continuation_200": "ochoi",
+        "expanded_200": "choin"
+      },
+      "errors": {
+        "initial": 3,
+        "continuation_200": 4,
+        "expanded_200": 2
+      },
+      "seen_in_original_training": false,
+      "seen_in_expanded_training": true
+    },
+    {
+      "id": "f4r_w0022",
+      "folio": "f4r",
+      "role": "historical_development",
+      "reference": "qotaiin",
+      "predictions": {
+        "initial": "qokchorr",
+        "continuation_200": "qoo",
+        "expanded_200": "qochori"
+      },
+      "errors": {
+        "initial": 6,
+        "continuation_200": 5,
+        "expanded_200": 5
+      },
+      "seen_in_original_training": false,
+      "seen_in_expanded_training": false
+    },
+    {
+      "id": "f4r_w0023",
+      "folio": "f4r",
+      "role": "historical_development",
+      "reference": "daiin",
+      "predictions": {
+        "initial": "cdain",
+        "continuation_200": "sdai",
+        "expanded_200": "dain"
+      },
+      "errors": {
+        "initial": 2,
+        "continuation_200": 3,
+        "expanded_200": 1
+      },
+      "seen_in_original_training": true,
+      "seen_in_expanded_training": true
+    },
+    {
+      "id": "f4r_w0024",
+      "folio": "f4r",
+      "role": "historical_development",
+      "reference": "shain",
+      "predictions": {
+        "initial": "chor",
+        "continuation_200": "chor",
+        "expanded_200": "chein"
+      },
+      "errors": {
+        "initial": 4,
+        "continuation_200": 4,
+        "expanded_200": 2
+      },
+      "seen_in_original_training": false,
+      "seen_in_expanded_training": false
+    },
+    {
+      "id": "f4r_w0025",
+      "folio": "f4r",
+      "role": "historical_development",
+      "reference": "qotchol",
+      "predictions": {
+        "initial": "okeo",
+        "continuation_200": "ykeo",
+        "expanded_200": "yhoa"
+      },
+      "errors": {
+        "initial": 5,
+        "continuation_200": 6,
+        "expanded_200": 5
+      },
+      "seen_in_original_training": false,
+      "seen_in_expanded_training": false
+    },
+    {
+      "id": "f4r_w0026",
+      "folio": "f4r",
+      "role": "historical_development",
+      "reference": "chy",
+      "predictions": {
+        "initial": "cho",
+        "continuation_200": "sho",
+        "expanded_200": "eo"
+      },
+      "errors": {
+        "initial": 1,
+        "continuation_200": 2,
+        "expanded_200": 3
+      },
+      "seen_in_original_training": false,
+      "seen_in_expanded_training": true
+    },
+    {
+      "id": "f4r_w0027",
+      "folio": "f4r",
+      "role": "historical_development",
+      "reference": "yty",
+      "predictions": {
+        "initial": "ky",
+        "continuation_200": "ykty",
+        "expanded_200": "yy"
+      },
+      "errors": {
+        "initial": 2,
+        "continuation_200": 1,
+        "expanded_200": 1
+      },
+      "seen_in_original_training": true,
+      "seen_in_expanded_training": true
+    },
+    {
+      "id": "f4r_w0028",
+      "folio": "f4r",
+      "role": "historical_development",
+      "reference": "daiin",
+      "predictions": {
+        "initial": "ha",
+        "continuation_200": "hao",
+        "expanded_200": "dain"
+      },
+      "errors": {
+        "initial": 4,
+        "continuation_200": 4,
+        "expanded_200": 1
+      },
+      "seen_in_original_training": true,
+      "seen_in_expanded_training": true
+    },
+    {
+      "id": "f4r_w0029",
+      "folio": "f4r",
+      "role": "historical_development",
+      "reference": "okaiin",
+      "predictions": {
+        "initial": "oen",
+        "continuation_200": "oea",
+        "expanded_200": "okeain"
+      },
+      "errors": {
+        "initial": 4,
+        "continuation_200": 4,
+        "expanded_200": 2
+      },
+      "seen_in_original_training": false,
+      "seen_in_expanded_training": true
+    },
+    {
+      "id": "f4r_w0030",
+      "folio": "f4r",
+      "role": "historical_development",
+      "reference": "cthy",
+      "predictions": {
+        "initial": "they",
+        "continuation_200": "thoyl",
+        "expanded_200": "octhey"
+      },
+      "errors": {
+        "initial": 2,
+        "continuation_200": 3,
+        "expanded_200": 2
+      },
+      "seen_in_original_training": true,
+      "seen_in_expanded_training": true
+    },
+    {
+      "id": "f4r_w0031",
+      "folio": "f4r",
+      "role": "historical_development",
+      "reference": "pydaiin",
+      "predictions": {
+        "initial": "thoy",
+        "continuation_200": "yeoy",
+        "expanded_200": "kcdeo"
+      },
+      "errors": {
+        "initial": 7,
+        "continuation_200": 6,
+        "expanded_200": 6
+      },
+      "seen_in_original_training": false,
+      "seen_in_expanded_training": false
+    },
+    {
+      "id": "f4r_w0032",
+      "folio": "f4r",
+      "role": "historical_development",
+      "reference": "qotchy",
+      "predictions": {
+        "initial": "qocol",
+        "continuation_200": "qokol",
+        "expanded_200": "qokchoy"
+      },
+      "errors": {
+        "initial": 3,
+        "continuation_200": 4,
+        "expanded_200": 2
+      },
+      "seen_in_original_training": false,
+      "seen_in_expanded_training": false
+    },
+    {
+      "id": "f4r_w0033",
+      "folio": "f4r",
+      "role": "historical_development",
+      "reference": "dy",
+      "predictions": {
+        "initial": "",
+        "continuation_200": "",
+        "expanded_200": "r"
+      },
+      "errors": {
+        "initial": 2,
+        "continuation_200": 2,
+        "expanded_200": 2
+      },
+      "seen_in_original_training": false,
+      "seen_in_expanded_training": true
+    },
+    {
+      "id": "f4r_w0034",
+      "folio": "f4r",
+      "role": "historical_development",
+      "reference": "tydy",
+      "predictions": {
+        "initial": "tchol",
+        "continuation_200": "tchol",
+        "expanded_200": "tcho"
+      },
+      "errors": {
+        "initial": 4,
+        "continuation_200": 4,
+        "expanded_200": 3
+      },
+      "seen_in_original_training": false,
+      "seen_in_expanded_training": false
+    },
+    {
+      "id": "f4r_w0035",
+      "folio": "f4r",
+      "role": "historical_development",
+      "reference": "chor",
+      "predictions": {
+        "initial": "chol",
+        "continuation_200": "chol",
+        "expanded_200": "cheolr"
+      },
+      "errors": {
+        "initial": 1,
+        "continuation_200": 1,
+        "expanded_200": 2
+      },
+      "seen_in_original_training": true,
+      "seen_in_expanded_training": true
+    },
+    {
+      "id": "f4r_w0036",
+      "folio": "f4r",
+      "role": "historical_development",
+      "reference": "shytchy",
+      "predictions": {
+        "initial": "cheoly",
+        "continuation_200": "cey",
+        "expanded_200": "ce"
+      },
+      "errors": {
+        "initial": 5,
+        "continuation_200": 5,
+        "expanded_200": 6
+      },
+      "seen_in_original_training": false,
+      "seen_in_expanded_training": false
+    },
+    {
+      "id": "f4r_w0037",
+      "folio": "f4r",
+      "role": "historical_development",
+      "reference": "dy",
+      "predictions": {
+        "initial": "am",
+        "continuation_200": "aym",
+        "expanded_200": "sy"
+      },
+      "errors": {
+        "initial": 2,
+        "continuation_200": 2,
+        "expanded_200": 1
+      },
+      "seen_in_original_training": false,
+      "seen_in_expanded_training": true
+    },
+    {
+      "id": "f4r_w0038",
+      "folio": "f4r",
+      "role": "historical_development",
+      "reference": "tcheay",
+      "predictions": {
+        "initial": "chol",
+        "continuation_200": "shol",
+        "expanded_200": "ho"
+      },
+      "errors": {
+        "initial": 4,
+        "continuation_200": 5,
+        "expanded_200": 5
+      },
+      "seen_in_original_training": false,
+      "seen_in_expanded_training": false
+    },
+    {
+      "id": "f4r_w0039",
+      "folio": "f4r",
+      "role": "historical_development",
+      "reference": "qotaiin",
+      "predictions": {
+        "initial": "ochoeol",
+        "continuation_200": "choeoo",
+        "expanded_200": "cheao"
+      },
+      "errors": {
+        "initial": 7,
+        "continuation_200": 7,
+        "expanded_200": 6
+      },
+      "seen_in_original_training": false,
+      "seen_in_expanded_training": false
+    },
+    {
+      "id": "f4r_w0040",
+      "folio": "f4r",
+      "role": "historical_development",
+      "reference": "cthol",
+      "predictions": {
+        "initial": "thlyl",
+        "continuation_200": "thy",
+        "expanded_200": "thoy"
+      },
+      "errors": {
+        "initial": 3,
+        "continuation_200": 3,
+        "expanded_200": 2
+      },
+      "seen_in_original_training": true,
+      "seen_in_expanded_training": true
+    },
+    {
+      "id": "f4r_w0041",
+      "folio": "f4r",
+      "role": "historical_development",
+      "reference": "daiin",
+      "predictions": {
+        "initial": "haoir",
+        "continuation_200": "dor",
+        "expanded_200": "dean"
+      },
+      "errors": {
+        "initial": 3,
+        "continuation_200": 4,
+        "expanded_200": 3
+      },
+      "seen_in_original_training": true,
+      "seen_in_expanded_training": true
+    },
+    {
+      "id": "f4r_w0042",
+      "folio": "f4r",
+      "role": "historical_development",
+      "reference": "cthom",
+      "predictions": {
+        "initial": "chol",
+        "continuation_200": "cho",
+        "expanded_200": "cheo"
+      },
+      "errors": {
+        "initial": 2,
+        "continuation_200": 2,
+        "expanded_200": 3
+      },
+      "seen_in_original_training": true,
+      "seen_in_expanded_training": true
+    },
+    {
+      "id": "f4r_w0043",
+      "folio": "f4r",
+      "role": "historical_development",
+      "reference": "shor",
+      "predictions": {
+        "initial": "chom",
+        "continuation_200": "chom",
+        "expanded_200": "che"
+      },
+      "errors": {
+        "initial": 2,
+        "continuation_200": 2,
+        "expanded_200": 3
+      },
+      "seen_in_original_training": true,
+      "seen_in_expanded_training": true
+    },
+    {
+      "id": "f4r_w0044",
+      "folio": "f4r",
+      "role": "historical_development",
+      "reference": "shol",
+      "predictions": {
+        "initial": "cho",
+        "continuation_200": "cho",
+        "expanded_200": "ckhor"
+      },
+      "errors": {
+        "initial": 2,
+        "continuation_200": 2,
+        "expanded_200": 3
+      },
+      "seen_in_original_training": true,
+      "seen_in_expanded_training": true
+    },
+    {
+      "id": "f4r_w0045",
+      "folio": "f4r",
+      "role": "historical_development",
+      "reference": "shol",
+      "predictions": {
+        "initial": "thol",
+        "continuation_200": "thol",
+        "expanded_200": "sho"
+      },
+      "errors": {
+        "initial": 1,
+        "continuation_200": 1,
+        "expanded_200": 1
+      },
+      "seen_in_original_training": true,
+      "seen_in_expanded_training": true
+    },
+    {
+      "id": "f4r_w0046",
+      "folio": "f4r",
+      "role": "historical_development",
+      "reference": "cthy",
+      "predictions": {
+        "initial": "othol",
+        "continuation_200": "thom",
+        "expanded_200": "thy"
+      },
+      "errors": {
+        "initial": 3,
+        "continuation_200": 3,
+        "expanded_200": 1
+      },
+      "seen_in_original_training": true,
+      "seen_in_expanded_training": true
+    },
+    {
+      "id": "f4r_w0047",
+      "folio": "f4r",
+      "role": "historical_development",
+      "reference": "cpholdy",
+      "predictions": {
+        "initial": "otdoy",
+        "continuation_200": "tdo",
+        "expanded_200": "otday"
+      },
+      "errors": {
+        "initial": 5,
+        "continuation_200": 6,
+        "expanded_200": 5
+      },
+      "seen_in_original_training": false,
+      "seen_in_expanded_training": false
+    },
+    {
+      "id": "f4r_w0048",
+      "folio": "f4r",
+      "role": "historical_development",
+      "reference": "daiin",
+      "predictions": {
+        "initial": "cdo",
+        "continuation_200": "do",
+        "expanded_200": "dain"
+      },
+      "errors": {
+        "initial": 5,
+        "continuation_200": 4,
+        "expanded_200": 1
+      },
+      "seen_in_original_training": true,
+      "seen_in_expanded_training": true
+    },
+    {
+      "id": "f4r_w0049",
+      "folio": "f4r",
+      "role": "historical_development",
+      "reference": "ckhochy",
+      "predictions": {
+        "initial": "tkheoly",
+        "continuation_200": "tkheo",
+        "expanded_200": "chaiy"
+      },
+      "errors": {
+        "initial": 4,
+        "continuation_200": 5,
+        "expanded_200": 4
+      },
+      "seen_in_original_training": false,
+      "seen_in_expanded_training": false
+    },
+    {
+      "id": "f4r_w0050",
+      "folio": "f4r",
+      "role": "historical_development",
+      "reference": "tchy",
+      "predictions": {
+        "initial": "kchaoym",
+        "continuation_200": "tshao",
+        "expanded_200": "kchaim"
+      },
+      "errors": {
+        "initial": 4,
+        "continuation_200": 3,
+        "expanded_200": 4
+      },
+      "seen_in_original_training": false,
+      "seen_in_expanded_training": false
+    },
+    {
+      "id": "f4r_w0051",
+      "folio": "f4r",
+      "role": "historical_development",
+      "reference": "koraiin",
+      "predictions": {
+        "initial": "ceairiyn",
+        "continuation_200": "ceary",
+        "expanded_200": "cadain"
+      },
+      "errors": {
+        "initial": 5,
+        "continuation_200": 6,
+        "expanded_200": 4
+      },
+      "seen_in_original_training": false,
+      "seen_in_expanded_training": false
+    },
+    {
+      "id": "f4r_w0052",
+      "folio": "f4r",
+      "role": "historical_development",
+      "reference": "odal",
+      "predictions": {
+        "initial": "dal",
+        "continuation_200": "da",
+        "expanded_200": "daln"
+      },
+      "errors": {
+        "initial": 1,
+        "continuation_200": 2,
+        "expanded_200": 2
+      },
+      "seen_in_original_training": false,
+      "seen_in_expanded_training": false
+    },
+    {
+      "id": "f4r_w0053",
+      "folio": "f4r",
+      "role": "historical_development",
+      "reference": "shor",
+      "predictions": {
+        "initial": "chor",
+        "continuation_200": "cho",
+        "expanded_200": "chor"
+      },
+      "errors": {
+        "initial": 1,
+        "continuation_200": 2,
+        "expanded_200": 1
+      },
+      "seen_in_original_training": true,
+      "seen_in_expanded_training": true
+    },
+    {
+      "id": "f4r_w0054",
+      "folio": "f4r",
+      "role": "historical_development",
+      "reference": "shyshol",
+      "predictions": {
+        "initial": "chor",
+        "continuation_200": "cheo",
+        "expanded_200": "cheo"
+      },
+      "errors": {
+        "initial": 5,
+        "continuation_200": 5,
+        "expanded_200": 5
+      },
+      "seen_in_original_training": false,
+      "seen_in_expanded_training": false
+    },
+    {
+      "id": "f4r_w0055",
+      "folio": "f4r",
+      "role": "historical_development",
+      "reference": "cphaiin",
+      "predictions": {
+        "initial": "cha",
+        "continuation_200": "char",
+        "expanded_200": "ycthaim"
+      },
+      "errors": {
+        "initial": 4,
+        "continuation_200": 4,
+        "expanded_200": 4
+      },
+      "seen_in_original_training": false,
+      "seen_in_expanded_training": false
+    },
+    {
+      "id": "f4r_w0056",
+      "folio": "f4r",
+      "role": "historical_development",
+      "reference": "qotchoiin",
+      "predictions": {
+        "initial": "qokhe",
+        "continuation_200": "okher",
+        "expanded_200": "qokcha"
+      },
+      "errors": {
+        "initial": 6,
+        "continuation_200": 7,
+        "expanded_200": 5
+      },
+      "seen_in_original_training": false,
+      "seen_in_expanded_training": false
+    },
+    {
+      "id": "f4r_w0057",
+      "folio": "f4r",
+      "role": "historical_development",
+      "reference": "sheyr",
+      "predictions": {
+        "initial": "cher",
+        "continuation_200": "cher",
+        "expanded_200": "cher"
+      },
+      "errors": {
+        "initial": 2,
+        "continuation_200": 2,
+        "expanded_200": 2
+      },
+      "seen_in_original_training": false,
+      "seen_in_expanded_training": false
+    },
+    {
+      "id": "f4r_w0058",
+      "folio": "f4r",
+      "role": "historical_development",
+      "reference": "qoty",
+      "predictions": {
+        "initial": "okeo",
+        "continuation_200": "oko",
+        "expanded_200": "qockeo"
+      },
+      "errors": {
+        "initial": 4,
+        "continuation_200": 3,
+        "expanded_200": 4
+      },
+      "seen_in_original_training": true,
+      "seen_in_expanded_training": true
+    },
+    {
+      "id": "f4r_w0059",
+      "folio": "f4r",
+      "role": "historical_development",
+      "reference": "soiin",
+      "predictions": {
+        "initial": "coin",
+        "continuation_200": "coeoi",
+        "expanded_200": "seoiin"
+      },
+      "errors": {
+        "initial": 2,
+        "continuation_200": 4,
+        "expanded_200": 1
+      },
+      "seen_in_original_training": false,
+      "seen_in_expanded_training": false
+    },
+    {
+      "id": "f4r_w0060",
+      "folio": "f4r",
+      "role": "historical_development",
+      "reference": "chaiin",
+      "predictions": {
+        "initial": "choee",
+        "continuation_200": "choe",
+        "expanded_200": "choir"
+      },
+      "errors": {
+        "initial": 4,
+        "continuation_200": 4,
+        "expanded_200": 3
+      },
+      "seen_in_original_training": false,
+      "seen_in_expanded_training": true
+    },
+    {
+      "id": "f4r_w0061",
+      "folio": "f4r",
+      "role": "historical_development",
+      "reference": "chaiin",
+      "predictions": {
+        "initial": "choin",
+        "continuation_200": "chon",
+        "expanded_200": "choiinr"
+      },
+      "errors": {
+        "initial": 2,
+        "continuation_200": 3,
+        "expanded_200": 2
+      },
+      "seen_in_original_training": false,
+      "seen_in_expanded_training": true
+    },
+    {
+      "id": "f4r_w0062",
+      "folio": "f4r",
+      "role": "historical_development",
+      "reference": "daiin",
+      "predictions": {
+        "initial": "dar",
+        "continuation_200": "dar",
+        "expanded_200": "dain"
+      },
+      "errors": {
+        "initial": 3,
+        "continuation_200": 3,
+        "expanded_200": 1
+      },
+      "seen_in_original_training": true,
+      "seen_in_expanded_training": true
+    },
+    {
+      "id": "f4r_w0063",
+      "folio": "f4r",
+      "role": "historical_development",
+      "reference": "cthey",
+      "predictions": {
+        "initial": "thoy",
+        "continuation_200": "shoy",
+        "expanded_200": "thoy"
+      },
+      "errors": {
+        "initial": 2,
+        "continuation_200": 3,
+        "expanded_200": 2
+      },
+      "seen_in_original_training": false,
+      "seen_in_expanded_training": false
+    },
+    {
+      "id": "f4v_w0000",
+      "folio": "f4v",
+      "role": "historical_development",
+      "reference": "pchooiin",
+      "predictions": {
+        "initial": "cheolly",
+        "continuation_200": "cheolly",
+        "expanded_200": "cheaodi"
+      },
+      "errors": {
+        "initial": 5,
+        "continuation_200": 5,
+        "expanded_200": 5
+      },
+      "seen_in_original_training": false,
+      "seen_in_expanded_training": false
+    },
+    {
+      "id": "f4v_w0001",
+      "folio": "f4v",
+      "role": "historical_development",
+      "reference": "ksheo",
+      "predictions": {
+        "initial": "tchay",
+        "continuation_200": "tcha",
+        "expanded_200": "tchai"
+      },
+      "errors": {
+        "initial": 4,
+        "continuation_200": 4,
+        "expanded_200": 4
+      },
+      "seen_in_original_training": false,
+      "seen_in_expanded_training": false
+    },
+    {
+      "id": "f4v_w0002",
+      "folio": "f4v",
+      "role": "historical_development",
+      "reference": "kchoy",
+      "predictions": {
+        "initial": "cho",
+        "continuation_200": "thoy",
+        "expanded_200": "tcoa"
+      },
+      "errors": {
+        "initial": 2,
+        "continuation_200": 2,
+        "expanded_200": 3
+      },
+      "seen_in_original_training": false,
+      "seen_in_expanded_training": false
+    },
+    {
+      "id": "f4v_w0003",
+      "folio": "f4v",
+      "role": "historical_development",
+      "reference": "chopchy",
+      "predictions": {
+        "initial": "oko",
+        "continuation_200": "qoko",
+        "expanded_200": "cokcho"
+      },
+      "errors": {
+        "initial": 6,
+        "continuation_200": 6,
+        "expanded_200": 3
+      },
+      "seen_in_original_training": false,
+      "seen_in_expanded_training": false
+    },
+    {
+      "id": "f4v_w0004",
+      "folio": "f4v",
+      "role": "historical_development",
+      "reference": "dolds",
+      "predictions": {
+        "initial": "chom",
+        "continuation_200": "chol",
+        "expanded_200": "dei"
+      },
+      "errors": {
+        "initial": 5,
+        "continuation_200": 4,
+        "expanded_200": 4
+      },
+      "seen_in_original_training": false,
+      "seen_in_expanded_training": false
+    },
+    {
+      "id": "f4v_w0005",
+      "folio": "f4v",
+      "role": "historical_development",
+      "reference": "dlod",
+      "predictions": {
+        "initial": "sho",
+        "continuation_200": "sdo",
+        "expanded_200": "doao"
+      },
+      "errors": {
+        "initial": 3,
+        "continuation_200": 3,
+        "expanded_200": 3
+      },
+      "seen_in_original_training": false,
+      "seen_in_expanded_training": false
+    },
+    {
+      "id": "f4v_w0006",
+      "folio": "f4v",
+      "role": "historical_development",
+      "reference": "ol",
+      "predictions": {
+        "initial": "y",
+        "continuation_200": "y",
+        "expanded_200": "y"
+      },
+      "errors": {
+        "initial": 2,
+        "continuation_200": 2,
+        "expanded_200": 2
+      },
+      "seen_in_original_training": true,
+      "seen_in_expanded_training": true
+    },
+    {
+      "id": "f4v_w0007",
+      "folio": "f4v",
+      "role": "historical_development",
+      "reference": "chey",
+      "predictions": {
+        "initial": "chem",
+        "continuation_200": "chea",
+        "expanded_200": "chey"
+      },
+      "errors": {
+        "initial": 1,
+        "continuation_200": 1,
+        "expanded_200": 0
+      },
+      "seen_in_original_training": false,
+      "seen_in_expanded_training": false
+    },
+    {
+      "id": "f4v_w0008",
+      "folio": "f4v",
+      "role": "historical_development",
+      "reference": "chy",
+      "predictions": {
+        "initial": "choal",
+        "continuation_200": "hal",
+        "expanded_200": "chol"
+      },
+      "errors": {
+        "initial": 3,
+        "continuation_200": 3,
+        "expanded_200": 2
+      },
+      "seen_in_original_training": false,
+      "seen_in_expanded_training": true
+    },
+    {
+      "id": "f4v_w0009",
+      "folio": "f4v",
+      "role": "historical_development",
+      "reference": "cthy",
+      "predictions": {
+        "initial": "thol",
+        "continuation_200": "tshol",
+        "expanded_200": "chol"
+      },
+      "errors": {
+        "initial": 3,
+        "continuation_200": 4,
+        "expanded_200": 3
+      },
+      "seen_in_original_training": true,
+      "seen_in_expanded_training": true
+    },
+    {
+      "id": "f4v_w0010",
+      "folio": "f4v",
+      "role": "historical_development",
+      "reference": "shkchor",
+      "predictions": {
+        "initial": "ochor",
+        "continuation_200": "otchor",
+        "expanded_200": "choiior"
+      },
+      "errors": {
+        "initial": 3,
+        "continuation_200": 3,
+        "expanded_200": 4
+      },
+      "seen_in_original_training": false,
+      "seen_in_expanded_training": false
+    },
+    {
+      "id": "f4v_w0011",
+      "folio": "f4v",
+      "role": "historical_development",
+      "reference": "sheo",
+      "predictions": {
+        "initial": "chol",
+        "continuation_200": "cho",
+        "expanded_200": "shol"
+      },
+      "errors": {
+        "initial": 3,
+        "continuation_200": 2,
+        "expanded_200": 2
+      },
+      "seen_in_original_training": false,
+      "seen_in_expanded_training": true
+    },
+    {
+      "id": "f4v_w0012",
+      "folio": "f4v",
+      "role": "historical_development",
+      "reference": "cheory",
+      "predictions": {
+        "initial": "choly",
+        "continuation_200": "kholly",
+        "expanded_200": "choy"
+      },
+      "errors": {
+        "initial": 2,
+        "continuation_200": 4,
+        "expanded_200": 2
+      },
+      "seen_in_original_training": false,
+      "seen_in_expanded_training": false
+    },
+    {
+      "id": "f4v_w0013",
+      "folio": "f4v",
+      "role": "historical_development",
+      "reference": "choldy",
+      "predictions": {
+        "initial": "kcho",
+        "continuation_200": "tcholo",
+        "expanded_200": "okhooy"
+      },
+      "errors": {
+        "initial": 4,
+        "continuation_200": 3,
+        "expanded_200": 4
+      },
+      "seen_in_original_training": false,
+      "seen_in_expanded_training": false
+    },
+    {
+      "id": "f4v_w0014",
+      "folio": "f4v",
+      "role": "historical_development",
+      "reference": "sho",
+      "predictions": {
+        "initial": "chy",
+        "continuation_200": "chy",
+        "expanded_200": "chy"
+      },
+      "errors": {
+        "initial": 2,
+        "continuation_200": 2,
+        "expanded_200": 2
+      },
+      "seen_in_original_training": true,
+      "seen_in_expanded_training": true
+    },
+    {
+      "id": "f4v_w0015",
+      "folio": "f4v",
+      "role": "historical_development",
+      "reference": "sho",
+      "predictions": {
+        "initial": "oholy",
+        "continuation_200": "thol",
+        "expanded_200": "sho"
+      },
+      "errors": {
+        "initial": 3,
+        "continuation_200": 2,
+        "expanded_200": 0
+      },
+      "seen_in_original_training": true,
+      "seen_in_expanded_training": true
+    },
+    {
+      "id": "f4v_w0016",
+      "folio": "f4v",
+      "role": "historical_development",
+      "reference": "chaiin",
+      "predictions": {
+        "initial": "chor",
+        "continuation_200": "cho",
+        "expanded_200": "cheoir"
+      },
+      "errors": {
+        "initial": 4,
+        "continuation_200": 4,
+        "expanded_200": 3
+      },
+      "seen_in_original_training": false,
+      "seen_in_expanded_training": true
+    },
+    {
+      "id": "f4v_w0017",
+      "folio": "f4v",
+      "role": "historical_development",
+      "reference": "shaiin",
+      "predictions": {
+        "initial": "choy",
+        "continuation_200": "choy",
+        "expanded_200": "choii"
+      },
+      "errors": {
+        "initial": 5,
+        "continuation_200": 5,
+        "expanded_200": 3
+      },
+      "seen_in_original_training": false,
+      "seen_in_expanded_training": false
+    },
+    {
+      "id": "f4v_w0018",
+      "folio": "f4v",
+      "role": "historical_development",
+      "reference": "daiin",
+      "predictions": {
+        "initial": "cho",
+        "continuation_200": "cho",
+        "expanded_200": "danr"
+      },
+      "errors": {
+        "initial": 5,
+        "continuation_200": 5,
+        "expanded_200": 3
+      },
+      "seen_in_original_training": true,
+      "seen_in_expanded_training": true
+    },
+    {
+      "id": "f4v_w0019",
+      "folio": "f4v",
+      "role": "historical_development",
+      "reference": "qodaiin",
+      "predictions": {
+        "initial": "cho",
+        "continuation_200": "shoe",
+        "expanded_200": "doaiiin"
+      },
+      "errors": {
+        "initial": 7,
+        "continuation_200": 7,
+        "expanded_200": 3
+      },
+      "seen_in_original_training": true,
+      "seen_in_expanded_training": true
+    },
+    {
+      "id": "f4v_w0020",
+      "folio": "f4v",
+      "role": "historical_development",
+      "reference": "o",
+      "predictions": {
+        "initial": "r",
+        "continuation_200": "",
+        "expanded_200": "r"
+      },
+      "errors": {
+        "initial": 1,
+        "continuation_200": 1,
+        "expanded_200": 1
+      },
+      "seen_in_original_training": false,
+      "seen_in_expanded_training": false
+    },
+    {
+      "id": "f4v_w0021",
+      "folio": "f4v",
+      "role": "historical_development",
+      "reference": "ar",
+      "predictions": {
+        "initial": "cho",
+        "continuation_200": "sho",
+        "expanded_200": "chor"
+      },
+      "errors": {
+        "initial": 3,
+        "continuation_200": 3,
+        "expanded_200": 3
+      },
+      "seen_in_original_training": false,
+      "seen_in_expanded_training": false
+    },
+    {
+      "id": "f4v_w0022",
+      "folio": "f4v",
+      "role": "historical_development",
+      "reference": "am",
+      "predictions": {
+        "initial": "shom",
+        "continuation_200": "khm",
+        "expanded_200": "hom"
+      },
+      "errors": {
+        "initial": 3,
+        "continuation_200": 2,
+        "expanded_200": 2
+      },
+      "seen_in_original_training": true,
+      "seen_in_expanded_training": true
+    },
+    {
+      "id": "f4v_w0023",
+      "folio": "f4v",
+      "role": "historical_development",
+      "reference": "qokshy",
+      "predictions": {
+        "initial": "qokheayy",
+        "continuation_200": "qokekayy",
+        "expanded_200": "qochoy"
+      },
+      "errors": {
+        "initial": 4,
+        "continuation_200": 4,
+        "expanded_200": 3
+      },
+      "seen_in_original_training": false,
+      "seen_in_expanded_training": false
+    },
+    {
+      "id": "f4v_w0024",
+      "folio": "f4v",
+      "role": "historical_development",
+      "reference": "qocthy",
+      "predictions": {
+        "initial": "ckalal",
+        "continuation_200": "ckoaol",
+        "expanded_200": "kcthaay"
+      },
+      "errors": {
+        "initial": 6,
+        "continuation_200": 6,
+        "expanded_200": 4
+      },
+      "seen_in_original_training": false,
+      "seen_in_expanded_training": false
+    },
+    {
+      "id": "f4v_w0025",
+      "folio": "f4v",
+      "role": "historical_development",
+      "reference": "choteol",
+      "predictions": {
+        "initial": "okhol",
+        "continuation_200": "oshol",
+        "expanded_200": "hkchol"
+      },
+      "errors": {
+        "initial": 4,
+        "continuation_200": 4,
+        "expanded_200": 4
+      },
+      "seen_in_original_training": false,
+      "seen_in_expanded_training": false
+    },
+    {
+      "id": "f4v_w0026",
+      "folio": "f4v",
+      "role": "historical_development",
+      "reference": "daiin",
+      "predictions": {
+        "initial": "chi",
+        "continuation_200": "h",
+        "expanded_200": "daiin"
+      },
+      "errors": {
+        "initial": 4,
+        "continuation_200": 5,
+        "expanded_200": 0
+      },
+      "seen_in_original_training": true,
+      "seen_in_expanded_training": true
+    },
+    {
+      "id": "f4v_w0027",
+      "folio": "f4v",
+      "role": "historical_development",
+      "reference": "cthey",
+      "predictions": {
+        "initial": "ckhoy",
+        "continuation_200": "ckhoy",
+        "expanded_200": "cthe"
+      },
+      "errors": {
+        "initial": 2,
+        "continuation_200": 2,
+        "expanded_200": 1
+      },
+      "seen_in_original_training": false,
+      "seen_in_expanded_training": false
+    },
+    {
+      "id": "f4v_w0028",
+      "folio": "f4v",
+      "role": "historical_development",
+      "reference": "choaiin",
+      "predictions": {
+        "initial": "choln",
+        "continuation_200": "cho",
+        "expanded_200": "choaaiin"
+      },
+      "errors": {
+        "initial": 3,
+        "continuation_200": 4,
+        "expanded_200": 1
+      },
+      "seen_in_original_training": false,
+      "seen_in_expanded_training": false
+    },
+    {
+      "id": "f4v_w0029",
+      "folio": "f4v",
+      "role": "historical_development",
+      "reference": "shor",
+      "predictions": {
+        "initial": "chor",
+        "continuation_200": "sheor",
+        "expanded_200": "chor"
+      },
+      "errors": {
+        "initial": 1,
+        "continuation_200": 1,
+        "expanded_200": 1
+      },
+      "seen_in_original_training": true,
+      "seen_in_expanded_training": true
+    },
+    {
+      "id": "f4v_w0030",
+      "folio": "f4v",
+      "role": "historical_development",
+      "reference": "sheey",
+      "predictions": {
+        "initial": "cheoy",
+        "continuation_200": "shoy",
+        "expanded_200": "shoy"
+      },
+      "errors": {
+        "initial": 2,
+        "continuation_200": 2,
+        "expanded_200": 2
+      },
+      "seen_in_original_training": false,
+      "seen_in_expanded_training": false
+    },
+    {
+      "id": "f4v_w0031",
+      "folio": "f4v",
+      "role": "historical_development",
+      "reference": "cto",
+      "predictions": {
+        "initial": "ptho",
+        "continuation_200": "pha",
+        "expanded_200": "pthoy"
+      },
+      "errors": {
+        "initial": 2,
+        "continuation_200": 3,
+        "expanded_200": 3
+      },
+      "seen_in_original_training": false,
+      "seen_in_expanded_training": false
+    },
+    {
+      "id": "f4v_w0032",
+      "folio": "f4v",
+      "role": "historical_development",
+      "reference": "otoiin",
+      "predictions": {
+        "initial": "okoor",
+        "continuation_200": "okori",
+        "expanded_200": "shoir"
+      },
+      "errors": {
+        "initial": 4,
+        "continuation_200": 3,
+        "expanded_200": 4
+      },
+      "seen_in_original_training": false,
+      "seen_in_expanded_training": false
+    },
+    {
+      "id": "f4v_w0033",
+      "folio": "f4v",
+      "role": "historical_development",
+      "reference": "shey",
+      "predictions": {
+        "initial": "thy",
+        "continuation_200": "they",
+        "expanded_200": "hey"
+      },
+      "errors": {
+        "initial": 2,
+        "continuation_200": 1,
+        "expanded_200": 1
+      },
+      "seen_in_original_training": true,
+      "seen_in_expanded_training": true
+    },
+    {
+      "id": "f4v_w0034",
+      "folio": "f4v",
+      "role": "historical_development",
+      "reference": "qotchoiin",
+      "predictions": {
+        "initial": "ho",
+        "continuation_200": "qokho",
+        "expanded_200": "qohain"
+      },
+      "errors": {
+        "initial": 7,
+        "continuation_200": 5,
+        "expanded_200": 4
+      },
+      "seen_in_original_training": false,
+      "seen_in_expanded_training": false
+    },
+    {
+      "id": "f4v_w0035",
+      "folio": "f4v",
+      "role": "historical_development",
+      "reference": "chodain",
+      "predictions": {
+        "initial": "cheddain",
+        "continuation_200": "choin",
+        "expanded_200": "haoaiinr"
+      },
+      "errors": {
+        "initial": 2,
+        "continuation_200": 2,
+        "expanded_200": 5
+      },
+      "seen_in_original_training": false,
+      "seen_in_expanded_training": false
+    },
+    {
+      "id": "f4v_w0036",
+      "folio": "f4v",
+      "role": "historical_development",
+      "reference": "ytchoy",
+      "predictions": {
+        "initial": "choy",
+        "continuation_200": "shiy",
+        "expanded_200": "thoy"
+      },
+      "errors": {
+        "initial": 2,
+        "continuation_200": 4,
+        "expanded_200": 2
+      },
+      "seen_in_original_training": false,
+      "seen_in_expanded_training": true
+    },
+    {
+      "id": "f4v_w0037",
+      "folio": "f4v",
+      "role": "historical_development",
+      "reference": "shokchy",
+      "predictions": {
+        "initial": "choy",
+        "continuation_200": "kchoy",
+        "expanded_200": "shochor"
+      },
+      "errors": {
+        "initial": 4,
+        "continuation_200": 4,
+        "expanded_200": 3
+      },
+      "seen_in_original_training": false,
+      "seen_in_expanded_training": false
+    },
+    {
+      "id": "f4v_w0038",
+      "folio": "f4v",
+      "role": "historical_development",
+      "reference": "cphody",
+      "predictions": {
+        "initial": "tholy",
+        "continuation_200": "tholy",
+        "expanded_200": "thoy"
+      },
+      "errors": {
+        "initial": 3,
+        "continuation_200": 3,
+        "expanded_200": 3
+      },
+      "seen_in_original_training": false,
+      "seen_in_expanded_training": false
+    },
+    {
+      "id": "f4v_w0039",
+      "folio": "f4v",
+      "role": "historical_development",
+      "reference": "torchy",
+      "predictions": {
+        "initial": "tcholy",
+        "continuation_200": "tchoy",
+        "expanded_200": "tchoy"
+      },
+      "errors": {
+        "initial": 4,
+        "continuation_200": 3,
+        "expanded_200": 3
+      },
+      "seen_in_original_training": false,
+      "seen_in_expanded_training": false
+    },
+    {
+      "id": "f4v_w0040",
+      "folio": "f4v",
+      "role": "historical_development",
+      "reference": "sheeor",
+      "predictions": {
+        "initial": "chear",
+        "continuation_200": "char",
+        "expanded_200": "shar"
+      },
+      "errors": {
+        "initial": 3,
+        "continuation_200": 4,
+        "expanded_200": 3
+      },
+      "seen_in_original_training": false,
+      "seen_in_expanded_training": false
+    },
+    {
+      "id": "f4v_w0041",
+      "folio": "f4v",
+      "role": "historical_development",
+      "reference": "chor",
+      "predictions": {
+        "initial": "ocho",
+        "continuation_200": "cho",
+        "expanded_200": "chor"
+      },
+      "errors": {
+        "initial": 2,
+        "continuation_200": 1,
+        "expanded_200": 0
+      },
+      "seen_in_original_training": true,
+      "seen_in_expanded_training": true
+    },
+    {
+      "id": "f4v_w0042",
+      "folio": "f4v",
+      "role": "historical_development",
+      "reference": "shokchy",
+      "predictions": {
+        "initial": "okho",
+        "continuation_200": "okho",
+        "expanded_200": "sochon"
+      },
+      "errors": {
+        "initial": 4,
+        "continuation_200": 4,
+        "expanded_200": 4
+      },
+      "seen_in_original_training": false,
+      "seen_in_expanded_training": false
+    },
+    {
+      "id": "f4v_w0043",
+      "folio": "f4v",
+      "role": "historical_development",
+      "reference": "cphydy",
+      "predictions": {
+        "initial": "ochom",
+        "continuation_200": "choom",
+        "expanded_200": "hochom"
+      },
+      "errors": {
+        "initial": 5,
+        "continuation_200": 4,
+        "expanded_200": 6
+      },
+      "seen_in_original_training": false,
+      "seen_in_expanded_training": false
+    },
+    {
+      "id": "f4v_w0044",
+      "folio": "f4v",
+      "role": "historical_development",
+      "reference": "olaen",
+      "predictions": {
+        "initial": "khea",
+        "continuation_200": "cha",
+        "expanded_200": "dai"
+      },
+      "errors": {
+        "initial": 4,
+        "continuation_200": 4,
+        "expanded_200": 4
+      },
+      "seen_in_original_training": false,
+      "seen_in_expanded_training": false
+    },
+    {
+      "id": "f4v_w0045",
+      "folio": "f4v",
+      "role": "historical_development",
+      "reference": "chor",
+      "predictions": {
+        "initial": "cho",
+        "continuation_200": "cho",
+        "expanded_200": "chor"
+      },
+      "errors": {
+        "initial": 1,
+        "continuation_200": 1,
+        "expanded_200": 0
+      },
+      "seen_in_original_training": true,
+      "seen_in_expanded_training": true
+    },
+    {
+      "id": "f4v_w0046",
+      "folio": "f4v",
+      "role": "historical_development",
+      "reference": "cthol",
+      "predictions": {
+        "initial": "othol",
+        "continuation_200": "othol",
+        "expanded_200": "tho"
+      },
+      "errors": {
+        "initial": 1,
+        "continuation_200": 1,
+        "expanded_200": 2
+      },
+      "seen_in_original_training": true,
+      "seen_in_expanded_training": true
+    },
+    {
+      "id": "f4v_w0047",
+      "folio": "f4v",
+      "role": "historical_development",
+      "reference": "sho",
+      "predictions": {
+        "initial": "chol",
+        "continuation_200": "shol",
+        "expanded_200": "sho"
+      },
+      "errors": {
+        "initial": 2,
+        "continuation_200": 1,
+        "expanded_200": 0
+      },
+      "seen_in_original_training": true,
+      "seen_in_expanded_training": true
+    },
+    {
+      "id": "f4v_w0048",
+      "folio": "f4v",
+      "role": "historical_development",
+      "reference": "otor",
+      "predictions": {
+        "initial": "chor",
+        "continuation_200": "chor",
+        "expanded_200": "chor"
+      },
+      "errors": {
+        "initial": 2,
+        "continuation_200": 2,
+        "expanded_200": 2
+      },
+      "seen_in_original_training": false,
+      "seen_in_expanded_training": false
+    },
+    {
+      "id": "f4v_w0049",
+      "folio": "f4v",
+      "role": "historical_development",
+      "reference": "cthory",
+      "predictions": {
+        "initial": "othol",
+        "continuation_200": "othol",
+        "expanded_200": "tdadd"
+      },
+      "errors": {
+        "initial": 3,
+        "continuation_200": 3,
+        "expanded_200": 5
+      },
+      "seen_in_original_training": false,
+      "seen_in_expanded_training": false
+    },
+    {
+      "id": "f4v_w0050",
+      "folio": "f4v",
+      "role": "historical_development",
+      "reference": "qooko",
+      "predictions": {
+        "initial": "qoco",
+        "continuation_200": "qocho",
+        "expanded_200": "qocho"
+      },
+      "errors": {
+        "initial": 2,
+        "continuation_200": 2,
+        "expanded_200": 2
+      },
+      "seen_in_original_training": false,
+      "seen_in_expanded_training": false
+    },
+    {
+      "id": "f4v_w0051",
+      "folio": "f4v",
+      "role": "historical_development",
+      "reference": "iiincheom",
+      "predictions": {
+        "initial": "ochor",
+        "continuation_200": "ochorei",
+        "expanded_200": "ohoehoin"
+      },
+      "errors": {
+        "initial": 6,
+        "continuation_200": 8,
+        "expanded_200": 8
+      },
+      "seen_in_original_training": false,
+      "seen_in_expanded_training": false
+    },
+    {
+      "id": "f4v_w0052",
+      "folio": "f4v",
+      "role": "historical_development",
+      "reference": "chcthy",
+      "predictions": {
+        "initial": "ochoa",
+        "continuation_200": "ochoa",
+        "expanded_200": "ocheo"
+      },
+      "errors": {
+        "initial": 5,
+        "continuation_200": 5,
+        "expanded_200": 5
+      },
+      "seen_in_original_training": false,
+      "seen_in_expanded_training": false
+    },
+    {
+      "id": "f4v_w0053",
+      "folio": "f4v",
+      "role": "historical_development",
+      "reference": "shoky",
+      "predictions": {
+        "initial": "okoly",
+        "continuation_200": "qotkol",
+        "expanded_200": "qotoy"
+      },
+      "errors": {
+        "initial": 3,
+        "continuation_200": 5,
+        "expanded_200": 4
+      },
+      "seen_in_original_training": false,
+      "seen_in_expanded_training": false
+    },
+    {
+      "id": "f4v_w0054",
+      "folio": "f4v",
+      "role": "historical_development",
+      "reference": "daiin",
+      "predictions": {
+        "initial": "chan",
+        "continuation_200": "chan",
+        "expanded_200": "adiir"
+      },
+      "errors": {
+        "initial": 4,
+        "continuation_200": 4,
+        "expanded_200": 3
+      },
+      "seen_in_original_training": true,
+      "seen_in_expanded_training": true
+    },
+    {
+      "id": "f4v_w0055",
+      "folio": "f4v",
+      "role": "historical_development",
+      "reference": "otaiin",
+      "predictions": {
+        "initial": "okcha",
+        "continuation_200": "otcha",
+        "expanded_200": "okchaor"
+      },
+      "errors": {
+        "initial": 5,
+        "continuation_200": 4,
+        "expanded_200": 6
+      },
+      "seen_in_original_training": false,
+      "seen_in_expanded_training": true
+    },
+    {
+      "id": "f4v_w0056",
+      "folio": "f4v",
+      "role": "historical_development",
+      "reference": "sheo",
+      "predictions": {
+        "initial": "cho",
+        "continuation_200": "cho",
+        "expanded_200": "cho"
+      },
+      "errors": {
+        "initial": 2,
+        "continuation_200": 2,
+        "expanded_200": 2
+      },
+      "seen_in_original_training": false,
+      "seen_in_expanded_training": true
+    },
+    {
+      "id": "f4v_w0057",
+      "folio": "f4v",
+      "role": "historical_development",
+      "reference": "okeody",
+      "predictions": {
+        "initial": "otkhdoly",
+        "continuation_200": "qotkol",
+        "expanded_200": "octooaol"
+      },
+      "errors": {
+        "initial": 4,
+        "continuation_200": 5,
+        "expanded_200": 6
+      },
+      "seen_in_original_training": false,
+      "seen_in_expanded_training": false
+    },
+    {
+      "id": "f4v_w0058",
+      "folio": "f4v",
+      "role": "historical_development",
+      "reference": "chol",
+      "predictions": {
+        "initial": "hol",
+        "continuation_200": "sholl",
+        "expanded_200": "choly"
+      },
+      "errors": {
+        "initial": 1,
+        "continuation_200": 2,
+        "expanded_200": 1
+      },
+      "seen_in_original_training": true,
+      "seen_in_expanded_training": true
+    },
+    {
+      "id": "f4v_w0059",
+      "folio": "f4v",
+      "role": "historical_development",
+      "reference": "chokeody",
+      "predictions": {
+        "initial": "ochol",
+        "continuation_200": "ocheol",
+        "expanded_200": "chedoy"
+      },
+      "errors": {
+        "initial": 6,
+        "continuation_200": 5,
+        "expanded_200": 4
+      },
+      "seen_in_original_training": false,
+      "seen_in_expanded_training": false
+    },
+    {
+      "id": "f4v_w0060",
+      "folio": "f4v",
+      "role": "historical_development",
+      "reference": "sho",
+      "predictions": {
+        "initial": "kholy",
+        "continuation_200": "fhol",
+        "expanded_200": "yckho"
+      },
+      "errors": {
+        "initial": 3,
+        "continuation_200": 2,
+        "expanded_200": 3
+      },
+      "seen_in_original_training": true,
+      "seen_in_expanded_training": true
+    },
+    {
+      "id": "f4v_w0061",
+      "folio": "f4v",
+      "role": "historical_development",
+      "reference": "kcheor",
+      "predictions": {
+        "initial": "chor",
+        "continuation_200": "chor",
+        "expanded_200": "chaor"
+      },
+      "errors": {
+        "initial": 2,
+        "continuation_200": 2,
+        "expanded_200": 2
+      },
+      "seen_in_original_training": false,
+      "seen_in_expanded_training": false
+    },
+    {
+      "id": "f4v_w0062",
+      "folio": "f4v",
+      "role": "historical_development",
+      "reference": "shody",
+      "predictions": {
+        "initial": "tcholy",
+        "continuation_200": "cheol",
+        "expanded_200": "tchodm"
+      },
+      "errors": {
+        "initial": 3,
+        "continuation_200": 4,
+        "expanded_200": 3
+      },
+      "seen_in_original_training": false,
+      "seen_in_expanded_training": false
+    },
+    {
+      "id": "f4v_w0063",
+      "folio": "f4v",
+      "role": "historical_development",
+      "reference": "shtaiin",
+      "predictions": {
+        "initial": "tkho",
+        "continuation_200": "shoy",
+        "expanded_200": "ockoiy"
+      },
+      "errors": {
+        "initial": 6,
+        "continuation_200": 5,
+        "expanded_200": 6
+      },
+      "seen_in_original_training": false,
+      "seen_in_expanded_training": false
+    },
+    {
+      "id": "f4v_w0064",
+      "folio": "f4v",
+      "role": "historical_development",
+      "reference": "qotol",
+      "predictions": {
+        "initial": "qokol",
+        "continuation_200": "qokol",
+        "expanded_200": "qokol"
+      },
+      "errors": {
+        "initial": 1,
+        "continuation_200": 1,
+        "expanded_200": 1
+      },
+      "seen_in_original_training": false,
+      "seen_in_expanded_training": false
+    },
+    {
+      "id": "f4v_w0065",
+      "folio": "f4v",
+      "role": "historical_development",
+      "reference": "daiin",
+      "predictions": {
+        "initial": "chear",
+        "continuation_200": "shear",
+        "expanded_200": "daiirn"
+      },
+      "errors": {
+        "initial": 5,
+        "continuation_200": 5,
+        "expanded_200": 1
+      },
+      "seen_in_original_training": true,
+      "seen_in_expanded_training": true
+    },
+    {
+      "id": "f4v_w0066",
+      "folio": "f4v",
+      "role": "historical_development",
+      "reference": "qokoy",
+      "predictions": {
+        "initial": "okhoy",
+        "continuation_200": "qokho",
+        "expanded_200": "qokcho"
+      },
+      "errors": {
+        "initial": 2,
+        "continuation_200": 2,
+        "expanded_200": 3
+      },
+      "seen_in_original_training": false,
+      "seen_in_expanded_training": false
+    },
+    {
+      "id": "f4v_w0067",
+      "folio": "f4v",
+      "role": "historical_development",
+      "reference": "sho",
+      "predictions": {
+        "initial": "chol",
+        "continuation_200": "sho",
+        "expanded_200": "csho"
+      },
+      "errors": {
+        "initial": 2,
+        "continuation_200": 0,
+        "expanded_200": 1
+      },
+      "seen_in_original_training": true,
+      "seen_in_expanded_training": true
+    },
+    {
+      "id": "f4v_w0068",
+      "folio": "f4v",
+      "role": "historical_development",
+      "reference": "okeol",
+      "predictions": {
+        "initial": "oko",
+        "continuation_200": "okol",
+        "expanded_200": "ockhr"
+      },
+      "errors": {
+        "initial": 2,
+        "continuation_200": 1,
+        "expanded_200": 4
+      },
+      "seen_in_original_training": true,
+      "seen_in_expanded_training": true
+    },
+    {
+      "id": "f4v_w0069",
+      "folio": "f4v",
+      "role": "historical_development",
+      "reference": "s",
+      "predictions": {
+        "initial": "s",
+        "continuation_200": "s",
+        "expanded_200": "s"
+      },
+      "errors": {
+        "initial": 0,
+        "continuation_200": 0,
+        "expanded_200": 0
+      },
+      "seen_in_original_training": true,
+      "seen_in_expanded_training": true
+    },
+    {
+      "id": "f4v_w0070",
+      "folio": "f4v",
+      "role": "historical_development",
+      "reference": "keey",
+      "predictions": {
+        "initial": "cthy",
+        "continuation_200": "cthy",
+        "expanded_200": "pchoiy"
+      },
+      "errors": {
+        "initial": 3,
+        "continuation_200": 3,
+        "expanded_200": 5
+      },
+      "seen_in_original_training": false,
+      "seen_in_expanded_training": false
+    },
+    {
+      "id": "f4v_w0071",
+      "folio": "f4v",
+      "role": "historical_development",
+      "reference": "shar",
+      "predictions": {
+        "initial": "chor",
+        "continuation_200": "shor",
+        "expanded_200": "chor"
+      },
+      "errors": {
+        "initial": 2,
+        "continuation_200": 1,
+        "expanded_200": 2
+      },
+      "seen_in_original_training": true,
+      "seen_in_expanded_training": true
+    },
+    {
+      "id": "f4v_w0072",
+      "folio": "f4v",
+      "role": "historical_development",
+      "reference": "char",
+      "predictions": {
+        "initial": "cho",
+        "continuation_200": "cho",
+        "expanded_200": "chor"
+      },
+      "errors": {
+        "initial": 2,
+        "continuation_200": 2,
+        "expanded_200": 1
+      },
+      "seen_in_original_training": false,
+      "seen_in_expanded_training": true
+    },
+    {
+      "id": "f4v_w0073",
+      "folio": "f4v",
+      "role": "historical_development",
+      "reference": "ody",
+      "predictions": {
+        "initial": "hoy",
+        "continuation_200": "te",
+        "expanded_200": "hoy"
+      },
+      "errors": {
+        "initial": 2,
+        "continuation_200": 3,
+        "expanded_200": 2
+      },
+      "seen_in_original_training": false,
+      "seen_in_expanded_training": false
+    },
+    {
+      "id": "f4v_w0074",
+      "folio": "f4v",
+      "role": "historical_development",
+      "reference": "shody",
+      "predictions": {
+        "initial": "heoly",
+        "continuation_200": "heoly",
+        "expanded_200": "cheoey"
+      },
+      "errors": {
+        "initial": 3,
+        "continuation_200": 3,
+        "expanded_200": 3
+      },
+      "seen_in_original_training": false,
+      "seen_in_expanded_training": false
+    },
+    {
+      "id": "f4v_w0075",
+      "folio": "f4v",
+      "role": "historical_development",
+      "reference": "s",
+      "predictions": {
+        "initial": "s",
+        "continuation_200": "s",
+        "expanded_200": "s"
+      },
+      "errors": {
+        "initial": 0,
+        "continuation_200": 0,
+        "expanded_200": 0
+      },
+      "seen_in_original_training": true,
+      "seen_in_expanded_training": true
+    },
+    {
+      "id": "f4v_w0076",
+      "folio": "f4v",
+      "role": "historical_development",
+      "reference": "cheor",
+      "predictions": {
+        "initial": "chor",
+        "continuation_200": "chor",
+        "expanded_200": "shor"
+      },
+      "errors": {
+        "initial": 1,
+        "continuation_200": 1,
+        "expanded_200": 2
+      },
+      "seen_in_original_training": true,
+      "seen_in_expanded_training": true
+    },
+    {
+      "id": "f4v_w0077",
+      "folio": "f4v",
+      "role": "historical_development",
+      "reference": "chokody",
+      "predictions": {
+        "initial": "oky",
+        "continuation_200": "okoy",
+        "expanded_200": "okhoky"
+      },
+      "errors": {
+        "initial": 4,
+        "continuation_200": 3,
+        "expanded_200": 4
+      },
+      "seen_in_original_training": false,
+      "seen_in_expanded_training": false
+    },
+    {
+      "id": "f4v_w0078",
+      "folio": "f4v",
+      "role": "historical_development",
+      "reference": "shodaiin",
+      "predictions": {
+        "initial": "choal",
+        "continuation_200": "cheool",
+        "expanded_200": "chaadnr"
+      },
+      "errors": {
+        "initial": 5,
+        "continuation_200": 7,
+        "expanded_200": 6
+      },
+      "seen_in_original_training": true,
+      "seen_in_expanded_training": true
+    },
+    {
+      "id": "f4v_w0079",
+      "folio": "f4v",
+      "role": "historical_development",
+      "reference": "qoty",
+      "predictions": {
+        "initial": "qoto",
+        "continuation_200": "qoto",
+        "expanded_200": "qokdoy"
+      },
+      "errors": {
+        "initial": 1,
+        "continuation_200": 1,
+        "expanded_200": 3
+      },
+      "seen_in_original_training": true,
+      "seen_in_expanded_training": true
+    },
+    {
+      "id": "f4v_w0080",
+      "folio": "f4v",
+      "role": "historical_development",
+      "reference": "ochody",
+      "predictions": {
+        "initial": "cheoy",
+        "continuation_200": "cheoy",
+        "expanded_200": "chooy"
+      },
+      "errors": {
+        "initial": 3,
+        "continuation_200": 3,
+        "expanded_200": 2
+      },
+      "seen_in_original_training": false,
+      "seen_in_expanded_training": false
+    },
+    {
+      "id": "f4v_w0081",
+      "folio": "f4v",
+      "role": "historical_development",
+      "reference": "chykey",
+      "predictions": {
+        "initial": "yteor",
+        "continuation_200": "qoter",
+        "expanded_200": "qokeor"
+      },
+      "errors": {
+        "initial": 5,
+        "continuation_200": 5,
+        "expanded_200": 5
+      },
+      "seen_in_original_training": false,
+      "seen_in_expanded_training": false
+    },
+    {
+      "id": "f4v_w0082",
+      "folio": "f4v",
+      "role": "historical_development",
+      "reference": "chtody",
+      "predictions": {
+        "initial": "okheol",
+        "continuation_200": "khel",
+        "expanded_200": "ockheol"
+      },
+      "errors": {
+        "initial": 5,
+        "continuation_200": 5,
+        "expanded_200": 5
+      },
+      "seen_in_original_training": false,
+      "seen_in_expanded_training": false
+    },
+    {
+      "id": "f7r_w0000",
+      "folio": "f7r",
+      "role": "reserved",
+      "reference": "fchodaiin",
+      "predictions": {
+        "initial": "ochor",
+        "continuation_200": "ochol",
+        "expanded_200": "octhearl"
+      },
+      "errors": {
+        "initial": 6,
+        "continuation_200": 6,
+        "expanded_200": 7
+      },
+      "seen_in_original_training": false,
+      "seen_in_expanded_training": false
+    },
+    {
+      "id": "f7r_w0001",
+      "folio": "f7r",
+      "role": "reserved",
+      "reference": "shopchey",
+      "predictions": {
+        "initial": "oko",
+        "continuation_200": "oko",
+        "expanded_200": "cokhoir"
+      },
+      "errors": {
+        "initial": 7,
+        "continuation_200": 7,
+        "expanded_200": 7
+      },
+      "seen_in_original_training": false,
+      "seen_in_expanded_training": false
+    },
+    {
+      "id": "f7r_w0002",
+      "folio": "f7r",
+      "role": "reserved",
+      "reference": "qko",
+      "predictions": {
+        "initial": "",
+        "continuation_200": "",
+        "expanded_200": "y"
+      },
+      "errors": {
+        "initial": 3,
+        "continuation_200": 3,
+        "expanded_200": 3
+      },
+      "seen_in_original_training": false,
+      "seen_in_expanded_training": false
+    },
+    {
+      "id": "f7r_w0003",
+      "folio": "f7r",
+      "role": "reserved",
+      "reference": "shey",
+      "predictions": {
+        "initial": "po",
+        "continuation_200": "po",
+        "expanded_200": "dhay"
+      },
+      "errors": {
+        "initial": 4,
+        "continuation_200": 4,
+        "expanded_200": 2
+      },
+      "seen_in_original_training": true,
+      "seen_in_expanded_training": true
+    },
+    {
+      "id": "f7r_w0004",
+      "folio": "f7r",
+      "role": "reserved",
+      "reference": "qoos",
+      "predictions": {
+        "initial": "qoodol",
+        "continuation_200": "qodao",
+        "expanded_200": "or"
+      },
+      "errors": {
+        "initial": 3,
+        "continuation_200": 3,
+        "expanded_200": 3
+      },
+      "seen_in_original_training": false,
+      "seen_in_expanded_training": false
+    },
+    {
+      "id": "f7r_w0005",
+      "folio": "f7r",
+      "role": "reserved",
+      "reference": "sheey",
+      "predictions": {
+        "initial": "khoy",
+        "continuation_200": "choy",
+        "expanded_200": "chay"
+      },
+      "errors": {
+        "initial": 3,
+        "continuation_200": 3,
+        "expanded_200": 3
+      },
+      "seen_in_original_training": false,
+      "seen_in_expanded_training": false
+    },
+    {
+      "id": "f7r_w0006",
+      "folio": "f7r",
+      "role": "reserved",
+      "reference": "chorochy",
+      "predictions": {
+        "initial": "chool",
+        "continuation_200": "ycholy",
+        "expanded_200": "chooly"
+      },
+      "errors": {
+        "initial": 4,
+        "continuation_200": 5,
+        "expanded_200": 3
+      },
+      "seen_in_original_training": false,
+      "seen_in_expanded_training": false
+    },
+    {
+      "id": "f7r_w0007",
+      "folio": "f7r",
+      "role": "reserved",
+      "reference": "dcheey",
+      "predictions": {
+        "initial": "eol",
+        "continuation_200": "deo",
+        "expanded_200": "daim"
+      },
+      "errors": {
+        "initial": 5,
+        "continuation_200": 4,
+        "expanded_200": 5
+      },
+      "seen_in_original_training": false,
+      "seen_in_expanded_training": false
+    },
+    {
+      "id": "f7r_w0008",
+      "folio": "f7r",
+      "role": "reserved",
+      "reference": "keor",
+      "predictions": {
+        "initial": "tho",
+        "continuation_200": "tho",
+        "expanded_200": "kshor"
+      },
+      "errors": {
+        "initial": 3,
+        "continuation_200": 3,
+        "expanded_200": 2
+      },
+      "seen_in_original_training": false,
+      "seen_in_expanded_training": false
+    },
+    {
+      "id": "f7r_w0009",
+      "folio": "f7r",
+      "role": "reserved",
+      "reference": "shor",
+      "predictions": {
+        "initial": "ol",
+        "continuation_200": "o",
+        "expanded_200": "thoar"
+      },
+      "errors": {
+        "initial": 3,
+        "continuation_200": 3,
+        "expanded_200": 2
+      },
+      "seen_in_original_training": true,
+      "seen_in_expanded_training": true
+    },
+    {
+      "id": "f7r_w0010",
+      "folio": "f7r",
+      "role": "reserved",
+      "reference": "dold",
+      "predictions": {
+        "initial": "do",
+        "continuation_200": "do",
+        "expanded_200": "dam"
+      },
+      "errors": {
+        "initial": 2,
+        "continuation_200": 2,
+        "expanded_200": 3
+      },
+      "seen_in_original_training": false,
+      "seen_in_expanded_training": false
+    },
+    {
+      "id": "f7r_w0011",
+      "folio": "f7r",
+      "role": "reserved",
+      "reference": "dchey",
+      "predictions": {
+        "initial": "otdo",
+        "continuation_200": "ctdao",
+        "expanded_200": "otay"
+      },
+      "errors": {
+        "initial": 5,
+        "continuation_200": 5,
+        "expanded_200": 4
+      },
+      "seen_in_original_training": false,
+      "seen_in_expanded_training": false
+    },
+    {
+      "id": "f7r_w0012",
+      "folio": "f7r",
+      "role": "reserved",
+      "reference": "kchey",
+      "predictions": {
+        "initial": "ty",
+        "continuation_200": "yky",
+        "expanded_200": "ytchy"
+      },
+      "errors": {
+        "initial": 4,
+        "continuation_200": 4,
+        "expanded_200": 3
+      },
+      "seen_in_original_training": false,
+      "seen_in_expanded_training": true
+    },
+    {
+      "id": "f7r_w0013",
+      "folio": "f7r",
+      "role": "reserved",
+      "reference": "otchy",
+      "predictions": {
+        "initial": "okol",
+        "continuation_200": "okol",
+        "expanded_200": "thay"
+      },
+      "errors": {
+        "initial": 4,
+        "continuation_200": 4,
+        "expanded_200": 3
+      },
+      "seen_in_original_training": false,
+      "seen_in_expanded_training": true
+    },
+    {
+      "id": "f7r_w0014",
+      "folio": "f7r",
+      "role": "reserved",
+      "reference": "cheody",
+      "predictions": {
+        "initial": "chol",
+        "continuation_200": "chol",
+        "expanded_200": "ychol"
+      },
+      "errors": {
+        "initial": 3,
+        "continuation_200": 3,
+        "expanded_200": 4
+      },
+      "seen_in_original_training": true,
+      "seen_in_expanded_training": true
+    },
+    {
+      "id": "f7r_w0015",
+      "folio": "f7r",
+      "role": "reserved",
+      "reference": "oeeees",
+      "predictions": {
+        "initial": "chor",
+        "continuation_200": "chor",
+        "expanded_200": "cheor"
+      },
+      "errors": {
+        "initial": 6,
+        "continuation_200": 6,
+        "expanded_200": 5
+      },
+      "seen_in_original_training": false,
+      "seen_in_expanded_training": false
+    },
+    {
+      "id": "f7r_w0016",
+      "folio": "f7r",
+      "role": "reserved",
+      "reference": "cheodaiin",
+      "predictions": {
+        "initial": "shor",
+        "continuation_200": "shon",
+        "expanded_200": "holeir"
+      },
+      "errors": {
+        "initial": 7,
+        "continuation_200": 6,
+        "expanded_200": 6
+      },
+      "seen_in_original_training": false,
+      "seen_in_expanded_training": false
+    },
+    {
+      "id": "f7r_w0017",
+      "folio": "f7r",
+      "role": "reserved",
+      "reference": "sheey",
+      "predictions": {
+        "initial": "chol",
+        "continuation_200": "choly",
+        "expanded_200": "sheoy"
+      },
+      "errors": {
+        "initial": 4,
+        "continuation_200": 3,
+        "expanded_200": 1
+      },
+      "seen_in_original_training": false,
+      "seen_in_expanded_training": false
+    },
+    {
+      "id": "f7r_w0018",
+      "folio": "f7r",
+      "role": "reserved",
+      "reference": "ytcheey",
+      "predictions": {
+        "initial": "oto",
+        "continuation_200": "oo",
+        "expanded_200": "okoi"
+      },
+      "errors": {
+        "initial": 6,
+        "continuation_200": 7,
+        "expanded_200": 7
+      },
+      "seen_in_original_training": false,
+      "seen_in_expanded_training": false
+    },
+    {
+      "id": "f7r_w0019",
+      "folio": "f7r",
+      "role": "reserved",
+      "reference": "qotchy",
+      "predictions": {
+        "initial": "ctol",
+        "continuation_200": "ctol",
+        "expanded_200": "ytatl"
+      },
+      "errors": {
+        "initial": 5,
+        "continuation_200": 5,
+        "expanded_200": 5
+      },
+      "seen_in_original_training": false,
+      "seen_in_expanded_training": false
+    },
+    {
+      "id": "f7r_w0020",
+      "folio": "f7r",
+      "role": "reserved",
+      "reference": "chald",
+      "predictions": {
+        "initial": "hdl",
+        "continuation_200": "hol",
+        "expanded_200": "hol"
+      },
+      "errors": {
+        "initial": 3,
+        "continuation_200": 3,
+        "expanded_200": 3
+      },
+      "seen_in_original_training": false,
+      "seen_in_expanded_training": false
+    },
+    {
+      "id": "f7r_w0021",
+      "folio": "f7r",
+      "role": "reserved",
+      "reference": "qokcho",
+      "predictions": {
+        "initial": "qotoy",
+        "continuation_200": "qotoy",
+        "expanded_200": "qodoy"
+      },
+      "errors": {
+        "initial": 4,
+        "continuation_200": 4,
+        "expanded_200": 4
+      },
+      "seen_in_original_training": false,
+      "seen_in_expanded_training": false
+    },
+    {
+      "id": "f7r_w0022",
+      "folio": "f7r",
+      "role": "reserved",
+      "reference": "cho",
+      "predictions": {
+        "initial": "ol",
+        "continuation_200": "hol",
+        "expanded_200": "dol"
+      },
+      "errors": {
+        "initial": 3,
+        "continuation_200": 2,
+        "expanded_200": 3
+      },
+      "seen_in_original_training": true,
+      "seen_in_expanded_training": true
+    },
+    {
+      "id": "f7r_w0023",
+      "folio": "f7r",
+      "role": "reserved",
+      "reference": "lochey",
+      "predictions": {
+        "initial": "sdhol",
+        "continuation_200": "yshoeolo",
+        "expanded_200": "hedla"
+      },
+      "errors": {
+        "initial": 5,
+        "continuation_200": 7,
+        "expanded_200": 6
+      },
+      "seen_in_original_training": false,
+      "seen_in_expanded_training": false
+    },
+    {
+      "id": "f7r_w0024",
+      "folio": "f7r",
+      "role": "reserved",
+      "reference": "daiin",
+      "predictions": {
+        "initial": "hor",
+        "continuation_200": "hor",
+        "expanded_200": "daiin"
+      },
+      "errors": {
+        "initial": 5,
+        "continuation_200": 5,
+        "expanded_200": 0
+      },
+      "seen_in_original_training": true,
+      "seen_in_expanded_training": true
+    },
+    {
+      "id": "f7r_w0025",
+      "folio": "f7r",
+      "role": "reserved",
+      "reference": "ychey",
+      "predictions": {
+        "initial": "cdho",
+        "continuation_200": "sdo",
+        "expanded_200": "chadc"
+      },
+      "errors": {
+        "initial": 4,
+        "continuation_200": 5,
+        "expanded_200": 4
+      },
+      "seen_in_original_training": false,
+      "seen_in_expanded_training": false
+    },
+    {
+      "id": "f7r_w0026",
+      "folio": "f7r",
+      "role": "reserved",
+      "reference": "kchos",
+      "predictions": {
+        "initial": "sho",
+        "continuation_200": "shol",
+        "expanded_200": "haiiin"
+      },
+      "errors": {
+        "initial": 3,
+        "continuation_200": 3,
+        "expanded_200": 6
+      },
+      "seen_in_original_training": false,
+      "seen_in_expanded_training": true
+    },
+    {
+      "id": "f7r_w0027",
+      "folio": "f7r",
+      "role": "reserved",
+      "reference": "odaiin",
+      "predictions": {
+        "initial": "ochor",
+        "continuation_200": "ochor",
+        "expanded_200": "ochonr"
+      },
+      "errors": {
+        "initial": 5,
+        "continuation_200": 5,
+        "expanded_200": 5
+      },
+      "seen_in_original_training": true,
+      "seen_in_expanded_training": true
+    },
+    {
+      "id": "f7r_w0028",
+      "folio": "f7r",
+      "role": "reserved",
+      "reference": "oaiir",
+      "predictions": {
+        "initial": "cho",
+        "continuation_200": "ch",
+        "expanded_200": "ktoers"
+      },
+      "errors": {
+        "initial": 5,
+        "continuation_200": 5,
+        "expanded_200": 5
+      },
+      "seen_in_original_training": false,
+      "seen_in_expanded_training": false
+    },
+    {
+      "id": "f7r_w0029",
+      "folio": "f7r",
+      "role": "reserved",
+      "reference": "otaiin",
+      "predictions": {
+        "initial": "okhor",
+        "continuation_200": "oko",
+        "expanded_200": "otchaiirn"
+      },
+      "errors": {
+        "initial": 5,
+        "continuation_200": 5,
+        "expanded_200": 3
+      },
+      "seen_in_original_training": false,
+      "seen_in_expanded_training": true
+    },
+    {
+      "id": "f7r_w0030",
+      "folio": "f7r",
+      "role": "reserved",
+      "reference": "ksholochey",
+      "predictions": {
+        "initial": "kchoi",
+        "continuation_200": "cheoiri",
+        "expanded_200": "ckchaii"
+      },
+      "errors": {
+        "initial": 7,
+        "continuation_200": 8,
+        "expanded_200": 9
+      },
+      "seen_in_original_training": false,
+      "seen_in_expanded_training": false
+    },
+    {
+      "id": "f7r_w0031",
+      "folio": "f7r",
+      "role": "reserved",
+      "reference": "qotoees",
+      "predictions": {
+        "initial": "okor",
+        "continuation_200": "okor",
+        "expanded_200": "othoain"
+      },
+      "errors": {
+        "initial": 5,
+        "continuation_200": 5,
+        "expanded_200": 5
+      },
+      "seen_in_original_training": false,
+      "seen_in_expanded_training": false
+    },
+    {
+      "id": "f7r_w0032",
+      "folio": "f7r",
+      "role": "reserved",
+      "reference": "chkoldy",
+      "predictions": {
+        "initial": "col",
+        "continuation_200": "tol",
+        "expanded_200": "tolm"
+      },
+      "errors": {
+        "initial": 4,
+        "continuation_200": 5,
+        "expanded_200": 5
+      },
+      "seen_in_original_training": false,
+      "seen_in_expanded_training": false
+    },
+    {
+      "id": "f7r_w0033",
+      "folio": "f7r",
+      "role": "reserved",
+      "reference": "otchor",
+      "predictions": {
+        "initial": "tshor",
+        "continuation_200": "sho",
+        "expanded_200": "tsho"
+      },
+      "errors": {
+        "initial": 2,
+        "continuation_200": 4,
+        "expanded_200": 3
+      },
+      "seen_in_original_training": true,
+      "seen_in_expanded_training": true
+    },
+    {
+      "id": "f7r_w0034",
+      "folio": "f7r",
+      "role": "reserved",
+      "reference": "choaiin",
+      "predictions": {
+        "initial": "ochor",
+        "continuation_200": "chor",
+        "expanded_200": "chor"
+      },
+      "errors": {
+        "initial": 5,
+        "continuation_200": 4,
+        "expanded_200": 4
+      },
+      "seen_in_original_training": false,
+      "seen_in_expanded_training": false
+    },
+    {
+      "id": "f7r_w0035",
+      "folio": "f7r",
+      "role": "reserved",
+      "reference": "dshoy",
+      "predictions": {
+        "initial": "chao",
+        "continuation_200": "dao",
+        "expanded_200": "cdaoim"
+      },
+      "errors": {
+        "initial": 4,
+        "continuation_200": 3,
+        "expanded_200": 5
+      },
+      "seen_in_original_training": false,
+      "seen_in_expanded_training": false
+    },
+    {
+      "id": "f7r_w0036",
+      "folio": "f7r",
+      "role": "reserved",
+      "reference": "cthol",
+      "predictions": {
+        "initial": "okol",
+        "continuation_200": "oko",
+        "expanded_200": "kho"
+      },
+      "errors": {
+        "initial": 3,
+        "continuation_200": 4,
+        "expanded_200": 3
+      },
+      "seen_in_original_training": true,
+      "seen_in_expanded_training": true
+    },
+    {
+      "id": "f7r_w0037",
+      "folio": "f7r",
+      "role": "reserved",
+      "reference": "chol",
+      "predictions": {
+        "initial": "chol",
+        "continuation_200": "chol",
+        "expanded_200": "chol"
+      },
+      "errors": {
+        "initial": 0,
+        "continuation_200": 0,
+        "expanded_200": 0
+      },
+      "seen_in_original_training": true,
+      "seen_in_expanded_training": true
+    },
+    {
+      "id": "f7r_w0038",
+      "folio": "f7r",
+      "role": "reserved",
+      "reference": "otchol",
+      "predictions": {
+        "initial": "oktor",
+        "continuation_200": "oktor",
+        "expanded_200": "oktoao"
+      },
+      "errors": {
+        "initial": 4,
+        "continuation_200": 4,
+        "expanded_200": 4
+      },
+      "seen_in_original_training": true,
+      "seen_in_expanded_training": true
+    },
+    {
+      "id": "f7r_w0039",
+      "folio": "f7r",
+      "role": "reserved",
+      "reference": "dain",
+      "predictions": {
+        "initial": "tda",
+        "continuation_200": "da",
+        "expanded_200": "dam"
+      },
+      "errors": {
+        "initial": 3,
+        "continuation_200": 2,
+        "expanded_200": 2
+      },
+      "seen_in_original_training": true,
+      "seen_in_expanded_training": true
+    },
+    {
+      "id": "f7r_w0040",
+      "folio": "f7r",
+      "role": "reserved",
+      "reference": "shody",
+      "predictions": {
+        "initial": "qokol",
+        "continuation_200": "qokhol",
+        "expanded_200": "choly"
+      },
+      "errors": {
+        "initial": 5,
+        "continuation_200": 5,
+        "expanded_200": 2
+      },
+      "seen_in_original_training": false,
+      "seen_in_expanded_training": false
+    },
+    {
+      "id": "f7r_w0041",
+      "folio": "f7r",
+      "role": "reserved",
+      "reference": "shol",
+      "predictions": {
+        "initial": "thl",
+        "continuation_200": "thly",
+        "expanded_200": "thoy"
+      },
+      "errors": {
+        "initial": 2,
+        "continuation_200": 3,
+        "expanded_200": 2
+      },
+      "seen_in_original_training": true,
+      "seen_in_expanded_training": true
+    },
+    {
+      "id": "f7r_w0042",
+      "folio": "f7r",
+      "role": "reserved",
+      "reference": "chotchy",
+      "predictions": {
+        "initial": "okodlly",
+        "continuation_200": "okcodlm",
+        "expanded_200": "kochohrm"
+      },
+      "errors": {
+        "initial": 5,
+        "continuation_200": 7,
+        "expanded_200": 6
+      },
+      "seen_in_original_training": false,
+      "seen_in_expanded_training": false
+    },
+    {
+      "id": "f7r_w0043",
+      "folio": "f7r",
+      "role": "reserved",
+      "reference": "okchey",
+      "predictions": {
+        "initial": "okol",
+        "continuation_200": "otol",
+        "expanded_200": "otchol"
+      },
+      "errors": {
+        "initial": 4,
+        "continuation_200": 5,
+        "expanded_200": 3
+      },
+      "seen_in_original_training": false,
+      "seen_in_expanded_training": true
+    },
+    {
+      "id": "f7r_w0044",
+      "folio": "f7r",
+      "role": "reserved",
+      "reference": "deeeese",
+      "predictions": {
+        "initial": "cheor",
+        "continuation_200": "haor",
+        "expanded_200": "daoir"
+      },
+      "errors": {
+        "initial": 6,
+        "continuation_200": 7,
+        "expanded_200": 6
+      },
+      "seen_in_original_training": false,
+      "seen_in_expanded_training": false
+    },
+    {
+      "id": "f7r_w0045",
+      "folio": "f7r",
+      "role": "reserved",
+      "reference": "choty",
+      "predictions": {
+        "initial": "oktoly",
+        "continuation_200": "okoy",
+        "expanded_200": "qoteoy"
+      },
+      "errors": {
+        "initial": 4,
+        "continuation_200": 3,
+        "expanded_200": 4
+      },
+      "seen_in_original_training": false,
+      "seen_in_expanded_training": false
+    },
+    {
+      "id": "f7r_w0046",
+      "folio": "f7r",
+      "role": "reserved",
+      "reference": "qokchy",
+      "predictions": {
+        "initial": "qokeao",
+        "continuation_200": "qoea",
+        "expanded_200": "qoey"
+      },
+      "errors": {
+        "initial": 3,
+        "continuation_200": 4,
+        "expanded_200": 3
+      },
+      "seen_in_original_training": true,
+      "seen_in_expanded_training": true
+    },
+    {
+      "id": "f7r_w0047",
+      "folio": "f7r",
+      "role": "reserved",
+      "reference": "shol",
+      "predictions": {
+        "initial": "ol",
+        "continuation_200": "hol",
+        "expanded_200": "ol"
+      },
+      "errors": {
+        "initial": 2,
+        "continuation_200": 1,
+        "expanded_200": 2
+      },
+      "seen_in_original_training": true,
+      "seen_in_expanded_training": true
+    },
+    {
+      "id": "f7r_w0048",
+      "folio": "f7r",
+      "role": "reserved",
+      "reference": "keey",
+      "predictions": {
+        "initial": "y",
+        "continuation_200": "yy",
+        "expanded_200": "cy"
+      },
+      "errors": {
+        "initial": 3,
+        "continuation_200": 3,
+        "expanded_200": 3
+      },
+      "seen_in_original_training": false,
+      "seen_in_expanded_training": false
+    },
+    {
+      "id": "f7r_w0049",
+      "folio": "f7r",
+      "role": "reserved",
+      "reference": "choty",
+      "predictions": {
+        "initial": "ckaoy",
+        "continuation_200": "key",
+        "expanded_200": "ckhy"
+      },
+      "errors": {
+        "initial": 3,
+        "continuation_200": 4,
+        "expanded_200": 3
+      },
+      "seen_in_original_training": false,
+      "seen_in_expanded_training": false
+    },
+    {
+      "id": "f7r_w0050",
+      "folio": "f7r",
+      "role": "reserved",
+      "reference": "dain",
+      "predictions": {
+        "initial": "sda",
+        "continuation_200": "da",
+        "expanded_200": "daiin"
+      },
+      "errors": {
+        "initial": 3,
+        "continuation_200": 2,
+        "expanded_200": 1
+      },
+      "seen_in_original_training": true,
+      "seen_in_expanded_training": true
+    },
+    {
+      "id": "f7r_w0051",
+      "folio": "f7r",
+      "role": "reserved",
+      "reference": "qokechy",
+      "predictions": {
+        "initial": "qokchoy",
+        "continuation_200": "qokcho",
+        "expanded_200": "qokcho"
+      },
+      "errors": {
+        "initial": 2,
+        "continuation_200": 2,
+        "expanded_200": 2
+      },
+      "seen_in_original_training": false,
+      "seen_in_expanded_training": false
+    },
+    {
+      "id": "f7r_w0052",
+      "folio": "f7r",
+      "role": "reserved",
+      "reference": "olchoiin",
+      "predictions": {
+        "initial": "cheo",
+        "continuation_200": "de",
+        "expanded_200": "daiiin"
+      },
+      "errors": {
+        "initial": 6,
+        "continuation_200": 8,
+        "expanded_200": 5
+      },
+      "seen_in_original_training": false,
+      "seen_in_expanded_training": false
+    },
+    {
+      "id": "f7r_w0053",
+      "folio": "f7r",
+      "role": "reserved",
+      "reference": "chol",
+      "predictions": {
+        "initial": "dol",
+        "continuation_200": "dol",
+        "expanded_200": "hol"
+      },
+      "errors": {
+        "initial": 2,
+        "continuation_200": 2,
+        "expanded_200": 1
+      },
+      "seen_in_original_training": true,
+      "seen_in_expanded_training": true
+    },
+    {
+      "id": "f7r_w0054",
+      "folio": "f7r",
+      "role": "reserved",
+      "reference": "cphey",
+      "predictions": {
+        "initial": "otly",
+        "continuation_200": "otly",
+        "expanded_200": "ytoy"
+      },
+      "errors": {
+        "initial": 4,
+        "continuation_200": 4,
+        "expanded_200": 4
+      },
+      "seen_in_original_training": false,
+      "seen_in_expanded_training": false
+    },
+    {
+      "id": "f7r_w0055",
+      "folio": "f7r",
+      "role": "reserved",
+      "reference": "shckhy",
+      "predictions": {
+        "initial": "yho",
+        "continuation_200": "yeo",
+        "expanded_200": "otoy"
+      },
+      "errors": {
+        "initial": 5,
+        "continuation_200": 6,
+        "expanded_200": 5
+      },
+      "seen_in_original_training": false,
+      "seen_in_expanded_training": true
+    },
+    {
+      "id": "f7r_w0056",
+      "folio": "f7r",
+      "role": "reserved",
+      "reference": "chochy",
+      "predictions": {
+        "initial": "cho",
+        "continuation_200": "eo",
+        "expanded_200": "cea"
+      },
+      "errors": {
+        "initial": 3,
+        "continuation_200": 5,
+        "expanded_200": 5
+      },
+      "seen_in_original_training": false,
+      "seen_in_expanded_training": false
+    },
+    {
+      "id": "f7r_w0057",
+      "folio": "f7r",
+      "role": "reserved",
+      "reference": "kchod",
+      "predictions": {
+        "initial": "sho",
+        "continuation_200": "sho",
+        "expanded_200": "ksho"
+      },
+      "errors": {
+        "initial": 3,
+        "continuation_200": 3,
+        "expanded_200": 2
+      },
+      "seen_in_original_training": false,
+      "seen_in_expanded_training": false
+    },
+    {
+      "id": "f7r_w0058",
+      "folio": "f7r",
+      "role": "reserved",
+      "reference": "schain",
+      "predictions": {
+        "initial": "cholol",
+        "continuation_200": "ceoll",
+        "expanded_200": "ceool"
+      },
+      "errors": {
+        "initial": 5,
+        "continuation_200": 5,
+        "expanded_200": 5
+      },
+      "seen_in_original_training": false,
+      "seen_in_expanded_training": false
+    },
+    {
+      "id": "f7r_w0059",
+      "folio": "f7r",
+      "role": "reserved",
+      "reference": "chor",
+      "predictions": {
+        "initial": "shor",
+        "continuation_200": "shor",
+        "expanded_200": "chor"
+      },
+      "errors": {
+        "initial": 1,
+        "continuation_200": 1,
+        "expanded_200": 0
+      },
+      "seen_in_original_training": true,
+      "seen_in_expanded_training": true
+    },
+    {
+      "id": "f7r_w0060",
+      "folio": "f7r",
+      "role": "reserved",
+      "reference": "daiin",
+      "predictions": {
+        "initial": "shor",
+        "continuation_200": "shor",
+        "expanded_200": "sdo"
+      },
+      "errors": {
+        "initial": 5,
+        "continuation_200": 5,
+        "expanded_200": 5
+      },
+      "seen_in_original_training": true,
+      "seen_in_expanded_training": true
+    },
+    {
+      "id": "f7r_w0061",
+      "folio": "f7r",
+      "role": "reserved",
+      "reference": "chckhy",
+      "predictions": {
+        "initial": "choay",
+        "continuation_200": "ocha",
+        "expanded_200": "yocheo"
+      },
+      "errors": {
+        "initial": 3,
+        "continuation_200": 4,
+        "expanded_200": 5
+      },
+      "seen_in_original_training": false,
+      "seen_in_expanded_training": true
+    },
+    {
+      "id": "f7v_w0000",
+      "folio": "f7v",
+      "role": "reserved",
+      "reference": "polyshy",
+      "predictions": {
+        "initial": "tha",
+        "continuation_200": "tha",
+        "expanded_200": "ycthayi"
+      },
+      "errors": {
+        "initial": 6,
+        "continuation_200": 6,
+        "expanded_200": 7
+      },
+      "seen_in_original_training": false,
+      "seen_in_expanded_training": false
+    },
+    {
+      "id": "f7v_w0001",
+      "folio": "f7v",
+      "role": "reserved",
+      "reference": "shey",
+      "predictions": {
+        "initial": "thy",
+        "continuation_200": "thy",
+        "expanded_200": "ol"
+      },
+      "errors": {
+        "initial": 2,
+        "continuation_200": 2,
+        "expanded_200": 4
+      },
+      "seen_in_original_training": true,
+      "seen_in_expanded_training": true
+    },
+    {
+      "id": "f7v_w0002",
+      "folio": "f7v",
+      "role": "reserved",
+      "reference": "tchody",
+      "predictions": {
+        "initial": "cthl",
+        "continuation_200": "cthol",
+        "expanded_200": "tdaly"
+      },
+      "errors": {
+        "initial": 5,
+        "continuation_200": 4,
+        "expanded_200": 4
+      },
+      "seen_in_original_training": false,
+      "seen_in_expanded_training": true
+    },
+    {
+      "id": "f7v_w0003",
+      "folio": "f7v",
+      "role": "reserved",
+      "reference": "qopchy",
+      "predictions": {
+        "initial": "qokhy",
+        "continuation_200": "qokchoy",
+        "expanded_200": "qocho"
+      },
+      "errors": {
+        "initial": 2,
+        "continuation_200": 2,
+        "expanded_200": 2
+      },
+      "seen_in_original_training": false,
+      "seen_in_expanded_training": false
+    },
+    {
+      "id": "f7v_w0004",
+      "folio": "f7v",
+      "role": "reserved",
+      "reference": "otshol",
+      "predictions": {
+        "initial": "ctol",
+        "continuation_200": "thol",
+        "expanded_200": "cho"
+      },
+      "errors": {
+        "initial": 3,
+        "continuation_200": 2,
+        "expanded_200": 4
+      },
+      "seen_in_original_training": false,
+      "seen_in_expanded_training": false
+    },
+    {
+      "id": "f7v_w0005",
+      "folio": "f7v",
+      "role": "reserved",
+      "reference": "dy",
+      "predictions": {
+        "initial": "sm",
+        "continuation_200": "sem",
+        "expanded_200": "chyr"
+      },
+      "errors": {
+        "initial": 2,
+        "continuation_200": 3,
+        "expanded_200": 3
+      },
+      "seen_in_original_training": false,
+      "seen_in_expanded_training": true
+    },
+    {
+      "id": "f7v_w0006",
+      "folio": "f7v",
+      "role": "reserved",
+      "reference": "daiin",
+      "predictions": {
+        "initial": "o",
+        "continuation_200": "oo",
+        "expanded_200": "daiir"
+      },
+      "errors": {
+        "initial": 5,
+        "continuation_200": 5,
+        "expanded_200": 1
+      },
+      "seen_in_original_training": true,
+      "seen_in_expanded_training": true
+    },
+    {
+      "id": "f7v_w0007",
+      "folio": "f7v",
+      "role": "reserved",
+      "reference": "tshodody",
+      "predictions": {
+        "initial": "shol",
+        "continuation_200": "shol",
+        "expanded_200": "tshaim"
+      },
+      "errors": {
+        "initial": 5,
+        "continuation_200": 5,
+        "expanded_200": 5
+      },
+      "seen_in_original_training": false,
+      "seen_in_expanded_training": false
+    },
+    {
+      "id": "f7v_w0008",
+      "folio": "f7v",
+      "role": "reserved",
+      "reference": "chochy",
+      "predictions": {
+        "initial": "tho",
+        "continuation_200": "ytho",
+        "expanded_200": "cockho"
+      },
+      "errors": {
+        "initial": 4,
+        "continuation_200": 5,
+        "expanded_200": 3
+      },
+      "seen_in_original_training": false,
+      "seen_in_expanded_training": false
+    },
+    {
+      "id": "f7v_w0009",
+      "folio": "f7v",
+      "role": "reserved",
+      "reference": "cthy",
+      "predictions": {
+        "initial": "yotl",
+        "continuation_200": "yt",
+        "expanded_200": "qoyl"
+      },
+      "errors": {
+        "initial": 4,
+        "continuation_200": 3,
+        "expanded_200": 4
+      },
+      "seen_in_original_training": true,
+      "seen_in_expanded_training": true
+    },
+    {
+      "id": "f7v_w0010",
+      "folio": "f7v",
+      "role": "reserved",
+      "reference": "daiin",
+      "predictions": {
+        "initial": "oao",
+        "continuation_200": "odo",
+        "expanded_200": "daiin"
+      },
+      "errors": {
+        "initial": 4,
+        "continuation_200": 5,
+        "expanded_200": 0
+      },
+      "seen_in_original_training": true,
+      "seen_in_expanded_training": true
+    },
+    {
+      "id": "f7v_w0011",
+      "folio": "f7v",
+      "role": "reserved",
+      "reference": "qoky",
+      "predictions": {
+        "initial": "cho",
+        "continuation_200": "cho",
+        "expanded_200": "chcho"
+      },
+      "errors": {
+        "initial": 4,
+        "continuation_200": 4,
+        "expanded_200": 5
+      },
+      "seen_in_original_training": false,
+      "seen_in_expanded_training": false
+    },
+    {
+      "id": "f7v_w0012",
+      "folio": "f7v",
+      "role": "reserved",
+      "reference": "chcphhy",
+      "predictions": {
+        "initial": "qoko",
+        "continuation_200": "oko",
+        "expanded_200": "oko"
+      },
+      "errors": {
+        "initial": 7,
+        "continuation_200": 7,
+        "expanded_200": 7
+      },
+      "seen_in_original_training": false,
+      "seen_in_expanded_training": false
+    },
+    {
+      "id": "f7v_w0013",
+      "folio": "f7v",
+      "role": "reserved",
+      "reference": "daiin",
+      "predictions": {
+        "initial": "sae",
+        "continuation_200": "ae",
+        "expanded_200": "dain"
+      },
+      "errors": {
+        "initial": 4,
+        "continuation_200": 4,
+        "expanded_200": 1
+      },
+      "seen_in_original_training": true,
+      "seen_in_expanded_training": true
+    },
+    {
+      "id": "f7v_w0014",
+      "folio": "f7v",
+      "role": "reserved",
+      "reference": "cthol",
+      "predictions": {
+        "initial": "cthl",
+        "continuation_200": "cthl",
+        "expanded_200": "ctholr"
+      },
+      "errors": {
+        "initial": 1,
+        "continuation_200": 1,
+        "expanded_200": 1
+      },
+      "seen_in_original_training": true,
+      "seen_in_expanded_training": true
+    },
+    {
+      "id": "f7v_w0015",
+      "folio": "f7v",
+      "role": "reserved",
+      "reference": "cthy",
+      "predictions": {
+        "initial": "thyl",
+        "continuation_200": "cthyl",
+        "expanded_200": "cthoy"
+      },
+      "errors": {
+        "initial": 2,
+        "continuation_200": 1,
+        "expanded_200": 1
+      },
+      "seen_in_original_training": true,
+      "seen_in_expanded_training": true
+    },
+    {
+      "id": "f7v_w0016",
+      "folio": "f7v",
+      "role": "reserved",
+      "reference": "cthd",
+      "predictions": {
+        "initial": "otlol",
+        "continuation_200": "otho",
+        "expanded_200": "octoai"
+      },
+      "errors": {
+        "initial": 4,
+        "continuation_200": 2,
+        "expanded_200": 4
+      },
+      "seen_in_original_training": false,
+      "seen_in_expanded_training": false
+    },
+    {
+      "id": "f7v_w0017",
+      "folio": "f7v",
+      "role": "reserved",
+      "reference": "qokchy",
+      "predictions": {
+        "initial": "qokoy",
+        "continuation_200": "qockeoy",
+        "expanded_200": "qokoy"
+      },
+      "errors": {
+        "initial": 2,
+        "continuation_200": 3,
+        "expanded_200": 2
+      },
+      "seen_in_original_training": true,
+      "seen_in_expanded_training": true
+    },
+    {
+      "id": "f7v_w0018",
+      "folio": "f7v",
+      "role": "reserved",
+      "reference": "dykchy",
+      "predictions": {
+        "initial": "qoty",
+        "continuation_200": "qoktay",
+        "expanded_200": "qokoy"
+      },
+      "errors": {
+        "initial": 5,
+        "continuation_200": 4,
+        "expanded_200": 4
+      },
+      "seen_in_original_training": false,
+      "seen_in_expanded_training": false
+    },
+    {
+      "id": "f7v_w0019",
+      "folio": "f7v",
+      "role": "reserved",
+      "reference": "chkeey",
+      "predictions": {
+        "initial": "yokhty",
+        "continuation_200": "okhty",
+        "expanded_200": "ochy"
+      },
+      "errors": {
+        "initial": 4,
+        "continuation_200": 4,
+        "expanded_200": 4
+      },
+      "seen_in_original_training": false,
+      "seen_in_expanded_training": false
+    },
+    {
+      "id": "f7v_w0020",
+      "folio": "f7v",
+      "role": "reserved",
+      "reference": "kshy",
+      "predictions": {
+        "initial": "thy",
+        "continuation_200": "cthy",
+        "expanded_200": "ochy"
+      },
+      "errors": {
+        "initial": 2,
+        "continuation_200": 2,
+        "expanded_200": 2
+      },
+      "seen_in_original_training": false,
+      "seen_in_expanded_training": false
+    },
+    {
+      "id": "f7v_w0021",
+      "folio": "f7v",
+      "role": "reserved",
+      "reference": "ky",
+      "predictions": {
+        "initial": "y",
+        "continuation_200": "y",
+        "expanded_200": "y"
+      },
+      "errors": {
+        "initial": 1,
+        "continuation_200": 1,
+        "expanded_200": 1
+      },
+      "seen_in_original_training": false,
+      "seen_in_expanded_training": false
+    },
+    {
+      "id": "f7v_w0022",
+      "folio": "f7v",
+      "role": "reserved",
+      "reference": "ty",
+      "predictions": {
+        "initial": "otcl",
+        "continuation_200": "chl",
+        "expanded_200": "y"
+      },
+      "errors": {
+        "initial": 3,
+        "continuation_200": 3,
+        "expanded_200": 1
+      },
+      "seen_in_original_training": false,
+      "seen_in_expanded_training": false
+    },
+    {
+      "id": "f7v_w0023",
+      "folio": "f7v",
+      "role": "reserved",
+      "reference": "dor",
+      "predictions": {
+        "initial": "ho",
+        "continuation_200": "ho",
+        "expanded_200": "dor"
+      },
+      "errors": {
+        "initial": 2,
+        "continuation_200": 2,
+        "expanded_200": 0
+      },
+      "seen_in_original_training": false,
+      "seen_in_expanded_training": true
+    },
+    {
+      "id": "f7v_w0024",
+      "folio": "f7v",
+      "role": "reserved",
+      "reference": "cheey",
+      "predictions": {
+        "initial": "cda",
+        "continuation_200": "ycholl",
+        "expanded_200": "chol"
+      },
+      "errors": {
+        "initial": 4,
+        "continuation_200": 4,
+        "expanded_200": 3
+      },
+      "seen_in_original_training": false,
+      "seen_in_expanded_training": false
+    },
+    {
+      "id": "f7v_w0025",
+      "folio": "f7v",
+      "role": "reserved",
+      "reference": "ol",
+      "predictions": {
+        "initial": "so",
+        "continuation_200": "she",
+        "expanded_200": "doy"
+      },
+      "errors": {
+        "initial": 2,
+        "continuation_200": 3,
+        "expanded_200": 2
+      },
+      "seen_in_original_training": true,
+      "seen_in_expanded_training": true
+    },
+    {
+      "id": "f7v_w0026",
+      "folio": "f7v",
+      "role": "reserved",
+      "reference": "cheol",
+      "predictions": {
+        "initial": "ho",
+        "continuation_200": "ho",
+        "expanded_200": "ychdeo"
+      },
+      "errors": {
+        "initial": 3,
+        "continuation_200": 3,
+        "expanded_200": 3
+      },
+      "seen_in_original_training": true,
+      "seen_in_expanded_training": true
+    },
+    {
+      "id": "f7v_w0027",
+      "folio": "f7v",
+      "role": "reserved",
+      "reference": "dy",
+      "predictions": {
+        "initial": "",
+        "continuation_200": "s",
+        "expanded_200": "y"
+      },
+      "errors": {
+        "initial": 2,
+        "continuation_200": 2,
+        "expanded_200": 1
+      },
+      "seen_in_original_training": false,
+      "seen_in_expanded_training": true
+    },
+    {
+      "id": "f7v_w0028",
+      "folio": "f7v",
+      "role": "reserved",
+      "reference": "choteeen",
+      "predictions": {
+        "initial": "choiyn",
+        "continuation_200": "ochoiyn",
+        "expanded_200": "ochoaiin"
+      },
+      "errors": {
+        "initial": 4,
+        "continuation_200": 5,
+        "expanded_200": 5
+      },
+      "seen_in_original_training": false,
+      "seen_in_expanded_training": false
+    },
+    {
+      "id": "f7v_w0029",
+      "folio": "f7v",
+      "role": "reserved",
+      "reference": "oeear",
+      "predictions": {
+        "initial": "chaor",
+        "continuation_200": "chr",
+        "expanded_200": "chaor"
+      },
+      "errors": {
+        "initial": 4,
+        "continuation_200": 4,
+        "expanded_200": 4
+      },
+      "seen_in_original_training": false,
+      "seen_in_expanded_training": false
+    },
+    {
+      "id": "f7v_w0030",
+      "folio": "f7v",
+      "role": "reserved",
+      "reference": "choschy",
+      "predictions": {
+        "initial": "chey",
+        "continuation_200": "ycheol",
+        "expanded_200": "ytcholy"
+      },
+      "errors": {
+        "initial": 4,
+        "continuation_200": 6,
+        "expanded_200": 5
+      },
+      "seen_in_original_training": false,
+      "seen_in_expanded_training": false
+    },
+    {
+      "id": "f7v_w0031",
+      "folio": "f7v",
+      "role": "reserved",
+      "reference": "dain",
+      "predictions": {
+        "initial": "osho",
+        "continuation_200": "ohao",
+        "expanded_200": "daiin"
+      },
+      "errors": {
+        "initial": 4,
+        "continuation_200": 4,
+        "expanded_200": 1
+      },
+      "seen_in_original_training": true,
+      "seen_in_expanded_training": true
+    },
+    {
+      "id": "f7v_w0032",
+      "folio": "f7v",
+      "role": "reserved",
+      "reference": "sho",
+      "predictions": {
+        "initial": "oktol",
+        "continuation_200": "ohol",
+        "expanded_200": "okohol"
+      },
+      "errors": {
+        "initial": 4,
+        "continuation_200": 2,
+        "expanded_200": 4
+      },
+      "seen_in_original_training": true,
+      "seen_in_expanded_training": true
+    },
+    {
+      "id": "f7v_w0033",
+      "folio": "f7v",
+      "role": "reserved",
+      "reference": "kshy",
+      "predictions": {
+        "initial": "thl",
+        "continuation_200": "thal",
+        "expanded_200": "tol"
+      },
+      "errors": {
+        "initial": 3,
+        "continuation_200": 4,
+        "expanded_200": 4
+      },
+      "seen_in_original_training": false,
+      "seen_in_expanded_training": false
+    },
+    {
+      "id": "f7v_w0034",
+      "folio": "f7v",
+      "role": "reserved",
+      "reference": "shol",
+      "predictions": {
+        "initial": "chol",
+        "continuation_200": "thl",
+        "expanded_200": "haol"
+      },
+      "errors": {
+        "initial": 1,
+        "continuation_200": 2,
+        "expanded_200": 2
+      },
+      "seen_in_original_training": true,
+      "seen_in_expanded_training": true
+    },
+    {
+      "id": "f7v_w0035",
+      "folio": "f7v",
+      "role": "reserved",
+      "reference": "deees",
+      "predictions": {
+        "initial": "o",
+        "continuation_200": "ol",
+        "expanded_200": "dor"
+      },
+      "errors": {
+        "initial": 5,
+        "continuation_200": 5,
+        "expanded_200": 4
+      },
+      "seen_in_original_training": false,
+      "seen_in_expanded_training": false
+    },
+    {
+      "id": "f7v_w0036",
+      "folio": "f7v",
+      "role": "reserved",
+      "reference": "dol",
+      "predictions": {
+        "initial": "y",
+        "continuation_200": "y",
+        "expanded_200": "dyl"
+      },
+      "errors": {
+        "initial": 3,
+        "continuation_200": 3,
+        "expanded_200": 1
+      },
+      "seen_in_original_training": true,
+      "seen_in_expanded_training": true
+    },
+    {
+      "id": "f7v_w0037",
+      "folio": "f7v",
+      "role": "reserved",
+      "reference": "dchodaiin",
+      "predictions": {
+        "initial": "choar",
+        "continuation_200": "choli",
+        "expanded_200": "daoidiiin"
+      },
+      "errors": {
+        "initial": 5,
+        "continuation_200": 5,
+        "expanded_200": 4
+      },
+      "seen_in_original_training": false,
+      "seen_in_expanded_training": false
+    },
+    {
+      "id": "f7v_w0038",
+      "folio": "f7v",
+      "role": "reserved",
+      "reference": "qotchy",
+      "predictions": {
+        "initial": "otchoy",
+        "continuation_200": "ocha",
+        "expanded_200": "okchooy"
+      },
+      "errors": {
+        "initial": 2,
+        "continuation_200": 3,
+        "expanded_200": 4
+      },
+      "seen_in_original_training": false,
+      "seen_in_expanded_training": false
+    },
+    {
+      "id": "f7v_w0039",
+      "folio": "f7v",
+      "role": "reserved",
+      "reference": "cheey",
+      "predictions": {
+        "initial": "deol",
+        "continuation_200": "sheyy",
+        "expanded_200": "cheyy"
+      },
+      "errors": {
+        "initial": 4,
+        "continuation_200": 2,
+        "expanded_200": 1
+      },
+      "seen_in_original_training": false,
+      "seen_in_expanded_training": false
+    },
+    {
+      "id": "f7v_w0040",
+      "folio": "f7v",
+      "role": "reserved",
+      "reference": "tcheey",
+      "predictions": {
+        "initial": "cthy",
+        "continuation_200": "cshoy",
+        "expanded_200": "kcho"
+      },
+      "errors": {
+        "initial": 4,
+        "continuation_200": 4,
+        "expanded_200": 4
+      },
+      "seen_in_original_training": false,
+      "seen_in_expanded_training": false
+    },
+    {
+      "id": "f7v_w0041",
+      "folio": "f7v",
+      "role": "reserved",
+      "reference": "kchor",
+      "predictions": {
+        "initial": "ho",
+        "continuation_200": "ho",
+        "expanded_200": "paoi"
+      },
+      "errors": {
+        "initial": 3,
+        "continuation_200": 3,
+        "expanded_200": 4
+      },
+      "seen_in_original_training": false,
+      "seen_in_expanded_training": false
+    },
+    {
+      "id": "f7v_w0042",
+      "folio": "f7v",
+      "role": "reserved",
+      "reference": "sheod",
+      "predictions": {
+        "initial": "chol",
+        "continuation_200": "chol",
+        "expanded_200": "kho"
+      },
+      "errors": {
+        "initial": 3,
+        "continuation_200": 3,
+        "expanded_200": 3
+      },
+      "seen_in_original_training": false,
+      "seen_in_expanded_training": false
+    },
+    {
+      "id": "f7v_w0043",
+      "folio": "f7v",
+      "role": "reserved",
+      "reference": "sheodaiin",
+      "predictions": {
+        "initial": "chodr",
+        "continuation_200": "shoor",
+        "expanded_200": "chaeaair"
+      },
+      "errors": {
+        "initial": 6,
+        "continuation_200": 6,
+        "expanded_200": 6
+      },
+      "seen_in_original_training": false,
+      "seen_in_expanded_training": false
+    },
+    {
+      "id": "f7v_w0044",
+      "folio": "f7v",
+      "role": "reserved",
+      "reference": "shodaiin",
+      "predictions": {
+        "initial": "cho",
+        "continuation_200": "sho",
+        "expanded_200": "chodin"
+      },
+      "errors": {
+        "initial": 6,
+        "continuation_200": 5,
+        "expanded_200": 3
+      },
+      "seen_in_original_training": true,
+      "seen_in_expanded_training": true
+    },
+    {
+      "id": "f7v_w0045",
+      "folio": "f7v",
+      "role": "reserved",
+      "reference": "oksholshol",
+      "predictions": {
+        "initial": "otchoy",
+        "continuation_200": "qooooly",
+        "expanded_200": "qokshodlr"
+      },
+      "errors": {
+        "initial": 7,
+        "continuation_200": 8,
+        "expanded_200": 6
+      },
+      "seen_in_original_training": false,
+      "seen_in_expanded_training": false
+    },
+    {
+      "id": "f7v_w0046",
+      "folio": "f7v",
+      "role": "reserved",
+      "reference": "dais",
+      "predictions": {
+        "initial": "cho",
+        "continuation_200": "ho",
+        "expanded_200": "dair"
+      },
+      "errors": {
+        "initial": 4,
+        "continuation_200": 4,
+        "expanded_200": 1
+      },
+      "seen_in_original_training": false,
+      "seen_in_expanded_training": false
+    },
+    {
+      "id": "f7v_w0047",
+      "folio": "f7v",
+      "role": "reserved",
+      "reference": "qos",
+      "predictions": {
+        "initial": "i",
+        "continuation_200": "",
+        "expanded_200": "doi"
+      },
+      "errors": {
+        "initial": 3,
+        "continuation_200": 3,
+        "expanded_200": 2
+      },
+      "seen_in_original_training": false,
+      "seen_in_expanded_training": false
+    },
+    {
+      "id": "f7v_w0048",
+      "folio": "f7v",
+      "role": "reserved",
+      "reference": "okshodeeen",
+      "predictions": {
+        "initial": "koool",
+        "continuation_200": "oko",
+        "expanded_200": "okhain"
+      },
+      "errors": {
+        "initial": 8,
+        "continuation_200": 7,
+        "expanded_200": 6
+      },
+      "seen_in_original_training": false,
+      "seen_in_expanded_training": false
+    },
+    {
+      "id": "f7v_w0049",
+      "folio": "f7v",
+      "role": "reserved",
+      "reference": "chor",
+      "predictions": {
+        "initial": "cho",
+        "continuation_200": "cho",
+        "expanded_200": "chor"
+      },
+      "errors": {
+        "initial": 1,
+        "continuation_200": 1,
+        "expanded_200": 0
+      },
+      "seen_in_original_training": true,
+      "seen_in_expanded_training": true
+    },
+    {
+      "id": "f7v_w0050",
+      "folio": "f7v",
+      "role": "reserved",
+      "reference": "cheor",
+      "predictions": {
+        "initial": "chor",
+        "continuation_200": "chor",
+        "expanded_200": "chor"
+      },
+      "errors": {
+        "initial": 1,
+        "continuation_200": 1,
+        "expanded_200": 1
+      },
+      "seen_in_original_training": true,
+      "seen_in_expanded_training": true
+    },
+    {
+      "id": "f7v_w0051",
+      "folio": "f7v",
+      "role": "reserved",
+      "reference": "odaiin",
+      "predictions": {
+        "initial": "shool",
+        "continuation_200": "ochoyl",
+        "expanded_200": "ddailn"
+      },
+      "errors": {
+        "initial": 6,
+        "continuation_200": 5,
+        "expanded_200": 2
+      },
+      "seen_in_original_training": true,
+      "seen_in_expanded_training": true
+    },
+    {
+      "id": "f7v_w0052",
+      "folio": "f7v",
+      "role": "reserved",
+      "reference": "shotcho",
+      "predictions": {
+        "initial": "okho",
+        "continuation_200": "ocho",
+        "expanded_200": "ochor"
+      },
+      "errors": {
+        "initial": 4,
+        "continuation_200": 3,
+        "expanded_200": 4
+      },
+      "seen_in_original_training": false,
+      "seen_in_expanded_training": false
+    },
+    {
+      "id": "f7v_w0053",
+      "folio": "f7v",
+      "role": "reserved",
+      "reference": "dol",
+      "predictions": {
+        "initial": "oal",
+        "continuation_200": "doal",
+        "expanded_200": "dal"
+      },
+      "errors": {
+        "initial": 2,
+        "continuation_200": 1,
+        "expanded_200": 1
+      },
+      "seen_in_original_training": true,
+      "seen_in_expanded_training": true
+    },
+    {
+      "id": "f7v_w0054",
+      "folio": "f7v",
+      "role": "reserved",
+      "reference": "dol",
+      "predictions": {
+        "initial": "qol",
+        "continuation_200": "qodl",
+        "expanded_200": "dal"
+      },
+      "errors": {
+        "initial": 1,
+        "continuation_200": 2,
+        "expanded_200": 1
+      },
+      "seen_in_original_training": true,
+      "seen_in_expanded_training": true
+    },
+    {
+      "id": "f7v_w0055",
+      "folio": "f7v",
+      "role": "reserved",
+      "reference": "dor",
+      "predictions": {
+        "initial": "o",
+        "continuation_200": "r",
+        "expanded_200": "dadir"
+      },
+      "errors": {
+        "initial": 2,
+        "continuation_200": 2,
+        "expanded_200": 3
+      },
+      "seen_in_original_training": false,
+      "seen_in_expanded_training": true
+    },
+    {
+      "id": "f7v_w0056",
+      "folio": "f7v",
+      "role": "reserved",
+      "reference": "aiin",
+      "predictions": {
+        "initial": "l",
+        "continuation_200": "",
+        "expanded_200": "r"
+      },
+      "errors": {
+        "initial": 4,
+        "continuation_200": 4,
+        "expanded_200": 4
+      },
+      "seen_in_original_training": true,
+      "seen_in_expanded_training": true
+    },
+    {
+      "id": "f7v_w0057",
+      "folio": "f7v",
+      "role": "reserved",
+      "reference": "qoteeeo",
+      "predictions": {
+        "initial": "ytho",
+        "continuation_200": "ytho",
+        "expanded_200": "ycho"
+      },
+      "errors": {
+        "initial": 5,
+        "continuation_200": 5,
+        "expanded_200": 6
+      },
+      "seen_in_original_training": false,
+      "seen_in_expanded_training": false
+    },
+    {
+      "id": "f7v_w0058",
+      "folio": "f7v",
+      "role": "reserved",
+      "reference": "rcho",
+      "predictions": {
+        "initial": "ho",
+        "continuation_200": "sho",
+        "expanded_200": "haei"
+      },
+      "errors": {
+        "initial": 2,
+        "continuation_200": 2,
+        "expanded_200": 4
+      },
+      "seen_in_original_training": false,
+      "seen_in_expanded_training": false
+    },
+    {
+      "id": "f7v_w0059",
+      "folio": "f7v",
+      "role": "reserved",
+      "reference": "cheeody",
+      "predictions": {
+        "initial": "choay",
+        "continuation_200": "cheaey",
+        "expanded_200": "choaioy"
+      },
+      "errors": {
+        "initial": 3,
+        "continuation_200": 3,
+        "expanded_200": 4
+      },
+      "seen_in_original_training": false,
+      "seen_in_expanded_training": false
+    },
+    {
+      "id": "f7v_w0060",
+      "folio": "f7v",
+      "role": "reserved",
+      "reference": "qotchey",
+      "predictions": {
+        "initial": "qoor",
+        "continuation_200": "qoa",
+        "expanded_200": "qokhor"
+      },
+      "errors": {
+        "initial": 5,
+        "continuation_200": 5,
+        "expanded_200": 4
+      },
+      "seen_in_original_training": false,
+      "seen_in_expanded_training": false
+    },
+    {
+      "id": "f7v_w0061",
+      "folio": "f7v",
+      "role": "reserved",
+      "reference": "tey",
+      "predictions": {
+        "initial": "thol",
+        "continuation_200": "cthol",
+        "expanded_200": "othoy"
+      },
+      "errors": {
+        "initial": 3,
+        "continuation_200": 4,
+        "expanded_200": 3
+      },
+      "seen_in_original_training": false,
+      "seen_in_expanded_training": false
+    },
+    {
+      "id": "f7v_w0062",
+      "folio": "f7v",
+      "role": "reserved",
+      "reference": "okchor",
+      "predictions": {
+        "initial": "okoo",
+        "continuation_200": "okol",
+        "expanded_200": "cteor"
+      },
+      "errors": {
+        "initial": 3,
+        "continuation_200": 3,
+        "expanded_200": 4
+      },
+      "seen_in_original_training": true,
+      "seen_in_expanded_training": true
+    },
+    {
+      "id": "f7v_w0063",
+      "folio": "f7v",
+      "role": "reserved",
+      "reference": "daiin",
+      "predictions": {
+        "initial": "o",
+        "continuation_200": "oo",
+        "expanded_200": "daiin"
+      },
+      "errors": {
+        "initial": 5,
+        "continuation_200": 5,
+        "expanded_200": 0
+      },
+      "seen_in_original_training": true,
+      "seen_in_expanded_training": true
+    },
+    {
+      "id": "f7v_w0064",
+      "folio": "f7v",
+      "role": "reserved",
+      "reference": "sho",
+      "predictions": {
+        "initial": "shol",
+        "continuation_200": "shol",
+        "expanded_200": "da"
+      },
+      "errors": {
+        "initial": 1,
+        "continuation_200": 1,
+        "expanded_200": 3
+      },
+      "seen_in_original_training": true,
+      "seen_in_expanded_training": true
+    },
+    {
+      "id": "f7v_w0065",
+      "folio": "f7v",
+      "role": "reserved",
+      "reference": "keeo",
+      "predictions": {
+        "initial": "cha",
+        "continuation_200": "chai",
+        "expanded_200": "chai"
+      },
+      "errors": {
+        "initial": 4,
+        "continuation_200": 4,
+        "expanded_200": 4
+      },
+      "seen_in_original_training": false,
+      "seen_in_expanded_training": false
+    },
+    {
+      "id": "f7v_w0066",
+      "folio": "f7v",
+      "role": "reserved",
+      "reference": "daiir",
+      "predictions": {
+        "initial": "chor",
+        "continuation_200": "heor",
+        "expanded_200": "cheor"
+      },
+      "errors": {
+        "initial": 4,
+        "continuation_200": 4,
+        "expanded_200": 4
+      },
+      "seen_in_original_training": false,
+      "seen_in_expanded_training": true
+    },
+    {
+      "id": "f7v_w0067",
+      "folio": "f7v",
+      "role": "reserved",
+      "reference": "chokchy",
+      "predictions": {
+        "initial": "cheol",
+        "continuation_200": "shol",
+        "expanded_200": "choy"
+      },
+      "errors": {
+        "initial": 5,
+        "continuation_200": 5,
+        "expanded_200": 3
+      },
+      "seen_in_original_training": false,
+      "seen_in_expanded_training": false
+    },
+    {
+      "id": "f7v_w0068",
+      "folio": "f7v",
+      "role": "reserved",
+      "reference": "dor",
+      "predictions": {
+        "initial": "",
+        "continuation_200": "",
+        "expanded_200": "dar"
+      },
+      "errors": {
+        "initial": 3,
+        "continuation_200": 3,
+        "expanded_200": 1
+      },
+      "seen_in_original_training": false,
+      "seen_in_expanded_training": true
+    },
+    {
+      "id": "f7v_w0069",
+      "folio": "f7v",
+      "role": "reserved",
+      "reference": "deol",
+      "predictions": {
+        "initial": "thol",
+        "continuation_200": "tdoyl",
+        "expanded_200": "dal"
+      },
+      "errors": {
+        "initial": 2,
+        "continuation_200": 3,
+        "expanded_200": 2
+      },
+      "seen_in_original_training": false,
+      "seen_in_expanded_training": false
+    },
+    {
+      "id": "f7v_w0070",
+      "folio": "f7v",
+      "role": "reserved",
+      "reference": "dy",
+      "predictions": {
+        "initial": "dym",
+        "continuation_200": "dy",
+        "expanded_200": "dy"
+      },
+      "errors": {
+        "initial": 1,
+        "continuation_200": 0,
+        "expanded_200": 0
+      },
+      "seen_in_original_training": false,
+      "seen_in_expanded_training": true
+    },
+    {
+      "id": "f7v_w0071",
+      "folio": "f7v",
+      "role": "reserved",
+      "reference": "dol",
+      "predictions": {
+        "initial": "si",
+        "continuation_200": "s",
+        "expanded_200": "dl"
+      },
+      "errors": {
+        "initial": 3,
+        "continuation_200": 3,
+        "expanded_200": 1
+      },
+      "seen_in_original_training": true,
+      "seen_in_expanded_training": true
+    },
+    {
+      "id": "f7v_w0072",
+      "folio": "f7v",
+      "role": "reserved",
+      "reference": "daiin",
+      "predictions": {
+        "initial": "o",
+        "continuation_200": "hol",
+        "expanded_200": "daiin"
+      },
+      "errors": {
+        "initial": 5,
+        "continuation_200": 5,
+        "expanded_200": 0
+      },
+      "seen_in_original_training": true,
+      "seen_in_expanded_training": true
+    }
+  ],
+  "all_pass_predictions": [
+    {
+      "initial": [
+        "tco",
+        "octhoy",
+        "cho",
+        "hol",
+        "choly",
+        "qodoy",
+        "dain",
+        "cor",
+        "othoy",
+        "cheair",
+        "cho",
+        "chol",
+        "to",
+        "octholy",
+        "chorm",
+        "o",
+        "ocodir",
+        "chomr",
+        "otchoim",
+        "hao",
+        "da",
+        "choi",
+        "qokchorr",
+        "cdain",
+        "chor",
+        "okeo",
+        "cho",
+        "ky",
+        "ha",
+        "oen",
+        "they",
+        "thoy",
+        "qocol",
+        "",
+        "tchol",
+        "chol",
+        "cheoly",
+        "am",
+        "chol",
+        "ochoeol",
+        "thlyl",
+        "haoir",
+        "chol",
+        "chom",
+        "cho",
+        "thol",
+        "othol",
+        "otdoy",
+        "cdo",
+        "tkheoly",
+        "kchaoym",
+        "ceairiyn",
+        "dal",
+        "chor",
+        "chor",
+        "cha",
+        "qokhe",
+        "cher",
+        "okeo",
+        "coin",
+        "choee",
+        "choin",
+        "dar",
+        "thoy",
+        "cheolly",
+        "tchay",
+        "cho",
+        "oko",
+        "chom",
+        "sho",
+        "y",
+        "chem",
+        "choal",
+        "thol",
+        "ochor",
+        "chol",
+        "choly",
+        "kcho",
+        "chy",
+        "oholy",
+        "chor",
+        "choy",
+        "cho",
+        "cho",
+        "r",
+        "cho",
+        "shom",
+        "qokheayy",
+        "ckalal",
+        "okhol",
+        "chi",
+        "ckhoy",
+        "choln",
+        "chor",
+        "cheoy",
+        "ptho",
+        "okoor",
+        "thy",
+        "ho",
+        "cheddain",
+        "choy",
+        "choy",
+        "tholy",
+        "tcholy",
+        "chear",
+        "ocho",
+        "okho",
+        "ochom",
+        "khea",
+        "cho",
+        "othol",
+        "chol",
+        "chor",
+        "othol",
+        "qoco",
+        "ochor",
+        "ochoa",
+        "okoly",
+        "chan",
+        "okcha",
+        "cho",
+        "otkhdoly",
+        "hol",
+        "ochol",
+        "kholy",
+        "chor",
+        "tcholy",
+        "tkho",
+        "qokol",
+        "chear",
+        "okhoy",
+        "chol",
+        "oko",
+        "s",
+        "cthy",
+        "chor",
+        "cho",
+        "hoy",
+        "heoly",
+        "s",
+        "chor",
+        "oky",
+        "choal",
+        "qoto",
+        "cheoy",
+        "yteor",
+        "okheol",
+        "ochor",
+        "oko",
+        "",
+        "po",
+        "qoodol",
+        "khoy",
+        "chool",
+        "eol",
+        "tho",
+        "ol",
+        "do",
+        "otdo",
+        "ty",
+        "okol",
+        "chol",
+        "chor",
+        "shor",
+        "chol",
+        "oto",
+        "ctol",
+        "hdl",
+        "qotoy",
+        "ol",
+        "sdhol",
+        "hor",
+        "cdho",
+        "sho",
+        "ochor",
+        "cho",
+        "okhor",
+        "kchoi",
+        "okor",
+        "col",
+        "tshor",
+        "ochor",
+        "chao",
+        "okol",
+        "chol",
+        "oktor",
+        "tda",
+        "qokol",
+        "thl",
+        "okodlly",
+        "okol",
+        "cheor",
+        "oktoly",
+        "qokeao",
+        "ol",
+        "y",
+        "ckaoy",
+        "sda",
+        "qokchoy",
+        "cheo",
+        "dol",
+        "otly",
+        "yho",
+        "cho",
+        "sho",
+        "cholol",
+        "shor",
+        "shor",
+        "choay",
+        "tha",
+        "thy",
+        "cthl",
+        "qokhy",
+        "ctol",
+        "sm",
+        "o",
+        "shol",
+        "tho",
+        "yotl",
+        "oao",
+        "cho",
+        "qoko",
+        "sae",
+        "cthl",
+        "thyl",
+        "otlol",
+        "qokoy",
+        "qoty",
+        "yokhty",
+        "thy",
+        "y",
+        "otcl",
+        "ho",
+        "cda",
+        "so",
+        "ho",
+        "",
+        "choiyn",
+        "chaor",
+        "chey",
+        "osho",
+        "oktol",
+        "thl",
+        "chol",
+        "o",
+        "y",
+        "choar",
+        "otchoy",
+        "deol",
+        "cthy",
+        "ho",
+        "chol",
+        "chodr",
+        "cho",
+        "otchoy",
+        "cho",
+        "i",
+        "koool",
+        "cho",
+        "chor",
+        "shool",
+        "okho",
+        "oal",
+        "qol",
+        "o",
+        "l",
+        "ytho",
+        "ho",
+        "choay",
+        "qoor",
+        "thol",
+        "okoo",
+        "o",
+        "shol",
+        "cha",
+        "chor",
+        "cheol",
+        "",
+        "thol",
+        "dym",
+        "si",
+        "o"
+      ],
+      "continuation_200": [
+        "co",
+        "qothoy",
+        "chol",
+        "hol",
+        "choy",
+        "qoeoy",
+        "dan",
+        "chor",
+        "octhoy",
+        "cheair",
+        "choym",
+        "chol",
+        "to",
+        "cthely",
+        "chor",
+        "o",
+        "ocolldr",
+        "chom",
+        "otcholom",
+        "ho",
+        "da",
+        "ochoi",
+        "qoo",
+        "sdai",
+        "chor",
+        "ykeo",
+        "sho",
+        "ykty",
+        "hao",
+        "oea",
+        "thoyl",
+        "yeoy",
+        "qokol",
+        "",
+        "tchol",
+        "chol",
+        "cey",
+        "aym",
+        "shol",
+        "choeoo",
+        "thy",
+        "dor",
+        "cho",
+        "chom",
+        "cho",
+        "thol",
+        "thom",
+        "tdo",
+        "do",
+        "tkheo",
+        "tshao",
+        "ceary",
+        "da",
+        "cho",
+        "cheo",
+        "char",
+        "okher",
+        "cher",
+        "oko",
+        "coeoi",
+        "choe",
+        "chon",
+        "dar",
+        "shoy",
+        "cheolly",
+        "tcha",
+        "thoy",
+        "qoko",
+        "chol",
+        "sdo",
+        "y",
+        "chea",
+        "hal",
+        "tshol",
+        "otchor",
+        "cho",
+        "kholly",
+        "tcholo",
+        "chy",
+        "thol",
+        "cho",
+        "choy",
+        "cho",
+        "shoe",
+        "",
+        "sho",
+        "khm",
+        "qokekayy",
+        "ckoaol",
+        "oshol",
+        "h",
+        "ckhoy",
+        "cho",
+        "sheor",
+        "shoy",
+        "pha",
+        "okori",
+        "they",
+        "qokho",
+        "choin",
+        "shiy",
+        "kchoy",
+        "tholy",
+        "tchoy",
+        "char",
+        "cho",
+        "okho",
+        "choom",
+        "cha",
+        "cho",
+        "othol",
+        "shol",
+        "chor",
+        "othol",
+        "qocho",
+        "ochorei",
+        "ochoa",
+        "qotkol",
+        "chan",
+        "otcha",
+        "cho",
+        "qotkol",
+        "sholl",
+        "ocheol",
+        "fhol",
+        "chor",
+        "cheol",
+        "shoy",
+        "qokol",
+        "shear",
+        "qokho",
+        "sho",
+        "okol",
+        "s",
+        "cthy",
+        "shor",
+        "cho",
+        "te",
+        "heoly",
+        "s",
+        "chor",
+        "okoy",
+        "cheool",
+        "qoto",
+        "cheoy",
+        "qoter",
+        "khel",
+        "ochol",
+        "oko",
+        "",
+        "po",
+        "qodao",
+        "choy",
+        "ycholy",
+        "deo",
+        "tho",
+        "o",
+        "do",
+        "ctdao",
+        "yky",
+        "okol",
+        "chol",
+        "chor",
+        "shon",
+        "choly",
+        "oo",
+        "ctol",
+        "hol",
+        "qotoy",
+        "hol",
+        "yshoeolo",
+        "hor",
+        "sdo",
+        "shol",
+        "ochor",
+        "ch",
+        "oko",
+        "cheoiri",
+        "okor",
+        "tol",
+        "sho",
+        "chor",
+        "dao",
+        "oko",
+        "chol",
+        "oktor",
+        "da",
+        "qokhol",
+        "thly",
+        "okcodlm",
+        "otol",
+        "haor",
+        "okoy",
+        "qoea",
+        "hol",
+        "yy",
+        "key",
+        "da",
+        "qokcho",
+        "de",
+        "dol",
+        "otly",
+        "yeo",
+        "eo",
+        "sho",
+        "ceoll",
+        "shor",
+        "shor",
+        "ocha",
+        "tha",
+        "thy",
+        "cthol",
+        "qokchoy",
+        "thol",
+        "sem",
+        "oo",
+        "shol",
+        "ytho",
+        "yt",
+        "odo",
+        "cho",
+        "oko",
+        "ae",
+        "cthl",
+        "cthyl",
+        "otho",
+        "qockeoy",
+        "qoktay",
+        "okhty",
+        "cthy",
+        "y",
+        "chl",
+        "ho",
+        "ycholl",
+        "she",
+        "ho",
+        "s",
+        "ochoiyn",
+        "chr",
+        "ycheol",
+        "ohao",
+        "ohol",
+        "thal",
+        "thl",
+        "ol",
+        "y",
+        "choli",
+        "ocha",
+        "sheyy",
+        "cshoy",
+        "ho",
+        "chol",
+        "shoor",
+        "sho",
+        "qooooly",
+        "ho",
+        "",
+        "oko",
+        "cho",
+        "chor",
+        "ochoyl",
+        "ocho",
+        "doal",
+        "qodl",
+        "r",
+        "",
+        "ytho",
+        "sho",
+        "cheaey",
+        "qoa",
+        "cthol",
+        "okol",
+        "oo",
+        "shol",
+        "chai",
+        "heor",
+        "shol",
+        "",
+        "tdoyl",
+        "dy",
+        "s",
+        "hol"
+      ],
+      "expanded_200": [
+        "tcham",
+        "qothoy",
+        "chor",
+        "hol",
+        "sheoy",
+        "qohai",
+        "dain",
+        "chor",
+        "otoi",
+        "aeai",
+        "chom",
+        "cho",
+        "oto",
+        "che",
+        "doin",
+        "o",
+        "choin",
+        "cham",
+        "otcheam",
+        "sho",
+        "da",
+        "choin",
+        "qochori",
+        "dain",
+        "chein",
+        "yhoa",
+        "eo",
+        "yy",
+        "dain",
+        "okeain",
+        "octhey",
+        "kcdeo",
+        "qokchoy",
+        "r",
+        "tcho",
+        "cheolr",
+        "ce",
+        "sy",
+        "ho",
+        "cheao",
+        "thoy",
+        "dean",
+        "cheo",
+        "che",
+        "ckhor",
+        "sho",
+        "thy",
+        "otday",
+        "dain",
+        "chaiy",
+        "kchaim",
+        "cadain",
+        "daln",
+        "chor",
+        "cheo",
+        "ycthaim",
+        "qokcha",
+        "cher",
+        "qockeo",
+        "seoiin",
+        "choir",
+        "choiinr",
+        "dain",
+        "thoy",
+        "cheaodi",
+        "tchai",
+        "tcoa",
+        "cokcho",
+        "dei",
+        "doao",
+        "y",
+        "chey",
+        "chol",
+        "chol",
+        "choiior",
+        "shol",
+        "choy",
+        "okhooy",
+        "chy",
+        "sho",
+        "cheoir",
+        "choii",
+        "danr",
+        "doaiiin",
+        "r",
+        "chor",
+        "hom",
+        "qochoy",
+        "kcthaay",
+        "hkchol",
+        "daiin",
+        "cthe",
+        "choaaiin",
+        "chor",
+        "shoy",
+        "pthoy",
+        "shoir",
+        "hey",
+        "qohain",
+        "haoaiinr",
+        "thoy",
+        "shochor",
+        "thoy",
+        "tchoy",
+        "shar",
+        "chor",
+        "sochon",
+        "hochom",
+        "dai",
+        "chor",
+        "tho",
+        "sho",
+        "chor",
+        "tdadd",
+        "qocho",
+        "ohoehoin",
+        "ocheo",
+        "qotoy",
+        "adiir",
+        "okchaor",
+        "cho",
+        "octooaol",
+        "choly",
+        "chedoy",
+        "yckho",
+        "chaor",
+        "tchodm",
+        "ockoiy",
+        "qokol",
+        "daiirn",
+        "qokcho",
+        "csho",
+        "ockhr",
+        "s",
+        "pchoiy",
+        "chor",
+        "chor",
+        "hoy",
+        "cheoey",
+        "s",
+        "shor",
+        "okhoky",
+        "chaadnr",
+        "qokdoy",
+        "chooy",
+        "qokeor",
+        "ockheol",
+        "octhearl",
+        "cokhoir",
+        "y",
+        "dhay",
+        "or",
+        "chay",
+        "chooly",
+        "daim",
+        "kshor",
+        "thoar",
+        "dam",
+        "otay",
+        "ytchy",
+        "thay",
+        "ychol",
+        "cheor",
+        "holeir",
+        "sheoy",
+        "okoi",
+        "ytatl",
+        "hol",
+        "qodoy",
+        "dol",
+        "hedla",
+        "daiin",
+        "chadc",
+        "haiiin",
+        "ochonr",
+        "ktoers",
+        "otchaiirn",
+        "ckchaii",
+        "othoain",
+        "tolm",
+        "tsho",
+        "chor",
+        "cdaoim",
+        "kho",
+        "chol",
+        "oktoao",
+        "dam",
+        "choly",
+        "thoy",
+        "kochohrm",
+        "otchol",
+        "daoir",
+        "qoteoy",
+        "qoey",
+        "ol",
+        "cy",
+        "ckhy",
+        "daiin",
+        "qokcho",
+        "daiiin",
+        "hol",
+        "ytoy",
+        "otoy",
+        "cea",
+        "ksho",
+        "ceool",
+        "chor",
+        "sdo",
+        "yocheo",
+        "ycthayi",
+        "ol",
+        "tdaly",
+        "qocho",
+        "cho",
+        "chyr",
+        "daiir",
+        "tshaim",
+        "cockho",
+        "qoyl",
+        "daiin",
+        "chcho",
+        "oko",
+        "dain",
+        "ctholr",
+        "cthoy",
+        "octoai",
+        "qokoy",
+        "qokoy",
+        "ochy",
+        "ochy",
+        "y",
+        "y",
+        "dor",
+        "chol",
+        "doy",
+        "ychdeo",
+        "y",
+        "ochoaiin",
+        "chaor",
+        "ytcholy",
+        "daiin",
+        "okohol",
+        "tol",
+        "haol",
+        "dor",
+        "dyl",
+        "daoidiiin",
+        "okchooy",
+        "cheyy",
+        "kcho",
+        "paoi",
+        "kho",
+        "chaeaair",
+        "chodin",
+        "qokshodlr",
+        "dair",
+        "doi",
+        "okhain",
+        "chor",
+        "chor",
+        "ddailn",
+        "ochor",
+        "dal",
+        "dal",
+        "dadir",
+        "r",
+        "ycho",
+        "haei",
+        "choaioy",
+        "qokhor",
+        "othoy",
+        "cteor",
+        "daiin",
+        "da",
+        "chai",
+        "cheor",
+        "choy",
+        "dar",
+        "dal",
+        "dy",
+        "dl",
+        "daiin"
+      ]
+    },
+    {
+      "initial": [
+        "tco",
+        "octhoy",
+        "cho",
+        "hol",
+        "choly",
+        "qodoy",
+        "dain",
+        "cor",
+        "othoy",
+        "cheair",
+        "cho",
+        "chol",
+        "to",
+        "octholy",
+        "chorm",
+        "o",
+        "ocodir",
+        "chomr",
+        "otchoim",
+        "hao",
+        "da",
+        "choi",
+        "qokchorr",
+        "cdain",
+        "chor",
+        "okeo",
+        "cho",
+        "ky",
+        "ha",
+        "oen",
+        "they",
+        "thoy",
+        "qocol",
+        "",
+        "tchol",
+        "chol",
+        "cheoly",
+        "am",
+        "chol",
+        "ochoeol",
+        "thlyl",
+        "haoir",
+        "chol",
+        "chom",
+        "cho",
+        "thol",
+        "othol",
+        "otdoy",
+        "cdo",
+        "tkheoly",
+        "kchaoym",
+        "ceairiyn",
+        "dal",
+        "chor",
+        "chor",
+        "cha",
+        "qokhe",
+        "cher",
+        "okeo",
+        "coin",
+        "choee",
+        "choin",
+        "dar",
+        "thoy",
+        "cheolly",
+        "tchay",
+        "cho",
+        "oko",
+        "chom",
+        "sho",
+        "y",
+        "chem",
+        "choal",
+        "thol",
+        "ochor",
+        "chol",
+        "choly",
+        "kcho",
+        "chy",
+        "oholy",
+        "chor",
+        "choy",
+        "cho",
+        "cho",
+        "r",
+        "cho",
+        "shom",
+        "qokheayy",
+        "ckalal",
+        "okhol",
+        "chi",
+        "ckhoy",
+        "choln",
+        "chor",
+        "cheoy",
+        "ptho",
+        "okoor",
+        "thy",
+        "ho",
+        "cheddain",
+        "choy",
+        "choy",
+        "tholy",
+        "tcholy",
+        "chear",
+        "ocho",
+        "okho",
+        "ochom",
+        "khea",
+        "cho",
+        "othol",
+        "chol",
+        "chor",
+        "othol",
+        "qoco",
+        "ochor",
+        "ochoa",
+        "okoly",
+        "chan",
+        "okcha",
+        "cho",
+        "otkhdoly",
+        "hol",
+        "ochol",
+        "kholy",
+        "chor",
+        "tcholy",
+        "tkho",
+        "qokol",
+        "chear",
+        "okhoy",
+        "chol",
+        "oko",
+        "s",
+        "cthy",
+        "chor",
+        "cho",
+        "hoy",
+        "heoly",
+        "s",
+        "chor",
+        "oky",
+        "choal",
+        "qoto",
+        "cheoy",
+        "yteor",
+        "okheol",
+        "ochor",
+        "oko",
+        "",
+        "po",
+        "qoodol",
+        "khoy",
+        "chool",
+        "eol",
+        "tho",
+        "ol",
+        "do",
+        "otdo",
+        "ty",
+        "okol",
+        "chol",
+        "chor",
+        "shor",
+        "chol",
+        "oto",
+        "ctol",
+        "hdl",
+        "qotoy",
+        "ol",
+        "sdhol",
+        "hor",
+        "cdho",
+        "sho",
+        "ochor",
+        "cho",
+        "okhor",
+        "kchoi",
+        "okor",
+        "col",
+        "tshor",
+        "ochor",
+        "chao",
+        "okol",
+        "chol",
+        "oktor",
+        "tda",
+        "qokol",
+        "thl",
+        "okodlly",
+        "okol",
+        "cheor",
+        "oktoly",
+        "qokeao",
+        "ol",
+        "y",
+        "ckaoy",
+        "sda",
+        "qokchoy",
+        "cheo",
+        "dol",
+        "otly",
+        "yho",
+        "cho",
+        "sho",
+        "cholol",
+        "shor",
+        "shor",
+        "choay",
+        "tha",
+        "thy",
+        "cthl",
+        "qokhy",
+        "ctol",
+        "sm",
+        "o",
+        "shol",
+        "tho",
+        "yotl",
+        "oao",
+        "cho",
+        "qoko",
+        "sae",
+        "cthl",
+        "thyl",
+        "otlol",
+        "qokoy",
+        "qoty",
+        "yokhty",
+        "thy",
+        "y",
+        "otcl",
+        "ho",
+        "cda",
+        "so",
+        "ho",
+        "",
+        "choiyn",
+        "chaor",
+        "chey",
+        "osho",
+        "oktol",
+        "thl",
+        "chol",
+        "o",
+        "y",
+        "choar",
+        "otchoy",
+        "deol",
+        "cthy",
+        "ho",
+        "chol",
+        "chodr",
+        "cho",
+        "otchoy",
+        "cho",
+        "i",
+        "koool",
+        "cho",
+        "chor",
+        "shool",
+        "okho",
+        "oal",
+        "qol",
+        "o",
+        "l",
+        "ytho",
+        "ho",
+        "choay",
+        "qoor",
+        "thol",
+        "okoo",
+        "o",
+        "shol",
+        "cha",
+        "chor",
+        "cheol",
+        "",
+        "thol",
+        "dym",
+        "si",
+        "o"
+      ],
+      "continuation_200": [
+        "co",
+        "qothoy",
+        "chol",
+        "hol",
+        "choy",
+        "qoeoy",
+        "dan",
+        "chor",
+        "octhoy",
+        "cheair",
+        "choym",
+        "chol",
+        "to",
+        "cthely",
+        "chor",
+        "o",
+        "ocolldr",
+        "chom",
+        "otcholom",
+        "ho",
+        "da",
+        "ochoi",
+        "qoo",
+        "sdai",
+        "chor",
+        "ykeo",
+        "sho",
+        "ykty",
+        "hao",
+        "oea",
+        "thoyl",
+        "yeoy",
+        "qokol",
+        "",
+        "tchol",
+        "chol",
+        "cey",
+        "aym",
+        "shol",
+        "choeoo",
+        "thy",
+        "dor",
+        "cho",
+        "chom",
+        "cho",
+        "thol",
+        "thom",
+        "tdo",
+        "do",
+        "tkheo",
+        "tshao",
+        "ceary",
+        "da",
+        "cho",
+        "cheo",
+        "char",
+        "okher",
+        "cher",
+        "oko",
+        "coeoi",
+        "choe",
+        "chon",
+        "dar",
+        "shoy",
+        "cheolly",
+        "tcha",
+        "thoy",
+        "qoko",
+        "chol",
+        "sdo",
+        "y",
+        "chea",
+        "hal",
+        "tshol",
+        "otchor",
+        "cho",
+        "kholly",
+        "tcholo",
+        "chy",
+        "thol",
+        "cho",
+        "choy",
+        "cho",
+        "shoe",
+        "",
+        "sho",
+        "khm",
+        "qokekayy",
+        "ckoaol",
+        "oshol",
+        "h",
+        "ckhoy",
+        "cho",
+        "sheor",
+        "shoy",
+        "pha",
+        "okori",
+        "they",
+        "qokho",
+        "choin",
+        "shiy",
+        "kchoy",
+        "tholy",
+        "tchoy",
+        "char",
+        "cho",
+        "okho",
+        "choom",
+        "cha",
+        "cho",
+        "othol",
+        "shol",
+        "chor",
+        "othol",
+        "qocho",
+        "ochorei",
+        "ochoa",
+        "qotkol",
+        "chan",
+        "otcha",
+        "cho",
+        "qotkol",
+        "sholl",
+        "ocheol",
+        "fhol",
+        "chor",
+        "cheol",
+        "shoy",
+        "qokol",
+        "shear",
+        "qokho",
+        "sho",
+        "okol",
+        "s",
+        "cthy",
+        "shor",
+        "cho",
+        "te",
+        "heoly",
+        "s",
+        "chor",
+        "okoy",
+        "cheool",
+        "qoto",
+        "cheoy",
+        "qoter",
+        "khel",
+        "ochol",
+        "oko",
+        "",
+        "po",
+        "qodao",
+        "choy",
+        "ycholy",
+        "deo",
+        "tho",
+        "o",
+        "do",
+        "ctdao",
+        "yky",
+        "okol",
+        "chol",
+        "chor",
+        "shon",
+        "choly",
+        "oo",
+        "ctol",
+        "hol",
+        "qotoy",
+        "hol",
+        "yshoeolo",
+        "hor",
+        "sdo",
+        "shol",
+        "ochor",
+        "ch",
+        "oko",
+        "cheoiri",
+        "okor",
+        "tol",
+        "sho",
+        "chor",
+        "dao",
+        "oko",
+        "chol",
+        "oktor",
+        "da",
+        "qokhol",
+        "thly",
+        "okcodlm",
+        "otol",
+        "haor",
+        "okoy",
+        "qoea",
+        "hol",
+        "yy",
+        "key",
+        "da",
+        "qokcho",
+        "de",
+        "dol",
+        "otly",
+        "yeo",
+        "eo",
+        "sho",
+        "ceoll",
+        "shor",
+        "shor",
+        "ocha",
+        "tha",
+        "thy",
+        "cthol",
+        "qokchoy",
+        "thol",
+        "sem",
+        "oo",
+        "shol",
+        "ytho",
+        "yt",
+        "odo",
+        "cho",
+        "oko",
+        "ae",
+        "cthl",
+        "cthyl",
+        "otho",
+        "qockeoy",
+        "qoktay",
+        "okhty",
+        "cthy",
+        "y",
+        "chl",
+        "ho",
+        "ycholl",
+        "she",
+        "ho",
+        "s",
+        "ochoiyn",
+        "chr",
+        "ycheol",
+        "ohao",
+        "ohol",
+        "thal",
+        "thl",
+        "ol",
+        "y",
+        "choli",
+        "ocha",
+        "sheyy",
+        "cshoy",
+        "ho",
+        "chol",
+        "shoor",
+        "sho",
+        "qooooly",
+        "ho",
+        "",
+        "oko",
+        "cho",
+        "chor",
+        "ochoyl",
+        "ocho",
+        "doal",
+        "qodl",
+        "r",
+        "",
+        "ytho",
+        "sho",
+        "cheaey",
+        "qoa",
+        "cthol",
+        "okol",
+        "oo",
+        "shol",
+        "chai",
+        "heor",
+        "shol",
+        "",
+        "tdoyl",
+        "dy",
+        "s",
+        "hol"
+      ],
+      "expanded_200": [
+        "tcham",
+        "qothoy",
+        "chor",
+        "hol",
+        "sheoy",
+        "qohai",
+        "dain",
+        "chor",
+        "otoi",
+        "aeai",
+        "chom",
+        "cho",
+        "oto",
+        "che",
+        "doin",
+        "o",
+        "choin",
+        "cham",
+        "otcheam",
+        "sho",
+        "da",
+        "choin",
+        "qochori",
+        "dain",
+        "chein",
+        "yhoa",
+        "eo",
+        "yy",
+        "dain",
+        "okeain",
+        "octhey",
+        "kcdeo",
+        "qokchoy",
+        "r",
+        "tcho",
+        "cheolr",
+        "ce",
+        "sy",
+        "ho",
+        "cheao",
+        "thoy",
+        "dean",
+        "cheo",
+        "che",
+        "ckhor",
+        "sho",
+        "thy",
+        "otday",
+        "dain",
+        "chaiy",
+        "kchaim",
+        "cadain",
+        "daln",
+        "chor",
+        "cheo",
+        "ycthaim",
+        "qokcha",
+        "cher",
+        "qockeo",
+        "seoiin",
+        "choir",
+        "choiinr",
+        "dain",
+        "thoy",
+        "cheaodi",
+        "tchai",
+        "tcoa",
+        "cokcho",
+        "dei",
+        "doao",
+        "y",
+        "chey",
+        "chol",
+        "chol",
+        "choiior",
+        "shol",
+        "choy",
+        "okhooy",
+        "chy",
+        "sho",
+        "cheoir",
+        "choii",
+        "danr",
+        "doaiiin",
+        "r",
+        "chor",
+        "hom",
+        "qochoy",
+        "kcthaay",
+        "hkchol",
+        "daiin",
+        "cthe",
+        "choaaiin",
+        "chor",
+        "shoy",
+        "pthoy",
+        "shoir",
+        "hey",
+        "qohain",
+        "haoaiinr",
+        "thoy",
+        "shochor",
+        "thoy",
+        "tchoy",
+        "shar",
+        "chor",
+        "sochon",
+        "hochom",
+        "dai",
+        "chor",
+        "tho",
+        "sho",
+        "chor",
+        "tdadd",
+        "qocho",
+        "ohoehoin",
+        "ocheo",
+        "qotoy",
+        "adiir",
+        "okchaor",
+        "cho",
+        "octooaol",
+        "choly",
+        "chedoy",
+        "yckho",
+        "chaor",
+        "tchodm",
+        "ockoiy",
+        "qokol",
+        "daiirn",
+        "qokcho",
+        "csho",
+        "ockhr",
+        "s",
+        "pchoiy",
+        "chor",
+        "chor",
+        "hoy",
+        "cheoey",
+        "s",
+        "shor",
+        "okhoky",
+        "chaadnr",
+        "qokdoy",
+        "chooy",
+        "qokeor",
+        "ockheol",
+        "octhearl",
+        "cokhoir",
+        "y",
+        "dhay",
+        "or",
+        "chay",
+        "chooly",
+        "daim",
+        "kshor",
+        "thoar",
+        "dam",
+        "otay",
+        "ytchy",
+        "thay",
+        "ychol",
+        "cheor",
+        "holeir",
+        "sheoy",
+        "okoi",
+        "ytatl",
+        "hol",
+        "qodoy",
+        "dol",
+        "hedla",
+        "daiin",
+        "chadc",
+        "haiiin",
+        "ochonr",
+        "ktoers",
+        "otchaiirn",
+        "ckchaii",
+        "othoain",
+        "tolm",
+        "tsho",
+        "chor",
+        "cdaoim",
+        "kho",
+        "chol",
+        "oktoao",
+        "dam",
+        "choly",
+        "thoy",
+        "kochohrm",
+        "otchol",
+        "daoir",
+        "qoteoy",
+        "qoey",
+        "ol",
+        "cy",
+        "ckhy",
+        "daiin",
+        "qokcho",
+        "daiiin",
+        "hol",
+        "ytoy",
+        "otoy",
+        "cea",
+        "ksho",
+        "ceool",
+        "chor",
+        "sdo",
+        "yocheo",
+        "ycthayi",
+        "ol",
+        "tdaly",
+        "qocho",
+        "cho",
+        "chyr",
+        "daiir",
+        "tshaim",
+        "cockho",
+        "qoyl",
+        "daiin",
+        "chcho",
+        "oko",
+        "dain",
+        "ctholr",
+        "cthoy",
+        "octoai",
+        "qokoy",
+        "qokoy",
+        "ochy",
+        "ochy",
+        "y",
+        "y",
+        "dor",
+        "chol",
+        "doy",
+        "ychdeo",
+        "y",
+        "ochoaiin",
+        "chaor",
+        "ytcholy",
+        "daiin",
+        "okohol",
+        "tol",
+        "haol",
+        "dor",
+        "dyl",
+        "daoidiiin",
+        "okchooy",
+        "cheyy",
+        "kcho",
+        "paoi",
+        "kho",
+        "chaeaair",
+        "chodin",
+        "qokshodlr",
+        "dair",
+        "doi",
+        "okhain",
+        "chor",
+        "chor",
+        "ddailn",
+        "ochor",
+        "dal",
+        "dal",
+        "dadir",
+        "r",
+        "ycho",
+        "haei",
+        "choaioy",
+        "qokhor",
+        "othoy",
+        "cteor",
+        "daiin",
+        "da",
+        "chai",
+        "cheor",
+        "choy",
+        "dar",
+        "dal",
+        "dy",
+        "dl",
+        "daiin"
+      ]
+    }
+  ],
+  "forward_calls": [
+    {
+      "initial": 282,
+      "continuation_200": 282,
+      "expanded_200": 282
+    },
+    {
+      "initial": 282,
+      "continuation_200": 282,
+      "expanded_200": 282
+    }
+  ],
+  "seconds": [
+    {
+      "initial": 1.5772305899999992,
+      "continuation_200": 1.506645774000006,
+      "expanded_200": 1.5207982720000075
+    },
+    {
+      "initial": 1.5311717139999956,
+      "continuation_200": 1.5153507939999997,
+      "expanded_200": 1.5050740000000076
+    }
+  ],
+  "within_process_replay_differences": [],
+  "differences_from_training_jobs": {
+    "continuation_200": [],
+    "continuation_200_initial": [],
+    "expanded_200": [
+      {
+        "id": "f4r_w0039",
+        "training_job": "choon",
+        "common_pass0": "cheao"
+      },
+      {
+        "id": "f4v_w0010",
+        "training_job": "choiir",
+        "common_pass0": "choiior"
+      },
+      {
+        "id": "f7v_w0001",
+        "training_job": "hoyl",
+        "common_pass0": "ol"
+      }
+    ],
+    "expanded_200_initial": [
+      {
+        "id": "f4r_w0039",
+        "training_job": "ocho",
+        "common_pass0": "ochoeol"
+      },
+      {
+        "id": "f7v_w0001",
+        "training_job": "othl",
+        "common_pass0": "thy"
+      }
+    ]
+  },
+  "run_id": "40547524429",
+  "execution_commit": "546030b414c58de1e2a2218d0495f04716dda259",
+  "environment": {
+    "torch": "2.9.0+cpu",
+    "torchvision": "0.24.0+cpu",
+    "kraken": "7.1",
+    "pillow": "12.3.0",
+    "numpy": "2.4.6",
+    "scipy": "1.15.3",
+    "lightning": "2.6.1"
+  },
+  "hardware": {
+    "machine": "x86_64",
+    "cpu_model": "AMD EPYC 7763 64-Core Processor",
+    "logical_cpus": 4,
+    "threads": 2
+  },
+  "expert_review": "NOT_REVIEWED",
+  "translation": "NOT_RUN",
+  "new_training": "NOT_RUN",
+  "scope": "Post-hoc diagnostic after observing cross-server inference variation; same-process comparisons, no checkpoint selection or new external validation."
+}

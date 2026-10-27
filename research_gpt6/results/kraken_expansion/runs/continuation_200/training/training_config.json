@@ -1,0 +1,32 @@
+{
+  "device": "cpu",
+  "precision": "32-true",
+  "num_workers": 0,
+  "num_threads": 2,
+  "seed": 20261027,
+  "deterministic": true,
+  "train": {
+    "training_data": [
+      "/home/runner/work/Voynich/Voynich/work/kraken_expansion/continuation_200/training/train.lst"
+    ],
+    "evaluation_data": [
+      "/home/runner/work/Voynich/Voynich/work/kraken_expansion/continuation_200/training/train.lst"
+    ],
+    "checkpoint_path": "/home/runner/work/Voynich/Voynich/work/kraken_expansion/continuation_200/training/checkpoints",
+    "format_type": "path",
+    "quit": "fixed",
+    "epochs": 200,
+    "min_epochs": 200,
+    "freq": 200,
+    "batch_size": 16,
+    "lrate": 0.001,
+    "schedule": "constant",
+    "augment": false,
+    "bidi_reordering": false,
+    "normalization": "NFC",
+    "normalize_whitespace": false,
+    "padding": 16,
+    "weights_format": "safetensors",
+    "freeze_backbone": 0
+  }
+}

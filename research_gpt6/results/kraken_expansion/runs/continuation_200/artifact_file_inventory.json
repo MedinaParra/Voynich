@@ -1,0 +1,66 @@
+{
+  "result.json": {
+    "bytes": 209764,
+    "sha256": "fffc53c80c59530c179cb76fca782029dbceb0fa52f41ac7f33efea38057a5cf"
+  },
+  "warmstart.safetensors": {
+    "bytes": 953544,
+    "sha256": "d2ffdec627310799b84167ccfdd0f1540fb2e7455eb7967faa26e98147d622af"
+  },
+  "final_conversion.log": {
+    "bytes": 83,
+    "sha256": "118d76e2a8cd21c5645b456586adc5b71858bd9ec09863a3df77c9a2bf2256d1"
+  },
+  "frozen_initial_predictions.json": {
+    "bytes": 23436,
+    "sha256": "61848ca726f53d8e8c92e1f9a1e141071ec20d880fb42792f75fb03010d42f9e"
+  },
+  "final_epoch.mlmodel": {
+    "bytes": 950712,
+    "sha256": "08e3586bc39103eaea3a984e85ec050531f46ef1a79c2d97b0ff06344b8eeaab"
+  },
+  "trained_codec.json": {
+    "bytes": 393,
+    "sha256": "71857b6648cd62ee0f54335cb4383a215272259d77e23882bfc9bddfdc0045a5"
+  },
+  "dataset.json": {
+    "bytes": 855588,
+    "sha256": "84c77181f6487ce8a4b7ce7c39db8900c37d2729d21f77794814696ff6b257ab"
+  },
+  "warmstart_conversion.log": {
+    "bytes": 119,
+    "sha256": "5b41254d6d93a86bc7c63a522b0f44d32d62496336c1270e776c667e2b27c310"
+  },
+  "warmstart_equivalence.json": {
+    "bytes": 5845,
+    "sha256": "8ed5ce9eb698c5db8b6648abd2ebb438211adeae4e6dd1e688f524703076e936"
+  },
+  "training_ids.json": {
+    "bytes": 2958,
+    "sha256": "b25c679265e03288cab972eab4c525a41b10773339b18c627beab473c131cc89"
+  },
+  "training/training.log": {
+    "bytes": 75645,
+    "sha256": "6800fdf153daf0456a789b866ac76f0cefc75be4dd41bd5b547a875d026b004f"
+  },
+  "training/training_config.json": {
+    "bytes": 906,
+    "sha256": "b4daa1f58d596262ac77c37a7a05bd4b0dba7bc1d169ce4f4ba183917f39c5d7"
+  },
+  "training/train.lst": {
+    "bytes": 13396,
+    "sha256": "751f8299ddbcce318b6d928d4b1c81809043469ed9ee0fc915db531b239be57a"
+  },
+  "training/command.json": {
+    "bytes": 282,
+    "sha256": "30bf2bb5af61a0791699da7ee3b43f6f9726a3e4eb1a4e481c3bd0f2822b111e"
+  },
+  "training/checkpoints/best_1.0000.safetensors": {
+    "bytes": 953544,
+    "sha256": "a3487db1bf97bf9ecf05ff82d307d416dbad9a8e2b00feafaf3c0d0ee279982b"
+  },
+  "training/checkpoints/checkpoint_199-1.0000.ckpt": {
+    "bytes": 2905845,
+    "sha256": "94de382af65e7b744c22d482a3b09c3a17825b62882c7b92160aa54921307e2d"
+  }
+}

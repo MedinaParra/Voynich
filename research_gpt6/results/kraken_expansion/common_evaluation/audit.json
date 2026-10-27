@@ -1,0 +1,172 @@
+{
+  "status": "PASS",
+  "checks": 3135,
+  "mismatches": [],
+  "common_run_id": "40547524429",
+  "result_sha256": "2b700fb8bccef63cb4bafceccc01968b3cb5190e0aa18f6eda0134259694c55f",
+  "same_process_replay_differences": 0,
+  "forward_calls": 1692,
+  "metrics": {
+    "historical_development": {
+      "initial": {
+        "errors": 465,
+        "reference_characters": 744,
+        "cer": 0.625,
+        "exact_words": 2,
+        "words": 147,
+        "exact_word_fraction": 0.013605442176870748,
+        "multicharacter_exact_words": 0,
+        "multicharacter_words": 143
+      },
+      "continuation_200": {
+        "errors": 474,
+        "reference_characters": 744,
+        "cer": 0.6370967741935484,
+        "exact_words": 5,
+        "words": 147,
+        "exact_word_fraction": 0.034013605442176874,
+        "multicharacter_exact_words": 3,
+        "multicharacter_words": 143
+      },
+      "expanded_200": {
+        "errors": 415,
+        "reference_characters": 744,
+        "cer": 0.5577956989247311,
+        "exact_words": 9,
+        "words": 147,
+        "exact_word_fraction": 0.061224489795918366,
+        "multicharacter_exact_words": 7,
+        "multicharacter_words": 143
+      }
+    },
+    "reserved": {
+      "initial": {
+        "errors": 501,
+        "reference_characters": 709,
+        "cer": 0.7066290550070522,
+        "exact_words": 1,
+        "words": 135,
+        "exact_word_fraction": 0.007407407407407408,
+        "multicharacter_exact_words": 1,
+        "multicharacter_words": 135
+      },
+      "continuation_200": {
+        "errors": 512,
+        "reference_characters": 709,
+        "cer": 0.7221438645980254,
+        "exact_words": 2,
+        "words": 135,
+        "exact_word_fraction": 0.014814814814814815,
+        "multicharacter_exact_words": 2,
+        "multicharacter_words": 135
+      },
+      "expanded_200": {
+        "errors": 443,
+        "reference_characters": 709,
+        "cer": 0.6248236953455572,
+        "exact_words": 9,
+        "words": 135,
+        "exact_word_fraction": 0.06666666666666667,
+        "multicharacter_exact_words": 9,
+        "multicharacter_words": 135
+      }
+    }
+  },
+  "expanded_exact_matches": {
+    "historical_development": [
+      {
+        "id": "f4r_w0007",
+        "reference": "chor",
+        "seen_in_expanded_training": true
+      },
+      {
+        "id": "f4v_w0007",
+        "reference": "chey",
+        "seen_in_expanded_training": false
+      },
+      {
+        "id": "f4v_w0015",
+        "reference": "sho",
+        "seen_in_expanded_training": true
+      },
+      {
+        "id": "f4v_w0026",
+        "reference": "daiin",
+        "seen_in_expanded_training": true
+      },
+      {
+        "id": "f4v_w0041",
+        "reference": "chor",
+        "seen_in_expanded_training": true
+      },
+      {
+        "id": "f4v_w0045",
+        "reference": "chor",
+        "seen_in_expanded_training": true
+      },
+      {
+        "id": "f4v_w0047",
+        "reference": "sho",
+        "seen_in_expanded_training": true
+      },
+      {
+        "id": "f4v_w0069",
+        "reference": "s",
+        "seen_in_expanded_training": true
+      },
+      {
+        "id": "f4v_w0075",
+        "reference": "s",
+        "seen_in_expanded_training": true
+      }
+    ],
+    "reserved": [
+      {
+        "id": "f7r_w0024",
+        "reference": "daiin",
+        "seen_in_expanded_training": true
+      },
+      {
+        "id": "f7r_w0037",
+        "reference": "chol",
+        "seen_in_expanded_training": true
+      },
+      {
+        "id": "f7r_w0059",
+        "reference": "chor",
+        "seen_in_expanded_training": true
+      },
+      {
+        "id": "f7v_w0010",
+        "reference": "daiin",
+        "seen_in_expanded_training": true
+      },
+      {
+        "id": "f7v_w0023",
+        "reference": "dor",
+        "seen_in_expanded_training": true
+      },
+      {
+        "id": "f7v_w0049",
+        "reference": "chor",
+        "seen_in_expanded_training": true
+      },
+      {
+        "id": "f7v_w0063",
+        "reference": "daiin",
+        "seen_in_expanded_training": true
+      },
+      {
+        "id": "f7v_w0070",
+        "reference": "dy",
+        "seen_in_expanded_training": true
+      },
+      {
+        "id": "f7v_w0072",
+        "reference": "daiin",
+        "seen_in_expanded_training": true
+      }
+    ]
+  },
+  "scope": "Independent edit-distance arithmetic, aggregation, model hashes, fixed first pass, both prediction inventories and logged network counters. No new inference, training, external paleographic or semantic validation."
+}

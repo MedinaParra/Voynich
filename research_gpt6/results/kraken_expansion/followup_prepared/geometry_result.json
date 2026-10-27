@@ -1,0 +1,81 @@
+{
+  "status": "FOLLOWUP_PREPARED_EXPLORATORY_AFTER_PRIMARY_FAILURE",
+  "primary_geometry_status": "FAIL_PRESELECTED_PAGE_GEOMETRY_NO_EXPANSION_TRAINING",
+  "primary_geometry_result_sha256": "384e3646b6ef2f01c58049ba6a1aa9e4b2eddcde6ffc1c873a3a34302bb33970",
+  "primary_run_id": "40544897322",
+  "plan_sha256": "bbefcf11409638dd2cda7ffec9bbe2248d12b13bea83e23d16e3556313784e62",
+  "pages": [
+    {
+      "folio": "f5v",
+      "role": "additional_train",
+      "source_words": 45,
+      "reciprocal_matches": 860,
+      "accepted_folds": 5,
+      "positive_grid": true,
+      "candidate_words": 45,
+      "rejection_counts": {},
+      "accepted": true
+    },
+    {
+      "folio": "f6r",
+      "role": "additional_train",
+      "source_words": 85,
+      "reciprocal_matches": 1042,
+      "accepted_folds": 5,
+      "positive_grid": true,
+      "candidate_words": 85,
+      "rejection_counts": {},
+      "accepted": true
+    },
+    {
+      "folio": "f6v",
+      "role": "additional_train",
+      "source_words": 115,
+      "reciprocal_matches": 858,
+      "accepted_folds": 5,
+      "positive_grid": true,
+      "candidate_words": 115,
+      "rejection_counts": {},
+      "accepted": true
+    },
+    {
+      "folio": "f7r",
+      "role": "reserved",
+      "source_words": 62,
+      "reciprocal_matches": 666,
+      "accepted_folds": 5,
+      "positive_grid": true,
+      "candidate_words": 62,
+      "rejection_counts": {},
+      "accepted": true
+    },
+    {
+      "folio": "f7v",
+      "role": "reserved",
+      "source_words": 73,
+      "reciprocal_matches": 747,
+      "accepted_folds": 5,
+      "positive_grid": true,
+      "candidate_words": 73,
+      "rejection_counts": {},
+      "accepted": true
+    }
+  ],
+  "excluded_folio": "f5r",
+  "new_geometric_fits": 0,
+  "candidate_rows_by_role": {
+    "original_train": 197,
+    "historical_development": 147,
+    "additional_train": 245,
+    "reserved": 135
+  },
+  "characters_by_role": {
+    "original_train": 944,
+    "historical_development": 744,
+    "additional_train": 1143,
+    "reserved": 709
+  },
+  "dataset_sha256": "ba02c759e1f7b1f76b1f1b032fb8b5c7a77bef5a231e81df2cb4b283d242addd",
+  "expert_review": "NOT_REVIEWED",
+  "translation": "NOT_RUN"
+}

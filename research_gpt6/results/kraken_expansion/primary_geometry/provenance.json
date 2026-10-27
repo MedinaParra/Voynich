@@ -1,0 +1,28 @@
+{
+  "run_id": 40544897322,
+  "execution_commit": "8c6141623db3e0aaa9c3918ddca962f42d3126a2",
+  "conclusion": "failure",
+  "artifacts": [
+    {
+      "id": 12751972641,
+      "name": "kraken-expansion-prepared",
+      "size_in_bytes": 5252684,
+      "url": "https://api.github.com/repos/MedinaParra/Voynich/actions/artifacts/12751972641",
+      "archive_download_url": "https://api.github.com/repos/MedinaParra/Voynich/actions/artifacts/12751972641/zip",
+      "expired": false,
+      "created_at": "2026-10-27T16:51:17Z",
+      "expires_at": "2026-11-26T16:51:16Z",
+      "updated_at": "2026-10-27T16:51:17Z",
+      "digest": "sha256:20afd84553e4586bd73b55f5bea24309655fe82b736e481729e27d0014512c4c",
+      "workflow_run": {
+        "id": 40544897322,
+        "repository_id": 1405664605,
+        "head_repository_id": 1405664605,
+        "head_branch": "experiment/kraken-voynich",
+        "head_sha": "8c6141623db3e0aaa9c3918ddca962f42d3126a2"
+      }
+    }
+  ],
+  "reason": "All-page gate failed: f5r fold0 p90=5.578977752367972 >5. No primary training was executed. Exploratory continuation explicitly documented in69b.",
+  "zip_digest_verified": true
+}

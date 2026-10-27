@@ -1,0 +1,5 @@
+{
+  "error": "Fixed geometric expansion gate failed; no page substitution",
+  "traceback": "Traceback (most recent call last):\n  File \"/home/runner/work/Voynich/Voynich/research_gpt6/code/prepare_kraken_expansion.py\", line 109, in <module>\n    try:prepare(a)\n        ^^^^^^^^^^\n  File \"/home/runner/work/Voynich/Voynich/research_gpt6/code/prepare_kraken_expansion.py\", line 84, in prepare\n    if not all(p['accepted'] for p in summaries):raise ValueError('Fixed geometric expansion gate failed; no page substitution')\n                                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nValueError: Fixed geometric expansion gate failed; no page substitution\n",
+  "translation": "NOT_RUN"
+}

@@ -1,0 +1,98 @@
+{
+  "training": {
+    "run_id": 40545818493,
+    "execution_commit": "544c197aa49d6aa2c4e9cfcca4db54853032afc0",
+    "conclusion": "success",
+    "artifacts": [
+      {
+        "id": 12752698158,
+        "name": "kraken-expansion-continuation_200",
+        "size_in_bytes": 5100026,
+        "url": "https://api.github.com/repos/MedinaParra/Voynich/actions/artifacts/12752698158",
+        "archive_download_url": "https://api.github.com/repos/MedinaParra/Voynich/actions/artifacts/12752698158/zip",
+        "expired": false,
+        "created_at": "2026-10-27T17:03:01Z",
+        "expires_at": "2026-11-26T17:03:00Z",
+        "updated_at": "2026-10-27T17:03:01Z",
+        "digest": "sha256:7b2558b5f2920fac1f18cf32e4fecdc51b32b61d8abc7ff60bf826d0fc2bf3c0",
+        "workflow_run": {
+          "id": 40545818493,
+          "repository_id": 1405664605,
+          "head_repository_id": 1405664605,
+          "head_branch": "experiment/kraken-voynich",
+          "head_sha": "544c197aa49d6aa2c4e9cfcca4db54853032afc0"
+        }
+      },
+      {
+        "id": 12752619307,
+        "name": "kraken-expansion-expanded_200",
+        "size_in_bytes": 5070221,
+        "url": "https://api.github.com/repos/MedinaParra/Voynich/actions/artifacts/12752619307",
+        "archive_download_url": "https://api.github.com/repos/MedinaParra/Voynich/actions/artifacts/12752619307/zip",
+        "expired": false,
+        "created_at": "2026-10-27T17:03:11Z",
+        "expires_at": "2026-11-26T17:03:10Z",
+        "updated_at": "2026-10-27T17:03:11Z",
+        "digest": "sha256:0b2919ef670d50792cac1926c6b6983af13c8fff63fb863173e0eb4fbb425cd1",
+        "workflow_run": {
+          "id": 40545818493,
+          "repository_id": 1405664605,
+          "head_repository_id": 1405664605,
+          "head_branch": "experiment/kraken-voynich",
+          "head_sha": "544c197aa49d6aa2c4e9cfcca4db54853032afc0"
+        }
+      }
+    ],
+    "jobs": [
+      {
+        "id": 122336020628,
+        "name": "retrain (expanded_200)",
+        "conclusion": "success"
+      },
+      {
+        "id": 122336021141,
+        "name": "retrain (continuation_200)",
+        "conclusion": "success"
+      }
+    ]
+  },
+  "common_evaluation": {
+    "run_id": 40547524429,
+    "execution_commit": "546030b414c58de1e2a2218d0495f04716dda259",
+    "conclusion": "success",
+    "artifacts": [
+      {
+        "id": 12752928685,
+        "name": "kraken-expansion-common-evaluation",
+        "size_in_bytes": 11142,
+        "url": "https://api.github.com/repos/MedinaParra/Voynich/actions/artifacts/12752928685",
+        "archive_download_url": "https://api.github.com/repos/MedinaParra/Voynich/actions/artifacts/12752928685/zip",
+        "expired": false,
+        "created_at": "2026-10-27T17:08:33Z",
+        "expires_at": "2026-11-26T17:08:33Z",
+        "updated_at": "2026-10-27T17:08:33Z",
+        "digest": "sha256:98cd914536352fbf5b5ec30957ad7a54d7ad5a4050bf5f0d6e7f0ad54eb785e7",
+        "workflow_run": {
+          "id": 40547524429,
+          "repository_id": 1405664605,
+          "head_repository_id": 1405664605,
+          "head_branch": "experiment/kraken-voynich",
+          "head_sha": "546030b414c58de1e2a2218d0495f04716dda259"
+        }
+      }
+    ]
+  },
+  "all_zip_digests_verified": true,
+  "design": "EXPLORATORY_GEOMETRY_FILTERED_AFTER_PRIMARY_GATE_FAILURE",
+  "initial_geometry": {
+    "run_id": 40544897322,
+    "conclusion": "failure"
+  },
+  "translation": "NOT_RUN",
+  "verification": {
+    "training_audit_sha256": "0f414477ec829aec1e15ec4a9e743079abfdac0715ede38e19ca4b720972f7ad",
+    "training_audit_code_sha256": "2aaa64f9c4b9f660f2ba80ce350b8eea009fe417eb315eeb47d12505851a71ed",
+    "common_audit_sha256": "2723d36f1602745f14c1171e652b61ff0dcef25a837ae527b519b623149f7ee1",
+    "common_audit_code_sha256": "6433ba7b944055786a60f7a676980354c850df3c9765c09d4801a2cee7624996"
+  }
+}

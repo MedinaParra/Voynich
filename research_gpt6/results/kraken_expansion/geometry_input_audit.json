@@ -1,0 +1,18 @@
+{
+  "status": "PASS",
+  "checks": 8728,
+  "mismatches": [],
+  "primary_geometry_status": "FAIL_PRESELECTED_PAGE_GEOMETRY_NO_EXPANSION_TRAINING",
+  "spatial_folds_passed": 29,
+  "spatial_folds_total": 30,
+  "followup_design": "EXPLORATORY_GEOMETRY_FILTERED_AFTER_PRIMARY_GATE_FAILURE",
+  "followup_counts": {
+    "original_train": 197,
+    "historical_development": 147,
+    "additional_train": 245,
+    "reserved": 135
+  },
+  "training_results": {},
+  "scope": "Independent numerical replay of exported geometry and recognition arithmetic; source pixels and frozen old pairs checked. No new homography estimation, neural inference, expert reading or semantic validation.",
+  "translation": "NOT_RUN"
+}

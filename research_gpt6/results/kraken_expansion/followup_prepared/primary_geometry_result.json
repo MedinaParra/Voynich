@@ -1,0 +1,77 @@
+{
+  "status": "FAIL_PRESELECTED_PAGE_GEOMETRY_NO_EXPANSION_TRAINING",
+  "pages": [
+    {
+      "folio": "f5r",
+      "role": "additional_train",
+      "source_words": 56,
+      "reciprocal_matches": 872,
+      "accepted_folds": 4,
+      "positive_grid": false,
+      "candidate_words": 0,
+      "rejection_counts": {},
+      "accepted": false
+    },
+    {
+      "folio": "f5v",
+      "role": "additional_train",
+      "source_words": 45,
+      "reciprocal_matches": 860,
+      "accepted_folds": 5,
+      "positive_grid": true,
+      "candidate_words": 45,
+      "rejection_counts": {},
+      "accepted": true
+    },
+    {
+      "folio": "f6r",
+      "role": "additional_train",
+      "source_words": 85,
+      "reciprocal_matches": 1042,
+      "accepted_folds": 5,
+      "positive_grid": true,
+      "candidate_words": 85,
+      "rejection_counts": {},
+      "accepted": true
+    },
+    {
+      "folio": "f6v",
+      "role": "additional_train",
+      "source_words": 115,
+      "reciprocal_matches": 858,
+      "accepted_folds": 5,
+      "positive_grid": true,
+      "candidate_words": 115,
+      "rejection_counts": {},
+      "accepted": true
+    },
+    {
+      "folio": "f7r",
+      "role": "reserved",
+      "source_words": 62,
+      "reciprocal_matches": 666,
+      "accepted_folds": 5,
+      "positive_grid": true,
+      "candidate_words": 62,
+      "rejection_counts": {},
+      "accepted": true
+    },
+    {
+      "folio": "f7v",
+      "role": "reserved",
+      "source_words": 73,
+      "reciprocal_matches": 747,
+      "accepted_folds": 5,
+      "positive_grid": true,
+      "candidate_words": 73,
+      "rejection_counts": {},
+      "accepted": true
+    }
+  ],
+  "plan_sha256": "a92c7dc452a4d1ec4782351c36857e128b515c7ca48cf8dc4d7470d10e8f9592",
+  "inputs_sha256": "98b773102adc8cb7711dec0fc8c31f5a12dfa247717cd3e1eb835ff7e4959cb3",
+  "run_id": "40544897322",
+  "execution_commit": "8c6141623db3e0aaa9c3918ddca962f42d3126a2",
+  "expert_review": "NOT_REVIEWED",
+  "translation": "NOT_RUN"
+}
