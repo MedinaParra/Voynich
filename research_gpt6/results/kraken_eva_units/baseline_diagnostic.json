@@ -1,0 +1,42 @@
+{
+  "source_commit": "f9cbd9f6632c484ca65d2953efd7c6b834e7f66b",
+  "diagnostic": "Existing archived predictions only, no new model inference",
+  "strata": [
+    {
+      "role": "historical_development",
+      "reference_seen": true,
+      "words": 69,
+      "mean_reference_length": 4.202898550724638,
+      "predictions_in_training_vocabulary": 32,
+      "errors": 137,
+      "eva_characters": 290
+    },
+    {
+      "role": "historical_development",
+      "reference_seen": false,
+      "words": 78,
+      "mean_reference_length": 5.82051282051282,
+      "predictions_in_training_vocabulary": 7,
+      "errors": 278,
+      "eva_characters": 454
+    },
+    {
+      "role": "reserved",
+      "reference_seen": true,
+      "words": 59,
+      "mean_reference_length": 4.4576271186440675,
+      "predictions_in_training_vocabulary": 27,
+      "errors": 133,
+      "eva_characters": 263
+    },
+    {
+      "role": "reserved",
+      "reference_seen": false,
+      "words": 76,
+      "mean_reference_length": 5.868421052631579,
+      "predictions_in_training_vocabulary": 17,
+      "errors": 310,
+      "eva_characters": 446
+    }
+  ]
+}
