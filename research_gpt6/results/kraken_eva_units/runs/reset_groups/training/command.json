@@ -1,0 +1,10 @@
+[
+  "ketos",
+  "--config",
+  "/home/runner/work/Voynich/Voynich/work/eva_units/reset_groups/training/training_config.json",
+  "train",
+  "--load",
+  "/home/runner/work/Voynich/Voynich/work/eva_units/reset_groups/initial_reset.safetensors",
+  "--resize",
+  "fail"
+]

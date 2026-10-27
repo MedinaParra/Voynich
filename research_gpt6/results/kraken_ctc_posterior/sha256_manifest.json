@@ -1,0 +1,51 @@
+{
+  "algorithm": "SHA-256",
+  "scope": "All files in this result directory except this manifest itself",
+  "files": [
+    {
+      "path": "audit.json",
+      "bytes": 13165,
+      "sha256": "a0a1b1e43b9d0570ccf3cbf6c002501260377522928727a3d0b89ed12a7dc9c7"
+    },
+    {
+      "path": "capture_records.json",
+      "bytes": 192095,
+      "sha256": "887a8c2e51c8a829b5cc8e684cd118178d801fba242e053c27b42d4a848007e8"
+    },
+    {
+      "path": "codec.json",
+      "bytes": 393,
+      "sha256": "71857b6648cd62ee0f54335cb4383a215272259d77e23882bfc9bddfdc0045a5"
+    },
+    {
+      "path": "interface_parity.json",
+      "bytes": 5682,
+      "sha256": "fc4ed5e9aecb533ab97a167588f642e5717b6440bc118ae00ed35ba9076ef8ce"
+    },
+    {
+      "path": "lossless_json_archives.json",
+      "bytes": 492,
+      "sha256": "010ccaf08602bc25bc03d78bf3d0df82b77ba349f3288d1cdf9a0294e8805a63"
+    },
+    {
+      "path": "posterior_pass0.npz",
+      "bytes": 496668,
+      "sha256": "bf5a6cbc660df2116592f0326c9c4953c04d13662342863324f81278ee6f168c"
+    },
+    {
+      "path": "posterior_pass1.npz",
+      "bytes": 496668,
+      "sha256": "bf5a6cbc660df2116592f0326c9c4953c04d13662342863324f81278ee6f168c"
+    },
+    {
+      "path": "provenance.json",
+      "bytes": 1946,
+      "sha256": "5cbf491bc041d35b08403d2bbd2f78400b8049395e159c9683ec23104c3b7fb6"
+    },
+    {
+      "path": "result.json.gz",
+      "bytes": 74643,
+      "sha256": "6626204b8565b272165feb87826f155f0a5039d4ced53b6ab5c602c3c33822fc"
+    }
+  ]
+}

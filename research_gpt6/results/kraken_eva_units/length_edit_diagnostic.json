@@ -1,0 +1,314 @@
+{
+  "scope": "Descriptive arithmetic from archived source-model predictions, no new inference, training or causal claim. Exact-match gaps are confounded by word length.",
+  "length_strata": [
+    {
+      "role": "historical_development",
+      "eva_length": 1,
+      "seen_in_training": true,
+      "words": 3,
+      "eva_characters": 3,
+      "errors": 1,
+      "exact": 2
+    },
+    {
+      "role": "historical_development",
+      "eva_length": 1,
+      "seen_in_training": false,
+      "words": 1,
+      "eva_characters": 1,
+      "errors": 1,
+      "exact": 0
+    },
+    {
+      "role": "historical_development",
+      "eva_length": 2,
+      "seen_in_training": true,
+      "words": 5,
+      "eva_characters": 10,
+      "errors": 8,
+      "exact": 0
+    },
+    {
+      "role": "historical_development",
+      "eva_length": 2,
+      "seen_in_training": false,
+      "words": 1,
+      "eva_characters": 2,
+      "errors": 3,
+      "exact": 0
+    },
+    {
+      "role": "historical_development",
+      "eva_length": 3,
+      "seen_in_training": true,
+      "words": 9,
+      "eva_characters": 27,
+      "errors": 15,
+      "exact": 2
+    },
+    {
+      "role": "historical_development",
+      "eva_length": 3,
+      "seen_in_training": false,
+      "words": 2,
+      "eva_characters": 6,
+      "errors": 5,
+      "exact": 0
+    },
+    {
+      "role": "historical_development",
+      "eva_length": 4,
+      "seen_in_training": true,
+      "words": 24,
+      "eva_characters": 96,
+      "errors": 39,
+      "exact": 3
+    },
+    {
+      "role": "historical_development",
+      "eva_length": 4,
+      "seen_in_training": false,
+      "words": 8,
+      "eva_characters": 32,
+      "errors": 21,
+      "exact": 1
+    },
+    {
+      "role": "historical_development",
+      "eva_length": 5,
+      "seen_in_training": true,
+      "words": 17,
+      "eva_characters": 85,
+      "errors": 38,
+      "exact": 1
+    },
+    {
+      "role": "historical_development",
+      "eva_length": 5,
+      "seen_in_training": false,
+      "words": 19,
+      "eva_characters": 95,
+      "errors": 47,
+      "exact": 0
+    },
+    {
+      "role": "historical_development",
+      "eva_length": 6,
+      "seen_in_training": true,
+      "words": 9,
+      "eva_characters": 54,
+      "errors": 27,
+      "exact": 0
+    },
+    {
+      "role": "historical_development",
+      "eva_length": 6,
+      "seen_in_training": false,
+      "words": 21,
+      "eva_characters": 126,
+      "errors": 81,
+      "exact": 0
+    },
+    {
+      "role": "historical_development",
+      "eva_length": 7,
+      "seen_in_training": true,
+      "words": 1,
+      "eva_characters": 7,
+      "errors": 3,
+      "exact": 0
+    },
+    {
+      "role": "historical_development",
+      "eva_length": 7,
+      "seen_in_training": false,
+      "words": 19,
+      "eva_characters": 133,
+      "errors": 84,
+      "exact": 0
+    },
+    {
+      "role": "historical_development",
+      "eva_length": 8,
+      "seen_in_training": true,
+      "words": 1,
+      "eva_characters": 8,
+      "errors": 6,
+      "exact": 0
+    },
+    {
+      "role": "historical_development",
+      "eva_length": 8,
+      "seen_in_training": false,
+      "words": 4,
+      "eva_characters": 32,
+      "errors": 19,
+      "exact": 0
+    },
+    {
+      "role": "historical_development",
+      "eva_length": 9,
+      "seen_in_training": false,
+      "words": 3,
+      "eva_characters": 27,
+      "errors": 17,
+      "exact": 0
+    },
+    {
+      "role": "reserved",
+      "eva_length": 2,
+      "seen_in_training": true,
+      "words": 4,
+      "eva_characters": 8,
+      "errors": 6,
+      "exact": 1
+    },
+    {
+      "role": "reserved",
+      "eva_length": 2,
+      "seen_in_training": false,
+      "words": 2,
+      "eva_characters": 4,
+      "errors": 2,
+      "exact": 0
+    },
+    {
+      "role": "reserved",
+      "eva_length": 3,
+      "seen_in_training": true,
+      "words": 10,
+      "eva_characters": 30,
+      "errors": 18,
+      "exact": 1
+    },
+    {
+      "role": "reserved",
+      "eva_length": 3,
+      "seen_in_training": false,
+      "words": 3,
+      "eva_characters": 9,
+      "errors": 8,
+      "exact": 0
+    },
+    {
+      "role": "reserved",
+      "eva_length": 4,
+      "seen_in_training": true,
+      "words": 16,
+      "eva_characters": 64,
+      "errors": 28,
+      "exact": 3
+    },
+    {
+      "role": "reserved",
+      "eva_length": 4,
+      "seen_in_training": false,
+      "words": 12,
+      "eva_characters": 48,
+      "errors": 37,
+      "exact": 0
+    },
+    {
+      "role": "reserved",
+      "eva_length": 5,
+      "seen_in_training": true,
+      "words": 15,
+      "eva_characters": 75,
+      "errors": 31,
+      "exact": 4
+    },
+    {
+      "role": "reserved",
+      "eva_length": 5,
+      "seen_in_training": false,
+      "words": 18,
+      "eva_characters": 90,
+      "errors": 59,
+      "exact": 0
+    },
+    {
+      "role": "reserved",
+      "eva_length": 6,
+      "seen_in_training": true,
+      "words": 13,
+      "eva_characters": 78,
+      "errors": 47,
+      "exact": 0
+    },
+    {
+      "role": "reserved",
+      "eva_length": 6,
+      "seen_in_training": false,
+      "words": 14,
+      "eva_characters": 84,
+      "errors": 60,
+      "exact": 0
+    },
+    {
+      "role": "reserved",
+      "eva_length": 7,
+      "seen_in_training": false,
+      "words": 15,
+      "eva_characters": 105,
+      "errors": 75,
+      "exact": 0
+    },
+    {
+      "role": "reserved",
+      "eva_length": 8,
+      "seen_in_training": true,
+      "words": 1,
+      "eva_characters": 8,
+      "errors": 3,
+      "exact": 0
+    },
+    {
+      "role": "reserved",
+      "eva_length": 8,
+      "seen_in_training": false,
+      "words": 5,
+      "eva_characters": 40,
+      "errors": 25,
+      "exact": 0
+    },
+    {
+      "role": "reserved",
+      "eva_length": 9,
+      "seen_in_training": false,
+      "words": 4,
+      "eva_characters": 36,
+      "errors": 23,
+      "exact": 0
+    }
+  ],
+  "edit_operations": {
+    "substitution": 508,
+    "deletion": 253,
+    "insertion": 97
+  },
+  "substitution_pairs_top20": {
+    "s>c": 24,
+    "e>o": 19,
+    "h>o": 18,
+    "y>o": 17,
+    "o>a": 16,
+    "e>a": 14,
+    "n>r": 13,
+    "i>o": 12,
+    "y>l": 11,
+    "h>e": 10,
+    "o>i": 10,
+    "y>m": 9,
+    "d>o": 9,
+    "a>o": 9,
+    "k>t": 8,
+    "h>a": 8,
+    "e>i": 8,
+    "t>k": 7,
+    "o>c": 6,
+    "t>h": 6
+  },
+  "edit_alignment_tie_rule": "Prefer diagonal, then deletion, then insertion; these are text edit alignments, not paleographic glyph labels.",
+  "distance_checks": 282,
+  "total_errors": 858
+}

@@ -1,0 +1,14 @@
+{
+  "scope": "New result files only; exact original bytes recoverable with gzip decompression",
+  "files": [
+    {
+      "original_path": "result.json",
+      "archive_path": "result.json.gz",
+      "original_bytes": 821702,
+      "archive_bytes": 74643,
+      "original_sha256": "01729e60f3ee4b7925bfc4fb3d00657fe8096842a4caf82581c976680195cd10",
+      "archive_sha256": "6626204b8565b272165feb87826f155f0a5039d4ced53b6ab5c602c3c33822fc",
+      "method": "gzip level 9; mtime 0"
+    }
+  ]
+}

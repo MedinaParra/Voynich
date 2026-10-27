@@ -1,0 +1,22 @@
+{
+  "failure.json": {
+    "bytes": 2597,
+    "sha256": "61d679248996177212c484df94968ae623c28d8cff9f777f1c26fcc16c6cbb34"
+  },
+  "source_dataset.json": {
+    "bytes": 786084,
+    "sha256": "ba02c759e1f7b1f76b1f1b032fb8b5c7a77bef5a231e81df2cb4b283d242addd"
+  },
+  "training_labels.json": {
+    "bytes": 172137,
+    "sha256": "4aa0e0454435d61f8023321381b34816cf56a11d757c54cf0957b756340eb7b0"
+  },
+  "initial_reset.safetensors": {
+    "bytes": 953624,
+    "sha256": "4cd3438386a1561e89c0fe7d784d23c22b37c3678d676208b2376d111c1cc2aa"
+  },
+  "head_reset_proof.json": {
+    "bytes": 6808,
+    "sha256": "16606ff58d93cbc37147033e991d92ef86e76af2192feb1c4eb5638294113502"
+  }
+}

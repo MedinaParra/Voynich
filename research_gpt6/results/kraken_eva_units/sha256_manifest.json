@@ -1,0 +1,256 @@
+{
+  "algorithm": "SHA-256",
+  "scope": "All files in this result directory except this manifest itself",
+  "files": [
+    {
+      "path": "audit.json",
+      "bytes": 13276,
+      "sha256": "887713a0d159e3d7016eac2055b1e44352cb0b2752e8dfe3ee56d109f845cd13"
+    },
+    {
+      "path": "baseline_diagnostic.json",
+      "bytes": 1131,
+      "sha256": "26349d0d99cb2697f43a2fbfe7ca4ef7cb6e5a7063d8820ac92f2e58e2e45b47"
+    },
+    {
+      "path": "common_evaluation/result.json.gz",
+      "bytes": 17131,
+      "sha256": "db2b4a87f7b4f153bc681c9fecd4f56fd6bd5510f57ea1e6b604a47db9a3ab64"
+    },
+    {
+      "path": "group_mapping.json",
+      "bytes": 770,
+      "sha256": "a31991728dd0ecbd98b56f51a2d2bfebc3fc741821723e03945918325422faa4"
+    },
+    {
+      "path": "initial_failed_attempt/provenance.json",
+      "bytes": 1993,
+      "sha256": "c4b2caa2f6ca7a8b8d59cd73209d761fe381139d9a51c492b757a3c8795e0134"
+    },
+    {
+      "path": "initial_failed_attempt/reset_groups/artifact_file_inventory.json",
+      "bytes": 671,
+      "sha256": "0ff5769f3086853a18f079e64c660cabf660dd3f6bb8fb0d3038ef16687722a3"
+    },
+    {
+      "path": "initial_failed_attempt/reset_groups/failure.json",
+      "bytes": 2633,
+      "sha256": "7388136591ce88f5e455e7c036b77575b400a442ea0ed645bb0b30e94bbeb628"
+    },
+    {
+      "path": "initial_failed_attempt/reset_groups/head_reset_proof.json",
+      "bytes": 7000,
+      "sha256": "e7d3dc88b89b05c9422f7b5f0e2f1bf87ed8e7672686acace34a74100182885c"
+    },
+    {
+      "path": "initial_failed_attempt/reset_groups/initial_reset.safetensors",
+      "bytes": 956872,
+      "sha256": "8e292318ee5d9245ea98f78136ed8cfd1729b82419ae36620afed6ca456b27ae"
+    },
+    {
+      "path": "initial_failed_attempt/reset_groups/job.log",
+      "bytes": 53811,
+      "sha256": "e41c22e300bddf02faf8af29fc682f252728957fe02bc88294a179a3771e8ced"
+    },
+    {
+      "path": "initial_failed_attempt/reset_groups/source_dataset.json.gz",
+      "bytes": 158981,
+      "sha256": "0fff4471ab3bf4634216f006928c4a1fbb27e0199f79f1b68dabc7a6d550d4c2"
+    },
+    {
+      "path": "initial_failed_attempt/reset_groups/training_labels.json",
+      "bytes": 172703,
+      "sha256": "6a74ce9536087927928a1337335245b4cdd380bb25a69d6918d0f50243bc648a"
+    },
+    {
+      "path": "initial_failed_attempt/reset_letters/artifact_file_inventory.json",
+      "bytes": 671,
+      "sha256": "4c1715e2247878653b9ca28a215af6342361a9d788db74e881f55d06199581b5"
+    },
+    {
+      "path": "initial_failed_attempt/reset_letters/failure.json",
+      "bytes": 2597,
+      "sha256": "61d679248996177212c484df94968ae623c28d8cff9f777f1c26fcc16c6cbb34"
+    },
+    {
+      "path": "initial_failed_attempt/reset_letters/head_reset_proof.json",
+      "bytes": 6808,
+      "sha256": "16606ff58d93cbc37147033e991d92ef86e76af2192feb1c4eb5638294113502"
+    },
+    {
+      "path": "initial_failed_attempt/reset_letters/initial_reset.safetensors",
+      "bytes": 953624,
+      "sha256": "4cd3438386a1561e89c0fe7d784d23c22b37c3678d676208b2376d111c1cc2aa"
+    },
+    {
+      "path": "initial_failed_attempt/reset_letters/job.log",
+      "bytes": 53799,
+      "sha256": "23d8bfb48298f3c66d6a739f2b9beaec28558d1df5b02daf4244e288fa087431"
+    },
+    {
+      "path": "initial_failed_attempt/reset_letters/source_dataset.json.gz",
+      "bytes": 158981,
+      "sha256": "0fff4471ab3bf4634216f006928c4a1fbb27e0199f79f1b68dabc7a6d550d4c2"
+    },
+    {
+      "path": "initial_failed_attempt/reset_letters/training_labels.json",
+      "bytes": 172137,
+      "sha256": "4aa0e0454435d61f8023321381b34816cf56a11d757c54cf0957b756340eb7b0"
+    },
+    {
+      "path": "length_edit_diagnostic.json",
+      "bytes": 6547,
+      "sha256": "c7d24a3eb38ea137d266be31e2be24819bff6a8794f486e046c7afea8a03deb2"
+    },
+    {
+      "path": "lossless_json_archives.json",
+      "bytes": 2452,
+      "sha256": "676359d98e6d96af513260c425054270fae357cebc26deac135f25762cbeb593"
+    },
+    {
+      "path": "provenance.json",
+      "bytes": 4101,
+      "sha256": "5be0e1131f1279699f913c5487ba602433bed5aa8331892297ce877e9ba9c4dd"
+    },
+    {
+      "path": "runs/reset_groups/artifact_file_inventory.json",
+      "bytes": 1929,
+      "sha256": "888a1f0cb0a36a57e8070754f7bdff0cc6e1182e788147cc856bba81bbb8ff41"
+    },
+    {
+      "path": "runs/reset_groups/final_conversion.log",
+      "bytes": 72,
+      "sha256": "c8e888c8aa75aa7526f6c52f14c46e41ecdfa86eb1595bb2049836057d2e7e79"
+    },
+    {
+      "path": "runs/reset_groups/final_epoch.mlmodel",
+      "bytes": 954000,
+      "sha256": "81b4f7b39052877972537672dda255fd76cf9f2b557f111243327123c1153faf"
+    },
+    {
+      "path": "runs/reset_groups/head_reset_proof.json",
+      "bytes": 9978,
+      "sha256": "806081d703b94ee6083a3fa090fc0610d0833c4deb246310ab99994082e3b146"
+    },
+    {
+      "path": "runs/reset_groups/initial_reset.safetensors",
+      "bytes": 956752,
+      "sha256": "f44fd6d45ebfd50e4ff9e2a3184d54c9d4dc5855d362dd193a2e5a8b3e260cb2"
+    },
+    {
+      "path": "runs/reset_groups/result.json",
+      "bytes": 97637,
+      "sha256": "3f05f455cc902c8e0ee0e15b937e1fec25b126ec9fa937612fdcaa88e7044ee9"
+    },
+    {
+      "path": "runs/reset_groups/source_dataset.json.gz",
+      "bytes": 158981,
+      "sha256": "0fff4471ab3bf4634216f006928c4a1fbb27e0199f79f1b68dabc7a6d550d4c2"
+    },
+    {
+      "path": "runs/reset_groups/trained_codec.json",
+      "bytes": 549,
+      "sha256": "d81bf9bfc9e8f847dc5c0a32a7b7cab9e9117bf88500b02f4ecf8d759ddb8fab"
+    },
+    {
+      "path": "runs/reset_groups/training/checkpoints/checkpoint_199-1.0000.ckpt",
+      "bytes": 2974261,
+      "sha256": "c803a54e31b0373f39a74e806a0fb33da382f68350e22d768e2fec3b84cfd353"
+    },
+    {
+      "path": "runs/reset_groups/training/command.json",
+      "bytes": 265,
+      "sha256": "9c817b34e77b6f2b9884b1b67c7925c2f54ee4f7366c732b8ec97a0461adff7e"
+    },
+    {
+      "path": "runs/reset_groups/training/train.lst",
+      "bytes": 40664,
+      "sha256": "410cfcd07d48e8fe25cf007a5003e408a3f8a5a035c2a7fc20ccb107f04d2a65"
+    },
+    {
+      "path": "runs/reset_groups/training/training.log",
+      "bytes": 75596,
+      "sha256": "2c835c3876f964ca5fe830941b2a58b500d5ae58be927992f681620800e183ca"
+    },
+    {
+      "path": "runs/reset_groups/training/training_config.json",
+      "bytes": 873,
+      "sha256": "96b826c6fe7df3f05cef83284a2d722d0c8126626fc56507febd0854d90e690b"
+    },
+    {
+      "path": "runs/reset_groups/training_labels.json",
+      "bytes": 172703,
+      "sha256": "6a74ce9536087927928a1337335245b4cdd380bb25a69d6918d0f50243bc648a"
+    },
+    {
+      "path": "runs/reset_letters/artifact_file_inventory.json",
+      "bytes": 1929,
+      "sha256": "66b4c0ff0ee47cd6e36f2a2a9068abbb4538eaf3b2954bf6fc1be004bc94943d"
+    },
+    {
+      "path": "runs/reset_letters/final_conversion.log",
+      "bytes": 73,
+      "sha256": "098383b550cd3df0d72010fceb0195ad24e59800c541cde7603bc99096d45dd8"
+    },
+    {
+      "path": "runs/reset_letters/final_epoch.mlmodel",
+      "bytes": 950712,
+      "sha256": "90228c1a3a7adfcd7bc9652b889a5b55b41331a3ce15c17cdb1b0373c97f43e3"
+    },
+    {
+      "path": "runs/reset_letters/head_reset_proof.json",
+      "bytes": 9786,
+      "sha256": "617cd2bdef25082e0976aaae2f78d57024224b03e6fc6b9f822a6e4874b115b3"
+    },
+    {
+      "path": "runs/reset_letters/initial_reset.safetensors",
+      "bytes": 953544,
+      "sha256": "bfc5c6934ae91b3b516b6bdce0fedc4728c5210186d49d4ca6769aa0975dc83c"
+    },
+    {
+      "path": "runs/reset_letters/result.json",
+      "bytes": 95626,
+      "sha256": "6c89bd4f9b6e64faee6386c5e8955daa394ebeabec34aa37f0961efa33fb8e98"
+    },
+    {
+      "path": "runs/reset_letters/source_dataset.json.gz",
+      "bytes": 158981,
+      "sha256": "0fff4471ab3bf4634216f006928c4a1fbb27e0199f79f1b68dabc7a6d550d4c2"
+    },
+    {
+      "path": "runs/reset_letters/trained_codec.json",
+      "bytes": 393,
+      "sha256": "71857b6648cd62ee0f54335cb4383a215272259d77e23882bfc9bddfdc0045a5"
+    },
+    {
+      "path": "runs/reset_letters/training/checkpoints/checkpoint_199-1.0000.ckpt",
+      "bytes": 2965621,
+      "sha256": "ab9e4264e59ccedd646fce9925212919544a960a8fd5214475cbc733561dc5c6"
+    },
+    {
+      "path": "runs/reset_letters/training/command.json",
+      "bytes": 267,
+      "sha256": "00192750508ccfb070fed51d498a815ed0e4434fbafd5bfdd9de2211a898ef0b"
+    },
+    {
+      "path": "runs/reset_letters/training/train.lst",
+      "bytes": 41106,
+      "sha256": "25f20c82ea8333d2dd52ddfca25d20b7e22b3fc4fdd5fc99283dcb6c84cf8352"
+    },
+    {
+      "path": "runs/reset_letters/training/training.log",
+      "bytes": 75603,
+      "sha256": "e7637c3090c1c80be00cb754b99d4bc74300176204af230c6249f8d67334cf2c"
+    },
+    {
+      "path": "runs/reset_letters/training/training_config.json",
+      "bytes": 876,
+      "sha256": "743018e4ccb9d6005b4c9ffaa5d1130d3be715ff179c280f45f174ddea53b515"
+    },
+    {
+      "path": "runs/reset_letters/training_labels.json",
+      "bytes": 172137,
+      "sha256": "4aa0e0454435d61f8023321381b34816cf56a11d757c54cf0957b756340eb7b0"
+    }
+  ]
+}

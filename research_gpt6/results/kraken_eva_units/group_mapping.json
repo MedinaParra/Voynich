@@ -1,0 +1,37 @@
+{
+  "groups": [
+    {
+      "eva": "cfh",
+      "codepoint": "U+E100",
+      "integer": 57600
+    },
+    {
+      "eva": "ckh",
+      "codepoint": "U+E101",
+      "integer": 57601
+    },
+    {
+      "eva": "cph",
+      "codepoint": "U+E102",
+      "integer": 57602
+    },
+    {
+      "eva": "cth",
+      "codepoint": "U+E103",
+      "integer": 57603
+    },
+    {
+      "eva": "ch",
+      "codepoint": "U+E104",
+      "integer": 57604
+    },
+    {
+      "eva": "sh",
+      "codepoint": "U+E105",
+      "integer": 57605
+    }
+  ],
+  "segmentation": "Leftmost longest fixed match; ungrouped lowercase EVA passes through.",
+  "meaning": "Operational OCR labels only; no phonetic or semantic assignment.",
+  "expansion_helper": "research_gpt6/code/eva_unit_tools.py:expand"
+}

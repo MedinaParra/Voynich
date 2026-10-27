@@ -1,0 +1,50 @@
+{
+  "scope": "New result files only; exact original bytes recoverable with gzip decompression",
+  "files": [
+    {
+      "original_path": "common_evaluation/result.json",
+      "archive_path": "common_evaluation/result.json.gz",
+      "original_bytes": 239636,
+      "archive_bytes": 17131,
+      "original_sha256": "abf5148b79f2f76f73435eb77203b568e3d770c5b32b5523909d1013c94982a6",
+      "archive_sha256": "db2b4a87f7b4f153bc681c9fecd4f56fd6bd5510f57ea1e6b604a47db9a3ab64",
+      "method": "gzip level 9; mtime 0"
+    },
+    {
+      "original_path": "initial_failed_attempt/reset_groups/source_dataset.json",
+      "archive_path": "initial_failed_attempt/reset_groups/source_dataset.json.gz",
+      "original_bytes": 786084,
+      "archive_bytes": 158981,
+      "original_sha256": "ba02c759e1f7b1f76b1f1b032fb8b5c7a77bef5a231e81df2cb4b283d242addd",
+      "archive_sha256": "0fff4471ab3bf4634216f006928c4a1fbb27e0199f79f1b68dabc7a6d550d4c2",
+      "method": "Byte-identical reuse of fixed source dataset archive"
+    },
+    {
+      "original_path": "initial_failed_attempt/reset_letters/source_dataset.json",
+      "archive_path": "initial_failed_attempt/reset_letters/source_dataset.json.gz",
+      "original_bytes": 786084,
+      "archive_bytes": 158981,
+      "original_sha256": "ba02c759e1f7b1f76b1f1b032fb8b5c7a77bef5a231e81df2cb4b283d242addd",
+      "archive_sha256": "0fff4471ab3bf4634216f006928c4a1fbb27e0199f79f1b68dabc7a6d550d4c2",
+      "method": "Byte-identical reuse of fixed source dataset archive"
+    },
+    {
+      "original_path": "runs/reset_groups/source_dataset.json",
+      "archive_path": "runs/reset_groups/source_dataset.json.gz",
+      "original_bytes": 786084,
+      "archive_bytes": 158981,
+      "original_sha256": "ba02c759e1f7b1f76b1f1b032fb8b5c7a77bef5a231e81df2cb4b283d242addd",
+      "archive_sha256": "0fff4471ab3bf4634216f006928c4a1fbb27e0199f79f1b68dabc7a6d550d4c2",
+      "method": "Byte-identical reuse of fixed source dataset archive"
+    },
+    {
+      "original_path": "runs/reset_letters/source_dataset.json",
+      "archive_path": "runs/reset_letters/source_dataset.json.gz",
+      "original_bytes": 786084,
+      "archive_bytes": 158981,
+      "original_sha256": "ba02c759e1f7b1f76b1f1b032fb8b5c7a77bef5a231e81df2cb4b283d242addd",
+      "archive_sha256": "0fff4471ab3bf4634216f006928c4a1fbb27e0199f79f1b68dabc7a6d550d4c2",
+      "method": "Byte-identical reuse of fixed source dataset archive"
+    }
+  ]
+}

@@ -1,0 +1,102 @@
+{
+  "source_commit": "f9cbd9f6632c484ca65d2953efd7c6b834e7f66b",
+  "protocol_commit": "0e51f51d5b66ac7deb20e198a42c2cce8033d116",
+  "initial_failure_run": 40571319398,
+  "initial_failure_commit": "789acf56f32df9ec22192252984a739b92178e63",
+  "corrected_run": 40571882695,
+  "corrected_execution_commit": "554875da0770aa1b8df10df72120cbb4efc3adf0",
+  "corrected_jobs": [
+    {
+      "id": 122427957500,
+      "name": "train (reset_letters)",
+      "conclusion": "success"
+    },
+    {
+      "id": 122427957942,
+      "name": "train (reset_groups)",
+      "conclusion": "success"
+    },
+    {
+      "id": 122433642977,
+      "name": "evaluate",
+      "conclusion": "success"
+    }
+  ],
+  "artifacts": [
+    {
+      "id": 12766175605,
+      "name": "eva-unit-reset_groups",
+      "size_in_bytes": 5100278,
+      "url": "https://api.github.com/repos/MedinaParra/Voynich/actions/artifacts/12766175605",
+      "archive_download_url": "https://api.github.com/repos/MedinaParra/Voynich/actions/artifacts/12766175605/zip",
+      "expired": false,
+      "created_at": "2026-10-27T19:51:13Z",
+      "expires_at": "2026-11-26T19:51:12Z",
+      "updated_at": "2026-10-27T19:51:13Z",
+      "digest": "sha256:4e1a8f2fa2e37e8d582e4327b219bc81d4aa74312bd24263aa480ea68d5e9d78",
+      "workflow_run": {
+        "id": 40571882695,
+        "repository_id": 1405664605,
+        "head_repository_id": 1405664605,
+        "head_branch": "experiment/kraken-voynich",
+        "head_sha": "554875da0770aa1b8df10df72120cbb4efc3adf0"
+      }
+    },
+    {
+      "id": 12765946538,
+      "name": "eva-unit-common-evaluation",
+      "size_in_bytes": 18718,
+      "url": "https://api.github.com/repos/MedinaParra/Voynich/actions/artifacts/12765946538",
+      "archive_download_url": "https://api.github.com/repos/MedinaParra/Voynich/actions/artifacts/12765946538/zip",
+      "expired": false,
+      "created_at": "2026-10-27T19:57:21Z",
+      "expires_at": "2026-11-26T19:57:20Z",
+      "updated_at": "2026-10-27T19:57:21Z",
+      "digest": "sha256:f8a403bc092919c68f6dcb8f535571ed4ed4518af62b0eeac7133da6b1b2123e",
+      "workflow_run": {
+        "id": 40571882695,
+        "repository_id": 1405664605,
+        "head_repository_id": 1405664605,
+        "head_branch": "experiment/kraken-voynich",
+        "head_sha": "554875da0770aa1b8df10df72120cbb4efc3adf0"
+      }
+    },
+    {
+      "id": 12765768616,
+      "name": "eva-unit-reset_letters",
+      "size_in_bytes": 5096091,
+      "url": "https://api.github.com/repos/MedinaParra/Voynich/actions/artifacts/12765768616",
+      "archive_download_url": "https://api.github.com/repos/MedinaParra/Voynich/actions/artifacts/12765768616/zip",
+      "expired": false,
+      "created_at": "2026-10-27T19:55:51Z",
+      "expires_at": "2026-11-26T19:55:50Z",
+      "updated_at": "2026-10-27T19:55:51Z",
+      "digest": "sha256:cfd06dceca4331a3b1a64923353a1c45b8af6813ef3d7cd424b5740e3dae9458",
+      "workflow_run": {
+        "id": 40571882695,
+        "repository_id": 1405664605,
+        "head_repository_id": 1405664605,
+        "head_branch": "experiment/kraken-voynich",
+        "head_sha": "554875da0770aa1b8df10df72120cbb4efc3adf0"
+      }
+    }
+  ],
+  "all_zip_digests_verified": true,
+  "source_models_kept": true,
+  "expert_review": "NOT_REVIEWED",
+  "translation": "NOT_RUN",
+  "independent_audit": {
+    "code": "research_gpt6/code/audit_kraken_eva_units.py",
+    "code_sha256": "d11bb24d863b25c2ae467ad36040efcfcf0d70d784f9e32e94ef872d4a6406fe",
+    "result": "audit.json",
+    "result_sha256": "887713a0d159e3d7016eac2055b1e44352cb0b2752e8dfe3ee56d109f845cd13",
+    "status": "PASS",
+    "checks": 15254,
+    "mismatches": 0
+  },
+  "preservation": {
+    "large_json": "Lossless .json.gz; original byte hashes retained in lossless_json_archives.json",
+    "source_images": "Existing photographed sources and fixed dataset restore inputs byte-for-byte; duplicated training_images directories omitted",
+    "unselected_training_snapshots": "Inventory retains original artifact paths/hashes; final checkpoints, converted final model and initial reset weights are kept here"
+  }
+}

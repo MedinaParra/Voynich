@@ -1,0 +1,3980 @@
+[
+  {
+    "id": "f3r_w0000",
+    "folio": "f3r",
+    "reference": "tsheos",
+    "encoded_text": "t\ue105eos",
+    "path": "/home/runner/work/Voynich/Voynich/work/eva_units/reset_groups/training_images/f3r_w0000.png",
+    "image_sha256": "610775e2fc687733a1dd84c1ef707024f221db8d51d5e88cd4a515e17c5827d4",
+    "label_sha256": "58e29d453c93671ac61e4023ca6ef5160306dcddc9db5921e6f99e1195bf4bfc"
+  },
+  {
+    "id": "f3r_w0001",
+    "folio": "f3r",
+    "reference": "qopal",
+    "encoded_text": "qopal",
+    "path": "/home/runner/work/Voynich/Voynich/work/eva_units/reset_groups/training_images/f3r_w0001.png",
+    "image_sha256": "ae1390ff296570f0891c221230db864346ef37f739a9dfd545538d6710b0a222",
+    "label_sha256": "5b2d4005976b22fd166571e83fc7431048b7b031aad42a559ca6a0ad23f8d1d7"
+  },
+  {
+    "id": "f3r_w0003",
+    "folio": "f3r",
+    "reference": "cthol",
+    "encoded_text": "\ue103ol",
+    "path": "/home/runner/work/Voynich/Voynich/work/eva_units/reset_groups/training_images/f3r_w0003.png",
+    "image_sha256": "349164be9dbb7546418f8e12cc358d6e590ac6801a8dc814551448acee7e4e24",
+    "label_sha256": "7de0c728af10141f8b7f4187df54483031d37bc71bfd975341b694a2b5d98e40"
+  },
+  {
+    "id": "f3r_w0004",
+    "folio": "f3r",
+    "reference": "daimm",
+    "encoded_text": "daimm",
+    "path": "/home/runner/work/Voynich/Voynich/work/eva_units/reset_groups/training_images/f3r_w0004.png",
+    "image_sha256": "84980345d20e84a2bd021c1c24fb00d7d4f30a96ea06e294f27c32d092072d9b",
+    "label_sha256": "ae7180c93156bd388752302956ade2cd47c4e4940614b4ed0d30448127a6640a"
+  },
+  {
+    "id": "f3r_w0005",
+    "folio": "f3r",
+    "reference": "ycheor",
+    "encoded_text": "y\ue104eor",
+    "path": "/home/runner/work/Voynich/Voynich/work/eva_units/reset_groups/training_images/f3r_w0005.png",
+    "image_sha256": "d82467c949a901d4c058af0dc7603cc2a2a41b0003196c4c282225d0f468442b",
+    "label_sha256": "42dec383bc0b4fd09070bf4457e9bf6d49eaf87c14f14388eb077811b8f041f9"
+  },
+  {
+    "id": "f3r_w0006",
+    "folio": "f3r",
+    "reference": "chor",
+    "encoded_text": "\ue104or",
+    "path": "/home/runner/work/Voynich/Voynich/work/eva_units/reset_groups/training_images/f3r_w0006.png",
+    "image_sha256": "10991dadbec6d4a34588552e11cd3e95998ef8ac470b4468cc97e62df5b4d6c0",
+    "label_sha256": "bcbb30b42483a69d6ff854846b6181f6537ca64e812ab49afc145a63eb09743e"
+  },
+  {
+    "id": "f3r_w0007",
+    "folio": "f3r",
+    "reference": "dam",
+    "encoded_text": "dam",
+    "path": "/home/runner/work/Voynich/Voynich/work/eva_units/reset_groups/training_images/f3r_w0007.png",
+    "image_sha256": "1c29f0a3a82d5bb2ca76a627465ee43eceae892a190b5020bc2df4d0404e8eb2",
+    "label_sha256": "2fcb6465ee5cbfa3567355b4f7abe6f03ea08e9283de9c834d1297b1df2c6288"
+  },
+  {
+    "id": "f3r_w0008",
+    "folio": "f3r",
+    "reference": "qotcham",
+    "encoded_text": "qot\ue104am",
+    "path": "/home/runner/work/Voynich/Voynich/work/eva_units/reset_groups/training_images/f3r_w0008.png",
+    "image_sha256": "6fc3d53fcbfee934330612e2a85a51b3e7019edc92ff98323fe55d32f72809dc",
+    "label_sha256": "8f18aa52b18f2c6b1b139e88db354bc6da6d9bd5d351931bd936ad03176bf1d9"
+  },
+  {
+    "id": "f3r_w0009",
+    "folio": "f3r",
+    "reference": "cham",
+    "encoded_text": "\ue104am",
+    "path": "/home/runner/work/Voynich/Voynich/work/eva_units/reset_groups/training_images/f3r_w0009.png",
+    "image_sha256": "8dc16ba9b999ac40aaa7e13cbb45beadf2cc081ff2408864016e4282c99dc69b",
+    "label_sha256": "a6b187920d186af71b1ef0842e98fb1ea064225261d60c3332a94986f27e5ae8"
+  },
+  {
+    "id": "f3r_w0010",
+    "folio": "f3r",
+    "reference": "ochor",
+    "encoded_text": "o\ue104or",
+    "path": "/home/runner/work/Voynich/Voynich/work/eva_units/reset_groups/training_images/f3r_w0010.png",
+    "image_sha256": "2ce80b6a4b2c507dd104f6dfd186b1dd6c342c9e3c341d2d3b9db0b91d7c1a26",
+    "label_sha256": "25d376db9c7d3c4966a1ba26b683e0856665b13e8dbd2ef1330b669b1e3ae644"
+  },
+  {
+    "id": "f3r_w0011",
+    "folio": "f3r",
+    "reference": "qocheor",
+    "encoded_text": "qo\ue104eor",
+    "path": "/home/runner/work/Voynich/Voynich/work/eva_units/reset_groups/training_images/f3r_w0011.png",
+    "image_sha256": "c2786aa2966f277df7a308e829790d6c3ae2fc307892d428d044c8af8351bf31",
+    "label_sha256": "6be54ba40ce830d15931eec0c8bf4b14b0aeb2d7fce3cd06a19387de7418ce34"
+  },
+  {
+    "id": "f3r_w0012",
+    "folio": "f3r",
+    "reference": "chol",
+    "encoded_text": "\ue104ol",
+    "path": "/home/runner/work/Voynich/Voynich/work/eva_units/reset_groups/training_images/f3r_w0012.png",
+    "image_sha256": "3a0ac1ceb2ac4c241961d6d51af8d3f66c739389abb6394440cd63bb228ae001",
+    "label_sha256": "bb4a310afe620af8f922e5e51f0c74e1f3b0d13d744cbf8506cc900a59f7512a"
+  },
+  {
+    "id": "f3r_w0013",
+    "folio": "f3r",
+    "reference": "daiin",
+    "encoded_text": "daiin",
+    "path": "/home/runner/work/Voynich/Voynich/work/eva_units/reset_groups/training_images/f3r_w0013.png",
+    "image_sha256": "5f5404c9089e697ec34552d6b4ef034b908bcaecc1b3ea5c7fa7fdf12cf75bed",
+    "label_sha256": "acdd663103aaa9716f1210878c0c7ba9668300c500adcd194e167724d12f4ffc"
+  },
+  {
+    "id": "f3r_w0014",
+    "folio": "f3r",
+    "reference": "cthy",
+    "encoded_text": "\ue103y",
+    "path": "/home/runner/work/Voynich/Voynich/work/eva_units/reset_groups/training_images/f3r_w0014.png",
+    "image_sha256": "10f3521e01ecce4d35566defaa48f274a8461c5dc11333ee9e0608e6c36fded2",
+    "label_sha256": "4aca2fea6c469c3c2c58a624ae22e682db19fb5136364f0fe6e359654ad65520"
+  },
+  {
+    "id": "f3r_w0015",
+    "folio": "f3r",
+    "reference": "schey",
+    "encoded_text": "s\ue104ey",
+    "path": "/home/runner/work/Voynich/Voynich/work/eva_units/reset_groups/training_images/f3r_w0015.png",
+    "image_sha256": "2a17e914c312eca8e5b1ac972d2523d06ca071b13058e49cd817537102a736f4",
+    "label_sha256": "7e8bb6f91247edbe1a30c42f6d593df9049e9cd3a9d97bcaf636019757747472"
+  },
+  {
+    "id": "f3r_w0016",
+    "folio": "f3r",
+    "reference": "chor",
+    "encoded_text": "\ue104or",
+    "path": "/home/runner/work/Voynich/Voynich/work/eva_units/reset_groups/training_images/f3r_w0016.png",
+    "image_sha256": "ac86934b3e99fc2573b37e5f1f5d7d7899ba5b66ad677272a7dc54be2eeab2bb",
+    "label_sha256": "bcbb30b42483a69d6ff854846b6181f6537ca64e812ab49afc145a63eb09743e"
+  },
+  {
+    "id": "f3r_w0017",
+    "folio": "f3r",
+    "reference": "chal",
+    "encoded_text": "\ue104al",
+    "path": "/home/runner/work/Voynich/Voynich/work/eva_units/reset_groups/training_images/f3r_w0017.png",
+    "image_sha256": "5f80a5b25605c4677cbb90780a1ee592db68e4d954c34adce6e8acc4baea37bd",
+    "label_sha256": "c1095c1a0d91bacecb0a9c9125d0899629db52568c8f5f4ed4afa6910ff540e4"
+  },
+  {
+    "id": "f3r_w0018",
+    "folio": "f3r",
+    "reference": "cham",
+    "encoded_text": "\ue104am",
+    "path": "/home/runner/work/Voynich/Voynich/work/eva_units/reset_groups/training_images/f3r_w0018.png",
+    "image_sha256": "afb9f89cfd4e38dfdf79941a28baaf37a1f543dc1b8ef928b72ad60da5be6cc0",
+    "label_sha256": "a6b187920d186af71b1ef0842e98fb1ea064225261d60c3332a94986f27e5ae8"
+  },
+  {
+    "id": "f3r_w0019",
+    "folio": "f3r",
+    "reference": "cham",
+    "encoded_text": "\ue104am",
+    "path": "/home/runner/work/Voynich/Voynich/work/eva_units/reset_groups/training_images/f3r_w0019.png",
+    "image_sha256": "7e57a8969c292c103ba542c6208d1867eea57b053c841cd697dd8aca95b86372",
+    "label_sha256": "a6b187920d186af71b1ef0842e98fb1ea064225261d60c3332a94986f27e5ae8"
+  },
+  {
+    "id": "f3r_w0020",
+    "folio": "f3r",
+    "reference": "cho",
+    "encoded_text": "\ue104o",
+    "path": "/home/runner/work/Voynich/Voynich/work/eva_units/reset_groups/training_images/f3r_w0020.png",
+    "image_sha256": "f96eb906748c25eaafb25e6c15e6cfe165466e9b598949c612d1fc7e73a13be9",
+    "label_sha256": "bcfc80999aca5b98f80bdd7e909a3fb29a3e9013ce68fdbc2c0f388a998dbd55"
+  },
+  {
+    "id": "f3r_w0021",
+    "folio": "f3r",
+    "reference": "qokol",
+    "encoded_text": "qokol",
+    "path": "/home/runner/work/Voynich/Voynich/work/eva_units/reset_groups/training_images/f3r_w0021.png",
+    "image_sha256": "e80c5bb5fb7846bebad16d773e2c629164565f8392e3e211e65e217d2f473111",
+    "label_sha256": "ec4ab71920132a5e03a4579c202e1689914bb5e7bd68a34d22fdf85e9929cbd1"
+  },
+  {
+    "id": "f3r_w0022",
+    "folio": "f3r",
+    "reference": "chololy",
+    "encoded_text": "\ue104ololy",
+    "path": "/home/runner/work/Voynich/Voynich/work/eva_units/reset_groups/training_images/f3r_w0022.png",
+    "image_sha256": "462b3f9f0161a02f316aaeecfa36690ea3962d271b9cb8d20fb334ec899a8c26",
+    "label_sha256": "1c8eaf7f083865cd2c7e2ec62244d0d2fafa56740bf6e263c5a10219f3569306"
+  },
+  {
+    "id": "f3r_w0023",
+    "folio": "f3r",
+    "reference": "s",
+    "encoded_text": "s",
+    "path": "/home/runner/work/Voynich/Voynich/work/eva_units/reset_groups/training_images/f3r_w0023.png",
+    "image_sha256": "eb14b1b814d9cdd7f479add9d523db392810e05f5adee96f0bca5523dd2aac29",
+    "label_sha256": "043a718774c572bd8a25adbeb1bfcd5c0256ae11cecf9f9c3f925d0e52beaf89"
+  },
+  {
+    "id": "f3r_w0024",
+    "folio": "f3r",
+    "reference": "cham",
+    "encoded_text": "\ue104am",
+    "path": "/home/runner/work/Voynich/Voynich/work/eva_units/reset_groups/training_images/f3r_w0024.png",
+    "image_sha256": "16a5677cd9d1dc6e5b6b5a2c9b7054031046bff87e47258dcdb20e01cf6e032b",
+    "label_sha256": "a6b187920d186af71b1ef0842e98fb1ea064225261d60c3332a94986f27e5ae8"
+  },
+  {
+    "id": "f3r_w0025",
+    "folio": "f3r",
+    "reference": "cthol",
+    "encoded_text": "\ue103ol",
+    "path": "/home/runner/work/Voynich/Voynich/work/eva_units/reset_groups/training_images/f3r_w0025.png",
+    "image_sha256": "aef06d062c60258820e3b9b0c46367670d6d0e3cea25205d32f7080db567aba7",
+    "label_sha256": "7de0c728af10141f8b7f4187df54483031d37bc71bfd975341b694a2b5d98e40"
+  },
+  {
+    "id": "f3r_w0026",
+    "folio": "f3r",
+    "reference": "ychtaiin",
+    "encoded_text": "y\ue104taiin",
+    "path": "/home/runner/work/Voynich/Voynich/work/eva_units/reset_groups/training_images/f3r_w0026.png",
+    "image_sha256": "2bca96cf91281c9320fbdcdfca30907da24698770a0fa1bee4dfed2d028ff049",
+    "label_sha256": "9fe67318cf1474ff478513d5ecf7473c6030c83d22f940f9318f409c7034eade"
+  },
+  {
+    "id": "f3r_w0027",
+    "folio": "f3r",
+    "reference": "chor",
+    "encoded_text": "\ue104or",
+    "path": "/home/runner/work/Voynich/Voynich/work/eva_units/reset_groups/training_images/f3r_w0027.png",
+    "image_sha256": "9b730bdc1dd5dbf48e12849a0bff81514b1e102f0108366fcc0de9b778fcea6d",
+    "label_sha256": "bcbb30b42483a69d6ff854846b6181f6537ca64e812ab49afc145a63eb09743e"
+  },
+  {
+    "id": "f3r_w0028",
+    "folio": "f3r",
+    "reference": "cthom",
+    "encoded_text": "\ue103om",
+    "path": "/home/runner/work/Voynich/Voynich/work/eva_units/reset_groups/training_images/f3r_w0028.png",
+    "image_sha256": "693860a70bb735c52629ac92afcbb2997fda26d8ae3ba2a1dbd6b06fd9651888",
+    "label_sha256": "bbbd2abbcbad84f8f85ea900601ffe6377c754e99440aa7da33375a80b1b8038"
+  },
+  {
+    "id": "f3r_w0029",
+    "folio": "f3r",
+    "reference": "otal",
+    "encoded_text": "otal",
+    "path": "/home/runner/work/Voynich/Voynich/work/eva_units/reset_groups/training_images/f3r_w0029.png",
+    "image_sha256": "2c5ddc7cc5b5825754aa620b1400002cc45d5c84663094457e4d462f5dcc9c1c",
+    "label_sha256": "143a2289a4ba21be4771b82687af1a3225c77fe181aa8f84b9defa4ed3a67817"
+  },
+  {
+    "id": "f3r_w0030",
+    "folio": "f3r",
+    "reference": "dam",
+    "encoded_text": "dam",
+    "path": "/home/runner/work/Voynich/Voynich/work/eva_units/reset_groups/training_images/f3r_w0030.png",
+    "image_sha256": "c422029986484bf10d690199c02361714e9155b6487ad00613b17ba786268987",
+    "label_sha256": "2fcb6465ee5cbfa3567355b4f7abe6f03ea08e9283de9c834d1297b1df2c6288"
+  },
+  {
+    "id": "f3r_w0031",
+    "folio": "f3r",
+    "reference": "otchol",
+    "encoded_text": "ot\ue104ol",
+    "path": "/home/runner/work/Voynich/Voynich/work/eva_units/reset_groups/training_images/f3r_w0031.png",
+    "image_sha256": "8b44571dfd5012df5ecccd4e53f1ec2d2f4d65949ae8c72cbc55648e5f2d4b97",
+    "label_sha256": "0c80913cbd70538494529c6c8930fc27e7529477ec1ed7f58d66541b149666a6"
+  },
+  {
+    "id": "f3r_w0032",
+    "folio": "f3r",
+    "reference": "qodaiin",
+    "encoded_text": "qodaiin",
+    "path": "/home/runner/work/Voynich/Voynich/work/eva_units/reset_groups/training_images/f3r_w0032.png",
+    "image_sha256": "64f1bb8f8cce6fd543df0627a006ef4723b847c2aaf714e789e3d4ac38fc0ce7",
+    "label_sha256": "ccf3b8f47e3aceb6fbf02acbb0e0264ab246ed9af0028546bce81d6dd2d4ec2d"
+  },
+  {
+    "id": "f3r_w0033",
+    "folio": "f3r",
+    "reference": "chom",
+    "encoded_text": "\ue104om",
+    "path": "/home/runner/work/Voynich/Voynich/work/eva_units/reset_groups/training_images/f3r_w0033.png",
+    "image_sha256": "ca9ba11419f77f12d0dfbdd57c1190b894ef057dff339a48949a73ca2123b319",
+    "label_sha256": "467ce96dca8c3811616af022f889b207560771e61554dc3f5ea4ac6554ddd5d1"
+  },
+  {
+    "id": "f3r_w0034",
+    "folio": "f3r",
+    "reference": "shom",
+    "encoded_text": "\ue105om",
+    "path": "/home/runner/work/Voynich/Voynich/work/eva_units/reset_groups/training_images/f3r_w0034.png",
+    "image_sha256": "2b592f0e93e1d8ab3b0f0f71d2bb8483eaa1200c47b6bbb9732a12447e23c900",
+    "label_sha256": "d06065b9653e597a5ec3f2165182bf5e039074f03840789564ea4e6ad84906f7"
+  },
+  {
+    "id": "f3r_w0035",
+    "folio": "f3r",
+    "reference": "damo",
+    "encoded_text": "damo",
+    "path": "/home/runner/work/Voynich/Voynich/work/eva_units/reset_groups/training_images/f3r_w0035.png",
+    "image_sha256": "4a0de5fa6cecc4040dc8d0b15a7e8ed01ab2eb59c8c4f94876ad61ac5492ed07",
+    "label_sha256": "b68e3aff21afb4e1ef2808c1879e1ff6fd9bbd3bdd7c145acf98319d1bd48ffa"
+  },
+  {
+    "id": "f3r_w0036",
+    "folio": "f3r",
+    "reference": "ysheor",
+    "encoded_text": "y\ue105eor",
+    "path": "/home/runner/work/Voynich/Voynich/work/eva_units/reset_groups/training_images/f3r_w0036.png",
+    "image_sha256": "39ef8a343fbb1ecc1bd8dee349e81b49478c423769de3a1778e1b0979313df46",
+    "label_sha256": "be0b1453635cc7a478d00b4fba98047b842000bcb53ecada5101ea44825ec3a9"
+  },
+  {
+    "id": "f3r_w0037",
+    "folio": "f3r",
+    "reference": "chor",
+    "encoded_text": "\ue104or",
+    "path": "/home/runner/work/Voynich/Voynich/work/eva_units/reset_groups/training_images/f3r_w0037.png",
+    "image_sha256": "e7247e6eebf23c7d6f6adf9da4628c002fc9c1e8e147caf8936d3b52359dae41",
+    "label_sha256": "bcbb30b42483a69d6ff854846b6181f6537ca64e812ab49afc145a63eb09743e"
+  },
+  {
+    "id": "f3r_w0038",
+    "folio": "f3r",
+    "reference": "chol",
+    "encoded_text": "\ue104ol",
+    "path": "/home/runner/work/Voynich/Voynich/work/eva_units/reset_groups/training_images/f3r_w0038.png",
+    "image_sha256": "8e7ad8d37ae92d55888b3f4109e02776f480b75537e86cbf41d5360e343c1a39",
+    "label_sha256": "bb4a310afe620af8f922e5e51f0c74e1f3b0d13d744cbf8506cc900a59f7512a"
+  },
+  {
+    "id": "f3r_w0039",
+    "folio": "f3r",
+    "reference": "oky",
+    "encoded_text": "oky",
+    "path": "/home/runner/work/Voynich/Voynich/work/eva_units/reset_groups/training_images/f3r_w0039.png",
+    "image_sha256": "5c401e73455d244c7ca1f1886947c2fff0116deb12cb8123320cfa55bcda93fa",
+    "label_sha256": "e3a041c293621f940a636fbb2be503ee2daee181d1ab80ee631a78863709bf67"
+  },
+  {
+    "id": "f3r_w0040",
+    "folio": "f3r",
+    "reference": "damo",
+    "encoded_text": "damo",
+    "path": "/home/runner/work/Voynich/Voynich/work/eva_units/reset_groups/training_images/f3r_w0040.png",
+    "image_sha256": "7796735623490858dbed03af0c763c193d441fa7141badac974f3eb11b859464",
+    "label_sha256": "b68e3aff21afb4e1ef2808c1879e1ff6fd9bbd3bdd7c145acf98319d1bd48ffa"
+  },
+  {
+    "id": "f3r_w0041",
+    "folio": "f3r",
+    "reference": "sho",
+    "encoded_text": "\ue105o",
+    "path": "/home/runner/work/Voynich/Voynich/work/eva_units/reset_groups/training_images/f3r_w0041.png",
+    "image_sha256": "c3093f8eeeaec24549e149d39ca74834f8e1ca18ac4be01e9a988c5da7599c5e",
+    "label_sha256": "ec65481243ce9c0427ec673f51845b98b84839e1c5cc1c216c05360bfa346fc9"
+  },
+  {
+    "id": "f3r_w0042",
+    "folio": "f3r",
+    "reference": "or",
+    "encoded_text": "or",
+    "path": "/home/runner/work/Voynich/Voynich/work/eva_units/reset_groups/training_images/f3r_w0042.png",
+    "image_sha256": "b61bdb3fa2cba52600d365fcf1811ee73208d91ca86f7165acebadd381140933",
+    "label_sha256": "7175517a370b5cd2e664e3fd29c4ea9db5ce17058eb9772fe090a5485e49dad6"
+  },
+  {
+    "id": "f3r_w0043",
+    "folio": "f3r",
+    "reference": "sheoldam",
+    "encoded_text": "\ue105eoldam",
+    "path": "/home/runner/work/Voynich/Voynich/work/eva_units/reset_groups/training_images/f3r_w0043.png",
+    "image_sha256": "63ce59be6ce146e3b842de10ec3f90047c9f9510e6a9f1ba36e2d0f3390697e2",
+    "label_sha256": "43554c4eb3070f8a53846dd8c57f9990602e8f36da2989c924fc680b9b7a8f6e"
+  },
+  {
+    "id": "f3r_w0044",
+    "folio": "f3r",
+    "reference": "otchody",
+    "encoded_text": "ot\ue104ody",
+    "path": "/home/runner/work/Voynich/Voynich/work/eva_units/reset_groups/training_images/f3r_w0044.png",
+    "image_sha256": "cbde8874d8feda1ee004d0ecdc661683a408b6c62ba112600f326dd9a75f6d9b",
+    "label_sha256": "b2b2e9d6af79d782d112e07a614815e91b4a543fb57fedd277cf88e935331b90"
+  },
+  {
+    "id": "f3r_w0045",
+    "folio": "f3r",
+    "reference": "ol",
+    "encoded_text": "ol",
+    "path": "/home/runner/work/Voynich/Voynich/work/eva_units/reset_groups/training_images/f3r_w0045.png",
+    "image_sha256": "3b857bc6c88a9f66b510cee352ccbb2000eb3e33019236132e6ebfe4246138d7",
+    "label_sha256": "e20882595488fa4f5a9ecf837ef7e2d220e9898cac625f1163dba2c1c7ec56f7"
+  },
+  {
+    "id": "f3r_w0046",
+    "folio": "f3r",
+    "reference": "ydas",
+    "encoded_text": "ydas",
+    "path": "/home/runner/work/Voynich/Voynich/work/eva_units/reset_groups/training_images/f3r_w0046.png",
+    "image_sha256": "f5763ac6efba500f5a0459cea942d643dbe9171ab4ff3371e75fcb8d73802827",
+    "label_sha256": "2dfdd53a8dd8dde6807aa6ca7cff21b9c5a19c9daefa3ef4c7da4a49b85fb8f0"
+  },
+  {
+    "id": "f3r_w0047",
+    "folio": "f3r",
+    "reference": "chol",
+    "encoded_text": "\ue104ol",
+    "path": "/home/runner/work/Voynich/Voynich/work/eva_units/reset_groups/training_images/f3r_w0047.png",
+    "image_sha256": "b74a71935f7429f8f1c911ba6a229f22592b71173ea04d65eb711e631cc220c3",
+    "label_sha256": "bb4a310afe620af8f922e5e51f0c74e1f3b0d13d744cbf8506cc900a59f7512a"
+  },
+  {
+    "id": "f3r_w0048",
+    "folio": "f3r",
+    "reference": "cthom",
+    "encoded_text": "\ue103om",
+    "path": "/home/runner/work/Voynich/Voynich/work/eva_units/reset_groups/training_images/f3r_w0048.png",
+    "image_sha256": "cb4275563ec13d3a06acc6ed73a98d7c87b11059378a6144b8f697ddf3ee812f",
+    "label_sha256": "bbbd2abbcbad84f8f85ea900601ffe6377c754e99440aa7da33375a80b1b8038"
+  },
+  {
+    "id": "f3r_w0049",
+    "folio": "f3r",
+    "reference": "pcheol",
+    "encoded_text": "p\ue104eol",
+    "path": "/home/runner/work/Voynich/Voynich/work/eva_units/reset_groups/training_images/f3r_w0049.png",
+    "image_sha256": "6f06e0d1234d1436034dc4cfe94f73d51ec34b002069fce247dbbea25d7c9c09",
+    "label_sha256": "5bf5295c16319cd00e9570a878ab541b70e56c77116784f834d620709b2905f9"
+  },
+  {
+    "id": "f3r_w0050",
+    "folio": "f3r",
+    "reference": "shol",
+    "encoded_text": "\ue105ol",
+    "path": "/home/runner/work/Voynich/Voynich/work/eva_units/reset_groups/training_images/f3r_w0050.png",
+    "image_sha256": "7b08f0493e68d037d63469e0fd4ca51938ecaeca74ea312e12129a669c4de2ae",
+    "label_sha256": "6bbdad059f382002813907027f4bed1fcbce8ee2d1614b16c0be71849d770933"
+  },
+  {
+    "id": "f3r_w0051",
+    "folio": "f3r",
+    "reference": "sols",
+    "encoded_text": "sols",
+    "path": "/home/runner/work/Voynich/Voynich/work/eva_units/reset_groups/training_images/f3r_w0051.png",
+    "image_sha256": "f7997da42779a70caf845bdadef91da92d3a5b20906720d9c47302c7c70fcb15",
+    "label_sha256": "99621ee1598710826ec4d294c86d49568220515042db7481cc0105761b746777"
+  },
+  {
+    "id": "f3r_w0052",
+    "folio": "f3r",
+    "reference": "sheol",
+    "encoded_text": "\ue105eol",
+    "path": "/home/runner/work/Voynich/Voynich/work/eva_units/reset_groups/training_images/f3r_w0052.png",
+    "image_sha256": "e994815fc8a38fe3a037b6d32fcaecba407778232d03796647bfb9b04bd5c311",
+    "label_sha256": "71e10b0d933ec39a49e591e3cfec17b658e7cba946ead1ebcd4c1b833ba5da29"
+  },
+  {
+    "id": "f3r_w0053",
+    "folio": "f3r",
+    "reference": "shey",
+    "encoded_text": "\ue105ey",
+    "path": "/home/runner/work/Voynich/Voynich/work/eva_units/reset_groups/training_images/f3r_w0053.png",
+    "image_sha256": "5e309c7e20480321129a823c57552ca1f5e36d290e680d1ace9d5df4f4da0672",
+    "label_sha256": "d9b4336ac458a635d3ace348c3b59fa8212fd0b5a62bce32b16ab782b8b013f0"
+  },
+  {
+    "id": "f3r_w0054",
+    "folio": "f3r",
+    "reference": "okadaiin",
+    "encoded_text": "okadaiin",
+    "path": "/home/runner/work/Voynich/Voynich/work/eva_units/reset_groups/training_images/f3r_w0054.png",
+    "image_sha256": "336b734b6cf958d2c8f3940388d7a61098ff2f43cf311d98e94bf4cc07235db9",
+    "label_sha256": "db29f8659ee76c06a59eb4ca32b547de9310d748302bf9674fc3909c29b94e91"
+  },
+  {
+    "id": "f3r_w0055",
+    "folio": "f3r",
+    "reference": "qokchor",
+    "encoded_text": "qok\ue104or",
+    "path": "/home/runner/work/Voynich/Voynich/work/eva_units/reset_groups/training_images/f3r_w0055.png",
+    "image_sha256": "026311600a9b32d0c9d9269c2f891fe1f811ac33f36fdb5c01c0d841c5a6a45f",
+    "label_sha256": "aaf7a992428c46f7d1cc70cb7e1c8f6eb91b35be76e63670056c266c41e6ca5d"
+  },
+  {
+    "id": "f3r_w0056",
+    "folio": "f3r",
+    "reference": "qoschodam",
+    "encoded_text": "qos\ue104odam",
+    "path": "/home/runner/work/Voynich/Voynich/work/eva_units/reset_groups/training_images/f3r_w0056.png",
+    "image_sha256": "a6ffe96f68456e3a709b44984cc4a850621a0f7677860971a168cd41ff48018e",
+    "label_sha256": "0999758d21b5bc4c05c3cdb1a6632704952cac899a39fda46ebb2f2502fb0535"
+  },
+  {
+    "id": "f3r_w0057",
+    "folio": "f3r",
+    "reference": "octhy",
+    "encoded_text": "o\ue103y",
+    "path": "/home/runner/work/Voynich/Voynich/work/eva_units/reset_groups/training_images/f3r_w0057.png",
+    "image_sha256": "710395d601853d05be72358c747afff47145f85d474265d2c18492364aa946d8",
+    "label_sha256": "712d5f9b38e6279465f56c22737a6873bfd08429035034155a2679f7677a5237"
+  },
+  {
+    "id": "f3r_w0058",
+    "folio": "f3r",
+    "reference": "qokeey",
+    "encoded_text": "qokeey",
+    "path": "/home/runner/work/Voynich/Voynich/work/eva_units/reset_groups/training_images/f3r_w0058.png",
+    "image_sha256": "b4b44e6cafb2e88a9f6fb21db686fa32fc4a65fff7f8285d715f759306fb9737",
+    "label_sha256": "3657c5ddc1bf6597615f72c434bced259b44aa77a59ea8da9183be031ab0a92f"
+  },
+  {
+    "id": "f3r_w0059",
+    "folio": "f3r",
+    "reference": "qot",
+    "encoded_text": "qot",
+    "path": "/home/runner/work/Voynich/Voynich/work/eva_units/reset_groups/training_images/f3r_w0059.png",
+    "image_sha256": "8bf780af68e7bbdff2e63b18f7e7b51c55a1f4dbe5b8084eae2bcc8da5fe755d",
+    "label_sha256": "00fc5bdeb4eca3605a410065a88205ef86ee7f6491a63346ab90bc2158591371"
+  },
+  {
+    "id": "f3r_w0060",
+    "folio": "f3r",
+    "reference": "shey",
+    "encoded_text": "\ue105ey",
+    "path": "/home/runner/work/Voynich/Voynich/work/eva_units/reset_groups/training_images/f3r_w0060.png",
+    "image_sha256": "3b37136b86c65a3982b2c3863c5cef7b11a48e1a169400101f468f14bee0774f",
+    "label_sha256": "d9b4336ac458a635d3ace348c3b59fa8212fd0b5a62bce32b16ab782b8b013f0"
+  },
+  {
+    "id": "f3r_w0061",
+    "folio": "f3r",
+    "reference": "qokody",
+    "encoded_text": "qokody",
+    "path": "/home/runner/work/Voynich/Voynich/work/eva_units/reset_groups/training_images/f3r_w0061.png",
+    "image_sha256": "3e34cbfce115144615a35c19f82802439b98804f9b51212e86a161e1fef8bef6",
+    "label_sha256": "3fd994f5f91d951d129954616741197b16c5e2f7b1357036fd1c25d8e26502f3"
+  },
+  {
+    "id": "f3r_w0062",
+    "folio": "f3r",
+    "reference": "qokchey",
+    "encoded_text": "qok\ue104ey",
+    "path": "/home/runner/work/Voynich/Voynich/work/eva_units/reset_groups/training_images/f3r_w0062.png",
+    "image_sha256": "48d23e646ca70873d94ea82a48b0c12fd76695283c02e2b510522b2d5ad22cde",
+    "label_sha256": "3ebe863308bc5703f6ed1f9aa167efe00f2021f859dd5fe363eea40a06e40102"
+  },
+  {
+    "id": "f3r_w0063",
+    "folio": "f3r",
+    "reference": "cheody",
+    "encoded_text": "\ue104eody",
+    "path": "/home/runner/work/Voynich/Voynich/work/eva_units/reset_groups/training_images/f3r_w0063.png",
+    "image_sha256": "aec1c05e212d4b8763f33beb687699eee50bdb7f0a18a3da36efd998b768723a",
+    "label_sha256": "7b2450c901e4307036b1072dae026b8e707480a19d0ff3da412e18546f929904"
+  },
+  {
+    "id": "f3r_w0064",
+    "folio": "f3r",
+    "reference": "chor",
+    "encoded_text": "\ue104or",
+    "path": "/home/runner/work/Voynich/Voynich/work/eva_units/reset_groups/training_images/f3r_w0064.png",
+    "image_sha256": "0015b4090b46f66e9717bf233a4c844103327c37d0bf242b7fb652087bcd1e19",
+    "label_sha256": "bcbb30b42483a69d6ff854846b6181f6537ca64e812ab49afc145a63eb09743e"
+  },
+  {
+    "id": "f3r_w0065",
+    "folio": "f3r",
+    "reference": "qodair",
+    "encoded_text": "qodair",
+    "path": "/home/runner/work/Voynich/Voynich/work/eva_units/reset_groups/training_images/f3r_w0065.png",
+    "image_sha256": "ca197db64cd3f5228109bb52c501456e2b57ecdb54fe33a1a4b06079944b39de",
+    "label_sha256": "e5620c8ef8472ddb3432edb81eef860be8541684f424e771f6d0987581890f7b"
+  },
+  {
+    "id": "f3r_w0066",
+    "folio": "f3r",
+    "reference": "okeey",
+    "encoded_text": "okeey",
+    "path": "/home/runner/work/Voynich/Voynich/work/eva_units/reset_groups/training_images/f3r_w0066.png",
+    "image_sha256": "16d885d674be1ea612a1665fb0b3b41a73cd8426196de067f9bf711ba77626a2",
+    "label_sha256": "99fa2a55212dbc317dce7bc555c47549f4de733f987ef499aa1977082ea99fa2"
+  },
+  {
+    "id": "f3r_w0067",
+    "folio": "f3r",
+    "reference": "qokeey",
+    "encoded_text": "qokeey",
+    "path": "/home/runner/work/Voynich/Voynich/work/eva_units/reset_groups/training_images/f3r_w0067.png",
+    "image_sha256": "2e9c1e4269cd96db971330778815364290ce87c5f36323434fa4bd5e3a9d3de4",
+    "label_sha256": "3657c5ddc1bf6597615f72c434bced259b44aa77a59ea8da9183be031ab0a92f"
+  },
+  {
+    "id": "f3r_w0068",
+    "folio": "f3r",
+    "reference": "tsheoarom",
+    "encoded_text": "t\ue105eoarom",
+    "path": "/home/runner/work/Voynich/Voynich/work/eva_units/reset_groups/training_images/f3r_w0068.png",
+    "image_sha256": "a546b1f5314d593024017c6c3de4e25bfa0c598923f615b5d4ed40e552c76d86",
+    "label_sha256": "c42519d18b0dc1aa23aae8ced75b1cf383f7126fdbbfa788c5f570f7188d1355"
+  },
+  {
+    "id": "f3r_w0069",
+    "folio": "f3r",
+    "reference": "shor",
+    "encoded_text": "\ue105or",
+    "path": "/home/runner/work/Voynich/Voynich/work/eva_units/reset_groups/training_images/f3r_w0069.png",
+    "image_sha256": "fb11f891574bc3b10004850a12af44d93b2b63c88b470216a82f0770485b5e9f",
+    "label_sha256": "3bb49919b8e16c2373a48c776963a3cfeb816c7c7a23604b032671fb575a59bf"
+  },
+  {
+    "id": "f3r_w0070",
+    "folio": "f3r",
+    "reference": "or",
+    "encoded_text": "or",
+    "path": "/home/runner/work/Voynich/Voynich/work/eva_units/reset_groups/training_images/f3r_w0070.png",
+    "image_sha256": "c56837e4b019719fef38d6889e628efdecb32f3961c95839cda6daa0705e70b4",
+    "label_sha256": "7175517a370b5cd2e664e3fd29c4ea9db5ce17058eb9772fe090a5485e49dad6"
+  },
+  {
+    "id": "f3r_w0071",
+    "folio": "f3r",
+    "reference": "chor",
+    "encoded_text": "\ue104or",
+    "path": "/home/runner/work/Voynich/Voynich/work/eva_units/reset_groups/training_images/f3r_w0071.png",
+    "image_sha256": "51e5555c883f1135e68e82dc842b6bd3bf1530d482a2c0af4f470f77092bff66",
+    "label_sha256": "bcbb30b42483a69d6ff854846b6181f6537ca64e812ab49afc145a63eb09743e"
+  },
+  {
+    "id": "f3r_w0072",
+    "folio": "f3r",
+    "reference": "olchsy",
+    "encoded_text": "ol\ue104sy",
+    "path": "/home/runner/work/Voynich/Voynich/work/eva_units/reset_groups/training_images/f3r_w0072.png",
+    "image_sha256": "7899a172b3a1f36202671851c3b5292e753a46b805b3d99cb26b31eef291434d",
+    "label_sha256": "784a9862416d186daff6a4d195bf5783fb9a13a625d0e8a2883e23e3687cdc38"
+  },
+  {
+    "id": "f3r_w0073",
+    "folio": "f3r",
+    "reference": "chom",
+    "encoded_text": "\ue104om",
+    "path": "/home/runner/work/Voynich/Voynich/work/eva_units/reset_groups/training_images/f3r_w0073.png",
+    "image_sha256": "8fa5d1fd24643d64887b4a60e8ef7e3573fd767be0af2afef22e9a05bad43811",
+    "label_sha256": "467ce96dca8c3811616af022f889b207560771e61554dc3f5ea4ac6554ddd5d1"
+  },
+  {
+    "id": "f3r_w0074",
+    "folio": "f3r",
+    "reference": "otchom",
+    "encoded_text": "ot\ue104om",
+    "path": "/home/runner/work/Voynich/Voynich/work/eva_units/reset_groups/training_images/f3r_w0074.png",
+    "image_sha256": "b3fe8fc2f19f191406d5c6f6dd0469facb8161eeef268cf1a15a3e61f64e175b",
+    "label_sha256": "8ff39f84b2a71198563ceb5a703a2d3006e3ccb26566db7b9df1912cee2ffd24"
+  },
+  {
+    "id": "f3r_w0075",
+    "folio": "f3r",
+    "reference": "oporar",
+    "encoded_text": "oporar",
+    "path": "/home/runner/work/Voynich/Voynich/work/eva_units/reset_groups/training_images/f3r_w0075.png",
+    "image_sha256": "dd9c7011d466b49ad7cbb5e002e184fe9c1eb351a82ba2e1f42f806c52b4f927",
+    "label_sha256": "93a8b84be3404b8d9cb4ca08b6def7ca7bf1eefc6c38186754597667b288903f"
+  },
+  {
+    "id": "f3r_w0076",
+    "folio": "f3r",
+    "reference": "oteol",
+    "encoded_text": "oteol",
+    "path": "/home/runner/work/Voynich/Voynich/work/eva_units/reset_groups/training_images/f3r_w0076.png",
+    "image_sha256": "0efe7e0e37f6c1c86182587fd33aaf4d8068e906803e04ec79f6f2e0eda673ad",
+    "label_sha256": "48d377b5ba20c46a4f4fb73a0324bdc54ac21edafb794005f03c76be58c63238"
+  },
+  {
+    "id": "f3r_w0077",
+    "folio": "f3r",
+    "reference": "chol",
+    "encoded_text": "\ue104ol",
+    "path": "/home/runner/work/Voynich/Voynich/work/eva_units/reset_groups/training_images/f3r_w0077.png",
+    "image_sha256": "5bf182fba5a9e97b9d13e6cab3369e4eb793006f021306d1a959249410e257e5",
+    "label_sha256": "bb4a310afe620af8f922e5e51f0c74e1f3b0d13d744cbf8506cc900a59f7512a"
+  },
+  {
+    "id": "f3r_w0078",
+    "folio": "f3r",
+    "reference": "s",
+    "encoded_text": "s",
+    "path": "/home/runner/work/Voynich/Voynich/work/eva_units/reset_groups/training_images/f3r_w0078.png",
+    "image_sha256": "7b9f7742bd5226103da47bf08fd17863bc50a68a487e1c80dcf274e722b77aab",
+    "label_sha256": "043a718774c572bd8a25adbeb1bfcd5c0256ae11cecf9f9c3f925d0e52beaf89"
+  },
+  {
+    "id": "f3r_w0079",
+    "folio": "f3r",
+    "reference": "cheol",
+    "encoded_text": "\ue104eol",
+    "path": "/home/runner/work/Voynich/Voynich/work/eva_units/reset_groups/training_images/f3r_w0079.png",
+    "image_sha256": "8f1575b49b142b382975d1a856cb1d20aad7b0b81a3b5ab7a1616e8baaa26bee",
+    "label_sha256": "86edf1e66534123ddb5e23b9b709ac3120fe9a41d69874afa79ad30d07e2e6af"
+  },
+  {
+    "id": "f3r_w0080",
+    "folio": "f3r",
+    "reference": "ekshy",
+    "encoded_text": "ek\ue105y",
+    "path": "/home/runner/work/Voynich/Voynich/work/eva_units/reset_groups/training_images/f3r_w0080.png",
+    "image_sha256": "8dd56b721957054c46ca5cf543a4f3cacb569c94b16ff1d65dc49358c221f527",
+    "label_sha256": "bce6bd3a3745ba62a9b303f8886e572231185fe07b173c8aba422a3c89224144"
+  },
+  {
+    "id": "f3r_w0081",
+    "folio": "f3r",
+    "reference": "qokeom",
+    "encoded_text": "qokeom",
+    "path": "/home/runner/work/Voynich/Voynich/work/eva_units/reset_groups/training_images/f3r_w0081.png",
+    "image_sha256": "cc4a2147a7bc747f8057a6228a55022b2de815058adc6b032360bb7916818174",
+    "label_sha256": "34b58559e3482915fa566effb5c8f9c2e3f727f9e468da4132775b91f610e05c"
+  },
+  {
+    "id": "f3r_w0082",
+    "folio": "f3r",
+    "reference": "qokol",
+    "encoded_text": "qokol",
+    "path": "/home/runner/work/Voynich/Voynich/work/eva_units/reset_groups/training_images/f3r_w0082.png",
+    "image_sha256": "fe646ef74b4c5d4269915fafc917d7f1cbd52becb79c0f62a551ae74fe458fae",
+    "label_sha256": "ec4ab71920132a5e03a4579c202e1689914bb5e7bd68a34d22fdf85e9929cbd1"
+  },
+  {
+    "id": "f3r_w0083",
+    "folio": "f3r",
+    "reference": "daiin",
+    "encoded_text": "daiin",
+    "path": "/home/runner/work/Voynich/Voynich/work/eva_units/reset_groups/training_images/f3r_w0083.png",
+    "image_sha256": "ab17048c79d847710445b7745a0ccda4bc85625656500b2fc7c81d5df2fe21ae",
+    "label_sha256": "acdd663103aaa9716f1210878c0c7ba9668300c500adcd194e167724d12f4ffc"
+  },
+  {
+    "id": "f3r_w0084",
+    "folio": "f3r",
+    "reference": "soleeg",
+    "encoded_text": "soleeg",
+    "path": "/home/runner/work/Voynich/Voynich/work/eva_units/reset_groups/training_images/f3r_w0084.png",
+    "image_sha256": "18baf79046cc6b724afca9074d69dccd3f1ada936574a7e5d538a078576ab090",
+    "label_sha256": "fba8a72336d88d6378240280d53c657722c825c0bbc8dabc01eac465d6d93f65"
+  },
+  {
+    "id": "f3r_w0085",
+    "folio": "f3r",
+    "reference": "soeom",
+    "encoded_text": "soeom",
+    "path": "/home/runner/work/Voynich/Voynich/work/eva_units/reset_groups/training_images/f3r_w0085.png",
+    "image_sha256": "4cb4f3a25e5e19627812f2115d11eeb15d6ee74fbd261b06cbf3a0b5ba465a44",
+    "label_sha256": "9892f6fd91a7e7dab42b701cc3cfdf86a25c444b347dd1b7284d9485ccce512f"
+  },
+  {
+    "id": "f3r_w0086",
+    "folio": "f3r",
+    "reference": "okeom",
+    "encoded_text": "okeom",
+    "path": "/home/runner/work/Voynich/Voynich/work/eva_units/reset_groups/training_images/f3r_w0086.png",
+    "image_sha256": "6ab287f52c6c2858f6599ca8e65da04da419f7d27b03ef9ae031223146d8ab7b",
+    "label_sha256": "03e9b01b23a0adcadb2e146ffc5a00cf524b6ef12250fd717909c48ad247c99d"
+  },
+  {
+    "id": "f3r_w0087",
+    "folio": "f3r",
+    "reference": "yteody",
+    "encoded_text": "yteody",
+    "path": "/home/runner/work/Voynich/Voynich/work/eva_units/reset_groups/training_images/f3r_w0087.png",
+    "image_sha256": "b15320fc6a22f98a2bad0b297bb9d313d9eab33d48083f7b8a5f888d99ce7330",
+    "label_sha256": "ac9d8f631e5ad3bfa18f3c40d834cf1bbc1ed7505ba8316eb9e09a86e094bf78"
+  },
+  {
+    "id": "f3r_w0088",
+    "folio": "f3r",
+    "reference": "qokeeo",
+    "encoded_text": "qokeeo",
+    "path": "/home/runner/work/Voynich/Voynich/work/eva_units/reset_groups/training_images/f3r_w0088.png",
+    "image_sha256": "7bc1a5cdf067aa52c2ed815939ff5779c66c5198a713ff14751dc94ebc2c4d69",
+    "label_sha256": "ff5e34f9089ca3720ae943c5e03fc663d571c29b8ba3f552887794b835463fc5"
+  },
+  {
+    "id": "f3r_w0089",
+    "folio": "f3r",
+    "reference": "dal",
+    "encoded_text": "dal",
+    "path": "/home/runner/work/Voynich/Voynich/work/eva_units/reset_groups/training_images/f3r_w0089.png",
+    "image_sha256": "2c0df10f2c97c265fbfec858be9e70b5631652cf5d058ac749cedb9da639e127",
+    "label_sha256": "c7abd4dc26cd750f72b87bb9da1b462c07b20c77c4fc299ef12377adc904ed8d"
+  },
+  {
+    "id": "f3r_w0090",
+    "folio": "f3r",
+    "reference": "sam",
+    "encoded_text": "sam",
+    "path": "/home/runner/work/Voynich/Voynich/work/eva_units/reset_groups/training_images/f3r_w0090.png",
+    "image_sha256": "66fbdb456823565285d88910c836e3655bb7817b8da1fcf1dd7bf85d0e00cf9e",
+    "label_sha256": "e96e02d8e47f2a7c03be5117b3ed175c52aa30fb22028cf9c96f261563577605"
+  },
+  {
+    "id": "f3r_w0091",
+    "folio": "f3r",
+    "reference": "pcheoldom",
+    "encoded_text": "p\ue104eoldom",
+    "path": "/home/runner/work/Voynich/Voynich/work/eva_units/reset_groups/training_images/f3r_w0091.png",
+    "image_sha256": "08321cb216bf313d6f3b747b5a5bb3452567e595f400206b6311b2270ab8c3b8",
+    "label_sha256": "c6c481e88d95bebfb08844d25fe07bcfd359657f87ff9d0df158b606206ecf4f"
+  },
+  {
+    "id": "f3r_w0092",
+    "folio": "f3r",
+    "reference": "shodaiin",
+    "encoded_text": "\ue105odaiin",
+    "path": "/home/runner/work/Voynich/Voynich/work/eva_units/reset_groups/training_images/f3r_w0092.png",
+    "image_sha256": "3be94634c1a9ebe0ba4ff6316a77523d7857188c08e07774aa06eab9ac41131f",
+    "label_sha256": "9dfa5f021d73bc3acafa1130eb12743cd474973b278b31c641eb976990f80c7a"
+  },
+  {
+    "id": "f3r_w0093",
+    "folio": "f3r",
+    "reference": "qopchor",
+    "encoded_text": "qop\ue104or",
+    "path": "/home/runner/work/Voynich/Voynich/work/eva_units/reset_groups/training_images/f3r_w0093.png",
+    "image_sha256": "c3e5947f9ac43b4cce11789771fa0ade3cafd4be7f57b4e563ee55e9d75d8cab",
+    "label_sha256": "d653eb6eb4ef0cbed9bfa3e8648ea58655e55b36e0f21fb7b0c4841d1c61f87e"
+  },
+  {
+    "id": "f3r_w0094",
+    "folio": "f3r",
+    "reference": "qopol",
+    "encoded_text": "qopol",
+    "path": "/home/runner/work/Voynich/Voynich/work/eva_units/reset_groups/training_images/f3r_w0094.png",
+    "image_sha256": "0b85fc290b9e5dda47b5618f9b9f08a31671da7839c8c7f306f4693fe7769e85",
+    "label_sha256": "532c719425322ff2e3cf63380b9d1b1e479f14ca5c20f7794da189201de7817d"
+  },
+  {
+    "id": "f3r_w0095",
+    "folio": "f3r",
+    "reference": "opchol",
+    "encoded_text": "op\ue104ol",
+    "path": "/home/runner/work/Voynich/Voynich/work/eva_units/reset_groups/training_images/f3r_w0095.png",
+    "image_sha256": "62c67e339db07ca5b1402cd7ed1343c3f9c66fa4c5c19f9d453595b314ce9b60",
+    "label_sha256": "cc6ad039521f7ca4cc691ce65dbfb0241251c28af946c06b8f14e55e5b54bd11"
+  },
+  {
+    "id": "f3r_w0096",
+    "folio": "f3r",
+    "reference": "qoty",
+    "encoded_text": "qoty",
+    "path": "/home/runner/work/Voynich/Voynich/work/eva_units/reset_groups/training_images/f3r_w0096.png",
+    "image_sha256": "70582fa1245217b8eeac8e232fdc2b5c069c1bab7fa846daf89891c6d399d27b",
+    "label_sha256": "b289d2f40f17bfe72d4613371c90a7ceecc4bee51644ec97aed6b6d815a600de"
+  },
+  {
+    "id": "f3r_w0097",
+    "folio": "f3r",
+    "reference": "otolom",
+    "encoded_text": "otolom",
+    "path": "/home/runner/work/Voynich/Voynich/work/eva_units/reset_groups/training_images/f3r_w0097.png",
+    "image_sha256": "3d4243ce8a490b56dfde1c8ec450c11c25122dfd35234d86a1fca06b184ff9dc",
+    "label_sha256": "9fdd66d37100af1046644b696d61e02430b8f18a596701a98be4fa3520f4e227"
+  },
+  {
+    "id": "f3r_w0098",
+    "folio": "f3r",
+    "reference": "otchor",
+    "encoded_text": "ot\ue104or",
+    "path": "/home/runner/work/Voynich/Voynich/work/eva_units/reset_groups/training_images/f3r_w0098.png",
+    "image_sha256": "4a3e52a37339b182857a37e29db61dc0ccec86870a8812896570a8825bce91b7",
+    "label_sha256": "cacb5a55cf6daad939ac5ede08ed573cf39141453c466c51a5252b89ecfb0177"
+  },
+  {
+    "id": "f3r_w0099",
+    "folio": "f3r",
+    "reference": "ol",
+    "encoded_text": "ol",
+    "path": "/home/runner/work/Voynich/Voynich/work/eva_units/reset_groups/training_images/f3r_w0099.png",
+    "image_sha256": "005ad02c11821dbc73d9994d42bbca8635c4c0cd9a0a66045a1166f666ae431c",
+    "label_sha256": "e20882595488fa4f5a9ecf837ef7e2d220e9898cac625f1163dba2c1c7ec56f7"
+  },
+  {
+    "id": "f3r_w0100",
+    "folio": "f3r",
+    "reference": "cheor",
+    "encoded_text": "\ue104eor",
+    "path": "/home/runner/work/Voynich/Voynich/work/eva_units/reset_groups/training_images/f3r_w0100.png",
+    "image_sha256": "e51c8125cf84553334092dfdf98490dfac6e7d4d05ed8f8b205eacdd92359c1a",
+    "label_sha256": "d66fe8f9eeae2a3993ecbb50cefc3a91847ba2699bbf3010d033ba7c8e0ce8b4"
+  },
+  {
+    "id": "f3r_w0101",
+    "folio": "f3r",
+    "reference": "qoeor",
+    "encoded_text": "qoeor",
+    "path": "/home/runner/work/Voynich/Voynich/work/eva_units/reset_groups/training_images/f3r_w0101.png",
+    "image_sha256": "e6a8666f87b079d2cb9ac071717b2bcc20f6e1fe0ebb9108c4dce9bb1f93fa3c",
+    "label_sha256": "da537164efb5a3b1563a623e41e846bfc28bf48b22bd3e67c9df13c7db179ae5"
+  },
+  {
+    "id": "f3r_w0102",
+    "folio": "f3r",
+    "reference": "dair",
+    "encoded_text": "dair",
+    "path": "/home/runner/work/Voynich/Voynich/work/eva_units/reset_groups/training_images/f3r_w0102.png",
+    "image_sha256": "8572f053b9357f23f1b4b14d52c6a0fa1c01d4dc248fe382942486e6fc0863e8",
+    "label_sha256": "9c5e1af7dc967027712e902f693ac83418463ac97e702d7f5a8124e26cdaef84"
+  },
+  {
+    "id": "f3r_w0103",
+    "folio": "f3r",
+    "reference": "qoteol",
+    "encoded_text": "qoteol",
+    "path": "/home/runner/work/Voynich/Voynich/work/eva_units/reset_groups/training_images/f3r_w0103.png",
+    "image_sha256": "ab9042c418996517a07c5543cbd66a06201be6136d7ae3d42652dcdcc72c7191",
+    "label_sha256": "ab72123ce3911f75297d9c4b80ca090df921603edb1c4c5c744e5a00e17444ac"
+  },
+  {
+    "id": "f3r_w0104",
+    "folio": "f3r",
+    "reference": "qosaiin",
+    "encoded_text": "qosaiin",
+    "path": "/home/runner/work/Voynich/Voynich/work/eva_units/reset_groups/training_images/f3r_w0104.png",
+    "image_sha256": "d86709f9812b487e3ab67dc2284ae3f1804d188499a2a39edb60cbe51b52cd06",
+    "label_sha256": "c175c50e213b5bff67c262f7ea3ad16a99a11de7377c99019748d30bb7f59dfa"
+  },
+  {
+    "id": "f3r_w0105",
+    "folio": "f3r",
+    "reference": "chor",
+    "encoded_text": "\ue104or",
+    "path": "/home/runner/work/Voynich/Voynich/work/eva_units/reset_groups/training_images/f3r_w0105.png",
+    "image_sha256": "61410b801158ab3e87c8efd21c99970ed5bbdbf03ef4f842a4c493dbe266c09b",
+    "label_sha256": "bcbb30b42483a69d6ff854846b6181f6537ca64e812ab49afc145a63eb09743e"
+  },
+  {
+    "id": "f3r_w0106",
+    "folio": "f3r",
+    "reference": "cthy",
+    "encoded_text": "\ue103y",
+    "path": "/home/runner/work/Voynich/Voynich/work/eva_units/reset_groups/training_images/f3r_w0106.png",
+    "image_sha256": "aa868d96e42f1b2989654ffe802156bad0db87ff2fddc669e7f4d795be4e545c",
+    "label_sha256": "4aca2fea6c469c3c2c58a624ae22e682db19fb5136364f0fe6e359654ad65520"
+  },
+  {
+    "id": "f3r_w0107",
+    "folio": "f3r",
+    "reference": "ycheor",
+    "encoded_text": "y\ue104eor",
+    "path": "/home/runner/work/Voynich/Voynich/work/eva_units/reset_groups/training_images/f3r_w0107.png",
+    "image_sha256": "7d9f9dce573d8ba86efaab774076bddba53894c29bdb7f138de3c19717e86cdc",
+    "label_sha256": "42dec383bc0b4fd09070bf4457e9bf6d49eaf87c14f14388eb077811b8f041f9"
+  },
+  {
+    "id": "f3r_w0108",
+    "folio": "f3r",
+    "reference": "chol",
+    "encoded_text": "\ue104ol",
+    "path": "/home/runner/work/Voynich/Voynich/work/eva_units/reset_groups/training_images/f3r_w0108.png",
+    "image_sha256": "4c875beec4c2120210fbb080ed83c6d035484db11a4cb12cfb3f70ea12bf598c",
+    "label_sha256": "bb4a310afe620af8f922e5e51f0c74e1f3b0d13d744cbf8506cc900a59f7512a"
+  },
+  {
+    "id": "f3r_w0109",
+    "folio": "f3r",
+    "reference": "odaiin",
+    "encoded_text": "odaiin",
+    "path": "/home/runner/work/Voynich/Voynich/work/eva_units/reset_groups/training_images/f3r_w0109.png",
+    "image_sha256": "e05ad92e409ce85543764a97554db6a967d80222a5f2e182fce56a876107bce0",
+    "label_sha256": "9facd6ca6d5a26cd477d3a17da7140a3d9078f0d45e749074c24da337f6718cb"
+  },
+  {
+    "id": "f3r_w0110",
+    "folio": "f3r",
+    "reference": "chol",
+    "encoded_text": "\ue104ol",
+    "path": "/home/runner/work/Voynich/Voynich/work/eva_units/reset_groups/training_images/f3r_w0110.png",
+    "image_sha256": "f9311e7a16705e04d0401c3d46ea50660a1c8e170245edb1d4f8eaa45d0d4b5b",
+    "label_sha256": "bb4a310afe620af8f922e5e51f0c74e1f3b0d13d744cbf8506cc900a59f7512a"
+  },
+  {
+    "id": "f3r_w0111",
+    "folio": "f3r",
+    "reference": "s",
+    "encoded_text": "s",
+    "path": "/home/runner/work/Voynich/Voynich/work/eva_units/reset_groups/training_images/f3r_w0111.png",
+    "image_sha256": "f6f926570f7865c6b340713d9a136819a877c0842ec33db41319c5b9f4e5ee9b",
+    "label_sha256": "043a718774c572bd8a25adbeb1bfcd5c0256ae11cecf9f9c3f925d0e52beaf89"
+  },
+  {
+    "id": "f3r_w0112",
+    "folio": "f3r",
+    "reference": "aiin",
+    "encoded_text": "aiin",
+    "path": "/home/runner/work/Voynich/Voynich/work/eva_units/reset_groups/training_images/f3r_w0112.png",
+    "image_sha256": "b6da7f703b3f616c7c03fd9d8e4dd4b1a483c1f37418f6366f32552df38f00af",
+    "label_sha256": "055eebf60161704640e702e819cc6fdb6f989d50f5e58a5790c735048ffe33dd"
+  },
+  {
+    "id": "f3r_w0113",
+    "folio": "f3r",
+    "reference": "okolor",
+    "encoded_text": "okolor",
+    "path": "/home/runner/work/Voynich/Voynich/work/eva_units/reset_groups/training_images/f3r_w0113.png",
+    "image_sha256": "6562efd46d12782962f41f3dea8f5bed374ea2a3f968d167941eb7917152e2de",
+    "label_sha256": "705017b5543b937fa0bc61204e3c2fd9c6ba083e70a4d5dd8c350bdf6da2c489"
+  },
+  {
+    "id": "f3r_w0114",
+    "folio": "f3r",
+    "reference": "am",
+    "encoded_text": "am",
+    "path": "/home/runner/work/Voynich/Voynich/work/eva_units/reset_groups/training_images/f3r_w0114.png",
+    "image_sha256": "f0d8de2e8e489457b1faf5746141339948b5b28b720d590ab2b39e8a9fdffa9e",
+    "label_sha256": "ab6db599234d2636659cba1aa191bd014c3867d5cfade98ff694785c20c28fc6"
+  },
+  {
+    "id": "f3v_w0000",
+    "folio": "f3v",
+    "reference": "koaiin",
+    "encoded_text": "koaiin",
+    "path": "/home/runner/work/Voynich/Voynich/work/eva_units/reset_groups/training_images/f3v_w0000.png",
+    "image_sha256": "8e6dfea82befb27e6644066b641ce4c57a60c7357af8c623cda349a0e191dff0",
+    "label_sha256": "5a3a63dc2ac51fc8610b940753022815fc5e365121d456812b9296cd249dade2"
+  },
+  {
+    "id": "f3v_w0001",
+    "folio": "f3v",
+    "reference": "cphor",
+    "encoded_text": "\ue102or",
+    "path": "/home/runner/work/Voynich/Voynich/work/eva_units/reset_groups/training_images/f3v_w0001.png",
+    "image_sha256": "5d9f19d57a2d8aa6c6b0de66d3cb6f3ac51fe0606d82a154f106e4f6d520ac45",
+    "label_sha256": "defc3044acfd41f47b45673888eb74ab18c68ed371f0bf1d58dbf1c6f658655c"
+  },
+  {
+    "id": "f3v_w0002",
+    "folio": "f3v",
+    "reference": "qotoy",
+    "encoded_text": "qotoy",
+    "path": "/home/runner/work/Voynich/Voynich/work/eva_units/reset_groups/training_images/f3v_w0002.png",
+    "image_sha256": "96cd475b066dc18beb4bda157f390959f80947d2d7fca2f86113b4d0d2edb77c",
+    "label_sha256": "5ba88c840f2155300d72455be6896c48b026399d1645be7cfc0cad11a66521fa"
+  },
+  {
+    "id": "f3v_w0003",
+    "folio": "f3v",
+    "reference": "sha",
+    "encoded_text": "\ue105a",
+    "path": "/home/runner/work/Voynich/Voynich/work/eva_units/reset_groups/training_images/f3v_w0003.png",
+    "image_sha256": "069222a5e4e47fde1e1983f4a0c9e4f7ef978ac86b8ddb611c3f3eb7345a4ef4",
+    "label_sha256": "1c6512f68934a23e90b5b34d057cbec2031adef00e9025a273944974cd3ec4bc"
+  },
+  {
+    "id": "f3v_w0004",
+    "folio": "f3v",
+    "reference": "ckhol",
+    "encoded_text": "\ue101ol",
+    "path": "/home/runner/work/Voynich/Voynich/work/eva_units/reset_groups/training_images/f3v_w0004.png",
+    "image_sha256": "d0afc1ab21ef09742f919745062fca97ea9583817a2ecaacb9a92fa2483e41c7",
+    "label_sha256": "be55205f2ccc5796718556995f714b2dcb468b6749b9c6158a98dd6671728003"
+  },
+  {
+    "id": "f3v_w0005",
+    "folio": "f3v",
+    "reference": "ykoaiin",
+    "encoded_text": "ykoaiin",
+    "path": "/home/runner/work/Voynich/Voynich/work/eva_units/reset_groups/training_images/f3v_w0005.png",
+    "image_sha256": "305ff148def841a6dd03a7f12571719a307ce084279f0614b8b8dc218d9aa2a6",
+    "label_sha256": "43e1348e63dfb575be2faed852c75598711b8968ef325dc119223e41629f82e9"
+  },
+  {
+    "id": "f3v_w0006",
+    "folio": "f3v",
+    "reference": "s",
+    "encoded_text": "s",
+    "path": "/home/runner/work/Voynich/Voynich/work/eva_units/reset_groups/training_images/f3v_w0006.png",
+    "image_sha256": "bd27134bcb7e58ca0ccc15c3b235547bfd22c47b7a0e9a40c418f334c41e11e9",
+    "label_sha256": "043a718774c572bd8a25adbeb1bfcd5c0256ae11cecf9f9c3f925d0e52beaf89"
+  },
+  {
+    "id": "f3v_w0007",
+    "folio": "f3v",
+    "reference": "oly",
+    "encoded_text": "oly",
+    "path": "/home/runner/work/Voynich/Voynich/work/eva_units/reset_groups/training_images/f3v_w0007.png",
+    "image_sha256": "24f2f15c463022f2de78a57bb6f1ed09a3c277448ea81c04ba4eda4482d4f0ef",
+    "label_sha256": "a3ff0b737a967ea0f48305ebe1cbcc5fab4d29da89e18bc298ca7a3ff4474da6"
+  },
+  {
+    "id": "f3v_w0008",
+    "folio": "f3v",
+    "reference": "daiidy",
+    "encoded_text": "daiidy",
+    "path": "/home/runner/work/Voynich/Voynich/work/eva_units/reset_groups/training_images/f3v_w0008.png",
+    "image_sha256": "42f204643ce1040678f8e1d423a2e2cf1262c4c7b40ec1e3ceb74a7c096ebbeb",
+    "label_sha256": "31c89d472236a8eef7bf606b3a8940440ff269b004f2ff5e6d78fa03c5bbc502"
+  },
+  {
+    "id": "f3v_w0009",
+    "folio": "f3v",
+    "reference": "qoteeol",
+    "encoded_text": "qoteeol",
+    "path": "/home/runner/work/Voynich/Voynich/work/eva_units/reset_groups/training_images/f3v_w0009.png",
+    "image_sha256": "bd5b8bb39c685376466bc8b3640b4c05cc7c207eb8ade4fbd058d04741ea3b31",
+    "label_sha256": "d8df46e5b5255288309837ac1bd1ed135d777a41741cfc9d07dd3d2e7d476493"
+  },
+  {
+    "id": "f3v_w0010",
+    "folio": "f3v",
+    "reference": "okchor",
+    "encoded_text": "ok\ue104or",
+    "path": "/home/runner/work/Voynich/Voynich/work/eva_units/reset_groups/training_images/f3v_w0010.png",
+    "image_sha256": "1068f34214a82ca8bc62728193d3580e21f7e677d35563b33f18d6e6d907466e",
+    "label_sha256": "e922ad40bae1b85b84fa43ed53ef5f90f39563b2ffa4ce92e00b43db9706f4a9"
+  },
+  {
+    "id": "f3v_w0011",
+    "folio": "f3v",
+    "reference": "okor",
+    "encoded_text": "okor",
+    "path": "/home/runner/work/Voynich/Voynich/work/eva_units/reset_groups/training_images/f3v_w0011.png",
+    "image_sha256": "2da353635cabd11201c07d11844dac93300d247da0508e76bfcb74f54e2c2aca",
+    "label_sha256": "eaabc0a66defdb930777b35c13a8f119557d679c8a2ea48ec338cec3fa266aac"
+  },
+  {
+    "id": "f3v_w0012",
+    "folio": "f3v",
+    "reference": "olytol",
+    "encoded_text": "olytol",
+    "path": "/home/runner/work/Voynich/Voynich/work/eva_units/reset_groups/training_images/f3v_w0012.png",
+    "image_sha256": "f275ba9d10c3853edea77e18b03e43d383b63c791920a9bd05458c0fd8e0e84d",
+    "label_sha256": "f353ce56376a88194068e7a9b153469f4133218ce5de8e74b1ca9d69eb47b97c"
+  },
+  {
+    "id": "f3v_w0013",
+    "folio": "f3v",
+    "reference": "dol",
+    "encoded_text": "dol",
+    "path": "/home/runner/work/Voynich/Voynich/work/eva_units/reset_groups/training_images/f3v_w0013.png",
+    "image_sha256": "f6217d8110a9c901b73f538b2dd059acb75e38eae55897a910d1f89c761322df",
+    "label_sha256": "d06379416452a88b40fc82f833b0ef456d064e5d3d193f76f9b5207cfde8edcf"
+  },
+  {
+    "id": "f3v_w0014",
+    "folio": "f3v",
+    "reference": "dar",
+    "encoded_text": "dar",
+    "path": "/home/runner/work/Voynich/Voynich/work/eva_units/reset_groups/training_images/f3v_w0014.png",
+    "image_sha256": "b40a89dc5c7a5ae0d04cd83da7026f9a0a44c081314a51ab3e27590a37e06836",
+    "label_sha256": "5d9c970dcd517291d13e5010a4d44864daeaa5efdb17919615d3d1a5036ed9e5"
+  },
+  {
+    "id": "f3v_w0015",
+    "folio": "f3v",
+    "reference": "okom",
+    "encoded_text": "okom",
+    "path": "/home/runner/work/Voynich/Voynich/work/eva_units/reset_groups/training_images/f3v_w0015.png",
+    "image_sha256": "4db25413e693e111f011049e2641cda31054fdac0323cf2c166a853917c88fad",
+    "label_sha256": "02a0775af56099b3190fbb9cd6d70db1a7ca19e544aa766dc3b2d0b158a03ad7"
+  },
+  {
+    "id": "f3v_w0016",
+    "folio": "f3v",
+    "reference": "chol",
+    "encoded_text": "\ue104ol",
+    "path": "/home/runner/work/Voynich/Voynich/work/eva_units/reset_groups/training_images/f3v_w0016.png",
+    "image_sha256": "a3feedaa6ecc432b06416bda617ce84e920314dcf8c6e63e7b97a72885cc13d8",
+    "label_sha256": "bb4a310afe620af8f922e5e51f0c74e1f3b0d13d744cbf8506cc900a59f7512a"
+  },
+  {
+    "id": "f3v_w0017",
+    "folio": "f3v",
+    "reference": "shol",
+    "encoded_text": "\ue105ol",
+    "path": "/home/runner/work/Voynich/Voynich/work/eva_units/reset_groups/training_images/f3v_w0017.png",
+    "image_sha256": "2e750ea0a32c6fd7fdd033e41d64c30f05c7b0f344bbb65162b83afff24b8b5a",
+    "label_sha256": "6bbdad059f382002813907027f4bed1fcbce8ee2d1614b16c0be71849d770933"
+  },
+  {
+    "id": "f3v_w0018",
+    "folio": "f3v",
+    "reference": "seees",
+    "encoded_text": "seees",
+    "path": "/home/runner/work/Voynich/Voynich/work/eva_units/reset_groups/training_images/f3v_w0018.png",
+    "image_sha256": "9c5d2128e9489905872c77cfe0925845eeb2dd4703fcf0467bd6c0ca521d8653",
+    "label_sha256": "ba5518fbd335fa34104a1b12c09f57e6b05de92b3de8edc60e081afd7b6f0e00"
+  },
+  {
+    "id": "f3v_w0019",
+    "folio": "f3v",
+    "reference": "chom",
+    "encoded_text": "\ue104om",
+    "path": "/home/runner/work/Voynich/Voynich/work/eva_units/reset_groups/training_images/f3v_w0019.png",
+    "image_sha256": "6405984cfed734d5d3535fa340e8d92b9627e9dae6fb907c2f648cbae4bf0ecd",
+    "label_sha256": "467ce96dca8c3811616af022f889b207560771e61554dc3f5ea4ac6554ddd5d1"
+  },
+  {
+    "id": "f3v_w0020",
+    "folio": "f3v",
+    "reference": "cheeykam",
+    "encoded_text": "\ue104eeykam",
+    "path": "/home/runner/work/Voynich/Voynich/work/eva_units/reset_groups/training_images/f3v_w0020.png",
+    "image_sha256": "3a55920e3d57ad9c642fea7d86b60b9cc16447eac27c894edd20e42cbeb718b9",
+    "label_sha256": "ce3f3c4cf3b03b98bb85a5af427faf7bac0453f5132af43e7265c499f0f78d10"
+  },
+  {
+    "id": "f3v_w0021",
+    "folio": "f3v",
+    "reference": "okai",
+    "encoded_text": "okai",
+    "path": "/home/runner/work/Voynich/Voynich/work/eva_units/reset_groups/training_images/f3v_w0021.png",
+    "image_sha256": "649f88c284064cdcb5a75b597096a0030a79c933047cd086db86f3d49f89f1d1",
+    "label_sha256": "075c3602cbf1c2ca73d92c03494081b444a9a3f7f13bf547034f1d18ef441b9c"
+  },
+  {
+    "id": "f3v_w0022",
+    "folio": "f3v",
+    "reference": "qodar",
+    "encoded_text": "qodar",
+    "path": "/home/runner/work/Voynich/Voynich/work/eva_units/reset_groups/training_images/f3v_w0022.png",
+    "image_sha256": "a809b54dee5a855be84fa33ffada32a4de33344bbd406dbaf62b6bb81eee35ba",
+    "label_sha256": "e507747f4d7671bf50f8524f54e9f0d9304802ff88faf274c1eac53f7c4a44f8"
+  },
+  {
+    "id": "f3v_w0023",
+    "folio": "f3v",
+    "reference": "ees",
+    "encoded_text": "ees",
+    "path": "/home/runner/work/Voynich/Voynich/work/eva_units/reset_groups/training_images/f3v_w0023.png",
+    "image_sha256": "7d9d495f7c344c36309b8a1a0eb0ee4e8b520cbf2dae5bbeb1583f3816a8accd",
+    "label_sha256": "bc56ada309bb04a86c197733cb92c50f46713b383aa8c3bb822518c5bc9e4441"
+  },
+  {
+    "id": "f3v_w0024",
+    "folio": "f3v",
+    "reference": "eey",
+    "encoded_text": "eey",
+    "path": "/home/runner/work/Voynich/Voynich/work/eva_units/reset_groups/training_images/f3v_w0024.png",
+    "image_sha256": "a9e90f67a5845a04949adfde83ea4b695182c88d7ddf4629b64cf3fe161d2562",
+    "label_sha256": "8418150b75d3afee5456d58d0b2fa19991c07c3dc2e004a498bbc332080b1cc3"
+  },
+  {
+    "id": "f3v_w0025",
+    "folio": "f3v",
+    "reference": "kcheol",
+    "encoded_text": "k\ue104eol",
+    "path": "/home/runner/work/Voynich/Voynich/work/eva_units/reset_groups/training_images/f3v_w0025.png",
+    "image_sha256": "ad01b00cc361e1ca9ad1cefa4b78ec9d325a5ed5695619f2f1df4b94f9183861",
+    "label_sha256": "81b97982c9a8138ef92845b161b7d9c5d416c0c93d06fab1051fb3621b16dbb7"
+  },
+  {
+    "id": "f3v_w0026",
+    "folio": "f3v",
+    "reference": "okal",
+    "encoded_text": "okal",
+    "path": "/home/runner/work/Voynich/Voynich/work/eva_units/reset_groups/training_images/f3v_w0026.png",
+    "image_sha256": "ab727410f22698096be413c5f0fe07e735c087dc58949294a27a1e1af09ab409",
+    "label_sha256": "a3d1a264a4a4d8412b358adf0fb9ca663c67b2c3f0ceddf3910001e20ebbe9c1"
+  },
+  {
+    "id": "f3v_w0027",
+    "folio": "f3v",
+    "reference": "do",
+    "encoded_text": "do",
+    "path": "/home/runner/work/Voynich/Voynich/work/eva_units/reset_groups/training_images/f3v_w0027.png",
+    "image_sha256": "75ec12452ca3484651c29f73d4535e61e6f21db3469cf6fde0978bfc568d1c5c",
+    "label_sha256": "ac0b52a2ae6ef99999bc08fb31e19188bf0085a4614204068e677e140e1458be"
+  },
+  {
+    "id": "f3v_w0028",
+    "folio": "f3v",
+    "reference": "r",
+    "encoded_text": "r",
+    "path": "/home/runner/work/Voynich/Voynich/work/eva_units/reset_groups/training_images/f3v_w0028.png",
+    "image_sha256": "24203e4f0adf7ac7eec8b4af97216a01a11755f49f166c5846d315a4b1df5240",
+    "label_sha256": "454349e422f05297191ead13e21d3db520e5abef52055e4964b82fb213f593a1"
+  },
+  {
+    "id": "f3v_w0029",
+    "folio": "f3v",
+    "reference": "chear",
+    "encoded_text": "\ue104ear",
+    "path": "/home/runner/work/Voynich/Voynich/work/eva_units/reset_groups/training_images/f3v_w0029.png",
+    "image_sha256": "3e31558291698b69aef164885f9569ece7fd75ec9e1bdb2fd3d0c5e8b9ad212c",
+    "label_sha256": "42dc6cf93ed97d86b03829e440f8de9d02a10c7ab7c67b56446953a0b31086f8"
+  },
+  {
+    "id": "f3v_w0030",
+    "folio": "f3v",
+    "reference": "een",
+    "encoded_text": "een",
+    "path": "/home/runner/work/Voynich/Voynich/work/eva_units/reset_groups/training_images/f3v_w0030.png",
+    "image_sha256": "c24d85c3e4568a497813a351b956ccfa9b3fa0ed453716f84b1963a0eda21fa8",
+    "label_sha256": "5b4412d8fe0dc5095a5d241531c2261dcdc9ab4f09bfb1899a735667824cf445"
+  },
+  {
+    "id": "f3v_w0031",
+    "folio": "f3v",
+    "reference": "yeeear",
+    "encoded_text": "yeeear",
+    "path": "/home/runner/work/Voynich/Voynich/work/eva_units/reset_groups/training_images/f3v_w0031.png",
+    "image_sha256": "92410bbb5007cd54b5984aeb99e1454748669eeb3a66687e9351e5f71ee4ca47",
+    "label_sha256": "6628ddc6240445c13dec119b8168b0c1d3a5af484e5fe1a60fbf89ca0f10504a"
+  },
+  {
+    "id": "f3v_w0032",
+    "folio": "f3v",
+    "reference": "otchal",
+    "encoded_text": "ot\ue104al",
+    "path": "/home/runner/work/Voynich/Voynich/work/eva_units/reset_groups/training_images/f3v_w0032.png",
+    "image_sha256": "cc6314f09233a314cda8dd5df69f9c0bf8d51d9b7e59ddbbd3ec1fb7615ab801",
+    "label_sha256": "ea4966d41d0998642db1d3e2e6915657dc56f1921cf873cf1904f35562fcae35"
+  },
+  {
+    "id": "f3v_w0033",
+    "folio": "f3v",
+    "reference": "eeor",
+    "encoded_text": "eeor",
+    "path": "/home/runner/work/Voynich/Voynich/work/eva_units/reset_groups/training_images/f3v_w0033.png",
+    "image_sha256": "216287a6b7a3d2eb4662d63ca86df11f0b8adb2b9b46155d637c0de3960149ec",
+    "label_sha256": "456852f22eebc5cf9c0ca81288d8ff9a2bc5cb7f6bd43960112f7d3c3839c901"
+  },
+  {
+    "id": "f3v_w0034",
+    "folio": "f3v",
+    "reference": "eear",
+    "encoded_text": "eear",
+    "path": "/home/runner/work/Voynich/Voynich/work/eva_units/reset_groups/training_images/f3v_w0034.png",
+    "image_sha256": "e7e9524ffb6d466eb82ae86f3269134da385416a08f8a83931a8fd2eb56f4bb0",
+    "label_sha256": "a7fffba6856fcfdce3f6410108572ca9325486f4b7fb37afcf21b30016953ea6"
+  },
+  {
+    "id": "f3v_w0035",
+    "folio": "f3v",
+    "reference": "ckhy",
+    "encoded_text": "\ue101y",
+    "path": "/home/runner/work/Voynich/Voynich/work/eva_units/reset_groups/training_images/f3v_w0035.png",
+    "image_sha256": "f6c404614659e9cdf1eabbd908d437aa58471468a1f89a33ae9433f63f7d19ab",
+    "label_sha256": "4085f479411c6a677c2dd144a2cc18cf4d2ae914ff2763196d01f077b179be9c"
+  },
+  {
+    "id": "f3v_w0036",
+    "folio": "f3v",
+    "reference": "or",
+    "encoded_text": "or",
+    "path": "/home/runner/work/Voynich/Voynich/work/eva_units/reset_groups/training_images/f3v_w0036.png",
+    "image_sha256": "0f7190baf1a23a44ec8a929801dd75fe090a7618fbbcd91a6c5cdea251d9ebe6",
+    "label_sha256": "7175517a370b5cd2e664e3fd29c4ea9db5ce17058eb9772fe090a5485e49dad6"
+  },
+  {
+    "id": "f3v_w0037",
+    "folio": "f3v",
+    "reference": "cheor",
+    "encoded_text": "\ue104eor",
+    "path": "/home/runner/work/Voynich/Voynich/work/eva_units/reset_groups/training_images/f3v_w0037.png",
+    "image_sha256": "89ae10ee6688003d1a6292ec062706e4977f99772eb42c919f75f5533f69a996",
+    "label_sha256": "d66fe8f9eeae2a3993ecbb50cefc3a91847ba2699bbf3010d033ba7c8e0ce8b4"
+  },
+  {
+    "id": "f3v_w0038",
+    "folio": "f3v",
+    "reference": "kor",
+    "encoded_text": "kor",
+    "path": "/home/runner/work/Voynich/Voynich/work/eva_units/reset_groups/training_images/f3v_w0038.png",
+    "image_sha256": "ff5d73fff6820bfda80f60bc774af576a256413dadc7301dedd9d1cdd4b47fa8",
+    "label_sha256": "6c703179a2a4e0a01467259dc35e7d8570c5201914fe6e9fb34f212fa098b737"
+  },
+  {
+    "id": "f3v_w0039",
+    "folio": "f3v",
+    "reference": "chodaly",
+    "encoded_text": "\ue104odaly",
+    "path": "/home/runner/work/Voynich/Voynich/work/eva_units/reset_groups/training_images/f3v_w0039.png",
+    "image_sha256": "a4324a21488a94681c69bcf4f343a489326d18c672f5f3da7dc7c7690d504998",
+    "label_sha256": "84db3e23aa1ecece70df98db04c6ba79f8484ace170482b4faf5b104fa9629a3"
+  },
+  {
+    "id": "f3v_w0040",
+    "folio": "f3v",
+    "reference": "chom",
+    "encoded_text": "\ue104om",
+    "path": "/home/runner/work/Voynich/Voynich/work/eva_units/reset_groups/training_images/f3v_w0040.png",
+    "image_sha256": "c429c4686d53cdac2db2b67d7810fa19b4aa812b70e7c13c085cacdb5b033b12",
+    "label_sha256": "467ce96dca8c3811616af022f889b207560771e61554dc3f5ea4ac6554ddd5d1"
+  },
+  {
+    "id": "f3v_w0041",
+    "folio": "f3v",
+    "reference": "tchor",
+    "encoded_text": "t\ue104or",
+    "path": "/home/runner/work/Voynich/Voynich/work/eva_units/reset_groups/training_images/f3v_w0041.png",
+    "image_sha256": "782bf9941f84f5807f6cbfd42dee6efcb77b90dacf88da71bcdc00b5a9cb1d66",
+    "label_sha256": "9548541729519fda03b22ee3ee56eb7d2e467e3c488fc93e0758af3297d3dfef"
+  },
+  {
+    "id": "f3v_w0042",
+    "folio": "f3v",
+    "reference": "otcham",
+    "encoded_text": "ot\ue104am",
+    "path": "/home/runner/work/Voynich/Voynich/work/eva_units/reset_groups/training_images/f3v_w0042.png",
+    "image_sha256": "9ec790039e04724e593f49662be903b99d1b232ec2a67637c2cb46d1cfcb3f20",
+    "label_sha256": "79241b899a9ec9f9868fa40ae382ca52b20c598656e5af2266a36ede8a7ce5bc"
+  },
+  {
+    "id": "f3v_w0043",
+    "folio": "f3v",
+    "reference": "chor",
+    "encoded_text": "\ue104or",
+    "path": "/home/runner/work/Voynich/Voynich/work/eva_units/reset_groups/training_images/f3v_w0043.png",
+    "image_sha256": "af393e3881ace2fe935ccef38003a40ec656ea3c8491509da5a55186e559a560",
+    "label_sha256": "bcbb30b42483a69d6ff854846b6181f6537ca64e812ab49afc145a63eb09743e"
+  },
+  {
+    "id": "f3v_w0044",
+    "folio": "f3v",
+    "reference": "cfham",
+    "encoded_text": "\ue100am",
+    "path": "/home/runner/work/Voynich/Voynich/work/eva_units/reset_groups/training_images/f3v_w0044.png",
+    "image_sha256": "72c9dbf68167cf10aa9d4f029e62f765c9059a2cafe1d663bde14b1436ac245b",
+    "label_sha256": "c8cca85ca5d5249c5020a288bd1c37c554dc60aefa15b78b0ab7097fea450b83"
+  },
+  {
+    "id": "f3v_w0045",
+    "folio": "f3v",
+    "reference": "s",
+    "encoded_text": "s",
+    "path": "/home/runner/work/Voynich/Voynich/work/eva_units/reset_groups/training_images/f3v_w0045.png",
+    "image_sha256": "cff0c8736026dc4d7a3ea55a0733cae4d5f396d52f7b4314214a9eecddb3f3ac",
+    "label_sha256": "043a718774c572bd8a25adbeb1bfcd5c0256ae11cecf9f9c3f925d0e52beaf89"
+  },
+  {
+    "id": "f3v_w0046",
+    "folio": "f3v",
+    "reference": "ykchy",
+    "encoded_text": "yk\ue104y",
+    "path": "/home/runner/work/Voynich/Voynich/work/eva_units/reset_groups/training_images/f3v_w0046.png",
+    "image_sha256": "609d0acb64520b432a42d951e032ee9808202abadecf8f0112761ae19b5f04b7",
+    "label_sha256": "22deefc48d5badca116cdf3df416f2137892d43dcb9d19006f38fb86dc0a996f"
+  },
+  {
+    "id": "f3v_w0047",
+    "folio": "f3v",
+    "reference": "kchom",
+    "encoded_text": "k\ue104om",
+    "path": "/home/runner/work/Voynich/Voynich/work/eva_units/reset_groups/training_images/f3v_w0047.png",
+    "image_sha256": "7f19c133329dcbe0866aa5ab9c1958488a08b70eb49dd4fbc08110f7a871498a",
+    "label_sha256": "54d9de5d54b6052ff2a6c888a5a42676bbcaeca84c3675e0f906831066068b7a"
+  },
+  {
+    "id": "f3v_w0048",
+    "folio": "f3v",
+    "reference": "chor",
+    "encoded_text": "\ue104or",
+    "path": "/home/runner/work/Voynich/Voynich/work/eva_units/reset_groups/training_images/f3v_w0048.png",
+    "image_sha256": "a82b1b6dbadf9430100c537c7603ff5ef6fa2bd9d366b49a55524974f43c3a92",
+    "label_sha256": "bcbb30b42483a69d6ff854846b6181f6537ca64e812ab49afc145a63eb09743e"
+  },
+  {
+    "id": "f3v_w0049",
+    "folio": "f3v",
+    "reference": "chekeol",
+    "encoded_text": "\ue104ekeol",
+    "path": "/home/runner/work/Voynich/Voynich/work/eva_units/reset_groups/training_images/f3v_w0049.png",
+    "image_sha256": "40955526b38f43a92b2a373f4921b305a53b3fb55b33140f22432cbb518a4cdc",
+    "label_sha256": "9b40ac65c37d7cd18bf0dd161486a5c08ebef6cfe8e4b44a5f617d10b6841791"
+  },
+  {
+    "id": "f3v_w0050",
+    "folio": "f3v",
+    "reference": "oka",
+    "encoded_text": "oka",
+    "path": "/home/runner/work/Voynich/Voynich/work/eva_units/reset_groups/training_images/f3v_w0050.png",
+    "image_sha256": "78b0b90334fad1965083e183d8e3a45315d7d6c2ffdc83cd8d79b0f15f5faa44",
+    "label_sha256": "5d32746ff0e44a182944513f0fc3b3d1ff17b222ff1ea2f4220fe37e5aa1fbee"
+  },
+  {
+    "id": "f3v_w0051",
+    "folio": "f3v",
+    "reference": "ytcheear",
+    "encoded_text": "yt\ue104eear",
+    "path": "/home/runner/work/Voynich/Voynich/work/eva_units/reset_groups/training_images/f3v_w0051.png",
+    "image_sha256": "5b3c9dcf503d2511399a329793c846db98d82c81d438b79541a7e82006c5d419",
+    "label_sha256": "73401dcdf86ea4d4591fd877aaa0a26170d0f2b3f4ed615466958d3b0d54e8d5"
+  },
+  {
+    "id": "f3v_w0052",
+    "folio": "f3v",
+    "reference": "okeol",
+    "encoded_text": "okeol",
+    "path": "/home/runner/work/Voynich/Voynich/work/eva_units/reset_groups/training_images/f3v_w0052.png",
+    "image_sha256": "d31ee155bd2378150b98a738717ef497c33bb79497208173adb62d878dd54614",
+    "label_sha256": "afebe00901ad67dd05c44a6a9825192074916e34db931ebd2bb5ae9453a0eeb5"
+  },
+  {
+    "id": "f3v_w0053",
+    "folio": "f3v",
+    "reference": "cthodoaly",
+    "encoded_text": "\ue103odoaly",
+    "path": "/home/runner/work/Voynich/Voynich/work/eva_units/reset_groups/training_images/f3v_w0053.png",
+    "image_sha256": "06b04ce88e0028cf0ebb7f0dcb5690408d73c7a64c9eed81620da52203075a28",
+    "label_sha256": "381fd610affc547ffdf860738aeb58fa5b5c1504b07450e107f8eaf0aed2aba2"
+  },
+  {
+    "id": "f3v_w0054",
+    "folio": "f3v",
+    "reference": "chor",
+    "encoded_text": "\ue104or",
+    "path": "/home/runner/work/Voynich/Voynich/work/eva_units/reset_groups/training_images/f3v_w0054.png",
+    "image_sha256": "7f0774115b6e75230e6c37c4975039d4f19e8a3196c2ced5c8b341e4f2143b24",
+    "label_sha256": "bcbb30b42483a69d6ff854846b6181f6537ca64e812ab49afc145a63eb09743e"
+  },
+  {
+    "id": "f3v_w0055",
+    "folio": "f3v",
+    "reference": "cthy",
+    "encoded_text": "\ue103y",
+    "path": "/home/runner/work/Voynich/Voynich/work/eva_units/reset_groups/training_images/f3v_w0055.png",
+    "image_sha256": "dacad166bed49099029439cbcaa5cb39d1794de963246ff305416f92846b6e4e",
+    "label_sha256": "4aca2fea6c469c3c2c58a624ae22e682db19fb5136364f0fe6e359654ad65520"
+  },
+  {
+    "id": "f3v_w0056",
+    "folio": "f3v",
+    "reference": "ochor",
+    "encoded_text": "o\ue104or",
+    "path": "/home/runner/work/Voynich/Voynich/work/eva_units/reset_groups/training_images/f3v_w0056.png",
+    "image_sha256": "8692adb74cf05af39668f148b5c59c3921c4e82ba26f27e47154759d0e0f57e2",
+    "label_sha256": "25d376db9c7d3c4966a1ba26b683e0856665b13e8dbd2ef1330b669b1e3ae644"
+  },
+  {
+    "id": "f3v_w0057",
+    "folio": "f3v",
+    "reference": "daiin",
+    "encoded_text": "daiin",
+    "path": "/home/runner/work/Voynich/Voynich/work/eva_units/reset_groups/training_images/f3v_w0057.png",
+    "image_sha256": "8d5756d6fc50b1072ebc5cbb8565b8aa428d7a7cc587a362b5c2c5024c6632de",
+    "label_sha256": "acdd663103aaa9716f1210878c0c7ba9668300c500adcd194e167724d12f4ffc"
+  },
+  {
+    "id": "f3v_w0058",
+    "folio": "f3v",
+    "reference": "qokshol",
+    "encoded_text": "qok\ue105ol",
+    "path": "/home/runner/work/Voynich/Voynich/work/eva_units/reset_groups/training_images/f3v_w0058.png",
+    "image_sha256": "a87a66f3ff67e943c80303744c86baec7f9ba4b0c5ac8a2cb4fa5133f65cfad5",
+    "label_sha256": "0268a326277e567d780ef8c09357a387b358900ab569705ae33b839d1b515094"
+  },
+  {
+    "id": "f3v_w0059",
+    "folio": "f3v",
+    "reference": "daiim",
+    "encoded_text": "daiim",
+    "path": "/home/runner/work/Voynich/Voynich/work/eva_units/reset_groups/training_images/f3v_w0059.png",
+    "image_sha256": "ffada815868c852afe7a0d48650ad47c60310121a4372afef906d5f5b7696d9d",
+    "label_sha256": "4fcca86c185485abbe01c6a2ead9f80bac52c57f2772c57c337f7d13690a46a7"
+  },
+  {
+    "id": "f3v_w0060",
+    "folio": "f3v",
+    "reference": "chol",
+    "encoded_text": "\ue104ol",
+    "path": "/home/runner/work/Voynich/Voynich/work/eva_units/reset_groups/training_images/f3v_w0060.png",
+    "image_sha256": "4c85dfb049b4c04366303103651e1cae496024332f9fd9df2925324ed9d038dd",
+    "label_sha256": "bb4a310afe620af8f922e5e51f0c74e1f3b0d13d744cbf8506cc900a59f7512a"
+  },
+  {
+    "id": "f3v_w0061",
+    "folio": "f3v",
+    "reference": "okary",
+    "encoded_text": "okary",
+    "path": "/home/runner/work/Voynich/Voynich/work/eva_units/reset_groups/training_images/f3v_w0061.png",
+    "image_sha256": "f9332671ff45537498419c079c5066ce495d7ea6afd9ea11d5a73292df869f88",
+    "label_sha256": "10d56e5587a132ca3070abe7f19f899e1ea9b1f37e4e3823b50f4c389b0b99b8"
+  },
+  {
+    "id": "f3v_w0062",
+    "folio": "f3v",
+    "reference": "sho",
+    "encoded_text": "\ue105o",
+    "path": "/home/runner/work/Voynich/Voynich/work/eva_units/reset_groups/training_images/f3v_w0062.png",
+    "image_sha256": "4a9813a75f37980bebaa3d4153c9f16e6cd4f3287f61040e740968839027bd86",
+    "label_sha256": "ec65481243ce9c0427ec673f51845b98b84839e1c5cc1c216c05360bfa346fc9"
+  },
+  {
+    "id": "f3v_w0063",
+    "folio": "f3v",
+    "reference": "shockho",
+    "encoded_text": "\ue105o\ue101o",
+    "path": "/home/runner/work/Voynich/Voynich/work/eva_units/reset_groups/training_images/f3v_w0063.png",
+    "image_sha256": "7d9b2502748a0692d6e66a2cb7a55adefef7632f7bd74b4ee67f3efcd0333ece",
+    "label_sha256": "35a8224d76b8ee988883fdfa86138b52ed1c7b787a884798bbd83b5ed8f9b55e"
+  },
+  {
+    "id": "f3v_w0064",
+    "folio": "f3v",
+    "reference": "ckhy",
+    "encoded_text": "\ue101y",
+    "path": "/home/runner/work/Voynich/Voynich/work/eva_units/reset_groups/training_images/f3v_w0064.png",
+    "image_sha256": "63e1dea560adeaefecd21a760e4b7974aaae864dda3f06a967ad24b7bd7071d3",
+    "label_sha256": "4085f479411c6a677c2dd144a2cc18cf4d2ae914ff2763196d01f077b179be9c"
+  },
+  {
+    "id": "f3v_w0065",
+    "folio": "f3v",
+    "reference": "tchor",
+    "encoded_text": "t\ue104or",
+    "path": "/home/runner/work/Voynich/Voynich/work/eva_units/reset_groups/training_images/f3v_w0065.png",
+    "image_sha256": "a98ea77c8a19134816cac0f6bbbe10fe361968554505b8ab568b176f053cbe0c",
+    "label_sha256": "9548541729519fda03b22ee3ee56eb7d2e467e3c488fc93e0758af3297d3dfef"
+  },
+  {
+    "id": "f3v_w0066",
+    "folio": "f3v",
+    "reference": "chodaiin",
+    "encoded_text": "\ue104odaiin",
+    "path": "/home/runner/work/Voynich/Voynich/work/eva_units/reset_groups/training_images/f3v_w0066.png",
+    "image_sha256": "be9459e494868b991d812de38dbcf75c2d6263c6001abb3307d6de548a6f353a",
+    "label_sha256": "200310f530f2fe55fd4d6b8e6e8c7e55613132e1d61f4007aba0e7e04e4944d1"
+  },
+  {
+    "id": "f3v_w0067",
+    "folio": "f3v",
+    "reference": "chom",
+    "encoded_text": "\ue104om",
+    "path": "/home/runner/work/Voynich/Voynich/work/eva_units/reset_groups/training_images/f3v_w0067.png",
+    "image_sha256": "f594538f1f013fb024ff4795f09adfd93dcc0d61077d7fe68e5a5841e670b178",
+    "label_sha256": "467ce96dca8c3811616af022f889b207560771e61554dc3f5ea4ac6554ddd5d1"
+  },
+  {
+    "id": "f3v_w0068",
+    "folio": "f3v",
+    "reference": "osh",
+    "encoded_text": "o\ue105",
+    "path": "/home/runner/work/Voynich/Voynich/work/eva_units/reset_groups/training_images/f3v_w0068.png",
+    "image_sha256": "37d76d9be8e4dec288171fe5ee09cb8c23397d1fc1c9ae89ffd864921623d334",
+    "label_sha256": "2c12ddaae736a3e5336aad1fd0d4e44609facc03438a1485ef2daea46befd354"
+  },
+  {
+    "id": "f3v_w0069",
+    "folio": "f3v",
+    "reference": "chodair",
+    "encoded_text": "\ue104odair",
+    "path": "/home/runner/work/Voynich/Voynich/work/eva_units/reset_groups/training_images/f3v_w0069.png",
+    "image_sha256": "69144023b65a98110d9116cbfb38426b20000ccae099562a6d7a648fbf53216c",
+    "label_sha256": "585bea1472b2a3d8f6f8d628debdf646b6ba24f2e4259d2891c7d8681a6af422"
+  },
+  {
+    "id": "f3v_w0070",
+    "folio": "f3v",
+    "reference": "ytchy",
+    "encoded_text": "yt\ue104y",
+    "path": "/home/runner/work/Voynich/Voynich/work/eva_units/reset_groups/training_images/f3v_w0070.png",
+    "image_sha256": "adbb0917232674c2751ccdb967a8c0898afa435ed4b633fa4669e97f2ede3efb",
+    "label_sha256": "d623c509bcd07703ad179d6e8e78bd98082742b12ef5a66d02e27ee810c88508"
+  },
+  {
+    "id": "f3v_w0071",
+    "folio": "f3v",
+    "reference": "tchor",
+    "encoded_text": "t\ue104or",
+    "path": "/home/runner/work/Voynich/Voynich/work/eva_units/reset_groups/training_images/f3v_w0071.png",
+    "image_sha256": "2c27b9cad957530d0204bc9d5414ad502d8e89e85a0ee3d7585cc023b1cb6222",
+    "label_sha256": "9548541729519fda03b22ee3ee56eb7d2e467e3c488fc93e0758af3297d3dfef"
+  },
+  {
+    "id": "f3v_w0072",
+    "folio": "f3v",
+    "reference": "kcham",
+    "encoded_text": "k\ue104am",
+    "path": "/home/runner/work/Voynich/Voynich/work/eva_units/reset_groups/training_images/f3v_w0072.png",
+    "image_sha256": "1ecf3aae5792c27a7a70ab285590546fb61cb87df01721fc4564d174b40cd8c8",
+    "label_sha256": "936d56818edff31a50939bb9ea2c636958e6eed17026a8b4045817ebd211b8f5"
+  },
+  {
+    "id": "f3v_w0073",
+    "folio": "f3v",
+    "reference": "s",
+    "encoded_text": "s",
+    "path": "/home/runner/work/Voynich/Voynich/work/eva_units/reset_groups/training_images/f3v_w0073.png",
+    "image_sha256": "cf9ea68a26d8d4ed100fa1aef6f5084f30a32e91cb03c9cfa7994a60dea6a725",
+    "label_sha256": "043a718774c572bd8a25adbeb1bfcd5c0256ae11cecf9f9c3f925d0e52beaf89"
+  },
+  {
+    "id": "f3v_w0074",
+    "folio": "f3v",
+    "reference": "shar",
+    "encoded_text": "\ue105ar",
+    "path": "/home/runner/work/Voynich/Voynich/work/eva_units/reset_groups/training_images/f3v_w0074.png",
+    "image_sha256": "f77cdd7a7d8a5aa6a78cdfae39ae6fa5db8c961dc0b3ac7cf0289a5e4d26237a",
+    "label_sha256": "5410a5dfd04f978aa019aae9a7a19c31c1a2aceb2a2e9e57a42fbf34fab67592"
+  },
+  {
+    "id": "f3v_w0075",
+    "folio": "f3v",
+    "reference": "shkaiin",
+    "encoded_text": "\ue105kaiin",
+    "path": "/home/runner/work/Voynich/Voynich/work/eva_units/reset_groups/training_images/f3v_w0075.png",
+    "image_sha256": "3f7e4f4cf60cbd6714c2cb594d9934855216ba6e6c0cf2bd15af9e572841d15b",
+    "label_sha256": "441f45a2de3f0f3ccb32eb86a643c1688b77a5a3932123bfecbde6217e6fded8"
+  },
+  {
+    "id": "f3v_w0076",
+    "folio": "f3v",
+    "reference": "qokchy",
+    "encoded_text": "qok\ue104y",
+    "path": "/home/runner/work/Voynich/Voynich/work/eva_units/reset_groups/training_images/f3v_w0076.png",
+    "image_sha256": "661dfab48631386f6d13378a45b4115e637ece5b5a5700cbbc2564261c9d42e0",
+    "label_sha256": "1b2530c9291762d796489041af734ce6c5c136e059f53b5b2141fad171fd44ca"
+  },
+  {
+    "id": "f3v_w0077",
+    "folio": "f3v",
+    "reference": "yty",
+    "encoded_text": "yty",
+    "path": "/home/runner/work/Voynich/Voynich/work/eva_units/reset_groups/training_images/f3v_w0077.png",
+    "image_sha256": "e59a0eecbc6f8b2cc6bb9b0edf8c8b25a5f136bb6c476c5a42c44ca17a0363cb",
+    "label_sha256": "d2cda36a5475efe1e39c25ada3a89305f6411de3b3187f6093b370681c16c448"
+  },
+  {
+    "id": "f3v_w0078",
+    "folio": "f3v",
+    "reference": "cthal",
+    "encoded_text": "\ue103al",
+    "path": "/home/runner/work/Voynich/Voynich/work/eva_units/reset_groups/training_images/f3v_w0078.png",
+    "image_sha256": "1c6dd32763039a781c3a4e141853d372ea909b6afc8d9f8369ad64942d7300bd",
+    "label_sha256": "aad1ae5d9292ebcf7591f2e993f76f2971c651b4cc1123e3620f3c8040a36df8"
+  },
+  {
+    "id": "f3v_w0079",
+    "folio": "f3v",
+    "reference": "chky",
+    "encoded_text": "\ue104ky",
+    "path": "/home/runner/work/Voynich/Voynich/work/eva_units/reset_groups/training_images/f3v_w0079.png",
+    "image_sha256": "8dffeb07e16b29c8837b70a05124d5b8daa613c7b2acbb43177fb58b3acbc73c",
+    "label_sha256": "9308a95d486554611fa8dc429a89e2f0a61f012aebacfa7258cf6a240408bf51"
+  },
+  {
+    "id": "f3v_w0080",
+    "folio": "f3v",
+    "reference": "dain",
+    "encoded_text": "dain",
+    "path": "/home/runner/work/Voynich/Voynich/work/eva_units/reset_groups/training_images/f3v_w0080.png",
+    "image_sha256": "ef92b2f494e89eecba9d66adc5c8008e7bae0e5976e542207982eaa60ed700d3",
+    "label_sha256": "635ff8d0a885e09e1a14895284ac64ee38e529006474a5dd43553f96ea87387e"
+  },
+  {
+    "id": "f3v_w0081",
+    "folio": "f3v",
+    "reference": "sheam",
+    "encoded_text": "\ue105eam",
+    "path": "/home/runner/work/Voynich/Voynich/work/eva_units/reset_groups/training_images/f3v_w0081.png",
+    "image_sha256": "fbef038b301b2059487617ce69ffa7f48065d1b48fa183475fd789757cafdab2",
+    "label_sha256": "8eac10d50d179383371974982757b6e373bca89b0ef8f302bd9570dc75e94783"
+  },
+  {
+    "id": "f3v_w0082",
+    "folio": "f3v",
+    "reference": "yteam",
+    "encoded_text": "yteam",
+    "path": "/home/runner/work/Voynich/Voynich/work/eva_units/reset_groups/training_images/f3v_w0082.png",
+    "image_sha256": "e873482963c5adbc10325b9c352b473133084c8a78e8c6d3463be2d2aa7f578b",
+    "label_sha256": "eb81403c965908cac4f274d52debbc2f63f91eb0fb13f5e035bdc697a3ccf184"
+  },
+  {
+    "id": "f5v_w0000",
+    "folio": "f5v",
+    "reference": "kocheor",
+    "encoded_text": "ko\ue104eor",
+    "path": "/home/runner/work/Voynich/Voynich/work/eva_units/reset_groups/training_images/f5v_w0000.png",
+    "image_sha256": "9197a45382635369191210906f6bfb6dbdf04d2cfafaf335e68bed26ddaae208",
+    "label_sha256": "64c2707cc9605994fd859d88fd1d449fc5681438c393e63a38fed68c2a22e39c"
+  },
+  {
+    "id": "f5v_w0001",
+    "folio": "f5v",
+    "reference": "chor",
+    "encoded_text": "\ue104or",
+    "path": "/home/runner/work/Voynich/Voynich/work/eva_units/reset_groups/training_images/f5v_w0001.png",
+    "image_sha256": "0bddc0678deabd20b947058f8a0c4c0f6af3322d1425f572097ee2485c0dcb13",
+    "label_sha256": "bcbb30b42483a69d6ff854846b6181f6537ca64e812ab49afc145a63eb09743e"
+  },
+  {
+    "id": "f5v_w0002",
+    "folio": "f5v",
+    "reference": "ytchey",
+    "encoded_text": "yt\ue104ey",
+    "path": "/home/runner/work/Voynich/Voynich/work/eva_units/reset_groups/training_images/f5v_w0002.png",
+    "image_sha256": "0948630db698ab98d337db92ae14d6ea672ceda0ff37734bfbebd9a9a3f51c46",
+    "label_sha256": "64829890d76b3fd3f8973259aaa8cb65f241c1039368ecb7faca6c69e1c144f0"
+  },
+  {
+    "id": "f5v_w0003",
+    "folio": "f5v",
+    "reference": "pshod",
+    "encoded_text": "p\ue105od",
+    "path": "/home/runner/work/Voynich/Voynich/work/eva_units/reset_groups/training_images/f5v_w0003.png",
+    "image_sha256": "f37910b0bb6811535b58198df6ab8d13eb700e3cec9bf2ad252b5e493364f6fb",
+    "label_sha256": "333a24a6bebcdef75062bfe463993acfe7facb67e0038d0786ad7064a2210ca2"
+  },
+  {
+    "id": "f5v_w0004",
+    "folio": "f5v",
+    "reference": "chols",
+    "encoded_text": "\ue104ols",
+    "path": "/home/runner/work/Voynich/Voynich/work/eva_units/reset_groups/training_images/f5v_w0004.png",
+    "image_sha256": "1e478e9b8dc22830896813c428640359b37b868c6f5b84b43cb2079aac146102",
+    "label_sha256": "8ab72881f6defa8e61e925ce9c5ff3f27715ddb6534640761d7605be869519c8"
+  },
+  {
+    "id": "f5v_w0005",
+    "folio": "f5v",
+    "reference": "chodaiin",
+    "encoded_text": "\ue104odaiin",
+    "path": "/home/runner/work/Voynich/Voynich/work/eva_units/reset_groups/training_images/f5v_w0005.png",
+    "image_sha256": "627fef4a00c38de899d574b1c7891b6250d7f64c04942131cf918d2a91d279b0",
+    "label_sha256": "200310f530f2fe55fd4d6b8e6e8c7e55613132e1d61f4007aba0e7e04e4944d1"
+  },
+  {
+    "id": "f5v_w0006",
+    "folio": "f5v",
+    "reference": "ytoiiin",
+    "encoded_text": "ytoiiin",
+    "path": "/home/runner/work/Voynich/Voynich/work/eva_units/reset_groups/training_images/f5v_w0006.png",
+    "image_sha256": "0ef9479bc7bf0cdd51358185a103589a7097c4a0dbf07d25ca0e4c144c2351bc",
+    "label_sha256": "152b90aaa37210db96686788180edd3788208d2078e5288ba427442c6eae1ca8"
+  },
+  {
+    "id": "f5v_w0007",
+    "folio": "f5v",
+    "reference": "daiin",
+    "encoded_text": "daiin",
+    "path": "/home/runner/work/Voynich/Voynich/work/eva_units/reset_groups/training_images/f5v_w0007.png",
+    "image_sha256": "94b3bcd8c774ebaa70dbac1d29d64c95d5c7d632f9b7107d8818059ed0c23b4b",
+    "label_sha256": "acdd663103aaa9716f1210878c0c7ba9668300c500adcd194e167724d12f4ffc"
+  },
+  {
+    "id": "f5v_w0008",
+    "folio": "f5v",
+    "reference": "dchol",
+    "encoded_text": "d\ue104ol",
+    "path": "/home/runner/work/Voynich/Voynich/work/eva_units/reset_groups/training_images/f5v_w0008.png",
+    "image_sha256": "2c71596fd4d10cac999c90ea203946aa68e27f978b4ec89c06b5bd6a5b9a2780",
+    "label_sha256": "1c3b5319fbd349486560d33d7a424a05ff370e2455aa455c83533981d541992c"
+  },
+  {
+    "id": "f5v_w0009",
+    "folio": "f5v",
+    "reference": "sy",
+    "encoded_text": "sy",
+    "path": "/home/runner/work/Voynich/Voynich/work/eva_units/reset_groups/training_images/f5v_w0009.png",
+    "image_sha256": "8ea6cb022d155c7f0c18ee849803499ca8f704b453c148d5eda84afaeb4ff9de",
+    "label_sha256": "8ff5d4f4e62aec1b3c0c12373c825c090a388e183635cfcea8b398cfe845bed0"
+  },
+  {
+    "id": "f5v_w0010",
+    "folio": "f5v",
+    "reference": "chol",
+    "encoded_text": "\ue104ol",
+    "path": "/home/runner/work/Voynich/Voynich/work/eva_units/reset_groups/training_images/f5v_w0010.png",
+    "image_sha256": "148a9cad09711fd4283786bea60abbbde1c9a92e7d1b9743c6b42e2d87dee658",
+    "label_sha256": "bb4a310afe620af8f922e5e51f0c74e1f3b0d13d744cbf8506cc900a59f7512a"
+  },
+  {
+    "id": "f5v_w0011",
+    "folio": "f5v",
+    "reference": "otaiin",
+    "encoded_text": "otaiin",
+    "path": "/home/runner/work/Voynich/Voynich/work/eva_units/reset_groups/training_images/f5v_w0011.png",
+    "image_sha256": "7eca11e47ce376710e601072beedc28dac37280db518b44735c1738916de5e58",
+    "label_sha256": "f858814c2e3c4ec31576d2206d07a1ead2fd9ac2a179341ec9edf30a7e0d7943"
+  },
+  {
+    "id": "f5v_w0012",
+    "folio": "f5v",
+    "reference": "dain",
+    "encoded_text": "dain",
+    "path": "/home/runner/work/Voynich/Voynich/work/eva_units/reset_groups/training_images/f5v_w0012.png",
+    "image_sha256": "5061dfd3204df3cc13650aca2e5f35a47e71d656648b1f6dd8ad570a2febadc6",
+    "label_sha256": "635ff8d0a885e09e1a14895284ac64ee38e529006474a5dd43553f96ea87387e"
+  },
+  {
+    "id": "f5v_w0013",
+    "folio": "f5v",
+    "reference": "cthor",
+    "encoded_text": "\ue103or",
+    "path": "/home/runner/work/Voynich/Voynich/work/eva_units/reset_groups/training_images/f5v_w0013.png",
+    "image_sha256": "c2d86b7988f7300c6a0696121bb5adbd5c590256eb9eef6fa9c3b498e2ddc8d2",
+    "label_sha256": "d3bebea300185a52ff03c2363ac126f8d0ce66b77179d54273f49c92b8d8ffe9"
+  },
+  {
+    "id": "f5v_w0014",
+    "folio": "f5v",
+    "reference": "chots",
+    "encoded_text": "\ue104ots",
+    "path": "/home/runner/work/Voynich/Voynich/work/eva_units/reset_groups/training_images/f5v_w0014.png",
+    "image_sha256": "d983d5f80579c4fcc3f755a489e6dec8f0ecd865f088fadb8327190fe23161ea",
+    "label_sha256": "44afbe98f646bcd9b4376e2ecbdd3d209ea384bd95250bbbf5e28829e974d018"
+  },
+  {
+    "id": "f5v_w0015",
+    "folio": "f5v",
+    "reference": "ychopordg",
+    "encoded_text": "y\ue104opordg",
+    "path": "/home/runner/work/Voynich/Voynich/work/eva_units/reset_groups/training_images/f5v_w0015.png",
+    "image_sha256": "21a7fd1f779d37993697321e0bfc95e9f1efa3ede96a6554f5a3aba1a64ed423",
+    "label_sha256": "0fbdc15a6aad4d3d1f4d68c6bd3778bd54000e32b129a43516357efb5bd82bc8"
+  },
+  {
+    "id": "f5v_w0016",
+    "folio": "f5v",
+    "reference": "qotcho",
+    "encoded_text": "qot\ue104o",
+    "path": "/home/runner/work/Voynich/Voynich/work/eva_units/reset_groups/training_images/f5v_w0016.png",
+    "image_sha256": "c285a0bfe36da653717b048d0e288767ad7af30caf60e3ab2520ac56e00854e9",
+    "label_sha256": "621b8b7d721cd16eb8d03a5caa0cb21ca44eb3dbe63042c10c9821bbe1f4e534"
+  },
+  {
+    "id": "f5v_w0017",
+    "folio": "f5v",
+    "reference": "ytor",
+    "encoded_text": "ytor",
+    "path": "/home/runner/work/Voynich/Voynich/work/eva_units/reset_groups/training_images/f5v_w0017.png",
+    "image_sha256": "9a986e55a9129a108aeb2d8a7ac9c10b65e064c490d2192be2f7765aa07deb02",
+    "label_sha256": "5836edcba8c3a393e0591a64e70bd0509a9780347f82a7006f29ce8d52333edd"
+  },
+  {
+    "id": "f5v_w0018",
+    "folio": "f5v",
+    "reference": "daiin",
+    "encoded_text": "daiin",
+    "path": "/home/runner/work/Voynich/Voynich/work/eva_units/reset_groups/training_images/f5v_w0018.png",
+    "image_sha256": "5adfd82da7afe986cce2aaaf44477b58f49f376bc09660d98694d30ab9fbcbf1",
+    "label_sha256": "acdd663103aaa9716f1210878c0c7ba9668300c500adcd194e167724d12f4ffc"
+  },
+  {
+    "id": "f5v_w0019",
+    "folio": "f5v",
+    "reference": "daiin",
+    "encoded_text": "daiin",
+    "path": "/home/runner/work/Voynich/Voynich/work/eva_units/reset_groups/training_images/f5v_w0019.png",
+    "image_sha256": "d62da575fb5ccf204f0e0369e30a3234c99daa708c07773e651beba5462ef78d",
+    "label_sha256": "acdd663103aaa9716f1210878c0c7ba9668300c500adcd194e167724d12f4ffc"
+  },
+  {
+    "id": "f5v_w0020",
+    "folio": "f5v",
+    "reference": "otchor",
+    "encoded_text": "ot\ue104or",
+    "path": "/home/runner/work/Voynich/Voynich/work/eva_units/reset_groups/training_images/f5v_w0020.png",
+    "image_sha256": "12353acb38c52eaa2fa8b0bee9566c6f601f7b820cbcb2bc88966465ca4858bd",
+    "label_sha256": "cacb5a55cf6daad939ac5ede08ed573cf39141453c466c51a5252b89ecfb0177"
+  },
+  {
+    "id": "f5v_w0021",
+    "folio": "f5v",
+    "reference": "daiir",
+    "encoded_text": "daiir",
+    "path": "/home/runner/work/Voynich/Voynich/work/eva_units/reset_groups/training_images/f5v_w0021.png",
+    "image_sha256": "470eabc91e526d163f2fd46f1ee64a3d71be11a85e4e0e2a5a5b64d2c1dc2461",
+    "label_sha256": "0ff194bc6f29286b5987e4c9fa643d86f38bf3fc29a97a969aded73ffcc07412"
+  },
+  {
+    "id": "f5v_w0022",
+    "folio": "f5v",
+    "reference": "qo",
+    "encoded_text": "qo",
+    "path": "/home/runner/work/Voynich/Voynich/work/eva_units/reset_groups/training_images/f5v_w0022.png",
+    "image_sha256": "6de83be27d3a6e39e3f1d51ee1e648cb80a351770e4dc82714c7fbede31b733f",
+    "label_sha256": "3eca4424d164d0e02850eb807799b92ed845003b7609f9e5695099a40aea092f"
+  },
+  {
+    "id": "f5v_w0023",
+    "folio": "f5v",
+    "reference": "darchor",
+    "encoded_text": "dar\ue104or",
+    "path": "/home/runner/work/Voynich/Voynich/work/eva_units/reset_groups/training_images/f5v_w0023.png",
+    "image_sha256": "fe1a4a7231d85ba4d11853d238da0be73d380b53e058043717b39566d4a81152",
+    "label_sha256": "627c09b01a84396cc83735a4109df4d8c4927d786f4e7a2698667a86d54599c5"
+  },
+  {
+    "id": "f5v_w0024",
+    "folio": "f5v",
+    "reference": "do",
+    "encoded_text": "do",
+    "path": "/home/runner/work/Voynich/Voynich/work/eva_units/reset_groups/training_images/f5v_w0024.png",
+    "image_sha256": "7590deee32c24e7d56098dfa44450b0559a7010a6fe207e017f703081f6eb97e",
+    "label_sha256": "ac0b52a2ae6ef99999bc08fb31e19188bf0085a4614204068e677e140e1458be"
+  },
+  {
+    "id": "f5v_w0025",
+    "folio": "f5v",
+    "reference": "qotor",
+    "encoded_text": "qotor",
+    "path": "/home/runner/work/Voynich/Voynich/work/eva_units/reset_groups/training_images/f5v_w0025.png",
+    "image_sha256": "ebce4339434e5816b73909efeac010fde674bfda627053e1ff777bf933885e1e",
+    "label_sha256": "133326988d27d8e21fd4450e5b403dd5c243a8393a9786abecf76d09d0d12db4"
+  },
+  {
+    "id": "f5v_w0026",
+    "folio": "f5v",
+    "reference": "shees",
+    "encoded_text": "\ue105ees",
+    "path": "/home/runner/work/Voynich/Voynich/work/eva_units/reset_groups/training_images/f5v_w0026.png",
+    "image_sha256": "bc245c621778ca8bd26e6752b4c0c21157e79821b02af23ca0adfb4f01753e48",
+    "label_sha256": "135e9a9d23c7f21dbd5fb245356ea50a32b2dca6dbf8ff7beef825ca16e2a68f"
+  },
+  {
+    "id": "f5v_w0027",
+    "folio": "f5v",
+    "reference": "otol",
+    "encoded_text": "otol",
+    "path": "/home/runner/work/Voynich/Voynich/work/eva_units/reset_groups/training_images/f5v_w0027.png",
+    "image_sha256": "ae4f4db8e62790181fe31af518a391361bf645d162dd457aef91714dabe3953b",
+    "label_sha256": "fd31e54ce733c6b94fcf2e0a884958423ccac5f202f36a9943c23eb02167d950"
+  },
+  {
+    "id": "f5v_w0028",
+    "folio": "f5v",
+    "reference": "ykoiin",
+    "encoded_text": "ykoiin",
+    "path": "/home/runner/work/Voynich/Voynich/work/eva_units/reset_groups/training_images/f5v_w0028.png",
+    "image_sha256": "b8982d9e46aea46e64e7a84dcab5fac7bedd11465ce987c9346042d45894e5e6",
+    "label_sha256": "8eabd605729b733118dd1377e40812962e705fd5a6af5d908aa5c6cd53ac45f5"
+  },
+  {
+    "id": "f5v_w0029",
+    "folio": "f5v",
+    "reference": "shol",
+    "encoded_text": "\ue105ol",
+    "path": "/home/runner/work/Voynich/Voynich/work/eva_units/reset_groups/training_images/f5v_w0029.png",
+    "image_sha256": "bd33b5064f00af70c2eeb213918c86c113d9dbd69a9a74a91bed4254f622ba99",
+    "label_sha256": "6bbdad059f382002813907027f4bed1fcbce8ee2d1614b16c0be71849d770933"
+  },
+  {
+    "id": "f5v_w0030",
+    "folio": "f5v",
+    "reference": "daiin",
+    "encoded_text": "daiin",
+    "path": "/home/runner/work/Voynich/Voynich/work/eva_units/reset_groups/training_images/f5v_w0030.png",
+    "image_sha256": "ccfca9d3adb2e5d5be6b1851dcc5cab6755efff7b8a727e708d3592ac43c52b0",
+    "label_sha256": "acdd663103aaa9716f1210878c0c7ba9668300c500adcd194e167724d12f4ffc"
+  },
+  {
+    "id": "f5v_w0031",
+    "folio": "f5v",
+    "reference": "cthor",
+    "encoded_text": "\ue103or",
+    "path": "/home/runner/work/Voynich/Voynich/work/eva_units/reset_groups/training_images/f5v_w0031.png",
+    "image_sha256": "472e58e958e5b57a35634493ce790d685c0d2b8c99f85d5e3846a6c82c0eccd3",
+    "label_sha256": "d3bebea300185a52ff03c2363ac126f8d0ce66b77179d54273f49c92b8d8ffe9"
+  },
+  {
+    "id": "f5v_w0032",
+    "folio": "f5v",
+    "reference": "okchy",
+    "encoded_text": "ok\ue104y",
+    "path": "/home/runner/work/Voynich/Voynich/work/eva_units/reset_groups/training_images/f5v_w0032.png",
+    "image_sha256": "f48fa27a7659cb610aa0c1ca64726e739ab185c95a925d32612ca1ee012e7346",
+    "label_sha256": "60cf671e01e3df4af173b442638bbd7135a747073f80dc5a15ab046e6d30843b"
+  },
+  {
+    "id": "f5v_w0033",
+    "folio": "f5v",
+    "reference": "taiin",
+    "encoded_text": "taiin",
+    "path": "/home/runner/work/Voynich/Voynich/work/eva_units/reset_groups/training_images/f5v_w0033.png",
+    "image_sha256": "4565fc7f0f34741d89b5c1e1f18bf6f936ff8eada8e1e38a38b62ac57543671d",
+    "label_sha256": "3a2f241e8a84cab49c1191237c702395ba33790461bb92b1c748a1d0a0b86149"
+  },
+  {
+    "id": "f5v_w0034",
+    "folio": "f5v",
+    "reference": "shokeeol",
+    "encoded_text": "\ue105okeeol",
+    "path": "/home/runner/work/Voynich/Voynich/work/eva_units/reset_groups/training_images/f5v_w0034.png",
+    "image_sha256": "deb478eccd534ecf0e1a9f8a35969802b8e0e9d345a873f76b8b3267f416ea20",
+    "label_sha256": "143cd99b06b979564860defd79a9b7e43e44b310c66fb4c353d72b6a82097335"
+  },
+  {
+    "id": "f5v_w0035",
+    "folio": "f5v",
+    "reference": "chor",
+    "encoded_text": "\ue104or",
+    "path": "/home/runner/work/Voynich/Voynich/work/eva_units/reset_groups/training_images/f5v_w0035.png",
+    "image_sha256": "6a63a5a15dcdc5fcffd097874b0c955a5d939ad253568e667f34fc0ca78347ec",
+    "label_sha256": "bcbb30b42483a69d6ff854846b6181f6537ca64e812ab49afc145a63eb09743e"
+  },
+  {
+    "id": "f5v_w0036",
+    "folio": "f5v",
+    "reference": "cheotol",
+    "encoded_text": "\ue104eotol",
+    "path": "/home/runner/work/Voynich/Voynich/work/eva_units/reset_groups/training_images/f5v_w0036.png",
+    "image_sha256": "1f884b54f53628df658bd6ba5f5f079b0d81d91ccc1c95f1d609b364f310cd3a",
+    "label_sha256": "f1a24e45f54118141dbdaa60d7ce665768f3bf0b46042f58dfd621ab592fe2c2"
+  },
+  {
+    "id": "f5v_w0037",
+    "folio": "f5v",
+    "reference": "otchol",
+    "encoded_text": "ot\ue104ol",
+    "path": "/home/runner/work/Voynich/Voynich/work/eva_units/reset_groups/training_images/f5v_w0037.png",
+    "image_sha256": "af0ac98caec7fa78da668923d35206e5d1e06b323a3a25f1877e96bd5e2291e1",
+    "label_sha256": "0c80913cbd70538494529c6c8930fc27e7529477ec1ed7f58d66541b149666a6"
+  },
+  {
+    "id": "f5v_w0038",
+    "folio": "f5v",
+    "reference": "daiin",
+    "encoded_text": "daiin",
+    "path": "/home/runner/work/Voynich/Voynich/work/eva_units/reset_groups/training_images/f5v_w0038.png",
+    "image_sha256": "6a386f95c68ad76719909213a61a5f858f2e40c6512924b68a8de4714209ee3b",
+    "label_sha256": "acdd663103aaa9716f1210878c0c7ba9668300c500adcd194e167724d12f4ffc"
+  },
+  {
+    "id": "f5v_w0039",
+    "folio": "f5v",
+    "reference": "dal",
+    "encoded_text": "dal",
+    "path": "/home/runner/work/Voynich/Voynich/work/eva_units/reset_groups/training_images/f5v_w0039.png",
+    "image_sha256": "3aa0a8a70e361cacdafa89dd87d2bd8ba6b068fc411f2a52a6513878dad3a471",
+    "label_sha256": "c7abd4dc26cd750f72b87bb9da1b462c07b20c77c4fc299ef12377adc904ed8d"
+  },
+  {
+    "id": "f5v_w0040",
+    "folio": "f5v",
+    "reference": "chol",
+    "encoded_text": "\ue104ol",
+    "path": "/home/runner/work/Voynich/Voynich/work/eva_units/reset_groups/training_images/f5v_w0040.png",
+    "image_sha256": "968ab4d6e056f5aaef6c29bb7958ee671150d8d87b51a136caeb6673d5dd1f58",
+    "label_sha256": "bb4a310afe620af8f922e5e51f0c74e1f3b0d13d744cbf8506cc900a59f7512a"
+  },
+  {
+    "id": "f5v_w0041",
+    "folio": "f5v",
+    "reference": "chotaiin",
+    "encoded_text": "\ue104otaiin",
+    "path": "/home/runner/work/Voynich/Voynich/work/eva_units/reset_groups/training_images/f5v_w0041.png",
+    "image_sha256": "2733ac8ac5533b1bf17b7f0c6f06fba24545a3e1a24b941ec4a5dca002ca4116",
+    "label_sha256": "d3f12dc8f11b84dbf47cb26b413fa07507944a3efe0c084a64239bcebabfaed6"
+  },
+  {
+    "id": "f5v_w0042",
+    "folio": "f5v",
+    "reference": "otol",
+    "encoded_text": "otol",
+    "path": "/home/runner/work/Voynich/Voynich/work/eva_units/reset_groups/training_images/f5v_w0042.png",
+    "image_sha256": "c38fd57680777fa60130d4f8a016581416aaf9664dfb4f93bf1d093e6511a130",
+    "label_sha256": "fd31e54ce733c6b94fcf2e0a884958423ccac5f202f36a9943c23eb02167d950"
+  },
+  {
+    "id": "f5v_w0043",
+    "folio": "f5v",
+    "reference": "chol",
+    "encoded_text": "\ue104ol",
+    "path": "/home/runner/work/Voynich/Voynich/work/eva_units/reset_groups/training_images/f5v_w0043.png",
+    "image_sha256": "62a400f189cb7da0ebbe3fd7f5adfaca7c8d1323cfd0feb27b207afd4e5a6d7b",
+    "label_sha256": "bb4a310afe620af8f922e5e51f0c74e1f3b0d13d744cbf8506cc900a59f7512a"
+  },
+  {
+    "id": "f5v_w0044",
+    "folio": "f5v",
+    "reference": "dairodg",
+    "encoded_text": "dairodg",
+    "path": "/home/runner/work/Voynich/Voynich/work/eva_units/reset_groups/training_images/f5v_w0044.png",
+    "image_sha256": "30d9d13ae6abe3fa7ca5a9f5bbeec88f719143e9e3ff445de6cb28e1e94004f0",
+    "label_sha256": "abc8204717b5c6612f29b701a00157072b48ed0e044c3087608bec7b2e53d51d"
+  },
+  {
+    "id": "f6r_w0000",
+    "folio": "f6r",
+    "reference": "foar",
+    "encoded_text": "foar",
+    "path": "/home/runner/work/Voynich/Voynich/work/eva_units/reset_groups/training_images/f6r_w0000.png",
+    "image_sha256": "b2c2f9653916c0c69aa2eddb45f3309ae11b67cbff6c9557d5cf0d9982ea84b1",
+    "label_sha256": "8552a50dca4301e707a564978b4eb47fd53fce6473e78532d7d359ff750b4ece"
+  },
+  {
+    "id": "f6r_w0001",
+    "folio": "f6r",
+    "reference": "y",
+    "encoded_text": "y",
+    "path": "/home/runner/work/Voynich/Voynich/work/eva_units/reset_groups/training_images/f6r_w0001.png",
+    "image_sha256": "4a18682e8f854f826af07d591af00a9a4a57625c9b654a8044fd4659facedfb1",
+    "label_sha256": "a1fce4363854ff888cff4b8e7875d600c2682390412a8cf79b37d0b11148b0fa"
+  },
+  {
+    "id": "f6r_w0002",
+    "folio": "f6r",
+    "reference": "shol",
+    "encoded_text": "\ue105ol",
+    "path": "/home/runner/work/Voynich/Voynich/work/eva_units/reset_groups/training_images/f6r_w0002.png",
+    "image_sha256": "b96d94493f08da45c87a61e814ff27e949f91774df736c75f4324fb86007851e",
+    "label_sha256": "6bbdad059f382002813907027f4bed1fcbce8ee2d1614b16c0be71849d770933"
+  },
+  {
+    "id": "f6r_w0003",
+    "folio": "f6r",
+    "reference": "cholor",
+    "encoded_text": "\ue104olor",
+    "path": "/home/runner/work/Voynich/Voynich/work/eva_units/reset_groups/training_images/f6r_w0003.png",
+    "image_sha256": "257bb4b9fff08389fc46d6593d051e06b6ccc66c6daa8a572aacc244fd4e04cc",
+    "label_sha256": "0e163c20aa39758a064ea51e5ef5ae7f058a602db96019d941dc77fedb330fdb"
+  },
+  {
+    "id": "f6r_w0004",
+    "folio": "f6r",
+    "reference": "cphol",
+    "encoded_text": "\ue102ol",
+    "path": "/home/runner/work/Voynich/Voynich/work/eva_units/reset_groups/training_images/f6r_w0004.png",
+    "image_sha256": "e055efdaf769a9c3c0c511fe209f225bf28bf2f185e271efdfab876fd3c83d64",
+    "label_sha256": "1b0eb649e21de283cd0258e97113067275e3ea7189e88d9690e2ada21443fd04"
+  },
+  {
+    "id": "f6r_w0005",
+    "folio": "f6r",
+    "reference": "chor",
+    "encoded_text": "\ue104or",
+    "path": "/home/runner/work/Voynich/Voynich/work/eva_units/reset_groups/training_images/f6r_w0005.png",
+    "image_sha256": "0b01dcd33acbf4db3eeddda58dfa4c57157b42ce33d7deceb3ec0b110e1f2a9f",
+    "label_sha256": "bcbb30b42483a69d6ff854846b6181f6537ca64e812ab49afc145a63eb09743e"
+  },
+  {
+    "id": "f6r_w0006",
+    "folio": "f6r",
+    "reference": "chckh",
+    "encoded_text": "\ue104\ue101",
+    "path": "/home/runner/work/Voynich/Voynich/work/eva_units/reset_groups/training_images/f6r_w0006.png",
+    "image_sha256": "b9463499ae42101caf5a85becab92cc51375584c52d9f5947fee5847a7ae2a6b",
+    "label_sha256": "096299b1a31261689c3231fb25fe7176ebf0e226625f4f41ebb237d1a852f443"
+  },
+  {
+    "id": "f6r_w0007",
+    "folio": "f6r",
+    "reference": "chopchol",
+    "encoded_text": "\ue104op\ue104ol",
+    "path": "/home/runner/work/Voynich/Voynich/work/eva_units/reset_groups/training_images/f6r_w0007.png",
+    "image_sha256": "a84f082b36d9d240eee7073a6b0d573ad71091ea45c4188fc7e85a10b4cb2b47",
+    "label_sha256": "cbaab6cf4c7a6c81039c0c9e4af2c44512c99a615be6f8dee8eb91510d97446d"
+  },
+  {
+    "id": "f6r_w0008",
+    "folio": "f6r",
+    "reference": "otcham",
+    "encoded_text": "ot\ue104am",
+    "path": "/home/runner/work/Voynich/Voynich/work/eva_units/reset_groups/training_images/f6r_w0008.png",
+    "image_sha256": "1fa7390e742b09f9037655138214715a98aa5af35d5dad055a51f799e1224784",
+    "label_sha256": "79241b899a9ec9f9868fa40ae382ca52b20c598656e5af2266a36ede8a7ce5bc"
+  },
+  {
+    "id": "f6r_w0009",
+    "folio": "f6r",
+    "reference": "daiin",
+    "encoded_text": "daiin",
+    "path": "/home/runner/work/Voynich/Voynich/work/eva_units/reset_groups/training_images/f6r_w0009.png",
+    "image_sha256": "7fd534ec169f5dcd51b2a3cc873cde526025e12bff5eeb23c1b2f64cec91cf6b",
+    "label_sha256": "acdd663103aaa9716f1210878c0c7ba9668300c500adcd194e167724d12f4ffc"
+  },
+  {
+    "id": "f6r_w0010",
+    "folio": "f6r",
+    "reference": "chckhy",
+    "encoded_text": "\ue104\ue101y",
+    "path": "/home/runner/work/Voynich/Voynich/work/eva_units/reset_groups/training_images/f6r_w0010.png",
+    "image_sha256": "963666a94bb7acc55a960b7c878ae0e54428530cee4050944b5bb9dacab0cd66",
+    "label_sha256": "35ac7ff404a2a06280f8482c730e18143b1b38668b018827c593703af0c4a884"
+  },
+  {
+    "id": "f6r_w0011",
+    "folio": "f6r",
+    "reference": "chor",
+    "encoded_text": "\ue104or",
+    "path": "/home/runner/work/Voynich/Voynich/work/eva_units/reset_groups/training_images/f6r_w0011.png",
+    "image_sha256": "e17a2bb025806b2d3a2a2e9e76131a2f470351d6097ef534db8e3c1647582a01",
+    "label_sha256": "bcbb30b42483a69d6ff854846b6181f6537ca64e812ab49afc145a63eb09743e"
+  },
+  {
+    "id": "f6r_w0012",
+    "folio": "f6r",
+    "reference": "chor",
+    "encoded_text": "\ue104or",
+    "path": "/home/runner/work/Voynich/Voynich/work/eva_units/reset_groups/training_images/f6r_w0012.png",
+    "image_sha256": "6b1b88002d8ddd6a1c350df4fb8d1681d6555d3fedf3117f093ee6bdcd7b14ae",
+    "label_sha256": "bcbb30b42483a69d6ff854846b6181f6537ca64e812ab49afc145a63eb09743e"
+  },
+  {
+    "id": "f6r_w0013",
+    "folio": "f6r",
+    "reference": "kar",
+    "encoded_text": "kar",
+    "path": "/home/runner/work/Voynich/Voynich/work/eva_units/reset_groups/training_images/f6r_w0013.png",
+    "image_sha256": "c96943bf76dd09a760e6d901a6fb30820346425d6dadfb032c7b0cf875a663cb",
+    "label_sha256": "f429d420086f70a3b72b10bff0446d87dea2a385ad9ea49a135e547414d91cc2"
+  },
+  {
+    "id": "f6r_w0014",
+    "folio": "f6r",
+    "reference": "cthy",
+    "encoded_text": "\ue103y",
+    "path": "/home/runner/work/Voynich/Voynich/work/eva_units/reset_groups/training_images/f6r_w0014.png",
+    "image_sha256": "9305c4354cf9ac66fe66195c8e0ca653eea8db064240738b64a55c7f2b79910a",
+    "label_sha256": "4aca2fea6c469c3c2c58a624ae22e682db19fb5136364f0fe6e359654ad65520"
+  },
+  {
+    "id": "f6r_w0015",
+    "folio": "f6r",
+    "reference": "cthor",
+    "encoded_text": "\ue103or",
+    "path": "/home/runner/work/Voynich/Voynich/work/eva_units/reset_groups/training_images/f6r_w0015.png",
+    "image_sha256": "3723995f2ec1776b5edbd94651ed780d523ebeadb84de68e23af7438f48c56d5",
+    "label_sha256": "d3bebea300185a52ff03c2363ac126f8d0ce66b77179d54273f49c92b8d8ffe9"
+  },
+  {
+    "id": "f6r_w0016",
+    "folio": "f6r",
+    "reference": "chotols",
+    "encoded_text": "\ue104otols",
+    "path": "/home/runner/work/Voynich/Voynich/work/eva_units/reset_groups/training_images/f6r_w0016.png",
+    "image_sha256": "47acdeb20e765cef403fb6bdca7abb2997681f5d9b5f17f72999b3b54da7d9e6",
+    "label_sha256": "53a9028971d14ac1fb58c8c436a52e37380af2834b77cc2aaa603241c4cfe811"
+  },
+  {
+    "id": "f6r_w0017",
+    "folio": "f6r",
+    "reference": "poeear",
+    "encoded_text": "poeear",
+    "path": "/home/runner/work/Voynich/Voynich/work/eva_units/reset_groups/training_images/f6r_w0017.png",
+    "image_sha256": "01494751e00c6e6adfb94699d024b01ea125ab508397dce8f5f4060508113402",
+    "label_sha256": "3abc558f8fa417f53bb639a4e303b264f5ba47eeb43cc538619a06a9374a13a2"
+  },
+  {
+    "id": "f6r_w0018",
+    "folio": "f6r",
+    "reference": "kshor",
+    "encoded_text": "k\ue105or",
+    "path": "/home/runner/work/Voynich/Voynich/work/eva_units/reset_groups/training_images/f6r_w0018.png",
+    "image_sha256": "707359afc496728cbf7a25071429bdc09e29b7fd532d82bb22a48663c8534b72",
+    "label_sha256": "bc91a86a82b973708c4f50a804e009a614306cb861355936ed26e74296e4974e"
+  },
+  {
+    "id": "f6r_w0019",
+    "folio": "f6r",
+    "reference": "choky",
+    "encoded_text": "\ue104oky",
+    "path": "/home/runner/work/Voynich/Voynich/work/eva_units/reset_groups/training_images/f6r_w0019.png",
+    "image_sha256": "4a67b918bcec9ee519d040330f6ac200d39ec8a5ad3f3dcdb9d7a5e5368fd226",
+    "label_sha256": "a29f2fae3141fd314086eab312257451a00c67eab69ccf09a38c8e124407c26a"
+  },
+  {
+    "id": "f6r_w0020",
+    "folio": "f6r",
+    "reference": "os",
+    "encoded_text": "os",
+    "path": "/home/runner/work/Voynich/Voynich/work/eva_units/reset_groups/training_images/f6r_w0020.png",
+    "image_sha256": "7a2fb8b2d60a0896998c07296258dec234d3adff7d9b5d884e6fc0c240fb5ab9",
+    "label_sha256": "840a8dcfeae95966a870b0b5257997ce94cbc19dd979409d1671d2e93a9e0de6"
+  },
+  {
+    "id": "f6r_w0021",
+    "folio": "f6r",
+    "reference": "cheoees",
+    "encoded_text": "\ue104eoees",
+    "path": "/home/runner/work/Voynich/Voynich/work/eva_units/reset_groups/training_images/f6r_w0021.png",
+    "image_sha256": "2b850cea2a1d48dc0e6ebb4cd60fe76047e708aba11ff7fbd9fa8270da017e98",
+    "label_sha256": "91a711a15ece69b7fe285176e46a92e9adc6799e591bc9e39476dfee10a5b5e4"
+  },
+  {
+    "id": "f6r_w0022",
+    "folio": "f6r",
+    "reference": "ykeor",
+    "encoded_text": "ykeor",
+    "path": "/home/runner/work/Voynich/Voynich/work/eva_units/reset_groups/training_images/f6r_w0022.png",
+    "image_sha256": "e97a1fb8f212e2bfb0d7855d4b3cdaa4025292681fae1d39158e364c09879cec",
+    "label_sha256": "385f37e8d949e509af513b72785c9de734bd36689c87c56d675fe81e356c6eb6"
+  },
+  {
+    "id": "f6r_w0023",
+    "folio": "f6r",
+    "reference": "ytaiin",
+    "encoded_text": "ytaiin",
+    "path": "/home/runner/work/Voynich/Voynich/work/eva_units/reset_groups/training_images/f6r_w0023.png",
+    "image_sha256": "ca34eb8fab8902f2ad2944823cab151050496a29dc4ab793da67030d4d70b864",
+    "label_sha256": "2d351300b54b52aa15c45f5620270ac60a6fb3e561f0a137bbc6f02b641dfc7b"
+  },
+  {
+    "id": "f6r_w0024",
+    "folio": "f6r",
+    "reference": "dar",
+    "encoded_text": "dar",
+    "path": "/home/runner/work/Voynich/Voynich/work/eva_units/reset_groups/training_images/f6r_w0024.png",
+    "image_sha256": "9fd9c518bdb24251c66e355f056f7419492f1b4ce459f2e7d26179d891ffdfd8",
+    "label_sha256": "5d9c970dcd517291d13e5010a4d44864daeaa5efdb17919615d3d1a5036ed9e5"
+  },
+  {
+    "id": "f6r_w0025",
+    "folio": "f6r",
+    "reference": "dar",
+    "encoded_text": "dar",
+    "path": "/home/runner/work/Voynich/Voynich/work/eva_units/reset_groups/training_images/f6r_w0025.png",
+    "image_sha256": "13f369a9e4cc4c67dda4fbd1388a8c7f8860187e9fa42cb14e29fadfd6ccc6a7",
+    "label_sha256": "5d9c970dcd517291d13e5010a4d44864daeaa5efdb17919615d3d1a5036ed9e5"
+  },
+  {
+    "id": "f6r_w0026",
+    "folio": "f6r",
+    "reference": "cho",
+    "encoded_text": "\ue104o",
+    "path": "/home/runner/work/Voynich/Voynich/work/eva_units/reset_groups/training_images/f6r_w0026.png",
+    "image_sha256": "124a3f8d3d5d6f32cd1d6766553503658ea47916af721ad990b68319e4450a0b",
+    "label_sha256": "bcfc80999aca5b98f80bdd7e909a3fb29a3e9013ce68fdbc2c0f388a998dbd55"
+  },
+  {
+    "id": "f6r_w0027",
+    "folio": "f6r",
+    "reference": "s",
+    "encoded_text": "s",
+    "path": "/home/runner/work/Voynich/Voynich/work/eva_units/reset_groups/training_images/f6r_w0027.png",
+    "image_sha256": "c5062171f167e85fe4f13170a2cc94e9a6a403cb14f81748df3d7d4f562829b4",
+    "label_sha256": "043a718774c572bd8a25adbeb1bfcd5c0256ae11cecf9f9c3f925d0e52beaf89"
+  },
+  {
+    "id": "f6r_w0028",
+    "folio": "f6r",
+    "reference": "sheor",
+    "encoded_text": "\ue105eor",
+    "path": "/home/runner/work/Voynich/Voynich/work/eva_units/reset_groups/training_images/f6r_w0028.png",
+    "image_sha256": "b9614080182497d95f118dbcf5955b76a15a289b7f82013d2b0523f6a4d7cf2a",
+    "label_sha256": "b93c1c64d87f4bc651131dd120324e81a8323c2c5c1098adbb4626252b48f0f3"
+  },
+  {
+    "id": "f6r_w0029",
+    "folio": "f6r",
+    "reference": "chocthy",
+    "encoded_text": "\ue104o\ue103y",
+    "path": "/home/runner/work/Voynich/Voynich/work/eva_units/reset_groups/training_images/f6r_w0029.png",
+    "image_sha256": "81af813890c667beb0c7ecc0d897d207d3e56f56ae08d6115de37348fbb09e6f",
+    "label_sha256": "1d03b2816c1b8b04497ba6efc9f0a1fa4bdd82ab0a02509feb6ca65cd72c940e"
+  },
+  {
+    "id": "f6r_w0030",
+    "folio": "f6r",
+    "reference": "otcham",
+    "encoded_text": "ot\ue104am",
+    "path": "/home/runner/work/Voynich/Voynich/work/eva_units/reset_groups/training_images/f6r_w0030.png",
+    "image_sha256": "9916e1712ee61ff0866c3e9866d799a1a2d0c4739894b829f98a30340421dee0",
+    "label_sha256": "79241b899a9ec9f9868fa40ae382ca52b20c598656e5af2266a36ede8a7ce5bc"
+  },
+  {
+    "id": "f6r_w0031",
+    "folio": "f6r",
+    "reference": "yaiir",
+    "encoded_text": "yaiir",
+    "path": "/home/runner/work/Voynich/Voynich/work/eva_units/reset_groups/training_images/f6r_w0031.png",
+    "image_sha256": "df029181d4f818cc4066a36c0f2ad355085517c6269c7d6568eb532571b444ac",
+    "label_sha256": "26e59908e8a9020e14e65100982f8c0d6b562d8b4a1580f05b7fea079a892399"
+  },
+  {
+    "id": "f6r_w0032",
+    "folio": "f6r",
+    "reference": "chy",
+    "encoded_text": "\ue104y",
+    "path": "/home/runner/work/Voynich/Voynich/work/eva_units/reset_groups/training_images/f6r_w0032.png",
+    "image_sha256": "d28a750609ffd818c2e203a965aabc94f98c0c43002332f55feeecd739aa98e9",
+    "label_sha256": "083611174b9a32c47ea72a10bfec2ccf9f3b1aff238c4bd2bc5bf1b2f1e67630"
+  },
+  {
+    "id": "f6r_w0033",
+    "folio": "f6r",
+    "reference": "tar",
+    "encoded_text": "tar",
+    "path": "/home/runner/work/Voynich/Voynich/work/eva_units/reset_groups/training_images/f6r_w0033.png",
+    "image_sha256": "bbf0faabea140869647eeebb1a0473f60ef7b9031d332e802a7aec77b302a4b7",
+    "label_sha256": "90aebae315675cbf04612de4f7d5874850f48e0b8dd82becbeaa47ca93f5ebfb"
+  },
+  {
+    "id": "f6r_w0034",
+    "folio": "f6r",
+    "reference": "okoiin",
+    "encoded_text": "okoiin",
+    "path": "/home/runner/work/Voynich/Voynich/work/eva_units/reset_groups/training_images/f6r_w0034.png",
+    "image_sha256": "bb100f43a2baf91606089a4a3dce3ad9d67b01d954eaaa19ba04fa9004079e88",
+    "label_sha256": "50c2426db2bb5e66a935cb84c47fc0fdd5641869e1ea8d418f33459e298d2e46"
+  },
+  {
+    "id": "f6r_w0035",
+    "folio": "f6r",
+    "reference": "shees",
+    "encoded_text": "\ue105ees",
+    "path": "/home/runner/work/Voynich/Voynich/work/eva_units/reset_groups/training_images/f6r_w0035.png",
+    "image_sha256": "6ece71f6dc25489c6260f1505ac310e47eeedf6dc496d394ae337dd4a7e1c633",
+    "label_sha256": "135e9a9d23c7f21dbd5fb245356ea50a32b2dca6dbf8ff7beef825ca16e2a68f"
+  },
+  {
+    "id": "f6r_w0036",
+    "folio": "f6r",
+    "reference": "ytaly",
+    "encoded_text": "ytaly",
+    "path": "/home/runner/work/Voynich/Voynich/work/eva_units/reset_groups/training_images/f6r_w0036.png",
+    "image_sha256": "58d2597725aa8263dc5cfe25f57b6a60ed3c0788c725ea86e08fded3f16c8059",
+    "label_sha256": "3005baeddba8f68e7cef839e45e243f4be52002fd7cfabe7f03d52163509d19e"
+  },
+  {
+    "id": "f6r_w0037",
+    "folio": "f6r",
+    "reference": "cthaiin",
+    "encoded_text": "\ue103aiin",
+    "path": "/home/runner/work/Voynich/Voynich/work/eva_units/reset_groups/training_images/f6r_w0037.png",
+    "image_sha256": "b5039756a9ca2e032e0d72fdd22b487d1f2bb2000808fe37acb2cfe470a3ece0",
+    "label_sha256": "e889ee8ddd4ba4c2fdf7f40978078d3104981dcfdce75898f90022e07661c4a7"
+  },
+  {
+    "id": "f6r_w0038",
+    "folio": "f6r",
+    "reference": "odam",
+    "encoded_text": "odam",
+    "path": "/home/runner/work/Voynich/Voynich/work/eva_units/reset_groups/training_images/f6r_w0038.png",
+    "image_sha256": "822e3f4cdefc06deff2f75ce9bf3fb18be4d2582869da7c68de5b2eca2e15076",
+    "label_sha256": "27aafadea1fdfd07b9796a39bc442ed30b6e96a1a60a3547a2f4021580839dd6"
+  },
+  {
+    "id": "f6r_w0039",
+    "folio": "f6r",
+    "reference": "or",
+    "encoded_text": "or",
+    "path": "/home/runner/work/Voynich/Voynich/work/eva_units/reset_groups/training_images/f6r_w0039.png",
+    "image_sha256": "63fb94b72977334d8819e3a0cb86360355698425caba9759609b66023c9f33d1",
+    "label_sha256": "7175517a370b5cd2e664e3fd29c4ea9db5ce17058eb9772fe090a5485e49dad6"
+  },
+  {
+    "id": "f6r_w0040",
+    "folio": "f6r",
+    "reference": "al",
+    "encoded_text": "al",
+    "path": "/home/runner/work/Voynich/Voynich/work/eva_units/reset_groups/training_images/f6r_w0040.png",
+    "image_sha256": "69633dadf04b1463ff625b5250a2f903f0fd638735f2a357fd779c536cba4e83",
+    "label_sha256": "6351825030155836664876686dcff61b6a91254a0458537072a1b26ad151b5ce"
+  },
+  {
+    "id": "f6r_w0041",
+    "folio": "f6r",
+    "reference": "daiin",
+    "encoded_text": "daiin",
+    "path": "/home/runner/work/Voynich/Voynich/work/eva_units/reset_groups/training_images/f6r_w0041.png",
+    "image_sha256": "604960aa210b28fa10de5e3bdca96709eb989c4a57688458b2652c11c8bf37ba",
+    "label_sha256": "acdd663103aaa9716f1210878c0c7ba9668300c500adcd194e167724d12f4ffc"
+  },
+  {
+    "id": "f6r_w0042",
+    "folio": "f6r",
+    "reference": "ckham",
+    "encoded_text": "\ue101am",
+    "path": "/home/runner/work/Voynich/Voynich/work/eva_units/reset_groups/training_images/f6r_w0042.png",
+    "image_sha256": "ed6660ed33dc749e4e5e35d7e970d82b5e17b567a2007955b30e0532a006dd0a",
+    "label_sha256": "3089a9dd6e871a5a4fe1c33eda318d7eeed14c8b5946f18d8466178d7d3b6781"
+  },
+  {
+    "id": "f6r_w0043",
+    "folio": "f6r",
+    "reference": "okom",
+    "encoded_text": "okom",
+    "path": "/home/runner/work/Voynich/Voynich/work/eva_units/reset_groups/training_images/f6r_w0043.png",
+    "image_sha256": "4f62a03f1ec250fc384bdcc659f70d2eb688cb89e7f31e91266dac8d1cfa1b15",
+    "label_sha256": "02a0775af56099b3190fbb9cd6d70db1a7ca19e544aa766dc3b2d0b158a03ad7"
+  },
+  {
+    "id": "f6r_w0044",
+    "folio": "f6r",
+    "reference": "cthaiin",
+    "encoded_text": "\ue103aiin",
+    "path": "/home/runner/work/Voynich/Voynich/work/eva_units/reset_groups/training_images/f6r_w0044.png",
+    "image_sha256": "8e2f5e130ca1342701f9ea6dea4f701c1614b7dab2e4c44424135330fe608782",
+    "label_sha256": "e889ee8ddd4ba4c2fdf7f40978078d3104981dcfdce75898f90022e07661c4a7"
+  },
+  {
+    "id": "f6r_w0045",
+    "folio": "f6r",
+    "reference": "ydaiin",
+    "encoded_text": "ydaiin",
+    "path": "/home/runner/work/Voynich/Voynich/work/eva_units/reset_groups/training_images/f6r_w0045.png",
+    "image_sha256": "5ea1d1e43d52a1b319c7b678a30a04bf5e5f1fc7b25d0f9c2ea7d64d2b975d4a",
+    "label_sha256": "42b82a71d325799e1ccf33d717fef71ec50459b7971ca6d77d5e6f4df9729f53"
+  },
+  {
+    "id": "f6r_w0046",
+    "folio": "f6r",
+    "reference": "daiin",
+    "encoded_text": "daiin",
+    "path": "/home/runner/work/Voynich/Voynich/work/eva_units/reset_groups/training_images/f6r_w0046.png",
+    "image_sha256": "b2c6261ab15e51131568f300f78b5c9206536e0539212c93f69269df5262b033",
+    "label_sha256": "acdd663103aaa9716f1210878c0c7ba9668300c500adcd194e167724d12f4ffc"
+  },
+  {
+    "id": "f6r_w0047",
+    "folio": "f6r",
+    "reference": "qodaiin",
+    "encoded_text": "qodaiin",
+    "path": "/home/runner/work/Voynich/Voynich/work/eva_units/reset_groups/training_images/f6r_w0047.png",
+    "image_sha256": "17afbe21001f72ec8345322da57d6f0f299e8084be97718a954949fbaedb91e9",
+    "label_sha256": "ccf3b8f47e3aceb6fbf02acbb0e0264ab246ed9af0028546bce81d6dd2d4ec2d"
+  },
+  {
+    "id": "f6r_w0048",
+    "folio": "f6r",
+    "reference": "cho",
+    "encoded_text": "\ue104o",
+    "path": "/home/runner/work/Voynich/Voynich/work/eva_units/reset_groups/training_images/f6r_w0048.png",
+    "image_sha256": "334452a0a354b134174cb9075edffc8ea9c25f8f7d968f03839f4f15f988e430",
+    "label_sha256": "bcfc80999aca5b98f80bdd7e909a3fb29a3e9013ce68fdbc2c0f388a998dbd55"
+  },
+  {
+    "id": "f6r_w0049",
+    "folio": "f6r",
+    "reference": "s",
+    "encoded_text": "s",
+    "path": "/home/runner/work/Voynich/Voynich/work/eva_units/reset_groups/training_images/f6r_w0049.png",
+    "image_sha256": "43c86bbaf48e7cadca93c391790a2f108afcf41688b1ad88ebc0e7efbc0945c7",
+    "label_sha256": "043a718774c572bd8a25adbeb1bfcd5c0256ae11cecf9f9c3f925d0e52beaf89"
+  },
+  {
+    "id": "f6r_w0050",
+    "folio": "f6r",
+    "reference": "chol",
+    "encoded_text": "\ue104ol",
+    "path": "/home/runner/work/Voynich/Voynich/work/eva_units/reset_groups/training_images/f6r_w0050.png",
+    "image_sha256": "4fbb6a37f4b08ebad17115ab59d0160e59ee3f563382cabf9c23a5f94eb7fc95",
+    "label_sha256": "bb4a310afe620af8f922e5e51f0c74e1f3b0d13d744cbf8506cc900a59f7512a"
+  },
+  {
+    "id": "f6r_w0051",
+    "folio": "f6r",
+    "reference": "okaiin",
+    "encoded_text": "okaiin",
+    "path": "/home/runner/work/Voynich/Voynich/work/eva_units/reset_groups/training_images/f6r_w0051.png",
+    "image_sha256": "7cf8ce7d78ef522f63ddaa7e4f3f8e4bc7990a69ad0d82473cb7f3fa85fe2369",
+    "label_sha256": "d21af556ec4da9bfafe61b1ef1a18af035f870ff788db9f105e2ca540131917c"
+  },
+  {
+    "id": "f6r_w0052",
+    "folio": "f6r",
+    "reference": "s",
+    "encoded_text": "s",
+    "path": "/home/runner/work/Voynich/Voynich/work/eva_units/reset_groups/training_images/f6r_w0052.png",
+    "image_sha256": "83fa2a6a1dc9eb721576dd580275ca7f4435356fa56857524176542d2b976a15",
+    "label_sha256": "043a718774c572bd8a25adbeb1bfcd5c0256ae11cecf9f9c3f925d0e52beaf89"
+  },
+  {
+    "id": "f6r_w0053",
+    "folio": "f6r",
+    "reference": "ychol",
+    "encoded_text": "y\ue104ol",
+    "path": "/home/runner/work/Voynich/Voynich/work/eva_units/reset_groups/training_images/f6r_w0053.png",
+    "image_sha256": "06fc67f6fdb0a77bac0be4bd1f354f9333d1e1a09270766fd502e2bf4f02669f",
+    "label_sha256": "4b1be77abb89729e0dc17c5981ad89c29593520486435e207b41509e3f00ddea"
+  },
+  {
+    "id": "f6r_w0054",
+    "folio": "f6r",
+    "reference": "ckhor",
+    "encoded_text": "\ue101or",
+    "path": "/home/runner/work/Voynich/Voynich/work/eva_units/reset_groups/training_images/f6r_w0054.png",
+    "image_sha256": "92730f28567b5fb374a2cf8a5048dca94b80da9ace667a5f422d4c4813d0366c",
+    "label_sha256": "134f063825a93e7ce41f587787a568c937fa4c2a3a1ab1795c5f0fcd2aefc937"
+  },
+  {
+    "id": "f6r_w0055",
+    "folio": "f6r",
+    "reference": "pchar",
+    "encoded_text": "p\ue104ar",
+    "path": "/home/runner/work/Voynich/Voynich/work/eva_units/reset_groups/training_images/f6r_w0055.png",
+    "image_sha256": "f2edb27ce09345b3f75d9a6928932927368af03b1b2202766ac88a9aa77ed72e",
+    "label_sha256": "b4b23cd0ce159e56d0388cb76a00fff18c74f23684adcb9ba3a1663fb79bea1b"
+  },
+  {
+    "id": "f6r_w0056",
+    "folio": "f6r",
+    "reference": "sheo",
+    "encoded_text": "\ue105eo",
+    "path": "/home/runner/work/Voynich/Voynich/work/eva_units/reset_groups/training_images/f6r_w0056.png",
+    "image_sha256": "3fb20f19aadb6143bf7025c6697f9e0fc007e44ed338dd743cf275c59f1b5bb2",
+    "label_sha256": "ad22d52452df7d2318a196d28b128e5ae018ebfcb28a7eda5b2516ec58d15fa3"
+  },
+  {
+    "id": "f6r_w0057",
+    "folio": "f6r",
+    "reference": "ckhaiin",
+    "encoded_text": "\ue101aiin",
+    "path": "/home/runner/work/Voynich/Voynich/work/eva_units/reset_groups/training_images/f6r_w0057.png",
+    "image_sha256": "ccdc11aac96878b01b061a9efc5a7d41fc2d95db2938dd1c2ce667c61af8eb8e",
+    "label_sha256": "381bdbe8f9dfec876d4c3d26c1840e148570694a18ee2bd09ded4dfa4250d96d"
+  },
+  {
+    "id": "f6r_w0058",
+    "folio": "f6r",
+    "reference": "dar",
+    "encoded_text": "dar",
+    "path": "/home/runner/work/Voynich/Voynich/work/eva_units/reset_groups/training_images/f6r_w0058.png",
+    "image_sha256": "b6b359ff06da9469081765578177f6fe693f1da0fed1b2282ee04567f22e657a",
+    "label_sha256": "5d9c970dcd517291d13e5010a4d44864daeaa5efdb17919615d3d1a5036ed9e5"
+  },
+  {
+    "id": "f6r_w0059",
+    "folio": "f6r",
+    "reference": "sheeol",
+    "encoded_text": "\ue105eeol",
+    "path": "/home/runner/work/Voynich/Voynich/work/eva_units/reset_groups/training_images/f6r_w0059.png",
+    "image_sha256": "6c6316c40fb6a05bc1da68bcd3f3667906ddb3aea99b7838d1e04b2d4cc6036e",
+    "label_sha256": "02eb5de3efc4e15800b7b4ed226bdd46606e08cd1ee92086b2cbccb1517038fe"
+  },
+  {
+    "id": "f6r_w0060",
+    "folio": "f6r",
+    "reference": "skaiiodar",
+    "encoded_text": "skaiiodar",
+    "path": "/home/runner/work/Voynich/Voynich/work/eva_units/reset_groups/training_images/f6r_w0060.png",
+    "image_sha256": "9dc2f596f4f2b4cbe07351902927441990ad2398a7ac573c93023ab80470455f",
+    "label_sha256": "1a3e444923dc4aebb9770bf80114ce2e7258e9ceaad577f32629d8227d09a179"
+  },
+  {
+    "id": "f6r_w0061",
+    "folio": "f6r",
+    "reference": "otaiin",
+    "encoded_text": "otaiin",
+    "path": "/home/runner/work/Voynich/Voynich/work/eva_units/reset_groups/training_images/f6r_w0061.png",
+    "image_sha256": "70fcf8aac0ccbbad534e2753d831c272609ba15d41c8f7448c7a65f811c61cfc",
+    "label_sha256": "f858814c2e3c4ec31576d2206d07a1ead2fd9ac2a179341ec9edf30a7e0d7943"
+  },
+  {
+    "id": "f6r_w0062",
+    "folio": "f6r",
+    "reference": "chory",
+    "encoded_text": "\ue104ory",
+    "path": "/home/runner/work/Voynich/Voynich/work/eva_units/reset_groups/training_images/f6r_w0062.png",
+    "image_sha256": "e8e29c0c7da45278a2bf8cc4b63859e38c76dec29ad4605573eaec6483736336",
+    "label_sha256": "7fb2d09bdb34aecd9ffe81930e1f4201c9136b2135e389fd5287ceea1c27e1f9"
+  },
+  {
+    "id": "f6r_w0063",
+    "folio": "f6r",
+    "reference": "tchor",
+    "encoded_text": "t\ue104or",
+    "path": "/home/runner/work/Voynich/Voynich/work/eva_units/reset_groups/training_images/f6r_w0063.png",
+    "image_sha256": "3490c9b79c357d60bfe995920b982975d6b58973d9b3c3dbb962a75492bf3e23",
+    "label_sha256": "9548541729519fda03b22ee3ee56eb7d2e467e3c488fc93e0758af3297d3dfef"
+  },
+  {
+    "id": "f6r_w0064",
+    "folio": "f6r",
+    "reference": "ctheod",
+    "encoded_text": "\ue103eod",
+    "path": "/home/runner/work/Voynich/Voynich/work/eva_units/reset_groups/training_images/f6r_w0064.png",
+    "image_sha256": "2888ab0cb107b6ac7f1798c0c4b541019ee824ba054984e0f0c4568b1681bff6",
+    "label_sha256": "24b47d4a45b7bcc2cfed99c1321ecf34607ed40e638de5ca995142668afb3c26"
+  },
+  {
+    "id": "f6r_w0065",
+    "folio": "f6r",
+    "reference": "chy",
+    "encoded_text": "\ue104y",
+    "path": "/home/runner/work/Voynich/Voynich/work/eva_units/reset_groups/training_images/f6r_w0065.png",
+    "image_sha256": "cd815c648ee83eb3826b37e05c05638e3204b562ea9ef4f74923aa54671a8005",
+    "label_sha256": "083611174b9a32c47ea72a10bfec2ccf9f3b1aff238c4bd2bc5bf1b2f1e67630"
+  },
+  {
+    "id": "f6r_w0066",
+    "folio": "f6r",
+    "reference": "shor",
+    "encoded_text": "\ue105or",
+    "path": "/home/runner/work/Voynich/Voynich/work/eva_units/reset_groups/training_images/f6r_w0066.png",
+    "image_sha256": "878491f5dd9fc2413e1e7e1c1f8671679b52394ad5c8e166bc7e48aad367a51a",
+    "label_sha256": "3bb49919b8e16c2373a48c776963a3cfeb816c7c7a23604b032671fb575a59bf"
+  },
+  {
+    "id": "f6r_w0067",
+    "folio": "f6r",
+    "reference": "odshe",
+    "encoded_text": "od\ue105e",
+    "path": "/home/runner/work/Voynich/Voynich/work/eva_units/reset_groups/training_images/f6r_w0067.png",
+    "image_sha256": "780a820d6a0867e475e6a36ec1312d1a6d4fd063f163fff372d56ffeffad9cab",
+    "label_sha256": "8fd02a276960c757ecc4d61f3cfeb7fd007ec0f57a22020d2ade37ccc828933d"
+  },
+  {
+    "id": "f6r_w0068",
+    "folio": "f6r",
+    "reference": "od",
+    "encoded_text": "od",
+    "path": "/home/runner/work/Voynich/Voynich/work/eva_units/reset_groups/training_images/f6r_w0068.png",
+    "image_sha256": "828c4d0fc87818f39a41cb6ce9f8221bf06f3a2dffa8c03f0c48a9246cf1f904",
+    "label_sha256": "32f30ea0e83c41a331c4330213005568675f7542c25f354ebb634db78cc30d12"
+  },
+  {
+    "id": "f6r_w0069",
+    "folio": "f6r",
+    "reference": "ychar",
+    "encoded_text": "y\ue104ar",
+    "path": "/home/runner/work/Voynich/Voynich/work/eva_units/reset_groups/training_images/f6r_w0069.png",
+    "image_sha256": "efd813a9776d7e94ea1af12d593e373398bb1ed02cf30901b738de5bcce10839",
+    "label_sha256": "445ea5de4c184076d8f309f217da57ba2158425cc7aec1075df93e00a483fabc"
+  },
+  {
+    "id": "f6r_w0070",
+    "folio": "f6r",
+    "reference": "olchad",
+    "encoded_text": "ol\ue104ad",
+    "path": "/home/runner/work/Voynich/Voynich/work/eva_units/reset_groups/training_images/f6r_w0070.png",
+    "image_sha256": "1044fc31d7a6cad855f1f7b247358d814b44c9b3fe11cca8044545c1f5127fe1",
+    "label_sha256": "9f242b9ffac7c89fef4e3d7cb4bc74ae897d064a746937fbb2d682a307782fff"
+  },
+  {
+    "id": "f6r_w0071",
+    "folio": "f6r",
+    "reference": "ol",
+    "encoded_text": "ol",
+    "path": "/home/runner/work/Voynich/Voynich/work/eva_units/reset_groups/training_images/f6r_w0071.png",
+    "image_sha256": "6e94c702d267858fa002c2fcd950d5d86402e4824439f14b8c528df9b2339465",
+    "label_sha256": "e20882595488fa4f5a9ecf837ef7e2d220e9898cac625f1163dba2c1c7ec56f7"
+  },
+  {
+    "id": "f6r_w0072",
+    "folio": "f6r",
+    "reference": "chokaiin",
+    "encoded_text": "\ue104okaiin",
+    "path": "/home/runner/work/Voynich/Voynich/work/eva_units/reset_groups/training_images/f6r_w0072.png",
+    "image_sha256": "b6bb3e100f45937d5062e4492b76859bd96e4037ea1faad07396006caee2bcc8",
+    "label_sha256": "2d2309aa4c6ef6370cc298b255baa58170aa81420504d825a8c721d421559df3"
+  },
+  {
+    "id": "f6r_w0073",
+    "folio": "f6r",
+    "reference": "or",
+    "encoded_text": "or",
+    "path": "/home/runner/work/Voynich/Voynich/work/eva_units/reset_groups/training_images/f6r_w0073.png",
+    "image_sha256": "d4483b59b8182a56bcfd9e103a7bfa10f834a229f4d5160cbc27e17324fa4093",
+    "label_sha256": "7175517a370b5cd2e664e3fd29c4ea9db5ce17058eb9772fe090a5485e49dad6"
+  },
+  {
+    "id": "f6r_w0074",
+    "folio": "f6r",
+    "reference": "shol",
+    "encoded_text": "\ue105ol",
+    "path": "/home/runner/work/Voynich/Voynich/work/eva_units/reset_groups/training_images/f6r_w0074.png",
+    "image_sha256": "b06e61b0091b5e27d94be069689a707cb412a87a73ade6e15946447f9b6aa100",
+    "label_sha256": "6bbdad059f382002813907027f4bed1fcbce8ee2d1614b16c0be71849d770933"
+  },
+  {
+    "id": "f6r_w0075",
+    "folio": "f6r",
+    "reference": "cthom",
+    "encoded_text": "\ue103om",
+    "path": "/home/runner/work/Voynich/Voynich/work/eva_units/reset_groups/training_images/f6r_w0075.png",
+    "image_sha256": "9bd95cd43649785ae1fb2b0222e76c8c175af7c7afb1a2cd3ddbb1f6edd10bc5",
+    "label_sha256": "bbbd2abbcbad84f8f85ea900601ffe6377c754e99440aa7da33375a80b1b8038"
+  },
+  {
+    "id": "f6r_w0076",
+    "folio": "f6r",
+    "reference": "chor",
+    "encoded_text": "\ue104or",
+    "path": "/home/runner/work/Voynich/Voynich/work/eva_units/reset_groups/training_images/f6r_w0076.png",
+    "image_sha256": "70b7a2472cb05ed3282556616ca5bf27245019f0fe8e025b659db7d99467cddc",
+    "label_sha256": "bcbb30b42483a69d6ff854846b6181f6537ca64e812ab49afc145a63eb09743e"
+  },
+  {
+    "id": "f6r_w0077",
+    "folio": "f6r",
+    "reference": "cthy",
+    "encoded_text": "\ue103y",
+    "path": "/home/runner/work/Voynich/Voynich/work/eva_units/reset_groups/training_images/f6r_w0077.png",
+    "image_sha256": "734f45823a317c2b64d1fbc207a70df3b0b951e016d8f2f9ae94bebc35cfdfb1",
+    "label_sha256": "4aca2fea6c469c3c2c58a624ae22e682db19fb5136364f0fe6e359654ad65520"
+  },
+  {
+    "id": "f6r_w0078",
+    "folio": "f6r",
+    "reference": "qocthol",
+    "encoded_text": "qo\ue103ol",
+    "path": "/home/runner/work/Voynich/Voynich/work/eva_units/reset_groups/training_images/f6r_w0078.png",
+    "image_sha256": "112841663444d84f4c59cf43c8daab8549c2f92bc52d7f8165c32e8f954b4ecc",
+    "label_sha256": "4b2da9739bce06c86f5a6d75fb87f72f284f8c61fc875c7793e66c37af482997"
+  },
+  {
+    "id": "f6r_w0079",
+    "folio": "f6r",
+    "reference": "qodaiin",
+    "encoded_text": "qodaiin",
+    "path": "/home/runner/work/Voynich/Voynich/work/eva_units/reset_groups/training_images/f6r_w0079.png",
+    "image_sha256": "1441aabb34a75eb798e8ebafde6b8ff81b57881df406b9e53efa04b16dc15d89",
+    "label_sha256": "ccf3b8f47e3aceb6fbf02acbb0e0264ab246ed9af0028546bce81d6dd2d4ec2d"
+  },
+  {
+    "id": "f6r_w0080",
+    "folio": "f6r",
+    "reference": "cthy",
+    "encoded_text": "\ue103y",
+    "path": "/home/runner/work/Voynich/Voynich/work/eva_units/reset_groups/training_images/f6r_w0080.png",
+    "image_sha256": "ab2c83b9e83ca97217b66a2b6954471e5bf546343d7bd122b57d9326b6d464a9",
+    "label_sha256": "4aca2fea6c469c3c2c58a624ae22e682db19fb5136364f0fe6e359654ad65520"
+  },
+  {
+    "id": "f6r_w0081",
+    "folio": "f6r",
+    "reference": "ysho",
+    "encoded_text": "y\ue105o",
+    "path": "/home/runner/work/Voynich/Voynich/work/eva_units/reset_groups/training_images/f6r_w0081.png",
+    "image_sha256": "32cc8bf11e6f2c0e1ee754b581de4c893dcc13c28cc88b9ade1be4a91b5c2194",
+    "label_sha256": "0278acdeb32ab743fbba9335c8e248c650716f9e75add89ac75f4d562537880b"
+  },
+  {
+    "id": "f6r_w0082",
+    "folio": "f6r",
+    "reference": "taiin",
+    "encoded_text": "taiin",
+    "path": "/home/runner/work/Voynich/Voynich/work/eva_units/reset_groups/training_images/f6r_w0082.png",
+    "image_sha256": "f4dccb3ed3c7dd57bde70f8afb8e1e5b69040e2ecd3ccd5f48f6f658d5ecacbf",
+    "label_sha256": "3a2f241e8a84cab49c1191237c702395ba33790461bb92b1c748a1d0a0b86149"
+  },
+  {
+    "id": "f6r_w0083",
+    "folio": "f6r",
+    "reference": "y",
+    "encoded_text": "y",
+    "path": "/home/runner/work/Voynich/Voynich/work/eva_units/reset_groups/training_images/f6r_w0083.png",
+    "image_sha256": "e7d56b60211c0266449b261b0fa7333d4a3b505b5ab37e40b2f34c6e3a27b52f",
+    "label_sha256": "a1fce4363854ff888cff4b8e7875d600c2682390412a8cf79b37d0b11148b0fa"
+  },
+  {
+    "id": "f6r_w0084",
+    "folio": "f6r",
+    "reference": "kaiim",
+    "encoded_text": "kaiim",
+    "path": "/home/runner/work/Voynich/Voynich/work/eva_units/reset_groups/training_images/f6r_w0084.png",
+    "image_sha256": "e648a99eaa6625ed85b98c174a8dd1e1cecc2d6d6265c39233f99c673c9799bb",
+    "label_sha256": "79a0d0c9faa0f6dd24fff56fb78da3562a20ab5d2d32591c85373d275eda0353"
+  },
+  {
+    "id": "f6v_w0000",
+    "folio": "f6v",
+    "reference": "koar",
+    "encoded_text": "koar",
+    "path": "/home/runner/work/Voynich/Voynich/work/eva_units/reset_groups/training_images/f6v_w0000.png",
+    "image_sha256": "c34130c9c8f1d1b7c026f41c9992c63f766d7f36462b12bf38ff784a914d17dc",
+    "label_sha256": "ae6b4bc242776fb6a14645454b44767ceb94903e4b2f2c4b495032816a43d926"
+  },
+  {
+    "id": "f6v_w0001",
+    "folio": "f6v",
+    "reference": "y",
+    "encoded_text": "y",
+    "path": "/home/runner/work/Voynich/Voynich/work/eva_units/reset_groups/training_images/f6v_w0001.png",
+    "image_sha256": "2192895e52d7c863d437e61f39ed9b9684fc344f2d86999edbe61d4c42d815ec",
+    "label_sha256": "a1fce4363854ff888cff4b8e7875d600c2682390412a8cf79b37d0b11148b0fa"
+  },
+  {
+    "id": "f6v_w0002",
+    "folio": "f6v",
+    "reference": "sar",
+    "encoded_text": "sar",
+    "path": "/home/runner/work/Voynich/Voynich/work/eva_units/reset_groups/training_images/f6v_w0002.png",
+    "image_sha256": "f69e5d9e280e2a8450fefdbebe776d9b5c7927af93b4cebfc460adf98b9f0792",
+    "label_sha256": "bdb8ec313eb09be46a2527fcae4af190c85cbf925d86353ccf517413f1c0a645"
+  },
+  {
+    "id": "f6v_w0003",
+    "folio": "f6v",
+    "reference": "oheekar",
+    "encoded_text": "oheekar",
+    "path": "/home/runner/work/Voynich/Voynich/work/eva_units/reset_groups/training_images/f6v_w0003.png",
+    "image_sha256": "3183a5e0a9573f282e871784f7be2dd58b800a579e8b9886729fff6ec134ccb9",
+    "label_sha256": "192ca08b67aee37a8668df057c239562f88f0feb3f5394fbb7b4494c691f8b0a"
+  },
+  {
+    "id": "f6v_w0004",
+    "folio": "f6v",
+    "reference": "qoar",
+    "encoded_text": "qoar",
+    "path": "/home/runner/work/Voynich/Voynich/work/eva_units/reset_groups/training_images/f6v_w0004.png",
+    "image_sha256": "87a59d684ce14875b0ad22157cf5c06561344dd27edeaa601775b2698b7cf8ea",
+    "label_sha256": "43c660f2db0d08dc5243bffdbd2e3b33732a3a9b53e6dc9f35e49b0ab960d412"
+  },
+  {
+    "id": "f6v_w0005",
+    "folio": "f6v",
+    "reference": "shor",
+    "encoded_text": "\ue105or",
+    "path": "/home/runner/work/Voynich/Voynich/work/eva_units/reset_groups/training_images/f6v_w0005.png",
+    "image_sha256": "d0c85ab584399a16ed9908585c3b5d9b420c57af214433ef334bc52e80fbd990",
+    "label_sha256": "3bb49919b8e16c2373a48c776963a3cfeb816c7c7a23604b032671fb575a59bf"
+  },
+  {
+    "id": "f6v_w0006",
+    "folio": "f6v",
+    "reference": "chapchy",
+    "encoded_text": "\ue104ap\ue104y",
+    "path": "/home/runner/work/Voynich/Voynich/work/eva_units/reset_groups/training_images/f6v_w0006.png",
+    "image_sha256": "e31c4459c7d7039cdea5f412859dbed2fbc80f0358607d4eacc805cc25dcae8d",
+    "label_sha256": "e7cd98adf4c07a5235d091f388cb052ef0a7887fd51ed1909e2086b22e0813fc"
+  },
+  {
+    "id": "f6v_w0007",
+    "folio": "f6v",
+    "reference": "s",
+    "encoded_text": "s",
+    "path": "/home/runner/work/Voynich/Voynich/work/eva_units/reset_groups/training_images/f6v_w0007.png",
+    "image_sha256": "8f759f554ed93e3b38848939a93419010571a951d06c5fb2c79b1da4352c4545",
+    "label_sha256": "043a718774c572bd8a25adbeb1bfcd5c0256ae11cecf9f9c3f925d0e52beaf89"
+  },
+  {
+    "id": "f6v_w0008",
+    "folio": "f6v",
+    "reference": "chear",
+    "encoded_text": "\ue104ear",
+    "path": "/home/runner/work/Voynich/Voynich/work/eva_units/reset_groups/training_images/f6v_w0008.png",
+    "image_sha256": "f5fbd1b05f61491dfa941e438dacbd7dc89f95edfc4996e9623fa9192fe6d905",
+    "label_sha256": "42dc6cf93ed97d86b03829e440f8de9d02a10c7ab7c67b56446953a0b31086f8"
+  },
+  {
+    "id": "f6v_w0009",
+    "folio": "f6v",
+    "reference": "char",
+    "encoded_text": "\ue104ar",
+    "path": "/home/runner/work/Voynich/Voynich/work/eva_units/reset_groups/training_images/f6v_w0009.png",
+    "image_sha256": "8d1da279b3124027ce824af87485f0c5bcfc40bd2c26d247b0bbb4b5d9b2931e",
+    "label_sha256": "5123626dc6969d121d6b637a175701bd113f3aa5cf2fb5292f1c25136e01b4be"
+  },
+  {
+    "id": "f6v_w0010",
+    "folio": "f6v",
+    "reference": "otchy",
+    "encoded_text": "ot\ue104y",
+    "path": "/home/runner/work/Voynich/Voynich/work/eva_units/reset_groups/training_images/f6v_w0010.png",
+    "image_sha256": "73054694a591e74bcea27ce7abbb5c15cf295312d62664111b070c2187544050",
+    "label_sha256": "0232baed96c280acb42d847cb72e4d1468d5d79c07a5887c5d02ae615e3df2f8"
+  },
+  {
+    "id": "f6v_w0011",
+    "folio": "f6v",
+    "reference": "oees",
+    "encoded_text": "oees",
+    "path": "/home/runner/work/Voynich/Voynich/work/eva_units/reset_groups/training_images/f6v_w0011.png",
+    "image_sha256": "2ecee519e5d38c37050d532b41f1652f6ecef6c533fc84cda43b7a4032b33166",
+    "label_sha256": "e17593e3c07ccd1014311c96da04c38390ac97a19519b632bef6166ec02870de"
+  },
+  {
+    "id": "f6v_w0012",
+    "folio": "f6v",
+    "reference": "chor",
+    "encoded_text": "\ue104or",
+    "path": "/home/runner/work/Voynich/Voynich/work/eva_units/reset_groups/training_images/f6v_w0012.png",
+    "image_sha256": "01e4519df8af38374d44c8299a5f21e3fbe0343ef105d44b6016a19c801988ef",
+    "label_sha256": "bcbb30b42483a69d6ff854846b6181f6537ca64e812ab49afc145a63eb09743e"
+  },
+  {
+    "id": "f6v_w0013",
+    "folio": "f6v",
+    "reference": "chckhy",
+    "encoded_text": "\ue104\ue101y",
+    "path": "/home/runner/work/Voynich/Voynich/work/eva_units/reset_groups/training_images/f6v_w0013.png",
+    "image_sha256": "003644737f724e23f3f2feab3d1dfd54f4f1d8f270701d63d09873a0d7db6c08",
+    "label_sha256": "35ac7ff404a2a06280f8482c730e18143b1b38668b018827c593703af0c4a884"
+  },
+  {
+    "id": "f6v_w0014",
+    "folio": "f6v",
+    "reference": "qoekchar",
+    "encoded_text": "qoek\ue104ar",
+    "path": "/home/runner/work/Voynich/Voynich/work/eva_units/reset_groups/training_images/f6v_w0014.png",
+    "image_sha256": "0ddd9a33ec54f9930bb368bb5c94310cf3f993e09b44fb9836c0609a63343c12",
+    "label_sha256": "a8fe208e0ce98242284090a1391181bd3a26c3347443f8d0a369249434bfe8b4"
+  },
+  {
+    "id": "f6v_w0015",
+    "folio": "f6v",
+    "reference": "cheas",
+    "encoded_text": "\ue104eas",
+    "path": "/home/runner/work/Voynich/Voynich/work/eva_units/reset_groups/training_images/f6v_w0015.png",
+    "image_sha256": "07db0d7bc62196d8eea7dbaa1d98fc1f5aaf9aab6d8cd08eb4fb9d99a10348d0",
+    "label_sha256": "89d3ec74b25c36736af64a61b3b40f713e63bbc2515b0f88ebd84efc174f7649"
+  },
+  {
+    "id": "f6v_w0016",
+    "folio": "f6v",
+    "reference": "odaiin",
+    "encoded_text": "odaiin",
+    "path": "/home/runner/work/Voynich/Voynich/work/eva_units/reset_groups/training_images/f6v_w0016.png",
+    "image_sha256": "3c3cc3724e18d2a09d8853d155d34bcd2f996237c5f01e0c3de340d94750cbe3",
+    "label_sha256": "9facd6ca6d5a26cd477d3a17da7140a3d9078f0d45e749074c24da337f6718cb"
+  },
+  {
+    "id": "f6v_w0017",
+    "folio": "f6v",
+    "reference": "kchey",
+    "encoded_text": "k\ue104ey",
+    "path": "/home/runner/work/Voynich/Voynich/work/eva_units/reset_groups/training_images/f6v_w0017.png",
+    "image_sha256": "6a7ac96e389577d1748a0b96a0632ad7a6e0388537b86e907d4a898ec190e8ae",
+    "label_sha256": "bb911211c113eba23760f76453b2032cf3743bb579b3c1f98423ca7420e1f7ca"
+  },
+  {
+    "id": "f6v_w0018",
+    "folio": "f6v",
+    "reference": "chor",
+    "encoded_text": "\ue104or",
+    "path": "/home/runner/work/Voynich/Voynich/work/eva_units/reset_groups/training_images/f6v_w0018.png",
+    "image_sha256": "eaed33efb2ac1a24cc9fa94527ba76e96c85f3e3f155a2b802da7d41ea5ee967",
+    "label_sha256": "bcbb30b42483a69d6ff854846b6181f6537ca64e812ab49afc145a63eb09743e"
+  },
+  {
+    "id": "f6v_w0019",
+    "folio": "f6v",
+    "reference": "chaiin",
+    "encoded_text": "\ue104aiin",
+    "path": "/home/runner/work/Voynich/Voynich/work/eva_units/reset_groups/training_images/f6v_w0019.png",
+    "image_sha256": "4ccccdfb98801b065253f5f639d2e769cd6ca3c93402a36ce9b7b9c77dfba534",
+    "label_sha256": "f4d6edf55bcbc443c1de365b5f2563f1a5c27bd6f632e20c5b033909f6e68fea"
+  },
+  {
+    "id": "f6v_w0020",
+    "folio": "f6v",
+    "reference": "qoair",
+    "encoded_text": "qoair",
+    "path": "/home/runner/work/Voynich/Voynich/work/eva_units/reset_groups/training_images/f6v_w0020.png",
+    "image_sha256": "d9649d4e8774c111de043dbed51c5227015977d2791105f9fee05942a32fd51b",
+    "label_sha256": "11dd8b8ac3dc2d7c231d615fd8ce91ccbcb7789336e0e2b723dcf277c2a156a7"
+  },
+  {
+    "id": "f6v_w0021",
+    "folio": "f6v",
+    "reference": "ckhy",
+    "encoded_text": "\ue101y",
+    "path": "/home/runner/work/Voynich/Voynich/work/eva_units/reset_groups/training_images/f6v_w0021.png",
+    "image_sha256": "6a98e8cf30046aa2061b02401055847b8d53658157f6256806dff5f28cfa705f",
+    "label_sha256": "4085f479411c6a677c2dd144a2cc18cf4d2ae914ff2763196d01f077b179be9c"
+  },
+  {
+    "id": "f6v_w0022",
+    "folio": "f6v",
+    "reference": "chol",
+    "encoded_text": "\ue104ol",
+    "path": "/home/runner/work/Voynich/Voynich/work/eva_units/reset_groups/training_images/f6v_w0022.png",
+    "image_sha256": "e3da8b1f7082cc415b63bf14d9c3c475a6eef965914e496ffdc189d749fca37d",
+    "label_sha256": "bb4a310afe620af8f922e5e51f0c74e1f3b0d13d744cbf8506cc900a59f7512a"
+  },
+  {
+    "id": "f6v_w0023",
+    "folio": "f6v",
+    "reference": "oochockhy",
+    "encoded_text": "oo\ue104o\ue101y",
+    "path": "/home/runner/work/Voynich/Voynich/work/eva_units/reset_groups/training_images/f6v_w0023.png",
+    "image_sha256": "195acd1776ae9d5592c97be42eb13911dbb3386f21b2273f73cc7126b2505411",
+    "label_sha256": "4d021641a4ca047190dc1a1b2997396160bd620b78cc0326eb8521f83303f992"
+  },
+  {
+    "id": "f6v_w0024",
+    "folio": "f6v",
+    "reference": "chekchoy",
+    "encoded_text": "\ue104ek\ue104oy",
+    "path": "/home/runner/work/Voynich/Voynich/work/eva_units/reset_groups/training_images/f6v_w0024.png",
+    "image_sha256": "67d9e6c107c9000c2adafda18532456e3cb29c2003551e8b3f30cba4faf66598",
+    "label_sha256": "5181a6854f8ae27b3809e3c539372df1d7bffa93f5151657f55c9bd1db58c8a3"
+  },
+  {
+    "id": "f6v_w0025",
+    "folio": "f6v",
+    "reference": "ckhy",
+    "encoded_text": "\ue101y",
+    "path": "/home/runner/work/Voynich/Voynich/work/eva_units/reset_groups/training_images/f6v_w0025.png",
+    "image_sha256": "0e8c1b5cb73d244cf4bde731194819192e17025fa8b73fdbfe64572863f52c78",
+    "label_sha256": "4085f479411c6a677c2dd144a2cc18cf4d2ae914ff2763196d01f077b179be9c"
+  },
+  {
+    "id": "f6v_w0026",
+    "folio": "f6v",
+    "reference": "okol",
+    "encoded_text": "okol",
+    "path": "/home/runner/work/Voynich/Voynich/work/eva_units/reset_groups/training_images/f6v_w0026.png",
+    "image_sha256": "0f40293d8e30f96550858e5da14a4bb113354cdc52691757d084719cabc17bcf",
+    "label_sha256": "2aed9df78446daa8cb7e394606a545d5922e108d06289151c643074b48eb31dd"
+  },
+  {
+    "id": "f6v_w0027",
+    "folio": "f6v",
+    "reference": "rychos",
+    "encoded_text": "ry\ue104os",
+    "path": "/home/runner/work/Voynich/Voynich/work/eva_units/reset_groups/training_images/f6v_w0027.png",
+    "image_sha256": "18abcfebda45105e22830c4148ff2d26440eb469b6136c4cbb1666dbd6cdd4db",
+    "label_sha256": "07ad8b94e6b1067730fc7d9fa7623d672a909b46912ccc3736fa7d0f01f29acc"
+  },
+  {
+    "id": "f6v_w0028",
+    "folio": "f6v",
+    "reference": "y",
+    "encoded_text": "y",
+    "path": "/home/runner/work/Voynich/Voynich/work/eva_units/reset_groups/training_images/f6v_w0028.png",
+    "image_sha256": "7fd6d774d1093abc697cf2029ff96300c0168cfc7b4dc980c5559b1a1de1440f",
+    "label_sha256": "a1fce4363854ff888cff4b8e7875d600c2682390412a8cf79b37d0b11148b0fa"
+  },
+  {
+    "id": "f6v_w0029",
+    "folio": "f6v",
+    "reference": "shckhy",
+    "encoded_text": "\ue105\ue101y",
+    "path": "/home/runner/work/Voynich/Voynich/work/eva_units/reset_groups/training_images/f6v_w0029.png",
+    "image_sha256": "a901495ac6175f0749eb61c44816a505a4358c3231a8e1a95a8f58483922d76e",
+    "label_sha256": "8d13bafcf0630e219a91ceb9566bb87b68c87225c93cd8210c33919e1ee3a0ae"
+  },
+  {
+    "id": "f6v_w0030",
+    "folio": "f6v",
+    "reference": "ytchoy",
+    "encoded_text": "yt\ue104oy",
+    "path": "/home/runner/work/Voynich/Voynich/work/eva_units/reset_groups/training_images/f6v_w0030.png",
+    "image_sha256": "9d18dc11ff0468608eccbf4b923b0d14961070d0d6ff111f2a4df820f31f9397",
+    "label_sha256": "2aae56fb9a819c3e60373258cd04f8d4a31b7c6bbfc7294c4c3c17dbebcc9d80"
+  },
+  {
+    "id": "f6v_w0031",
+    "folio": "f6v",
+    "reference": "sos",
+    "encoded_text": "sos",
+    "path": "/home/runner/work/Voynich/Voynich/work/eva_units/reset_groups/training_images/f6v_w0031.png",
+    "image_sha256": "b7d1cbce1e0789a9e81171689b53b8611a3b59459992b449367b940b1481ed3a",
+    "label_sha256": "c0946106b732f9f6ae889101ab987ed1bbcfe3eda2ad0a971be31575ad676851"
+  },
+  {
+    "id": "f6v_w0032",
+    "folio": "f6v",
+    "reference": "y",
+    "encoded_text": "y",
+    "path": "/home/runner/work/Voynich/Voynich/work/eva_units/reset_groups/training_images/f6v_w0032.png",
+    "image_sha256": "3af5b3d66d9f5852f3f0c687d3f2a3319f9bb3e248306268ddc8c8091aae4d0a",
+    "label_sha256": "a1fce4363854ff888cff4b8e7875d600c2682390412a8cf79b37d0b11148b0fa"
+  },
+  {
+    "id": "f6v_w0033",
+    "folio": "f6v",
+    "reference": "dady",
+    "encoded_text": "dady",
+    "path": "/home/runner/work/Voynich/Voynich/work/eva_units/reset_groups/training_images/f6v_w0033.png",
+    "image_sha256": "9d68f5f834572bec25f56764004bfa31d47158a1505245964bf9a1fde53c77e2",
+    "label_sha256": "def4dd9f4ab98aeb3b000119ea28d31abce218ed79720c87d0d2fbb6fec3829f"
+  },
+  {
+    "id": "f6v_w0034",
+    "folio": "f6v",
+    "reference": "dchy",
+    "encoded_text": "d\ue104y",
+    "path": "/home/runner/work/Voynich/Voynich/work/eva_units/reset_groups/training_images/f6v_w0034.png",
+    "image_sha256": "7ac1a552b73beb8616a78c1bce4abe9ac5b9a7036e831769a1228ffaf86279d9",
+    "label_sha256": "23823b071be4c4a25d32ee1e3ca3145ecaccd9b820f715b364bdd322348e4b5f"
+  },
+  {
+    "id": "f6v_w0035",
+    "folio": "f6v",
+    "reference": "dey",
+    "encoded_text": "dey",
+    "path": "/home/runner/work/Voynich/Voynich/work/eva_units/reset_groups/training_images/f6v_w0035.png",
+    "image_sha256": "897ec986fc5a8071668aa4ad4e4a65cf7484d6d6b543b53ce422a2d8e0ee0b40",
+    "label_sha256": "3dfb617dccd221d85828ecc0a5a79924876ade34ec23f5bdbf61eb41e8fbabc1"
+  },
+  {
+    "id": "f6v_w0036",
+    "folio": "f6v",
+    "reference": "okody",
+    "encoded_text": "okody",
+    "path": "/home/runner/work/Voynich/Voynich/work/eva_units/reset_groups/training_images/f6v_w0036.png",
+    "image_sha256": "025e6380e46eb14a8874349229c25cc2a39aa28e0b610d5e8e2d9dbf8d126521",
+    "label_sha256": "4b6c6485a9fc63b8bdfbc699ce120ac2f5299cf6ed7c89697637d35b3338cca1"
+  },
+  {
+    "id": "f6v_w0037",
+    "folio": "f6v",
+    "reference": "ytody",
+    "encoded_text": "ytody",
+    "path": "/home/runner/work/Voynich/Voynich/work/eva_units/reset_groups/training_images/f6v_w0037.png",
+    "image_sha256": "ccf2c1f4592e4338a70f37784066a62370538820935e8ae144abdb0ddf3b38ba",
+    "label_sha256": "1d107fa18131bfab4a714c8aad34172d35f95cbca310eb33f39db897a26b3c30"
+  },
+  {
+    "id": "f6v_w0038",
+    "folio": "f6v",
+    "reference": "dair",
+    "encoded_text": "dair",
+    "path": "/home/runner/work/Voynich/Voynich/work/eva_units/reset_groups/training_images/f6v_w0038.png",
+    "image_sha256": "28e67a379faa2448fbcfa9fd21ddf09beb33fb14b374362f6e5d334ae4b8a3ac",
+    "label_sha256": "9c5e1af7dc967027712e902f693ac83418463ac97e702d7f5a8124e26cdaef84"
+  },
+  {
+    "id": "f6v_w0039",
+    "folio": "f6v",
+    "reference": "cshe",
+    "encoded_text": "c\ue105e",
+    "path": "/home/runner/work/Voynich/Voynich/work/eva_units/reset_groups/training_images/f6v_w0039.png",
+    "image_sha256": "2502a57b62babc2a20f26c130aaf3d203f97329cbb77e5b18cc7cb35c1f8f755",
+    "label_sha256": "66713f269dcbf68c25224dfb0b197e0b4d8616da6b0562d4273929bb81c468bf"
+  },
+  {
+    "id": "f6v_w0040",
+    "folio": "f6v",
+    "reference": "chodam",
+    "encoded_text": "\ue104odam",
+    "path": "/home/runner/work/Voynich/Voynich/work/eva_units/reset_groups/training_images/f6v_w0040.png",
+    "image_sha256": "82f40dd231802576a4e8880040bb4c5a8c1d900e5523d8a65dbc3d657023dc78",
+    "label_sha256": "e74920f4b66fef00f46dca22727b257b5bf2d4e802a42ea67d560e39876e7687"
+  },
+  {
+    "id": "f6v_w0041",
+    "folio": "f6v",
+    "reference": "dam",
+    "encoded_text": "dam",
+    "path": "/home/runner/work/Voynich/Voynich/work/eva_units/reset_groups/training_images/f6v_w0041.png",
+    "image_sha256": "cc48c6dd756220aadaa7f58a333f34acc516badd5e308c028e5fcd40dfa3b25b",
+    "label_sha256": "2fcb6465ee5cbfa3567355b4f7abe6f03ea08e9283de9c834d1297b1df2c6288"
+  },
+  {
+    "id": "f6v_w0042",
+    "folio": "f6v",
+    "reference": "okor",
+    "encoded_text": "okor",
+    "path": "/home/runner/work/Voynich/Voynich/work/eva_units/reset_groups/training_images/f6v_w0042.png",
+    "image_sha256": "20f3e130ffdb256de437e5f38ff4d6c7193586082836dbbd7948f170e4faf9d8",
+    "label_sha256": "eaabc0a66defdb930777b35c13a8f119557d679c8a2ea48ec338cec3fa266aac"
+  },
+  {
+    "id": "f6v_w0043",
+    "folio": "f6v",
+    "reference": "oty",
+    "encoded_text": "oty",
+    "path": "/home/runner/work/Voynich/Voynich/work/eva_units/reset_groups/training_images/f6v_w0043.png",
+    "image_sha256": "f97394ad11201a73fb1a40caa8102590ded735aa66a3a9afc516a186b3da5f66",
+    "label_sha256": "bc64217e0168531a856d8d60de3e0bcf16c62e4719b06e5cdd948216b8182c96"
+  },
+  {
+    "id": "f6v_w0044",
+    "folio": "f6v",
+    "reference": "doldom",
+    "encoded_text": "doldom",
+    "path": "/home/runner/work/Voynich/Voynich/work/eva_units/reset_groups/training_images/f6v_w0044.png",
+    "image_sha256": "a223b69a409b6dcec553f0dae034333da5e3a96018a5a42aea44c84c7cbb7266",
+    "label_sha256": "3d7f6e5dd39a3c01af2bcc9c530a86b2c36fcf041338b319a15f9c120e711401"
+  },
+  {
+    "id": "f6v_w0045",
+    "folio": "f6v",
+    "reference": "tchody",
+    "encoded_text": "t\ue104ody",
+    "path": "/home/runner/work/Voynich/Voynich/work/eva_units/reset_groups/training_images/f6v_w0045.png",
+    "image_sha256": "e55cc92199a6ff19290aab825cc4bdd035cd6dbb93c1fb5de7a89c955e70950f",
+    "label_sha256": "1e66fc93df940202f58eba54ca39456c7dc8b9980ef39038b508438798929b48"
+  },
+  {
+    "id": "f6v_w0046",
+    "folio": "f6v",
+    "reference": "shocthol",
+    "encoded_text": "\ue105o\ue103ol",
+    "path": "/home/runner/work/Voynich/Voynich/work/eva_units/reset_groups/training_images/f6v_w0046.png",
+    "image_sha256": "8f5d12ed88f590ef918784ad49129fd8952e33ec14b83c700c82157024ed8540",
+    "label_sha256": "637f8135e7931856108653b86ee9156e2208e7a8234ae41f3ef6ffc01bcadafa"
+  },
+  {
+    "id": "f6v_w0047",
+    "folio": "f6v",
+    "reference": "chocthey",
+    "encoded_text": "\ue104o\ue103ey",
+    "path": "/home/runner/work/Voynich/Voynich/work/eva_units/reset_groups/training_images/f6v_w0047.png",
+    "image_sha256": "36f19e4904e1bbc2276c6ac8deaf2073fa7db2bcdfcd251bca0f71abc47b1f1f",
+    "label_sha256": "1f6225e253158940ba201be0744ea1501fa616a21feefb80f50e55c47cc309df"
+  },
+  {
+    "id": "f6v_w0048",
+    "folio": "f6v",
+    "reference": "s",
+    "encoded_text": "s",
+    "path": "/home/runner/work/Voynich/Voynich/work/eva_units/reset_groups/training_images/f6v_w0048.png",
+    "image_sha256": "a58d8e20018b1a1f9c35a0b1683f4e7976e79b24f5369ca4ef7c4de9577ae2a1",
+    "label_sha256": "043a718774c572bd8a25adbeb1bfcd5c0256ae11cecf9f9c3f925d0e52beaf89"
+  },
+  {
+    "id": "f6v_w0049",
+    "folio": "f6v",
+    "reference": "ychos",
+    "encoded_text": "y\ue104os",
+    "path": "/home/runner/work/Voynich/Voynich/work/eva_units/reset_groups/training_images/f6v_w0049.png",
+    "image_sha256": "b85b3634c07ccd2fb15fa6a53e89ab144f3cd82d11c7dd400a19bb6657f5372f",
+    "label_sha256": "e0edd0d62ee1832ee7ff442c2c62607c60acf4cda685e1d347ae1c557c891564"
+  },
+  {
+    "id": "f6v_w0050",
+    "folio": "f6v",
+    "reference": "ychol",
+    "encoded_text": "y\ue104ol",
+    "path": "/home/runner/work/Voynich/Voynich/work/eva_units/reset_groups/training_images/f6v_w0050.png",
+    "image_sha256": "7e31be87e0c82f6e5023e072b64431b2cc531938505734b5930fa46c0b6039b6",
+    "label_sha256": "4b1be77abb89729e0dc17c5981ad89c29593520486435e207b41509e3f00ddea"
+  },
+  {
+    "id": "f6v_w0051",
+    "folio": "f6v",
+    "reference": "daiin",
+    "encoded_text": "daiin",
+    "path": "/home/runner/work/Voynich/Voynich/work/eva_units/reset_groups/training_images/f6v_w0051.png",
+    "image_sha256": "31793086c5ebf61f17f90e199f2820bc7635c7de031fe6cbb4e58d006ed1b7ae",
+    "label_sha256": "acdd663103aaa9716f1210878c0c7ba9668300c500adcd194e167724d12f4ffc"
+  },
+  {
+    "id": "f6v_w0052",
+    "folio": "f6v",
+    "reference": "cthol",
+    "encoded_text": "\ue103ol",
+    "path": "/home/runner/work/Voynich/Voynich/work/eva_units/reset_groups/training_images/f6v_w0052.png",
+    "image_sha256": "d85873fd45633cf7d6c71ee9ad3cc9bc2cf94548c63fb97028f693fe34d7ebe3",
+    "label_sha256": "7de0c728af10141f8b7f4187df54483031d37bc71bfd975341b694a2b5d98e40"
+  },
+  {
+    "id": "f6v_w0053",
+    "folio": "f6v",
+    "reference": "dol",
+    "encoded_text": "dol",
+    "path": "/home/runner/work/Voynich/Voynich/work/eva_units/reset_groups/training_images/f6v_w0053.png",
+    "image_sha256": "75016847a7f3d75730ad41a4e3232a2055a9f9bf5d29b08cbc29d5a5133d534b",
+    "label_sha256": "d06379416452a88b40fc82f833b0ef456d064e5d3d193f76f9b5207cfde8edcf"
+  },
+  {
+    "id": "f6v_w0054",
+    "folio": "f6v",
+    "reference": "ychor",
+    "encoded_text": "y\ue104or",
+    "path": "/home/runner/work/Voynich/Voynich/work/eva_units/reset_groups/training_images/f6v_w0054.png",
+    "image_sha256": "0055ea6b8d20897bd05846ebd7e93f936b0bcfb647fca16221570c9ce02ad3d0",
+    "label_sha256": "23956688aa32b2ea49ac7e73f7f273551fe77393c7f327182ea203b07459a2f0"
+  },
+  {
+    "id": "f6v_w0055",
+    "folio": "f6v",
+    "reference": "chor",
+    "encoded_text": "\ue104or",
+    "path": "/home/runner/work/Voynich/Voynich/work/eva_units/reset_groups/training_images/f6v_w0055.png",
+    "image_sha256": "9659bb9e7771206a527a2c417373151e9291bf505af3c26a91b15ab84c887f68",
+    "label_sha256": "bcbb30b42483a69d6ff854846b6181f6537ca64e812ab49afc145a63eb09743e"
+  },
+  {
+    "id": "f6v_w0056",
+    "folio": "f6v",
+    "reference": "okchey",
+    "encoded_text": "ok\ue104ey",
+    "path": "/home/runner/work/Voynich/Voynich/work/eva_units/reset_groups/training_images/f6v_w0056.png",
+    "image_sha256": "a20e5943d617d07dd690f7cacdfb40b6c91abc1d309b56df556850bf5732685c",
+    "label_sha256": "970d8ae0bae53bba86beb589a1794fdb8b20248e34633002d9f4be7a82811e47"
+  },
+  {
+    "id": "f6v_w0057",
+    "folio": "f6v",
+    "reference": "qokom",
+    "encoded_text": "qokom",
+    "path": "/home/runner/work/Voynich/Voynich/work/eva_units/reset_groups/training_images/f6v_w0057.png",
+    "image_sha256": "dbc5e8f7d9d409324d007d6a8fcfd29c147032d27b517697db0e195bbb6425cc",
+    "label_sha256": "f54f6d3c6829947ca45a0ce0454cb2e8d9d313e1d6a6b5b16337fa149e9df307"
+  },
+  {
+    "id": "f6v_w0058",
+    "folio": "f6v",
+    "reference": "oeeo",
+    "encoded_text": "oeeo",
+    "path": "/home/runner/work/Voynich/Voynich/work/eva_units/reset_groups/training_images/f6v_w0058.png",
+    "image_sha256": "2a8462056d1bee3603a214300d48a8a4aaa7e6914601174a51efc50cbc1a3afa",
+    "label_sha256": "eaff3b3f8e016bb76d3434b8fc9162ad5b857ae8202a60d32668fb8d9056113d"
+  },
+  {
+    "id": "f6v_w0059",
+    "folio": "f6v",
+    "reference": "dal",
+    "encoded_text": "dal",
+    "path": "/home/runner/work/Voynich/Voynich/work/eva_units/reset_groups/training_images/f6v_w0059.png",
+    "image_sha256": "0aebf8adc521801e84a7a2e6c5ffdf58249a008769dd10ef9ca0faa8a87a03aa",
+    "label_sha256": "c7abd4dc26cd750f72b87bb9da1b462c07b20c77c4fc299ef12377adc904ed8d"
+  },
+  {
+    "id": "f6v_w0060",
+    "folio": "f6v",
+    "reference": "chor",
+    "encoded_text": "\ue104or",
+    "path": "/home/runner/work/Voynich/Voynich/work/eva_units/reset_groups/training_images/f6v_w0060.png",
+    "image_sha256": "37d9ae9b58820eef08cc0f7243243c5fdd612f6669f682c54b8bfd97e827f1f8",
+    "label_sha256": "bcbb30b42483a69d6ff854846b6181f6537ca64e812ab49afc145a63eb09743e"
+  },
+  {
+    "id": "f6v_w0061",
+    "folio": "f6v",
+    "reference": "cthom",
+    "encoded_text": "\ue103om",
+    "path": "/home/runner/work/Voynich/Voynich/work/eva_units/reset_groups/training_images/f6v_w0061.png",
+    "image_sha256": "58abc464079056ba9e6b78c1d634221646a039073fd25646db7aca0f49c14a75",
+    "label_sha256": "bbbd2abbcbad84f8f85ea900601ffe6377c754e99440aa7da33375a80b1b8038"
+  },
+  {
+    "id": "f6v_w0062",
+    "folio": "f6v",
+    "reference": "s",
+    "encoded_text": "s",
+    "path": "/home/runner/work/Voynich/Voynich/work/eva_units/reset_groups/training_images/f6v_w0062.png",
+    "image_sha256": "d7618117cdd3d8bdacff9cf1a19972faf8780c975c5240288fe682780b8af438",
+    "label_sha256": "043a718774c572bd8a25adbeb1bfcd5c0256ae11cecf9f9c3f925d0e52beaf89"
+  },
+  {
+    "id": "f6v_w0063",
+    "folio": "f6v",
+    "reference": "qokche",
+    "encoded_text": "qok\ue104e",
+    "path": "/home/runner/work/Voynich/Voynich/work/eva_units/reset_groups/training_images/f6v_w0063.png",
+    "image_sha256": "226e8f3dc0ea3144d9712c16a8e1249f26b034dbb38b79813f4af76a624f1c75",
+    "label_sha256": "1fd07561ba59916151ff66f7704779cfe93ace660e501b6059f06e181994ee46"
+  },
+  {
+    "id": "f6v_w0064",
+    "folio": "f6v",
+    "reference": "ychear",
+    "encoded_text": "y\ue104ear",
+    "path": "/home/runner/work/Voynich/Voynich/work/eva_units/reset_groups/training_images/f6v_w0064.png",
+    "image_sha256": "39a9773efe760fcfb9bd2136a5eb00d98edb41bfc7be754b68ead6a792f0fa6d",
+    "label_sha256": "e41e48f9e39900bb3877e8946783201c4faf9c8c64559e977bfdf7e1a4c40378"
+  },
+  {
+    "id": "f6v_w0065",
+    "folio": "f6v",
+    "reference": "kchdy",
+    "encoded_text": "k\ue104dy",
+    "path": "/home/runner/work/Voynich/Voynich/work/eva_units/reset_groups/training_images/f6v_w0065.png",
+    "image_sha256": "d259869b4d42af1d4eefcc3f8c84c5ce7cfdc7b79954c035e4bee02102fbbb62",
+    "label_sha256": "e8a5d27d47028f11f7c359b69d8a43a05d1d6454f445edb55e3d051bbe8f595e"
+  },
+  {
+    "id": "f6v_w0066",
+    "folio": "f6v",
+    "reference": "lor",
+    "encoded_text": "lor",
+    "path": "/home/runner/work/Voynich/Voynich/work/eva_units/reset_groups/training_images/f6v_w0066.png",
+    "image_sha256": "2e83c493b1c1f4381fdae788844fb399beb6177148947acafb32c62c317326ee",
+    "label_sha256": "280f3568fa9691086e4f18148cbe751463ed3eee57f3987ed22121741a49c1fd"
+  },
+  {
+    "id": "f6v_w0067",
+    "folio": "f6v",
+    "reference": "char",
+    "encoded_text": "\ue104ar",
+    "path": "/home/runner/work/Voynich/Voynich/work/eva_units/reset_groups/training_images/f6v_w0067.png",
+    "image_sha256": "2789c72aec2e21fe39824a306cfefd6ce6ff39577ed87df6773c8c0d2cb66f52",
+    "label_sha256": "5123626dc6969d121d6b637a175701bd113f3aa5cf2fb5292f1c25136e01b4be"
+  },
+  {
+    "id": "f6v_w0068",
+    "folio": "f6v",
+    "reference": "otam",
+    "encoded_text": "otam",
+    "path": "/home/runner/work/Voynich/Voynich/work/eva_units/reset_groups/training_images/f6v_w0068.png",
+    "image_sha256": "d939fa823480e2b2539404913ee6dd4543a4704112025b1d17cc45407fddd390",
+    "label_sha256": "df5cfbe36d5a4d7be3305eadfa54b87811431361c7d6541ea2730bd60b65b7cc"
+  },
+  {
+    "id": "f6v_w0069",
+    "folio": "f6v",
+    "reference": "cthom",
+    "encoded_text": "\ue103om",
+    "path": "/home/runner/work/Voynich/Voynich/work/eva_units/reset_groups/training_images/f6v_w0069.png",
+    "image_sha256": "6d119b1ab620908a6491708cfd126dd7586b3173ebd72acb94dc7700ff4a779b",
+    "label_sha256": "bbbd2abbcbad84f8f85ea900601ffe6377c754e99440aa7da33375a80b1b8038"
+  },
+  {
+    "id": "f6v_w0070",
+    "folio": "f6v",
+    "reference": "dy",
+    "encoded_text": "dy",
+    "path": "/home/runner/work/Voynich/Voynich/work/eva_units/reset_groups/training_images/f6v_w0070.png",
+    "image_sha256": "688edf46d9d4d733fe66005619daa8a861b0065af855b652a2b8fffe35e1d033",
+    "label_sha256": "aa1be933fec0f68c7d1ef42b15259b73f88c582d5f535753d9ad647394deefe8"
+  },
+  {
+    "id": "f6v_w0071",
+    "folio": "f6v",
+    "reference": "ytchos",
+    "encoded_text": "yt\ue104os",
+    "path": "/home/runner/work/Voynich/Voynich/work/eva_units/reset_groups/training_images/f6v_w0071.png",
+    "image_sha256": "3272131eef2af480c3350efcef5dfc3d2845e72cbdd066d09ff5f34b9193f78a",
+    "label_sha256": "101838116946941cd6190a74d42d976233fcfc892af4157ccf85e9f04d94f92f"
+  },
+  {
+    "id": "f6v_w0072",
+    "folio": "f6v",
+    "reference": "shy",
+    "encoded_text": "\ue105y",
+    "path": "/home/runner/work/Voynich/Voynich/work/eva_units/reset_groups/training_images/f6v_w0072.png",
+    "image_sha256": "237a9930fe4a8420fee7d9d15739a1507abe92598f3446cfc3da458b58dec80d",
+    "label_sha256": "7ea48d950bf2beec9ffbd2d85bd205b69d31d3aa706e8a68f45822dc3af53a21"
+  },
+  {
+    "id": "f6v_w0073",
+    "folio": "f6v",
+    "reference": "qokam",
+    "encoded_text": "qokam",
+    "path": "/home/runner/work/Voynich/Voynich/work/eva_units/reset_groups/training_images/f6v_w0073.png",
+    "image_sha256": "b5a775fdf156fed6a999ef8044d59d3957f6ba0539005c2a9468bc99e0e87c0e",
+    "label_sha256": "de50ff006e60e025f317043bbbd79e450545d64e5f0b169e0f6ba741bf646118"
+  },
+  {
+    "id": "f6v_w0074",
+    "folio": "f6v",
+    "reference": "cthy",
+    "encoded_text": "\ue103y",
+    "path": "/home/runner/work/Voynich/Voynich/work/eva_units/reset_groups/training_images/f6v_w0074.png",
+    "image_sha256": "883a84b974b8993e77cbca81a5e40203d0513001b9196dfd414a22fcf7f74de5",
+    "label_sha256": "4aca2fea6c469c3c2c58a624ae22e682db19fb5136364f0fe6e359654ad65520"
+  },
+  {
+    "id": "f6v_w0075",
+    "folio": "f6v",
+    "reference": "yodaiin",
+    "encoded_text": "yodaiin",
+    "path": "/home/runner/work/Voynich/Voynich/work/eva_units/reset_groups/training_images/f6v_w0075.png",
+    "image_sha256": "d35aec76dc4572aded7759fcacaf396f4d3023644890d9b1339ec44acebc3d96",
+    "label_sha256": "ae856059a0c22064aca39b7c724c455f91bd301545be25e970c0cb0941b17fbc"
+  },
+  {
+    "id": "f6v_w0076",
+    "folio": "f6v",
+    "reference": "cthy",
+    "encoded_text": "\ue103y",
+    "path": "/home/runner/work/Voynich/Voynich/work/eva_units/reset_groups/training_images/f6v_w0076.png",
+    "image_sha256": "4b48fdb021b00e70bb542f9132af6d46218cf1864bc3a093250ef1fb1446e4cd",
+    "label_sha256": "4aca2fea6c469c3c2c58a624ae22e682db19fb5136364f0fe6e359654ad65520"
+  },
+  {
+    "id": "f6v_w0077",
+    "folio": "f6v",
+    "reference": "s",
+    "encoded_text": "s",
+    "path": "/home/runner/work/Voynich/Voynich/work/eva_units/reset_groups/training_images/f6v_w0077.png",
+    "image_sha256": "4c790908a4439b4d4c42ae8c53f895f5e48d9b09143beaa5097ecf4c3c672794",
+    "label_sha256": "043a718774c572bd8a25adbeb1bfcd5c0256ae11cecf9f9c3f925d0e52beaf89"
+  },
+  {
+    "id": "f6v_w0078",
+    "folio": "f6v",
+    "reference": "chor",
+    "encoded_text": "\ue104or",
+    "path": "/home/runner/work/Voynich/Voynich/work/eva_units/reset_groups/training_images/f6v_w0078.png",
+    "image_sha256": "40efd58f17d03a149da3cca2ea0882b6184e86b68a8f15ab5ea29d0f9596db89",
+    "label_sha256": "bcbb30b42483a69d6ff854846b6181f6537ca64e812ab49afc145a63eb09743e"
+  },
+  {
+    "id": "f6v_w0079",
+    "folio": "f6v",
+    "reference": "oees",
+    "encoded_text": "oees",
+    "path": "/home/runner/work/Voynich/Voynich/work/eva_units/reset_groups/training_images/f6v_w0079.png",
+    "image_sha256": "d8dfd2566e79fa78b5745af352b4cea529560495b0f532abec7f81833453375b",
+    "label_sha256": "e17593e3c07ccd1014311c96da04c38390ac97a19519b632bef6166ec02870de"
+  },
+  {
+    "id": "f6v_w0080",
+    "folio": "f6v",
+    "reference": "or",
+    "encoded_text": "or",
+    "path": "/home/runner/work/Voynich/Voynich/work/eva_units/reset_groups/training_images/f6v_w0080.png",
+    "image_sha256": "083a965942b58293ce4bce98d38bda975aefbe605716ddc037ef5cfb7864666b",
+    "label_sha256": "7175517a370b5cd2e664e3fd29c4ea9db5ce17058eb9772fe090a5485e49dad6"
+  },
+  {
+    "id": "f6v_w0081",
+    "folio": "f6v",
+    "reference": "qokor",
+    "encoded_text": "qokor",
+    "path": "/home/runner/work/Voynich/Voynich/work/eva_units/reset_groups/training_images/f6v_w0081.png",
+    "image_sha256": "d9404cf896e99a29485d26c90f09186e85e03686e09e4b2ecfac7121392971c3",
+    "label_sha256": "876c280de4af461d3842ada6c7f8d1c1acb8bd109219c22da6db4c4a7029efd9"
+  },
+  {
+    "id": "f6v_w0082",
+    "folio": "f6v",
+    "reference": "chol",
+    "encoded_text": "\ue104ol",
+    "path": "/home/runner/work/Voynich/Voynich/work/eva_units/reset_groups/training_images/f6v_w0082.png",
+    "image_sha256": "a1e98c3dbdc1e3438b833b2cb3ddee2b4eec784b0827fef9f3c8ecb96fc9a8e5",
+    "label_sha256": "bb4a310afe620af8f922e5e51f0c74e1f3b0d13d744cbf8506cc900a59f7512a"
+  },
+  {
+    "id": "f6v_w0083",
+    "folio": "f6v",
+    "reference": "cthol",
+    "encoded_text": "\ue103ol",
+    "path": "/home/runner/work/Voynich/Voynich/work/eva_units/reset_groups/training_images/f6v_w0083.png",
+    "image_sha256": "c35e98521eb6092c90932f9d25b720df2c5271f25620d9cceb58a653e4eafaac",
+    "label_sha256": "7de0c728af10141f8b7f4187df54483031d37bc71bfd975341b694a2b5d98e40"
+  },
+  {
+    "id": "f6v_w0084",
+    "folio": "f6v",
+    "reference": "tchalody",
+    "encoded_text": "t\ue104alody",
+    "path": "/home/runner/work/Voynich/Voynich/work/eva_units/reset_groups/training_images/f6v_w0084.png",
+    "image_sha256": "6ca570f4f83de4653d6e77dfac801bac10ecb62c0e7c8e6970ee023af73a3be3",
+    "label_sha256": "bd1ac43b7e61ad5eea4c67740178de4ce3eb004602954c4a2d5130135492a2ed"
+  },
+  {
+    "id": "f6v_w0085",
+    "folio": "f6v",
+    "reference": "chockhy",
+    "encoded_text": "\ue104o\ue101y",
+    "path": "/home/runner/work/Voynich/Voynich/work/eva_units/reset_groups/training_images/f6v_w0085.png",
+    "image_sha256": "d2e106bdc2f257228abd9dda0550e43f4bb26f2fa19ea67c4c98f737acf3f7af",
+    "label_sha256": "c144ed00c7087e658abf7a7166a5b61b6b23e5357af6a1e18c6879cccaf3dec2"
+  },
+  {
+    "id": "f6v_w0086",
+    "folio": "f6v",
+    "reference": "s",
+    "encoded_text": "s",
+    "path": "/home/runner/work/Voynich/Voynich/work/eva_units/reset_groups/training_images/f6v_w0086.png",
+    "image_sha256": "b47a31cdc13eeb14fd3b3791b43a527352bba1650b96474a3a1fade1644a40a6",
+    "label_sha256": "043a718774c572bd8a25adbeb1bfcd5c0256ae11cecf9f9c3f925d0e52beaf89"
+  },
+  {
+    "id": "f6v_w0087",
+    "folio": "f6v",
+    "reference": "os",
+    "encoded_text": "os",
+    "path": "/home/runner/work/Voynich/Voynich/work/eva_units/reset_groups/training_images/f6v_w0087.png",
+    "image_sha256": "0b5937edc156c7530d634860d93a993b205a10882eb4a4b4e67089f0d68bb8bf",
+    "label_sha256": "840a8dcfeae95966a870b0b5257997ce94cbc19dd979409d1671d2e93a9e0de6"
+  },
+  {
+    "id": "f6v_w0088",
+    "folio": "f6v",
+    "reference": "chy",
+    "encoded_text": "\ue104y",
+    "path": "/home/runner/work/Voynich/Voynich/work/eva_units/reset_groups/training_images/f6v_w0088.png",
+    "image_sha256": "c096fa69e936dfa2b0f27e98a4ee888902881944da8297cbed491bc5c6320ec1",
+    "label_sha256": "083611174b9a32c47ea72a10bfec2ccf9f3b1aff238c4bd2bc5bf1b2f1e67630"
+  },
+  {
+    "id": "f6v_w0089",
+    "folio": "f6v",
+    "reference": "sain",
+    "encoded_text": "sain",
+    "path": "/home/runner/work/Voynich/Voynich/work/eva_units/reset_groups/training_images/f6v_w0089.png",
+    "image_sha256": "d9d9a1d37e758a8a9c8128a45b9fdc2be7b947878abcac69432df759f1373d34",
+    "label_sha256": "c836536ff120612abb73b3d1f483339636015cca1b018cf10f5d50a15842e876"
+  },
+  {
+    "id": "f6v_w0090",
+    "folio": "f6v",
+    "reference": "or",
+    "encoded_text": "or",
+    "path": "/home/runner/work/Voynich/Voynich/work/eva_units/reset_groups/training_images/f6v_w0090.png",
+    "image_sha256": "9cb3724b1d9dbef668a3437b944148f1c4637c0879a3b273a2fc53708228026e",
+    "label_sha256": "7175517a370b5cd2e664e3fd29c4ea9db5ce17058eb9772fe090a5485e49dad6"
+  },
+  {
+    "id": "f6v_w0091",
+    "folio": "f6v",
+    "reference": "ochy",
+    "encoded_text": "o\ue104y",
+    "path": "/home/runner/work/Voynich/Voynich/work/eva_units/reset_groups/training_images/f6v_w0091.png",
+    "image_sha256": "1a140270d90f623202fe62795519de5bdc79f6a80d84e26723a143d8b9248d59",
+    "label_sha256": "6cb7161907ef78d6cfc412da188dc1c78a782209cfa1a45bc4062e654f4ad396"
+  },
+  {
+    "id": "f6v_w0092",
+    "folio": "f6v",
+    "reference": "cthar",
+    "encoded_text": "\ue103ar",
+    "path": "/home/runner/work/Voynich/Voynich/work/eva_units/reset_groups/training_images/f6v_w0092.png",
+    "image_sha256": "599bb213d6cc51666cd5f30b39d91a6f285d93ca449d86d963bec13db630b54b",
+    "label_sha256": "19a35700edda9226a883a6dd4e28e27cf01a7e759e29d5c4b9ba19b08c468e3f"
+  },
+  {
+    "id": "f6v_w0093",
+    "folio": "f6v",
+    "reference": "cthar",
+    "encoded_text": "\ue103ar",
+    "path": "/home/runner/work/Voynich/Voynich/work/eva_units/reset_groups/training_images/f6v_w0093.png",
+    "image_sha256": "8fc4de04eb8489351968bcfe5127874b5fc19c82c7c78137a2bc8c30dc25c045",
+    "label_sha256": "19a35700edda9226a883a6dd4e28e27cf01a7e759e29d5c4b9ba19b08c468e3f"
+  },
+  {
+    "id": "f6v_w0094",
+    "folio": "f6v",
+    "reference": "cthy",
+    "encoded_text": "\ue103y",
+    "path": "/home/runner/work/Voynich/Voynich/work/eva_units/reset_groups/training_images/f6v_w0094.png",
+    "image_sha256": "8b5c1186c671832a4a1513b9edabdeb1c71f5203dfa37ba7d180bbeed766ad40",
+    "label_sha256": "4aca2fea6c469c3c2c58a624ae22e682db19fb5136364f0fe6e359654ad65520"
+  },
+  {
+    "id": "f6v_w0095",
+    "folio": "f6v",
+    "reference": "y",
+    "encoded_text": "y",
+    "path": "/home/runner/work/Voynich/Voynich/work/eva_units/reset_groups/training_images/f6v_w0095.png",
+    "image_sha256": "b357aab0f1848d01c9743119f9b55be3f211a80f2d6ae1717242119bbb2e98da",
+    "label_sha256": "a1fce4363854ff888cff4b8e7875d600c2682390412a8cf79b37d0b11148b0fa"
+  },
+  {
+    "id": "f6v_w0096",
+    "folio": "f6v",
+    "reference": "chaiir",
+    "encoded_text": "\ue104aiir",
+    "path": "/home/runner/work/Voynich/Voynich/work/eva_units/reset_groups/training_images/f6v_w0096.png",
+    "image_sha256": "9fa7a85eada471007b4c7eae1e22cc0618e8885d7bf66bdd4f5613b13479c61c",
+    "label_sha256": "fe333898155d47a4216c89b972e64dea60168fc4377bb98d2497533bbd77bab0"
+  },
+  {
+    "id": "f6v_w0097",
+    "folio": "f6v",
+    "reference": "ckhal",
+    "encoded_text": "\ue101al",
+    "path": "/home/runner/work/Voynich/Voynich/work/eva_units/reset_groups/training_images/f6v_w0097.png",
+    "image_sha256": "3d535c08fedd113bd4ccab1ee495fa8ed84d32cdf78b96eba64ee00c1a8dd5ea",
+    "label_sha256": "ee501ba893f4c6e41198508244d3908a1768f20b48d9e36e83dec896ed97c425"
+  },
+  {
+    "id": "f6v_w0098",
+    "folio": "f6v",
+    "reference": "cthodam",
+    "encoded_text": "\ue103odam",
+    "path": "/home/runner/work/Voynich/Voynich/work/eva_units/reset_groups/training_images/f6v_w0098.png",
+    "image_sha256": "94eabcf459b8df78b6a76c9b532337c25bea242ed8a0c9baf386584523e409db",
+    "label_sha256": "4129d2e0f96ee6fa203efbf7788e2a9becd3a4ea02a6602ad036fa690dad17ac"
+  },
+  {
+    "id": "f6v_w0099",
+    "folio": "f6v",
+    "reference": "dy",
+    "encoded_text": "dy",
+    "path": "/home/runner/work/Voynich/Voynich/work/eva_units/reset_groups/training_images/f6v_w0099.png",
+    "image_sha256": "7823b568aae6bb7dda0ef8ae21aa49e24f57a143ff4a2a97e982fb962fbe7d06",
+    "label_sha256": "aa1be933fec0f68c7d1ef42b15259b73f88c582d5f535753d9ad647394deefe8"
+  },
+  {
+    "id": "f6v_w0100",
+    "folio": "f6v",
+    "reference": "ytcho",
+    "encoded_text": "yt\ue104o",
+    "path": "/home/runner/work/Voynich/Voynich/work/eva_units/reset_groups/training_images/f6v_w0100.png",
+    "image_sha256": "03068c22f9e023c7d3accbbda578174f8a94bcb6570e513f560f1b87d2fed6da",
+    "label_sha256": "d6ef6bdf551bd809f258ab7ba4806b3ce39f33ea1ab8f2dd115a5f2c81a03a48"
+  },
+  {
+    "id": "f6v_w0101",
+    "folio": "f6v",
+    "reference": "cthol",
+    "encoded_text": "\ue103ol",
+    "path": "/home/runner/work/Voynich/Voynich/work/eva_units/reset_groups/training_images/f6v_w0101.png",
+    "image_sha256": "bc598be2054a4e69d5a8ec1cf1f164033d3de4bb0fe42e39ef8058c5d8f21775",
+    "label_sha256": "7de0c728af10141f8b7f4187df54483031d37bc71bfd975341b694a2b5d98e40"
+  },
+  {
+    "id": "f6v_w0102",
+    "folio": "f6v",
+    "reference": "ches",
+    "encoded_text": "\ue104es",
+    "path": "/home/runner/work/Voynich/Voynich/work/eva_units/reset_groups/training_images/f6v_w0102.png",
+    "image_sha256": "3dab8a3bd537a914e92c00f70dce960313873e05fe2a58ca547933781f8d2622",
+    "label_sha256": "07b02f46b55dda6ddbac9a34c1bfadbcf34aed0d14d3fd97e94862db6afdc806"
+  },
+  {
+    "id": "f6v_w0103",
+    "folio": "f6v",
+    "reference": "cthor",
+    "encoded_text": "\ue103or",
+    "path": "/home/runner/work/Voynich/Voynich/work/eva_units/reset_groups/training_images/f6v_w0103.png",
+    "image_sha256": "b184005114908fd144a187ba37c089ef78abd4ba0d11370f2741256c564e77c2",
+    "label_sha256": "d3bebea300185a52ff03c2363ac126f8d0ce66b77179d54273f49c92b8d8ffe9"
+  },
+  {
+    "id": "f6v_w0104",
+    "folio": "f6v",
+    "reference": "ocholy",
+    "encoded_text": "o\ue104oly",
+    "path": "/home/runner/work/Voynich/Voynich/work/eva_units/reset_groups/training_images/f6v_w0104.png",
+    "image_sha256": "bd951bcb3c7a8bb097f69df6565b4a97d00a406bba7b373a1f00b33167ccd869",
+    "label_sha256": "aa70c62d8efa5c5676a90e09eaae1c4b6a6f09d6be76a4c7923c5cc92db57ddf"
+  },
+  {
+    "id": "f6v_w0105",
+    "folio": "f6v",
+    "reference": "kchos",
+    "encoded_text": "k\ue104os",
+    "path": "/home/runner/work/Voynich/Voynich/work/eva_units/reset_groups/training_images/f6v_w0105.png",
+    "image_sha256": "3457d4e245e8fb202fdf29360665435ddaa017d8ef6ea856cb3cfb42e607612e",
+    "label_sha256": "ecb68fcdbb4d01b71595a95f1230ab73d5241bf3f27f5cdbfff9e8c594d70469"
+  },
+  {
+    "id": "f6v_w0106",
+    "folio": "f6v",
+    "reference": "chy",
+    "encoded_text": "\ue104y",
+    "path": "/home/runner/work/Voynich/Voynich/work/eva_units/reset_groups/training_images/f6v_w0106.png",
+    "image_sha256": "e569b4a919abfcc60fde9fee1616fe265e22a3e06d79b60184eb3b799199c98c",
+    "label_sha256": "083611174b9a32c47ea72a10bfec2ccf9f3b1aff238c4bd2bc5bf1b2f1e67630"
+  },
+  {
+    "id": "f6v_w0107",
+    "folio": "f6v",
+    "reference": "dor",
+    "encoded_text": "dor",
+    "path": "/home/runner/work/Voynich/Voynich/work/eva_units/reset_groups/training_images/f6v_w0107.png",
+    "image_sha256": "e11d292baea7095fa4ed75b84c99d8496f5abcd8faaaf107c9e681b1946abf36",
+    "label_sha256": "f3cf3f52140e146702cb77f015f2530adc7f5056c7b59c3be8568df9181d67bb"
+  },
+  {
+    "id": "f6v_w0108",
+    "folio": "f6v",
+    "reference": "dchor",
+    "encoded_text": "d\ue104or",
+    "path": "/home/runner/work/Voynich/Voynich/work/eva_units/reset_groups/training_images/f6v_w0108.png",
+    "image_sha256": "4fac8b5e68e566d8ced5e7f607e2456067e9ddbcbe7ab63e0cf1cac5315b210f",
+    "label_sha256": "cfb1ab7af6950a1a744acc1d431dc6840b0fdff955cdf19fae424e665f16f9b7"
+  },
+  {
+    "id": "f6v_w0109",
+    "folio": "f6v",
+    "reference": "choldar",
+    "encoded_text": "\ue104oldar",
+    "path": "/home/runner/work/Voynich/Voynich/work/eva_units/reset_groups/training_images/f6v_w0109.png",
+    "image_sha256": "e88ee4887d4bba4230cf7cbb5c9c510f1268fbb67f17a558793663a6560f326a",
+    "label_sha256": "f4a7420824112f0229f7a22d284c010f3718222745703b5e1cad95330d24edac"
+  },
+  {
+    "id": "f6v_w0110",
+    "folio": "f6v",
+    "reference": "okol",
+    "encoded_text": "okol",
+    "path": "/home/runner/work/Voynich/Voynich/work/eva_units/reset_groups/training_images/f6v_w0110.png",
+    "image_sha256": "e6be84e5f9bcdfeff3c8cb993f93cb3110b2b6ade9add044c3cc9dc01c09ef52",
+    "label_sha256": "2aed9df78446daa8cb7e394606a545d5922e108d06289151c643074b48eb31dd"
+  },
+  {
+    "id": "f6v_w0111",
+    "folio": "f6v",
+    "reference": "daiin",
+    "encoded_text": "daiin",
+    "path": "/home/runner/work/Voynich/Voynich/work/eva_units/reset_groups/training_images/f6v_w0111.png",
+    "image_sha256": "b09660c9706d24ce1977c0cc8d47ede3bb1ff4209cfb2df84bdb8221d6dcccda",
+    "label_sha256": "acdd663103aaa9716f1210878c0c7ba9668300c500adcd194e167724d12f4ffc"
+  },
+  {
+    "id": "f6v_w0112",
+    "folio": "f6v",
+    "reference": "ycheor",
+    "encoded_text": "y\ue104eor",
+    "path": "/home/runner/work/Voynich/Voynich/work/eva_units/reset_groups/training_images/f6v_w0112.png",
+    "image_sha256": "d5b5f09b5c9e1014b99cb023aa3fbf9c15a7f4686f802f377943ad1491367a73",
+    "label_sha256": "42dec383bc0b4fd09070bf4457e9bf6d49eaf87c14f14388eb077811b8f041f9"
+  },
+  {
+    "id": "f6v_w0113",
+    "folio": "f6v",
+    "reference": "chor",
+    "encoded_text": "\ue104or",
+    "path": "/home/runner/work/Voynich/Voynich/work/eva_units/reset_groups/training_images/f6v_w0113.png",
+    "image_sha256": "8dad4248f81d6f699d1e697761100731cbc0b44773368cc935d8ed2364dbc93e",
+    "label_sha256": "bcbb30b42483a69d6ff854846b6181f6537ca64e812ab49afc145a63eb09743e"
+  },
+  {
+    "id": "f6v_w0114",
+    "folio": "f6v",
+    "reference": "octham",
+    "encoded_text": "o\ue103am",
+    "path": "/home/runner/work/Voynich/Voynich/work/eva_units/reset_groups/training_images/f6v_w0114.png",
+    "image_sha256": "c205611ca186524624b08ec82c9b5b315f7f3a73c3f92fe3cba364b80da3ba07",
+    "label_sha256": "1177ac02439613dd4e17640b68a7b7def4f2291c2030c141dc8856b9097e99ea"
+  }
+]
