@@ -1,0 +1,7 @@
+# 69c — Diagnóstico posterior de repetición en un mismo proceso
+
+27 de octubre de 2026. Los dos entrenamientos del seguimiento 69b terminaron en la ejecución `40545818493`, commit `544c197aa49d6aa2c4e9cfcca4db54853032afc0`. Se observaron diferencias al inferir el mismo modelo inicial, con el mismo SHA-256, en dos servidores: 464 frente a 465 errores en la hoja 4 y 503 frente a 501 en la hoja 7. Se conservan todas las predicciones; no se modifica ningún peso ni se escoge la cifra más favorable.
+
+Se fija este diagnóstico después de observar esa variación. Los tres modelos —inicial, continuación de 197 ejemplos y ampliación de 442— se cargarán y evaluarán secuencialmente en el mismo proceso, sobre las mismas 147+135 muestras, con CPU/dos hilos y el entorno fijado de los entrenamientos. Se repetirán dos pasadas completas, volviendo a cargar los mismos ficheros. La primera pasada será la comparación principal de este diagnóstico, aunque la segunda obtenga otra cifra. Se guardarán ambas y todas sus discrepancias, métricas y llamadas a la red.
+
+Se verificarán los SHA-256 de cada modelo, metadata y recorte. El diagnóstico no entrena, no selecciona checkpoints, no incorpora datos, no cambia la reserva ni proporciona otra validación externa. La evaluación común permitirá comparar las salidas observadas bajo un mismo entorno. Dos pasadas iguales no garantizan reproducibilidad en otros equipos; la causa de las diferencias entre servidores permanece sin aislar.

@@ -1,0 +1,56 @@
+name: Kraken expansion same-process frozen evaluation
+on:
+  push:
+    branches: [experiment/kraken-voynich]
+    paths:
+      - 'research_gpt6/code/evaluate_kraken_expansion_common.py'
+      - '.github/workflows/kraken-expansion-common-evaluation.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+  actions: read
+jobs:
+  evaluate:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 15
+    env:
+      OMP_NUM_THREADS: '2'
+      MKL_NUM_THREADS: '2'
+      OPENBLAS_NUM_THREADS: '2'
+      PYTHONUNBUFFERED: '1'
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install fixed CPU environment
+        run: |
+          python -m pip install 'torch==2.9.0' 'torchvision==0.24.0' --index-url https://download.pytorch.org/whl/cpu
+          python -m pip install 'kraken==7.1' 'lightning==2.6.1' 'pillow==12.3.0' 'numpy==2.4.6' 'scipy==1.15.3'
+      - uses: actions/download-artifact@v4
+        with:
+          name: kraken-expansion-prepared
+          run-id: 40544897322
+          path: work/primary_geometry
+          github-token: ${{ github.token }}
+      - uses: actions/download-artifact@v4
+        with:
+          pattern: kraken-expansion-*
+          run-id: 40545818493
+          path: work/downloaded
+          github-token: ${{ github.token }}
+      - name: Reconstruct identical accepted inputs
+        run: |
+          python research_gpt6/code/build_kraken_expansion_followup.py --plan research_gpt6/data/kraken_expansion_followup_plan.json --repo research_gpt6 --primary work/primary_geometry --out work/prepared
+          mkdir -p work/runs
+          mv work/downloaded/kraken-expansion-continuation_200 work/runs/continuation_200
+          mv work/downloaded/kraken-expansion-expanded_200 work/runs/expanded_200
+      - name: Score three frozen models twice in one process
+        run: python research_gpt6/code/evaluate_kraken_expansion_common.py --repo research_gpt6 --prepared work/prepared --runs work/runs --out work/common_evaluation
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: kraken-expansion-common-evaluation
+          path: work/common_evaluation/
+          if-no-files-found: warn
+          retention-days: 30
