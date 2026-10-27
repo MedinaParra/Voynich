@@ -1,0 +1,52 @@
+name: Kraken expansion fixed geometry gates
+on:
+  push:
+    branches: [experiment/kraken-voynich]
+    paths:
+      - 'research_gpt6/code/prepare_kraken_expansion.py'
+      - 'research_gpt6/data/kraken_expansion_inputs.json'
+      - '.github/workflows/kraken-expansion-geometry.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  prepare:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 15
+    env:
+      OMP_NUM_THREADS: '2'
+      OPENBLAS_NUM_THREADS: '2'
+      PYTHONUNBUFFERED: '1'
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install fixed registration environment
+        run: python -m pip install 'numpy==2.2.6' 'opencv-python-headless==4.12.0.88' 'pillow==12.3.0' 'scipy==1.15.3'
+      - name: Check preserved crop and spatial controls
+        run: |
+          python research_gpt6/code/test_kraken_eva_word_training.py
+          python research_gpt6/code/test_local_residual_registration.py
+      - name: Check frozen metadata bytes
+        run: |
+          python - <<'PY'
+          import hashlib
+          from pathlib import Path
+          p=Path('research_gpt6/data/kraken_expansion_inputs.json')
+          assert hashlib.sha256(p.read_bytes()).hexdigest()=='98b773102adc8cb7711dec0fc8c31f5a12dfa247717cd3e1eb835ff7e4959cb3'
+          PY
+      - name: Gate all six pages and preserve old samples byte for byte
+        run: |
+          python research_gpt6/code/prepare_kraken_expansion.py \
+            --plan research_gpt6/data/kraken_expansion_plan.json \
+            --inputs research_gpt6/data/kraken_expansion_inputs.json \
+            --repo research_gpt6 --out work/kraken_expansion_prepared
+      - name: Preserve geometry and prepared words even on failure
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: kraken-expansion-prepared
+          path: work/kraken_expansion_prepared/
+          if-no-files-found: warn
+          retention-days: 30

@@ -1,0 +1,122 @@
+[
+  {
+    "folio": "f5r",
+    "kind": "json",
+    "url": "https://www.voynichese.com/1/data/folio/script/f5r.js",
+    "bytes": 2659,
+    "sha256": "aee1f7d85485b54e6594338b99d2d162c8f47ae653d657c05d39a2cc850ba2b1",
+    "content_type": "application/javascript",
+    "http_status": 200,
+    "retrieved_utc": "2026-10-27T16:46:58.361767+00:00"
+  },
+  {
+    "folio": "f5r",
+    "kind": "preview",
+    "url": "https://www.voynichese.com/1/data/folio/image/glance/color/large/f5r.jpg",
+    "bytes": 85341,
+    "sha256": "55c0b17d6a20f4f547822ecae9c7463764b15b211d6b69653980be3e50e8880d",
+    "content_type": "image/jpeg",
+    "http_status": 200,
+    "retrieved_utc": "2026-10-27T16:47:04.700574+00:00"
+  },
+  {
+    "folio": "f5v",
+    "kind": "json",
+    "url": "https://www.voynichese.com/1/data/folio/script/f5v.js",
+    "bytes": 2090,
+    "sha256": "fd343bfe690fcba1d7357e495779b79df9c7e32cfe76bf4b98969184e4cd957b",
+    "content_type": "application/javascript",
+    "http_status": 200,
+    "retrieved_utc": "2026-10-27T16:47:10.854847+00:00"
+  },
+  {
+    "folio": "f5v",
+    "kind": "preview",
+    "url": "https://www.voynichese.com/1/data/folio/image/glance/color/large/f5v.jpg",
+    "bytes": 98426,
+    "sha256": "6a8f7982df1145d95ce3abb2b1c45e6d34cd203e7994a1bb1628808129346d6d",
+    "content_type": "image/jpeg",
+    "http_status": 200,
+    "retrieved_utc": "2026-10-27T16:47:17.099228+00:00"
+  },
+  {
+    "folio": "f6r",
+    "kind": "json",
+    "url": "https://www.voynichese.com/1/data/folio/script/f6r.js",
+    "bytes": 3947,
+    "sha256": "caf99bf10560d01bec1aa4b2588f60f709b69184b8c82e634c0ce6cb9b1bb409",
+    "content_type": "application/javascript",
+    "http_status": 200,
+    "retrieved_utc": "2026-10-27T16:47:23.395992+00:00"
+  },
+  {
+    "folio": "f6r",
+    "kind": "preview",
+    "url": "https://www.voynichese.com/1/data/folio/image/glance/color/large/f6r.jpg",
+    "bytes": 86600,
+    "sha256": "3b852f436abfe6d4f82fb5a3c82962b41113a0c1608bce9ed6e294a80bf77d2a",
+    "content_type": "image/jpeg",
+    "http_status": 200,
+    "retrieved_utc": "2026-10-27T16:47:29.775221+00:00"
+  },
+  {
+    "folio": "f6v",
+    "kind": "json",
+    "url": "https://www.voynichese.com/1/data/folio/script/f6v.js",
+    "bytes": 5152,
+    "sha256": "ad51dde87ef1ba8434bc22d38b347f393d1eb72bf93a395ede1729d9d988e442",
+    "content_type": "application/javascript",
+    "http_status": 200,
+    "retrieved_utc": "2026-10-27T16:47:36.052072+00:00"
+  },
+  {
+    "folio": "f6v",
+    "kind": "preview",
+    "url": "https://www.voynichese.com/1/data/folio/image/glance/color/large/f6v.jpg",
+    "bytes": 85781,
+    "sha256": "c45708e438b38e2ff91742ddd9be9335505415f2245ebdc2e192023559911f54",
+    "content_type": "image/jpeg",
+    "http_status": 200,
+    "retrieved_utc": "2026-10-27T16:47:42.347904+00:00"
+  },
+  {
+    "folio": "f7r",
+    "kind": "json",
+    "url": "https://www.voynichese.com/1/data/folio/script/f7r.js",
+    "bytes": 3123,
+    "sha256": "5474af7534a9dc3b7a7e6bf420f90e5861356cc5155a9dc8c0fa1ed97e726ef9",
+    "content_type": "application/javascript",
+    "http_status": 200,
+    "retrieved_utc": "2026-10-27T16:47:49.372448+00:00"
+  },
+  {
+    "folio": "f7r",
+    "kind": "preview",
+    "url": "https://www.voynichese.com/1/data/folio/image/glance/color/large/f7r.jpg",
+    "bytes": 74526,
+    "sha256": "66afa6acfbbca9693f4a917e2abc72f82c5d500a3d9301693ab8face887fce7f",
+    "content_type": "image/jpeg",
+    "http_status": 200,
+    "retrieved_utc": "2026-10-27T16:47:56.840302+00:00"
+  },
+  {
+    "folio": "f7v",
+    "kind": "json",
+    "url": "https://www.voynichese.com/1/data/folio/script/f7v.js",
+    "bytes": 3393,
+    "sha256": "f7bf13d31d1a058f9e16e90daf4b6b8019b218a0931e031e5bac6dd09e1204c5",
+    "content_type": "application/javascript",
+    "http_status": 200,
+    "retrieved_utc": "2026-10-27T16:48:03.139682+00:00"
+  },
+  {
+    "folio": "f7v",
+    "kind": "preview",
+    "url": "https://www.voynichese.com/1/data/folio/image/glance/color/large/f7v.jpg",
+    "bytes": 71282,
+    "sha256": "aed853057a4b9b422207b1bccf3cc0552e21de5d8710bf9bcc61847dc4ba80eb",
+    "content_type": "image/jpeg",
+    "http_status": 200,
+    "retrieved_utc": "2026-10-27T16:48:09.349137+00:00"
+  }
+]
