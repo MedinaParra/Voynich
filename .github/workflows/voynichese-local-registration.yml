@@ -1,0 +1,48 @@
+name: Local residual registration spatial validation
+
+on:
+  push:
+    branches: [experiment/kraken-voynich]
+    paths:
+      - 'research_gpt6/code/local_residual_registration.py'
+      - 'research_gpt6/code/test_local_residual_registration.py'
+      - 'research_gpt6/data/local_registration_plan.json'
+      - '.github/workflows/voynichese-local-registration.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  fixed-spatial-validation:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 15
+    env:
+      OMP_NUM_THREADS: '2'
+      OPENBLAS_NUM_THREADS: '2'
+      PYTHONUNBUFFERED: '1'
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install fixed geometric environment
+        run: |
+          python -m pip install --disable-pip-version-check -r research_gpt6/data/voynichese_registration_requirements.txt
+          python -m pip check
+      - name: Run numerical controls
+        run: python research_gpt6/code/test_local_residual_registration.py
+      - name: Run all spatial folds and all predeclared conditions
+        run: |
+          python research_gpt6/code/local_residual_registration.py \
+            --plan research_gpt6/data/local_registration_plan.json \
+            --repo research_gpt6 \
+            --out work/voynichese_local_registration
+      - name: Preserve all outcomes
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: voynichese-local-registration
+          path: work/voynichese_local_registration/
+          if-no-files-found: warn
+          retention-days: 30

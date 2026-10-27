@@ -1,0 +1,42 @@
+[
+  {
+    "folio": "f3r",
+    "scope": "EXPLORATORY_FIT_POINTS_ONLY_NO_NEW_HELDOUT_SCORE",
+    "fit_points": 686,
+    "fit_points_within20": 675,
+    "global_fit_median": 0.9361107903535517,
+    "global_fit_p90": 2.745918243037221,
+    "neighbor_median_residual_prediction_error_median": 0.606993294222875,
+    "neighbor_median_residual_prediction_error_p90": 1.5274888465933445
+  },
+  {
+    "folio": "f3v",
+    "scope": "EXPLORATORY_FIT_POINTS_ONLY_NO_NEW_HELDOUT_SCORE",
+    "fit_points": 481,
+    "fit_points_within20": 478,
+    "global_fit_median": 0.9926643346351552,
+    "global_fit_p90": 5.620508847769087,
+    "neighbor_median_residual_prediction_error_median": 0.7013676531246585,
+    "neighbor_median_residual_prediction_error_p90": 1.9190999333774852
+  },
+  {
+    "folio": "f4r",
+    "scope": "EXPLORATORY_FIT_POINTS_ONLY_NO_NEW_HELDOUT_SCORE",
+    "fit_points": 321,
+    "fit_points_within20": 318,
+    "global_fit_median": 1.3872234398661005,
+    "global_fit_p90": 5.429871746417506,
+    "neighbor_median_residual_prediction_error_median": 0.8202186252250893,
+    "neighbor_median_residual_prediction_error_p90": 1.9670000149847207
+  },
+  {
+    "folio": "f4v",
+    "scope": "EXPLORATORY_FIT_POINTS_ONLY_NO_NEW_HELDOUT_SCORE",
+    "fit_points": 479,
+    "fit_points_within20": 475,
+    "global_fit_median": 1.258346868581397,
+    "global_fit_p90": 3.9148164273158033,
+    "neighbor_median_residual_prediction_error_median": 0.6223541356305554,
+    "neighbor_median_residual_prediction_error_p90": 1.6745278209456653
+  }
+]

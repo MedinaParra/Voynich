@@ -1,0 +1,32 @@
+{
+  "date": "2026-10-27",
+  "base_commit": "a6782f473df5e423c27d780ca830686e84b19e61",
+  "experiment": "fixed-spatial-median-residual-registration-development",
+  "correspondences_path": "results/voynichese_registration/correspondences.json",
+  "correspondences_sha256": "e2519a6bca9defd1589924e935f9726cb49d36276bdca9737dec4ed7b9ebe517",
+  "previous_result_path": "results/voynichese_registration/result.json",
+  "previous_result_sha256": "3a4bd6cbd95b5ef6f2b562d613580786fc7b7730dd46c0e49f20a9038401aff1",
+  "inputs_path": "data/voynichese_registration_inputs.json",
+  "inputs_sha256": "58b44eac6c86f76e6a90066b9949663ed824db1fc83d6a26b49ce72b9d798797",
+  "seed": 20261027,
+  "folds": 5,
+  "guard_source_pixels": 3,
+  "local": {
+    "fit_residual_limit_yale_pixels": 20,
+    "source_group_grid_pixels": 0.1,
+    "radius_source_pixels": 80,
+    "maximum_neighbors": 20,
+    "minimum_groups": 3,
+    "correction_limit_yale_pixels": 20
+  },
+  "conditions": ["global", "spatial_median", "shuffled_median"],
+  "fold_rule": "8x8 source blocks, (column+2*row)%5; reserve each color once. Remove fit points within <=3 source pixels of any held-out point.",
+  "global_fit": "OpenCV homography RANSAC, threshold3 Yale pixels, max10000, confidence0.999, seed+fold",
+  "shuffle_seed": "seed+1000*page_number+fold, page order f3r/f3v/f4r/f4v; one fixed residual permutation per case",
+  "per_case_gate": {"fit_inliers_min":50,"fit_inlier_x_y_span_min":0.5,"heldout_min":10,"heldout_median_max":2,"heldout_p90_max":5,"within_5_min":0.8},
+  "f4r_adoption": "All5 spatial_median fold gates must pass; pooled p90 lower than global and shuffled controls. Then fit all414 original correspondences with seed+10000, check17x25 coarse grid orientation, and require all64 word polygons valid. No words exported as accepted if any final check fails.",
+  "scope": "Previously explored pages and candidate SIFT correspondences. Hypothesis motivated by old fit-only data. Development geometry diagnostic, not independent expert registration, new manuscript samples, linguistic evidence or decipherment.",
+  "previous_candidates_modified": false,
+  "new_ocr_training": "NOT_RUN",
+  "translation": "NOT_RUN"
+}
