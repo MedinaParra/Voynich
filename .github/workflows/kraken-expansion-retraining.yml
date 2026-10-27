@@ -1,0 +1,69 @@
+name: Kraken exploratory expansion and continuation retraining
+on:
+  push:
+    branches: [experiment/kraken-voynich]
+    paths:
+      - 'research_gpt6/code/retrain_kraken_expansion.py'
+      - 'research_gpt6/code/build_kraken_expansion_followup.py'
+      - 'research_gpt6/code/test_kraken_expansion_controls.py'
+      - 'research_gpt6/data/kraken_expansion_followup_plan.json'
+      - 'research_gpt6/data/kraken_expansion_execution.json'
+      - '.github/workflows/kraken-expansion-retraining.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+  actions: read
+jobs:
+  retrain:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 50
+    strategy:
+      fail-fast: false
+      matrix:
+        variant: [continuation_200, expanded_200]
+    env:
+      OMP_NUM_THREADS: '2'
+      MKL_NUM_THREADS: '2'
+      OPENBLAS_NUM_THREADS: '2'
+      PYTHONUNBUFFERED: '1'
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install same fixed CPU OCR environment
+        run: |
+          python -m pip install 'torch==2.9.0' 'torchvision==0.24.0' --index-url https://download.pytorch.org/whl/cpu
+          python -m pip install 'kraken==7.1' 'lightning==2.6.1' 'pillow==12.3.0' 'numpy==2.4.6' 'scipy==1.15.3'
+          python -m pip check
+      - name: Check crop and partition controls
+        run: |
+          python research_gpt6/code/test_kraken_eva_word_training.py
+          python research_gpt6/code/test_kraken_expansion_controls.py
+      - name: Retrieve primary geometry evidence including its failure
+        uses: actions/download-artifact@v4
+        with:
+          name: kraken-expansion-prepared
+          path: work/primary_geometry
+          run-id: 40544897322
+          github-token: ${{ github.token }}
+      - name: Build explicitly exploratory five-page follow-up without new geometry fits
+        run: |
+          python research_gpt6/code/build_kraken_expansion_followup.py \
+            --plan research_gpt6/data/kraken_expansion_followup_plan.json \
+            --repo research_gpt6 --primary work/primary_geometry --out work/prepared
+      - name: Recheck prepared hashes and retrain from the preserved EVA model
+        run: |
+          python research_gpt6/code/retrain_kraken_expansion.py \
+            --plan research_gpt6/data/kraken_expansion_followup_plan.json \
+            --execution research_gpt6/data/kraken_expansion_execution.json \
+            --repo research_gpt6 --prepared work/prepared \
+            --variant '${{ matrix.variant }}' --out 'work/kraken_expansion/${{ matrix.variant }}'
+      - name: Preserve both outcomes and failures
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: kraken-expansion-${{ matrix.variant }}
+          path: work/kraken_expansion/${{ matrix.variant }}/
+          if-no-files-found: warn
+          retention-days: 30

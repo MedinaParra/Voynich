@@ -1,0 +1,20 @@
+{
+  "protocol_plan_sha256": "bbefcf11409638dd2cda7ffec9bbe2248d12b13bea83e23d16e3556313784e62",
+  "primary_geometry_run_id": 40544897322,
+  "primary_geometry_execution_commit": "8c6141623db3e0aaa9c3918ddca962f42d3126a2",
+  "primary_artifact_id": 12751972641,
+  "primary_artifact_zip_sha256": "20afd84553e4586bd73b55f5bea24309655fe82b736e481729e27d0014512c4c",
+  "prepared_hashes": {
+    "geometry_result.json": "070a8e9dbbd0882c99ecb3b733af142eb59e6e089ad2187dc8beecf379f79087",
+    "dataset.json": "ba02c759e1f7b1f76b1f1b032fb8b5c7a77bef5a231e81df2cb4b283d242addd",
+    "geometry_models.json": "11eaab1c5907b7e7adc7a8d1416a4e9a135c731d994007378ff06f40064dc099",
+    "geometry_cases.json": "1eee3435311ee30b0a7579c0c4f3788580c56b9c586e5b26c906cee65f911eef",
+    "geometry_correspondences.json": "a48aa14ca386173cc748fb68aca6f95cf20e26f89e275672cf044a62ab313cd4",
+    "geometry_grids.json": "7b04ed1c57b3797927a545ed2a6717d77c3d2ec483adf24a4ab22a5ee9fd250f",
+    "new_word_polygons.json": "a0969ad31e1e31ef523bfdbd858f8aaf63c9c55a809a7eaef3ca89a80ea7af05",
+    "primary_geometry_result.json": "384e3646b6ef2f01c58049ba6a1aa9e4b2eddcde6ffc1c873a3a34302bb33970"
+  },
+  "design_status": "EXPLORATORY_GEOMETRY_FILTERED_AFTER_PRIMARY_GATE_FAILURE",
+  "expert_review": "NOT_REVIEWED",
+  "translation": "NOT_RUN"
+}
