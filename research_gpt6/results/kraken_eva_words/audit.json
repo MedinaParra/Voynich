@@ -1,0 +1,104 @@
+{
+  "checks": 16382,
+  "execution_commit": "cb97858416cd43cade752750956c4f13dc86f719",
+  "mismatches": [],
+  "run_id": "40540629476",
+  "scope": "Independent arithmetic, input pixels, label and training evidence audit; no fresh inference, expert review or translation.",
+  "status": "PASS",
+  "summary": {
+    "aligned_200": {
+      "development_metrics": {
+        "empty": {
+          "cer": 1.0,
+          "errors": 744,
+          "exact_word_fraction": 0.0,
+          "exact_words": 0,
+          "reference_characters": 744,
+          "words": 147
+        },
+        "kraken": {
+          "cer": 0.625,
+          "errors": 465,
+          "exact_word_fraction": 0.013605442176870748,
+          "exact_words": 2,
+          "reference_characters": 744,
+          "words": 147
+        },
+        "mode_word": {
+          "cer": 0.7123655913978495,
+          "errors": 530,
+          "exact_word_fraction": 0.027210884353741496,
+          "exact_words": 4,
+          "reference_characters": 744,
+          "words": 147
+        },
+        "nearest_image": {
+          "cer": 0.6841397849462365,
+          "errors": 509,
+          "exact_word_fraction": 0.09523809523809523,
+          "exact_words": 14,
+          "reference_characters": 744,
+          "words": 147
+        },
+        "repeat_character": {
+          "cer": 0.967741935483871,
+          "errors": 720,
+          "exact_word_fraction": 0.0,
+          "exact_words": 0,
+          "reference_characters": 744,
+          "words": 147
+        }
+      },
+      "result_sha256": "5086faf6c2300d87ca5e57737d743288ba0f83a939d3c9b132e9eeea7217f4c3",
+      "training_fit_cer_assigned": 0.00847457627118644,
+      "training_fit_cer_true": 0.00847457627118644
+    },
+    "permuted_200": {
+      "development_metrics": {
+        "empty": {
+          "cer": 1.0,
+          "errors": 744,
+          "exact_word_fraction": 0.0,
+          "exact_words": 0,
+          "reference_characters": 744,
+          "words": 147
+        },
+        "kraken": {
+          "cer": 0.7661290322580645,
+          "errors": 570,
+          "exact_word_fraction": 0.006802721088435374,
+          "exact_words": 1,
+          "reference_characters": 744,
+          "words": 147
+        },
+        "mode_word": {
+          "cer": 0.7123655913978495,
+          "errors": 530,
+          "exact_word_fraction": 0.027210884353741496,
+          "exact_words": 4,
+          "reference_characters": 744,
+          "words": 147
+        },
+        "nearest_image": {
+          "cer": 0.6841397849462365,
+          "errors": 509,
+          "exact_word_fraction": 0.09523809523809523,
+          "exact_words": 14,
+          "reference_characters": 744,
+          "words": 147
+        },
+        "repeat_character": {
+          "cer": 0.967741935483871,
+          "errors": 720,
+          "exact_word_fraction": 0.0,
+          "exact_words": 0,
+          "reference_characters": 744,
+          "words": 147
+        }
+      },
+      "result_sha256": "597f0376b5a84e3bbb06e8fcc97e0c35f565da4efe1ee56ad93a8ca6a31c88ef",
+      "training_fit_cer_assigned": 0.04343220338983051,
+      "training_fit_cer_true": 0.7235169491525424
+    }
+  }
+}

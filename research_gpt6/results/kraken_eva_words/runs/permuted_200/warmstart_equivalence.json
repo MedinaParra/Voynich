@@ -1,0 +1,229 @@
+{
+  "source_sha256": "b5df9eef0a783bec696b33636fbfb8d4807bfaa256d74ad6b34df4c58db66acb",
+  "converted_sha256": "7afbead852968f54d8eda95a8524cee7561a35add8ec9497235c419ef81a1d92",
+  "source_tensors": {
+    "C_0.co.weight": {
+      "shape": [
+        16,
+        1,
+        3,
+        3
+      ],
+      "dtype": "torch.float32",
+      "sha256": "8e9a5cc00b3af295b0912d12252e733f69a30bc31ffc3a8ed2c716e83f8d1945"
+    },
+    "C_0.co.bias": {
+      "shape": [
+        16
+      ],
+      "dtype": "torch.float32",
+      "sha256": "706e2c3334dca408a4af5a0f256e63e405aab12c587689bbc93b171570679bd6"
+    },
+    "C_2.co.weight": {
+      "shape": [
+        32,
+        16,
+        3,
+        3
+      ],
+      "dtype": "torch.float32",
+      "sha256": "1a7186ccb038f377ca01d55f61232f7bfea23ed63845444222a49e1c6d9ee988"
+    },
+    "C_2.co.bias": {
+      "shape": [
+        32
+      ],
+      "dtype": "torch.float32",
+      "sha256": "8196883e92716fbbaa0b10583817e832a32889a060be0e5c31ff9c6640783c0b"
+    },
+    "L_5.layer.weight_ih_l0": {
+      "shape": [
+        256,
+        384
+      ],
+      "dtype": "torch.float32",
+      "sha256": "2044942e728055e369200ea56f2a0754359cc2d2aa8ed7d1aa5279937609bf85"
+    },
+    "L_5.layer.weight_hh_l0": {
+      "shape": [
+        256,
+        64
+      ],
+      "dtype": "torch.float32",
+      "sha256": "7fdfd9f88eceae7cf0d4ca288e80b2d1e1bfda21ad18882b1861e3780d264574"
+    },
+    "L_5.layer.bias_ih_l0": {
+      "shape": [
+        256
+      ],
+      "dtype": "torch.float32",
+      "sha256": "5f70bf18a086007016e948b04aed3b82103a36bea41755b6cddfaf10ace3c6ef"
+    },
+    "L_5.layer.bias_hh_l0": {
+      "shape": [
+        256
+      ],
+      "dtype": "torch.float32",
+      "sha256": "2567ab8b29c45c1a2cf443421c79870eb9dd9dce9c5427ef4f733191f98cc0db"
+    },
+    "L_5.layer.weight_ih_l0_reverse": {
+      "shape": [
+        256,
+        384
+      ],
+      "dtype": "torch.float32",
+      "sha256": "f90db7d13a336b73efb342ecd4c576af84973247fe4dae15264eb7fb2df53227"
+    },
+    "L_5.layer.weight_hh_l0_reverse": {
+      "shape": [
+        256,
+        64
+      ],
+      "dtype": "torch.float32",
+      "sha256": "6a15f8866e7a014a8134785836d4a6e6066cff7af9141cf349db349699d86f51"
+    },
+    "L_5.layer.bias_ih_l0_reverse": {
+      "shape": [
+        256
+      ],
+      "dtype": "torch.float32",
+      "sha256": "5f70bf18a086007016e948b04aed3b82103a36bea41755b6cddfaf10ace3c6ef"
+    },
+    "L_5.layer.bias_hh_l0_reverse": {
+      "shape": [
+        256
+      ],
+      "dtype": "torch.float32",
+      "sha256": "4f683a5d1f6e865eee2bbfed881c6441b26490cb916a06241a45c3d9c0b49496"
+    },
+    "O_6.lin.weight": {
+      "shape": [
+        40,
+        128
+      ],
+      "dtype": "torch.float32",
+      "sha256": "cbf1ed09b8c12f26eb5dd68ff7383f4162862b27194f99d3cadc6d147a17971a"
+    },
+    "O_6.lin.bias": {
+      "shape": [
+        40
+      ],
+      "dtype": "torch.float32",
+      "sha256": "42820e35717d8350a838538a66c27773a136bb47aea42440884fe5d77583d9f3"
+    }
+  },
+  "converted_tensors": {
+    "C_0.co.weight": {
+      "shape": [
+        16,
+        1,
+        3,
+        3
+      ],
+      "dtype": "torch.float32",
+      "sha256": "8e9a5cc00b3af295b0912d12252e733f69a30bc31ffc3a8ed2c716e83f8d1945"
+    },
+    "C_0.co.bias": {
+      "shape": [
+        16
+      ],
+      "dtype": "torch.float32",
+      "sha256": "706e2c3334dca408a4af5a0f256e63e405aab12c587689bbc93b171570679bd6"
+    },
+    "C_2.co.weight": {
+      "shape": [
+        32,
+        16,
+        3,
+        3
+      ],
+      "dtype": "torch.float32",
+      "sha256": "1a7186ccb038f377ca01d55f61232f7bfea23ed63845444222a49e1c6d9ee988"
+    },
+    "C_2.co.bias": {
+      "shape": [
+        32
+      ],
+      "dtype": "torch.float32",
+      "sha256": "8196883e92716fbbaa0b10583817e832a32889a060be0e5c31ff9c6640783c0b"
+    },
+    "L_5.layer.weight_ih_l0": {
+      "shape": [
+        256,
+        384
+      ],
+      "dtype": "torch.float32",
+      "sha256": "2044942e728055e369200ea56f2a0754359cc2d2aa8ed7d1aa5279937609bf85"
+    },
+    "L_5.layer.weight_hh_l0": {
+      "shape": [
+        256,
+        64
+      ],
+      "dtype": "torch.float32",
+      "sha256": "7fdfd9f88eceae7cf0d4ca288e80b2d1e1bfda21ad18882b1861e3780d264574"
+    },
+    "L_5.layer.bias_ih_l0": {
+      "shape": [
+        256
+      ],
+      "dtype": "torch.float32",
+      "sha256": "5f70bf18a086007016e948b04aed3b82103a36bea41755b6cddfaf10ace3c6ef"
+    },
+    "L_5.layer.bias_hh_l0": {
+      "shape": [
+        256
+      ],
+      "dtype": "torch.float32",
+      "sha256": "2567ab8b29c45c1a2cf443421c79870eb9dd9dce9c5427ef4f733191f98cc0db"
+    },
+    "L_5.layer.weight_ih_l0_reverse": {
+      "shape": [
+        256,
+        384
+      ],
+      "dtype": "torch.float32",
+      "sha256": "f90db7d13a336b73efb342ecd4c576af84973247fe4dae15264eb7fb2df53227"
+    },
+    "L_5.layer.weight_hh_l0_reverse": {
+      "shape": [
+        256,
+        64
+      ],
+      "dtype": "torch.float32",
+      "sha256": "6a15f8866e7a014a8134785836d4a6e6066cff7af9141cf349db349699d86f51"
+    },
+    "L_5.layer.bias_ih_l0_reverse": {
+      "shape": [
+        256
+      ],
+      "dtype": "torch.float32",
+      "sha256": "5f70bf18a086007016e948b04aed3b82103a36bea41755b6cddfaf10ace3c6ef"
+    },
+    "L_5.layer.bias_hh_l0_reverse": {
+      "shape": [
+        256
+      ],
+      "dtype": "torch.float32",
+      "sha256": "4f683a5d1f6e865eee2bbfed881c6441b26490cb916a06241a45c3d9c0b49496"
+    },
+    "O_6.lin.weight": {
+      "shape": [
+        40,
+        128
+      ],
+      "dtype": "torch.float32",
+      "sha256": "cbf1ed09b8c12f26eb5dd68ff7383f4162862b27194f99d3cadc6d147a17971a"
+    },
+    "O_6.lin.bias": {
+      "shape": [
+        40
+      ],
+      "dtype": "torch.float32",
+      "sha256": "42820e35717d8350a838538a66c27773a136bb47aea42440884fe5d77583d9f3"
+    }
+  },
+  "tensor_states_equal": true,
+  "codec_equal": true,
+  "loader": "kraken.models.load_models for both formats; manifests cover TorchVGSLModel.nn"
+}

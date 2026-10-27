@@ -1,0 +1,16 @@
+{
+  "variant": "permuted_200",
+  "rows": 344,
+  "train_words": 197,
+  "development_words": 147,
+  "train_reference_characters": 944,
+  "development_reference_characters": 744,
+  "train_alphabet": "acdefghiklmnopqrsty",
+  "development_unseen_characters": {},
+  "changed_training_labels": 186,
+  "changed_development_labels": 0,
+  "labels_permutation": "Seeded cycle within training folio and exact word length; repeated texts can remain unchanged.",
+  "source_exclusions": 1,
+  "new_expert_review": "NOT_REVIEWED",
+  "translation": "NOT_RUN"
+}

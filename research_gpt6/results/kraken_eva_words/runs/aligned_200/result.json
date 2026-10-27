@@ -1,0 +1,4934 @@
+{
+  "date": "2026-10-27",
+  "status": "EXECUTED_EVA_WORD_DEVELOPMENT_RETRAINING_NOT_TRANSLATION",
+  "variant": "aligned_200",
+  "epochs": 200,
+  "final_epoch_zero_based": 199,
+  "training_words": 197,
+  "development_words": 147,
+  "metrics": {
+    "kraken": {
+      "errors": 465,
+      "reference_characters": 744,
+      "cer": 0.625,
+      "exact_words": 2,
+      "words": 147,
+      "exact_word_fraction": 0.013605442176870748
+    },
+    "nearest_image": {
+      "errors": 509,
+      "reference_characters": 744,
+      "cer": 0.6841397849462365,
+      "exact_words": 14,
+      "words": 147,
+      "exact_word_fraction": 0.09523809523809523
+    },
+    "mode_word": {
+      "errors": 530,
+      "reference_characters": 744,
+      "cer": 0.7123655913978495,
+      "exact_words": 4,
+      "words": 147,
+      "exact_word_fraction": 0.027210884353741496
+    },
+    "repeat_character": {
+      "errors": 720,
+      "reference_characters": 744,
+      "cer": 0.967741935483871,
+      "exact_words": 0,
+      "words": 147,
+      "exact_word_fraction": 0.0
+    },
+    "empty": {
+      "errors": 744,
+      "reference_characters": 744,
+      "cer": 1.0,
+      "exact_words": 0,
+      "words": 147,
+      "exact_word_fraction": 0.0
+    }
+  },
+  "rows": [
+    {
+      "id": "f4r_w0000",
+      "folio": "f4r",
+      "reference": "kodalchy",
+      "predictions": {
+        "kraken": "tco",
+        "nearest_image": "chom",
+        "mode_word": "chor",
+        "repeat_character": "ooooo",
+        "empty": ""
+      },
+      "errors": {
+        "kraken": 7,
+        "nearest_image": 7,
+        "mode_word": 7,
+        "repeat_character": 7,
+        "empty": 8
+      },
+      "nearest_train_id": "f3v_w0067",
+      "reference_seen_in_true_training_words": false
+    },
+    {
+      "id": "f4r_w0001",
+      "folio": "f4r",
+      "reference": "chpady",
+      "predictions": {
+        "kraken": "octhoy",
+        "nearest_image": "okeey",
+        "mode_word": "chor",
+        "repeat_character": "ooooo",
+        "empty": ""
+      },
+      "errors": {
+        "kraken": 5,
+        "nearest_image": 5,
+        "mode_word": 4,
+        "repeat_character": 6,
+        "empty": 6
+      },
+      "nearest_train_id": "f3r_w0066",
+      "reference_seen_in_true_training_words": false
+    },
+    {
+      "id": "f4r_w0002",
+      "folio": "f4r",
+      "reference": "sheol",
+      "predictions": {
+        "kraken": "cho",
+        "nearest_image": "ckhol",
+        "mode_word": "chor",
+        "repeat_character": "ooooo",
+        "empty": ""
+      },
+      "errors": {
+        "kraken": 3,
+        "nearest_image": 3,
+        "mode_word": 3,
+        "repeat_character": 4,
+        "empty": 5
+      },
+      "nearest_train_id": "f3v_w0004",
+      "reference_seen_in_true_training_words": true
+    },
+    {
+      "id": "f4r_w0003",
+      "folio": "f4r",
+      "reference": "ol",
+      "predictions": {
+        "kraken": "hol",
+        "nearest_image": "ol",
+        "mode_word": "chor",
+        "repeat_character": "ooooo",
+        "empty": ""
+      },
+      "errors": {
+        "kraken": 1,
+        "nearest_image": 0,
+        "mode_word": 3,
+        "repeat_character": 4,
+        "empty": 2
+      },
+      "nearest_train_id": "f3r_w0045",
+      "reference_seen_in_true_training_words": true
+    },
+    {
+      "id": "f4r_w0004",
+      "folio": "f4r",
+      "reference": "sheey",
+      "predictions": {
+        "kraken": "choly",
+        "nearest_image": "sheol",
+        "mode_word": "chor",
+        "repeat_character": "ooooo",
+        "empty": ""
+      },
+      "errors": {
+        "kraken": 3,
+        "nearest_image": 2,
+        "mode_word": 4,
+        "repeat_character": 5,
+        "empty": 5
+      },
+      "nearest_train_id": "f3r_w0052",
+      "reference_seen_in_true_training_words": false
+    },
+    {
+      "id": "f4r_w0005",
+      "folio": "f4r",
+      "reference": "qotey",
+      "predictions": {
+        "kraken": "qodoy",
+        "nearest_image": "qokchey",
+        "mode_word": "chor",
+        "repeat_character": "ooooo",
+        "empty": ""
+      },
+      "errors": {
+        "kraken": 2,
+        "nearest_image": 3,
+        "mode_word": 5,
+        "repeat_character": 4,
+        "empty": 5
+      },
+      "nearest_train_id": "f3r_w0062",
+      "reference_seen_in_true_training_words": false
+    },
+    {
+      "id": "f4r_w0006",
+      "folio": "f4r",
+      "reference": "doiin",
+      "predictions": {
+        "kraken": "dain",
+        "nearest_image": "daiin",
+        "mode_word": "chor",
+        "repeat_character": "ooooo",
+        "empty": ""
+      },
+      "errors": {
+        "kraken": 2,
+        "nearest_image": 1,
+        "mode_word": 5,
+        "repeat_character": 4,
+        "empty": 5
+      },
+      "nearest_train_id": "f3r_w0083",
+      "reference_seen_in_true_training_words": false
+    },
+    {
+      "id": "f4r_w0007",
+      "folio": "f4r",
+      "reference": "chor",
+      "predictions": {
+        "kraken": "cor",
+        "nearest_image": "eear",
+        "mode_word": "chor",
+        "repeat_character": "ooooo",
+        "empty": ""
+      },
+      "errors": {
+        "kraken": 1,
+        "nearest_image": 3,
+        "mode_word": 0,
+        "repeat_character": 4,
+        "empty": 4
+      },
+      "nearest_train_id": "f3v_w0034",
+      "reference_seen_in_true_training_words": true
+    },
+    {
+      "id": "f4r_w0008",
+      "folio": "f4r",
+      "reference": "ytoy",
+      "predictions": {
+        "kraken": "othoy",
+        "nearest_image": "shey",
+        "mode_word": "chor",
+        "repeat_character": "ooooo",
+        "empty": ""
+      },
+      "errors": {
+        "kraken": 2,
+        "nearest_image": 3,
+        "mode_word": 3,
+        "repeat_character": 4,
+        "empty": 4
+      },
+      "nearest_train_id": "f3r_w0053",
+      "reference_seen_in_true_training_words": false
+    },
+    {
+      "id": "f4r_w0009",
+      "folio": "f4r",
+      "reference": "dchor",
+      "predictions": {
+        "kraken": "cheair",
+        "nearest_image": "qodar",
+        "mode_word": "chor",
+        "repeat_character": "ooooo",
+        "empty": ""
+      },
+      "errors": {
+        "kraken": 4,
+        "nearest_image": 4,
+        "mode_word": 1,
+        "repeat_character": 4,
+        "empty": 5
+      },
+      "nearest_train_id": "f3v_w0022",
+      "reference_seen_in_true_training_words": false
+    },
+    {
+      "id": "f4r_w0010",
+      "folio": "f4r",
+      "reference": "chol",
+      "predictions": {
+        "kraken": "cho",
+        "nearest_image": "shol",
+        "mode_word": "chor",
+        "repeat_character": "ooooo",
+        "empty": ""
+      },
+      "errors": {
+        "kraken": 1,
+        "nearest_image": 1,
+        "mode_word": 1,
+        "repeat_character": 4,
+        "empty": 4
+      },
+      "nearest_train_id": "f3v_w0017",
+      "reference_seen_in_true_training_words": true
+    },
+    {
+      "id": "f4r_w0011",
+      "folio": "f4r",
+      "reference": "shol",
+      "predictions": {
+        "kraken": "chol",
+        "nearest_image": "shol",
+        "mode_word": "chor",
+        "repeat_character": "ooooo",
+        "empty": ""
+      },
+      "errors": {
+        "kraken": 1,
+        "nearest_image": 0,
+        "mode_word": 2,
+        "repeat_character": 4,
+        "empty": 4
+      },
+      "nearest_train_id": "f3r_w0050",
+      "reference_seen_in_true_training_words": true
+    },
+    {
+      "id": "f4r_w0012",
+      "folio": "f4r",
+      "reference": "cthol",
+      "predictions": {
+        "kraken": "to",
+        "nearest_image": "cthol",
+        "mode_word": "chor",
+        "repeat_character": "ooooo",
+        "empty": ""
+      },
+      "errors": {
+        "kraken": 3,
+        "nearest_image": 0,
+        "mode_word": 2,
+        "repeat_character": 4,
+        "empty": 5
+      },
+      "nearest_train_id": "f3r_w0025",
+      "reference_seen_in_true_training_words": true
+    },
+    {
+      "id": "f4r_w0013",
+      "folio": "f4r",
+      "reference": "shtchy",
+      "predictions": {
+        "kraken": "octholy",
+        "nearest_image": "qokody",
+        "mode_word": "chor",
+        "repeat_character": "ooooo",
+        "empty": ""
+      },
+      "errors": {
+        "kraken": 5,
+        "nearest_image": 5,
+        "mode_word": 5,
+        "repeat_character": 6,
+        "empty": 6
+      },
+      "nearest_train_id": "f3r_w0061",
+      "reference_seen_in_true_training_words": false
+    },
+    {
+      "id": "f4r_w0014",
+      "folio": "f4r",
+      "reference": "chaiin",
+      "predictions": {
+        "kraken": "chorm",
+        "nearest_image": "ochor",
+        "mode_word": "chor",
+        "repeat_character": "ooooo",
+        "empty": ""
+      },
+      "errors": {
+        "kraken": 4,
+        "nearest_image": 5,
+        "mode_word": 4,
+        "repeat_character": 6,
+        "empty": 6
+      },
+      "nearest_train_id": "f3v_w0056",
+      "reference_seen_in_true_training_words": false
+    },
+    {
+      "id": "f4r_w0015",
+      "folio": "f4r",
+      "reference": "s",
+      "predictions": {
+        "kraken": "o",
+        "nearest_image": "daiin",
+        "mode_word": "chor",
+        "repeat_character": "ooooo",
+        "empty": ""
+      },
+      "errors": {
+        "kraken": 1,
+        "nearest_image": 5,
+        "mode_word": 4,
+        "repeat_character": 5,
+        "empty": 1
+      },
+      "nearest_train_id": "f3v_w0057",
+      "reference_seen_in_true_training_words": true
+    },
+    {
+      "id": "f4r_w0016",
+      "folio": "f4r",
+      "reference": "choraiin",
+      "predictions": {
+        "kraken": "ocodir",
+        "nearest_image": "eear",
+        "mode_word": "chor",
+        "repeat_character": "ooooo",
+        "empty": ""
+      },
+      "errors": {
+        "kraken": 6,
+        "nearest_image": 7,
+        "mode_word": 4,
+        "repeat_character": 7,
+        "empty": 8
+      },
+      "nearest_train_id": "f3v_w0034",
+      "reference_seen_in_true_training_words": false
+    },
+    {
+      "id": "f4r_w0017",
+      "folio": "f4r",
+      "reference": "chom",
+      "predictions": {
+        "kraken": "chomr",
+        "nearest_image": "cham",
+        "mode_word": "chor",
+        "repeat_character": "ooooo",
+        "empty": ""
+      },
+      "errors": {
+        "kraken": 1,
+        "nearest_image": 1,
+        "mode_word": 1,
+        "repeat_character": 4,
+        "empty": 4
+      },
+      "nearest_train_id": "f3r_w0019",
+      "reference_seen_in_true_training_words": true
+    },
+    {
+      "id": "f4r_w0018",
+      "folio": "f4r",
+      "reference": "otchol",
+      "predictions": {
+        "kraken": "otchoim",
+        "nearest_image": "qodar",
+        "mode_word": "chor",
+        "repeat_character": "ooooo",
+        "empty": ""
+      },
+      "errors": {
+        "kraken": 2,
+        "nearest_image": 6,
+        "mode_word": 3,
+        "repeat_character": 4,
+        "empty": 6
+      },
+      "nearest_train_id": "f3v_w0022",
+      "reference_seen_in_true_training_words": true
+    },
+    {
+      "id": "f4r_w0019",
+      "folio": "f4r",
+      "reference": "chol",
+      "predictions": {
+        "kraken": "hao",
+        "nearest_image": "qokshol",
+        "mode_word": "chor",
+        "repeat_character": "ooooo",
+        "empty": ""
+      },
+      "errors": {
+        "kraken": 3,
+        "nearest_image": 4,
+        "mode_word": 1,
+        "repeat_character": 4,
+        "empty": 4
+      },
+      "nearest_train_id": "f3v_w0058",
+      "reference_seen_in_true_training_words": true
+    },
+    {
+      "id": "f4r_w0020",
+      "folio": "f4r",
+      "reference": "chy",
+      "predictions": {
+        "kraken": "da",
+        "nearest_image": "oly",
+        "mode_word": "chor",
+        "repeat_character": "ooooo",
+        "empty": ""
+      },
+      "errors": {
+        "kraken": 3,
+        "nearest_image": 2,
+        "mode_word": 2,
+        "repeat_character": 5,
+        "empty": 3
+      },
+      "nearest_train_id": "f3v_w0007",
+      "reference_seen_in_true_training_words": false
+    },
+    {
+      "id": "f4r_w0021",
+      "folio": "f4r",
+      "reference": "chaiin",
+      "predictions": {
+        "kraken": "choi",
+        "nearest_image": "olytol",
+        "mode_word": "chor",
+        "repeat_character": "ooooo",
+        "empty": ""
+      },
+      "errors": {
+        "kraken": 3,
+        "nearest_image": 6,
+        "mode_word": 4,
+        "repeat_character": 6,
+        "empty": 6
+      },
+      "nearest_train_id": "f3v_w0012",
+      "reference_seen_in_true_training_words": false
+    },
+    {
+      "id": "f4r_w0022",
+      "folio": "f4r",
+      "reference": "qotaiin",
+      "predictions": {
+        "kraken": "qokchorr",
+        "nearest_image": "qokchor",
+        "mode_word": "chor",
+        "repeat_character": "ooooo",
+        "empty": ""
+      },
+      "errors": {
+        "kraken": 6,
+        "nearest_image": 5,
+        "mode_word": 7,
+        "repeat_character": 6,
+        "empty": 7
+      },
+      "nearest_train_id": "f3r_w0055",
+      "reference_seen_in_true_training_words": false
+    },
+    {
+      "id": "f4r_w0023",
+      "folio": "f4r",
+      "reference": "daiin",
+      "predictions": {
+        "kraken": "cdain",
+        "nearest_image": "otchody",
+        "mode_word": "chor",
+        "repeat_character": "ooooo",
+        "empty": ""
+      },
+      "errors": {
+        "kraken": 2,
+        "nearest_image": 7,
+        "mode_word": 5,
+        "repeat_character": 5,
+        "empty": 5
+      },
+      "nearest_train_id": "f3r_w0044",
+      "reference_seen_in_true_training_words": true
+    },
+    {
+      "id": "f4r_w0024",
+      "folio": "f4r",
+      "reference": "shain",
+      "predictions": {
+        "kraken": "chor",
+        "nearest_image": "shor",
+        "mode_word": "chor",
+        "repeat_character": "ooooo",
+        "empty": ""
+      },
+      "errors": {
+        "kraken": 4,
+        "nearest_image": 3,
+        "mode_word": 4,
+        "repeat_character": 5,
+        "empty": 5
+      },
+      "nearest_train_id": "f3r_w0069",
+      "reference_seen_in_true_training_words": false
+    },
+    {
+      "id": "f4r_w0025",
+      "folio": "f4r",
+      "reference": "qotchol",
+      "predictions": {
+        "kraken": "okeo",
+        "nearest_image": "qocheor",
+        "mode_word": "chor",
+        "repeat_character": "ooooo",
+        "empty": ""
+      },
+      "errors": {
+        "kraken": 5,
+        "nearest_image": 3,
+        "mode_word": 4,
+        "repeat_character": 5,
+        "empty": 7
+      },
+      "nearest_train_id": "f3r_w0011",
+      "reference_seen_in_true_training_words": false
+    },
+    {
+      "id": "f4r_w0026",
+      "folio": "f4r",
+      "reference": "chy",
+      "predictions": {
+        "kraken": "cho",
+        "nearest_image": "eey",
+        "mode_word": "chor",
+        "repeat_character": "ooooo",
+        "empty": ""
+      },
+      "errors": {
+        "kraken": 1,
+        "nearest_image": 2,
+        "mode_word": 2,
+        "repeat_character": 5,
+        "empty": 3
+      },
+      "nearest_train_id": "f3v_w0024",
+      "reference_seen_in_true_training_words": false
+    },
+    {
+      "id": "f4r_w0027",
+      "folio": "f4r",
+      "reference": "yty",
+      "predictions": {
+        "kraken": "ky",
+        "nearest_image": "cthy",
+        "mode_word": "chor",
+        "repeat_character": "ooooo",
+        "empty": ""
+      },
+      "errors": {
+        "kraken": 2,
+        "nearest_image": 2,
+        "mode_word": 4,
+        "repeat_character": 5,
+        "empty": 3
+      },
+      "nearest_train_id": "f3r_w0106",
+      "reference_seen_in_true_training_words": true
+    },
+    {
+      "id": "f4r_w0028",
+      "folio": "f4r",
+      "reference": "daiin",
+      "predictions": {
+        "kraken": "ha",
+        "nearest_image": "daiin",
+        "mode_word": "chor",
+        "repeat_character": "ooooo",
+        "empty": ""
+      },
+      "errors": {
+        "kraken": 4,
+        "nearest_image": 0,
+        "mode_word": 5,
+        "repeat_character": 5,
+        "empty": 5
+      },
+      "nearest_train_id": "f3v_w0057",
+      "reference_seen_in_true_training_words": true
+    },
+    {
+      "id": "f4r_w0029",
+      "folio": "f4r",
+      "reference": "okaiin",
+      "predictions": {
+        "kraken": "oen",
+        "nearest_image": "okchor",
+        "mode_word": "chor",
+        "repeat_character": "ooooo",
+        "empty": ""
+      },
+      "errors": {
+        "kraken": 4,
+        "nearest_image": 4,
+        "mode_word": 6,
+        "repeat_character": 5,
+        "empty": 6
+      },
+      "nearest_train_id": "f3v_w0010",
+      "reference_seen_in_true_training_words": false
+    },
+    {
+      "id": "f4r_w0030",
+      "folio": "f4r",
+      "reference": "cthy",
+      "predictions": {
+        "kraken": "they",
+        "nearest_image": "shey",
+        "mode_word": "chor",
+        "repeat_character": "ooooo",
+        "empty": ""
+      },
+      "errors": {
+        "kraken": 2,
+        "nearest_image": 3,
+        "mode_word": 3,
+        "repeat_character": 5,
+        "empty": 4
+      },
+      "nearest_train_id": "f3r_w0053",
+      "reference_seen_in_true_training_words": true
+    },
+    {
+      "id": "f4r_w0031",
+      "folio": "f4r",
+      "reference": "pydaiin",
+      "predictions": {
+        "kraken": "thoy",
+        "nearest_image": "ckhol",
+        "mode_word": "chor",
+        "repeat_character": "ooooo",
+        "empty": ""
+      },
+      "errors": {
+        "kraken": 7,
+        "nearest_image": 7,
+        "mode_word": 7,
+        "repeat_character": 7,
+        "empty": 7
+      },
+      "nearest_train_id": "f3v_w0004",
+      "reference_seen_in_true_training_words": false
+    },
+    {
+      "id": "f4r_w0032",
+      "folio": "f4r",
+      "reference": "qotchy",
+      "predictions": {
+        "kraken": "qocol",
+        "nearest_image": "cthy",
+        "mode_word": "chor",
+        "repeat_character": "ooooo",
+        "empty": ""
+      },
+      "errors": {
+        "kraken": 3,
+        "nearest_image": 3,
+        "mode_word": 5,
+        "repeat_character": 5,
+        "empty": 6
+      },
+      "nearest_train_id": "f3v_w0055",
+      "reference_seen_in_true_training_words": false
+    },
+    {
+      "id": "f4r_w0033",
+      "folio": "f4r",
+      "reference": "dy",
+      "predictions": {
+        "kraken": "",
+        "nearest_image": "dain",
+        "mode_word": "chor",
+        "repeat_character": "ooooo",
+        "empty": ""
+      },
+      "errors": {
+        "kraken": 2,
+        "nearest_image": 3,
+        "mode_word": 4,
+        "repeat_character": 5,
+        "empty": 2
+      },
+      "nearest_train_id": "f3v_w0080",
+      "reference_seen_in_true_training_words": false
+    },
+    {
+      "id": "f4r_w0034",
+      "folio": "f4r",
+      "reference": "tydy",
+      "predictions": {
+        "kraken": "tchol",
+        "nearest_image": "ckhol",
+        "mode_word": "chor",
+        "repeat_character": "ooooo",
+        "empty": ""
+      },
+      "errors": {
+        "kraken": 4,
+        "nearest_image": 5,
+        "mode_word": 4,
+        "repeat_character": 5,
+        "empty": 4
+      },
+      "nearest_train_id": "f3v_w0004",
+      "reference_seen_in_true_training_words": false
+    },
+    {
+      "id": "f4r_w0035",
+      "folio": "f4r",
+      "reference": "chor",
+      "predictions": {
+        "kraken": "chol",
+        "nearest_image": "chom",
+        "mode_word": "chor",
+        "repeat_character": "ooooo",
+        "empty": ""
+      },
+      "errors": {
+        "kraken": 1,
+        "nearest_image": 1,
+        "mode_word": 0,
+        "repeat_character": 4,
+        "empty": 4
+      },
+      "nearest_train_id": "f3v_w0067",
+      "reference_seen_in_true_training_words": true
+    },
+    {
+      "id": "f4r_w0036",
+      "folio": "f4r",
+      "reference": "shytchy",
+      "predictions": {
+        "kraken": "cheoly",
+        "nearest_image": "qopol",
+        "mode_word": "chor",
+        "repeat_character": "ooooo",
+        "empty": ""
+      },
+      "errors": {
+        "kraken": 5,
+        "nearest_image": 7,
+        "mode_word": 6,
+        "repeat_character": 7,
+        "empty": 7
+      },
+      "nearest_train_id": "f3r_w0094",
+      "reference_seen_in_true_training_words": false
+    },
+    {
+      "id": "f4r_w0037",
+      "folio": "f4r",
+      "reference": "dy",
+      "predictions": {
+        "kraken": "am",
+        "nearest_image": "cthy",
+        "mode_word": "chor",
+        "repeat_character": "ooooo",
+        "empty": ""
+      },
+      "errors": {
+        "kraken": 2,
+        "nearest_image": 3,
+        "mode_word": 4,
+        "repeat_character": 5,
+        "empty": 2
+      },
+      "nearest_train_id": "f3r_w0106",
+      "reference_seen_in_true_training_words": false
+    },
+    {
+      "id": "f4r_w0038",
+      "folio": "f4r",
+      "reference": "tcheay",
+      "predictions": {
+        "kraken": "chol",
+        "nearest_image": "chol",
+        "mode_word": "chor",
+        "repeat_character": "ooooo",
+        "empty": ""
+      },
+      "errors": {
+        "kraken": 4,
+        "nearest_image": 4,
+        "mode_word": 4,
+        "repeat_character": 6,
+        "empty": 6
+      },
+      "nearest_train_id": "f3v_w0060",
+      "reference_seen_in_true_training_words": false
+    },
+    {
+      "id": "f4r_w0039",
+      "folio": "f4r",
+      "reference": "qotaiin",
+      "predictions": {
+        "kraken": "ochoeol",
+        "nearest_image": "shkaiin",
+        "mode_word": "chor",
+        "repeat_character": "ooooo",
+        "empty": ""
+      },
+      "errors": {
+        "kraken": 7,
+        "nearest_image": 3,
+        "mode_word": 7,
+        "repeat_character": 6,
+        "empty": 7
+      },
+      "nearest_train_id": "f3v_w0075",
+      "reference_seen_in_true_training_words": false
+    },
+    {
+      "id": "f4r_w0040",
+      "folio": "f4r",
+      "reference": "cthol",
+      "predictions": {
+        "kraken": "thlyl",
+        "nearest_image": "cthal",
+        "mode_word": "chor",
+        "repeat_character": "ooooo",
+        "empty": ""
+      },
+      "errors": {
+        "kraken": 3,
+        "nearest_image": 1,
+        "mode_word": 2,
+        "repeat_character": 4,
+        "empty": 5
+      },
+      "nearest_train_id": "f3v_w0078",
+      "reference_seen_in_true_training_words": true
+    },
+    {
+      "id": "f4r_w0041",
+      "folio": "f4r",
+      "reference": "daiin",
+      "predictions": {
+        "kraken": "haoir",
+        "nearest_image": "seees",
+        "mode_word": "chor",
+        "repeat_character": "ooooo",
+        "empty": ""
+      },
+      "errors": {
+        "kraken": 3,
+        "nearest_image": 5,
+        "mode_word": 5,
+        "repeat_character": 5,
+        "empty": 5
+      },
+      "nearest_train_id": "f3v_w0018",
+      "reference_seen_in_true_training_words": true
+    },
+    {
+      "id": "f4r_w0042",
+      "folio": "f4r",
+      "reference": "cthom",
+      "predictions": {
+        "kraken": "chol",
+        "nearest_image": "cthom",
+        "mode_word": "chor",
+        "repeat_character": "ooooo",
+        "empty": ""
+      },
+      "errors": {
+        "kraken": 2,
+        "nearest_image": 0,
+        "mode_word": 2,
+        "repeat_character": 4,
+        "empty": 5
+      },
+      "nearest_train_id": "f3r_w0028",
+      "reference_seen_in_true_training_words": true
+    },
+    {
+      "id": "f4r_w0043",
+      "folio": "f4r",
+      "reference": "shor",
+      "predictions": {
+        "kraken": "chom",
+        "nearest_image": "cheor",
+        "mode_word": "chor",
+        "repeat_character": "ooooo",
+        "empty": ""
+      },
+      "errors": {
+        "kraken": 2,
+        "nearest_image": 2,
+        "mode_word": 1,
+        "repeat_character": 4,
+        "empty": 4
+      },
+      "nearest_train_id": "f3r_w0100",
+      "reference_seen_in_true_training_words": true
+    },
+    {
+      "id": "f4r_w0044",
+      "folio": "f4r",
+      "reference": "shol",
+      "predictions": {
+        "kraken": "cho",
+        "nearest_image": "shey",
+        "mode_word": "chor",
+        "repeat_character": "ooooo",
+        "empty": ""
+      },
+      "errors": {
+        "kraken": 2,
+        "nearest_image": 2,
+        "mode_word": 2,
+        "repeat_character": 4,
+        "empty": 4
+      },
+      "nearest_train_id": "f3r_w0060",
+      "reference_seen_in_true_training_words": true
+    },
+    {
+      "id": "f4r_w0045",
+      "folio": "f4r",
+      "reference": "shol",
+      "predictions": {
+        "kraken": "thol",
+        "nearest_image": "sheol",
+        "mode_word": "chor",
+        "repeat_character": "ooooo",
+        "empty": ""
+      },
+      "errors": {
+        "kraken": 1,
+        "nearest_image": 1,
+        "mode_word": 2,
+        "repeat_character": 4,
+        "empty": 4
+      },
+      "nearest_train_id": "f3r_w0052",
+      "reference_seen_in_true_training_words": true
+    },
+    {
+      "id": "f4r_w0046",
+      "folio": "f4r",
+      "reference": "cthy",
+      "predictions": {
+        "kraken": "othol",
+        "nearest_image": "cthy",
+        "mode_word": "chor",
+        "repeat_character": "ooooo",
+        "empty": ""
+      },
+      "errors": {
+        "kraken": 3,
+        "nearest_image": 0,
+        "mode_word": 3,
+        "repeat_character": 5,
+        "empty": 4
+      },
+      "nearest_train_id": "f3v_w0055",
+      "reference_seen_in_true_training_words": true
+    },
+    {
+      "id": "f4r_w0047",
+      "folio": "f4r",
+      "reference": "cpholdy",
+      "predictions": {
+        "kraken": "otdoy",
+        "nearest_image": "dol",
+        "mode_word": "chor",
+        "repeat_character": "ooooo",
+        "empty": ""
+      },
+      "errors": {
+        "kraken": 5,
+        "nearest_image": 5,
+        "mode_word": 4,
+        "repeat_character": 6,
+        "empty": 7
+      },
+      "nearest_train_id": "f3v_w0013",
+      "reference_seen_in_true_training_words": false
+    },
+    {
+      "id": "f4r_w0048",
+      "folio": "f4r",
+      "reference": "daiin",
+      "predictions": {
+        "kraken": "cdo",
+        "nearest_image": "cthal",
+        "mode_word": "chor",
+        "repeat_character": "ooooo",
+        "empty": ""
+      },
+      "errors": {
+        "kraken": 5,
+        "nearest_image": 5,
+        "mode_word": 5,
+        "repeat_character": 5,
+        "empty": 5
+      },
+      "nearest_train_id": "f3v_w0078",
+      "reference_seen_in_true_training_words": true
+    },
+    {
+      "id": "f4r_w0049",
+      "folio": "f4r",
+      "reference": "ckhochy",
+      "predictions": {
+        "kraken": "tkheoly",
+        "nearest_image": "shol",
+        "mode_word": "chor",
+        "repeat_character": "ooooo",
+        "empty": ""
+      },
+      "errors": {
+        "kraken": 4,
+        "nearest_image": 5,
+        "mode_word": 4,
+        "repeat_character": 6,
+        "empty": 7
+      },
+      "nearest_train_id": "f3v_w0017",
+      "reference_seen_in_true_training_words": false
+    },
+    {
+      "id": "f4r_w0050",
+      "folio": "f4r",
+      "reference": "tchy",
+      "predictions": {
+        "kraken": "kchaoym",
+        "nearest_image": "ckhy",
+        "mode_word": "chor",
+        "repeat_character": "ooooo",
+        "empty": ""
+      },
+      "errors": {
+        "kraken": 4,
+        "nearest_image": 2,
+        "mode_word": 3,
+        "repeat_character": 5,
+        "empty": 4
+      },
+      "nearest_train_id": "f3v_w0064",
+      "reference_seen_in_true_training_words": false
+    },
+    {
+      "id": "f4r_w0051",
+      "folio": "f4r",
+      "reference": "koraiin",
+      "predictions": {
+        "kraken": "ceairiyn",
+        "nearest_image": "shodaiin",
+        "mode_word": "chor",
+        "repeat_character": "ooooo",
+        "empty": ""
+      },
+      "errors": {
+        "kraken": 5,
+        "nearest_image": 3,
+        "mode_word": 6,
+        "repeat_character": 6,
+        "empty": 7
+      },
+      "nearest_train_id": "f3r_w0092",
+      "reference_seen_in_true_training_words": false
+    },
+    {
+      "id": "f4r_w0052",
+      "folio": "f4r",
+      "reference": "odal",
+      "predictions": {
+        "kraken": "dal",
+        "nearest_image": "seees",
+        "mode_word": "chor",
+        "repeat_character": "ooooo",
+        "empty": ""
+      },
+      "errors": {
+        "kraken": 1,
+        "nearest_image": 5,
+        "mode_word": 4,
+        "repeat_character": 4,
+        "empty": 4
+      },
+      "nearest_train_id": "f3v_w0018",
+      "reference_seen_in_true_training_words": false
+    },
+    {
+      "id": "f4r_w0053",
+      "folio": "f4r",
+      "reference": "shor",
+      "predictions": {
+        "kraken": "chor",
+        "nearest_image": "chor",
+        "mode_word": "chor",
+        "repeat_character": "ooooo",
+        "empty": ""
+      },
+      "errors": {
+        "kraken": 1,
+        "nearest_image": 1,
+        "mode_word": 1,
+        "repeat_character": 4,
+        "empty": 4
+      },
+      "nearest_train_id": "f3v_w0054",
+      "reference_seen_in_true_training_words": true
+    },
+    {
+      "id": "f4r_w0054",
+      "folio": "f4r",
+      "reference": "shyshol",
+      "predictions": {
+        "kraken": "chor",
+        "nearest_image": "kchom",
+        "mode_word": "chor",
+        "repeat_character": "ooooo",
+        "empty": ""
+      },
+      "errors": {
+        "kraken": 5,
+        "nearest_image": 5,
+        "mode_word": 5,
+        "repeat_character": 6,
+        "empty": 7
+      },
+      "nearest_train_id": "f3v_w0047",
+      "reference_seen_in_true_training_words": false
+    },
+    {
+      "id": "f4r_w0055",
+      "folio": "f4r",
+      "reference": "cphaiin",
+      "predictions": {
+        "kraken": "cha",
+        "nearest_image": "cfham",
+        "mode_word": "chor",
+        "repeat_character": "ooooo",
+        "empty": ""
+      },
+      "errors": {
+        "kraken": 4,
+        "nearest_image": 4,
+        "mode_word": 5,
+        "repeat_character": 7,
+        "empty": 7
+      },
+      "nearest_train_id": "f3v_w0044",
+      "reference_seen_in_true_training_words": false
+    },
+    {
+      "id": "f4r_w0056",
+      "folio": "f4r",
+      "reference": "qotchoiin",
+      "predictions": {
+        "kraken": "qokhe",
+        "nearest_image": "cham",
+        "mode_word": "chor",
+        "repeat_character": "ooooo",
+        "empty": ""
+      },
+      "errors": {
+        "kraken": 6,
+        "nearest_image": 7,
+        "mode_word": 6,
+        "repeat_character": 7,
+        "empty": 9
+      },
+      "nearest_train_id": "f3r_w0019",
+      "reference_seen_in_true_training_words": false
+    },
+    {
+      "id": "f4r_w0057",
+      "folio": "f4r",
+      "reference": "sheyr",
+      "predictions": {
+        "kraken": "cher",
+        "nearest_image": "eear",
+        "mode_word": "chor",
+        "repeat_character": "ooooo",
+        "empty": ""
+      },
+      "errors": {
+        "kraken": 2,
+        "nearest_image": 3,
+        "mode_word": 3,
+        "repeat_character": 5,
+        "empty": 5
+      },
+      "nearest_train_id": "f3v_w0034",
+      "reference_seen_in_true_training_words": false
+    },
+    {
+      "id": "f4r_w0058",
+      "folio": "f4r",
+      "reference": "qoty",
+      "predictions": {
+        "kraken": "okeo",
+        "nearest_image": "qoty",
+        "mode_word": "chor",
+        "repeat_character": "ooooo",
+        "empty": ""
+      },
+      "errors": {
+        "kraken": 4,
+        "nearest_image": 0,
+        "mode_word": 4,
+        "repeat_character": 4,
+        "empty": 4
+      },
+      "nearest_train_id": "f3r_w0096",
+      "reference_seen_in_true_training_words": true
+    },
+    {
+      "id": "f4r_w0059",
+      "folio": "f4r",
+      "reference": "soiin",
+      "predictions": {
+        "kraken": "coin",
+        "nearest_image": "chodair",
+        "mode_word": "chor",
+        "repeat_character": "ooooo",
+        "empty": ""
+      },
+      "errors": {
+        "kraken": 2,
+        "nearest_image": 5,
+        "mode_word": 5,
+        "repeat_character": 4,
+        "empty": 5
+      },
+      "nearest_train_id": "f3v_w0069",
+      "reference_seen_in_true_training_words": false
+    },
+    {
+      "id": "f4r_w0060",
+      "folio": "f4r",
+      "reference": "chaiin",
+      "predictions": {
+        "kraken": "choee",
+        "nearest_image": "chodaiin",
+        "mode_word": "chor",
+        "repeat_character": "ooooo",
+        "empty": ""
+      },
+      "errors": {
+        "kraken": 4,
+        "nearest_image": 2,
+        "mode_word": 4,
+        "repeat_character": 6,
+        "empty": 6
+      },
+      "nearest_train_id": "f3v_w0066",
+      "reference_seen_in_true_training_words": false
+    },
+    {
+      "id": "f4r_w0061",
+      "folio": "f4r",
+      "reference": "chaiin",
+      "predictions": {
+        "kraken": "choin",
+        "nearest_image": "eear",
+        "mode_word": "chor",
+        "repeat_character": "ooooo",
+        "empty": ""
+      },
+      "errors": {
+        "kraken": 2,
+        "nearest_image": 5,
+        "mode_word": 4,
+        "repeat_character": 6,
+        "empty": 6
+      },
+      "nearest_train_id": "f3v_w0034",
+      "reference_seen_in_true_training_words": false
+    },
+    {
+      "id": "f4r_w0062",
+      "folio": "f4r",
+      "reference": "daiin",
+      "predictions": {
+        "kraken": "dar",
+        "nearest_image": "dain",
+        "mode_word": "chor",
+        "repeat_character": "ooooo",
+        "empty": ""
+      },
+      "errors": {
+        "kraken": 3,
+        "nearest_image": 1,
+        "mode_word": 5,
+        "repeat_character": 5,
+        "empty": 5
+      },
+      "nearest_train_id": "f3v_w0080",
+      "reference_seen_in_true_training_words": true
+    },
+    {
+      "id": "f4r_w0063",
+      "folio": "f4r",
+      "reference": "cthey",
+      "predictions": {
+        "kraken": "thoy",
+        "nearest_image": "okary",
+        "mode_word": "chor",
+        "repeat_character": "ooooo",
+        "empty": ""
+      },
+      "errors": {
+        "kraken": 2,
+        "nearest_image": 4,
+        "mode_word": 3,
+        "repeat_character": 5,
+        "empty": 5
+      },
+      "nearest_train_id": "f3v_w0061",
+      "reference_seen_in_true_training_words": false
+    },
+    {
+      "id": "f4v_w0000",
+      "folio": "f4v",
+      "reference": "pchooiin",
+      "predictions": {
+        "kraken": "cheolly",
+        "nearest_image": "koaiin",
+        "mode_word": "chor",
+        "repeat_character": "ooooo",
+        "empty": ""
+      },
+      "errors": {
+        "kraken": 5,
+        "nearest_image": 4,
+        "mode_word": 5,
+        "repeat_character": 6,
+        "empty": 8
+      },
+      "nearest_train_id": "f3v_w0000",
+      "reference_seen_in_true_training_words": false
+    },
+    {
+      "id": "f4v_w0001",
+      "folio": "f4v",
+      "reference": "ksheo",
+      "predictions": {
+        "kraken": "tchay",
+        "nearest_image": "chodair",
+        "mode_word": "chor",
+        "repeat_character": "ooooo",
+        "empty": ""
+      },
+      "errors": {
+        "kraken": 4,
+        "nearest_image": 7,
+        "mode_word": 4,
+        "repeat_character": 4,
+        "empty": 5
+      },
+      "nearest_train_id": "f3v_w0069",
+      "reference_seen_in_true_training_words": false
+    },
+    {
+      "id": "f4v_w0002",
+      "folio": "f4v",
+      "reference": "kchoy",
+      "predictions": {
+        "kraken": "cho",
+        "nearest_image": "kchom",
+        "mode_word": "chor",
+        "repeat_character": "ooooo",
+        "empty": ""
+      },
+      "errors": {
+        "kraken": 2,
+        "nearest_image": 1,
+        "mode_word": 2,
+        "repeat_character": 4,
+        "empty": 5
+      },
+      "nearest_train_id": "f3v_w0047",
+      "reference_seen_in_true_training_words": false
+    },
+    {
+      "id": "f4v_w0003",
+      "folio": "f4v",
+      "reference": "chopchy",
+      "predictions": {
+        "kraken": "oko",
+        "nearest_image": "qotoy",
+        "mode_word": "chor",
+        "repeat_character": "ooooo",
+        "empty": ""
+      },
+      "errors": {
+        "kraken": 6,
+        "nearest_image": 5,
+        "mode_word": 4,
+        "repeat_character": 6,
+        "empty": 7
+      },
+      "nearest_train_id": "f3v_w0002",
+      "reference_seen_in_true_training_words": false
+    },
+    {
+      "id": "f4v_w0004",
+      "folio": "f4v",
+      "reference": "dolds",
+      "predictions": {
+        "kraken": "chom",
+        "nearest_image": "ochor",
+        "mode_word": "chor",
+        "repeat_character": "ooooo",
+        "empty": ""
+      },
+      "errors": {
+        "kraken": 5,
+        "nearest_image": 5,
+        "mode_word": 5,
+        "repeat_character": 4,
+        "empty": 5
+      },
+      "nearest_train_id": "f3v_w0056",
+      "reference_seen_in_true_training_words": false
+    },
+    {
+      "id": "f4v_w0005",
+      "folio": "f4v",
+      "reference": "dlod",
+      "predictions": {
+        "kraken": "sho",
+        "nearest_image": "eear",
+        "mode_word": "chor",
+        "repeat_character": "ooooo",
+        "empty": ""
+      },
+      "errors": {
+        "kraken": 3,
+        "nearest_image": 4,
+        "mode_word": 3,
+        "repeat_character": 4,
+        "empty": 4
+      },
+      "nearest_train_id": "f3v_w0034",
+      "reference_seen_in_true_training_words": false
+    },
+    {
+      "id": "f4v_w0006",
+      "folio": "f4v",
+      "reference": "ol",
+      "predictions": {
+        "kraken": "y",
+        "nearest_image": "oly",
+        "mode_word": "chor",
+        "repeat_character": "ooooo",
+        "empty": ""
+      },
+      "errors": {
+        "kraken": 2,
+        "nearest_image": 1,
+        "mode_word": 3,
+        "repeat_character": 4,
+        "empty": 2
+      },
+      "nearest_train_id": "f3v_w0007",
+      "reference_seen_in_true_training_words": true
+    },
+    {
+      "id": "f4v_w0007",
+      "folio": "f4v",
+      "reference": "chey",
+      "predictions": {
+        "kraken": "chem",
+        "nearest_image": "chol",
+        "mode_word": "chor",
+        "repeat_character": "ooooo",
+        "empty": ""
+      },
+      "errors": {
+        "kraken": 1,
+        "nearest_image": 2,
+        "mode_word": 2,
+        "repeat_character": 5,
+        "empty": 4
+      },
+      "nearest_train_id": "f3v_w0060",
+      "reference_seen_in_true_training_words": false
+    },
+    {
+      "id": "f4v_w0008",
+      "folio": "f4v",
+      "reference": "chy",
+      "predictions": {
+        "kraken": "choal",
+        "nearest_image": "oly",
+        "mode_word": "chor",
+        "repeat_character": "ooooo",
+        "empty": ""
+      },
+      "errors": {
+        "kraken": 3,
+        "nearest_image": 2,
+        "mode_word": 2,
+        "repeat_character": 5,
+        "empty": 3
+      },
+      "nearest_train_id": "f3v_w0007",
+      "reference_seen_in_true_training_words": false
+    },
+    {
+      "id": "f4v_w0009",
+      "folio": "f4v",
+      "reference": "cthy",
+      "predictions": {
+        "kraken": "thol",
+        "nearest_image": "qokchy",
+        "mode_word": "chor",
+        "repeat_character": "ooooo",
+        "empty": ""
+      },
+      "errors": {
+        "kraken": 3,
+        "nearest_image": 4,
+        "mode_word": 3,
+        "repeat_character": 5,
+        "empty": 4
+      },
+      "nearest_train_id": "f3v_w0076",
+      "reference_seen_in_true_training_words": true
+    },
+    {
+      "id": "f4v_w0010",
+      "folio": "f4v",
+      "reference": "shkchor",
+      "predictions": {
+        "kraken": "ochor",
+        "nearest_image": "shkaiin",
+        "mode_word": "chor",
+        "repeat_character": "ooooo",
+        "empty": ""
+      },
+      "errors": {
+        "kraken": 3,
+        "nearest_image": 4,
+        "mode_word": 3,
+        "repeat_character": 6,
+        "empty": 7
+      },
+      "nearest_train_id": "f3v_w0075",
+      "reference_seen_in_true_training_words": false
+    },
+    {
+      "id": "f4v_w0011",
+      "folio": "f4v",
+      "reference": "sheo",
+      "predictions": {
+        "kraken": "chol",
+        "nearest_image": "ykoaiin",
+        "mode_word": "chor",
+        "repeat_character": "ooooo",
+        "empty": ""
+      },
+      "errors": {
+        "kraken": 3,
+        "nearest_image": 7,
+        "mode_word": 3,
+        "repeat_character": 4,
+        "empty": 4
+      },
+      "nearest_train_id": "f3v_w0005",
+      "reference_seen_in_true_training_words": false
+    },
+    {
+      "id": "f4v_w0012",
+      "folio": "f4v",
+      "reference": "cheory",
+      "predictions": {
+        "kraken": "choly",
+        "nearest_image": "okary",
+        "mode_word": "chor",
+        "repeat_character": "ooooo",
+        "empty": ""
+      },
+      "errors": {
+        "kraken": 2,
+        "nearest_image": 4,
+        "mode_word": 2,
+        "repeat_character": 5,
+        "empty": 6
+      },
+      "nearest_train_id": "f3v_w0061",
+      "reference_seen_in_true_training_words": false
+    },
+    {
+      "id": "f4v_w0013",
+      "folio": "f4v",
+      "reference": "choldy",
+      "predictions": {
+        "kraken": "kcho",
+        "nearest_image": "cheeykam",
+        "mode_word": "chor",
+        "repeat_character": "ooooo",
+        "empty": ""
+      },
+      "errors": {
+        "kraken": 4,
+        "nearest_image": 6,
+        "mode_word": 3,
+        "repeat_character": 5,
+        "empty": 6
+      },
+      "nearest_train_id": "f3v_w0020",
+      "reference_seen_in_true_training_words": false
+    },
+    {
+      "id": "f4v_w0014",
+      "folio": "f4v",
+      "reference": "sho",
+      "predictions": {
+        "kraken": "chy",
+        "nearest_image": "osh",
+        "mode_word": "chor",
+        "repeat_character": "ooooo",
+        "empty": ""
+      },
+      "errors": {
+        "kraken": 2,
+        "nearest_image": 2,
+        "mode_word": 2,
+        "repeat_character": 4,
+        "empty": 3
+      },
+      "nearest_train_id": "f3v_w0068",
+      "reference_seen_in_true_training_words": true
+    },
+    {
+      "id": "f4v_w0015",
+      "folio": "f4v",
+      "reference": "sho",
+      "predictions": {
+        "kraken": "oholy",
+        "nearest_image": "osh",
+        "mode_word": "chor",
+        "repeat_character": "ooooo",
+        "empty": ""
+      },
+      "errors": {
+        "kraken": 3,
+        "nearest_image": 2,
+        "mode_word": 2,
+        "repeat_character": 4,
+        "empty": 3
+      },
+      "nearest_train_id": "f3v_w0068",
+      "reference_seen_in_true_training_words": true
+    },
+    {
+      "id": "f4v_w0016",
+      "folio": "f4v",
+      "reference": "chaiin",
+      "predictions": {
+        "kraken": "chor",
+        "nearest_image": "chodaiin",
+        "mode_word": "chor",
+        "repeat_character": "ooooo",
+        "empty": ""
+      },
+      "errors": {
+        "kraken": 4,
+        "nearest_image": 2,
+        "mode_word": 4,
+        "repeat_character": 6,
+        "empty": 6
+      },
+      "nearest_train_id": "f3v_w0066",
+      "reference_seen_in_true_training_words": false
+    },
+    {
+      "id": "f4v_w0017",
+      "folio": "f4v",
+      "reference": "shaiin",
+      "predictions": {
+        "kraken": "choy",
+        "nearest_image": "chodaiin",
+        "mode_word": "chor",
+        "repeat_character": "ooooo",
+        "empty": ""
+      },
+      "errors": {
+        "kraken": 5,
+        "nearest_image": 3,
+        "mode_word": 5,
+        "repeat_character": 6,
+        "empty": 6
+      },
+      "nearest_train_id": "f3v_w0066",
+      "reference_seen_in_true_training_words": false
+    },
+    {
+      "id": "f4v_w0018",
+      "folio": "f4v",
+      "reference": "daiin",
+      "predictions": {
+        "kraken": "cho",
+        "nearest_image": "daiin",
+        "mode_word": "chor",
+        "repeat_character": "ooooo",
+        "empty": ""
+      },
+      "errors": {
+        "kraken": 5,
+        "nearest_image": 0,
+        "mode_word": 5,
+        "repeat_character": 5,
+        "empty": 5
+      },
+      "nearest_train_id": "f3v_w0057",
+      "reference_seen_in_true_training_words": true
+    },
+    {
+      "id": "f4v_w0019",
+      "folio": "f4v",
+      "reference": "qodaiin",
+      "predictions": {
+        "kraken": "cho",
+        "nearest_image": "chodaiin",
+        "mode_word": "chor",
+        "repeat_character": "ooooo",
+        "empty": ""
+      },
+      "errors": {
+        "kraken": 7,
+        "nearest_image": 2,
+        "mode_word": 7,
+        "repeat_character": 6,
+        "empty": 7
+      },
+      "nearest_train_id": "f3v_w0066",
+      "reference_seen_in_true_training_words": true
+    },
+    {
+      "id": "f4v_w0020",
+      "folio": "f4v",
+      "reference": "o",
+      "predictions": {
+        "kraken": "r",
+        "nearest_image": "qot",
+        "mode_word": "chor",
+        "repeat_character": "ooooo",
+        "empty": ""
+      },
+      "errors": {
+        "kraken": 1,
+        "nearest_image": 2,
+        "mode_word": 3,
+        "repeat_character": 4,
+        "empty": 1
+      },
+      "nearest_train_id": "f3r_w0059",
+      "reference_seen_in_true_training_words": false
+    },
+    {
+      "id": "f4v_w0021",
+      "folio": "f4v",
+      "reference": "ar",
+      "predictions": {
+        "kraken": "cho",
+        "nearest_image": "or",
+        "mode_word": "chor",
+        "repeat_character": "ooooo",
+        "empty": ""
+      },
+      "errors": {
+        "kraken": 3,
+        "nearest_image": 1,
+        "mode_word": 3,
+        "repeat_character": 5,
+        "empty": 2
+      },
+      "nearest_train_id": "f3v_w0036",
+      "reference_seen_in_true_training_words": false
+    },
+    {
+      "id": "f4v_w0022",
+      "folio": "f4v",
+      "reference": "am",
+      "predictions": {
+        "kraken": "shom",
+        "nearest_image": "am",
+        "mode_word": "chor",
+        "repeat_character": "ooooo",
+        "empty": ""
+      },
+      "errors": {
+        "kraken": 3,
+        "nearest_image": 0,
+        "mode_word": 4,
+        "repeat_character": 5,
+        "empty": 2
+      },
+      "nearest_train_id": "f3r_w0114",
+      "reference_seen_in_true_training_words": true
+    },
+    {
+      "id": "f4v_w0023",
+      "folio": "f4v",
+      "reference": "qokshy",
+      "predictions": {
+        "kraken": "qokheayy",
+        "nearest_image": "qoteeol",
+        "mode_word": "chor",
+        "repeat_character": "ooooo",
+        "empty": ""
+      },
+      "errors": {
+        "kraken": 4,
+        "nearest_image": 5,
+        "mode_word": 6,
+        "repeat_character": 5,
+        "empty": 6
+      },
+      "nearest_train_id": "f3v_w0009",
+      "reference_seen_in_true_training_words": false
+    },
+    {
+      "id": "f4v_w0024",
+      "folio": "f4v",
+      "reference": "qocthy",
+      "predictions": {
+        "kraken": "ckalal",
+        "nearest_image": "qoteeol",
+        "mode_word": "chor",
+        "repeat_character": "ooooo",
+        "empty": ""
+      },
+      "errors": {
+        "kraken": 6,
+        "nearest_image": 5,
+        "mode_word": 5,
+        "repeat_character": 5,
+        "empty": 6
+      },
+      "nearest_train_id": "f3v_w0009",
+      "reference_seen_in_true_training_words": false
+    },
+    {
+      "id": "f4v_w0025",
+      "folio": "f4v",
+      "reference": "choteol",
+      "predictions": {
+        "kraken": "okhol",
+        "nearest_image": "qoteeol",
+        "mode_word": "chor",
+        "repeat_character": "ooooo",
+        "empty": ""
+      },
+      "errors": {
+        "kraken": 4,
+        "nearest_image": 3,
+        "mode_word": 4,
+        "repeat_character": 5,
+        "empty": 7
+      },
+      "nearest_train_id": "f3v_w0009",
+      "reference_seen_in_true_training_words": false
+    },
+    {
+      "id": "f4v_w0026",
+      "folio": "f4v",
+      "reference": "daiin",
+      "predictions": {
+        "kraken": "chi",
+        "nearest_image": "dain",
+        "mode_word": "chor",
+        "repeat_character": "ooooo",
+        "empty": ""
+      },
+      "errors": {
+        "kraken": 4,
+        "nearest_image": 1,
+        "mode_word": 5,
+        "repeat_character": 5,
+        "empty": 5
+      },
+      "nearest_train_id": "f3v_w0080",
+      "reference_seen_in_true_training_words": true
+    },
+    {
+      "id": "f4v_w0027",
+      "folio": "f4v",
+      "reference": "cthey",
+      "predictions": {
+        "kraken": "ckhoy",
+        "nearest_image": "ckhy",
+        "mode_word": "chor",
+        "repeat_character": "ooooo",
+        "empty": ""
+      },
+      "errors": {
+        "kraken": 2,
+        "nearest_image": 2,
+        "mode_word": 3,
+        "repeat_character": 5,
+        "empty": 5
+      },
+      "nearest_train_id": "f3v_w0064",
+      "reference_seen_in_true_training_words": false
+    },
+    {
+      "id": "f4v_w0028",
+      "folio": "f4v",
+      "reference": "choaiin",
+      "predictions": {
+        "kraken": "choln",
+        "nearest_image": "shkaiin",
+        "mode_word": "chor",
+        "repeat_character": "ooooo",
+        "empty": ""
+      },
+      "errors": {
+        "kraken": 3,
+        "nearest_image": 2,
+        "mode_word": 4,
+        "repeat_character": 6,
+        "empty": 7
+      },
+      "nearest_train_id": "f3v_w0075",
+      "reference_seen_in_true_training_words": false
+    },
+    {
+      "id": "f4v_w0029",
+      "folio": "f4v",
+      "reference": "shor",
+      "predictions": {
+        "kraken": "chor",
+        "nearest_image": "chor",
+        "mode_word": "chor",
+        "repeat_character": "ooooo",
+        "empty": ""
+      },
+      "errors": {
+        "kraken": 1,
+        "nearest_image": 1,
+        "mode_word": 1,
+        "repeat_character": 4,
+        "empty": 4
+      },
+      "nearest_train_id": "f3r_w0006",
+      "reference_seen_in_true_training_words": true
+    },
+    {
+      "id": "f4v_w0030",
+      "folio": "f4v",
+      "reference": "sheey",
+      "predictions": {
+        "kraken": "cheoy",
+        "nearest_image": "sheam",
+        "mode_word": "chor",
+        "repeat_character": "ooooo",
+        "empty": ""
+      },
+      "errors": {
+        "kraken": 2,
+        "nearest_image": 2,
+        "mode_word": 4,
+        "repeat_character": 5,
+        "empty": 5
+      },
+      "nearest_train_id": "f3v_w0081",
+      "reference_seen_in_true_training_words": false
+    },
+    {
+      "id": "f4v_w0031",
+      "folio": "f4v",
+      "reference": "cto",
+      "predictions": {
+        "kraken": "ptho",
+        "nearest_image": "ykoaiin",
+        "mode_word": "chor",
+        "repeat_character": "ooooo",
+        "empty": ""
+      },
+      "errors": {
+        "kraken": 2,
+        "nearest_image": 6,
+        "mode_word": 2,
+        "repeat_character": 4,
+        "empty": 3
+      },
+      "nearest_train_id": "f3v_w0005",
+      "reference_seen_in_true_training_words": false
+    },
+    {
+      "id": "f4v_w0032",
+      "folio": "f4v",
+      "reference": "otoiin",
+      "predictions": {
+        "kraken": "okoor",
+        "nearest_image": "okchor",
+        "mode_word": "chor",
+        "repeat_character": "ooooo",
+        "empty": ""
+      },
+      "errors": {
+        "kraken": 4,
+        "nearest_image": 5,
+        "mode_word": 5,
+        "repeat_character": 4,
+        "empty": 6
+      },
+      "nearest_train_id": "f3v_w0010",
+      "reference_seen_in_true_training_words": false
+    },
+    {
+      "id": "f4v_w0033",
+      "folio": "f4v",
+      "reference": "shey",
+      "predictions": {
+        "kraken": "thy",
+        "nearest_image": "sheam",
+        "mode_word": "chor",
+        "repeat_character": "ooooo",
+        "empty": ""
+      },
+      "errors": {
+        "kraken": 2,
+        "nearest_image": 2,
+        "mode_word": 3,
+        "repeat_character": 5,
+        "empty": 4
+      },
+      "nearest_train_id": "f3v_w0081",
+      "reference_seen_in_true_training_words": true
+    },
+    {
+      "id": "f4v_w0034",
+      "folio": "f4v",
+      "reference": "qotchoiin",
+      "predictions": {
+        "kraken": "ho",
+        "nearest_image": "cheeykam",
+        "mode_word": "chor",
+        "repeat_character": "ooooo",
+        "empty": ""
+      },
+      "errors": {
+        "kraken": 7,
+        "nearest_image": 9,
+        "mode_word": 6,
+        "repeat_character": 7,
+        "empty": 9
+      },
+      "nearest_train_id": "f3v_w0020",
+      "reference_seen_in_true_training_words": false
+    },
+    {
+      "id": "f4v_w0035",
+      "folio": "f4v",
+      "reference": "chodain",
+      "predictions": {
+        "kraken": "cheddain",
+        "nearest_image": "shkaiin",
+        "mode_word": "chor",
+        "repeat_character": "ooooo",
+        "empty": ""
+      },
+      "errors": {
+        "kraken": 2,
+        "nearest_image": 4,
+        "mode_word": 4,
+        "repeat_character": 6,
+        "empty": 7
+      },
+      "nearest_train_id": "f3v_w0075",
+      "reference_seen_in_true_training_words": false
+    },
+    {
+      "id": "f4v_w0036",
+      "folio": "f4v",
+      "reference": "ytchoy",
+      "predictions": {
+        "kraken": "choy",
+        "nearest_image": "cheeykam",
+        "mode_word": "chor",
+        "repeat_character": "ooooo",
+        "empty": ""
+      },
+      "errors": {
+        "kraken": 2,
+        "nearest_image": 7,
+        "mode_word": 3,
+        "repeat_character": 5,
+        "empty": 6
+      },
+      "nearest_train_id": "f3v_w0020",
+      "reference_seen_in_true_training_words": false
+    },
+    {
+      "id": "f4v_w0037",
+      "folio": "f4v",
+      "reference": "shokchy",
+      "predictions": {
+        "kraken": "choy",
+        "nearest_image": "qoteeol",
+        "mode_word": "chor",
+        "repeat_character": "ooooo",
+        "empty": ""
+      },
+      "errors": {
+        "kraken": 4,
+        "nearest_image": 7,
+        "mode_word": 5,
+        "repeat_character": 6,
+        "empty": 7
+      },
+      "nearest_train_id": "f3v_w0009",
+      "reference_seen_in_true_training_words": false
+    },
+    {
+      "id": "f4v_w0038",
+      "folio": "f4v",
+      "reference": "cphody",
+      "predictions": {
+        "kraken": "tholy",
+        "nearest_image": "chodaly",
+        "mode_word": "chor",
+        "repeat_character": "ooooo",
+        "empty": ""
+      },
+      "errors": {
+        "kraken": 3,
+        "nearest_image": 3,
+        "mode_word": 3,
+        "repeat_character": 5,
+        "empty": 6
+      },
+      "nearest_train_id": "f3v_w0039",
+      "reference_seen_in_true_training_words": false
+    },
+    {
+      "id": "f4v_w0039",
+      "folio": "f4v",
+      "reference": "torchy",
+      "predictions": {
+        "kraken": "tcholy",
+        "nearest_image": "chodair",
+        "mode_word": "chor",
+        "repeat_character": "ooooo",
+        "empty": ""
+      },
+      "errors": {
+        "kraken": 4,
+        "nearest_image": 6,
+        "mode_word": 5,
+        "repeat_character": 5,
+        "empty": 6
+      },
+      "nearest_train_id": "f3v_w0069",
+      "reference_seen_in_true_training_words": false
+    },
+    {
+      "id": "f4v_w0040",
+      "folio": "f4v",
+      "reference": "sheeor",
+      "predictions": {
+        "kraken": "chear",
+        "nearest_image": "chodair",
+        "mode_word": "chor",
+        "repeat_character": "ooooo",
+        "empty": ""
+      },
+      "errors": {
+        "kraken": 3,
+        "nearest_image": 5,
+        "mode_word": 3,
+        "repeat_character": 5,
+        "empty": 6
+      },
+      "nearest_train_id": "f3v_w0069",
+      "reference_seen_in_true_training_words": false
+    },
+    {
+      "id": "f4v_w0041",
+      "folio": "f4v",
+      "reference": "chor",
+      "predictions": {
+        "kraken": "ocho",
+        "nearest_image": "chor",
+        "mode_word": "chor",
+        "repeat_character": "ooooo",
+        "empty": ""
+      },
+      "errors": {
+        "kraken": 2,
+        "nearest_image": 0,
+        "mode_word": 0,
+        "repeat_character": 4,
+        "empty": 4
+      },
+      "nearest_train_id": "f3v_w0048",
+      "reference_seen_in_true_training_words": true
+    },
+    {
+      "id": "f4v_w0042",
+      "folio": "f4v",
+      "reference": "shokchy",
+      "predictions": {
+        "kraken": "okho",
+        "nearest_image": "chodair",
+        "mode_word": "chor",
+        "repeat_character": "ooooo",
+        "empty": ""
+      },
+      "errors": {
+        "kraken": 4,
+        "nearest_image": 5,
+        "mode_word": 5,
+        "repeat_character": 6,
+        "empty": 7
+      },
+      "nearest_train_id": "f3v_w0069",
+      "reference_seen_in_true_training_words": false
+    },
+    {
+      "id": "f4v_w0043",
+      "folio": "f4v",
+      "reference": "cphydy",
+      "predictions": {
+        "kraken": "ochom",
+        "nearest_image": "qokshol",
+        "mode_word": "chor",
+        "repeat_character": "ooooo",
+        "empty": ""
+      },
+      "errors": {
+        "kraken": 5,
+        "nearest_image": 7,
+        "mode_word": 4,
+        "repeat_character": 6,
+        "empty": 6
+      },
+      "nearest_train_id": "f3v_w0058",
+      "reference_seen_in_true_training_words": false
+    },
+    {
+      "id": "f4v_w0044",
+      "folio": "f4v",
+      "reference": "olaen",
+      "predictions": {
+        "kraken": "khea",
+        "nearest_image": "chom",
+        "mode_word": "chor",
+        "repeat_character": "ooooo",
+        "empty": ""
+      },
+      "errors": {
+        "kraken": 4,
+        "nearest_image": 5,
+        "mode_word": 5,
+        "repeat_character": 4,
+        "empty": 5
+      },
+      "nearest_train_id": "f3v_w0067",
+      "reference_seen_in_true_training_words": false
+    },
+    {
+      "id": "f4v_w0045",
+      "folio": "f4v",
+      "reference": "chor",
+      "predictions": {
+        "kraken": "cho",
+        "nearest_image": "eear",
+        "mode_word": "chor",
+        "repeat_character": "ooooo",
+        "empty": ""
+      },
+      "errors": {
+        "kraken": 1,
+        "nearest_image": 3,
+        "mode_word": 0,
+        "repeat_character": 4,
+        "empty": 4
+      },
+      "nearest_train_id": "f3v_w0034",
+      "reference_seen_in_true_training_words": true
+    },
+    {
+      "id": "f4v_w0046",
+      "folio": "f4v",
+      "reference": "cthol",
+      "predictions": {
+        "kraken": "othol",
+        "nearest_image": "cthal",
+        "mode_word": "chor",
+        "repeat_character": "ooooo",
+        "empty": ""
+      },
+      "errors": {
+        "kraken": 1,
+        "nearest_image": 1,
+        "mode_word": 2,
+        "repeat_character": 4,
+        "empty": 5
+      },
+      "nearest_train_id": "f3v_w0078",
+      "reference_seen_in_true_training_words": true
+    },
+    {
+      "id": "f4v_w0047",
+      "folio": "f4v",
+      "reference": "sho",
+      "predictions": {
+        "kraken": "chol",
+        "nearest_image": "oka",
+        "mode_word": "chor",
+        "repeat_character": "ooooo",
+        "empty": ""
+      },
+      "errors": {
+        "kraken": 2,
+        "nearest_image": 3,
+        "mode_word": 2,
+        "repeat_character": 4,
+        "empty": 3
+      },
+      "nearest_train_id": "f3v_w0050",
+      "reference_seen_in_true_training_words": true
+    },
+    {
+      "id": "f4v_w0048",
+      "folio": "f4v",
+      "reference": "otor",
+      "predictions": {
+        "kraken": "chor",
+        "nearest_image": "ykoaiin",
+        "mode_word": "chor",
+        "repeat_character": "ooooo",
+        "empty": ""
+      },
+      "errors": {
+        "kraken": 2,
+        "nearest_image": 6,
+        "mode_word": 2,
+        "repeat_character": 3,
+        "empty": 4
+      },
+      "nearest_train_id": "f3v_w0005",
+      "reference_seen_in_true_training_words": false
+    },
+    {
+      "id": "f4v_w0049",
+      "folio": "f4v",
+      "reference": "cthory",
+      "predictions": {
+        "kraken": "othol",
+        "nearest_image": "cheeykam",
+        "mode_word": "chor",
+        "repeat_character": "ooooo",
+        "empty": ""
+      },
+      "errors": {
+        "kraken": 3,
+        "nearest_image": 6,
+        "mode_word": 2,
+        "repeat_character": 5,
+        "empty": 6
+      },
+      "nearest_train_id": "f3v_w0020",
+      "reference_seen_in_true_training_words": false
+    },
+    {
+      "id": "f4v_w0050",
+      "folio": "f4v",
+      "reference": "qooko",
+      "predictions": {
+        "kraken": "qoco",
+        "nearest_image": "yeeear",
+        "mode_word": "chor",
+        "repeat_character": "ooooo",
+        "empty": ""
+      },
+      "errors": {
+        "kraken": 2,
+        "nearest_image": 6,
+        "mode_word": 4,
+        "repeat_character": 2,
+        "empty": 5
+      },
+      "nearest_train_id": "f3v_w0031",
+      "reference_seen_in_true_training_words": false
+    },
+    {
+      "id": "f4v_w0051",
+      "folio": "f4v",
+      "reference": "iiincheom",
+      "predictions": {
+        "kraken": "ochor",
+        "nearest_image": "qokshol",
+        "mode_word": "chor",
+        "repeat_character": "ooooo",
+        "empty": ""
+      },
+      "errors": {
+        "kraken": 6,
+        "nearest_image": 7,
+        "mode_word": 6,
+        "repeat_character": 8,
+        "empty": 9
+      },
+      "nearest_train_id": "f3v_w0058",
+      "reference_seen_in_true_training_words": false
+    },
+    {
+      "id": "f4v_w0052",
+      "folio": "f4v",
+      "reference": "chcthy",
+      "predictions": {
+        "kraken": "ochoa",
+        "nearest_image": "cheeykam",
+        "mode_word": "chor",
+        "repeat_character": "ooooo",
+        "empty": ""
+      },
+      "errors": {
+        "kraken": 5,
+        "nearest_image": 6,
+        "mode_word": 4,
+        "repeat_character": 6,
+        "empty": 6
+      },
+      "nearest_train_id": "f3v_w0020",
+      "reference_seen_in_true_training_words": false
+    },
+    {
+      "id": "f4v_w0053",
+      "folio": "f4v",
+      "reference": "shoky",
+      "predictions": {
+        "kraken": "okoly",
+        "nearest_image": "okary",
+        "mode_word": "chor",
+        "repeat_character": "ooooo",
+        "empty": ""
+      },
+      "errors": {
+        "kraken": 3,
+        "nearest_image": 4,
+        "mode_word": 3,
+        "repeat_character": 4,
+        "empty": 5
+      },
+      "nearest_train_id": "f3v_w0061",
+      "reference_seen_in_true_training_words": false
+    },
+    {
+      "id": "f4v_w0054",
+      "folio": "f4v",
+      "reference": "daiin",
+      "predictions": {
+        "kraken": "chan",
+        "nearest_image": "eear",
+        "mode_word": "chor",
+        "repeat_character": "ooooo",
+        "empty": ""
+      },
+      "errors": {
+        "kraken": 4,
+        "nearest_image": 5,
+        "mode_word": 5,
+        "repeat_character": 5,
+        "empty": 5
+      },
+      "nearest_train_id": "f3v_w0034",
+      "reference_seen_in_true_training_words": true
+    },
+    {
+      "id": "f4v_w0055",
+      "folio": "f4v",
+      "reference": "otaiin",
+      "predictions": {
+        "kraken": "okcha",
+        "nearest_image": "ykoaiin",
+        "mode_word": "chor",
+        "repeat_character": "ooooo",
+        "empty": ""
+      },
+      "errors": {
+        "kraken": 5,
+        "nearest_image": 3,
+        "mode_word": 6,
+        "repeat_character": 5,
+        "empty": 6
+      },
+      "nearest_train_id": "f3v_w0005",
+      "reference_seen_in_true_training_words": false
+    },
+    {
+      "id": "f4v_w0056",
+      "folio": "f4v",
+      "reference": "sheo",
+      "predictions": {
+        "kraken": "cho",
+        "nearest_image": "ees",
+        "mode_word": "chor",
+        "repeat_character": "ooooo",
+        "empty": ""
+      },
+      "errors": {
+        "kraken": 2,
+        "nearest_image": 3,
+        "mode_word": 3,
+        "repeat_character": 4,
+        "empty": 4
+      },
+      "nearest_train_id": "f3v_w0023",
+      "reference_seen_in_true_training_words": false
+    },
+    {
+      "id": "f4v_w0057",
+      "folio": "f4v",
+      "reference": "okeody",
+      "predictions": {
+        "kraken": "otkhdoly",
+        "nearest_image": "cheeykam",
+        "mode_word": "chor",
+        "repeat_character": "ooooo",
+        "empty": ""
+      },
+      "errors": {
+        "kraken": 4,
+        "nearest_image": 7,
+        "mode_word": 5,
+        "repeat_character": 4,
+        "empty": 6
+      },
+      "nearest_train_id": "f3v_w0020",
+      "reference_seen_in_true_training_words": false
+    },
+    {
+      "id": "f4v_w0058",
+      "folio": "f4v",
+      "reference": "chol",
+      "predictions": {
+        "kraken": "hol",
+        "nearest_image": "chol",
+        "mode_word": "chor",
+        "repeat_character": "ooooo",
+        "empty": ""
+      },
+      "errors": {
+        "kraken": 1,
+        "nearest_image": 0,
+        "mode_word": 1,
+        "repeat_character": 4,
+        "empty": 4
+      },
+      "nearest_train_id": "f3r_w0047",
+      "reference_seen_in_true_training_words": true
+    },
+    {
+      "id": "f4v_w0059",
+      "folio": "f4v",
+      "reference": "chokeody",
+      "predictions": {
+        "kraken": "ochol",
+        "nearest_image": "cheeykam",
+        "mode_word": "chor",
+        "repeat_character": "ooooo",
+        "empty": ""
+      },
+      "errors": {
+        "kraken": 6,
+        "nearest_image": 6,
+        "mode_word": 5,
+        "repeat_character": 6,
+        "empty": 8
+      },
+      "nearest_train_id": "f3v_w0020",
+      "reference_seen_in_true_training_words": false
+    },
+    {
+      "id": "f4v_w0060",
+      "folio": "f4v",
+      "reference": "sho",
+      "predictions": {
+        "kraken": "kholy",
+        "nearest_image": "sha",
+        "mode_word": "chor",
+        "repeat_character": "ooooo",
+        "empty": ""
+      },
+      "errors": {
+        "kraken": 3,
+        "nearest_image": 1,
+        "mode_word": 2,
+        "repeat_character": 4,
+        "empty": 3
+      },
+      "nearest_train_id": "f3v_w0003",
+      "reference_seen_in_true_training_words": true
+    },
+    {
+      "id": "f4v_w0061",
+      "folio": "f4v",
+      "reference": "kcheor",
+      "predictions": {
+        "kraken": "chor",
+        "nearest_image": "okchor",
+        "mode_word": "chor",
+        "repeat_character": "ooooo",
+        "empty": ""
+      },
+      "errors": {
+        "kraken": 2,
+        "nearest_image": 2,
+        "mode_word": 2,
+        "repeat_character": 5,
+        "empty": 6
+      },
+      "nearest_train_id": "f3v_w0010",
+      "reference_seen_in_true_training_words": false
+    },
+    {
+      "id": "f4v_w0062",
+      "folio": "f4v",
+      "reference": "shody",
+      "predictions": {
+        "kraken": "tcholy",
+        "nearest_image": "ykoaiin",
+        "mode_word": "chor",
+        "repeat_character": "ooooo",
+        "empty": ""
+      },
+      "errors": {
+        "kraken": 3,
+        "nearest_image": 6,
+        "mode_word": 3,
+        "repeat_character": 4,
+        "empty": 5
+      },
+      "nearest_train_id": "f3v_w0005",
+      "reference_seen_in_true_training_words": false
+    },
+    {
+      "id": "f4v_w0063",
+      "folio": "f4v",
+      "reference": "shtaiin",
+      "predictions": {
+        "kraken": "tkho",
+        "nearest_image": "shkaiin",
+        "mode_word": "chor",
+        "repeat_character": "ooooo",
+        "empty": ""
+      },
+      "errors": {
+        "kraken": 6,
+        "nearest_image": 1,
+        "mode_word": 6,
+        "repeat_character": 7,
+        "empty": 7
+      },
+      "nearest_train_id": "f3v_w0075",
+      "reference_seen_in_true_training_words": false
+    },
+    {
+      "id": "f4v_w0064",
+      "folio": "f4v",
+      "reference": "qotol",
+      "predictions": {
+        "kraken": "qokol",
+        "nearest_image": "cheeykam",
+        "mode_word": "chor",
+        "repeat_character": "ooooo",
+        "empty": ""
+      },
+      "errors": {
+        "kraken": 1,
+        "nearest_image": 8,
+        "mode_word": 4,
+        "repeat_character": 3,
+        "empty": 5
+      },
+      "nearest_train_id": "f3v_w0020",
+      "reference_seen_in_true_training_words": false
+    },
+    {
+      "id": "f4v_w0065",
+      "folio": "f4v",
+      "reference": "daiin",
+      "predictions": {
+        "kraken": "chear",
+        "nearest_image": "daiin",
+        "mode_word": "chor",
+        "repeat_character": "ooooo",
+        "empty": ""
+      },
+      "errors": {
+        "kraken": 5,
+        "nearest_image": 0,
+        "mode_word": 5,
+        "repeat_character": 5,
+        "empty": 5
+      },
+      "nearest_train_id": "f3v_w0057",
+      "reference_seen_in_true_training_words": true
+    },
+    {
+      "id": "f4v_w0066",
+      "folio": "f4v",
+      "reference": "qokoy",
+      "predictions": {
+        "kraken": "okhoy",
+        "nearest_image": "kchom",
+        "mode_word": "chor",
+        "repeat_character": "ooooo",
+        "empty": ""
+      },
+      "errors": {
+        "kraken": 2,
+        "nearest_image": 4,
+        "mode_word": 4,
+        "repeat_character": 3,
+        "empty": 5
+      },
+      "nearest_train_id": "f3v_w0047",
+      "reference_seen_in_true_training_words": false
+    },
+    {
+      "id": "f4v_w0067",
+      "folio": "f4v",
+      "reference": "sho",
+      "predictions": {
+        "kraken": "chol",
+        "nearest_image": "sha",
+        "mode_word": "chor",
+        "repeat_character": "ooooo",
+        "empty": ""
+      },
+      "errors": {
+        "kraken": 2,
+        "nearest_image": 1,
+        "mode_word": 2,
+        "repeat_character": 4,
+        "empty": 3
+      },
+      "nearest_train_id": "f3v_w0003",
+      "reference_seen_in_true_training_words": true
+    },
+    {
+      "id": "f4v_w0068",
+      "folio": "f4v",
+      "reference": "okeol",
+      "predictions": {
+        "kraken": "oko",
+        "nearest_image": "okchor",
+        "mode_word": "chor",
+        "repeat_character": "ooooo",
+        "empty": ""
+      },
+      "errors": {
+        "kraken": 2,
+        "nearest_image": 3,
+        "mode_word": 4,
+        "repeat_character": 3,
+        "empty": 5
+      },
+      "nearest_train_id": "f3v_w0010",
+      "reference_seen_in_true_training_words": true
+    },
+    {
+      "id": "f4v_w0069",
+      "folio": "f4v",
+      "reference": "s",
+      "predictions": {
+        "kraken": "s",
+        "nearest_image": "s",
+        "mode_word": "chor",
+        "repeat_character": "ooooo",
+        "empty": ""
+      },
+      "errors": {
+        "kraken": 0,
+        "nearest_image": 0,
+        "mode_word": 4,
+        "repeat_character": 5,
+        "empty": 1
+      },
+      "nearest_train_id": "f3r_w0078",
+      "reference_seen_in_true_training_words": true
+    },
+    {
+      "id": "f4v_w0070",
+      "folio": "f4v",
+      "reference": "keey",
+      "predictions": {
+        "kraken": "cthy",
+        "nearest_image": "ykoaiin",
+        "mode_word": "chor",
+        "repeat_character": "ooooo",
+        "empty": ""
+      },
+      "errors": {
+        "kraken": 3,
+        "nearest_image": 6,
+        "mode_word": 4,
+        "repeat_character": 5,
+        "empty": 4
+      },
+      "nearest_train_id": "f3v_w0005",
+      "reference_seen_in_true_training_words": false
+    },
+    {
+      "id": "f4v_w0071",
+      "folio": "f4v",
+      "reference": "shar",
+      "predictions": {
+        "kraken": "chor",
+        "nearest_image": "chor",
+        "mode_word": "chor",
+        "repeat_character": "ooooo",
+        "empty": ""
+      },
+      "errors": {
+        "kraken": 2,
+        "nearest_image": 2,
+        "mode_word": 2,
+        "repeat_character": 5,
+        "empty": 4
+      },
+      "nearest_train_id": "f3v_w0054",
+      "reference_seen_in_true_training_words": true
+    },
+    {
+      "id": "f4v_w0072",
+      "folio": "f4v",
+      "reference": "char",
+      "predictions": {
+        "kraken": "cho",
+        "nearest_image": "eear",
+        "mode_word": "chor",
+        "repeat_character": "ooooo",
+        "empty": ""
+      },
+      "errors": {
+        "kraken": 2,
+        "nearest_image": 2,
+        "mode_word": 1,
+        "repeat_character": 5,
+        "empty": 4
+      },
+      "nearest_train_id": "f3v_w0034",
+      "reference_seen_in_true_training_words": false
+    },
+    {
+      "id": "f4v_w0073",
+      "folio": "f4v",
+      "reference": "ody",
+      "predictions": {
+        "kraken": "hoy",
+        "nearest_image": "oly",
+        "mode_word": "chor",
+        "repeat_character": "ooooo",
+        "empty": ""
+      },
+      "errors": {
+        "kraken": 2,
+        "nearest_image": 1,
+        "mode_word": 4,
+        "repeat_character": 4,
+        "empty": 3
+      },
+      "nearest_train_id": "f3v_w0007",
+      "reference_seen_in_true_training_words": false
+    },
+    {
+      "id": "f4v_w0074",
+      "folio": "f4v",
+      "reference": "shody",
+      "predictions": {
+        "kraken": "heoly",
+        "nearest_image": "okary",
+        "mode_word": "chor",
+        "repeat_character": "ooooo",
+        "empty": ""
+      },
+      "errors": {
+        "kraken": 3,
+        "nearest_image": 4,
+        "mode_word": 3,
+        "repeat_character": 4,
+        "empty": 5
+      },
+      "nearest_train_id": "f3v_w0061",
+      "reference_seen_in_true_training_words": false
+    },
+    {
+      "id": "f4v_w0075",
+      "folio": "f4v",
+      "reference": "s",
+      "predictions": {
+        "kraken": "s",
+        "nearest_image": "s",
+        "mode_word": "chor",
+        "repeat_character": "ooooo",
+        "empty": ""
+      },
+      "errors": {
+        "kraken": 0,
+        "nearest_image": 0,
+        "mode_word": 4,
+        "repeat_character": 5,
+        "empty": 1
+      },
+      "nearest_train_id": "f3r_w0023",
+      "reference_seen_in_true_training_words": true
+    },
+    {
+      "id": "f4v_w0076",
+      "folio": "f4v",
+      "reference": "cheor",
+      "predictions": {
+        "kraken": "chor",
+        "nearest_image": "eeor",
+        "mode_word": "chor",
+        "repeat_character": "ooooo",
+        "empty": ""
+      },
+      "errors": {
+        "kraken": 1,
+        "nearest_image": 2,
+        "mode_word": 1,
+        "repeat_character": 4,
+        "empty": 5
+      },
+      "nearest_train_id": "f3v_w0033",
+      "reference_seen_in_true_training_words": true
+    },
+    {
+      "id": "f4v_w0077",
+      "folio": "f4v",
+      "reference": "chokody",
+      "predictions": {
+        "kraken": "oky",
+        "nearest_image": "qoteeol",
+        "mode_word": "chor",
+        "repeat_character": "ooooo",
+        "empty": ""
+      },
+      "errors": {
+        "kraken": 4,
+        "nearest_image": 7,
+        "mode_word": 4,
+        "repeat_character": 5,
+        "empty": 7
+      },
+      "nearest_train_id": "f3v_w0009",
+      "reference_seen_in_true_training_words": false
+    },
+    {
+      "id": "f4v_w0078",
+      "folio": "f4v",
+      "reference": "shodaiin",
+      "predictions": {
+        "kraken": "choal",
+        "nearest_image": "chodaiin",
+        "mode_word": "chor",
+        "repeat_character": "ooooo",
+        "empty": ""
+      },
+      "errors": {
+        "kraken": 5,
+        "nearest_image": 1,
+        "mode_word": 6,
+        "repeat_character": 7,
+        "empty": 8
+      },
+      "nearest_train_id": "f3v_w0066",
+      "reference_seen_in_true_training_words": true
+    },
+    {
+      "id": "f4v_w0079",
+      "folio": "f4v",
+      "reference": "qoty",
+      "predictions": {
+        "kraken": "qoto",
+        "nearest_image": "cheeykam",
+        "mode_word": "chor",
+        "repeat_character": "ooooo",
+        "empty": ""
+      },
+      "errors": {
+        "kraken": 1,
+        "nearest_image": 7,
+        "mode_word": 4,
+        "repeat_character": 4,
+        "empty": 4
+      },
+      "nearest_train_id": "f3v_w0020",
+      "reference_seen_in_true_training_words": true
+    },
+    {
+      "id": "f4v_w0080",
+      "folio": "f4v",
+      "reference": "ochody",
+      "predictions": {
+        "kraken": "cheoy",
+        "nearest_image": "chodaly",
+        "mode_word": "chor",
+        "repeat_character": "ooooo",
+        "empty": ""
+      },
+      "errors": {
+        "kraken": 3,
+        "nearest_image": 3,
+        "mode_word": 3,
+        "repeat_character": 4,
+        "empty": 6
+      },
+      "nearest_train_id": "f3v_w0039",
+      "reference_seen_in_true_training_words": false
+    },
+    {
+      "id": "f4v_w0081",
+      "folio": "f4v",
+      "reference": "chykey",
+      "predictions": {
+        "kraken": "yteor",
+        "nearest_image": "yty",
+        "mode_word": "chor",
+        "repeat_character": "ooooo",
+        "empty": ""
+      },
+      "errors": {
+        "kraken": 5,
+        "nearest_image": 4,
+        "mode_word": 4,
+        "repeat_character": 6,
+        "empty": 6
+      },
+      "nearest_train_id": "f3v_w0077",
+      "reference_seen_in_true_training_words": false
+    },
+    {
+      "id": "f4v_w0082",
+      "folio": "f4v",
+      "reference": "chtody",
+      "predictions": {
+        "kraken": "okheol",
+        "nearest_image": "sheam",
+        "mode_word": "chor",
+        "repeat_character": "ooooo",
+        "empty": ""
+      },
+      "errors": {
+        "kraken": 5,
+        "nearest_image": 5,
+        "mode_word": 3,
+        "repeat_character": 5,
+        "empty": 6
+      },
+      "nearest_train_id": "f3v_w0081",
+      "reference_seen_in_true_training_words": false
+    }
+  ],
+  "training_predictions": [
+    {
+      "id": "f3r_w0000",
+      "reference": "tsheos",
+      "assigned_training_text": "tsheos",
+      "prediction": "tsheos",
+      "true_errors": 0,
+      "assigned_errors": 0
+    },
+    {
+      "id": "f3r_w0001",
+      "reference": "qopal",
+      "assigned_training_text": "qopal",
+      "prediction": "qopal",
+      "true_errors": 0,
+      "assigned_errors": 0
+    },
+    {
+      "id": "f3r_w0003",
+      "reference": "cthol",
+      "assigned_training_text": "cthol",
+      "prediction": "cthol",
+      "true_errors": 0,
+      "assigned_errors": 0
+    },
+    {
+      "id": "f3r_w0004",
+      "reference": "daimm",
+      "assigned_training_text": "daimm",
+      "prediction": "daimm",
+      "true_errors": 0,
+      "assigned_errors": 0
+    },
+    {
+      "id": "f3r_w0005",
+      "reference": "ycheor",
+      "assigned_training_text": "ycheor",
+      "prediction": "ychor",
+      "true_errors": 1,
+      "assigned_errors": 1
+    },
+    {
+      "id": "f3r_w0006",
+      "reference": "chor",
+      "assigned_training_text": "chor",
+      "prediction": "chor",
+      "true_errors": 0,
+      "assigned_errors": 0
+    },
+    {
+      "id": "f3r_w0007",
+      "reference": "dam",
+      "assigned_training_text": "dam",
+      "prediction": "dam",
+      "true_errors": 0,
+      "assigned_errors": 0
+    },
+    {
+      "id": "f3r_w0008",
+      "reference": "qotcham",
+      "assigned_training_text": "qotcham",
+      "prediction": "qotcham",
+      "true_errors": 0,
+      "assigned_errors": 0
+    },
+    {
+      "id": "f3r_w0009",
+      "reference": "cham",
+      "assigned_training_text": "cham",
+      "prediction": "cham",
+      "true_errors": 0,
+      "assigned_errors": 0
+    },
+    {
+      "id": "f3r_w0010",
+      "reference": "ochor",
+      "assigned_training_text": "ochor",
+      "prediction": "ochor",
+      "true_errors": 0,
+      "assigned_errors": 0
+    },
+    {
+      "id": "f3r_w0011",
+      "reference": "qocheor",
+      "assigned_training_text": "qocheor",
+      "prediction": "qocheor",
+      "true_errors": 0,
+      "assigned_errors": 0
+    },
+    {
+      "id": "f3r_w0012",
+      "reference": "chol",
+      "assigned_training_text": "chol",
+      "prediction": "chol",
+      "true_errors": 0,
+      "assigned_errors": 0
+    },
+    {
+      "id": "f3r_w0013",
+      "reference": "daiin",
+      "assigned_training_text": "daiin",
+      "prediction": "daiin",
+      "true_errors": 0,
+      "assigned_errors": 0
+    },
+    {
+      "id": "f3r_w0014",
+      "reference": "cthy",
+      "assigned_training_text": "cthy",
+      "prediction": "cthy",
+      "true_errors": 0,
+      "assigned_errors": 0
+    },
+    {
+      "id": "f3r_w0015",
+      "reference": "schey",
+      "assigned_training_text": "schey",
+      "prediction": "schey",
+      "true_errors": 0,
+      "assigned_errors": 0
+    },
+    {
+      "id": "f3r_w0016",
+      "reference": "chor",
+      "assigned_training_text": "chor",
+      "prediction": "chor",
+      "true_errors": 0,
+      "assigned_errors": 0
+    },
+    {
+      "id": "f3r_w0017",
+      "reference": "chal",
+      "assigned_training_text": "chal",
+      "prediction": "chal",
+      "true_errors": 0,
+      "assigned_errors": 0
+    },
+    {
+      "id": "f3r_w0018",
+      "reference": "cham",
+      "assigned_training_text": "cham",
+      "prediction": "cham",
+      "true_errors": 0,
+      "assigned_errors": 0
+    },
+    {
+      "id": "f3r_w0019",
+      "reference": "cham",
+      "assigned_training_text": "cham",
+      "prediction": "cham",
+      "true_errors": 0,
+      "assigned_errors": 0
+    },
+    {
+      "id": "f3r_w0020",
+      "reference": "cho",
+      "assigned_training_text": "cho",
+      "prediction": "cho",
+      "true_errors": 0,
+      "assigned_errors": 0
+    },
+    {
+      "id": "f3r_w0021",
+      "reference": "qokol",
+      "assigned_training_text": "qokol",
+      "prediction": "qokol",
+      "true_errors": 0,
+      "assigned_errors": 0
+    },
+    {
+      "id": "f3r_w0022",
+      "reference": "chololy",
+      "assigned_training_text": "chololy",
+      "prediction": "chololy",
+      "true_errors": 0,
+      "assigned_errors": 0
+    },
+    {
+      "id": "f3r_w0023",
+      "reference": "s",
+      "assigned_training_text": "s",
+      "prediction": "s",
+      "true_errors": 0,
+      "assigned_errors": 0
+    },
+    {
+      "id": "f3r_w0024",
+      "reference": "cham",
+      "assigned_training_text": "cham",
+      "prediction": "cham",
+      "true_errors": 0,
+      "assigned_errors": 0
+    },
+    {
+      "id": "f3r_w0025",
+      "reference": "cthol",
+      "assigned_training_text": "cthol",
+      "prediction": "tchol",
+      "true_errors": 2,
+      "assigned_errors": 2
+    },
+    {
+      "id": "f3r_w0026",
+      "reference": "ychtaiin",
+      "assigned_training_text": "ychtaiin",
+      "prediction": "ychtaiin",
+      "true_errors": 0,
+      "assigned_errors": 0
+    },
+    {
+      "id": "f3r_w0027",
+      "reference": "chor",
+      "assigned_training_text": "chor",
+      "prediction": "chor",
+      "true_errors": 0,
+      "assigned_errors": 0
+    },
+    {
+      "id": "f3r_w0028",
+      "reference": "cthom",
+      "assigned_training_text": "cthom",
+      "prediction": "cthom",
+      "true_errors": 0,
+      "assigned_errors": 0
+    },
+    {
+      "id": "f3r_w0029",
+      "reference": "otal",
+      "assigned_training_text": "otal",
+      "prediction": "otal",
+      "true_errors": 0,
+      "assigned_errors": 0
+    },
+    {
+      "id": "f3r_w0030",
+      "reference": "dam",
+      "assigned_training_text": "dam",
+      "prediction": "dam",
+      "true_errors": 0,
+      "assigned_errors": 0
+    },
+    {
+      "id": "f3r_w0031",
+      "reference": "otchol",
+      "assigned_training_text": "otchol",
+      "prediction": "otchol",
+      "true_errors": 0,
+      "assigned_errors": 0
+    },
+    {
+      "id": "f3r_w0032",
+      "reference": "qodaiin",
+      "assigned_training_text": "qodaiin",
+      "prediction": "qodaiin",
+      "true_errors": 0,
+      "assigned_errors": 0
+    },
+    {
+      "id": "f3r_w0033",
+      "reference": "chom",
+      "assigned_training_text": "chom",
+      "prediction": "chom",
+      "true_errors": 0,
+      "assigned_errors": 0
+    },
+    {
+      "id": "f3r_w0034",
+      "reference": "shom",
+      "assigned_training_text": "shom",
+      "prediction": "shom",
+      "true_errors": 0,
+      "assigned_errors": 0
+    },
+    {
+      "id": "f3r_w0035",
+      "reference": "damo",
+      "assigned_training_text": "damo",
+      "prediction": "damo",
+      "true_errors": 0,
+      "assigned_errors": 0
+    },
+    {
+      "id": "f3r_w0036",
+      "reference": "ysheor",
+      "assigned_training_text": "ysheor",
+      "prediction": "ysheor",
+      "true_errors": 0,
+      "assigned_errors": 0
+    },
+    {
+      "id": "f3r_w0037",
+      "reference": "chor",
+      "assigned_training_text": "chor",
+      "prediction": "chor",
+      "true_errors": 0,
+      "assigned_errors": 0
+    },
+    {
+      "id": "f3r_w0038",
+      "reference": "chol",
+      "assigned_training_text": "chol",
+      "prediction": "chol",
+      "true_errors": 0,
+      "assigned_errors": 0
+    },
+    {
+      "id": "f3r_w0039",
+      "reference": "oky",
+      "assigned_training_text": "oky",
+      "prediction": "oky",
+      "true_errors": 0,
+      "assigned_errors": 0
+    },
+    {
+      "id": "f3r_w0040",
+      "reference": "damo",
+      "assigned_training_text": "damo",
+      "prediction": "damo",
+      "true_errors": 0,
+      "assigned_errors": 0
+    },
+    {
+      "id": "f3r_w0041",
+      "reference": "sho",
+      "assigned_training_text": "sho",
+      "prediction": "sho",
+      "true_errors": 0,
+      "assigned_errors": 0
+    },
+    {
+      "id": "f3r_w0042",
+      "reference": "or",
+      "assigned_training_text": "or",
+      "prediction": "or",
+      "true_errors": 0,
+      "assigned_errors": 0
+    },
+    {
+      "id": "f3r_w0043",
+      "reference": "sheoldam",
+      "assigned_training_text": "sheoldam",
+      "prediction": "sheoldam",
+      "true_errors": 0,
+      "assigned_errors": 0
+    },
+    {
+      "id": "f3r_w0044",
+      "reference": "otchody",
+      "assigned_training_text": "otchody",
+      "prediction": "otchody",
+      "true_errors": 0,
+      "assigned_errors": 0
+    },
+    {
+      "id": "f3r_w0045",
+      "reference": "ol",
+      "assigned_training_text": "ol",
+      "prediction": "ol",
+      "true_errors": 0,
+      "assigned_errors": 0
+    },
+    {
+      "id": "f3r_w0046",
+      "reference": "ydas",
+      "assigned_training_text": "ydas",
+      "prediction": "ydas",
+      "true_errors": 0,
+      "assigned_errors": 0
+    },
+    {
+      "id": "f3r_w0047",
+      "reference": "chol",
+      "assigned_training_text": "chol",
+      "prediction": "chol",
+      "true_errors": 0,
+      "assigned_errors": 0
+    },
+    {
+      "id": "f3r_w0048",
+      "reference": "cthom",
+      "assigned_training_text": "cthom",
+      "prediction": "cthom",
+      "true_errors": 0,
+      "assigned_errors": 0
+    },
+    {
+      "id": "f3r_w0049",
+      "reference": "pcheol",
+      "assigned_training_text": "pcheol",
+      "prediction": "pcheol",
+      "true_errors": 0,
+      "assigned_errors": 0
+    },
+    {
+      "id": "f3r_w0050",
+      "reference": "shol",
+      "assigned_training_text": "shol",
+      "prediction": "shol",
+      "true_errors": 0,
+      "assigned_errors": 0
+    },
+    {
+      "id": "f3r_w0051",
+      "reference": "sols",
+      "assigned_training_text": "sols",
+      "prediction": "sols",
+      "true_errors": 0,
+      "assigned_errors": 0
+    },
+    {
+      "id": "f3r_w0052",
+      "reference": "sheol",
+      "assigned_training_text": "sheol",
+      "prediction": "sheol",
+      "true_errors": 0,
+      "assigned_errors": 0
+    },
+    {
+      "id": "f3r_w0053",
+      "reference": "shey",
+      "assigned_training_text": "shey",
+      "prediction": "shey",
+      "true_errors": 0,
+      "assigned_errors": 0
+    },
+    {
+      "id": "f3r_w0054",
+      "reference": "okadaiin",
+      "assigned_training_text": "okadaiin",
+      "prediction": "okadaiin",
+      "true_errors": 0,
+      "assigned_errors": 0
+    },
+    {
+      "id": "f3r_w0055",
+      "reference": "qokchor",
+      "assigned_training_text": "qokchor",
+      "prediction": "qokchor",
+      "true_errors": 0,
+      "assigned_errors": 0
+    },
+    {
+      "id": "f3r_w0056",
+      "reference": "qoschodam",
+      "assigned_training_text": "qoschodam",
+      "prediction": "qoschodam",
+      "true_errors": 0,
+      "assigned_errors": 0
+    },
+    {
+      "id": "f3r_w0057",
+      "reference": "octhy",
+      "assigned_training_text": "octhy",
+      "prediction": "octhy",
+      "true_errors": 0,
+      "assigned_errors": 0
+    },
+    {
+      "id": "f3r_w0058",
+      "reference": "qokeey",
+      "assigned_training_text": "qokeey",
+      "prediction": "qokeey",
+      "true_errors": 0,
+      "assigned_errors": 0
+    },
+    {
+      "id": "f3r_w0059",
+      "reference": "qot",
+      "assigned_training_text": "qot",
+      "prediction": "qot",
+      "true_errors": 0,
+      "assigned_errors": 0
+    },
+    {
+      "id": "f3r_w0060",
+      "reference": "shey",
+      "assigned_training_text": "shey",
+      "prediction": "shey",
+      "true_errors": 0,
+      "assigned_errors": 0
+    },
+    {
+      "id": "f3r_w0061",
+      "reference": "qokody",
+      "assigned_training_text": "qokody",
+      "prediction": "qokody",
+      "true_errors": 0,
+      "assigned_errors": 0
+    },
+    {
+      "id": "f3r_w0062",
+      "reference": "qokchey",
+      "assigned_training_text": "qokchey",
+      "prediction": "qokchey",
+      "true_errors": 0,
+      "assigned_errors": 0
+    },
+    {
+      "id": "f3r_w0063",
+      "reference": "cheody",
+      "assigned_training_text": "cheody",
+      "prediction": "cheody",
+      "true_errors": 0,
+      "assigned_errors": 0
+    },
+    {
+      "id": "f3r_w0064",
+      "reference": "chor",
+      "assigned_training_text": "chor",
+      "prediction": "chor",
+      "true_errors": 0,
+      "assigned_errors": 0
+    },
+    {
+      "id": "f3r_w0065",
+      "reference": "qodair",
+      "assigned_training_text": "qodair",
+      "prediction": "qodair",
+      "true_errors": 0,
+      "assigned_errors": 0
+    },
+    {
+      "id": "f3r_w0066",
+      "reference": "okeey",
+      "assigned_training_text": "okeey",
+      "prediction": "okeey",
+      "true_errors": 0,
+      "assigned_errors": 0
+    },
+    {
+      "id": "f3r_w0067",
+      "reference": "qokeey",
+      "assigned_training_text": "qokeey",
+      "prediction": "qokeey",
+      "true_errors": 0,
+      "assigned_errors": 0
+    },
+    {
+      "id": "f3r_w0068",
+      "reference": "tsheoarom",
+      "assigned_training_text": "tsheoarom",
+      "prediction": "tsheoarom",
+      "true_errors": 0,
+      "assigned_errors": 0
+    },
+    {
+      "id": "f3r_w0069",
+      "reference": "shor",
+      "assigned_training_text": "shor",
+      "prediction": "shor",
+      "true_errors": 0,
+      "assigned_errors": 0
+    },
+    {
+      "id": "f3r_w0070",
+      "reference": "or",
+      "assigned_training_text": "or",
+      "prediction": "or",
+      "true_errors": 0,
+      "assigned_errors": 0
+    },
+    {
+      "id": "f3r_w0071",
+      "reference": "chor",
+      "assigned_training_text": "chor",
+      "prediction": "chor",
+      "true_errors": 0,
+      "assigned_errors": 0
+    },
+    {
+      "id": "f3r_w0072",
+      "reference": "olchsy",
+      "assigned_training_text": "olchsy",
+      "prediction": "olchsy",
+      "true_errors": 0,
+      "assigned_errors": 0
+    },
+    {
+      "id": "f3r_w0073",
+      "reference": "chom",
+      "assigned_training_text": "chom",
+      "prediction": "chom",
+      "true_errors": 0,
+      "assigned_errors": 0
+    },
+    {
+      "id": "f3r_w0074",
+      "reference": "otchom",
+      "assigned_training_text": "otchom",
+      "prediction": "otchom",
+      "true_errors": 0,
+      "assigned_errors": 0
+    },
+    {
+      "id": "f3r_w0075",
+      "reference": "oporar",
+      "assigned_training_text": "oporar",
+      "prediction": "oporar",
+      "true_errors": 0,
+      "assigned_errors": 0
+    },
+    {
+      "id": "f3r_w0076",
+      "reference": "oteol",
+      "assigned_training_text": "oteol",
+      "prediction": "oteol",
+      "true_errors": 0,
+      "assigned_errors": 0
+    },
+    {
+      "id": "f3r_w0077",
+      "reference": "chol",
+      "assigned_training_text": "chol",
+      "prediction": "chol",
+      "true_errors": 0,
+      "assigned_errors": 0
+    },
+    {
+      "id": "f3r_w0078",
+      "reference": "s",
+      "assigned_training_text": "s",
+      "prediction": "s",
+      "true_errors": 0,
+      "assigned_errors": 0
+    },
+    {
+      "id": "f3r_w0079",
+      "reference": "cheol",
+      "assigned_training_text": "cheol",
+      "prediction": "cheol",
+      "true_errors": 0,
+      "assigned_errors": 0
+    },
+    {
+      "id": "f3r_w0080",
+      "reference": "ekshy",
+      "assigned_training_text": "ekshy",
+      "prediction": "ekshy",
+      "true_errors": 0,
+      "assigned_errors": 0
+    },
+    {
+      "id": "f3r_w0081",
+      "reference": "qokeom",
+      "assigned_training_text": "qokeom",
+      "prediction": "qokeom",
+      "true_errors": 0,
+      "assigned_errors": 0
+    },
+    {
+      "id": "f3r_w0082",
+      "reference": "qokol",
+      "assigned_training_text": "qokol",
+      "prediction": "qokol",
+      "true_errors": 0,
+      "assigned_errors": 0
+    },
+    {
+      "id": "f3r_w0083",
+      "reference": "daiin",
+      "assigned_training_text": "daiin",
+      "prediction": "daiin",
+      "true_errors": 0,
+      "assigned_errors": 0
+    },
+    {
+      "id": "f3r_w0084",
+      "reference": "soleeg",
+      "assigned_training_text": "soleeg",
+      "prediction": "soleeg",
+      "true_errors": 0,
+      "assigned_errors": 0
+    },
+    {
+      "id": "f3r_w0085",
+      "reference": "soeom",
+      "assigned_training_text": "soeom",
+      "prediction": "som",
+      "true_errors": 2,
+      "assigned_errors": 2
+    },
+    {
+      "id": "f3r_w0086",
+      "reference": "okeom",
+      "assigned_training_text": "okeom",
+      "prediction": "okeom",
+      "true_errors": 0,
+      "assigned_errors": 0
+    },
+    {
+      "id": "f3r_w0087",
+      "reference": "yteody",
+      "assigned_training_text": "yteody",
+      "prediction": "yteody",
+      "true_errors": 0,
+      "assigned_errors": 0
+    },
+    {
+      "id": "f3r_w0088",
+      "reference": "qokeeo",
+      "assigned_training_text": "qokeeo",
+      "prediction": "qokeeo",
+      "true_errors": 0,
+      "assigned_errors": 0
+    },
+    {
+      "id": "f3r_w0089",
+      "reference": "dal",
+      "assigned_training_text": "dal",
+      "prediction": "dal",
+      "true_errors": 0,
+      "assigned_errors": 0
+    },
+    {
+      "id": "f3r_w0090",
+      "reference": "sam",
+      "assigned_training_text": "sam",
+      "prediction": "sam",
+      "true_errors": 0,
+      "assigned_errors": 0
+    },
+    {
+      "id": "f3r_w0091",
+      "reference": "pcheoldom",
+      "assigned_training_text": "pcheoldom",
+      "prediction": "pcheoldom",
+      "true_errors": 0,
+      "assigned_errors": 0
+    },
+    {
+      "id": "f3r_w0092",
+      "reference": "shodaiin",
+      "assigned_training_text": "shodaiin",
+      "prediction": "shodaiin",
+      "true_errors": 0,
+      "assigned_errors": 0
+    },
+    {
+      "id": "f3r_w0093",
+      "reference": "qopchor",
+      "assigned_training_text": "qopchor",
+      "prediction": "qopchor",
+      "true_errors": 0,
+      "assigned_errors": 0
+    },
+    {
+      "id": "f3r_w0094",
+      "reference": "qopol",
+      "assigned_training_text": "qopol",
+      "prediction": "qopol",
+      "true_errors": 0,
+      "assigned_errors": 0
+    },
+    {
+      "id": "f3r_w0095",
+      "reference": "opchol",
+      "assigned_training_text": "opchol",
+      "prediction": "opchol",
+      "true_errors": 0,
+      "assigned_errors": 0
+    },
+    {
+      "id": "f3r_w0096",
+      "reference": "qoty",
+      "assigned_training_text": "qoty",
+      "prediction": "qoty",
+      "true_errors": 0,
+      "assigned_errors": 0
+    },
+    {
+      "id": "f3r_w0097",
+      "reference": "otolom",
+      "assigned_training_text": "otolom",
+      "prediction": "otolom",
+      "true_errors": 0,
+      "assigned_errors": 0
+    },
+    {
+      "id": "f3r_w0098",
+      "reference": "otchor",
+      "assigned_training_text": "otchor",
+      "prediction": "otchor",
+      "true_errors": 0,
+      "assigned_errors": 0
+    },
+    {
+      "id": "f3r_w0099",
+      "reference": "ol",
+      "assigned_training_text": "ol",
+      "prediction": "ol",
+      "true_errors": 0,
+      "assigned_errors": 0
+    },
+    {
+      "id": "f3r_w0100",
+      "reference": "cheor",
+      "assigned_training_text": "cheor",
+      "prediction": "cheor",
+      "true_errors": 0,
+      "assigned_errors": 0
+    },
+    {
+      "id": "f3r_w0101",
+      "reference": "qoeor",
+      "assigned_training_text": "qoeor",
+      "prediction": "qoeor",
+      "true_errors": 0,
+      "assigned_errors": 0
+    },
+    {
+      "id": "f3r_w0102",
+      "reference": "dair",
+      "assigned_training_text": "dair",
+      "prediction": "dair",
+      "true_errors": 0,
+      "assigned_errors": 0
+    },
+    {
+      "id": "f3r_w0103",
+      "reference": "qoteol",
+      "assigned_training_text": "qoteol",
+      "prediction": "qoteol",
+      "true_errors": 0,
+      "assigned_errors": 0
+    },
+    {
+      "id": "f3r_w0104",
+      "reference": "qosaiin",
+      "assigned_training_text": "qosaiin",
+      "prediction": "qosaiin",
+      "true_errors": 0,
+      "assigned_errors": 0
+    },
+    {
+      "id": "f3r_w0105",
+      "reference": "chor",
+      "assigned_training_text": "chor",
+      "prediction": "chor",
+      "true_errors": 0,
+      "assigned_errors": 0
+    },
+    {
+      "id": "f3r_w0106",
+      "reference": "cthy",
+      "assigned_training_text": "cthy",
+      "prediction": "cthy",
+      "true_errors": 0,
+      "assigned_errors": 0
+    },
+    {
+      "id": "f3r_w0107",
+      "reference": "ycheor",
+      "assigned_training_text": "ycheor",
+      "prediction": "ycheor",
+      "true_errors": 0,
+      "assigned_errors": 0
+    },
+    {
+      "id": "f3r_w0108",
+      "reference": "chol",
+      "assigned_training_text": "chol",
+      "prediction": "chol",
+      "true_errors": 0,
+      "assigned_errors": 0
+    },
+    {
+      "id": "f3r_w0109",
+      "reference": "odaiin",
+      "assigned_training_text": "odaiin",
+      "prediction": "odaiin",
+      "true_errors": 0,
+      "assigned_errors": 0
+    },
+    {
+      "id": "f3r_w0110",
+      "reference": "chol",
+      "assigned_training_text": "chol",
+      "prediction": "chol",
+      "true_errors": 0,
+      "assigned_errors": 0
+    },
+    {
+      "id": "f3r_w0111",
+      "reference": "s",
+      "assigned_training_text": "s",
+      "prediction": "s",
+      "true_errors": 0,
+      "assigned_errors": 0
+    },
+    {
+      "id": "f3r_w0112",
+      "reference": "aiin",
+      "assigned_training_text": "aiin",
+      "prediction": "aiin",
+      "true_errors": 0,
+      "assigned_errors": 0
+    },
+    {
+      "id": "f3r_w0113",
+      "reference": "okolor",
+      "assigned_training_text": "okolor",
+      "prediction": "okolor",
+      "true_errors": 0,
+      "assigned_errors": 0
+    },
+    {
+      "id": "f3r_w0114",
+      "reference": "am",
+      "assigned_training_text": "am",
+      "prediction": "am",
+      "true_errors": 0,
+      "assigned_errors": 0
+    },
+    {
+      "id": "f3v_w0000",
+      "reference": "koaiin",
+      "assigned_training_text": "koaiin",
+      "prediction": "koaiin",
+      "true_errors": 0,
+      "assigned_errors": 0
+    },
+    {
+      "id": "f3v_w0001",
+      "reference": "cphor",
+      "assigned_training_text": "cphor",
+      "prediction": "cphor",
+      "true_errors": 0,
+      "assigned_errors": 0
+    },
+    {
+      "id": "f3v_w0002",
+      "reference": "qotoy",
+      "assigned_training_text": "qotoy",
+      "prediction": "qotoy",
+      "true_errors": 0,
+      "assigned_errors": 0
+    },
+    {
+      "id": "f3v_w0003",
+      "reference": "sha",
+      "assigned_training_text": "sha",
+      "prediction": "sha",
+      "true_errors": 0,
+      "assigned_errors": 0
+    },
+    {
+      "id": "f3v_w0004",
+      "reference": "ckhol",
+      "assigned_training_text": "ckhol",
+      "prediction": "ckhol",
+      "true_errors": 0,
+      "assigned_errors": 0
+    },
+    {
+      "id": "f3v_w0005",
+      "reference": "ykoaiin",
+      "assigned_training_text": "ykoaiin",
+      "prediction": "ykoaiin",
+      "true_errors": 0,
+      "assigned_errors": 0
+    },
+    {
+      "id": "f3v_w0006",
+      "reference": "s",
+      "assigned_training_text": "s",
+      "prediction": "s",
+      "true_errors": 0,
+      "assigned_errors": 0
+    },
+    {
+      "id": "f3v_w0007",
+      "reference": "oly",
+      "assigned_training_text": "oly",
+      "prediction": "oly",
+      "true_errors": 0,
+      "assigned_errors": 0
+    },
+    {
+      "id": "f3v_w0008",
+      "reference": "daiidy",
+      "assigned_training_text": "daiidy",
+      "prediction": "daiidy",
+      "true_errors": 0,
+      "assigned_errors": 0
+    },
+    {
+      "id": "f3v_w0009",
+      "reference": "qoteeol",
+      "assigned_training_text": "qoteeol",
+      "prediction": "qoteeol",
+      "true_errors": 0,
+      "assigned_errors": 0
+    },
+    {
+      "id": "f3v_w0010",
+      "reference": "okchor",
+      "assigned_training_text": "okchor",
+      "prediction": "okchor",
+      "true_errors": 0,
+      "assigned_errors": 0
+    },
+    {
+      "id": "f3v_w0011",
+      "reference": "okor",
+      "assigned_training_text": "okor",
+      "prediction": "okor",
+      "true_errors": 0,
+      "assigned_errors": 0
+    },
+    {
+      "id": "f3v_w0012",
+      "reference": "olytol",
+      "assigned_training_text": "olytol",
+      "prediction": "olytol",
+      "true_errors": 0,
+      "assigned_errors": 0
+    },
+    {
+      "id": "f3v_w0013",
+      "reference": "dol",
+      "assigned_training_text": "dol",
+      "prediction": "dol",
+      "true_errors": 0,
+      "assigned_errors": 0
+    },
+    {
+      "id": "f3v_w0014",
+      "reference": "dar",
+      "assigned_training_text": "dar",
+      "prediction": "dar",
+      "true_errors": 0,
+      "assigned_errors": 0
+    },
+    {
+      "id": "f3v_w0015",
+      "reference": "okom",
+      "assigned_training_text": "okom",
+      "prediction": "okom",
+      "true_errors": 0,
+      "assigned_errors": 0
+    },
+    {
+      "id": "f3v_w0016",
+      "reference": "chol",
+      "assigned_training_text": "chol",
+      "prediction": "chol",
+      "true_errors": 0,
+      "assigned_errors": 0
+    },
+    {
+      "id": "f3v_w0017",
+      "reference": "shol",
+      "assigned_training_text": "shol",
+      "prediction": "shol",
+      "true_errors": 0,
+      "assigned_errors": 0
+    },
+    {
+      "id": "f3v_w0018",
+      "reference": "seees",
+      "assigned_training_text": "seees",
+      "prediction": "seees",
+      "true_errors": 0,
+      "assigned_errors": 0
+    },
+    {
+      "id": "f3v_w0019",
+      "reference": "chom",
+      "assigned_training_text": "chom",
+      "prediction": "chom",
+      "true_errors": 0,
+      "assigned_errors": 0
+    },
+    {
+      "id": "f3v_w0020",
+      "reference": "cheeykam",
+      "assigned_training_text": "cheeykam",
+      "prediction": "cheeykam",
+      "true_errors": 0,
+      "assigned_errors": 0
+    },
+    {
+      "id": "f3v_w0021",
+      "reference": "okai",
+      "assigned_training_text": "okai",
+      "prediction": "okai",
+      "true_errors": 0,
+      "assigned_errors": 0
+    },
+    {
+      "id": "f3v_w0022",
+      "reference": "qodar",
+      "assigned_training_text": "qodar",
+      "prediction": "qodar",
+      "true_errors": 0,
+      "assigned_errors": 0
+    },
+    {
+      "id": "f3v_w0023",
+      "reference": "ees",
+      "assigned_training_text": "ees",
+      "prediction": "ees",
+      "true_errors": 0,
+      "assigned_errors": 0
+    },
+    {
+      "id": "f3v_w0024",
+      "reference": "eey",
+      "assigned_training_text": "eey",
+      "prediction": "eey",
+      "true_errors": 0,
+      "assigned_errors": 0
+    },
+    {
+      "id": "f3v_w0025",
+      "reference": "kcheol",
+      "assigned_training_text": "kcheol",
+      "prediction": "kcheol",
+      "true_errors": 0,
+      "assigned_errors": 0
+    },
+    {
+      "id": "f3v_w0026",
+      "reference": "okal",
+      "assigned_training_text": "okal",
+      "prediction": "okal",
+      "true_errors": 0,
+      "assigned_errors": 0
+    },
+    {
+      "id": "f3v_w0027",
+      "reference": "do",
+      "assigned_training_text": "do",
+      "prediction": "do",
+      "true_errors": 0,
+      "assigned_errors": 0
+    },
+    {
+      "id": "f3v_w0028",
+      "reference": "r",
+      "assigned_training_text": "r",
+      "prediction": "r",
+      "true_errors": 0,
+      "assigned_errors": 0
+    },
+    {
+      "id": "f3v_w0029",
+      "reference": "chear",
+      "assigned_training_text": "chear",
+      "prediction": "chear",
+      "true_errors": 0,
+      "assigned_errors": 0
+    },
+    {
+      "id": "f3v_w0030",
+      "reference": "een",
+      "assigned_training_text": "een",
+      "prediction": "een",
+      "true_errors": 0,
+      "assigned_errors": 0
+    },
+    {
+      "id": "f3v_w0031",
+      "reference": "yeeear",
+      "assigned_training_text": "yeeear",
+      "prediction": "yeeear",
+      "true_errors": 0,
+      "assigned_errors": 0
+    },
+    {
+      "id": "f3v_w0032",
+      "reference": "otchal",
+      "assigned_training_text": "otchal",
+      "prediction": "otchal",
+      "true_errors": 0,
+      "assigned_errors": 0
+    },
+    {
+      "id": "f3v_w0033",
+      "reference": "eeor",
+      "assigned_training_text": "eeor",
+      "prediction": "eeor",
+      "true_errors": 0,
+      "assigned_errors": 0
+    },
+    {
+      "id": "f3v_w0034",
+      "reference": "eear",
+      "assigned_training_text": "eear",
+      "prediction": "eear",
+      "true_errors": 0,
+      "assigned_errors": 0
+    },
+    {
+      "id": "f3v_w0035",
+      "reference": "ckhy",
+      "assigned_training_text": "ckhy",
+      "prediction": "ckhy",
+      "true_errors": 0,
+      "assigned_errors": 0
+    },
+    {
+      "id": "f3v_w0036",
+      "reference": "or",
+      "assigned_training_text": "or",
+      "prediction": "or",
+      "true_errors": 0,
+      "assigned_errors": 0
+    },
+    {
+      "id": "f3v_w0037",
+      "reference": "cheor",
+      "assigned_training_text": "cheor",
+      "prediction": "cheor",
+      "true_errors": 0,
+      "assigned_errors": 0
+    },
+    {
+      "id": "f3v_w0038",
+      "reference": "kor",
+      "assigned_training_text": "kor",
+      "prediction": "kor",
+      "true_errors": 0,
+      "assigned_errors": 0
+    },
+    {
+      "id": "f3v_w0039",
+      "reference": "chodaly",
+      "assigned_training_text": "chodaly",
+      "prediction": "chodaly",
+      "true_errors": 0,
+      "assigned_errors": 0
+    },
+    {
+      "id": "f3v_w0040",
+      "reference": "chom",
+      "assigned_training_text": "chom",
+      "prediction": "chom",
+      "true_errors": 0,
+      "assigned_errors": 0
+    },
+    {
+      "id": "f3v_w0041",
+      "reference": "tchor",
+      "assigned_training_text": "tchor",
+      "prediction": "tchor",
+      "true_errors": 0,
+      "assigned_errors": 0
+    },
+    {
+      "id": "f3v_w0042",
+      "reference": "otcham",
+      "assigned_training_text": "otcham",
+      "prediction": "otcham",
+      "true_errors": 0,
+      "assigned_errors": 0
+    },
+    {
+      "id": "f3v_w0043",
+      "reference": "chor",
+      "assigned_training_text": "chor",
+      "prediction": "chor",
+      "true_errors": 0,
+      "assigned_errors": 0
+    },
+    {
+      "id": "f3v_w0044",
+      "reference": "cfham",
+      "assigned_training_text": "cfham",
+      "prediction": "cfham",
+      "true_errors": 0,
+      "assigned_errors": 0
+    },
+    {
+      "id": "f3v_w0045",
+      "reference": "s",
+      "assigned_training_text": "s",
+      "prediction": "s",
+      "true_errors": 0,
+      "assigned_errors": 0
+    },
+    {
+      "id": "f3v_w0046",
+      "reference": "ykchy",
+      "assigned_training_text": "ykchy",
+      "prediction": "ykchy",
+      "true_errors": 0,
+      "assigned_errors": 0
+    },
+    {
+      "id": "f3v_w0047",
+      "reference": "kchom",
+      "assigned_training_text": "kchom",
+      "prediction": "kchom",
+      "true_errors": 0,
+      "assigned_errors": 0
+    },
+    {
+      "id": "f3v_w0048",
+      "reference": "chor",
+      "assigned_training_text": "chor",
+      "prediction": "chor",
+      "true_errors": 0,
+      "assigned_errors": 0
+    },
+    {
+      "id": "f3v_w0049",
+      "reference": "chekeol",
+      "assigned_training_text": "chekeol",
+      "prediction": "chekeol",
+      "true_errors": 0,
+      "assigned_errors": 0
+    },
+    {
+      "id": "f3v_w0050",
+      "reference": "oka",
+      "assigned_training_text": "oka",
+      "prediction": "oka",
+      "true_errors": 0,
+      "assigned_errors": 0
+    },
+    {
+      "id": "f3v_w0051",
+      "reference": "ytcheear",
+      "assigned_training_text": "ytcheear",
+      "prediction": "ytcheear",
+      "true_errors": 0,
+      "assigned_errors": 0
+    },
+    {
+      "id": "f3v_w0052",
+      "reference": "okeol",
+      "assigned_training_text": "okeol",
+      "prediction": "okeol",
+      "true_errors": 0,
+      "assigned_errors": 0
+    },
+    {
+      "id": "f3v_w0053",
+      "reference": "cthodoaly",
+      "assigned_training_text": "cthodoaly",
+      "prediction": "cthodoaly",
+      "true_errors": 0,
+      "assigned_errors": 0
+    },
+    {
+      "id": "f3v_w0054",
+      "reference": "chor",
+      "assigned_training_text": "chor",
+      "prediction": "chor",
+      "true_errors": 0,
+      "assigned_errors": 0
+    },
+    {
+      "id": "f3v_w0055",
+      "reference": "cthy",
+      "assigned_training_text": "cthy",
+      "prediction": "cthy",
+      "true_errors": 0,
+      "assigned_errors": 0
+    },
+    {
+      "id": "f3v_w0056",
+      "reference": "ochor",
+      "assigned_training_text": "ochor",
+      "prediction": "okchor",
+      "true_errors": 1,
+      "assigned_errors": 1
+    },
+    {
+      "id": "f3v_w0057",
+      "reference": "daiin",
+      "assigned_training_text": "daiin",
+      "prediction": "daiin",
+      "true_errors": 0,
+      "assigned_errors": 0
+    },
+    {
+      "id": "f3v_w0058",
+      "reference": "qokshol",
+      "assigned_training_text": "qokshol",
+      "prediction": "qokshol",
+      "true_errors": 0,
+      "assigned_errors": 0
+    },
+    {
+      "id": "f3v_w0059",
+      "reference": "daiim",
+      "assigned_training_text": "daiim",
+      "prediction": "daiim",
+      "true_errors": 0,
+      "assigned_errors": 0
+    },
+    {
+      "id": "f3v_w0060",
+      "reference": "chol",
+      "assigned_training_text": "chol",
+      "prediction": "chol",
+      "true_errors": 0,
+      "assigned_errors": 0
+    },
+    {
+      "id": "f3v_w0061",
+      "reference": "okary",
+      "assigned_training_text": "okary",
+      "prediction": "okary",
+      "true_errors": 0,
+      "assigned_errors": 0
+    },
+    {
+      "id": "f3v_w0062",
+      "reference": "sho",
+      "assigned_training_text": "sho",
+      "prediction": "sho",
+      "true_errors": 0,
+      "assigned_errors": 0
+    },
+    {
+      "id": "f3v_w0063",
+      "reference": "shockho",
+      "assigned_training_text": "shockho",
+      "prediction": "shokho",
+      "true_errors": 1,
+      "assigned_errors": 1
+    },
+    {
+      "id": "f3v_w0064",
+      "reference": "ckhy",
+      "assigned_training_text": "ckhy",
+      "prediction": "ckhy",
+      "true_errors": 0,
+      "assigned_errors": 0
+    },
+    {
+      "id": "f3v_w0065",
+      "reference": "tchor",
+      "assigned_training_text": "tchor",
+      "prediction": "tchor",
+      "true_errors": 0,
+      "assigned_errors": 0
+    },
+    {
+      "id": "f3v_w0066",
+      "reference": "chodaiin",
+      "assigned_training_text": "chodaiin",
+      "prediction": "chodaiin",
+      "true_errors": 0,
+      "assigned_errors": 0
+    },
+    {
+      "id": "f3v_w0067",
+      "reference": "chom",
+      "assigned_training_text": "chom",
+      "prediction": "chom",
+      "true_errors": 0,
+      "assigned_errors": 0
+    },
+    {
+      "id": "f3v_w0068",
+      "reference": "osh",
+      "assigned_training_text": "osh",
+      "prediction": "osh",
+      "true_errors": 0,
+      "assigned_errors": 0
+    },
+    {
+      "id": "f3v_w0069",
+      "reference": "chodair",
+      "assigned_training_text": "chodair",
+      "prediction": "chodair",
+      "true_errors": 0,
+      "assigned_errors": 0
+    },
+    {
+      "id": "f3v_w0070",
+      "reference": "ytchy",
+      "assigned_training_text": "ytchy",
+      "prediction": "ytchy",
+      "true_errors": 0,
+      "assigned_errors": 0
+    },
+    {
+      "id": "f3v_w0071",
+      "reference": "tchor",
+      "assigned_training_text": "tchor",
+      "prediction": "tchor",
+      "true_errors": 0,
+      "assigned_errors": 0
+    },
+    {
+      "id": "f3v_w0072",
+      "reference": "kcham",
+      "assigned_training_text": "kcham",
+      "prediction": "kcham",
+      "true_errors": 0,
+      "assigned_errors": 0
+    },
+    {
+      "id": "f3v_w0073",
+      "reference": "s",
+      "assigned_training_text": "s",
+      "prediction": "s",
+      "true_errors": 0,
+      "assigned_errors": 0
+    },
+    {
+      "id": "f3v_w0074",
+      "reference": "shar",
+      "assigned_training_text": "shar",
+      "prediction": "shar",
+      "true_errors": 0,
+      "assigned_errors": 0
+    },
+    {
+      "id": "f3v_w0075",
+      "reference": "shkaiin",
+      "assigned_training_text": "shkaiin",
+      "prediction": "shkaiiin",
+      "true_errors": 1,
+      "assigned_errors": 1
+    },
+    {
+      "id": "f3v_w0076",
+      "reference": "qokchy",
+      "assigned_training_text": "qokchy",
+      "prediction": "qokchy",
+      "true_errors": 0,
+      "assigned_errors": 0
+    },
+    {
+      "id": "f3v_w0077",
+      "reference": "yty",
+      "assigned_training_text": "yty",
+      "prediction": "yty",
+      "true_errors": 0,
+      "assigned_errors": 0
+    },
+    {
+      "id": "f3v_w0078",
+      "reference": "cthal",
+      "assigned_training_text": "cthal",
+      "prediction": "cthal",
+      "true_errors": 0,
+      "assigned_errors": 0
+    },
+    {
+      "id": "f3v_w0079",
+      "reference": "chky",
+      "assigned_training_text": "chky",
+      "prediction": "chky",
+      "true_errors": 0,
+      "assigned_errors": 0
+    },
+    {
+      "id": "f3v_w0080",
+      "reference": "dain",
+      "assigned_training_text": "dain",
+      "prediction": "dain",
+      "true_errors": 0,
+      "assigned_errors": 0
+    },
+    {
+      "id": "f3v_w0081",
+      "reference": "sheam",
+      "assigned_training_text": "sheam",
+      "prediction": "sheam",
+      "true_errors": 0,
+      "assigned_errors": 0
+    },
+    {
+      "id": "f3v_w0082",
+      "reference": "yteam",
+      "assigned_training_text": "yteam",
+      "prediction": "yteam",
+      "true_errors": 0,
+      "assigned_errors": 0
+    }
+  ],
+  "training_fit_cer_assigned": 0.00847457627118644,
+  "training_fit_cer_true": 0.00847457627118644,
+  "by_folio": {
+    "f4r": {
+      "kraken": {
+        "errors": 203,
+        "reference_characters": 324,
+        "cer": 0.6265432098765432,
+        "exact_words": 0,
+        "words": 64,
+        "exact_word_fraction": 0.0
+      },
+      "nearest_image": {
+        "errors": 211,
+        "reference_characters": 324,
+        "cer": 0.6512345679012346,
+        "exact_words": 7,
+        "words": 64,
+        "exact_word_fraction": 0.109375
+      },
+      "mode_word": {
+        "errors": 237,
+        "reference_characters": 324,
+        "cer": 0.7314814814814815,
+        "exact_words": 2,
+        "words": 64,
+        "exact_word_fraction": 0.03125
+      },
+      "repeat_character": {
+        "errors": 322,
+        "reference_characters": 324,
+        "cer": 0.9938271604938271,
+        "exact_words": 0,
+        "words": 64,
+        "exact_word_fraction": 0.0
+      },
+      "empty": {
+        "errors": 324,
+        "reference_characters": 324,
+        "cer": 1.0,
+        "exact_words": 0,
+        "words": 64,
+        "exact_word_fraction": 0.0
+      }
+    },
+    "f4v": {
+      "kraken": {
+        "errors": 262,
+        "reference_characters": 420,
+        "cer": 0.6238095238095238,
+        "exact_words": 2,
+        "words": 83,
+        "exact_word_fraction": 0.024096385542168676
+      },
+      "nearest_image": {
+        "errors": 298,
+        "reference_characters": 420,
+        "cer": 0.7095238095238096,
+        "exact_words": 7,
+        "words": 83,
+        "exact_word_fraction": 0.08433734939759036
+      },
+      "mode_word": {
+        "errors": 293,
+        "reference_characters": 420,
+        "cer": 0.6976190476190476,
+        "exact_words": 2,
+        "words": 83,
+        "exact_word_fraction": 0.024096385542168676
+      },
+      "repeat_character": {
+        "errors": 398,
+        "reference_characters": 420,
+        "cer": 0.9476190476190476,
+        "exact_words": 0,
+        "words": 83,
+        "exact_word_fraction": 0.0
+      },
+      "empty": {
+        "errors": 420,
+        "reference_characters": 420,
+        "cer": 1.0,
+        "exact_words": 0,
+        "words": 83,
+        "exact_word_fraction": 0.0
+      }
+    }
+  },
+  "lexical_strata": {
+    "seen": {
+      "kraken": {
+        "errors": 121,
+        "reference_characters": 212,
+        "cer": 0.5707547169811321,
+        "exact_words": 2,
+        "words": 52,
+        "exact_word_fraction": 0.038461538461538464
+      },
+      "nearest_image": {
+        "errors": 98,
+        "reference_characters": 212,
+        "cer": 0.46226415094339623,
+        "exact_words": 14,
+        "words": 52,
+        "exact_word_fraction": 0.2692307692307692
+      },
+      "mode_word": {
+        "errors": 148,
+        "reference_characters": 212,
+        "cer": 0.6981132075471698,
+        "exact_words": 4,
+        "words": 52,
+        "exact_word_fraction": 0.07692307692307693
+      },
+      "repeat_character": {
+        "errors": 231,
+        "reference_characters": 212,
+        "cer": 1.0896226415094339,
+        "exact_words": 0,
+        "words": 52,
+        "exact_word_fraction": 0.0
+      },
+      "empty": {
+        "errors": 212,
+        "reference_characters": 212,
+        "cer": 1.0,
+        "exact_words": 0,
+        "words": 52,
+        "exact_word_fraction": 0.0
+      }
+    },
+    "unseen": {
+      "kraken": {
+        "errors": 344,
+        "reference_characters": 532,
+        "cer": 0.6466165413533834,
+        "exact_words": 0,
+        "words": 95,
+        "exact_word_fraction": 0.0
+      },
+      "nearest_image": {
+        "errors": 411,
+        "reference_characters": 532,
+        "cer": 0.7725563909774437,
+        "exact_words": 0,
+        "words": 95,
+        "exact_word_fraction": 0.0
+      },
+      "mode_word": {
+        "errors": 382,
+        "reference_characters": 532,
+        "cer": 0.7180451127819549,
+        "exact_words": 0,
+        "words": 95,
+        "exact_word_fraction": 0.0
+      },
+      "repeat_character": {
+        "errors": 489,
+        "reference_characters": 532,
+        "cer": 0.9191729323308271,
+        "exact_words": 0,
+        "words": 95,
+        "exact_word_fraction": 0.0
+      },
+      "empty": {
+        "errors": 532,
+        "reference_characters": 532,
+        "cer": 1.0,
+        "exact_words": 0,
+        "words": 95,
+        "exact_word_fraction": 0.0
+      }
+    }
+  },
+  "prediction_character_counts": {
+    "t": 29,
+    "c": 86,
+    "o": 152,
+    "h": 111,
+    "y": 42,
+    "l": 44,
+    "q": 8,
+    "d": 12,
+    "a": 26,
+    "i": 13,
+    "n": 9,
+    "r": 27,
+    "e": 25,
+    "m": 10,
+    "k": 26,
+    "s": 4,
+    "p": 1
+  },
+  "plan_sha256": "e4db0c039ab57c1bf3bca560dcf1570976eba5e182ad365da66b198a148201d4",
+  "warmstart_source_sha256": "b5df9eef0a783bec696b33636fbfb8d4807bfaa256d74ad6b34df4c58db66acb",
+  "warmstart_converted_sha256": "c18d5b6c2a9859b701ec7e6e0e5bc1d11562ac776f6795a5895924c8fb022339",
+  "model_sha256": "c2b93256804d4697b56990e6bae0ae132942308ab9038b220a06352f8b013e8b",
+  "checkpoint_sha256": "964b1f680f808dc8884aa4b520732e8ed666ed7511965e7fad31165f5f03a962",
+  "training_log_sha256": "88a08f6799612c97f2e2c8e775d0c921664bea8eb73329f5c510c95a5ef4abe2",
+  "seconds_training_and_evaluation": 298.392367789,
+  "run_id": "40540629476",
+  "execution_commit": "cb97858416cd43cade752750956c4f13dc86f719",
+  "environment": {
+    "torch": "2.9.0+cpu",
+    "torchvision": "0.24.0+cpu",
+    "kraken": "7.1",
+    "pillow": "12.3.0",
+    "numpy": "2.4.6",
+    "scipy": "1.15.3",
+    "lightning": "2.6.1"
+  },
+  "scope": "Previously explored physical leaves3 and4, candidate source EVA references without new independent expert review. Warm-start weights previously trained only on leaf3. Development recognition experiment, not a confirmatory manuscript benchmark or translation.",
+  "metric": "Edit distance per conventional EVA character in word crops; not glyph, phonetic or translation accuracy.",
+  "expert_review": "NOT_REVIEWED",
+  "translation": "NOT_RUN",
+  "language_identification": "NOT_RUN"
+}

@@ -1,0 +1,7 @@
+{
+  "status": "PASS",
+  "restored_crop_mask_label_files_verified": 2064,
+  "variants": 2,
+  "words_per_variant": 344,
+  "scope": "Reconstruction from original source photos and archived metadata; no training or model inference."
+}

@@ -1,0 +1,46 @@
+{
+  "run_id": 40540130799,
+  "execution_commit": "c261f8685de5e1b30cf4a5d6fd3d5b322f7f1851",
+  "artifacts": [
+    {
+      "id": 12750097497,
+      "name": "kraken-eva-words-permuted_200",
+      "size_in_bytes": 6508372,
+      "url": "https://api.github.com/repos/MedinaParra/Voynich/actions/artifacts/12750097497",
+      "archive_download_url": "https://api.github.com/repos/MedinaParra/Voynich/actions/artifacts/12750097497/zip",
+      "expired": false,
+      "created_at": "2026-10-27T16:22:55Z",
+      "expires_at": "2026-11-26T16:22:53Z",
+      "updated_at": "2026-10-27T16:22:55Z",
+      "digest": "sha256:9ac6303e30fe18a40d5f008bfeeb038b3822966df9411470ad98e9ad4108a924",
+      "workflow_run": {
+        "id": 40540130799,
+        "repository_id": 1405664605,
+        "head_repository_id": 1405664605,
+        "head_branch": "experiment/kraken-voynich",
+        "head_sha": "c261f8685de5e1b30cf4a5d6fd3d5b322f7f1851"
+      }
+    },
+    {
+      "id": 12749742886,
+      "name": "kraken-eva-words-aligned_200",
+      "size_in_bytes": 6508234,
+      "url": "https://api.github.com/repos/MedinaParra/Voynich/actions/artifacts/12749742886",
+      "archive_download_url": "https://api.github.com/repos/MedinaParra/Voynich/actions/artifacts/12749742886/zip",
+      "expired": false,
+      "created_at": "2026-10-27T16:22:46Z",
+      "expires_at": "2026-11-26T16:22:44Z",
+      "updated_at": "2026-10-27T16:22:46Z",
+      "digest": "sha256:1bde53371b845661e65c7fcfe87f671ef9a6c9186f434d5c1b4902f1ad8e4b05",
+      "workflow_run": {
+        "id": 40540130799,
+        "repository_id": 1405664605,
+        "head_repository_id": 1405664605,
+        "head_branch": "experiment/kraken-voynich",
+        "head_sha": "c261f8685de5e1b30cf4a5d6fd3d5b322f7f1851"
+      }
+    }
+  ],
+  "stage": "failed_before_training",
+  "reason": "Legacy load_any accepts CoreML and was incorrectly used for safetensors verification; corrected to kraken.models.load_models without changing experimental plan."
+}

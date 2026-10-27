@@ -1,0 +1,11 @@
+{
+  "paired_images_and_references_equal": true,
+  "development_labels_equal": true,
+  "train_label_changes": 186,
+  "controls_passed": 5,
+  "contact_sheets_inspected": [
+    "f3r first 12",
+    "f4r first 12"
+  ],
+  "expert_review": false
+}
