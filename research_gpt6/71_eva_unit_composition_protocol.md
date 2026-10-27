@@ -33,3 +33,7 @@ Una semilla, páginas exploradas y referencias candidatas sin nueva revisión ex
 - Kraken 7.1, [modelo VGSL](https://github.com/mittagessen/kraken/blob/7.1/kraken/lib/vgsl/model.py), [codec](https://github.com/mittagessen/kraken/blob/7.1/kraken/lib/codec.py) y [serialización](https://github.com/mittagessen/kraken/blob/7.1/kraken/models/writers.py). Las llamadas a redimensionado, inicialización y escritura se verificaron en esta versión fijada.
 
 La implementación nueva es propia y conserva atribución y licencias de las fuentes ya publicadas. Estos agrupamientos son un experimento de reconocimiento, no una traducción.
+
+## Incidencia técnica anterior al entrenamiento
+
+La ejecución `40571319398`, commit `789acf56f32df9ec22192252984a739b92178e63`, pasó los controles y la preparación de parejas en ambas condiciones, pero falló antes de llamar al entrenamiento. El código de preparación usó `add_codec`, cuyo helper heredado guarda el codec como texto JSON en la metadata; el escritor safetensors y su cargador esperan allí un objeto estructurado. Se corrige únicamente ese tipo de metadata y se repite la comprobación de ida y vuelta del modelo. No se cambian pesos de inicialización, datos, agrupaciones ni parámetros del ensayo. Se conservarán ambos intentos, incluidos los ficheros fallidos y sus logs.

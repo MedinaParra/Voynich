@@ -46,7 +46,11 @@ def train(a):
     if len(models)!=1:raise ValueError('Expected one source model')
     model=models[0];before=tensor_manifest(model);head_name=list(model.nn.named_children())[-1][0];head_keys=[k for k in before if k.startswith(head_name+'.')];body_keys=[k for k in before if k not in head_keys]
     if len(head_keys)!=2 or len(body_keys)!=12:raise ValueError('Unexpected source parameter partition')
-    model.resize_output(codec.max_label+1);model.add_codec(codec);torch.manual_seed(plan['seed']);model.init_weights(idx=slice(-1,None));after=tensor_manifest(model)
+    model.resize_output(codec.max_label+1);model.add_codec(codec)
+    # The legacy add_codec helper stores JSON text; the safetensors writer
+    # requires the structured codec object in its per-model metadata.
+    model.user_metadata['codec']=codec.c2l
+    torch.manual_seed(plan['seed']);model.init_weights(idx=slice(-1,None));after=tensor_manifest(model)
     proof={'source_sha256':sha(source),'output_layer':head_name,'head_keys':head_keys,'backbone_keys':body_keys,'source_tensors':before,'reset_tensors':after,
            'backbone_unchanged':all(before[k]==after[k] for k in body_keys),'head_changed':any(before[k]!=after[k] for k in head_keys),'codec':codec.c2l,'unit_alphabet_size':len(alphabet),'ctc_output_size':codec.max_label+1,'reset_seed':plan['seed']}
     save(a.out/'head_reset_proof.json',proof)
