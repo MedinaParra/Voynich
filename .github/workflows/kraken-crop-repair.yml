@@ -1,0 +1,58 @@
+name: Kraken crop ownership repair and development ablation
+
+on:
+  push:
+    branches: [experiment/kraken-voynich]
+    paths:
+      - 'research_gpt6/code/kraken_crop_repair.py'
+      - 'research_gpt6/code/kraken_repair_experiment.py'
+      - 'research_gpt6/code/test_kraken_crop_repair.py'
+      - 'research_gpt6/data/kraken_crop_repair_plan.json'
+      - '.github/workflows/kraken-crop-repair.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  development-ablation:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 35
+    strategy:
+      fail-fast: false
+      matrix:
+        variant: [original_40, repaired_40, repaired_200]
+    env:
+      OMP_NUM_THREADS: '2'
+      MKL_NUM_THREADS: '2'
+      OPENBLAS_NUM_THREADS: '2'
+      PYTHONUNBUFFERED: '1'
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install pinned CPU recognizer
+        run: |
+          python -m pip install --disable-pip-version-check 'torch==2.9.0' 'torchvision==0.24.0' --index-url https://download.pytorch.org/whl/cpu
+          python -m pip install --disable-pip-version-check 'kraken==7.1' 'pillow==12.3.0' 'numpy==2.4.6' 'scipy==1.15.3'
+          python -m pip check
+      - name: Check failure controls
+        run: |
+          python -m py_compile research_gpt6/code/kraken_crop_repair.py research_gpt6/code/kraken_repair_experiment.py
+          python research_gpt6/code/test_kraken_crop_repair.py
+      - name: Prepare both crop sets and run fixed development variant
+        run: |
+          python research_gpt6/code/kraken_repair_experiment.py \
+            --plan research_gpt6/data/kraken_crop_repair_plan.json \
+            --repo research_gpt6 \
+            --variant '${{ matrix.variant }}' \
+            --out 'research_gpt6/results/kraken_crop_repair/${{ matrix.variant }}'
+      - name: Preserve evidence even on failure
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: kraken-crop-repair-${{ matrix.variant }}
+          path: research_gpt6/results/kraken_crop_repair/${{ matrix.variant }}/
+          if-no-files-found: warn
+          retention-days: 30
