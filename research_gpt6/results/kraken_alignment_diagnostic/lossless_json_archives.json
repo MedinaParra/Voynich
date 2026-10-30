@@ -1,0 +1,29 @@
+{
+  "files": [
+    {
+      "original_path": "geometry_rows.json",
+      "archive_path": "geometry_rows.json.gz",
+      "original_bytes": 951731,
+      "archive_bytes": 161468,
+      "original_sha256": "e4350193e52940b6d0320179e84a283552cf4d30a76a3c62da716f6f09f0ffe4",
+      "archive_sha256": "676aee34d425d69057f9ba78b8a260cded0bef526ac453bc2170faf588e21a76"
+    },
+    {
+      "original_path": "posterior_rows.json",
+      "archive_path": "posterior_rows.json.gz",
+      "original_bytes": 477354,
+      "archive_bytes": 69784,
+      "original_sha256": "1c7b3d200267ab240675ff7b516b362a84f645b1124b7576568d66d871bae6fb",
+      "archive_sha256": "6988f56c33970fefafeb272813e6b1db60a6bfc9b1c5a4aff0b51c60d5c81bae"
+    },
+    {
+      "original_path": "review_queue.json",
+      "archive_path": "review_queue.json.gz",
+      "original_bytes": 547207,
+      "archive_bytes": 106266,
+      "original_sha256": "69b87f5a5e9099e52cc64ad121c42d6ecadbfa8dfad7ccad1f2502765a3e5629",
+      "archive_sha256": "5bc1b69b04b8a1a97d8b0f5377758b33266940ff8db11faec9366c366b7bfcf9"
+    }
+  ],
+  "scope": "Exact original JSON bytes, gzip level 9, mtime 0"
+}

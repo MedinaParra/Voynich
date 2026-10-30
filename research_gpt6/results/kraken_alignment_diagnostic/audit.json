@@ -1,0 +1,33 @@
+{
+  "status": "PASS",
+  "checks": 27433,
+  "mismatches": [],
+  "exact_ctc_scores_recomputed": 3202,
+  "geometry_words_recomputed": 724,
+  "posterior_words_recomputed": 282,
+  "primary_reserved_unseen": {
+    "words": 76,
+    "eva_characters": 446,
+    "beam_errors": 308,
+    "beam_cer": 0.6905829596412556,
+    "beam_exact_words": 0,
+    "incorrect_predictions": 76,
+    "incorrect_reference_mass_vs_prediction": {
+      "above": 0,
+      "equal": 0,
+      "below": 76
+    },
+    "reference_zero_probability": 0,
+    "temporal_capacity_failures": 0,
+    "median_log_margin_per_reference_character": -7.393974324543137,
+    "non_singleton_candidate_pools": 75,
+    "reference_unique_highest": 24,
+    "reference_tied_highest": 0,
+    "mean_pairwise_reference_win_fraction": 0.648074074074074
+  },
+  "unreviewed_training_queue_words": 442,
+  "result_sha256": "5d23b9d501d188dfb4472f4c5ec8f3b61dd5ef1a46ba3d8b920679d031a8ba93",
+  "plan_sha256": "082d037ad27d88a58653577fdc8c0482dd1ab558e43da47f37c4006e57b4f762",
+  "scope": "Independent probability-space recurrence with reachability pruning versus log DP; whole-page additive mask coverage versus pairwise local intersections; input hashes, ranks, proxies, aggregates and training-only unreviewed queue. No new neural inference or palaeographic validation.",
+  "translation": "NOT_RUN"
+}

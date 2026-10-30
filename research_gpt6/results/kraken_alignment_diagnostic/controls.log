@@ -1,0 +1,13 @@
+test_all_strings_from_exhaustive_paths (__main__.DiagnosticControls.test_all_strings_from_exhaustive_paths) ... ok
+test_empty_text_and_repeated_character (__main__.DiagnosticControls.test_empty_text_and_repeated_character) ... ok
+test_exact_zeros_and_tiny_probability (__main__.DiagnosticControls.test_exact_zeros_and_tiny_probability) ... ok
+test_independent_scaled_recurrence_and_extreme_underflow (__main__.DiagnosticControls.test_independent_scaled_recurrence_and_extreme_underflow) ... ok
+test_invalid_probabilities_and_targets (__main__.DiagnosticControls.test_invalid_probabilities_and_targets) ... ok
+test_review_queue_excludes_all_evaluation_rows (__main__.DiagnosticControls.test_review_queue_excludes_all_evaluation_rows) ... ok
+test_shifted_masks_union_not_sum (__main__.DiagnosticControls.test_shifted_masks_union_not_sum) ... ok
+test_touching_bounds_and_sparse_masks (__main__.DiagnosticControls.test_touching_bounds_and_sparse_masks) ... ok
+
+----------------------------------------------------------------------
+Ran 8 tests in 0.088s
+
+OK

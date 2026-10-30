@@ -1,0 +1,11 @@
+{
+  "url": "https://github.com/voynichese/voynichese/blob/wiki/DataSets.md",
+  "retrieved_date": "2026-10-30",
+  "content_sha256": "16996477d89c03c27232c06c7f5d4c27b1d146ab4aabb614cc6e07922e7a1665",
+  "computed_git_blob_sha1": "f90b732d5fd7d10e36c4aede16001dac9adceefe",
+  "bytes": 19578,
+  "scope": "Primary project documentation; describes semi-automated spatial word bindings and uncertain word boundaries. No independent error rate assumed.",
+  "full_document_redistributed": false,
+  "github_tree_verified": true,
+  "github_blob_sha1": "f90b732d5fd7d10e36c4aede16001dac9adceefe"
+}

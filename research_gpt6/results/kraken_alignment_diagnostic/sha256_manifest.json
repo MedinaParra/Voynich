@@ -1,0 +1,55 @@
+{
+  "scope": "All result files except this manifest",
+  "files": [
+    {
+      "path": "audit.json",
+      "bytes": 1337,
+      "sha256": "65521ead2d4c93e174133c7ddae8d42605dbb8d52c33a5858e8f691766650630"
+    },
+    {
+      "path": "controls.log",
+      "bytes": 1054,
+      "sha256": "558a2d5850ed070e6e3e1c0cd765ad81a421394ce0959d23be18248de19259aa"
+    },
+    {
+      "path": "geometry_rows.json.gz",
+      "bytes": 161468,
+      "sha256": "676aee34d425d69057f9ba78b8a260cded0bef526ac453bc2170faf588e21a76"
+    },
+    {
+      "path": "lossless_json_archives.json",
+      "bytes": 1138,
+      "sha256": "280fe25246717990704d169a8e8c7f5c9f6a06c47d4c41b783571186edb8be38"
+    },
+    {
+      "path": "posterior_rows.json.gz",
+      "bytes": 69784,
+      "sha256": "6988f56c33970fefafeb272813e6b1db60a6bfc9b1c5a4aff0b51c60d5c81bae"
+    },
+    {
+      "path": "primary_source_provenance.json",
+      "bytes": 586,
+      "sha256": "0ba40e2edc4f84c3f697cdeb79fd5c97f840adc68a1535a6efabcd2734c58b8f"
+    },
+    {
+      "path": "provenance.json",
+      "bytes": 2461,
+      "sha256": "338f4e777819d5a140d7b0f40e9b2505fe4f91b25d7adcc25d544010267c98dd"
+    },
+    {
+      "path": "result.json",
+      "bytes": 19159,
+      "sha256": "5d23b9d501d188dfb4472f4c5ec8f3b61dd5ef1a46ba3d8b920679d031a8ba93"
+    },
+    {
+      "path": "review_queue.json.gz",
+      "bytes": 106266,
+      "sha256": "5bc1b69b04b8a1a97d8b0f5377758b33266940ff8db11faec9366c366b7bfcf9"
+    },
+    {
+      "path": "training_review_preview.png",
+      "bytes": 386463,
+      "sha256": "b839ac245837a23ff81634b8f714d1a3c30d92ecf7c7ec49c998eb8abe0b571e"
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "date": "2026-10-30",
+  "base_commit": "aa132207ccb9128bf88e4b5e31e9138a5c0dd9f7",
+  "protocol_commit": "33f1b5e6c7eb1c2dbde1be6c1775d2760e8ae3e6",
+  "execution": "Local Python on frozen original crops and original posterior pass 0; source weights unchanged",
+  "new_network_calls": 0,
+  "training_steps": 0,
+  "source_posterior_run_id": 40575635206,
+  "mathematical_and_packet_test_cases": 8,
+  "controls_exit_code": 0,
+  "audit_status": "PASS",
+  "audit_checks": 27433,
+  "audit_mismatches": 0,
+  "code_sha256": {
+    "kraken_alignment_diagnostic.py": "846a294ee7b4d5f112362e575bd81a43316595aa931488bc7c4d9824615526d8",
+    "audit_kraken_alignment_diagnostic.py": "7707bd0a69bd831661afd8e61beb9bb3b06a29805407c630314aeeebf9000362",
+    "render_kraken_alignment_review.py": "291cfc1f88681903c4b8dd7859d596c4b93de8be80850bdc3f653ce05de67fb8",
+    "test_kraken_alignment_diagnostic.py": "b82fb23e386b1074d6027266ebf703dd819a06033c9d7f56be125e9b73057ad6"
+  },
+  "queue_reviewed_words": 0,
+  "queue_label_changes": 0,
+  "queue_geometry_changes": 0,
+  "queue_scope": "442 training rows only; post-diagnostic prioritization, no expert review",
+  "visual_review": {
+    "reviewer": "Assistant; not independent expert",
+    "views": [
+      "original crops f6v_w0001, f7r_w0013, f7v_w0017",
+      "12 training candidates in generated review preview"
+    ],
+    "observations": [
+      "Neighboring strokes and painting are visible in some selected crops.",
+      "Red overlay represents shared annotation masks, not validated ink ownership.",
+      "No word was certified or relabeled."
+    ]
+  },
+  "primary_source": {
+    "url": "https://github.com/voynichese/voynichese/blob/wiki/DataSets.md",
+    "retrieved_date": "2026-10-30",
+    "content_sha256": "16996477d89c03c27232c06c7f5d4c27b1d146ab4aabb614cc6e07922e7a1665",
+    "computed_git_blob_sha1": "f90b732d5fd7d10e36c4aede16001dac9adceefe",
+    "bytes": 19578,
+    "scope": "Primary project documentation; describes semi-automated spatial word bindings and uncertain word boundaries. No independent error rate assumed.",
+    "full_document_redistributed": false,
+    "github_tree_verified": true,
+    "github_blob_sha1": "f90b732d5fd7d10e36c4aede16001dac9adceefe"
+  },
+  "web_search_status": "Two search attempts returned service errors; primary project documentation retrieved through GitHub. No claim of a new exhaustive literature review.",
+  "translation": "NOT_RUN",
+  "expert_review": "NOT_REVIEWED"
+}

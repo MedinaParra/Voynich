@@ -1,0 +1,72 @@
+name: Kraken frozen alignment and search diagnostic
+on:
+  push:
+    branches: [experiment/kraken-voynich]
+    paths:
+      - 'research_gpt6/code/kraken_alignment_diagnostic.py'
+      - 'research_gpt6/code/audit_kraken_alignment_diagnostic.py'
+      - 'research_gpt6/code/render_kraken_alignment_review.py'
+      - 'research_gpt6/code/test_kraken_alignment_diagnostic.py'
+      - 'research_gpt6/data/kraken_alignment_diagnostic_plan.json'
+      - '.github/workflows/kraken-alignment-diagnostic.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  diagnose:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 10
+    env:
+      OMP_NUM_THREADS: '2'
+      OPENBLAS_NUM_THREADS: '2'
+      PYTHONUNBUFFERED: '1'
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install numerical and original crop reconstruction environment
+        run: python -m pip install 'numpy==2.3.5' 'pillow==12.3.0'
+      - name: Exhaustive CTC, numerical stability, geometry and queue controls
+        run: python research_gpt6/code/test_kraken_alignment_diagnostic.py
+      - name: Restore original pixels and recompute frozen diagnostic
+        run: |
+          python research_gpt6/code/kraken_alignment_diagnostic.py --plan research_gpt6/data/kraken_alignment_diagnostic_plan.json --repo research_gpt6 --out work/alignment_diagnostic --protocol-commit 33f1b5e6c7eb1c2dbde1be6c1775d2760e8ae3e6
+          python research_gpt6/code/render_kraken_alignment_review.py --repo research_gpt6 --bundle work/alignment_diagnostic --out work/alignment_diagnostic
+          python research_gpt6/code/audit_kraken_alignment_diagnostic.py --bundle work/alignment_diagnostic --repo research_gpt6 --plan research_gpt6/data/kraken_alignment_diagnostic_plan.json --out work/alignment_diagnostic/audit.json
+      - name: Require parity with preserved data, ranks, masses and summaries
+        run: |
+          python - <<'PY'
+          import math,sys
+          from pathlib import Path
+          sys.path.insert(0,'research_gpt6/code')
+          from kraken_alignment_diagnostic import read,save
+          expected=Path('research_gpt6/results/kraken_alignment_diagnostic');actual=Path('work/alignment_diagnostic');checks=0
+          def same(a,b,path):
+              global checks
+              checks+=1
+              if isinstance(a,dict):
+                  assert a.keys()==b.keys(),path
+                  for k in a:same(a[k],b[k],path+'/'+k)
+              elif isinstance(a,list):
+                  assert len(a)==len(b),path
+                  for i,(x,y) in enumerate(zip(a,b)):same(x,y,path+'/'+str(i))
+              elif isinstance(a,(int,float)):
+                  assert math.isclose(a,b,rel_tol=1e-10,abs_tol=1e-8),(path,a,b)
+              else:assert a==b,(path,a,b)
+          for name in ['geometry_rows.json','posterior_rows.json','review_queue.json']:
+              same(read(expected/name),read(actual/name),name)
+          a,b=read(expected/'result.json'),read(actual/'result.json')
+          for key in ['geometry_words','posterior_words','exact_ctc_text_scores','primary_reserved_unseen','metrics','geometric_summary','source_model_sha256','prepared_dataset_sha256','posterior_sha256','plan_sha256']:
+              same(a[key],b[key],key)
+          audit=read(actual/'audit.json');assert audit['status']=='PASS' and not audit['mismatches']
+          receipt={'status':'PASS','checks':checks,'tolerance':{'relative':1e-10,'absolute':1e-8},'scope':'Fresh checkout restoration plus structured replay parity; no new neural inference or semantic validation'}
+          save(actual/'replay_parity.json',receipt);print('REPLAY_PARITY='+str(receipt))
+          PY
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: kraken-alignment-diagnostic
+          path: work/alignment_diagnostic/
+          if-no-files-found: warn
+          retention-days: 30

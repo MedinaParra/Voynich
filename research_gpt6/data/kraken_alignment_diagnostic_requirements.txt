@@ -1,0 +1,3 @@
+# Pillow matches the original frozen PNG encoder for crop restoration.
+numpy==2.3.5
+pillow==12.3.0
