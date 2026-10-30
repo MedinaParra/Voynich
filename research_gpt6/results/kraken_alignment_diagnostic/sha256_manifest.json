@@ -7,6 +7,21 @@
       "sha256": "65521ead2d4c93e174133c7ddae8d42605dbb8d52c33a5858e8f691766650630"
     },
     {
+      "path": "ci_job.log",
+      "bytes": 25760,
+      "sha256": "59409415717ae6492cd37edb4d720cd7dbec6d8a0d6b8efe5006bcbeb486cd21"
+    },
+    {
+      "path": "ci_replay_parity.json",
+      "bytes": 228,
+      "sha256": "81311d4679aca68c32fb7646738da68d155ca9863cf5a041a550007212bac8eb"
+    },
+    {
+      "path": "ci_replay_provenance.json",
+      "bytes": 2819,
+      "sha256": "37d527216575ca4d6ed04ee4f6883e3042e1f25a49bbc76a82c0d14f197377a5"
+    },
+    {
       "path": "controls.log",
       "bytes": 1054,
       "sha256": "558a2d5850ed070e6e3e1c0cd765ad81a421394ce0959d23be18248de19259aa"
@@ -33,8 +48,8 @@
     },
     {
       "path": "provenance.json",
-      "bytes": 2461,
-      "sha256": "338f4e777819d5a140d7b0f40e9b2505fe4f91b25d7adcc25d544010267c98dd"
+      "bytes": 2764,
+      "sha256": "3a84d04b0464ca06abc9b68c5ae61c76bfa5a3d7b47dc86d60fa6bb5b976a542"
     },
     {
       "path": "result.json",

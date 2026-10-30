@@ -46,5 +46,14 @@
   },
   "web_search_status": "Two search attempts returned service errors; primary project documentation retrieved through GitHub. No claim of a new exhaustive literature review.",
   "translation": "NOT_RUN",
-  "expert_review": "NOT_REVIEWED"
+  "expert_review": "NOT_REVIEWED",
+  "fresh_checkout_ci": {
+    "run_id": 41093216848,
+    "head_sha": "2ced2c744d0bc26105b40424b57422d8e2403b8f",
+    "conclusion": "success",
+    "structured_parity": "PASS",
+    "comparison_checks": 59406,
+    "metadata_path": "ci_replay_provenance.json",
+    "official_job_log_path": "ci_job.log"
+  }
 }

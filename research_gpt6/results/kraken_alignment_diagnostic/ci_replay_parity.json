@@ -1,0 +1,9 @@
+{
+  "status": "PASS",
+  "checks": 59406,
+  "tolerance": {
+    "relative": 1e-10,
+    "absolute": 1e-08
+  },
+  "scope": "Fresh checkout restoration plus structured replay parity; no new neural inference or semantic validation"
+}

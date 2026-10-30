@@ -1,0 +1,86 @@
+{
+  "run_id": 41093216848,
+  "head_sha": "2ced2c744d0bc26105b40424b57422d8e2403b8f",
+  "url": "https://github.com/MedinaParra/Voynich/actions/runs/41093216848",
+  "status": "completed",
+  "conclusion": "success",
+  "created_at": "2026-10-30T16:48:31Z",
+  "updated_at": "2026-10-30T16:49:04Z",
+  "jobs": [
+    {
+      "id": 124192179818,
+      "name": "diagnose",
+      "status": "completed",
+      "conclusion": "success",
+      "steps": [
+        {
+          "name": "Set up job",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "Run actions/checkout@v4",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "Run actions/setup-python@v5",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "Install numerical and original crop reconstruction environment",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "Exhaustive CTC, numerical stability, geometry and queue controls",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "Restore original pixels and recompute frozen diagnostic",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "Require parity with preserved data, ranks, masses and summaries",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "Run actions/upload-artifact@v4",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "Post Run actions/setup-python@v5",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "Post Run actions/checkout@v4",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "Complete job",
+          "status": "completed",
+          "conclusion": "success"
+        }
+      ]
+    }
+  ],
+  "artifact": {
+    "id": 12995405488,
+    "name": "kraken-alignment-diagnostic",
+    "size_in_bytes": 719865,
+    "digest_reported_by_github": "sha256:bad1c7aa90ae89d07c7eb794296834e8ccf4c6f9cbca2f6a55147dea49936001",
+    "expires_at": "2026-11-29T16:48:59Z",
+    "zip_digest_independently_verified": false
+  },
+  "scope": "Fresh checkout reconstructs original pixels, repeats 3202 CTC scores and full 724-row geometry, audits 442 unreviewed training candidates, compares all structured rows and summaries; no new neural inference.",
+  "job_log_sha256": "59409415717ae6492cd37edb4d720cd7dbec6d8a0d6b8efe5006bcbeb486cd21",
+  "parity_receipt_sha256": "81311d4679aca68c32fb7646738da68d155ca9863cf5a041a550007212bac8eb",
+  "parity_checks": 59406
+}
