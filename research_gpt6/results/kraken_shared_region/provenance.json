@@ -65,7 +65,17 @@
     "checks": 79013,
     "mismatches": 0,
     "new_neural_inference": "NOT_RUN",
-    "fresh_checkout_CI": "pending_publication"
+    "fresh_checkout_CI": {
+      "status": "PASS",
+      "run_id": 41653792799,
+      "commit": "acbe0cce0846ec751ec3f320d41279d19a6d6055",
+      "job_id": 125978617707,
+      "checks": 79013,
+      "preserved_audit_equal_in_every_field": true,
+      "downloaded_artifact_digest_verified": true,
+      "receipt": "fresh_checkout_receipt.json",
+      "replay": "fresh_checkout_audit.json"
+    }
   },
   "artifacts": [
     {
@@ -199,6 +209,11 @@
       "path": "official_logs/train_shared_ink_job125943455019.log",
       "bytes": 52722,
       "sha256": "721f3730de171873507b3803e480da67761b2bd3d84e729e5951a6d60157af8e"
+    },
+    {
+      "path": "official_logs/fresh_checkout_audit_job125978617707_success.log",
+      "bytes": 23373,
+      "sha256": "b6e67f518910274545bf50eedeb48fd1bac424bbb69a04a07c67d21bbfb8b87a"
     }
   ],
   "method_scope": {

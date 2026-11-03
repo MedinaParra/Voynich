@@ -1,0 +1,121 @@
+{
+  "run_id": 41653792799,
+  "url": "https://github.com/MedinaParra/Voynich/actions/runs/41653792799",
+  "commit": "acbe0cce0846ec751ec3f320d41279d19a6d6055",
+  "job_id": 125978617707,
+  "status": "completed",
+  "conclusion": "success",
+  "jobs": [
+    {
+      "id": 125978617707,
+      "name": "replay",
+      "status": "completed",
+      "conclusion": "success",
+      "run_id": 41653792799,
+      "logs_url": null,
+      "steps": [
+        {
+          "name": "Set up job",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 1
+        },
+        {
+          "name": "Run actions/checkout@v4",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 2
+        },
+        {
+          "name": "Run actions/setup-python@v5",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 3
+        },
+        {
+          "name": "Install audit dependencies without neural runtime",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 4
+        },
+        {
+          "name": "Check auditor controls",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 5
+        },
+        {
+          "name": "Restore original PNG bytes from preserved sources",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 6
+        },
+        {
+          "name": "Recompute independent audit",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 7
+        },
+        {
+          "name": "Compare every preserved audit field",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 8
+        },
+        {
+          "name": "Run actions/upload-artifact@v4",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 9
+        },
+        {
+          "name": "Post Run actions/setup-python@v5",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 17
+        },
+        {
+          "name": "Post Run actions/checkout@v4",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 18
+        },
+        {
+          "name": "Complete job",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 19
+        }
+      ]
+    }
+  ],
+  "artifact": {
+    "id": 13237104725,
+    "name": "shared-region-preserved-audit",
+    "size_in_bytes": 1368,
+    "url": "https://api.github.com/repos/MedinaParra/Voynich/actions/artifacts/13237104725",
+    "archive_download_url": "https://api.github.com/repos/MedinaParra/Voynich/actions/artifacts/13237104725/zip",
+    "expired": false,
+    "created_at": "2026-11-03T14:28:30Z",
+    "expires_at": "2026-12-03T14:28:29Z",
+    "updated_at": "2026-11-03T14:28:30Z",
+    "digest": "sha256:cbf3ebe1e9f52080861cc68bc66af6fb0745edeeb9ce141688ea9735eb056202",
+    "workflow_run": {
+      "id": 41653792799,
+      "repository_id": 1405664605,
+      "head_repository_id": 1405664605,
+      "head_branch": "experiment/kraken-voynich",
+      "head_sha": "acbe0cce0846ec751ec3f320d41279d19a6d6055"
+    }
+  },
+  "downloaded_zip_bytes": 1368,
+  "downloaded_zip_sha256": "cbf3ebe1e9f52080861cc68bc66af6fb0745edeeb9ce141688ea9735eb056202",
+  "artifact_digest_verified": true,
+  "audit_replay_file": "fresh_checkout_audit.json",
+  "audit_replay_sha256": "b0c00a94151f6d36beaec51a2be2e0e71be76abbf691695d3ae9832002257d9e",
+  "preserved_audit_equal_in_every_field": true,
+  "checks": 79013,
+  "new_training": "NOT_RUN",
+  "new_neural_inference": "NOT_RUN",
+  "log_sha256": "b6e67f518910274545bf50eedeb48fd1bac424bbb69a04a07c67d21bbfb8b87a"
+}
