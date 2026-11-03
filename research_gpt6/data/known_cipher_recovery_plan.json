@@ -1,0 +1,63 @@
+{
+  "date": "2026-11-03",
+  "base_commit": "37159556eb92c380a8a8a14c5a05855a1144ef7b",
+  "scope": "Procedurally blinded known-cipher recovery calibration, not Voynich decoding",
+  "training": "Apicius books1-5 only, from pinned Latin bundle; Caesar books1-3 wholly withheld from solver inputs",
+  "normalization": "Existing Latin bundle filter: drop first line, discard all-uppercase lines, lowercase, ASCII a-z word tokens joined with spaces; no u/v or i/j folding",
+  "packet": {
+    "positive_messages": 3,
+    "letters_each": 2000,
+    "source": "one private random passage per Caesar book1-3",
+    "positive_space_pairs": true,
+    "shuffled_matched_negatives": 3,
+    "homophonic_26symbol_control": 1,
+    "total_cases": 10,
+    "independent_positive_messages": 3,
+    "homophonic_passage": "fourth disjoint passage from Caesar2",
+    "keys": "private seeded random bijections; seed/truth commitment published before solve",
+    "blinding": "solver receives only public training text/ciphertexts; shared filesystem and preexisting source access mean procedural, not security isolation"
+  },
+  "model": {
+    "alphabet": "abcdefghijklmnopqrstuvwxyz",
+    "spaces_used_for_scoring": false,
+    "n_gram": 4,
+    "training_counts": "within each training book, not across book joins",
+    "p1_additive": 0.5,
+    "backoff_strengths": {
+      "bigram": 10,
+      "trigram": 5,
+      "fourgram": 2
+    },
+    "score_quantization": "round(1000*ln P(next|previous3)), signed int32; total score int64",
+    "table_policy": "freeze and hash LM table before solving; no Caesar plaintext to LM"
+  },
+  "search": {
+    "restarts": 8,
+    "steps_per_restart": 50000,
+    "initialization": "rank cipher symbol frequencies to training letter frequencies; restart0 untouched, other restarts apply12 random swaps",
+    "proposal": "uniform distinct pair of cipher alphabet positions; swap decoding assignments",
+    "temperature": "100 fixed geometric stages from30000 to200 integer score units",
+    "acceptance": "integer PRNG draw below frozen floor(exp(-bucket/256)*2^32), bucket=min(8192, floor(-delta*256/T)); accept nonnegative delta",
+    "rng": "xorshift64star; fixed unsigned operations",
+    "seed": 20261103,
+    "polish": "up to100 best improving swap updates, inspect all325 pairs per update",
+    "selection": "maximum frozen language-model score only, before truth reveal",
+    "duplicate_policy": "spaced/spaceless pairs have same stripped stream; cache identical streams, report as paired views not independent messages"
+  },
+  "development": "Only a short deterministic substitution of training Apicius may be used for runtime/invariant checks; do not tune budget on hidden Caesar results",
+  "freeze": "Hash solver manifest covering Python/C++ source, public packet, integer LM and acceptance tables, plus complete predictions before evaluator reveals metrics/keys/plaintext",
+  "metrics": [
+    "aligned plaintext Hamming accuracy",
+    "plaintext entire exact",
+    "key accuracy over OBSERVED cipher symbols",
+    "observed key entire exact",
+    "unobserved mapping count nonidentifiable",
+    "frozen LM score separated from truth",
+    "homophonic bijection accuracy ceiling",
+    "post-reveal true-key frozen-LM score versus candidate score to distinguish search failure from objective mismatch"
+  ],
+  "gate": "All3 independent monoalphabetic plaintexts and all their observed symbol mappings must be exactly recovered. Paired spacing views must agree. Failure blocks promoting this solver as adequate even for this chosen control family; success is not evidence that Voynich is Latin or monoalphabetic.",
+  "negative_interpretation": "Solver always outputs a candidate; no posthoc abstention threshold. Randomized-text key recovery does not imply meaningful text. Roundtrip encryption is integrity, not proof of correct recovery.",
+  "training_kraken": "NOT_RUN",
+  "Voynich_translation": "NOT_RUN"
+}
