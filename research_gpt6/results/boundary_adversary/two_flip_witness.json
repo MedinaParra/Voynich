@@ -1,0 +1,61 @@
+{
+  "score": [
+    -2,
+    315
+  ],
+  "changed_loci": [
+    {
+      "locus": "f8r.4",
+      "VT_tokens": [
+        "qotor",
+        "chor",
+        "chor",
+        "sheey",
+        "dchol",
+        "shesed",
+        "chofchy",
+        "dam"
+      ],
+      "witness_tokens": [
+        "qotor",
+        "chor",
+        "chor",
+        "sheey",
+        "dchol",
+        "shesed",
+        "chof",
+        "chy",
+        "dam"
+      ],
+      "flips": 1,
+      "changed_offsets": [
+        33
+      ]
+    },
+    {
+      "locus": "f8v.8",
+      "VT_tokens": [
+        "okchol",
+        "ksh",
+        "chol",
+        "chol",
+        "chol",
+        "cthaiin",
+        "dain"
+      ],
+      "witness_tokens": [
+        "okcholksh",
+        "chol",
+        "chol",
+        "chol",
+        "cthaiin",
+        "dain"
+      ],
+      "flips": 1,
+      "changed_offsets": [
+        6
+      ]
+    }
+  ],
+  "scope": "Exact sign witness within fixed annotation stress family; no approved reading/crop edit"
+}

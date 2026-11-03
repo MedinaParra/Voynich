@@ -1,0 +1,45 @@
+{
+  "self_excluded": true,
+  "files": [
+    {
+      "path": "audit.json",
+      "bytes": 993,
+      "sha256": "b17c56d5632e8c606ca5eb3df7e971ba1f404a080ccc7b414a2b6e87a5e22d1e"
+    },
+    {
+      "path": "calibration.json.gz",
+      "bytes": 14612,
+      "sha256": "6cd53b9d5e9abf87225424795b837f2288afa3b3521e27deb34017e11ecff8ea"
+    },
+    {
+      "path": "execution_order_replay.json",
+      "bytes": 623,
+      "sha256": "8e1088d8d1120cf2454052b490dd8dc7538c50ca2ed7bed1b4a8e1701ac6b44a"
+    },
+    {
+      "path": "lossless_archives.json",
+      "bytes": 635,
+      "sha256": "a0424a545a663079d5923f2db86094d18165e7277567024d91942a84b2304f10"
+    },
+    {
+      "path": "provenance.json",
+      "bytes": 1181,
+      "sha256": "77e68d8afbb0516ca548dbb8a588dee4f149271ce6d9d5e620d266f71b844f87"
+    },
+    {
+      "path": "result.json.gz",
+      "bytes": 13692,
+      "sha256": "14fc5f3c48ff33d7df0fb9ede1dfe0be93fa4ca9f4b1ef6ac92c893797bc8425"
+    },
+    {
+      "path": "summary.json",
+      "bytes": 2016,
+      "sha256": "c8fb0ac8d15a29cbc5bfebdabefeee036390187c9274d2809823e91aac6d3784"
+    },
+    {
+      "path": "two_flip_witness.json",
+      "bytes": 992,
+      "sha256": "7f3b9c3b0684c89959ddbdc4ca19f1619c9dbdaae7823200d6e2e6f001ad75f7"
+    }
+  ]
+}

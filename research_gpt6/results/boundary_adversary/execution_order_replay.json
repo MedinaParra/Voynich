@@ -1,0 +1,13 @@
+{
+  "initial_result_hashes": {
+    "calibration.json": "620c7ffec145d2c34406ff67e0e86a13a4a49fe38723625df19a0560748c5417",
+    "result.json": "e3eab31de59fb5c701285958a74d68d27e1126ed7f1e6d475bb4ce5814811dcc",
+    "summary.json": "c8fb0ac8d15a29cbc5bfebdabefeee036390187c9274d2809823e91aac6d3784"
+  },
+  "reordered_calibration_first_outputs_identical": {
+    "calibration.json": true,
+    "result.json": true,
+    "summary.json": true
+  },
+  "note": "Prototype built real scored paths before synthetic controls; final execution reordered calibration ahead of real path construction, with no parameter or output changes."
+}

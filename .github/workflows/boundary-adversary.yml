@@ -1,0 +1,53 @@
+name: Exact boundary adversary replay
+on:
+  push:
+    branches: [experiment/kraken-voynich]
+    paths:
+      - .github/workflows/boundary-adversary.yml
+      - research_gpt6/code/boundary_adversary.py
+      - research_gpt6/code/test_boundary_adversary.py
+      - research_gpt6/code/audit_boundary_adversary.py
+permissions:
+  contents: read
+jobs:
+  replay:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Mathematical controls
+        run: python research_gpt6/code/test_boundary_adversary.py
+      - name: Recompute calibration, exact stress certificates and permutation envelope
+        run: python research_gpt6/code/boundary_adversary.py --repo research_gpt6 --out work/boundary_adversary --plan research_gpt6/data/boundary_adversary_plan.json
+      - name: Compare every computed record
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          import json,gzip
+          def read(p):return json.loads(p.read_bytes() if p.exists() else gzip.decompress(p.with_suffix(p.suffix+'.gz').read_bytes()))
+          for name in ['result.json','summary.json','calibration.json']:
+              assert read(Path('research_gpt6/results/boundary_adversary')/name)==read(Path('work/boundary_adversary')/name),name
+          print('IDENTICAL_EXACT_CERTIFICATES_AND_MONTE_CARLO_RECORDS')
+          PY
+      - name: Independent exact-certificate audit
+        run: |
+          python research_gpt6/code/audit_boundary_adversary.py --repo research_gpt6 --out work/boundary_adversary/audit.json
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          actual=json.loads(Path('work/boundary_adversary/audit.json').read_text())
+          expected=json.loads(Path('research_gpt6/results/boundary_adversary/audit.json').read_text())
+          assert actual==expected and actual['status']=='PASS'
+          print('IDENTICAL_INDEPENDENT_EXACT_CERTIFICATE_AUDIT')
+          PY
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: boundary-adversary-replay
+          path: |
+            work/boundary_adversary/summary.json
+            work/boundary_adversary/audit.json
+          retention-days: 30

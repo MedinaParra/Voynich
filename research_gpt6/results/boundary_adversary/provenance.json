@@ -1,0 +1,17 @@
+{
+  "date": "2026-11-03",
+  "base_commit": "1478edb3000b0f0d91babd1fda3cddf52d454f0c",
+  "protocol_commit": "bf89070b72e5ec71d6918df1ea713478a275adbc",
+  "plan_sha256": "38e120500f3a67966c1038bdda2cd831a9a5cc5184d7446e7d8744107581e7d5",
+  "experiment": "Exact finite annotation-boundary stress, 98 projected-letter-equal loci,170localpaths,49binarydecisions",
+  "new_for_this_repo": "Exact full-family extrema, cost-bounded stress and sign-fragility witnesses; not discovery of local similarity or a globally novel method",
+  "calibration": "Four predeclared long-locus examples passed; not a matched-length power or false-positive study",
+  "repetition_note": "Reordered calibration before real scored-table construction; all scientific result bytes identical, receipt preserved",
+  "interpretation": "Sign fragility2, VTtail0.426, simulated envelope0.634; no robust local-order rejection established by this diagnostic",
+  "audit": "Independent exact certificate audit PASS1674checks; permutation tails not independently audited",
+  "CI_replay": "PENDING_PUBLICATION",
+  "training": "NOT_RUN",
+  "new_OCR": "NOT_RUN",
+  "approved_labels_changed": 0,
+  "translation": "NOT_RUN"
+}

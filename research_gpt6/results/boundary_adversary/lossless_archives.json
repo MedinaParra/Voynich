@@ -1,0 +1,18 @@
+[
+  {
+    "original": "result.json",
+    "original_sha256": "e3eab31de59fb5c701285958a74d68d27e1126ed7f1e6d475bb4ce5814811dcc",
+    "archive": "result.json.gz",
+    "archive_sha256": "14fc5f3c48ff33d7df0fb9ede1dfe0be93fa4ca9f4b1ef6ac92c893797bc8425",
+    "original_bytes": 197261,
+    "archive_bytes": 13692
+  },
+  {
+    "original": "calibration.json",
+    "original_sha256": "620c7ffec145d2c34406ff67e0e86a13a4a49fe38723625df19a0560748c5417",
+    "archive": "calibration.json.gz",
+    "archive_sha256": "6cd53b9d5e9abf87225424795b837f2288afa3b3521e27deb34017e11ecff8ea",
+    "original_bytes": 358297,
+    "archive_bytes": 14612
+  }
+]
