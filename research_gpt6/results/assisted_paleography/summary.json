@@ -1,0 +1,22 @@
+{
+  "status": "ASSISTED_PALEOGRAPHIC_REVIEW_COMPLETE_PROPOSALS_UNAPPROVED",
+  "reviewed_cases": 24,
+  "native_photographs": 4,
+  "blinded_AI_reviewers": 2,
+  "root_source_labels_known": true,
+  "human_expert_review": "NOT_REVIEWED",
+  "body_observation_agreements": 21,
+  "geometry_action_agreements": 21,
+  "geometry_triage": {
+    "both_retain_candidate": 10,
+    "both_request_review": 11,
+    "reviewer_disagreement": 3
+  },
+  "provisional_EVA_preferences": 3,
+  "labels_changed": 0,
+  "geometry_changed": 0,
+  "training": "NOT_RUN",
+  "new_OCR": "NOT_RUN",
+  "translation": "NOT_RUN",
+  "agreement_is_not_accuracy": true
+}

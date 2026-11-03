@@ -1,0 +1,31 @@
+{
+  "date": "2026-11-03",
+  "base_commit": "bff4423f4fcecccea70872991a5107df168783a4",
+  "protocol_commit": "9c7ee0a4026959c613f897e9e3eb8f33af4a39b0",
+  "protocol_sha256": "c267e4b72e3ffc61fec56e6af8b0a59efb1233962da6f0ad48a570eace509088",
+  "source_acquisition": "4 native Yale IIIF JPEGs with metadata/digest; no generated restoration",
+  "blinding": {
+    "packet_cases": 24,
+    "permutation_seed": 20261103,
+    "reviewers": "two AI agents with fresh conversation contexts",
+    "source_labels_and_prior_notes_supplied": false,
+    "instructional_not_enforced_access_isolation": true,
+    "root_source_labels_known": true,
+    "followup_selection_root_unblinded": true,
+    "followup_question": "Compare lateral cavity closure versus open oblique entry in B01(two forms),B03,B18,B23, without source labels.",
+    "expert_human_independence": false,
+    "agreement_not_accuracy": true
+  },
+  "assistant_visual_scope": "Root inspected all6 native-context sheets and original/photo-model comparison; readers self-report inspecting all6sheets; no physical manuscript or expert certification",
+  "integrity": "120 file/schema/coordinate checks; paleographic decisions not validated",
+  "local_replay": "all6 JPEG presentation sheets and mapping identical",
+  "CI_replay": "PENDING_PUBLICATION",
+  "editorial_proposals": 3,
+  "labels_changed": 0,
+  "geometry_changed": 0,
+  "training": "NOT_RUN",
+  "new_neural_inference": "NOT_RUN",
+  "translation": "NOT_RUN",
+  "independent_expert_review": "NOT_REVIEWED",
+  "execution_note": "One local verification invocation used a nonexistent placeholder output path and failed before reading native inputs; rerun with actual preserved sources passed. No changes to original datasets."
+}

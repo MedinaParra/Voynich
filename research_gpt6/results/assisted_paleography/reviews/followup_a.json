@@ -1,0 +1,53 @@
+{
+  "reviewer": "AI_A",
+  "blinding": "source_labels_and_prior_notes_withheld; no expert independence",
+  "scope": "Segunda inspección visual de B01, B03, B18 y B23 en las láminas suministradas, sin consultar transcripciones ni códigos.",
+  "records": [
+    {
+      "alias": "B01",
+      "target": "Primera de las dos formas altas de la mitad derecha, situada a la izquierda de la forma final",
+      "assessment": "entrada_oblicua_abierta",
+      "evidence_for": "A la izquierda del tallo se ve una cuña oscura oblicua y un entrante claro que parece comunicar por arriba con el fondo. No distingo un contorno bajo completo que encierre una cavidad junto al tallo.",
+      "evidence_against": "La zona de unión con el tallo es gruesa y de poco contraste; una conexión fina perdida en la textura podría cambiar la apariencia del entrante. El pequeño claro de la cabeza alta no es la cavidad lateral evaluada.",
+      "confidence": "medium"
+    },
+    {
+      "alias": "B01",
+      "target": "Segunda de las dos formas altas, situada al extremo derecho",
+      "assessment": "cavidad_o_bucle_cerrado",
+      "evidence_for": "A la izquierda del tallo se aprecia una cavidad clara relativamente ancha, rodeada por un arco lateral y una curva inferior que regresan hacia el tallo. La silueta lateral es más redondeada y envolvente que en la otra forma alta de este mismo recorte.",
+      "evidence_against": "La unión superior derecha del contorno lateral con el tallo es tenue; la imagen ampliada no permite certificar una continuidad microscópica de la tinta.",
+      "confidence": "medium"
+    },
+    {
+      "alias": "B03",
+      "target": "Forma final de cola larga",
+      "assessment": "entrada_oblicua_abierta",
+      "evidence_for": "La porción situada a la izquierda del tallo parece una entrada oblicua de relleno oscuro con un entrante claro abierto hacia arriba, más que una cavidad redondeada rodeada de tinta. No veo un segundo contorno lateral completo que cierre el claro junto al tallo.",
+      "evidence_against": "El cuerpo anterior queda muy próximo y la unión de varias manchas puede ocultar un límite. La resolución no excluye un cierre pequeño o débil.",
+      "confidence": "medium"
+    },
+    {
+      "alias": "B18",
+      "target": "Forma final de cola larga",
+      "assessment": "cavidad_o_bucle_cerrado",
+      "evidence_for": "Debajo de la cabeza alta y a la izquierda del tallo se observa un claro pequeño delimitado por un contorno oscuro curvo; el borde inferior vuelve hacia el tallo. El espacio lateral parece encerrado y separado del fondo exterior.",
+      "evidence_against": "El contorno es grueso y las uniones están pixeladas, de modo que una abertura muy fina no se resolvería en esta escala.",
+      "confidence": "high"
+    },
+    {
+      "alias": "B23",
+      "target": "Forma con cola situada antes del pequeño cuerpo final",
+      "assessment": "cavidad_o_bucle_cerrado",
+      "evidence_for": "Se distingue un claro lateral bajo, a la izquierda del tallo, con borde superior oblicuo y borde inferior curvo que parecen unirse al tallo. Ese claro es distinto del espacio encerrado en la cabeza alta.",
+      "evidence_against": "La parte superior de la cavidad lateral está próxima al cuerpo anterior y el soporte tiene textura fuerte; el cierre exacto de la unión no puede comprobarse con detalle fino.",
+      "confidence": "medium"
+    }
+  ],
+  "limitations": [
+    "Las categorías describen la apariencia visible a esta escala; no equivalen a identificación de signos ni validación experta.",
+    "La confianza es una autoevaluación cualitativa y no una probabilidad calibrada.",
+    "No se presupone que las formas de distintos recortes sean iguales ni se infiere el orden de los trazos.",
+    "review_a.json permanece sin alteraciones."
+  ]
+}

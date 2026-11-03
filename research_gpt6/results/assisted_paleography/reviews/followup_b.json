@@ -1,0 +1,83 @@
+{
+  "reviewer": "AI_B",
+  "blinding": "No se mostraron lecturas, opciones, códigos de transcripción ni observaciones de otro revisor. Se consultaron de nuevo únicamente las hojas 1, 5 y 6 del paquete visual.",
+  "question_scope": "Cavidad situada a la izquierda del tallo de cada forma señalada, diferenciada del bucle de su cabeza alta. Sin interpretación alfabética ni orden de trazado.",
+  "limitations": "Juicio visual cualitativo sobre ampliaciones de resolución limitada; no constituye revisión experta humana. La clasificación de una forma no determina la de las demás.",
+  "observations": [
+    {
+      "alias": "B01",
+      "location": "Primera de las dos formas altas con cola de la mitad derecha; la más cercana al centro del rectángulo.",
+      "left_of_stem": "open_oblique_entry",
+      "description": "A la izquierda del tallo se distingue una entrada oblicua oscura, de aspecto angular, con ensanchamiento inferior. No veo un óvalo claro inequívocamente encerrado en ese sector.",
+      "evidence_for": [
+        "El sector izquierdo inferior tiene aspecto de cuña o ángulo, más que de contorno redondeado completo.",
+        "La claridad inmediata al lado superior izquierdo parece comunicada con el espacio exterior."
+      ],
+      "evidence_against": [
+        "La tinta es gruesa y la textura del soporte oculta detalles pequeños.",
+        "Una abertura muy estrecha o un cierre tenue no se pueden decidir al nivel de un solo píxel."
+      ],
+      "confidence": "medium"
+    },
+    {
+      "alias": "B01",
+      "location": "Segunda de las dos formas altas con cola de la mitad derecha; la última forma del cuerpo.",
+      "left_of_stem": "closed_cavity",
+      "description": "A la izquierda del tallo se aprecia una cavidad clara, más ancha y redondeada que en la forma precedente, rodeada por un contorno curvo que vuelve al tallo.",
+      "evidence_for": [
+        "El claro interior se encuentra entre un arco exterior izquierdo y el tallo derecho.",
+        "Se aprecia un borde inferior curvo que completa visualmente el pequeño recinto."
+      ],
+      "evidence_against": [
+        "La zona de unión superior con el tallo es gruesa y poco nítida.",
+        "El contraste de la tinta es irregular."
+      ],
+      "confidence": "medium"
+    },
+    {
+      "alias": "B03",
+      "location": "Únicamente la forma final de cola larga.",
+      "left_of_stem": "unresolved",
+      "description": "Se ve una entrada oblicua y un ensanchamiento oscuro a la izquierda del tallo. La posible cavidad inferior es pequeña y no distingo con seguridad un contorno cerrado continuo; visualmente me inclino hacia una entrada abierta, con reserva.",
+      "evidence_for": [
+        "La masa izquierda parece angular y se aproxima al tallo en diagonal.",
+        "No aparece un recinto claro tan amplio y definido como el observable en B18 o B23."
+      ],
+      "evidence_against": [
+        "Hay una zona clara pequeña junto al tallo que podría ser el interior de un bucle estrecho.",
+        "El borde superior izquierdo se mezcla con el cuerpo bajo precedente, por lo que no permite probar la abertura."
+      ],
+      "confidence": "low"
+    },
+    {
+      "alias": "B18",
+      "location": "Únicamente la forma final de cola larga del cuerpo central.",
+      "left_of_stem": "closed_cavity",
+      "description": "Bajo el bucle alto, a la izquierda del tallo, hay una cavidad clara ovalada u oblicua, delimitada por un arco oscuro que vuelve al tallo por debajo.",
+      "evidence_for": [
+        "El borde exterior izquierdo y el retorno inferior se distinguen alrededor del claro interior.",
+        "El claro está situado debajo de la cabeza alta y se separa de ella por un estrechamiento oscuro."
+      ],
+      "evidence_against": [
+        "La unión superior es gruesa y puede ocultar una fisura mínima.",
+        "La cola se vuelve tenue en su parte baja; esto no determina el cierre de la cavidad situada más arriba."
+      ],
+      "confidence": "high"
+    },
+    {
+      "alias": "B23",
+      "location": "Forma con cola situada inmediatamente antes del pequeño cuerpo redondeado final.",
+      "left_of_stem": "closed_cavity",
+      "description": "A la izquierda del tallo se distingue un claro bajo alargado, rodeado por una curva que retorna hacia el tallo; sobre él hay otra cavidad en la cabeza alta.",
+      "evidence_for": [
+        "El arco izquierdo y el borde inferior rodean de forma visible el claro bajo.",
+        "El pequeño cuerpo final queda a la derecha del tallo y no parece formar el límite de esa cavidad izquierda."
+      ],
+      "evidence_against": [
+        "La unión próxima al estrechamiento central está parcialmente engrosada.",
+        "El trazo oblicuo que entra desde el borde superior pertenece a un contexto distinto y no debe usarse para completar el contorno."
+      ],
+      "confidence": "high"
+    }
+  ]
+}

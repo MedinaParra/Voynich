@@ -1,0 +1,305 @@
+{
+  "reviewer": "AI_B",
+  "blinding": "source_labels_and_prior_notes_withheld; no expert independence",
+  "scope": "Inspección visual de las seis hojas y de los 24 rectángulos rojos con su contexto. Morfología y geometría solamente; sin lectura, sonido, lengua ni orden temporal de trazos.",
+  "limitations": "Las confianzas son cualitativas y no calibradas. La coincidencia entre revisores de IA no constituye revisión experta humana.",
+  "records": [
+    {
+      "alias": "B01",
+      "body_isolation": "clean",
+      "left_gap": "visible_gap",
+      "right_gap": "visible_gap",
+      "morphology": "Dentro del rectángulo rojo: figura izquierda de dos lóbulos, pequeños arcos bajos centrales y dos formas altas con bucle; dos prolongaciones curvas descienden por debajo de la banda de escritura.",
+      "geometry_action": "retain_candidate",
+      "confidence": "high",
+      "warnings": [
+        "El espacio derecho termina en una zona de ilustración; no se muestra un grupo escrito siguiente en ese lado."
+      ]
+    },
+    {
+      "alias": "B02",
+      "body_isolation": "clean",
+      "left_gap": "visible_gap",
+      "right_gap": "visible_gap",
+      "morphology": "Dos concavidades bajas bajo un trazo casi horizontal, un anillo cerrado y un remate angular con prolongación oblicua inferior. El contexto sitúa el cuerpo en un único renglón.",
+      "geometry_action": "retain_candidate",
+      "confidence": "high",
+      "warnings": [
+        "El vecino derecho tiene astiles altos próximos, pero se observa una franja clara entre ambos cuerpos."
+      ]
+    },
+    {
+      "alias": "B03",
+      "body_isolation": "clean",
+      "left_gap": "tight_or_continuous",
+      "right_gap": "visible_gap",
+      "morphology": "Forma izquierda con dos lóbulos superpuestos, cuerpo central bajo con arcos cortos y bucle alto derecho que se prolonga en una curva descendente larga.",
+      "geometry_action": "retain_candidate",
+      "confidence": "medium",
+      "warnings": [
+        "El vecino izquierdo queda muy próximo al borde del rectángulo; la separación es pequeña.",
+        "Hay ilustración a la derecha del espacio visible."
+      ]
+    },
+    {
+      "alias": "B04",
+      "body_isolation": "clean",
+      "left_gap": "visible_gap",
+      "right_gap": "visible_gap",
+      "morphology": "Banda baja con dos concavidades enlazadas, pequeño óvalo central y curva alta abierta a la derecha con terminal inferior grueso. No se observan astiles de otros renglones dentro del objetivo.",
+      "geometry_action": "retain_candidate",
+      "confidence": "high",
+      "warnings": [
+        "Una mancha verdosa cruza el fondo del extremo izquierdo."
+      ]
+    },
+    {
+      "alias": "B05",
+      "body_isolation": "mixed_rows",
+      "left_gap": "visible_gap",
+      "right_gap": "visible_gap",
+      "morphology": "El cuerpo central presenta dos astiles altos con bucles y barras, seguido de un arco bajo, varios trazos cortos verticales y una curva terminal ascendente. El rectángulo incluye tinta cortada arriba y astiles curvos de la línea inferior abajo.",
+      "geometry_action": "review_crop",
+      "confidence": "high",
+      "warnings": [
+        "La ampliación sin máscara mezcla el cuerpo central con fragmentos de los renglones superior e inferior."
+      ]
+    },
+    {
+      "alias": "B06",
+      "body_isolation": "uncertain",
+      "left_gap": "tight_or_continuous",
+      "right_gap": "uncertain",
+      "morphology": "El centro del rectángulo contiene un pequeño bucle alto con prolongación curva descendente. En el borde izquierdo se ven fragmentos verticales ajenos a ese bucle; el contexto muestra formas altas inmediatamente vecinas.",
+      "geometry_action": "review_crop",
+      "confidence": "medium",
+      "warnings": [
+        "El recorte es estrecho y contiene tinta pegada al borde izquierdo.",
+        "La atribución del fragmento lateral y la separación derecha no quedan resueltas con seguridad."
+      ]
+    },
+    {
+      "alias": "B07",
+      "body_isolation": "clean",
+      "left_gap": "visible_gap",
+      "right_gap": "visible_gap",
+      "morphology": "Trazo arqueado elevado sobre la zona izquierda; debajo hay concavidades bajas enlazadas por una banda horizontal, un anillo y un remate angular que baja de la banda.",
+      "geometry_action": "retain_candidate",
+      "confidence": "high",
+      "warnings": [
+        "El arco elevado está separado visualmente del cuerpo bajo; no se asigna orden de trazado ni función."
+      ]
+    },
+    {
+      "alias": "B08",
+      "body_isolation": "clean",
+      "left_gap": "visible_gap",
+      "right_gap": "visible_gap",
+      "morphology": "Pequeño bucle izquierdo con prolongación oblicua larga hacia abajo y a la izquierda; figura central de dos lóbulos, arco bajo contiguo y curva alta abierta a la derecha.",
+      "geometry_action": "retain_candidate",
+      "confidence": "high",
+      "warnings": [
+        "La prolongación izquierda ocupa parte del espacio lateral, pero permanece dentro del rectángulo."
+      ]
+    },
+    {
+      "alias": "B09",
+      "body_isolation": "clean",
+      "left_gap": "visible_gap",
+      "right_gap": "visible_gap",
+      "morphology": "Arco largo elevado a la izquierda con retorno corto, óvalo bajo, figura angular y dos curvas bajas abiertas; el extremo derecho tiene un bucle alto y una prolongación descendente.",
+      "geometry_action": "retain_candidate",
+      "confidence": "high",
+      "warnings": [
+        "El contexto muestra margen amplio y líneas de ilustración cercanas al inicio del renglón."
+      ]
+    },
+    {
+      "alias": "B10",
+      "body_isolation": "clean",
+      "left_gap": "visible_gap",
+      "right_gap": "visible_gap",
+      "morphology": "Anillo bajo cerrado seguido de una forma angular abierta en la parte alta, con cruce o reunión de trazos y prolongación oblicua descendente hacia la izquierda.",
+      "geometry_action": "retain_candidate",
+      "confidence": "high",
+      "warnings": [
+        "El espacio derecho desemboca en la ilustración, sin un siguiente grupo escrito visible."
+      ]
+    },
+    {
+      "alias": "B11",
+      "body_isolation": "mixed_rows",
+      "left_gap": "visible_gap",
+      "right_gap": "visible_gap",
+      "morphology": "En la zona superior del objetivo hay un pequeño bucle elevado, una banda horizontal con concavidad y un pequeño óvalo derecho con cola curva. Desde abajo penetran dos astiles altos, uno con bucle, de la línea inferior visible en el contexto.",
+      "geometry_action": "review_crop",
+      "confidence": "high",
+      "warnings": [
+        "Los astiles inferiores ocupan gran parte del recorte y se aproximan al cuerpo del renglón objetivo.",
+        "Recortar solo una banda horizontal podría perder la prolongación del extremo derecho."
+      ]
+    },
+    {
+      "alias": "B12",
+      "body_isolation": "mixed_rows",
+      "left_gap": "visible_gap",
+      "right_gap": "visible_gap",
+      "morphology": "Cuerpo bajo con dos concavidades enlazadas y curva alta abierta a la derecha, terminada en un engrosamiento inferior. Bajo ese cuerpo se ven una barra oblicua y un bucle con astil procedentes del renglón inferior del contexto.",
+      "geometry_action": "review_crop",
+      "confidence": "high",
+      "warnings": [
+        "El borde inferior incluye ascensores del renglón siguiente; su proximidad impide tratar todo el rectángulo como una sola banda de escritura."
+      ]
+    },
+    {
+      "alias": "B13",
+      "body_isolation": "mixed_rows",
+      "left_gap": "visible_gap",
+      "right_gap": "visible_gap",
+      "morphology": "Banda central con dos concavidades bajas, forma redondeada y varios trazos cortos; una curva amplia se eleva y retorna por la derecha. Aparecen fragmentos cortados en el borde superior y trazos de astiles en el inferior.",
+      "geometry_action": "review_crop",
+      "confidence": "high",
+      "warnings": [
+        "Hay tinta de los renglones adyacentes tanto arriba como abajo.",
+        "El fondo verdoso reduce el contraste de algunos trazos centrales."
+      ]
+    },
+    {
+      "alias": "B14",
+      "body_isolation": "clean",
+      "left_gap": "visible_gap",
+      "right_gap": "visible_gap",
+      "morphology": "Forma izquierda de dos lóbulos, arco bajo central y dos trazos cortos casi verticales; el extremo derecho muestra una curva tenue elevada que retorna hacia la banda baja.",
+      "geometry_action": "retain_candidate",
+      "confidence": "medium",
+      "warnings": [
+        "La mancha verdosa y el bajo contraste hacen inseguro el contorno exacto del extremo derecho."
+      ]
+    },
+    {
+      "alias": "B15",
+      "body_isolation": "mixed_rows",
+      "left_gap": "visible_gap",
+      "right_gap": "visible_gap",
+      "morphology": "Curva izquierda con prolongación larga hacia abajo, serie de concavidades bajas enlazadas, pequeño anillo y curva alta derecha con remate bajo. El recorte contiene tinta cortada de arriba y bucles con astiles que ascienden desde la línea inferior.",
+      "geometry_action": "review_crop",
+      "confidence": "high",
+      "warnings": [
+        "El contexto confirma que los astiles del borde inferior corresponden al renglón de abajo."
+      ]
+    },
+    {
+      "alias": "B16",
+      "body_isolation": "mixed_rows",
+      "left_gap": "visible_gap",
+      "right_gap": "uncertain",
+      "morphology": "En la zona superior izquierda se ve un pequeño bucle con continuación estrecha descendente. En la parte inferior derecha aparece una forma angular parcial y un astil cortado por el borde; el contexto la vincula con una estructura alta del renglón inferior.",
+      "geometry_action": "review_crop",
+      "confidence": "medium",
+      "warnings": [
+        "El rectángulo estrecho mezcla alturas de dos renglones y corta la estructura de su borde derecho.",
+        "No queda una separación derecha inequívoca para el pequeño cuerpo superior."
+      ]
+    },
+    {
+      "alias": "B17",
+      "body_isolation": "clean",
+      "left_gap": "visible_gap",
+      "right_gap": "visible_gap",
+      "morphology": "Tres formas bajas redondeadas enlazadas por trazos casi horizontales: concavidad amplia a la izquierda, concavidad central más estrecha y óvalo alargado a la derecha. Sin astiles altos ni descendentes evidentes.",
+      "geometry_action": "retain_candidate",
+      "confidence": "high",
+      "warnings": [
+        "La ampliación es algo borrosa.",
+        "El vecino derecho visible es una línea de ilustración separada por espacio claro."
+      ]
+    },
+    {
+      "alias": "B18",
+      "body_isolation": "mixed_rows",
+      "left_gap": "visible_gap",
+      "right_gap": "visible_gap",
+      "morphology": "Cuerpo principal con concavidades bajas enlazadas, arco corto central y dos lóbulos derechos con asta y cola larga. Arriba a la izquierda entra una prolongación oblicua del renglón superior; hay tinta próxima al borde inferior.",
+      "geometry_action": "review_crop",
+      "confidence": "high",
+      "warnings": [
+        "La cola que entra desde arriba no debe incorporarse automáticamente al cuerpo central.",
+        "El objetivo sin máscara no aísla completamente un solo renglón."
+      ]
+    },
+    {
+      "alias": "B19",
+      "body_isolation": "clean",
+      "left_gap": "visible_gap",
+      "right_gap": "visible_gap",
+      "morphology": "Estructura alta con dos astiles, bucles superiores y barra transversal; debajo y al lado hay óvalos bajos, seguidos de una curva alta abierta, un arco bajo y otra curva alta con terminal engrosado.",
+      "geometry_action": "retain_candidate",
+      "confidence": "high",
+      "warnings": [
+        "La estructura alta forma parte del mismo renglón visible; no se observa intrusión desde arriba o abajo dentro del rectángulo."
+      ]
+    },
+    {
+      "alias": "B20",
+      "body_isolation": "mixed_rows",
+      "left_gap": "visible_gap",
+      "right_gap": "visible_gap",
+      "morphology": "Pequeño arco bajo izquierdo, anillo central y gran curva alta derecha con terminal oscuro descendente. En la esquina superior izquierda se conserva un fragmento oscuro cortado que el contexto sitúa al pie del renglón superior.",
+      "geometry_action": "review_crop",
+      "confidence": "high",
+      "warnings": [
+        "El fragmento del borde superior no queda aislado del objetivo por una máscara.",
+        "La mancha verdosa dificulta algunos límites finos."
+      ]
+    },
+    {
+      "alias": "B21",
+      "body_isolation": "clean",
+      "left_gap": "visible_gap",
+      "right_gap": "visible_gap",
+      "morphology": "Anillo bajo cerrado separado de una curva alta abierta a la izquierda, cuyo extremo inferior es grueso y anguloso. El cuerpo queda libre de tinta de otros renglones dentro del rectángulo.",
+      "geometry_action": "retain_candidate",
+      "confidence": "high",
+      "warnings": []
+    },
+    {
+      "alias": "B22",
+      "body_isolation": "clean",
+      "left_gap": "visible_gap",
+      "right_gap": "visible_gap",
+      "morphology": "Banda baja de concavidades enlazadas por una línea casi horizontal y anillo cerrado final más oscuro. No se distinguen astiles altos ni colas largas en el objetivo.",
+      "geometry_action": "retain_candidate",
+      "confidence": "medium",
+      "warnings": [
+        "El desenfoque y el fondo verdoso debilitan el contorno de la banda izquierda.",
+        "La descripción no presupone cuántas unidades gráficas componen la banda."
+      ]
+    },
+    {
+      "alias": "B23",
+      "body_isolation": "mixed_rows",
+      "left_gap": "visible_gap",
+      "right_gap": "visible_gap",
+      "morphology": "Figura izquierda de dos lóbulos, óvalo bajo central, doble bucle alto con larga continuación descendente y pequeña forma redonda a la derecha. Desde el borde superior derecho entra además un trazo oblicuo de la línea superior visible en el contexto.",
+      "geometry_action": "review_crop",
+      "confidence": "high",
+      "warnings": [
+        "La intrusión superior debe separarse de los bucles del cuerpo principal.",
+        "Hay una ilustración al otro lado del espacio derecho."
+      ]
+    },
+    {
+      "alias": "B24",
+      "body_isolation": "mixed_rows",
+      "left_gap": "visible_gap",
+      "right_gap": "tight_or_continuous",
+      "morphology": "Óvalo bajo izquierdo, dos astiles altos con bucles y unión transversal, pequeña forma redondeada baja y remate angular con prolongación oblicua descendente. En el borde superior izquierdo entra un trazo vertical cortado de la línea de arriba.",
+      "geometry_action": "review_crop",
+      "confidence": "high",
+      "warnings": [
+        "El recorte contiene tinta del renglón superior.",
+        "El grupo siguiente queda muy cerca del borde derecho y su separación debe comprobarse al revisar el recorte."
+      ]
+    }
+  ]
+}

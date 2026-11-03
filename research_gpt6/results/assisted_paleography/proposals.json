@@ -1,0 +1,50 @@
+{
+  "status": "PROPOSED_NOT_APPLIED",
+  "proposals": [
+    {
+      "id": "f3r_w0004",
+      "alias": "B01",
+      "source_locus": "f3r.1",
+      "current_candidate_EVA": "daimm",
+      "proposed_EVA": "daimg",
+      "reason": "La última forma presenta una panza izquierda aparentemente cerrada, distinta de la entrada abierta de la forma alta anterior del mismo grupo.",
+      "alternatives_retained": [
+        "daimm",
+        "daimg"
+      ],
+      "label_approval": "NOT_APPROVED",
+      "expert_review": "NOT_REVIEWED",
+      "training_use": "NOT_AUTHORIZED_BY_THIS_REVIEW"
+    },
+    {
+      "id": "f3r_w0018",
+      "alias": "B18",
+      "source_locus": "f3r.4",
+      "current_candidate_EVA": "cham",
+      "proposed_EVA": "chag",
+      "reason": "La forma final muestra dos espacios claros separados, con panza lateral que parece cerrada y cola descendente.",
+      "alternatives_retained": [
+        "cham",
+        "chag"
+      ],
+      "label_approval": "NOT_APPROVED",
+      "expert_review": "NOT_REVIEWED",
+      "training_use": "NOT_AUTHORIZED_BY_THIS_REVIEW"
+    },
+    {
+      "id": "f3r_w0040",
+      "alias": "B23",
+      "source_locus": "f3r.8",
+      "current_candidate_EVA": "damo",
+      "proposed_EVA": "dago",
+      "reason": "La forma de cola anterior al óvalo final presenta un cuerpo lateral cerrado; la cola por sí sola no decide el código.",
+      "alternatives_retained": [
+        "damo",
+        "dago"
+      ],
+      "label_approval": "NOT_APPROVED",
+      "expert_review": "NOT_REVIEWED",
+      "training_use": "NOT_AUTHORIZED_BY_THIS_REVIEW"
+    }
+  ]
+}

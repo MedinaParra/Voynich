@@ -1,0 +1,46 @@
+[
+  {
+    "folio": "f3r",
+    "canvas": 1006080,
+    "url": "https://collections.library.yale.edu/iiif/2/1006080/full/full/0/default.jpg",
+    "bytes": 2201720,
+    "sha256": "6ea4d4023a3b199463eee9e30508726a9314391f05a613bce3f87ae8d23fd151",
+    "width": 2691,
+    "height": 3770,
+    "status": "ACQUIRED_NATIVE",
+    "info_sha256": "8349355c313911098f0da804c870b9fb916a0d76b0bc24c4d66cd9edf10aaf72"
+  },
+  {
+    "folio": "f3v",
+    "canvas": 1006081,
+    "url": "https://collections.library.yale.edu/iiif/2/1006081/full/full/0/default.jpg",
+    "bytes": 2287993,
+    "sha256": "b9c19a872d6456fa58f76f15dec1d61bc80cc353fceff33f11abdaae87ce199e",
+    "width": 2762,
+    "height": 3797,
+    "status": "ACQUIRED_NATIVE",
+    "info_sha256": "b2520e281e82b58e8233f09262bec0bfbc10b6704711f7286b48192145251df1"
+  },
+  {
+    "folio": "f6r",
+    "canvas": 1006086,
+    "url": "https://collections.library.yale.edu/iiif/2/1006086/full/full/0/default.jpg",
+    "bytes": 2331837,
+    "sha256": "2e9e318c945c1a961ab676c81827b4ee71c993d3d02a1adb9365bbb007ffa4dc",
+    "width": 2662,
+    "height": 3727,
+    "status": "ACQUIRED_NATIVE",
+    "info_sha256": "9109331cea82f8c5b7fbaca16783bda4528b54eb59a1caf639a855433be0e546"
+  },
+  {
+    "folio": "f6v",
+    "canvas": 1006087,
+    "url": "https://collections.library.yale.edu/iiif/2/1006087/full/full/0/default.jpg",
+    "bytes": 2277617,
+    "sha256": "c05ffc33745eca87cb0387cf47868f2a0a62f2cf6c3f7929a35a2e64834c40dc",
+    "width": 2753,
+    "height": 3797,
+    "status": "ACQUIRED_NATIVE",
+    "info_sha256": "7151168e389628c0265eeb00668538fe5a0a843780b71ee915b7c9d86498a810"
+  }
+]

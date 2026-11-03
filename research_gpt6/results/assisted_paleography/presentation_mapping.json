@@ -1,0 +1,957 @@
+{
+  "seed": 20261103,
+  "queue_sha256": "8de91adda4a214464e02ecd19ab8dcf3d68659fb40221cfe28f2f206b400a558",
+  "coordinate_transfer": "same Yale canvas; proportional raster coordinates rounded; descriptive not new SIFT calibration",
+  "mapping": [
+    {
+      "alias": "B01",
+      "id": "f3r_w0004",
+      "folio": "f3r",
+      "queue_index": 0,
+      "native_bounds": [
+        1163,
+        544,
+        1348,
+        655
+      ],
+      "native_context_bounds": [
+        1043,
+        424,
+        1468,
+        775
+      ],
+      "frozen_bounds": [
+        778,
+        364,
+        902,
+        438
+      ],
+      "frozen_size": [
+        1800,
+        2522
+      ],
+      "native_size": [
+        2691,
+        3770
+      ],
+      "scale_xy": [
+        1.495,
+        1.4948453608247423
+      ],
+      "source_sha256": "6ea4d4023a3b199463eee9e30508726a9314391f05a613bce3f87ae8d23fd151"
+    },
+    {
+      "alias": "B02",
+      "id": "f3r_w0047",
+      "folio": "f3r",
+      "queue_index": 18,
+      "native_bounds": [
+        568,
+        1262,
+        707,
+        1344
+      ],
+      "native_context_bounds": [
+        448,
+        1142,
+        827,
+        1464
+      ],
+      "frozen_bounds": [
+        380,
+        844,
+        473,
+        899
+      ],
+      "frozen_size": [
+        1800,
+        2522
+      ],
+      "native_size": [
+        2691,
+        3770
+      ],
+      "scale_xy": [
+        1.495,
+        1.4948453608247423
+      ],
+      "source_sha256": "6ea4d4023a3b199463eee9e30508726a9314391f05a613bce3f87ae8d23fd151"
+    },
+    {
+      "alias": "B03",
+      "id": "f3r_w0030",
+      "folio": "f3r",
+      "queue_index": 3,
+      "native_bounds": [
+        1215,
+        915,
+        1329,
+        1016
+      ],
+      "native_context_bounds": [
+        1095,
+        795,
+        1449,
+        1136
+      ],
+      "frozen_bounds": [
+        813,
+        612,
+        889,
+        680
+      ],
+      "frozen_size": [
+        1800,
+        2522
+      ],
+      "native_size": [
+        2691,
+        3770
+      ],
+      "scale_xy": [
+        1.495,
+        1.4948453608247423
+      ],
+      "source_sha256": "6ea4d4023a3b199463eee9e30508726a9314391f05a613bce3f87ae8d23fd151"
+    },
+    {
+      "alias": "B04",
+      "id": "f3r_w0069",
+      "folio": "f3r",
+      "queue_index": 20,
+      "native_bounds": [
+        764,
+        1982,
+        909,
+        2063
+      ],
+      "native_context_bounds": [
+        644,
+        1862,
+        1029,
+        2183
+      ],
+      "frozen_bounds": [
+        511,
+        1326,
+        608,
+        1380
+      ],
+      "frozen_size": [
+        1800,
+        2522
+      ],
+      "native_size": [
+        2691,
+        3770
+      ],
+      "scale_xy": [
+        1.495,
+        1.4948453608247423
+      ],
+      "source_sha256": "6ea4d4023a3b199463eee9e30508726a9314391f05a613bce3f87ae8d23fd151"
+    },
+    {
+      "alias": "B05",
+      "id": "f6r_w0037",
+      "folio": "f6r",
+      "queue_index": 12,
+      "native_bounds": [
+        1199,
+        650,
+        1435,
+        764
+      ],
+      "native_context_bounds": [
+        1079,
+        530,
+        1555,
+        884
+      ],
+      "frozen_bounds": [
+        643,
+        349,
+        770,
+        410
+      ],
+      "frozen_size": [
+        1428,
+        2000
+      ],
+      "native_size": [
+        2662,
+        3727
+      ],
+      "scale_xy": [
+        1.8641456582633054,
+        1.8635
+      ],
+      "source_sha256": "2e9e318c945c1a961ab676c81827b4ee71c993d3d02a1adb9365bbb007ffa4dc"
+    },
+    {
+      "alias": "B06",
+      "id": "f6v_w0001",
+      "folio": "f6v",
+      "queue_index": 9,
+      "native_bounds": [
+        701,
+        450,
+        761,
+        541
+      ],
+      "native_context_bounds": [
+        581,
+        330,
+        881,
+        661
+      ],
+      "frozen_bounds": [
+        369,
+        237,
+        401,
+        285
+      ],
+      "frozen_size": [
+        1450,
+        2000
+      ],
+      "native_size": [
+        2753,
+        3797
+      ],
+      "scale_xy": [
+        1.8986206896551725,
+        1.8985
+      ],
+      "source_sha256": "c05ffc33745eca87cb0387cf47868f2a0a62f2cf6c3f7929a35a2e64834c40dc"
+    },
+    {
+      "alias": "B07",
+      "id": "f3r_w0052",
+      "folio": "f3r",
+      "queue_index": 19,
+      "native_bounds": [
+        946,
+        1641,
+        1114,
+        1733
+      ],
+      "native_context_bounds": [
+        826,
+        1521,
+        1234,
+        1853
+      ],
+      "frozen_bounds": [
+        633,
+        1098,
+        745,
+        1159
+      ],
+      "frozen_size": [
+        1800,
+        2522
+      ],
+      "native_size": [
+        2691,
+        3770
+      ],
+      "scale_xy": [
+        1.495,
+        1.4948453608247423
+      ],
+      "source_sha256": "6ea4d4023a3b199463eee9e30508726a9314391f05a613bce3f87ae8d23fd151"
+    },
+    {
+      "alias": "B08",
+      "id": "f3r_w0046",
+      "folio": "f3r",
+      "queue_index": 7,
+      "native_bounds": [
+        374,
+        1230,
+        565,
+        1341
+      ],
+      "native_context_bounds": [
+        254,
+        1110,
+        685,
+        1461
+      ],
+      "frozen_bounds": [
+        250,
+        823,
+        378,
+        897
+      ],
+      "frozen_size": [
+        1800,
+        2522
+      ],
+      "native_size": [
+        2691,
+        3770
+      ],
+      "scale_xy": [
+        1.495,
+        1.4948453608247423
+      ],
+      "source_sha256": "6ea4d4023a3b199463eee9e30508726a9314391f05a613bce3f87ae8d23fd151"
+    },
+    {
+      "alias": "B09",
+      "id": "f3r_w0084",
+      "folio": "f3r",
+      "queue_index": 23,
+      "native_bounds": [
+        1978,
+        2048,
+        2213,
+        2136
+      ],
+      "native_context_bounds": [
+        1858,
+        1928,
+        2333,
+        2256
+      ],
+      "frozen_bounds": [
+        1323,
+        1370,
+        1480,
+        1429
+      ],
+      "frozen_size": [
+        1800,
+        2522
+      ],
+      "native_size": [
+        2691,
+        3770
+      ],
+      "scale_xy": [
+        1.495,
+        1.4948453608247423
+      ],
+      "source_sha256": "6ea4d4023a3b199463eee9e30508726a9314391f05a613bce3f87ae8d23fd151"
+    },
+    {
+      "alias": "B10",
+      "id": "f3r_w0045",
+      "folio": "f3r",
+      "queue_index": 17,
+      "native_bounds": [
+        1220,
+        1176,
+        1299,
+        1253
+      ],
+      "native_context_bounds": [
+        1100,
+        1056,
+        1419,
+        1373
+      ],
+      "frozen_bounds": [
+        816,
+        787,
+        869,
+        838
+      ],
+      "frozen_size": [
+        1800,
+        2522
+      ],
+      "native_size": [
+        2691,
+        3770
+      ],
+      "scale_xy": [
+        1.495,
+        1.4948453608247423
+      ],
+      "source_sha256": "6ea4d4023a3b199463eee9e30508726a9314391f05a613bce3f87ae8d23fd151"
+    },
+    {
+      "alias": "B11",
+      "id": "f6v_w0072",
+      "folio": "f6v",
+      "queue_index": 14,
+      "native_bounds": [
+        824,
+        1335,
+        953,
+        1466
+      ],
+      "native_context_bounds": [
+        704,
+        1215,
+        1073,
+        1586
+      ],
+      "frozen_bounds": [
+        434,
+        703,
+        502,
+        772
+      ],
+      "frozen_size": [
+        1450,
+        2000
+      ],
+      "native_size": [
+        2753,
+        3797
+      ],
+      "scale_xy": [
+        1.8986206896551725,
+        1.8985
+      ],
+      "source_sha256": "c05ffc33745eca87cb0387cf47868f2a0a62f2cf6c3f7929a35a2e64834c40dc"
+    },
+    {
+      "alias": "B12",
+      "id": "f6v_w0066",
+      "folio": "f6v",
+      "queue_index": 13,
+      "native_bounds": [
+        573,
+        1266,
+        693,
+        1357
+      ],
+      "native_context_bounds": [
+        453,
+        1146,
+        813,
+        1477
+      ],
+      "frozen_bounds": [
+        302,
+        667,
+        365,
+        715
+      ],
+      "frozen_size": [
+        1450,
+        2000
+      ],
+      "native_size": [
+        2753,
+        3797
+      ],
+      "scale_xy": [
+        1.8986206896551725,
+        1.8985
+      ],
+      "source_sha256": "c05ffc33745eca87cb0387cf47868f2a0a62f2cf6c3f7929a35a2e64834c40dc"
+    },
+    {
+      "alias": "B13",
+      "id": "f6v_w0096",
+      "folio": "f6v",
+      "queue_index": 10,
+      "native_bounds": [
+        615,
+        1701,
+        835,
+        1794
+      ],
+      "native_context_bounds": [
+        495,
+        1581,
+        955,
+        1914
+      ],
+      "frozen_bounds": [
+        324,
+        896,
+        440,
+        945
+      ],
+      "frozen_size": [
+        1450,
+        2000
+      ],
+      "native_size": [
+        2753,
+        3797
+      ],
+      "scale_xy": [
+        1.8986206896551725,
+        1.8985
+      ],
+      "source_sha256": "c05ffc33745eca87cb0387cf47868f2a0a62f2cf6c3f7929a35a2e64834c40dc"
+    },
+    {
+      "alias": "B14",
+      "id": "f3v_w0057",
+      "folio": "f3v",
+      "queue_index": 11,
+      "native_bounds": [
+        809,
+        1217,
+        964,
+        1290
+      ],
+      "native_context_bounds": [
+        689,
+        1097,
+        1084,
+        1410
+      ],
+      "frozen_bounds": [
+        527,
+        793,
+        628,
+        841
+      ],
+      "frozen_size": [
+        1800,
+        2475
+      ],
+      "native_size": [
+        2762,
+        3797
+      ],
+      "scale_xy": [
+        1.5344444444444445,
+        1.5341414141414143
+      ],
+      "source_sha256": "b9c19a872d6456fa58f76f15dec1d61bc80cc353fceff33f11abdaae87ce199e"
+    },
+    {
+      "alias": "B15",
+      "id": "f6v_w0064",
+      "folio": "f6v",
+      "queue_index": 15,
+      "native_bounds": [
+        816,
+        1183,
+        1078,
+        1318
+      ],
+      "native_context_bounds": [
+        696,
+        1063,
+        1198,
+        1438
+      ],
+      "frozen_bounds": [
+        430,
+        623,
+        568,
+        694
+      ],
+      "frozen_size": [
+        1450,
+        2000
+      ],
+      "native_size": [
+        2753,
+        3797
+      ],
+      "scale_xy": [
+        1.8986206896551725,
+        1.8985
+      ],
+      "source_sha256": "c05ffc33745eca87cb0387cf47868f2a0a62f2cf6c3f7929a35a2e64834c40dc"
+    },
+    {
+      "alias": "B16",
+      "id": "f6v_w0095",
+      "folio": "f6v",
+      "queue_index": 8,
+      "native_bounds": [
+        543,
+        1739,
+        632,
+        1840
+      ],
+      "native_context_bounds": [
+        423,
+        1619,
+        752,
+        1960
+      ],
+      "frozen_bounds": [
+        286,
+        916,
+        333,
+        969
+      ],
+      "frozen_size": [
+        1450,
+        2000
+      ],
+      "native_size": [
+        2753,
+        3797
+      ],
+      "scale_xy": [
+        1.8986206896551725,
+        1.8985
+      ],
+      "source_sha256": "c05ffc33745eca87cb0387cf47868f2a0a62f2cf6c3f7929a35a2e64834c40dc"
+    },
+    {
+      "alias": "B17",
+      "id": "f3r_w0020",
+      "folio": "f3r",
+      "queue_index": 16,
+      "native_bounds": [
+        1251,
+        795,
+        1363,
+        842
+      ],
+      "native_context_bounds": [
+        1131,
+        675,
+        1483,
+        962
+      ],
+      "frozen_bounds": [
+        837,
+        532,
+        912,
+        563
+      ],
+      "frozen_size": [
+        1800,
+        2522
+      ],
+      "native_size": [
+        2691,
+        3770
+      ],
+      "scale_xy": [
+        1.495,
+        1.4948453608247423
+      ],
+      "source_sha256": "6ea4d4023a3b199463eee9e30508726a9314391f05a613bce3f87ae8d23fd151"
+    },
+    {
+      "alias": "B18",
+      "id": "f3r_w0018",
+      "folio": "f3r",
+      "queue_index": 1,
+      "native_bounds": [
+        916,
+        782,
+        1064,
+        888
+      ],
+      "native_context_bounds": [
+        796,
+        662,
+        1184,
+        1008
+      ],
+      "frozen_bounds": [
+        613,
+        523,
+        712,
+        594
+      ],
+      "frozen_size": [
+        1800,
+        2522
+      ],
+      "native_size": [
+        2691,
+        3770
+      ],
+      "scale_xy": [
+        1.495,
+        1.4948453608247423
+      ],
+      "source_sha256": "6ea4d4023a3b199463eee9e30508726a9314391f05a613bce3f87ae8d23fd151"
+    },
+    {
+      "alias": "B19",
+      "id": "f3r_w0075",
+      "folio": "f3r",
+      "queue_index": 22,
+      "native_bounds": [
+        1991,
+        1943,
+        2222,
+        2052
+      ],
+      "native_context_bounds": [
+        1871,
+        1823,
+        2342,
+        2172
+      ],
+      "frozen_bounds": [
+        1332,
+        1300,
+        1486,
+        1373
+      ],
+      "frozen_size": [
+        1800,
+        2522
+      ],
+      "native_size": [
+        2691,
+        3770
+      ],
+      "scale_xy": [
+        1.495,
+        1.4948453608247423
+      ],
+      "source_sha256": "6ea4d4023a3b199463eee9e30508726a9314391f05a613bce3f87ae8d23fd151"
+    },
+    {
+      "alias": "B20",
+      "id": "f3r_w0042",
+      "folio": "f3r",
+      "queue_index": 6,
+      "native_bounds": [
+        559,
+        1159,
+        667,
+        1247
+      ],
+      "native_context_bounds": [
+        439,
+        1039,
+        787,
+        1367
+      ],
+      "frozen_bounds": [
+        374,
+        775,
+        446,
+        834
+      ],
+      "frozen_size": [
+        1800,
+        2522
+      ],
+      "native_size": [
+        2691,
+        3770
+      ],
+      "scale_xy": [
+        1.495,
+        1.4948453608247423
+      ],
+      "source_sha256": "6ea4d4023a3b199463eee9e30508726a9314391f05a613bce3f87ae8d23fd151"
+    },
+    {
+      "alias": "B21",
+      "id": "f3r_w0070",
+      "folio": "f3r",
+      "queue_index": 21,
+      "native_bounds": [
+        918,
+        1979,
+        1017,
+        2058
+      ],
+      "native_context_bounds": [
+        798,
+        1859,
+        1137,
+        2178
+      ],
+      "frozen_bounds": [
+        614,
+        1324,
+        680,
+        1377
+      ],
+      "frozen_size": [
+        1800,
+        2522
+      ],
+      "native_size": [
+        2691,
+        3770
+      ],
+      "scale_xy": [
+        1.495,
+        1.4948453608247423
+      ],
+      "source_sha256": "6ea4d4023a3b199463eee9e30508726a9314391f05a613bce3f87ae8d23fd151"
+    },
+    {
+      "alias": "B22",
+      "id": "f3r_w0041",
+      "folio": "f3r",
+      "queue_index": 5,
+      "native_bounds": [
+        410,
+        1197,
+        529,
+        1245
+      ],
+      "native_context_bounds": [
+        290,
+        1077,
+        649,
+        1365
+      ],
+      "frozen_bounds": [
+        274,
+        801,
+        354,
+        833
+      ],
+      "frozen_size": [
+        1800,
+        2522
+      ],
+      "native_size": [
+        2691,
+        3770
+      ],
+      "scale_xy": [
+        1.495,
+        1.4948453608247423
+      ],
+      "source_sha256": "6ea4d4023a3b199463eee9e30508726a9314391f05a613bce3f87ae8d23fd151"
+    },
+    {
+      "alias": "B23",
+      "id": "f3r_w0040",
+      "folio": "f3r",
+      "queue_index": 4,
+      "native_bounds": [
+        1144,
+        1088,
+        1293,
+        1181
+      ],
+      "native_context_bounds": [
+        1024,
+        968,
+        1413,
+        1301
+      ],
+      "frozen_bounds": [
+        765,
+        728,
+        865,
+        790
+      ],
+      "frozen_size": [
+        1800,
+        2522
+      ],
+      "native_size": [
+        2691,
+        3770
+      ],
+      "scale_xy": [
+        1.495,
+        1.4948453608247423
+      ],
+      "source_sha256": "6ea4d4023a3b199463eee9e30508726a9314391f05a613bce3f87ae8d23fd151"
+    },
+    {
+      "alias": "B24",
+      "id": "f3r_w0029",
+      "folio": "f3r",
+      "queue_index": 2,
+      "native_bounds": [
+        1076,
+        909,
+        1224,
+        1015
+      ],
+      "native_context_bounds": [
+        956,
+        789,
+        1344,
+        1135
+      ],
+      "frozen_bounds": [
+        720,
+        608,
+        819,
+        679
+      ],
+      "frozen_size": [
+        1800,
+        2522
+      ],
+      "native_size": [
+        2691,
+        3770
+      ],
+      "scale_xy": [
+        1.495,
+        1.4948453608247423
+      ],
+      "source_sha256": "6ea4d4023a3b199463eee9e30508726a9314391f05a613bce3f87ae8d23fd151"
+    }
+  ],
+  "sheets": [
+    {
+      "file": "sheet_1.jpg",
+      "sha256": "cdb91b4ca9e47a663c3418362260015e21132e8bb4057cc0e105fa33f3916b12",
+      "aliases": [
+        "B01",
+        "B02",
+        "B03",
+        "B04"
+      ]
+    },
+    {
+      "file": "sheet_2.jpg",
+      "sha256": "4eff349454f443db1f44e32768d791aca30c3abaca7847583d07474ab41bc437",
+      "aliases": [
+        "B05",
+        "B06",
+        "B07",
+        "B08"
+      ]
+    },
+    {
+      "file": "sheet_3.jpg",
+      "sha256": "e5ef9e63796ae421b82627532b0d9ee631afd5cfdc989435f4d977303ccf3a8b",
+      "aliases": [
+        "B09",
+        "B10",
+        "B11",
+        "B12"
+      ]
+    },
+    {
+      "file": "sheet_4.jpg",
+      "sha256": "162918f3ac08821bb69f2841d656ddb5cf8d5d77eaf3c0a2a28d78d55b8b008a",
+      "aliases": [
+        "B13",
+        "B14",
+        "B15",
+        "B16"
+      ]
+    },
+    {
+      "file": "sheet_5.jpg",
+      "sha256": "e148d0e40b05e4d1e6ed46830fcd7abcc3a3edc057ba58a1397d186694748888",
+      "aliases": [
+        "B17",
+        "B18",
+        "B19",
+        "B20"
+      ]
+    },
+    {
+      "file": "sheet_6.jpg",
+      "sha256": "a39d468c42031cb2f4ee71f0a62deaccac3cc3588bcaf3b13341e7e03fe10d5d",
+      "aliases": [
+        "B21",
+        "B22",
+        "B23",
+        "B24"
+      ]
+    }
+  ]
+}

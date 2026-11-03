@@ -1,0 +1,31 @@
+{
+  "date": "2026-11-03",
+  "sources": [
+    {
+      "author": "Lisa Fagin Davis",
+      "title": "Voynich Paleography",
+      "url": "https://ceur-ws.org/Vol-3313/keynote2.pdf",
+      "conference_year": 2022,
+      "volume_publication_date": "2023-01-06",
+      "pages": 11,
+      "bytes": 14072730,
+      "sha256": "cd56145b65b802b2503151957cd9e1ecf0846e992212b6ce6210e0a84f6bc14a",
+      "access": "full text extracted and read by source-review assistant; figure1 page4 inspected; no replication of scribal attribution",
+      "use": "Compare repeated forms, loops, feet, crossbars and endings; no new scribe/language attribution."
+    },
+    {
+      "author": "Gabriel Landini",
+      "title": "EVA Alphabet Font Version2 Reference",
+      "url": "https://www.voynich.nu/hist/gabriel/eva2_reference.pdf",
+      "pages": 7,
+      "internal_document_date": "July2004; copyright1997-2004",
+      "host_description_date": "May2025 in https://www.voynich.nu/hist/www_old.html; discrepancy preserved",
+      "sha256": "2f9a9c7e81dedfbd934e49eeac47de07e7e0855eda46f063a0624958d3e524fc",
+      "access": "full text extracted; page1 typographic shapes inspected by root and source-review assistant",
+      "use": "Conditional comparison of conventional EVA shapes; historical punctuation not imported into current IVTFF."
+    }
+  ],
+  "PDFs_and_font_reference_chart_redistributed": false,
+  "photographic_sources": "Yale University Library, Beinecke MS408, native IIIF; separate acquisition receipts",
+  "DejaVuSans": "Copied unchanged for deterministic captions only; license included, no Voynich font imported"
+}

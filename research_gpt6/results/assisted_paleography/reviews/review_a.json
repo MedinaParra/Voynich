@@ -1,0 +1,241 @@
+{
+  "reviewer": "AI_A",
+  "blinding": "source_labels_and_prior_notes_withheld; no expert independence",
+  "limitations": [
+    "Inspección de las seis láminas suministradas, con rectángulos ampliados y contexto fotográfico limitado; no se inspeccionaron otras fuentes.",
+    "La ampliación y la textura del soporte limitan la separación de trazos débiles. Algunas atribuciones de fragmentos a filas vecinas permanecen inciertas.",
+    "La confianza es una autoevaluación cualitativa, no una probabilidad calibrada. clean y retain_candidate no equivalen a validación experta.",
+    "No se infieren transcripción, sonido, lengua, significado ni orden de trazos desde las imágenes estáticas."
+  ],
+  "records": [
+    {
+      "alias": "B01",
+      "body_isolation": "clean",
+      "left_gap": "visible_gap",
+      "right_gap": "visible_gap",
+      "morphology": "Forma inicial con dos lóbulos superpuestos; arco bajo seguido de trazos cortos; dos formas elevadas de cabeza abultada, con prolongaciones descendentes curvas, especialmente larga la derecha.",
+      "geometry_action": "retain_candidate",
+      "confidence": "high"
+    },
+    {
+      "alias": "B02",
+      "body_isolation": "clean",
+      "left_gap": "visible_gap",
+      "right_gap": "visible_gap",
+      "morphology": "Dos cuerpos bajos abiertos con barra superior casi horizontal; un anillo cerrado; a la derecha, cuerpo angular con abertura triangular y prolongación oblicua hacia abajo a la izquierda.",
+      "geometry_action": "retain_candidate",
+      "confidence": "high"
+    },
+    {
+      "alias": "B03",
+      "body_isolation": "clean",
+      "left_gap": "visible_gap",
+      "right_gap": "visible_gap",
+      "morphology": "Dos lóbulos superpuestos al inicio, pequeño cuerpo arqueado y trazos bajos próximos; remate derecho con bucle alto y descendente largo curvado hacia la izquierda.",
+      "geometry_action": "retain_candidate",
+      "confidence": "medium",
+      "limitations": "El espacio izquierdo es estrecho en el contexto, aunque visible."
+    },
+    {
+      "alias": "B04",
+      "body_isolation": "clean",
+      "left_gap": "visible_gap",
+      "right_gap": "visible_gap",
+      "morphology": "Cuerpo bajo alargado con barra horizontal y dos zonas cóncavas; pequeño óvalo irregular; curva elevada abierta a la izquierda, que termina abajo en un tramo oscuro anguloso.",
+      "geometry_action": "retain_candidate",
+      "confidence": "medium",
+      "limitations": "Una banda verdosa vertical reduce el contraste de la zona central."
+    },
+    {
+      "alias": "B05",
+      "body_isolation": "mixed_rows",
+      "left_gap": "visible_gap",
+      "right_gap": "visible_gap",
+      "morphology": "En la fila objetivo hay astiles altos próximos con pequeños lóbulos y barra transversal; siguen formas bajas abiertas, arco y varios trazos cortos, con curva amplia al extremo derecho. Hay fragmentos de tinta en los bordes superior e inferior de otras filas.",
+      "geometry_action": "review_crop",
+      "confidence": "high"
+    },
+    {
+      "alias": "B06",
+      "body_isolation": "uncertain",
+      "left_gap": "visible_gap",
+      "right_gap": "visible_gap",
+      "morphology": "Pequeño bucle ovalado elevado con tramo descendente curvo hacia la izquierda; un fragmento oscuro queda cortado en el borde superior izquierdo del rectángulo.",
+      "geometry_action": "review_crop",
+      "confidence": "medium",
+      "limitations": "El contexto no permite asignar con seguridad el fragmento del borde izquierdo al mismo cuerpo o a otra fila."
+    },
+    {
+      "alias": "B07",
+      "body_isolation": "clean",
+      "left_gap": "visible_gap",
+      "right_gap": "visible_gap",
+      "morphology": "Gancho pequeño elevado sobre el extremo izquierdo; cuerpo horizontal con dos entrantes bajos, otro cuerpo abierto, anillo y remate angular con pequeño espacio triangular y prolongación inferior.",
+      "geometry_action": "retain_candidate",
+      "confidence": "medium"
+    },
+    {
+      "alias": "B08",
+      "body_isolation": "mixed_rows",
+      "left_gap": "visible_gap",
+      "right_gap": "visible_gap",
+      "morphology": "Curva inicial con pequeño bucle y prolongación larga hacia abajo a la izquierda; forma de dos lóbulos superpuestos, arco bajo y curva elevada abierta con extremo inferior anguloso. Un pequeño fragmento superior parece proceder de la fila de arriba.",
+      "geometry_action": "review_crop",
+      "confidence": "medium",
+      "limitations": "La procedencia del pequeño fragmento en el límite superior es menos segura que la del cuerpo principal."
+    },
+    {
+      "alias": "B09",
+      "body_isolation": "clean",
+      "left_gap": "visible_gap",
+      "right_gap": "visible_gap",
+      "morphology": "Gran arco inicial con tramo oblicuo que termina abajo; pequeño óvalo, cuerpo angular con prolongación oblicua inferior, dos curvas bajas abiertas y forma final elevada de cabeza ancha con descendente fino.",
+      "geometry_action": "retain_candidate",
+      "confidence": "medium"
+    },
+    {
+      "alias": "B10",
+      "body_isolation": "mixed_rows",
+      "left_gap": "visible_gap",
+      "right_gap": "visible_gap",
+      "morphology": "Anillo bajo y forma angular de espacio triangular, con prolongación oblicua hacia abajo a la izquierda. Una pequeña porción de tinta ajena al cuerpo bajo aparece cortada en la esquina superior izquierda.",
+      "geometry_action": "review_crop",
+      "confidence": "medium",
+      "limitations": "La asignación del fragmento superior a la fila anterior depende del contexto reducido."
+    },
+    {
+      "alias": "B11",
+      "body_isolation": "mixed_rows",
+      "left_gap": "visible_gap",
+      "right_gap": "visible_gap",
+      "morphology": "La fila central muestra un cuerpo horizontal curvo con pequeño elemento elevado y, a la derecha, un óvalo de salida descendente. En la parte inferior entran astiles y lóbulos grandes de la fila siguiente.",
+      "geometry_action": "review_crop",
+      "confidence": "high"
+    },
+    {
+      "alias": "B12",
+      "body_isolation": "mixed_rows",
+      "left_gap": "visible_gap",
+      "right_gap": "tight_or_continuous",
+      "morphology": "Dos cuerpos bajos curvos próximos y una curva alta abierta a la izquierda con base oscura angulosa. Debajo aparecen un trazo oblicuo y un bucle grande de la fila inferior.",
+      "geometry_action": "review_crop",
+      "confidence": "high",
+      "limitations": "El margen derecho del rectángulo queda muy próximo al comienzo del grupo siguiente en el contexto."
+    },
+    {
+      "alias": "B13",
+      "body_isolation": "mixed_rows",
+      "left_gap": "visible_gap",
+      "right_gap": "visible_gap",
+      "morphology": "En la fila central, barra horizontal con cuerpos abiertos bajos, arco pequeño y serie de trazos cortos; gran curva elevada en el extremo derecho. El rectángulo contiene fragmentos de las filas superior e inferior.",
+      "geometry_action": "review_crop",
+      "confidence": "high"
+    },
+    {
+      "alias": "B14",
+      "body_isolation": "clean",
+      "left_gap": "visible_gap",
+      "right_gap": "visible_gap",
+      "morphology": "Forma inicial de dos zonas redondeadas superpuestas y cintura estrecha; pequeño arco con espacio interior; varios trazos bajos cortos y curva tenue al extremo derecho.",
+      "geometry_action": "retain_candidate",
+      "confidence": "medium",
+      "limitations": "La mancha verdosa y la baja nitidez dificultan separar los últimos trazos."
+    },
+    {
+      "alias": "B15",
+      "body_isolation": "mixed_rows",
+      "left_gap": "visible_gap",
+      "right_gap": "visible_gap",
+      "morphology": "Curva inicial pequeña con prolongación larga hacia abajo a la izquierda; cuerpos bajos abiertos, anillo y curva elevada final con base angulosa. Se incluyen restos de la fila superior y astiles con bucles de la inferior.",
+      "geometry_action": "review_crop",
+      "confidence": "high"
+    },
+    {
+      "alias": "B16",
+      "body_isolation": "mixed_rows",
+      "left_gap": "visible_gap",
+      "right_gap": "uncertain",
+      "morphology": "Pequeño cuerpo de bucle alto con salida curva descendente. En el extremo inferior derecho entra parte de un astil con lóbulo perteneciente a la fila inferior, cortado por el límite del rectángulo.",
+      "geometry_action": "review_crop",
+      "confidence": "high",
+      "limitations": "El recorte estrecho dificulta evaluar el espacio derecho del pequeño cuerpo sin la interferencia del astil inferior."
+    },
+    {
+      "alias": "B17",
+      "body_isolation": "clean",
+      "left_gap": "visible_gap",
+      "right_gap": "visible_gap",
+      "morphology": "Grupo compacto y bajo de tres zonas redondeadas: primera abierta con barra superior larga, segunda cóncava y tercera ovalada alargada de abertura tenue.",
+      "geometry_action": "retain_candidate",
+      "confidence": "medium",
+      "limitations": "La ampliación pixelada no permite asegurar todos los pequeños cierres internos."
+    },
+    {
+      "alias": "B18",
+      "body_isolation": "mixed_rows",
+      "left_gap": "visible_gap",
+      "right_gap": "visible_gap",
+      "morphology": "Cuerpo bajo alargado abierto con barra superior, pequeño arco y forma final de bucle alto y lóbulo inferior con prolongación descendente. Un trazo oblicuo de la fila superior entra por arriba.",
+      "geometry_action": "review_crop",
+      "confidence": "high"
+    },
+    {
+      "alias": "B19",
+      "body_isolation": "clean",
+      "left_gap": "visible_gap",
+      "right_gap": "visible_gap",
+      "morphology": "Dos astiles altos enlazados visualmente por una barra horizontal, con bucles superiores; un cuerpo curvo bajo a la izquierda y un anillo debajo; siguen curva alta de base angulosa, arco bajo y otra curva alta semejante.",
+      "geometry_action": "retain_candidate",
+      "confidence": "high"
+    },
+    {
+      "alias": "B20",
+      "body_isolation": "mixed_rows",
+      "left_gap": "visible_gap",
+      "right_gap": "visible_gap",
+      "morphology": "Arco bajo tenue a la izquierda, anillo central y curva alta abierta a la izquierda con tramo inferior oscuro inclinado. Hay un pequeño fragmento de tinta recortado en la esquina superior izquierda, por encima del cuerpo principal.",
+      "geometry_action": "review_crop",
+      "confidence": "medium",
+      "limitations": "La tinta tenue y el pequeño fragmento superior limitan la separación exacta entre filas."
+    },
+    {
+      "alias": "B21",
+      "body_isolation": "clean",
+      "left_gap": "visible_gap",
+      "right_gap": "visible_gap",
+      "morphology": "Anillo irregular bajo seguido de una curva grande elevada abierta a la izquierda, con remate inferior oscuro y anguloso.",
+      "geometry_action": "retain_candidate",
+      "confidence": "high"
+    },
+    {
+      "alias": "B22",
+      "body_isolation": "mixed_rows",
+      "left_gap": "visible_gap",
+      "right_gap": "visible_gap",
+      "morphology": "Barra horizontal sobre dos cuerpos bajos abiertos, seguida de anillo cerrado más oscuro. Un pequeño trazo de la fila superior alcanza el borde alto del recorte.",
+      "geometry_action": "review_crop",
+      "confidence": "medium",
+      "limitations": "La resolución de esta ampliación limita la lectura de las uniones entre los dos primeros cuerpos."
+    },
+    {
+      "alias": "B23",
+      "body_isolation": "mixed_rows",
+      "left_gap": "visible_gap",
+      "right_gap": "visible_gap",
+      "morphology": "Forma inicial con dos lóbulos superpuestos, pequeño cuerpo redondeado, bucle alto con lóbulo inferior y descendente largo, y cuerpo redondeado final. Un trazo pequeño separado aparece cerca del borde superior derecho y parece corresponder a la fila superior.",
+      "geometry_action": "review_crop",
+      "confidence": "medium",
+      "limitations": "La pertenencia del pequeño trazo superior es incierta por el corte del borde."
+    },
+    {
+      "alias": "B24",
+      "body_isolation": "mixed_rows",
+      "left_gap": "visible_gap",
+      "right_gap": "tight_or_continuous",
+      "morphology": "Anillo bajo, dos astiles altos con bucles superiores y barra transversal, arco bajo y remate angular con espacio triangular y prolongación oblicua inferior. Un descendente de la fila superior entra por el borde superior izquierdo.",
+      "geometry_action": "review_crop",
+      "confidence": "high",
+      "limitations": "El extremo derecho queda muy próximo al siguiente cuerpo de la misma fila."
+    }
+  ]
+}
