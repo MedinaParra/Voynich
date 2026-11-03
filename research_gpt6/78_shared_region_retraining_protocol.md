@@ -45,3 +45,7 @@ Fuente congelada y tres modelos nuevos se evalúan en un mismo proceso y sobre r
 Medida primaria: CER EVA en la hoja física 8, comparando `shared_ink` con **ambos controles nuevos** y la fuente. Se informan también palabras completas exactas, palabras presentes/ausentes del vocabulario de entrenamiento, folio y longitud. Las hojas 4 y 7 son medidas secundarias ya exploradas. Un solo folio físico nuevo y una semilla no permiten declarar superioridad general, significación por tratar palabras como hojas independientes ni desciframiento.
 
 Se publican plan y protocolo antes de ejecutar. Se preservan controles, código, entradas, máscaras, modelos, checkpoints finales, configuraciones, logs, errores y auditoría independiente de datos y puntuaciones. Se distinguen archivo ZIP verificado y digest sólo reportado por GitHub. Identificación de lengua, revisión experta nueva y traducción: **NOT_RUN**.
+
+### Incidencia de entorno conservada
+
+En el run inicial `41643719527`, el trabajo de reserva falló antes de adquirir imágenes o textos porque faltaba SciPy, importado de forma transitiva por el helper de recortes. Se añade SciPy 1.15.3 al entorno geométrico. No cambian páginas, datos, umbrales, método, semilla ni configuración de entrenamiento. Los tres trabajos originales de ajuste continúan; un workflow de recuperación completa sólo la adquisición y la evaluación usando sus artefactos, sin repetirlos. El estado global de la primera ejecución puede ser `failure` aunque sus tres entrenamientos terminen correctamente; se conservan ambos estados por separado.

@@ -1,0 +1,93 @@
+name: Complete spatial experiment with preserved training jobs
+on:
+  push:
+    branches: [experiment/kraken-voynich]
+    paths:
+      - '.github/workflows/kraken-shared-recovery.yml'
+  workflow_dispatch:
+    inputs:
+      training_run_id:
+        description: Run containing the three fixed trained models
+        required: true
+        default: '41643719527'
+permissions:
+  contents: read
+  actions: read
+env:
+  OMP_NUM_THREADS: '2'
+  MKL_NUM_THREADS: '2'
+  OPENBLAS_NUM_THREADS: '2'
+  PYTHONUNBUFFERED: '1'
+  TRAINING_RUN_ID: ${{ inputs.training_run_id || '41643719527' }}
+jobs:
+  fresh:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install original geometry versions plus the missing transitive dependency
+        run: python -m pip install 'opencv-python-headless==4.12.0.88' 'numpy==2.2.6' 'pillow==12.3.0' 'scipy==1.15.3'
+      - name: Acquire the original fixed reserve without changing geometry gates
+        run: python research_gpt6/code/prepare_shared_fresh.py --plan research_gpt6/data/kraken_shared_region_plan.json --repo research_gpt6
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: fresh-leaf8-geometry
+          path: research_gpt6/results/kraken_shared_region/fresh_data/
+          if-no-files-found: warn
+          retention-days: 30
+  evaluate:
+    needs: fresh
+    runs-on: ubuntu-24.04
+    timeout-minutes: 55
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install the fixed recognition environment
+        run: |
+          python -m pip install 'torch==2.9.0' 'torchvision==0.24.0' --index-url https://download.pytorch.org/whl/cpu
+          python -m pip install 'kraken==7.1' 'lightning==2.6.1' 'pillow==12.3.0' 'numpy==2.4.6' 'scipy==1.15.3'
+      - name: Wait only for the three original training jobs
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          python - <<'PY'
+          import json,os,time,urllib.request
+          url=f"https://api.github.com/repos/{os.environ['GITHUB_REPOSITORY']}/actions/runs/{os.environ['TRAINING_RUN_ID']}/jobs?per_page=100"
+          for attempt in range(90):
+              request=urllib.request.Request(url,headers={'Authorization':'Bearer '+os.environ['GH_TOKEN'],'Accept':'application/vnd.github+json'})
+              with urllib.request.urlopen(request,timeout=30) as response:jobs=json.load(response)['jobs']
+              selected=[j for j in jobs if j['name'].startswith('train (')]
+              print([(j['name'],j['status'],j['conclusion']) for j in selected],flush=True)
+              if len(selected)==3 and all(j['status']=='completed' for j in selected):
+                  assert all(j['conclusion']=='success' for j in selected),'An original training job failed; no substitute model'
+                  break
+              time.sleep(20)
+          else:raise TimeoutError('Original trained models not available within the bounded wait')
+          PY
+      - uses: actions/download-artifact@v4
+        with:
+          pattern: shared-region-*
+          path: work/shared_trained
+          run-id: ${{ env.TRAINING_RUN_ID }}
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+      - uses: actions/download-artifact@v4
+        with:
+          name: fresh-leaf8-geometry
+          path: research_gpt6/results/kraken_shared_region/fresh_data
+      - name: Check fixed beam mathematics
+        run: python research_gpt6/code/test_ctc_prefix_tools.py
+      - name: Evaluate the preserved models on the originally selected pages
+        run: python research_gpt6/code/kraken_shared_region.py evaluate --plan research_gpt6/data/kraken_shared_region_plan.json --repo research_gpt6 --runs work/shared_trained --out work/shared_common_evaluation
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: shared-region-common-evaluation
+          path: work/shared_common_evaluation/
+          if-no-files-found: warn
+          retention-days: 30
