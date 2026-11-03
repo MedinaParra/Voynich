@@ -1,0 +1,62 @@
+{
+  "date": "2026-11-03",
+  "base_commit": "1478edb3000b0f0d91babd1fda3cddf52d454f0c",
+  "comparison_path": "results/transcription_boundaries/comparison.json",
+  "comparison_sha256": "6b4075bea04c49e189edc66c9b7c5fb2c1b391268d3ce9f2ba81f4a88e69f35c",
+  "selection": "All98statuscompared loci with identical projected letters in VT andZL; no glyph preference or OCR output used",
+  "mandatory": "Boundary at same offset in both editions, neither marked comma; period and drawing separators count as certain",
+  "optional": "Union of all other annotated boundary offsets; optional bits independent for a deliberately broad stress family, not equiprobable or certified readings",
+  "primary_near_similarity": "1 iff both token lengths>=3 and Levenshtein distance<=1, else0",
+  "primary_locus_score": "Remove first/last tokens. For M>=2 interiors, adjacent_hits/(M-1) minus all_ordered_distinct_index_pair_hits/(M*(M-1)); M<2=>0. Exact fractions; whole corpus=sum, equal locus weight.",
+  "budgets": [
+    0,
+    1,
+    2,
+    4,
+    8,
+    "all"
+  ],
+  "cost": "Number of optional cut decisions differing from VT; no paleographic probability",
+  "fragility": "Minimum cost giving whole-corpus score<=0; radius0 if baseline<=0; null if impossible in family",
+  "randomization": {
+    "real_replicates": 999,
+    "control_replicates": 199,
+    "seed": 20261103,
+    "method": "Permute only interior tokens; first,last and within-locus multiset fixed for each segmentation. Shared pseudorandom priorities SHA256(seed|replica|locusID|token_start_offset), sorted lexicographically.",
+    "reported_tails": "(1+count(nonnegative difference))/(B+1); VT baseline and envelope M_b=sum_l max_localpath(T_perm-T_obs). Envelope bounds every fixed segmentation tail in this coupled finite simulation; not a universal p-value or proof of historical mechanism."
+  },
+  "calibration": {
+    "loci": 32,
+    "tokens_per_locus": 16,
+    "copy_previous_probability": 0.8,
+    "mutate_given_copy_probability": 0.35,
+    "vocabulary": [
+      "kalody",
+      "fermin",
+      "tobaku",
+      "gisepa",
+      "numeto",
+      "ravisi",
+      "celuno",
+      "dopari"
+    ],
+    "generator_seed": 20261103,
+    "shuffle_seed": 20261104,
+    "ambiguous": "One extra optional inside-token cut at halfway of token index7 in each even-indexed locus",
+    "comparisons": [
+      "copy_clean",
+      "shuffled_matched_clean",
+      "copy_ambiguous",
+      "shuffled_matched_ambiguous"
+    ],
+    "gate": "Positive copy_clean and copy_ambiguous envelope tails<=0.05; matched-shuffled baseline tails>0.05. Four examples do not estimate population power or TypeI error; if gate fails, real scores still archived but mechanism interpretation inconclusive."
+  },
+  "known_non_identifiability": [
+    "Near-edit statistic invariant under bijective character substitution; cannot recover key or meaning",
+    "Symmetric neighbor similarity invariant under reversing whole locus; cannot determine reading direction"
+  ],
+  "scope": "Descriptive development on already used pages. Tests fixed local-exchangeability diagnostic only; no whole-family rejection of copy/language/cipher",
+  "training": "NOT_RUN",
+  "expert_gold": "NOT_REVIEWED",
+  "translation": "NOT_RUN"
+}
