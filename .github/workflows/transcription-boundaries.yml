@@ -1,0 +1,65 @@
+name: Voynich transcription and crop-boundary replay
+on:
+  push:
+    branches: [experiment/kraken-voynich]
+    paths:
+      - .github/workflows/transcription-boundaries.yml
+      - research_gpt6/code/compare_transcription_boundaries.py
+      - research_gpt6/code/test_transcription_boundaries.py
+      - research_gpt6/code/audit_transcription_boundaries.py
+permissions:
+  contents: read
+jobs:
+  replay:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install non-neural requirements
+        run: python -m pip install numpy==2.3.5 scipy==1.15.3 pillow==12.3.0
+      - name: Parser and ambiguity controls
+        run: python research_gpt6/code/test_transcription_boundaries.py
+      - name: Replay from pinned originals and frozen geometry
+        run: |
+          mkdir -p work/transcription_replay/sources
+          cp research_gpt6/results/transcription_boundaries/sources/VT0e-n.txt work/transcription_replay/sources/
+          cp research_gpt6/results/transcription_boundaries/sources/ZL3b-n.txt work/transcription_replay/sources/
+          python research_gpt6/code/compare_transcription_boundaries.py --repo research_gpt6 --out work/transcription_replay --plan research_gpt6/data/transcription_boundaries_plan.json
+      - name: Compare entire derived records
+        run: |
+          python - <<'PY'
+          import sys
+          from pathlib import Path
+          sys.path.insert(0,'research_gpt6/code')
+          from compare_transcription_boundaries import read
+          original=Path('research_gpt6/results/transcription_boundaries')
+          replay=Path('work/transcription_replay')
+          for name in ['comparison.json','geometry_words.json','summary.json']:
+              assert read(original/name)==read(replay/name), name
+          fields=['id','selection_group','source_flags','source_link','shared_dark_fraction','role']
+          def selection(root):return [{k:r[k] for k in fields} for r in read(root/'review_queue.json')['records']]
+          assert selection(original)==selection(replay), 'Review selection changed'
+          print('IDENTICAL_SOURCE_COMPARISON_GEOMETRY_AND_QUEUE_SELECTION; manual observations not replayed')
+          PY
+      - name: Independent graph audit
+        run: |
+          python research_gpt6/code/audit_transcription_boundaries.py --repo research_gpt6 --out work/transcription_replay/audit.json
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          expected=json.loads(Path('research_gpt6/results/transcription_boundaries/audit.json').read_text())
+          actual=json.loads(Path('work/transcription_replay/audit.json').read_text())
+          assert expected==actual and actual['status']=='PASS', 'Independent graph audit differs'
+          print('IDENTICAL_INDEPENDENT_GRAPH_AUDIT',actual['checks'])
+          PY
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: transcription-boundaries-replay
+          path: |
+            work/transcription_replay/summary.json
+            work/transcription_replay/audit.json
+          retention-days: 30

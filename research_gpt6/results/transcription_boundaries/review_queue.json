@@ -1,0 +1,1428 @@
+{
+  "selection": "plan-fixed training-only, no OCR errors consulted",
+  "records": [
+    {
+      "id": "f3r_w0004",
+      "folio": "f3r",
+      "role": "original_train",
+      "reference": "daimm",
+      "bounds": [
+        778,
+        364,
+        902,
+        438
+      ],
+      "source_image_path": "results/kraken_crop_repair/source_cache/images/3r.jpg",
+      "polygon": [
+        [
+          783.1559322907804,
+          368.8191128244342
+        ],
+        [
+          897.1495905966955,
+          369.9601497136606
+        ],
+        [
+          896.7805153873321,
+          433.3538701056483
+        ],
+        [
+          782.5433196231027,
+          432.5785808713551
+        ]
+      ],
+      "image_sha256": "84980345d20e84a2bd021c1c24fb00d7d4f30a96ea06e294f27c32d092072d9b",
+      "mask_sha256": "b27520df2ead526d5ef4ce16a76a933edc76f4b7071cd5b8119618a7989bcf4f",
+      "shared_mask_fraction": 0.1301748448956571,
+      "dark_pixels": 819,
+      "shared_dark_pixels": 38,
+      "shared_dark_fraction": 0.0463980463980464,
+      "source_link": {
+        "locus": "f3r.1",
+        "start": 20,
+        "end": 25,
+        "token": "daimm"
+      },
+      "source_flags": [
+        "letter_disagreement"
+      ],
+      "zl_endpoint_candidates": {
+        "start": [
+          20
+        ],
+        "end": [
+          25
+        ]
+      },
+      "zl_span_chars": "daimg",
+      "selection_group": "source_disagreement",
+      "assistant_visual_review": "OBSERVED_CONTEXT_ONLY",
+      "independent_expert_review": "NOT_REVIEWED",
+      "label_change": "NONE",
+      "geometry_change": "NONE",
+      "assistant_observation": "Se ve un grupo de trazos con terminación descendente dentro del rectángulo. VT da daimm y ZL da daimg; la foto y esta revisión no adjudican m frente a g."
+    },
+    {
+      "id": "f3r_w0018",
+      "folio": "f3r",
+      "role": "original_train",
+      "reference": "cham",
+      "bounds": [
+        613,
+        523,
+        712,
+        594
+      ],
+      "source_image_path": "results/kraken_crop_repair/source_cache/images/3r.jpg",
+      "polygon": [
+        [
+          617.655368209942,
+          527.1909729671197
+        ],
+        [
+          707.8021217247319,
+          529.6586558842405
+        ],
+        [
+          706.6628510749379,
+          589.1752131849235
+        ],
+        [
+          617.2249995448503,
+          587.4454506581936
+        ]
+      ],
+      "image_sha256": "afb9f89cfd4e38dfdf79941a28baaf37a1f543dc1b8ef928b72ad60da5be6cc0",
+      "mask_sha256": "05d5d80a2c766abef5e1248476d19753b00caab01eaa9c149d345050bfed25f2",
+      "shared_mask_fraction": 0.5245288662877655,
+      "dark_pixels": 666,
+      "shared_dark_pixels": 114,
+      "shared_dark_fraction": 0.17117117117117117,
+      "source_link": {
+        "locus": "f3r.4",
+        "start": 13,
+        "end": 17,
+        "token": "cham"
+      },
+      "source_flags": [
+        "letter_disagreement"
+      ],
+      "zl_endpoint_candidates": {
+        "start": [
+          13
+        ],
+        "end": [
+          17
+        ]
+      },
+      "zl_span_chars": "chag",
+      "selection_group": "source_disagreement",
+      "assistant_visual_review": "OBSERVED_CONTEXT_ONLY",
+      "independent_expert_review": "NOT_REVIEWED",
+      "label_change": "NONE",
+      "geometry_change": "NONE",
+      "assistant_observation": "Se ve una terminación que desciende hacia el renglón inferior y polígonos vecinos próximos. Se conserva cham/chag como desacuerdo."
+    },
+    {
+      "id": "f3r_w0029",
+      "folio": "f3r",
+      "role": "original_train",
+      "reference": "otal",
+      "bounds": [
+        720,
+        608,
+        819,
+        679
+      ],
+      "source_image_path": "results/kraken_crop_repair/source_cache/images/3r.jpg",
+      "polygon": [
+        [
+          725.490142209972,
+          612.954704411278
+        ],
+        [
+          814.0685539856061,
+          614.8069098778722
+        ],
+        [
+          812.9348083291281,
+          674.3420583183433
+        ],
+        [
+          724.7106286210956,
+          672.629283120473
+        ]
+      ],
+      "image_sha256": "2c5ddc7cc5b5825754aa620b1400002cc45d5c84663094457e4d462f5dcc9c1c",
+      "mask_sha256": "f8c01ed446b65f2b751e2c37e1d6f3b14eb16f90851fe8af7e1f5741acec25a5",
+      "shared_mask_fraction": 0.2528753026634383,
+      "dark_pixels": 695,
+      "shared_dark_pixels": 81,
+      "shared_dark_fraction": 0.11654676258992806,
+      "source_link": {
+        "locus": "f3r.6",
+        "start": 17,
+        "end": 21,
+        "token": "otal"
+      },
+      "source_flags": [
+        "boundary_disagreement"
+      ],
+      "zl_endpoint_candidates": {
+        "start": [
+          17
+        ],
+        "end": [
+          21
+        ]
+      },
+      "zl_span_chars": "otal",
+      "selection_group": "source_disagreement",
+      "assistant_visual_review": "OBSERVED_CONTEXT_ONLY",
+      "independent_expert_review": "NOT_REVIEWED",
+      "label_change": "NONE",
+      "geometry_change": "NONE",
+      "assistant_observation": "El contexto muestra el grupo anterior al grupo siguiente de w0030. VT separa otal.dam y ZL conserva otaldam; no se decide un límite lingüístico."
+    },
+    {
+      "id": "f3r_w0030",
+      "folio": "f3r",
+      "role": "original_train",
+      "reference": "dam",
+      "bounds": [
+        813,
+        612,
+        889,
+        680
+      ],
+      "source_image_path": "results/kraken_crop_repair/source_cache/images/3r.jpg",
+      "polygon": [
+        [
+          818.9749959578154,
+          616.5029039804144
+        ],
+        [
+          884.8393101656434,
+          617.0541063112208
+        ],
+        [
+          884.4311890207624,
+          675.3306105010399
+        ],
+        [
+          817.95500958358,
+          674.379886538882
+        ]
+      ],
+      "image_sha256": "c422029986484bf10d690199c02361714e9155b6487ad00613b17ba786268987",
+      "mask_sha256": "a9f397f8fc6e38febd6ecc06e6f16195084e81d08daf67b93344371c17299f76",
+      "shared_mask_fraction": 0.19776876267748478,
+      "dark_pixels": 471,
+      "shared_dark_pixels": 10,
+      "shared_dark_fraction": 0.021231422505307854,
+      "source_link": {
+        "locus": "f3r.6",
+        "start": 21,
+        "end": 24,
+        "token": "dam"
+      },
+      "source_flags": [
+        "boundary_disagreement"
+      ],
+      "zl_endpoint_candidates": {
+        "start": [
+          21
+        ],
+        "end": [
+          24
+        ]
+      },
+      "zl_span_chars": "dam",
+      "selection_group": "source_disagreement",
+      "assistant_visual_review": "OBSERVED_CONTEXT_ONLY",
+      "independent_expert_review": "NOT_REVIEWED",
+      "label_change": "NONE",
+      "geometry_change": "NONE",
+      "assistant_observation": "Grupo contiguo a w0029 en el mismo renglón, cerca de la ilustración. La presencia de una separación visual no certifica una palabra independiente."
+    },
+    {
+      "id": "f3r_w0040",
+      "folio": "f3r",
+      "role": "original_train",
+      "reference": "damo",
+      "bounds": [
+        765,
+        728,
+        865,
+        790
+      ],
+      "source_image_path": "results/kraken_crop_repair/source_cache/images/3r.jpg",
+      "polygon": [
+        [
+          770.4311563777762,
+          732.069362647206
+        ],
+        [
+          860.4777105853052,
+          733.3708520657508
+        ],
+        [
+          859.8407348459801,
+          785.2690852490821
+        ],
+        [
+          769.932012479702,
+          783.9749377886174
+        ]
+      ],
+      "image_sha256": "7796735623490858dbed03af0c763c193d441fa7141badac974f3eb11b859464",
+      "mask_sha256": "03f59485c9282c483c1982f9a0dd3452ba719a38cd4d00afe762383950ef479d",
+      "shared_mask_fraction": 0.29775092312856666,
+      "dark_pixels": 346,
+      "shared_dark_pixels": 11,
+      "shared_dark_fraction": 0.031791907514450865,
+      "source_link": {
+        "locus": "f3r.8",
+        "start": 17,
+        "end": 21,
+        "token": "damo"
+      },
+      "source_flags": [
+        "letter_disagreement"
+      ],
+      "zl_endpoint_candidates": {
+        "start": [
+          17
+        ],
+        "end": [
+          21
+        ]
+      },
+      "zl_span_chars": "dago",
+      "selection_group": "source_disagreement",
+      "assistant_visual_review": "OBSERVED_CONTEXT_ONLY",
+      "independent_expert_review": "NOT_REVIEWED",
+      "label_change": "NONE",
+      "geometry_change": "NONE",
+      "assistant_observation": "El rectángulo contiene una forma con trazo descendente. Se conserva damo/dago sin escoger una lectura."
+    },
+    {
+      "id": "f3r_w0041",
+      "folio": "f3r",
+      "role": "original_train",
+      "reference": "sho",
+      "bounds": [
+        274,
+        801,
+        354,
+        833
+      ],
+      "source_image_path": "results/kraken_crop_repair/source_cache/images/3r.jpg",
+      "polygon": [
+        [
+          278.3059846830193,
+          805.1330375559164
+        ],
+        [
+          349.47073882778955,
+          806.3652159769857
+        ],
+        [
+          349.3873100545525,
+          828.2294198264584
+        ],
+        [
+          278.0722071423042,
+          826.669402944385
+        ]
+      ],
+      "image_sha256": "c3093f8eeeaec24549e149d39ca74834f8e1ca18ac4be01e9a988c5da7599c5e",
+      "mask_sha256": "87b04b2c1b84bbe0764c74d08472875175f70ca9d8e6c33b53431eb8d84b2a07",
+      "shared_mask_fraction": 0.4325889164598842,
+      "dark_pixels": 270,
+      "shared_dark_pixels": 18,
+      "shared_dark_fraction": 0.06666666666666667,
+      "source_link": {
+        "locus": "f3r.9",
+        "start": 0,
+        "end": 3,
+        "token": "sho"
+      },
+      "source_flags": [
+        "alignment_ambiguous"
+      ],
+      "zl_endpoint_candidates": {
+        "start": [
+          0
+        ],
+        "end": [
+          3,
+          4
+        ]
+      },
+      "selection_group": "source_disagreement",
+      "assistant_visual_review": "OBSERVED_CONTEXT_ONLY",
+      "independent_expert_review": "NOT_REVIEWED",
+      "label_change": "NONE",
+      "geometry_change": "NONE",
+      "assistant_observation": "Recorte corto con cuerpo de trazos a poca altura; los extremos de la alineación con sho.vor admiten más de un estado óptimo. No se asigna automáticamente v a una caja."
+    },
+    {
+      "id": "f3r_w0042",
+      "folio": "f3r",
+      "role": "original_train",
+      "reference": "or",
+      "bounds": [
+        374,
+        775,
+        446,
+        834
+      ],
+      "source_image_path": "results/kraken_crop_repair/source_cache/images/3r.jpg",
+      "polygon": [
+        [
+          378.3556289207719,
+          779.9040994785375
+        ],
+        [
+          441.9052934770659,
+          781.1806602157594
+        ],
+        [
+          441.2930891267025,
+          829.7349706908365
+        ],
+        [
+          378.72779487756856,
+          828.6691092782144
+        ]
+      ],
+      "image_sha256": "b61bdb3fa2cba52600d365fcf1811ee73208d91ca86f7165acebadd381140933",
+      "mask_sha256": "b9130653a09961891fe28fb5e1b4769d51e10e99621319c4cb1821bb3e1e55ff",
+      "shared_mask_fraction": 0.32142857142857145,
+      "dark_pixels": 322,
+      "shared_dark_pixels": 29,
+      "shared_dark_fraction": 0.09006211180124224,
+      "source_link": {
+        "locus": "f3r.9",
+        "start": 3,
+        "end": 5,
+        "token": "or"
+      },
+      "source_flags": [
+        "alignment_ambiguous"
+      ],
+      "zl_endpoint_candidates": {
+        "start": [
+          3,
+          4
+        ],
+        "end": [
+          6
+        ]
+      },
+      "selection_group": "source_disagreement",
+      "assistant_visual_review": "OBSERVED_CONTEXT_ONLY",
+      "independent_expert_review": "NOT_REVIEWED",
+      "label_change": "NONE",
+      "geometry_change": "NONE",
+      "assistant_observation": "El trazo del grupo contiguo se ve junto al anterior en contexto. El mismo desacuerdo sho.or/sho.vor no se resuelve por desempate de edición."
+    },
+    {
+      "id": "f3r_w0046",
+      "folio": "f3r",
+      "role": "original_train",
+      "reference": "ydas",
+      "bounds": [
+        250,
+        823,
+        378,
+        897
+      ],
+      "source_image_path": "results/kraken_crop_repair/source_cache/images/3r.jpg",
+      "polygon": [
+        [
+          256.1120497750427,
+          827.9889448478169
+        ],
+        [
+          373.65919351602787,
+          830.2819289016259
+        ],
+        [
+          373.09914793504583,
+          892.491182283939
+        ],
+        [
+          254.88782966556977,
+          890.1552908159624
+        ]
+      ],
+      "image_sha256": "f5763ac6efba500f5a0459cea942d643dbe9171ab4ff3371e75fcb8d73802827",
+      "mask_sha256": "355c885bd2cbe233e5652c10165977752958b3c51d8b46a980f39f1575ecc76b",
+      "shared_mask_fraction": 0.06290086643411726,
+      "dark_pixels": 1059,
+      "shared_dark_pixels": 16,
+      "shared_dark_fraction": 0.015108593012275733,
+      "source_link": {
+        "locus": "f3r.10",
+        "start": 0,
+        "end": 4,
+        "token": "ydas"
+      },
+      "source_flags": [
+        "letter_disagreement"
+      ],
+      "zl_endpoint_candidates": {
+        "start": [
+          0
+        ],
+        "end": [
+          4
+        ]
+      },
+      "zl_span_chars": "ydar",
+      "selection_group": "source_disagreement",
+      "assistant_visual_review": "OBSERVED_CONTEXT_ONLY",
+      "independent_expert_review": "NOT_REVIEWED",
+      "label_change": "NONE",
+      "geometry_change": "NONE",
+      "assistant_observation": "Grupo al final de una línea con trazo final curvo. Se conserva ydas/ydar como alternativas de fuente."
+    },
+    {
+      "id": "f6v_w0095",
+      "folio": "f6v",
+      "role": "additional_train",
+      "reference": "y",
+      "bounds": [
+        286,
+        916,
+        333,
+        969
+      ],
+      "source_image_path": "results/kraken_expansion/inputs/f6v_yale.jpg",
+      "polygon": [
+        [
+          291.4757685917989,
+          920.4818743851554
+        ],
+        [
+          328.5500510416816,
+          921.534998051236
+        ],
+        [
+          327.5874838688639,
+          964.0196782544544
+        ],
+        [
+          290.54243995863396,
+          963.1278519961231
+        ]
+      ],
+      "image_sha256": "b357aab0f1848d01c9743119f9b55be3f211a80f2d6ae1717242119bbb2e98da",
+      "mask_sha256": "c1d8925c9695809b49ed07a3677122f76d57d4c697654f691931d8b0a686618b",
+      "shared_mask_fraction": 0.9262574595055414,
+      "dark_pixels": 75,
+      "shared_dark_pixels": 72,
+      "shared_dark_fraction": 0.96,
+      "source_link": {
+        "locus": "f6v.17",
+        "start": 0,
+        "end": 1,
+        "token": "y"
+      },
+      "source_flags": [
+        "uncertain_boundary"
+      ],
+      "zl_endpoint_candidates": {
+        "start": [
+          0
+        ],
+        "end": [
+          1
+        ]
+      },
+      "zl_span_chars": "y",
+      "selection_group": "high_shared_dark",
+      "assistant_visual_review": "OBSERVED_CONTEXT_ONLY",
+      "independent_expert_review": "NOT_REVIEWED",
+      "label_change": "NONE",
+      "geometry_change": "NONE",
+      "assistant_observation": "Caja estrecha con trazo descendente; queda dentro de la franja vertical de máscaras vecinas más grandes. La coma de ZL y,chaies indica duda sobre la separación."
+    },
+    {
+      "id": "f6v_w0001",
+      "folio": "f6v",
+      "role": "additional_train",
+      "reference": "y",
+      "bounds": [
+        369,
+        237,
+        401,
+        285
+      ],
+      "source_image_path": "results/kraken_expansion/inputs/f6v_yale.jpg",
+      "polygon": [
+        [
+          374.35627699619,
+          241.62120730484295
+        ],
+        [
+          396.0301402609102,
+          243.2522609348954
+        ],
+        [
+          395.44621420593825,
+          280.74106321702254
+        ],
+        [
+          373.5673965975558,
+          278.97690313689577
+        ]
+      ],
+      "image_sha256": "2192895e52d7c863d437e61f39ed9b9684fc344f2d86999edbe61d4c42d815ec",
+      "mask_sha256": "2197fddd8b08808eeda83af30acb2bbd5c7fe55f5ecf9951118c5b3331c3e698",
+      "shared_mask_fraction": 0.9665480427046264,
+      "dark_pixels": 134,
+      "shared_dark_pixels": 121,
+      "shared_dark_fraction": 0.9029850746268657,
+      "source_link": {
+        "locus": "f6v.1",
+        "start": 4,
+        "end": 5,
+        "token": "y"
+      },
+      "source_flags": [
+        "locus_not_literal"
+      ],
+      "selection_group": "high_shared_dark",
+      "assistant_visual_review": "OBSERVED_CONTEXT_ONLY",
+      "independent_expert_review": "NOT_REVIEWED",
+      "label_change": "NONE",
+      "geometry_change": "NONE",
+      "assistant_observation": "Caja muy estrecha junto al grupo inicial de línea y dentro de otra máscara extensa. Su alto solapamiento no demuestra que el trazo pertenezca a otra palabra."
+    },
+    {
+      "id": "f6v_w0096",
+      "folio": "f6v",
+      "role": "additional_train",
+      "reference": "chaiir",
+      "bounds": [
+        324,
+        896,
+        440,
+        945
+      ],
+      "source_image_path": "results/kraken_expansion/inputs/f6v_yale.jpg",
+      "polygon": [
+        [
+          329.0253659348367,
+          900.2766948426797
+        ],
+        [
+          435.0500239571114,
+          903.0880309561281
+        ],
+        [
+          434.06641741859937,
+          940.126939890127
+        ],
+        [
+          328.1849736342766,
+          937.4038331709534
+        ]
+      ],
+      "image_sha256": "9fa7a85eada471007b4c7eae1e22cc0618e8885d7bf66bdd4f5613b13479c61c",
+      "mask_sha256": "eba40b56ca70819801597e5e64db2654c5d7d4ae6df689a2b69bfc01d078c606",
+      "shared_mask_fraction": 0.774224435082344,
+      "dark_pixels": 371,
+      "shared_dark_pixels": 308,
+      "shared_dark_fraction": 0.8301886792452831,
+      "source_link": {
+        "locus": "f6v.17",
+        "start": 1,
+        "end": 7,
+        "token": "chaiir"
+      },
+      "source_flags": [
+        "letter_disagreement",
+        "uncertain_boundary"
+      ],
+      "zl_endpoint_candidates": {
+        "start": [
+          1
+        ],
+        "end": [
+          7
+        ]
+      },
+      "zl_span_chars": "chaies",
+      "selection_group": "high_shared_dark",
+      "assistant_visual_review": "OBSERVED_CONTEXT_ONLY",
+      "independent_expert_review": "NOT_REVIEWED",
+      "label_change": "NONE",
+      "geometry_change": "NONE",
+      "assistant_observation": "La franja del recorte incluye cuerpo de texto y parte de un trazo alto en contexto. La extensión de las máscaras vecinas coincide con gran parte de la caja objetivo."
+    },
+    {
+      "id": "f3v_w0057",
+      "folio": "f3v",
+      "role": "original_train",
+      "reference": "daiin",
+      "bounds": [
+        527,
+        793,
+        628,
+        841
+      ],
+      "source_image_path": "results/kraken_crop_repair/source_cache/images/3v.jpg",
+      "polygon": [
+        [
+          532.0918337070544,
+          797.6926516579042
+        ],
+        [
+          623.3132244393206,
+          800.9442984781713
+        ],
+        [
+          622.5875919969803,
+          836.9476486249512
+        ],
+        [
+          531.4813062383114,
+          833.8987083654522
+        ]
+      ],
+      "image_sha256": "8d5756d6fc50b1072ebc5cbb8565b8aa428d7a7cc587a362b5c2c5024c6632de",
+      "mask_sha256": "b7a8c9e08ba6d1e5330c25c0bf0b0a60d945aeaf1575bf7918c67d9c4adb2784",
+      "shared_mask_fraction": 0.7730130220026942,
+      "dark_pixels": 315,
+      "shared_dark_pixels": 254,
+      "shared_dark_fraction": 0.8063492063492064,
+      "source_link": {
+        "locus": "f3v.10",
+        "start": 5,
+        "end": 10,
+        "token": "daiin"
+      },
+      "source_flags": [],
+      "zl_endpoint_candidates": {
+        "start": [
+          5
+        ],
+        "end": [
+          10
+        ]
+      },
+      "zl_span_chars": "daiin",
+      "selection_group": "high_shared_dark",
+      "assistant_visual_review": "OBSERVED_CONTEXT_ONLY",
+      "independent_expert_review": "NOT_REVIEWED",
+      "label_change": "NONE",
+      "geometry_change": "NONE",
+      "assistant_observation": "El rectángulo alcanza trazos del entorno por arriba y debajo del cuerpo central. El acuerdo literal daiin no certifica pureza del recorte."
+    },
+    {
+      "id": "f6r_w0037",
+      "folio": "f6r",
+      "role": "additional_train",
+      "reference": "cthaiin",
+      "bounds": [
+        643,
+        349,
+        770,
+        410
+      ],
+      "source_image_path": "results/kraken_expansion/inputs/f6r_yale.jpg",
+      "polygon": [
+        [
+          648.3115486693687,
+          353.61044988621416
+        ],
+        [
+          765.0248921147709,
+          353.71378861675805
+        ],
+        [
+          764.0419391438847,
+          404.45126463406245
+        ],
+        [
+          647.3827360372283,
+          405.00209871179504
+        ]
+      ],
+      "image_sha256": "b5039756a9ca2e032e0d72fdd22b487d1f2bb2000808fe37acb2cfe470a3ece0",
+      "mask_sha256": "603a2f81b457b41abe1e5c534d155a6700366807060462886e9654fc1532e621",
+      "shared_mask_fraction": 0.8158389261744966,
+      "dark_pixels": 833,
+      "shared_dark_pixels": 643,
+      "shared_dark_fraction": 0.7719087635054022,
+      "source_link": {
+        "locus": "f6r.5",
+        "start": 19,
+        "end": 26,
+        "token": "cthaiin"
+      },
+      "source_flags": [
+        "locus_not_literal"
+      ],
+      "selection_group": "high_shared_dark",
+      "assistant_visual_review": "OBSERVED_CONTEXT_ONLY",
+      "independent_expert_review": "NOT_REVIEWED",
+      "label_change": "NONE",
+      "geometry_change": "NONE",
+      "assistant_observation": "El rectángulo muestra un trazo alto por arriba del grupo y trazos próximos bajo él; máscaras de renglones próximos se superponen. Fuente compleja no resuelta."
+    },
+    {
+      "id": "f6v_w0066",
+      "folio": "f6v",
+      "role": "additional_train",
+      "reference": "lor",
+      "bounds": [
+        302,
+        667,
+        365,
+        715
+      ],
+      "source_image_path": "results/kraken_expansion/inputs/f6v_yale.jpg",
+      "polygon": [
+        [
+          307.5204580394361,
+          671.7062264106792
+        ],
+        [
+          360.5443398983187,
+          673.264819097187
+        ],
+        [
+          359.7085309099867,
+          710.3418454699595
+        ],
+        [
+          306.7057954278261,
+          708.9531604664724
+        ]
+      ],
+      "image_sha256": "2e83c493b1c1f4381fdae788844fb399beb6177148947acafb32c62c317326ee",
+      "mask_sha256": "7249ffe48ddacc32720f8748cee8d87e5ca43d44f3deae8c2d10e3e627268ad8",
+      "shared_mask_fraction": 0.7519713261648745,
+      "dark_pixels": 330,
+      "shared_dark_pixels": 253,
+      "shared_dark_fraction": 0.7666666666666667,
+      "source_link": {
+        "locus": "f6v.11",
+        "start": 0,
+        "end": 3,
+        "token": "lor"
+      },
+      "source_flags": [],
+      "zl_endpoint_candidates": {
+        "start": [
+          0
+        ],
+        "end": [
+          3
+        ]
+      },
+      "zl_span_chars": "lor",
+      "selection_group": "high_shared_dark",
+      "assistant_visual_review": "OBSERVED_CONTEXT_ONLY",
+      "independent_expert_review": "NOT_REVIEWED",
+      "label_change": "NONE",
+      "geometry_change": "NONE",
+      "assistant_observation": "Grupo pequeño en una banda estrecha de texto, solapado por máscaras vecinas extensas. El acuerdo lor se conserva sin aprobar la caja."
+    },
+    {
+      "id": "f6v_w0072",
+      "folio": "f6v",
+      "role": "additional_train",
+      "reference": "shy",
+      "bounds": [
+        434,
+        703,
+        502,
+        772
+      ],
+      "source_image_path": "results/kraken_expansion/inputs/f6v_yale.jpg",
+      "polygon": [
+        [
+          439.27226735449983,
+          707.0436368790662
+        ],
+        [
+          497.62296069580646,
+          708.5053430089868
+        ],
+        [
+          496.4215642040409,
+          767.012193850936
+        ],
+        [
+          438.08589805443273,
+          765.3475962271802
+        ]
+      ],
+      "image_sha256": "237a9930fe4a8420fee7d9d15739a1507abe92598f3446cfc3da458b58dec80d",
+      "mask_sha256": "470a94b12eff1cba9797eafda2de83d5387d9838b0b824851dc8960abefe41ce",
+      "shared_mask_fraction": 0.7086966241895819,
+      "dark_pixels": 517,
+      "shared_dark_pixels": 379,
+      "shared_dark_fraction": 0.7330754352030948,
+      "source_link": {
+        "locus": "f6v.12",
+        "start": 6,
+        "end": 9,
+        "token": "shy"
+      },
+      "source_flags": [
+        "locus_not_literal"
+      ],
+      "selection_group": "high_shared_dark",
+      "assistant_visual_review": "OBSERVED_CONTEXT_ONLY",
+      "independent_expert_review": "NOT_REVIEWED",
+      "label_change": "NONE",
+      "geometry_change": "NONE",
+      "assistant_observation": "Se observan trazos altos y trazos cercanos de otra altura dentro del rectángulo; contexto de varias filas. No se reasigna tinta ni texto."
+    },
+    {
+      "id": "f6v_w0064",
+      "folio": "f6v",
+      "role": "additional_train",
+      "reference": "ychear",
+      "bounds": [
+        430,
+        623,
+        568,
+        694
+      ],
+      "source_image_path": "results/kraken_expansion/inputs/f6v_yale.jpg",
+      "polygon": [
+        [
+          435.8511853331225,
+          627.3277830987467
+        ],
+        [
+          563.1603772833357,
+          631.0824251368703
+        ],
+        [
+          561.8088387036887,
+          689.5153496679716
+        ],
+        [
+          434.5064609097366,
+          685.699803987246
+        ]
+      ],
+      "image_sha256": "39a9773efe760fcfb9bd2136a5eb00d98edb41bfc7be754b68ead6a792f0fa6d",
+      "mask_sha256": "d871906b5bd0cda49fe5f4d89d8278610f29daecb3365ba48183f4c7f97cd834",
+      "shared_mask_fraction": 0.6767114313789715,
+      "dark_pixels": 1065,
+      "shared_dark_pixels": 744,
+      "shared_dark_fraction": 0.6985915492957746,
+      "source_link": {
+        "locus": "f6v.10",
+        "start": 6,
+        "end": 12,
+        "token": "ychear"
+      },
+      "source_flags": [
+        "alignment_ambiguous"
+      ],
+      "zl_endpoint_candidates": {
+        "start": [
+          6,
+          7
+        ],
+        "end": [
+          13
+        ]
+      },
+      "selection_group": "high_shared_dark",
+      "assistant_visual_review": "OBSERVED_CONTEXT_ONLY",
+      "independent_expert_review": "NOT_REVIEWED",
+      "label_change": "NONE",
+      "geometry_change": "NONE",
+      "assistant_observation": "La banda de extracción incluye un descendente por arriba y un trazo alto por debajo. Los extremos de la alineación siguen ambiguos."
+    },
+    {
+      "id": "f3r_w0020",
+      "folio": "f3r",
+      "role": "original_train",
+      "reference": "cho",
+      "bounds": [
+        837,
+        532,
+        912,
+        563
+      ],
+      "source_image_path": "results/kraken_crop_repair/source_cache/images/3r.jpg",
+      "polygon": [
+        [
+          841.6047342411746,
+          536.736219767047
+        ],
+        [
+          907.3451532579568,
+          537.1335451533535
+        ],
+        [
+          907.115030348108,
+          558.8690332691117
+        ],
+        [
+          841.3933837926568,
+          558.4510989046046
+        ]
+      ],
+      "image_sha256": "f96eb906748c25eaafb25e6c15e6cfe165466e9b598949c612d1fc7e73a13be9",
+      "mask_sha256": "7aa40b0146751013eeaf10c25e5099748ce2c47ec02006a20d6decbc970802bb",
+      "shared_mask_fraction": 0.0,
+      "dark_pixels": 117,
+      "shared_dark_pixels": 0,
+      "shared_dark_fraction": 0.0,
+      "source_link": {
+        "locus": "f3r.4",
+        "start": 21,
+        "end": 24,
+        "token": "cho"
+      },
+      "source_flags": [],
+      "zl_endpoint_candidates": {
+        "start": [
+          21
+        ],
+        "end": [
+          24
+        ]
+      },
+      "zl_span_chars": "cho",
+      "selection_group": "low_shared_dark",
+      "assistant_visual_review": "OBSERVED_CONTEXT_ONLY",
+      "independent_expert_review": "NOT_REVIEWED",
+      "label_change": "NONE",
+      "geometry_change": "NONE",
+      "assistant_observation": "Recorte bajo y estrecho, con espacio claro alrededor del grupo central en el contexto. Cero solapamiento oscuro bajo este umbral no certifica transcripción."
+    },
+    {
+      "id": "f3r_w0045",
+      "folio": "f3r",
+      "role": "original_train",
+      "reference": "ol",
+      "bounds": [
+        816,
+        787,
+        869,
+        838
+      ],
+      "source_image_path": "results/kraken_crop_repair/source_cache/images/3r.jpg",
+      "polygon": [
+        [
+          821.4416010196919,
+          791.4045381688823
+        ],
+        [
+          864.7808227748416,
+          791.8858679689142
+        ],
+        [
+          864.2769170986086,
+          833.6124747769604
+        ],
+        [
+          820.9304307347702,
+          833.1023138416992
+        ]
+      ],
+      "image_sha256": "3b857bc6c88a9f66b510cee352ccbb2000eb3e33019236132e6ebfe4246138d7",
+      "mask_sha256": "b09f4aaed41eb5e03d6a045a8276d8a89eef1798276fcf5fa9d98527e83870a9",
+      "shared_mask_fraction": 0.025297048677654272,
+      "dark_pixels": 315,
+      "shared_dark_pixels": 0,
+      "shared_dark_fraction": 0.0,
+      "source_link": {
+        "locus": "f3r.9",
+        "start": 20,
+        "end": 22,
+        "token": "ol"
+      },
+      "source_flags": [],
+      "zl_endpoint_candidates": {
+        "start": [
+          21
+        ],
+        "end": [
+          23
+        ]
+      },
+      "zl_span_chars": "ol",
+      "selection_group": "low_shared_dark",
+      "assistant_visual_review": "OBSERVED_CONTEXT_ONLY",
+      "independent_expert_review": "NOT_REVIEWED",
+      "label_change": "NONE",
+      "geometry_change": "NONE",
+      "assistant_observation": "Grupo corto y aislado en el contexto mostrado; no aparece un conflicto oscuro con las otras máscaras al umbral fijado."
+    },
+    {
+      "id": "f3r_w0047",
+      "folio": "f3r",
+      "role": "original_train",
+      "reference": "chol",
+      "bounds": [
+        380,
+        844,
+        473,
+        899
+      ],
+      "source_image_path": "results/kraken_crop_repair/source_cache/images/3r.jpg",
+      "polygon": [
+        [
+          385.2831376359326,
+          848.9361432598505
+        ],
+        [
+          468.62677543121004,
+          850.5985475081022
+        ],
+        [
+          468.06282161339493,
+          894.2368792194472
+        ],
+        [
+          384.8888686114888,
+          892.6455063654159
+        ]
+      ],
+      "image_sha256": "b74a71935f7429f8f1c911ba6a229f22592b71173ea04d65eb711e631cc220c3",
+      "mask_sha256": "216a0a392d16ff66cbaeb278aa621448ceee804548f0b1bbc9164d6f89fff680",
+      "shared_mask_fraction": 0.04095778197857593,
+      "dark_pixels": 606,
+      "shared_dark_pixels": 0,
+      "shared_dark_fraction": 0.0,
+      "source_link": {
+        "locus": "f3r.10",
+        "start": 4,
+        "end": 8,
+        "token": "chol"
+      },
+      "source_flags": [
+        "boundary_disagreement"
+      ],
+      "zl_endpoint_candidates": {
+        "start": [
+          4
+        ],
+        "end": [
+          8
+        ]
+      },
+      "zl_span_chars": "chol",
+      "selection_group": "low_shared_dark",
+      "assistant_visual_review": "OBSERVED_CONTEXT_ONLY",
+      "independent_expert_review": "NOT_REVIEWED",
+      "label_change": "NONE",
+      "geometry_change": "NONE",
+      "assistant_observation": "Grupo visible separado de los vecinos por espacios en la foto. Aun con cero solapamiento oscuro, las fuentes discrepan en una frontera textual."
+    },
+    {
+      "id": "f3r_w0052",
+      "folio": "f3r",
+      "role": "original_train",
+      "reference": "sheol",
+      "bounds": [
+        633,
+        1098,
+        745,
+        1159
+      ],
+      "source_image_path": "results/kraken_crop_repair/source_cache/images/3r.jpg",
+      "polygon": [
+        [
+          637.7595835883758,
+          1102.7101132962703
+        ],
+        [
+          740.0943798156245,
+          1104.0245998380726
+        ],
+        [
+          739.6143060980172,
+          1154.2024912203574
+        ],
+        [
+          637.3227355633422,
+          1153.0159128493228
+        ]
+      ],
+      "image_sha256": "e994815fc8a38fe3a037b6d32fcaecba407778232d03796647bfb9b04bd5c311",
+      "mask_sha256": "5108387d211f6520bf61edcb6a0a2cad06e8cd018d62dfd6ea8ac0b2da5dab83",
+      "shared_mask_fraction": 0.042687625211897055,
+      "dark_pixels": 677,
+      "shared_dark_pixels": 0,
+      "shared_dark_fraction": 0.0,
+      "source_link": {
+        "locus": "f3r.11",
+        "start": 14,
+        "end": 19,
+        "token": "sheol"
+      },
+      "source_flags": [],
+      "zl_endpoint_candidates": {
+        "start": [
+          14
+        ],
+        "end": [
+          19
+        ]
+      },
+      "zl_span_chars": "sheol",
+      "selection_group": "low_shared_dark",
+      "assistant_visual_review": "OBSERVED_CONTEXT_ONLY",
+      "independent_expert_review": "NOT_REVIEWED",
+      "label_change": "NONE",
+      "geometry_change": "NONE",
+      "assistant_observation": "Rectángulo bajo alrededor del grupo central, con renglones vecinos visibles en contexto. Acuerdo de fuente conservado como candidato."
+    },
+    {
+      "id": "f3r_w0069",
+      "folio": "f3r",
+      "role": "original_train",
+      "reference": "shor",
+      "bounds": [
+        511,
+        1326,
+        608,
+        1380
+      ],
+      "source_image_path": "results/kraken_crop_repair/source_cache/images/3r.jpg",
+      "polygon": [
+        [
+          515.7384301553479,
+          1330.3147760314564
+        ],
+        [
+          603.6595117701484,
+          1331.7641744400116
+        ],
+        [
+          602.9600240164941,
+          1375.0871900268135
+        ],
+        [
+          515.1245750227729,
+          1373.9785500350138
+        ]
+      ],
+      "image_sha256": "fb11f891574bc3b10004850a12af44d93b2b63c88b470216a82f0770485b5e9f",
+      "mask_sha256": "69061ee6c3000a9dd4f0f4be7150bdbf6d6f63683d0ba39bb4e6a57ff3c612fb",
+      "shared_mask_fraction": 0.0,
+      "dark_pixels": 464,
+      "shared_dark_pixels": 0,
+      "shared_dark_fraction": 0.0,
+      "source_link": {
+        "locus": "f3r.15",
+        "start": 9,
+        "end": 13,
+        "token": "shor"
+      },
+      "source_flags": [],
+      "zl_endpoint_candidates": {
+        "start": [
+          9
+        ],
+        "end": [
+          13
+        ]
+      },
+      "zl_span_chars": "shor",
+      "selection_group": "low_shared_dark",
+      "assistant_visual_review": "OBSERVED_CONTEXT_ONLY",
+      "independent_expert_review": "NOT_REVIEWED",
+      "label_change": "NONE",
+      "geometry_change": "NONE",
+      "assistant_observation": "Grupo con trazo final alto dentro de su caja y espacio libre lateral. No se aprecia un conflicto de máscaras oscuras bajo el umbral."
+    },
+    {
+      "id": "f3r_w0070",
+      "folio": "f3r",
+      "role": "original_train",
+      "reference": "or",
+      "bounds": [
+        614,
+        1324,
+        680,
+        1377
+      ],
+      "source_image_path": "results/kraken_crop_repair/source_cache/images/3r.jpg",
+      "polygon": [
+        [
+          618.8096299337251,
+          1328.6038357384843
+        ],
+        [
+          675.891680822079,
+          1329.2389875224176
+        ],
+        [
+          675.4099884250464,
+          1372.6582126017852
+        ],
+        [
+          618.2133225505288,
+          1372.0634650541276
+        ]
+      ],
+      "image_sha256": "c56837e4b019719fef38d6889e628efdecb32f3961c95839cda6daa0705e70b4",
+      "mask_sha256": "a1eb98997340928e682e3202e4de8dc42f9eebcfe68d34ac4ea67611fa5115c5",
+      "shared_mask_fraction": 0.08504398826979472,
+      "dark_pixels": 384,
+      "shared_dark_pixels": 0,
+      "shared_dark_fraction": 0.0,
+      "source_link": {
+        "locus": "f3r.15",
+        "start": 13,
+        "end": 15,
+        "token": "or"
+      },
+      "source_flags": [],
+      "zl_endpoint_candidates": {
+        "start": [
+          13
+        ],
+        "end": [
+          15
+        ]
+      },
+      "zl_span_chars": "or",
+      "selection_group": "low_shared_dark",
+      "assistant_visual_review": "OBSERVED_CONTEXT_ONLY",
+      "independent_expert_review": "NOT_REVIEWED",
+      "label_change": "NONE",
+      "geometry_change": "NONE",
+      "assistant_observation": "Grupo pequeño junto al anterior y cerca del margen derecho de texto. Se conserva como control de bajo solapamiento."
+    },
+    {
+      "id": "f3r_w0075",
+      "folio": "f3r",
+      "role": "original_train",
+      "reference": "oporar",
+      "bounds": [
+        1332,
+        1300,
+        1486,
+        1373
+      ],
+      "source_image_path": "results/kraken_crop_repair/source_cache/images/3r.jpg",
+      "polygon": [
+        [
+          1337.4165404557102,
+          1304.9735364779915
+        ],
+        [
+          1481.5071103566634,
+          1306.3167445946833
+        ],
+        [
+          1480.8501405823517,
+          1368.0583096509413
+        ],
+        [
+          1336.7721166714068,
+          1366.7050483073267
+        ]
+      ],
+      "image_sha256": "dd9c7011d466b49ad7cbb5e002e184fe9c1eb351a82ba2e1f42f806c52b4f927",
+      "mask_sha256": "61e4a5cc464fd2faa43a0021b37c6dc787ef45151ed6e79f678a3816561fd1f2",
+      "shared_mask_fraction": 0.0002796420581655481,
+      "dark_pixels": 1733,
+      "shared_dark_pixels": 0,
+      "shared_dark_fraction": 0.0,
+      "source_link": {
+        "locus": "f3r.15",
+        "start": 35,
+        "end": 41,
+        "token": "oporar"
+      },
+      "source_flags": [],
+      "zl_endpoint_candidates": {
+        "start": [
+          35
+        ],
+        "end": [
+          41
+        ]
+      },
+      "zl_span_chars": "oporar",
+      "selection_group": "low_shared_dark",
+      "assistant_visual_review": "OBSERVED_CONTEXT_ONLY",
+      "independent_expert_review": "NOT_REVIEWED",
+      "label_change": "NONE",
+      "geometry_change": "NONE",
+      "assistant_observation": "Grupo con dos trazos altos bien visible y separado verticalmente del inferior en el contexto. Candidato de bajo solapamiento."
+    },
+    {
+      "id": "f3r_w0084",
+      "folio": "f3r",
+      "role": "original_train",
+      "reference": "soleeg",
+      "bounds": [
+        1323,
+        1370,
+        1480,
+        1429
+      ],
+      "source_image_path": "results/kraken_crop_repair/source_cache/images/3r.jpg",
+      "polygon": [
+        [
+          1328.3838757647154,
+          1374.8689490741745
+        ],
+        [
+          1475.7988535457753,
+          1376.332654646902
+        ],
+        [
+          1475.381692698841,
+          1424.612130410495
+        ],
+        [
+          1327.8794489860363,
+          1423.0796371061706
+        ]
+      ],
+      "image_sha256": "18baf79046cc6b724afca9074d69dccd3f1ada936574a7e5d538a078576ab090",
+      "mask_sha256": "4f529d0a7510d63cffc5359252563ee4697ed192119c47edbac1ffa6b8676d0c",
+      "shared_mask_fraction": 0.00033986631924776253,
+      "dark_pixels": 758,
+      "shared_dark_pixels": 0,
+      "shared_dark_fraction": 0.0,
+      "source_link": {
+        "locus": "f3r.16",
+        "start": 36,
+        "end": 42,
+        "token": "soleeg"
+      },
+      "source_flags": [],
+      "zl_endpoint_candidates": {
+        "start": [
+          36
+        ],
+        "end": [
+          42
+        ]
+      },
+      "zl_span_chars": "soleeg",
+      "selection_group": "low_shared_dark",
+      "assistant_visual_review": "OBSERVED_CONTEXT_ONLY",
+      "independent_expert_review": "NOT_REVIEWED",
+      "label_change": "NONE",
+      "geometry_change": "NONE",
+      "assistant_observation": "Grupo bajo el anterior con margen de pergamino alrededor. Acuerdo literal y baja repetición de posiciones no equivalen a revisión paleográfica experta."
+    }
+  ],
+  "expert_review": "NOT_REVIEWED",
+  "changes_applied": 0,
+  "review_scope": "Assistant inspected all24 rendered panels through six contact sheets; no author-independent paleographic validation, no glyph ownership or approved repairs."
+}

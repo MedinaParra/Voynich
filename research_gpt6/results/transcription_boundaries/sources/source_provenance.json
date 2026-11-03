@@ -1,0 +1,77 @@
+{
+  "date": "2026-11-03",
+  "sources": [
+    {
+      "url": "https://www.voynich.nu/data/000_README.txt",
+      "access": "Web text obtained, direct urllib HTTP406",
+      "web_ref": "turn211view0",
+      "finding": "VT is Takahashi as used in Voynichese; IT is same Takahashi lineage through LSI. RF is automatically combined GC plus ZL. These are not independent replications."
+    },
+    {
+      "url": "https://voynich.nu/roadmap.html#cop",
+      "access": "Full web section consulted",
+      "web_ref": "turn219view1",
+      "finding": "Host explicitly makes collected transliteration files available under Creative Commons CC0, separately from restricted font assets."
+    },
+    {
+      "url": "https://github.com/alexanderboxer/voynich-attack/blob/255bd632e45459230eaf2a994e0557ed6c682869/README.md",
+      "access": "Pinned raw full document obtained",
+      "finding": "Author states complete independent block-text transcription made directly from imagery. Own glyph alphabet; native comma-delimited glyph codes and folio/paragraph/line locators. Independence here is author-declared image-based provenance, not error independence or expert ground truth."
+    },
+    {
+      "url": "https://github.com/voynichese/voynichese/blob/wiki/DataSets.md",
+      "access": "Web primary full relevant sections consulted",
+      "web_ref": "turn211view3",
+      "finding": "Spatial bindings semi-automated; word boundaries interpretative; XML spatial transcription Apache2.0. XML and JSON exports remain same source."
+    }
+  ],
+  "mirror_commit_records": [
+    {
+      "repo": "noah-chelednik/voynich-data",
+      "branch": "main",
+      "commit": "ecd4c8145524d90373535ea3d1617d8190dc8208"
+    },
+    {
+      "repo": "Aspect-Research/voynich-autoexploration",
+      "branch": "master",
+      "commit": "31819c914061cc6b63bbf4983e33d643ede52e46"
+    },
+    {
+      "repo": "CoderXYZ7/VMSembedding",
+      "branch": "main",
+      "commit": "cf34dfd9168dc310e51b1a5a911e4648527444ec"
+    }
+  ],
+  "local_files": [
+    {
+      "name": "VT0e-n.txt",
+      "bytes": 335205,
+      "sha256": "e13ba5e073cae54722bc095db8eb9a1aa9c7105f45a70f66a0aad236077f2426"
+    },
+    {
+      "name": "ZL3b-n.txt",
+      "bytes": 411671,
+      "sha256": "bf5b6d4ac1e3a51b1847a9c388318d609020441ccd56984c901c32b09beccafc"
+    },
+    {
+      "name": "boxer_README.md",
+      "bytes": 3477,
+      "sha256": "749baa9a58b1379e8b5e37049e0a7a3c60aa805d6024594841587dec9614fa60"
+    },
+    {
+      "name": "vms.csv",
+      "bytes": 558777,
+      "sha256": "5a1fc5b508ad7b8afbe5454d4332aa3c53a75db1df1c42774b287645ee157511"
+    },
+    {
+      "name": "unicode_dict.json",
+      "bytes": 1051,
+      "sha256": "779687e6f3e3cc84b7fa5566fc013d35a7d79956b96e0f975f5bd11ba52f07b0"
+    },
+    {
+      "name": "LICENSE",
+      "bytes": 649,
+      "sha256": "bc1b938040e1ad541a51b1bdb62412a01869dceae4c9ecdda7cec8421904751f"
+    }
+  ]
+}

@@ -1,0 +1,418 @@
+[
+  {
+    "folio": "3r",
+    "rows": 20,
+    "paragraphs": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "words": 115,
+    "uncertain_words": 1,
+    "locators": [
+      "3r.p1.l1",
+      "3r.p1.l2",
+      "3r.p1.l3",
+      "3r.p1.l4",
+      "3r.p1.l5",
+      "3r.p1.l6",
+      "3r.p1.l7",
+      "3r.p1.l8",
+      "3r.p1.l9",
+      "3r.p1.l10",
+      "3r.p2.l1",
+      "3r.p2.l2",
+      "3r.p2.l3",
+      "3r.p2.l4",
+      "3r.p3.l1",
+      "3r.p3.l2",
+      "3r.p3.l3",
+      "3r.p4.l1",
+      "3r.p4.l2",
+      "3r.p4.l3"
+    ],
+    "first_tokens": [
+      [
+        "M,c^c,c,o,2",
+        "4,o,P2,a,x",
+        "cc,o,x",
+        "c,M,c,o,x",
+        "8,a,i,Q,Q"
+      ]
+    ]
+  },
+  {
+    "folio": "3v",
+    "rows": 14,
+    "paragraphs": [
+      "1",
+      "2"
+    ],
+    "words": 82,
+    "uncertain_words": 3,
+    "locators": [
+      "3v.p1.l1",
+      "3v.p1.l2",
+      "3v.p1.l3",
+      "3v.p1.l4",
+      "3v.p1.l5",
+      "3v.p1.l6",
+      "3v.p2.l1",
+      "3v.p2.l2",
+      "3v.p2.l3",
+      "3v.p2.l4",
+      "3v.p2.l5",
+      "3v.p2.l6",
+      "3v.p2.l7",
+      "3v.p2.l8"
+    ],
+    "first_tokens": [
+      [
+        "N,o,a,m",
+        "c,P2,c,a,Z",
+        "4,o,M,o,9",
+        "c^c,a",
+        "c,N,c,o,x",
+        "9,N,o,a,m",
+        "2",
+        "o,x,9"
+      ]
+    ]
+  },
+  {
+    "folio": "4r",
+    "rows": 13,
+    "paragraphs": [
+      "1",
+      "2"
+    ],
+    "words": 62,
+    "uncertain_words": 2,
+    "locators": [
+      "4r.p1.l1",
+      "4r.p1.l2",
+      "4r.p1.l3",
+      "4r.p1.l4",
+      "4r.p2.l1",
+      "4r.p2.l2",
+      "4r.p2.l3",
+      "4r.p2.l4",
+      "4r.p2.l5",
+      "4r.p2.l6",
+      "4r.p2.l7",
+      "4r.p2.l8",
+      "4r.p2.l9"
+    ],
+    "first_tokens": [
+      [
+        "N,o,8,a,x,cc,9",
+        "cc,P2,a,8,9",
+        "c^c,c,o,x",
+        "o,x",
+        "c^c,c,c,9",
+        "4,o,M,c,9",
+        "8,o,m",
+        "cc,o,Z",
+        "9,M,o,9"
+      ]
+    ]
+  },
+  {
+    "folio": "4v",
+    "rows": 14,
+    "paragraphs": [
+      "1",
+      "2"
+    ],
+    "words": 81,
+    "uncertain_words": 3,
+    "locators": [
+      "4v.p1.l1",
+      "4v.p1.l2",
+      "4v.p1.l3",
+      "4v.p1.l4",
+      "4v.p1.l5",
+      "4v.p1.l6",
+      "4v.p2.l1",
+      "4v.p2.l2",
+      "4v.p2.l3",
+      "4v.p2.l4",
+      "4v.p2.l5",
+      "4v.p2.l6",
+      "4v.p2.l7",
+      "4v.p2.l8"
+    ],
+    "first_tokens": [
+      [
+        "P2,cc,o,o,m",
+        "N,c^c,c,o",
+        "N,cc,o,9",
+        "cc,o,P2,cc,9",
+        "8,o,x,8,2",
+        "8,x,o,8"
+      ]
+    ]
+  },
+  {
+    "folio": "5v",
+    "rows": 6,
+    "paragraphs": [
+      "1"
+    ],
+    "words": 45,
+    "uncertain_words": 0,
+    "locators": [
+      "5v.p1.l1",
+      "5v.p1.l2",
+      "5v.p1.l3",
+      "5v.p1.l4",
+      "5v.p1.l5",
+      "5v.p1.l6"
+    ],
+    "first_tokens": [
+      [
+        "N,9,cc,c,o,Z",
+        "cc,o,Z",
+        "9,M,cc,c,9",
+        "P2,c^c,o,8",
+        "cc,o,x,2",
+        "cc,o,8,a,m",
+        "9,M,o,m+",
+        "8,a,m"
+      ]
+    ]
+  },
+  {
+    "folio": "6r",
+    "rows": 14,
+    "paragraphs": [
+      "1"
+    ],
+    "words": 84,
+    "uncertain_words": 2,
+    "locators": [
+      "6r.p1.l1",
+      "6r.p1.l2",
+      "6r.p1.l3",
+      "6r.p1.l4",
+      "6r.p1.l5",
+      "6r.p1.l6",
+      "6r.p1.l7",
+      "6r.p1.l8",
+      "6r.p1.l9",
+      "6r.p1.l10",
+      "6r.p1.l11",
+      "6r.p1.l12",
+      "6r.p1.l13",
+      "6r.p1.l14"
+    ],
+    "first_tokens": [
+      [
+        "P1,o,a,Z",
+        "9",
+        "c^c,o,x",
+        "cc,o,x,o,Z",
+        "c,P2,c,o,x",
+        "cc,o,Z",
+        "cc,?,N",
+        "cc,o,P2,cc,o,x",
+        "o,N,cc,a,Q"
+      ]
+    ]
+  },
+  {
+    "folio": "6v",
+    "rows": 19,
+    "paragraphs": [
+      "1",
+      "2"
+    ],
+    "words": 99,
+    "uncertain_words": 1,
+    "locators": [
+      "6v.p1.l1",
+      "6v.p1.l2",
+      "6v.p1.l3",
+      "6v.p1.l4",
+      "6v.p1.l5",
+      "6v.p2.l1",
+      "6v.p2.l2",
+      "6v.p2.l3",
+      "6v.p2.l4",
+      "6v.p2.l5",
+      "6v.p2.l6",
+      "6v.p2.l7",
+      "6v.p2.l8",
+      "6v.p2.l9",
+      "6v.p2.l10",
+      "6v.p2.l11",
+      "6v.p2.l12",
+      "6v.p2.l13",
+      "6v.p2.l14"
+    ],
+    "first_tokens": [
+      [
+        "N,o,a,Z,9,2,a,Z",
+        "cc,c,c,N,a,Z",
+        "4,o,a,Z",
+        "c^c,o,Z",
+        "cc,a,P2,cc,9",
+        "2,cc,c,a,Z",
+        "cc,a,Z",
+        "o,M,cc,9"
+      ]
+    ]
+  },
+  {
+    "folio": "7r",
+    "rows": 10,
+    "paragraphs": [
+      "1",
+      "2"
+    ],
+    "words": 65,
+    "uncertain_words": 0,
+    "locators": [
+      "7r.p1.l1",
+      "7r.p1.l2",
+      "7r.p1.l3",
+      "7r.p1.l4",
+      "7r.p1.l5",
+      "7r.p2.l1",
+      "7r.p2.l2",
+      "7r.p2.l3",
+      "7r.p2.l4",
+      "7r.p2.l5"
+    ],
+    "first_tokens": [
+      [
+        "P1,cc,o,8,a,m",
+        "c^c,o,P2,cc,c,9",
+        "4,N,o",
+        "c^c,c,9",
+        "4,o,o,2",
+        "c^c,c,c,9",
+        "cc,a,Z,o,cc,9"
+      ]
+    ]
+  },
+  {
+    "folio": "7v",
+    "rows": 9,
+    "paragraphs": [
+      "1",
+      "2"
+    ],
+    "words": 71,
+    "uncertain_words": 0,
+    "locators": [
+      "7v.p1.l1",
+      "7v.p1.l2",
+      "7v.p1.l3",
+      "7v.p1.l4",
+      "7v.p1.l5",
+      "7v.p2.l1",
+      "7v.p2.l2",
+      "7v.p2.l3",
+      "7v.p2.l4"
+    ],
+    "first_tokens": [
+      [
+        "P2,o,x,9,c^c,9",
+        "c^c,c,9",
+        "M,cc,o,8,9",
+        "4,o,P2,cc,9",
+        "o,M,c^c,o,x",
+        "8,9,8,a,m",
+        "M,c^c,o,8,o,8,9"
+      ]
+    ]
+  },
+  {
+    "folio": "8r",
+    "rows": 18,
+    "paragraphs": [
+      "1",
+      "2",
+      "3"
+    ],
+    "words": 141,
+    "uncertain_words": 2,
+    "locators": [
+      "8r.p1.l1",
+      "8r.p1.l2",
+      "8r.p1.l3",
+      "8r.p1.l4",
+      "8r.p1.l5",
+      "8r.p1.l6",
+      "8r.p1.l7",
+      "8r.p2.l1",
+      "8r.p2.l2",
+      "8r.p2.l3",
+      "8r.p2.l4",
+      "8r.p3.l1",
+      "8r.p3.l2",
+      "8r.p3.l3",
+      "8r.p3.l4",
+      "8r.p3.l5",
+      "8r.p3.l6",
+      "8r.p3.l7"
+    ],
+    "first_tokens": [
+      [
+        "P2,c^c,o,x",
+        "cc,o,Z",
+        "o,M,c^c,a,x",
+        "cc,o,P2,9",
+        "c,P2,c,a,x",
+        "cc,o,8,9",
+        "c^c,9",
+        "c,P1,c,o,8,a,Z",
+        "c^c,o,Z"
+      ]
+    ]
+  },
+  {
+    "folio": "8v",
+    "rows": 17,
+    "paragraphs": [
+      "1",
+      "2"
+    ],
+    "words": 116,
+    "uncertain_words": 1,
+    "locators": [
+      "8v.p1.l1",
+      "8v.p1.l2",
+      "8v.p1.l3",
+      "8v.p1.l4",
+      "8v.p1.l5",
+      "8v.p1.l6",
+      "8v.p1.l7",
+      "8v.p1.l8",
+      "8v.p1.l9",
+      "8v.p1.l10",
+      "8v.p1.l11",
+      "8v.p2.l1",
+      "8v.p2.l2",
+      "8v.p2.l3",
+      "8v.p2.l4",
+      "8v.p2.l5",
+      "8v.p2.l6"
+    ],
+    "first_tokens": [
+      [
+        "cc,M,o,8",
+        "2,o,o,c,M,c,?",
+        "2,o,x",
+        "c^c,o,x",
+        "o,M,o,x",
+        "cc,o,x",
+        "o,P2,cc,c,a,m",
+        "o,P2,9,8,a,m",
+        "2,a,m"
+      ]
+    ]
+  }
+]

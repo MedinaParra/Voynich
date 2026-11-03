@@ -1,0 +1,34 @@
+{
+  "date": "2026-11-03",
+  "base_commit": "b8978683cde0a226ebe0b170e840db5850bf2ff6",
+  "protocol_commit": "53c4395fb26c295586a9ce1b9d98e72487c8d0a4",
+  "plan_sha256": "22f0d96b3cd01473809e8aaacec4ad5ae8161e5b2cedfeaccbebac9a0b5645e2",
+  "execution": "local Python3.12; NumPy2.3.5; Pillow12.3.0 isolated runtime; no neural dependencies",
+  "source_comparison": "VT versus distinct ZL edition; same shared alphabet/images, not statistical error independence",
+  "download_mode": "versioned public mirrors; direct primary returned406; two-mirror Git blob identity per source",
+  "literal_projection": "lowercase letters and omitted ligature braces, with complete raw nodes retained",
+  "source_loci": 159,
+  "literal_loci": 138,
+  "excluded_loci": 21,
+  "spatial_words": 989,
+  "source_tokens_in_11_exact_bridges": 990,
+  "assistant_visual_review": {
+    "inspected_panels": 24,
+    "contact_sheets": 6,
+    "method": "inspect frozen masked crop, original rectangle and photograph context, then preserve per-candidate observations",
+    "scope": "visual context only, not independent expert paleography"
+  },
+  "independent_expert_review": "NOT_REVIEWED",
+  "audit": {
+    "status": "PASS",
+    "checks": 147044,
+    "path": "audit.json",
+    "scope": "Independent Dijkstra/all-optimal graph and source hashes; no independent paleographic or complete source parser"
+  },
+  "CI_replay": "PENDING_PUBLICATION",
+  "labels_changed": 0,
+  "geometry_changed": 0,
+  "training": "NOT_RUN",
+  "neural_inference": "NOT_RUN",
+  "translation": "NOT_RUN"
+}

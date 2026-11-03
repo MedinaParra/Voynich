@@ -1,0 +1,14 @@
+[
+  {
+    "archive": "comparison.json.gz",
+    "archive_sha256": "d290630e99b707805db84a15f959cd7e77903030a0f7306dd7e6999f67356de6",
+    "original_bytes": 1466004,
+    "original_sha256": "6b4075bea04c49e189edc66c9b7c5fb2c1b391268d3ce9f2ba81f4a88e69f35c"
+  },
+  {
+    "archive": "geometry_words.json.gz",
+    "archive_sha256": "e6108124fd2427cde0574e0240d840606866116bc4120df13e2dd6ae5ea4af5c",
+    "original_bytes": 1131871,
+    "original_sha256": "70afe602d447cac682650e7440826011d3c5397ed5c56d1021df0cf38ceb2398"
+  }
+]

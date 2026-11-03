@@ -1,0 +1,68 @@
+[
+  {
+    "name": "VT0e-n.txt",
+    "retrieval_url": "https://raw.githubusercontent.com/noah-chelednik/voynich-data/main/data_sources/cache/VT0e-n.txt",
+    "primary_url": "https://www.voynich.nu/data/VT0e-n.txt",
+    "primary_direct_retrieval": "HTTP406",
+    "git_blob_sha1": "c0d52c36cbb5dbb763851b2f674aefdbf9443693",
+    "bytes": 335205,
+    "sha256": "e13ba5e073cae54722bc095db8eb9a1aa9c7105f45a70f66a0aad236077f2426",
+    "header": [
+      "#=IVTFF EvaT 2.0 D 4",
+      "<f1r>      <! $Q=A $P=A $F=a $B=1 $I=T $L=A $H=1 $C=1 $X=V>",
+      "<f1r.1,@P0>       fachys.ykal.ar.ataiin.shol.shory.cthres.y.kor.sholdy",
+      "<f1r.2,+P0>       sory.ckhar.or.y.kair.chtaiin.shar.are.cthar.cthar.dan",
+      "<f1r.3,+P0>       syaiir.sheky.or.ykaiin.shod.cthoary.cthes.daraiin.sa"
+    ],
+    "mirror_commit": "ecd4c8145524d90373535ea3d1617d8190dc8208",
+    "mirror_pinned_url": "https://raw.githubusercontent.com/noah-chelednik/voynich-data/ecd4c8145524d90373535ea3d1617d8190dc8208/data_sources/cache/VT0e-n.txt",
+    "independent_mirror_git_blob_identity_verified": true,
+    "independent_mirror": {
+      "repo": "CoderXYZ7/VMSembedding",
+      "branch": "main",
+      "commit": "cf34dfd9168dc310e51b1a5a911e4648527444ec",
+      "path": "VT0e-n.txt",
+      "git_blob_sha1": "c0d52c36cbb5dbb763851b2f674aefdbf9443693"
+    },
+    "rights": {
+      "asserted_by_primary_host": "CC0",
+      "url": "https://voynich.nu/roadmap.html#cop",
+      "checked": "2026-11-03",
+      "web_ref": "turn219view1",
+      "scope": "Transliterations collected in host tables; not font files or site presentation."
+    }
+  },
+  {
+    "name": "ZL3b-n.txt",
+    "retrieval_url": "https://raw.githubusercontent.com/noah-chelednik/voynich-data/main/data_sources/cache/ZL3b-n.txt",
+    "primary_url": "https://www.voynich.nu/data/ZL3b-n.txt",
+    "primary_direct_retrieval": "HTTP406",
+    "git_blob_sha1": "2a4533ab9bdfa85db9bad602d590978953055df1",
+    "bytes": 411671,
+    "sha256": "bf5b6d4ac1e3a51b1847a9c388318d609020441ccd56984c901c32b09beccafc",
+    "header": [
+      "#=IVTFF Eva- 2.0 M 5",
+      "# ZL transliteration file, updated from EVMT project",
+      "# Version 3b of 13/05/2025",
+      "#",
+      "<f1r>      <! $Q=A $P=A $F=a $B=1 $I=T $L=A $H=1 $C=1 $X=V>"
+    ],
+    "mirror_commit": "ecd4c8145524d90373535ea3d1617d8190dc8208",
+    "mirror_pinned_url": "https://raw.githubusercontent.com/noah-chelednik/voynich-data/ecd4c8145524d90373535ea3d1617d8190dc8208/data_sources/cache/ZL3b-n.txt",
+    "independent_mirror_git_blob_identity_verified": true,
+    "independent_mirror": {
+      "repo": "Aspect-Research/voynich-autoexploration",
+      "branch": "master",
+      "commit": "31819c914061cc6b63bbf4983e33d643ede52e46",
+      "path": "data/transcriptions/eva_zl3b.txt",
+      "git_blob_sha1": "2a4533ab9bdfa85db9bad602d590978953055df1"
+    },
+    "rights": {
+      "asserted_by_primary_host": "CC0",
+      "url": "https://voynich.nu/roadmap.html#cop",
+      "checked": "2026-11-03",
+      "web_ref": "turn219view1",
+      "scope": "Transliterations collected in host tables; not font files or site presentation."
+    }
+  }
+]
