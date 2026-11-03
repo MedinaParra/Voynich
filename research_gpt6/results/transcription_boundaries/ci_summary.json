@@ -1,0 +1,55 @@
+{
+  "status": "DESCRIPTIVE_COMPARISON_COMPLETE_UNREVIEWED_CANDIDATES",
+  "loci_total": 159,
+  "locus_status_counts": {
+    "compared": 138,
+    "excluded_complex": 21
+  },
+  "literal_loci": 138,
+  "same_letters_loci": 98,
+  "same_letters_different_boundary_offsets": 24,
+  "letter_differing_loci": 40,
+  "literal_letter_edit_distance_sum": 54,
+  "VT_boundary_statuses": {
+    "same_marker": 601,
+    "absent_in_target": 8,
+    "alignment_ambiguous": 3,
+    "different_marker": 86
+  },
+  "ZL_boundary_statuses": {
+    "same_marker": 604,
+    "absent_in_target": 29,
+    "different_marker": 85,
+    "alignment_ambiguous": 1
+  },
+  "bridges": {
+    "f3r": "exact_token_sequence",
+    "f3v": "exact_token_sequence",
+    "f4r": "exact_token_sequence",
+    "f4v": "exact_token_sequence",
+    "f5v": "exact_token_sequence",
+    "f6r": "exact_token_sequence",
+    "f6v": "exact_token_sequence",
+    "f7r": "exact_token_sequence",
+    "f7v": "exact_token_sequence",
+    "f8r": "exact_token_sequence",
+    "f8v": "exact_token_sequence"
+  },
+  "geometry_words": 989,
+  "word_source_flag_counts": {
+    "letter_disagreement": 42,
+    "boundary_disagreement": 43,
+    "alignment_ambiguous": 6,
+    "uncertain_boundary": 76,
+    "locus_not_literal": 154
+  },
+  "review_words": 24,
+  "review_roles": {
+    "original_train": 17,
+    "additional_train": 7
+  },
+  "new_training": "NOT_RUN",
+  "new_neural_inference": "NOT_RUN",
+  "translation": "NOT_RUN",
+  "expert_review": "NOT_REVIEWED"
+}

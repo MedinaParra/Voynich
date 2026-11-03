@@ -1,0 +1,339 @@
+﻿2026-11-03T14:53:01.5301655Z Current runner version: '2.338.2'
+2026-11-03T14:53:01.5320911Z ##[group]Runner Image Provisioner
+2026-11-03T14:53:01.5321540Z Hosted Compute Agent
+2026-11-03T14:53:01.5321921Z Version: 20261021.618
+2026-11-03T14:53:01.5322346Z Commit: 21505ad2541d5be6135ed84fc33697146cf75b8e
+2026-11-03T14:53:01.5322846Z Build Date: 2026-10-21T00:45:21Z
+2026-11-03T14:53:01.5323298Z Worker ID: {6b32bb0a-ba59-4b82-aee1-dde9b61b261d}
+2026-11-03T14:53:01.5323813Z Region: centralus
+2026-11-03T14:53:01.5324175Z Cloud: Azure
+2026-11-03T14:53:01.5324554Z ##[endgroup]
+2026-11-03T14:53:01.5325433Z ##[group]Operating System
+2026-11-03T14:53:01.5325834Z Ubuntu
+2026-11-03T14:53:01.5326265Z 24.04.5
+2026-11-03T14:53:01.5326775Z LTS
+2026-11-03T14:53:01.5327221Z ##[endgroup]
+2026-11-03T14:53:01.5327671Z ##[group]Runner Image
+2026-11-03T14:53:01.5328060Z Image: ubuntu-24.04
+2026-11-03T14:53:01.5328481Z Version: 20261025.353.1
+2026-11-03T14:53:01.5329308Z Included Software: https://github.com/actions/runner-images/blob/ubuntu24/20261025.353/images/ubuntu/Ubuntu2404-Readme.md
+2026-11-03T14:53:01.5330265Z Image Release: https://github.com/actions/runner-images/releases/tag/ubuntu24%2F20261025.353
+2026-11-03T14:53:01.5330872Z ##[endgroup]
+2026-11-03T14:53:01.5331918Z ##[group]GITHUB_TOKEN Permissions
+2026-11-03T14:53:01.5333385Z Contents: read
+2026-11-03T14:53:01.5333792Z Metadata: read
+2026-11-03T14:53:01.5334169Z ##[endgroup]
+2026-11-03T14:53:01.5335607Z Secret source: Actions
+2026-11-03T14:53:01.5336252Z Cache mode: write
+2026-11-03T14:53:01.5336976Z Prepare workflow directory
+2026-11-03T14:53:01.5563736Z Prepare all required actions
+2026-11-03T14:53:01.5598410Z Getting action download info
+2026-11-03T14:53:01.8062600Z Download action repository 'actions/checkout@v4' (SHA:11d5960a326750d5838078e36cf38b85af677262)
+2026-11-03T14:53:01.9079433Z Download action repository 'actions/setup-python@v5' (SHA:a26af69be951a213d495a4c3e4e4022e16d87065)
+2026-11-03T14:53:01.9949766Z Download action repository 'actions/upload-artifact@v4' (SHA:ea165f8d65b6e75b540449e92b4886f43607fa02)
+2026-11-03T14:53:02.2100901Z Complete job name: replay
+2026-11-03T14:53:02.2661469Z ##[group]Run actions/checkout@v4
+2026-11-03T14:53:02.2661904Z with:
+2026-11-03T14:53:02.2662155Z   repository: MedinaParra/Voynich
+2026-11-03T14:53:02.2664329Z   token: ***
+2026-11-03T14:53:02.2664576Z   ssh-strict: true
+2026-11-03T14:53:02.2664821Z   ssh-user: git
+2026-11-03T14:53:02.2665075Z   persist-credentials: true
+2026-11-03T14:53:02.2665347Z   clean: true
+2026-11-03T14:53:02.2665602Z   sparse-checkout-cone-mode: true
+2026-11-03T14:53:02.2665890Z   fetch-depth: 1
+2026-11-03T14:53:02.2666135Z   fetch-tags: false
+2026-11-03T14:53:02.2666388Z   show-progress: true
+2026-11-03T14:53:02.2666769Z   lfs: false
+2026-11-03T14:53:02.2667004Z   submodules: false
+2026-11-03T14:53:02.2667259Z   set-safe-directory: true
+2026-11-03T14:53:02.2667547Z   allow-unsafe-pr-checkout: false
+2026-11-03T14:53:02.2667916Z ##[endgroup]
+2026-11-03T14:53:02.4940909Z Syncing repository: MedinaParra/Voynich
+2026-11-03T14:53:02.4942243Z ##[group]Getting Git version info
+2026-11-03T14:53:02.4942706Z Working directory is '/home/runner/work/Voynich/Voynich'
+2026-11-03T14:53:02.4943307Z [command]/usr/bin/git version
+2026-11-03T14:53:02.5023070Z git version 2.56.0
+2026-11-03T14:53:02.5041023Z ##[endgroup]
+2026-11-03T14:53:02.5055353Z Temporarily overriding HOME='/home/runner/work/_temp/a6a461dc-b66b-4a2c-ac49-2621c7adf4ed' before making global git config changes
+2026-11-03T14:53:02.5056496Z Adding repository directory to the temporary git global config as a safe directory
+2026-11-03T14:53:02.5059761Z [command]/usr/bin/git config --global --add safe.directory /home/runner/work/Voynich/Voynich
+2026-11-03T14:53:02.5117314Z Deleting the contents of '/home/runner/work/Voynich/Voynich'
+2026-11-03T14:53:02.5120796Z ##[group]Initializing the repository
+2026-11-03T14:53:02.5123479Z [command]/usr/bin/git init /home/runner/work/Voynich/Voynich
+2026-11-03T14:53:02.5231974Z hint: Using 'master' as the name for the initial branch. This default branch name
+2026-11-03T14:53:02.5233233Z hint: will change to "main" in Git 3.0. To configure the initial branch name
+2026-11-03T14:53:02.5233797Z hint: to use in all of your new repositories, which will suppress this warning,
+2026-11-03T14:53:02.5234269Z hint: call:
+2026-11-03T14:53:02.5234514Z hint:
+2026-11-03T14:53:02.5234988Z hint: 	git config --global init.defaultBranch <name>
+2026-11-03T14:53:02.5235480Z hint:
+2026-11-03T14:53:02.5235824Z hint: Names commonly chosen instead of 'master' are 'main', 'trunk' and
+2026-11-03T14:53:02.5236528Z hint: 'development'. The just-created branch can be renamed via this command:
+2026-11-03T14:53:02.5237157Z hint:
+2026-11-03T14:53:02.5237419Z hint: 	git branch -m <name>
+2026-11-03T14:53:02.5237714Z hint:
+2026-11-03T14:53:02.5238100Z hint: Disable this message with "git config set advice.defaultBranchName false"
+2026-11-03T14:53:02.5244140Z Initialized empty Git repository in /home/runner/work/Voynich/Voynich/.git/
+2026-11-03T14:53:02.5252372Z [command]/usr/bin/git remote add origin https://github.com/MedinaParra/Voynich
+2026-11-03T14:53:02.5296225Z ##[endgroup]
+2026-11-03T14:53:02.5296964Z ##[group]Disabling automatic garbage collection
+2026-11-03T14:53:02.5299240Z [command]/usr/bin/git config --local gc.auto 0
+2026-11-03T14:53:02.5328009Z ##[endgroup]
+2026-11-03T14:53:02.5328469Z ##[group]Setting up auth
+2026-11-03T14:53:02.5333398Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+2026-11-03T14:53:02.5364881Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+2026-11-03T14:53:02.5691332Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+2026-11-03T14:53:02.5719388Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+2026-11-03T14:53:02.5910208Z [command]/usr/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+2026-11-03T14:53:02.5942735Z [command]/usr/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+2026-11-03T14:53:02.6156559Z [command]/usr/bin/git config --local http.https://github.com/.extraheader AUTHORIZATION: basic ***
+2026-11-03T14:53:02.6194088Z ##[endgroup]
+2026-11-03T14:53:02.6195002Z ##[group]Fetching the repository
+2026-11-03T14:53:02.6203958Z [command]/usr/bin/git -c protocol.version=2 fetch --no-tags --prune --no-recurse-submodules --depth=1 origin +f1b71b3725a362c8192c86dc7ccc54a33a183b5e:refs/remotes/origin/experiment/kraken-voynich
+2026-11-03T14:53:07.8464416Z From https://github.com/MedinaParra/Voynich
+2026-11-03T14:53:07.8466229Z  * [new ref]         f1b71b3725a362c8192c86dc7ccc54a33a183b5e -> origin/experiment/kraken-voynich
+2026-11-03T14:53:07.8468963Z ##[endgroup]
+2026-11-03T14:53:07.8469427Z ##[group]Determining the checkout info
+2026-11-03T14:53:07.8470461Z ##[endgroup]
+2026-11-03T14:53:07.8475402Z [command]/usr/bin/git sparse-checkout disable
+2026-11-03T14:53:07.8521859Z [command]/usr/bin/git config --local --unset-all extensions.worktreeConfig
+2026-11-03T14:53:07.8547996Z ##[group]Checking out the ref
+2026-11-03T14:53:07.8550924Z [command]/usr/bin/git checkout --progress --force -B experiment/kraken-voynich refs/remotes/origin/experiment/kraken-voynich
+2026-11-03T14:53:08.1913889Z Switched to a new branch 'experiment/kraken-voynich'
+2026-11-03T14:53:08.1918627Z branch 'experiment/kraken-voynich' set up to track 'origin/experiment/kraken-voynich'.
+2026-11-03T14:53:08.1945581Z ##[endgroup]
+2026-11-03T14:53:08.1989549Z [command]/usr/bin/git log -1 --format=%H
+2026-11-03T14:53:08.2013452Z f1b71b3725a362c8192c86dc7ccc54a33a183b5e
+2026-11-03T14:53:08.2253512Z ##[group]Run actions/setup-python@v5
+2026-11-03T14:53:08.2253735Z with:
+2026-11-03T14:53:08.2253866Z   python-version: 3.12
+2026-11-03T14:53:08.2324227Z   check-latest: false
+2026-11-03T14:53:08.2326209Z   token: ***
+2026-11-03T14:53:08.2326367Z   update-environment: true
+2026-11-03T14:53:08.2326518Z   allow-prereleases: false
+2026-11-03T14:53:08.2326852Z   freethreaded: false
+2026-11-03T14:53:08.2327004Z ##[endgroup]
+2026-11-03T14:53:08.3315823Z ##[group]Installed versions
+2026-11-03T14:53:08.3381917Z (node:2094) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+2026-11-03T14:53:08.3382649Z (Use `node --trace-deprecation ...` to show where the warning was created)
+2026-11-03T14:53:08.3383051Z Successfully set up CPython (3.12.15)
+2026-11-03T14:53:08.3383504Z ##[endgroup]
+2026-11-03T14:53:08.3552590Z ##[group]Run python -m pip install numpy==2.3.5 scipy==1.15.3 pillow==12.3.0
+2026-11-03T14:53:08.3552975Z [36;1mpython -m pip install numpy==2.3.5 scipy==1.15.3 pillow==12.3.0[0m
+2026-11-03T14:53:08.3585816Z shell: /usr/bin/bash -e {0}
+2026-11-03T14:53:08.3585987Z env:
+2026-11-03T14:53:08.3586152Z   pythonLocation: /opt/hostedtoolcache/Python/3.12.15/x64
+2026-11-03T14:53:08.3586428Z   PKG_CONFIG_PATH: /opt/hostedtoolcache/Python/3.12.15/x64/lib/pkgconfig
+2026-11-03T14:53:08.3586902Z   Python_ROOT_DIR: /opt/hostedtoolcache/Python/3.12.15/x64
+2026-11-03T14:53:08.3587136Z   Python2_ROOT_DIR: /opt/hostedtoolcache/Python/3.12.15/x64
+2026-11-03T14:53:08.3587358Z   Python3_ROOT_DIR: /opt/hostedtoolcache/Python/3.12.15/x64
+2026-11-03T14:53:08.3587579Z   LD_LIBRARY_PATH: /opt/hostedtoolcache/Python/3.12.15/x64/lib
+2026-11-03T14:53:08.3587768Z ##[endgroup]
+2026-11-03T14:53:09.6294535Z Collecting numpy==2.3.5
+2026-11-03T14:53:09.7027177Z   Downloading numpy-2.3.5-cp312-cp312-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl.metadata (62 kB)
+2026-11-03T14:53:09.8083198Z Collecting scipy==1.15.3
+2026-11-03T14:53:09.8213943Z   Downloading scipy-1.15.3-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (61 kB)
+2026-11-03T14:53:09.9363814Z Collecting pillow==12.3.0
+2026-11-03T14:53:09.9495603Z   Downloading pillow-12.3.0-cp312-cp312-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl.metadata (9.1 kB)
+2026-11-03T14:53:09.9681476Z Downloading numpy-2.3.5-cp312-cp312-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl (16.6 MB)
+2026-11-03T14:53:10.1461638Z    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 16.6/16.6 MB 101.1 MB/s  0:00:00
+2026-11-03T14:53:10.1596275Z Downloading scipy-1.15.3-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (37.3 MB)
+2026-11-03T14:53:10.4476331Z    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 37.3/37.3 MB 129.7 MB/s  0:00:00
+2026-11-03T14:53:10.4610498Z Downloading pillow-12.3.0-cp312-cp312-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl (6.9 MB)
+2026-11-03T14:53:10.5251793Z    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 6.9/6.9 MB 107.5 MB/s  0:00:00
+2026-11-03T14:53:10.6316718Z Installing collected packages: pillow, numpy, scipy
+2026-11-03T14:53:15.0616952Z 
+2026-11-03T14:53:15.0625323Z Successfully installed numpy-2.3.5 pillow-12.3.0 scipy-1.15.3
+2026-11-03T14:53:15.0631629Z 
+2026-11-03T14:53:15.0631910Z [notice] A new release of pip is available: 26.2.2 -> 26.3
+2026-11-03T14:53:15.0632269Z [notice] To update, run: pip install --upgrade pip
+2026-11-03T14:53:15.1362404Z ##[group]Run python research_gpt6/code/test_transcription_boundaries.py
+2026-11-03T14:53:15.1362746Z [36;1mpython research_gpt6/code/test_transcription_boundaries.py[0m
+2026-11-03T14:53:15.1380443Z shell: /usr/bin/bash -e {0}
+2026-11-03T14:53:15.1380591Z env:
+2026-11-03T14:53:15.1380742Z   pythonLocation: /opt/hostedtoolcache/Python/3.12.15/x64
+2026-11-03T14:53:15.1380981Z   PKG_CONFIG_PATH: /opt/hostedtoolcache/Python/3.12.15/x64/lib/pkgconfig
+2026-11-03T14:53:15.1381214Z   Python_ROOT_DIR: /opt/hostedtoolcache/Python/3.12.15/x64
+2026-11-03T14:53:15.1381427Z   Python2_ROOT_DIR: /opt/hostedtoolcache/Python/3.12.15/x64
+2026-11-03T14:53:15.1381640Z   Python3_ROOT_DIR: /opt/hostedtoolcache/Python/3.12.15/x64
+2026-11-03T14:53:15.1381850Z   LD_LIBRARY_PATH: /opt/hostedtoolcache/Python/3.12.15/x64/lib
+2026-11-03T14:53:15.1382172Z ##[endgroup]
+2026-11-03T14:53:15.5428936Z test_alignment_ambiguity (__main__.ParserControls.test_alignment_ambiguity) ... ok
+2026-11-03T14:53:15.5430664Z test_drawing_boundaries (__main__.ParserControls.test_drawing_boundaries) ... ok
+2026-11-03T14:53:15.5431270Z test_projection (__main__.ParserControls.test_projection) ... ok
+2026-11-03T14:53:15.5431768Z test_uncertainties_preserved (__main__.ParserControls.test_uncertainties_preserved) ... ok
+2026-11-03T14:53:15.5432094Z 
+2026-11-03T14:53:15.5432236Z ----------------------------------------------------------------------
+2026-11-03T14:53:15.5432614Z Ran 4 tests in 0.001s
+2026-11-03T14:53:15.5432742Z 
+2026-11-03T14:53:15.5432827Z OK
+2026-11-03T14:53:15.5925295Z ##[group]Run mkdir -p work/transcription_replay/sources
+2026-11-03T14:53:15.5925560Z [36;1mmkdir -p work/transcription_replay/sources[0m
+2026-11-03T14:53:15.5925885Z [36;1mcp research_gpt6/results/transcription_boundaries/sources/VT0e-n.txt work/transcription_replay/sources/[0m
+2026-11-03T14:53:15.5926310Z [36;1mcp research_gpt6/results/transcription_boundaries/sources/ZL3b-n.txt work/transcription_replay/sources/[0m
+2026-11-03T14:53:15.5927039Z [36;1mpython research_gpt6/code/compare_transcription_boundaries.py --repo research_gpt6 --out work/transcription_replay --plan research_gpt6/data/transcription_boundaries_plan.json[0m
+2026-11-03T14:53:15.5944113Z shell: /usr/bin/bash -e {0}
+2026-11-03T14:53:15.5944251Z env:
+2026-11-03T14:53:15.5944402Z   pythonLocation: /opt/hostedtoolcache/Python/3.12.15/x64
+2026-11-03T14:53:15.5944644Z   PKG_CONFIG_PATH: /opt/hostedtoolcache/Python/3.12.15/x64/lib/pkgconfig
+2026-11-03T14:53:15.5944909Z   Python_ROOT_DIR: /opt/hostedtoolcache/Python/3.12.15/x64
+2026-11-03T14:53:15.5945128Z   Python2_ROOT_DIR: /opt/hostedtoolcache/Python/3.12.15/x64
+2026-11-03T14:53:15.5945342Z   Python3_ROOT_DIR: /opt/hostedtoolcache/Python/3.12.15/x64
+2026-11-03T14:53:15.5945557Z   LD_LIBRARY_PATH: /opt/hostedtoolcache/Python/3.12.15/x64/lib
+2026-11-03T14:53:15.5945739Z ##[endgroup]
+2026-11-03T14:53:18.1883375Z {
+2026-11-03T14:53:18.1883798Z   "status": "DESCRIPTIVE_COMPARISON_COMPLETE_UNREVIEWED_CANDIDATES",
+2026-11-03T14:53:18.1884183Z   "loci_total": 159,
+2026-11-03T14:53:18.1884749Z   "locus_status_counts": {
+2026-11-03T14:53:18.1884959Z     "compared": 138,
+2026-11-03T14:53:18.1885205Z     "excluded_complex": 21
+2026-11-03T14:53:18.1885405Z   },
+2026-11-03T14:53:18.1885644Z   "literal_loci": 138,
+2026-11-03T14:53:18.1885849Z   "same_letters_loci": 98,
+2026-11-03T14:53:18.1886135Z   "same_letters_different_boundary_offsets": 24,
+2026-11-03T14:53:18.1886462Z   "letter_differing_loci": 40,
+2026-11-03T14:53:18.1886878Z   "literal_letter_edit_distance_sum": 54,
+2026-11-03T14:53:18.1887223Z   "VT_boundary_statuses": {
+2026-11-03T14:53:18.1887478Z     "same_marker": 601,
+2026-11-03T14:53:18.1887687Z     "absent_in_target": 8,
+2026-11-03T14:53:18.1887942Z     "alignment_ambiguous": 3,
+2026-11-03T14:53:18.1888166Z     "different_marker": 86
+2026-11-03T14:53:18.1888361Z   },
+2026-11-03T14:53:18.1891112Z   "ZL_boundary_statuses": {
+2026-11-03T14:53:18.1891643Z     "same_marker": 604,
+2026-11-03T14:53:18.1892219Z     "absent_in_target": 29,
+2026-11-03T14:53:18.1892533Z     "different_marker": 85,
+2026-11-03T14:53:18.1892747Z     "alignment_ambiguous": 1
+2026-11-03T14:53:18.1892942Z   },
+2026-11-03T14:53:18.1893093Z   "bridges": {
+2026-11-03T14:53:18.1893286Z     "f3r": "exact_token_sequence",
+2026-11-03T14:53:18.1893515Z     "f3v": "exact_token_sequence",
+2026-11-03T14:53:18.1893734Z     "f4r": "exact_token_sequence",
+2026-11-03T14:53:18.1893957Z     "f4v": "exact_token_sequence",
+2026-11-03T14:53:18.1894222Z     "f5v": "exact_token_sequence",
+2026-11-03T14:53:18.1894451Z     "f6r": "exact_token_sequence",
+2026-11-03T14:53:18.1894672Z     "f6v": "exact_token_sequence",
+2026-11-03T14:53:18.1894897Z     "f7r": "exact_token_sequence",
+2026-11-03T14:53:18.1895127Z     "f7v": "exact_token_sequence",
+2026-11-03T14:53:18.1895348Z     "f8r": "exact_token_sequence",
+2026-11-03T14:53:18.1895571Z     "f8v": "exact_token_sequence"
+2026-11-03T14:53:18.1896224Z   },
+2026-11-03T14:53:18.1896383Z   "geometry_words": 989,
+2026-11-03T14:53:18.1896699Z   "word_source_flag_counts": {
+2026-11-03T14:53:18.1896919Z     "letter_disagreement": 42,
+2026-11-03T14:53:18.1897145Z     "boundary_disagreement": 43,
+2026-11-03T14:53:18.1897369Z     "alignment_ambiguous": 6,
+2026-11-03T14:53:18.1897583Z     "uncertain_boundary": 76,
+2026-11-03T14:53:18.1897803Z     "locus_not_literal": 154
+2026-11-03T14:53:18.1898001Z   },
+2026-11-03T14:53:18.1898159Z   "review_words": 24,
+2026-11-03T14:53:18.1898351Z   "review_roles": {
+2026-11-03T14:53:18.1898535Z     "original_train": 17,
+2026-11-03T14:53:18.1899008Z     "additional_train": 7
+2026-11-03T14:53:18.1899197Z   },
+2026-11-03T14:53:18.1899363Z   "new_training": "NOT_RUN",
+2026-11-03T14:53:18.1899582Z   "new_neural_inference": "NOT_RUN",
+2026-11-03T14:53:18.1899816Z   "translation": "NOT_RUN",
+2026-11-03T14:53:18.1900033Z   "expert_review": "NOT_REVIEWED"
+2026-11-03T14:53:18.1900240Z }
+2026-11-03T14:53:18.2405837Z ##[group]Run python - <<'PY'
+2026-11-03T14:53:18.2406047Z [36;1mpython - <<'PY'[0m
+2026-11-03T14:53:18.2406177Z [36;1mimport sys[0m
+2026-11-03T14:53:18.2406306Z [36;1mfrom pathlib import Path[0m
+2026-11-03T14:53:18.2406475Z [36;1msys.path.insert(0,'research_gpt6/code')[0m
+2026-11-03T14:53:18.2406931Z [36;1mfrom compare_transcription_boundaries import read[0m
+2026-11-03T14:53:18.2407176Z [36;1moriginal=Path('research_gpt6/results/transcription_boundaries')[0m
+2026-11-03T14:53:18.2407402Z [36;1mreplay=Path('work/transcription_replay')[0m
+2026-11-03T14:53:18.2407635Z [36;1mfor name in ['comparison.json','geometry_words.json','summary.json']:[0m
+2026-11-03T14:53:18.2407890Z [36;1m    assert read(original/name)==read(replay/name), name[0m
+2026-11-03T14:53:18.2408197Z [36;1mfields=['id','selection_group','source_flags','source_link','shared_dark_fraction','role'][0m
+2026-11-03T14:53:18.2408631Z [36;1mdef selection(root):return [{k:r[k] for k in fields} for r in read(root/'review_queue.json')['records']][0m
+2026-11-03T14:53:18.2408984Z [36;1massert selection(original)==selection(replay), 'Review selection changed'[0m
+2026-11-03T14:53:18.2409330Z [36;1mprint('IDENTICAL_SOURCE_COMPARISON_GEOMETRY_AND_QUEUE_SELECTION; manual observations not replayed')[0m
+2026-11-03T14:53:18.2409600Z [36;1mPY[0m
+2026-11-03T14:53:18.2426945Z shell: /usr/bin/bash -e {0}
+2026-11-03T14:53:18.2427088Z env:
+2026-11-03T14:53:18.2427247Z   pythonLocation: /opt/hostedtoolcache/Python/3.12.15/x64
+2026-11-03T14:53:18.2427490Z   PKG_CONFIG_PATH: /opt/hostedtoolcache/Python/3.12.15/x64/lib/pkgconfig
+2026-11-03T14:53:18.2427727Z   Python_ROOT_DIR: /opt/hostedtoolcache/Python/3.12.15/x64
+2026-11-03T14:53:18.2427942Z   Python2_ROOT_DIR: /opt/hostedtoolcache/Python/3.12.15/x64
+2026-11-03T14:53:18.2428159Z   Python3_ROOT_DIR: /opt/hostedtoolcache/Python/3.12.15/x64
+2026-11-03T14:53:18.2428376Z   LD_LIBRARY_PATH: /opt/hostedtoolcache/Python/3.12.15/x64/lib
+2026-11-03T14:53:18.2428558Z ##[endgroup]
+2026-11-03T14:53:18.5240811Z IDENTICAL_SOURCE_COMPARISON_GEOMETRY_AND_QUEUE_SELECTION; manual observations not replayed
+2026-11-03T14:53:18.5734208Z ##[group]Run python research_gpt6/code/audit_transcription_boundaries.py --repo research_gpt6 --out work/transcription_replay/audit.json
+2026-11-03T14:53:18.5734759Z [36;1mpython research_gpt6/code/audit_transcription_boundaries.py --repo research_gpt6 --out work/transcription_replay/audit.json[0m
+2026-11-03T14:53:18.5735069Z [36;1mpython - <<'PY'[0m
+2026-11-03T14:53:18.5735201Z [36;1mimport json[0m
+2026-11-03T14:53:18.5735332Z [36;1mfrom pathlib import Path[0m
+2026-11-03T14:53:18.5735600Z [36;1mexpected=json.loads(Path('research_gpt6/results/transcription_boundaries/audit.json').read_text())[0m
+2026-11-03T14:53:18.5735945Z [36;1mactual=json.loads(Path('work/transcription_replay/audit.json').read_text())[0m
+2026-11-03T14:53:18.5736265Z [36;1massert expected==actual and actual['status']=='PASS', 'Independent graph audit differs'[0m
+2026-11-03T14:53:18.5737104Z [36;1mprint('IDENTICAL_INDEPENDENT_GRAPH_AUDIT',actual['checks'])[0m
+2026-11-03T14:53:18.5737320Z [36;1mPY[0m
+2026-11-03T14:53:18.5753831Z shell: /usr/bin/bash -e {0}
+2026-11-03T14:53:18.5753974Z env:
+2026-11-03T14:53:18.5754129Z   pythonLocation: /opt/hostedtoolcache/Python/3.12.15/x64
+2026-11-03T14:53:18.5754369Z   PKG_CONFIG_PATH: /opt/hostedtoolcache/Python/3.12.15/x64/lib/pkgconfig
+2026-11-03T14:53:18.5754604Z   Python_ROOT_DIR: /opt/hostedtoolcache/Python/3.12.15/x64
+2026-11-03T14:53:18.5754833Z   Python2_ROOT_DIR: /opt/hostedtoolcache/Python/3.12.15/x64
+2026-11-03T14:53:18.5755054Z   Python3_ROOT_DIR: /opt/hostedtoolcache/Python/3.12.15/x64
+2026-11-03T14:53:18.5755270Z   LD_LIBRARY_PATH: /opt/hostedtoolcache/Python/3.12.15/x64/lib
+2026-11-03T14:53:18.5755458Z ##[endgroup]
+2026-11-03T14:53:18.8449951Z {"status": "PASS", "checks": 147044, "mismatches": []}
+2026-11-03T14:53:18.8673168Z IDENTICAL_INDEPENDENT_GRAPH_AUDIT 147044
+2026-11-03T14:53:18.8763328Z ##[group]Run actions/upload-artifact@v4
+2026-11-03T14:53:18.8763510Z with:
+2026-11-03T14:53:18.8763640Z   name: transcription-boundaries-replay
+2026-11-03T14:53:18.8763879Z   path: work/transcription_replay/summary.json
+work/transcription_replay/audit.json
+
+2026-11-03T14:53:18.8764113Z   retention-days: 30
+2026-11-03T14:53:18.8764242Z   if-no-files-found: warn
+2026-11-03T14:53:18.8764373Z   compression-level: 6
+2026-11-03T14:53:18.8764495Z   overwrite: false
+2026-11-03T14:53:18.8764615Z   include-hidden-files: false
+2026-11-03T14:53:18.8764747Z env:
+2026-11-03T14:53:18.8764891Z   pythonLocation: /opt/hostedtoolcache/Python/3.12.15/x64
+2026-11-03T14:53:18.8765125Z   PKG_CONFIG_PATH: /opt/hostedtoolcache/Python/3.12.15/x64/lib/pkgconfig
+2026-11-03T14:53:18.8765360Z   Python_ROOT_DIR: /opt/hostedtoolcache/Python/3.12.15/x64
+2026-11-03T14:53:18.8765569Z   Python2_ROOT_DIR: /opt/hostedtoolcache/Python/3.12.15/x64
+2026-11-03T14:53:18.8765802Z   Python3_ROOT_DIR: /opt/hostedtoolcache/Python/3.12.15/x64
+2026-11-03T14:53:18.8766017Z   LD_LIBRARY_PATH: /opt/hostedtoolcache/Python/3.12.15/x64/lib
+2026-11-03T14:53:18.8766198Z ##[endgroup]
+2026-11-03T14:53:19.0001148Z (node:2165) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+2026-11-03T14:53:19.0001674Z (Use `node --trace-deprecation ...` to show where the warning was created)
+2026-11-03T14:53:19.0040734Z Multiple search paths detected. Calculating the least common ancestor of all paths
+2026-11-03T14:53:19.0056779Z The least common ancestor is /home/runner/work/Voynich/Voynich/work/transcription_replay. This will be the root directory of the artifact
+2026-11-03T14:53:19.0057448Z With the provided path, there will be 2 files uploaded
+2026-11-03T14:53:19.0057803Z Artifact name is valid!
+2026-11-03T14:53:19.0057946Z Root directory input is valid!
+2026-11-03T14:53:19.3021640Z Beginning upload of artifact content to blob storage
+2026-11-03T14:53:19.3156087Z (node:2165) [DEP0169] DeprecationWarning: `url.parse()` behavior is not standardized and prone to errors that have security implications. Use the WHATWG URL API instead. CVEs are not issued for `url.parse()` vulnerabilities.
+2026-11-03T14:53:19.4964157Z Uploaded bytes 1684
+2026-11-03T14:53:19.5393054Z Finished uploading artifact content to blob storage!
+2026-11-03T14:53:19.5393818Z SHA256 digest of uploaded artifact zip is a45c0b38f47bc1758a4a3dc45f83d5bc45b7d7ddd7a732f878e988b7c7de852f
+2026-11-03T14:53:19.5394853Z Finalizing artifact upload
+2026-11-03T14:53:20.0043900Z Artifact transcription-boundaries-replay.zip successfully finalized. Artifact ID 13241185397
+2026-11-03T14:53:20.0044696Z Artifact transcription-boundaries-replay has been successfully uploaded! Final size is 1684 bytes. Artifact ID is 13241185397
+2026-11-03T14:53:20.0049674Z Artifact download URL: https://github.com/MedinaParra/Voynich/actions/runs/41658081071/artifacts/13241185397
+2026-11-03T14:53:20.0213116Z Post job cleanup.
+2026-11-03T14:53:20.1081681Z (node:2180) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+2026-11-03T14:53:20.1082948Z (Use `node --trace-deprecation ...` to show where the warning was created)
+2026-11-03T14:53:20.1207880Z Post job cleanup.
+2026-11-03T14:53:20.1821807Z [command]/usr/bin/git version
+2026-11-03T14:53:20.1855992Z git version 2.56.0
+2026-11-03T14:53:20.1881039Z Temporarily overriding HOME='/home/runner/work/_temp/33985186-b616-4b0f-ae41-b3578915651a' before making global git config changes
+2026-11-03T14:53:20.1882032Z Adding repository directory to the temporary git global config as a safe directory
+2026-11-03T14:53:20.1885022Z [command]/usr/bin/git config --global --add safe.directory /home/runner/work/Voynich/Voynich
+2026-11-03T14:53:20.1920477Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+2026-11-03T14:53:20.1950735Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+2026-11-03T14:53:20.2152387Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+2026-11-03T14:53:20.2179344Z http.https://github.com/.extraheader
+2026-11-03T14:53:20.2189157Z [command]/usr/bin/git config --local --unset-all http.https://github.com/.extraheader
+2026-11-03T14:53:20.2220083Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+2026-11-03T14:53:20.2414193Z [command]/usr/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+2026-11-03T14:53:20.2443961Z [command]/usr/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+2026-11-03T14:53:20.2794780Z Cleaning up orphan processes
+2026-11-03T14:53:20.3057967Z ##[warning]Node.js 20 is deprecated. The following actions target Node.js 20 but are being forced to run on Node.js 24: actions/checkout@v4, actions/setup-python@v5, actions/upload-artifact@v4. For more information see: https://github.blog/changelog/2025-09-19-deprecation-of-node-20-on-github-actions-runners/

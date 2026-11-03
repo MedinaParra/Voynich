@@ -1,0 +1,51 @@
+{
+  "status": "PASS",
+  "checks": 147044,
+  "mismatches": [],
+  "control_checks": 1701,
+  "controls": {
+    "exhaustive_binary_pairs_length_0_to_3": 225,
+    "complete_edit_paths_enumerated": 6185,
+    "explicit_boundary_and_tie_cases": 6,
+    "scope": "Software controls, not scientific iterations or decipherment attempts"
+  },
+  "comparison_sha256": "6b4075bea04c49e189edc66c9b7c5fb2c1b391268d3ce9f2ba81f4a88e69f35c",
+  "plan_sha256": "22f0d96b3cd01473809e8aaacec4ad5ae8161e5b2cedfeaccbebac9a0b5645e2",
+  "loci": 159,
+  "locus_statuses": {
+    "compared": 138,
+    "excluded_complex": 21
+  },
+  "optimal_grid_vertices_checked": 141748,
+  "ambiguous_VT_letter_positions": 13,
+  "bridge_statuses": {
+    "exact_token_sequence": 11
+  },
+  "preserved_original_sources": {
+    "VT": {
+      "expected_git_blob": "c0d52c36cbb5dbb763851b2f674aefdbf9443693",
+      "matches": [
+        {
+          "path": "sources/VT0e-n.txt",
+          "bytes": 335205,
+          "sha256": "e13ba5e073cae54722bc095db8eb9a1aa9c7105f45a70f66a0aad236077f2426"
+        }
+      ]
+    },
+    "ZL": {
+      "expected_git_blob": "2a4533ab9bdfa85db9bad602d590978953055df1",
+      "matches": [
+        {
+          "path": "sources/ZL3b-n.txt",
+          "bytes": 411671,
+          "sha256": "bf5b6d4ac1e3a51b1847a9c388318d609020441ccd56984c901c32b09beccafc"
+        }
+      ]
+    }
+  },
+  "scope": "Dijkstra graph optimal states versus exported alignment; exhaustive tiny-path controls; exact complete token bridges; pinned original bytes. Does not independently parse IVTFF/XML, decide correct readings, or approve crop boundaries.",
+  "training": "NOT_RUN",
+  "new_neural_inference": "NOT_RUN",
+  "independent_expert_review": "NOT_REVIEWED",
+  "translation": "NOT_RUN"
+}

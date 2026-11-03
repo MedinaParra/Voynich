@@ -8,9 +8,9 @@ El [protocolo 80](80_transcription_boundaries_protocol.md) y el [plan](data/tran
 
 ## Qué fuentes se contrastaron realmente
 
-La documentación del responsable de voynich.nu identifica VT/Voynichese e IT como versiones de la lectura de Takahashi. Compararlas no aportaría un segundo lector. Se empleó **VT 0 e frente a ZL 3 b**, una lectura diferenciada de Zandbergen/Landini en EVA. Comparten imágenes, alfabeto e historia editorial: no se presume independencia estadística de sus errores. RF, una combinación automática de otras lecturas, tampoco se contó como voto adicional.
+La documentación del responsable de voynich.nu identifica VT/Voynichese e IT como versiones de la lectura de Takahashi. Compararlas no aportaría un segundo lector. Se empleó **`VT0e` frente a `ZL3b`**, una lectura diferenciada de Zandbergen/Landini en EVA. Comparten imágenes, alfabeto e historia editorial: no se presume independencia estadística de sus errores. RF, una combinación automática de otras lecturas, tampoco se contó como voto adicional.
 
-Los originales VT y ZL se conservaron completos con sus encabezados. La descarga directa respondió 406; se obtuvieron de espejos versionados y se verificó identidad de blob Git en un segundo espejo. Eso verifica consistencia entre espejos, no un hash descargado del autor. Los [recibos](results/transcription_boundaries/sources/mirror_receipt.json) detallan versiones y hashes. El sitio de origen declara CC 0 para las transliteraciones, con condiciones diferentes para sus fuentes tipográficas, que no se importaron.
+Los originales VT y ZL se conservaron completos con sus encabezados. La descarga directa respondió 406; se obtuvieron de espejos versionados y se verificó identidad de blob Git en un segundo espejo. Eso verifica consistencia entre espejos, no un hash descargado del autor. Los [recibos](results/transcription_boundaries/sources/mirror_receipt.json) detallan versiones y hashes. El sitio de origen declara CC0 para las transliteraciones, con condiciones diferentes para sus fuentes tipográficas, que no se importaron.
 
 Boxer declara una lectura propia desde imágenes y usa otro alfabeto. Se preservan sus originales congelados y el [contexto nativo de 61 filas](results/transcription_boundaries/boxer_context.json) de f3r/f3v/f4r/f4v. Sus conteos de palabras son 115/82/62/81 frente a 115/83/64/83 de Voynichese. No se inventó una conversión Boxer→EVA ni se calculó un supuesto acuerdo entre caracteres incompatibles. La independencia aquí es procedencia declarada por el autor; no una revisión experta nueva de nuestros recortes.
 
@@ -59,13 +59,13 @@ Se seleccionaron 24 palabras de entrenamiento con la regla fijada: ocho por desa
 El asistente inspeccionó los 24 paneles en seis hojas de contacto y anotó observaciones por candidato. Las ampliaciones son sólo visualización por vecino más próximo. Cada panel permite comparar recorte congelado, rectángulo sin máscara y contexto original con polígonos vecinos.
 
 - `f6v_w0095` y `f6v_w0001`: cajas estrechas dentro de franjas cubiertas por otras máscaras extensas; fracciones oscuras compartidas 96,0% y 90,3%. No se adjudica su tinta a otro token.
-- `f6v_w0096`: se conservan VT`chaiir` y el intervalo ZL`chaies`, junto a la coma incierta anterior. El contexto no justifica cambiar la etiqueta automáticamente.
-- `f3v_w0057`: ambas lecturas literales dan`daiin`, pero el rectángulo alcanza trazos del entorno. Acuerdo textual y pureza del recorte son preguntas diferentes.
+- `f6v_w0096`: se conservan VT `chaiir` y el intervalo ZL `chaies`, junto a la coma incierta anterior. El contexto no justifica cambiar la etiqueta automáticamente.
+- `f3v_w0057`: ambas lecturas literales dan `daiin`, pero el rectángulo alcanza trazos del entorno. Acuerdo textual y pureza del recorte son preguntas diferentes.
 - `f3r_w0047`: control de cero solapamiento oscuro bajo este umbral que aun presenta una discrepancia de frontera entre fuentes.
 
 ![Ejemplos de alto solapamiento y sus contextos](results/transcription_boundaries/contact_3.jpg)
 
-La [cola completa](results/transcription_boundaries/review_queue.json) distingue observación del asistente de `independent_expert_review=NOT_REVIEWED`. El [atlasHTML](results/transcription_boundaries/review.html), con sus imágenes en el mismo directorio, muestra además los loci crudos. Ninguna de estas observaciones aprueba un carácter, una caja o una palabra histórica. **Cambios de etiquetas:0; cambios de geometría:0.**
+La [cola completa](results/transcription_boundaries/review_queue.json) distingue observación del asistente de `independent_expert_review=NOT_REVIEWED`. El [atlas HTML](results/transcription_boundaries/review.html), con sus imágenes en el mismo directorio, muestra además los loci crudos. Ninguna de estas observaciones aprueba un carácter, una caja o una palabra histórica. **Cambios de etiquetas: 0; cambios de geometría: 0.**
 
 ## Verificación y reproducción
 
@@ -80,12 +80,12 @@ python research_gpt6/code/audit_transcription_boundaries.py \
   --repo research_gpt6 --out work/transcription_audit.json
 ```
 
-El workflow de reproducción reconstruirá además toda la comparación y geometría desde las fuentes preservadas, sin Kraken, Torch o nuevos ajustes SIFT. Su resultado en GitHub se registrará cuando exista; no se anticipa como completado.
+La [reproducción desde un checkout limpio en GitHub](https://github.com/MedinaParra/Voynich/actions/runs/41658081071), commit `f1b71b3725a362c8192c86dc7ccc54a33a183b5e`, terminó con éxito. Reconstruyó la comparación y los 989 recortes desde las fuentes preservadas, con igualdad completa de los registros derivados y la selección de revisión, sin Kraken, Torch o nuevos ajustes SIFT. El auditor reprodujo las 147.044 comprobaciones. Se descargó y verificó el digest del ZIP de resultados y se conservan [el recibo](results/transcription_boundaries/ci_receipt.json), el resumen, la auditoría y el log. Las observaciones visuales manuales no se presentan como reproducidas por CI.
 
 ## Decisión siguiente
 
-La fase de cotejo y revisión provisional de la etapaB quedó implementada y ejecutada. La representación probabilística calibrada entre lectores y la revisión experta independiente siguen pendientes; la etapaC de mecanismos/identificabilidad no se ejecutó. El paquete ya permite revisar desacuerdos concretos sin imponer una etiqueta única por autoridad del OCR.
+La fase de cotejo y revisión provisional de la etapa B quedó implementada y ejecutada. La representación probabilística calibrada entre lectores y la revisión experta independiente siguen pendientes; la etapa C de mecanismos/identificabilidad no se ejecutó. El paquete ya permite revisar desacuerdos concretos sin imponer una etiqueta única por autoridad del OCR.
 
 La evidencia aconseja revisar asociaciones y límites antes de otro ajuste. No basta con asumir que dos fuentes que coinciden garantizan una caja limpia, ni que toda diferencia sea un fallo del modelo. Este trabajo no reduce el CER por sí mismo y no produce una traducción.
 
-Fuentes primarias: [procedencia de las transliteraciones](https://www.voynich.nu/data/000_README.txt), [historia de las ediciones](https://www.voynich.nu/transcr.html), [especificación IVTFF](https://www.voynich.nu/software/ivtt/IVTFF_format.pdf), [CC 0 declarado](https://voynich.nu/roadmap.html#cop), [Boxer congelado](https://github.com/alexanderboxer/voynich-attack/tree/255bd632e45459230eaf2a994e0557ed6c682869). Detalle de atribución y límites en [NOTICE](results/transcription_boundaries/NOTICE.md).
+Fuentes primarias: [procedencia de las transliteraciones](https://www.voynich.nu/data/000_README.txt), [historia de las ediciones](https://www.voynich.nu/transcr.html), [especificación IVTFF](https://www.voynich.nu/software/ivtt/IVTFF_format.pdf), [CC0 declarado](https://voynich.nu/roadmap.html#cop), [Boxer congelado](https://github.com/alexanderboxer/voynich-attack/tree/255bd632e45459230eaf2a994e0557ed6c682869). Detalle de atribución y límites en [NOTICE](results/transcription_boundaries/NOTICE.md).

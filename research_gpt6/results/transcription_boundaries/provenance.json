@@ -25,7 +25,13 @@
     "path": "audit.json",
     "scope": "Independent Dijkstra/all-optimal graph and source hashes; no independent paleographic or complete source parser"
   },
-  "CI_replay": "PENDING_PUBLICATION",
+  "CI_replay": {
+    "status": "success",
+    "run_id": 41658081071,
+    "receipt": "ci_receipt.json",
+    "artifact_verified": true,
+    "full_comparison_geometry_and_queue_selection_identical": true
+  },
   "labels_changed": 0,
   "geometry_changed": 0,
   "training": "NOT_RUN",
