@@ -1,0 +1,97 @@
+{
+  "run": {
+    "id": 41676142145,
+    "head_sha": "ed054cf860597b1e4b682e622a927155522693c3",
+    "status": "completed",
+    "conclusion": "success",
+    "html_url": "https://github.com/MedinaParra/Voynich/actions/runs/41676142145"
+  },
+  "job_id": 126057150732,
+  "artifact": {
+    "id": 13251515564,
+    "name": "known-cipher-recovery-replay",
+    "size": 3161,
+    "digest": "sha256:9c11c1faf7da515e80ef994a4bcd6c9cc7d55d02f6040838f446adccdf9a820d"
+  },
+  "actual_zip_sha256": "9c11c1faf7da515e80ef994a4bcd6c9cc7d55d02f6040838f446adccdf9a820d",
+  "artifact_members": [
+    "audit.json",
+    "evaluation.json"
+  ],
+  "all_artifact_records_equal_original": true,
+  "steps": [
+    {
+      "name": "Set up job",
+      "status": "completed",
+      "conclusion": "success",
+      "number": 1
+    },
+    {
+      "name": "Run actions/checkout@v4",
+      "status": "completed",
+      "conclusion": "success",
+      "number": 2
+    },
+    {
+      "name": "Run actions/setup-python@v5",
+      "status": "completed",
+      "conclusion": "success",
+      "number": 3
+    },
+    {
+      "name": "Run python -m pip install numpy==2.3.5",
+      "status": "completed",
+      "conclusion": "success",
+      "number": 4
+    },
+    {
+      "name": "Regenerate committed controls after the reveal",
+      "status": "completed",
+      "conclusion": "success",
+      "number": 5
+    },
+    {
+      "name": "Rebuild training-only language model",
+      "status": "completed",
+      "conclusion": "success",
+      "number": 6
+    },
+    {
+      "name": "Compile integer search and repeat frozen predictions",
+      "status": "completed",
+      "conclusion": "success",
+      "number": 7
+    },
+    {
+      "name": "Verify evaluation and independent metrics audit",
+      "status": "completed",
+      "conclusion": "success",
+      "number": 8
+    },
+    {
+      "name": "Run actions/upload-artifact@v4",
+      "status": "completed",
+      "conclusion": "success",
+      "number": 9
+    },
+    {
+      "name": "Post Run actions/setup-python@v5",
+      "status": "completed",
+      "conclusion": "success",
+      "number": 17
+    },
+    {
+      "name": "Post Run actions/checkout@v4",
+      "status": "completed",
+      "conclusion": "success",
+      "number": 18
+    },
+    {
+      "name": "Complete job",
+      "status": "completed",
+      "conclusion": "success",
+      "number": 19
+    }
+  ],
+  "scope": "Clean checkout deterministic replay after reveal; not a second blind trial, Voynich translation or Kraken retraining."
+}

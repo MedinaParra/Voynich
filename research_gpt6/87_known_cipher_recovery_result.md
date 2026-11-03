@@ -54,7 +54,7 @@ La ejecución local de búsqueda tardó 5,88 segundos en ese entorno; no es una 
 | Letras barajadas, frecuencias conservadas |0/3|8,52% media|11,11% media|
 | Homofónico, familia incorrecta para el solver |0/1|62,95%|50%|
 
-El criterio estricto fijado pasa en los **tres contenidos positivos**: todo el plaintext normalizado y las 21 asignaciones observadas por caso son exactos. Las cinco asignaciones ausentes de cada caso no son identificables y no se cuentan como clave recuperada.
+El criterio estricto fijado pasa en los **tres contenidos positivos**: todo el plaintext normalizado y las 21 asignaciones observadas por caso son exactos. Las cinco asignaciones ausentes de cada caso positivo no son identificables y no se cuentan como clave recuperada.
 
 Las presentaciones con y sin espacios producen la misma clave candidata por diseño y caché. Eso demuestra invariancia de presentación del mismo procedimiento, no aprendizaje de límites de palabra ni replicación independiente. En los casos sin espacios se recuperó el flujo de letras; no se reconstruyeron palabras o puntuación.
 
@@ -90,7 +90,7 @@ En los positivos, candidato y verdad tienen el mismo score y el texto coincide e
 
 Un [auditor separado](code/audit_known_cipher_recovery.py), sin importar el solver ni el evaluador, recalculó aplicación de claves, Hamming, asignaciones observadas, techo homofónico y scores de candidato/verdad: **PASS, 302 comprobaciones**, incluidos sus controles matemáticos. No vuelve a ejecutar la búsqueda, no prueba optimalidad global ni certifica aislamiento del proceso.
 
-Las [predicciones congeladas](results/known_cipher_recovery/predictions.json), [evaluación](results/known_cipher_recovery/evaluation.json), [auditoría](results/known_cipher_recovery/audit.json), [manifest del solver](results/known_cipher_recovery/solver_manifest.json) y tablas completas quedan preservados. La reproducción en GitHub desde un checkout limpio se registrará cuando exista; no se anticipa como completada.
+Las [predicciones congeladas](results/known_cipher_recovery/predictions.json), [evaluación](results/known_cipher_recovery/evaluation.json), [auditoría](results/known_cipher_recovery/audit.json), [manifest del solver](results/known_cipher_recovery/solver_manifest.json) y tablas completas quedan preservados. La [reproducción desde un checkout limpio en GitHub Actions](https://github.com/MedinaParra/Voynich/actions/runs/41676142145) pasó sobre el commit `ed054cf860597b1e4b682e622a927155522693c3`: controles públicos y revelados idénticos, tablas reconstruidas idénticas, nueva compilación C++ con predicciones byte por byte idénticas a las congeladas y métricas/auditoría iguales. El [recibo](results/known_cipher_recovery/ci_receipt.json), log y copia del artefacto se conservan; se verificó el SHA256 del ZIP descargado y la igualdad de sus dos registros con los originales.
 
 ```bash
 python -m pip install numpy==2.3.5
@@ -106,7 +106,7 @@ El replay posterior a revelar respuestas no es otro ensayo ciego. Se conservan c
 
 ## Qué aporta y qué queda pendiente
 
-Ahora existe un **descifrador calibrado para estos controles de latín conocido y sustitución simple**, con recuperación exacta medida. Es una capacidad inversa que las estadísticas anteriores, invariantes a cambiar nombres de letras, no ofrecían.
+Ahora existe un **descifrador verificado en estos controles de latín conocido y sustitución simple**, con recuperación exacta medida. Es una capacidad inversa que las estadísticas anteriores, invariantes a cambiar nombres de letras, no ofrecían.
 
 No permite escoger latín para Voynich, convertir códigos EVA en letras originales, resolver signos compuestos, recuperar abreviaturas o superar homofonía. La siguiente ampliación útil deberá demostrar recuperación de una familia más flexible en controles antes de presentar una salida del manuscrito como traducción. En este paso, Voynich permanece **NOT_TRANSLATED** y Kraken no se reentrenó.
 

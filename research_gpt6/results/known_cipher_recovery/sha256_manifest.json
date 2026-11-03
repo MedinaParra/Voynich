@@ -3,13 +3,38 @@
   "files": [
     {
       "path": "NOTICE.md",
-      "bytes": 2353,
-      "sha256": "7332c98611fda40a0a2682d8d73d70b4318409bfa951f1e5e06d94bc6b1ab457"
+      "bytes": 2358,
+      "sha256": "79b58ef50f73d0576d4206a288cc307e13862407d63cf3b50f41e924f0ba2a54"
     },
     {
       "path": "audit.json",
       "bytes": 8307,
       "sha256": "63f820da0e9c85fd59dc4a0e440b6c677e2349f5b75daab3c031594825e7144a"
+    },
+    {
+      "path": "ci_artifact.zip",
+      "bytes": 3161,
+      "sha256": "9c11c1faf7da515e80ef994a4bcd6c9cc7d55d02f6040838f446adccdf9a820d"
+    },
+    {
+      "path": "ci_audit.json",
+      "bytes": 8307,
+      "sha256": "63f820da0e9c85fd59dc4a0e440b6c677e2349f5b75daab3c031594825e7144a"
+    },
+    {
+      "path": "ci_evaluation.json",
+      "bytes": 8664,
+      "sha256": "163b38a90525249df8f19e9ce4b09d859c0e7cd4f1b2a321bdaf76d03424e86c"
+    },
+    {
+      "path": "ci_job.log",
+      "bytes": 28171,
+      "sha256": "a1d5b6f8862ae06b982a68ee7f276d7ddf6cbeff7d65fa04cb3f4450a47f65bc"
+    },
+    {
+      "path": "ci_receipt.json",
+      "bytes": 2508,
+      "sha256": "3cdfc25077c4a7aa01056fe634adecf8ac79ac0a2a97ccb89313ad37cf9f3799"
     },
     {
       "path": "decoded_control_example.json",
@@ -63,8 +88,8 @@
     },
     {
       "path": "provenance.json",
-      "bytes": 2369,
-      "sha256": "8156a6403550f018748946bf61361f764aea30a7e1e27f98e6b4338908a04aab"
+      "bytes": 2876,
+      "sha256": "4a39fcfb5f72d58d873415755c81d1c139101e6a54b9063905ff57ff55297d99"
     },
     {
       "path": "public/ciphertexts.json",

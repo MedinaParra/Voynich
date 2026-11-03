@@ -14,6 +14,10 @@
     {
       "stage": "full_predictions_frozen_before_evaluator_authorization",
       "commit": "1b17500d4670410de0e9d2fba456839373145460"
+    },
+    {
+      "stage": "evaluation_reveal_model_tables_results_and_replay_workflow_published",
+      "commit": "ed054cf860597b1e4b682e622a927155522693c3"
     }
   ],
   "blinding": "Procedural separation in shared filesystem, not enforced security isolation. Root did not open hidden truth until freeze and evaluator authorization.",
@@ -42,7 +46,15 @@
     "true_inverse_outside_search_family": true
   },
   "nulls": "No exact recovery; candidate language-model scores exceed true shuffled plaintext scores. No abstention threshold calibrated.",
-  "ci_status": "PENDING",
+  "ci_status": "SUCCESS",
   "replay_scope": "A deterministic computational replay after reveal, not a second blind trial.",
-  "sources": "CLTK Latin Library pinned commit 76229acaf02efd1964ac32009408a90b6f279758; Public Domain Mark 1.0. Training Apicius1-5, held-out Caesar1-3."
+  "sources": "CLTK Latin Library pinned commit 76229acaf02efd1964ac32009408a90b6f279758; Public Domain Mark 1.0. Training Apicius1-5, held-out Caesar1-3.",
+  "ci": {
+    "run_id": 41676142145,
+    "commit": "ed054cf860597b1e4b682e622a927155522693c3",
+    "url": "https://github.com/MedinaParra/Voynich/actions/runs/41676142145",
+    "artifact_zip_sha256": "9c11c1faf7da515e80ef994a4bcd6c9cc7d55d02f6040838f446adccdf9a820d",
+    "predictions_byte_identical": true,
+    "evaluation_audit_equal": true
+  }
 }
