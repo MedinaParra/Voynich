@@ -1,0 +1,114 @@
+{
+  "alphabet": "abcdefghijklmnopqrstuvwxyz",
+  "case_count": 10,
+  "experiment": 86,
+  "generator_sha256": "d48403c908da6a6e115e3846467d02b63dfb87ffd808f6ec8c662199615236f1",
+  "letters_per_case": 2000,
+  "normalization": {
+    "drop_first_line": true,
+    "drop_lines_where_str_isupper": true,
+    "join": "single ASCII space between tokens",
+    "lowercase": "Python str.lower",
+    "sample_length": "2000 letters, excluding spaces",
+    "tokens": "re.findall('[a-z]+', text)",
+    "u_v_or_i_j_merging": false,
+    "unicode_transliteration": false,
+    "window": "uniform starting letter index; boundary words may be clipped"
+  },
+  "private_seed_commitment_sha256": "f4999b5ad43abaf47ca1f5808c120b06068b0135052aa813c1e1eb2e0d11a5a6",
+  "public_files_sha256": {
+    "ciphertexts.json": "bc65464952d6ebad057b26bb2edd5cb871ae82c92ef189df1b6f85be48dfac64",
+    "training_corpus.json": "2a656e29f60e0a6404768ac32e309acf67c53f21f4dbc28b82d289ad89dfa6cc"
+  },
+  "reserved_sources": [
+    "caesar/gall1.txt",
+    "caesar/gall2.txt",
+    "caesar/gall3.txt"
+  ],
+  "schema": "known-cipher-manifest-v1",
+  "source_bundle_sha256": "89713195a6e002d543d2f8dd8ed4404b33a1494d563ec2ce1280e6d25061b629",
+  "source_commit": "76229acaf02efd1964ac32009408a90b6f279758",
+  "sources": [
+    {
+      "git_blob_sha1": "8f8e7e265d6357299004e8c43ab0fb6574f5d45e",
+      "letters": 6132,
+      "normalized_sha256": "4398f786eb7015c706442423eeaef00d25ada66d430ae96678b3251b61ed2338",
+      "path": "apicius/apicius1.txt",
+      "raw_bytes": 9223,
+      "raw_sha256": "377fbe79a234f70fa9686b30fadb987505ec54d11588b35a6db47ad6bb999a09",
+      "words": 1151
+    },
+    {
+      "git_blob_sha1": "4df260990b08371dfda5eba39de975e80e83c725",
+      "letters": 4565,
+      "normalized_sha256": "d477d45797c70262c1b487c8e1ec50d1e9ee7bad839ef9571258f5cf1c0eac46",
+      "path": "apicius/apicius2.txt",
+      "raw_bytes": 6510,
+      "raw_sha256": "659a8e7c392584fc09dd345624c9a17d831acbded65cdf3900410c88f0244582",
+      "words": 805
+    },
+    {
+      "git_blob_sha1": "f6999b2067e46f1059080a325b721475fa55f4c6",
+      "letters": 6172,
+      "normalized_sha256": "6fd97f3741db8c7448e79f643cd8ec6bc72031f54aca1be83e9d3bebac30fabe",
+      "path": "apicius/apicius3.txt",
+      "raw_bytes": 9533,
+      "raw_sha256": "2b3435b424a7b57c834f0f35a9c9187308c6c3ae38b9b099b53427d46c670bff",
+      "words": 1105
+    },
+    {
+      "git_blob_sha1": "a9c28d6d66ab8c17994a2087fca5428301726f62",
+      "letters": 15316,
+      "normalized_sha256": "c8755c2e99f18c9818b77f9a3f0b719fb4eb81da4406e077537a17ea27b296e3",
+      "path": "apicius/apicius4.txt",
+      "raw_bytes": 21106,
+      "raw_sha256": "d58b21c8077b42427bb512c1fe0d69c5bdc9780ab31e443c70d1cc3e433c9b7d",
+      "words": 2619
+    },
+    {
+      "git_blob_sha1": "8c3a2759b1ee661573d4212c4efe8dd44e2ffd7f",
+      "letters": 7828,
+      "normalized_sha256": "639038538829a8dc722e73b26fa624af1a71b9803989178a6d515be6c6eb567c",
+      "path": "apicius/apicius5.txt",
+      "raw_bytes": 10954,
+      "raw_sha256": "b44a32380edad501be9dcc3d402c6fecd01cf247e3d5cdfe18a0ad972eb25326",
+      "words": 1363
+    },
+    {
+      "git_blob_sha1": "701b6757f3ee9becab3ac0087affa8a242e19ecc",
+      "letters": 48283,
+      "normalized_sha256": "190d52f5e0e245bd9fd95f500ea42fb106eff21382cca810b9e72b86df878064",
+      "path": "caesar/gall1.txt",
+      "raw_bytes": 58818,
+      "raw_sha256": "4a5771c209e09e0fc41259189885ed6ed5d1d3f59d4d6be22c3d463fc73a5755",
+      "words": 8179
+    },
+    {
+      "git_blob_sha1": "7d625b85b7df89d313a7c9c0657a7b84748f596c",
+      "letters": 25270,
+      "normalized_sha256": "99eaf45f58a7f88bac754021ec088f1d88fa298ea60824bc191f4499e78183cf",
+      "path": "caesar/gall2.txt",
+      "raw_bytes": 30797,
+      "raw_sha256": "bd4b71009490b48ad635e6478b5689f5780a61f8b06b3b8baf69ed46400e14c7",
+      "words": 4164
+    },
+    {
+      "git_blob_sha1": "b93a811c8d487673b800e69516217a3e5b4f267f",
+      "letters": 22157,
+      "normalized_sha256": "db9b7af2c69238329093ec440c49d319d688c6ad1fc9a518613b7006af9b1fa5",
+      "path": "caesar/gall3.txt",
+      "raw_bytes": 26977,
+      "raw_sha256": "8e8986e76bf34d1a117c464f4998a6b96436a8ffbdb5fef04ba68d1f47d5f13c",
+      "words": 3593
+    }
+  ],
+  "space": "ASCII U+0020, preserved",
+  "training_sources": [
+    "apicius/apicius1.txt",
+    "apicius/apicius2.txt",
+    "apicius/apicius3.txt",
+    "apicius/apicius4.txt",
+    "apicius/apicius5.txt"
+  ],
+  "truth_commitment_sha256": "6edd45616bed607b6dad38c1fcfda3b1928cd3e46a649c1eaf08d0475c4e6a0e"
+}

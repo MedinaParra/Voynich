@@ -1,0 +1,70 @@
+{
+  "scope": "Before solving; SHA256 manifest of all solver source and permitted input artifacts. Truth excluded.",
+  "files": [
+    {
+      "path": "code/build_known_cipher_model.py",
+      "sha256": "15f71bc0b9cdff0f84605b5c0e34f3ce73ae8cd4ccce2534bfbf9d66c0da5ef0",
+      "bytes": 2327
+    },
+    {
+      "path": "code/known_substitution_solver.cpp",
+      "sha256": "51ef1126819c0f968a993e017e2bd554240554fdc3fafc073358def3dafe2f11",
+      "bytes": 4999
+    },
+    {
+      "path": "code/recover_known_ciphers.py",
+      "sha256": "208101428fdab6ec75830d59f608fe20fc0fae6ea0a2a049f189a2ad6af83499",
+      "bytes": 3990
+    },
+    {
+      "path": "code/prepare_known_cipher_packet.py",
+      "sha256": "d48403c908da6a6e115e3846467d02b63dfb87ffd808f6ec8c662199615236f1",
+      "bytes": 12749
+    },
+    {
+      "path": "data/known_cipher_recovery_plan.json",
+      "sha256": "6f7b18b8bac1b66701a278d731f241da686a65a9386d8b1e359a3ba058caa735",
+      "bytes": 3917
+    },
+    {
+      "path": "results/known_cipher_recovery/model/accept_u64.bin",
+      "sha256": "5b38fe1b29fe5dd7b33b477cde2cf5af142610b154489b7a40281da6ccc9b535",
+      "bytes": 65544
+    },
+    {
+      "path": "results/known_cipher_recovery/model/lm_int32.bin",
+      "sha256": "9206bde5bb6252ddb4de70dd2ea28aef6cc0ca5f59effbc2deac3e34546eae77",
+      "bytes": 1827904
+    },
+    {
+      "path": "results/known_cipher_recovery/model/model.json",
+      "sha256": "51fd02a19690e65f48ee68b7c7cf18e097c190845750056f5461ef539fdf7ea9",
+      "bytes": 1675
+    },
+    {
+      "path": "results/known_cipher_recovery/model/plain_frequency_rank.txt",
+      "sha256": "e6f3d01bcb2fc81e16cd86c2201f6a7dd2aad707064294c4f9e9ebaad361a7df",
+      "bytes": 68
+    },
+    {
+      "path": "results/known_cipher_recovery/model/temperatures_i32.bin",
+      "sha256": "fff1918bca40aea658e61e1033aad44f605bd40132eb24844551e7930d43d280",
+      "bytes": 400
+    },
+    {
+      "path": "results/known_cipher_recovery/public/ciphertexts.json",
+      "sha256": "bc65464952d6ebad057b26bb2edd5cb871ae82c92ef189df1b6f85be48dfac64",
+      "bytes": 22932
+    },
+    {
+      "path": "results/known_cipher_recovery/public/manifest.json",
+      "sha256": "56acd093bf3e44918b56a780ee9b38ed7ba50e14926385f778042d178dbfa442",
+      "bytes": 4525
+    },
+    {
+      "path": "results/known_cipher_recovery/public/training_corpus.json",
+      "sha256": "2a656e29f60e0a6404768ac32e309acf67c53f21f4dbc28b82d289ad89dfa6cc",
+      "bytes": 47515
+    }
+  ]
+}
