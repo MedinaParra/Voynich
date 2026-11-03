@@ -1,0 +1,67 @@
+name: Known-cipher recovery replay
+on:
+  push:
+    branches: [experiment/kraken-voynich]
+    paths:
+      - .github/workflows/known-cipher-recovery.yml
+      - research_gpt6/code/audit_known_cipher_recovery.py
+permissions:
+  contents: read
+jobs:
+  replay:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12.14'
+      - run: python -m pip install numpy==2.3.5
+      - name: Regenerate committed controls after the reveal
+        run: |
+          python research_gpt6/code/prepare_known_cipher_packet.py --latin research_gpt6/data/latin_sources.json --out work/packet --seed-file research_gpt6/results/known_cipher_recovery/reveal/private_seed.json
+          python - <<'PY'
+          from pathlib import Path
+          original=Path('research_gpt6/results/known_cipher_recovery')
+          for group,target in [('public','public'),('private','reveal')]:
+              for p in (Path('work/packet')/group).glob('*.json'):
+                  assert p.read_bytes()==(original/target/p.name).read_bytes(),p.name
+          print('IDENTICAL_COMMITTED_PACKET_AFTER_REVEAL')
+          PY
+      - name: Rebuild training-only language model
+        run: |
+          python research_gpt6/code/build_known_cipher_model.py --public research_gpt6/results/known_cipher_recovery/public --out work/model
+          python - <<'PY'
+          from pathlib import Path
+          for name in ['lm_int32.bin','accept_u64.bin','temperatures_i32.bin','plain_frequency_rank.txt']:
+              assert (Path('work/model')/name).read_bytes()==(Path('research_gpt6/results/known_cipher_recovery/model')/name).read_bytes(),name
+          print('IDENTICAL_APICIUS_ONLY_MODEL_TABLES')
+          PY
+      - name: Compile integer search and repeat frozen predictions
+        run: |
+          g++ -O3 -std=c++17 research_gpt6/code/known_substitution_solver.cpp -o /tmp/known_cipher_solver
+          python research_gpt6/code/recover_known_ciphers.py --repo research_gpt6 --bundle research_gpt6/results/known_cipher_recovery --binary /tmp/known_cipher_solver --out work/predictions.json
+          python - <<'PY'
+          from pathlib import Path
+          assert Path('work/predictions.json').read_bytes()==Path('research_gpt6/results/known_cipher_recovery/predictions.json').read_bytes()
+          print('IDENTICAL_PRE_REVEAL_PREDICTIONS_FROM_INTEGER_SEARCH')
+          PY
+      - name: Verify evaluation and independent metrics audit
+        run: |
+          python research_gpt6/code/evaluate_known_cipher_packet.py --public research_gpt6/results/known_cipher_recovery/public --private research_gpt6/results/known_cipher_recovery/reveal --predictions research_gpt6/results/known_cipher_recovery/predictions.json --solver research_gpt6/results/known_cipher_recovery/solver_manifest.json --freeze research_gpt6/results/known_cipher_recovery/freeze.json --out work/evaluation.json
+          python research_gpt6/code/audit_known_cipher_recovery.py --repo research_gpt6 --bundle research_gpt6/results/known_cipher_recovery --out work/audit.json
+          python - <<'PY'
+          from pathlib import Path
+          import json
+          for name in ['evaluation.json','audit.json']:
+              assert json.loads((Path('work')/name).read_text())==json.loads((Path('research_gpt6/results/known_cipher_recovery')/name).read_text()),name
+          print('IDENTICAL_RECOVERY_METRICS_AND_INDEPENDENT_AUDIT; NOT_VOYNICH_TRANSLATION')
+          PY
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: known-cipher-recovery-replay
+          path: |
+            work/audit.json
+            work/evaluation.json
+          retention-days: 30

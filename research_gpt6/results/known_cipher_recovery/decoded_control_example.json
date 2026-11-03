@@ -1,0 +1,9 @@
+{
+  "scope": "Known Caesar control only, NOT Voynich text",
+  "case": "C03",
+  "start": 2,
+  "end": 73,
+  "ciphertext_excerpt": "nygzgsgnw znmun znwunqwy uwzmsg btb ynjbmy gb qw yghgsnqg mumy fndwdnbs",
+  "recovered_plaintext_excerpt": "amicitiae causa caesarem secuti non magnum in re militari usum habebant",
+  "truth_verified": true
+}

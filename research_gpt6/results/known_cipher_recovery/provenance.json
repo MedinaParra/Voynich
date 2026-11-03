@@ -1,0 +1,48 @@
+{
+  "date": "2026-11-03",
+  "branch": "experiment/kraken-voynich",
+  "scope": "Known-Latin monoalphabetic control recovery; Voynich NOT_TRANSLATED; Kraken NOT_RETRAINED",
+  "chronology": [
+    {
+      "stage": "protocol_before_generation",
+      "commit": "674c993525c6e09a88ca4ae34d42d9683da394f1"
+    },
+    {
+      "stage": "public_inputs_solver_and_model_hashes_before_search",
+      "commit": "7d976cedcc49b093676704d4d23ec1600f1d8dc7"
+    },
+    {
+      "stage": "full_predictions_frozen_before_evaluator_authorization",
+      "commit": "1b17500d4670410de0e9d2fba456839373145460"
+    }
+  ],
+  "blinding": "Procedural separation in shared filesystem, not enforced security isolation. Root did not open hidden truth until freeze and evaluator authorization.",
+  "post_reveal_solver_model_budget_or_case_retuning": false,
+  "evaluation_sha256": "163b38a90525249df8f19e9ce4b09d859c0e7cd4f1b2a321bdaf76d03424e86c",
+  "strict_positive_gate": "PASS: three 2000-letter contents exactly recovered, including all 21 observed cipher assignments per content; five absent assignments nonidentifiable.",
+  "paired_presentations": "Six presentations, three distinct contents; spaces ignored and identical streams cached. Not six independent recoveries; no word-boundary recovery.",
+  "execution": {
+    "python": "3.12.14",
+    "numpy": "2.3.5",
+    "binary_sha256": "2ed0b85e06a713ade5023f32003beb548f56dfe0921a4ea2646638c6c4ee57f8",
+    "seconds": 5.88337333200252,
+    "unique_searches": 7,
+    "annealing_proposals": 2800000,
+    "polish_pair_checks": 19175,
+    "scope": "Runtime metadata not part of deterministic predictions"
+  },
+  "audit": {
+    "status": "PASS",
+    "checks": 302,
+    "does_not_certify": "Global optimality, security isolation, a historical decipherment, or unknown-language performance"
+  },
+  "homophonic": {
+    "accuracy": 0.6295,
+    "bijection_accuracy_ceiling": 0.7755,
+    "true_inverse_outside_search_family": true
+  },
+  "nulls": "No exact recovery; candidate language-model scores exceed true shuffled plaintext scores. No abstention threshold calibrated.",
+  "ci_status": "PENDING",
+  "replay_scope": "A deterministic computational replay after reveal, not a second blind trial.",
+  "sources": "CLTK Latin Library pinned commit 76229acaf02efd1964ac32009408a90b6f279758; Public Domain Mark 1.0. Training Apicius1-5, held-out Caesar1-3."
+}

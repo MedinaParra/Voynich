@@ -1,0 +1,10 @@
+{
+  "python": "3.12.14",
+  "numpy": "2.3.5",
+  "binary_sha256": "2ed0b85e06a713ade5023f32003beb548f56dfe0921a4ea2646638c6c4ee57f8",
+  "seconds": 5.88337333200252,
+  "unique_searches": 7,
+  "annealing_proposals": 2800000,
+  "polish_pair_checks": 19175,
+  "scope": "Runtime metadata not part of deterministic predictions"
+}

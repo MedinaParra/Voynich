@@ -1,0 +1,9 @@
+{
+  "generator_sha256": "d48403c908da6a6e115e3846467d02b63dfb87ffd808f6ec8c662199615236f1",
+  "python_version": "3.12.14",
+  "rng": "random.Random",
+  "schema": "known-cipher-private-seed-v1",
+  "seed_bits": 64,
+  "seed_uint64": 5954794540535279849,
+  "source_bundle_sha256": "89713195a6e002d543d2f8dd8ed4404b33a1494d563ec2ce1280e6d25061b629"
+}

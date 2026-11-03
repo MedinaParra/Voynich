@@ -1,0 +1,105 @@
+{
+  "scope": "Bundle file integrity; excludes this manifest and regenerable search_inputs",
+  "files": [
+    {
+      "path": "NOTICE.md",
+      "bytes": 2353,
+      "sha256": "7332c98611fda40a0a2682d8d73d70b4318409bfa951f1e5e06d94bc6b1ab457"
+    },
+    {
+      "path": "audit.json",
+      "bytes": 8307,
+      "sha256": "63f820da0e9c85fd59dc4a0e440b6c677e2349f5b75daab3c031594825e7144a"
+    },
+    {
+      "path": "decoded_control_example.json",
+      "bytes": 338,
+      "sha256": "d9884520891088da8bb49d3c51fe35be5007eb8b2f5b712d5cdd927c741a311b"
+    },
+    {
+      "path": "evaluation.json",
+      "bytes": 8664,
+      "sha256": "163b38a90525249df8f19e9ce4b09d859c0e7cd4f1b2a321bdaf76d03424e86c"
+    },
+    {
+      "path": "execution.json",
+      "bytes": 322,
+      "sha256": "175ec3aeed26fb769a0e945e64744809a05d67d447f51807707b7209d1d29bd0"
+    },
+    {
+      "path": "freeze.json",
+      "bytes": 613,
+      "sha256": "065f616c7c5cf6dcdad07b505953c2d2e734c709e756dc7883819c69e4222c52"
+    },
+    {
+      "path": "model/accept_u64.bin",
+      "bytes": 65544,
+      "sha256": "5b38fe1b29fe5dd7b33b477cde2cf5af142610b154489b7a40281da6ccc9b535"
+    },
+    {
+      "path": "model/lm_int32.bin",
+      "bytes": 1827904,
+      "sha256": "9206bde5bb6252ddb4de70dd2ea28aef6cc0ca5f59effbc2deac3e34546eae77"
+    },
+    {
+      "path": "model/model.json",
+      "bytes": 1675,
+      "sha256": "51fd02a19690e65f48ee68b7c7cf18e097c190845750056f5461ef539fdf7ea9"
+    },
+    {
+      "path": "model/plain_frequency_rank.txt",
+      "bytes": 68,
+      "sha256": "e6f3d01bcb2fc81e16cd86c2201f6a7dd2aad707064294c4f9e9ebaad361a7df"
+    },
+    {
+      "path": "model/temperatures_i32.bin",
+      "bytes": 400,
+      "sha256": "fff1918bca40aea658e61e1033aad44f605bd40132eb24844551e7930d43d280"
+    },
+    {
+      "path": "predictions.json",
+      "bytes": 63287,
+      "sha256": "3342583e05ac60b9b2091df42f2505c5b278886733dd5651c76a9f5fecf85929"
+    },
+    {
+      "path": "provenance.json",
+      "bytes": 2369,
+      "sha256": "8156a6403550f018748946bf61361f764aea30a7e1e27f98e6b4338908a04aab"
+    },
+    {
+      "path": "public/ciphertexts.json",
+      "bytes": 22932,
+      "sha256": "bc65464952d6ebad057b26bb2edd5cb871ae82c92ef189df1b6f85be48dfac64"
+    },
+    {
+      "path": "public/manifest.json",
+      "bytes": 4525,
+      "sha256": "56acd093bf3e44918b56a780ee9b38ed7ba50e14926385f778042d178dbfa442"
+    },
+    {
+      "path": "public/training_corpus.json",
+      "bytes": 47515,
+      "sha256": "2a656e29f60e0a6404768ac32e309acf67c53f21f4dbc28b82d289ad89dfa6cc"
+    },
+    {
+      "path": "reveal/generation_receipt.json",
+      "bytes": 570,
+      "sha256": "6c80af707bc7ac66e1e7afe07037e6eb9de7470efcb436b37e38c6b046d6c27b"
+    },
+    {
+      "path": "reveal/private_seed.json",
+      "bytes": 345,
+      "sha256": "f4999b5ad43abaf47ca1f5808c120b06068b0135052aa813c1e1eb2e0d11a5a6"
+    },
+    {
+      "path": "reveal/truth.json",
+      "bytes": 71685,
+      "sha256": "6edd45616bed607b6dad38c1fcfda3b1928cd3e46a649c1eaf08d0475c4e6a0e"
+    },
+    {
+      "path": "solver_manifest.json",
+      "bytes": 2479,
+      "sha256": "2fdebe6140d25246826bda73da0d764f56a2a4252f76c2502a3daa348d6fef85"
+    }
+  ]
+}

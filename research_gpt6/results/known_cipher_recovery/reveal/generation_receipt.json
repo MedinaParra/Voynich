@@ -1,0 +1,10 @@
+{
+  "files_sha256": {
+    "private/private_seed.json": "f4999b5ad43abaf47ca1f5808c120b06068b0135052aa813c1e1eb2e0d11a5a6",
+    "private/truth.json": "6edd45616bed607b6dad38c1fcfda3b1928cd3e46a649c1eaf08d0475c4e6a0e",
+    "public/ciphertexts.json": "bc65464952d6ebad057b26bb2edd5cb871ae82c92ef189df1b6f85be48dfac64",
+    "public/manifest.json": "56acd093bf3e44918b56a780ee9b38ed7ba50e14926385f778042d178dbfa442",
+    "public/training_corpus.json": "2a656e29f60e0a6404768ac32e309acf67c53f21f4dbc28b82d289ad89dfa6cc"
+  },
+  "schema": "known-cipher-generation-receipt-v1"
+}

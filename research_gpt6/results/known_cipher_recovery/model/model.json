@@ -1,0 +1,56 @@
+{
+  "books": [
+    {
+      "source_path": "apicius/apicius1.txt",
+      "letters": 6132,
+      "letters_sha256": "53694a4d8020471f70769555190ee0ae72b899923ffd8858c71c274e5a830a55"
+    },
+    {
+      "source_path": "apicius/apicius2.txt",
+      "letters": 4565,
+      "letters_sha256": "f3983a4defff4bbfc5182e108850d0b7739005c12ccf569659d2379ead44d0fd"
+    },
+    {
+      "source_path": "apicius/apicius3.txt",
+      "letters": 6172,
+      "letters_sha256": "a33668e178ab30fb7c3ee828b5f74271f927b290d29bd0cf931dfa9da9a7ff11"
+    },
+    {
+      "source_path": "apicius/apicius4.txt",
+      "letters": 15316,
+      "letters_sha256": "71b78bb8716f1d42d7d15394db7a4b3d3cecb17583b0cb10d28e98860f0f275c"
+    },
+    {
+      "source_path": "apicius/apicius5.txt",
+      "letters": 7828,
+      "letters_sha256": "312b39741434204f8e8e3f6897c32172fc172fc8eadddca0d7b7db11e64ba910"
+    }
+  ],
+  "total_letters": 40013,
+  "alphabet": "abcdefghijklmnopqrstuvwxyz",
+  "score": "sum integer conditional4gram log-score; first3letters unscored",
+  "quantization": 1000,
+  "backoff_strengths": [
+    10,
+    5,
+    2
+  ],
+  "files": {
+    "lm_int32.bin": {
+      "bytes": 1827904,
+      "sha256": "9206bde5bb6252ddb4de70dd2ea28aef6cc0ca5f59effbc2deac3e34546eae77"
+    },
+    "temperatures_i32.bin": {
+      "bytes": 400,
+      "sha256": "fff1918bca40aea658e61e1033aad44f605bd40132eb24844551e7930d43d280"
+    },
+    "plain_frequency_rank.txt": {
+      "bytes": 68,
+      "sha256": "e6f3d01bcb2fc81e16cd86c2201f6a7dd2aad707064294c4f9e9ebaad361a7df"
+    },
+    "accept_u64.bin": {
+      "bytes": 65544,
+      "sha256": "5b38fe1b29fe5dd7b33b477cde2cf5af142610b154489b7a40281da6ccc9b535"
+    }
+  }
+}
