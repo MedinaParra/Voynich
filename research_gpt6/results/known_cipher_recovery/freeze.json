@@ -1,0 +1,9 @@
+{
+  "solver_sha256": "2fdebe6140d25246826bda73da0d764f56a2a4252f76c2502a3daa348d6fef85",
+  "predictions_sha256": "3342583e05ac60b9b2091df42f2505c5b278886733dd5651c76a9f5fecf85929",
+  "manifest_sha256": "56acd093bf3e44918b56a780ee9b38ed7ba50e14926385f778042d178dbfa442",
+  "protocol_commit": "674c993525c6e09a88ca4ae34d42d9683da394f1",
+  "pre_solve_commit": "7d976cedcc49b093676704d4d23ec1600f1d8dc7",
+  "truth_commitment_sha256": "6edd45616bed607b6dad38c1fcfda3b1928cd3e46a649c1eaf08d0475c4e6a0e",
+  "scope": "Frozen before separate evaluator can reveal plaintext/keys or metrics. No truth supplied to solver."
+}
