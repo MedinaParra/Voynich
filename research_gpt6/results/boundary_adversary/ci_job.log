@@ -1,0 +1,334 @@
+﻿2026-11-03T16:02:21.8745685Z Current runner version: '2.338.2'
+2026-11-03T16:02:21.8765002Z ##[group]Runner Image Provisioner
+2026-11-03T16:02:21.8765639Z Hosted Compute Agent
+2026-11-03T16:02:21.8766090Z Version: 20261021.618
+2026-11-03T16:02:21.8766497Z Commit: 21505ad2541d5be6135ed84fc33697146cf75b8e
+2026-11-03T16:02:21.8766984Z Build Date: 2026-10-21T00:45:21Z
+2026-11-03T16:02:21.8767467Z Worker ID: {20531d4d-ab85-4d10-9c47-4d5e108b74a0}
+2026-11-03T16:02:21.8767917Z Region: centralus
+2026-11-03T16:02:21.8768313Z Cloud: Azure
+2026-11-03T16:02:21.8768665Z ##[endgroup]
+2026-11-03T16:02:21.8769474Z ##[group]Operating System
+2026-11-03T16:02:21.8769989Z Ubuntu
+2026-11-03T16:02:21.8770329Z 24.04.5
+2026-11-03T16:02:21.8770699Z LTS
+2026-11-03T16:02:21.8771043Z ##[endgroup]
+2026-11-03T16:02:21.8771388Z ##[group]Runner Image
+2026-11-03T16:02:21.8772010Z Image: ubuntu-24.04
+2026-11-03T16:02:21.8772381Z Version: 20261025.353.1
+2026-11-03T16:02:21.8773242Z Included Software: https://github.com/actions/runner-images/blob/ubuntu24/20261025.353/images/ubuntu/Ubuntu2404-Readme.md
+2026-11-03T16:02:21.8774154Z Image Release: https://github.com/actions/runner-images/releases/tag/ubuntu24%2F20261025.353
+2026-11-03T16:02:21.8774844Z ##[endgroup]
+2026-11-03T16:02:21.8775523Z ##[group]GITHUB_TOKEN Permissions
+2026-11-03T16:02:21.8777236Z Contents: read
+2026-11-03T16:02:21.8777609Z Metadata: read
+2026-11-03T16:02:21.8778007Z ##[endgroup]
+2026-11-03T16:02:21.8779499Z Secret source: Actions
+2026-11-03T16:02:21.8780106Z Cache mode: write
+2026-11-03T16:02:21.8780563Z Prepare workflow directory
+2026-11-03T16:02:21.9028414Z Prepare all required actions
+2026-11-03T16:02:21.9068748Z Getting action download info
+2026-11-03T16:02:22.1931546Z Download action repository 'actions/checkout@v4' (SHA:11d5960a326750d5838078e36cf38b85af677262)
+2026-11-03T16:02:22.2935035Z Download action repository 'actions/setup-python@v5' (SHA:a26af69be951a213d495a4c3e4e4022e16d87065)
+2026-11-03T16:02:22.4089206Z Download action repository 'actions/upload-artifact@v4' (SHA:ea165f8d65b6e75b540449e92b4886f43607fa02)
+2026-11-03T16:02:22.5966483Z Complete job name: replay
+2026-11-03T16:02:22.6503107Z ##[group]Run actions/checkout@v4
+2026-11-03T16:02:22.6503801Z with:
+2026-11-03T16:02:22.6504056Z   repository: MedinaParra/Voynich
+2026-11-03T16:02:22.6506393Z   token: ***
+2026-11-03T16:02:22.6506629Z   ssh-strict: true
+2026-11-03T16:02:22.6506873Z   ssh-user: git
+2026-11-03T16:02:22.6507123Z   persist-credentials: true
+2026-11-03T16:02:22.6507394Z   clean: true
+2026-11-03T16:02:22.6507644Z   sparse-checkout-cone-mode: true
+2026-11-03T16:02:22.6507932Z   fetch-depth: 1
+2026-11-03T16:02:22.6508176Z   fetch-tags: false
+2026-11-03T16:02:22.6508426Z   show-progress: true
+2026-11-03T16:02:22.6508675Z   lfs: false
+2026-11-03T16:02:22.6508903Z   submodules: false
+2026-11-03T16:02:22.6509153Z   set-safe-directory: true
+2026-11-03T16:02:22.6509435Z   allow-unsafe-pr-checkout: false
+2026-11-03T16:02:22.6509793Z ##[endgroup]
+2026-11-03T16:02:22.8804436Z Syncing repository: MedinaParra/Voynich
+2026-11-03T16:02:22.8805677Z ##[group]Getting Git version info
+2026-11-03T16:02:22.8806293Z Working directory is '/home/runner/work/Voynich/Voynich'
+2026-11-03T16:02:22.8807102Z [command]/usr/bin/git version
+2026-11-03T16:02:22.8901223Z git version 2.56.0
+2026-11-03T16:02:22.8914388Z ##[endgroup]
+2026-11-03T16:02:22.8926715Z Temporarily overriding HOME='/home/runner/work/_temp/98126897-25f8-449b-8c69-17466023b459' before making global git config changes
+2026-11-03T16:02:22.8928075Z Adding repository directory to the temporary git global config as a safe directory
+2026-11-03T16:02:22.8930616Z [command]/usr/bin/git config --global --add safe.directory /home/runner/work/Voynich/Voynich
+2026-11-03T16:02:22.8992281Z Deleting the contents of '/home/runner/work/Voynich/Voynich'
+2026-11-03T16:02:22.8993480Z ##[group]Initializing the repository
+2026-11-03T16:02:22.8993873Z [command]/usr/bin/git init /home/runner/work/Voynich/Voynich
+2026-11-03T16:02:22.9100351Z hint: Using 'master' as the name for the initial branch. This default branch name
+2026-11-03T16:02:22.9102900Z hint: will change to "main" in Git 3.0. To configure the initial branch name
+2026-11-03T16:02:22.9103657Z hint: to use in all of your new repositories, which will suppress this warning,
+2026-11-03T16:02:22.9104152Z hint: call:
+2026-11-03T16:02:22.9104447Z hint:
+2026-11-03T16:02:22.9104824Z hint: 	git config --global init.defaultBranch <name>
+2026-11-03T16:02:22.9105234Z hint:
+2026-11-03T16:02:22.9105674Z hint: Names commonly chosen instead of 'master' are 'main', 'trunk' and
+2026-11-03T16:02:22.9106836Z hint: 'development'. The just-created branch can be renamed via this command:
+2026-11-03T16:02:22.9107294Z hint:
+2026-11-03T16:02:22.9107617Z hint: 	git branch -m <name>
+2026-11-03T16:02:22.9107995Z hint:
+2026-11-03T16:02:22.9108554Z hint: Disable this message with "git config set advice.defaultBranchName false"
+2026-11-03T16:02:22.9110711Z Initialized empty Git repository in /home/runner/work/Voynich/Voynich/.git/
+2026-11-03T16:02:22.9122809Z [command]/usr/bin/git remote add origin https://github.com/MedinaParra/Voynich
+2026-11-03T16:02:22.9173593Z ##[endgroup]
+2026-11-03T16:02:22.9174217Z ##[group]Disabling automatic garbage collection
+2026-11-03T16:02:22.9174951Z [command]/usr/bin/git config --local gc.auto 0
+2026-11-03T16:02:22.9207848Z ##[endgroup]
+2026-11-03T16:02:22.9208603Z ##[group]Setting up auth
+2026-11-03T16:02:22.9214573Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+2026-11-03T16:02:22.9251422Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+2026-11-03T16:02:22.9641903Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+2026-11-03T16:02:22.9681615Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+2026-11-03T16:02:22.9885110Z [command]/usr/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+2026-11-03T16:02:22.9923562Z [command]/usr/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+2026-11-03T16:02:23.0122997Z [command]/usr/bin/git config --local http.https://github.com/.extraheader AUTHORIZATION: basic ***
+2026-11-03T16:02:23.0167170Z ##[endgroup]
+2026-11-03T16:02:23.0167825Z ##[group]Fetching the repository
+2026-11-03T16:02:23.0177230Z [command]/usr/bin/git -c protocol.version=2 fetch --no-tags --prune --no-recurse-submodules --depth=1 origin +970715288dd289ee7e2a645c5c2ef5fe037bd6b8:refs/remotes/origin/experiment/kraken-voynich
+2026-11-03T16:02:42.0852702Z From https://github.com/MedinaParra/Voynich
+2026-11-03T16:02:42.0854408Z  * [new ref]         970715288dd289ee7e2a645c5c2ef5fe037bd6b8 -> origin/experiment/kraken-voynich
+2026-11-03T16:02:42.0857952Z ##[endgroup]
+2026-11-03T16:02:42.0859199Z ##[group]Determining the checkout info
+2026-11-03T16:02:42.0860667Z ##[endgroup]
+2026-11-03T16:02:42.0863949Z [command]/usr/bin/git sparse-checkout disable
+2026-11-03T16:02:42.0918804Z [command]/usr/bin/git config --local --unset-all extensions.worktreeConfig
+2026-11-03T16:02:42.0954050Z ##[group]Checking out the ref
+2026-11-03T16:02:42.0957179Z [command]/usr/bin/git checkout --progress --force -B experiment/kraken-voynich refs/remotes/origin/experiment/kraken-voynich
+2026-11-03T16:02:42.4653950Z Switched to a new branch 'experiment/kraken-voynich'
+2026-11-03T16:02:42.4663054Z branch 'experiment/kraken-voynich' set up to track 'origin/experiment/kraken-voynich'.
+2026-11-03T16:02:42.4698445Z ##[endgroup]
+2026-11-03T16:02:42.4749402Z [command]/usr/bin/git log -1 --format=%H
+2026-11-03T16:02:42.4781207Z 970715288dd289ee7e2a645c5c2ef5fe037bd6b8
+2026-11-03T16:02:42.4994243Z ##[group]Run actions/setup-python@v5
+2026-11-03T16:02:42.4994471Z with:
+2026-11-03T16:02:42.4994622Z   python-version: 3.12
+2026-11-03T16:02:42.4994925Z   check-latest: false
+2026-11-03T16:02:42.4996403Z   token: ***
+2026-11-03T16:02:42.4996558Z   update-environment: true
+2026-11-03T16:02:42.4996734Z   allow-prereleases: false
+2026-11-03T16:02:42.4996894Z   freethreaded: false
+2026-11-03T16:02:42.5059805Z ##[endgroup]
+2026-11-03T16:02:42.5952957Z ##[group]Installed versions
+2026-11-03T16:02:42.6156703Z (node:2106) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+2026-11-03T16:02:42.6157381Z (Use `node --trace-deprecation ...` to show where the warning was created)
+2026-11-03T16:02:42.6157806Z Successfully set up CPython (3.12.15)
+2026-11-03T16:02:42.6158183Z ##[endgroup]
+2026-11-03T16:02:42.6316332Z ##[group]Run python research_gpt6/code/test_boundary_adversary.py
+2026-11-03T16:02:42.6316755Z [36;1mpython research_gpt6/code/test_boundary_adversary.py[0m
+2026-11-03T16:02:42.6351546Z shell: /usr/bin/bash -e {0}
+2026-11-03T16:02:42.6351987Z env:
+2026-11-03T16:02:42.6352205Z   pythonLocation: /opt/hostedtoolcache/Python/3.12.15/x64
+2026-11-03T16:02:42.6352529Z   PKG_CONFIG_PATH: /opt/hostedtoolcache/Python/3.12.15/x64/lib/pkgconfig
+2026-11-03T16:02:42.6352812Z   Python_ROOT_DIR: /opt/hostedtoolcache/Python/3.12.15/x64
+2026-11-03T16:02:42.6353073Z   Python2_ROOT_DIR: /opt/hostedtoolcache/Python/3.12.15/x64
+2026-11-03T16:02:42.6353330Z   Python3_ROOT_DIR: /opt/hostedtoolcache/Python/3.12.15/x64
+2026-11-03T16:02:42.6353586Z   LD_LIBRARY_PATH: /opt/hostedtoolcache/Python/3.12.15/x64/lib
+2026-11-03T16:02:42.6353808Z ##[endgroup]
+2026-11-03T16:02:42.7823673Z test_budget_is_at_most_and_global_extrema_match_exhaustive (__main__.MathematicalControls.test_budget_is_at_most_and_global_extrema_match_exhaustive) ... ok
+2026-11-03T16:02:42.7824459Z test_replica_envelope_dominates_every_global_world (__main__.MathematicalControls.test_replica_envelope_dominates_every_global_world) ... ok
+2026-11-03T16:02:42.7824962Z test_two_interiors_are_degenerate (__main__.MathematicalControls.test_two_interiors_are_degenerate) ... ok
+2026-11-03T16:02:42.7843951Z test_uniform_permutation_centering (__main__.MathematicalControls.test_uniform_permutation_centering) ... ok
+2026-11-03T16:02:42.7844209Z 
+2026-11-03T16:02:42.7844344Z ----------------------------------------------------------------------
+2026-11-03T16:02:42.7844613Z Ran 4 tests in 0.002s
+2026-11-03T16:02:42.7844709Z 
+2026-11-03T16:02:42.7844772Z OK
+2026-11-03T16:02:42.7938518Z ##[group]Run python research_gpt6/code/boundary_adversary.py --repo research_gpt6 --out work/boundary_adversary --plan research_gpt6/data/boundary_adversary_plan.json
+2026-11-03T16:02:42.7939175Z [36;1mpython research_gpt6/code/boundary_adversary.py --repo research_gpt6 --out work/boundary_adversary --plan research_gpt6/data/boundary_adversary_plan.json[0m
+2026-11-03T16:02:42.7956948Z shell: /usr/bin/bash -e {0}
+2026-11-03T16:02:42.7957120Z env:
+2026-11-03T16:02:42.7957312Z   pythonLocation: /opt/hostedtoolcache/Python/3.12.15/x64
+2026-11-03T16:02:42.7957587Z   PKG_CONFIG_PATH: /opt/hostedtoolcache/Python/3.12.15/x64/lib/pkgconfig
+2026-11-03T16:02:42.7957872Z   Python_ROOT_DIR: /opt/hostedtoolcache/Python/3.12.15/x64
+2026-11-03T16:02:42.7958116Z   Python2_ROOT_DIR: /opt/hostedtoolcache/Python/3.12.15/x64
+2026-11-03T16:02:42.7958361Z   Python3_ROOT_DIR: /opt/hostedtoolcache/Python/3.12.15/x64
+2026-11-03T16:02:42.7958633Z   LD_LIBRARY_PATH: /opt/hostedtoolcache/Python/3.12.15/x64/lib
+2026-11-03T16:02:42.7958844Z ##[endgroup]
+2026-11-03T16:02:44.3436588Z {
+2026-11-03T16:02:44.3437104Z   "vt_score": [
+2026-11-03T16:02:44.3437328Z     43,
+2026-11-03T16:02:44.3437489Z     315
+2026-11-03T16:02:44.3437647Z   ],
+2026-11-03T16:02:44.3437908Z   "fragility_min_flips_to_nonpositive": 2,
+2026-11-03T16:02:44.3438116Z   "calibration_gate_passed": true,
+2026-11-03T16:02:44.3438296Z   "global_boundary_worlds": 562949953421312,
+2026-11-03T16:02:44.3438496Z   "local_paths": 170,
+2026-11-03T16:02:44.3438651Z   "optional_boundaries": 49,
+2026-11-03T16:02:44.3438809Z   "baseline_token_counts": {
+2026-11-03T16:02:44.3438980Z     "1": 1,
+2026-11-03T16:02:44.3439491Z     "2": 2,
+2026-11-03T16:02:44.3439600Z     "3": 7,
+2026-11-03T16:02:44.3439714Z     "4": 14,
+2026-11-03T16:02:44.3439846Z     "5": 19,
+2026-11-03T16:02:44.3439953Z     "6": 12,
+2026-11-03T16:02:44.3440059Z     "7": 14,
+2026-11-03T16:02:44.3440164Z     "8": 15,
+2026-11-03T16:02:44.3440278Z     "9": 13,
+2026-11-03T16:02:44.3440401Z     "11": 1
+2026-11-03T16:02:44.3440516Z   },
+2026-11-03T16:02:44.3440638Z   "invariances": {
+2026-11-03T16:02:44.3440805Z     "all_local_paths_bijective_character_substitution": true,
+2026-11-03T16:02:44.3441008Z     "all_local_paths_reversed_tokens": true,
+2026-11-03T16:02:44.3441253Z     "consequence": "Statistic cannot identify a monoalphabetic key or reading direction"
+2026-11-03T16:02:44.3441484Z   },
+2026-11-03T16:02:44.3441996Z   "scope": "Already-used 98 literal letter-equal loci; boundary stress family only, no glyph-alternative or whole-family mechanism inference",
+2026-11-03T16:02:44.3442337Z   "score_vt_float": 0.1365079365079365,
+2026-11-03T16:02:44.3442578Z   "p_vt_mc": 0.426,
+2026-11-03T16:02:44.3442756Z   "p_upper_mc": 0.634,
+2026-11-03T16:02:44.3442884Z   "stress": [
+2026-11-03T16:02:44.3442997Z     {
+2026-11-03T16:02:44.3443107Z       "budget": 0,
+2026-11-03T16:02:44.3443234Z       "min_score": 0.1365079365079365,
+2026-11-03T16:02:44.3443385Z       "max_score": 0.1365079365079365,
+2026-11-03T16:02:44.3443539Z       "min_actual_flips": 0
+2026-11-03T16:02:44.3443671Z     },
+2026-11-03T16:02:44.3443773Z     {
+2026-11-03T16:02:44.3443877Z       "budget": 1,
+2026-11-03T16:02:44.3444004Z       "min_score": 0.026984126984126985,
+2026-11-03T16:02:44.3444158Z       "max_score": 0.25555555555555554,
+2026-11-03T16:02:44.3444310Z       "min_actual_flips": 1
+2026-11-03T16:02:44.3444437Z     },
+2026-11-03T16:02:44.3444542Z     {
+2026-11-03T16:02:44.3444650Z       "budget": 2,
+2026-11-03T16:02:44.3444783Z       "min_score": -0.006349206349206349,
+2026-11-03T16:02:44.3444937Z       "max_score": 0.35079365079365077,
+2026-11-03T16:02:44.3445084Z       "min_actual_flips": 2
+2026-11-03T16:02:44.3445251Z     },
+2026-11-03T16:02:44.3445353Z     {
+2026-11-03T16:02:44.3445456Z       "budget": 4,
+2026-11-03T16:02:44.3445583Z       "min_score": -0.05396825396825397,
+2026-11-03T16:02:44.3445733Z       "max_score": 0.4793650793650794,
+2026-11-03T16:02:44.3445880Z       "min_actual_flips": 4
+2026-11-03T16:02:44.3446008Z     },
+2026-11-03T16:02:44.3446294Z     {
+2026-11-03T16:02:44.3446400Z       "budget": 8,
+2026-11-03T16:02:44.3446525Z       "min_score": -0.10238095238095238,
+2026-11-03T16:02:44.3446673Z       "max_score": 0.5769841269841269,
+2026-11-03T16:02:44.3446820Z       "min_actual_flips": 8
+2026-11-03T16:02:44.3446949Z     },
+2026-11-03T16:02:44.3447048Z     {
+2026-11-03T16:02:44.3447153Z       "budget": 49,
+2026-11-03T16:02:44.3447278Z       "min_score": -0.11428571428571428,
+2026-11-03T16:02:44.3447443Z       "max_score": 0.5968253968253968,
+2026-11-03T16:02:44.3447629Z       "min_actual_flips": 9
+2026-11-03T16:02:44.3447760Z     }
+2026-11-03T16:02:44.3447865Z   ],
+2026-11-03T16:02:44.3447970Z   "calibration": {
+2026-11-03T16:02:44.3448090Z     "copy_clean": {
+2026-11-03T16:02:44.3448214Z       "p_vt": 0.005,
+2026-11-03T16:02:44.3448340Z       "p_upper": 0.005
+2026-11-03T16:02:44.3448460Z     },
+2026-11-03T16:02:44.3448569Z     "copy_ambiguous": {
+2026-11-03T16:02:44.3448699Z       "p_vt": 0.005,
+2026-11-03T16:02:44.3448844Z       "p_upper": 0.005
+2026-11-03T16:02:44.3448962Z     },
+2026-11-03T16:02:44.3449075Z     "shuffled_matched_clean": {
+2026-11-03T16:02:44.3449214Z       "p_vt": 0.25,
+2026-11-03T16:02:44.3449342Z       "p_upper": 0.25
+2026-11-03T16:02:44.3449462Z     },
+2026-11-03T16:02:44.3449580Z     "shuffled_matched_ambiguous": {
+2026-11-03T16:02:44.3449723Z       "p_vt": 0.25,
+2026-11-03T16:02:44.3449843Z       "p_upper": 0.305
+2026-11-03T16:02:44.3449961Z     }
+2026-11-03T16:02:44.3450066Z   }
+2026-11-03T16:02:44.3450168Z }
+2026-11-03T16:02:44.3533507Z ##[group]Run python - <<'PY'
+2026-11-03T16:02:44.3533707Z [36;1mpython - <<'PY'[0m
+2026-11-03T16:02:44.3533975Z [36;1mfrom pathlib import Path[0m
+2026-11-03T16:02:44.3534128Z [36;1mimport json,gzip[0m
+2026-11-03T16:02:44.3534429Z [36;1mdef read(p):return json.loads(p.read_bytes() if p.exists() else gzip.decompress(p.with_suffix(p.suffix+'.gz').read_bytes()))[0m
+2026-11-03T16:02:44.3534792Z [36;1mfor name in ['result.json','summary.json','calibration.json']:[0m
+2026-11-03T16:02:44.3535147Z [36;1m    assert read(Path('research_gpt6/results/boundary_adversary')/name)==read(Path('work/boundary_adversary')/name),name[0m
+2026-11-03T16:02:44.3535496Z [36;1mprint('IDENTICAL_EXACT_CERTIFICATES_AND_MONTE_CARLO_RECORDS')[0m
+2026-11-03T16:02:44.3535697Z [36;1mPY[0m
+2026-11-03T16:02:44.3553687Z shell: /usr/bin/bash -e {0}
+2026-11-03T16:02:44.3553831Z env:
+2026-11-03T16:02:44.3553986Z   pythonLocation: /opt/hostedtoolcache/Python/3.12.15/x64
+2026-11-03T16:02:44.3554259Z   PKG_CONFIG_PATH: /opt/hostedtoolcache/Python/3.12.15/x64/lib/pkgconfig
+2026-11-03T16:02:44.3554497Z   Python_ROOT_DIR: /opt/hostedtoolcache/Python/3.12.15/x64
+2026-11-03T16:02:44.3554720Z   Python2_ROOT_DIR: /opt/hostedtoolcache/Python/3.12.15/x64
+2026-11-03T16:02:44.3554932Z   Python3_ROOT_DIR: /opt/hostedtoolcache/Python/3.12.15/x64
+2026-11-03T16:02:44.3555152Z   LD_LIBRARY_PATH: /opt/hostedtoolcache/Python/3.12.15/x64/lib
+2026-11-03T16:02:44.3555339Z ##[endgroup]
+2026-11-03T16:02:44.3814118Z IDENTICAL_EXACT_CERTIFICATES_AND_MONTE_CARLO_RECORDS
+2026-11-03T16:02:44.3875131Z ##[group]Run python research_gpt6/code/audit_boundary_adversary.py --repo research_gpt6 --out work/boundary_adversary/audit.json
+2026-11-03T16:02:44.3875642Z [36;1mpython research_gpt6/code/audit_boundary_adversary.py --repo research_gpt6 --out work/boundary_adversary/audit.json[0m
+2026-11-03T16:02:44.3875947Z [36;1mpython - <<'PY'[0m
+2026-11-03T16:02:44.3876087Z [36;1mimport json[0m
+2026-11-03T16:02:44.3876225Z [36;1mfrom pathlib import Path[0m
+2026-11-03T16:02:44.3876451Z [36;1mactual=json.loads(Path('work/boundary_adversary/audit.json').read_text())[0m
+2026-11-03T16:02:44.3876794Z [36;1mexpected=json.loads(Path('research_gpt6/results/boundary_adversary/audit.json').read_text())[0m
+2026-11-03T16:02:44.3877090Z [36;1massert actual==expected and actual['status']=='PASS'[0m
+2026-11-03T16:02:44.3877323Z [36;1mprint('IDENTICAL_INDEPENDENT_EXACT_CERTIFICATE_AUDIT')[0m
+2026-11-03T16:02:44.3877511Z [36;1mPY[0m
+2026-11-03T16:02:44.3894926Z shell: /usr/bin/bash -e {0}
+2026-11-03T16:02:44.3895104Z env:
+2026-11-03T16:02:44.3895269Z   pythonLocation: /opt/hostedtoolcache/Python/3.12.15/x64
+2026-11-03T16:02:44.3895516Z   PKG_CONFIG_PATH: /opt/hostedtoolcache/Python/3.12.15/x64/lib/pkgconfig
+2026-11-03T16:02:44.3895757Z   Python_ROOT_DIR: /opt/hostedtoolcache/Python/3.12.15/x64
+2026-11-03T16:02:44.3895977Z   Python2_ROOT_DIR: /opt/hostedtoolcache/Python/3.12.15/x64
+2026-11-03T16:02:44.3896193Z   Python3_ROOT_DIR: /opt/hostedtoolcache/Python/3.12.15/x64
+2026-11-03T16:02:44.3896415Z   LD_LIBRARY_PATH: /opt/hostedtoolcache/Python/3.12.15/x64/lib
+2026-11-03T16:02:44.3896612Z ##[endgroup]
+2026-11-03T16:02:44.4650622Z {"status": "PASS", "checks": 1674, "mismatches": []}
+2026-11-03T16:02:44.4873071Z IDENTICAL_INDEPENDENT_EXACT_CERTIFICATE_AUDIT
+2026-11-03T16:02:44.4952516Z ##[group]Run actions/upload-artifact@v4
+2026-11-03T16:02:44.4952702Z with:
+2026-11-03T16:02:44.4952838Z   name: boundary-adversary-replay
+2026-11-03T16:02:44.4953077Z   path: work/boundary_adversary/summary.json
+work/boundary_adversary/audit.json
+
+2026-11-03T16:02:44.4953314Z   retention-days: 30
+2026-11-03T16:02:44.4953449Z   if-no-files-found: warn
+2026-11-03T16:02:44.4953587Z   compression-level: 6
+2026-11-03T16:02:44.4953718Z   overwrite: false
+2026-11-03T16:02:44.4953857Z   include-hidden-files: false
+2026-11-03T16:02:44.4953998Z env:
+2026-11-03T16:02:44.4954153Z   pythonLocation: /opt/hostedtoolcache/Python/3.12.15/x64
+2026-11-03T16:02:44.4954406Z   PKG_CONFIG_PATH: /opt/hostedtoolcache/Python/3.12.15/x64/lib/pkgconfig
+2026-11-03T16:02:44.4954654Z   Python_ROOT_DIR: /opt/hostedtoolcache/Python/3.12.15/x64
+2026-11-03T16:02:44.4955016Z   Python2_ROOT_DIR: /opt/hostedtoolcache/Python/3.12.15/x64
+2026-11-03T16:02:44.4955261Z   Python3_ROOT_DIR: /opt/hostedtoolcache/Python/3.12.15/x64
+2026-11-03T16:02:44.4955488Z   LD_LIBRARY_PATH: /opt/hostedtoolcache/Python/3.12.15/x64/lib
+2026-11-03T16:02:44.4955678Z ##[endgroup]
+2026-11-03T16:02:44.6096429Z (node:2124) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+2026-11-03T16:02:44.6096928Z (Use `node --trace-deprecation ...` to show where the warning was created)
+2026-11-03T16:02:44.6152703Z Multiple search paths detected. Calculating the least common ancestor of all paths
+2026-11-03T16:02:44.6153675Z The least common ancestor is /home/runner/work/Voynich/Voynich/work/boundary_adversary. This will be the root directory of the artifact
+2026-11-03T16:02:44.6154045Z With the provided path, there will be 2 files uploaded
+2026-11-03T16:02:44.6154421Z Artifact name is valid!
+2026-11-03T16:02:44.6154572Z Root directory input is valid!
+2026-11-03T16:02:44.9274921Z Beginning upload of artifact content to blob storage
+2026-11-03T16:02:44.9400669Z (node:2124) [DEP0169] DeprecationWarning: `url.parse()` behavior is not standardized and prone to errors that have security implications. Use the WHATWG URL API instead. CVEs are not issued for `url.parse()` vulnerabilities.
+2026-11-03T16:02:45.1185964Z Uploaded bytes 1515
+2026-11-03T16:02:45.1711047Z Finished uploading artifact content to blob storage!
+2026-11-03T16:02:45.1711581Z SHA256 digest of uploaded artifact zip is 5b6d35aa594425b4bc6e1c1947f28f3dc9c5645d8a3ba673555a5b0400865891
+2026-11-03T16:02:45.1713566Z Finalizing artifact upload
+2026-11-03T16:02:45.6648755Z Artifact boundary-adversary-replay.zip successfully finalized. Artifact ID 13247826746
+2026-11-03T16:02:45.6649432Z Artifact boundary-adversary-replay has been successfully uploaded! Final size is 1515 bytes. Artifact ID is 13247826746
+2026-11-03T16:02:45.6654618Z Artifact download URL: https://github.com/MedinaParra/Voynich/actions/runs/41670013108/artifacts/13247826746
+2026-11-03T16:02:45.6816924Z Post job cleanup.
+2026-11-03T16:02:45.7608171Z (node:2136) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+2026-11-03T16:02:45.7608614Z (Use `node --trace-deprecation ...` to show where the warning was created)
+2026-11-03T16:02:45.7824659Z Post job cleanup.
+2026-11-03T16:02:45.8435651Z [command]/usr/bin/git version
+2026-11-03T16:02:45.8471312Z git version 2.56.0
+2026-11-03T16:02:45.8497530Z Temporarily overriding HOME='/home/runner/work/_temp/9e24eeb2-7fcf-42d0-9f23-8111fe4cd19b' before making global git config changes
+2026-11-03T16:02:45.8498126Z Adding repository directory to the temporary git global config as a safe directory
+2026-11-03T16:02:45.8501214Z [command]/usr/bin/git config --global --add safe.directory /home/runner/work/Voynich/Voynich
+2026-11-03T16:02:45.8536608Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+2026-11-03T16:02:45.8573121Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+2026-11-03T16:02:45.8806240Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+2026-11-03T16:02:45.8841425Z http.https://github.com/.extraheader
+2026-11-03T16:02:45.8856366Z [command]/usr/bin/git config --local --unset-all http.https://github.com/.extraheader
+2026-11-03T16:02:45.8907865Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+2026-11-03T16:02:45.9175106Z [command]/usr/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+2026-11-03T16:02:45.9215379Z [command]/usr/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+2026-11-03T16:02:45.9564265Z Cleaning up orphan processes
+2026-11-03T16:02:45.9831242Z ##[warning]Node.js 20 is deprecated. The following actions target Node.js 20 but are being forced to run on Node.js 24: actions/checkout@v4, actions/setup-python@v5, actions/upload-artifact@v4. For more information see: https://github.blog/changelog/2025-09-19-deprecation-of-node-20-on-github-actions-runners/

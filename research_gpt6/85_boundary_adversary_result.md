@@ -16,7 +16,7 @@ La incorporación nueva para este proyecto es **calcular extremos exactos para u
 
 ## Familia finita de anotaciones
 
-De los 159 loci comparados en 81, se toman los 98 con letras proyectadas idénticas en VT yZL. Se mantienen fijas esas letras. Los 40 loci con diferencias literales y 21 complejos quedan fuera. No es una prueba de todas las lecturas o todos los glifos posibles.
+De los 159 loci comparados en 81, se toman los 98 con letras proyectadas idénticas en VT y ZL. Se mantienen fijas esas letras. Los 40 loci con diferencias literales y 21 complejos quedan fuera. No es una prueba de todas las lecturas o todos los glifos posibles.
 
 Una frontera presente y cierta en ambos archivos se mantiene. Una posición discrepante o incierta se puede activar/desactivar. La familia contiene 49 decisiones binarias: **562.949.953.421.312 combinaciones globales**, pero sólo 170 segmentaciones locales distribuidas entre 98 loci. El máximo local es 16. La programación dinámica combina las contribuciones sin recorrer el producto global.
 
@@ -32,11 +32,11 @@ T_l=\frac{H_{adyacentes}}{M-1}-\frac{H_{pares\ ordenados,\ i\ne j}}{M(M-1)}.
 
 Los pares se cuentan por posición, incluyendo palabras iguales en posiciones diferentes; la diagonal se excluye. Para M<2 se define 0. La segunda fracción es la esperanza de la primera al permutar uniformemente esos mismos tokens interiores. El total es la suma por locus con igual peso; no es porcentaje de copia, de idioma o de desciframiento.
 
-Con sólo dos tokens interiores, el indicador también vale 0 por simetría. En VT,24/98 loci tienen cuatro tokens o menos y son estructuralmente nulos para esta medida. La mediana real es 6 tokens. Una frontera próxima al extremo puede cambiar qué texto se excluye como primer/último token: la fragilidad certificada es operacional y no sólo una modificación de vecindad a texto interior constante.
+Con sólo dos tokens interiores, el indicador también vale 0 por simetría. En VT, 24/98 loci tienen cuatro tokens o menos y son estructuralmente nulos para esta medida. La mediana real es 6 tokens. Una frontera próxima al extremo puede cambiar qué texto se excluye como primer/último token: la fragilidad certificada es operacional y no sólo una modificación de vecindad a texto interior constante.
 
 ## Curva exacta de estrés
 
-El presupuesto es un máximo de cambios respecto deVT, no un número obligatorio. Los valores son sumas de fracciones exactas; se muestran redondeados.
+El presupuesto es un máximo de cambios respecto de VT, no un número obligatorio. Los valores son sumas de fracciones exactas; se muestran redondeados.
 
 | Presupuesto máximo | Mínimo del indicador | Máximo |
 |---|---:|---:|
@@ -66,7 +66,7 @@ Se generaron 999 permutaciones interiores que conservan, para cada segmentación
 
 | Registro condicional de Monte Carlo | Valor |
 |---|---:|
-|Cola deVT, con corrección más-uno|0,426|
+|Cola de VT, con corrección más-uno|0,426|
 |Cota superior de las colas de cualquier mundo fijo en la simulación acoplada|0,634|
 
 La segunda cantidad usa, por réplica, el máximo de la diferencia permutado−observado en cada locus y suma esos máximos. Domina la diferencia de cualquier combinación fija. Es una derivación de este experimento, no un método atribuido al artículo de Phipson–Smyth que fundamenta la corrección más-uno.
@@ -98,7 +98,7 @@ El [auditor separado](code/audit_boundary_adversary.py) recalculó las fuentes, 
 
 El prototipo construyó las tablas reales antes de los ejemplos sintéticos. Se reordenó el pipeline para ejecutar primero la calibración, sin cambiar parámetros; los tres archivos de resultados quedaron idénticos por hash. Se preserva [el registro de esa reproducción](results/boundary_adversary/execution_order_replay.json).
 
-[Resumen](results/boundary_adversary/summary.json), resultados/caminos y simulaciones completas se conservan sin pérdida, con hashes. La reproducción desde un checkout limpio en GitHub se registrará cuando exista; no se anticipa como completada.
+[Resumen](results/boundary_adversary/summary.json), resultados/caminos y simulaciones completas se conservan sin pérdida, con hashes. La [reproducción desde un checkout limpio en GitHub](https://github.com/MedinaParra/Voynich/actions/runs/41670013108), commit `970715288dd289ee7e2a645c5c2ef5fe037bd6b8`, pasó: se reconstruyeron idénticos todos los registros de calibración, caminos, certificados y simulaciones, y el auditor exacto reprodujo su resultado. Se descargó y verificó el digest del ZIP; se conservan [el recibo](results/boundary_adversary/ci_receipt.json), el log y los registros de resumen/auditoría. La reproducción no añade validación de un mecanismo histórico.
 
 ```bash
 python research_gpt6/code/boundary_adversary.py --repo research_gpt6 \

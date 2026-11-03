@@ -1,0 +1,25 @@
+{
+  "status": "PASS",
+  "checks": 1674,
+  "mismatches": [],
+  "control_checks": 47,
+  "controls": {
+    "tiny_fixture_global_combinations": 16,
+    "fixtures": 3,
+    "scope": "Exact scoring examples and independent DP versus exhaustive product enumeration."
+  },
+  "loci": 98,
+  "local_paths_recomputed": 170,
+  "certificates": 6,
+  "VT_score_recomputed": [
+    43,
+    315
+  ],
+  "fragility_min_flips_to_nonpositive": 2,
+  "exact_total_costs": 50,
+  "result_sha256": "e3eab31de59fb5c701285958a74d68d27e1126ed7f1e6d475bb4ce5814811dcc",
+  "comparison_source_sha256": "6b4075bea04c49e189edc66c9b7c5fb2c1b391268d3ce9f2ba81f4a88e69f35c",
+  "scope": "Independent full-matrix edit scores, exact rational cost DP, exhaustive local boundary sets, certificate witnesses and tiny global brute-force controls. Finite annotation family only; no language identification, OCR, neural inference, paleographic validation, or permutation-p-value audit.",
+  "translation": "NOT_RUN",
+  "training": "NOT_RUN"
+}

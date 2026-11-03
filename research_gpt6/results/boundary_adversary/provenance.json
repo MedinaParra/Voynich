@@ -9,7 +9,12 @@
   "repetition_note": "Reordered calibration before real scored-table construction; all scientific result bytes identical, receipt preserved",
   "interpretation": "Sign fragility2, VTtail0.426, simulated envelope0.634; no robust local-order rejection established by this diagnostic",
   "audit": "Independent exact certificate audit PASS1674checks; permutation tails not independently audited",
-  "CI_replay": "PENDING_PUBLICATION",
+  "CI_replay": {
+    "status": "success",
+    "run_id": 41670013108,
+    "receipt": "ci_receipt.json",
+    "artifact_digest_verified": true
+  },
   "training": "NOT_RUN",
   "new_OCR": "NOT_RUN",
   "approved_labels_changed": 0,

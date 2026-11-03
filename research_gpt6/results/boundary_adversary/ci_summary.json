@@ -1,0 +1,88 @@
+{
+  "vt_score": [
+    43,
+    315
+  ],
+  "fragility_min_flips_to_nonpositive": 2,
+  "calibration_gate_passed": true,
+  "global_boundary_worlds": 562949953421312,
+  "local_paths": 170,
+  "optional_boundaries": 49,
+  "baseline_token_counts": {
+    "1": 1,
+    "2": 2,
+    "3": 7,
+    "4": 14,
+    "5": 19,
+    "6": 12,
+    "7": 14,
+    "8": 15,
+    "9": 13,
+    "11": 1
+  },
+  "invariances": {
+    "all_local_paths_bijective_character_substitution": true,
+    "all_local_paths_reversed_tokens": true,
+    "consequence": "Statistic cannot identify a monoalphabetic key or reading direction"
+  },
+  "scope": "Already-used 98 literal letter-equal loci; boundary stress family only, no glyph-alternative or whole-family mechanism inference",
+  "score_vt_float": 0.1365079365079365,
+  "p_vt_mc": 0.426,
+  "p_upper_mc": 0.634,
+  "stress": [
+    {
+      "budget": 0,
+      "min_score": 0.1365079365079365,
+      "max_score": 0.1365079365079365,
+      "min_actual_flips": 0
+    },
+    {
+      "budget": 1,
+      "min_score": 0.026984126984126985,
+      "max_score": 0.25555555555555554,
+      "min_actual_flips": 1
+    },
+    {
+      "budget": 2,
+      "min_score": -0.006349206349206349,
+      "max_score": 0.35079365079365077,
+      "min_actual_flips": 2
+    },
+    {
+      "budget": 4,
+      "min_score": -0.05396825396825397,
+      "max_score": 0.4793650793650794,
+      "min_actual_flips": 4
+    },
+    {
+      "budget": 8,
+      "min_score": -0.10238095238095238,
+      "max_score": 0.5769841269841269,
+      "min_actual_flips": 8
+    },
+    {
+      "budget": 49,
+      "min_score": -0.11428571428571428,
+      "max_score": 0.5968253968253968,
+      "min_actual_flips": 9
+    }
+  ],
+  "calibration": {
+    "copy_clean": {
+      "p_vt": 0.005,
+      "p_upper": 0.005
+    },
+    "copy_ambiguous": {
+      "p_vt": 0.005,
+      "p_upper": 0.005
+    },
+    "shuffled_matched_clean": {
+      "p_vt": 0.25,
+      "p_upper": 0.25
+    },
+    "shuffled_matched_ambiguous": {
+      "p_vt": 0.25,
+      "p_upper": 0.305
+    }
+  }
+}

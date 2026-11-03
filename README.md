@@ -101,3 +101,5 @@ La [reproducción informática de la revisión asistida desde GitHub](https://gi
 ## Adversario exacto de fronteras — 3 de noviembre de 2026
 
 [Protocolo 84](research_gpt6/84_boundary_adversary_protocol.md) y [resultado 85](research_gpt6/85_boundary_adversary_result.md): en 98 loci de letrasVT/ZL iguales se enumeran 170 segmentaciones locales y se certifican extremos sobre 2^49 combinaciones de 49 fronteras opcionales. Un indicador centrado de semejanza vecinal cambia de 43/315 a−2/315 con dos decisiones concretas de frontera, conservando las letras. VT ya es compatible con el control de orden aleatorio(colaMC 0,426); no era una evidencia estadística sólida. Los cuatro controles sintéticos pasan, pero no están emparejados en longitud con los loci reales. Auditor independiente de certificados:1674 comprobaciones; el indicador no identifica clave ni dirección. No hay nuevas etiquetas, OCR, entrenamiento o traducción.
+
+La [reproducción del adversario desde un checkout limpio en GitHub](https://github.com/MedinaParra/Voynich/actions/runs/41670013108) pasó con todos los registros y certificados idénticos; no valida una clave o un mecanismo histórico.
