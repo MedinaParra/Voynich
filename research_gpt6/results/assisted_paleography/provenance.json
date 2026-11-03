@@ -19,7 +19,13 @@
   "assistant_visual_scope": "Root inspected all6 native-context sheets and original/photo-model comparison; readers self-report inspecting all6sheets; no physical manuscript or expert certification",
   "integrity": "120 file/schema/coordinate checks; paleographic decisions not validated",
   "local_replay": "all6 JPEG presentation sheets and mapping identical",
-  "CI_replay": "PENDING_PUBLICATION",
+  "CI_replay": {
+    "status": "success",
+    "run_id": 41666034936,
+    "receipt": "ci_receipt.json",
+    "artifact_digest_verified": true,
+    "scope": "byte-identical presentation and recorded observations/proposals; not paleographic validation"
+  },
   "editorial_proposals": 3,
   "labels_changed": 0,
   "geometry_changed": 0,

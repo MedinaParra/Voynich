@@ -54,7 +54,7 @@ La prioridad de estos tres casos se apoya en forma visible y comparación local,
 - **`y.chaiir` / `y,chaies`, B13/B16:** se conservan la incertidumbre de separación y de remates. El contexto muestra tinta de otras alturas de escritura.
 - **`otal.dam` / `otaldam`, B24/B03:** hay separación gráfica apreciable entre grupos, pero su presencia no demuestra un límite léxico. Ninguna decisión de fusión o separación se aprueba.
 
-Los minimales y los remates se describen como formas. No se convierten cadenas EVA `iin` en una `m` latina ni se presume una pronunciación.
+Los grupos de minims y los remates se describen como formas. No se convierten cadenas EVA `iin` en una `m` latina ni se presume una pronunciación.
 
 ## Revisión de los límites de los recortes
 
@@ -82,7 +82,7 @@ Las [referencias y alcance de acceso](results/assisted_paleography/source_refere
 
 Se verificaron hashes de las fotos nativas, dimensiones IIIF, identidad de los 24 casos previos, coordenadas de presentación y consistencia de los registros. Las seis láminas se reprodujeron byte por byte localmente usando los mismos originales y una fuente de rótulos preservada con su licencia.
 
-El [registro de integridad](results/assisted_paleography/integrity.json) explicita que esas comprobaciones **no validan la paleografía**. La reproducción informática ensambla observaciones ya registradas; no vuelve a leer las imágenes como un especialista. El resultado del workflow desde un checkout limpio se añadirá cuando exista.
+El [registro de integridad](results/assisted_paleography/integrity.json) explicita que esas comprobaciones **no validan la paleografía**. La reproducción informática ensambla observaciones ya registradas; no vuelve a leer las imágenes como un especialista. La [reproducción desde un checkout limpio en GitHub](https://github.com/MedinaParra/Voynich/actions/runs/41666034936), commit `26e3edcaa12c64404e4d6c3b2edf85b0d0e36adb`, pasó: láminas e ilustración idénticas byte por byte, y los mismos registros y propuestas. Se descargó y verificó el digest del ZIP; se conservan [el recibo](results/assisted_paleography/ci_receipt.json), el log y los registros de integridad/resumen. Ese resultado no convierte decisiones editoriales registradas en paleografía validada.
 
 ```bash
 python -m pip install pillow==12.3.0

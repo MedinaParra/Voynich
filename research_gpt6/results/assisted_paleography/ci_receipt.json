@@ -1,0 +1,111 @@
+{
+  "run_id": 41666034936,
+  "url": "https://github.com/MedinaParra/Voynich/actions/runs/41666034936",
+  "commit": "26e3edcaa12c64404e4d6c3b2edf85b0d0e36adb",
+  "status": "completed",
+  "conclusion": "success",
+  "jobs": [
+    {
+      "id": 126021477721,
+      "name": "replay",
+      "status": "completed",
+      "conclusion": "success",
+      "run_id": 41666034936,
+      "logs_url": null,
+      "steps": [
+        {
+          "name": "Set up job",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 1
+        },
+        {
+          "name": "Run actions/checkout@v4",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 2
+        },
+        {
+          "name": "Run actions/setup-python@v5",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 3
+        },
+        {
+          "name": "Run python -m pip install pillow==12.3.0",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 4
+        },
+        {
+          "name": "Verify preserved original bytes and review schema",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 5
+        },
+        {
+          "name": "Rebuild presentation and assemble recorded observations",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 6
+        },
+        {
+          "name": "Compare image bytes and recorded interpretations",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 7
+        },
+        {
+          "name": "Run actions/upload-artifact@v4",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 8
+        },
+        {
+          "name": "Post Run actions/setup-python@v5",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 15
+        },
+        {
+          "name": "Post Run actions/checkout@v4",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 16
+        },
+        {
+          "name": "Complete job",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 17
+        }
+      ]
+    }
+  ],
+  "artifact": {
+    "id": 13246931343,
+    "name": "paleography-record-replay",
+    "size_in_bytes": 1414,
+    "url": "https://api.github.com/repos/MedinaParra/Voynich/actions/artifacts/13246931343",
+    "archive_download_url": "https://api.github.com/repos/MedinaParra/Voynich/actions/artifacts/13246931343/zip",
+    "expired": false,
+    "created_at": "2026-11-03T15:39:10Z",
+    "expires_at": "2026-12-03T15:39:09Z",
+    "updated_at": "2026-11-03T15:39:10Z",
+    "digest": "sha256:ab574c6c03b8e86ae5f0528f5b39f0835c5f597a8ba9817a05daee1a2d89487f",
+    "workflow_run": {
+      "id": 41666034936,
+      "repository_id": 1405664605,
+      "head_repository_id": 1405664605,
+      "head_branch": "experiment/kraken-voynich",
+      "head_sha": "26e3edcaa12c64404e4d6c3b2edf85b0d0e36adb"
+    }
+  },
+  "downloaded_zip_sha256": "ab574c6c03b8e86ae5f0528f5b39f0835c5f597a8ba9817a05daee1a2d89487f",
+  "digest_verified": true,
+  "summary_and_integrity_identical": true,
+  "presentation_bytes_and_recorded_editorial_data_identical": "verified in job log",
+  "paleographic_validation": false,
+  "human_expert_review": "NOT_REVIEWED",
+  "new_training": "NOT_RUN"
+}

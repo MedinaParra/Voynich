@@ -47,6 +47,26 @@
       "sha256": "a39d468c42031cb2f4ee71f0a62deaccac3cc3588bcaf3b13341e7e03fe10d5d"
     },
     {
+      "path": "ci_integrity.json",
+      "bytes": 3936,
+      "sha256": "593f8538eaf95155dba88ef911fdc6c41935cbe84efe34dbf115520a43d3dcd1"
+    },
+    {
+      "path": "ci_job.log",
+      "bytes": 22030,
+      "sha256": "12826de2beed7f0b25b9c9505f721819d3f6fdb681f70508363658aee3ac6ce5"
+    },
+    {
+      "path": "ci_receipt.json",
+      "bytes": 3399,
+      "sha256": "5778df956e2a21312d43d856a7611d436dc0d67f039087a9105cdcdcdfb01ccd"
+    },
+    {
+      "path": "ci_summary.json",
+      "bytes": 628,
+      "sha256": "55e0c7bc7019618cf6565bddd722f7d2a8597456781f38ce11fcd821e584aa8e"
+    },
+    {
       "path": "form_comparison.jpg",
       "bytes": 141566,
       "sha256": "673fdc050665ecabffbe120059bad1d19f7f2aaa6c89f6530695a69fef7ad25e"
@@ -68,8 +88,8 @@
     },
     {
       "path": "provenance.json",
-      "bytes": 1728,
-      "sha256": "2b7a96b775f8273258646027333deaae44c70e8ea3a8de56e2b557f424d40e3c"
+      "bytes": 1944,
+      "sha256": "d3e943df77e403f0384ab515aa306bac3282f460bddf47128b7383aa443b0b59"
     },
     {
       "path": "reviews/followup_a.json",
