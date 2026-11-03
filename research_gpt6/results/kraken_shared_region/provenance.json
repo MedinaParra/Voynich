@@ -1,0 +1,217 @@
+{
+  "date": "2026-11-03",
+  "repository": "MedinaParra/Voynich",
+  "branch": "experiment/kraken-voynich",
+  "original_base_commit": "e7bdfb1f5678633ea9e34f134e083484084d24c3",
+  "protocol_commit": "723635a5d6d8743a825eba57943808cecb2862ec",
+  "training_execution_commit": "9377583a54bfb8eed5871556b65e2f1d4fc47e0f",
+  "recovery_execution_commit": "4130398d58d042ae2885226a2b09419a0f937b4d",
+  "plan_sha256": "92eef3c3bbbb3d0504d62ae8c7d0cd01c8de0dc43559bac94e780f083a646864",
+  "original_training_run": {
+    "id": 41643719527,
+    "url": "https://github.com/MedinaParra/Voynich/actions/runs/41643719527",
+    "overall_conclusion": "failure_due_to_fresh_dependency",
+    "successful_training_jobs": {
+      "repeat": 125943454624,
+      "random_ink": 125943455072,
+      "shared_ink": 125943455019
+    },
+    "failed_fresh_job": 125943454979,
+    "failure": "Missing transitive SciPy before any fresh image/text acquisition; no training failure"
+  },
+  "recovery_run": {
+    "id": 41644234993,
+    "url": "https://github.com/MedinaParra/Voynich/actions/runs/41644234993",
+    "latest_conclusion": "success",
+    "initial_successful_fresh_job": 125945226242,
+    "failed_common_job": 125945531856,
+    "failure": "GitHub API HTTP500 polling original artifacts before models loaded; no neural evaluation",
+    "retried_evaluation_only": true,
+    "latest_successful_common_job": 125952953025,
+    "latest_fresh_job_id": 125952954734
+  },
+  "actual_training": {
+    "optimization_runs": 3,
+    "variants": [
+      "repeat",
+      "random_ink",
+      "shared_ink"
+    ],
+    "epochs_each": 100,
+    "final_checkpoint_epoch_index": 99,
+    "optimizer_steps_each": 5600,
+    "seed": 20261103,
+    "original_training_words": 442,
+    "derived_views_each": 884,
+    "independent_words_increased": false,
+    "fit_prediction_neural_calls_total": 2652,
+    "optimizer_forward_calls": "not_instrumented_separately"
+  },
+  "actual_common_evaluation": {
+    "models": 4,
+    "input_words": 547,
+    "fresh_words": 265,
+    "fresh_physical_leaves": 1,
+    "passes": 2,
+    "recorded_neural_calls": 4376,
+    "greedy_interface_parity_checks": 4376,
+    "posterior_replay_differences": 0,
+    "primary_decoder": "prefix_beam32_without_lexicon_or_language_model",
+    "primary_pass": 0
+  },
+  "independent_audit": {
+    "path": "audit.json",
+    "status": "PASS",
+    "checks": 79013,
+    "mismatches": 0,
+    "new_neural_inference": "NOT_RUN",
+    "fresh_checkout_CI": "pending_publication"
+  },
+  "artifacts": [
+    {
+      "id": 13235032244,
+      "name": "shared-region-shared_ink",
+      "size_in_bytes": 5509221,
+      "digest": "sha256:52252024003119ebe325a5d331ce2ea0d1c803ebeeec7f00e0479efb855cbf2e",
+      "created_at": "2026-11-03T13:33:21Z",
+      "expires_at": "2026-12-03T13:33:20Z",
+      "workflow_run": {
+        "id": 41643719527,
+        "repository_id": 1405664605,
+        "head_repository_id": 1405664605,
+        "head_branch": "experiment/kraken-voynich",
+        "head_sha": "9377583a54bfb8eed5871556b65e2f1d4fc47e0f"
+      },
+      "downloaded_bytes": 5509221,
+      "downloaded_sha256": "52252024003119ebe325a5d331ce2ea0d1c803ebeeec7f00e0479efb855cbf2e",
+      "digest_verified": true,
+      "original_files": 461
+    },
+    {
+      "id": 13234397583,
+      "name": "shared-region-random_ink",
+      "size_in_bytes": 5524546,
+      "digest": "sha256:93abf4800bab3d5c708fa4c402438fee5e88e8a06e534ebb3d00caf56869c8bb",
+      "created_at": "2026-11-03T13:33:47Z",
+      "expires_at": "2026-12-03T13:33:45Z",
+      "workflow_run": {
+        "id": 41643719527,
+        "repository_id": 1405664605,
+        "head_repository_id": 1405664605,
+        "head_branch": "experiment/kraken-voynich",
+        "head_sha": "9377583a54bfb8eed5871556b65e2f1d4fc47e0f"
+      },
+      "downloaded_bytes": 5524546,
+      "downloaded_sha256": "93abf4800bab3d5c708fa4c402438fee5e88e8a06e534ebb3d00caf56869c8bb",
+      "digest_verified": true,
+      "original_files": 461
+    },
+    {
+      "id": 13233899276,
+      "name": "shared-region-repeat",
+      "size_in_bytes": 5402289,
+      "digest": "sha256:359d19df3eeb81f0f99d8e20c2d74b976296dfee463312128cad3917cc5e45d9",
+      "created_at": "2026-11-03T13:33:30Z",
+      "expires_at": "2026-12-03T13:33:28Z",
+      "workflow_run": {
+        "id": 41643719527,
+        "repository_id": 1405664605,
+        "head_repository_id": 1405664605,
+        "head_branch": "experiment/kraken-voynich",
+        "head_sha": "9377583a54bfb8eed5871556b65e2f1d4fc47e0f"
+      },
+      "downloaded_bytes": 5402289,
+      "downloaded_sha256": "359d19df3eeb81f0f99d8e20c2d74b976296dfee463312128cad3917cc5e45d9",
+      "digest_verified": true,
+      "original_files": 461
+    },
+    {
+      "id": 13235636370,
+      "name": "shared-region-common-evaluation",
+      "size_in_bytes": 7550031,
+      "digest": "sha256:ad2f5dba6a9510a8048b4874de99e6fa72a9ea5cb80d01f1b5d22b27077b4522",
+      "created_at": "2026-11-03T13:42:14Z",
+      "expires_at": "2026-12-03T13:42:13Z",
+      "workflow_run": {
+        "id": 41644234993,
+        "repository_id": 1405664605,
+        "head_repository_id": 1405664605,
+        "head_branch": "experiment/kraken-voynich",
+        "head_sha": "4130398d58d042ae2885226a2b09419a0f937b4d"
+      },
+      "downloaded_bytes": 7550031,
+      "downloaded_sha256": "ad2f5dba6a9510a8048b4874de99e6fa72a9ea5cb80d01f1b5d22b27077b4522",
+      "digest_verified": true,
+      "original_files": 11
+    },
+    {
+      "id": 13234486757,
+      "name": "fresh-leaf8-geometry",
+      "size_in_bytes": 7202604,
+      "digest": "sha256:85c0abd442bf128ee483f47e98d1d634a232f0ffd1545aeff427b6136278ac3e",
+      "created_at": "2026-11-03T13:26:14Z",
+      "expires_at": "2026-12-03T13:26:12Z",
+      "workflow_run": {
+        "id": 41644234993,
+        "repository_id": 1405664605,
+        "head_repository_id": 1405664605,
+        "head_branch": "experiment/kraken-voynich",
+        "head_sha": "4130398d58d042ae2885226a2b09419a0f937b4d"
+      },
+      "downloaded_bytes": 7202604,
+      "downloaded_sha256": "85c0abd442bf128ee483f47e98d1d634a232f0ffd1545aeff427b6136278ac3e",
+      "digest_verified": true,
+      "original_files": 819
+    }
+  ],
+  "official_logs": [
+    {
+      "path": "official_logs/common_job125952953025_success.log",
+      "bytes": 65686,
+      "sha256": "4fb8e9f197155bfddf6d5ce16da6d83cfd6a7de1fef0b78a7640ae2d435319c8"
+    },
+    {
+      "path": "official_logs/fresh_job125952954734_success.log",
+      "bytes": 21910,
+      "sha256": "1b6b730130dabaef480e7aa1aabca66241c71cdac6fb698959a96a1e53a91420"
+    },
+    {
+      "path": "official_logs/initial_common_job125945531856_api500.log",
+      "bytes": 53955,
+      "sha256": "46cfd3d5405d04f44a0b7ec26a39adf53227f4e7fbfe2d12aeb7d7be844eb0ea"
+    },
+    {
+      "path": "official_logs/initial_fresh_job125943454979_missing_scipy.log",
+      "bytes": 19000,
+      "sha256": "5e82426dd2254d71675c680b2d77708ec0c47c1b382fd9e2822190f17576c903"
+    },
+    {
+      "path": "official_logs/train_random_ink_job125943455072.log",
+      "bytes": 52718,
+      "sha256": "73973ac3e8a7385c076675c4187f7f4d29f0c091eba90ffb258d56bda2492a1c"
+    },
+    {
+      "path": "official_logs/train_repeat_job125943454624.log",
+      "bytes": 52683,
+      "sha256": "2d5aa226c805a7ee908750cb7d54bcb45bbf893bdb603df38d01652c43c47e17"
+    },
+    {
+      "path": "official_logs/train_shared_ink_job125943455019.log",
+      "bytes": 52722,
+      "sha256": "721f3730de171873507b3803e480da67761b2bd3d84e729e5951a6d60157af8e"
+    }
+  ],
+  "method_scope": {
+    "visual_intervention": "EXECUTED",
+    "between_transcription_uncertainty": "DESIGN_ONLY_NOT_RUN",
+    "mechanism_identifiability": "DESIGN_ONLY_NOT_RUN",
+    "translation": "NOT_RUN"
+  },
+  "interpretation": {
+    "primary_fresh_best_observed": "random_ink",
+    "proposed_shared_region_beats_both_controls": false,
+    "fresh_unseen_CER_ranking_differs_from_overall": true,
+    "new_expert_ground_truth": false,
+    "single_seed_single_physical_leaf": true
+  }
+}

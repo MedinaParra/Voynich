@@ -1,0 +1,76 @@
+[
+  {
+    "kind": "xml_archive",
+    "url": "https://www.voynichese.com/1/data/folio/voynichese_data.zip",
+    "sha256": "402d99ca8191ae53a4f25912ee0af0a7e6b6d9a3714b2beaf86404a27d5b7ad5",
+    "bytes": 715214,
+    "http_status": 200,
+    "content_type": "application/zip"
+  },
+  {
+    "folio": "f8r",
+    "kind": "json",
+    "url": "https://www.voynichese.com/1/data/folio/script/f8r.js",
+    "path": "results/kraken_shared_region/fresh_data/inputs/f8r_json.js",
+    "sha256": "d85594c0c6f74d545a3a521738f156a264e035da6237971e37b2e88bfcdd08f1",
+    "bytes": 6638,
+    "http_status": 200,
+    "content_type": "application/javascript",
+    "retrieved_utc": "2026-11-03T13:26:02.962762+00:00"
+  },
+  {
+    "folio": "f8r",
+    "kind": "preview",
+    "url": "https://www.voynichese.com/1/data/folio/image/glance/color/large/f8r.jpg",
+    "path": "results/kraken_shared_region/fresh_data/inputs/f8r_preview.jpg",
+    "sha256": "b12b892ba7c51d07c1f7db620e9b93165444790b8b028f640ca4f92214b7a505",
+    "bytes": 76665,
+    "http_status": 200,
+    "content_type": "image/jpeg",
+    "retrieved_utc": "2026-11-03T13:26:03.306808+00:00"
+  },
+  {
+    "folio": "f8r",
+    "kind": "yale",
+    "url": "https://collections.library.yale.edu/iiif/2/1006090/full/!1600,2000/0/default.jpg",
+    "path": "results/kraken_shared_region/fresh_data/inputs/f8r_yale.jpg",
+    "sha256": "99db4be5a6213d09a07978f9af189a5547e97a232835a8174ee5a3bed394f5b4",
+    "bytes": 680600,
+    "http_status": 200,
+    "content_type": "image/jpeg",
+    "retrieved_utc": "2026-11-03T13:26:04.786377+00:00"
+  },
+  {
+    "folio": "f8v",
+    "kind": "json",
+    "url": "https://www.voynichese.com/1/data/folio/script/f8v.js",
+    "path": "results/kraken_shared_region/fresh_data/inputs/f8v_json.js",
+    "sha256": "869611ed3ddbf07f3315619170ebac2dba5584bd8a43a49be23836efe522cd37",
+    "bytes": 5278,
+    "http_status": 200,
+    "content_type": "application/javascript",
+    "retrieved_utc": "2026-11-03T13:26:05.168813+00:00"
+  },
+  {
+    "folio": "f8v",
+    "kind": "preview",
+    "url": "https://www.voynichese.com/1/data/folio/image/glance/color/large/f8v.jpg",
+    "path": "results/kraken_shared_region/fresh_data/inputs/f8v_preview.jpg",
+    "sha256": "24cbea231d32cf7d23562e2aa0d3e2fba17870bab52624349361a6b60ff892e7",
+    "bytes": 77889,
+    "http_status": 200,
+    "content_type": "image/jpeg",
+    "retrieved_utc": "2026-11-03T13:26:05.487062+00:00"
+  },
+  {
+    "folio": "f8v",
+    "kind": "yale",
+    "url": "https://collections.library.yale.edu/iiif/2/1006091/full/!1600,2000/0/default.jpg",
+    "path": "results/kraken_shared_region/fresh_data/inputs/f8v_yale.jpg",
+    "sha256": "16a451f328aec8f4fd173240acc436d32c59dc8b2acba6effdd2847255ab8574",
+    "bytes": 615773,
+    "http_status": 200,
+    "content_type": "image/jpeg",
+    "retrieved_utc": "2026-11-03T13:26:06.818179+00:00"
+  }
+]

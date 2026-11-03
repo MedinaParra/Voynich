@@ -1,0 +1,25 @@
+{
+  "seed": 20261103,
+  "additional_training_folios": [],
+  "reserved_folios": [
+    "f8r",
+    "f8v"
+  ],
+  "previous_dataset_path": "results/kraken_shared_region/fresh_data/inputs/empty_previous_dataset.json",
+  "sift": {
+    "nfeatures": 6000,
+    "contrast_threshold": 0.02,
+    "ratio": 0.72
+  },
+  "guard_source_pixels": 3,
+  "local": {
+    "fit_residual_limit_yale_pixels": 20,
+    "source_group_grid_pixels": 0.1,
+    "radius_source_pixels": 80,
+    "maximum_neighbors": 20,
+    "minimum_groups": 3,
+    "correction_limit_yale_pixels": 20
+  },
+  "minimum_accepted_words_per_folio": 20,
+  "padding_pixels": 4
+}

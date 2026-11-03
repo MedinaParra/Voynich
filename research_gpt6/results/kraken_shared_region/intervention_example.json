@@ -1,0 +1,22 @@
+{
+  "id": "f6v_w0096",
+  "candidate_reference": "chaiir",
+  "selection_rule": "Post-diagnostic illustration: largest shared/dark fraction among training references of length >=4, ties by ID; no OCR output used.",
+  "panels": {
+    "repeat": {
+      "selected_pixels": 0,
+      "selection_mask_sha256": "39f3d448c8c4a3780f2dc726d64a52ee2c74e2daf8fc55b154afdb9cdff90558",
+      "changed_pixels": 0
+    },
+    "random_ink": {
+      "selected_pixels": 308,
+      "selection_mask_sha256": "773f3ea67b503182efe50723314e1d5049a41fe031f04be76f6e152f4b7883a2",
+      "changed_pixels": 308
+    },
+    "shared_ink": {
+      "selected_pixels": 308,
+      "selection_mask_sha256": "8ac25040ef97a2dbd1dfce660762aa2119d5ae3ba6e54a4ff1dc02aab79df214",
+      "changed_pixels": 308
+    }
+  }
+}

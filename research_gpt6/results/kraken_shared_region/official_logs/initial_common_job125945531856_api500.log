@@ -1,0 +1,536 @@
+﻿2026-11-03T13:26:21.5077927Z Current runner version: '2.338.2'
+2026-11-03T13:26:21.5104367Z ##[group]Runner Image Provisioner
+2026-11-03T13:26:21.5105376Z Hosted Compute Agent
+2026-11-03T13:26:21.5106039Z Version: 20261021.618
+2026-11-03T13:26:21.5106758Z Commit: 21505ad2541d5be6135ed84fc33697146cf75b8e
+2026-11-03T13:26:21.5107623Z Build Date: 2026-10-21T00:45:21Z
+2026-11-03T13:26:21.5108371Z Worker ID: {4dbde6bb-172d-466f-8616-b67be88fb301}
+2026-11-03T13:26:21.5109175Z Region: westcentralus
+2026-11-03T13:26:21.5109846Z Cloud: Azure
+2026-11-03T13:26:21.5110489Z ##[endgroup]
+2026-11-03T13:26:21.5112646Z ##[group]Operating System
+2026-11-03T13:26:21.5113352Z Ubuntu
+2026-11-03T13:26:21.5114027Z 24.04.5
+2026-11-03T13:26:21.5114621Z LTS
+2026-11-03T13:26:21.5115240Z ##[endgroup]
+2026-11-03T13:26:21.5115931Z ##[group]Runner Image
+2026-11-03T13:26:21.5116601Z Image: ubuntu-24.04
+2026-11-03T13:26:21.5117213Z Version: 20261025.353.1
+2026-11-03T13:26:21.5118745Z Included Software: https://github.com/actions/runner-images/blob/ubuntu24/20261025.353/images/ubuntu/Ubuntu2404-Readme.md
+2026-11-03T13:26:21.5120430Z Image Release: https://github.com/actions/runner-images/releases/tag/ubuntu24%2F20261025.353
+2026-11-03T13:26:21.5121472Z ##[endgroup]
+2026-11-03T13:26:21.5122979Z ##[group]GITHUB_TOKEN Permissions
+2026-11-03T13:26:21.5124981Z Actions: read
+2026-11-03T13:26:21.5125617Z Contents: read
+2026-11-03T13:26:21.5126475Z Metadata: read
+2026-11-03T13:26:21.5127101Z ##[endgroup]
+2026-11-03T13:26:21.5130046Z Secret source: Actions
+2026-11-03T13:26:21.5131099Z Cache mode: write
+2026-11-03T13:26:21.5132145Z Prepare workflow directory
+2026-11-03T13:26:21.5711079Z Prepare all required actions
+2026-11-03T13:26:21.5758490Z Getting action download info
+2026-11-03T13:26:21.8555197Z Download action repository 'actions/checkout@v4' (SHA:11d5960a326750d5838078e36cf38b85af677262)
+2026-11-03T13:26:21.9357564Z Download action repository 'actions/setup-python@v5' (SHA:a26af69be951a213d495a4c3e4e4022e16d87065)
+2026-11-03T13:26:22.0170707Z Download action repository 'actions/download-artifact@v4' (SHA:d3f86a106a0bac45b974a628896c90dbdf5c8093)
+2026-11-03T13:26:22.5917647Z Download action repository 'actions/upload-artifact@v4' (SHA:ea165f8d65b6e75b540449e92b4886f43607fa02)
+2026-11-03T13:26:22.8165082Z Complete job name: evaluate
+2026-11-03T13:26:22.9070139Z ##[group]Run actions/checkout@v4
+2026-11-03T13:26:22.9071051Z with:
+2026-11-03T13:26:22.9071568Z   repository: MedinaParra/Voynich
+2026-11-03T13:26:22.9076122Z   token: ***
+2026-11-03T13:26:22.9076660Z   ssh-strict: true
+2026-11-03T13:26:22.9077162Z   ssh-user: git
+2026-11-03T13:26:22.9077667Z   persist-credentials: true
+2026-11-03T13:26:22.9078223Z   clean: true
+2026-11-03T13:26:22.9078720Z   sparse-checkout-cone-mode: true
+2026-11-03T13:26:22.9079295Z   fetch-depth: 1
+2026-11-03T13:26:22.9079782Z   fetch-tags: false
+2026-11-03T13:26:22.9080280Z   show-progress: true
+2026-11-03T13:26:22.9080816Z   lfs: false
+2026-11-03T13:26:22.9081297Z   submodules: false
+2026-11-03T13:26:22.9081977Z   set-safe-directory: true
+2026-11-03T13:26:22.9082601Z   allow-unsafe-pr-checkout: false
+2026-11-03T13:26:22.9083402Z env:
+2026-11-03T13:26:22.9083876Z   OMP_NUM_THREADS: 2
+2026-11-03T13:26:22.9084399Z   MKL_NUM_THREADS: 2
+2026-11-03T13:26:22.9084920Z   OPENBLAS_NUM_THREADS: 2
+2026-11-03T13:26:22.9085527Z   PYTHONUNBUFFERED: 1
+2026-11-03T13:26:22.9086048Z   TRAINING_RUN_ID: 41643719527
+2026-11-03T13:26:22.9086598Z ##[endgroup]
+2026-11-03T13:26:23.1370782Z Syncing repository: MedinaParra/Voynich
+2026-11-03T13:26:23.1373213Z ##[group]Getting Git version info
+2026-11-03T13:26:23.1374450Z Working directory is '/home/runner/work/Voynich/Voynich'
+2026-11-03T13:26:23.1376367Z [command]/usr/bin/git version
+2026-11-03T13:26:23.1447171Z git version 2.56.0
+2026-11-03T13:26:23.1468658Z ##[endgroup]
+2026-11-03T13:26:23.1486701Z Temporarily overriding HOME='/home/runner/work/_temp/367a14e9-4db5-44a7-a8bf-b7b0b2366740' before making global git config changes
+2026-11-03T13:26:23.1489368Z Adding repository directory to the temporary git global config as a safe directory
+2026-11-03T13:26:23.1495092Z [command]/usr/bin/git config --global --add safe.directory /home/runner/work/Voynich/Voynich
+2026-11-03T13:26:23.1548014Z Deleting the contents of '/home/runner/work/Voynich/Voynich'
+2026-11-03T13:26:23.1553136Z ##[group]Initializing the repository
+2026-11-03T13:26:23.1569504Z [command]/usr/bin/git init /home/runner/work/Voynich/Voynich
+2026-11-03T13:26:23.1682262Z hint: Using 'master' as the name for the initial branch. This default branch name
+2026-11-03T13:26:23.1683618Z hint: will change to "main" in Git 3.0. To configure the initial branch name
+2026-11-03T13:26:23.1684660Z hint: to use in all of your new repositories, which will suppress this warning,
+2026-11-03T13:26:23.1685512Z hint: call:
+2026-11-03T13:26:23.1685967Z hint:
+2026-11-03T13:26:23.1686558Z hint: 	git config --global init.defaultBranch <name>
+2026-11-03T13:26:23.1687252Z hint:
+2026-11-03T13:26:23.1687894Z hint: Names commonly chosen instead of 'master' are 'main', 'trunk' and
+2026-11-03T13:26:23.1688902Z hint: 'development'. The just-created branch can be renamed via this command:
+2026-11-03T13:26:23.1689758Z hint:
+2026-11-03T13:26:23.1690226Z hint: 	git branch -m <name>
+2026-11-03T13:26:23.1690759Z hint:
+2026-11-03T13:26:23.1691475Z hint: Disable this message with "git config set advice.defaultBranchName false"
+2026-11-03T13:26:23.1698840Z Initialized empty Git repository in /home/runner/work/Voynich/Voynich/.git/
+2026-11-03T13:26:23.1711656Z [command]/usr/bin/git remote add origin https://github.com/MedinaParra/Voynich
+2026-11-03T13:26:23.1760810Z ##[endgroup]
+2026-11-03T13:26:23.1762487Z ##[group]Disabling automatic garbage collection
+2026-11-03T13:26:23.1766068Z [command]/usr/bin/git config --local gc.auto 0
+2026-11-03T13:26:23.1804582Z ##[endgroup]
+2026-11-03T13:26:23.1805919Z ##[group]Setting up auth
+2026-11-03T13:26:23.1813030Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+2026-11-03T13:26:23.1856237Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+2026-11-03T13:26:23.2240340Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+2026-11-03T13:26:23.2352137Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+2026-11-03T13:26:23.2586794Z [command]/usr/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+2026-11-03T13:26:23.2634588Z [command]/usr/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+2026-11-03T13:26:23.2898725Z [command]/usr/bin/git config --local http.https://github.com/.extraheader AUTHORIZATION: basic ***
+2026-11-03T13:26:23.2952924Z ##[endgroup]
+2026-11-03T13:26:23.2954425Z ##[group]Fetching the repository
+2026-11-03T13:26:23.2966486Z [command]/usr/bin/git -c protocol.version=2 fetch --no-tags --prune --no-recurse-submodules --depth=1 origin +4130398d58d042ae2885226a2b09419a0f937b4d:refs/remotes/origin/experiment/kraken-voynich
+2026-11-03T13:26:24.8166916Z From https://github.com/MedinaParra/Voynich
+2026-11-03T13:26:24.8168248Z  * [new ref]         4130398d58d042ae2885226a2b09419a0f937b4d -> origin/experiment/kraken-voynich
+2026-11-03T13:26:24.8172318Z ##[endgroup]
+2026-11-03T13:26:24.8173178Z ##[group]Determining the checkout info
+2026-11-03T13:26:24.8174984Z ##[endgroup]
+2026-11-03T13:26:24.8181649Z [command]/usr/bin/git sparse-checkout disable
+2026-11-03T13:26:24.8244267Z [command]/usr/bin/git config --local --unset-all extensions.worktreeConfig
+2026-11-03T13:26:24.8288479Z ##[group]Checking out the ref
+2026-11-03T13:26:24.8292900Z [command]/usr/bin/git checkout --progress --force -B experiment/kraken-voynich refs/remotes/origin/experiment/kraken-voynich
+2026-11-03T13:26:25.1848447Z Switched to a new branch 'experiment/kraken-voynich'
+2026-11-03T13:26:25.1863383Z branch 'experiment/kraken-voynich' set up to track 'origin/experiment/kraken-voynich'.
+2026-11-03T13:26:25.1883883Z ##[endgroup]
+2026-11-03T13:26:25.1943972Z [command]/usr/bin/git log -1 --format=%H
+2026-11-03T13:26:25.1982488Z 4130398d58d042ae2885226a2b09419a0f937b4d
+2026-11-03T13:26:25.2279447Z ##[group]Run actions/setup-python@v5
+2026-11-03T13:26:25.2279841Z with:
+2026-11-03T13:26:25.2280118Z   python-version: 3.12
+2026-11-03T13:26:25.2280422Z   check-latest: false
+2026-11-03T13:26:25.2283299Z   token: ***
+2026-11-03T13:26:25.2283597Z   update-environment: true
+2026-11-03T13:26:25.2283917Z   allow-prereleases: false
+2026-11-03T13:26:25.2284223Z   freethreaded: false
+2026-11-03T13:26:25.2284500Z env:
+2026-11-03T13:26:25.2284757Z   OMP_NUM_THREADS: 2
+2026-11-03T13:26:25.2285041Z   MKL_NUM_THREADS: 2
+2026-11-03T13:26:25.2285328Z   OPENBLAS_NUM_THREADS: 2
+2026-11-03T13:26:25.2285628Z   PYTHONUNBUFFERED: 1
+2026-11-03T13:26:25.2285912Z   TRAINING_RUN_ID: 41643719527
+2026-11-03T13:26:25.2286251Z ##[endgroup]
+2026-11-03T13:26:25.3735354Z ##[group]Installed versions
+2026-11-03T13:26:25.3820266Z (node:2445) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+2026-11-03T13:26:25.3821247Z (Use `node --trace-deprecation ...` to show where the warning was created)
+2026-11-03T13:26:25.3822089Z Successfully set up CPython (3.12.15)
+2026-11-03T13:26:25.3822961Z ##[endgroup]
+2026-11-03T13:26:25.4081701Z ##[group]Run python -m pip install 'torch==2.9.0' 'torchvision==0.24.0' --index-url https://download.pytorch.org/whl/cpu
+2026-11-03T13:26:25.4082988Z [36;1mpython -m pip install 'torch==2.9.0' 'torchvision==0.24.0' --index-url https://download.pytorch.org/whl/cpu[0m
+2026-11-03T13:26:25.4083799Z [36;1mpython -m pip install 'kraken==7.1' 'lightning==2.6.1' 'pillow==12.3.0' 'numpy==2.4.6' 'scipy==1.15.3'[0m
+2026-11-03T13:26:25.4123522Z shell: /usr/bin/bash -e {0}
+2026-11-03T13:26:25.4123874Z env:
+2026-11-03T13:26:25.4124146Z   OMP_NUM_THREADS: 2
+2026-11-03T13:26:25.4124476Z   MKL_NUM_THREADS: 2
+2026-11-03T13:26:25.4124760Z   OPENBLAS_NUM_THREADS: 2
+2026-11-03T13:26:25.4125072Z   PYTHONUNBUFFERED: 1
+2026-11-03T13:26:25.4125366Z   TRAINING_RUN_ID: 41643719527
+2026-11-03T13:26:25.4125741Z   pythonLocation: /opt/hostedtoolcache/Python/3.12.15/x64
+2026-11-03T13:26:25.4126250Z   PKG_CONFIG_PATH: /opt/hostedtoolcache/Python/3.12.15/x64/lib/pkgconfig
+2026-11-03T13:26:25.4126790Z   Python_ROOT_DIR: /opt/hostedtoolcache/Python/3.12.15/x64
+2026-11-03T13:26:25.4127241Z   Python2_ROOT_DIR: /opt/hostedtoolcache/Python/3.12.15/x64
+2026-11-03T13:26:25.4127697Z   Python3_ROOT_DIR: /opt/hostedtoolcache/Python/3.12.15/x64
+2026-11-03T13:26:25.4128166Z   LD_LIBRARY_PATH: /opt/hostedtoolcache/Python/3.12.15/x64/lib
+2026-11-03T13:26:25.4128578Z ##[endgroup]
+2026-11-03T13:26:26.3581221Z Looking in indexes: https://download.pytorch.org/whl/cpu
+2026-11-03T13:26:26.5996780Z Collecting torch==2.9.0
+2026-11-03T13:26:26.8605743Z   Downloading torch-2.9.0%2Bcpu-cp312-cp312-manylinux_2_28_x86_64.whl.metadata (29 kB)
+2026-11-03T13:26:26.9567078Z Collecting torchvision==0.24.0
+2026-11-03T13:26:26.9897262Z   Downloading torchvision-0.24.0%2Bcpu-cp312-cp312-manylinux_2_28_x86_64.whl.metadata (5.9 kB)
+2026-11-03T13:26:27.0484957Z Collecting filelock (from torch==2.9.0)
+2026-11-03T13:26:27.1425413Z   Downloading filelock-4.2.4-py3-none-any.whl.metadata (2.0 kB)
+2026-11-03T13:26:27.1761123Z Collecting typing-extensions>=4.10.0 (from torch==2.9.0)
+2026-11-03T13:26:27.1951018Z   Downloading typing_extensions-4.16.0-py3-none-any.whl.metadata (3.3 kB)
+2026-11-03T13:26:27.2212228Z Collecting setuptools (from torch==2.9.0)
+2026-11-03T13:26:27.2409958Z   Downloading setuptools-78.1.0-py3-none-any.whl.metadata (6.6 kB)
+2026-11-03T13:26:27.2771356Z Collecting sympy>=1.13.3 (from torch==2.9.0)
+2026-11-03T13:26:27.2958433Z   Downloading sympy-1.14.0-py3-none-any.whl.metadata (12 kB)
+2026-11-03T13:26:27.3415723Z Collecting networkx>=2.5.1 (from torch==2.9.0)
+2026-11-03T13:26:27.3604096Z   Downloading networkx-3.7-py3-none-any.whl.metadata (6.7 kB)
+2026-11-03T13:26:27.3907618Z Collecting jinja2 (from torch==2.9.0)
+2026-11-03T13:26:27.4104432Z   Downloading jinja2-3.1.6-py3-none-any.whl.metadata (2.9 kB)
+2026-11-03T13:26:27.4487515Z Collecting fsspec>=0.8.5 (from torch==2.9.0)
+2026-11-03T13:26:27.4676514Z   Downloading fsspec-2026.9.0-py3-none-any.whl.metadata (10 kB)
+2026-11-03T13:26:27.8024545Z Collecting numpy (from torchvision==0.24.0)
+2026-11-03T13:26:27.8215720Z   Downloading numpy-2.5.4-cp312-cp312-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl.metadata (6.6 kB)
+2026-11-03T13:26:28.0598044Z Collecting pillow!=8.3.*,>=5.3.0 (from torchvision==0.24.0)
+2026-11-03T13:26:28.0789741Z   Downloading pillow-13.0.0-cp312-cp312-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl.metadata (9.1 kB)
+2026-11-03T13:26:28.1143868Z Collecting mpmath<1.4,>=1.1.0 (from sympy>=1.13.3->torch==2.9.0)
+2026-11-03T13:26:28.1329730Z   Downloading mpmath-1.3.0-py3-none-any.whl.metadata (8.6 kB)
+2026-11-03T13:26:28.1696092Z Collecting MarkupSafe>=2.0 (from jinja2->torch==2.9.0)
+2026-11-03T13:26:28.1894620Z   Downloading markupsafe-3.0.3-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl.metadata (2.7 kB)
+2026-11-03T13:26:28.2264327Z Downloading torch-2.9.0%2Bcpu-cp312-cp312-manylinux_2_28_x86_64.whl (184.4 MB)
+2026-11-03T13:26:29.2855182Z    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 184.4/184.4 MB 180.1 MB/s  0:00:01
+2026-11-03T13:26:29.3173489Z Downloading torchvision-0.24.0%2Bcpu-cp312-cp312-manylinux_2_28_x86_64.whl (1.9 MB)
+2026-11-03T13:26:29.3278327Z    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.9/1.9 MB 236.0 MB/s  0:00:00
+2026-11-03T13:26:29.3469088Z Downloading fsspec-2026.9.0-py3-none-any.whl (221 kB)
+2026-11-03T13:26:29.4078136Z Downloading networkx-3.7-py3-none-any.whl (2.1 MB)
+2026-11-03T13:26:29.4655464Z    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 2.1/2.1 MB 47.8 MB/s  0:00:00
+2026-11-03T13:26:29.4846240Z Downloading pillow-13.0.0-cp312-cp312-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl (7.1 MB)
+2026-11-03T13:26:29.5208832Z    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 7.1/7.1 MB 202.4 MB/s  0:00:00
+2026-11-03T13:26:29.5398852Z Downloading sympy-1.14.0-py3-none-any.whl (6.3 MB)
+2026-11-03T13:26:29.5590634Z    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 6.3/6.3 MB 355.6 MB/s  0:00:00
+2026-11-03T13:26:29.5780055Z Downloading mpmath-1.3.0-py3-none-any.whl (536 kB)
+2026-11-03T13:26:29.5826747Z    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 536.2/536.2 kB 111.2 MB/s  0:00:00
+2026-11-03T13:26:29.6014684Z Downloading typing_extensions-4.16.0-py3-none-any.whl (45 kB)
+2026-11-03T13:26:29.6228984Z Downloading filelock-4.2.4-py3-none-any.whl (162 kB)
+2026-11-03T13:26:29.6451129Z Downloading jinja2-3.1.6-py3-none-any.whl (134 kB)
+2026-11-03T13:26:29.6672983Z Downloading markupsafe-3.0.3-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl (22 kB)
+2026-11-03T13:26:29.6877435Z Downloading numpy-2.5.4-cp312-cp312-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl (16.7 MB)
+2026-11-03T13:26:29.7895211Z    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 16.7/16.7 MB 166.0 MB/s  0:00:00
+2026-11-03T13:26:29.8095654Z Downloading setuptools-78.1.0-py3-none-any.whl (1.3 MB)
+2026-11-03T13:26:29.8192873Z    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.3/1.3 MB 139.3 MB/s  0:00:00
+2026-11-03T13:26:30.2717824Z Installing collected packages: mpmath, typing-extensions, sympy, setuptools, pillow, numpy, networkx, MarkupSafe, fsspec, filelock, jinja2, torch, torchvision
+2026-11-03T13:26:52.4990364Z 
+2026-11-03T13:26:52.5009734Z Successfully installed MarkupSafe-3.0.3 filelock-4.2.4 fsspec-2026.9.0 jinja2-3.1.6 mpmath-1.3.0 networkx-3.7 numpy-2.5.4 pillow-13.0.0 setuptools-78.1.0 sympy-1.14.0 torch-2.9.0+cpu torchvision-0.24.0+cpu typing-extensions-4.16.0
+2026-11-03T13:26:53.2127300Z Collecting kraken==7.1
+2026-11-03T13:26:53.3053843Z   Downloading kraken-7.1-py3-none-any.whl.metadata (7.4 kB)
+2026-11-03T13:26:53.3548575Z Collecting lightning==2.6.1
+2026-11-03T13:26:53.3749457Z   Downloading lightning-2.6.1-py3-none-any.whl.metadata (44 kB)
+2026-11-03T13:26:53.6437703Z Collecting pillow==12.3.0
+2026-11-03T13:26:53.6630761Z   Downloading pillow-12.3.0-cp312-cp312-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl.metadata (9.1 kB)
+2026-11-03T13:26:53.8535517Z Collecting numpy==2.4.6
+2026-11-03T13:26:53.8730544Z   Downloading numpy-2.4.6-cp312-cp312-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl.metadata (6.6 kB)
+2026-11-03T13:26:53.9966569Z Collecting scipy==1.15.3
+2026-11-03T13:26:54.0159291Z   Downloading scipy-1.15.3-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (61 kB)
+2026-11-03T13:26:54.0651331Z Collecting click<8.3,>=8.1 (from kraken==7.1)
+2026-11-03T13:26:54.0840852Z   Downloading click-8.2.1-py3-none-any.whl.metadata (2.5 kB)
+2026-11-03T13:26:54.1430195Z Collecting coremltools~=9.0 (from kraken==7.1)
+2026-11-03T13:26:54.1627501Z   Downloading coremltools-9.0-cp312-none-manylinux1_x86_64.whl.metadata (2.7 kB)
+2026-11-03T13:26:54.2232962Z Collecting htrmopo>=0.5,~=0.5 (from kraken==7.1)
+2026-11-03T13:26:54.2430687Z   Downloading htrmopo-0.6-py3-none-any.whl.metadata (15 kB)
+2026-11-03T13:26:54.2728014Z Collecting iso639-lang (from kraken==7.1)
+2026-11-03T13:26:54.2934978Z   Downloading iso639_lang-2.6.3-py3-none-any.whl.metadata (8.4 kB)
+2026-11-03T13:26:54.2974253Z Requirement already satisfied: jinja2~=3.1.6 in /opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages (from kraken==7.1) (3.1.6)
+2026-11-03T13:26:54.3296900Z Collecting jsonschema (from kraken==7.1)
+2026-11-03T13:26:54.3488792Z   Downloading jsonschema-4.26.0-py3-none-any.whl.metadata (7.6 kB)
+2026-11-03T13:26:54.5921337Z Collecting lxml (from kraken==7.1)
+2026-11-03T13:26:54.6118170Z   Downloading lxml-6.1.3-cp312-cp312-manylinux_2_26_x86_64.manylinux_2_28_x86_64.whl.metadata (3.3 kB)
+2026-11-03T13:26:54.6433400Z Collecting packaging (from kraken==7.1)
+2026-11-03T13:26:54.6623590Z   Downloading packaging-26.3-py3-none-any.whl.metadata (3.5 kB)
+2026-11-03T13:26:54.6981767Z Collecting platformdirs (from kraken==7.1)
+2026-11-03T13:26:54.7169331Z   Downloading platformdirs-4.14.3-py3-none-any.whl.metadata (5.4 kB)
+2026-11-03T13:26:54.8632171Z Collecting protobuf>=3.0.0 (from kraken==7.1)
+2026-11-03T13:26:54.8832306Z   Downloading protobuf-7.36.2-cp310-abi3-manylinux2014_x86_64.whl.metadata (595 bytes)
+2026-11-03T13:26:54.9743347Z Collecting pyarrow (from kraken==7.1)
+2026-11-03T13:26:54.9938310Z   Downloading pyarrow-26.0.1-cp312-cp312-manylinux_2_28_x86_64.whl.metadata (3.0 kB)
+2026-11-03T13:26:55.3863296Z Collecting regex (from kraken==7.1)
+2026-11-03T13:26:55.4061112Z   Downloading regex-2026.9.29-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl.metadata (40 kB)
+2026-11-03T13:26:55.4469650Z Collecting requests (from kraken==7.1)
+2026-11-03T13:26:55.4670902Z   Downloading requests-2.34.2-py3-none-any.whl.metadata (4.8 kB)
+2026-11-03T13:26:55.5146162Z Collecting rich<14.1.0 (from kraken==7.1)
+2026-11-03T13:26:55.5344609Z   Downloading rich-14.0.0-py3-none-any.whl.metadata (18 kB)
+2026-11-03T13:26:55.6518926Z Collecting safetensors~=0.7.0 (from kraken==7.1)
+2026-11-03T13:26:55.6716942Z   Downloading safetensors-0.7.0-cp38-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (4.1 kB)
+2026-11-03T13:26:55.7488820Z Collecting scikit-image~=0.25.2 (from kraken==7.1)
+2026-11-03T13:26:55.7690957Z   Downloading scikit_image-0.25.2-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (14 kB)
+2026-11-03T13:26:55.8614696Z Collecting scikit-learn~=1.7.2 (from kraken==7.1)
+2026-11-03T13:26:55.8805270Z   Downloading scikit_learn-1.7.2-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.whl.metadata (11 kB)
+2026-11-03T13:26:55.9737245Z Collecting shapely~=2.1.2 (from kraken==7.1)
+2026-11-03T13:26:55.9932330Z   Downloading shapely-2.1.2-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.whl.metadata (6.8 kB)
+2026-11-03T13:26:56.0204172Z Collecting threadpoolctl~=3.6.0 (from kraken==7.1)
+2026-11-03T13:26:56.0409800Z   Downloading threadpoolctl-3.6.0-py3-none-any.whl.metadata (13 kB)
+2026-11-03T13:26:56.0455427Z Requirement already satisfied: torch<=2.13,>=2.9.0 in /opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages (from kraken==7.1) (2.9.0+cpu)
+2026-11-03T13:26:56.0751086Z Collecting torchmetrics>=1.1.0 (from kraken==7.1)
+2026-11-03T13:26:56.1006443Z   Downloading torchmetrics-1.9.0-py3-none-any.whl.metadata (23 kB)
+2026-11-03T13:26:56.1199581Z Requirement already satisfied: torchvision>=0.5.0 in /opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages (from kraken==7.1) (0.24.0+cpu)
+2026-11-03T13:26:56.1673142Z Collecting PyYAML<8.0,>5.4 (from lightning==2.6.1)
+2026-11-03T13:26:56.1864312Z   Downloading pyyaml-6.0.3-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl.metadata (2.4 kB)
+2026-11-03T13:26:56.1903112Z Requirement already satisfied: fsspec<2028.0,>=2022.5.0 in /opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages (from fsspec[http]<2028.0,>=2022.5.0->lightning==2.6.1) (2026.9.0)
+2026-11-03T13:26:56.2177466Z Collecting lightning-utilities<2.0,>=0.10.0 (from lightning==2.6.1)
+2026-11-03T13:26:56.2371405Z   Downloading lightning_utilities-0.15.3-py3-none-any.whl.metadata (5.5 kB)
+2026-11-03T13:26:56.2805057Z Collecting tqdm<6.0,>=4.57.0 (from lightning==2.6.1)
+2026-11-03T13:26:56.2999050Z   Downloading tqdm-4.70.1-py3-none-any.whl.metadata (57 kB)
+2026-11-03T13:26:56.3109511Z Requirement already satisfied: typing-extensions<6.0,>4.5.0 in /opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages (from lightning==2.6.1) (4.16.0)
+2026-11-03T13:26:56.3544434Z Collecting pytorch-lightning (from lightning==2.6.1)
+2026-11-03T13:26:56.3738225Z   Downloading pytorch_lightning-2.6.6-py3-none-any.whl.metadata (21 kB)
+2026-11-03T13:26:56.3983211Z Requirement already satisfied: sympy in /opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages (from coremltools~=9.0->kraken==7.1) (1.14.0)
+2026-11-03T13:26:56.4240692Z Collecting attrs>=21.3.0 (from coremltools~=9.0->kraken==7.1)
+2026-11-03T13:26:56.4434334Z   Downloading attrs-26.1.0-py3-none-any.whl.metadata (8.8 kB)
+2026-11-03T13:26:56.4747365Z Collecting cattrs (from coremltools~=9.0->kraken==7.1)
+2026-11-03T13:26:56.4937650Z   Downloading cattrs-26.2.1-py3-none-any.whl.metadata (8.5 kB)
+2026-11-03T13:26:56.5289160Z Collecting pyaml (from coremltools~=9.0->kraken==7.1)
+2026-11-03T13:26:56.5508330Z   Downloading pyaml-26.7.0-py3-none-any.whl.metadata (12 kB)
+2026-11-03T13:26:57.0610499Z Collecting aiohttp!=4.0.0a0,!=4.0.0a1 (from fsspec[http]<2028.0,>=2022.5.0->lightning==2.6.1)
+2026-11-03T13:26:57.0811247Z   Downloading aiohttp-3.14.5-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl.metadata (8.3 kB)
+2026-11-03T13:26:57.1113075Z Collecting flufl-lock (from htrmopo>=0.5,~=0.5->kraken==7.1)
+2026-11-03T13:26:57.1314032Z   Downloading flufl_lock-10.0.0-py3-none-any.whl.metadata (3.3 kB)
+2026-11-03T13:26:57.1630888Z Collecting markdown (from htrmopo>=0.5,~=0.5->kraken==7.1)
+2026-11-03T13:26:57.1823452Z   Downloading markdown-3.11.2-py3-none-any.whl.metadata (5.1 kB)
+2026-11-03T13:26:57.2113842Z Collecting python-dateutil (from htrmopo>=0.5,~=0.5->kraken==7.1)
+2026-11-03T13:26:57.2308161Z   Downloading python_dateutil-4.0.0-py3-none-any.whl.metadata (7.3 kB)
+2026-11-03T13:26:57.2942027Z Collecting sickle (from htrmopo>=0.5,~=0.5->kraken==7.1)
+2026-11-03T13:26:57.3151142Z   Downloading Sickle-0.7.0-py3-none-any.whl.metadata (4.5 kB)
+2026-11-03T13:26:57.3196820Z Requirement already satisfied: MarkupSafe>=2.0 in /opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages (from jinja2~=3.1.6->kraken==7.1) (3.0.3)
+2026-11-03T13:26:57.3497839Z Collecting markdown-it-py>=2.2.0 (from rich<14.1.0->kraken==7.1)
+2026-11-03T13:26:57.3697086Z   Downloading markdown_it_py-4.2.0-py3-none-any.whl.metadata (7.4 kB)
+2026-11-03T13:26:57.4039975Z Collecting pygments<3.0.0,>=2.13.0 (from rich<14.1.0->kraken==7.1)
+2026-11-03T13:26:57.4229262Z   Downloading pygments-2.21.0-py3-none-any.whl.metadata (2.5 kB)
+2026-11-03T13:26:57.4302188Z Requirement already satisfied: networkx>=3.0 in /opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages (from scikit-image~=0.25.2->kraken==7.1) (3.7)
+2026-11-03T13:26:57.4612438Z Collecting imageio!=2.35.0,>=2.33 (from scikit-image~=0.25.2->kraken==7.1)
+2026-11-03T13:26:57.4801527Z   Downloading imageio-2.38.1-py3-none-any.whl.metadata (9.7 kB)
+2026-11-03T13:26:57.5297731Z Collecting tifffile>=2022.8.12 (from scikit-image~=0.25.2->kraken==7.1)
+2026-11-03T13:26:57.5489577Z   Downloading tifffile-2026.10.15-py3-none-any.whl.metadata (34 kB)
+2026-11-03T13:26:57.5821662Z Collecting lazy-loader>=0.4 (from scikit-image~=0.25.2->kraken==7.1)
+2026-11-03T13:26:57.6010680Z   Downloading lazy_loader-0.6-py3-none-any.whl.metadata (6.0 kB)
+2026-11-03T13:26:57.6380398Z Collecting joblib>=1.2.0 (from scikit-learn~=1.7.2->kraken==7.1)
+2026-11-03T13:26:57.6568935Z   Downloading joblib-1.6.0-py3-none-any.whl.metadata (6.5 kB)
+2026-11-03T13:26:57.6657459Z Requirement already satisfied: filelock in /opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages (from torch<=2.13,>=2.9.0->kraken==7.1) (4.2.4)
+2026-11-03T13:26:57.6666079Z Requirement already satisfied: setuptools in /opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages (from torch<=2.13,>=2.9.0->kraken==7.1) (78.1.0)
+2026-11-03T13:26:57.6995531Z Collecting aiohappyeyeballs>=2.5.0 (from aiohttp!=4.0.0a0,!=4.0.0a1->fsspec[http]<2028.0,>=2022.5.0->lightning==2.6.1)
+2026-11-03T13:26:57.7185138Z   Downloading aiohappyeyeballs-2.7.1-py3-none-any.whl.metadata (5.9 kB)
+2026-11-03T13:26:57.7450516Z Collecting aiosignal>=1.4.0 (from aiohttp!=4.0.0a0,!=4.0.0a1->fsspec[http]<2028.0,>=2022.5.0->lightning==2.6.1)
+2026-11-03T13:26:57.7639062Z   Downloading aiosignal-1.4.0-py3-none-any.whl.metadata (3.7 kB)
+2026-11-03T13:26:57.8368029Z Collecting frozenlist>=1.1.1 (from aiohttp!=4.0.0a0,!=4.0.0a1->fsspec[http]<2028.0,>=2022.5.0->lightning==2.6.1)
+2026-11-03T13:26:57.8561117Z   Downloading frozenlist-1.8.0-cp312-cp312-manylinux1_x86_64.manylinux_2_28_x86_64.manylinux_2_5_x86_64.whl.metadata (20 kB)
+2026-11-03T13:26:58.1521437Z Collecting multidict<8.0,>=4.5 (from aiohttp!=4.0.0a0,!=4.0.0a1->fsspec[http]<2028.0,>=2022.5.0->lightning==2.6.1)
+2026-11-03T13:26:58.1714335Z   Downloading multidict-7.2.1-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl.metadata (6.1 kB)
+2026-11-03T13:26:58.2484962Z Collecting propcache>=0.2.0 (from aiohttp!=4.0.0a0,!=4.0.0a1->fsspec[http]<2028.0,>=2022.5.0->lightning==2.6.1)
+2026-11-03T13:26:58.2678456Z   Downloading propcache-0.5.4-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl.metadata (25 kB)
+2026-11-03T13:26:58.5033235Z Collecting yarl<2.0,>=1.25.1 (from aiohttp!=4.0.0a0,!=4.0.0a1->fsspec[http]<2028.0,>=2022.5.0->lightning==2.6.1)
+2026-11-03T13:26:58.5232080Z   Downloading yarl-1.25.1-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl.metadata (111 kB)
+2026-11-03T13:26:58.5673503Z Collecting idna>=2.0 (from yarl<2.0,>=1.25.1->aiohttp!=4.0.0a0,!=4.0.0a1->fsspec[http]<2028.0,>=2022.5.0->lightning==2.6.1)
+2026-11-03T13:26:58.5864950Z   Downloading idna-3.20-py3-none-any.whl.metadata (7.2 kB)
+2026-11-03T13:26:58.6266325Z Collecting cloudpickle>=3.0 (from joblib>=1.2.0->scikit-learn~=1.7.2->kraken==7.1)
+2026-11-03T13:26:58.6454600Z   Downloading cloudpickle-3.1.2-py3-none-any.whl.metadata (7.1 kB)
+2026-11-03T13:26:58.6736046Z Collecting mdurl~=0.1 (from markdown-it-py>=2.2.0->rich<14.1.0->kraken==7.1)
+2026-11-03T13:26:58.6928915Z   Downloading mdurl-0.1.2-py3-none-any.whl.metadata (1.6 kB)
+2026-11-03T13:26:58.7029064Z Requirement already satisfied: mpmath<1.4,>=1.1.0 in /opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages (from sympy->coremltools~=9.0->kraken==7.1) (1.3.0)
+2026-11-03T13:26:58.7362488Z Collecting atpublic (from flufl-lock->htrmopo>=0.5,~=0.5->kraken==7.1)
+2026-11-03T13:26:58.7554137Z   Downloading atpublic-9.0.0-py3-none-any.whl.metadata (2.6 kB)
+2026-11-03T13:26:58.8299054Z Collecting psutil (from flufl-lock->htrmopo>=0.5,~=0.5->kraken==7.1)
+2026-11-03T13:26:58.8492033Z   Downloading psutil-7.2.2-cp36-abi3-manylinux2010_x86_64.manylinux_2_12_x86_64.manylinux_2_28_x86_64.whl.metadata (22 kB)
+2026-11-03T13:26:58.8831287Z Collecting jsonschema-specifications>=2023.03.6 (from jsonschema->kraken==7.1)
+2026-11-03T13:26:58.9019201Z   Downloading jsonschema_specifications-2025.9.1-py3-none-any.whl.metadata (2.9 kB)
+2026-11-03T13:26:58.9386465Z Collecting referencing>=0.28.4 (from jsonschema->kraken==7.1)
+2026-11-03T13:26:58.9578036Z   Downloading referencing-0.37.0-py3-none-any.whl.metadata (2.8 kB)
+2026-11-03T13:26:59.2507581Z Collecting rpds-py>=0.25.0 (from jsonschema->kraken==7.1)
+2026-11-03T13:26:59.2700529Z   Downloading rpds_py-2026.9.1-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (4.1 kB)
+2026-11-03T13:26:59.3097777Z Collecting tzdata (from python-dateutil->htrmopo>=0.5,~=0.5->kraken==7.1)
+2026-11-03T13:26:59.3286832Z   Downloading tzdata-2026.6-py2.py3-none-any.whl.metadata (1.4 kB)
+2026-11-03T13:26:59.4576686Z Collecting charset_normalizer<4,>=2 (from requests->kraken==7.1)
+2026-11-03T13:26:59.4768817Z   Downloading charset_normalizer-3.5.2-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl.metadata (46 kB)
+2026-11-03T13:26:59.5159093Z Collecting urllib3<3,>=1.26 (from requests->kraken==7.1)
+2026-11-03T13:26:59.5351432Z   Downloading urllib3-2.8.0-py3-none-any.whl.metadata (7.4 kB)
+2026-11-03T13:26:59.5674110Z Collecting certifi>=2023.5.7 (from requests->kraken==7.1)
+2026-11-03T13:26:59.5864431Z   Downloading certifi-2026.10.23-py3-none-any.whl.metadata (2.5 kB)
+2026-11-03T13:26:59.6271129Z Downloading kraken-7.1-py3-none-any.whl (5.1 MB)
+2026-11-03T13:26:59.7095252Z    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 5.1/5.1 MB 76.8 MB/s  0:00:00
+2026-11-03T13:26:59.7307129Z Downloading scipy-1.15.3-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (37.3 MB)
+2026-11-03T13:26:59.8854512Z    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 37.3/37.3 MB 244.2 MB/s  0:00:00
+2026-11-03T13:26:59.9056839Z Downloading numpy-2.4.6-cp312-cp312-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl (16.6 MB)
+2026-11-03T13:26:59.9628351Z    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 16.6/16.6 MB 303.6 MB/s  0:00:00
+2026-11-03T13:26:59.9828048Z Downloading lightning-2.6.1-py3-none-any.whl (853 kB)
+2026-11-03T13:26:59.9888696Z    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 853.6/853.6 kB 164.7 MB/s  0:00:00
+2026-11-03T13:27:00.0080695Z Downloading pillow-12.3.0-cp312-cp312-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl (6.9 MB)
+2026-11-03T13:27:00.0321059Z    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 6.9/6.9 MB 311.8 MB/s  0:00:00
+2026-11-03T13:27:00.0511101Z Downloading click-8.2.1-py3-none-any.whl (102 kB)
+2026-11-03T13:27:00.0747150Z Downloading coremltools-9.0-cp312-none-manylinux1_x86_64.whl (2.3 MB)
+2026-11-03T13:27:00.0862313Z    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 2.3/2.3 MB 225.2 MB/s  0:00:00
+2026-11-03T13:27:00.1061571Z Downloading htrmopo-0.6-py3-none-any.whl (115 kB)
+2026-11-03T13:27:00.1283472Z Downloading lightning_utilities-0.15.3-py3-none-any.whl (31 kB)
+2026-11-03T13:27:00.1530763Z Downloading packaging-26.3-py3-none-any.whl (129 kB)
+2026-11-03T13:27:00.1760509Z Downloading pyyaml-6.0.3-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl (807 kB)
+2026-11-03T13:27:00.1815383Z    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 807.9/807.9 kB 173.4 MB/s  0:00:00
+2026-11-03T13:27:00.2008118Z Downloading rich-14.0.0-py3-none-any.whl (243 kB)
+2026-11-03T13:27:00.2239833Z Downloading pygments-2.21.0-py3-none-any.whl (1.3 MB)
+2026-11-03T13:27:00.2317114Z    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.3/1.3 MB 248.1 MB/s  0:00:00
+2026-11-03T13:27:00.2510332Z Downloading safetensors-0.7.0-cp38-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (507 kB)
+2026-11-03T13:27:00.2798594Z Downloading scikit_image-0.25.2-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (15.0 MB)
+2026-11-03T13:27:00.3599842Z    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 15.0/15.0 MB 190.1 MB/s  0:00:00
+2026-11-03T13:27:00.3845095Z Downloading scikit_learn-1.7.2-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.whl (9.5 MB)
+2026-11-03T13:27:00.4189158Z    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 9.5/9.5 MB 289.7 MB/s  0:00:00
+2026-11-03T13:27:00.4384378Z Downloading shapely-2.1.2-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.whl (3.1 MB)
+2026-11-03T13:27:00.4497937Z    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 3.1/3.1 MB 317.6 MB/s  0:00:00
+2026-11-03T13:27:00.4688308Z Downloading threadpoolctl-3.6.0-py3-none-any.whl (18 kB)
+2026-11-03T13:27:00.4897472Z Downloading torchmetrics-1.9.0-py3-none-any.whl (983 kB)
+2026-11-03T13:27:00.4957037Z    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 983.4/983.4 kB 198.2 MB/s  0:00:00
+2026-11-03T13:27:00.5148946Z Downloading tqdm-4.70.1-py3-none-any.whl (80 kB)
+2026-11-03T13:27:00.5361589Z Downloading aiohttp-3.14.5-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl (1.9 MB)
+2026-11-03T13:27:00.5446922Z    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.9/1.9 MB 272.9 MB/s  0:00:00
+2026-11-03T13:27:00.5639736Z Downloading multidict-7.2.1-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl (516 kB)
+2026-11-03T13:27:00.5870834Z Downloading yarl-1.25.1-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl (117 kB)
+2026-11-03T13:27:00.6084534Z Downloading aiohappyeyeballs-2.7.1-py3-none-any.whl (15 kB)
+2026-11-03T13:27:00.6293141Z Downloading aiosignal-1.4.0-py3-none-any.whl (7.5 kB)
+2026-11-03T13:27:00.6504398Z Downloading attrs-26.1.0-py3-none-any.whl (67 kB)
+2026-11-03T13:27:00.6716157Z Downloading frozenlist-1.8.0-cp312-cp312-manylinux1_x86_64.manylinux_2_28_x86_64.manylinux_2_5_x86_64.whl (242 kB)
+2026-11-03T13:27:00.6929695Z Downloading idna-3.20-py3-none-any.whl (69 kB)
+2026-11-03T13:27:00.7142086Z Downloading imageio-2.38.1-py3-none-any.whl (328 kB)
+2026-11-03T13:27:00.7360600Z Downloading joblib-1.6.0-py3-none-any.whl (306 kB)
+2026-11-03T13:27:00.7572699Z Downloading cloudpickle-3.1.2-py3-none-any.whl (22 kB)
+2026-11-03T13:27:00.7780014Z Downloading lazy_loader-0.6-py3-none-any.whl (8.8 kB)
+2026-11-03T13:27:00.7991150Z Downloading markdown_it_py-4.2.0-py3-none-any.whl (91 kB)
+2026-11-03T13:27:00.8202740Z Downloading mdurl-0.1.2-py3-none-any.whl (10.0 kB)
+2026-11-03T13:27:00.8418457Z Downloading propcache-0.5.4-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl (250 kB)
+2026-11-03T13:27:00.8634666Z Downloading protobuf-7.36.2-cp310-abi3-manylinux2014_x86_64.whl (343 kB)
+2026-11-03T13:27:00.8849031Z Downloading tifffile-2026.10.15-py3-none-any.whl (276 kB)
+2026-11-03T13:27:00.9064919Z Downloading cattrs-26.2.1-py3-none-any.whl (74 kB)
+2026-11-03T13:27:00.9293648Z Downloading flufl_lock-10.0.0-py3-none-any.whl (11 kB)
+2026-11-03T13:27:00.9501702Z Downloading atpublic-9.0.0-py3-none-any.whl (11 kB)
+2026-11-03T13:27:00.9715077Z Downloading iso639_lang-2.6.3-py3-none-any.whl (324 kB)
+2026-11-03T13:27:00.9934446Z Downloading jsonschema-4.26.0-py3-none-any.whl (90 kB)
+2026-11-03T13:27:01.0143164Z Downloading jsonschema_specifications-2025.9.1-py3-none-any.whl (18 kB)
+2026-11-03T13:27:01.0358033Z Downloading referencing-0.37.0-py3-none-any.whl (26 kB)
+2026-11-03T13:27:01.0566883Z Downloading rpds_py-2026.9.1-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (371 kB)
+2026-11-03T13:27:01.0782774Z Downloading lxml-6.1.3-cp312-cp312-manylinux_2_26_x86_64.manylinux_2_28_x86_64.whl (5.2 MB)
+2026-11-03T13:27:01.0941519Z    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 5.2/5.2 MB 370.8 MB/s  0:00:00
+2026-11-03T13:27:01.1131258Z Downloading markdown-3.11.2-py3-none-any.whl (114 kB)
+2026-11-03T13:27:01.1341271Z Downloading platformdirs-4.14.3-py3-none-any.whl (35 kB)
+2026-11-03T13:27:01.1552708Z Downloading psutil-7.2.2-cp36-abi3-manylinux2010_x86_64.manylinux_2_12_x86_64.manylinux_2_28_x86_64.whl (155 kB)
+2026-11-03T13:27:01.1777015Z Downloading pyaml-26.7.0-py3-none-any.whl (27 kB)
+2026-11-03T13:27:01.1989188Z Downloading pyarrow-26.0.1-cp312-cp312-manylinux_2_28_x86_64.whl (55.0 MB)
+2026-11-03T13:27:01.3710406Z    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 55.0/55.0 MB 323.2 MB/s  0:00:00
+2026-11-03T13:27:01.3912122Z Downloading python_dateutil-4.0.0-py3-none-any.whl (92 kB)
+2026-11-03T13:27:01.4124255Z Downloading pytorch_lightning-2.6.6-py3-none-any.whl (853 kB)
+2026-11-03T13:27:01.4181773Z    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 853.0/853.0 kB 179.3 MB/s  0:00:00
+2026-11-03T13:27:01.4378554Z Downloading regex-2026.9.29-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl (807 kB)
+2026-11-03T13:27:01.4431041Z    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 807.8/807.8 kB 169.4 MB/s  0:00:00
+2026-11-03T13:27:01.4624234Z Downloading requests-2.34.2-py3-none-any.whl (73 kB)
+2026-11-03T13:27:01.4832815Z Downloading charset_normalizer-3.5.2-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl (257 kB)
+2026-11-03T13:27:01.5045346Z Downloading urllib3-2.8.0-py3-none-any.whl (135 kB)
+2026-11-03T13:27:01.5253435Z Downloading certifi-2026.10.23-py3-none-any.whl (135 kB)
+2026-11-03T13:27:01.5467110Z Downloading Sickle-0.7.0-py3-none-any.whl (12 kB)
+2026-11-03T13:27:01.5676270Z Downloading tzdata-2026.6-py2.py3-none-any.whl (348 kB)
+2026-11-03T13:27:02.0829362Z Installing collected packages: urllib3, tzdata, tqdm, threadpoolctl, safetensors, rpds-py, regex, PyYAML, pygments, pyarrow, psutil, protobuf, propcache, platformdirs, pillow, packaging, numpy, multidict, mdurl, markdown, lxml, iso639-lang, idna, frozenlist, cloudpickle, click, charset_normalizer, certifi, attrs, atpublic, aiohappyeyeballs, yarl, tifffile, shapely, scipy, requests, referencing, python-dateutil, pyaml, markdown-it-py, lightning-utilities, lazy-loader, joblib, imageio, flufl-lock, cattrs, aiosignal, torchmetrics, sickle, scikit-learn, scikit-image, rich, jsonschema-specifications, coremltools, aiohttp, jsonschema, pytorch-lightning, htrmopo, lightning, kraken
+2026-11-03T13:27:04.8300133Z   Attempting uninstall: pillow
+2026-11-03T13:27:04.8324379Z     Found existing installation: pillow 13.0.0
+2026-11-03T13:27:04.8406476Z     Uninstalling pillow-13.0.0:
+2026-11-03T13:27:04.8424073Z       Successfully uninstalled pillow-13.0.0
+2026-11-03T13:27:05.2787372Z   Attempting uninstall: numpy
+2026-11-03T13:27:05.2813146Z     Found existing installation: numpy 2.5.4
+2026-11-03T13:27:05.3225218Z     Uninstalling numpy-2.5.4:
+2026-11-03T13:27:05.3309189Z       Successfully uninstalled numpy-2.5.4
+2026-11-03T13:27:20.8635919Z 
+2026-11-03T13:27:20.8693163Z Successfully installed PyYAML-6.0.3 aiohappyeyeballs-2.7.1 aiohttp-3.14.5 aiosignal-1.4.0 atpublic-9.0.0 attrs-26.1.0 cattrs-26.2.1 certifi-2026.10.23 charset_normalizer-3.5.2 click-8.2.1 cloudpickle-3.1.2 coremltools-9.0 flufl-lock-10.0.0 frozenlist-1.8.0 htrmopo-0.6 idna-3.20 imageio-2.38.1 iso639-lang-2.6.3 joblib-1.6.0 jsonschema-4.26.0 jsonschema-specifications-2025.9.1 kraken-7.1 lazy-loader-0.6 lightning-2.6.1 lightning-utilities-0.15.3 lxml-6.1.3 markdown-3.11.2 markdown-it-py-4.2.0 mdurl-0.1.2 multidict-7.2.1 numpy-2.4.6 packaging-26.3 pillow-12.3.0 platformdirs-4.14.3 propcache-0.5.4 protobuf-7.36.2 psutil-7.2.2 pyaml-26.7.0 pyarrow-26.0.1 pygments-2.21.0 python-dateutil-4.0.0 pytorch-lightning-2.6.6 referencing-0.37.0 regex-2026.9.29 requests-2.34.2 rich-14.0.0 rpds-py-2026.9.1 safetensors-0.7.0 scikit-image-0.25.2 scikit-learn-1.7.2 scipy-1.15.3 shapely-2.1.2 sickle-0.7.0 threadpoolctl-3.6.0 tifffile-2026.10.15 torchmetrics-1.9.0 tqdm-4.70.1 tzdata-2026.6 urllib3-2.8.0 yarl-1.25.1
+2026-11-03T13:27:20.8704152Z 
+2026-11-03T13:27:20.8704995Z [notice] A new release of pip is available: 26.2.2 -> 26.3
+2026-11-03T13:27:20.8705435Z [notice] To update, run: pip install --upgrade pip
+2026-11-03T13:27:21.1643412Z ##[group]Run python - <<'PY'
+2026-11-03T13:27:21.1643755Z [36;1mpython - <<'PY'[0m
+2026-11-03T13:27:21.1644036Z [36;1mimport json,os,time,urllib.request[0m
+2026-11-03T13:27:21.1644682Z [36;1murl=f"https://api.github.com/repos/{os.environ['GITHUB_REPOSITORY']}/actions/runs/{os.environ['TRAINING_RUN_ID']}/jobs?per_page=100"[0m
+2026-11-03T13:27:21.1645309Z [36;1mfor attempt in range(90):[0m
+2026-11-03T13:27:21.1645904Z [36;1m    request=urllib.request.Request(url,headers={'Authorization':'Bearer '+os.environ['GH_TOKEN'],'Accept':'application/vnd.github+json'})[0m
+2026-11-03T13:27:21.1646692Z [36;1m    with urllib.request.urlopen(request,timeout=30) as response:jobs=json.load(response)['jobs'][0m
+2026-11-03T13:27:21.1647260Z [36;1m    selected=[j for j in jobs if j['name'].startswith('train (')][0m
+2026-11-03T13:27:21.1647747Z [36;1m    print([(j['name'],j['status'],j['conclusion']) for j in selected],flush=True)[0m
+2026-11-03T13:27:21.1648287Z [36;1m    if len(selected)==3 and all(j['status']=='completed' for j in selected):[0m
+2026-11-03T13:27:21.1648913Z [36;1m        assert all(j['conclusion']=='success' for j in selected),'An original training job failed; no substitute model'[0m
+2026-11-03T13:27:21.1649417Z [36;1m        break[0m
+2026-11-03T13:27:21.1649654Z [36;1m    time.sleep(20)[0m
+2026-11-03T13:27:21.1650095Z [36;1melse:raise TimeoutError('Original trained models not available within the bounded wait')[0m
+2026-11-03T13:27:21.1650547Z [36;1mPY[0m
+2026-11-03T13:27:21.1673845Z shell: /usr/bin/bash -e {0}
+2026-11-03T13:27:21.1674108Z env:
+2026-11-03T13:27:21.1674326Z   OMP_NUM_THREADS: 2
+2026-11-03T13:27:21.1674552Z   MKL_NUM_THREADS: 2
+2026-11-03T13:27:21.1674777Z   OPENBLAS_NUM_THREADS: 2
+2026-11-03T13:27:21.1675029Z   PYTHONUNBUFFERED: 1
+2026-11-03T13:27:21.1675264Z   TRAINING_RUN_ID: 41643719527
+2026-11-03T13:27:21.1675579Z   pythonLocation: /opt/hostedtoolcache/Python/3.12.15/x64
+2026-11-03T13:27:21.1676032Z   PKG_CONFIG_PATH: /opt/hostedtoolcache/Python/3.12.15/x64/lib/pkgconfig
+2026-11-03T13:27:21.1676457Z   Python_ROOT_DIR: /opt/hostedtoolcache/Python/3.12.15/x64
+2026-11-03T13:27:21.1676847Z   Python2_ROOT_DIR: /opt/hostedtoolcache/Python/3.12.15/x64
+2026-11-03T13:27:21.1677247Z   Python3_ROOT_DIR: /opt/hostedtoolcache/Python/3.12.15/x64
+2026-11-03T13:27:21.1677627Z   LD_LIBRARY_PATH: /opt/hostedtoolcache/Python/3.12.15/x64/lib
+2026-11-03T13:27:21.1680368Z   GH_TOKEN: ***
+2026-11-03T13:27:21.1680602Z ##[endgroup]
+2026-11-03T13:27:21.7928279Z [('train (repeat)', 'in_progress', None), ('train (shared_ink)', 'in_progress', None), ('train (random_ink)', 'in_progress', None)]
+2026-11-03T13:27:42.2988316Z [('train (repeat)', 'in_progress', None), ('train (shared_ink)', 'in_progress', None), ('train (random_ink)', 'in_progress', None)]
+2026-11-03T13:28:03.2647756Z [('train (repeat)', 'in_progress', None), ('train (shared_ink)', 'in_progress', None), ('train (random_ink)', 'in_progress', None)]
+2026-11-03T13:28:23.8150737Z [('train (repeat)', 'in_progress', None), ('train (shared_ink)', 'in_progress', None), ('train (random_ink)', 'in_progress', None)]
+2026-11-03T13:28:44.6345464Z [('train (repeat)', 'in_progress', None), ('train (shared_ink)', 'in_progress', None), ('train (random_ink)', 'in_progress', None)]
+2026-11-03T13:29:05.1265611Z [('train (repeat)', 'in_progress', None), ('train (shared_ink)', 'in_progress', None), ('train (random_ink)', 'in_progress', None)]
+2026-11-03T13:29:25.6430403Z [('train (repeat)', 'in_progress', None), ('train (shared_ink)', 'in_progress', None), ('train (random_ink)', 'in_progress', None)]
+2026-11-03T13:29:46.1504126Z [('train (repeat)', 'in_progress', None), ('train (shared_ink)', 'in_progress', None), ('train (random_ink)', 'in_progress', None)]
+2026-11-03T13:30:06.9220927Z [('train (repeat)', 'in_progress', None), ('train (shared_ink)', 'in_progress', None), ('train (random_ink)', 'in_progress', None)]
+2026-11-03T13:30:28.1545116Z [('train (repeat)', 'in_progress', None), ('train (shared_ink)', 'in_progress', None), ('train (random_ink)', 'in_progress', None)]
+2026-11-03T13:30:48.6794413Z [('train (repeat)', 'in_progress', None), ('train (shared_ink)', 'in_progress', None), ('train (random_ink)', 'in_progress', None)]
+2026-11-03T13:31:09.2383047Z [('train (repeat)', 'in_progress', None), ('train (shared_ink)', 'in_progress', None), ('train (random_ink)', 'in_progress', None)]
+2026-11-03T13:31:29.8486432Z [('train (repeat)', 'in_progress', None), ('train (shared_ink)', 'in_progress', None), ('train (random_ink)', 'in_progress', None)]
+2026-11-03T13:31:50.3900510Z [('train (repeat)', 'in_progress', None), ('train (shared_ink)', 'in_progress', None), ('train (random_ink)', 'in_progress', None)]
+2026-11-03T13:32:10.9430305Z [('train (repeat)', 'in_progress', None), ('train (shared_ink)', 'in_progress', None), ('train (random_ink)', 'in_progress', None)]
+2026-11-03T13:32:31.7004806Z [('train (repeat)', 'in_progress', None), ('train (shared_ink)', 'in_progress', None), ('train (random_ink)', 'in_progress', None)]
+2026-11-03T13:32:52.5020020Z [('train (repeat)', 'in_progress', None), ('train (shared_ink)', 'in_progress', None), ('train (random_ink)', 'in_progress', None)]
+2026-11-03T13:33:12.9963180Z [('train (repeat)', 'in_progress', None), ('train (shared_ink)', 'in_progress', None), ('train (random_ink)', 'in_progress', None)]
+2026-11-03T13:33:33.5182721Z [('train (repeat)', 'in_progress', None), ('train (shared_ink)', 'completed', 'success'), ('train (random_ink)', 'in_progress', None)]
+2026-11-03T13:33:54.7637243Z Traceback (most recent call last):
+2026-11-03T13:33:54.7644588Z   File "<stdin>", line 5, in <module>
+2026-11-03T13:33:54.7645215Z   File "/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/urllib/request.py", line 215, in urlopen
+2026-11-03T13:33:54.8150872Z     return opener.open(url, data, timeout)
+2026-11-03T13:33:54.8151300Z            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026-11-03T13:33:54.8152206Z   File "/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/urllib/request.py", line 521, in open
+2026-11-03T13:33:54.8260990Z     response = meth(req, response)
+2026-11-03T13:33:54.8261460Z                ^^^^^^^^^^^^^^^^^^^
+2026-11-03T13:33:54.8262629Z   File "/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/urllib/request.py", line 630, in http_response
+2026-11-03T13:33:54.8263537Z     response = self.parent.error(
+2026-11-03T13:33:54.8264197Z                ^^^^^^^^^^^^^^^^^^
+2026-11-03T13:33:54.8265042Z   File "/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/urllib/request.py", line 559, in error
+2026-11-03T13:33:54.8266258Z     return self._call_chain(*args)
+2026-11-03T13:33:54.8267231Z            ^^^^^^^^^^^^^^^^^^^^^^^
+2026-11-03T13:33:54.8268037Z   File "/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/urllib/request.py", line 492, in _call_chain
+2026-11-03T13:33:54.8269389Z     result = func(*args)
+2026-11-03T13:33:54.8270015Z              ^^^^^^^^^^^
+2026-11-03T13:33:54.8270841Z   File "/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/urllib/request.py", line 639, in http_error_default
+2026-11-03T13:33:54.8272273Z     raise HTTPError(req.full_url, code, msg, hdrs, fp)
+2026-11-03T13:33:54.8273163Z urllib.error.HTTPError: HTTP Error 500: Internal Server Error
+2026-11-03T13:33:54.8393315Z ##[error]Process completed with exit code 1.
+2026-11-03T13:33:54.8488630Z ##[group]Run actions/upload-artifact@v4
+2026-11-03T13:33:54.8488936Z with:
+2026-11-03T13:33:54.8489379Z   name: shared-region-common-evaluation
+2026-11-03T13:33:54.8489684Z   path: work/shared_common_evaluation/
+2026-11-03T13:33:54.8489969Z   if-no-files-found: warn
+2026-11-03T13:33:54.8490218Z   retention-days: 30
+2026-11-03T13:33:54.8490446Z   compression-level: 6
+2026-11-03T13:33:54.8490685Z   overwrite: false
+2026-11-03T13:33:54.8490917Z   include-hidden-files: false
+2026-11-03T13:33:54.8491164Z env:
+2026-11-03T13:33:54.8491364Z   OMP_NUM_THREADS: 2
+2026-11-03T13:33:54.8491584Z   MKL_NUM_THREADS: 2
+2026-11-03T13:33:54.8491949Z   OPENBLAS_NUM_THREADS: 2
+2026-11-03T13:33:54.8492190Z   PYTHONUNBUFFERED: 1
+2026-11-03T13:33:54.8492424Z   TRAINING_RUN_ID: 41643719527
+2026-11-03T13:33:54.8492731Z   pythonLocation: /opt/hostedtoolcache/Python/3.12.15/x64
+2026-11-03T13:33:54.8493170Z   PKG_CONFIG_PATH: /opt/hostedtoolcache/Python/3.12.15/x64/lib/pkgconfig
+2026-11-03T13:33:54.8493644Z   Python_ROOT_DIR: /opt/hostedtoolcache/Python/3.12.15/x64
+2026-11-03T13:33:54.8494038Z   Python2_ROOT_DIR: /opt/hostedtoolcache/Python/3.12.15/x64
+2026-11-03T13:33:54.8494420Z   Python3_ROOT_DIR: /opt/hostedtoolcache/Python/3.12.15/x64
+2026-11-03T13:33:54.8494794Z   LD_LIBRARY_PATH: /opt/hostedtoolcache/Python/3.12.15/x64/lib
+2026-11-03T13:33:54.8495124Z ##[endgroup]
+2026-11-03T13:33:55.0238166Z (node:2611) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+2026-11-03T13:33:55.0239512Z (Use `node --trace-deprecation ...` to show where the warning was created)
+2026-11-03T13:33:55.0270617Z ##[warning]No files were found with the provided path: work/shared_common_evaluation/. No artifacts will be uploaded.
+2026-11-03T13:33:55.0499535Z Post job cleanup.
+2026-11-03T13:33:55.1484685Z [command]/usr/bin/git version
+2026-11-03T13:33:55.1533739Z git version 2.56.0
+2026-11-03T13:33:55.1575886Z Temporarily overriding HOME='/home/runner/work/_temp/3ba16bc5-f0cd-4505-abb9-69907241d8e1' before making global git config changes
+2026-11-03T13:33:55.1576830Z Adding repository directory to the temporary git global config as a safe directory
+2026-11-03T13:33:55.1581544Z [command]/usr/bin/git config --global --add safe.directory /home/runner/work/Voynich/Voynich
+2026-11-03T13:33:55.1626177Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+2026-11-03T13:33:55.1684374Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+2026-11-03T13:33:55.1965305Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+2026-11-03T13:33:55.1997641Z http.https://github.com/.extraheader
+2026-11-03T13:33:55.2010725Z [command]/usr/bin/git config --local --unset-all http.https://github.com/.extraheader
+2026-11-03T13:33:55.2060966Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+2026-11-03T13:33:55.2377064Z [command]/usr/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+2026-11-03T13:33:55.2424665Z [command]/usr/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+2026-11-03T13:33:55.2948336Z Cleaning up orphan processes
+2026-11-03T13:33:55.3387098Z ##[warning]Node.js 20 is deprecated. The following actions target Node.js 20 but are being forced to run on Node.js 24: actions/checkout@v4, actions/setup-python@v5, actions/upload-artifact@v4. For more information see: https://github.blog/changelog/2025-09-19-deprecation-of-node-20-on-github-actions-runners/

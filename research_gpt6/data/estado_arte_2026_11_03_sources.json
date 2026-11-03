@@ -1,0 +1,210 @@
+{
+  "cutoff": "2026-11-03",
+  "scope": "Directed critical update of the 2026-10-14 review plus immediately relevant HTR methodology; not an exhaustive systematic review.",
+  "sources": [
+    {
+      "id": "S01",
+      "title": "The Beinecke Cipher (Voynich) Manuscript",
+      "authors": "Yale Library",
+      "date": "Institutional page consulted 2026-11-03",
+      "status": "Institutional primary source",
+      "url": "https://beinecke.library.yale.edu/beinecke/collections/beinecke-cipher-voynich-manuscript",
+      "access": "Page read",
+      "contribution": "Custody, digitized images and undeciphered-script status.",
+      "limit": "Catalog dating wording and material dating must be distinguished; no evaluation of a proposed key.",
+      "checked_at": "2026-11-03"
+    },
+    {
+      "id": "S02",
+      "title": "The Naibbe cipher: a substitution cipher that encrypts Latin and Italian as Voynich Manuscript-like ciphertext",
+      "authors": "Michael A. Greshko",
+      "date": "2025-11-26 online",
+      "status": "Cryptologia research article",
+      "url": "https://doi.org/10.1080/01611194.2025.2566408",
+      "related_urls": [
+        "https://www.michaelgreshko.com/naibbe-cipher",
+        "https://github.com/greshko/naibbe-cipher"
+      ],
+      "access": "Publisher abstract, author explanation and repository description; not a new full replication",
+      "contribution": "Historically plausible constructed cipher reproduces several statistical properties.",
+      "limit": "Compatibility does not recover the manuscript key or plaintext.",
+      "checked_at": "2026-11-03"
+    },
+    {
+      "id": "S03",
+      "title": "Evidence of Layered Positional and Directional Constraints in the Voynich Manuscript: Implications for Cipher-Like Structure",
+      "authors": "Christophe Parisel",
+      "date": "v2 2026-06-16",
+      "status": "arXiv preprint",
+      "url": "https://arxiv.org/abs/2604.19762",
+      "access": "Primary abstract and HTML",
+      "contribution": "Directional and boundary signatures; tests two generator classes.",
+      "limit": "Failure of those classes does not reject every generator or identify language or reading direction.",
+      "checked_at": "2026-11-03"
+    },
+    {
+      "id": "S04",
+      "title": "A Glyph Is Not a Letter, a Token Is Not a Word, a Space Is Not a Space: What the Units of Voynichese Are Not",
+      "authors": "Liudmila Rozanova; Alexander Temerev",
+      "date": "v1 2026-08-17",
+      "status": "arXiv preprint",
+      "url": "https://arxiv.org/html/2608.17096v1",
+      "access": "HTML methods, limits and reproducibility sections",
+      "contribution": "Tests units and boundaries using prose/cipher/pseudotext controls, quire resampling and image coordinates.",
+      "limit": "Restrictions are conditional on tested representations and controls; no lexical meanings.",
+      "checked_at": "2026-11-03"
+    },
+    {
+      "id": "S05",
+      "title": "Singulion Structure and the Voynich Manuscript",
+      "authors": "Colin Layfield; Lisa Fagin Davis",
+      "date": "2026",
+      "status": "Digital Medievalist article",
+      "url": "https://doi.org/10.4000/16k0a",
+      "related_urls": [
+        "https://journals.openedition.org/digitalmedievalist/2331"
+      ],
+      "access": "Bibliographic record and prior documented author explanation; direct full text blocked by Anubis in this update",
+      "contribution": "Physical structure and reading-order hypothesis.",
+      "limit": "No new claim to have read or replicated its full ordering tables; reordering is not translation.",
+      "checked_at": "2026-11-03"
+    },
+    {
+      "id": "S06",
+      "title": "Archetype: Voynich Palaeography",
+      "authors": "Torsten Timm",
+      "date": "2026-03-01",
+      "status": "Zenodo dataset, supplement to an author preprint",
+      "url": "https://zenodo.org/records/18827108",
+      "related_urls": [
+        "https://zenodo.org/records/18827108/files/README.md?download=1",
+        "https://lingbuzz.net/lingbuzz/009784"
+      ],
+      "access": "Dataset record and full README; accompanying paper URL returned 502",
+      "contribution": "1684 annotated graphs, 203 images and five allograph categories; eight section/hand labels map onto five proposed scribes.",
+      "limit": "Not eight proven historical scribes or a complete word-level ground-truth corpus. No images or labels imported into this retraining.",
+      "checked_at": "2026-11-03"
+    },
+    {
+      "id": "S07",
+      "title": "Structural Decipherment Without Lexical Recovery: A Cross-Validated Morphological Analysis of the Voynich Manuscript",
+      "authors": "Matthew Dominik",
+      "date": "v2 record 2026-10-18",
+      "status": "Zenodo preprint",
+      "url": "https://zenodo.org/records/23444474",
+      "access": "Record and detailed abstract; linked PDF retrieval failed",
+      "contribution": "Author reports morphological/core structure and protected tests; explicitly separates role-naturalization from plaintext.",
+      "limit": "98.4314% is a conditional role benchmark, not translation accuracy. Claims not independently reproduced here.",
+      "checked_at": "2026-11-03"
+    },
+    {
+      "id": "S08",
+      "title": "Voynich Spatial Data",
+      "authors": "Alessandro Placa",
+      "date": "Snapshot 2026-07-18b",
+      "status": "Author spatial dataset and repository",
+      "url": "https://github.com/alessandroplaca-uro/voynich-spatial-data",
+      "commit": "7580dafa624cf23a63665f4819022003f8d128ef",
+      "access": "README, VERSION.json and commit date verified",
+      "contribution": "539 positioned/oriented Rosettes tokens and raw traces; spatial data CC BY 4.0.",
+      "limit": "Transliteration derives from community sources; Latin interpretation excluded. Font has distinct restrictions. Not imported into this experiment.",
+      "checked_at": "2026-11-03"
+    },
+    {
+      "id": "S09",
+      "title": "On the Generalization of Handwritten Text Recognition Models",
+      "authors": "Carlos Garrido-Munoz; Jorge Calvo-Zaragoza",
+      "date": "CVPR 2025; arXiv v2 2025-06-01",
+      "status": "CVPR proceedings paper",
+      "url": "https://arxiv.org/html/2411.17332v2",
+      "related_urls": [
+        "https://openaccess.thecvf.com/content/CVPR2025/papers/Garrido-Munoz_On_the_Generalization_of_Handwritten_Text_Recognition_Models_CVPR_2025_paper.pdf",
+        "https://github.com/carlos10garrido/HTR-OOD"
+      ],
+      "access": "Full HTML experimental methods and OOD analysis",
+      "contribution": "336 OOD cases across eight models, seven datasets and five languages; lexical divergence matters strongly.",
+      "limit": "Known-language line benchmarks do not validate Voynich; a visual augmentation experiment does not remove lexical shift.",
+      "checked_at": "2026-11-03"
+    },
+    {
+      "id": "S10",
+      "title": "Who Needs Labels? Adapting Vision Foundation Models With the Metadata You Already Have",
+      "authors": "Elouan Gardes et al.",
+      "date": "2026-06-03",
+      "status": "arXiv preprint; FINO implementation",
+      "url": "https://arxiv.org/abs/2606.05107",
+      "related_urls": [
+        "https://github.com/facebookresearch/dinov3/tree/FINO"
+      ],
+      "access": "Primary abstract and PDF retrieval; no independent code execution or transfer evaluation",
+      "contribution": "Metadata-guided self-supervised representation adaptation in scientific domains.",
+      "limit": "No demonstrated Voynich decoding; section/hand metadata can preserve confounds. NOT_RUN here.",
+      "checked_at": "2026-11-03"
+    },
+    {
+      "id": "S11",
+      "title": "Spatial context-based Self-Supervised Learning for Handwritten Text Recognition",
+      "authors": null,
+      "date": null,
+      "status": "Pattern Recognition Letters publisher record",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0167865525002120",
+      "access": "Indexed primary publisher abstract; direct full text 403",
+      "contribution": "Self-supervised spatial-context adaptation for HTR.",
+      "limit": "No transfer performance on these manuscripts verified; incomplete bibliographic fields left unset.",
+      "checked_at": "2026-11-03"
+    },
+    {
+      "id": "S12",
+      "title": "Uncertainty-Aware Processing for OCR Using Dictionary Routing and Candidate Selection",
+      "authors": "Kim et al.",
+      "date": "2026",
+      "status": "Electronics Letters publisher record",
+      "url": "https://ietresearch.onlinelibrary.wiley.com/doi/10.1049/ell2.70630",
+      "access": "Indexed primary abstract; direct page timed out",
+      "contribution": "CTC-output uncertainty and routing/candidate correction.",
+      "limit": "Dictionary-assisted correction may hide unseen-word failure; not adopted as evidence of lexical recovery.",
+      "checked_at": "2026-11-03"
+    },
+    {
+      "id": "S13",
+      "title": "Kraken 7.1 recognition datasets and default augmentation",
+      "authors": "Kraken contributors",
+      "date": "Version 7.1",
+      "status": "Official software source",
+      "url": "https://github.com/mittagessen/kraken/blob/7.1/kraken/lib/dataset/augment.py",
+      "related_urls": [
+        "https://github.com/mittagessen/kraken/blob/7.1/kraken/lib/dataset/recognition.py"
+      ],
+      "access": "Full source inspected; installed source and recipe recorded by each training job",
+      "contribution": "Controlled common augmentation baseline with global probability 0.5 and maximum three operations.",
+      "limit": "Default augmentation is not a novel algorithm or independently validated glyph preservation.",
+      "checked_at": "2026-11-03"
+    },
+    {
+      "id": "S14",
+      "title": "Voynichese Data Sets",
+      "authors": "Voynichese Project",
+      "date": "Documentation consulted 2026-11-03",
+      "status": "Primary data documentation",
+      "url": "https://github.com/voynichese/voynichese/blob/wiki/DataSets.md",
+      "access": "Full data-quality and spatial-binding documentation",
+      "contribution": "Semi-automated spatial binding, EVA conventions and uncertain word boundaries.",
+      "limit": "XML/JSON agreement is not independent expert agreement; estimated source error is not measured accuracy of this dataset.",
+      "checked_at": "2026-11-03"
+    },
+    {
+      "id": "S15",
+      "title": "Connectionist Temporal Classification: Labelling Unsegmented Sequence Data with Recurrent Neural Networks",
+      "authors": "Alex Graves; Santiago Fernandez; Faustino Gomez; Jurgen Schmidhuber",
+      "date": "2006",
+      "status": "ICML proceedings paper",
+      "url": "https://www.cs.toronto.edu/~graves/icml_2006.pdf",
+      "access": "Primary PDF and likelihood/training sections",
+      "contribution": "CTC likelihood sums alignments; establishes the standard objective and distinction from decoding paths.",
+      "limit": "Recognizing an EVA string does not identify its language or meaning.",
+      "checked_at": "2026-11-03"
+    }
+  ],
+  "new_experiment_protocol": "78_shared_region_retraining_protocol.md",
+  "translation": "NOT_RUN"
+}

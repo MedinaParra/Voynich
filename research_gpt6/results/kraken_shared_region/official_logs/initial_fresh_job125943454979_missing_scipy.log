@@ -1,0 +1,233 @@
+﻿2026-11-03T13:22:16.6865526Z Current runner version: '2.338.2'
+2026-11-03T13:22:16.6885628Z ##[group]Runner Image Provisioner
+2026-11-03T13:22:16.6886241Z Hosted Compute Agent
+2026-11-03T13:22:16.6886658Z Version: 20261028.624
+2026-11-03T13:22:16.6887050Z Commit: 54898b74c23fde5556c9b3c3a2290865feef0dfe
+2026-11-03T13:22:16.6887853Z Build Date: 2026-10-28T21:51:42Z
+2026-11-03T13:22:16.6888293Z Worker ID: {4d74cff2-559b-43e8-ae9f-34c84290ec36}
+2026-11-03T13:22:16.6888756Z Region: centralus
+2026-11-03T13:22:16.6889134Z Cloud: Azure
+2026-11-03T13:22:16.6889488Z ##[endgroup]
+2026-11-03T13:22:16.6890403Z ##[group]Operating System
+2026-11-03T13:22:16.6890795Z Ubuntu
+2026-11-03T13:22:16.6891116Z 24.04.5
+2026-11-03T13:22:16.6891531Z LTS
+2026-11-03T13:22:16.6891859Z ##[endgroup]
+2026-11-03T13:22:16.6892273Z ##[group]Runner Image
+2026-11-03T13:22:16.6892653Z Image: ubuntu-24.04
+2026-11-03T13:22:16.6893004Z Version: 20261101.360.1
+2026-11-03T13:22:16.6893875Z Included Software: https://github.com/actions/runner-images/blob/ubuntu24/20261101.360/images/ubuntu/Ubuntu2404-Readme.md
+2026-11-03T13:22:16.6894858Z Image Release: https://github.com/actions/runner-images/releases/tag/ubuntu24%2F20261101.360
+2026-11-03T13:22:16.6895456Z ##[endgroup]
+2026-11-03T13:22:16.6896552Z ##[group]GITHUB_TOKEN Permissions
+2026-11-03T13:22:16.6897976Z Actions: read
+2026-11-03T13:22:16.6898351Z Contents: read
+2026-11-03T13:22:16.6898769Z Metadata: read
+2026-11-03T13:22:16.6899124Z ##[endgroup]
+2026-11-03T13:22:16.6900647Z Secret source: Actions
+2026-11-03T13:22:16.6901238Z Cache mode: write
+2026-11-03T13:22:16.6901741Z Prepare workflow directory
+2026-11-03T13:22:16.7170944Z Prepare all required actions
+2026-11-03T13:22:16.7215867Z Getting action download info
+2026-11-03T13:22:16.9857708Z Download action repository 'actions/checkout@v4' (SHA:11d5960a326750d5838078e36cf38b85af677262)
+2026-11-03T13:22:17.1606065Z Download action repository 'actions/setup-python@v5' (SHA:a26af69be951a213d495a4c3e4e4022e16d87065)
+2026-11-03T13:22:17.3377384Z Download action repository 'actions/upload-artifact@v4' (SHA:ea165f8d65b6e75b540449e92b4886f43607fa02)
+2026-11-03T13:22:17.7567364Z Complete job name: fresh
+2026-11-03T13:22:17.8250745Z ##[group]Run actions/checkout@v4
+2026-11-03T13:22:17.8251573Z with:
+2026-11-03T13:22:17.8252109Z   repository: MedinaParra/Voynich
+2026-11-03T13:22:17.8257770Z   token: ***
+2026-11-03T13:22:17.8258299Z   ssh-strict: true
+2026-11-03T13:22:17.8258835Z   ssh-user: git
+2026-11-03T13:22:17.8259379Z   persist-credentials: true
+2026-11-03T13:22:17.8259975Z   clean: true
+2026-11-03T13:22:17.8260524Z   sparse-checkout-cone-mode: true
+2026-11-03T13:22:17.8261190Z   fetch-depth: 1
+2026-11-03T13:22:17.8261715Z   fetch-tags: false
+2026-11-03T13:22:17.8262259Z   show-progress: true
+2026-11-03T13:22:17.8262818Z   lfs: false
+2026-11-03T13:22:17.8263337Z   submodules: false
+2026-11-03T13:22:17.8263906Z   set-safe-directory: true
+2026-11-03T13:22:17.8264539Z   allow-unsafe-pr-checkout: false
+2026-11-03T13:22:17.8265274Z env:
+2026-11-03T13:22:17.8265763Z   OMP_NUM_THREADS: 2
+2026-11-03T13:22:17.8266345Z   MKL_NUM_THREADS: 2
+2026-11-03T13:22:17.8266904Z   OPENBLAS_NUM_THREADS: 2
+2026-11-03T13:22:17.8267691Z   PYTHONUNBUFFERED: 1
+2026-11-03T13:22:17.8268239Z ##[endgroup]
+2026-11-03T13:22:18.0869810Z Syncing repository: MedinaParra/Voynich
+2026-11-03T13:22:18.0871544Z ##[group]Getting Git version info
+2026-11-03T13:22:18.0872339Z Working directory is '/home/runner/work/Voynich/Voynich'
+2026-11-03T13:22:18.0873475Z [command]/usr/bin/git version
+2026-11-03T13:22:18.1006582Z git version 2.56.0
+2026-11-03T13:22:18.1019463Z ##[endgroup]
+2026-11-03T13:22:18.1029952Z Temporarily overriding HOME='/home/runner/work/_temp/6948f5ce-2249-4ff1-82e5-c7ce1ddf2347' before making global git config changes
+2026-11-03T13:22:18.1031608Z Adding repository directory to the temporary git global config as a safe directory
+2026-11-03T13:22:18.1034144Z [command]/usr/bin/git config --global --add safe.directory /home/runner/work/Voynich/Voynich
+2026-11-03T13:22:18.1120852Z Deleting the contents of '/home/runner/work/Voynich/Voynich'
+2026-11-03T13:22:18.1124815Z ##[group]Initializing the repository
+2026-11-03T13:22:18.1128652Z [command]/usr/bin/git init /home/runner/work/Voynich/Voynich
+2026-11-03T13:22:18.1245887Z hint: Using 'master' as the name for the initial branch. This default branch name
+2026-11-03T13:22:18.1247308Z hint: will change to "main" in Git 3.0. To configure the initial branch name
+2026-11-03T13:22:18.1248385Z hint: to use in all of your new repositories, which will suppress this warning,
+2026-11-03T13:22:18.1249236Z hint: call:
+2026-11-03T13:22:18.1249726Z hint:
+2026-11-03T13:22:18.1250489Z hint: 	git config --global init.defaultBranch <name>
+2026-11-03T13:22:18.1251659Z hint:
+2026-11-03T13:22:18.1252744Z hint: Names commonly chosen instead of 'master' are 'main', 'trunk' and
+2026-11-03T13:22:18.1254587Z hint: 'development'. The just-created branch can be renamed via this command:
+2026-11-03T13:22:18.1256191Z hint:
+2026-11-03T13:22:18.1257341Z hint: 	git branch -m <name>
+2026-11-03T13:22:18.1258334Z hint:
+2026-11-03T13:22:18.1259596Z hint: Disable this message with "git config set advice.defaultBranchName false"
+2026-11-03T13:22:18.1272213Z Initialized empty Git repository in /home/runner/work/Voynich/Voynich/.git/
+2026-11-03T13:22:18.1283573Z [command]/usr/bin/git remote add origin https://github.com/MedinaParra/Voynich
+2026-11-03T13:22:18.1381894Z ##[endgroup]
+2026-11-03T13:22:18.1383721Z ##[group]Disabling automatic garbage collection
+2026-11-03T13:22:18.1385639Z [command]/usr/bin/git config --local gc.auto 0
+2026-11-03T13:22:18.1418909Z ##[endgroup]
+2026-11-03T13:22:18.1420281Z ##[group]Setting up auth
+2026-11-03T13:22:18.1424291Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+2026-11-03T13:22:18.1458760Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+2026-11-03T13:22:18.1811334Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+2026-11-03T13:22:18.1855279Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+2026-11-03T13:22:18.2055804Z [command]/usr/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+2026-11-03T13:22:18.2096117Z [command]/usr/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+2026-11-03T13:22:18.2292178Z [command]/usr/bin/git config --local http.https://github.com/.extraheader AUTHORIZATION: basic ***
+2026-11-03T13:22:18.2336231Z ##[endgroup]
+2026-11-03T13:22:18.2337473Z ##[group]Fetching the repository
+2026-11-03T13:22:18.2347657Z [command]/usr/bin/git -c protocol.version=2 fetch --no-tags --prune --no-recurse-submodules --depth=1 origin +9377583a54bfb8eed5871556b65e2f1d4fc47e0f:refs/remotes/origin/experiment/kraken-voynich
+2026-11-03T13:22:19.7208457Z From https://github.com/MedinaParra/Voynich
+2026-11-03T13:22:19.7220896Z  * [new ref]         9377583a54bfb8eed5871556b65e2f1d4fc47e0f -> origin/experiment/kraken-voynich
+2026-11-03T13:22:19.7223293Z ##[endgroup]
+2026-11-03T13:22:19.7223743Z ##[group]Determining the checkout info
+2026-11-03T13:22:19.7224105Z ##[endgroup]
+2026-11-03T13:22:19.7224338Z [command]/usr/bin/git sparse-checkout disable
+2026-11-03T13:22:19.7283859Z [command]/usr/bin/git config --local --unset-all extensions.worktreeConfig
+2026-11-03T13:22:19.7324617Z ##[group]Checking out the ref
+2026-11-03T13:22:19.7328678Z [command]/usr/bin/git checkout --progress --force -B experiment/kraken-voynich refs/remotes/origin/experiment/kraken-voynich
+2026-11-03T13:22:19.9713461Z Switched to a new branch 'experiment/kraken-voynich'
+2026-11-03T13:22:19.9716192Z branch 'experiment/kraken-voynich' set up to track 'origin/experiment/kraken-voynich'.
+2026-11-03T13:22:19.9737748Z ##[endgroup]
+2026-11-03T13:22:19.9786171Z [command]/usr/bin/git log -1 --format=%H
+2026-11-03T13:22:19.9816619Z 9377583a54bfb8eed5871556b65e2f1d4fc47e0f
+2026-11-03T13:22:20.0026181Z ##[group]Run actions/setup-python@v5
+2026-11-03T13:22:20.0026413Z with:
+2026-11-03T13:22:20.0026537Z   python-version: 3.12
+2026-11-03T13:22:20.0026673Z   check-latest: false
+2026-11-03T13:22:20.0028420Z   token: ***
+2026-11-03T13:22:20.0028557Z   update-environment: true
+2026-11-03T13:22:20.0094139Z   allow-prereleases: false
+2026-11-03T13:22:20.0094417Z   freethreaded: false
+2026-11-03T13:22:20.0094592Z env:
+2026-11-03T13:22:20.0094742Z   OMP_NUM_THREADS: 2
+2026-11-03T13:22:20.0094922Z   MKL_NUM_THREADS: 2
+2026-11-03T13:22:20.0095110Z   OPENBLAS_NUM_THREADS: 2
+2026-11-03T13:22:20.0095302Z   PYTHONUNBUFFERED: 1
+2026-11-03T13:22:20.0095511Z ##[endgroup]
+2026-11-03T13:22:20.1027636Z ##[group]Installed versions
+2026-11-03T13:22:20.2040120Z (node:2118) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+2026-11-03T13:22:20.2040753Z (Use `node --trace-deprecation ...` to show where the warning was created)
+2026-11-03T13:22:20.2041197Z Successfully set up CPython (3.12.16)
+2026-11-03T13:22:20.2041587Z ##[endgroup]
+2026-11-03T13:22:20.2176360Z ##[group]Run python -m pip install 'opencv-python-headless==4.12.0.88' 'numpy==2.2.6' 'pillow==12.3.0'
+2026-11-03T13:22:20.2176825Z [36;1mpython -m pip install 'opencv-python-headless==4.12.0.88' 'numpy==2.2.6' 'pillow==12.3.0'[0m
+2026-11-03T13:22:20.2372396Z shell: /usr/bin/bash -e {0}
+2026-11-03T13:22:20.2372637Z env:
+2026-11-03T13:22:20.2372774Z   OMP_NUM_THREADS: 2
+2026-11-03T13:22:20.2372906Z   MKL_NUM_THREADS: 2
+2026-11-03T13:22:20.2373032Z   OPENBLAS_NUM_THREADS: 2
+2026-11-03T13:22:20.2373172Z   PYTHONUNBUFFERED: 1
+2026-11-03T13:22:20.2373341Z   pythonLocation: /opt/hostedtoolcache/Python/3.12.16/x64
+2026-11-03T13:22:20.2373591Z   PKG_CONFIG_PATH: /opt/hostedtoolcache/Python/3.12.16/x64/lib/pkgconfig
+2026-11-03T13:22:20.2373830Z   Python_ROOT_DIR: /opt/hostedtoolcache/Python/3.12.16/x64
+2026-11-03T13:22:20.2374079Z   Python2_ROOT_DIR: /opt/hostedtoolcache/Python/3.12.16/x64
+2026-11-03T13:22:20.2374295Z   Python3_ROOT_DIR: /opt/hostedtoolcache/Python/3.12.16/x64
+2026-11-03T13:22:20.2374563Z   LD_LIBRARY_PATH: /opt/hostedtoolcache/Python/3.12.16/x64/lib
+2026-11-03T13:22:20.2374746Z ##[endgroup]
+2026-11-03T13:22:24.4543438Z Collecting opencv-python-headless==4.12.0.88
+2026-11-03T13:22:24.5191441Z   Downloading opencv_python_headless-4.12.0.88-cp37-abi3-manylinux2014_x86_64.manylinux_2_17_x86_64.whl.metadata (19 kB)
+2026-11-03T13:22:24.6719748Z Collecting numpy==2.2.6
+2026-11-03T13:22:24.6827715Z   Downloading numpy-2.2.6-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (62 kB)
+2026-11-03T13:22:24.8068058Z Collecting pillow==12.3.0
+2026-11-03T13:22:24.8173910Z   Downloading pillow-12.3.0-cp312-cp312-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl.metadata (9.1 kB)
+2026-11-03T13:22:24.8329184Z Downloading opencv_python_headless-4.12.0.88-cp37-abi3-manylinux2014_x86_64.manylinux_2_17_x86_64.whl (54.0 MB)
+2026-11-03T13:22:25.2726413Z    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 54.0/54.0 MB 126.2 MB/s  0:00:00
+2026-11-03T13:22:25.2831998Z Downloading numpy-2.2.6-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (16.5 MB)
+2026-11-03T13:22:25.4051708Z    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 16.5/16.5 MB 135.6 MB/s  0:00:00
+2026-11-03T13:22:25.4156574Z Downloading pillow-12.3.0-cp312-cp312-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl (6.9 MB)
+2026-11-03T13:22:25.4588033Z    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 6.9/6.9 MB 161.7 MB/s  0:00:00
+2026-11-03T13:22:25.7630282Z Installing collected packages: pillow, numpy, opencv-python-headless
+2026-11-03T13:22:27.8798932Z 
+2026-11-03T13:22:27.8806838Z Successfully installed numpy-2.2.6 opencv-python-headless-4.12.0.88 pillow-12.3.0
+2026-11-03T13:22:27.8813022Z 
+2026-11-03T13:22:27.8813472Z [notice] A new release of pip is available: 26.2.2 -> 26.3
+2026-11-03T13:22:27.8813755Z [notice] To update, run: pip install --upgrade pip
+2026-11-03T13:22:27.9402236Z ##[group]Run python research_gpt6/code/prepare_shared_fresh.py --plan research_gpt6/data/kraken_shared_region_plan.json --repo research_gpt6
+2026-11-03T13:22:27.9402766Z [36;1mpython research_gpt6/code/prepare_shared_fresh.py --plan research_gpt6/data/kraken_shared_region_plan.json --repo research_gpt6[0m
+2026-11-03T13:22:27.9419371Z shell: /usr/bin/bash -e {0}
+2026-11-03T13:22:27.9419504Z env:
+2026-11-03T13:22:27.9419608Z   OMP_NUM_THREADS: 2
+2026-11-03T13:22:27.9419724Z   MKL_NUM_THREADS: 2
+2026-11-03T13:22:27.9419842Z   OPENBLAS_NUM_THREADS: 2
+2026-11-03T13:22:27.9419972Z   PYTHONUNBUFFERED: 1
+2026-11-03T13:22:27.9420126Z   pythonLocation: /opt/hostedtoolcache/Python/3.12.16/x64
+2026-11-03T13:22:27.9420358Z   PKG_CONFIG_PATH: /opt/hostedtoolcache/Python/3.12.16/x64/lib/pkgconfig
+2026-11-03T13:22:27.9420583Z   Python_ROOT_DIR: /opt/hostedtoolcache/Python/3.12.16/x64
+2026-11-03T13:22:27.9420789Z   Python2_ROOT_DIR: /opt/hostedtoolcache/Python/3.12.16/x64
+2026-11-03T13:22:27.9421032Z   Python3_ROOT_DIR: /opt/hostedtoolcache/Python/3.12.16/x64
+2026-11-03T13:22:27.9421237Z   LD_LIBRARY_PATH: /opt/hostedtoolcache/Python/3.12.16/x64/lib
+2026-11-03T13:22:27.9421409Z ##[endgroup]
+2026-11-03T13:22:28.2044052Z Traceback (most recent call last):
+2026-11-03T13:22:28.2050151Z   File "/home/runner/work/Voynich/Voynich/research_gpt6/code/prepare_shared_fresh.py", line 125, in <module>
+2026-11-03T13:22:28.2051038Z     prepare(p.parse_args())
+2026-11-03T13:22:28.2051753Z   File "/home/runner/work/Voynich/Voynich/research_gpt6/code/prepare_shared_fresh.py", line 33, in prepare
+2026-11-03T13:22:28.2052520Z     from prepare_kraken_expansion import prepare as geometry_prepare
+2026-11-03T13:22:28.2053142Z   File "/home/runner/work/Voynich/Voynich/research_gpt6/code/prepare_kraken_expansion.py", line 16, in <module>
+2026-11-03T13:22:28.2053649Z     from kraken_eva_word_training import crop_word, sample_name
+2026-11-03T13:22:28.2054195Z   File "/home/runner/work/Voynich/Voynich/research_gpt6/code/kraken_eva_word_training.py", line 19, in <module>
+2026-11-03T13:22:28.2054745Z     from kraken_row_tools import image_features, nearest_text, levenshtein
+2026-11-03T13:22:28.2055257Z   File "/home/runner/work/Voynich/Voynich/research_gpt6/code/kraken_row_tools.py", line 6, in <module>
+2026-11-03T13:22:28.2055689Z     from scipy.optimize import linear_sum_assignment
+2026-11-03T13:22:28.2056006Z ModuleNotFoundError: No module named 'scipy'
+2026-11-03T13:22:28.2263202Z ##[error]Process completed with exit code 1.
+2026-11-03T13:22:28.2316582Z ##[group]Run actions/upload-artifact@v4
+2026-11-03T13:22:28.2316742Z with:
+2026-11-03T13:22:28.2316861Z   name: fresh-leaf8-geometry
+2026-11-03T13:22:28.2317038Z   path: research_gpt6/results/kraken_shared_region/fresh_data/
+2026-11-03T13:22:28.2317353Z   if-no-files-found: warn
+2026-11-03T13:22:28.2317481Z   retention-days: 30
+2026-11-03T13:22:28.2317605Z   compression-level: 6
+2026-11-03T13:22:28.2317727Z   overwrite: false
+2026-11-03T13:22:28.2317847Z   include-hidden-files: false
+2026-11-03T13:22:28.2317986Z env:
+2026-11-03T13:22:28.2318090Z   OMP_NUM_THREADS: 2
+2026-11-03T13:22:28.2318202Z   MKL_NUM_THREADS: 2
+2026-11-03T13:22:28.2318321Z   OPENBLAS_NUM_THREADS: 2
+2026-11-03T13:22:28.2318448Z   PYTHONUNBUFFERED: 1
+2026-11-03T13:22:28.2318606Z   pythonLocation: /opt/hostedtoolcache/Python/3.12.16/x64
+2026-11-03T13:22:28.2318844Z   PKG_CONFIG_PATH: /opt/hostedtoolcache/Python/3.12.16/x64/lib/pkgconfig
+2026-11-03T13:22:28.2319092Z   Python_ROOT_DIR: /opt/hostedtoolcache/Python/3.12.16/x64
+2026-11-03T13:22:28.2319304Z   Python2_ROOT_DIR: /opt/hostedtoolcache/Python/3.12.16/x64
+2026-11-03T13:22:28.2319514Z   Python3_ROOT_DIR: /opt/hostedtoolcache/Python/3.12.16/x64
+2026-11-03T13:22:28.2319730Z   LD_LIBRARY_PATH: /opt/hostedtoolcache/Python/3.12.16/x64/lib
+2026-11-03T13:22:28.2319910Z ##[endgroup]
+2026-11-03T13:22:28.3448749Z (node:2153) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+2026-11-03T13:22:28.3449175Z (Use `node --trace-deprecation ...` to show where the warning was created)
+2026-11-03T13:22:28.3473387Z ##[warning]No files were found with the provided path: research_gpt6/results/kraken_shared_region/fresh_data/. No artifacts will be uploaded.
+2026-11-03T13:22:28.3704218Z Post job cleanup.
+2026-11-03T13:22:28.4320474Z [command]/usr/bin/git version
+2026-11-03T13:22:28.4356800Z git version 2.56.0
+2026-11-03T13:22:28.4397904Z Temporarily overriding HOME='/home/runner/work/_temp/0f06eaad-61f5-494e-8e10-a43a6535c432' before making global git config changes
+2026-11-03T13:22:28.4398352Z Adding repository directory to the temporary git global config as a safe directory
+2026-11-03T13:22:28.4398689Z [command]/usr/bin/git config --global --add safe.directory /home/runner/work/Voynich/Voynich
+2026-11-03T13:22:28.4427872Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+2026-11-03T13:22:28.4462390Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+2026-11-03T13:22:28.4691627Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+2026-11-03T13:22:28.4727839Z http.https://github.com/.extraheader
+2026-11-03T13:22:28.4738497Z [command]/usr/bin/git config --local --unset-all http.https://github.com/.extraheader
+2026-11-03T13:22:28.4777415Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+2026-11-03T13:22:28.5000284Z [command]/usr/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+2026-11-03T13:22:28.5039484Z [command]/usr/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+2026-11-03T13:22:28.5379201Z Cleaning up orphan processes
+2026-11-03T13:22:28.5781125Z ##[warning]Node.js 20 is deprecated. The following actions target Node.js 20 but are being forced to run on Node.js 24: actions/checkout@v4, actions/setup-python@v5, actions/upload-artifact@v4. For more information see: https://github.blog/changelog/2025-09-19-deprecation-of-node-20-on-github-actions-runners/

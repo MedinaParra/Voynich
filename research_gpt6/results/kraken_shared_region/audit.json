@@ -1,0 +1,212 @@
+{
+  "status": "PASS",
+  "checks": 79013,
+  "mismatches": [],
+  "plan_sha256": "92eef3c3bbbb3d0504d62ae8c7d0cd01c8de0dc43559bac94e780f083a646864",
+  "common_result_sha256": "beb441bb351fda388ff4b53d885dc22d3aeefaa042a4c8819e104eb0282e9ef6",
+  "checkpoint_counters_read_without_unpickling": {
+    "repeat": {
+      "epoch": 99,
+      "global_step": 5600
+    },
+    "random_ink": {
+      "epoch": 99,
+      "global_step": 5600
+    },
+    "shared_ink": {
+      "epoch": 99,
+      "global_step": 5600
+    }
+  },
+  "training_words": 442,
+  "fresh_words": 265,
+  "fresh_unseen_words": 140,
+  "posterior_matrices_replayed": 4376,
+  "logged_common_forward_calls": 4376,
+  "matrix_replay_differences": 0,
+  "text_replay_differences": 0,
+  "fresh_all_metrics": {
+    "source_greedy": {
+      "errors": 793,
+      "eva_characters": 1280,
+      "cer": 0.61953125,
+      "exact_words": 20,
+      "words": 265,
+      "exact_word_fraction": 0.07547169811320754
+    },
+    "source_beam32": {
+      "errors": 788,
+      "eva_characters": 1280,
+      "cer": 0.615625,
+      "exact_words": 19,
+      "words": 265,
+      "exact_word_fraction": 0.07169811320754717
+    },
+    "repeat_greedy": {
+      "errors": 733,
+      "eva_characters": 1280,
+      "cer": 0.57265625,
+      "exact_words": 25,
+      "words": 265,
+      "exact_word_fraction": 0.09433962264150944
+    },
+    "repeat_beam32": {
+      "errors": 738,
+      "eva_characters": 1280,
+      "cer": 0.5765625,
+      "exact_words": 24,
+      "words": 265,
+      "exact_word_fraction": 0.09056603773584905
+    },
+    "random_ink_greedy": {
+      "errors": 732,
+      "eva_characters": 1280,
+      "cer": 0.571875,
+      "exact_words": 27,
+      "words": 265,
+      "exact_word_fraction": 0.1018867924528302
+    },
+    "random_ink_beam32": {
+      "errors": 727,
+      "eva_characters": 1280,
+      "cer": 0.56796875,
+      "exact_words": 29,
+      "words": 265,
+      "exact_word_fraction": 0.10943396226415095
+    },
+    "shared_ink_greedy": {
+      "errors": 738,
+      "eva_characters": 1280,
+      "cer": 0.5765625,
+      "exact_words": 25,
+      "words": 265,
+      "exact_word_fraction": 0.09433962264150944
+    },
+    "shared_ink_beam32": {
+      "errors": 735,
+      "eva_characters": 1280,
+      "cer": 0.57421875,
+      "exact_words": 25,
+      "words": 265,
+      "exact_word_fraction": 0.09433962264150944
+    },
+    "nearest_image": {
+      "errors": 796,
+      "eva_characters": 1280,
+      "cer": 0.621875,
+      "exact_words": 32,
+      "words": 265,
+      "exact_word_fraction": 0.12075471698113208
+    }
+  },
+  "fresh_unseen_metrics": {
+    "source_greedy": {
+      "errors": 538,
+      "eva_characters": 778,
+      "cer": 0.6915167095115681,
+      "exact_words": 0,
+      "words": 140,
+      "exact_word_fraction": 0.0
+    },
+    "source_beam32": {
+      "errors": 535,
+      "eva_characters": 778,
+      "cer": 0.6876606683804627,
+      "exact_words": 0,
+      "words": 140,
+      "exact_word_fraction": 0.0
+    },
+    "repeat_greedy": {
+      "errors": 502,
+      "eva_characters": 778,
+      "cer": 0.6452442159383034,
+      "exact_words": 1,
+      "words": 140,
+      "exact_word_fraction": 0.007142857142857143
+    },
+    "repeat_beam32": {
+      "errors": 502,
+      "eva_characters": 778,
+      "cer": 0.6452442159383034,
+      "exact_words": 1,
+      "words": 140,
+      "exact_word_fraction": 0.007142857142857143
+    },
+    "random_ink_greedy": {
+      "errors": 511,
+      "eva_characters": 778,
+      "cer": 0.6568123393316195,
+      "exact_words": 2,
+      "words": 140,
+      "exact_word_fraction": 0.014285714285714285
+    },
+    "random_ink_beam32": {
+      "errors": 509,
+      "eva_characters": 778,
+      "cer": 0.6542416452442159,
+      "exact_words": 3,
+      "words": 140,
+      "exact_word_fraction": 0.02142857142857143
+    },
+    "shared_ink_greedy": {
+      "errors": 505,
+      "eva_characters": 778,
+      "cer": 0.6491002570694088,
+      "exact_words": 1,
+      "words": 140,
+      "exact_word_fraction": 0.007142857142857143
+    },
+    "shared_ink_beam32": {
+      "errors": 502,
+      "eva_characters": 778,
+      "cer": 0.6452442159383034,
+      "exact_words": 1,
+      "words": 140,
+      "exact_word_fraction": 0.007142857142857143
+    },
+    "nearest_image": {
+      "errors": 543,
+      "eva_characters": 778,
+      "cer": 0.6979434447300771,
+      "exact_words": 0,
+      "words": 140,
+      "exact_word_fraction": 0.0
+    }
+  },
+  "fresh_unseen_exact": {
+    "source_beam32": [],
+    "repeat_beam32": [
+      {
+        "id": "f8r_w0050",
+        "reference": "sol",
+        "length": 3
+      }
+    ],
+    "random_ink_beam32": [
+      {
+        "id": "f8r_w0050",
+        "reference": "sol",
+        "length": 3
+      },
+      {
+        "id": "f8v_w0016",
+        "reference": "cty",
+        "length": 3
+      },
+      {
+        "id": "f8v_w0033",
+        "reference": "chary",
+        "length": 5
+      }
+    ],
+    "shared_ink_beam32": [
+      {
+        "id": "f8v_w0016",
+        "reference": "cty",
+        "length": 3
+      }
+    ]
+  },
+  "scope": "Independent scalar pixel attenuation and PNG reconstruction, additive whole-page mask coverage, static literal Lightning checkpoint counters, fresh geometry/crop/label checks, probability-space beam versus log-space implementation, full-matrix edit and aggregates. Tensor records/file hashes checked; no new neural inference, tensor reload, SIFT fit or paleographic validation.",
+  "translation": "NOT_RUN"
+}

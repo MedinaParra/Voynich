@@ -1,0 +1,104 @@
+{
+  "format": "gzip_lossless_original_UTF8_bytes",
+  "files": [
+    {
+      "original_path": "common_evaluation/capture_records.json",
+      "original_bytes": 1264659,
+      "original_sha256": "3f404df18469b84843418b0ead83dbfd3e903a6cc14de54c684d869dda8efbf0",
+      "archive_path": "common_evaluation/capture_records.json.gz",
+      "archive_bytes": 372380,
+      "archive_sha256": "5a87239905499b70ca173a28ba7446a8d41b1159c2960fd3ac5cd79592fcf5c7",
+      "gzip_mtime": 0
+    },
+    {
+      "original_path": "common_evaluation/result.json",
+      "original_bytes": 1056111,
+      "original_sha256": "beb441bb351fda388ff4b53d885dc22d3aeefaa042a4c8819e104eb0282e9ef6",
+      "archive_path": "common_evaluation/result.json.gz",
+      "archive_bytes": 107298,
+      "archive_sha256": "6a8147f567c01e06b59a6c09dedc64d1e35fd11955d034e9c39b0927ea6b8226",
+      "gzip_mtime": 0
+    },
+    {
+      "original_path": "fresh_data/dataset.json",
+      "original_bytes": 282571,
+      "original_sha256": "8088c8d17d7e5142e817673dd992a413e9e63653933c5ebcc85033f790ca5195",
+      "archive_path": "fresh_data/dataset.json.gz",
+      "archive_bytes": 58021,
+      "archive_sha256": "466c6fe09d1fb1c75926ac461123c022812b23afb9e76f203067d8dd83dd56e2",
+      "gzip_mtime": 0
+    },
+    {
+      "original_path": "fresh_data/geometry_cases.json",
+      "original_bytes": 1479305,
+      "original_sha256": "b75f83bafb6ded740e91062f15f6dde0b232f1cecaa98a1060c3beec1245f047",
+      "archive_path": "fresh_data/geometry_cases.json.gz",
+      "archive_bytes": 355980,
+      "archive_sha256": "bc140483572a54b6615944b8926269c0020089991ea4acb0f49811d680919372",
+      "gzip_mtime": 0
+    },
+    {
+      "original_path": "fresh_data/geometry_correspondences.json",
+      "original_bytes": 377965,
+      "original_sha256": "d3698e6f482591702c4337e40fd00a5eb6c54a92ed579516d05daa9509e3a9fd",
+      "archive_path": "fresh_data/geometry_correspondences.json.gz",
+      "archive_bytes": 57126,
+      "archive_sha256": "124ba004b9ba0095292f4100265065b07ba8f6617e79afffc51d342409d95105",
+      "gzip_mtime": 0
+    },
+    {
+      "original_path": "runs/random_ink/perturbation_records.json",
+      "original_bytes": 542179,
+      "original_sha256": "c11bdd4f3df5a32884348110632e49cbc78a26af77ac7107560048fb15ff564a",
+      "archive_path": "runs/random_ink/perturbation_records.json.gz",
+      "archive_bytes": 120719,
+      "archive_sha256": "97b6f059aabb60f028b6427460297414e4288e7c02ca21edf9d492ab696fdaed",
+      "gzip_mtime": 0
+    },
+    {
+      "original_path": "runs/random_ink/training_views.json",
+      "original_bytes": 364849,
+      "original_sha256": "a3a82180e81574b130b290f42fcb72414136ce319ff80c5d15ab7e75f4348054",
+      "archive_path": "runs/random_ink/training_views.json.gz",
+      "archive_bytes": 60281,
+      "archive_sha256": "61d5ed92a439f6e7580aa230acd4994102b078417e41fdbb9a81ca9dd324d1b6",
+      "gzip_mtime": 0
+    },
+    {
+      "original_path": "runs/repeat/perturbation_records.json",
+      "original_bytes": 538945,
+      "original_sha256": "562eed38d11c829615d1d8c1a330079ee57138fe2232541adeab14c9d11c6973",
+      "archive_path": "runs/repeat/perturbation_records.json.gz",
+      "archive_bytes": 115958,
+      "archive_sha256": "191851e2ead73e14664d3adb5f7c5b3be37cb82ed535730c7c4efa04216a9026",
+      "gzip_mtime": 0
+    },
+    {
+      "original_path": "runs/repeat/training_views.json",
+      "original_bytes": 361313,
+      "original_sha256": "1a3a66bf33e402d95f30555dffdce7e1f930cfee9b7eae9e60630cbdf551464e",
+      "archive_path": "runs/repeat/training_views.json.gz",
+      "archive_bytes": 43193,
+      "archive_sha256": "d59457885403bde670a7b77401a9066cc2f44e1a2ff19203c818fc25eb237c3e",
+      "gzip_mtime": 0
+    },
+    {
+      "original_path": "runs/shared_ink/perturbation_records.json",
+      "original_bytes": 542444,
+      "original_sha256": "ac7b9fe8db20f9cb444ebe38d43d68d87171e37434b99b8254fabdd37dba2162",
+      "archive_path": "runs/shared_ink/perturbation_records.json.gz",
+      "archive_bytes": 121015,
+      "archive_sha256": "5690693599abd90515c95c93bdfe7ab9dcabf9ca15c1166eafa3e25d7a5235d1",
+      "gzip_mtime": 0
+    },
+    {
+      "original_path": "runs/shared_ink/training_views.json",
+      "original_bytes": 364849,
+      "original_sha256": "85e7c35efd5bb22ee0578cb6b74cefbc1ba3ccb4d12ce93e01cef83c5c4c9a80",
+      "archive_path": "runs/shared_ink/training_views.json.gz",
+      "archive_bytes": 60298,
+      "archive_sha256": "a3d86256a1cc6b9817ba0a7be2e93be6f64a6428aa9e00da73d33f32af6cec89",
+      "gzip_mtime": 0
+    }
+  ]
+}

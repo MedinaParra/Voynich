@@ -1,0 +1,19 @@
+{
+  "plan_sha256": "92eef3c3bbbb3d0504d62ae8c7d0cd01c8de0dc43559bac94e780f083a646864",
+  "run_id": "41644234993",
+  "execution_commit": "4130398d58d042ae2885226a2b09419a0f937b4d",
+  "selected_folios": [
+    "f8r",
+    "f8v"
+  ],
+  "expert_review": "NOT_REVIEWED",
+  "translation": "NOT_RUN",
+  "status": "PASS_FRESH_GEOMETRY_CANDIDATES",
+  "dataset_sha256": "8088c8d17d7e5142e817673dd992a413e9e63653933c5ebcc85033f790ca5195",
+  "words": 265,
+  "characters": 1280,
+  "folio_words": {
+    "f8r": 146,
+    "f8v": 119
+  }
+}

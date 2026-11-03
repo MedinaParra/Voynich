@@ -1,0 +1,43 @@
+{
+  "status": "PASS_GEOMETRY_CANDIDATES_ONLY",
+  "pages": [
+    {
+      "folio": "f8r",
+      "role": "reserved",
+      "source_words": 146,
+      "reciprocal_matches": 637,
+      "accepted_folds": 5,
+      "positive_grid": true,
+      "candidate_words": 146,
+      "rejection_counts": {},
+      "accepted": true
+    },
+    {
+      "folio": "f8v",
+      "role": "reserved",
+      "source_words": 119,
+      "reciprocal_matches": 787,
+      "accepted_folds": 5,
+      "positive_grid": true,
+      "candidate_words": 119,
+      "rejection_counts": {},
+      "accepted": true
+    }
+  ],
+  "plan_sha256": "afb541f1249f5bce6c9b057f47a36f70d1420c1896b8b558fe9306b5c3adf326",
+  "inputs_sha256": "750a04732e8903c0e6cc7ff7588c037d3acee7996f8d8af61b0feee3eb4e5bb1",
+  "run_id": "41644234993",
+  "execution_commit": "4130398d58d042ae2885226a2b09419a0f937b4d",
+  "expert_review": "NOT_REVIEWED",
+  "translation": "NOT_RUN",
+  "candidate_rows_by_role": {
+    "reserved": 265
+  },
+  "characters_by_role": {
+    "reserved": 1280
+  },
+  "dataset_sha256": "8088c8d17d7e5142e817673dd992a413e9e63653933c5ebcc85033f790ca5195",
+  "seconds": 5.312680794000016,
+  "dataset_sha256_before_path_normalization": "801d36197f36f823ec76ce23e17595749a454103e49ca6c3b208e2775ae46308",
+  "path_normalization_only": true
+}

@@ -1,0 +1,57 @@
+name: Kraken shared-region preserved-result audit
+
+on:
+  push:
+    branches: [experiment/kraken-voynich]
+    paths:
+      - .github/workflows/kraken-shared-audit.yml
+      - research_gpt6/code/audit_shared_region.py
+      - research_gpt6/code/restore_shared_region_inputs.py
+      - research_gpt6/code/test_shared_region_audit.py
+
+permissions:
+  contents: read
+
+jobs:
+  replay:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    env:
+      OMP_NUM_THREADS: '2'
+      OPENBLAS_NUM_THREADS: '2'
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install audit dependencies without neural runtime
+        run: python -m pip install numpy==2.3.5 scipy==1.15.3 pillow==12.3.0
+      - name: Check auditor controls
+        run: python research_gpt6/code/test_shared_region_audit.py
+      - name: Restore original PNG bytes from preserved sources
+        run: python research_gpt6/code/restore_shared_region_inputs.py --repo research_gpt6
+      - name: Recompute independent audit
+        run: >-
+          python research_gpt6/code/audit_shared_region.py
+          --repo research_gpt6
+          --bundle research_gpt6/results/kraken_shared_region
+          --plan research_gpt6/data/kraken_shared_region_plan.json
+          --out work/shared_audit_replay.json
+      - name: Compare every preserved audit field
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          expected = json.loads(Path('research_gpt6/results/kraken_shared_region/audit.json').read_text())
+          actual = json.loads(Path('work/shared_audit_replay.json').read_text())
+          assert actual == expected, 'Fresh checkout differs from preserved independent audit'
+          assert actual['status'] == 'PASS' and not actual['mismatches'], actual
+          print({'status': 'IDENTICAL_FRESH_CHECKOUT_AUDIT', 'checks': actual['checks'], 'new_training': 'NOT_RUN', 'new_neural_inference': 'NOT_RUN'})
+          PY
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: shared-region-preserved-audit
+          path: work/shared_audit_replay.json
+          if-no-files-found: warn
+          retention-days: 30

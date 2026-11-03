@@ -1,0 +1,10 @@
+[
+  "ketos",
+  "--config",
+  "/home/runner/work/Voynich/Voynich/work/shared_region/repeat/training/training_config.json",
+  "train",
+  "--load",
+  "/home/runner/work/Voynich/Voynich/work/shared_region/repeat/warmstart.safetensors",
+  "--resize",
+  "fail"
+]

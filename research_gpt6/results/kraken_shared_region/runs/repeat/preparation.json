@@ -1,0 +1,12 @@
+{
+  "variant": "repeat",
+  "training_words": 442,
+  "training_views": 884,
+  "evaluation_used_for_intervention": false,
+  "label_changes": 0,
+  "geometry_changes": 0,
+  "selected_pixels": 0,
+  "changed_pixels": 0,
+  "plan_source_model_sha256": "35092d9baf56083eb6c70a2e32c478d8910ef5e685d0cee33fc5a935ca1c71d8",
+  "expert_review": "NOT_REVIEWED"
+}

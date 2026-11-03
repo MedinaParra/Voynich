@@ -1,0 +1,74 @@
+{
+  "artifact_id": 13235636370,
+  "artifact_name": "shared-region-common-evaluation",
+  "verified_zip_sha256": "ad2f5dba6a9510a8048b4874de99e6fa72a9ea5cb80d01f1b5d22b27077b4522",
+  "file_count": 11,
+  "files": [
+    {
+      "path": "capture_records.json",
+      "bytes": 1264659,
+      "sha256": "3f404df18469b84843418b0ead83dbfd3e903a6cc14de54c684d869dda8efbf0",
+      "preservation": "preserved_original_bytes_or_lossless_json_archive"
+    },
+    {
+      "path": "posterior_pass0_random_ink.npz",
+      "bytes": 932493,
+      "sha256": "c306a70f64805ae1f66fbb2b374ff8e866fed3dda4a2adc7dee1d092063d9518",
+      "preservation": "preserved_original_bytes_or_lossless_json_archive"
+    },
+    {
+      "path": "posterior_pass0_repeat.npz",
+      "bytes": 931719,
+      "sha256": "6aeb6bbd007799e3173b46665a548826e3e47067cd8208f64eb1d68895ebb4a3",
+      "preservation": "preserved_original_bytes_or_lossless_json_archive"
+    },
+    {
+      "path": "posterior_pass0_shared_ink.npz",
+      "bytes": 932235,
+      "sha256": "9c433fe7d1d7b1ce1db63c409ae084eb822ee78984730adfc8f14d4cd77f1122",
+      "preservation": "preserved_original_bytes_or_lossless_json_archive"
+    },
+    {
+      "path": "posterior_pass0_source.npz",
+      "bytes": 936197,
+      "sha256": "98bc817f2a768ed6784bb3b1ffd4ab858316252ac5254e84e7710fdb9f812fd3",
+      "preservation": "preserved_original_bytes_or_lossless_json_archive"
+    },
+    {
+      "path": "posterior_pass1_random_ink.npz",
+      "bytes": 932493,
+      "sha256": "c306a70f64805ae1f66fbb2b374ff8e866fed3dda4a2adc7dee1d092063d9518",
+      "preservation": "preserved_original_bytes_or_lossless_json_archive"
+    },
+    {
+      "path": "posterior_pass1_repeat.npz",
+      "bytes": 931719,
+      "sha256": "6aeb6bbd007799e3173b46665a548826e3e47067cd8208f64eb1d68895ebb4a3",
+      "preservation": "preserved_original_bytes_or_lossless_json_archive"
+    },
+    {
+      "path": "posterior_pass1_shared_ink.npz",
+      "bytes": 932235,
+      "sha256": "9c433fe7d1d7b1ce1db63c409ae084eb822ee78984730adfc8f14d4cd77f1122",
+      "preservation": "preserved_original_bytes_or_lossless_json_archive"
+    },
+    {
+      "path": "posterior_pass1_source.npz",
+      "bytes": 936197,
+      "sha256": "98bc817f2a768ed6784bb3b1ffd4ab858316252ac5254e84e7710fdb9f812fd3",
+      "preservation": "preserved_original_bytes_or_lossless_json_archive"
+    },
+    {
+      "path": "result.json",
+      "bytes": 1056111,
+      "sha256": "beb441bb351fda388ff4b53d885dc22d3aeefaa042a4c8819e104eb0282e9ef6",
+      "preservation": "preserved_original_bytes_or_lossless_json_archive"
+    },
+    {
+      "path": "tensor_checks.json",
+      "bytes": 53571,
+      "sha256": "f1ae793be4a2cf3fcdc5324c5f5173eae873b06c4a98433518deca83b9d0ba9f",
+      "preservation": "preserved_original_bytes_or_lossless_json_archive"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "p": 0.5,
+  "max_ops": 3,
+  "probabilities": {
+    "warp": 0.25,
+    "morph": 0.2,
+    "show_through": 0.2,
+    "ruling": 0.15,
+    "intrusion": 0.2,
+    "grayscale": 0.25,
+    "color": 0.3,
+    "gamma": 0.25,
+    "shading": 0.2,
+    "microfilm": 0.1,
+    "noise": 0.2,
+    "blur": 0.2,
+    "erase": 0.1
+  },
+  "module_sha256": "a0568a7f9bdba6fa3b73cd3131f79fb23f5e6fbff0324b8445ed83038dc769b3",
+  "stock_augmentation": true
+}
