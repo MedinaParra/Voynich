@@ -1,0 +1,22 @@
+{
+  "date": "2026-11-03",
+  "base_commit": "b8978683cde0a226ebe0b170e840db5850bf2ff6",
+  "scope": "Descriptive source comparison and provisional image review; no expert gold, training or new OCR",
+  "folios": ["f3r","f3v","f4r","f4v","f5v","f6r","f6v","f7r","f7v","f8r","f8v"],
+  "sources": {
+    "VT": {"original_url":"https://www.voynich.nu/data/VT0e-n.txt", "expected_git_blob":"c0d52c36cbb5dbb763851b2f674aefdbf9443693", "lineage":"Takahashi via Voynichese; NOT independent of IT"},
+    "ZL": {"original_url":"https://www.voynich.nu/data/ZL3b-n.txt", "expected_git_blob":"2a4533ab9bdfa85db9bad602d590978953055df1", "lineage":"Distinct Zandbergen-Landini reading; shared images/alphabet/editorial conventions, not statistical independence"}
+  },
+  "pairing": "Exact external folio and locus number; preserve missing loci and incompatible locus types. No OCR-based pairing.",
+  "parser": "Preserve raw strings and all inline nodes. Keep drawing separators <->/<~>, uncertain comma, ligature marks, alternatives and unreadables. Main edit alignment restricted to literal lowercase basic EVA after case projection and ligature-bracket removal with raw text retained; exclude alternatives/rare/unknown rather than choose a preferred reading.",
+  "alignment": "Unit-cost letter Levenshtein within matched locus, separate from boundaries. Preserve ALL vertices on any minimum-cost path using forward+backward distance; no arbitrary best-path word alignment and no probabilities inferred from counts.",
+  "spatial_bridge": "Map original XML tokens to VT loci only if full-folio token sequences are identical after documented separators. Otherwise mark entire folio unmapped; no shift or fuzzy join.",
+  "geometry": "Recompute original raster masks on 989 accepted word crops; quantify shared dark pixels with median-gray minus40 as diagnostic, not ownership of ink. Keep original images and labels unchanged.",
+  "review_selection": "Training rows only: up to8 source disagreement/ambiguous associations ordered by ID;8 highest shared-dark fractions thenID excluding selected;8 lowest shared-dark fractions thenID excluding selected. Never rank by OCR prediction/error; retain held-out roles unchanged.",
+  "visual_review": "Generate24context panels max with frozen masked crop, unmasked original rectangle, larger photograph context and neighboring polygons. Assistant observations and independent expert review are separate fields. No label/geometry approved automatically.",
+  "Boxer": "Retain provenance and native row tokens for4folios as contextual third reading; no undocumented Boxer-to-EVA conversion and no character-level agreement score.",
+  "success_criterion": "Integrity/replay of source comparison and review artifacts. Descriptive counts only, no hypothesis significance or OCR improvement claim.",
+  "expert_review": "NOT_REVIEWED",
+  "translation": "NOT_RUN",
+  "training": "NOT_RUN"
+}
