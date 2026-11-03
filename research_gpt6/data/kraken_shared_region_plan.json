@@ -1,0 +1,86 @@
+{
+  "date": "2026-11-03",
+  "base_commit": "e7bdfb1f5678633ea9e34f134e083484084d24c3",
+  "source_model_path": "results/kraken_expansion/runs/expanded_200/final_epoch.mlmodel",
+  "source_model_sha256": "35092d9baf56083eb6c70a2e32c478d8910ef5e685d0cee33fc5a935ca1c71d8",
+  "prepared_dataset_path": "results/kraken_expansion/followup_prepared/dataset.json",
+  "prepared_dataset_sha256": "ba02c759e1f7b1f76b1f1b032fb8b5c7a77bef5a231e81df2cb4b283d242addd",
+  "geometry_reference_path": "results/kraken_alignment_diagnostic/geometry_rows.json",
+  "geometry_reference_sha256": "e4350193e52940b6d0320179e84a283552cf4d30a76a3c62da716f6f09f0ffe4",
+  "variants": [
+    "repeat",
+    "random_ink",
+    "shared_ink"
+  ],
+  "seed": 20261103,
+  "epochs": 100,
+  "batch_size": 16,
+  "learning_rate": 0.001,
+  "views_per_training_word": 2,
+  "training_words": 442,
+  "training_views": 884,
+  "expected_optimizer_steps": 5600,
+  "dark_median_delta": 40,
+  "attenuation_numerator": 1,
+  "attenuation_denominator": 2,
+  "stock_kraken_augmentation": true,
+  "stock_augmenter_expected": {
+    "p": 0.5,
+    "max_ops": 3
+  },
+  "evaluation_decoder": "beam32",
+  "beam_width": 32,
+  "passes": 2,
+  "primary_pass": 0,
+  "primary_criterion": "Fresh physical leaf8 EVA CER, shared_ink versus both matched repeat and random_ink controls; report frozen source too. No threshold-based claim of general success from one seed/leaf.",
+  "secondary_criterion": "Historical leaves4/7, especially the 76 unseen word instances on leaf7; do not present as fresh confirmation.",
+  "evaluation_input": "Original unchanged crops for every model; no lexicon or language model",
+  "fresh_folios": [
+    "f8r",
+    "f8v"
+  ],
+  "fresh_pages": [
+    {
+      "folio": "f8r",
+      "yale_url": "https://collections.library.yale.edu/iiif/2/1006090/full/!1600,2000/0/default.jpg",
+      "yale_sha256": "99db4be5a6213d09a07978f9af189a5547e97a232835a8174ee5a3bed394f5b4",
+      "canvas_id": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006090",
+      "json_url": "https://www.voynichese.com/1/data/folio/script/f8r.js",
+      "preview_url": "https://www.voynichese.com/1/data/folio/image/glance/color/large/f8r.jpg"
+    },
+    {
+      "folio": "f8v",
+      "yale_url": "https://collections.library.yale.edu/iiif/2/1006091/full/!1600,2000/0/default.jpg",
+      "yale_sha256": "16a451f328aec8f4fd173240acc436d32c59dc8b2acba6effdd2847255ab8574",
+      "canvas_id": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006091",
+      "json_url": "https://www.voynichese.com/1/data/folio/script/f8v.js",
+      "preview_url": "https://www.voynichese.com/1/data/folio/image/glance/color/large/f8v.jpg"
+    }
+  ],
+  "fresh_root": "results/kraken_shared_region/fresh_data",
+  "xml_archive_url": "https://www.voynichese.com/1/data/folio/voynichese_data.zip",
+  "xml_archive_sha256": "402d99ca8191ae53a4f25912ee0af0a7e6b6d9a3714b2beaf86404a27d5b7ad5",
+  "geometry": {
+    "sift": {
+      "nfeatures": 6000,
+      "contrast_threshold": 0.02,
+      "ratio": 0.72
+    },
+    "guard_source_pixels": 3,
+    "local": {
+      "fit_residual_limit_yale_pixels": 20,
+      "source_group_grid_pixels": 0.1,
+      "radius_source_pixels": 80,
+      "maximum_neighbors": 20,
+      "minimum_groups": 3,
+      "correction_limit_yale_pixels": 20
+    },
+    "minimum_accepted_words_per_folio": 20,
+    "padding_pixels": 4
+  },
+  "fresh_failure_policy": "Preserve both chosen pages and all failed gates; never substitute a page or relax thresholds. Training may finish independently, but no fresh-test claim if either page is blocked.",
+  "model_selection": "Last checkpoint index99, training-only monitor. No validation/test-based epoch, hyperparameter or variant selection.",
+  "novelty_scope": "New controlled application in this repository; conventional augmentation and CTC components. No global priority claim.",
+  "expert_review": "NOT_REVIEWED",
+  "translation": "NOT_RUN"
+}
