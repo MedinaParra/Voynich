@@ -1,0 +1,551 @@
+{
+  "cases": [
+    {
+      "case_id": "P01",
+      "path": "blind/P01.png",
+      "pixels": [
+        1440,
+        760
+      ],
+      "placements": [
+        {
+          "context_destination": [
+            629,
+            265,
+            791,
+            375
+          ],
+          "glyph_destination": [
+            655,
+            119,
+            764,
+            239
+          ],
+          "label": "A",
+          "native_context_pixels": [
+            125,
+            85
+          ],
+          "native_glyph_pixels": [
+            39,
+            43
+          ],
+          "role": "query",
+          "sample_id": "V_O1"
+        },
+        {
+          "context_destination": [
+            90,
+            590,
+            250,
+            700
+          ],
+          "glyph_destination": [
+            115,
+            444,
+            224,
+            564
+          ],
+          "label": "B",
+          "native_context_pixels": [
+            122,
+            84
+          ],
+          "native_glyph_pixels": [
+            38,
+            42
+          ],
+          "role": "same_source",
+          "sample_id": "V_O2"
+        },
+        {
+          "context_destination": [
+            446,
+            590,
+            613,
+            700
+          ],
+          "glyph_destination": [
+            469,
+            444,
+            591,
+            564
+          ],
+          "label": "C",
+          "native_context_pixels": [
+            202,
+            133
+          ],
+          "native_glyph_pixels": [
+            68,
+            67
+          ],
+          "role": "F",
+          "sample_id": "F_O"
+        },
+        {
+          "context_destination": [
+            816,
+            590,
+            964,
+            700
+          ],
+          "glyph_destination": [
+            849,
+            444,
+            930,
+            564
+          ],
+          "label": "D",
+          "native_context_pixels": [
+            313,
+            233
+          ],
+          "native_glyph_pixels": [
+            79,
+            117
+          ],
+          "role": "distractor",
+          "sample_id": "V_T1"
+        },
+        {
+          "context_destination": [
+            1173,
+            590,
+            1327,
+            700
+          ],
+          "glyph_destination": [
+            1201,
+            444,
+            1298,
+            564
+          ],
+          "label": "E",
+          "native_context_pixels": [
+            505,
+            360
+          ],
+          "native_glyph_pixels": [
+            145,
+            180
+          ],
+          "role": "H",
+          "sample_id": "H_O"
+        }
+      ],
+      "rgb_sha256": "f4fa3591e5b7f6493593d02d0629a20bfa904ea1c005d5d2997379554cce9397"
+    },
+    {
+      "case_id": "P02",
+      "path": "blind/P02.png",
+      "pixels": [
+        1440,
+        760
+      ],
+      "placements": [
+        {
+          "context_destination": [
+            633,
+            265,
+            787,
+            375
+          ],
+          "glyph_destination": [
+            663,
+            119,
+            757,
+            239
+          ],
+          "label": "A",
+          "native_context_pixels": [
+            231,
+            165
+          ],
+          "native_glyph_pixels": [
+            65,
+            83
+          ],
+          "role": "query",
+          "sample_id": "V_L1"
+        },
+        {
+          "context_destination": [
+            102,
+            590,
+            237,
+            700
+          ],
+          "glyph_destination": [
+            142,
+            444,
+            197,
+            564
+          ],
+          "label": "B",
+          "native_context_pixels": [
+            565,
+            460
+          ],
+          "native_glyph_pixels": [
+            105,
+            230
+          ],
+          "role": "H",
+          "sample_id": "H_L"
+        },
+        {
+          "context_destination": [
+            451,
+            590,
+            609,
+            700
+          ],
+          "glyph_destination": [
+            477,
+            444,
+            582,
+            564
+          ],
+          "label": "C",
+          "native_context_pixels": [
+            207,
+            144
+          ],
+          "native_glyph_pixels": [
+            63,
+            72
+          ],
+          "role": "same_source",
+          "sample_id": "V_L2"
+        },
+        {
+          "context_destination": [
+            812,
+            590,
+            968,
+            700
+          ],
+          "glyph_destination": [
+            840,
+            444,
+            939,
+            564
+          ],
+          "label": "D",
+          "native_context_pixels": [
+            246,
+            173
+          ],
+          "native_glyph_pixels": [
+            72,
+            87
+          ],
+          "role": "F",
+          "sample_id": "F_L"
+        },
+        {
+          "context_destination": [
+            1168,
+            590,
+            1331,
+            700
+          ],
+          "glyph_destination": [
+            1193,
+            444,
+            1306,
+            564
+          ],
+          "label": "E",
+          "native_context_pixels": [
+            244,
+            165
+          ],
+          "native_glyph_pixels": [
+            78,
+            83
+          ],
+          "role": "distractor",
+          "sample_id": "V_M1"
+        }
+      ],
+      "rgb_sha256": "b4ea6ad70682a68d8d5a1dba033481488309097c375c18cfad75ac586ac82966"
+    },
+    {
+      "case_id": "P03",
+      "path": "blind/P03.png",
+      "pixels": [
+        1440,
+        760
+      ],
+      "placements": [
+        {
+          "context_destination": [
+            628,
+            265,
+            791,
+            375
+          ],
+          "glyph_destination": [
+            653,
+            119,
+            766,
+            239
+          ],
+          "label": "A",
+          "native_context_pixels": [
+            244,
+            165
+          ],
+          "native_glyph_pixels": [
+            78,
+            83
+          ],
+          "role": "query",
+          "sample_id": "V_M1"
+        },
+        {
+          "context_destination": [
+            97,
+            590,
+            243,
+            700
+          ],
+          "glyph_destination": [
+            132,
+            444,
+            208,
+            564
+          ],
+          "label": "B",
+          "native_context_pixels": [
+            303,
+            229
+          ],
+          "native_glyph_pixels": [
+            73,
+            115
+          ],
+          "role": "F",
+          "sample_id": "F_M"
+        },
+        {
+          "context_destination": [
+            448,
+            590,
+            611,
+            700
+          ],
+          "glyph_destination": [
+            473,
+            444,
+            587,
+            564
+          ],
+          "label": "C",
+          "native_context_pixels": [
+            245,
+            165
+          ],
+          "native_glyph_pixels": [
+            79,
+            83
+          ],
+          "role": "same_source",
+          "sample_id": "V_M2"
+        },
+        {
+          "context_destination": [
+            809,
+            590,
+            971,
+            700
+          ],
+          "glyph_destination": [
+            835,
+            444,
+            944,
+            564
+          ],
+          "label": "D",
+          "native_context_pixels": [
+            125,
+            85
+          ],
+          "native_glyph_pixels": [
+            39,
+            43
+          ],
+          "role": "distractor",
+          "sample_id": "V_O1"
+        },
+        {
+          "context_destination": [
+            1155,
+            590,
+            1345,
+            700
+          ],
+          "glyph_destination": [
+            1163,
+            444,
+            1337,
+            564
+          ],
+          "label": "E",
+          "native_context_pixels": [
+            500,
+            289
+          ],
+          "native_glyph_pixels": [
+            210,
+            145
+          ],
+          "role": "H",
+          "sample_id": "H_M"
+        }
+      ],
+      "rgb_sha256": "e2d900e91adccec8542184cf453f7bf2239cbd1c89c9f07f974e195664a23a82"
+    },
+    {
+      "case_id": "P04",
+      "path": "blind/P04.png",
+      "pixels": [
+        1440,
+        760
+      ],
+      "placements": [
+        {
+          "context_destination": [
+            636,
+            265,
+            784,
+            375
+          ],
+          "glyph_destination": [
+            669,
+            119,
+            750,
+            239
+          ],
+          "label": "A",
+          "native_context_pixels": [
+            313,
+            233
+          ],
+          "native_glyph_pixels": [
+            79,
+            117
+          ],
+          "role": "query",
+          "sample_id": "V_T1"
+        },
+        {
+          "context_destination": [
+            90,
+            590,
+            250,
+            700
+          ],
+          "glyph_destination": [
+            115,
+            444,
+            224,
+            564
+          ],
+          "label": "B",
+          "native_context_pixels": [
+            122,
+            84
+          ],
+          "native_glyph_pixels": [
+            38,
+            42
+          ],
+          "role": "distractor",
+          "sample_id": "V_O2"
+        },
+        {
+          "context_destination": [
+            462,
+            590,
+            598,
+            700
+          ],
+          "glyph_destination": [
+            501,
+            444,
+            558,
+            564
+          ],
+          "label": "C",
+          "native_context_pixels": [
+            322,
+            260
+          ],
+          "native_glyph_pixels": [
+            62,
+            130
+          ],
+          "role": "F",
+          "sample_id": "F_T"
+        },
+        {
+          "context_destination": [
+            807,
+            590,
+            973,
+            700
+          ],
+          "glyph_destination": [
+            828,
+            444,
+            951,
+            564
+          ],
+          "label": "D",
+          "native_context_pixels": [
+            665,
+            440
+          ],
+          "native_glyph_pixels": [
+            225,
+            220
+          ],
+          "role": "H",
+          "sample_id": "H_T"
+        },
+        {
+          "context_destination": [
+            1173,
+            590,
+            1327,
+            700
+          ],
+          "glyph_destination": [
+            1202,
+            444,
+            1297,
+            564
+          ],
+          "label": "E",
+          "native_context_pixels": [
+            352,
+            252
+          ],
+          "native_glyph_pixels": [
+            100,
+            126
+          ],
+          "role": "same_source",
+          "sample_id": "V_T2"
+        }
+      ],
+      "rgb_sha256": "f820cd16e338fe0e43f6fac83f734bfebfd9438c62468576d7c457c011ede3f0"
+    }
+  ],
+  "font_sha256": "57f73e11f51999432bf7ab22ce55b6f945d5eca1bf824404cfa9ec2e3718c84e",
+  "resampling": "NEAREST, unchanged RGB samples, aspect ratio preserved up to integer rounding",
+  "schema": "script-comparanda-render-v1"
+}

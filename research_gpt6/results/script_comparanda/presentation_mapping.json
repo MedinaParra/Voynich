@@ -1,0 +1,98 @@
+{
+  "cases": [
+    {
+      "candidates": {
+        "B": {
+          "role": "same_source",
+          "sample_id": "V_O2"
+        },
+        "C": {
+          "role": "F",
+          "sample_id": "F_O"
+        },
+        "D": {
+          "role": "distractor",
+          "sample_id": "V_T1"
+        },
+        "E": {
+          "role": "H",
+          "sample_id": "H_O"
+        }
+      },
+      "case_id": "P01",
+      "family": "closed oval",
+      "query_sample": "V_O1"
+    },
+    {
+      "candidates": {
+        "B": {
+          "role": "H",
+          "sample_id": "H_L"
+        },
+        "C": {
+          "role": "same_source",
+          "sample_id": "V_L2"
+        },
+        "D": {
+          "role": "F",
+          "sample_id": "F_L"
+        },
+        "E": {
+          "role": "distractor",
+          "sample_id": "V_M1"
+        }
+      },
+      "case_id": "P02",
+      "family": "loop with trailing stroke",
+      "query_sample": "V_L1"
+    },
+    {
+      "candidates": {
+        "B": {
+          "role": "F",
+          "sample_id": "F_M"
+        },
+        "C": {
+          "role": "same_source",
+          "sample_id": "V_M2"
+        },
+        "D": {
+          "role": "distractor",
+          "sample_id": "V_O1"
+        },
+        "E": {
+          "role": "H",
+          "sample_id": "H_M"
+        }
+      },
+      "case_id": "P03",
+      "family": "minim sequence",
+      "query_sample": "V_M1"
+    },
+    {
+      "candidates": {
+        "B": {
+          "role": "distractor",
+          "sample_id": "V_O2"
+        },
+        "C": {
+          "role": "F",
+          "sample_id": "F_T"
+        },
+        "D": {
+          "role": "H",
+          "sample_id": "H_T"
+        },
+        "E": {
+          "role": "same_source",
+          "sample_id": "V_T2"
+        }
+      },
+      "case_id": "P04",
+      "family": "tall cross-stroke form",
+      "query_sample": "V_T1"
+    }
+  ],
+  "schema": "script-comparanda-mapping-v1",
+  "seed": 20261104
+}

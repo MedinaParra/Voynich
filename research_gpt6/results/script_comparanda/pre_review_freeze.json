@@ -1,0 +1,195 @@
+{
+  "schema": "script-comparanda-pre-review-freeze-v1",
+  "protocol_commit": "dac160edb48c395b8b66016b37dcbcc394e4105e",
+  "scope": "Coordinates, selected images, presentation and code frozen before two external AI descriptions. Source-label-hidden only, not security isolation. No expert gold.",
+  "files": [
+    {
+      "path": "research_gpt6/code/prepare_script_comparanda.py",
+      "git_blob": "25a8cb546dff75e770777354bd66b98bb358e260"
+    },
+    {
+      "path": "research_gpt6/code/audit_script_comparanda.py",
+      "git_blob": "d7b38bf477fcc7d758f879af804c4bfcdc0203ab"
+    },
+    {
+      "path": ".github/workflows/script-comparanda.yml",
+      "git_blob": "5bc83b57b0463d57102d951bcc98e1b571fe5c52"
+    },
+    {
+      "path": "research_gpt6/results/script_comparanda/NOTICE.md",
+      "git_blob": "6effb413e4c9b0a52438eae40dc55dfbd55cc078"
+    },
+    {
+      "path": "research_gpt6/results/script_comparanda/acquisition_receipts.json",
+      "git_blob": "fcfe12273ad3195ffb783980ee0ee1aa90e5ef5f"
+    },
+    {
+      "path": "research_gpt6/results/script_comparanda/blind/P01.png",
+      "git_blob": "dd7a6cd1be62de27144f8b1541af924234879753"
+    },
+    {
+      "path": "research_gpt6/results/script_comparanda/blind/P02.png",
+      "git_blob": "584b726cf589a4751c7eb946575de2e2d2100fc4"
+    },
+    {
+      "path": "research_gpt6/results/script_comparanda/blind/P03.png",
+      "git_blob": "f26d323266ad61c2cd46a9636be1a6aaf581cf81"
+    },
+    {
+      "path": "research_gpt6/results/script_comparanda/blind/P04.png",
+      "git_blob": "f03831caa8678927b8341259e355fdd2a6c650de"
+    },
+    {
+      "path": "research_gpt6/results/script_comparanda/blind_packet.json",
+      "git_blob": "3cf3bb3481f4aaf2c654c789620ecaa2054b8277"
+    },
+    {
+      "path": "research_gpt6/results/script_comparanda/glyphs/F_L.png",
+      "git_blob": "41c687ccd7df9868fc92b0d1d06a82451d8e8538"
+    },
+    {
+      "path": "research_gpt6/results/script_comparanda/glyphs/F_M.png",
+      "git_blob": "c61323d4122a95ff11165c71ee34d0bdd25db9ae"
+    },
+    {
+      "path": "research_gpt6/results/script_comparanda/glyphs/F_O.png",
+      "git_blob": "ea00e0f09f3149e515a98851292dfca4854b03c1"
+    },
+    {
+      "path": "research_gpt6/results/script_comparanda/glyphs/F_T.png",
+      "git_blob": "dd071c7aeec724ffe38286db770839708d2573ff"
+    },
+    {
+      "path": "research_gpt6/results/script_comparanda/glyphs/H_L.png",
+      "git_blob": "a892e65809164f513242b93519970fe45017d7e5"
+    },
+    {
+      "path": "research_gpt6/results/script_comparanda/glyphs/H_M.png",
+      "git_blob": "1ffbab5cbeb1b99796cb4e5198a3dfcac4b38e05"
+    },
+    {
+      "path": "research_gpt6/results/script_comparanda/glyphs/H_O.png",
+      "git_blob": "ad1fecfbac849c6ce326a741b1662380b38a9b65"
+    },
+    {
+      "path": "research_gpt6/results/script_comparanda/glyphs/H_T.png",
+      "git_blob": "37c9b6a7f8c2ed184af76113c5d5351a879eb721"
+    },
+    {
+      "path": "research_gpt6/results/script_comparanda/glyphs/V_L1.png",
+      "git_blob": "cf64380ebc63b4816d10eb403ff715689c08c64e"
+    },
+    {
+      "path": "research_gpt6/results/script_comparanda/glyphs/V_L2.png",
+      "git_blob": "006ec81076cf9411e7a2170e65146cd9ce956886"
+    },
+    {
+      "path": "research_gpt6/results/script_comparanda/glyphs/V_M1.png",
+      "git_blob": "8a680ac414bbc2e2197372c50b1de0b520359098"
+    },
+    {
+      "path": "research_gpt6/results/script_comparanda/glyphs/V_M2.png",
+      "git_blob": "1c50bfee04dc27b33d1c3d2c6f9631d291d0f039"
+    },
+    {
+      "path": "research_gpt6/results/script_comparanda/glyphs/V_O1.png",
+      "git_blob": "0fbddeb6b51a1dfc348c174f986fb58c116236bc"
+    },
+    {
+      "path": "research_gpt6/results/script_comparanda/glyphs/V_O2.png",
+      "git_blob": "1c81c8c89c23e3767e3768ea925a9a3410a4edd2"
+    },
+    {
+      "path": "research_gpt6/results/script_comparanda/glyphs/V_T1.png",
+      "git_blob": "8c2a5c5f5f33e6dc1af6a3ec88a5abe3f4660103"
+    },
+    {
+      "path": "research_gpt6/results/script_comparanda/glyphs/V_T2.png",
+      "git_blob": "1a669905bf16902a9eedfe9bcc1fdb5ed98fcd85"
+    },
+    {
+      "path": "research_gpt6/results/script_comparanda/pre_review_integrity.json",
+      "git_blob": "7e9c3f26852c6b215834551edab022dd26669005"
+    },
+    {
+      "path": "research_gpt6/results/script_comparanda/presentation_mapping.json",
+      "git_blob": "e5d63a052a20ee2392f5651d5ab6ad1434de5b5a"
+    },
+    {
+      "path": "research_gpt6/results/script_comparanda/regions.json",
+      "git_blob": "5401664474d8b1c37e345ab3faada824b44a7b95"
+    },
+    {
+      "path": "research_gpt6/results/script_comparanda/render_manifest.json",
+      "git_blob": "df44cb28aaff1d7340ba5014010d09b8e15ced72"
+    },
+    {
+      "path": "research_gpt6/results/script_comparanda/source_tiles/F_L.png",
+      "git_blob": "d8cbf34ed885c2878fc495e9b1ca6cad272d8b20"
+    },
+    {
+      "path": "research_gpt6/results/script_comparanda/source_tiles/F_M.png",
+      "git_blob": "baf9152f85ddcdac87694376b19e179c0160c917"
+    },
+    {
+      "path": "research_gpt6/results/script_comparanda/source_tiles/F_O.png",
+      "git_blob": "cf3b0bebb02066cec2320dca7abb7cc939136287"
+    },
+    {
+      "path": "research_gpt6/results/script_comparanda/source_tiles/F_T.png",
+      "git_blob": "70aee72a8f89ee5d09e2eb0e35cd5c8b658d6b83"
+    },
+    {
+      "path": "research_gpt6/results/script_comparanda/source_tiles/H_L.png",
+      "git_blob": "4efc20c4c3f0c74af417d30f352d43eed2aeea39"
+    },
+    {
+      "path": "research_gpt6/results/script_comparanda/source_tiles/H_M.png",
+      "git_blob": "f2b296e0fefa4799494b9400836bfbe9579e7deb"
+    },
+    {
+      "path": "research_gpt6/results/script_comparanda/source_tiles/H_O.png",
+      "git_blob": "d5e7fa92aea15c3ec30d97b0f7d56b6d118a69cc"
+    },
+    {
+      "path": "research_gpt6/results/script_comparanda/source_tiles/H_T.png",
+      "git_blob": "a3e450844605a8bb90f9b7a399d2d7fcb88f12e4"
+    },
+    {
+      "path": "research_gpt6/results/script_comparanda/source_tiles/V_L1.png",
+      "git_blob": "c6e3b30cb2508d67a366047ca2ec6aac56b6a0e8"
+    },
+    {
+      "path": "research_gpt6/results/script_comparanda/source_tiles/V_L2.png",
+      "git_blob": "f244d1b830c67610bcdebc9f56ab1564b9666793"
+    },
+    {
+      "path": "research_gpt6/results/script_comparanda/source_tiles/V_M1.png",
+      "git_blob": "03e7fb6ad6cf5ffd13d47b7894eb1edf4337ce94"
+    },
+    {
+      "path": "research_gpt6/results/script_comparanda/source_tiles/V_M2.png",
+      "git_blob": "22cbd07d464e8ee6c7a7ce4425acdaf7acf13fe7"
+    },
+    {
+      "path": "research_gpt6/results/script_comparanda/source_tiles/V_O1.png",
+      "git_blob": "e2e03a071f39848438798cf95edf54347f8b7a7a"
+    },
+    {
+      "path": "research_gpt6/results/script_comparanda/source_tiles/V_O2.png",
+      "git_blob": "9509e1dc28f6f208355a0fa2b8cbd70578f636af"
+    },
+    {
+      "path": "research_gpt6/results/script_comparanda/source_tiles/V_T1.png",
+      "git_blob": "ea6585bb4f65b748e89940439982607349028ce9"
+    },
+    {
+      "path": "research_gpt6/results/script_comparanda/source_tiles/V_T2.png",
+      "git_blob": "65ffb0657258f4b900ba201dd3074129da790bc4"
+    },
+    {
+      "path": "research_gpt6/data/script_comparanda_plan.json",
+      "git_blob": "3e9a852dfb93d57790e24772e33388a5b5e1bdd5"
+    }
+  ]
+}

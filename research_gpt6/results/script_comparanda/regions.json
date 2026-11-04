@@ -1,0 +1,562 @@
+{
+  "schema": "script-comparanda-regions-v1",
+  "selection": "Exploratory manual component resemblance selection by principal assistant, coordinates fixed before external review",
+  "coordinate_convention": "Zero-based x0,y0,x1,y1; end exclusive; decoded full delivered raster",
+  "source_rasters": [
+    {
+      "id": "V",
+      "sha256": "6ea4d4023a3b199463eee9e30508726a9314391f05a613bce3f87ae8d23fd151",
+      "pixels": [
+        2691,
+        3770
+      ],
+      "bytes": 2201720,
+      "original_not_redistributed": false
+    },
+    {
+      "id": "H",
+      "sha256": "457a663f60772bdc8c7f1527d9843a6be4155ca163afd8232d969a101a12f4fb",
+      "pixels": [
+        9375,
+        9342
+      ],
+      "bytes": 10936459,
+      "original_not_redistributed": true
+    },
+    {
+      "id": "F",
+      "sha256": "fe1dd4371d52d1e7ab1b3b2fd8b13246fc04e306e665a7e5ffabf28ea99831cc",
+      "pixels": [
+        3822,
+        4240
+      ],
+      "bytes": 1796838,
+      "original_not_redistributed": true
+    }
+  ],
+  "samples": [
+    {
+      "id": "V_O1",
+      "source_id": "V",
+      "page_bbox": [
+        395,
+        751,
+        434,
+        794
+      ],
+      "context_page_bbox": [
+        352,
+        730,
+        477,
+        815
+      ],
+      "glyph_in_tile": [
+        43,
+        21,
+        82,
+        64
+      ],
+      "tile_path": "source_tiles/V_O1.png",
+      "tile_pixels": [
+        125,
+        85
+      ],
+      "tile_rgb_sha256": "e92536c74fbbd07289f4dc002e9fb09d966ea3dd9203c58edcf64243c7dddd36",
+      "tile_file_sha256": "19188c479f1dfcf13f401e822aa093ea1b27dd49b17dadf93f82708c320bf284"
+    },
+    {
+      "id": "V_O2",
+      "source_id": "V",
+      "page_bbox": [
+        895,
+        573,
+        933,
+        615
+      ],
+      "context_page_bbox": [
+        853,
+        552,
+        975,
+        636
+      ],
+      "glyph_in_tile": [
+        42,
+        21,
+        80,
+        63
+      ],
+      "tile_path": "source_tiles/V_O2.png",
+      "tile_pixels": [
+        122,
+        84
+      ],
+      "tile_rgb_sha256": "0a5f6c2fcd79ad30ca0bd330b3cffcb566b44c38cb7e4247731fead32dbcb9b6",
+      "tile_file_sha256": "c2a1d3b7dd12c6ff924f7396f67371e7022e1e25fee48b263685bfb2eb8c1cf0"
+    },
+    {
+      "id": "V_L1",
+      "source_id": "V",
+      "page_bbox": [
+        548,
+        545,
+        613,
+        628
+      ],
+      "context_page_bbox": [
+        465,
+        504,
+        696,
+        669
+      ],
+      "glyph_in_tile": [
+        83,
+        41,
+        148,
+        124
+      ],
+      "tile_path": "source_tiles/V_L1.png",
+      "tile_pixels": [
+        231,
+        165
+      ],
+      "tile_rgb_sha256": "8c4cf9889aee56ed5b5df346ce51df6f4f59820fc86940f78d0600348ecf5c41",
+      "tile_file_sha256": "7eb107fba25dc573f6f8ed6f3dc481244b87e9fde6be7a858e590c665adfe7ec"
+    },
+    {
+      "id": "V_L2",
+      "source_id": "V",
+      "page_bbox": [
+        543,
+        641,
+        606,
+        713
+      ],
+      "context_page_bbox": [
+        471,
+        605,
+        678,
+        749
+      ],
+      "glyph_in_tile": [
+        72,
+        36,
+        135,
+        108
+      ],
+      "tile_path": "source_tiles/V_L2.png",
+      "tile_pixels": [
+        207,
+        144
+      ],
+      "tile_rgb_sha256": "7dbb110d6b227683aeee7a5b69eeb71686259c0c8c53b23adb0a0e6916888d40",
+      "tile_file_sha256": "e566aae77d2dd9f44e33bce1efb5d34bab408e4660107b5d1f5937d78049b8fe"
+    },
+    {
+      "id": "V_M1",
+      "source_id": "V",
+      "page_bbox": [
+        785,
+        1025,
+        863,
+        1108
+      ],
+      "context_page_bbox": [
+        702,
+        984,
+        946,
+        1149
+      ],
+      "glyph_in_tile": [
+        83,
+        41,
+        161,
+        124
+      ],
+      "tile_path": "source_tiles/V_M1.png",
+      "tile_pixels": [
+        244,
+        165
+      ],
+      "tile_rgb_sha256": "e6bca5f23e3ba677ae3f773a659320f136eb4f5fad6efa2d5482b8a9e9db589f",
+      "tile_file_sha256": "d8ae3aac4bdedd97457c932890c7d8544df2f8f72a6245ae4669b359860b7827",
+      "draft_bbox_before_freeze": [
+        785,
+        1025,
+        850,
+        1105
+      ],
+      "amendment_reason": "Expand complete finial or exclude neighboring glyph before reader review"
+    },
+    {
+      "id": "V_M2",
+      "source_id": "V",
+      "page_bbox": [
+        578,
+        937,
+        657,
+        1020
+      ],
+      "context_page_bbox": [
+        495,
+        896,
+        740,
+        1061
+      ],
+      "glyph_in_tile": [
+        83,
+        41,
+        162,
+        124
+      ],
+      "tile_path": "source_tiles/V_M2.png",
+      "tile_pixels": [
+        245,
+        165
+      ],
+      "tile_rgb_sha256": "9e8c93cff02339facb1da5a3c9e3c092fb9fde37ba7f04c3f194bbaafd3d938f",
+      "tile_file_sha256": "e5f197538b52ab028611312199937bab003c51e13ac1c356f6cd66209f9b65a1",
+      "draft_bbox_before_freeze": [
+        578,
+        945,
+        643,
+        1015
+      ],
+      "amendment_reason": "Expand complete finial or exclude neighboring glyph before reader review"
+    },
+    {
+      "id": "V_T1",
+      "source_id": "V",
+      "page_bbox": [
+        665,
+        511,
+        744,
+        628
+      ],
+      "context_page_bbox": [
+        548,
+        453,
+        861,
+        686
+      ],
+      "glyph_in_tile": [
+        117,
+        58,
+        196,
+        175
+      ],
+      "tile_path": "source_tiles/V_T1.png",
+      "tile_pixels": [
+        313,
+        233
+      ],
+      "tile_rgb_sha256": "6c0a42198528890e2bf1d1c8337630ba2697faa65d46d3c663819a304d0461f6",
+      "tile_file_sha256": "37e32b3e8bfd79a16b9c69a8b72682d6f955cf4d529cd4e0e9b7dc8ab28bc9a4",
+      "draft_bbox_before_freeze": [
+        665,
+        511,
+        758,
+        628
+      ],
+      "amendment_reason": "Expand complete finial or exclude neighboring glyph before reader review"
+    },
+    {
+      "id": "V_T2",
+      "source_id": "V",
+      "page_bbox": [
+        969,
+        501,
+        1069,
+        627
+      ],
+      "context_page_bbox": [
+        843,
+        438,
+        1195,
+        690
+      ],
+      "glyph_in_tile": [
+        126,
+        63,
+        226,
+        189
+      ],
+      "tile_path": "source_tiles/V_T2.png",
+      "tile_pixels": [
+        352,
+        252
+      ],
+      "tile_rgb_sha256": "bddd44e6a5b47a601a5bd83c1f91df15e87d26d923936464277540d6b315eda9",
+      "tile_file_sha256": "b6794eb160d94e4a3979410a780578e338b0a7ad653da84b6ec977e9ccfaeb58"
+    },
+    {
+      "id": "H_O",
+      "source_id": "H",
+      "page_bbox": [
+        2190,
+        2880,
+        2335,
+        3060
+      ],
+      "context_page_bbox": [
+        2010,
+        2790,
+        2515,
+        3150
+      ],
+      "glyph_in_tile": [
+        180,
+        90,
+        325,
+        270
+      ],
+      "tile_path": "source_tiles/H_O.png",
+      "tile_pixels": [
+        505,
+        360
+      ],
+      "tile_rgb_sha256": "97daa33289936f4aa15c932223e8a666f73b07b895e77ddd618110ebe384c5fe",
+      "tile_file_sha256": "23906d91af2f8b71b00e3ce5476395dbb7d58d44890433c1162552cc0860b3b7"
+    },
+    {
+      "id": "H_L",
+      "source_id": "H",
+      "page_bbox": [
+        4440,
+        2710,
+        4545,
+        2940
+      ],
+      "context_page_bbox": [
+        4210,
+        2595,
+        4775,
+        3055
+      ],
+      "glyph_in_tile": [
+        230,
+        115,
+        335,
+        345
+      ],
+      "tile_path": "source_tiles/H_L.png",
+      "tile_pixels": [
+        565,
+        460
+      ],
+      "tile_rgb_sha256": "2bda6e904ff8a45ec8144f25f1ed3890ccb340de03a12c31948951f17451ab2d",
+      "tile_file_sha256": "eaeccf46633e122da537a56af8f0cb452d738d983f80160543940795e2fe81f4"
+    },
+    {
+      "id": "H_M",
+      "source_id": "H",
+      "page_bbox": [
+        2595,
+        3450,
+        2805,
+        3595
+      ],
+      "context_page_bbox": [
+        2450,
+        3378,
+        2950,
+        3667
+      ],
+      "glyph_in_tile": [
+        145,
+        72,
+        355,
+        217
+      ],
+      "tile_path": "source_tiles/H_M.png",
+      "tile_pixels": [
+        500,
+        289
+      ],
+      "tile_rgb_sha256": "ea44f4e46c461458d42a994976f9dd4fa0a6ce69d332033cf249505b555b1957",
+      "tile_file_sha256": "26dcf9226661b08210d3b3bd7ee2a545523d385ba31858dee5034f314f33e413"
+    },
+    {
+      "id": "H_T",
+      "source_id": "H",
+      "page_bbox": [
+        4580,
+        3190,
+        4805,
+        3410
+      ],
+      "context_page_bbox": [
+        4360,
+        3080,
+        5025,
+        3520
+      ],
+      "glyph_in_tile": [
+        220,
+        110,
+        445,
+        330
+      ],
+      "tile_path": "source_tiles/H_T.png",
+      "tile_pixels": [
+        665,
+        440
+      ],
+      "tile_rgb_sha256": "9ba4515f4e39eebf8b755bb8e559b06f601a3c6547aeefebcfcfa9854b7c76eb",
+      "tile_file_sha256": "0a2a59bace30706289722d442a178b998108f69f6f501f4bb069e7f64d43f8d1"
+    },
+    {
+      "id": "F_O",
+      "source_id": "F",
+      "page_bbox": [
+        1150,
+        1617,
+        1218,
+        1684
+      ],
+      "context_page_bbox": [
+        1083,
+        1584,
+        1285,
+        1717
+      ],
+      "glyph_in_tile": [
+        67,
+        33,
+        135,
+        100
+      ],
+      "tile_path": "source_tiles/F_O.png",
+      "tile_pixels": [
+        202,
+        133
+      ],
+      "tile_rgb_sha256": "8a2d6fe68851ba88788f37191303cd363ac654b1f45b0976fcafe51fd84e23eb",
+      "tile_file_sha256": "594350a6e1a11603431c7180eaa9d7936a4a6e1855ba3360416231c69f2411c1"
+    },
+    {
+      "id": "F_L",
+      "source_id": "F",
+      "page_bbox": [
+        2350,
+        1605,
+        2422,
+        1692
+      ],
+      "context_page_bbox": [
+        2263,
+        1562,
+        2509,
+        1735
+      ],
+      "glyph_in_tile": [
+        87,
+        43,
+        159,
+        130
+      ],
+      "tile_path": "source_tiles/F_L.png",
+      "tile_pixels": [
+        246,
+        173
+      ],
+      "tile_rgb_sha256": "3b0be8abd2b75079824aabccf024051b8540f6a52822c14543ad1efb9b285ef0",
+      "tile_file_sha256": "9151dd7f20903bbcfa1ec4fd35f8f13a4cae27ea520a2ac58b20e8fa030afe15"
+    },
+    {
+      "id": "F_M",
+      "source_id": "F",
+      "page_bbox": [
+        1830,
+        1590,
+        1903,
+        1705
+      ],
+      "context_page_bbox": [
+        1715,
+        1533,
+        2018,
+        1762
+      ],
+      "glyph_in_tile": [
+        115,
+        57,
+        188,
+        172
+      ],
+      "tile_path": "source_tiles/F_M.png",
+      "tile_pixels": [
+        303,
+        229
+      ],
+      "tile_rgb_sha256": "18cb6d24c5af895401a16b18eb9d6bf318bec22eef8e81d7b910e278acbf9c49",
+      "tile_file_sha256": "1b5383483e28c58721d20310af49d05eea97f4dcda488d25d0481301eaf7c22e"
+    },
+    {
+      "id": "F_T",
+      "source_id": "F",
+      "page_bbox": [
+        592,
+        1575,
+        654,
+        1705
+      ],
+      "context_page_bbox": [
+        462,
+        1510,
+        784,
+        1770
+      ],
+      "glyph_in_tile": [
+        130,
+        65,
+        192,
+        195
+      ],
+      "tile_path": "source_tiles/F_T.png",
+      "tile_pixels": [
+        322,
+        260
+      ],
+      "tile_rgb_sha256": "725406429f05489dada2722701a20f6f920d132b7992a41db460b816fa2cef45",
+      "tile_file_sha256": "44728c3d1c5a06471f0f1f49dfd1ab992dd750b0e9a578cb723a16e4c79e24b6"
+    }
+  ],
+  "queries": [
+    {
+      "id": "P01",
+      "family": "closed oval",
+      "query": "V_O1",
+      "same_source": "V_O2",
+      "H": "H_O",
+      "F": "F_O",
+      "distractor": "V_T1"
+    },
+    {
+      "id": "P02",
+      "family": "loop with trailing stroke",
+      "query": "V_L1",
+      "same_source": "V_L2",
+      "H": "H_L",
+      "F": "F_L",
+      "distractor": "V_M1"
+    },
+    {
+      "id": "P03",
+      "family": "minim sequence",
+      "query": "V_M1",
+      "same_source": "V_M2",
+      "H": "H_M",
+      "F": "F_M",
+      "distractor": "V_O1"
+    },
+    {
+      "id": "P04",
+      "family": "tall cross-stroke form",
+      "query": "V_T1",
+      "same_source": "V_T2",
+      "H": "H_T",
+      "F": "F_T",
+      "distractor": "V_O2"
+    }
+  ]
+}

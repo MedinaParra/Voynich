@@ -1,0 +1,35 @@
+{
+  "schema": "script-comparanda-reader-packet-v1",
+  "cases": [
+    {
+      "case_id": "P01",
+      "image": "blind/P01.png"
+    },
+    {
+      "case_id": "P02",
+      "image": "blind/P02.png"
+    },
+    {
+      "case_id": "P03",
+      "image": "blind/P03.png"
+    },
+    {
+      "case_id": "P04",
+      "image": "blind/P04.png"
+    }
+  ],
+  "task": "For each case compare query A to candidates B,C,D,E using visible stroke topology only. Do not assign letters, sounds, meanings or origin. Source labels are withheld, but apparent source identity is not guaranteed hidden.",
+  "rubric": {
+    "strong": "Principal strokes, connections, loops and arrangement agree; minor execution differences allowed",
+    "partial": "Some components agree, with substantial structural differences",
+    "different": "Visible structures differ substantially",
+    "insufficient": "Cannot decide because of clipping, ambiguous stroke connection or source quality"
+  },
+  "required_fields": [
+    "label",
+    "shared_features",
+    "differences",
+    "uncertainty"
+  ],
+  "review_schema": "script-comparanda-review-v1"
+}

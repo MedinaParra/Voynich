@@ -1,0 +1,75 @@
+{
+  "checks": 670,
+  "control_summary": {
+    "checks": 8,
+    "scope": "Synthetic coordinate and pixel-orientation checks, not paleographic gold"
+  },
+  "counts": {
+    "comparisons_per_reader": 16,
+    "native_samples": 16,
+    "sheets": 4,
+    "source_rasters": 3
+  },
+  "expert_gold_accuracy_validated": false,
+  "external_originals_not_reacquired": [
+    "F",
+    "H"
+  ],
+  "input_hash_scope": "JSON bytes and font bytes; RGB pixel bytes for PNG render inputs/outputs. Source tile file hashes checked separately against regions.",
+  "input_sha256": {
+    "plan": "5b8497fba55662f3298851e6b9dc51256f7935fafaee37d9b013d143d3c133d5",
+    "presentation_mapping": "81fed25b2afb4bc9b600131028925ec700ae94e9b82f5389d244dc4f5f31b8f9",
+    "regions": "d0534dc6f7e3cff93c1bfda9bab1ad3edd08b4b9237e808133ee799803c2b528",
+    "render_manifest": "db5afc770a1a7bd6dacbd8a38e629722511b1f2a607eae3d47264a73ac2ea6d3",
+    "rgb:blind/P01.png": "f4fa3591e5b7f6493593d02d0629a20bfa904ea1c005d5d2997379554cce9397",
+    "rgb:blind/P02.png": "b4ea6ad70682a68d8d5a1dba033481488309097c375c18cfad75ac586ac82966",
+    "rgb:blind/P03.png": "e2d900e91adccec8542184cf453f7bf2239cbd1c89c9f07f974e195664a23a82",
+    "rgb:blind/P04.png": "f820cd16e338fe0e43f6fac83f734bfebfd9438c62468576d7c457c011ede3f0",
+    "rgb:glyphs/F_L.png": "6bd2d531f4c4b1ab8ad01f06dc26771a0292d9d8454f53248d213b26ed62db59",
+    "rgb:glyphs/F_M.png": "16831b1c7563006e00072cc55b0aaf5ee497a91f05f1978bb868f05eac6e4ee4",
+    "rgb:glyphs/F_O.png": "1eb8c6811661b1997c1773b773b8249d88e55fc7a26845bd227e126ea2386765",
+    "rgb:glyphs/F_T.png": "035f019813f8e28269780a00c14f277a4c007b776d3cadd4c65ce7021518e839",
+    "rgb:glyphs/H_L.png": "1c2d0c2b218e02a76ebd4e7f7abb001210f82bfd7f815c15893e691254fbdb8b",
+    "rgb:glyphs/H_M.png": "fb8648a489ed761682a62aa5ba9d10c68fad25e979604f5328f4e5c35bfd04dd",
+    "rgb:glyphs/H_O.png": "4420cf412947a76a90492ee0ee335be2772b6b81173538b67903bb66b917c809",
+    "rgb:glyphs/H_T.png": "baa4138e866fda5745503acfc42ca92831afdc5fea0596ca8da3448b74ccc63c",
+    "rgb:glyphs/V_L1.png": "d480e083548f4d2aba0cffdd7b391be231a24c3f0e086659983d17abe2502ee9",
+    "rgb:glyphs/V_L2.png": "c69cd6962c0e1d8f237dc6ccad120c2b1c1d48212c300e9fbd40481ac99f14e6",
+    "rgb:glyphs/V_M1.png": "1b0ed9ade860f84904fd24afbbf971b4b9132530ecc198c848ba71994c3b43fd",
+    "rgb:glyphs/V_M2.png": "7701c42630599669723f78ef2dfba60bbe0d2eab74c79044641dd367e7b6bd2a",
+    "rgb:glyphs/V_O1.png": "3b5c642850a4e046a2cf218fee8fe658d05229d6aa8a1c6fb9e506d88c607f95",
+    "rgb:glyphs/V_O2.png": "3dcaceaf17374743f5747468443ba9353cafdb3b1923b76ec27cd44a38afe641",
+    "rgb:glyphs/V_T1.png": "13203bce0af46a8d1a62a5e8453df97f8dd26859f8b81cc500ffc330bfbee9b0",
+    "rgb:glyphs/V_T2.png": "cb5977e87e5cb2319860d893c38ad644367a75d47d92d41a46e1bf5f91a1cfab",
+    "rgb:source_tiles/F_L.png": "3b0be8abd2b75079824aabccf024051b8540f6a52822c14543ad1efb9b285ef0",
+    "rgb:source_tiles/F_M.png": "18cb6d24c5af895401a16b18eb9d6bf318bec22eef8e81d7b910e278acbf9c49",
+    "rgb:source_tiles/F_O.png": "8a2d6fe68851ba88788f37191303cd363ac654b1f45b0976fcafe51fd84e23eb",
+    "rgb:source_tiles/F_T.png": "725406429f05489dada2722701a20f6f920d132b7992a41db460b816fa2cef45",
+    "rgb:source_tiles/H_L.png": "2bda6e904ff8a45ec8144f25f1ed3890ccb340de03a12c31948951f17451ab2d",
+    "rgb:source_tiles/H_M.png": "ea44f4e46c461458d42a994976f9dd4fa0a6ce69d332033cf249505b555b1957",
+    "rgb:source_tiles/H_O.png": "97daa33289936f4aa15c932223e8a666f73b07b895e77ddd618110ebe384c5fe",
+    "rgb:source_tiles/H_T.png": "9ba4515f4e39eebf8b755bb8e559b06f601a3c6547aeefebcfcfa9854b7c76eb",
+    "rgb:source_tiles/V_L1.png": "8c4cf9889aee56ed5b5df346ce51df6f4f59820fc86940f78d0600348ecf5c41",
+    "rgb:source_tiles/V_L2.png": "7dbb110d6b227683aeee7a5b69eeb71686259c0c8c53b23adb0a0e6916888d40",
+    "rgb:source_tiles/V_M1.png": "e6bca5f23e3ba677ae3f773a659320f136eb4f5fad6efa2d5482b8a9e9db589f",
+    "rgb:source_tiles/V_M2.png": "9e8c93cff02339facb1da5a3c9e3c092fb9fde37ba7f04c3f194bbaafd3d938f",
+    "rgb:source_tiles/V_O1.png": "e92536c74fbbd07289f4dc002e9fb09d966ea3dd9203c58edcf64243c7dddd36",
+    "rgb:source_tiles/V_O2.png": "0a5f6c2fcd79ad30ca0bd330b3cffcb566b44c38cb7e4247731fead32dbcb9b6",
+    "rgb:source_tiles/V_T1.png": "6c0a42198528890e2bf1d1c8337630ba2697faa65d46d3c663819a304d0461f6",
+    "rgb:source_tiles/V_T2.png": "bddd44e6a5b47a601a5bd83c1f91df15e87d26d923936464277540d6b315eda9"
+  },
+  "mismatch_count": 0,
+  "mismatches": [],
+  "preserved_originals_pixel_verified": [
+    "V"
+  ],
+  "reviews": {
+    "judgments_checked": 0,
+    "scope": "No review outcomes exist yet; no visual judgment was audited",
+    "status": "NOT_AVAILABLE"
+  },
+  "schema": "script-comparanda-integrity-v1",
+  "scope": "Offline coordinate, pixel and review-record integrity only; not historical-source authentication, paleographic accuracy, glyph reading or related-script evidence.",
+  "status": "PASS",
+  "translation_validated": false
+}

@@ -1,0 +1,71 @@
+{
+  "date": "2026-11-04",
+  "scope": "All16nativecontexttiles checked once against full provider rasters at acquisition; future offline replay uses preserved lossless tiles, not a new provider fetch",
+  "native_tile_pixel_checks": 16,
+  "sources": [
+    {
+      "id": "V",
+      "holder": "Yale University Library, Beinecke MS408",
+      "folio": "3r",
+      "url": "https://collections.library.yale.edu/iiif/2/1006080/full/full/0/default.jpg",
+      "sha256": "6ea4d4023a3b199463eee9e30508726a9314391f05a613bce3f87ae8d23fd151",
+      "pixels": [
+        2691,
+        3770
+      ],
+      "file_already_in_repo": "results/assisted_paleography/sources/f3r_native.jpg"
+    },
+    {
+      "id": "H",
+      "holder": "Huntington Library, HM58316",
+      "folio": "1r",
+      "url": "https://hdl.huntington.org/iiif/2/p15150coll7:53293/full/full/0/default.jpg",
+      "sha256": "457a663f60772bdc8c7f1527d9843a6be4155ca163afd8232d969a101a12f4fb",
+      "pixels": [
+        9375,
+        9342
+      ],
+      "info_pixels": [
+        9000,
+        8968
+      ],
+      "catalog_url": "https://hdl.huntington.org/digital/collection/p15150coll7/id/53293/",
+      "catalog_date": "1440–1460",
+      "catalog_language": "Italian",
+      "rights_url": "https://www.huntington.org/library-rights-permissions",
+      "coordinate_discrepancy": "Actual delivered raster used throughout, not info.json nominal size"
+    },
+    {
+      "id": "F",
+      "holder": "Bayerische Staatsbibliothek, Cod.icon.242",
+      "folio": "1r",
+      "url": "https://api.digitale-sammlungen.de/iiif/image/v3/bsb00013084_00006/full/max/0/default.jpg",
+      "sha256": "fe1dd4371d52d1e7ab1b3b2fd8b13246fc04e306e665a7e5ffabf28ea99831cc",
+      "pixels": [
+        3822,
+        4240
+      ],
+      "catalog_date": "1420–1430 for manuscript; no separate attribution or dating of the alphabet annotation established in this pilot",
+      "role": "Alphabet row on1r; not assumed to be a Latin-labelled decipherment key",
+      "rights": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "attribution": "München, Bayerische Staatsbibliothek; digitized by Bayerische Staatsbibliothek"
+    }
+  ],
+  "references": [
+    {
+      "author": "Lisa Fagin Davis",
+      "title": "Voynich Paleography",
+      "conference_year": 2022,
+      "publication_volume_date": "2023-01-06",
+      "url": "https://ceur-ws.org/Vol-3313/keynote2.pdf",
+      "sha256": "cd56145b65b802b2503151957cd9e1ecf0846e992212b6ce6210e0a84f6bc14a",
+      "use": "Motivation for comparing HM58316 forms; not proof of a shared script."
+    },
+    {
+      "title": "Transkription der Geheimschrift...Cod.icon.242a",
+      "date": 1910,
+      "url": "https://www.digitale-sammlungen.de/en/details/bsb00015141",
+      "use": "Historical known-text reference; no verified glyph-to-Latin alignment in this visual pilot."
+    }
+  ]
+}

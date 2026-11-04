@@ -1,0 +1,62 @@
+name: Real-script comparanda pixel and record replay
+on:
+  push:
+    branches: [experiment/kraken-voynich]
+    paths:
+      - .github/workflows/script-comparanda.yml
+      - research_gpt6/code/prepare_script_comparanda.py
+      - research_gpt6/code/audit_script_comparanda.py
+      - research_gpt6/results/script_comparanda/summary.json
+permissions:
+  contents: read
+jobs:
+  replay:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12.14'
+      - run: python -m pip install Pillow==13.0.0
+      - name: Verify frozen pre-review files
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          import json,hashlib
+          f=json.loads(Path('research_gpt6/results/script_comparanda/pre_review_freeze.json').read_text())
+          for row in f['files']:
+              raw=Path(row['path']).read_bytes()
+              actual=hashlib.sha1(b'blob '+str(len(raw)).encode()+b'\0'+raw).hexdigest()
+              assert actual==row['git_blob'],row['path']
+          print('SCRIPT_COMPARANDA_FROZEN_FILES_IDENTICAL')
+          PY
+      - name: Independently audit pixels and available recorded reviews
+        run: |
+          python research_gpt6/code/audit_script_comparanda.py --repo research_gpt6 --bundle research_gpt6/results/script_comparanda --out work/integrity.json
+      - name: Rebuild unchanged native-pixel presentation
+        run: |
+          python research_gpt6/code/prepare_script_comparanda.py --repo research_gpt6 --bundle research_gpt6/results/script_comparanda --out work/rendered
+          python - <<'PY'
+          from pathlib import Path
+          from PIL import Image
+          import json
+          b=Path('research_gpt6/results/script_comparanda')
+          n=Path('work/rendered')
+          for name in ['presentation_mapping.json','render_manifest.json']:
+              assert json.loads((b/name).read_text())==json.loads((n/name).read_text()),name
+          for group in ['glyphs','blind']:
+              for p in (b/group).glob('*.png'):
+                  a=Image.open(p).convert('RGB');z=Image.open(n/group/p.name).convert('RGB')
+                  assert a.size==z.size and a.tobytes()==z.tobytes(),str(p)
+          expected=b/'integrity.json'
+          if not expected.exists():expected=b/'pre_review_integrity.json'
+          assert json.loads(expected.read_text())==json.loads(Path('work/integrity.json').read_text())
+          print('SCRIPT_COMPARANDA_NATIVE_PIXELS_AND_RECORDED_DATA_IDENTICAL; NOT_ANOTHER_VISUAL_REVIEW_OR_TRANSLATION')
+          PY
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: script-comparanda-replay
+          path: work/integrity.json
+          retention-days: 30
