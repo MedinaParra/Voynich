@@ -19,9 +19,13 @@
   },
   "initial_ci_run": 41899233721,
   "initial_ci_conclusion": "success",
-  "postreview_ci_status": "PENDING",
+  "postreview_ci_status": "SUCCESS",
   "fontana_BSB_reading_control": "CONTROL_BLOCKED_EXPERT_ALIGNMENT_REQUIRED",
   "fontana_NAL635_documentary_reference": "PRINTED_KEY_AVAILABLE_FOR_NAL635",
   "kraken_training": "NOT_RUN",
-  "voynich_translation_validated": false
+  "voynich_translation_validated": false,
+  "postreview_results_commit": "dc9c8a1ea24cd2a327d1f0650b280f4a2c3b208c",
+  "postreview_ci_run": 41901400213,
+  "postreview_ci_zip_sha256": "828fa000eb95cf63e2dc569da67d31c9dcea932b2ed0a3808ad555597e3c1dac",
+  "postreview_ci_download_verified": true
 }

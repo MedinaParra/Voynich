@@ -4,13 +4,13 @@
   "files": [
     {
       "path": "README.md",
-      "bytes": 25728,
-      "sha256": "d753cd146d129cef7c66359ed4de6dc74b105da6587246409c5d8454c314a3ef"
+      "bytes": 25862,
+      "sha256": "7c2e20904147accc0d3d546f81eb7e76c7fe081d01e1eec1d8dd75c32dbf714f"
     },
     {
       "path": "research_gpt6/93_script_comparanda_result.md",
-      "bytes": 10294,
-      "sha256": "9294f096a267581b3aff49ca4a2dd4c737ebd214b82cf5a2f5463e9c1b85e48d"
+      "bytes": 10731,
+      "sha256": "c79ab7176ec308e0395bffabb3ea41a886d4bd1c64ca120d023c9542e0234562"
     },
     {
       "path": "research_gpt6/code/assemble_script_comparanda.py",
@@ -61,6 +61,21 @@
       "path": "research_gpt6/results/script_comparanda/ci_initial_receipt.json",
       "bytes": 566,
       "sha256": "7642c9106d6e301cd478555b4263360bbacfcaf3492d4b3e425441e0685e7f62"
+    },
+    {
+      "path": "research_gpt6/results/script_comparanda/ci_replay.log",
+      "bytes": 22830,
+      "sha256": "2c4d5dea82eafccd3189ad579402a32a508aa1ae0aafec5e33b0c121831b4d3a"
+    },
+    {
+      "path": "research_gpt6/results/script_comparanda/ci_replay.zip",
+      "bytes": 2875,
+      "sha256": "828fa000eb95cf63e2dc569da67d31c9dcea932b2ed0a3808ad555597e3c1dac"
+    },
+    {
+      "path": "research_gpt6/results/script_comparanda/ci_replay_receipt.json",
+      "bytes": 3656,
+      "sha256": "83c0401f9a1ec1271fa723523a1bf5c423042f1503a8b57225ab51c2f4d64bc1"
     },
     {
       "path": "research_gpt6/results/script_comparanda/fontana_control/NOTICE.md",
@@ -204,8 +219,8 @@
     },
     {
       "path": "research_gpt6/results/script_comparanda/provenance.json",
-      "bytes": 1086,
-      "sha256": "034c0689dcbb476c2dc8dc813390cfacb20eb3b522cc8fa8e002d5474466a237"
+      "bytes": 1338,
+      "sha256": "00c2361121c64c357e8a5b44ae43bae51b0daf3edfb7327e41ddc1744ba29b1b"
     },
     {
       "path": "research_gpt6/results/script_comparanda/regions.json",
