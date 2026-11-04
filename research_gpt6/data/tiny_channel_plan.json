@@ -1,0 +1,84 @@
+{
+  "schema": "tiny-channel-plan-v1",
+  "date": "2026-11-04",
+  "stage": 90,
+  "base_commit": "180b14460318087f40c859aa82e90b7786a3af77",
+  "clear_alphabet": "abc",
+  "cipher_alphabet": "wxyz",
+  "length": 6,
+  "probability_denominator": 6,
+  "initial_units": [
+    3,
+    2,
+    1
+  ],
+  "transition_units": [
+    [
+      3,
+      2,
+      1
+    ],
+    [
+      1,
+      4,
+      1
+    ],
+    [
+      2,
+      1,
+      3
+    ]
+  ],
+  "keys": "All lexicographically ordered surjections from four cipher symbols to three externally fixed plaintext letters",
+  "key_count": 36,
+  "key_prior": "uniform",
+  "emission": "uniform over the one or two cipher aliases of each plaintext letter",
+  "common_likelihood_denominator": 2985984,
+  "enumeration": {
+    "ciphertexts": 4096,
+    "plaintexts": 729,
+    "key_cipher_pairs": 147456,
+    "stochastic_sampling": false
+  },
+  "methods": [
+    "lm_only_key_map",
+    "channel_key_map",
+    "channel_plaintext_map",
+    "channel_hamming_free",
+    "channel_hamming_key"
+  ],
+  "tie_breaks": {
+    "keys": "lexicographically smallest key",
+    "texts": "lexicographically smallest plaintext",
+    "marginals": "lexicographically smallest plaintext letter"
+  },
+  "lm_only_comparator": "Same 36 admissible keys; maximize LM plaintext probability without emission term. Heuristic decision only, not a normalized ciphertext model.",
+  "primary_checks": [
+    "Each conditional cipher likelihood sums exactly to one",
+    "Uniform-prior joint mass sums exactly to one",
+    "Independent forward enumeration matches all 147456 inverse likelihood entries",
+    "Independent decision and risk recomputation matches all 4096 ciphertext rows",
+    "Key MAP, plaintext MAP and free/constrained Hamming optimize their respective losses",
+    "Closed-form length-one and uniform-LM checks"
+  ],
+  "fixed_references": {
+    "length_one_cipher_marginal": "1/4",
+    "length_one_plaintext_posterior": [
+      "1/2",
+      "1/3",
+      "1/6"
+    ],
+    "length_one_key_map_success": "1/18",
+    "length_one_text_map_success": "1/2",
+    "uniform_lm_unnormalized_mass": "(4/3)^6",
+    "ciphertexts_containing_all_four_symbols": 1560
+  },
+  "scope": "Finite mathematical calibration with an invented rational language model. Not a Latin recovery trial, no new blinded validation, no Voynich translation or Kraken retraining.",
+  "interpretation_limits": [
+    "Surjectivity and a fixed known alphabet change the regime relative to stage88; cannot claim this solves its unrestricted collapse",
+    "A sampled generating key/plaintext need not be MAP even under a correct generative model",
+    "MAP key, MAP plaintext, and Hamming-optimal decisions must remain distinct",
+    "All computed gains are model-expected probabilities, not real manuscript decoding accuracy",
+    "No globally novel algorithm claim"
+  ]
+}
