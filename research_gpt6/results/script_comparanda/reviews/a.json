@@ -1,0 +1,123 @@
+{
+  "schema": "script-comparanda-review-v1",
+  "reviewer": "A",
+  "cases": [
+    {
+      "case_id": "P01",
+      "candidates": {
+        "B": {
+          "label": "strong",
+          "shared_features": "Un único contorno cerrado, redondeado e irregular, con un espacio interior claro y un engrosamiento cerca de la parte inferior.",
+          "differences": "B parece algo más ancho y su remate inferior se desplaza hacia la derecha; A tiene una terminación inferior más apuntada.",
+          "uncertainty": "El aumento de B corta parte de la zona inferior, pero el contexto permite ver el contorno principal; la textura dificulta precisar pequeñas uniones."
+        },
+        "C": {
+          "label": "partial",
+          "shared_features": "Contorno pequeño, redondeado, con una región interior clara y tinta más gruesa en un costado.",
+          "differences": "C es más horizontal y parece presentar una división o un lóbulo adicional en su lado derecho; A muestra una sola cavidad más amplia sin esa división visible.",
+          "uncertainty": "C está borroso y es pequeño incluso ampliado; la posible división interior podría depender de la distribución de tinta."
+        },
+        "D": {
+          "label": "different",
+          "shared_features": "Hay pequeñas regiones curvas y espacios interiores delimitados por tinta.",
+          "differences": "D combina un eje vertical largo, trazos transversales y varios remates o bucles a distintas alturas; A consiste en un solo contorno compacto.",
+          "uncertainty": "El recorte ampliado limita algunos extremos, aunque el contexto muestra claramente la disposición vertical y múltiple."
+        },
+        "E": {
+          "label": "strong",
+          "shared_features": "Un único contorno cerrado aproximadamente circular, con un espacio interior despejado y sin brazos largos ni divisiones interiores visibles.",
+          "differences": "E es más regular, algo más alto y de grosor más uniforme; A es más compacto, irregular y presenta una punta inferior más marcada.",
+          "uncertainty": "Las diferencias de grosor pueden depender de la tinta y la ampliación; el cierre y la disposición general se ven con claridad suficiente."
+        }
+      }
+    },
+    {
+      "case_id": "P02",
+      "candidates": {
+        "B": {
+          "label": "partial",
+          "shared_features": "Una zona curva superior se prolonga hacia abajo mediante un tramo estrecho y alargado.",
+          "differences": "B tiene un bucle superior pequeño y cerrado, una prolongación transversal alta y una vuelta inferior amplia; A presenta un arco superior grande y abierto con descenso oblicuo hacia la izquierda.",
+          "uncertainty": "En A el extremo inferior está próximo a otro componente del renglón, por lo que no es completamente segura la separación entre ambos. El contexto de B muestra la vuelta inferior."
+        },
+        "C": {
+          "label": "partial",
+          "shared_features": "Una curva superior redondeada se estrecha hacia un tramo inferior que cambia de dirección.",
+          "differences": "La parte superior de C es mucho más compacta y casi cerrada; su remate inferior se dirige hacia la derecha. A tiene un arco superior más amplio y un descenso largo hacia la izquierda.",
+          "uncertainty": "La tinta gruesa de C dificulta asegurar si el pequeño espacio superior está cerrado por completo; la semejanza se limita a componentes generales."
+        },
+        "D": {
+          "label": "different",
+          "shared_features": "Presencia de un tramo inclinado y de una pequeña curva que se aparta de él.",
+          "differences": "D organiza una línea oblicua larga con un pequeño bucle lateral inferior y un gancho alto; A está dominado por un arco grande arriba y carece de ese pequeño bucle lateral claramente delimitado.",
+          "uncertainty": "D está desenfocado, pero la ubicación relativa del bucle pequeño y de la línea larga se distingue en el contexto."
+        },
+        "E": {
+          "label": "partial",
+          "shared_features": "Arco superior amplio y redondeado, abierto hacia la zona inferior izquierda, con un lado derecho descendente.",
+          "differences": "E termina en dos porciones inferiores cortas, gruesas y vueltas hacia dentro; A prolonga el descenso mucho más abajo y en diagonal hacia la izquierda.",
+          "uncertainty": "La tinta tenue en la parte alta y las formas contiguas pueden dificultar delimitar los extremos; el arco principal resulta visible."
+        }
+      }
+    },
+    {
+      "case_id": "P03",
+      "candidates": {
+        "B": {
+          "label": "different",
+          "shared_features": "Ambos presentan variaciones de grosor de tinta, sin una coincidencia estructural clara.",
+          "differences": "B es un conjunto estrecho de trazos verticales cruzados por barras; A es una curva amplia con extremos inferiores engrosados y sin eje vertical largo.",
+          "uncertainty": "El aumento de B es borroso, pero su contexto confirma la disposición de barras y trazos verticales."
+        },
+        "C": {
+          "label": "partial",
+          "shared_features": "Gran arco redondeado que baja por la derecha y vuelve hacia dentro en un extremo inferior grueso.",
+          "differences": "C añade varias ondulaciones conectadas hacia la izquierda de la curva grande; A presenta dos terminales inferiores más aislados y una extensión lateral menor.",
+          "uncertainty": "La conexión exacta entre las ondulaciones izquierdas de C no es totalmente nítida; el contexto permite ver que forman una secuencia más extensa."
+        },
+        "D": {
+          "label": "partial",
+          "shared_features": "Perfil general redondeado con una región interior clara y sectores de tinta gruesa.",
+          "differences": "D forma un anillo cerrado compacto; A deja una abertura inferior entre terminales engrosados y presenta una curva superior más abierta y extendida.",
+          "uncertainty": "La textura del soporte vuelve irregulares los bordes de D; no se aprecia una abertura comparable a la de A."
+        },
+        "E": {
+          "label": "different",
+          "shared_features": "Hay curvas altas que descienden hacia puntos más bajos.",
+          "differences": "E es una sucesión horizontal de arcos estrechos con uniones angulosas y descensos repetidos; A tiene un único arco ancho y aproximadamente circular con dos remates inferiores hacia dentro.",
+          "uncertainty": "El recorte ampliado corta las continuaciones laterales de E, aunque el contexto deja clara su estructura repetida."
+        }
+      }
+    },
+    {
+      "case_id": "P04",
+      "candidates": {
+        "B": {
+          "label": "different",
+          "shared_features": "Aparece una pequeña región cerrada por tinta.",
+          "differences": "B es un solo anillo compacto; A tiene una estructura alta con dos elementos superiores, trazos verticales, una barra transversal y un retorno inferior hacia la izquierda.",
+          "uncertainty": "B está parcialmente cortado en el aumento, pero el contexto permite distinguir su contorno simple."
+        },
+        "C": {
+          "label": "partial",
+          "shared_features": "Trazos verticales estrechos, un segmento transversal alto y una pequeña vuelta lateral hacia la izquierda.",
+          "differences": "C es mucho más estrecho y alargado; no muestra con claridad los dos bucles superiores separados de A ni una barra media de extensión comparable. La vuelta izquierda se sitúa relativamente más abajo.",
+          "uncertainty": "El recorte de C es estrecho y la imagen borrosa; el contexto confirma la forma general, pero deja inciertas algunas pequeñas conexiones."
+        },
+        "D": {
+          "label": "partial",
+          "shared_features": "Un tramo vertical largo se asocia a un bucle superior hacia la derecha y a una barra horizontal baja.",
+          "differences": "D tiene un solo eje vertical principal y un solo bucle alto; A muestra dos elementos verticales y superiores, además de una vuelta basal hacia la izquierda. La barra de D está más abajo respecto al bucle.",
+          "uncertainty": "Las conexiones principales son visibles; las diferencias de proporción y distribución persisten en el contexto."
+        },
+        "E": {
+          "label": "strong",
+          "shared_features": "Dos elementos verticales próximos, dos formas superiores laterales, una conexión transversal y un retorno inferior hacia la izquierda. La parte superior izquierda es angular y la derecha forma un bucle ovalado.",
+          "differences": "E es más recto y compacto, tiene la forma superior izquierda más rellena y sitúa la barra transversal relativamente más abajo; A presenta mayor separación vertical y una barra más oblicua.",
+          "uncertainty": "El aumento de A corta parcialmente el extremo superior derecho, pero el contexto deja ver su bucle; el grosor de tinta oculta detalles internos del remate superior izquierdo de E."
+        }
+      }
+    }
+  ],
+  "scope": "Source-label-hidden AI visual descriptions only; no reading/language/glyph equivalence or expert validation"
+}

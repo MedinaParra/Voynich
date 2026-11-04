@@ -1,0 +1,235 @@
+{
+  "Voynich_translation": "NOT_RUN",
+  "agreement": {
+    "disagreements": 2,
+    "exact_label_agreements": 14
+  },
+  "by_role": {
+    "F": {
+      "A": {
+        "different": 2,
+        "insufficient": 0,
+        "partial": 2,
+        "strong": 0
+      },
+      "B": {
+        "different": 2,
+        "insufficient": 0,
+        "partial": 2,
+        "strong": 0
+      }
+    },
+    "H": {
+      "A": {
+        "different": 1,
+        "insufficient": 0,
+        "partial": 2,
+        "strong": 1
+      },
+      "B": {
+        "different": 1,
+        "insufficient": 0,
+        "partial": 2,
+        "strong": 1
+      }
+    },
+    "distractor": {
+      "A": {
+        "different": 2,
+        "insufficient": 0,
+        "partial": 2,
+        "strong": 0
+      },
+      "B": {
+        "different": 2,
+        "insufficient": 0,
+        "partial": 2,
+        "strong": 0
+      }
+    },
+    "same_source": {
+      "A": {
+        "different": 0,
+        "insufficient": 0,
+        "partial": 2,
+        "strong": 2
+      },
+      "B": {
+        "different": 0,
+        "insufficient": 0,
+        "partial": 2,
+        "strong": 2
+      }
+    }
+  },
+  "comparisons": 16,
+  "distribution_by_reviewer": {
+    "A": {
+      "different": 5,
+      "insufficient": 0,
+      "partial": 8,
+      "strong": 3
+    },
+    "B": {
+      "different": 5,
+      "insufficient": 0,
+      "partial": 8,
+      "strong": 3
+    }
+  },
+  "expert_validation": false,
+  "judgments": 32,
+  "language_or_reading_inferred": false,
+  "paired_rows": [
+    {
+      "A": "strong",
+      "B": "strong",
+      "agree": true,
+      "candidate": "B",
+      "case_id": "P01",
+      "role": "same_source",
+      "sample_id": "V_O2"
+    },
+    {
+      "A": "partial",
+      "B": "partial",
+      "agree": true,
+      "candidate": "C",
+      "case_id": "P01",
+      "role": "F",
+      "sample_id": "F_O"
+    },
+    {
+      "A": "different",
+      "B": "different",
+      "agree": true,
+      "candidate": "D",
+      "case_id": "P01",
+      "role": "distractor",
+      "sample_id": "V_T1"
+    },
+    {
+      "A": "strong",
+      "B": "strong",
+      "agree": true,
+      "candidate": "E",
+      "case_id": "P01",
+      "role": "H",
+      "sample_id": "H_O"
+    },
+    {
+      "A": "partial",
+      "B": "partial",
+      "agree": true,
+      "candidate": "B",
+      "case_id": "P02",
+      "role": "H",
+      "sample_id": "H_L"
+    },
+    {
+      "A": "partial",
+      "B": "partial",
+      "agree": true,
+      "candidate": "C",
+      "case_id": "P02",
+      "role": "same_source",
+      "sample_id": "V_L2"
+    },
+    {
+      "A": "different",
+      "B": "different",
+      "agree": true,
+      "candidate": "D",
+      "case_id": "P02",
+      "role": "F",
+      "sample_id": "F_L"
+    },
+    {
+      "A": "partial",
+      "B": "partial",
+      "agree": true,
+      "candidate": "E",
+      "case_id": "P02",
+      "role": "distractor",
+      "sample_id": "V_M1"
+    },
+    {
+      "A": "different",
+      "B": "different",
+      "agree": true,
+      "candidate": "B",
+      "case_id": "P03",
+      "role": "F",
+      "sample_id": "F_M"
+    },
+    {
+      "A": "partial",
+      "B": "strong",
+      "agree": false,
+      "candidate": "C",
+      "case_id": "P03",
+      "role": "same_source",
+      "sample_id": "V_M2"
+    },
+    {
+      "A": "partial",
+      "B": "partial",
+      "agree": true,
+      "candidate": "D",
+      "case_id": "P03",
+      "role": "distractor",
+      "sample_id": "V_O1"
+    },
+    {
+      "A": "different",
+      "B": "different",
+      "agree": true,
+      "candidate": "E",
+      "case_id": "P03",
+      "role": "H",
+      "sample_id": "H_M"
+    },
+    {
+      "A": "different",
+      "B": "different",
+      "agree": true,
+      "candidate": "B",
+      "case_id": "P04",
+      "role": "distractor",
+      "sample_id": "V_O2"
+    },
+    {
+      "A": "partial",
+      "B": "partial",
+      "agree": true,
+      "candidate": "C",
+      "case_id": "P04",
+      "role": "F",
+      "sample_id": "F_T"
+    },
+    {
+      "A": "partial",
+      "B": "partial",
+      "agree": true,
+      "candidate": "D",
+      "case_id": "P04",
+      "role": "H",
+      "sample_id": "H_T"
+    },
+    {
+      "A": "strong",
+      "B": "partial",
+      "agree": false,
+      "candidate": "E",
+      "case_id": "P04",
+      "role": "same_source",
+      "sample_id": "V_T2"
+    }
+  ],
+  "reviewers": [
+    "A",
+    "B"
+  ],
+  "schema": "script-comparanda-summary-v1",
+  "scope": "Descriptive source-label-hidden AI judgments on manually selected examples. Agreement is not historical, expert-gold or alphabet-reading accuracy."
+}

@@ -1,0 +1,123 @@
+{
+  "schema": "script-comparanda-review-v1",
+  "reviewer": "B",
+  "cases": [
+    {
+      "case_id": "P01",
+      "candidates": {
+        "B": {
+          "label": "strong",
+          "shared_features": "Un único contorno redondeado y cerrado, con un hueco central y grosor desigual; la zona inferior se estrecha en una pequeña punta o juntura.",
+          "differences": "B parece algo más ancho y su hueco algo menor; la distribución del grosor y la inclinación de la juntura inferior varían.",
+          "uncertainty": "El recorte ampliado de B corta parte del borde inferior, pero su contexto permite reconocer el contorno completo; los bordes de tinta son difusos."
+        },
+        "C": {
+          "label": "partial",
+          "shared_features": "Ambos presentan un pequeño contorno curvo con espacio claro interior y un lado derecho de tinta relativamente gruesa.",
+          "differences": "C es más horizontal y parece tener una división o segundo componente estrecho en la parte derecha; A muestra un hueco principal más simple y un contorno más vertical.",
+          "uncertainty": "La tinta borrosa de C impide decidir con seguridad si la marca interior es una conexión continua o una acumulación de tinta."
+        },
+        "D": {
+          "label": "different",
+          "shared_features": "Hay pequeñas zonas curvas y espacios interiores claros.",
+          "differences": "D combina trazos verticales prolongados, cruces horizontales y varios retornos o bucles a distintas alturas; A es un solo anillo compacto.",
+          "uncertainty": "El recorte de D es estrecho, pero el contexto muestra suficientes conexiones para distinguir su estructura compuesta."
+        },
+        "E": {
+          "label": "strong",
+          "shared_features": "Un solo bucle redondeado cerrado, sin divisiones internas, con un hueco central grande respecto al conjunto.",
+          "differences": "E tiene una línea más fina, un hueco más amplio y una forma más regular; la pequeña juntura es superior en E y más marcada abajo en A.",
+          "uncertainty": "El punto exacto de encuentro de los extremos es algo borroso; la estructura de un único bucle se aprecia en ambos."
+        }
+      }
+    },
+    {
+      "case_id": "P02",
+      "candidates": {
+        "B": {
+          "label": "partial",
+          "shared_features": "Un componente curvo alto enlaza con un trazo que baja y cambia de dirección cerca de la parte inferior.",
+          "differences": "B cierra un pequeño recinto en la parte alta mediante un trazo horizontal y prolonga el descenso hasta una vuelta inferior grande; A tiene un arco superior amplio y abierto a la izquierda, con un remate inferior compacto.",
+          "uncertainty": "En A la tinta inferior se superpone visualmente a trazos próximos; el contexto ayuda a delimitar el arco, pero no aclara por completo la juntura del pie."
+        },
+        "C": {
+          "label": "partial",
+          "shared_features": "Una curva superior redondeada conduce hacia una zona inferior más estrecha, con cambio de dirección.",
+          "differences": "La curva alta de C vuelve sobre sí misma formando un recinto casi cerrado y su cola se dirige abajo a la derecha; A presenta un arco alto abierto y un descenso más largo hacia la izquierda.",
+          "uncertainty": "El cierre exacto del recinto de C está engrosado por la tinta; la diferencia de disposición general es visible."
+        },
+        "D": {
+          "label": "different",
+          "shared_features": "Un trazo oblicuo se acompaña de una pequeña zona curva o bucle.",
+          "differences": "D tiene un eje diagonal relativamente recto, un bucle pequeño a media altura y un remate compacto arriba; falta el gran arco superior que domina A.",
+          "uncertainty": "D está desenfocado, aunque se distinguen la diagonal y la posición central del bucle."
+        },
+        "E": {
+          "label": "partial",
+          "shared_features": "Un arco amplio pasa por arriba y por el lado derecho, con abertura hacia la izquierda y curvas pequeñas en la zona baja.",
+          "differences": "E concentra dos vueltas cortas contiguas en la base del arco; A desciende más en diagonal y termina en un componente inferior compacto situado más a la izquierda.",
+          "uncertainty": "El remate inferior de A es oscuro y poco definido; no permite equiparar sus conexiones con las dos vueltas bajas de E."
+        }
+      }
+    },
+    {
+      "case_id": "P03",
+      "candidates": {
+        "B": {
+          "label": "different",
+          "shared_features": "Se observan varios trazos reunidos en un espacio pequeño.",
+          "differences": "B está construido con ejes verticales y barras transversales cortas; A tiene un arco exterior redondeado y dos retornos curvos inferiores, sin esa retícula.",
+          "uncertainty": "B es pequeño y oscuro, pero la disposición vertical y transversal es clara en el contexto."
+        },
+        "C": {
+          "label": "strong",
+          "shared_features": "Un arco grande abierto a la izquierda rodea la parte superior y derecha; abajo aparecen dos retornos curvos contiguos, con pequeños entrantes claros.",
+          "differences": "C es más ancho y achatado, con una parte baja más extendida hacia la izquierda; A es algo más vertical y tiene un arco superior más fino.",
+          "uncertainty": "La tinta de los retornos inferiores se confunde parcialmente con la textura del soporte; el contexto respalda la disposición general."
+        },
+        "D": {
+          "label": "partial",
+          "shared_features": "Ambos tienen un borde exterior curvo y una zona clara interior.",
+          "differences": "D forma un único recinto cerrado y compacto; A deja abierta la parte izquierda del arco y añade dos retornos diferenciados en la zona inferior.",
+          "uncertainty": "Los bordes de D son difusos, pero no se ven las dos vueltas inferiores de A."
+        },
+        "E": {
+          "label": "different",
+          "shared_features": "La parte baja contiene una sucesión de ascensos y descensos curvos.",
+          "differences": "E se extiende horizontalmente mediante varios arcos o picos conectados con trazos descendentes; no tiene el arco exterior único que envuelve la parte superior y derecha de A.",
+          "uncertainty": "El extremo derecho del recorte ampliado alcanza un trazo vecino; el contexto permite distinguir la secuencia horizontal principal."
+        }
+      }
+    },
+    {
+      "case_id": "P04",
+      "candidates": {
+        "B": {
+          "label": "different",
+          "shared_features": "Aparece un pequeño espacio claro delimitado por tinta curva.",
+          "differences": "B es un anillo compacto único; A tiene dos ejes verticales, conexiones transversales y vueltas en varias alturas.",
+          "uncertainty": "El borde inferior de B está cortado en la ampliación, pero el contexto confirma su forma compacta."
+        },
+        "C": {
+          "label": "partial",
+          "shared_features": "Un eje vertical alto se acompaña de un corto trazo transversal y una pequeña vuelta lateral en la parte baja.",
+          "differences": "C es estrecho y parece centrarse en un solo eje principal; A presenta dos ejes separados y dos componentes superiores, además de una conexión transversal más ancha.",
+          "uncertainty": "La ampliación de C es estrecha y la tinta lateral es tenue; el contexto no revela claramente una segunda estructura superior comparable."
+        },
+        "D": {
+          "label": "partial",
+          "shared_features": "Un trazo vertical prolongado cruza una línea horizontal y lleva un componente curvo en el lado derecho superior.",
+          "differences": "D presenta un solo eje principal con una curva superior derecha y una barra baja larga; A tiene dos ejes, componentes superiores a ambos lados y una vuelta inferior izquierda más definida.",
+          "uncertainty": "La curva derecha de D parece abierta en su parte baja, aunque el desenfoque dificulta precisar dónde termina."
+        },
+        "E": {
+          "label": "partial",
+          "shared_features": "Dos ejes próximos llevan un componente superior izquierdo triangular y otro superior derecho redondeado; ambos incluyen una unión horizontal y vueltas inferiores.",
+          "differences": "En A la unión horizontal se sitúa bastante por encima del pie del eje izquierdo, que baja hasta una vuelta inferior; en E la barra y los remates inferiores quedan casi a la misma altura y ambos ejes tienen pies compactos.",
+          "uncertainty": "La parte superior derecha de A está cerca del límite del recorte, pero el contexto permite ver su bucle; la diferencia en la altura de la barra sigue siendo visible."
+        }
+      }
+    }
+  ],
+  "scope": "Source-label-hidden AI visual descriptions only; no reading/language/glyph equivalence or expert validation"
+}

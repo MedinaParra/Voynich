@@ -1,0 +1,68 @@
+{
+  "schema": "fontana-historical-alignment-candidate-v1",
+  "status": "CONTROL_BLOCKED_EXPERT_ALIGNMENT_REQUIRED",
+  "unit": "in",
+  "transcription_literal": "in",
+  "transcription_reading_status": "Clear enough to propose the Latin word in; not an expert-approved gold transcript",
+  "original_alignment_status": "Candidate region only; correspondence and glyph/word boundaries NOT independently verified",
+  "sources": [
+    {
+      "id": "fontana_original_1v",
+      "file": "fontana1v_native.jpg",
+      "url": "https://api.digitale-sammlungen.de/iiif/image/v3/bsb00013084_00007/full/max/0/default.jpg",
+      "canvas": 7,
+      "folio": "1v",
+      "dimensions": [
+        3086,
+        4262
+      ],
+      "candidate_box_xyxy": [
+        995,
+        1535,
+        1190,
+        1645
+      ],
+      "context_box_xyxy": [
+        470,
+        1480,
+        1560,
+        1660
+      ],
+      "sha256": "295ae2fa4a1ad1a2d16278a3a28bab823f6515e0e88520e767661dc7d1691e7f",
+      "candidate_crop": "fontana_original_1v_candidate.png"
+    },
+    {
+      "id": "fontana_schulte1910_page1",
+      "file": "fontana_transcription7_native.jpg",
+      "url": "https://api.digitale-sammlungen.de/iiif/image/v3/bsb00015141_00007/full/max/0/default.jpg",
+      "canvas": 7,
+      "folio": "1r, labelled original 1v",
+      "dimensions": [
+        2383,
+        3642
+      ],
+      "candidate_box_xyxy": [
+        550,
+        1595,
+        650,
+        1685
+      ],
+      "context_box_xyxy": [
+        200,
+        1510,
+        1100,
+        1750
+      ],
+      "sha256": "48695491c68a884e34a5573d945e93aa65ce4f8f98be26d8b6c255d61672b6d7",
+      "candidate_crop": "fontana_schulte1910_page1_candidate.png"
+    }
+  ],
+  "critical_layout": "Original1v upper paragraph is ordinary Latin. Its lower paragraph is cipher. Schulte1910 page1 first transcribes the ordinary Latin, then the lower cipher paragraph. First word of the second paragraph was tentatively read Opusculi, then Opus est; neither is certified and neither is used as truth.",
+  "uncertainties": [
+    "Original candidate contains two circle-and-bar configurations but their unit boundaries and correspondence to in are not established",
+    "Source original and1910 transcription have different line wrapping",
+    "The alphabet row on original1r has no securely read Latin-value labels; no row-order mapping used",
+    "No characterwise mapping, pronunciation or Voynich value inferred"
+  ],
+  "proposed_next_step": "Have a palaeographer verify the paragraph alignment and first word segmentation, then choose a held-out second line for a real Fontana reading control."
+}

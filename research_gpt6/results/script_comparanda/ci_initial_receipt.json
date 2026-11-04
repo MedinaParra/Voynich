@@ -1,0 +1,17 @@
+{
+  "run_id": 41899233721,
+  "head_sha": "b01c94971722fd549a97eacbedf85bdde082648f",
+  "job_id": 126816887138,
+  "url": "https://github.com/MedinaParra/Voynich/actions/runs/41899233721",
+  "status": "success",
+  "scope": "Pre-review frozen-pixel and crop/presentation replay; zero visual judgments at this stage.",
+  "artifact_metadata": [
+    {
+      "id": 13357252482,
+      "name": "script-comparanda-replay",
+      "size": 2522,
+      "digest": "sha256:be528387759f08ef48fcb5b36bfa47ba2975bdf9cefa3d77db0806f617bdb46d"
+    }
+  ],
+  "archive_downloaded": false
+}

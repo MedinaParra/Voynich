@@ -1,0 +1,274 @@
+﻿2026-11-04T19:40:42.8155933Z Current runner version: '2.338.2'
+2026-11-04T19:40:42.8181088Z ##[group]Runner Image Provisioner
+2026-11-04T19:40:42.8182007Z Hosted Compute Agent
+2026-11-04T19:40:42.8182677Z Version: 20261028.624
+2026-11-04T19:40:42.8183628Z Commit: 54898b74c23fde5556c9b3c3a2290865feef0dfe
+2026-11-04T19:40:42.8184383Z Build Date: 2026-10-28T21:51:42Z
+2026-11-04T19:40:42.8185143Z Worker ID: {228d00b2-9213-463a-9c91-7022e45ef10d}
+2026-11-04T19:40:42.8185872Z Region: westus
+2026-11-04T19:40:42.8186410Z Cloud: Azure
+2026-11-04T19:40:42.8187106Z ##[endgroup]
+2026-11-04T19:40:42.8188611Z ##[group]Operating System
+2026-11-04T19:40:42.8189351Z Ubuntu
+2026-11-04T19:40:42.8189893Z 24.04.5
+2026-11-04T19:40:42.8190411Z LTS
+2026-11-04T19:40:42.8191037Z ##[endgroup]
+2026-11-04T19:40:42.8191613Z ##[group]Runner Image
+2026-11-04T19:40:42.8192251Z Image: ubuntu-24.04
+2026-11-04T19:40:42.8192855Z Version: 20261101.360.1
+2026-11-04T19:40:42.8194724Z Included Software: https://github.com/actions/runner-images/blob/ubuntu24/20261101.360/images/ubuntu/Ubuntu2404-Readme.md
+2026-11-04T19:40:42.8196304Z Image Release: https://github.com/actions/runner-images/releases/tag/ubuntu24%2F20261101.360
+2026-11-04T19:40:42.8197339Z ##[endgroup]
+2026-11-04T19:40:42.8198486Z ##[group]GITHUB_TOKEN Permissions
+2026-11-04T19:40:42.8201017Z Contents: read
+2026-11-04T19:40:42.8201716Z Metadata: read
+2026-11-04T19:40:42.8202284Z ##[endgroup]
+2026-11-04T19:40:42.8204912Z Secret source: Actions
+2026-11-04T19:40:42.8205875Z Cache mode: write
+2026-11-04T19:40:42.8206718Z Prepare workflow directory
+2026-11-04T19:40:42.8551406Z Prepare all required actions
+2026-11-04T19:40:42.8603659Z Getting action download info
+2026-11-04T19:40:43.2853398Z Download action repository 'actions/checkout@v4' (SHA:11d5960a326750d5838078e36cf38b85af677262)
+2026-11-04T19:40:43.3936654Z Download action repository 'actions/setup-python@v5' (SHA:a26af69be951a213d495a4c3e4e4022e16d87065)
+2026-11-04T19:40:43.4722643Z Download action repository 'actions/upload-artifact@v4' (SHA:ea165f8d65b6e75b540449e92b4886f43607fa02)
+2026-11-04T19:40:43.6843956Z Complete job name: replay
+2026-11-04T19:40:43.7713772Z ##[group]Run actions/checkout@v4
+2026-11-04T19:40:43.7714702Z with:
+2026-11-04T19:40:43.7715151Z   repository: MedinaParra/Voynich
+2026-11-04T19:40:43.7718926Z   token: ***
+2026-11-04T19:40:43.7719364Z   ssh-strict: true
+2026-11-04T19:40:43.7719804Z   ssh-user: git
+2026-11-04T19:40:43.7720255Z   persist-credentials: true
+2026-11-04T19:40:43.7720740Z   clean: true
+2026-11-04T19:40:43.7721177Z   sparse-checkout-cone-mode: true
+2026-11-04T19:40:43.7721690Z   fetch-depth: 1
+2026-11-04T19:40:43.7722118Z   fetch-tags: false
+2026-11-04T19:40:43.7722559Z   show-progress: true
+2026-11-04T19:40:43.7723187Z   lfs: false
+2026-11-04T19:40:43.7723614Z   submodules: false
+2026-11-04T19:40:43.7724065Z   set-safe-directory: true
+2026-11-04T19:40:43.7724559Z   allow-unsafe-pr-checkout: false
+2026-11-04T19:40:43.7725341Z ##[endgroup]
+2026-11-04T19:40:44.0564279Z Syncing repository: MedinaParra/Voynich
+2026-11-04T19:40:44.0566379Z ##[group]Getting Git version info
+2026-11-04T19:40:44.0567663Z Working directory is '/home/runner/work/Voynich/Voynich'
+2026-11-04T19:40:44.0569458Z [command]/usr/bin/git version
+2026-11-04T19:40:44.0660362Z git version 2.56.0
+2026-11-04T19:40:44.0685774Z ##[endgroup]
+2026-11-04T19:40:44.0701890Z Temporarily overriding HOME='/home/runner/work/_temp/d96053f9-84e9-4a13-a04c-9557c85c771e' before making global git config changes
+2026-11-04T19:40:44.0707784Z Adding repository directory to the temporary git global config as a safe directory
+2026-11-04T19:40:44.0709615Z [command]/usr/bin/git config --global --add safe.directory /home/runner/work/Voynich/Voynich
+2026-11-04T19:40:44.0767493Z Deleting the contents of '/home/runner/work/Voynich/Voynich'
+2026-11-04T19:40:44.0774337Z ##[group]Initializing the repository
+2026-11-04T19:40:44.0778680Z [command]/usr/bin/git init /home/runner/work/Voynich/Voynich
+2026-11-04T19:40:44.0886170Z hint: Using 'master' as the name for the initial branch. This default branch name
+2026-11-04T19:40:44.0888196Z hint: will change to "main" in Git 3.0. To configure the initial branch name
+2026-11-04T19:40:44.0889231Z hint: to use in all of your new repositories, which will suppress this warning,
+2026-11-04T19:40:44.0890030Z hint: call:
+2026-11-04T19:40:44.0890457Z hint:
+2026-11-04T19:40:44.0890990Z hint: 	git config --global init.defaultBranch <name>
+2026-11-04T19:40:44.0891656Z hint:
+2026-11-04T19:40:44.0892271Z hint: Names commonly chosen instead of 'master' are 'main', 'trunk' and
+2026-11-04T19:40:44.0893620Z hint: 'development'. The just-created branch can be renamed via this command:
+2026-11-04T19:40:44.0894976Z hint:
+2026-11-04T19:40:44.0895447Z hint: 	git branch -m <name>
+2026-11-04T19:40:44.0895958Z hint:
+2026-11-04T19:40:44.0896599Z hint: Disable this message with "git config set advice.defaultBranchName false"
+2026-11-04T19:40:44.0906469Z Initialized empty Git repository in /home/runner/work/Voynich/Voynich/.git/
+2026-11-04T19:40:44.0919167Z [command]/usr/bin/git remote add origin https://github.com/MedinaParra/Voynich
+2026-11-04T19:40:44.0970174Z ##[endgroup]
+2026-11-04T19:40:44.0971068Z ##[group]Disabling automatic garbage collection
+2026-11-04T19:40:44.0984364Z [command]/usr/bin/git config --local gc.auto 0
+2026-11-04T19:40:44.1011361Z ##[endgroup]
+2026-11-04T19:40:44.1012120Z ##[group]Setting up auth
+2026-11-04T19:40:44.1020432Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+2026-11-04T19:40:44.1060235Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+2026-11-04T19:40:44.1495888Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+2026-11-04T19:40:44.1544284Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+2026-11-04T19:40:44.1787978Z [command]/usr/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+2026-11-04T19:40:44.1834879Z [command]/usr/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+2026-11-04T19:40:44.2086136Z [command]/usr/bin/git config --local http.https://github.com/.extraheader AUTHORIZATION: basic ***
+2026-11-04T19:40:44.2141032Z ##[endgroup]
+2026-11-04T19:40:44.2141823Z ##[group]Fetching the repository
+2026-11-04T19:40:44.2154161Z [command]/usr/bin/git -c protocol.version=2 fetch --no-tags --prune --no-recurse-submodules --depth=1 origin +b01c94971722fd549a97eacbedf85bdde082648f:refs/remotes/origin/experiment/kraken-voynich
+2026-11-04T19:40:53.1152211Z From https://github.com/MedinaParra/Voynich
+2026-11-04T19:40:53.1155195Z  * [new ref]         b01c94971722fd549a97eacbedf85bdde082648f -> origin/experiment/kraken-voynich
+2026-11-04T19:40:53.1158864Z ##[endgroup]
+2026-11-04T19:40:53.1160220Z ##[group]Determining the checkout info
+2026-11-04T19:40:53.1161837Z ##[endgroup]
+2026-11-04T19:40:53.1170637Z [command]/usr/bin/git sparse-checkout disable
+2026-11-04T19:40:53.1235315Z [command]/usr/bin/git config --local --unset-all extensions.worktreeConfig
+2026-11-04T19:40:53.1281504Z ##[group]Checking out the ref
+2026-11-04T19:40:53.1285476Z [command]/usr/bin/git checkout --progress --force -B experiment/kraken-voynich refs/remotes/origin/experiment/kraken-voynich
+2026-11-04T19:40:53.6304282Z Switched to a new branch 'experiment/kraken-voynich'
+2026-11-04T19:40:53.6307668Z branch 'experiment/kraken-voynich' set up to track 'origin/experiment/kraken-voynich'.
+2026-11-04T19:40:53.6343455Z ##[endgroup]
+2026-11-04T19:40:53.6405579Z [command]/usr/bin/git log -1 --format=%H
+2026-11-04T19:40:53.6441528Z b01c94971722fd549a97eacbedf85bdde082648f
+2026-11-04T19:40:53.6726353Z ##[group]Run actions/setup-python@v5
+2026-11-04T19:40:53.6726738Z with:
+2026-11-04T19:40:53.6727016Z   python-version: 3.12.14
+2026-11-04T19:40:53.6727520Z   check-latest: false
+2026-11-04T19:40:53.6730636Z   token: ***
+2026-11-04T19:40:53.6730933Z   update-environment: true
+2026-11-04T19:40:53.6731268Z   allow-prereleases: false
+2026-11-04T19:40:53.6731628Z   freethreaded: false
+2026-11-04T19:40:53.6731900Z ##[endgroup]
+2026-11-04T19:40:53.8204663Z ##[group]Installed versions
+2026-11-04T19:40:53.8227150Z Version 3.12.14 was not found in the local cache
+2026-11-04T19:40:53.8442363Z (node:2460) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+2026-11-04T19:40:53.8444503Z (Use `node --trace-deprecation ...` to show where the warning was created)
+2026-11-04T19:40:54.6399957Z Version 3.12.14 is available for downloading
+2026-11-04T19:40:54.6401884Z Download from "https://github.com/actions/python-versions/releases/download/3.12.14-31661455385/python-3.12.14-linux-24.04-x64.tar.gz"
+2026-11-04T19:40:55.3261233Z Extract downloaded archive
+2026-11-04T19:40:55.3411274Z [command]/usr/bin/tar xz --warning=no-unknown-keyword --overwrite -C /home/runner/work/_temp/acb06404-1e06-46b1-a00a-85e674ea7204 -f /home/runner/work/_temp/221e923e-8586-4d72-83bd-720edf37388b
+2026-11-04T19:40:57.2438386Z Execute installation script
+2026-11-04T19:40:57.2553477Z Check if Python hostedtoolcache folder exist...
+2026-11-04T19:40:57.2554177Z Create Python 3.12.14 folder
+2026-11-04T19:40:57.2568533Z Copy Python binaries to hostedtoolcache folder
+2026-11-04T19:40:57.7148182Z Create additional symlinks (Required for the UsePythonVersion Azure Pipelines task and the setup-python GitHub Action)
+2026-11-04T19:40:57.7191978Z Upgrading pip...
+2026-11-04T19:40:59.4708910Z Collecting pip
+2026-11-04T19:40:59.5020066Z Downloading pip-26.3-py3-none-any.whl.metadata (4.6 kB)
+2026-11-04T19:40:59.5092994Z Downloading pip-26.3-py3-none-any.whl (2.0 MB)
+2026-11-04T19:40:59.5387617Z ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 2.0/2.0 MB 125.6 MB/s eta 0:00:00
+2026-11-04T19:40:59.5414308Z 
+2026-11-04T19:40:59.5607433Z Installing collected packages: pip
+2026-11-04T19:40:59.5612348Z Attempting uninstall: pip
+2026-11-04T19:40:59.5631887Z Found existing installation: pip 25.0.1
+2026-11-04T19:40:59.5979411Z Uninstalling pip-25.0.1:
+2026-11-04T19:40:59.6036462Z Successfully uninstalled pip-25.0.1
+2026-11-04T19:41:00.6018713Z Successfully installed pip-26.3
+2026-11-04T19:41:00.6515619Z Create complete file
+2026-11-04T19:41:00.6558891Z Successfully set up CPython (3.12.14)
+2026-11-04T19:41:00.6559926Z ##[endgroup]
+2026-11-04T19:41:00.6756062Z ##[group]Run python -m pip install Pillow==13.0.0
+2026-11-04T19:41:00.6756523Z [36;1mpython -m pip install Pillow==13.0.0[0m
+2026-11-04T19:41:00.6782528Z shell: /usr/bin/bash -e {0}
+2026-11-04T19:41:00.6782805Z env:
+2026-11-04T19:41:00.6783455Z   pythonLocation: /opt/hostedtoolcache/Python/3.12.14/x64
+2026-11-04T19:41:00.6783931Z   PKG_CONFIG_PATH: /opt/hostedtoolcache/Python/3.12.14/x64/lib/pkgconfig
+2026-11-04T19:41:00.6784391Z   Python_ROOT_DIR: /opt/hostedtoolcache/Python/3.12.14/x64
+2026-11-04T19:41:00.6784777Z   Python2_ROOT_DIR: /opt/hostedtoolcache/Python/3.12.14/x64
+2026-11-04T19:41:00.6785215Z   Python3_ROOT_DIR: /opt/hostedtoolcache/Python/3.12.14/x64
+2026-11-04T19:41:00.6785614Z   LD_LIBRARY_PATH: /opt/hostedtoolcache/Python/3.12.14/x64/lib
+2026-11-04T19:41:00.6785980Z ##[endgroup]
+2026-11-04T19:41:01.3094239Z Collecting Pillow==13.0.0
+2026-11-04T19:41:01.3519393Z   Downloading pillow-13.0.0-cp312-cp312-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl.metadata (9.1 kB)
+2026-11-04T19:41:01.3603647Z Downloading pillow-13.0.0-cp312-cp312-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl (7.1 MB)
+2026-11-04T19:41:01.4031252Z    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 7.1/7.1 MB 310.6 MB/s  0:00:00
+2026-11-04T19:41:01.4480876Z Installing collected packages: Pillow
+2026-11-04T19:41:01.7925036Z Successfully installed Pillow-13.0.0
+2026-11-04T19:41:01.8424809Z ##[group]Run python - <<'PY'
+2026-11-04T19:41:01.8425138Z [36;1mpython - <<'PY'[0m
+2026-11-04T19:41:01.8425399Z [36;1mfrom pathlib import Path[0m
+2026-11-04T19:41:01.8425917Z [36;1mimport json,hashlib[0m
+2026-11-04T19:41:01.8426398Z [36;1mf=json.loads(Path('research_gpt6/results/script_comparanda/pre_review_freeze.json').read_text())[0m
+2026-11-04T19:41:01.8427114Z [36;1mfor row in f['files']:[0m
+2026-11-04T19:41:01.8427401Z [36;1m    raw=Path(row['path']).read_bytes()[0m
+2026-11-04T19:41:01.8428152Z [36;1m    actual=hashlib.sha1(b'blob '+str(len(raw)).encode()+b'\0'+raw).hexdigest()[0m
+2026-11-04T19:41:01.8428934Z [36;1m    assert actual==row['git_blob'],row['path'][0m
+2026-11-04T19:41:01.8429503Z [36;1mprint('SCRIPT_COMPARANDA_FROZEN_FILES_IDENTICAL')[0m
+2026-11-04T19:41:01.8429999Z [36;1mPY[0m
+2026-11-04T19:41:01.8452816Z shell: /usr/bin/bash -e {0}
+2026-11-04T19:41:01.8453257Z env:
+2026-11-04T19:41:01.8453568Z   pythonLocation: /opt/hostedtoolcache/Python/3.12.14/x64
+2026-11-04T19:41:01.8454227Z   PKG_CONFIG_PATH: /opt/hostedtoolcache/Python/3.12.14/x64/lib/pkgconfig
+2026-11-04T19:41:01.8454663Z   Python_ROOT_DIR: /opt/hostedtoolcache/Python/3.12.14/x64
+2026-11-04T19:41:01.8455213Z   Python2_ROOT_DIR: /opt/hostedtoolcache/Python/3.12.14/x64
+2026-11-04T19:41:01.8455605Z   Python3_ROOT_DIR: /opt/hostedtoolcache/Python/3.12.14/x64
+2026-11-04T19:41:01.8456009Z   LD_LIBRARY_PATH: /opt/hostedtoolcache/Python/3.12.14/x64/lib
+2026-11-04T19:41:01.8456553Z ##[endgroup]
+2026-11-04T19:41:01.8808958Z SCRIPT_COMPARANDA_FROZEN_FILES_IDENTICAL
+2026-11-04T19:41:01.8883301Z ##[group]Run python research_gpt6/code/audit_script_comparanda.py --repo research_gpt6 --bundle research_gpt6/results/script_comparanda --out work/integrity.json
+2026-11-04T19:41:01.8884469Z [36;1mpython research_gpt6/code/audit_script_comparanda.py --repo research_gpt6 --bundle research_gpt6/results/script_comparanda --out work/integrity.json[0m
+2026-11-04T19:41:01.8905708Z shell: /usr/bin/bash -e {0}
+2026-11-04T19:41:01.8905961Z env:
+2026-11-04T19:41:01.8906234Z   pythonLocation: /opt/hostedtoolcache/Python/3.12.14/x64
+2026-11-04T19:41:01.8906684Z   PKG_CONFIG_PATH: /opt/hostedtoolcache/Python/3.12.14/x64/lib/pkgconfig
+2026-11-04T19:41:01.8907163Z   Python_ROOT_DIR: /opt/hostedtoolcache/Python/3.12.14/x64
+2026-11-04T19:41:01.8907604Z   Python2_ROOT_DIR: /opt/hostedtoolcache/Python/3.12.14/x64
+2026-11-04T19:41:01.8907999Z   Python3_ROOT_DIR: /opt/hostedtoolcache/Python/3.12.14/x64
+2026-11-04T19:41:01.8908399Z   LD_LIBRARY_PATH: /opt/hostedtoolcache/Python/3.12.14/x64/lib
+2026-11-04T19:41:01.8908750Z ##[endgroup]
+2026-11-04T19:41:02.2874557Z {"checks": 670, "mismatch_count": 0, "status": "PASS"}
+2026-11-04T19:41:02.3055882Z ##[group]Run python research_gpt6/code/prepare_script_comparanda.py --repo research_gpt6 --bundle research_gpt6/results/script_comparanda --out work/rendered
+2026-11-04T19:41:02.3057029Z [36;1mpython research_gpt6/code/prepare_script_comparanda.py --repo research_gpt6 --bundle research_gpt6/results/script_comparanda --out work/rendered[0m
+2026-11-04T19:41:02.3057692Z [36;1mpython - <<'PY'[0m
+2026-11-04T19:41:02.3057942Z [36;1mfrom pathlib import Path[0m
+2026-11-04T19:41:02.3058208Z [36;1mfrom PIL import Image[0m
+2026-11-04T19:41:02.3058462Z [36;1mimport json[0m
+2026-11-04T19:41:02.3058739Z [36;1mb=Path('research_gpt6/results/script_comparanda')[0m
+2026-11-04T19:41:02.3059075Z [36;1mn=Path('work/rendered')[0m
+2026-11-04T19:41:02.3059440Z [36;1mfor name in ['presentation_mapping.json','render_manifest.json']:[0m
+2026-11-04T19:41:02.3059979Z [36;1m    assert json.loads((b/name).read_text())==json.loads((n/name).read_text()),name[0m
+2026-11-04T19:41:02.3060432Z [36;1mfor group in ['glyphs','blind']:[0m
+2026-11-04T19:41:02.3060750Z [36;1m    for p in (b/group).glob('*.png'):[0m
+2026-11-04T19:41:02.3061181Z [36;1m        a=Image.open(p).convert('RGB');z=Image.open(n/group/p.name).convert('RGB')[0m
+2026-11-04T19:41:02.3061717Z [36;1m        assert a.size==z.size and a.tobytes()==z.tobytes(),str(p)[0m
+2026-11-04T19:41:02.3062124Z [36;1mexpected=b/'integrity.json'[0m
+2026-11-04T19:41:02.3062505Z [36;1mif not expected.exists():expected=b/'pre_review_integrity.json'[0m
+2026-11-04T19:41:02.3063631Z [36;1massert json.loads(expected.read_text())==json.loads(Path('work/integrity.json').read_text())[0m
+2026-11-04T19:41:02.3064397Z [36;1mprint('SCRIPT_COMPARANDA_NATIVE_PIXELS_AND_RECORDED_DATA_IDENTICAL; NOT_ANOTHER_VISUAL_REVIEW_OR_TRANSLATION')[0m
+2026-11-04T19:41:02.3064950Z [36;1mPY[0m
+2026-11-04T19:41:02.3085402Z shell: /usr/bin/bash -e {0}
+2026-11-04T19:41:02.3085660Z env:
+2026-11-04T19:41:02.3085940Z   pythonLocation: /opt/hostedtoolcache/Python/3.12.14/x64
+2026-11-04T19:41:02.3086414Z   PKG_CONFIG_PATH: /opt/hostedtoolcache/Python/3.12.14/x64/lib/pkgconfig
+2026-11-04T19:41:02.3086866Z   Python_ROOT_DIR: /opt/hostedtoolcache/Python/3.12.14/x64
+2026-11-04T19:41:02.3087259Z   Python2_ROOT_DIR: /opt/hostedtoolcache/Python/3.12.14/x64
+2026-11-04T19:41:02.3087647Z   Python3_ROOT_DIR: /opt/hostedtoolcache/Python/3.12.14/x64
+2026-11-04T19:41:02.3088043Z   LD_LIBRARY_PATH: /opt/hostedtoolcache/Python/3.12.14/x64/lib
+2026-11-04T19:41:02.3088377Z ##[endgroup]
+2026-11-04T19:41:03.2918447Z {"sheets": 4, "native_samples": 16, "comparisons_per_reader": 16}
+2026-11-04T19:41:03.5085307Z SCRIPT_COMPARANDA_NATIVE_PIXELS_AND_RECORDED_DATA_IDENTICAL; NOT_ANOTHER_VISUAL_REVIEW_OR_TRANSLATION
+2026-11-04T19:41:03.5250643Z ##[group]Run actions/upload-artifact@v4
+2026-11-04T19:41:03.5250952Z with:
+2026-11-04T19:41:03.5251162Z   name: script-comparanda-replay
+2026-11-04T19:41:03.5251426Z   path: work/integrity.json
+2026-11-04T19:41:03.5251666Z   retention-days: 30
+2026-11-04T19:41:03.5251889Z   if-no-files-found: warn
+2026-11-04T19:41:03.5252117Z   compression-level: 6
+2026-11-04T19:41:03.5252333Z   overwrite: false
+2026-11-04T19:41:03.5252544Z   include-hidden-files: false
+2026-11-04T19:41:03.5252776Z env:
+2026-11-04T19:41:03.5253340Z   pythonLocation: /opt/hostedtoolcache/Python/3.12.14/x64
+2026-11-04T19:41:03.5253814Z   PKG_CONFIG_PATH: /opt/hostedtoolcache/Python/3.12.14/x64/lib/pkgconfig
+2026-11-04T19:41:03.5254251Z   Python_ROOT_DIR: /opt/hostedtoolcache/Python/3.12.14/x64
+2026-11-04T19:41:03.5254649Z   Python2_ROOT_DIR: /opt/hostedtoolcache/Python/3.12.14/x64
+2026-11-04T19:41:03.5255023Z   Python3_ROOT_DIR: /opt/hostedtoolcache/Python/3.12.14/x64
+2026-11-04T19:41:03.5255439Z   LD_LIBRARY_PATH: /opt/hostedtoolcache/Python/3.12.14/x64/lib
+2026-11-04T19:41:03.5255762Z ##[endgroup]
+2026-11-04T19:41:03.6967301Z (node:2548) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+2026-11-04T19:41:03.6968623Z (Use `node --trace-deprecation ...` to show where the warning was created)
+2026-11-04T19:41:03.7063640Z With the provided path, there will be 1 file uploaded
+2026-11-04T19:41:03.7064563Z Artifact name is valid!
+2026-11-04T19:41:03.7065038Z Root directory input is valid!
+2026-11-04T19:41:04.1346542Z Beginning upload of artifact content to blob storage
+2026-11-04T19:41:04.1544844Z (node:2548) [DEP0169] DeprecationWarning: `url.parse()` behavior is not standardized and prone to errors that have security implications. Use the WHATWG URL API instead. CVEs are not issued for `url.parse()` vulnerabilities.
+2026-11-04T19:41:04.4417671Z Uploaded bytes 2522
+2026-11-04T19:41:04.5224993Z Finished uploading artifact content to blob storage!
+2026-11-04T19:41:04.5226220Z SHA256 digest of uploaded artifact zip is be528387759f08ef48fcb5b36bfa47ba2975bdf9cefa3d77db0806f617bdb46d
+2026-11-04T19:41:04.5227040Z Finalizing artifact upload
+2026-11-04T19:41:05.0088058Z Artifact script-comparanda-replay.zip successfully finalized. Artifact ID 13357252482
+2026-11-04T19:41:05.0089542Z Artifact script-comparanda-replay has been successfully uploaded! Final size is 2522 bytes. Artifact ID is 13357252482
+2026-11-04T19:41:05.0096425Z Artifact download URL: https://github.com/MedinaParra/Voynich/actions/runs/41899233721/artifacts/13357252482
+2026-11-04T19:41:05.0287713Z Post job cleanup.
+2026-11-04T19:41:05.1522783Z (node:2560) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+2026-11-04T19:41:05.1524370Z (Use `node --trace-deprecation ...` to show where the warning was created)
+2026-11-04T19:41:05.1731206Z Post job cleanup.
+2026-11-04T19:41:05.2753616Z [command]/usr/bin/git version
+2026-11-04T19:41:05.2823870Z git version 2.56.0
+2026-11-04T19:41:05.2868970Z Temporarily overriding HOME='/home/runner/work/_temp/920cc004-9bbb-4878-92b7-a7159209e39f' before making global git config changes
+2026-11-04T19:41:05.2870518Z Adding repository directory to the temporary git global config as a safe directory
+2026-11-04T19:41:05.2878327Z [command]/usr/bin/git config --global --add safe.directory /home/runner/work/Voynich/Voynich
+2026-11-04T19:41:05.2943954Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+2026-11-04T19:41:05.2999805Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+2026-11-04T19:41:05.3386317Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+2026-11-04T19:41:05.3435135Z http.https://github.com/.extraheader
+2026-11-04T19:41:05.3469488Z [command]/usr/bin/git config --local --unset-all http.https://github.com/.extraheader
+2026-11-04T19:41:05.3513609Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+2026-11-04T19:41:05.3885354Z [command]/usr/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+2026-11-04T19:41:05.3939751Z [command]/usr/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+2026-11-04T19:41:05.4391454Z Cleaning up orphan processes
+2026-11-04T19:41:05.4777764Z ##[warning]Node.js 20 is deprecated. The following actions target Node.js 20 but are being forced to run on Node.js 24: actions/checkout@v4, actions/setup-python@v5, actions/upload-artifact@v4. For more information see: https://github.blog/changelog/2025-09-19-deprecation-of-node-20-on-github-actions-runners/

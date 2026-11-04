@@ -1,0 +1,316 @@
+{
+  "schema": "file-sha256-manifest-v1",
+  "scope": "Current script-comparanda bundle, postreview assembler, report93 and README; self excluded; frozen protocol/code hashes separately preserved by pre_review_freeze.json",
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 25728,
+      "sha256": "d753cd146d129cef7c66359ed4de6dc74b105da6587246409c5d8454c314a3ef"
+    },
+    {
+      "path": "research_gpt6/93_script_comparanda_result.md",
+      "bytes": 10294,
+      "sha256": "9294f096a267581b3aff49ca4a2dd4c737ebd214b82cf5a2f5463e9c1b85e48d"
+    },
+    {
+      "path": "research_gpt6/code/assemble_script_comparanda.py",
+      "bytes": 3777,
+      "sha256": "a5d9688d2e1aa4caa79c281e17f3d7b2f28da4497aec35ca86217b6f1dfd82d6"
+    },
+    {
+      "path": "research_gpt6/results/script_comparanda/NOTICE.md",
+      "bytes": 1630,
+      "sha256": "0371a023686edfb02a00426c7bd79e731213047bd729e6cf5a7d03a9f1496e3b"
+    },
+    {
+      "path": "research_gpt6/results/script_comparanda/acquisition_receipts.json",
+      "bytes": 2862,
+      "sha256": "3c9200825383d9ffd1d963c2c801cfdb568dd01175404c9afc82d14d1b357b34"
+    },
+    {
+      "path": "research_gpt6/results/script_comparanda/blind/P01.png",
+      "bytes": 238069,
+      "sha256": "8b719fce55c3f238795e5bae128b75a91bb0fe19b9964214219056330beb360b"
+    },
+    {
+      "path": "research_gpt6/results/script_comparanda/blind/P02.png",
+      "bytes": 262865,
+      "sha256": "8274fd19fba2adace22bd6c72260434f9f47962b1d8614ee14adb54feed27583"
+    },
+    {
+      "path": "research_gpt6/results/script_comparanda/blind/P03.png",
+      "bytes": 269514,
+      "sha256": "6f8335c02ca2ae10d6b4af48572b849f591c1d2ac64fa8819812d935dc092d1c"
+    },
+    {
+      "path": "research_gpt6/results/script_comparanda/blind/P04.png",
+      "bytes": 279000,
+      "sha256": "758281903f34716b9465d6322b7736c2485e61f6325c51e3894f96433a2d3983"
+    },
+    {
+      "path": "research_gpt6/results/script_comparanda/blind_packet.json",
+      "bytes": 1105,
+      "sha256": "55c442681fa1be39a1ce15167351a158dc29701a37fcec04ee29e64573d63b0e"
+    },
+    {
+      "path": "research_gpt6/results/script_comparanda/ci_initial.log",
+      "bytes": 22831,
+      "sha256": "79d5c7b45d46e729d3daa858154421f711fc2603e2c23b1ec5c34f09cd0c35eb"
+    },
+    {
+      "path": "research_gpt6/results/script_comparanda/ci_initial_receipt.json",
+      "bytes": 566,
+      "sha256": "7642c9106d6e301cd478555b4263360bbacfcaf3492d4b3e425441e0685e7f62"
+    },
+    {
+      "path": "research_gpt6/results/script_comparanda/fontana_control/NOTICE.md",
+      "bytes": 932,
+      "sha256": "4daf218e3e7a40f600588bf8951533b3f1e3500682b7133c6b084710b5279d3f"
+    },
+    {
+      "path": "research_gpt6/results/script_comparanda/fontana_control/fontana_control_alignment_candidate.json",
+      "bytes": 2629,
+      "sha256": "b8a4b9f640e4a2fc69ced9b0084ae8fff547ae432a892f5ca4ecbf3cc6239152"
+    },
+    {
+      "path": "research_gpt6/results/script_comparanda/fontana_control/fontana_original_1v_candidate.png",
+      "bytes": 30371,
+      "sha256": "57c9757c202a947242dab78a686d6397544b85514a1dc5a3282c3bd83b0a159b"
+    },
+    {
+      "path": "research_gpt6/results/script_comparanda/fontana_control/fontana_schulte1910_page1_candidate.png",
+      "bytes": 11730,
+      "sha256": "ccb4ec740b3d4fa18137b5eaaa55361d3e9562765e0656a513dacaf692add9d6"
+    },
+    {
+      "path": "research_gpt6/results/script_comparanda/fontana_control/omont1897_key_reference.json",
+      "bytes": 2027,
+      "sha256": "04bdb151255b9deb16411ef1c3c5f44e9d4f0a19e764c1009f2151f6d170905c"
+    },
+    {
+      "path": "research_gpt6/results/script_comparanda/fontana_control/omont1897_p254.jpg",
+      "bytes": 613385,
+      "sha256": "4fd6469d95c3ef2dae54f6375c9329acd3142ced8002c6dd1f53c88233a0b77d"
+    },
+    {
+      "path": "research_gpt6/results/script_comparanda/fontana_control/omont1897_p254_key.png",
+      "bytes": 229193,
+      "sha256": "68ae2ad20a79263a46c64710021635258c0999bb5a02c32ccc8cdb84aee24586"
+    },
+    {
+      "path": "research_gpt6/results/script_comparanda/glyphs/F_L.png",
+      "bytes": 7859,
+      "sha256": "1843e2f38b2271220e3aeecbdc2fcc2083a9221f49a5cecd47f8f992a5d40a30"
+    },
+    {
+      "path": "research_gpt6/results/script_comparanda/glyphs/F_M.png",
+      "bytes": 10197,
+      "sha256": "b35702ccda80a9352a8bdaaf15f89fbaf5b7a1f9a17a15142185a3c358961cb6"
+    },
+    {
+      "path": "research_gpt6/results/script_comparanda/glyphs/F_O.png",
+      "bytes": 5945,
+      "sha256": "52fa207fa2bf5789d9b538a072f07f31b5d337ca8f50459dddf5b708a8093f21"
+    },
+    {
+      "path": "research_gpt6/results/script_comparanda/glyphs/F_T.png",
+      "bytes": 10146,
+      "sha256": "25b8b44c448f9a080b52325dae3329eb227942bc757eee1251da5e041b4e0372"
+    },
+    {
+      "path": "research_gpt6/results/script_comparanda/glyphs/H_L.png",
+      "bytes": 30470,
+      "sha256": "ca108dfb41a8740d9d6c4993a4f8972bb8da28500a86cee35d403379b757b95e"
+    },
+    {
+      "path": "research_gpt6/results/script_comparanda/glyphs/H_M.png",
+      "bytes": 34808,
+      "sha256": "563716fb2848510a66c5c150601abc6615cc1ed1994aaad2d7572c43060a9280"
+    },
+    {
+      "path": "research_gpt6/results/script_comparanda/glyphs/H_O.png",
+      "bytes": 30826,
+      "sha256": "0c56e5bcff7c0887b9e2cffed131070fa759bdc939eaa99c5864cccc37534784"
+    },
+    {
+      "path": "research_gpt6/results/script_comparanda/glyphs/H_T.png",
+      "bytes": 52644,
+      "sha256": "909de992459036aff7872b65d7c81916394900d6893c125565e07f0c01817f73"
+    },
+    {
+      "path": "research_gpt6/results/script_comparanda/glyphs/V_L1.png",
+      "bytes": 14170,
+      "sha256": "46548a7aa1971e2f9f2a3433d75649169fd9306226496483ebca72cdb276a59b"
+    },
+    {
+      "path": "research_gpt6/results/script_comparanda/glyphs/V_L2.png",
+      "bytes": 12019,
+      "sha256": "a975e20e63a915faadd33373fbc8cf690db919242e5028763c2ffed014b3a52c"
+    },
+    {
+      "path": "research_gpt6/results/script_comparanda/glyphs/V_M1.png",
+      "bytes": 15271,
+      "sha256": "fb7bafd3d20264600733d0ddce7befaa52377c02a611847d88335ead2c093c26"
+    },
+    {
+      "path": "research_gpt6/results/script_comparanda/glyphs/V_M2.png",
+      "bytes": 15379,
+      "sha256": "faceea3a3765e21d46b74494a0ae37e527dd11a425fbe97c13072a4625104b21"
+    },
+    {
+      "path": "research_gpt6/results/script_comparanda/glyphs/V_O1.png",
+      "bytes": 6345,
+      "sha256": "9f4e5e7df196b798db90efada53bf1ee3aa9aeae774974328ce9ee2fe1cb0d9f"
+    },
+    {
+      "path": "research_gpt6/results/script_comparanda/glyphs/V_O2.png",
+      "bytes": 6125,
+      "sha256": "a34d07163a37070469f0ca132efb2f409c890e9d7c6ced9f298fd5e0c00416e3"
+    },
+    {
+      "path": "research_gpt6/results/script_comparanda/glyphs/V_T1.png",
+      "bytes": 22668,
+      "sha256": "7745c440f21558910598a31cc0ce5b925bde38961bf16179ba974baeaf6eafdb"
+    },
+    {
+      "path": "research_gpt6/results/script_comparanda/glyphs/V_T2.png",
+      "bytes": 27479,
+      "sha256": "e0d70242cda6ca0ef13ea9fb5f14660d78562d4219c7abdf6b4454de1e789ac3"
+    },
+    {
+      "path": "research_gpt6/results/script_comparanda/identified_atlas.png",
+      "bytes": 247399,
+      "sha256": "ec004fcb53324bc414b5751f7340cb5d8dd80fbde78dc3c7a445045f95c59f4b"
+    },
+    {
+      "path": "research_gpt6/results/script_comparanda/integrity.json",
+      "bytes": 6742,
+      "sha256": "8b9460677e0f4ff00d992009c4c4b471dfef59184d8b7619e43401850172a815"
+    },
+    {
+      "path": "research_gpt6/results/script_comparanda/pre_review_freeze.json",
+      "bytes": 7281,
+      "sha256": "c047574a9ed89a6b666f06087f1a33356ef5c9104ba4e2ded99e81d4628010a4"
+    },
+    {
+      "path": "research_gpt6/results/script_comparanda/pre_review_integrity.json",
+      "bytes": 4934,
+      "sha256": "377961ca736591bd75ae47330674dc27d5a6e87c64fb5b6c84a6deefb7e68cad"
+    },
+    {
+      "path": "research_gpt6/results/script_comparanda/presentation_mapping.json",
+      "bytes": 1952,
+      "sha256": "81fed25b2afb4bc9b600131028925ec700ae94e9b82f5389d244dc4f5f31b8f9"
+    },
+    {
+      "path": "research_gpt6/results/script_comparanda/provenance.json",
+      "bytes": 1086,
+      "sha256": "034c0689dcbb476c2dc8dc813390cfacb20eb3b522cc8fa8e002d5474466a237"
+    },
+    {
+      "path": "research_gpt6/results/script_comparanda/regions.json",
+      "bytes": 11989,
+      "sha256": "d0534dc6f7e3cff93c1bfda9bab1ad3edd08b4b9237e808133ee799803c2b528"
+    },
+    {
+      "path": "research_gpt6/results/script_comparanda/render_manifest.json",
+      "bytes": 11064,
+      "sha256": "db5afc770a1a7bd6dacbd8a38e629722511b1f2a607eae3d47264a73ac2ea6d3"
+    },
+    {
+      "path": "research_gpt6/results/script_comparanda/reviews/a.json",
+      "bytes": 9221,
+      "sha256": "5eb513c6884546faa45f8e6cd80a8d6a6c2df9d824de1f5b901eb82ce02565f3"
+    },
+    {
+      "path": "research_gpt6/results/script_comparanda/reviews/b.json",
+      "bytes": 8947,
+      "sha256": "bfe66a19b77e2ee95f9456ad444816d32ffd0d1d5ec3c794125f2d6fedabbf2f"
+    },
+    {
+      "path": "research_gpt6/results/script_comparanda/source_tiles/F_L.png",
+      "bytes": 43875,
+      "sha256": "9151dd7f20903bbcfa1ec4fd35f8f13a4cae27ea520a2ac58b20e8fa030afe15"
+    },
+    {
+      "path": "research_gpt6/results/script_comparanda/source_tiles/F_M.png",
+      "bytes": 71191,
+      "sha256": "1b5383483e28c58721d20310af49d05eea97f4dcda488d25d0481301eaf7c22e"
+    },
+    {
+      "path": "research_gpt6/results/script_comparanda/source_tiles/F_O.png",
+      "bytes": 29818,
+      "sha256": "594350a6e1a11603431c7180eaa9d7936a4a6e1855ba3360416231c69f2411c1"
+    },
+    {
+      "path": "research_gpt6/results/script_comparanda/source_tiles/F_T.png",
+      "bytes": 89909,
+      "sha256": "44728c3d1c5a06471f0f1f49dfd1ab992dd750b0e9a578cb723a16e4c79e24b6"
+    },
+    {
+      "path": "research_gpt6/results/script_comparanda/source_tiles/H_L.png",
+      "bytes": 254839,
+      "sha256": "eaeccf46633e122da537a56af8f0cb452d738d983f80160543940795e2fe81f4"
+    },
+    {
+      "path": "research_gpt6/results/script_comparanda/source_tiles/H_M.png",
+      "bytes": 145726,
+      "sha256": "26dcf9226661b08210d3b3bd7ee2a545523d385ba31858dee5034f314f33e413"
+    },
+    {
+      "path": "research_gpt6/results/script_comparanda/source_tiles/H_O.png",
+      "bytes": 224028,
+      "sha256": "23906d91af2f8b71b00e3ce5476395dbb7d58d44890433c1162552cc0860b3b7"
+    },
+    {
+      "path": "research_gpt6/results/script_comparanda/source_tiles/H_T.png",
+      "bytes": 278967,
+      "sha256": "0a2a59bace30706289722d442a178b998108f69f6f501f4bb069e7f64d43f8d1"
+    },
+    {
+      "path": "research_gpt6/results/script_comparanda/source_tiles/V_L1.png",
+      "bytes": 78221,
+      "sha256": "7eb107fba25dc573f6f8ed6f3dc481244b87e9fde6be7a858e590c665adfe7ec"
+    },
+    {
+      "path": "research_gpt6/results/script_comparanda/source_tiles/V_L2.png",
+      "bytes": 60311,
+      "sha256": "e566aae77d2dd9f44e33bce1efb5d34bab408e4660107b5d1f5937d78049b8fe"
+    },
+    {
+      "path": "research_gpt6/results/script_comparanda/source_tiles/V_M1.png",
+      "bytes": 79790,
+      "sha256": "d8ae3aac4bdedd97457c932890c7d8544df2f8f72a6245ae4669b359860b7827"
+    },
+    {
+      "path": "research_gpt6/results/script_comparanda/source_tiles/V_M2.png",
+      "bytes": 80238,
+      "sha256": "e5f197538b52ab028611312199937bab003c51e13ac1c356f6cd66209f9b65a1"
+    },
+    {
+      "path": "research_gpt6/results/script_comparanda/source_tiles/V_O1.png",
+      "bytes": 22074,
+      "sha256": "19188c479f1dfcf13f401e822aa093ea1b27dd49b17dadf93f82708c320bf284"
+    },
+    {
+      "path": "research_gpt6/results/script_comparanda/source_tiles/V_O2.png",
+      "bytes": 22834,
+      "sha256": "c2a1d3b7dd12c6ff924f7396f67371e7022e1e25fee48b263685bfb2eb8c1cf0"
+    },
+    {
+      "path": "research_gpt6/results/script_comparanda/source_tiles/V_T1.png",
+      "bytes": 147972,
+      "sha256": "37e32b3e8bfd79a16b9c69a8b72682d6f955cf4d529cd4e0e9b7dc8ab28bc9a4"
+    },
+    {
+      "path": "research_gpt6/results/script_comparanda/source_tiles/V_T2.png",
+      "bytes": 167091,
+      "sha256": "b6794eb160d94e4a3979410a780578e338b0a7ad653da84b6ec977e9ccfaeb58"
+    },
+    {
+      "path": "research_gpt6/results/script_comparanda/summary.json",
+      "bytes": 4584,
+      "sha256": "c091056123fa615934fa370ef78114ca12fe5f290bfdd4e272696d116c21a854"
+    }
+  ]
+}

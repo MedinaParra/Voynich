@@ -1,0 +1,27 @@
+{
+  "schema": "script-comparanda-provenance-v1",
+  "date": "2026-11-04",
+  "branch": "experiment/kraken-voynich",
+  "base_commit": "e7c404f0f880d540ec3f175bc72fcff470c40306",
+  "protocol_commit": "dac160edb48c395b8b66016b37dcbcc394e4105e",
+  "pre_review_freeze_commit": "b01c94971722fd549a97eacbedf85bdde082648f",
+  "pre_review_frozen_file_count": 47,
+  "readers": [
+    "two separate source-label-hidden AI reader contexts; same underlying system, no human-expert gold"
+  ],
+  "judgments": 32,
+  "exact_label_agreement": "14/16 comparisons",
+  "postreview_audit": {
+    "status": "PASS",
+    "checks": 827,
+    "mismatches": 0,
+    "scope": "Geometry, pixels and recorded-label consistency; not historical authentication or expert accuracy"
+  },
+  "initial_ci_run": 41899233721,
+  "initial_ci_conclusion": "success",
+  "postreview_ci_status": "PENDING",
+  "fontana_BSB_reading_control": "CONTROL_BLOCKED_EXPERT_ALIGNMENT_REQUIRED",
+  "fontana_NAL635_documentary_reference": "PRINTED_KEY_AVAILABLE_FOR_NAL635",
+  "kraken_training": "NOT_RUN",
+  "voynich_translation_validated": false
+}
