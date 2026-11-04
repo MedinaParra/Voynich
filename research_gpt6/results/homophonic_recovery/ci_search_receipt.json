@@ -1,0 +1,94 @@
+{
+  "run_id": 41887651597,
+  "head_sha": "941d846e9da5dfe2ed6e8d33842c5c83da0cf2e2",
+  "status": "completed",
+  "conclusion": "success",
+  "url": "https://github.com/MedinaParra/Voynich/actions/runs/41887651597",
+  "job_id": 126776331426,
+  "steps": [
+    {
+      "name": "Set up job",
+      "status": "completed",
+      "conclusion": "success",
+      "number": 1
+    },
+    {
+      "name": "Run actions/checkout@v4",
+      "status": "completed",
+      "conclusion": "success",
+      "number": 2
+    },
+    {
+      "name": "Run actions/setup-python@v5",
+      "status": "completed",
+      "conclusion": "success",
+      "number": 3
+    },
+    {
+      "name": "Run python -m pip install numpy==2.3.5",
+      "status": "completed",
+      "conclusion": "success",
+      "number": 4
+    },
+    {
+      "name": "Compile fixed solvers and check objective deltas",
+      "status": "completed",
+      "conclusion": "success",
+      "number": 5
+    },
+    {
+      "name": "Search public cases without reveal inputs",
+      "status": "completed",
+      "conclusion": "success",
+      "number": 6
+    },
+    {
+      "name": "Run actions/upload-artifact@v4",
+      "status": "completed",
+      "conclusion": "success",
+      "number": 7
+    },
+    {
+      "name": "Post Run actions/setup-python@v5",
+      "status": "completed",
+      "conclusion": "success",
+      "number": 13
+    },
+    {
+      "name": "Post Run actions/checkout@v4",
+      "status": "completed",
+      "conclusion": "success",
+      "number": 14
+    },
+    {
+      "name": "Complete job",
+      "status": "completed",
+      "conclusion": "success",
+      "number": 15
+    }
+  ],
+  "outputs": {
+    "head_sha": "941d846e9da5dfe2ed6e8d33842c5c83da0cf2e2",
+    "config_git_blob": "19e4eac0fa0b28150bd9a132385f32b14fcf3213",
+    "public_manifest_git_blob": "73f5806bb5d11e3af8691756ddf12842ce87acf0",
+    "source_freeze_git_blob": "afe878a83ca863eb60d09f7943ec129466136338",
+    "predictions_git_blob": "9fb0f2f81d0b70968ea65426dbe2eb6fd1369a8e",
+    "predictions_sha256": "94911e8f3c41589d05fb77d0329ca6498b93a2acebe9382d38e23e03a05e8bc6",
+    "execution_git_blob": "b2eb8e2b7933e88a4413d191f5bdab28ca6eb7b1",
+    "execution_sha256": "49767f7198b16a6aece08081ca82a69333c14e6b84bc55aafffb74a4dffe68c3",
+    "unique_searches": 18,
+    "annealing_proposals": 7200000
+  },
+  "mathematical_delta_checks": 2079,
+  "independent_controls": 15,
+  "artifact_metadata": [
+    {
+      "id": 13350903994,
+      "name": "homophonic-search-before-reveal",
+      "size_in_bytes": 16612,
+      "digest": "sha256:6e0485f05c8fa162b602185d76aa32c61729391ebf27c091e328b2cd17721b56"
+    }
+  ],
+  "archive_method": "JSON records reconstructed from decoded GitHub job-log chunks; created Git blobs must equal CI-declared Git blob hashes. ZIP digest is metadata only, archive binary was not downloaded.",
+  "scope": "18 fixed public-input searches before revealing new controls; not a Voynich translation."
+}

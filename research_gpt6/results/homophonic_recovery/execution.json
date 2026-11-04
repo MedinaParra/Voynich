@@ -1,0 +1,140 @@
+{
+  "python": "3.12.14",
+  "numpy": "2.3.5",
+  "runs": [
+    {
+      "model": "bijective",
+      "id": "U01",
+      "seconds": 1.5420309000000003,
+      "annealing_proposals": 400000,
+      "polish_pair_checks": 2925
+    },
+    {
+      "model": "bijective",
+      "id": "U02",
+      "seconds": 1.4801250249999995,
+      "annealing_proposals": 400000,
+      "polish_pair_checks": 2600
+    },
+    {
+      "model": "bijective",
+      "id": "U03",
+      "seconds": 1.0186588239999992,
+      "annealing_proposals": 400000,
+      "polish_pair_checks": 2600
+    },
+    {
+      "model": "bijective",
+      "id": "U04",
+      "seconds": 1.012771377,
+      "annealing_proposals": 400000,
+      "polish_pair_checks": 2600
+    },
+    {
+      "model": "bijective",
+      "id": "U05",
+      "seconds": 1.0795999179999995,
+      "annealing_proposals": 400000,
+      "polish_pair_checks": 2600
+    },
+    {
+      "model": "bijective",
+      "id": "U06",
+      "seconds": 1.3583051929999996,
+      "annealing_proposals": 400000,
+      "polish_pair_checks": 2600
+    },
+    {
+      "model": "bijective",
+      "id": "U07",
+      "seconds": 1.5183673979999952,
+      "annealing_proposals": 400000,
+      "polish_pair_checks": 2600
+    },
+    {
+      "model": "bijective",
+      "id": "U08",
+      "seconds": 1.3436654869999956,
+      "annealing_proposals": 400000,
+      "polish_pair_checks": 2925
+    },
+    {
+      "model": "bijective",
+      "id": "U09",
+      "seconds": 1.304010495,
+      "annealing_proposals": 400000,
+      "polish_pair_checks": 2600
+    },
+    {
+      "model": "many_to_one",
+      "id": "U01",
+      "seconds": 0.9047930980000061,
+      "annealing_proposals": 400000,
+      "polish_pair_checks": 7800
+    },
+    {
+      "model": "many_to_one",
+      "id": "U02",
+      "seconds": 0.8770380349999911,
+      "annealing_proposals": 400000,
+      "polish_pair_checks": 7800
+    },
+    {
+      "model": "many_to_one",
+      "id": "U03",
+      "seconds": 0.5723027829999978,
+      "annealing_proposals": 400000,
+      "polish_pair_checks": 7800
+    },
+    {
+      "model": "many_to_one",
+      "id": "U04",
+      "seconds": 0.5429010229999989,
+      "annealing_proposals": 400000,
+      "polish_pair_checks": 7800
+    },
+    {
+      "model": "many_to_one",
+      "id": "U05",
+      "seconds": 0.6144482769999939,
+      "annealing_proposals": 400000,
+      "polish_pair_checks": 8775
+    },
+    {
+      "model": "many_to_one",
+      "id": "U06",
+      "seconds": 0.7132982719999887,
+      "annealing_proposals": 400000,
+      "polish_pair_checks": 7800
+    },
+    {
+      "model": "many_to_one",
+      "id": "U07",
+      "seconds": 0.8757287140000045,
+      "annealing_proposals": 400000,
+      "polish_pair_checks": 9750
+    },
+    {
+      "model": "many_to_one",
+      "id": "U08",
+      "seconds": 0.7237295019999976,
+      "annealing_proposals": 400000,
+      "polish_pair_checks": 12675
+    },
+    {
+      "model": "many_to_one",
+      "id": "U09",
+      "seconds": 0.7338664859999966,
+      "annealing_proposals": 400000,
+      "polish_pair_checks": 9750
+    }
+  ],
+  "binaries": {
+    "bijective": "55396ca707706833c5d8c97dcf645d99326f5c73a0fa344e93e0f6b1bfda0b0e",
+    "many_to_one": "aaddb25427358e87e0d2730428a09c6e7076fd15a37b22d1bf30a7276e791ee7"
+  },
+  "seconds": 18.222499178000007,
+  "unique_searches": 18,
+  "annealing_proposals": 7200000,
+  "polish_pair_checks": 104000
+}
