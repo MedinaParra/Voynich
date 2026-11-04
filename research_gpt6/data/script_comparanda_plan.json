@@ -1,0 +1,98 @@
+{
+  "schema": "script-comparanda-plan-v1",
+  "date": "2026-11-04",
+  "stage": 92,
+  "base_commit": "e7c404f0f880d540ec3f175bc72fcff470c40306",
+  "objective": "Exploratory visual comparison of specified glyph forms across real manuscripts; no phonetic, linguistic or author attribution.",
+  "sources": [
+    {
+      "id": "V",
+      "shelfmark": "Yale Beinecke MS408",
+      "folio": "3r",
+      "image": "research_gpt6/results/assisted_paleography/sources/f3r_native.jpg",
+      "url": "https://collections.library.yale.edu/iiif/2/1006080/full/full/0/default.jpg",
+      "sha256": "6ea4d4023a3b199463eee9e30508726a9314391f05a613bce3f87ae8d23fd151",
+      "delivered_pixels": [
+        2691,
+        3770
+      ]
+    },
+    {
+      "id": "H",
+      "shelfmark": "Huntington HM58316",
+      "folio": "1r",
+      "url": "https://hdl.huntington.org/iiif/2/p15150coll7:53293/full/full/0/default.jpg",
+      "sha256": "457a663f60772bdc8c7f1527d9843a6be4155ca163afd8232d969a101a12f4fb",
+      "delivered_pixels": [
+        9375,
+        9342
+      ],
+      "metadata_pixels": [
+        9000,
+        8968
+      ],
+      "coordinate_frame": "Actual decoded delivered JPEG, not conflicting IIIF info dimensions"
+    },
+    {
+      "id": "F",
+      "shelfmark": "BSB Cod.icon.242",
+      "folio": "1r",
+      "url": "https://api.digitale-sammlungen.de/iiif/image/v3/bsb00013084_00006/full/max/0/default.jpg",
+      "sha256": "fe1dd4371d52d1e7ab1b3b2fd8b13246fc04e306e665a7e5ffabf28ea99831cc",
+      "delivered_pixels": [
+        3822,
+        4240
+      ]
+    }
+  ],
+  "families": [
+    "closed oval",
+    "loop with descending or trailing stroke",
+    "sequence of minims",
+    "tall form with cross-stroke"
+  ],
+  "sample": {
+    "query_glyphs": 4,
+    "second_Voynich_examples": 4,
+    "external_candidates_per_query": 2,
+    "distractors_per_query": 1,
+    "total_pair_judgments_per_reader": 16,
+    "readers": 2
+  },
+  "selection": "Principal assistant manually selects legible glyph ROIs within declared source regions, seeking candidate component resemblances. Exploratory purposive sampling, not random/exhaustive or an unbiased similarity estimate. Glyph boxes and context frozen before reader judgements.",
+  "roles": [
+    "second Voynich candidate of the proposed same visual family, not human-validated gold",
+    "Huntington candidate",
+    "Fontana candidate",
+    "different-family Voynich distractor"
+  ],
+  "image_policy": "Retain native RGB ROI and context; common display height, aspect ratio preserved, nearest-neighbor scaling; no rotation, mirror, cleanup, dewarping or inpainting.",
+  "review": {
+    "source_labels_hidden": true,
+    "enforced_blinding": false,
+    "reason": "Handwriting and colour can reveal origins; principal assistant selected the examples; AI reviews not human palaeographic validation",
+    "labels": [
+      "strong",
+      "partial",
+      "different",
+      "insufficient"
+    ],
+    "required": [
+      "shared visual features",
+      "differences and uncertainty"
+    ],
+    "forbidden_inference": "No assigning letter values, sounds, language, meaning or common author from resemblance."
+  },
+  "outputs": [
+    "source acquisition metadata",
+    "lossless source tiles and glyph/context ROIs",
+    "frozen randomized presentation mapping and sheets",
+    "two independently produced AI review records",
+    "descriptive agreement, disagreement and limitations",
+    "offline deterministic crop/panel replay"
+  ],
+  "statistical_scope": "No p-values, no accuracy against expert gold, no claim of a related alphabet from selected examples.",
+  "Fontana_reading_control": "Verify original and1910 transcription provenance; no glyph-to-Latin mapping asserted without a checked alignment. This visual pilot is distinct from a held-out decipherment trial.",
+  "translation": "NOT_RUN",
+  "Kraken_training": "NOT_RUN"
+}
