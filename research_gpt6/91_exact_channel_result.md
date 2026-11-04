@@ -105,7 +105,7 @@ python research_gpt6/code/audit_exact_tiny_channel.py \
   --repo research_gpt6 --bundle work/tiny_channel --out work/tiny_channel/audit.json
 ```
 
-La comparación posterior desde un checkout limpio de los resultados preservados se registrará cuando termine. Se comparan los bytes JSON descomprimidos de las dos tablas gzip y los bytes de los demás JSON; no se requiere que distintas versiones de zlib produzcan el mismo contenedor comprimido.
+La [reproducción desde un checkout limpio](https://github.com/MedinaParra/Voynich/actions/runs/41892387013) pasó sobre el commit `cee5290511f19fdd70e21dbd49856e3c179428f5`: se recalcularon todas las tablas, decisiones y controles y se repitió la auditoría, coincidiendo con los cinco registros preservados. La condición prevista compara JSON descomprimido para las tablas gzip y bytes para los demás JSON; en esta ejecución coincidieron también los contenedores comprimidos completos. Se descargó el ZIP de Actions, se verificó su SHA256 `c1cd891b807e80641456c12978b35f2bceaef7532d2a55fc5b7816a61cf35651` y se contrastaron sus cinco miembros. Se conservan el [recibo](results/exact_tiny_channel/ci_replay_receipt.json), ZIP y log. Esta reproducción informática no es otro experimento independiente.
 
 ## Qué habilita y qué sigue pendiente
 

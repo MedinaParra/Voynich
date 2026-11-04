@@ -16,6 +16,21 @@
       "sha256": "ae1b99f1842a9e44339d042709d8df7f8656707452e40de55ea019968249951a"
     },
     {
+      "bytes": 22328,
+      "path": "ci_replay.log",
+      "sha256": "0e63293fbdc73f738573ccdc97df7891bc0c6c9e7ad45dd0e9c521383ee37cbf"
+    },
+    {
+      "bytes": 262263,
+      "path": "ci_replay.zip",
+      "sha256": "c1cd891b807e80641456c12978b35f2bceaef7532d2a55fc5b7816a61cf35651"
+    },
+    {
+      "bytes": 3315,
+      "path": "ci_replay_receipt.json",
+      "sha256": "8ae701531920c52b02ad2f2eeae0b4c1ce8232f29d200592342d1603261ba631"
+    },
+    {
       "bytes": 1635,
       "path": "controls.json",
       "sha256": "175ed5235604552e4dd192e1bba631838ca1776e0f77364492dc4e8a52ade5df"
@@ -31,9 +46,9 @@
       "sha256": "e040642eb56613d8a78cf775ec556c4fcd93ff23762d19d9cb6e2496d0d21eea"
     },
     {
-      "bytes": 906,
+      "bytes": 1142,
       "path": "provenance.json",
-      "sha256": "63f43be910e9e11aff01e202c0c49d4bf34fa89312e727551453a9dd22286973"
+      "sha256": "8878d5fc6299d9bd9ccf5c0913d341390772d67f32cb729b4edc49577c491581"
     },
     {
       "bytes": 3781,

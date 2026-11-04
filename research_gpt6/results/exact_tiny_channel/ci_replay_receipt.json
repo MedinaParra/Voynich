@@ -1,0 +1,112 @@
+{
+  "actual_download_sha256": "c1cd891b807e80641456c12978b35f2bceaef7532d2a55fc5b7816a61cf35651",
+  "artifact": {
+    "digest": "sha256:c1cd891b807e80641456c12978b35f2bceaef7532d2a55fc5b7816a61cf35651",
+    "id": 13353912504,
+    "name": "exact-tiny-channel-calibration",
+    "size": 262263
+  },
+  "job_id": 126792910100,
+  "records": [
+    {
+      "canonical_sha256": "1cbb26e159e2602e8baef86e3e23c37e951f0c028f15edcb45a3b17490120d8e",
+      "compressed_bytes_also_identical": true,
+      "member": "audit.json",
+      "preserved_content_identical": true
+    },
+    {
+      "canonical_sha256": "313f2d7b9d145d8bfb0e7934b398c58a28309d8d0b24cc4c02a2303f2a1d288f",
+      "compressed_bytes_also_identical": true,
+      "member": "decisions.json.gz",
+      "preserved_content_identical": true
+    },
+    {
+      "canonical_sha256": "175ed5235604552e4dd192e1bba631838ca1776e0f77364492dc4e8a52ade5df",
+      "compressed_bytes_also_identical": true,
+      "member": "controls.json",
+      "preserved_content_identical": true
+    },
+    {
+      "canonical_sha256": "22e109c642cef932e8e31aa3c271f018cba8153cb6c76bb1ce561339074ca0ec",
+      "compressed_bytes_also_identical": true,
+      "member": "likelihoods.json.gz",
+      "preserved_content_identical": true
+    },
+    {
+      "canonical_sha256": "5103354d1d7d3ed3ce04279bf547782a09f8403de2e617ca1e1599b96eab020c",
+      "compressed_bytes_also_identical": true,
+      "member": "result.json",
+      "preserved_content_identical": true
+    }
+  ],
+  "run": {
+    "conclusion": "success",
+    "head_sha": "cee5290511f19fdd70e21dbd49856e3c179428f5",
+    "id": 41892387013,
+    "url": "https://github.com/MedinaParra/Voynich/actions/runs/41892387013"
+  },
+  "scope": "Clean-checkout computation and preserved-record comparison; compressed tables compared after decompression. A mathematical reproduction, not a historical decipherment trial.",
+  "steps": [
+    {
+      "conclusion": "success",
+      "name": "Set up job",
+      "number": 1,
+      "status": "completed"
+    },
+    {
+      "conclusion": "success",
+      "name": "Run actions/checkout@v4",
+      "number": 2,
+      "status": "completed"
+    },
+    {
+      "conclusion": "success",
+      "name": "Run actions/setup-python@v5",
+      "number": 3,
+      "status": "completed"
+    },
+    {
+      "conclusion": "success",
+      "name": "Verify frozen sources",
+      "number": 4,
+      "status": "completed"
+    },
+    {
+      "conclusion": "success",
+      "name": "Enumerate fixed model and independently generate all emissions",
+      "number": 5,
+      "status": "completed"
+    },
+    {
+      "conclusion": "success",
+      "name": "Compare all preserved records when available",
+      "number": 6,
+      "status": "completed"
+    },
+    {
+      "conclusion": "success",
+      "name": "Run actions/upload-artifact@v4",
+      "number": 7,
+      "status": "completed"
+    },
+    {
+      "conclusion": "success",
+      "name": "Post Run actions/setup-python@v5",
+      "number": 13,
+      "status": "completed"
+    },
+    {
+      "conclusion": "success",
+      "name": "Post Run actions/checkout@v4",
+      "number": 14,
+      "status": "completed"
+    },
+    {
+      "conclusion": "success",
+      "name": "Complete job",
+      "number": 15,
+      "status": "completed"
+    }
+  ],
+  "zip_digest_verified": true
+}
