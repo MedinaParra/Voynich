@@ -1,0 +1,74 @@
+{
+  "schema": "homophonic-source-freeze-v1",
+  "config_git_blob": "19e4eac0fa0b28150bd9a132385f32b14fcf3213",
+  "protocol_commit": "4a08ab48386964dc0a031855952bcda0bd80dabf",
+  "model_source_commit": "960254605ab910ed90af8d3a8cc7278bbb202185",
+  "files": [
+    {
+      "path": "code/audit_homophonic_recovery.py",
+      "git_blob": "57cc2ff869735278533e19915e99475415956da9"
+    },
+    {
+      "path": "code/evaluate_mapping_freedom_packet.py",
+      "git_blob": "7030bc309fde0083d57fe37e9c710953c46bf421"
+    },
+    {
+      "path": "code/homophonic_solver.cpp",
+      "git_blob": "bb3ff8539920812ad51bf095ac9285fdfb8887d7"
+    },
+    {
+      "path": "code/known_substitution_solver.cpp",
+      "git_blob": "f2e828ead55334862358a123cee2d8c0443be681"
+    },
+    {
+      "path": "code/prepare_mapping_freedom_packet.js",
+      "git_blob": "871901c3c5177d648c41da3ee47ae75f2b5335f3"
+    },
+    {
+      "path": "code/prepare_mapping_freedom_packet.py",
+      "git_blob": "793b7578dbfa46566313cf41e5515c15271f1f5b"
+    },
+    {
+      "path": "code/run_homophonic_recovery.py",
+      "git_blob": "f990e5a693bc9df4c13330c10341be71dbf004b6"
+    },
+    {
+      "path": "data/homophonic_recovery_plan.json",
+      "git_blob": "19e4eac0fa0b28150bd9a132385f32b14fcf3213"
+    },
+    {
+      "path": "results/homophonic_recovery/public/ciphertexts.json",
+      "git_blob": "6f234101a7f23151535df3d3529ff3cb64554205"
+    },
+    {
+      "path": "results/homophonic_recovery/public/manifest.json",
+      "git_blob": "73f5806bb5d11e3af8691756ddf12842ce87acf0"
+    },
+    {
+      "path": "results/known_cipher_recovery/model/accept_u64.bin",
+      "git_blob": "b5a5055793521b8020d4c358210148537173819d"
+    },
+    {
+      "path": "results/known_cipher_recovery/model/lm_int32.bin",
+      "git_blob": "c476febf0a4508a3a261d659d4019857110884d2"
+    },
+    {
+      "path": "results/known_cipher_recovery/model/model.json",
+      "git_blob": "9d734c6560d2d55ca236d5d2dad90d45c9ca4288"
+    },
+    {
+      "path": "results/known_cipher_recovery/model/plain_frequency_rank.txt",
+      "git_blob": "027b75946e3b24eb79dcab07b8aba24c5b77ecf7"
+    },
+    {
+      "path": "results/known_cipher_recovery/model/temperatures_i32.bin",
+      "git_blob": "717666291824a44b7dc7bf8a17f89edd740dbb26"
+    }
+  ],
+  "workflow_git_blob": "9749ef79e580c294c2c0d7153e0bb29e54850a08",
+  "preparer_source_commitments": {
+    "latin_bundle_git_blob": "78cac8d327438695cd226a62529ad7ac078f59d1",
+    "prior_revealed_truth_git_blob": "d19cc5cdcc5bba1976ba05e61bccfcddbea5739a"
+  },
+  "scope": "Public code, fixed model, plan and opaque public packet committed before any search. New truth and seed are excluded."
+}
