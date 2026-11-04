@@ -1,0 +1,15 @@
+{
+  "schema": "homophonic-prediction-freeze-v1",
+  "public_manifest_git_blob": "73f5806bb5d11e3af8691756ddf12842ce87acf0",
+  "predictions_git_blob": "9fb0f2f81d0b70968ea65426dbe2eb6fd1369a8e",
+  "prediction_sha256": "94911e8f3c41589d05fb77d0329ca6498b93a2acebe9382d38e23e03a05e8bc6",
+  "config_git_blob": "19e4eac0fa0b28150bd9a132385f32b14fcf3213",
+  "source_freeze_git_blob": "afe878a83ca863eb60d09f7943ec129466136338",
+  "publication_commit": "bea2d33091d0711108c02a8a24790814d6458b4f",
+  "search_source_commit": "941d846e9da5dfe2ed6e8d33842c5c83da0cf2e2",
+  "search_run_id": 41887651597,
+  "truth_git_blob_commitment": "a2b09fdd2e365936e460d6522671752f42c46621",
+  "seed_git_blob_commitment": "8be74776a848ee2ccaeb8f8ccf10bf7e2b689685",
+  "stage": "Full predictions publicly published; authorization to reveal follows only after this freeze is committed.",
+  "scope": "Procedural blind controls in a shared repository; not security isolation."
+}
