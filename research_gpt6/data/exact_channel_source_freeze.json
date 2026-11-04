@@ -1,0 +1,27 @@
+{
+  "schema": "exact-channel-source-freeze-v1",
+  "protocol_commit": "7e3592b8b4420061ae7eef914f61712a0dcaad75",
+  "scope": "Before first complete enumeration; mathematical calibration, no Voynich application",
+  "files": [
+    {
+      "path": "research_gpt6/data/tiny_channel_plan.json",
+      "git_blob": "e22314b9e20fa88256e52858d97e31843fbc9383"
+    },
+    {
+      "path": "research_gpt6/90_exact_channel_protocol.md",
+      "git_blob": "9f7232eda9d5ad3f4949eb31095078ed5c4999ef"
+    },
+    {
+      "path": "research_gpt6/code/exact_tiny_channel.py",
+      "git_blob": "9cb86d776247077a57a01814618ca886395a92fe"
+    },
+    {
+      "path": "research_gpt6/code/audit_exact_tiny_channel.py",
+      "git_blob": "d6a6c70bc38d32cd543ff821f604e6112d9d7ac8"
+    },
+    {
+      "path": ".github/workflows/exact-tiny-channel.yml",
+      "git_blob": "a61c10fa40bb12c3714f31e48068668acafe8e91"
+    }
+  ]
+}

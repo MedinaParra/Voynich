@@ -1,0 +1,60 @@
+name: Exact tiny-channel calibration and replay
+on:
+  push:
+    branches: [experiment/kraken-voynich]
+    paths:
+      - .github/workflows/exact-tiny-channel.yml
+      - research_gpt6/code/exact_tiny_channel.py
+      - research_gpt6/code/audit_exact_tiny_channel.py
+      - research_gpt6/data/tiny_channel_plan.json
+      - research_gpt6/results/exact_tiny_channel/result.json
+permissions:
+  contents: read
+jobs:
+  calibrate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12.14'
+      - name: Verify frozen sources
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          import json,hashlib
+          f=json.loads(Path('research_gpt6/data/exact_channel_source_freeze.json').read_text())
+          for row in f['files']:
+              raw=Path(row['path']).read_bytes()
+              actual=hashlib.sha1(b'blob '+str(len(raw)).encode()+b'\0'+raw).hexdigest()
+              assert actual==row['git_blob'],row['path']
+          print('EXACT_TINY_CHANNEL_FROZEN_SOURCE_HASHES_VERIFIED')
+          PY
+      - name: Enumerate fixed model and independently generate all emissions
+        run: |
+          python research_gpt6/code/exact_tiny_channel.py --plan research_gpt6/data/tiny_channel_plan.json --out work/tiny_channel
+          python research_gpt6/code/audit_exact_tiny_channel.py --repo research_gpt6 --bundle work/tiny_channel --out work/tiny_channel/audit.json
+      - name: Compare all preserved records when available
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          import gzip,json
+          saved=Path('research_gpt6/results/exact_tiny_channel')
+          produced=Path('work/tiny_channel')
+          if (saved/'result.json').exists():
+              names=['likelihoods.json.gz','decisions.json.gz','result.json','controls.json','audit.json']
+              for name in names:
+                  a=(saved/name).read_bytes();b=(produced/name).read_bytes()
+                  if name.endswith('.gz'):a=gzip.decompress(a);b=gzip.decompress(b)
+                  assert a==b,name
+              print('EXACT_TINY_CHANNEL_ALL_RECORDS_IDENTICAL_FROM_CLEAN_CHECKOUT; NOT_VOYNICH_TRANSLATION')
+          else:
+              print('EXACT_TINY_CHANNEL_INITIAL_CALIBRATION; PRESERVED_REPLAY_NOT_YET_AVAILABLE')
+          PY
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: exact-tiny-channel-calibration
+          path: work/tiny_channel/*
+          retention-days: 30
