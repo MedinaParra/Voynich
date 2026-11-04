@@ -1,0 +1,116 @@
+{
+  "events": {
+    "free_hamming_unrepresentable": {
+      "case_count": 168,
+      "first_lexicographic_witness": {
+        "cipher": "wwwxyz",
+        "evidence_numerator": 33120,
+        "key_map_ties": 1,
+        "methods": {
+          "channel_hamming_free": {
+            "character_correct_weight": 78640,
+            "key": null,
+            "key_correct_weight": null,
+            "representable": false,
+            "text": "bbbccc",
+            "text_correct_weight": 0
+          },
+          "channel_hamming_key": {
+            "character_correct_weight": 76876,
+            "key": "bcca",
+            "key_correct_weight": 3072,
+            "representable": true,
+            "text": "bbbcca",
+            "text_correct_weight": 3072
+          },
+          "channel_key_map": {
+            "character_correct_weight": 70936,
+            "key": "abbc",
+            "key_correct_weight": 3456,
+            "representable": true,
+            "text": "aaabbc",
+            "text_correct_weight": 3456
+          },
+          "channel_plaintext_map": {
+            "character_correct_weight": 70936,
+            "key": null,
+            "key_correct_weight": null,
+            "representable": true,
+            "text": "aaabbc",
+            "text_correct_weight": 3456
+          },
+          "lm_only_key_map": {
+            "character_correct_weight": 75032,
+            "key": "bbca",
+            "key_correct_weight": 1024,
+            "representable": true,
+            "text": "bbbbca",
+            "text_correct_weight": 1024
+          }
+        },
+        "text_map_ties": 1
+      },
+      "probability": {
+        "denominator": 1119744,
+        "numerator": 28703
+      }
+    },
+    "key_MAP_not_plaintext_MAP": {
+      "case_count": 584,
+      "first_lexicographic_witness": {
+        "cipher": "wwwwxy",
+        "evidence_numerator": 88250,
+        "key_map_ties": 1,
+        "methods": {
+          "channel_hamming_free": {
+            "character_correct_weight": 230302,
+            "key": null,
+            "key_correct_weight": null,
+            "representable": true,
+            "text": "bbbbcc",
+            "text_correct_weight": 6144
+          },
+          "channel_hamming_key": {
+            "character_correct_weight": 230302,
+            "key": "bcca",
+            "key_correct_weight": 6144,
+            "representable": true,
+            "text": "bbbbcc",
+            "text_correct_weight": 6144
+          },
+          "channel_key_map": {
+            "character_correct_weight": 185768,
+            "key": "abbc",
+            "key_correct_weight": 10368,
+            "representable": true,
+            "text": "aaaabb",
+            "text_correct_weight": 10368
+          },
+          "channel_plaintext_map": {
+            "character_correct_weight": 228854,
+            "key": null,
+            "key_correct_weight": null,
+            "representable": true,
+            "text": "bbbbca",
+            "text_correct_weight": 17408
+          },
+          "lm_only_key_map": {
+            "character_correct_weight": 185768,
+            "key": "abbc",
+            "key_correct_weight": 10368,
+            "representable": true,
+            "text": "aaaabb",
+            "text_correct_weight": 10368
+          }
+        },
+        "text_map_ties": 1
+      },
+      "probability": {
+        "denominator": 6718464,
+        "numerator": 1076585
+      }
+    }
+  },
+  "schema": "tiny-channel-posthoc-witnesses-v1",
+  "selection": "First lexicographic case satisfying each named event; descriptive illustrations after exhaustive enumeration, not extra tests or sampled gold"
+}

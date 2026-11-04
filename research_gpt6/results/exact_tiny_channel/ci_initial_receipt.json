@@ -1,0 +1,17 @@
+{
+  "archive_downloaded": false,
+  "artifact_metadata": [
+    {
+      "digest": "sha256:b56f413d068a71abcfe88c4db79fc1aaf1c6128f17781cf3ab82049ffcf81180",
+      "id": 13354925906,
+      "name": "exact-tiny-channel-calibration",
+      "size": 262263
+    }
+  ],
+  "head_sha": "6e9fe69fa62d10c9466981a82db1407d843dd116",
+  "job_id": 126790203180,
+  "run_id": 41891614314,
+  "scope": "Initial clean-checkout mathematical calibration before preserved output files existed; not a manuscript trial.",
+  "status": "success",
+  "url": "https://github.com/MedinaParra/Voynich/actions/runs/41891614314"
+}

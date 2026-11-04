@@ -1,0 +1,50 @@
+{
+  "files": [
+    {
+      "bytes": 3298,
+      "path": "audit.json",
+      "sha256": "1cbb26e159e2602e8baef86e3e23c37e951f0c028f15edcb45a3b17490120d8e"
+    },
+    {
+      "bytes": 22319,
+      "path": "ci_initial.log",
+      "sha256": "fbbd4881e93e11faa7b8910ee33595b0c72fda51d6d0ce8e883b3a46857c61f3"
+    },
+    {
+      "bytes": 594,
+      "path": "ci_initial_receipt.json",
+      "sha256": "ae1b99f1842a9e44339d042709d8df7f8656707452e40de55ea019968249951a"
+    },
+    {
+      "bytes": 1635,
+      "path": "controls.json",
+      "sha256": "175ed5235604552e4dd192e1bba631838ca1776e0f77364492dc4e8a52ade5df"
+    },
+    {
+      "bytes": 162195,
+      "path": "decisions.json.gz",
+      "sha256": "b1425277ef8232d660304786b294a9d331d19ef45887462498cb1db0decfe61f"
+    },
+    {
+      "bytes": 109244,
+      "path": "likelihoods.json.gz",
+      "sha256": "e040642eb56613d8a78cf775ec556c4fcd93ff23762d19d9cb6e2496d0d21eea"
+    },
+    {
+      "bytes": 906,
+      "path": "provenance.json",
+      "sha256": "63f43be910e9e11aff01e202c0c49d4bf34fa89312e727551453a9dd22286973"
+    },
+    {
+      "bytes": 3781,
+      "path": "result.json",
+      "sha256": "5103354d1d7d3ed3ce04279bf547782a09f8403de2e617ca1e1599b96eab020c"
+    },
+    {
+      "bytes": 3605,
+      "path": "witnesses.json",
+      "sha256": "22a63dd6b1a514c9ded3980f375e8fb66bbe1c5ed80a3d12e36225b5739d01f6"
+    }
+  ],
+  "scope": "SHA256 of bundle bytes; excludes manifest itself"
+}

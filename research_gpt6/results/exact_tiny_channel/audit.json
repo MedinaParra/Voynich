@@ -1,0 +1,130 @@
+{
+  "checks": 352323,
+  "control_summary": {
+    "construction": "Forward enumeration of plaintexts and alias emissions; independent of inverse scorer",
+    "n1_cipher_mass": {
+      "denominator": 4,
+      "numerator": 1
+    },
+    "n1_key_MAP_success": {
+      "denominator": 18,
+      "numerator": 1
+    },
+    "n1_plain_posterior": [
+      {
+        "denominator": 2,
+        "numerator": 1
+      },
+      {
+        "denominator": 3,
+        "numerator": 1
+      },
+      {
+        "denominator": 6,
+        "numerator": 1
+      }
+    ],
+    "n1_text_MAP_success": {
+      "denominator": 2,
+      "numerator": 1
+    },
+    "uniform_LM_only_mass": {
+      "denominator": 729,
+      "numerator": 4096
+    }
+  },
+  "counts": {
+    "ciphertexts": 4096,
+    "forward_emission_contributions": 147456,
+    "keys": 36,
+    "plaintexts": 729
+  },
+  "diagnostics": {
+    "all_four_symbols_ciphertexts": 1560,
+    "free_Hamming_unrepresentable_ciphertexts": 168,
+    "key_MAP_tied_ciphertexts": 856,
+    "text_MAP_tied_ciphertexts": 204
+  },
+  "input_hash_scope": "Uncompressed JSON bytes for gzip tables; raw bytes for plain JSON",
+  "input_sha256": {
+    "config": "95da276df59654787ee2c3a0fe9de3b04d0f37da2d1dc075000c5418f724880b",
+    "decisions": "313f2d7b9d145d8bfb0e7934b398c58a28309d8d0b24cc4c02a2303f2a1d288f",
+    "likelihoods": "22e109c642cef932e8e31aa3c271f018cba8153cb6c76bb1ce561339074ca0ec",
+    "result": "5103354d1d7d3ed3ce04279bf547782a09f8403de2e617ca1e1599b96eab020c"
+  },
+  "method_summary": {
+    "channel_hamming_free": {
+      "character_accuracy": {
+        "denominator": 26873856,
+        "numerator": 13195727
+      },
+      "key_success": null,
+      "text_success": {
+        "denominator": 7776,
+        "numerator": 1919
+      }
+    },
+    "channel_hamming_key": {
+      "character_accuracy": {
+        "denominator": 26873856,
+        "numerator": 13192175
+      },
+      "key_success": {
+        "denominator": 419904,
+        "numerator": 36239
+      },
+      "text_success": {
+        "denominator": 46656,
+        "numerator": 11575
+      }
+    },
+    "channel_key_map": {
+      "character_accuracy": {
+        "denominator": 80621568,
+        "numerator": 39037843
+      },
+      "key_success": {
+        "denominator": 839808,
+        "numerator": 132031
+      },
+      "text_success": {
+        "denominator": 279936,
+        "numerator": 72209
+      }
+    },
+    "channel_plaintext_map": {
+      "character_accuracy": {
+        "denominator": 26873856,
+        "numerator": 12960283
+      },
+      "key_success": null,
+      "text_success": {
+        "denominator": 17496,
+        "numerator": 4727
+      }
+    },
+    "lm_only_key_map": {
+      "character_accuracy": {
+        "denominator": 2519424,
+        "numerator": 1113197
+      },
+      "key_success": {
+        "denominator": 839808,
+        "numerator": 58387
+      },
+      "text_success": {
+        "denominator": 93312,
+        "numerator": 9467
+      }
+    }
+  },
+  "mismatch_count": 0,
+  "mismatches": [],
+  "normalization": {
+    "all_conditional_masses": "1",
+    "joint_mass": "1"
+  },
+  "schema": "independent-tiny-channel-audit-v1",
+  "scope": "Independent finite-model normalization, inference and expected-risk audit. Not a Latin recovery trial or Voynich translation.",
+  "status": "PASS"
+}

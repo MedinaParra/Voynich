@@ -1,0 +1,18 @@
+{
+  "Kraken_retraining": "NOT_RUN",
+  "arithmetic": "Exact integers and reduced rational probabilities",
+  "audit_status": "PASS",
+  "ciphertexts": 4096,
+  "date": "2026-11-04",
+  "historical_translation": "NOT_RUN",
+  "independent_audit_checks": 352323,
+  "initial_CI": 41891614314,
+  "keys": 36,
+  "likelihood_entries": 147456,
+  "model": "Invented finite Markov language with fixed externally known alphabets and uniform alias emission",
+  "next_priority": "Scale a fully specified channel to larger alphabets; separate self-model inference controls from held-out authentic-language recovery controls.",
+  "protocol_commit": "7e3592b8b4420061ae7eef914f61712a0dcaad75",
+  "replay_against_preserved_records": "PENDING",
+  "scope_limit": "Surjectivity already excludes global key collapse to one/two letters; not proof of a fix for stage88",
+  "source_commit": "6e9fe69fa62d10c9466981a82db1407d843dd116"
+}
