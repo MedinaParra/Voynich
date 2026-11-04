@@ -1,0 +1,70 @@
+{
+  "schema": "homophonic-bundle-git-integrity-v1",
+  "scope": "Git blob integrity, excludes this manifest; pinned reused model/source hashes are in source_freeze.json",
+  "files": [
+    {
+      "path": "audit.json",
+      "git_blob": "25eb141f8bfd899ed2f9c7e67f9a4cd7f859489e"
+    },
+    {
+      "path": "ci_evaluation.log",
+      "git_blob": "d2eb7562deeabad90959f140ad9a3daf78c1879b"
+    },
+    {
+      "path": "ci_evaluation_receipt.json",
+      "git_blob": "f8c87b72627d1c147db980635f75a66b7876bfc1"
+    },
+    {
+      "path": "ci_search.log",
+      "git_blob": "f631404dc7436e3d7a7e57f9acc1040d42aa3258"
+    },
+    {
+      "path": "ci_search_receipt.json",
+      "git_blob": "c3291690a601ecb2a25db26641e5a056dacdbbba"
+    },
+    {
+      "path": "evaluation.json",
+      "git_blob": "68958f60513d9f65f392d40bac9c4ead32559d27"
+    },
+    {
+      "path": "execution.json",
+      "git_blob": "b2eb8e2b7933e88a4413d191f5bdab28ca6eb7b1"
+    },
+    {
+      "path": "freeze.json",
+      "git_blob": "b1e11e5378073c2bfd391f70252ee981af7fd8b4"
+    },
+    {
+      "path": "objective_counterexamples.json",
+      "git_blob": "325f85c3e9d1249425a6c50f9221085cd63d9e32"
+    },
+    {
+      "path": "predictions.json",
+      "git_blob": "9fb0f2f81d0b70968ea65426dbe2eb6fd1369a8e"
+    },
+    {
+      "path": "provenance.json",
+      "git_blob": "e450d9912de6699df375fbfd598f94f5d2aea72f"
+    },
+    {
+      "path": "public/ciphertexts.json",
+      "git_blob": "6f234101a7f23151535df3d3529ff3cb64554205"
+    },
+    {
+      "path": "public/manifest.json",
+      "git_blob": "73f5806bb5d11e3af8691756ddf12842ce87acf0"
+    },
+    {
+      "path": "reveal/seed.json",
+      "git_blob": "8be74776a848ee2ccaeb8f8ccf10bf7e2b689685"
+    },
+    {
+      "path": "reveal/truth.json",
+      "git_blob": "a2b09fdd2e365936e460d6522671752f42c46621"
+    },
+    {
+      "path": "source_freeze.json",
+      "git_blob": "afe878a83ca863eb60d09f7943ec129466136338"
+    }
+  ]
+}

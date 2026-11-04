@@ -1,0 +1,290 @@
+{
+  "schema": "homophonic-recovery-provenance-v1",
+  "date": "2026-11-04",
+  "branch": "experiment/kraken-voynich",
+  "chronology": [
+    {
+      "stage": "protocol_before_generation",
+      "commit": "4a08ab48386964dc0a031855952bcda0bd80dabf"
+    },
+    {
+      "stage": "source_model_hashes_public_inputs_before_search",
+      "commit": "941d846e9da5dfe2ed6e8d33842c5c83da0cf2e2"
+    },
+    {
+      "stage": "all_predictions_published_before_reveal",
+      "commit": "bea2d33091d0711108c02a8a24790814d6458b4f"
+    },
+    {
+      "stage": "prediction_publication_anchored_before_GO_REVEAL",
+      "commit": "74974da26b504c90525a2067f82131057a3f403a"
+    },
+    {
+      "stage": "committed_answers_revealed_after_GO_REVEAL",
+      "commit": "c8e9246ec4cff2fa197a104c8c3889a572ffae83"
+    }
+  ],
+  "base_commit": "960254605ab910ed90af8d3a8cc7278bbb202185",
+  "source_freeze_git_blob": "afe878a83ca863eb60d09f7943ec129466136338",
+  "config_git_blob": "19e4eac0fa0b28150bd9a132385f32b14fcf3213",
+  "predictions_git_blob": "9fb0f2f81d0b70968ea65426dbe2eb6fd1369a8e",
+  "predictions_sha256": "94911e8f3c41589d05fb77d0329ca6498b93a2acebe9382d38e23e03a05e8bc6",
+  "truth_git_blob": "a2b09fdd2e365936e460d6522671752f42c46621",
+  "seed_git_blob": "8be74776a848ee2ccaeb8f8ccf10bf7e2b689685",
+  "execution_environment": "Local executor unavailable. All compiled searches, mathematical controls, official evaluation and audit ran in GitHub Actions.",
+  "blinding": "Procedural separation, public source corpus and shared repository, not security isolation. Root did not open new truth until after public freeze and GO_REVEAL. Public generation seed commitment uses 32-bit PRNG; no security claim.",
+  "fixed_sources_changed_after_reveal": false,
+  "model_retrained": false,
+  "kraken_retrained": false,
+  "Voynich_translation": "NOT_TRANSLATED",
+  "content_units": 3,
+  "positive_paired_presentations": 6,
+  "dependent_shuffled_controls": 3,
+  "statistical_independence_not_established": true,
+  "method_totals": [
+    {
+      "method": "bijective",
+      "annealing": 3600000,
+      "polish": 24050
+    },
+    {
+      "method": "many_to_one",
+      "annealing": 3600000,
+      "polish": 79950
+    }
+  ],
+  "execution": {
+    "python": "3.12.14",
+    "numpy": "2.3.5",
+    "runs": [
+      {
+        "model": "bijective",
+        "id": "U01",
+        "seconds": 1.5420309000000003,
+        "annealing_proposals": 400000,
+        "polish_pair_checks": 2925
+      },
+      {
+        "model": "bijective",
+        "id": "U02",
+        "seconds": 1.4801250249999995,
+        "annealing_proposals": 400000,
+        "polish_pair_checks": 2600
+      },
+      {
+        "model": "bijective",
+        "id": "U03",
+        "seconds": 1.0186588239999992,
+        "annealing_proposals": 400000,
+        "polish_pair_checks": 2600
+      },
+      {
+        "model": "bijective",
+        "id": "U04",
+        "seconds": 1.012771377,
+        "annealing_proposals": 400000,
+        "polish_pair_checks": 2600
+      },
+      {
+        "model": "bijective",
+        "id": "U05",
+        "seconds": 1.0795999179999995,
+        "annealing_proposals": 400000,
+        "polish_pair_checks": 2600
+      },
+      {
+        "model": "bijective",
+        "id": "U06",
+        "seconds": 1.3583051929999996,
+        "annealing_proposals": 400000,
+        "polish_pair_checks": 2600
+      },
+      {
+        "model": "bijective",
+        "id": "U07",
+        "seconds": 1.5183673979999952,
+        "annealing_proposals": 400000,
+        "polish_pair_checks": 2600
+      },
+      {
+        "model": "bijective",
+        "id": "U08",
+        "seconds": 1.3436654869999956,
+        "annealing_proposals": 400000,
+        "polish_pair_checks": 2925
+      },
+      {
+        "model": "bijective",
+        "id": "U09",
+        "seconds": 1.304010495,
+        "annealing_proposals": 400000,
+        "polish_pair_checks": 2600
+      },
+      {
+        "model": "many_to_one",
+        "id": "U01",
+        "seconds": 0.9047930980000061,
+        "annealing_proposals": 400000,
+        "polish_pair_checks": 7800
+      },
+      {
+        "model": "many_to_one",
+        "id": "U02",
+        "seconds": 0.8770380349999911,
+        "annealing_proposals": 400000,
+        "polish_pair_checks": 7800
+      },
+      {
+        "model": "many_to_one",
+        "id": "U03",
+        "seconds": 0.5723027829999978,
+        "annealing_proposals": 400000,
+        "polish_pair_checks": 7800
+      },
+      {
+        "model": "many_to_one",
+        "id": "U04",
+        "seconds": 0.5429010229999989,
+        "annealing_proposals": 400000,
+        "polish_pair_checks": 7800
+      },
+      {
+        "model": "many_to_one",
+        "id": "U05",
+        "seconds": 0.6144482769999939,
+        "annealing_proposals": 400000,
+        "polish_pair_checks": 8775
+      },
+      {
+        "model": "many_to_one",
+        "id": "U06",
+        "seconds": 0.7132982719999887,
+        "annealing_proposals": 400000,
+        "polish_pair_checks": 7800
+      },
+      {
+        "model": "many_to_one",
+        "id": "U07",
+        "seconds": 0.8757287140000045,
+        "annealing_proposals": 400000,
+        "polish_pair_checks": 9750
+      },
+      {
+        "model": "many_to_one",
+        "id": "U08",
+        "seconds": 0.7237295019999976,
+        "annealing_proposals": 400000,
+        "polish_pair_checks": 12675
+      },
+      {
+        "model": "many_to_one",
+        "id": "U09",
+        "seconds": 0.7338664859999966,
+        "annealing_proposals": 400000,
+        "polish_pair_checks": 9750
+      }
+    ],
+    "binaries": {
+      "bijective": "55396ca707706833c5d8c97dcf645d99326f5c73a0fa344e93e0f6b1bfda0b0e",
+      "many_to_one": "aaddb25427358e87e0d2730428a09c6e7076fd15a37b22d1bf30a7276e791ee7"
+    },
+    "seconds": 18.222499178000007,
+    "unique_searches": 18,
+    "annealing_proposals": 7200000,
+    "polish_pair_checks": 104000
+  },
+  "audit": {
+    "status": "PASS",
+    "checks": 597,
+    "mismatches": [],
+    "scope": "Integrity and independent metric recomputation, not success of recovery"
+  },
+  "strict_gates": {
+    "bijective": {
+      "homophonic_positive": false,
+      "monoalphabetic_positive": false
+    },
+    "many_to_one": {
+      "homophonic_positive": false,
+      "monoalphabetic_positive": false
+    }
+  },
+  "primary_many_to_one_homophonic_gate": false,
+  "metrics_summary": [
+    {
+      "all_exact_count": 0,
+      "case_count": 3,
+      "mean_character_accuracy": 0.0625,
+      "mean_observed_symbol_key_accuracy": 0.05128205128205129,
+      "mean_predicted_output_symbols_observed": 26,
+      "mean_score": -10765560.333333334,
+      "model": "bijective",
+      "role": "frequency_matched_null"
+    },
+    {
+      "all_exact_count": 0,
+      "case_count": 3,
+      "mean_character_accuracy": 0.7061666666666666,
+      "mean_observed_symbol_key_accuracy": 0.5897435897435898,
+      "mean_predicted_output_symbols_observed": 26,
+      "mean_score": -9720261,
+      "model": "bijective",
+      "role": "homophonic_positive"
+    },
+    {
+      "all_exact_count": 2,
+      "case_count": 3,
+      "mean_character_accuracy": 0.9998333333333334,
+      "mean_observed_symbol_key_accuracy": 0.9848484848484849,
+      "mean_predicted_output_symbols_observed": 21.666666666666668,
+      "mean_score": -6303586.666666667,
+      "model": "bijective",
+      "role": "monoalphabetic_positive"
+    },
+    {
+      "all_exact_count": 0,
+      "case_count": 3,
+      "mean_character_accuracy": 0.1005,
+      "mean_observed_symbol_key_accuracy": 0.06410256410256411,
+      "mean_predicted_output_symbols_observed": 2,
+      "mean_score": -4897492.666666667,
+      "model": "many_to_one",
+      "role": "frequency_matched_null"
+    },
+    {
+      "all_exact_count": 0,
+      "case_count": 3,
+      "mean_character_accuracy": 0.123,
+      "mean_observed_symbol_key_accuracy": 0.08974358974358974,
+      "mean_predicted_output_symbols_observed": 2.3333333333333335,
+      "mean_score": -4826224.333333333,
+      "model": "many_to_one",
+      "role": "homophonic_positive"
+    },
+    {
+      "all_exact_count": 0,
+      "case_count": 3,
+      "mean_character_accuracy": 0.123,
+      "mean_observed_symbol_key_accuracy": 0.06132756132756133,
+      "mean_predicted_output_symbols_observed": 2.3333333333333335,
+      "mean_score": -4826224.333333333,
+      "model": "many_to_one",
+      "role": "monoalphabetic_positive"
+    }
+  ],
+  "diagnosis": {
+    "expanded_candidates_outrank_generating_text_count": 9,
+    "expanded_outputs_observed_letters": "2 or 3",
+    "baseline_one_letter_wrong_candidate_outranks_gold": true,
+    "objective_counterexample_count": 10,
+    "does_not_establish": "No optimality certificate, no general refutation of homophony or language-model methods, no manuscript decipherment."
+  },
+  "search_run_id": 41887651597,
+  "evaluation_replay_run_id": 41888198170,
+  "replay": {
+    "python_vs_js_packet_bytes_identical": true,
+    "predictions_after_recompilation_identical": true,
+    "not_a_second_blind_trial": true
+  },
+  "next_priority": "Specify and exactly normalize a language-plus-cipher channel on a tiny enumerable alphabet, then preregister separate model-generated and authentic-language unseen controls. No posthoc fix claimed as validated on stage88."
+}
