@@ -1,0 +1,87 @@
+{
+  "schema_version": 1,
+  "date": "2026-11-04",
+  "experiment": "88_homophonic_recovery",
+  "base_commit": "960254605ab910ed90af8d3a8cc7278bbb202185",
+  "question": "Can a fixed many-to-one character decoder recover new hidden Latin controls that lie outside the bijective family?",
+  "scope": "Known Latin, normalized 2000-letter controls. No Voynich translation or language identification. No Kraken retraining.",
+  "training": {
+    "source_commit": "960254605ab910ed90af8d3a8cc7278bbb202185",
+    "path": "research_gpt6/results/known_cipher_recovery/model",
+    "author": "Apicius",
+    "letters": 40013,
+    "retrain": false,
+    "lm_sha256": "9206bde5bb6252ddb4de70dd2ea28aef6cc0ca5f59effbc2deac3e34546eae77"
+  },
+  "packet": {
+    "contents": 3,
+    "source": "Caesar gall1-3 from pinned corpus",
+    "letters_per_content": 2000,
+    "exclude_all_previous_stage86_intervals": true,
+    "presentations": [
+      "one new bijective encryption per content",
+      "one 26-symbol homophonic encryption per content",
+      "one shuffled homophonic ciphertext per content"
+    ],
+    "cases": 9,
+    "spaces": false,
+    "roles_and_pair_ids_hidden_during_search": true,
+    "independent_content_units": 3,
+    "preparer_separate": true,
+    "security_isolation": false
+  },
+  "search": {
+    "seed": 20261104,
+    "restarts": 8,
+    "steps_per_restart": 50000,
+    "polish_pass_cap": 100,
+    "methods": [
+      "bijective",
+      "many_to_one"
+    ],
+    "baseline": "unchanged stage86 C++ core at base commit",
+    "expanded": "26 cipher symbols independently map to any of 26 plaintext letters; single-symbol reassignment and swaps",
+    "selection": "maximum integer4gram language-model score per case; lexicographic key tie-break",
+    "candidates_transferred_between_cases": false,
+    "baseline_fallback_or_warm_start": false,
+    "truth_access": false,
+    "post_reveal_retuning": false,
+    "budget_note": "same annealing proposal counts, different neighborhoods and polish costs; not equal compute",
+    "unique_searches": 18,
+    "total_annealing_proposals": 7200000
+  },
+  "primary_gate": {
+    "many_to_one_homophonic": "all 3 content streams exact for all 2000 letters and all observed symbol assignments; absent mappings excluded",
+    "mono_regression": "all 3 exact separately reported",
+    "nulls": "descriptive; no abstention threshold or null-detection claim"
+  },
+  "evaluation": {
+    "by_case": [
+      "character accuracy",
+      "observed-symbol mapping accuracy",
+      "full exact recovery",
+      "candidate and gold integer LM scores",
+      "distinct decoded letters",
+      "annealing/polish counts",
+      "runtime separately"
+    ],
+    "baseline_homophonic_ceiling": "sum over plaintext letters of maximum frequency among disjoint cipher aliases / 2000",
+    "objective_diagnostics": [
+      "gold outside family for bijective homophonic cases",
+      "representable gold outranks candidate: search shortfall",
+      "candidate outranks different gold: objective misranking",
+      "different candidates with equal gold score: objective tie"
+    ],
+    "paired_comparisons": "3 contents; paired mono/homo are correlated, not six independent trials"
+  },
+  "chronology": [
+    "publish protocol/config before generation",
+    "publish frozen source, public inputs, opaque commitments before search",
+    "run GitHub Actions with public inputs only",
+    "publish full predictions before authorizing reveal",
+    "reveal controls then independently evaluate/audit",
+    "preserve failures; no case replacement or solver retuning"
+  ],
+  "execution_environment": "Local executor unavailable; run computations in GitHub Actions, archive logs/artifacts and commit outputs",
+  "interpretation_limit": "Successful Latin control recovery cannot establish a Voynich key, language, homophony or meaning."
+}
