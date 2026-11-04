@@ -1,0 +1,1 @@
+{"generator_version":"mapping-freedom-generator-v1","rng_spec":"xorshift32 shifts13,17,5 unsigned32; rejection randbelow; Fisher-Yates descending","schema":"mapping-freedom-seed-v1","seed_u32":1165349102}

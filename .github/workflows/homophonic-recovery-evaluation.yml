@@ -1,0 +1,65 @@
+name: Homophonic recovery evaluation and replay
+on:
+  push:
+    branches: [experiment/kraken-voynich]
+    paths:
+      - .github/workflows/homophonic-recovery-evaluation.yml
+permissions:
+  contents: read
+jobs:
+  evaluate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12.14'
+      - run: python -m pip install numpy==2.3.5
+      - name: Regenerate packet from revealed seed
+        run: |
+          python research_gpt6/code/prepare_mapping_freedom_packet.py --latin research_gpt6/data/latin_sources.json --prior-truth research_gpt6/results/known_cipher_recovery/reveal/truth.json --seed-file research_gpt6/results/homophonic_recovery/reveal/seed.json --out work/packet_replay
+          python - <<'PY'
+          from pathlib import Path
+          b=Path('research_gpt6/results/homophonic_recovery')
+          for group,target in [('public','public'),('private','reveal')]:
+              for p in (Path('work/packet_replay')/group).glob('*.json'):
+                  assert p.read_bytes()==(b/target/p.name).read_bytes(),str(p)
+          print('H88_IDENTICAL_REGENERATED_PACKET_AFTER_REVEAL')
+          PY
+      - name: Evaluate frozen predictions and run independent audit
+        run: |
+          python research_gpt6/code/evaluate_mapping_freedom_packet.py --public research_gpt6/results/homophonic_recovery/public --private research_gpt6/results/homophonic_recovery/reveal --predictions research_gpt6/results/homophonic_recovery/predictions.json --freeze research_gpt6/results/homophonic_recovery/freeze.json --lm research_gpt6/results/known_cipher_recovery/model/lm_int32.bin --out work/evaluation.json
+          python research_gpt6/code/audit_homophonic_recovery.py --repo research_gpt6 --bundle research_gpt6/results/homophonic_recovery --out work/audit.json
+          python - <<'PY'
+          import json,hashlib
+          from pathlib import Path
+          def blob(raw):return hashlib.sha1(b'blob '+str(len(raw)).encode()+b'\0'+raw).hexdigest()
+          for name in ['evaluation','audit']:
+              raw=Path('work/'+name+'.json').read_bytes()
+              text=raw.decode()
+              for i in range(0,len(text),2048):
+                  print('H88_'+name.upper()+'_PART:'+json.dumps(text[i:i+2048]),flush=True)
+              print('H88_'+name.upper()+'_META:'+json.dumps({'git_blob':blob(raw),'sha256':hashlib.sha256(raw).hexdigest(),'bytes':len(raw)}),flush=True)
+          PY
+      - name: Recompile and replay pre-reveal predictions
+        run: |
+          g++ -O3 -std=c++17 research_gpt6/code/known_substitution_solver.cpp -o /tmp/bijective_solver
+          g++ -O3 -std=c++17 research_gpt6/code/homophonic_solver.cpp -o /tmp/homophonic_solver
+          /tmp/homophonic_solver --self-test
+          python research_gpt6/code/run_homophonic_recovery.py --repo research_gpt6 --bundle research_gpt6/results/homophonic_recovery --bijective /tmp/bijective_solver --many-to-one /tmp/homophonic_solver --out work/replayed_search
+          python - <<'PY'
+          from pathlib import Path
+          assert Path('work/replayed_search/predictions.json').read_bytes()==Path('research_gpt6/results/homophonic_recovery/predictions.json').read_bytes()
+          print('H88_IDENTICAL_PRE_REVEAL_PREDICTIONS_AFTER_RECOMPILE; NOT_A_SECOND_BLIND_TRIAL; NOT_VOYNICH_TRANSLATION')
+          PY
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: homophonic-evaluation-audit-replay
+          path: |
+            work/evaluation.json
+            work/audit.json
+            work/replayed_search/predictions.json
+            work/replayed_search/execution.json
+          retention-days: 30
