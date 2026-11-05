@@ -1,0 +1,31 @@
+{
+  "schema": "alien-protocol-plan-v1",
+  "date": "2026-11-05",
+  "seed": 20261105,
+  "sources": {
+    "VT": {"path": "results/transcription_boundaries/sources/VT0e-n.txt", "sha256": "e13ba5e073cae54722bc095db8eb9a1aa9c7105f45a70f66a0aad236077f2426"},
+    "ZL": {"path": "results/transcription_boundaries/sources/ZL3b-n.txt", "sha256": "bf5b6d4ac1e3a51b1847a9c388318d609020441ccd56984c901c32b09beccafc"}
+  },
+  "commas": ["split", "join"],
+  "units": ["letters", "groups"],
+  "groups": ["cfh", "ckh", "cph", "cth", "ch", "sh"],
+  "selection": "Whole literal paragraph lines only; reject drawing gaps, unsupported/uncertain tokens, empty tokens and internal whitespace; minimum two words. Preserve rejection inventory.",
+  "split": "Physical leaf: sha256(str(seed)+':'+leaf).digest()[0] modulo5 ==0 is test; all other leaves train. Same leaf includes recto,verso and numbered panels. Previously explored corpus, not a globally fresh holdout.",
+  "category": "min(3,number of distinct units shared by two adjacent words)",
+  "length_bins": ["1-3", "4-5", "6-8", "9+"],
+  "repetition_bin": "min(2,word length minus distinct unit count)",
+  "context": ["left length bin", "right length bin", "left repetition bin", "right repetition bin"],
+  "pair_position": "Four categories: interior=0,start=1,end=2,both=3; bit1 if left slot0,bit2 if right slotlast",
+  "models": "M0=P(C|context); MF=P(C|context,position); each four-category cell Dirichlet alpha0.5. Null MF trained on pooled shuffled counts with alpha multiplied by number of training permutations, equivalent to mean counts plus alpha.",
+  "null": "Shuffle entire words among slots within folio x exact unit length x word position(first/middle/last), separately in train and test. Keep raw words and length/position/page marginals; identities may stay fixed by chance. Verify each pool multiset every draw.",
+  "training_null_replicates": 8,
+  "test_null_replicates": 199,
+  "primary_score": "Mean heldout log2(MF_real/MF_null) bits per adjacent pair",
+  "format_score": "Mean heldout log2(MF_real/M0_real), descriptive only",
+  "tail": "(1 + number of shuffled heldout scores >= actual score)/(199+1)",
+  "signal_rule": "A cell is positive only if primary_score>0 and tail<=0.05. Shared robustness flag requires all8 real-data projections positive. Projections are dependent; never pool their tails as independent replications.",
+  "controls": ["iid", "iid_layout", "echo", "morphology"],
+  "control_gate": "iid and iid_layout must not be positive; echo must be positive. morphology is a rival explanation, not a required pass; a positive result exposes lack of specificity for secret protocols.",
+  "semantic_certificate": "Two bijective codebooks assign different actions to exactly the same synthetic ciphertext; both roundtrip. Scores cannot choose meaning without external anchors. Controls are synthetic, not blind or historical gold.",
+  "claims_forbidden": ["translation of Voynich", "new language identification", "global novelty", "historical protocol established", "AI accuracy is expert paleography", "new Kraken training"]
+}
