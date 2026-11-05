@@ -12,8 +12,12 @@
     "mismatches": 0,
     "scope": "Geometry, bytes, decodedpixels and recordcontainers; not historical or reading validation"
   },
-  "ci_status": "PENDING",
+  "ci_status": "SUCCESS",
   "historical_reading_expert_validated": false,
   "kraken_training": "NOT_RUN",
-  "Voynich_translation_validated": false
+  "Voynich_translation_validated": false,
+  "results_commit": "8d54005e6d0121229ede2a9af867c1e5528c8234",
+  "ci_run": 42046540242,
+  "ci_zip_sha256": "6fd44a67c588a3002d668a4fef15e7e1130df7f2354d8ea1f20c910039f4a59d",
+  "ci_zip_download_verified": true
 }

@@ -9,13 +9,13 @@
     },
     {
       "path": "README.md",
-      "bytes": 26782,
-      "sha256": "8b5ce951735d143758407a508a361dfcec0ed4ab8410795cb4818f82be211791"
+      "bytes": 26923,
+      "sha256": "f98e45cb796c5c7c673e2e1ee0f10f5c799fca63a87c0bae425a236ffc58d5f0"
     },
     {
       "path": "research_gpt6/95_fontana_key_application_result.md",
-      "bytes": 7843,
-      "sha256": "b59e2859aa25a2efee34be02ffd5b361ca596511cd07fcd0f52cfebd65af40d2"
+      "bytes": 8292,
+      "sha256": "3bd71b8dc84881a4fee5d5f0d7ab92a50a755d754571769aec92e2f0a6098e7d"
     },
     {
       "path": "research_gpt6/code/audit_fontana_key_application.py",
@@ -26,6 +26,21 @@
       "path": "research_gpt6/results/fontana_key_application/NOTICE.md",
       "bytes": 862,
       "sha256": "c5026cf67e111dfd6d8a45d81f88a10eec6840f07f9d431f429128783a8a0d3e"
+    },
+    {
+      "path": "research_gpt6/results/fontana_key_application/ci_replay.log",
+      "bytes": 19271,
+      "sha256": "bac7a3b5001ede2cceee2b59eb82510fcc399b2d1518c0023df2058744dd9663"
+    },
+    {
+      "path": "research_gpt6/results/fontana_key_application/ci_replay.zip",
+      "bytes": 2326,
+      "sha256": "6fd44a67c588a3002d668a4fef15e7e1130df7f2354d8ea1f20c910039f4a59d"
+    },
+    {
+      "path": "research_gpt6/results/fontana_key_application/ci_replay_receipt.json",
+      "bytes": 3325,
+      "sha256": "758e6ccbae53fe474172047f6922faf5df1ff1003fcd5d1da8b87d308b56c4a1"
     },
     {
       "path": "research_gpt6/results/fontana_key_application/comparison.png",
@@ -49,8 +64,8 @@
     },
     {
       "path": "research_gpt6/results/fontana_key_application/provenance.json",
-      "bytes": 711,
-      "sha256": "df52659431d6c208e4baf5a4efdc089d6edabc9e815c8b3b4352fb4adfab5d3e"
+      "bytes": 923,
+      "sha256": "7aebb956b565fe0db96cca4a43049bca8a66447386572136933a663277471f0d"
     },
     {
       "path": "research_gpt6/results/fontana_key_application/references/bsb_bar.png",
