@@ -16,8 +16,17 @@
     "witness_pairs": 231606,
     "mismatches": 0
   },
-  "CI_status": "PENDING",
+  "CI_status": "PASS",
   "Voynich_translation_validated": false,
   "Kraken_training": "NOT_RUN",
-  "global_novelty_claimed": false
+  "global_novelty_claimed": false,
+  "recovery_replay": {
+    "run_id": 42131129809,
+    "job_id": 127607720875,
+    "head_sha": "0aac2971a73453fb8626d02b806c39ab871e47e4",
+    "url": "https://github.com/MedinaParra/Voynich/actions/runs/42131129809",
+    "archived_model_files_identical": 39,
+    "auditor_json_identical": true,
+    "independent_local_reaudit_identical": true
+  }
 }

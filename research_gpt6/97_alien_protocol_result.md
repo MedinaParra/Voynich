@@ -79,7 +79,7 @@ Un auditor separado, sin importar el código de producción, obtuvo **PASS:509.7
 
 Los testigos incluyen tokens originales, unidades, códigos completos, inversos y posiciones. El escalar C sólo es la medida puntuada, no una representación suficiente para traducir. C es simétrico y tampoco identifica la dirección de lectura.
 
-La reproducción desde un checkout limpio en GitHub está pendiente en esta versión. El experimento local y la primera auditoría sí terminaron. Las fuentes y constantes son las publicadas antes de medir.
+La [reproducción desde un checkout limpio en GitHub](https://github.com/MedinaParra/Voynich/actions/runs/42131129809) pasó al recuperar el paquete en el commit `0aac2971a73453fb8626d02b806c39ab871e47e4`: los ocho archivos congelados conservaron sus hashes, los 39 archivos de resultados coincidieron con el manifiesto y la auditoría regenerada fue idéntica (509.732 comprobaciones, cero discrepancias). Se conservan el [registro de recuperación](results/alien_protocol/recovery_replay.json) y el [log de ejecución](results/alien_protocol/recovery_replay.log). Es una repetición técnica del mismo ensayo y corpus; no añade una reserva científica nueva ni valida significados.
 
 La consecuencia práctica es **no promover este detector a descifrador ni alimentarlo con una interpretación lingüística inventada**. El ensayo limita una medida concreta y documenta por qué el significado continúa sin identificar. No descarta que exista lenguaje, abreviaturas, un cifrado o instrucciones reales. No se reentrenó Kraken.
 
