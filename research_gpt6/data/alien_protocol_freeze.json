@@ -4,6 +4,11 @@
   "base_commit": "695c9ea48c6a5e2dcbd95c947021dc5fc1e399ef",
   "files": [
     {
+      "path": ".github/workflows/alien-protocol.yml",
+      "bytes": 1664,
+      "sha256": "e8ee42b89affb86017e5fa36fb53bf33ae2e6642b00fb275b5caead9b169e0df"
+    },
+    {
       "path": "research_gpt6/96_alien_protocol_protocol.md",
       "bytes": 5167,
       "sha256": "3182427290bfd60c41e589978c1f77f11c8cc770e343b4d6eb22e0cbdb775449"
@@ -24,6 +29,11 @@
       "sha256": "d267e652b879fbc090ebe07a1e41585d6b3fd8002affe6fe2d375cd9e54f173a"
     },
     {
+      "path": "research_gpt6/code/audit_alien_protocol.py",
+      "bytes": 21091,
+      "sha256": "f83eea5a01105462f5cad1835b9a678222193abffcdaa252314553b588a3877b"
+    },
+    {
       "path": "research_gpt6/results/transcription_boundaries/sources/VT0e-n.txt",
       "bytes": 335205,
       "sha256": "e13ba5e073cae54722bc095db8eb9a1aa9c7105f45a70f66a0aad236077f2426"
@@ -34,5 +44,5 @@
       "sha256": "bf5b6d4ac1e3a51b1847a9c388318d609020441ccd56984c901c32b09beccafc"
     }
   ],
-  "scope": "Protocol, generator, metric implementation and inputs; no experiment executed before this freeze. Independent auditor and replay workflow may be added subsequently without changing these files."
+  "scope": "Protocol, generators, models, independent auditor, workflow and sources fixed before first metric execution. Self excluded."
 }

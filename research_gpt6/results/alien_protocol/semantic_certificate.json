@@ -1,0 +1,79 @@
+{
+  "codebook_a": {
+    "CDEF": "DRAIN",
+    "abcd": "HEAT",
+    "efgh": "COOL",
+    "ijkl": "MIX",
+    "mnop": "WAIT",
+    "qrst": "FILTER",
+    "uvwx": "GRIND",
+    "yzAB": "ADD"
+  },
+  "codebook_b": {
+    "CDEF": "HEAT",
+    "abcd": "COOL",
+    "efgh": "MIX",
+    "ijkl": "WAIT",
+    "mnop": "FILTER",
+    "qrst": "GRIND",
+    "uvwx": "ADD",
+    "yzAB": "DRAIN"
+  },
+  "different_translations": true,
+  "observed_text": "abcd.efgh.ijkl.mnop.qrst.uvwx.yzAB.CDEF",
+  "observed_words": [
+    "abcd",
+    "efgh",
+    "ijkl",
+    "mnop",
+    "qrst",
+    "uvwx",
+    "yzAB",
+    "CDEF"
+  ],
+  "roundtrip_a_text": "abcd.efgh.ijkl.mnop.qrst.uvwx.yzAB.CDEF",
+  "roundtrip_a_words": [
+    "abcd",
+    "efgh",
+    "ijkl",
+    "mnop",
+    "qrst",
+    "uvwx",
+    "yzAB",
+    "CDEF"
+  ],
+  "roundtrip_b_text": "abcd.efgh.ijkl.mnop.qrst.uvwx.yzAB.CDEF",
+  "roundtrip_b_words": [
+    "abcd",
+    "efgh",
+    "ijkl",
+    "mnop",
+    "qrst",
+    "uvwx",
+    "yzAB",
+    "CDEF"
+  ],
+  "same_observed_text": true,
+  "schema": "alien-protocol-semantic-certificate-v1",
+  "scope": "Explicit synthetic observational equivalence; not candidate Voynich meanings or evidence that a particular historical mechanism was used",
+  "translation_a": [
+    "HEAT",
+    "COOL",
+    "MIX",
+    "WAIT",
+    "FILTER",
+    "GRIND",
+    "ADD",
+    "DRAIN"
+  ],
+  "translation_b": [
+    "COOL",
+    "MIX",
+    "WAIT",
+    "FILTER",
+    "GRIND",
+    "ADD",
+    "DRAIN",
+    "HEAT"
+  ]
+}

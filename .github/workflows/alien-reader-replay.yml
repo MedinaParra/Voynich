@@ -1,0 +1,52 @@
+name: Alien reader clean-checkout replay
+on:
+  push:
+    branches: [experiment/alien-reader-results-20261105]
+    paths:
+      - .github/workflows/alien-reader-replay.yml
+      - research_gpt6/code/alien_protocol_data.py
+      - research_gpt6/code/alien_protocol_probe.py
+      - research_gpt6/code/audit_alien_protocol.py
+      - research_gpt6/data/alien_protocol_plan.json
+permissions:
+  contents: read
+jobs:
+  replay:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12.14'
+      - name: Verify frozen inputs and implementations
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          import hashlib,json
+          for r in json.loads(Path('research_gpt6/data/alien_protocol_freeze.json').read_text())['files']:
+              assert hashlib.sha256(Path(r['path']).read_bytes()).hexdigest()==r['sha256'],r['path']
+          print('ALIEN_READER_FROZEN_IMPLEMENTATION_IDENTICAL')
+          PY
+      - name: Replay fixed experiment
+        run: python research_gpt6/code/alien_protocol_probe.py --repo research_gpt6 --plan research_gpt6/data/alien_protocol_plan.json --out work/alien_protocol
+      - name: Audit exact probabilities and all witnesses
+        run: python research_gpt6/code/audit_alien_protocol.py --bundle work/alien_protocol --out work/alien_protocol/audit.json
+      - name: Compare every archived model output and audit
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          import json,hashlib
+          old=Path('research_gpt6/results/alien_protocol');new=Path('work/alien_protocol')
+          a=json.loads((old/'file_manifest.json').read_text());b=json.loads((new/'file_manifest.json').read_text());assert a==b
+          for row in a['files']:
+              assert hashlib.sha256((new/row['path']).read_bytes()).hexdigest()==row['sha256'],row['path']
+          assert json.loads((old/'audit.json').read_text())==json.loads((new/'audit.json').read_text())
+          print('ALIEN_READER_ALL39_MODEL_FILES_AND_AUDIT_IDENTICAL; NO_TRANSLATION_OR_INDEPENDENT_NEW_HOLDOUT')
+          PY
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: alien-reader-replay
+          path: work/alien_protocol
+          retention-days: 30

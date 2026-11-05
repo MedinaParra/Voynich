@@ -1,0 +1,23 @@
+{
+  "schema": "alien-protocol-provenance-v1",
+  "date": "2026-11-05",
+  "base_commit": "695c9ea48c6a5e2dcbd95c947021dc5fc1e399ef",
+  "public_model_freeze_commit": "cec2700e07b3e5a0a5649be0bdf077363737bae9",
+  "local_full_freeze_commit": "eb6c041bac855b0707f098312fa4c3a39e90deb1",
+  "public_model_commit_verified_before_first_metric_execution": true,
+  "publication_note": "GitHub GraphQL ref updates failed; REST branch creation and contents writes worked. Prepared isolated result branch; no model/parameter retuning after first metrics. Local full8-file checksum manifest was created before metrics; public model commit contained4 implementation/protocol files and source hashes in plan.",
+  "result_branch": "experiment/alien-reader-results-20261105",
+  "single_local_experiment_complete": true,
+  "synthetic_control_gate": "PASS",
+  "positive_configurations": 0,
+  "audit": {
+    "status": "PASS",
+    "checks": 509732,
+    "witness_pairs": 231606,
+    "mismatches": 0
+  },
+  "CI_status": "PENDING",
+  "Voynich_translation_validated": false,
+  "Kraken_training": "NOT_RUN",
+  "global_novelty_claimed": false
+}
