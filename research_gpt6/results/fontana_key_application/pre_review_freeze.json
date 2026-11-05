@@ -1,0 +1,67 @@
+{
+  "schema": "fontana-key-application-freeze-v1",
+  "stage": "BEFORE_FRESH_READERS",
+  "files": [
+    {
+      "path": "research_gpt6/94_fontana_key_application_protocol.md",
+      "bytes": 3403,
+      "sha256": "0bf244a9128add5fe1212ff0009ed5e05070812d0c5ec165c29f803f85a71f4d",
+      "git_blob": "ed416b0313de30da08047da80ff8b93ccfacc83d"
+    },
+    {
+      "path": "research_gpt6/results/fontana_key_application/NOTICE.md",
+      "bytes": 862,
+      "sha256": "c5026cf67e111dfd6d8a45d81f88a10eec6840f07f9d431f429128783a8a0d3e",
+      "git_blob": "c438d91f0e9b0d74e69df4ad929c07ca1d31709c"
+    },
+    {
+      "path": "research_gpt6/results/fontana_key_application/packet.json",
+      "bytes": 2816,
+      "sha256": "6d68ae8c360fa6dab5b09a37ba9f49f6c85b0bdb85de093f3e439bc59af81bbf",
+      "git_blob": "919a82dba024e064cc2ab63f0e5d4a05548d26dd"
+    },
+    {
+      "path": "research_gpt6/results/fontana_key_application/source_tiles/S01.png",
+      "bytes": 236912,
+      "sha256": "f6c3cf82155072b474d53bcbd1b6565e4c6d16fe17e28f17e94c37fd33dee69a",
+      "git_blob": "cfdff116efdbc7adda3d63857aded7d33847cecf"
+    },
+    {
+      "path": "research_gpt6/results/fontana_key_application/source_tiles/S02.jpg",
+      "bytes": 603605,
+      "sha256": "ae3bd9f9b1ddfda4c9feced4bf8d5ab3b0a8b53b361777e73d7c3d0f98186927",
+      "git_blob": "9ed0b05220873683ec5290d5e7ef93e8363f7b03"
+    },
+    {
+      "path": "research_gpt6/results/fontana_key_application/targets/T01_display.png",
+      "bytes": 14595,
+      "sha256": "03ca8c8a5acba9ac726332b7f975a6c112a8b3d0df64e1cc86190e2bcf978476",
+      "git_blob": "d7ef9257d6cdddcae20397a10b9cd34894180203"
+    },
+    {
+      "path": "research_gpt6/results/fontana_key_application/targets/T01_native.png",
+      "bytes": 9975,
+      "sha256": "19f4b8114cf4d4fecbb3e517a58fd74d39e55930e1c47ba9e2f70303552b6e60",
+      "git_blob": "66d3f84028a73985c377daf3e496ba5a3cf2ca37"
+    },
+    {
+      "path": "research_gpt6/results/fontana_key_application/targets/T02_display.png",
+      "bytes": 161377,
+      "sha256": "fffa743266e94b6fc3ad65d5708d33134da9a258f45d973c7571c99155ba85e7",
+      "git_blob": "74e9ead6646aa0139f4a679588441caf01771ec0"
+    },
+    {
+      "path": "research_gpt6/results/fontana_key_application/targets/T02_native.png",
+      "bytes": 122991,
+      "sha256": "f8a4ad88ec82edb9e533bdb5b9e541e66bd3bc48a35fd7015d754e53b425499f",
+      "git_blob": "7bbf5d4c8c0c0c874adf7fc3d21ccb46e398122e"
+    },
+    {
+      "path": "research_gpt6/results/script_comparanda/fontana_control/omont1897_p254_key.png",
+      "bytes": 229193,
+      "sha256": "68ae2ad20a79263a46c64710021635258c0999bb5a02c32ccc8cdb84aee24586",
+      "git_blob": "4adeac5ab9cd95e14bba35e9ae1584a776fb0ac1"
+    }
+  ],
+  "excludes": "Self. Reference transcriptions and AI readings are added later; preparers already know proposed references."
+}

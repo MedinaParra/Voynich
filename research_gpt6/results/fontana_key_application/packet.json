@@ -1,0 +1,95 @@
+{
+  "schema": "fontana-key-application-packet-v1",
+  "date": "2026-11-05",
+  "base_commit": "aaf677e998c8e93fff28a63fe5bae538fc3bfd54",
+  "key_file": "research_gpt6/results/script_comparanda/fontana_control/omont1897_p254_key.png",
+  "key_sha256": "68ae2ad20a79263a46c64710021635258c0999bb5a02c32ccc8cdb84aee24586",
+  "cases": [
+    {
+      "id": "T01",
+      "source_id": "S02",
+      "original_bbox_xyxy": [
+        520,
+        400,
+        666,
+        467
+      ],
+      "stored_source": "source_tiles/S02.jpg",
+      "stored_source_bbox_xyxy": [
+        520,
+        400,
+        666,
+        467
+      ],
+      "native": "targets/T01_native.png",
+      "display": "targets/T01_display.png",
+      "display_scale_integer": 4,
+      "native_dimensions": [
+        146,
+        67
+      ],
+      "native_rgb_sha256": "44542e708d4bb61545e9484ef960a9a7b78d9c7a8302c29cc04cbecc56fd0e3b"
+    },
+    {
+      "id": "T02",
+      "source_id": "S01",
+      "original_bbox_xyxy": [
+        485,
+        1510,
+        1070,
+        1658
+      ],
+      "stored_source": "source_tiles/S01.png",
+      "stored_source_bbox_xyxy": [
+        25,
+        50,
+        610,
+        198
+      ],
+      "native": "targets/T02_native.png",
+      "display": "targets/T02_display.png",
+      "display_scale_integer": 2,
+      "native_dimensions": [
+        585,
+        148
+      ],
+      "native_rgb_sha256": "6f6b27307ea553afe319014aeaf53f251a27b4f45ceddd1a8173eefb8956cace"
+    }
+  ],
+  "sources": [
+    {
+      "id": "S01",
+      "manuscript": "BSB Cod.icon.242",
+      "folio": "1v lower cipher paragraph",
+      "url": "https://api.digitale-sammlungen.de/iiif/image/v3/bsb00013084_00007/full/max/0/default.jpg",
+      "original_dimensions": [
+        3086,
+        4262
+      ],
+      "original_sha256": "295ae2fa4a1ad1a2d16278a3a28bab823f6515e0e88520e767661dc7d1691e7f",
+      "stored_tile": "source_tiles/S01.png",
+      "stored_tile_original_bbox_xyxy": [
+        460,
+        1460,
+        1220,
+        1690
+      ],
+      "original_to_tile_pixels_verified_at_acquisition": true,
+      "full_original_preserved_in_this_bundle": false
+    },
+    {
+      "id": "S02",
+      "manuscript": "BnF NAL635",
+      "folio": "59v upperleft panel of1897 phototypy",
+      "url": "https://archive.org/download/bibliothquedel58sociuoft/page/n261.jpg",
+      "original_dimensions": [
+        2200,
+        3552
+      ],
+      "original_sha256": "ae3bd9f9b1ddfda4c9feced4bf8d5ab3b0a8b53b361777e73d7c3d0f98186927",
+      "stored_original": "source_tiles/S02.jpg",
+      "source_type": "Scan of1897 phototypy; not a new direct manuscript photograph"
+    }
+  ],
+  "scope": "Directed open-known-key reading exercise; source transcription hidden from fresh AI readers only. Preparers know reference. No expert gold or unknown-cipher recovery."
+}
