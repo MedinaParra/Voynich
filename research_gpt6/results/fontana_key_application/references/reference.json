@@ -1,0 +1,109 @@
+{
+  "schema": "fontana-historical-references-v1",
+  "reference_is_expert_gold": false,
+  "selection_was_informed_by_reference": true,
+  "sources": [
+    {
+      "id": "Schulte1910",
+      "manuscript": "BSB Cod.icon.242a,Schulte1910,first textpage,labels original1v",
+      "url": "https://api.digitale-sammlungen.de/iiif/image/v3/bsb00015141_00007/full/max/0/default.jpg",
+      "dimensions": [
+        2383,
+        3642
+      ],
+      "sha256": "48695491c68a884e34a5573d945e93aa65ce4f8f98be26d8b6c255d61672b6d7",
+      "full_image_archived_here": false
+    },
+    {
+      "id": "Omont1897p254",
+      "url": "https://archive.org/download/bibliothquedel58sociuoft/page/n259.jpg",
+      "manuscript": "BnF NAL635",
+      "full_image_existing_repo_path": "research_gpt6/results/script_comparanda/fontana_control/omont1897_p254.jpg",
+      "sha256": "4fd6469d95c3ef2dae54f6375c9329acd3142ced8002c6dd1f53c88233a0b77d",
+      "dimensions": [
+        2200,
+        3552
+      ]
+    }
+  ],
+  "crops": [
+    {
+      "file": "bsb_word.png",
+      "source": "Schulte1910",
+      "bbox_xyxy": [
+        315,
+        1590,
+        550,
+        1695
+      ],
+      "sha256": "e105c338c167f23159f50d73f36a8216e6d51b11000205aca6871aaa7d123769",
+      "decoded_pixels_verified_against_original_at_acquisition": true
+    },
+    {
+      "file": "bsb_bar.png",
+      "source": "Schulte1910",
+      "bbox_xyxy": [
+        550,
+        1595,
+        650,
+        1685
+      ],
+      "sha256": "ccb4ec740b3d4fa18137b5eaaa55361d3e9562765e0656a513dacaf692add9d6",
+      "decoded_pixels_verified_against_original_at_acquisition": true
+    },
+    {
+      "file": "bsb_context.png",
+      "source": "Schulte1910",
+      "bbox_xyxy": [
+        280,
+        1540,
+        720,
+        1730
+      ],
+      "sha256": "83209741498909b4e5c6780e90e0c7e4424d0bc7b87d0b2fc4e338448e05c7b0",
+      "decoded_pixels_verified_against_original_at_acquisition": true
+    },
+    {
+      "file": "nal_word.png",
+      "source": "Omont1897p254",
+      "bbox_xyxy": [
+        375,
+        2335,
+        518,
+        2435
+      ],
+      "sha256": "2f96988bd13962f7d4a818b3aeecd04aa3354cb8ff3a706823efdab620723161",
+      "decoded_pixels_verified_against_original_at_acquisition": true
+    },
+    {
+      "file": "nal_context.png",
+      "source": "Omont1897p254",
+      "bbox_xyxy": [
+        350,
+        2320,
+        1940,
+        2470
+      ],
+      "sha256": "6542eb38f8e7fb1cf56e53c0c9b4d796c1da6d5a8cfc4fda2136f7d196b5b06f",
+      "decoded_pixels_verified_against_original_at_acquisition": true
+    }
+  ],
+  "cases": {
+    "T01": {
+      "proposed_reference": "retro",
+      "reference_type": "Clear printed historical transcription, Omontp254sectionI",
+      "alignment_basis": "Firstword of first cipher line, upperleft page of phototypy; sectionIlabels59v",
+      "scope": "Directed singleword alignment; not expertverified"
+    },
+    "T02": {
+      "proposed_reference_word": "Opurtet",
+      "normalization_not_applied": "Oportet",
+      "proposed_following_expansion": "in",
+      "reference_type": "AI manual reading of Schulte handwritten transcript; candidate, not certifiedgold",
+      "alignment_basis": "Firstgroup and following group of lowercipherparagraph in original1v; firstgroup of secondtranscriptionparagraph",
+      "initial_alternatives_retained": true,
+      "bar_expansion_unique_from_shape": false
+    }
+  },
+  "scope": "References were not supplied to fresh readers, but preparers already knew them. No blind unknownkey discovery or Voynich letter values."
+}

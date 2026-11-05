@@ -1,0 +1,46 @@
+{
+  "schema": "fontana-key-application-summary-v1",
+  "pre_review_commit": "b6d0852056ba091c7884dd917736d354662058b3",
+  "readers": [
+    "A",
+    "B"
+  ],
+  "selected_targets": 2,
+  "reading_records": 4,
+  "unknown_key_recovery_attempted": false,
+  "expert_gold_available": false,
+  "uniquely_resolved_full_segments_established": false,
+  "cases": [
+    {
+      "id": "T01",
+      "verbatim_literals": {
+        "A": "retr[o?]",
+        "B": "retro"
+      },
+      "reference": {
+        "proposed_reference": "retro",
+        "reference_type": "Clear printed historical transcription, Omontp254sectionI",
+        "alignment_basis": "Firstword of first cipher line, upperleft page of phototypy; sectionIlabels59v",
+        "scope": "Directed singleword alignment; not expertverified"
+      }
+    },
+    {
+      "id": "T02",
+      "verbatim_literals": {
+        "A": "[O/Q?]purtet i [barra inferior]",
+        "B": "Opurtet i[barra inferior]"
+      },
+      "reference": {
+        "proposed_reference_word": "Opurtet",
+        "normalization_not_applied": "Oportet",
+        "proposed_following_expansion": "in",
+        "reference_type": "AI manual reading of Schulte handwritten transcript; candidate, not certifiedgold",
+        "alignment_basis": "Firstgroup and following group of lowercipherparagraph in original1v; firstgroup of secondtranscriptionparagraph",
+        "initial_alternatives_retained": true,
+        "bar_expansion_unique_from_shape": false
+      }
+    }
+  ],
+  "T02_common_small_sign_sequence": "p-u-r-t-e-t",
+  "interpretation": "Local known-key correspondences compatible with historical reference; uncertainty in NAL signs, decorated initial and bar expansion remains. No total-alphabet transfer or Voynich translation."
+}

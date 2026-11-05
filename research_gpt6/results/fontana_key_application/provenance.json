@@ -1,0 +1,19 @@
+{
+  "schema": "fontana-key-application-provenance-v1",
+  "date": "2026-11-05",
+  "base_commit": "aaf677e998c8e93fff28a63fe5bae538fc3bfd54",
+  "pre_review_commit": "b6d0852056ba091c7884dd917736d354662058b3",
+  "pre_review_files_including_existing_key": 10,
+  "four_first_reading_records_preserved": true,
+  "preparers_knew_reference": true,
+  "readers_saw_reference_transcriptions": false,
+  "technical_audit": {
+    "checks": 125,
+    "mismatches": 0,
+    "scope": "Geometry, bytes, decodedpixels and recordcontainers; not historical or reading validation"
+  },
+  "ci_status": "PENDING",
+  "historical_reading_expert_validated": false,
+  "kraken_training": "NOT_RUN",
+  "Voynich_translation_validated": false
+}

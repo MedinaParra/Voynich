@@ -1,0 +1,36 @@
+{
+  "schema": "fontana-key-reading-v1",
+  "reviewer": "A",
+  "cases": [
+    {
+      "id": "T01",
+      "literal": "retr[o?]",
+      "units": [
+        {"position": 1, "value": "r", "alternatives": [], "shape_reason": "Dos trazos oblicuos ascendentes hacia la derecha unidos por un pequeño ojo; coincide con el signo r de la tabla."},
+        {"position": 2, "value": "e", "alternatives": [], "shape_reason": "Ojo inferior con asta larga ascendente, sin brazo transversal perceptible; corresponde a e."},
+        {"position": 3, "value": "t", "alternatives": [], "shape_reason": "Barra horizontal superior larga y pequeño ojo suspendido debajo; corresponde a t."},
+        {"position": 4, "value": "r", "alternatives": [], "shape_reason": "Pareja de oblicuas con ojo intermedio, como el primer signo y como r en la tabla."},
+        {"position": 5, "value": "o", "alternatives": ["?"], "shape_reason": "Masa superior que parece contener un ojo y un trazo que baja desde ella; es compatible con o. El desenfoque no permite delimitar con seguridad el ojo ni la unión del descendente."}
+      ],
+      "abbreviations": [],
+      "notes": "Cinco unidades principales. La marca mínima cortada en el borde derecho no permite reconocer una unidad adicional. La última asignación queda provisional por la falta de nitidez."
+    },
+    {
+      "id": "T02",
+      "literal": "[O/Q?]purtet i [barra inferior]",
+      "units": [
+        {"position": 1, "value": "O", "alternatives": ["Q", "i"], "shape_reason": "Gran contorno circular con decoración roja interna. Lo leo como capital O ajena a la escala de los signos pequeños; el trazo negro que baja de su base deja abierta la alternativa Q. Si sólo se equipara el contorno circular con la clave, sería i."},
+        {"position": 2, "value": "p", "alternatives": [], "shape_reason": "Ojo a la izquierda de un asta que desciende mucho y presenta un brazo hacia la derecha en su zona baja; corresponde al p de la clave."},
+        {"position": 3, "value": "u", "alternatives": [], "shape_reason": "Ojo cerrado a la izquierda con prolongación horizontal hacia la derecha; coincide con u, conservando la orientación de la tabla."},
+        {"position": 4, "value": "r", "alternatives": [], "shape_reason": "Dos oblicuas ascendentes a la derecha y ojo central; corresponde a r."},
+        {"position": 5, "value": "t", "alternatives": [], "shape_reason": "Ojo inferior colgado de una barra horizontal superior; corresponde a t."},
+        {"position": 6, "value": "e", "alternatives": [], "shape_reason": "Ojo bajo con asta ascendente larga, próxima al borde superior; corresponde a e."},
+        {"position": 7, "value": "t", "alternatives": [], "shape_reason": "Ojo bajo una prolongada barra horizontal hacia la derecha; corresponde a t."},
+        {"position": 8, "value": "i", "alternatives": ["?"], "shape_reason": "Óvalo separado a la derecha, con pequeña punta superior pero sin descendente ni trazo que cruce inequívocamente el centro; el contorno simple corresponde mejor a i."},
+        {"position": 9, "value": "[barra inferior]", "alternatives": ["[trazo de la línea inferior]"], "shape_reason": "Trazo horizontal separado, situado debajo del último óvalo. No tiene correspondencia autónoma segura en la tabla ni lo convierto en letra."}
+      ],
+      "abbreviations": ["Barra horizontal debajo del óvalo final: se registra sin expansión; podría ser un trazo perteneciente a la línea inferior y no una abreviatura."],
+      "notes": "Ocho unidades de aspecto alfabético y una barra separada. Hay espacio perceptible antes del último óvalo. Los fragmentos que entran por el borde inferior no se cuentan como letras de este segmento. La capital inicial y su trazo inferior no permiten una identificación exclusivamente por la clave."
+    }
+  ]
+}

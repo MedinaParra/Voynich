@@ -1,0 +1,38 @@
+name: Fontana known-key packet integrity
+on:
+  push:
+    branches: [experiment/kraken-voynich]
+    paths:
+      - .github/workflows/fontana-key-application.yml
+      - research_gpt6/code/audit_fontana_key_application.py
+      - research_gpt6/results/fontana_key_application/packet.json
+      - research_gpt6/results/fontana_key_application/reviews/**
+permissions:
+  contents: read
+jobs:
+  integrity:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12.14'
+      - run: python -m pip install Pillow==13.0.0
+      - name: Recheck frozen pixels and verbatim review records
+        run: |
+          python research_gpt6/code/audit_fontana_key_application.py --repo research_gpt6 --bundle research_gpt6/results/fontana_key_application --out work/fontana_integrity.json
+          python - <<'PY'
+          from pathlib import Path
+          import json
+          old=json.loads(Path('research_gpt6/results/fontana_key_application/integrity.json').read_text())
+          new=json.loads(Path('work/fontana_integrity.json').read_text())
+          assert old==new
+          print('FONTANA_FROZEN_PIXELS_AND_RECORDED_LITERALS_IDENTICAL; NO_NEW_READING_OR_HISTORICAL_VALIDATION')
+          PY
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: fontana-key-integrity
+          path: work/fontana_integrity.json
+          retention-days: 30

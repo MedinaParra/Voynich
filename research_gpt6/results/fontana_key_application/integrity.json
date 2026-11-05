@@ -1,0 +1,125 @@
+{
+  "Voynich_translation_validated": false,
+  "checks": 125,
+  "counts": {
+    "frozen_files": 10,
+    "sources": 2,
+    "targets": 2
+  },
+  "expert_gold_accuracy_validated": false,
+  "historical_authenticity_validated": false,
+  "historical_reading_success_validated": false,
+  "input_hash_scope": "Frozen files and JSON use byte hashes; rgb: entries hash decoded RGB pixel bytes. No remote originals are fetched and no historical transcription is scored.",
+  "input_sha256": {
+    "file:94_fontana_key_application_protocol.md": "0bf244a9128add5fe1212ff0009ed5e05070812d0c5ec165c29f803f85a71f4d",
+    "file:results/fontana_key_application/NOTICE.md": "c5026cf67e111dfd6d8a45d81f88a10eec6840f07f9d431f429128783a8a0d3e",
+    "file:results/fontana_key_application/packet.json": "6d68ae8c360fa6dab5b09a37ba9f49f6c85b0bdb85de093f3e439bc59af81bbf",
+    "file:results/fontana_key_application/source_tiles/S01.png": "f6c3cf82155072b474d53bcbd1b6565e4c6d16fe17e28f17e94c37fd33dee69a",
+    "file:results/fontana_key_application/source_tiles/S02.jpg": "ae3bd9f9b1ddfda4c9feced4bf8d5ab3b0a8b53b361777e73d7c3d0f98186927",
+    "file:results/fontana_key_application/targets/T01_display.png": "03ca8c8a5acba9ac726332b7f975a6c112a8b3d0df64e1cc86190e2bcf978476",
+    "file:results/fontana_key_application/targets/T01_native.png": "19f4b8114cf4d4fecbb3e517a58fd74d39e55930e1c47ba9e2f70303552b6e60",
+    "file:results/fontana_key_application/targets/T02_display.png": "fffa743266e94b6fc3ad65d5708d33134da9a258f45d973c7571c99155ba85e7",
+    "file:results/fontana_key_application/targets/T02_native.png": "f8a4ad88ec82edb9e533bdb5b9e541e66bd3bc48a35fd7015d754e53b425499f",
+    "file:results/script_comparanda/fontana_control/omont1897_p254_key.png": "68ae2ad20a79263a46c64710021635258c0999bb5a02c32ccc8cdb84aee24586",
+    "packet.json": "6d68ae8c360fa6dab5b09a37ba9f49f6c85b0bdb85de093f3e439bc59af81bbf",
+    "pre_review_freeze.json": "b61400b8d5a96b4d16eaa33c35e0de9adcb9d3f4c906b6bac25078224efe340e",
+    "reviews/a.json": "8ad3a6f557a9eddd50979267011cf54aa5b970232ad89946d6c64f87a1fdf3a3",
+    "reviews/b.json": "c980b17495247e1b016d93f69013ee7ed2ba1574f97c398135f8ead49ff56708",
+    "rgb:S01": "04ee90009601f49d9bed3f6f8792867c5318f33caec0c22233424a440d5b6a77",
+    "rgb:S02": "c4059102ae82e65ed5d2bee872429495f3a23537bac6333e1a3ee4b5f14a1bfb",
+    "rgb:key": "309c88db02606f458d44594655ded29e0db2a8bbbe5a0cb67b379a7c36058b89",
+    "rgb:targets/T01_display.png": "054871339d5d084de9f725d13a6ba3d886c95d082df0a0d7955284cd66008a55",
+    "rgb:targets/T01_native.png": "44542e708d4bb61545e9484ef960a9a7b78d9c7a8302c29cc04cbecc56fd0e3b",
+    "rgb:targets/T02_display.png": "8cab41b5d3544a4ef692e238d3bf1f70c76c2a9e037732b7c3cc0c6e5470d7ff",
+    "rgb:targets/T02_native.png": "6f6b27307ea553afe319014aeaf53f251a27b4f45ceddd1a8173eefb8956cace"
+  },
+  "key": {
+    "dimensions": [
+      1510,
+      215
+    ],
+    "rgb_sha256": "309c88db02606f458d44594655ded29e0db2a8bbbe5a0cb67b379a7c36058b89",
+    "scope": "Frozen key-image bytes and decoded pixels; not correctness of the printed key."
+  },
+  "key_equivalences_validated": false,
+  "mismatch_count": 0,
+  "mismatches": [],
+  "reviews": {
+    "records": {
+      "A": {
+        "case_count": 2,
+        "literals": {
+          "T01": "retr[o?]",
+          "T02": "[O/Q?]purtet i [barra inferior]"
+        }
+      },
+      "B": {
+        "case_count": 2,
+        "literals": {
+          "T01": "retro",
+          "T02": "Opurtet i[barra inferior]"
+        }
+      }
+    },
+    "reviewers_absent": [],
+    "reviewers_present": [
+      "A",
+      "B"
+    ],
+    "scope": "Review container structure and verbatim literal strings only; units, abbreviation assignments, readings and historical references are not interpreted or validated.",
+    "status": "RECORDS_CHECKED"
+  },
+  "schema": "fontana-key-application-integrity-v1",
+  "scope": "Offline frozen-file, geometry, decoded-pixel and review-record integrity only. PASS is not historical authentication, evidence of prior isolation, paleographic validation, or successful reading.",
+  "sources": {
+    "S01": {
+      "acquisition_receipt_only": true,
+      "full_original_file_verified": false,
+      "recorded_original_sha256": "295ae2fa4a1ad1a2d16278a3a28bab823f6515e0e88520e767661dc7d1691e7f",
+      "rgb_sha256": "04ee90009601f49d9bed3f6f8792867c5318f33caec0c22233424a440d5b6a77",
+      "scope": "Frozen native tile and acquisition declaration only; absent full S01 original is not revalidated.",
+      "stored_dimensions": [
+        760,
+        230
+      ]
+    },
+    "S02": {
+      "acquisition_receipt_only": false,
+      "full_original_file_verified": true,
+      "recorded_original_sha256": "ae3bd9f9b1ddfda4c9feced4bf8d5ab3b0a8b53b361777e73d7c3d0f98186927",
+      "rgb_sha256": "c4059102ae82e65ed5d2bee872429495f3a23537bac6333e1a3ee4b5f14a1bfb",
+      "scope": "Preserved complete scan bytes/pixels; a scan of an 1897 phototypy, not a new direct manuscript photograph.",
+      "stored_dimensions": [
+        2200,
+        3552
+      ]
+    }
+  },
+  "status": "PASS",
+  "targets": {
+    "T01": {
+      "display_dimensions": [
+        584,
+        268
+      ],
+      "display_scale_integer": 4,
+      "native_dimensions": [
+        146,
+        67
+      ],
+      "source_id": "S02"
+    },
+    "T02": {
+      "display_dimensions": [
+        1170,
+        296
+      ],
+      "display_scale_integer": 2,
+      "native_dimensions": [
+        585,
+        148
+      ],
+      "source_id": "S01"
+    }
+  }
+}

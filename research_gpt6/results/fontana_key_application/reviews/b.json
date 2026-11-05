@@ -1,0 +1,114 @@
+{
+  "schema": "fontana-key-reading-v1",
+  "reviewer": "B",
+  "cases": [
+    {
+      "id": "T01",
+      "literal": "retro",
+      "units": [
+        {
+          "position": 1,
+          "value": "r",
+          "alternatives": [],
+          "shape_reason": "Anillo central atravesado o delimitado por dos astas oblicuas paralelas que sobresalen arriba y abajo; corresponde al signo r de la tabla."
+        },
+        {
+          "position": 2,
+          "value": "e",
+          "alternatives": [
+            "d"
+          ],
+          "shape_reason": "Bucle inferior con un asta larga ascendente, sin pie lateral discernible; coincide mejor con e. La borrosidad no permite excluir completamente una pequeña cabeza lateral de d."
+        },
+        {
+          "position": 3,
+          "value": "t",
+          "alternatives": [],
+          "shape_reason": "Anillo colgante bajo una barra horizontal superior ancha, como t en la tabla."
+        },
+        {
+          "position": 4,
+          "value": "r",
+          "alternatives": [],
+          "shape_reason": "Segundo anillo entre dos trazos oblicuos paralelos que se prolongan por ambos extremos, como r."
+        },
+        {
+          "position": 5,
+          "value": "o",
+          "alternatives": [],
+          "shape_reason": "Cabeza redondeada pequeña y descendente inferior; no se distingue travesaño lateral. La figura se aproxima al anillo con cola de o."
+        }
+      ],
+      "abbreviations": [],
+      "notes": "Cinco unidades principales, de izquierda a derecha. Lectura por correspondencia de trazos; la segunda unidad conserva duda por desenfoque. Un fragmento oscuro en el extremo derecho no permite contar otro signo completo."
+    },
+    {
+      "id": "T02",
+      "literal": "Opurtet i[barra inferior]",
+      "units": [
+        {
+          "position": 1,
+          "value": "O",
+          "alternatives": [
+            "[capital circular]"
+          ],
+          "shape_reason": "Gran contorno circular cerrado con ornamentación roja interna. Se registra como capital visible; no tiene el aspecto de los pequeños signos de la tabla."
+        },
+        {
+          "position": 2,
+          "value": "p",
+          "alternatives": [],
+          "shape_reason": "Anillo a la izquierda de un asta derecha larga descendente, con travesaño que sale a la derecha cerca de su parte inferior: orientación de p, no de q."
+        },
+        {
+          "position": 3,
+          "value": "u",
+          "alternatives": [],
+          "shape_reason": "Anillo izquierdo del que sale una prolongación horizontal hacia la derecha, correspondiente a u en la tabla."
+        },
+        {
+          "position": 4,
+          "value": "r",
+          "alternatives": [],
+          "shape_reason": "Anillo entre dos astas oblicuas paralelas con extremos salientes, como r."
+        },
+        {
+          "position": 5,
+          "value": "t",
+          "alternatives": [],
+          "shape_reason": "Pequeño anillo bajo un trazo horizontal superior que se prolonga a ambos lados, como t."
+        },
+        {
+          "position": 6,
+          "value": "e",
+          "alternatives": [],
+          "shape_reason": "Anillo inferior con asta ascendente larga, sin cabeza bifurcada ni pie lateral, como e."
+        },
+        {
+          "position": 7,
+          "value": "t",
+          "alternatives": [],
+          "shape_reason": "Anillo inferior unido a barra superior extensa hacia la derecha; corresponde a t."
+        },
+        {
+          "position": 8,
+          "value": "i",
+          "alternatives": [],
+          "shape_reason": "Óvalo aislado, inclinado, sin cola inferior unida visible; coincide mejor con el anillo simple i."
+        },
+        {
+          "position": 9,
+          "value": "[barra inferior]",
+          "alternatives": [
+            "[trazo de otra línea]"
+          ],
+          "shape_reason": "Trazo horizontal separado por debajo del óvalo final, con remate ascendente derecho. No forma una unidad alfabética inequívoca de la tabla."
+        }
+      ],
+      "abbreviations": [
+        "Barra separada bajo el óvalo final: posible marca abreviativa, sin expansión determinada."
+      ],
+      "notes": "Se conservan ocho unidades de apariencia alfabética y una barra independiente. La prolongación derecha de la tercera unidad motiva u literalmente. Los trazos parciales del borde inferior, incluido un pequeño bucle con descendente bajo el centro, no se incorporan a la secuencia principal. La raya roja superior y la decoración roja interna de la capital no se cuentan como signos."
+    }
+  ]
+}
