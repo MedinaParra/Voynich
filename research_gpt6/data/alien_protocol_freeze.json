@@ -1,0 +1,38 @@
+{
+  "schema": "alien-protocol-preexecution-freeze-v1",
+  "stage": "BEFORE_FIRST_METRIC_EXECUTION",
+  "base_commit": "695c9ea48c6a5e2dcbd95c947021dc5fc1e399ef",
+  "files": [
+    {
+      "path": "research_gpt6/96_alien_protocol_protocol.md",
+      "bytes": 5167,
+      "sha256": "3182427290bfd60c41e589978c1f77f11c8cc770e343b4d6eb22e0cbdb775449"
+    },
+    {
+      "path": "research_gpt6/data/alien_protocol_plan.json",
+      "bytes": 3091,
+      "sha256": "f9492a0ee4945cd7da9edb61b427ae96847289fdcbfecf2143bc3fc0fabbda43"
+    },
+    {
+      "path": "research_gpt6/code/alien_protocol_data.py",
+      "bytes": 11501,
+      "sha256": "a5541d9ca13933b530409ca4927f02942e95c03aa097c82794b72d73d14fbff2"
+    },
+    {
+      "path": "research_gpt6/code/alien_protocol_probe.py",
+      "bytes": 12478,
+      "sha256": "d267e652b879fbc090ebe07a1e41585d6b3fd8002affe6fe2d375cd9e54f173a"
+    },
+    {
+      "path": "research_gpt6/results/transcription_boundaries/sources/VT0e-n.txt",
+      "bytes": 335205,
+      "sha256": "e13ba5e073cae54722bc095db8eb9a1aa9c7105f45a70f66a0aad236077f2426"
+    },
+    {
+      "path": "research_gpt6/results/transcription_boundaries/sources/ZL3b-n.txt",
+      "bytes": 411671,
+      "sha256": "bf5b6d4ac1e3a51b1847a9c388318d609020441ccd56984c901c32b09beccafc"
+    }
+  ],
+  "scope": "Protocol, generator, metric implementation and inputs; no experiment executed before this freeze. Independent auditor and replay workflow may be added subsequently without changing these files."
+}
